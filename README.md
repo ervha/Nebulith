@@ -12,7 +12,7 @@ Nebulith（ネビュリス）は、天体運行論・軌道力学および自然
 Nebulith/
 ├── docs/                                # 仕様書・辞書・言語設計書
 │   ├── Project Requirements And Design.md  # 総合要件定義書 (v17.0)
-│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v15.0 - 計251語幹・全数音韻監査済)
+│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v15.0 - 計258語幹・柔剛調和版)
 │   └── Nebulith Executive Summary.md       # プロジェクト総括リファレンス
 ├── data/                                # 機械可読・構造化語彙データ
 │   ├── lexicon.json                     # JSON形式（文法・数詞・接尾辞・語彙メタデータ）
@@ -25,7 +25,7 @@ Nebulith/
 ├── tools/                               # フォント生成・辞書ビルド・検証ツール
 │   ├── build_font.py                    # fontToolsを用いたTTFバイナリ生成スクリプト
 │   ├── generate_preview_html.py         # プレビューHTMLジェネレーター
-│   ├── build_master_lexicon_v15.py      # 全数ソノリティ・同音衝突監査＆多形式辞書生成
+│   ├── build_master_lexicon_v15.py      # 全数監査＆多形式辞書生成（Markdown/JSON/CSV/Kotlin）
 │   └── num_specimen.html                # 文字・数字グリフ見本
 ├── requirements.txt                     # 依存ライブラリ (fonttools)
 └── README.md
@@ -52,9 +52,13 @@ Nebulith/
 * **破裂音（天体の会合）**: `p, t, k, b, d, g`
 * **原初軸キャリア**: `'` [ʔ]（母音の頭音キャリア・音節分離）
 
-### 3. 音節構造とソノリティ制限
+### 3. 音節構造と「柔剛調和」の音韻美学
 * **音節骨格**: `(C)V(C)`
-* **語末子音（Coda）制限**: 語末（Coda）に立ちうる子音を高い響き度を持つ **`l, r, n, m, s` の5種または母音** に限定。音節の切れ味と余韻の心地よさを両立。破裂音語末は厳禁。
+* **無標ソノリティ（流麗な基調）**:
+  * 開音節（母音終わり）および高い響き度を持つ流音・鼻音・歯擦音 **`l, r, n, m, s`** を基調とし、星辰の滑らかな運行と心地よい余韻を創出。
+* **有標ソノリティ（破裂音・摩擦音の機能的活用）**:
+  * 概念の硬質さ、瞬発性、鋭敏さ、制動（ブレーキ）やインパクトを表現するため、**破裂音（`-t, -k, -p, -d`）や摩擦音（`-f, -v`）による語末Coda** を積極的に共存。
+  * 例: `suf` [suf] (計算・鋭敏な論理), `sed` [sed] (しかし・制動逆接), `bit` [bit] (ビット・最小量子), `nod` [nod] (ノード・結節点), `insek` [in.sek] (昆虫・硬質外骨格), `pakt` [pakt] (盟約・強固な締結), `strak` [strak] (天体衝突)。
 
 ---
 

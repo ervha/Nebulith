@@ -1,7 +1,7 @@
 # tools/build_master_lexicon_v15.py
 """
 Nebulith Master Lexicon v15.0 Build & Audit Script
-Validates 100% sonority compliance, uniqueness, and phonological harmony.
+Integrates fluid sonority harmony with expressive stops and fricatives.
 Generates:
   1. docs/Nebulith Master Lexicon.md  (Human-readable Markdown specification)
   2. data/lexicon.json                (Machine-readable structured JSON format)
@@ -15,7 +15,6 @@ import os
 VOWELS = set("aeiouy")
 DIPHTHONGS = {"ai", "ei", "au", "oi"}
 VALID_CHARS = set("abcdefghijklmnoprstuvwyz'")
-ALLOWED_CODA = set("aeiouylrnms")
 
 def audit_word(word):
     word = word.lower().strip()
@@ -23,9 +22,9 @@ def audit_word(word):
         return False, "Empty word"
     for ch in word:
         if ch not in VALID_CHARS:
-            return False, f"Invalid character: {ch}"
-    if word[-1] not in ALLOWED_CODA:
-        return False, f"Coda violation: ending with '{word[-1]}' (must be l, r, n, m, s, or vowel)"
+            return False, f"Invalid character: '{ch}' (q, x are not in NRS alphabet)"
+    if word.startswith("'") and len(word) == 1:
+        return False, "Lone carrier"
     return True, "OK"
 
 # Comprehensive curated vocabulary across 10 domains
@@ -63,11 +62,12 @@ entries = [
     ("1. 天体・光・宇宙論", "eklis", "[ek.lis]", "名", "日食、月食、天体交食", "eclipse, occultation", "光の遮蔽"),
     ("1. 天体・光・宇宙論", "afron", "[af.ron]", "名", "遠日点、最遠軌道点", "aphelion, apoapsis", "軌道の最高遠点"),
     ("1. 天体・光・宇宙論", "peron", "[pe.ron]", "名", "近日点、最接近点", "perihelion, periapsis", "軌道の最接近点"),
+    ("1. 天体・光・宇宙論", "strak", "[strak]", "名", "衝突、天体衝突、インパクト", "impact, collision", "力強い破裂音"),
 
     # =========================================================================
     # 2. 数理・幾何・論理・情報科学 (Mathematics, Logic & Computing)
     # =========================================================================
-    ("2. 数理・幾何・情報科学", "sufo", "[su.fo]", "名/動", "計算、論理、アルゴリズム", "computation, logic", "論理の原点"),
+    ("2. 数理・幾何・情報科学", "suf", "[suf]", "名/動", "計算、論理、アルゴリズム", "computation, logic", "鋭敏な摩擦音語末"),
     ("2. 数理・幾何・情報科学", "sufor", "[su.for]", "名", "プログラマー、ITエンジニア、論理士", "programmer, software engineer", "論理技術職"),
     ("2. 数理・幾何・情報科学", "sufom", "[su.fom]", "名", "情報工学、電脳空間、IT領域", "computer science, cyberspace", "計算・情報分野"),
     ("2. 数理・幾何・情報科学", "mator", "[ma.tor]", "名", "コンピューター、端末、演算機械", "computer, terminal", "精緻な計算機巧"),
@@ -87,14 +87,16 @@ entries = [
     ("2. 数理・幾何・情報科学", "niven", "[ni.ven]", "名", "次元、座標軸、空間度数", "dimension, coordinate axis", "次元・軸"),
     ("2. 数理・幾何・情報科学", "talisum", "[ta.li.sum]", "名", "定理、証明された法則、公理", "theorem, axiom", "数学的定理"),
     ("2. 数理・幾何・情報科学", "kvan", "[kvan]", "名", "量子、最小単位、離散値", "quantum, discrete packet", "最小単位"),
-    ("2. 数理・幾何・情報科学", "nodus", "[no.dus]", "名", "ノード、結節点、ネットワーク頂点", "node, vertex", "網の交点"),
+    ("2. 数理・幾何・情報科学", "nod", "[nod]", "名", "ノード、結節点、ネットワーク頂点", "node, vertex", "硬質な破裂音結節"),
     ("2. 数理・幾何・情報科学", "modas", "[mo.das]", "名", "関数、変換式、写像", "function, mapping formula", "数理写像"),
     ("2. 数理・幾何・情報科学", "kelon", "[ke.lon]", "名", "変数、変動要素、パラメータ", "variable, parameter", "可変値"),
     ("2. 数理・幾何・情報科学", "firas", "[fi.ras]", "名", "定数、普遍値、固定係数", "constant, invariant", "不変値"),
     ("2. 数理・幾何・情報科学", "syfren", "[syf.ren]", "名/動", "暗号、暗号化する、秘匿符号", "cipher, encrypt", "秘匿論理"),
-    ("2. 数理・幾何・情報科学", "bitas", "[bi.tas]", "名", "ビット、情報単位、二値信号", "bit, binary unit", "論理の最小単位"),
+    ("2. 数理・幾何・情報科学", "bit", "[bit]", "名", "ビット、二値単位、情報最小要素", "bit, binary unit", "瞬発的破裂音"),
     ("2. 数理・幾何・情報科学", "matris", "[mat.ris]", "名", "行列、マトリクス、格子配列", "matrix, grid array", "二次元配列"),
-    ("2. 数理・幾何・情報科学", "skopin", "[sko.pin]", "名", "スコープ、有効範囲、視野域", "scope, valid range", "変数の可視範囲"),
+    ("2. 数理・幾何・情報科学", "skop", "[skop]", "名", "スコープ、視野域、有効範囲", "scope, valid range", "閉域破裂音"),
+    ("2. 数理・幾何・情報科学", "klok", "[klok]", "名", "クロック、時計信号、規則拍", "clock, timing pulse", "刻時破裂音"),
+    ("2. 数理・幾何・情報科学", "met", "[met]", "名", "測度、尺度、メトリック", "metric, measure", "精密計測"),
 
     # =========================================================================
     # 3. 生命・生化学・身体・医療 (Biology, Anatomy & Medicine)
@@ -160,7 +162,8 @@ entries = [
     ("4. 自然・気象・環境", "feras", "[fe.ras]", "名", "動物、獣、野生生物", "animal, beast", "動物"),
     ("4. 自然・気象・環境", "cielfer", "[ʃi.el.fer]", "名", "鳥、翼ある者、飛翔生物", "bird, winged creature", "鳥"),
     ("4. 自然・気象・環境", "zylfer", "[zyl.fer]", "名", "魚、水棲生物", "fish, marine life", "魚"),
-    ("4. 自然・気象・環境", "inseka", "[in.se.ka]", "名", "虫、昆虫、甲虫", "insect, bug", "小昆虫"),
+    ("4. 自然・気象・環境", "insek", "[in.sek]", "名", "虫、昆虫、甲虫", "insect, bug", "外骨格の硬質な破裂音"),
+    ("4. 自然・気象・環境", "drak", "[drak]", "名", "天竜、星間巨獣、大蛇", "dragon, cosmic beast", "神話の巨獣"),
 
     # =========================================================================
     # 5. 社会・共同体・法・経済 (Society, Law, Economy & Community)
@@ -168,7 +171,7 @@ entries = [
     ("5. 社会・法・共同体", "polim", "[po.lim]", "名", "社会、共同体、連盟", "society, community, polis", "共同社会"),
     ("5. 社会・法・共同体", "taros", "[ta.ros]", "名", "法、法律、軌道規則、掟", "law, statute, canon", "法律・規範"),
     ("5. 社会・法・共同体", "calor", "[ʃa.lor]", "名", "評議会、会議、議会、対話の座", "council, parliament, forum", "議会"),
-    ("5. 社会・法・共同体", "jylos", "[ʒy.los]", "名", "約束、契約、協定、盟約", "pact, covenant, contract", "条約・約束"),
+    ("5. 社会・法・共同体", "pakt", "[pakt]", "名", "約束、契約、協定、盟約", "pact, covenant, contract", "確固たる締結破裂音"),
     ("5. 社会・法・共同体", "civor", "[ʃi.vor]", "名", "市民、住人、共同体員", "citizen, member", "市民"),
     ("5. 社会・法・共同体", "celtor", "[ʃel.tor]", "名", "指導者、議長、導き手", "leader, chancellor, guide", "指導者"),
     ("5. 社会・法・共同体", "dirin", "[di.rin]", "名/形", "正義、公正、均衡、正しい", "justice, equity, righteous", "正義"),
@@ -183,6 +186,7 @@ entries = [
     ("5. 社会・法・共同体", "tribun", "[tri.bun]", "名", "法廷、裁定所、審問会", "court, tribunal", "司法の場"),
     ("5. 社会・法・共同体", "festas", "[fes.tas]", "名", "祭典、祝祭、星祭り", "festival, celebration", "祝祭の日"),
     ("5. 社会・法・共同体", "pasis", "[pa.sis]", "名", "安寧、平和、講和条約", "peace, truce, accord", "戦争の終結"),
+    ("5. 社会・法・共同体", "fakt", "[fakt]", "名", "事実、実相、検証された事象", "fact, reality", "実証された真実"),
 
     # =========================================================================
     # 6. 精神・感情・思考・哲学 (Mind, Emotion & Philosophy)
@@ -267,6 +271,7 @@ entries = [
     ("8. 動作・相互作用", "donan", "[do.nan]", "動", "与える、贈る、授ける", "give, bestow, grant", "授与動詞"),
     ("8. 動作・相互作用", "prenan", "[pre.nan]", "動", "受け取る、得る、引き継ぐ", "receive, obtain, acquire", "受領動詞"),
     ("8. 動作・相互作用", "dansan", "[dan.san]", "動", "舞う、踊る、ステップを踏む", "dance, leap, sway", "舞踏動詞"),
+    ("8. 動作・相互作用", "krik", "[krik]", "名/動", "火花、閃光、パチッと鳴る", "spark, flash, snap", "鋭い破裂動詞"),
 
     # =========================================================================
     # 9. 性質・修飾・色彩・状態 (Adjectives, Colors & States)
@@ -298,7 +303,7 @@ entries = [
     # =========================================================================
     # 10. 時空・方位・関係・副詞 (Time, Coordinates, Adverbs & Relations)
     # =========================================================================
-    ("10. 時空・方位・副詞", "hava", "[ha.va]", "名", "時、瞬間、今この瞬間", "time, moment, now", "時制の原点"),
+    ("10. 時空・方位・副詞", "hav", "[hav]", "名", "時、瞬間、今この瞬間", "time, moment, now", "瞬発的摩擦音"),
     ("10. 時空・方位・副詞", "havel", "[ha.vel]", "名", "時代、運行周期、時代の流れ", "era, epoch, orbital cycle", "歴史・時代"),
     ("10. 時空・方位・副詞", "valar", "[va.lar]", "名", "朝、夜明け、曙光の時", "morning, dawn", "朝"),
     ("10. 時空・方位・副詞", "sovil", "[so.vil]", "名", "昼、日中、正午", "daytime, noon", "昼"),
@@ -318,9 +323,10 @@ entries = [
     ("10. 時空・方位・副詞", "kural", "[ku.ral]", "副", "互いに、双方向に、連星のように", "mutually, together", "相互副詞"),
     ("10. 時空・方位・副詞", "non", "[non]", "副", "いいえ、〜でない（否定極性詞）", "not, no", "否定極性詞"),
     ("10. 時空・方位・副詞", "ia", "[ia]", "副", "はい、然り、その通り（肯定極性詞）", "yes, indeed, so it is", "肯定極性詞"),
-    ("10. 時空・方位・副詞", "sede", "[se.de]", "接", "しかし、されど", "but, yet", "逆接接続詞"),
+    ("10. 時空・方位・副詞", "sed", "[sed]", "接", "しかし、されど", "but, yet", "逆接の制動破裂音"),
     ("10. 時空・方位・副詞", "ko", "[ko]", "接", "そして、また、〜と共に", "and, also", "接続詞"),
     ("10. 時空・方位・副詞", "kva", "[kva]", "接/副", "なぜなら、〜ゆえに、理由", "because, for reason", "因果接続詞"),
+    ("10. 時空・方位・副詞", "kvis", "[kvis]", "副", "なぜ、いかにして（疑問副詞）", "why, wherefore", "探求の問い"),
 ]
 
 # Run audit
@@ -347,16 +353,16 @@ print(f"AUDIT PASSED! Total vetted master entries: {len(entries)}")
 # -----------------------------------------------------------------------------
 header = f'''# 人工言語「Nebulith（ネビュリス）」マスター辞書データ定義書（Nebulith Master Lexicon v15.0）
 
-**文書バージョン**: v15.0 (大規模体系的拡充・全数音韻監査済・細分化語根完全版)  
+**文書バージョン**: v15.0 (大規模体系的拡充・全数音韻監査済・柔剛調和音韻完全版)  
 **最終更新日**: 2026-10-15  
-**ステータス**: **全10分野・計 {len(entries)} 語幹収録／同音衝突ゼロ・語末ソノリティ100%適合検証済**  
+**ステータス**: **全10分野・計 {len(entries)} 語幹収録／同音衝突ゼロ・流麗音＆破裂・摩擦音機能的共存検証済**  
 **対応システム**: Nebulith Studio（統合スタジオ・単一画面）
 
 ---
 
 ## 1. 文法機能語・代名詞・軌道数詞マスターテーブル（Grammar & Numbers）
 
-すべての語末は母音またはソノリティ共鳴音（`l, r, n, m, s`）で厳密に統制。
+Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）による**「星辰の流麗な余韻」**を基調としつつ、瞬発的・硬質的・停止的なニュアンスや音の切れ味に応じて**破裂音（`-t, -k, -p, -d`）や摩擦音（`-f, -v`）**を有標Codaとして美しく共存させています。
 
 ### 1.1 天体軌道格パーティクル（全9格）
 動詞（恒星）の周りを巡る9つの軌道格標識。
@@ -396,10 +402,10 @@ header = f'''# 人工言語「Nebulith（ネビュリス）」マスター辞書
 | **4** | **`kvan`** | [kvan] | 四至、四季 | 四 |
 | **5** | **`kvin`** | [kvin] | 五芒星、手の掌 | 五 |
 | **6** | **`ses`** | [ses] | 六花、結晶 | 六 |
-| **7** | **`sep`** | [sep] *(数詞語末特例)* | 七曜、天球層 | 七 |
-| **8** | **`ok`** | [ok] *(数詞語末特例)* | 八弦、二重四重 | 八 |
-| **9** | **`nov`** | [nov] *(数詞語末特例)* | 九軌道、極限 | 九 |
-| **10** | **`dek`** | [dek] *(数詞語末特例)* | 満天、十全十美 | 十 |
+| **7** | **`sep`** | [sep] | 七曜、天球層（天体の切れ目） | 七 |
+| **8** | **`ok`** | [ok] | 八弦、二重四重（整調の破裂音） | 八 |
+| **9** | **`nov`** | [nov] | 九軌道、極限（境界の摩擦音） | 九 |
+| **10** | **`dek`** | [dek] | 満天、十全十美（完結の破裂音） | 十 |
 
 ---
 
@@ -408,7 +414,7 @@ header = f'''# 人工言語「Nebulith（ネビュリス）」マスター辞書
 | 接尾辞 | 機能 | 派生例 (語根 → 派生語) | 意味 |
 | :--- | :--- | :--- | :--- |
 | **`-as`** | 日常的行為者・実務者 | `ner` (食) → `neras` [ne.ras] | 給仕人、配膳者 |
-| **`-or`** | 専門職・知識人・指導者 | `sufo` (計算) → `sufor` [su.for] | プログラマー、論理技術者 |
+| **`-or`** | 専門職・知識人・指導者 | `suf` (計算) → `sufor` [su.for] | プログラマー、論理技術者 |
 | | | `daris` (治癒) → `darisor` [da.ri.sor] | 医師、ドクター |
 | **`-is`** | 学術研究者・探求者 | `vyran` (真理) → `vyranis` [vy.ra.nis] | 哲学者、真理探求者 |
 | **`-el`** | 道具・器具・機械・客体 | `mator` (演算機巧) → `pelel` [pe.lel] | 携帯情報端末（スマホ） |
@@ -419,7 +425,7 @@ header = f'''# 人工言語「Nebulith（ネビュリス）」マスター辞書
 | **`-il`** | 指小辞・愛称・親愛 | `vel` (木) → `velil` [ve.lil] | 若木、新芽、薬草 |
 | **`-om`** | 集合体・領域・世界 | `dom` (部屋) → `domom` [do.mom] | 都市、都市圏 |
 | | | `vel` (木) → `velom` [ve.lom] | 森林、樹海 |
-| | | `sufo` (計算) → `sufom` [su.fom] | IT領域、電脳空間 |
+| | | `suf` (計算) → `sufom` [su.fom] | IT領域、電脳空間 |
 | **`-i`** | 形容詞化（〜の性質を持つ） | `falun` (光) → `faluni` [fa.lu.ni] | 明るい、輝かしい |
 | **`-u`** | 副詞化（〜のように、〜く） | `eiran` (永遠) → `eirinu` [ei.ri.nu] | 永遠に、いつでも |
 
@@ -474,11 +480,11 @@ footer = '''
 - **意訳**: 「天文学者は天文台で望遠鏡を用いて星を観測する。」
 - **音韻特徴**: 道具に独立語根 `telas` が配置され、心地よいリズムを形成。
 
-### 例文 4: 社会・対話
-- **Nebulith**: *Calun el civor ku celtor uo calor.*
-- **発音**: [ʃa.lun el ʃi.vor ku ʃel.tor wo ʃa.lor]
-- **意訳**: 「市民は議会において指導者と対話する。」
-- **音韻特徴**: 歯擦音 `ʃ` の柔らかな気品と母音（a, i, e, o）のグラデーション。
+### 例文 4: 社会・論理（破裂音と逆接のブレーキ）
+- **Nebulith**: *Kiran el sufor ia zevil, sed klosan ia mator.*
+- **発音**: [ki.ran el su.for ia ze.vil, sed klo.san ia ma.tor]
+- **意訳**: 「プログラマーはコードを書いたが、コンピューターを閉じた。」
+- **音韻特徴**: `sed` [sed] の硬質な破裂音が逆接の力強い転換を自然に表現。
 
 ---
 '''
@@ -532,7 +538,7 @@ orbital_numbers = [
 
 derivational_suffixes = [
     {"suffix": "-as", "function": "日常的行為者・実務者", "example": "ner -> neras", "meaning": "給仕人、配膳者"},
-    {"suffix": "-or", "function": "専門職・知識人・指導者", "example": "sufo -> sufor", "meaning": "プログラマー、医師"},
+    {"suffix": "-or", "function": "専門職・知識人・指導者", "example": "suf -> sufor", "meaning": "プログラマー、医師"},
     {"suffix": "-is", "function": "学術研究者・探求者", "example": "vyran -> vyranis", "meaning": "哲学者、探求者"},
     {"suffix": "-el", "function": "道具・器具・機械・客体", "example": "mator -> pelel", "meaning": "スマホ、料理"},
     {"suffix": "-ar / -an", "function": "場所・施設・空間", "example": "dom -> domar", "meaning": "家、病院、カフェ"},
@@ -560,14 +566,14 @@ json_data = {
     "language": "Nebulith",
     "languageJa": "ネビュリス（星辰語）",
     "updatedAt": "2026-10-15",
-    "status": "Vetted and Sonority Compliant",
+    "status": "Vetted Harmony with Expressive Stops and Fricatives",
     "totalEntries": len(vocab_list),
     "phonology": {
         "vowels": ["a", "e", "i", "o", "u", "y"],
         "diphthongs": ["ai", "ei", "au", "oi"],
         "consonants": ["m", "n", "l", "r", "s", "z", "c", "j", "f", "v", "h", "w", "p", "t", "k", "b", "d", "g"],
         "carrier": "'",
-        "codaRestriction": ["a", "e", "i", "o", "u", "y", "l", "r", "n", "m", "s"]
+        "codaPrinciple": "Fluid sonority default (vowels, l, r, n, m, s) complemented by expressive stops (t, k, p, d) and fricatives (f, v) for precision, impact, and dynamic cadence."
     },
     "grammar": {
         "orbitalCases": orbital_cases,
@@ -610,7 +616,8 @@ kt_header = '''package com.nebulith.data
 
 /**
  * Auto-generated by tools/build_master_lexicon_v15.py
- * Nebulith Master Lexicon v15.0 (251 Vetted Roots across 10 Domains)
+ * Nebulith Master Lexicon v15.0
+ * Harmonious blend of fluid sonority and expressive stops/fricatives
  */
 data class LexiconEntry(
     val id: Int,
