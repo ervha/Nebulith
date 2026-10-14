@@ -4,7 +4,7 @@
 
 **対象バージョン**: 要件定義・設計仕様書 v17.0 / マスター辞書データ v12.0（新音韻体系へ刷新・再構築中）
 
-**ターゲット環境**: **Windows 10/11 (Desktop JVM)** ＆ **Android 10〜15+ (アプリ本体 ＋ システムIME)**
+**ターゲット環境**: **Windows 10/11 (Desktop JVM)** ＆ **Android (アプリ本体)** [単一統合スタジオアプリ]
 
 **利用スコープ**: **完全個人専用（シングルユーザー・完全オフライン・外部DB＆ファイルI/Oゼロ）**
 
@@ -68,4 +68,4 @@
    * 外部ライブラリ不要のピュアKotlin製 `.ttf` バイナリビルダー（`NebulithTtfBuilder`）と、野帳インク描画エンジンの実装。
 
 3. **Step 3：統合UI＆プラットフォーム固有部の実装（`ui`, `desktopMain`, `androidMain`）**
-   * 単一統合画面（`NebulithStudioScreen`）と、Android用システムキーボード（`NebulithInputMethodService`）の実装。
+   * 単一統合画面（`NebulithStudioScreen`）の実装。

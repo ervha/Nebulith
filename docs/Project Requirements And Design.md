@@ -216,7 +216,3 @@ object DeterministicLexiconEngine {
    * 自動造語には `[Auto-Generated]` バッジと「ワンタップ Kotlin コード（`LexiconEntry`）コピー」を提供。
 3. **下段：天文学者手記プレビュー ＆ アセット出力パネル**
    * 手書きインク風の手記レンダリングプレビュー、PNG画像保存、および `Nebulith-Regular.ttf` フォント出力。
-
-### 5.2 Android カスタムキーボード（`NebulithInputMethodService`）
-* NRS転写ローマ字（`s, y, l, i, m` 等）を入力すると、オンメモリの `StaticLexicon` からリアルタイムに単語候補および独自文字グリフを予測変換バーに提示。
-* 通常テキスト（NRSアルファベット）入力と、リッチ画像（手書き手記風ワンフレーズ画像）送信をワンタップで切り替え可能。
