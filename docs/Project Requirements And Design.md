@@ -20,7 +20,7 @@
 ### 1.2 KMP モジュール構造とソースセット設計
 
 ```text
-nebulith-kmp-studio/
+nebulith/
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── composeApp/
