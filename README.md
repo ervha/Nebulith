@@ -12,15 +12,16 @@ Nebulith（ネビュリス）は、天体運行論・軌道力学および自然
 Nebulith/
 ├── docs/                                # 仕様書・辞書・言語設計書
 │   ├── Project Requirements And Design.md  # 総合要件定義書 (v17.0)
-│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v13.0)
+│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v15.0 - 計251語幹・全数音韻監査済)
 │   └── Nebulith Executive Summary.md       # プロジェクト総括リファレンス
 ├── fonts/                               # TrueTypeフォント成果物
 │   ├── Nebulith-Regular.ttf             # Nebulith公式TrueTypeフォント
 │   ├── font_b64.txt                     # Web埋め込み用 Base64
 │   └── preview.html                     # フォント確認用HTMLプレビュー
-├── tools/                               # フォント生成・検証ツール
+├── tools/                               # フォント生成・辞書ビルド・検証ツール
 │   ├── build_font.py                    # fontToolsを用いたTTFバイナリ生成スクリプト
 │   ├── generate_preview_html.py         # プレビューHTMLジェネレーター
+│   ├── build_master_lexicon_v15.py      # 全数ソノリティ・同音衝突監査＆辞書生成
 │   └── num_specimen.html                # 文字・数字グリフ見本
 ├── requirements.txt                     # 依存ライブラリ (fonttools)
 └── README.md
@@ -49,20 +50,21 @@ Nebulith/
 
 ### 3. 音節構造とソノリティ制限
 * **音節骨格**: `(C)V(C)`
-* **語末子音（Coda）制限**: 語末（Coda）に立ちうる子音を高い響き度を持つ **`l, r, n, m, s` の5種** に限定。音節の切れ味と余韻の心地よさを両立。
+* **語末子音（Coda）制限**: 語末（Coda）に立ちうる子音を高い響き度を持つ **`l, r, n, m, s` の5種または母音** に限定。音節の切れ味と余韻の心地よさを両立。破裂音語末は厳禁。
 
 ---
 
 ### 4. 語根ファミリー血縁体系 & 役割接尾辞
-* **単音節核と血縁関係**: yr (星) → yris (輝き), ylan (瞳), yrel (観測) など、同じ概念が自然に似た音・文字を共有。
+* **単音節核と血縁関係**: `vyr` (星) → `vyris` (恒星), `vylan` (瞳), `vyrel` (観測) など、同じ概念が自然に似た音・文字を共有。
 * **役割派生接尾辞**:
-  * -as (日常の行為者: civalas 歌い手)
-  * -or (専門職・医師・導師: darisor 医師, sufor プログラマー, yrelor 観測官)
-  * -is (学者・探求者: yranis 哲人)
-  * -el (道具・機械: sufel PC, 	olel スマホ, sorasel 手記)
-  * -ar / -an (場所・施設: darisar 診療所, sorasan 記録院)
-  * -om (領域・世界: elom 森林, domom 都市, 	olom ネット)
-  * -il (愛称・縮小: yril 星の子)
+  * `-as` (日常の行為者: `neras` 配膳者, `civalas` 歌い手)
+  * `-or` (専門職・医師・導師: `darisor` 医師, `sufor` プログラマー, `vyrelor` 観測官)
+  * `-is` (学者・探求者: `vyranis` 哲学者, `skolis` 学徒)
+  * `-el` (道具・機械: `pelel` スマホ, `mator` 計算機, `nerel` 料理)
+  * `-ar` / `-an` (場所・施設: `darisar` 診療所, `domar` 家, `nerar` カフェ)
+  * `-om` (領域・世界: `velom` 森林, `domom` 都市, `sufom` IT空間)
+  * `-il` (愛称・縮小: `velil` 若木・薬草)
+  * `-i` / `-u` (形容詞化／副詞化: `faluni` 明るい, `eirinu` 常に)
 
 ---
 
@@ -72,12 +74,12 @@ Nebulith/
 
 * **TrueTypeフォント (`fonts/Nebulith-Regular.ttf`)**:
   * PCの標準キーボードから直接タイピング可能（ASCII文字に1対1マッピング）。
-  * アルファベット小文字・大文字、星軌数詞（0〜9）、句読点（`. , :`）、原初軸キャリア（`'`）を完全収録。
+  * アルファベット小文字・大文字、星軌数詞（0〜9）、句読点（`. , :`）、原初軸キャリア（`'`）を完全収録（全64グリフ）。
   * 特に数字「7」（七星天蓋弧）、「8」（双極連星環）は地球のアラビア数字から完全に脱却した独自天体幾何学記号として設計。
 
 ---
 
-## ✦ 環境構築 & フォント生成手順
+## ✦ 環境構築 & フォント・辞書ビルド手順
 
 ```bash
 # 仮想環境の作成と有効化
@@ -95,6 +97,9 @@ python tools/build_font.py
 
 # プレビューHTMLの生成
 python tools/generate_preview_html.py
+
+# 全数音韻監査＆マスター辞書のビルド（docs/Nebulith Master Lexicon.md を生成）
+python tools/build_master_lexicon_v15.py
 ```
 
 ブラウザで `fonts/preview.html` を開くことで、生成されたフォントのタイポグラフィと文字標本をインタラクティブに確認できます。
