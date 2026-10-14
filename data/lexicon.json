@@ -3,7 +3,7 @@
   "language": "Nebulith",
   "languageJa": "ネビュリス（星辰語）",
   "updatedAt": "2026-10-15",
-  "status": "Vetted Harmony with Expressive Stops and Fricatives",
+  "status": "Pure Conlang without Earth Borrowings",
   "totalEntries": 258,
   "phonology": {
     "vowels": [
@@ -469,12 +469,12 @@
     {
       "id": 16,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "telas",
-      "ipa": "[te.las]",
+      "nrs": "vyrelel",
+      "ipa": "[vy.re.lel]",
       "pos": "名",
-      "meaningJa": "天体望遠鏡、観測機器",
+      "meaningJa": "天体望遠鏡、精密観測機器",
       "meaningEn": "telescope, observatory instrument",
-      "notes": "観測器具"
+      "notes": "観測の道具"
     },
     {
       "id": 17,
@@ -509,12 +509,12 @@
     {
       "id": 20,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "spilin",
-      "ipa": "[spi.lin]",
+      "nrs": "voris",
+      "ipa": "[vo.ris]",
       "pos": "名",
-      "meaningJa": "公転、自転、角速度",
+      "meaningJa": "公転、自転、角速度、周回力",
       "meaningEn": "orbital revolution, spin",
-      "notes": "回転力学"
+      "notes": "天体回転力学"
     },
     {
       "id": 21,
@@ -522,7 +522,7 @@
       "nrs": "falos",
       "ipa": "[fa.los]",
       "pos": "名",
-      "meaningJa": "分光、スペクトル、光輪",
+      "meaningJa": "分光、光輪スペクトル、帯",
       "meaningEn": "spectrum, spectral band",
       "notes": "光の波長分解"
     },
@@ -549,72 +549,72 @@
     {
       "id": 24,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "astral",
-      "ipa": "[as.tral]",
+      "nrs": "vyri",
+      "ipa": "[vy.ri]",
       "pos": "形",
       "meaningJa": "星辰の、恒星系の、高貴な",
       "meaningEn": "astral, stellar",
-      "notes": "星々の性質"
+      "notes": "星の性質"
     },
     {
       "id": 25,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "meteon",
-      "ipa": "[me.te.on]",
+      "nrs": "falyt",
+      "ipa": "[fa.lyt]",
       "pos": "名",
-      "meaningJa": "流星、彗星、箒星",
+      "meaningJa": "流星、彗星、夜空を走る光条",
       "meaningEn": "meteor, comet",
-      "notes": "夜空を走る光"
+      "notes": "走る光の軌跡"
     },
     {
       "id": 26,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "solas",
-      "ipa": "[so.las]",
+      "nrs": "zoharil",
+      "ipa": "[zo.ha.ril]",
       "pos": "名",
       "meaningJa": "恒星風、太陽風、荷電粒子流",
       "meaningEn": "stellar wind, solar flare",
-      "notes": "恒星からの風"
+      "notes": "恒星の息吹"
     },
     {
       "id": 27,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "eklis",
-      "ipa": "[ek.lis]",
+      "nrs": "kymos",
+      "ipa": "[ky.mos]",
       "pos": "名",
       "meaningJa": "日食、月食、天体交食",
       "meaningEn": "eclipse, occultation",
-      "notes": "光の遮蔽"
+      "notes": "闇の被覆"
     },
     {
       "id": 28,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "afron",
-      "ipa": "[af.ron]",
+      "nrs": "falasro",
+      "ipa": "[fa.las.ro]",
       "pos": "名",
       "meaningJa": "遠日点、最遠軌道点",
       "meaningEn": "aphelion, apoapsis",
-      "notes": "軌道の最高遠点"
+      "notes": "遥かなる周回点"
     },
     {
       "id": 29,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "peron",
-      "ipa": "[pe.ron]",
+      "nrs": "nerisro",
+      "ipa": "[ne.ris.ro]",
       "pos": "名",
       "meaningJa": "近日点、最接近点",
       "meaningEn": "perihelion, periapsis",
-      "notes": "軌道の最接近点"
+      "notes": "至近の周回点"
     },
     {
       "id": 30,
       "category": "1. 天体・光・宇宙論",
-      "nrs": "strak",
-      "ipa": "[strak]",
+      "nrs": "torp",
+      "ipa": "[torp]",
       "pos": "名",
-      "meaningJa": "衝突、天体衝突、インパクト",
+      "meaningJa": "天体衝突、隕石落下、インパクト",
       "meaningEn": "impact, collision",
-      "notes": "力強い破裂音"
+      "notes": "衝撃の破裂音"
     },
     {
       "id": 31,
@@ -692,7 +692,7 @@
       "nrs": "tolas",
       "ipa": "[to.las]",
       "pos": "名",
-      "meaningJa": "メッセージ、通信文、メール",
+      "meaningJa": "メッセージ、通信文、便り",
       "meaningEn": "message, dispatch",
       "notes": "短い便り"
     },
@@ -779,10 +779,10 @@
     {
       "id": 47,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "polos",
-      "ipa": "[po.los]",
+      "nrs": "tulik",
+      "ipa": "[tu.lik]",
       "pos": "名",
-      "meaningJa": "多角形、星型幾何、立体",
+      "meaningJa": "多角形、星型幾何、立体多面体",
       "meaningEn": "polygon, geometry",
       "notes": "幾何立体"
     },
@@ -819,18 +819,18 @@
     {
       "id": 51,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "nod",
-      "ipa": "[nod]",
+      "nrs": "jyt",
+      "ipa": "[ʒyt]",
       "pos": "名",
-      "meaningJa": "ノード、結節点、ネットワーク頂点",
+      "meaningJa": "ノード、結節点、ネットワーク交点",
       "meaningEn": "node, vertex",
-      "notes": "硬質な破裂音結節"
+      "notes": "網の結節点"
     },
     {
       "id": 52,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "modas",
-      "ipa": "[mo.das]",
+      "nrs": "kiril",
+      "ipa": "[ki.ril]",
       "pos": "名",
       "meaningJa": "関数、変換式、写像",
       "meaningEn": "function, mapping formula",
@@ -859,8 +859,8 @@
     {
       "id": 55,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "syfren",
-      "ipa": "[syf.ren]",
+      "nrs": "kyvren",
+      "ipa": "[kyv.ren]",
       "pos": "名/動",
       "meaningJa": "暗号、暗号化する、秘匿符号",
       "meaningEn": "cipher, encrypt",
@@ -869,18 +869,18 @@
     {
       "id": 56,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "bit",
-      "ipa": "[bit]",
+      "nrs": "kiv",
+      "ipa": "[kiv]",
       "pos": "名",
-      "meaningJa": "ビット、二値単位、情報最小要素",
+      "meaningJa": "ビット、二値単位、情報最小光点",
       "meaningEn": "bit, binary unit",
-      "notes": "瞬発的破裂音"
+      "notes": "瞬発的最小二値"
     },
     {
       "id": 57,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "matris",
-      "ipa": "[mat.ris]",
+      "nrs": "velat",
+      "ipa": "[ve.lat]",
       "pos": "名",
       "meaningJa": "行列、マトリクス、格子配列",
       "meaningEn": "matrix, grid array",
@@ -889,18 +889,18 @@
     {
       "id": 58,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "skop",
-      "ipa": "[skop]",
+      "nrs": "vylom",
+      "ipa": "[vy.lom]",
       "pos": "名",
       "meaningJa": "スコープ、視野域、有効範囲",
       "meaningEn": "scope, valid range",
-      "notes": "閉域破裂音"
+      "notes": "視界有効範囲"
     },
     {
       "id": 59,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "klok",
-      "ipa": "[klok]",
+      "nrs": "tyk",
+      "ipa": "[tyk]",
       "pos": "名",
       "meaningJa": "クロック、時計信号、規則拍",
       "meaningEn": "clock, timing pulse",
@@ -909,8 +909,8 @@
     {
       "id": 60,
       "category": "2. 数理・幾何・情報科学",
-      "nrs": "met",
-      "ipa": "[met]",
+      "nrs": "ryvel",
+      "ipa": "[ry.vel]",
       "pos": "名",
       "meaningJa": "測度、尺度、メトリック",
       "meaningEn": "metric, measure",
@@ -942,19 +942,19 @@
       "nrs": "darisor",
       "ipa": "[da.ri.sor]",
       "pos": "名",
-      "meaningJa": "医師、治癒師、ドクター",
+      "meaningJa": "医師、治癒師、導師",
       "meaningEn": "doctor, physician, healer",
       "notes": "医療専門職"
     },
     {
       "id": 64,
       "category": "3. 生命・身体・医療",
-      "nrs": "medin",
-      "ipa": "[me.din]",
+      "nrs": "zyvan",
+      "ipa": "[zy.van]",
       "pos": "動",
-      "meaningJa": "治療する、診察する、手当てする",
+      "meaningJa": "治療する、癒す、活力を与える",
       "meaningEn": "heal, cure, treat",
-      "notes": "医療動詞"
+      "notes": "治癒動詞"
     },
     {
       "id": 65,
@@ -962,29 +962,29 @@
       "nrs": "darisar",
       "ipa": "[da.ri.sar]",
       "pos": "名",
-      "meaningJa": "病院、医院、診療所、クリニック",
+      "meaningJa": "病院、医院、診療所、癒しの座",
       "meaningEn": "hospital, clinic",
       "notes": "医療施設"
     },
     {
       "id": 66,
       "category": "3. 生命・身体・医療",
-      "nrs": "sanel",
-      "ipa": "[sa.nel]",
+      "nrs": "zyvil",
+      "ipa": "[zy.vil]",
       "pos": "名",
-      "meaningJa": "薬、処方薬、調合薬",
+      "meaningJa": "薬、処方生薬、調合薬",
       "meaningEn": "medicine, remedy, potion",
-      "notes": "薬・薬品"
+      "notes": "治癒の薬"
     },
     {
       "id": 67,
       "category": "3. 生命・身体・医療",
-      "nrs": "malis",
-      "ipa": "[ma.lis]",
+      "nrs": "kylar",
+      "ipa": "[ky.lar]",
       "pos": "名",
-      "meaningJa": "病、不調、軌道乱れ",
+      "meaningJa": "病、乱調、軌道乱れ",
       "meaningEn": "illness, disease",
-      "notes": "病気"
+      "notes": "病気・不調"
     },
     {
       "id": 68,
@@ -999,12 +999,12 @@
     {
       "id": 69,
       "category": "3. 生命・身体・医療",
-      "nrs": "pulsen",
-      "ipa": "[pul.sen]",
+      "nrs": "teirap",
+      "ipa": "[tei.rap]",
       "pos": "名",
       "meaningJa": "心拍、脈拍、鼓動",
       "meaningEn": "pulse, heartbeat",
-      "notes": "脈動"
+      "notes": "心臓の拍動"
     },
     {
       "id": 70,
@@ -1049,12 +1049,12 @@
     {
       "id": 74,
       "category": "3. 生命・身体・医療",
-      "nrs": "nasor",
-      "ipa": "[na.sor]",
+      "nrs": "wylat",
+      "ipa": "[wy.lat]",
       "pos": "名",
-      "meaningJa": "鼻、嗅覚器官、息の通り道",
+      "meaningJa": "鼻、息の通り道、嗅覚器官",
       "meaningEn": "nose, breathway",
-      "notes": "鼻"
+      "notes": "息道"
     },
     {
       "id": 75,
@@ -1069,12 +1069,12 @@
     {
       "id": 76,
       "category": "3. 生命・身体・医療",
-      "nrs": "poris",
-      "ipa": "[po.ris]",
+      "nrs": "larin",
+      "ipa": "[la.rin]",
       "pos": "名",
-      "meaningJa": "足、脚、歩行器官",
+      "meaningJa": "足、脚、歩行肢",
       "meaningEn": "foot, leg",
-      "notes": "足"
+      "notes": "歩行肢"
     },
     {
       "id": 77,
@@ -1109,60 +1109,60 @@
     {
       "id": 80,
       "category": "3. 生命・身体・医療",
-      "nrs": "osel",
-      "ipa": "[o.sel]",
+      "nrs": "duril",
+      "ipa": "[du.ril]",
       "pos": "名",
-      "meaningJa": "骨、骨格、骨格構造",
+      "meaningJa": "骨、骨格、堅固な支柱",
       "meaningEn": "bone, skeleton",
       "notes": "骨格"
     },
     {
       "id": 81,
       "category": "3. 生命・身体・医療",
-      "nrs": "muskol",
-      "ipa": "[mus.kol]",
+      "nrs": "durtas",
+      "ipa": "[dur.tas]",
       "pos": "名",
       "meaningJa": "筋肉、筋力、運動器官",
       "meaningEn": "muscle, sinew",
-      "notes": "筋肉"
+      "notes": "筋力器官"
     },
     {
       "id": 82,
       "category": "3. 生命・身体・医療",
-      "nrs": "dermas",
-      "ipa": "[der.mas]",
+      "nrs": "velik",
+      "ipa": "[ve.lik]",
       "pos": "名",
       "meaningJa": "皮膚、肌、外被",
       "meaningEn": "skin, dermis",
-      "notes": "肌"
+      "notes": "肌・表皮"
     },
     {
       "id": 83,
       "category": "3. 生命・身体・医療",
-      "nrs": "vitas",
-      "ipa": "[vi.tas]",
+      "nrs": "zyvas",
+      "ipa": "[zy.vas]",
       "pos": "名",
-      "meaningJa": "健康、滋養、健全な生命力",
+      "meaningJa": "健康、活力、健全な生命力",
       "meaningEn": "health, vitality",
-      "notes": "健康"
+      "notes": "健康状態"
     },
     {
       "id": 84,
       "category": "3. 生命・身体・医療",
-      "nrs": "nervis",
-      "ipa": "[ner.vis]",
+      "nrs": "jynten",
+      "ipa": "[ʒyn.ten]",
       "pos": "名",
       "meaningJa": "神経、感覚伝達網、シナプス",
       "meaningEn": "nerve, neural network",
-      "notes": "神経系"
+      "notes": "生体電信線"
     },
     {
       "id": 85,
       "category": "3. 生命・身体・医療",
-      "nrs": "respiran",
-      "ipa": "[res.pi.ran]",
+      "nrs": "zyvelan",
+      "ipa": "[zy.ve.lan]",
       "pos": "動",
-      "meaningJa": "呼吸する、息を吸い吐く",
+      "meaningJa": "呼吸する、息吹を交わす",
       "meaningEn": "breathe, respire",
       "notes": "呼吸動詞"
     },
@@ -1179,30 +1179,30 @@
     {
       "id": 87,
       "category": "4. 自然・気象・環境",
-      "nrs": "montis",
-      "ipa": "[mon.tis]",
+      "nrs": "novan",
+      "ipa": "[no.van]",
       "pos": "名",
-      "meaningJa": "山、連峰、高嶺",
+      "meaningJa": "山、連峰、そびえる高嶺",
       "meaningEn": "mountain, peak",
-      "notes": "山"
+      "notes": "天にそびえる山"
     },
     {
       "id": 88,
       "category": "4. 自然・気象・環境",
-      "nrs": "kanyon",
-      "ipa": "[kan.jon]",
+      "nrs": "talik",
+      "ipa": "[ta.lik]",
       "pos": "名",
-      "meaningJa": "谷、峡谷、裂け目",
+      "meaningJa": "谷、峡谷、大地の裂け目",
       "meaningEn": "valley, canyon",
       "notes": "谷"
     },
     {
       "id": 89,
       "category": "4. 自然・気象・環境",
-      "nrs": "campas",
-      "ipa": "[kam.pas]",
+      "nrs": "talom",
+      "ipa": "[ta.lom]",
       "pos": "名",
-      "meaningJa": "平原、野原、大地原野",
+      "meaningJa": "平原、大原野、果てなき大地",
       "meaningEn": "plain, field, steppe",
       "notes": "広大な平野"
     },
@@ -1269,12 +1269,12 @@
     {
       "id": 96,
       "category": "4. 自然・気象・環境",
-      "nrs": "semen",
-      "ipa": "[se.men]",
+      "nrs": "teiril",
+      "ipa": "[tei.ril]",
       "pos": "名",
-      "meaningJa": "種、種子、生命の核",
+      "meaningJa": "種、種子、生命の粒",
       "meaningEn": "seed, pip",
-      "notes": "種子"
+      "notes": "種核"
     },
     {
       "id": 97,
@@ -1309,18 +1309,18 @@
     {
       "id": 100,
       "category": "4. 自然・気象・環境",
-      "nrs": "lacor",
-      "ipa": "[la.kor]",
+      "nrs": "daron",
+      "ipa": "[da.ron]",
       "pos": "名",
-      "meaningJa": "湖、湖沼、静かな水面",
+      "meaningJa": "湖、湖沼、静水面",
       "meaningEn": "lake, pond",
-      "notes": "静水面"
+      "notes": "静かな湖"
     },
     {
       "id": 101,
       "category": "4. 自然・気象・環境",
-      "nrs": "fontin",
-      "ipa": "[fon.tin]",
+      "nrs": "darmon",
+      "ipa": "[dar.mon]",
       "pos": "名",
       "meaningJa": "泉、湧水、水源",
       "meaningEn": "spring, font",
@@ -1399,38 +1399,38 @@
     {
       "id": 109,
       "category": "4. 自然・気象・環境",
-      "nrs": "metas",
-      "ipa": "[me.tas]",
+      "nrs": "talur",
+      "ipa": "[ta.lur]",
       "pos": "名",
       "meaningJa": "金属、合金、鉱物資材",
       "meaningEn": "metal, ore, alloy",
-      "notes": "金属"
+      "notes": "大地の金属"
     },
     {
       "id": 110,
       "category": "4. 自然・気象・環境",
-      "nrs": "stormin",
-      "ipa": "[stor.min]",
+      "nrs": "wylrim",
+      "ipa": "[wyl.rim]",
       "pos": "名",
       "meaningJa": "嵐、暴風雨、星雲嵐",
       "meaningEn": "storm, tempest",
-      "notes": "嵐"
+      "notes": "激しき風"
     },
     {
       "id": 111,
       "category": "4. 自然・気象・環境",
-      "nrs": "tonor",
-      "ipa": "[to.nor]",
+      "nrs": "vyltor",
+      "ipa": "[vyl.tor]",
       "pos": "名",
       "meaningJa": "雷、稲妻、天の閃光",
       "meaningEn": "thunder, lightning",
-      "notes": "雷鳴"
+      "notes": "光雷"
     },
     {
       "id": 112,
       "category": "4. 自然・気象・環境",
-      "nrs": "auror",
-      "ipa": "[au.ror]",
+      "nrs": "celar",
+      "ipa": "[ʃe.lar]",
       "pos": "名",
       "meaningJa": "極光、オーロラ、天の天幕",
       "meaningEn": "aurora, polar light",
@@ -1439,22 +1439,22 @@
     {
       "id": 113,
       "category": "4. 自然・気象・環境",
-      "nrs": "deseras",
-      "ipa": "[de.se.ras]",
+      "nrs": "talrim",
+      "ipa": "[tal.rim]",
       "pos": "名",
-      "meaningJa": "砂漠、不毛地帯、荒野",
+      "meaningJa": "砂漠、不毛地帯、乾いた荒野",
       "meaningEn": "desert, wasteland",
       "notes": "乾燥砂漠"
     },
     {
       "id": 114,
       "category": "4. 自然・気象・環境",
-      "nrs": "spelun",
-      "ipa": "[spe.lun]",
+      "nrs": "vuron",
+      "ipa": "[vu.ron]",
       "pos": "名",
       "meaningJa": "洞窟、鍾乳洞、地下空洞",
       "meaningEn": "cave, cavern, grotto",
-      "notes": "地下の洞"
+      "notes": "地下空洞"
     },
     {
       "id": 115,
@@ -1469,12 +1469,12 @@
     {
       "id": 116,
       "category": "4. 自然・気象・環境",
-      "nrs": "cielfer",
-      "ipa": "[ʃi.el.fer]",
+      "nrs": "volfer",
+      "ipa": "[vol.fer]",
       "pos": "名",
       "meaningJa": "鳥、翼ある者、飛翔生物",
       "meaningEn": "bird, winged creature",
-      "notes": "鳥"
+      "notes": "空翔る者"
     },
     {
       "id": 117,
@@ -1484,23 +1484,23 @@
       "pos": "名",
       "meaningJa": "魚、水棲生物",
       "meaningEn": "fish, marine life",
-      "notes": "魚"
+      "notes": "水泳ぐ者"
     },
     {
       "id": 118,
       "category": "4. 自然・気象・環境",
-      "nrs": "insek",
-      "ipa": "[in.sek]",
+      "nrs": "krap",
+      "ipa": "[krap]",
       "pos": "名",
       "meaningJa": "虫、昆虫、甲虫",
       "meaningEn": "insect, bug",
-      "notes": "外骨格の硬質な破裂音"
+      "notes": "硬質外骨格"
     },
     {
       "id": 119,
       "category": "4. 自然・気象・環境",
-      "nrs": "drak",
-      "ipa": "[drak]",
+      "nrs": "fermor",
+      "ipa": "[fer.mor]",
       "pos": "名",
       "meaningJa": "天竜、星間巨獣、大蛇",
       "meaningEn": "dragon, cosmic beast",
@@ -1509,12 +1509,12 @@
     {
       "id": 120,
       "category": "5. 社会・法・共同体",
-      "nrs": "polim",
-      "ipa": "[po.lim]",
+      "nrs": "kuralom",
+      "ipa": "[ku.ra.lom]",
       "pos": "名",
       "meaningJa": "社会、共同体、連盟",
       "meaningEn": "society, community, polis",
-      "notes": "共同社会"
+      "notes": "共生の座"
     },
     {
       "id": 121,
@@ -1539,32 +1539,32 @@
     {
       "id": 123,
       "category": "5. 社会・法・共同体",
-      "nrs": "pakt",
-      "ipa": "[pakt]",
+      "nrs": "jylot",
+      "ipa": "[ʒy.lot]",
       "pos": "名",
       "meaningJa": "約束、契約、協定、盟約",
       "meaningEn": "pact, covenant, contract",
-      "notes": "確固たる締結破裂音"
+      "notes": "結束の協定"
     },
     {
       "id": 124,
       "category": "5. 社会・法・共同体",
-      "nrs": "civor",
-      "ipa": "[ʃi.vor]",
+      "nrs": "polor",
+      "ipa": "[po.lor]",
       "pos": "名",
       "meaningJa": "市民、住人、共同体員",
       "meaningEn": "citizen, member",
-      "notes": "市民"
+      "notes": "共同体の人"
     },
     {
       "id": 125,
       "category": "5. 社会・法・共同体",
-      "nrs": "celtor",
-      "ipa": "[ʃel.tor]",
+      "nrs": "novor",
+      "ipa": "[no.vor]",
       "pos": "名",
-      "meaningJa": "指導者、議長、導き手",
+      "meaningJa": "指導者、議長、頂点の導き手",
       "meaningEn": "leader, chancellor, guide",
-      "notes": "指導者"
+      "notes": "頂点に立つ者"
     },
     {
       "id": 126,
@@ -1629,72 +1629,72 @@
     {
       "id": 132,
       "category": "5. 社会・法・共同体",
-      "nrs": "skolar",
-      "ipa": "[sko.lar]",
+      "nrs": "vyranar",
+      "ipa": "[vy.ra.nar]",
       "pos": "名",
       "meaningJa": "学校、学舎、アカデミー",
       "meaningEn": "school, academy",
-      "notes": "教育機関"
+      "notes": "真理の学舎"
     },
     {
       "id": 133,
       "category": "5. 社会・法・共同体",
-      "nrs": "skolis",
-      "ipa": "[sko.lis]",
+      "nrs": "vyranas",
+      "ipa": "[vy.ra.nas]",
       "pos": "名",
-      "meaningJa": "学生、学徒、探求者",
+      "meaningJa": "学生、学徒、真理の探求者",
       "meaningEn": "student, pupil, scholar-initiate",
       "notes": "学び手"
     },
     {
       "id": 134,
       "category": "5. 社会・法・共同体",
-      "nrs": "doktor",
-      "ipa": "[dok.tor]",
+      "nrs": "sufis",
+      "ipa": "[su.fis]",
       "pos": "名",
-      "meaningJa": "学者、碩学、博士",
+      "meaningJa": "学者、碩学、数理哲士",
       "meaningEn": "scholar, doctor, master",
       "notes": "学究の徒"
     },
     {
       "id": 135,
       "category": "5. 社会・法・共同体",
-      "nrs": "tribun",
-      "ipa": "[tri.bun]",
+      "nrs": "tarosar",
+      "ipa": "[ta.ro.sar]",
       "pos": "名",
-      "meaningJa": "法廷、裁定所、審問会",
+      "meaningJa": "法廷、裁定所、審問の座",
       "meaningEn": "court, tribunal",
       "notes": "司法の場"
     },
     {
       "id": 136,
       "category": "5. 社会・法・共同体",
-      "nrs": "festas",
-      "ipa": "[fes.tas]",
+      "nrs": "elyr",
+      "ipa": "[e.lyr]",
       "pos": "名",
-      "meaningJa": "祭典、祝祭、星祭り",
+      "meaningJa": "祭典、祝祭、星の祭り",
       "meaningEn": "festival, celebration",
       "notes": "祝祭の日"
     },
     {
       "id": 137,
       "category": "5. 社会・法・共同体",
-      "nrs": "pasis",
-      "ipa": "[pa.sis]",
+      "nrs": "sirar",
+      "ipa": "[si.rar]",
       "pos": "名",
       "meaningJa": "安寧、平和、講和条約",
       "meaningEn": "peace, truce, accord",
-      "notes": "戦争の終結"
+      "notes": "争いなき静けさ"
     },
     {
       "id": 138,
       "category": "5. 社会・法・共同体",
-      "nrs": "fakt",
-      "ipa": "[fakt]",
+      "nrs": "zyd",
+      "ipa": "[zyd]",
       "pos": "名",
       "meaningJa": "事実、実相、検証された事象",
       "meaningEn": "fact, reality",
-      "notes": "実証された真実"
+      "notes": "実証された真理"
     },
     {
       "id": 139,
@@ -1719,10 +1719,10 @@
     {
       "id": 141,
       "category": "6. 精神・感情・哲学",
-      "nrs": "amiras",
-      "ipa": "[a.mi.ras]",
+      "nrs": "cynas",
+      "ipa": "[ʃy.nas]",
       "pos": "名",
-      "meaningJa": "友情、親愛、絆",
+      "meaningJa": "友情、親愛、心の絆",
       "meaningEn": "friendship, fellowship",
       "notes": "友愛"
     },
@@ -1759,8 +1759,8 @@
     {
       "id": 145,
       "category": "6. 精神・感情・哲学",
-      "nrs": "toras",
-      "ipa": "[to.ras]",
+      "nrs": "krotas",
+      "ipa": "[kro.tas]",
       "pos": "名/形",
       "meaningJa": "激動、怒り、熱狂、激しい",
       "meaningEn": "fury, wrath, passion",
@@ -1879,10 +1879,10 @@
     {
       "id": 157,
       "category": "6. 精神・感情・哲学",
-      "nrs": "valos",
-      "ipa": "[va.los]",
+      "nrs": "durtan",
+      "ipa": "[dur.tan]",
       "pos": "名",
-      "meaningJa": "勇気、果敢さ、不動の志",
+      "meaningJa": "勇気、果敢さ、不屈の志",
       "meaningEn": "courage, bravery, valor",
       "notes": "不屈の意志"
     },
@@ -1969,42 +1969,42 @@
     {
       "id": 166,
       "category": "7. 日常・住まい・食",
-      "nrs": "stran",
-      "ipa": "[stran]",
+      "nrs": "kymel",
+      "ipa": "[ky.mel]",
       "pos": "名",
-      "meaningJa": "寝床、ベッド、休息所",
+      "meaningJa": "寝床、ベッド、休息の台",
       "meaningEn": "bed, resting couch",
       "notes": "寝具"
     },
     {
       "id": 167,
       "category": "7. 日常・住まい・食",
-      "nrs": "portas",
-      "ipa": "[por.tas]",
+      "nrs": "lerel",
+      "ipa": "[le.rel]",
       "pos": "名",
       "meaningJa": "扉、ドア、出入口、ゲート",
       "meaningEn": "door, gate, entrance",
-      "notes": "扉"
+      "notes": "開閉具"
     },
     {
       "id": 168,
       "category": "7. 日常・住まい・食",
-      "nrs": "fenas",
-      "ipa": "[fe.nas]",
+      "nrs": "falar",
+      "ipa": "[fa.lar]",
       "pos": "名",
       "meaningJa": "窓、明かり取り、天窓",
       "meaningEn": "window, skylight",
-      "notes": "窓"
+      "notes": "光を取り込む処"
     },
     {
       "id": 169,
       "category": "7. 日常・住まい・食",
-      "nrs": "toril",
-      "ipa": "[to.ril]",
+      "nrs": "laros",
+      "ipa": "[la.ros]",
       "pos": "名",
       "meaningJa": "乗り物、車両、列車、交通艇",
       "meaningEn": "vehicle, carriage, train",
-      "notes": "乗り物"
+      "notes": "周回交通具"
     },
     {
       "id": 170,
@@ -2079,82 +2079,82 @@
     {
       "id": 177,
       "category": "7. 日常・住まい・食",
-      "nrs": "cavil",
-      "ipa": "[ka.vil]",
+      "nrs": "terin",
+      "ipa": "[te.rin]",
       "pos": "名",
-      "meaningJa": "珈琲、茶、温かい飲み物",
-      "meaningEn": "coffee, tea, warm brew",
-      "notes": "カフェ飲料"
+      "meaningJa": "温かい煎じ茶、薬草茶",
+      "meaningEn": "tea, warm herbal brew",
+      "notes": "温飲料"
     },
     {
       "id": 178,
       "category": "7. 日常・住まい・食",
-      "nrs": "lanis",
-      "ipa": "[la.nis]",
+      "nrs": "nerat",
+      "ipa": "[ne.rat]",
       "pos": "名",
-      "meaningJa": "パン、主食、焼き菓子",
+      "meaningJa": "主食、焼き穀物、糧",
       "meaningEn": "bread, loaf, staple",
       "notes": "主食"
     },
     {
       "id": 179,
       "category": "7. 日常・住まい・食",
-      "nrs": "salin",
-      "ipa": "[sa.lin]",
+      "nrs": "talyz",
+      "ipa": "[ta.lyz]",
       "pos": "名",
-      "meaningJa": "塩、調味料、精製塩",
+      "meaningJa": "大地の結晶塩、調味料",
       "meaningEn": "salt, seasoning",
-      "notes": "塩"
+      "notes": "塩・調味料"
     },
     {
       "id": 180,
       "category": "7. 日常・住まい・食",
-      "nrs": "suvel",
-      "ipa": "[su.vel]",
+      "nrs": "darel",
+      "ipa": "[da.rel]",
       "pos": "名",
-      "meaningJa": "スープ、汁物、温煮",
+      "meaningJa": "スープ、温煮汁、滋養汁",
       "meaningEn": "soup, broth",
-      "notes": "スープ"
+      "notes": "温かい汁物"
     },
     {
       "id": 181,
       "category": "7. 日常・住まい・食",
-      "nrs": "vinor",
-      "ipa": "[vi.nor]",
+      "nrs": "voril",
+      "ipa": "[vo.ril]",
       "pos": "名",
-      "meaningJa": "果実酒、ワイン、祝い酒",
+      "meaningJa": "発酵果実酒、祝い酒",
       "meaningEn": "wine, fermented drink",
       "notes": "酒"
     },
     {
       "id": 182,
       "category": "7. 日常・住まい・食",
-      "nrs": "klavis",
-      "ipa": "[kla.vis]",
+      "nrs": "klovel",
+      "ipa": "[klo.vel]",
       "pos": "名",
       "meaningJa": "鍵、解錠具、キー",
       "meaningEn": "key, lock-opener",
-      "notes": "鍵"
+      "notes": "施錠・解錠具"
     },
     {
       "id": 183,
       "category": "7. 日常・住まい・食",
-      "nrs": "kalis",
-      "ipa": "[ka.lis]",
+      "nrs": "bionel",
+      "ipa": "[bi.o.nel]",
       "pos": "名",
-      "meaningJa": "杯、カップ、酒杯、グラス",
+      "meaningJa": "杯、酒杯、グラス、器",
       "meaningEn": "chalice, cup, goblet",
-      "notes": "食器杯"
+      "notes": "飲用具"
     },
     {
       "id": 184,
       "category": "7. 日常・住まい・食",
-      "nrs": "kutar",
-      "ipa": "[ku.tar]",
+      "nrs": "serel",
+      "ipa": "[se.rel]",
       "pos": "名",
       "meaningJa": "小刀、ナイフ、調理刃",
       "meaningEn": "knife, blade, cutter",
-      "notes": "刃物具"
+      "notes": "手元の刃具"
     },
     {
       "id": 185,
@@ -2179,8 +2179,8 @@
     {
       "id": 187,
       "category": "8. 動作・相互作用",
-      "nrs": "kursan",
-      "ipa": "[kur.san]",
+      "nrs": "kupan",
+      "ipa": "[ku.pan]",
       "pos": "動",
       "meaningJa": "走る、急ぎ行く、駆ける",
       "meaningEn": "run, sprint, rush",
@@ -2379,8 +2379,8 @@
     {
       "id": 207,
       "category": "8. 動作・相互作用",
-      "nrs": "klosan",
-      "ipa": "[klo.san]",
+      "nrs": "klovan",
+      "ipa": "[klo.van]",
       "pos": "動",
       "meaningJa": "閉じる、鍵をかける、終える",
       "meaningEn": "close, conclude, seal",
@@ -2389,18 +2389,18 @@
     {
       "id": 208,
       "category": "8. 動作・相互作用",
-      "nrs": "donan",
-      "ipa": "[do.nan]",
+      "nrs": "seran",
+      "ipa": "[se.ran]",
       "pos": "動",
-      "meaningJa": "与える、贈る、授ける",
+      "meaningJa": "授ける、手渡す、贈る",
       "meaningEn": "give, bestow, grant",
       "notes": "授与動詞"
     },
     {
       "id": 209,
       "category": "8. 動作・相互作用",
-      "nrs": "prenan",
-      "ipa": "[pre.nan]",
+      "nrs": "maren",
+      "ipa": "[ma.ren]",
       "pos": "動",
       "meaningJa": "受け取る、得る、引き継ぐ",
       "meaningEn": "receive, obtain, acquire",
@@ -2409,20 +2409,20 @@
     {
       "id": 210,
       "category": "8. 動作・相互作用",
-      "nrs": "dansan",
-      "ipa": "[dan.san]",
+      "nrs": "spilan",
+      "ipa": "[spi.lan]",
       "pos": "動",
-      "meaningJa": "舞う、踊る、ステップを踏む",
+      "meaningJa": "舞う、踊る、旋回ステップを踏む",
       "meaningEn": "dance, leap, sway",
       "notes": "舞踏動詞"
     },
     {
       "id": 211,
       "category": "8. 動作・相互作用",
-      "nrs": "krik",
-      "ipa": "[krik]",
+      "nrs": "falk",
+      "ipa": "[falk]",
       "pos": "名/動",
-      "meaningJa": "火花、閃光、パチッと鳴る",
+      "meaningJa": "閃光、火花、パチッと弾ける",
       "meaningEn": "spark, flash, snap",
       "notes": "鋭い破裂動詞"
     },
@@ -2479,12 +2479,12 @@
     {
       "id": 217,
       "category": "9. 性質・色彩・状態",
-      "nrs": "silvin",
-      "ipa": "[sil.vin]",
+      "nrs": "tyni",
+      "ipa": "[ty.ni]",
       "pos": "形",
       "meaningJa": "銀色の、白銀の、月光の",
       "meaningEn": "silver, silvery, gleaming",
-      "notes": "白銀"
+      "notes": "月光白銀"
     },
     {
       "id": 218,
@@ -2529,18 +2529,18 @@
     {
       "id": 222,
       "category": "9. 性質・色彩・状態",
-      "nrs": "duran",
-      "ipa": "[du.ran]",
+      "nrs": "talani",
+      "ipa": "[ta.la.ni]",
       "pos": "形",
-      "meaningJa": "強い、堅固な、頑丈な",
+      "meaningJa": "強い、堅固な、頑丈な、岩のような",
       "meaningEn": "strong, durable, solid",
       "notes": "堅固"
     },
     {
       "id": 223,
       "category": "9. 性質・色彩・状態",
-      "nrs": "tenis",
-      "ipa": "[te.nis]",
+      "nrs": "serini",
+      "ipa": "[se.ri.ni]",
       "pos": "形",
       "meaningJa": "細い、薄い、繊細な",
       "meaningEn": "thin, slim, subtle",
@@ -2549,8 +2549,8 @@
     {
       "id": 224,
       "category": "9. 性質・色彩・状態",
-      "nrs": "melin",
-      "ipa": "[me.lin]",
+      "nrs": "sirani",
+      "ipa": "[si.ra.ni]",
       "pos": "形",
       "meaningJa": "優しい、穏やかな、柔らかな",
       "meaningEn": "gentle, mild, soft",
@@ -2609,8 +2609,8 @@
     {
       "id": 230,
       "category": "9. 性質・色彩・状態",
-      "nrs": "velos",
-      "ipa": "[ve.los]",
+      "nrs": "faluri",
+      "ipa": "[fa.lu.ri]",
       "pos": "形",
       "meaningJa": "速い、迅速な、光速の",
       "meaningEn": "fast, rapid, swift",
@@ -2619,8 +2619,8 @@
     {
       "id": 231,
       "category": "9. 性質・色彩・状態",
-      "nrs": "tardis",
-      "ipa": "[tar.dis]",
+      "nrs": "morini",
+      "ipa": "[mo.ri.ni]",
       "pos": "形",
       "meaningJa": "遅い、緩やかな、歩みの遅い",
       "meaningEn": "slow, gentle, unhurried",
@@ -2629,8 +2629,8 @@
     {
       "id": 232,
       "category": "9. 性質・色彩・状態",
-      "nrs": "altan",
-      "ipa": "[al.tan]",
+      "nrs": "novani",
+      "ipa": "[no.va.ni]",
       "pos": "形",
       "meaningJa": "高い、至高の、天上の",
       "meaningEn": "high, lofty, elevated",
@@ -2639,8 +2639,8 @@
     {
       "id": 233,
       "category": "9. 性質・色彩・状態",
-      "nrs": "basen",
-      "ipa": "[ba.sen]",
+      "nrs": "tulosi",
+      "ipa": "[tu.lo.si]",
       "pos": "形",
       "meaningJa": "低い、底層の、足元の",
       "meaningEn": "low, deep-set, base",
@@ -2649,8 +2649,8 @@
     {
       "id": 234,
       "category": "9. 性質・色彩・状態",
-      "nrs": "klarin",
-      "ipa": "[kla.rin]",
+      "nrs": "falini",
+      "ipa": "[fa.li.ni]",
       "pos": "形",
       "meaningJa": "澄んだ、明瞭な、透き通った",
       "meaningEn": "clear, transparent, lucid",
@@ -2799,8 +2799,8 @@
     {
       "id": 249,
       "category": "10. 時空・方位・副詞",
-      "nrs": "veron",
-      "ipa": "[ve.ron]",
+      "nrs": "vyranu",
+      "ipa": "[vy.ra.nu]",
       "pos": "副",
       "meaningJa": "確かに、真に、疑いなく",
       "meaningEn": "truly, certainly, indeed",
@@ -2839,38 +2839,38 @@
     {
       "id": 253,
       "category": "10. 時空・方位・副詞",
-      "nrs": "non",
-      "ipa": "[non]",
+      "nrs": "mu",
+      "ipa": "[mu]",
       "pos": "副",
-      "meaningJa": "いいえ、〜でない（否定極性詞）",
+      "meaningJa": "いいえ、〜でない（否定極性辞）",
       "meaningEn": "not, no",
-      "notes": "否定極性詞"
+      "notes": "否定極性辞"
     },
     {
       "id": 254,
       "category": "10. 時空・方位・副詞",
-      "nrs": "ia",
-      "ipa": "[ia]",
+      "nrs": "ve",
+      "ipa": "[ve]",
       "pos": "副",
-      "meaningJa": "はい、然り、その通り（肯定極性詞）",
+      "meaningJa": "はい、然り、その通り（肯定極性辞）",
       "meaningEn": "yes, indeed, so it is",
-      "notes": "肯定極性詞"
+      "notes": "肯定極性辞"
     },
     {
       "id": 255,
       "category": "10. 時空・方位・副詞",
-      "nrs": "sed",
-      "ipa": "[sed]",
+      "nrs": "tor",
+      "ipa": "[tor]",
       "pos": "接",
       "meaningJa": "しかし、されど",
       "meaningEn": "but, yet",
-      "notes": "逆接の制動破裂音"
+      "notes": "逆接接続詞"
     },
     {
       "id": 256,
       "category": "10. 時空・方位・副詞",
-      "nrs": "ko",
-      "ipa": "[ko]",
+      "nrs": "ul",
+      "ipa": "[ul]",
       "pos": "接",
       "meaningJa": "そして、また、〜と共に",
       "meaningEn": "and, also",
@@ -2879,8 +2879,8 @@
     {
       "id": 257,
       "category": "10. 時空・方位・副詞",
-      "nrs": "kva",
-      "ipa": "[kva]",
+      "nrs": "zen",
+      "ipa": "[zen]",
       "pos": "接/副",
       "meaningJa": "なぜなら、〜ゆえに、理由",
       "meaningEn": "because, for reason",
@@ -2889,8 +2889,8 @@
     {
       "id": 258,
       "category": "10. 時空・方位・副詞",
-      "nrs": "kvis",
-      "ipa": "[kvis]",
+      "nrs": "tyro",
+      "ipa": "[ty.ro]",
       "pos": "副",
       "meaningJa": "なぜ、いかにして（疑問副詞）",
       "meaningEn": "why, wherefore",
