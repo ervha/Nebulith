@@ -14,6 +14,10 @@ Nebulith/
 │   ├── Project Requirements And Design.md  # 総合要件定義書 (v17.0)
 │   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v15.0 - 計251語幹・全数音韻監査済)
 │   └── Nebulith Executive Summary.md       # プロジェクト総括リファレンス
+├── data/                                # 機械可読・構造化語彙データ
+│   ├── lexicon.json                     # JSON形式（文法・数詞・接尾辞・語彙メタデータ）
+│   ├── lexicon.csv                      # CSV形式（表形式・スプレッドシート連携用）
+│   └── StaticLexicon.kt                 # Kotlin形式（KMP Studio用インメモリ辞書コード）
 ├── fonts/                               # TrueTypeフォント成果物
 │   ├── Nebulith-Regular.ttf             # Nebulith公式TrueTypeフォント
 │   ├── font_b64.txt                     # Web埋め込み用 Base64
@@ -21,7 +25,7 @@ Nebulith/
 ├── tools/                               # フォント生成・辞書ビルド・検証ツール
 │   ├── build_font.py                    # fontToolsを用いたTTFバイナリ生成スクリプト
 │   ├── generate_preview_html.py         # プレビューHTMLジェネレーター
-│   ├── build_master_lexicon_v15.py      # 全数ソノリティ・同音衝突監査＆辞書生成
+│   ├── build_master_lexicon_v15.py      # 全数ソノリティ・同音衝突監査＆多形式辞書生成
 │   └── num_specimen.html                # 文字・数字グリフ見本
 ├── requirements.txt                     # 依存ライブラリ (fonttools)
 └── README.md
@@ -98,7 +102,7 @@ python tools/build_font.py
 # プレビューHTMLの生成
 python tools/generate_preview_html.py
 
-# 全数音韻監査＆マスター辞書のビルド（docs/Nebulith Master Lexicon.md を生成）
+# 全数音韻監査＆多形式辞書のビルド（Markdown, JSON, CSV, Kotlin を同時出力）
 python tools/build_master_lexicon_v15.py
 ```
 

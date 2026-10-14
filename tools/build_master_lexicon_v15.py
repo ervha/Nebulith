@@ -2,8 +2,15 @@
 """
 Nebulith Master Lexicon v15.0 Build & Audit Script
 Validates 100% sonority compliance, uniqueness, and phonological harmony.
-Generates docs/Nebulith Master Lexicon.md with ~200 vetted vocabulary entries.
+Generates:
+  1. docs/Nebulith Master Lexicon.md  (Human-readable Markdown specification)
+  2. data/lexicon.json                (Machine-readable structured JSON format)
+  3. data/lexicon.csv                 (Tabular CSV format)
+  4. data/StaticLexicon.kt            (Ready-to-use Kotlin source code for KMP)
 """
+import json
+import csv
+import os
 
 VOWELS = set("aeiouy")
 DIPHTHONGS = {"ai", "ei", "au", "oi"}
@@ -72,7 +79,7 @@ entries = [
     ("2. 数理・幾何・情報科学", "tolom", "[to.lom]", "名", "インターネット、Web、世界通信網", "internet, cyber network", "世界情報網"),
     ("2. 数理・幾何・情報科学", "vylatel", "[vy.la.tel]", "名", "ディスプレイ、画面、モニター", "display, screen, monitor", "映像出力板"),
     ("2. 数理・幾何・情報科学", "falel", "[fa.lel]", "名", "写真、画像、静止画", "photo, image, graphic", "光の記録"),
-    ("2. 数理・幾講・情報科学", "livar", "[li.var]", "名", "データベース、書庫、情報保管庫", "database, repository", "データ集積所"),
+    ("2. 数理・幾何・情報科学", "livar", "[li.var]", "名", "データベース、書庫、情報保管庫", "database, repository", "データ集積所"),
     ("2. 数理・幾何・情報科学", "jyn", "[ʒyn]", "名", "電気、電力、電荷、エネルギー", "electricity, power, energy", "電力・エネルギー"),
     ("2. 数理・幾何・情報科学", "jynel", "[ʒy.nel]", "名", "バッテリー、蓄電池、電源", "battery, power cell", "蓄電器"),
     ("2. 数理・幾何・情報科学", "rin", "[rin]", "名", "円、真円、環", "circle, ring", "幾何円"),
@@ -335,7 +342,9 @@ if audit_errors:
 
 print(f"AUDIT PASSED! Total vetted master entries: {len(entries)}")
 
-# Generate Markdown Lexicon
+# -----------------------------------------------------------------------------
+# 1. Output docs/Nebulith Master Lexicon.md
+# -----------------------------------------------------------------------------
 header = f'''# 人工言語「Nebulith（ネビュリス）」マスター辞書データ定義書（Nebulith Master Lexicon v15.0）
 
 **文書バージョン**: v15.0 (大規模体系的拡充・全数音韻監査済・細分化語根完全版)  
@@ -480,3 +489,166 @@ with open("docs/Nebulith Master Lexicon.md", "w", encoding="utf-8") as f:
     f.write(full_doc)
 
 print("Successfully written to docs/Nebulith Master Lexicon.md!")
+
+# -----------------------------------------------------------------------------
+# 2. Output data/lexicon.json
+# -----------------------------------------------------------------------------
+os.makedirs("data", exist_ok=True)
+
+orbital_cases = [
+    {"code": "NOM", "nrs": "el", "ipa": "[el]", "nameJa": "主格", "meaningJa": "〜は、〜が（動作主・主題）", "meaningEn": "Subject / Agent"},
+    {"code": "ACC", "nrs": "ia", "ipa": "[ia]", "nameJa": "対格", "meaningJa": "〜を（直接対象・被作用者）", "meaningEn": "Direct Object / Patient"},
+    {"code": "DAT", "nrs": "al", "ipa": "[al]", "nameJa": "与格", "meaningJa": "〜へ、〜に（授受・宛先）", "meaningEn": "Recipient / Goal"},
+    {"code": "GEN", "nrs": "en", "ipa": "[en]", "nameJa": "属格", "meaningJa": "〜の（所有・所属・連体修飾）", "meaningEn": "Genitive / Possessive"},
+    {"code": "LOC", "nrs": "uo", "ipa": "[wo]", "nameJa": "処格", "meaningJa": "〜において、〜で（時間・空間・領域）", "meaningEn": "Locative / Spatiotemporal"},
+    {"code": "INS", "nrs": "de", "ipa": "[de]", "nameJa": "具格", "meaningJa": "〜によって、〜を用いて（手段・道具・材料）", "meaningEn": "Instrumental / Means"},
+    {"code": "ALL", "nrs": "to", "ipa": "[to]", "nameJa": "向格", "meaningJa": "〜へ向かって、〜を目指して（終点・指向）", "meaningEn": "Allative / Direction"},
+    {"code": "ABL", "nrs": "va", "ipa": "[va]", "nameJa": "奪格", "meaningJa": "〜から、〜を出発点として（起点・原因）", "meaningEn": "Ablative / Origin"},
+    {"code": "COM", "nrs": "ku", "ipa": "[ku]", "nameJa": "共格", "meaningJa": "〜と共に、〜を伴って（同伴・連合）", "meaningEn": "Comitative / Associative"},
+]
+
+pronouns = [
+    {"code": "1SG", "nrs": "tyr", "ipa": "[tyr]", "meaningJa": "私、我", "meaningEn": "I, me", "etymology": "自星（己の核）"},
+    {"code": "2SG", "nrs": "zel", "ipa": "[zel]", "meaningJa": "あなた、君", "meaningEn": "you", "etymology": "伴星（対峙する星）"},
+    {"code": "3SG", "nrs": "mor", "ipa": "[mor]", "meaningJa": "彼、彼女、それ", "meaningEn": "he, she, it", "etymology": "遠星（第三の光）"},
+    {"code": "1PL", "nrs": "tyres", "ipa": "[ty.res]", "meaningJa": "私たち、我ら", "meaningEn": "we, us", "etymology": "星団（我ら）"},
+    {"code": "2PL", "nrs": "zeles", "ipa": "[ze.les]", "meaningJa": "あなた方、君たち", "meaningEn": "you all", "etymology": "星群（君たち）"},
+    {"code": "3PL", "nrs": "mores", "ipa": "[mo.res]", "meaningJa": "彼ら、それら", "meaningEn": "they, them", "etymology": "遠星雲（彼ら）"},
+]
+
+orbital_numbers = [
+    {"num": 0, "nrs": "nul", "ipa": "[nul]", "symbol": "虚空、原初無", "meaningJa": "ゼロ", "meaningEn": "zero"},
+    {"num": 1, "nrs": "un", "ipa": "[un]", "symbol": "原初軸、単一", "meaningJa": "一", "meaningEn": "one"},
+    {"num": 2, "nrs": "du", "ipa": "[du]", "symbol": "連星、双対", "meaningJa": "二", "meaningEn": "two"},
+    {"num": 3, "nrs": "tri", "ipa": "[tri]", "symbol": "三極星、天秤", "meaningJa": "三", "meaningEn": "three"},
+    {"num": 4, "nrs": "kvan", "ipa": "[kvan]", "symbol": "四至、四季", "meaningJa": "四", "meaningEn": "four"},
+    {"num": 5, "nrs": "kvin", "ipa": "[kvin]", "symbol": "五芒星、手の掌", "meaningJa": "五", "meaningEn": "five"},
+    {"num": 6, "nrs": "ses", "ipa": "[ses]", "symbol": "六花、結晶", "meaningJa": "六", "meaningEn": "six"},
+    {"num": 7, "nrs": "sep", "ipa": "[sep]", "symbol": "七曜、天球層", "meaningJa": "七", "meaningEn": "seven"},
+    {"num": 8, "nrs": "ok", "ipa": "[ok]", "symbol": "八弦、二重四重", "meaningJa": "八", "meaningEn": "eight"},
+    {"num": 9, "nrs": "nov", "ipa": "[nov]", "symbol": "九軌道、極限", "meaningJa": "九", "meaningEn": "nine"},
+    {"num": 10, "nrs": "dek", "ipa": "[dek]", "symbol": "満天、十全十美", "meaningJa": "十", "meaningEn": "ten"},
+]
+
+derivational_suffixes = [
+    {"suffix": "-as", "function": "日常的行為者・実務者", "example": "ner -> neras", "meaning": "給仕人、配膳者"},
+    {"suffix": "-or", "function": "専門職・知識人・指導者", "example": "sufo -> sufor", "meaning": "プログラマー、医師"},
+    {"suffix": "-is", "function": "学術研究者・探求者", "example": "vyran -> vyranis", "meaning": "哲学者、探求者"},
+    {"suffix": "-el", "function": "道具・器具・機械・客体", "example": "mator -> pelel", "meaning": "スマホ、料理"},
+    {"suffix": "-ar / -an", "function": "場所・施設・空間", "example": "dom -> domar", "meaning": "家、病院、カフェ"},
+    {"suffix": "-il", "function": "指小辞・愛称・親愛", "example": "vel -> velil", "meaning": "若木、新芽、薬草"},
+    {"suffix": "-om", "function": "集合体・領域・世界", "example": "dom -> domom", "meaning": "都市、森林、IT空間"},
+    {"suffix": "-i", "function": "形容詞化", "example": "falun -> faluni", "meaning": "明るい、輝かしい"},
+    {"suffix": "-u", "function": "副詞化", "example": "eiran -> eirinu", "meaning": "永遠に、いつでも"},
+]
+
+vocab_list = []
+for idx, (cat, nrs, ipa, pos, ja, en, notes) in enumerate(entries, 1):
+    vocab_list.append({
+        "id": idx,
+        "category": cat,
+        "nrs": nrs,
+        "ipa": ipa,
+        "pos": pos,
+        "meaningJa": ja,
+        "meaningEn": en,
+        "notes": notes
+    })
+
+json_data = {
+    "version": "15.0",
+    "language": "Nebulith",
+    "languageJa": "ネビュリス（星辰語）",
+    "updatedAt": "2026-10-15",
+    "status": "Vetted and Sonority Compliant",
+    "totalEntries": len(vocab_list),
+    "phonology": {
+        "vowels": ["a", "e", "i", "o", "u", "y"],
+        "diphthongs": ["ai", "ei", "au", "oi"],
+        "consonants": ["m", "n", "l", "r", "s", "z", "c", "j", "f", "v", "h", "w", "p", "t", "k", "b", "d", "g"],
+        "carrier": "'",
+        "codaRestriction": ["a", "e", "i", "o", "u", "y", "l", "r", "n", "m", "s"]
+    },
+    "grammar": {
+        "orbitalCases": orbital_cases,
+        "pronouns": pronouns,
+        "orbitalNumbers": orbital_numbers,
+        "derivationalSuffixes": derivational_suffixes
+    },
+    "vocabulary": vocab_list
+}
+
+with open("data/lexicon.json", "w", encoding="utf-8") as f:
+    json.dump(json_data, f, ensure_ascii=False, indent=2)
+
+print(f"Successfully written {len(vocab_list)} entries to data/lexicon.json!")
+
+# -----------------------------------------------------------------------------
+# 3. Output data/lexicon.csv
+# -----------------------------------------------------------------------------
+with open("data/lexicon.csv", "w", encoding="utf-8-sig", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["id", "category", "nrs", "ipa", "pos", "meaning_ja", "meaning_en", "notes"])
+    for item in vocab_list:
+        writer.writerow([
+            item["id"],
+            item["category"],
+            item["nrs"],
+            item["ipa"],
+            item["pos"],
+            item["meaningJa"],
+            item["meaningEn"],
+            item["notes"]
+        ])
+
+print("Successfully written to data/lexicon.csv!")
+
+# -----------------------------------------------------------------------------
+# 4. Output data/StaticLexicon.kt (Kotlin Source Code for KMP Studio)
+# -----------------------------------------------------------------------------
+kt_header = '''package com.nebulith.data
+
+/**
+ * Auto-generated by tools/build_master_lexicon_v15.py
+ * Nebulith Master Lexicon v15.0 (251 Vetted Roots across 10 Domains)
+ */
+data class LexiconEntry(
+    val id: Int,
+    val category: String,
+    val nrs: String,
+    val ipa: String,
+    val pos: String,
+    val meaningJa: String,
+    val meaningEn: String,
+    val notes: String = ""
+)
+
+object StaticLexicon {
+    val ENTRIES: List<LexiconEntry> = listOf(
+'''
+
+kt_body = ""
+for item in vocab_list:
+    nrs = item["nrs"].replace('"', '\\"')
+    ipa = item["ipa"].replace('"', '\\"')
+    pos = item["pos"].replace('"', '\\"')
+    ja = item["meaningJa"].replace('"', '\\"')
+    en = item["meaningEn"].replace('"', '\\"')
+    cat = item["category"].replace('"', '\\"')
+    notes = item["notes"].replace('"', '\\"')
+    kt_body += f'        LexiconEntry({item["id"]}, "{cat}", "{nrs}", "{ipa}", "{pos}", "{ja}", "{en}", "{notes}"),\n'
+
+kt_footer = '''    )
+
+    private val nrsIndex: Map<String, LexiconEntry> by lazy {
+        ENTRIES.associateBy { it.nrs.lowercase() }
+    }
+
+    fun findByNrs(nrs: String): LexiconEntry? = nrsIndex[nrs.lowercase()]
+}
+'''
+
+with open("data/StaticLexicon.kt", "w", encoding="utf-8") as f:
+    f.write(kt_header + kt_body + kt_footer)
+
+print("Successfully written to data/StaticLexicon.kt!")

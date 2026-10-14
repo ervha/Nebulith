@@ -132,6 +132,7 @@
 | **`tolom`** | [to.lom] | 名 | インターネット、Web、世界通信網 | internet, cyber network | 世界情報網 |
 | **`vylatel`** | [vy.la.tel] | 名 | ディスプレイ、画面、モニター | display, screen, monitor | 映像出力板 |
 | **`falel`** | [fa.lel] | 名 | 写真、画像、静止画 | photo, image, graphic | 光の記録 |
+| **`livar`** | [li.var] | 名 | データベース、書庫、情報保管庫 | database, repository | データ集積所 |
 | **`jyn`** | [ʒyn] | 名 | 電気、電力、電荷、エネルギー | electricity, power, energy | 電力・エネルギー |
 | **`jynel`** | [ʒy.nel] | 名 | バッテリー、蓄電池、電源 | battery, power cell | 蓄電器 |
 | **`rin`** | [rin] | 名 | 円、真円、環 | circle, ring | 幾何円 |
@@ -147,12 +148,6 @@
 | **`bitas`** | [bi.tas] | 名 | ビット、情報単位、二値信号 | bit, binary unit | 論理の最小単位 |
 | **`matris`** | [mat.ris] | 名 | 行列、マトリクス、格子配列 | matrix, grid array | 二次元配列 |
 | **`skopin`** | [sko.pin] | 名 | スコープ、有効範囲、視野域 | scope, valid range | 変数の可視範囲 |
-
-### 2. 数理・幾講・情報科学
-
-| NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
-| :--- | :--- | :---: | :--- | :--- | :--- |
-| **`livar`** | [li.var] | 名 | データベース、書庫、情報保管庫 | database, repository | データ集積所 |
 
 ### 3. 生命・身体・医療
 
