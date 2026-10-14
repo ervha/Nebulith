@@ -1,4 +1,4 @@
-# 人工言語「Nebulith」マスター辞書データ定義書（Nebulith Master Lexicon v12.0）
+# 人工言語「Nebulith（ネビュリス）」マスター辞書データ定義書（Nebulith Master Lexicon v12.0）
 
 **文書バージョン**: v12.0 (シャレイア・キプソル準拠新音韻・NRS公式転写対応版)  
 **最終更新日**: 2026-10-14  
