@@ -206,7 +206,7 @@ object DeterministicLexiconEngine {
 
 ---
 
-## 5. 統合スタジオUI および Android IME 仕様
+## 5. 統合スタジオUI 仕様
 
 ### 5.1 単一統合画面構成（`NebulithStudioScreen`）
 1. **上段：リアルタイム双方向変換パネル**
