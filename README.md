@@ -12,7 +12,7 @@ Nebulith（ネビュリス）は、天体運行論・軌道力学および自然
 Nebulith/
 ├── docs/                                # 仕様書・辞書・言語設計書
 │   ├── Project Requirements And Design.md  # 総合要件定義書 (v17.0)
-│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v12.0)
+│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v13.0)
 │   └── Nebulith Executive Summary.md       # プロジェクト総括リファレンス
 ├── fonts/                               # TrueTypeフォント成果物
 │   ├── Nebulith-Regular.ttf             # Nebulith公式TrueTypeフォント
@@ -50,6 +50,19 @@ Nebulith/
 ### 3. 音節構造とソノリティ制限
 * **音節骨格**: `(C)V(C)`
 * **語末子音（Coda）制限**: 語末（Coda）に立ちうる子音を高い響き度を持つ **`l, r, n, m, s` の5種** に限定。音節の切れ味と余韻の心地よさを両立。
+
+---
+
+### 4. 語根ファミリー血縁体系 & 役割接尾辞
+* **単音節核と血縁関係**: yr (星) → yris (輝き), ylan (瞳), yrel (観測) など、同じ概念が自然に似た音・文字を共有。
+* **役割派生接尾辞**:
+  * -as (日常の行為者: civalas 歌い手)
+  * -or (専門職・医師・導師: darisor 医師, sufor プログラマー, yrelor 観測官)
+  * -is (学者・探求者: yranis 哲人)
+  * -el (道具・機械: sufel PC, 	olel スマホ, sorasel 手記)
+  * -ar / -an (場所・施設: darisar 診療所, sorasan 記録院)
+  * -om (領域・世界: elom 森林, domom 都市, 	olom ネット)
+  * -il (愛称・縮小: yril 星の子)
 
 ---
 
