@@ -16,48 +16,26 @@ import javax.swing.event.DocumentEvent
 import javax.swing.event.DocumentListener
 import javax.swing.table.AbstractTableModel
 
+private object AppFonts { val available by lazy { GraphicsEnvironment.getLocalGraphicsEnvironment().availableFontFamilyNames.toSet() } }
+
 fun getAppFont(size: Float, bold: Boolean = false): Font {
     val candidates = listOf("Yu Gothic UI", "Meiryo", "MS UI Gothic", "Segoe UI", "Noto Sans CJK JP", "Dialog")
-    val available = GraphicsEnvironment.getLocalGraphicsEnvironment().availableFontFamilyNames.toSet()
+    val available = AppFonts.available
     val chosen = candidates.firstOrNull { it in available } ?: "Dialog"
     val style = if (bold) Font.BOLD else Font.PLAIN
     return Font(chosen, style, size.toInt())
 }
 
-object M3Theme {
-    val primary = Color(0x1B, 0x5E, 0xA0)
-    val onPrimary = Color(0xFF, 0xFF, 0xFF)
-    val primaryContainer = Color(0xD8, 0xE4, 0xFF)
-    val onPrimaryContainer = Color(0x00, 0x1D, 0x36)
-    val secondary = Color(0x53, 0x5F, 0x70)
-    val secondaryContainer = Color(0xD7, 0xE3, 0xF8)
-    val onSecondaryContainer = Color(0x10, 0x1C, 0x2B)
-    val surface = Color(0xF8, 0xF9, 0xFF)
-    val surfaceVariant = Color(0xDF, 0xE2, 0xEC)
-    val onSurface = Color(0x19, 0x1C, 0x20)
-    val onSurfaceVariant = Color(0x43, 0x47, 0x4E)
-    val outline = Color(0x73, 0x77, 0x7F)
-    val outlineVariant = Color(0xC3, 0xC6, 0xD0)
-    val cardBg = Color(0xFF, 0xFF, 0xFF)
-    val cardSelected = Color(0xEE, 0xF4, 0xFF)
-    val gold = Color(0xC5, 0x9B, 0x27)
-    val chipBg = Color(0xEB, 0xEE, 0xF5)
-
-    fun font(size: Float, bold: Boolean = false) = getAppFont(size, bold)
-    val fontBase get() = getAppFont(14f)
-    val fontTitle get() = getAppFont(18f, bold = true)
-    val fontSub get() = getAppFont(12f, bold = true)
-}
-
 object MaterialIcons {
     fun createIcon(type: String, size: Int = 18, color: Color = M3Theme.onSurfaceVariant): Icon = object : Icon {
+        private val colorRole = M3Theme.colors().indexOf(color)
         override fun getIconWidth() = size
         override fun getIconHeight() = size
         override fun paintIcon(c: Component?, g: Graphics?, x: Int, y: Int) {
             val g2 = (g as Graphics2D).create() as Graphics2D
             g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON)
             g2.setRenderingHint(RenderingHints.KEY_STROKE_CONTROL, RenderingHints.VALUE_STROKE_PURE)
-            g2.color = color
+            g2.color = if (colorRole >= 0) M3Theme.colors()[colorRole] else color
             g2.translate(x, y)
             val s = size.toFloat()
             val scale = s / 24f
@@ -125,11 +103,12 @@ object MaterialIcons {
     }
 }
 
-class RoundedCardBorder(val radius: Int = 16, val color: Color = M3Theme.outlineVariant) : AbstractBorder() {
+class RoundedCardBorder(val radius: Int = 12, val color: Color = M3Theme.outlineVariant) : AbstractBorder() {
+    private val colorRole = M3Theme.colors().indexOf(color)
     override fun paintBorder(c: Component, g: Graphics, x: Int, y: Int, width: Int, height: Int) {
         val g2 = g.create() as Graphics2D
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON)
-        g2.color = color
+        g2.color = if (colorRole >= 0) M3Theme.colors()[colorRole] else color
         g2.draw(RoundRectangle2D.Float(x + 0.5f, y + 0.5f, width - 1f, height - 1f, radius.toFloat(), radius.toFloat()))
         g2.dispose()
     }
@@ -153,6 +132,13 @@ object Bundle {
             Example(s[0], s[1], s[2], s[3], s[4])
         }
     }
+    val translationFrames: Map<Int,TranslationFrame> by lazy {
+        lines("translation-frames.tsv").filter { it.isNotBlank() }.associate { line ->
+            val c=line.split('\t')
+            fun values(i: Int)=c[i].split(',').filter { it.isNotEmpty() }.toSet()
+            c[0].toInt() to TranslationFrame(values(1),values(2),values(3))
+        }
+    }
     val font: Font by lazy { resource("Nebulith-Regular.ttf").use { Font.createFont(Font.TRUETYPE_FONT, it) } }
     val characters: String by lazy { resource("characters.txt").bufferedReader(Charsets.UTF_8).use { it.readText() } }
     val version: String by lazy { resource("version.txt").bufferedReader(Charsets.UTF_8).use { it.readText().trim() } }
@@ -163,7 +149,7 @@ class WordsModel : AbstractTableModel() {
         set(value) { field = value; fireTableDataChanged() }
     override fun getRowCount() = rows.size
     override fun getColumnCount() = 3
-    override fun getColumnName(column: Int) = listOf("語根 (NRS)", "日本語意味", "品詞")[column]
+    override fun getColumnName(column: Int) = listOf("語幹 (NRS)", "日本語意味", "品詞")[column]
     override fun getValueAt(row: Int, column: Int): Any = when(column) {
         0 -> rows[row].nrs; 1 -> rows[row].meaningJa; else -> rows[row].pos
     }
@@ -185,69 +171,73 @@ fun onChange(component: javax.swing.text.JTextComponent, action: () -> Unit) {
     })
 }
 
-class MaterialChip(val text: String, var isSelected: Boolean = false, val onClick: () -> Unit) : JPanel(FlowLayout(FlowLayout.CENTER, 8, 4)) {
-    val label = JLabel(text)
+class MaterialChip(text: String, isSelected: Boolean = false, val onClick: () -> Unit) : JToggleButton(text, isSelected) {
     init {
-        isOpaque = false
+        font = M3Theme.fontSub
+        isOpaque = false; isContentAreaFilled = false; isBorderPainted = false
+        border = BorderFactory.createEmptyBorder(7, 14, 7, 14)
         cursor = Cursor.getPredefinedCursor(Cursor.HAND_CURSOR)
-        label.font = M3Theme.fontSub
-        add(label)
+        addActionListener { onClick() }
         updateAppearance()
-        addMouseListener(object : MouseAdapter() {
-            override fun mouseClicked(e: MouseEvent) {
-                isSelected = !isSelected
-                updateAppearance()
-                onClick()
-            }
-        })
     }
     fun updateAppearance() {
-        if (isSelected) {
-            label.foreground = M3Theme.onPrimaryContainer
-        } else {
-            label.foreground = M3Theme.onSurfaceVariant
-        }
+        foreground = if (isSelected) M3Theme.onPrimaryContainer else M3Theme.onSurfaceVariant
         repaint()
     }
     override fun paintComponent(g: Graphics) {
+        foreground = if (isSelected) M3Theme.onPrimaryContainer else M3Theme.onSurfaceVariant
         val g2 = g.create() as Graphics2D
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON)
-        val arc = height
-        if (isSelected) {
-            g2.color = M3Theme.secondaryContainer
-            g2.fillRoundRect(1, 1, width - 2, height - 2, arc, arc)
-            g2.color = M3Theme.primary
-            g2.stroke = BasicStroke(1.2f)
-            g2.drawRoundRect(1, 1, width - 2, height - 2, arc, arc)
-        } else {
-            g2.color = M3Theme.cardBg
-            g2.fillRoundRect(1, 1, width - 2, height - 2, arc, arc)
-            g2.color = M3Theme.outlineVariant
-            g2.stroke = BasicStroke(1f)
-            g2.drawRoundRect(1, 1, width - 2, height - 2, arc, arc)
+        g2.color = if (isSelected) M3Theme.primaryContainer else M3Theme.chipBg
+        g2.fillRoundRect(1, 1, width-2, height-2, 12, 12)
+        if (hasFocus()) {
+            g2.color = M3Theme.primary; g2.stroke = BasicStroke(2f)
+            g2.drawRoundRect(2, 2, width-5, height-5, 12, 12)
         }
-        g2.dispose()
-        super.paintComponent(g)
+        g2.dispose(); super.paintComponent(g)
     }
 }
 
-class StudioPanel : JPanel(BorderLayout(16, 16)) {
+class StudioPanel(private val storage: StudioStorage? = null) : JPanel(BorderLayout(16, 16)) {
+    private val restored = storage?.load() ?: StudioState()
+    private val favorites = restored.favorites.toMutableSet()
+    private val history = restored.history.toMutableList()
+    private var ready = false
+    private var filtering = false
+    private var dirty = false
+    private val saveTimer = Timer(600) { saveNow() }.apply { isRepeats = false }
+    lateinit var mainSplit: JSplitPane
+        private set
+    private var splitInitialized = false
+    private var dividerRatio = restored.divider
+    val scope = JComboBox(arrayOf("すべての語", "お気に入り", "閲覧履歴"))
+    val favoriteButton = StudioButton("☆ お気に入り")
+    val clearHistoryButton = StudioButton("履歴を消去")
+    val windowControls = JPanel(FlowLayout(FlowLayout.RIGHT, 0, 0)).apply { isOpaque = false }
+    lateinit var dragArea: JPanel
+        private set
     val query = JTextField()
-    val editor = JTextArea("Falun el vyrin.", 3, 30)
+    val editor = JTextArea(restored.draft, 3, 30)
     val preview = JTextArea().readOnly()
     val model = WordsModel()
-    private val table = JTable(model)
+    val themeSelector = JComboBox(arrayOf("ライト", "ダーク"))
+    val previewSize = JSlider(24, 64, restored.previewSize)
+    val tabs = JTabbedPane()
+    val table = JTable(model)
+    val translator = TranslationPanel(restored.translationSource,restored.translationFromNrs) { queueSave() }
+    val workspaceSelector = JComboBox(arrayOf("辞書・筆記", "文章の相互変換"))
     private val details = JTextArea().readOnly()
     private val wordPreview = JLabel("", SwingConstants.CENTER)
     private val count = JLabel()
     private val categories = JComboBox((listOf("全カテゴリー") + Bundle.entries.map { it.category }.distinct()).toTypedArray())
-    private val status = JLabel("入力はこの画面内だけに保持します。終了後には保存されません。")
+    private val status = JLabel("設定と下書きはこの端末に自動保存されます。")
     private var selectedPos: String? = "すべて"
     private val posChipsPanel = JPanel(FlowLayout(FlowLayout.LEFT, 4, 0))
+    private val selectionActions = mutableListOf<AbstractButton>()
     private val relatedPanel = JPanel(FlowLayout(FlowLayout.LEFT, 4, 2))
 
     init {
-        border = BorderFactory.createEmptyBorder(16, 16, 16, 16)
+        border = BorderFactory.createEmptyBorder(8, 8, 8, 8)
         background = M3Theme.surface
 
         // 1. ヘッダーバー (Material You Top App Bar)
@@ -256,45 +246,38 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             background = M3Theme.cardBg
             border = BorderFactory.createCompoundBorder(
                 RoundedCardBorder(16, M3Theme.outlineVariant),
-                BorderFactory.createEmptyBorder(12, 16, 12, 16)
+                BorderFactory.createEmptyBorder(4, 12, 4, 12)
             )
         }
-        val titleBox = JPanel(FlowLayout(FlowLayout.LEFT, 10, 0)).apply { isOpaque = false }
+        val titleBox = JPanel(BorderLayout(12, 0)).apply { isOpaque = false }
         val logoIcon = JLabel(MaterialIcons.createIcon("star", 26, M3Theme.gold))
-        val titleText = JLabel("NEBULITH STUDIO").apply {
+        val titleText = JLabel("Nebulith Studio").apply {
             font = M3Theme.font(20f, bold = true)
             foreground = M3Theme.primary
         }
-        val subText = JLabel("星石語 (Nebulith) 統合言語スタジオ").apply {
+        val subText = JLabel("星石語を探す、書く、読む。").apply {
             font = M3Theme.font(14f)
             foreground = M3Theme.onSurfaceVariant
         }
-        titleBox.add(logoIcon); titleBox.add(titleText); titleBox.add(subText)
+        titleBox.add(logoIcon, BorderLayout.WEST)
+        titleBox.add(JPanel(GridLayout(2, 1, 0, 2)).apply {
+            isOpaque = false; add(titleText); add(subText)
+        }, BorderLayout.CENTER)
+        dragArea = header
         header.add(titleBox, BorderLayout.WEST)
 
         val metaBox = JPanel(FlowLayout(FlowLayout.RIGHT, 8, 0)).apply { isOpaque = false }
-        val badgeVer = JLabel(" Lexicon v23.5 ").apply {
-            font = M3Theme.fontSub
-            foreground = M3Theme.primary
-            isOpaque = true
-            background = M3Theme.primaryContainer
-            border = BorderFactory.createEmptyBorder(3, 8, 3, 8)
+        metaBox.add(JLabel(Bundle.version + "  ·  " + Bundle.entries.size + "語").apply {
+            font = M3Theme.font(12f); foreground = M3Theme.onSurfaceVariant
+        })
+        themeSelector.apply {
+            font = M3Theme.font(13f)
+            accessibleContext.accessibleName = "表示テーマ"
+            toolTipText = "ライト／ダークの切り替え（このセッション中のみ）"
+            addActionListener { setDarkMode(selectedIndex == 1) }
         }
-        val badgeFont = JLabel(" Font v2.5 ").apply {
-            font = M3Theme.fontSub
-            foreground = M3Theme.onSecondaryContainer
-            isOpaque = true
-            background = M3Theme.secondaryContainer
-            border = BorderFactory.createEmptyBorder(3, 8, 3, 8)
-        }
-        val badgeTotal = JLabel(" 1,008語 (多言語照合済) ").apply {
-            font = M3Theme.fontSub
-            foreground = M3Theme.onSurfaceVariant
-            isOpaque = true
-            background = M3Theme.chipBg
-            border = BorderFactory.createEmptyBorder(3, 8, 3, 8)
-        }
-        metaBox.add(badgeVer); metaBox.add(badgeFont); metaBox.add(badgeTotal)
+        metaBox.add(themeSelector)
+        metaBox.add(windowControls)
         header.add(metaBox, BorderLayout.EAST)
         add(header, BorderLayout.NORTH)
 
@@ -320,13 +303,17 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             background = M3Theme.surfaceVariant
             foreground = M3Theme.onSurface
             border = null
-            toolTipText = "語根、意味、IPA、IDを入力して絞り込み（スペースでAND検索）"
+            toolTipText = "語幹・意味・IPA・IDで検索（空白でAND検索） · Ctrl+L"
+            accessibleContext.accessibleName = "辞書検索"
+            caretColor = M3Theme.onSurface
         }
-        val clearBtn = JButton(MaterialIcons.createIcon("clear", 16, M3Theme.outline)).apply {
+        val clearBtn = StudioButton(MaterialIcons.createIcon("clear", 16, M3Theme.outline)).apply {
             isContentAreaFilled = false
             isBorderPainted = false
             cursor = Cursor.getPredefinedCursor(Cursor.HAND_CURSOR)
-            addActionListener { query.text = "" }
+            toolTipText = "検索語を消去"
+            accessibleContext.accessibleName = "検索語を消去"
+            addActionListener { query.text = ""; query.requestFocusInWindow() }
         }
         searchBar.add(searchIcon, BorderLayout.WEST)
         searchBar.add(query, BorderLayout.CENTER)
@@ -334,7 +321,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
 
         // 品詞クイックチップ
         posChipsPanel.apply { isOpaque = false }
-        val posList = listOf("すべて", "名", "動", "形", "副")
+        val posList = listOf("すべて", "名", "動", "形", "副", "接")
         val chips = mutableListOf<MaterialChip>()
         for (p in posList) {
             val chip = MaterialChip(p, isSelected = (p == "すべて")) {
@@ -363,20 +350,47 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
         catBox.add(categories, BorderLayout.CENTER)
         catBox.add(count, BorderLayout.EAST)
 
-        val searchControls = JPanel(GridLayout(0, 1, 0, 8)).apply {
-            isOpaque = false
-            add(searchBar)
-            add(posChipsPanel)
-            add(catBox)
+        val scopeBox = JPanel(BorderLayout(6, 0)).apply {
+            isOpaque = false; add(scope, BorderLayout.CENTER); add(clearHistoryButton, BorderLayout.EAST)
+        }
+        scope.apply {
+            font = M3Theme.fontBase; accessibleContext.accessibleName = "辞書の表示範囲"
+            addActionListener { clearHistoryButton.isVisible = selectedIndex == 2; filter() }
+        }
+        clearHistoryButton.apply {
+            isVisible = false; font = M3Theme.fontSub; background = M3Theme.chipBg; foreground = M3Theme.onSurfaceVariant
+            addActionListener { history.clear(); queueSave(); filter() }
+        }
+        val searchControls = JPanel().apply {
+            isOpaque = false; layout = BoxLayout(this, BoxLayout.Y_AXIS)
+            listOf(searchBar to 40, posChipsPanel to 36, catBox to 34, scopeBox to 34).forEachIndexed { index, (control, height) ->
+                control.alignmentX = Component.LEFT_ALIGNMENT
+                control.preferredSize = Dimension(100, height)
+                control.maximumSize = Dimension(Int.MAX_VALUE, height)
+                if (index > 0) add(Box.createVerticalStrut(8))
+                add(control)
+            }
         }
         searchCard.add(searchControls, BorderLayout.CENTER)
 
         // テーブル (M3 スタイル)
         table.apply {
-            rowHeight = 36
+            rowHeight = 40
+            background = M3Theme.cardBg
+            foreground = M3Theme.onSurface
+            intercellSpacing = Dimension(12, 1)
             setSelectionMode(ListSelectionModel.SINGLE_SELECTION)
             fillsViewportHeight = true
             font = M3Theme.font(14f)
+            tableHeader.preferredSize = Dimension(100, 30)
+            tableHeader.defaultRenderer = object : javax.swing.table.DefaultTableCellRenderer() {
+                override fun getTableCellRendererComponent(t: JTable?, value: Any?, selected: Boolean, focused: Boolean, row: Int, column: Int): Component {
+                    super.getTableCellRendererComponent(t, value, selected, focused, row, column)
+                    background = M3Theme.chipBg; foreground = M3Theme.onSurfaceVariant
+                    font = M3Theme.fontSub; border = BorderFactory.createEmptyBorder(4, 8, 4, 8)
+                    return this
+                }
+            }
             tableHeader.font = M3Theme.fontSub
             tableHeader.background = M3Theme.chipBg
             tableHeader.foreground = M3Theme.onSurfaceVariant
@@ -390,10 +404,12 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             columnModel.getColumn(2).preferredWidth = 55
         }
         val tableScroll = JScrollPane(table).apply {
+            setColumnHeaderView(table.tableHeader)
             border = BorderFactory.createCompoundBorder(
                 RoundedCardBorder(16, M3Theme.outlineVariant),
                 BorderFactory.createEmptyBorder(4, 4, 4, 4)
             )
+            background = M3Theme.cardBg
             viewport.background = M3Theme.cardBg
         }
 
@@ -404,7 +420,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
         }
 
         // 3. 右側：タブパネル (Details / Editor / Corpus)
-        val tabs = JTabbedPane().apply {
+        tabs.apply {
             font = M3Theme.font(14f, bold = true)
             background = M3Theme.surface
         }
@@ -415,13 +431,13 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             background = M3Theme.cardBg
             border = BorderFactory.createCompoundBorder(
                 RoundedCardBorder(16, M3Theme.outlineVariant),
-                BorderFactory.createEmptyBorder(16, 16, 16, 16)
+                BorderFactory.createEmptyBorder(8, 8, 8, 8)
             )
         }
 
         // 大判字形表示 (Hero Glyph Card)
         val heroGlyphPanel = JPanel(BorderLayout()).apply {
-            preferredSize = Dimension(400, 110)
+            preferredSize = Dimension(400, 90)
             isOpaque = true
             background = M3Theme.primaryContainer
             border = BorderFactory.createCompoundBorder(
@@ -446,11 +462,13 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
                 RoundedCardBorder(12, M3Theme.outlineVariant),
                 BorderFactory.createEmptyBorder(6, 6, 6, 6)
             )
+            background = M3Theme.cardBg
             viewport.background = M3Theme.cardBg
         }
 
         // 関連語・派生語パネル
         relatedPanel.apply {
+            layout = BoxLayout(this, BoxLayout.X_AXIS)
             isOpaque = true
             background = M3Theme.chipBg
             border = BorderFactory.createCompoundBorder(
@@ -460,10 +478,10 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
         }
 
         // アクションボタン群
-        val btnBar = JPanel(FlowLayout(FlowLayout.RIGHT, 8, 0)).apply { isOpaque = false }
-        val copyEntryBtn = JButton("引用形式をコピー", MaterialIcons.createIcon("copy", 16, M3Theme.primary)).apply {
+        val btnBar = JPanel(GridLayout(1, 0, 6, 0)).apply { isOpaque = false }
+        val copyEntryBtn = StudioButton("語の情報をコピー", MaterialIcons.createIcon("copy", 16, M3Theme.primary)).apply {
             font = M3Theme.fontSub
-            isFocusPainted = false
+            isFocusPainted = true
             background = M3Theme.secondaryContainer
             foreground = M3Theme.onSecondaryContainer
             cursor = Cursor.getPredefinedCursor(Cursor.HAND_CURSOR)
@@ -471,14 +489,13 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
                 val selected = this@StudioPanel.model.rows.getOrNull(table.selectedRow)
                 if (selected != null) {
                     val text = "ID ${selected.id} ${selected.nrs} ${selected.ipa} (${selected.pos}) ${selected.meaningJa} / ${selected.meaningEn} [${selected.notes}]"
-                    Toolkit.getDefaultToolkit().systemClipboard.setContents(StringSelection(text), null)
-                    status.text = "辞書エントリをクリップボードにコピーしました。"
+                    copyText(text, "語の情報をコピーしました。")
                 }
             }
         }
-        val insert = JButton("選択した語をエディタへ追加", MaterialIcons.createIcon("add", 16, M3Theme.onPrimary)).apply {
+        val insert = StudioButton("エディタへ追加", MaterialIcons.createIcon("add", 16, M3Theme.onPrimary)).apply {
             font = M3Theme.fontSub
-            isFocusPainted = false
+            isFocusPainted = true
             background = M3Theme.primary
             foreground = M3Theme.onPrimary
             cursor = Cursor.getPredefinedCursor(Cursor.HAND_CURSOR)
@@ -490,6 +507,20 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
                 }
             }
         }
+        favoriteButton.apply {
+            font = M3Theme.fontSub; background = M3Theme.chipBg; foreground = M3Theme.primary
+            addActionListener {
+                val entry = this@StudioPanel.model.rows.getOrNull(table.selectedRow)
+                if (entry != null) {
+                    if (!favorites.add(entry.id)) favorites.remove(entry.id)
+                    text = if (entry.id in favorites) "★ 登録済み" else "☆ お気に入り"
+                    queueSave()
+                    if (scope.selectedIndex == 1) filter()
+                }
+            }
+        }
+        selectionActions.addAll(listOf(copyEntryBtn, insert, favoriteButton))
+        btnBar.add(favoriteButton)
         btnBar.add(copyEntryBtn)
         btnBar.add(insert)
 
@@ -499,7 +530,9 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             val relatedBox = JPanel(BorderLayout(4, 2)).apply {
                 isOpaque = false
                 add(JLabel("派生・関連語 (クリックでジャンプ):").apply { font = M3Theme.fontSub; foreground = M3Theme.onSurfaceVariant }, BorderLayout.NORTH)
-                add(relatedPanel, BorderLayout.CENTER)
+                add(JScrollPane(relatedPanel, ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED).apply {
+                    border = null; preferredSize = Dimension(100, 62); background = M3Theme.cardBg
+                }, BorderLayout.CENTER)
             }
             add(relatedBox, BorderLayout.SOUTH)
         }
@@ -515,11 +548,14 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             background = M3Theme.cardBg
             border = BorderFactory.createCompoundBorder(
                 RoundedCardBorder(16, M3Theme.outlineVariant),
-                BorderFactory.createEmptyBorder(16, 16, 16, 16)
+                BorderFactory.createEmptyBorder(8, 8, 8, 8)
             )
         }
         editor.apply {
             font = M3Theme.font(18f)
+            background = M3Theme.cardBg
+            foreground = M3Theme.onSurface
+            accessibleContext.accessibleName = "NRS入力"
             lineWrap = true
             wrapStyleWord = true
             border = BorderFactory.createEmptyBorder(10, 10, 10, 10)
@@ -532,7 +568,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             preferredSize = Dimension(400, 140)
         }
         preview.apply {
-            font = Bundle.font.deriveFont(46f)
+            font = Bundle.font.deriveFont(previewSize.value.toFloat())
             foreground = M3Theme.primary
             border = BorderFactory.createEmptyBorder(12, 12, 12, 12)
         }
@@ -542,11 +578,11 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
                 BorderFactory.createEmptyBorder(4, 4, 4, 4)
             )
         }
-        val copy = JButton("入力したNRSをコピー", MaterialIcons.createIcon("copy", 16, M3Theme.onPrimary)).apply {
+        val copy = StudioButton("入力したNRSをコピー", MaterialIcons.createIcon("copy", 16, M3Theme.onPrimary)).apply {
             font = M3Theme.fontSub
             background = M3Theme.primary
             foreground = M3Theme.onPrimary
-            isFocusPainted = false
+            isFocusPainted = true
             cursor = Cursor.getPredefinedCursor(Cursor.HAND_CURSOR)
             addActionListener {
                 try {
@@ -564,7 +600,20 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
         }
         val previewCenter = JPanel(BorderLayout(0, 4)).apply {
             isOpaque = false
-            add(JLabel("天体記号フォント リアルタイム描画 (Nebulith-Regular v2.5):").apply { font = M3Theme.fontSub; foreground = M3Theme.primary }, BorderLayout.NORTH)
+            add(JPanel(BorderLayout()).apply {
+                isOpaque = false
+                add(JLabel("専用字体プレビュー").apply { font = M3Theme.fontSub; foreground = M3Theme.onSurfaceVariant }, BorderLayout.WEST)
+                val sizeLabel = JLabel("${previewSize.value} px").apply { font = M3Theme.fontSub; foreground = M3Theme.onSurfaceVariant }
+                previewSize.apply {
+                    preferredSize = Dimension(150, 28); isOpaque = false
+                    toolTipText = "プレビュー文字サイズ"
+                    accessibleContext.accessibleName = "プレビュー文字サイズ"
+                    addChangeListener { preview.font = Bundle.font.deriveFont(value.toFloat()); sizeLabel.text = "${value} px"; queueSave() }
+                }
+                add(JPanel(BorderLayout(6, 0)).apply {
+                    isOpaque = false; add(previewSize, BorderLayout.CENTER); add(sizeLabel, BorderLayout.EAST)
+                }, BorderLayout.EAST)
+            }, BorderLayout.NORTH)
             add(previewScroll, BorderLayout.CENTER)
         }
         inputCard.add(editorTop, BorderLayout.NORTH)
@@ -608,18 +657,49 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             resizeWeight = .28
             border = null
         }
-        tabs.addTab("規範コーパス (30例)", examplePanel)
+        tabs.addTab("例文・読み物 (${Bundle.examples.size})", examplePanel)
 
         // 全体スプリット
         val split = JSplitPane(JSplitPane.HORIZONTAL_SPLIT, left, tabs).apply {
-            resizeWeight = .44
-            dividerLocation = 480
+            resizeWeight = .38
+            dividerLocation = 430
             border = null
             isOpaque = false
         }
         left.minimumSize = Dimension(320, 300)
         tabs.minimumSize = Dimension(400, 300)
-        add(split, BorderLayout.CENTER)
+        mainSplit = split
+        split.addPropertyChangeListener(JSplitPane.DIVIDER_LOCATION_PROPERTY) {
+            if (ready && splitInitialized && split.width > 0 && split.isShowing) {
+                dividerRatio = (split.dividerLocation.toDouble() / split.width).coerceIn(.15, .85)
+                queueSave()
+            }
+        }
+        split.addComponentListener(object : java.awt.event.ComponentAdapter() {
+            override fun componentResized(e: java.awt.event.ComponentEvent) {
+                if (split.width > 0 && !splitInitialized) {
+                    val ratio = dividerRatio
+                    split.dividerLocation = (split.width * ratio).toInt()
+                    dividerRatio = ratio
+                    splitInitialized = true
+                }
+            }
+        })
+        val workspaces = JPanel(CardLayout()).apply {
+            isOpaque = false; add(split, "dictionary"); add(translator, "translation")
+        }
+        workspaceSelector.apply {
+            font = M3Theme.fontBase; accessibleContext.accessibleName = "作業画面"
+            addActionListener { (workspaces.layout as CardLayout).show(workspaces, if(selectedIndex==0) "dictionary" else "translation") }
+        }
+        add(JPanel(BorderLayout(0, 10)).apply {
+            isOpaque = false
+            add(JPanel(BorderLayout()).apply {
+                isOpaque = false; add(workspaceSelector, BorderLayout.WEST)
+                add(JLabel("オフライン · 日本語 ⇄ Nebulith").apply { font = M3Theme.fontSub; foreground = M3Theme.onSurfaceVariant }, BorderLayout.EAST)
+            }, BorderLayout.NORTH)
+            add(workspaces, BorderLayout.CENTER)
+        }, BorderLayout.CENTER)
 
         // ステータスバー (M3 Footer)
         val statusBar = JPanel(BorderLayout()).apply {
@@ -647,22 +727,87 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             status.text = if (Bundle.font.canDisplayUpTo(printable) >= 0)
                 "専用字体にない文字を含みます。入力はそのまま保持しています。"
             else
-                "NRSを専用字体で表示しています。入力はこのセッション内でのみ有効です。"
+                "NRSを専用字体で表示しています。下書きを自動保存します。"
         }
-        table.selectionModel.addListSelectionListener {
+        table.selectionModel.addListSelectionListener { event ->
             val entry = this@StudioPanel.model.rows.getOrNull(table.selectedRow)
             if (entry != null) {
+                favoriteButton.text = if (entry.id in favorites) "★ 登録済み" else "☆ お気に入り"
+                if (!filtering && !event.valueIsAdjusting) recordVisit(entry.id)
                 wordPreview.text = entry.nrs
-                details.text = "【語根】 ${entry.nrs}      【発音】 ${entry.ipa}\n【品詞】 ${entry.pos}      【ID】 ${entry.id}      【領域】 ${entry.category}\n\n【日本語意味】\n${entry.meaningJa}\n\n【英語意味】\n${entry.meaningEn}\n\n【語源・備考】\n${entry.notes}"
+                details.text = "${entry.nrs}  ${entry.ipa}\n${entry.pos}  ·  #${entry.id}  ·  ${entry.category}\n\n日本語\n${entry.meaningJa}\n\nEnglish\n${entry.meaningEn}\n\n注記\n${entry.notes}"
                 details.caretPosition = 0
                 updateRelatedChips(entry)
             }
         }
 
+        table.addMouseListener(object : MouseAdapter() {
+            override fun mouseClicked(e: MouseEvent) { model.rows.getOrNull(table.selectedRow)?.let { recordVisit(it.id) } }
+        })
+        onChange(editor) { queueSave() }
         preview.text = editor.text
         filter()
         table.setRowSelectionInterval(0, 0)
         examplesList.selectedIndex = 0
+        getInputMap(WHEN_ANCESTOR_OF_FOCUSED_COMPONENT).put(KeyStroke.getKeyStroke("control L"), "search")
+        actionMap.put("search", object : AbstractAction() {
+            override fun actionPerformed(e: java.awt.event.ActionEvent) {
+                val field = if(workspaceSelector.selectedIndex==1) translator.source else query
+                field.requestFocusInWindow(); field.selectAll()
+            }
+        })
+        query.getInputMap().put(KeyStroke.getKeyStroke("ESCAPE"), "clear-search")
+        query.actionMap.put("clear-search", object : AbstractAction() {
+            override fun actionPerformed(e: java.awt.event.ActionEvent) { query.text = "" }
+        })
+        M3Theme.refresh(this, M3Theme.colors())
+        query.border = BorderFactory.createEmptyBorder(2, 0, 2, 0)
+        setDarkMode(restored.dark)
+        status.text = storage?.loadProblem ?: "設定と下書きはこの端末に自動保存されます。"
+        ready = true
+    }
+
+    private fun recordVisit(id: Int) {
+        if (!ready || history.firstOrNull() == id) return
+        history.remove(id); history.add(0, id)
+        while (history.size > 50) history.removeAt(history.lastIndex)
+        queueSave()
+    }
+    private fun queueSave() {
+        if (!ready || storage == null) return
+        dirty = true; saveTimer.restart()
+    }
+    fun saveNow(): Boolean {
+        saveTimer.stop()
+        if (storage == null || !dirty) return true
+        return try {
+            storage.save(StudioState(M3Theme.dark, previewSize.value, dividerRatio, editor.text, favorites.toSet(), history.toList(), translator.source.text, translator.direction.selectedIndex == 1))
+            dirty = false
+            val printable = editor.text.filterNot { it == '\n' || it == '\r' || it == '\t' }
+            status.text = if (Bundle.font.canDisplayUpTo(printable) >= 0)
+                "保存しました。専用字体にない文字も入力のまま保持しています。" else "下書きと設定を保存しました。"
+            true
+        } catch (_: Exception) {
+            status.text = storage.loadProblem ?: "保存できませんでした。入力をコピーして保管してください。"
+            false
+        }
+    }
+
+    fun setDarkMode(dark: Boolean) {
+        if (dark == M3Theme.dark) return
+        val previous = M3Theme.colors()
+        M3Theme.install(dark)
+        M3Theme.refresh(this, previous)
+        query.border = BorderFactory.createEmptyBorder(2, 0, 2, 0)
+        if (themeSelector.selectedIndex != if (dark) 1 else 0) themeSelector.selectedIndex = if (dark) 1 else 0
+        queueSave()
+    }
+
+    private fun copyText(text: String, success: String) {
+        try {
+            Toolkit.getDefaultToolkit().systemClipboard.setContents(StringSelection(text), null)
+            status.text = success
+        } catch (_: Exception) { status.text = "コピーできませんでした。文字列を選択してコピーしてください。" }
     }
 
     private fun updateRelatedChips(entry: Entry) {
@@ -672,9 +817,9 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             relatedPanel.add(JLabel("（派生語なし）").apply { font = M3Theme.fontSub; foreground = M3Theme.outline })
         } else {
             for (r in related) {
-                val chip = JButton("${r.nrs} (${r.meaningJa.split("、")[0]})").apply {
+                val chip = StudioButton("${r.nrs} (${r.meaningJa.split("、")[0]})").apply {
                     font = M3Theme.fontSub
-                    isFocusPainted = false
+                    isFocusPainted = true
                     background = M3Theme.cardBg
                     foreground = M3Theme.primary
                     cursor = Cursor.getPredefinedCursor(Cursor.HAND_CURSOR)
@@ -691,16 +836,26 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
 
     private fun filter() {
         val category = if (categories.selectedIndex == 0) null else categories.selectedItem as String
-        model.rows = Catalog.search(Bundle.entries, query.text, category, selectedPos)
+        val selectedId = model.rows.getOrNull(table.selectedRow)?.id
+        filtering = true
+        val found = Catalog.search(Bundle.entries, query.text, category, selectedPos)
+        model.rows = when (scope.selectedIndex) {
+            1 -> found.filter { it.id in favorites }
+            2 -> found.filter { it.id in history }.sortedBy { history.indexOf(it.id) }
+            else -> found
+        }
         count.text = "${model.rows.size} / ${Bundle.entries.size}語"
+        selectionActions.forEach { it.isEnabled = model.rows.isNotEmpty() }
         if (model.rows.isEmpty()) {
             wordPreview.text = ""
             details.text = "一致する語がありません。検索条件を変更してください。"
             relatedPanel.removeAll()
             relatedPanel.revalidate()
         } else {
-            table.setRowSelectionInterval(0, 0)
+            val index = model.rows.indexOfFirst { it.id == selectedId }.coerceAtLeast(0)
+            table.setRowSelectionInterval(index, index)
         }
+        filtering = false
     }
 }
 
@@ -710,7 +865,7 @@ private fun layoutTree(component: Component) {
 
 fun main(args: Array<String>) {
     try {
-        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName())
+        UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName())
     } catch (_: Exception) {}
 
     val defaultAppFont = getAppFont(14f)
@@ -720,7 +875,27 @@ fun main(args: Array<String>) {
         defaults[it] = javax.swing.plaf.FontUIResource(defaultAppFont)
     }
 
+    M3Theme.install(false)
+
+    if (args.contains("--translation-self-test")) {
+        SwingUtilities.invokeAndWait { checkOfflineTranslation() }
+        return
+    }
     if (args.contains("--self-test")) {
+        fun luminance(c: Color): Double {
+            fun linear(v: Int): Double { val s=v/255.0; return if(s<=0.04045) s/12.92 else Math.pow((s+0.055)/1.055,2.4) }
+            return .2126*linear(c.red)+.7152*linear(c.green)+.0722*linear(c.blue)
+        }
+        for(dark in listOf(false,true)) {
+            M3Theme.install(dark)
+            for((fg,bg) in listOf(M3Theme.onSurface to M3Theme.cardBg, M3Theme.onSurfaceVariant to M3Theme.surface,
+                    M3Theme.onPrimary to M3Theme.primary, M3Theme.onPrimaryContainer to M3Theme.primaryContainer,
+                    M3Theme.onSecondaryContainer to M3Theme.secondaryContainer, M3Theme.primary to M3Theme.cardBg)) {
+                val a=luminance(fg); val b=luminance(bg)
+                check((maxOf(a,b)+.05)/(minOf(a,b)+.05)>=4.5) { "Insufficient text contrast" }
+            }
+        }
+        M3Theme.install(false)
         check(Bundle.entries.size == 1008 && Bundle.entries.map { it.id }.toSet().size == 1008)
         check(Bundle.examples.size == 30)
         check(Catalog.search(Bundle.entries, "kyrven").any { it.id == 37 })
@@ -730,25 +905,129 @@ fun main(args: Array<String>) {
         check(Catalog.search(Bundle.entries, entry.nrs, "not-a-category").isEmpty())
         check(Bundle.font.canDisplayUpTo(Bundle.characters) == -1)
         SwingUtilities.invokeAndWait {
+            checkOfflineTranslation()
             val panel = StudioPanel()
             val raw = "Falun el vyrin.\n“ka?” ' ? 日本語"
             panel.editor.text = raw; check(panel.preview.text == raw)
             panel.query.text = "星雲"; check(panel.editor.text == raw && panel.preview.text == raw)
-            panel.query.text = ""; panel.editor.text = "Falun el vyrin."; panel.setSize(1180, 820); layoutTree(panel)
-            val image = BufferedImage(1180, 820, BufferedImage.TYPE_INT_RGB)
-            val g = image.createGraphics()
-            g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON)
-            panel.printAll(g); g.dispose()
+            panel.editor.caretPosition = 9; panel.editor.moveCaretPosition(2)
+            panel.tabs.selectedIndex = 1
+            val selectedId = panel.model.rows[panel.table.selectedRow].id
+            for (dark in listOf(true, false, true, false)) {
+                panel.setDarkMode(dark)
+                check(M3Theme.dark == dark)
+                check(panel.editor.text == raw && panel.preview.text == raw)
+                check(panel.editor.selectionStart == 2 && panel.editor.selectionEnd == 9)
+                check(panel.editor.caret.mark == 9 && panel.editor.caret.dot == 2)
+                check(panel.query.text == "星雲" && panel.tabs.selectedIndex == 1)
+                check(panel.model.rows[panel.table.selectedRow].id == selectedId)
+                check(panel.editor.foreground == M3Theme.onSurface)
+                check(panel.editor.background == M3Theme.cardBg)
+                check(panel.editor.caretColor == M3Theme.onSurface)
+                check(panel.table.background == M3Theme.cardBg)
+            }
+            panel.previewSize.value = 56
+            check(panel.preview.font.size == 56 && panel.editor.text == raw)
+            panel.query.text = "不存在-xyz"; check(panel.model.rowCount == 0)
+            check(panel.editor.text == raw)
+            panel.query.text = ""; panel.editor.text = "Falun el vyrin."
             val screenshot = args.getOrNull(args.indexOf("--self-test") + 1)
-            if (screenshot != null) ImageIO.write(image, "png", File(screenshot))
+            fun capture(path: String, width: Int, height: Int) {
+                panel.setSize(width, height); layoutTree(panel)
+                val image = BufferedImage(width, height, BufferedImage.TYPE_INT_RGB)
+                val g = image.createGraphics()
+                g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON)
+                panel.paint(g); g.dispose(); ImageIO.write(image, "png", File(path))
+            }
+            if(screenshot != null) {
+                panel.tabs.selectedIndex = 0
+                capture(screenshot, 1180, 820)
+                panel.setDarkMode(true)
+                capture(screenshot.replace(".png", "-dark.png"), 1180, 820)
+                panel.tabs.selectedIndex = 1
+                capture(screenshot.replace(".png", "-editor-dark.png"), 1000, 700)
+                panel.tabs.selectedIndex = 2
+                capture(screenshot.replace(".png", "-reading-dark.png"), 1180, 820)
+                panel.setDarkMode(false)
+                panel.tabs.selectedIndex = 0
+                capture(screenshot.replace(".png", "-compact.png"), 900, 600)
+            }
+            val temp = java.nio.file.Files.createTempDirectory("nebulith-state-test-")
+            try {
+                StudioStorage(temp).use { store ->
+                    store.save(StudioState(divider=.57))
+                    val saved = StudioPanel(store)
+                    saved.editor.text = ""
+                    saved.previewSize.value = 58
+                    saved.setDarkMode(true)
+                    saved.translator.source.text = raw
+                    saved.translator.direction.selectedIndex = 1
+                    saved.favoriteButton.doClick()
+                    saved.table.setRowSelectionInterval(1, 1)
+                    check(saved.saveNow())
+                    val state = store.load()
+                    check(state.draft == "" && state.dark && state.previewSize == 58 && state.divider == .57)
+                    check(state.favorites == setOf(1) && state.history == listOf(2))
+                    check(state.translationSource == raw && state.translationFromNrs)
+                    check(runCatching { StudioStorage(temp).close() }.isFailure)
+                }
+                StudioStorage(temp).use { store ->
+                    val reopened = StudioPanel(store)
+                    check(reopened.editor.text == "" && reopened.previewSize.value == 58 && M3Theme.dark)
+                    check(reopened.translator.source.text == raw && reopened.translator.direction.selectedIndex == 1)
+                    reopened.scope.selectedIndex = 1
+                    check(reopened.model.rows.single().id == 1)
+                    reopened.scope.selectedIndex = 2
+                    check(reopened.model.rows.single().id == 2)
+                    reopened.clearHistoryButton.doClick()
+                    check(reopened.model.rowCount == 0)
+                    reopened.editor.text = raw
+                    reopened.translator.source.text = ""
+                    reopened.translator.direction.selectedIndex = 0
+                    check(reopened.saveNow())
+                }
+                StudioStorage(temp).use { store ->
+                    check(store.load().draft == raw && store.load().history.isEmpty())
+                    check(store.load().translationSource == "" && !store.load().translationFromNrs)
+                }
+                check(java.nio.file.Files.exists(temp.resolve("studio.properties.bak")))
+                java.nio.file.Files.write(temp.resolve("studio.properties"), "broken-original".toByteArray())
+                StudioStorage(temp).use { store ->
+                    store.load(); check(store.loadProblem != null)
+                    check(runCatching { store.save(StudioState()) }.isFailure)
+                    check(String(java.nio.file.Files.readAllBytes(temp.resolve("studio.properties"))) == "broken-original")
+                }
+            } finally {
+                check(temp.fileName.toString().startsWith("nebulith-state-test-"))
+                check(temp.toAbsolutePath().parent == java.nio.file.Paths.get(System.getProperty("java.io.tmpdir")).toAbsolutePath().normalize())
+                temp.toFile().deleteRecursively()
+            }
+            panel.translator.dispose()
+            println("PASS: resources, search, preview, theme/selection, settings and empty/Unicode draft restart, favorites/history, lock and corrupt-state protection")
         }
         return
     }
 
+    if (args.contains("--window-self-test")) {
+        runWindowSmokeTest(java.nio.file.Paths.get(args[args.indexOf("--window-self-test") + 1]))
+        return
+    }
     SwingUtilities.invokeLater {
-        val frame = JFrame("Nebulith Studio — 星石語 統合言語スタジオ (Material You)")
-        frame.defaultCloseOperation = WindowConstants.EXIT_ON_CLOSE
-        frame.contentPane = StudioPanel()
+        val frame = JFrame("Nebulith Studio — 星石語")
+        val storage = try { StudioStorage() } catch (e: Exception) {
+            JOptionPane.showMessageDialog(null, e.message ?: "保存先を開けません。", "Nebulith Studio", JOptionPane.WARNING_MESSAGE)
+            return@invokeLater
+        }
+        val panel = StudioPanel(storage)
+        configureStudioWindow(frame, panel) {
+            if (!panel.saveNow()) {
+                val choice = JOptionPane.showConfirmDialog(frame, "保存できませんでした。保存せずに終了しますか？", "下書きの保存", JOptionPane.YES_NO_OPTION)
+                if (choice != JOptionPane.YES_OPTION) return@configureStudioWindow
+            }
+            storage.close(); frame.dispose(); System.exit(0)
+        }
+        frame.contentPane = panel
+        if (args.contains("--dark")) panel.setDarkMode(true)
         frame.setSize(1200, 840)
         frame.minimumSize = Dimension(900, 600)
         frame.setLocationRelativeTo(null)

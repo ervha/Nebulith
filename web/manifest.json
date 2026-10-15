@@ -1,0 +1,16 @@
+{
+  "name": "Nebulith Studio Web",
+  "short_name": "Nebulith",
+  "description": "星石語 統合辞書・完全オフライン翻訳・フォントスタジオ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111318",
+  "theme_color": "#a8c7fa",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

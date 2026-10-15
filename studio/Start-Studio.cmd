@@ -1,6 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: Prefer the standalone package when available.
+if exist "%~dp0build\dist\NebulithStudio.exe" (
+  start "" "%~dp0build\dist\NebulithStudio.exe" %*
+  exit /b 0
+)
+
 set "JAVA_EXE="
 
 :: 1. Check system PATH for javaw
