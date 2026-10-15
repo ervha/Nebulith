@@ -1,9 +1,9 @@
 {
-  "version": "22.0",
+  "version": "22.1",
   "language": "Nebulith",
   "languageJa": "星石語 (Nebulith)",
   "updatedAt": "2026-10-15",
-  "status": "Grand Milestone 1000 Achieved (v22.0: 1,008 roots across 16 categories)",
+  "status": "Grand Milestone 1000 Harmonized (v22.1: 1,008 roots across 16 categories with tuned heteronyms)",
   "targetGoal": 1000,
   "currentProgressPercent": 100.8,
   "totalEntries": 1008,
@@ -148,8 +148,8 @@
   },
   "grammar": {
     "cases": 8,
-    "verbStems": "-an (active), -en (stative), -in (inchoative), -on (perfective), -un (habitual)",
-    "directionalAdverbs": "Root + -u (e.g., kymdenu = westward, vorasu = forward, celosu = upward)"
+    "verbStems": "-an (active), -en (stative), -in (inchoative), -on (perfective), -un (habitual), with organic irregular/archaic roots",
+    "directionalAdverbs": "Root + -u (e.g., kymdenu = westward, vorasu = forward, valku = frequently), preserving fused particles (forvis, kural, tyro)"
   },
   "vocabulary": [
     {
@@ -1095,12 +1095,12 @@
     {
       "id": 95,
       "category": "2. 数理・幾何・計測",
-      "nrs": "jyt",
-      "ipa": "[ʒyt]",
+      "nrs": "jytel",
+      "ipa": "[jy.tel]",
       "pos": "名",
       "meaningJa": "ノード、結節点、ネットワーク交点",
       "meaningEn": "node, vertex",
-      "notes": "網の結節点"
+      "notes": "jyt (結節点) + -el (素子: ノード、ネットワーク交点)"
     },
     {
       "id": 96,
@@ -1975,12 +1975,12 @@
     {
       "id": 183,
       "category": "3. 情報・計算機・通信",
-      "nrs": "ved",
-      "ipa": "[ved]",
+      "nrs": "vedil",
+      "ipa": "[ve.dil]",
       "pos": "名",
       "meaningJa": "真偽値、論理極性、ブーリアン",
       "meaningEn": "boolean, truth-value",
-      "notes": "真偽の確定値"
+      "notes": "ved (論理極性) + -il (値/素子: 真偽値、ブーリアン)"
     },
     {
       "id": 184,
@@ -5045,12 +5045,12 @@
     {
       "id": 490,
       "category": "9. 統治・社会・法・共同体",
-      "nrs": "elyr",
-      "ipa": "[e.lyr]",
+      "nrs": "elyrat",
+      "ipa": "[e.ly.rat]",
       "pos": "名",
       "meaningJa": "祭典、祝祭、星の祭り",
       "meaningEn": "festival, celebration",
-      "notes": "祝祭の日"
+      "notes": "elyr (星祭) + -at (大儀礼: 星の祭り、祭典)"
     },
     {
       "id": 491,
@@ -5735,12 +5735,12 @@
     {
       "id": 559,
       "category": "10. 経済・交易・工芸・労働",
-      "nrs": "koran",
-      "ipa": "[ko.ran]",
+      "nrs": "kortan",
+      "ipa": "[kor.tan]",
       "pos": "動",
       "meaningJa": "切断する、裁つ、分かつ",
       "meaningEn": "sever, slice, cleave",
-      "notes": "切断動詞"
+      "notes": "kor (刃) + tan (断ち切る、切断する、裁つ)"
     },
     {
       "id": 560,
@@ -5775,16 +5775,6 @@
     {
       "id": 563,
       "category": "10. 経済・交易・工芸・労働",
-      "nrs": "maren",
-      "ipa": "[ma.ren]",
-      "pos": "動",
-      "meaningJa": "受け取る、得る、引き継ぐ",
-      "meaningEn": "receive, obtain, acquire",
-      "notes": "受領動詞"
-    },
-    {
-      "id": 564,
-      "category": "10. 経済・交易・工芸・労働",
       "nrs": "marlan",
       "ipa": "[mar.lan]",
       "pos": "名",
@@ -5793,7 +5783,7 @@
       "notes": "mar (交換) + lan (証)"
     },
     {
-      "id": 565,
+      "id": 564,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marlanv",
       "ipa": "[mar.lanv]",
@@ -5803,7 +5793,7 @@
       "notes": "marlan (硬貨) + lanv (工房所)"
     },
     {
-      "id": 566,
+      "id": 565,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marlorv",
       "ipa": "[mar.lorv]",
@@ -5813,7 +5803,7 @@
       "notes": "laros (車両) + mar (貨物)"
     },
     {
-      "id": 567,
+      "id": 566,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marmin",
       "ipa": "[mar.min]",
@@ -5823,7 +5813,7 @@
       "notes": "mar (交易) + min (中心広場)"
     },
     {
-      "id": 568,
+      "id": 567,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marnyr",
       "ipa": "[mar.nyr]",
@@ -5833,7 +5823,7 @@
       "notes": "mar (通貨) + nyr (書面証)"
     },
     {
-      "id": 569,
+      "id": 568,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marpalv",
       "ipa": "[mar.palv]",
@@ -5843,7 +5833,7 @@
       "notes": "mar (商業) + palv (大口量)"
     },
     {
-      "id": 570,
+      "id": 569,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marpan",
       "ipa": "[mar.pan]",
@@ -5853,7 +5843,7 @@
       "notes": "mar (交易) + pan (実行)"
     },
     {
-      "id": 571,
+      "id": 570,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marpanan",
       "ipa": "[mar.pa.nan]",
@@ -5863,7 +5853,7 @@
       "notes": "mar (資本) + panan (供給投下)"
     },
     {
-      "id": 572,
+      "id": 571,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marparv",
       "ipa": "[mar.parv]",
@@ -5873,7 +5863,7 @@
       "notes": "marmin (市場) + parv (盛大)"
     },
     {
-      "id": 573,
+      "id": 572,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marporv",
       "ipa": "[mar.porv]",
@@ -5883,7 +5873,7 @@
       "notes": "mar (交易) + porv (連行船列)"
     },
     {
-      "id": 574,
+      "id": 573,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marsarp",
       "ipa": "[mar.sarp]",
@@ -5893,7 +5883,7 @@
       "notes": "mar (商品) + sarp (備蓄)"
     },
     {
-      "id": 575,
+      "id": 574,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "marsol",
       "ipa": "[mar.sol]",
@@ -5903,7 +5893,7 @@
       "notes": "mar (富) + sol (保管庫)"
     },
     {
-      "id": 576,
+      "id": 575,
       "category": "10. 経済・交易・工芸・労働",
       "nrs": "martalv",
       "ipa": "[mar.talv]",
@@ -5911,6 +5901,16 @@
       "meaningJa": "計量秤、天秤、分銅天秤",
       "meaningEn": "scale balance, counterweight beam",
       "notes": "mar (交易) + talv (秤量)"
+    },
+    {
+      "id": 576,
+      "category": "10. 経済・交易・工芸・労働",
+      "nrs": "martan",
+      "ipa": "[mar.tan]",
+      "pos": "動",
+      "meaningJa": "受け取る、得る、引き継ぐ",
+      "meaningEn": "receive, obtain, acquire",
+      "notes": "mar (交換) + tan (収受する、受け取る、引き継ぐ)"
     },
     {
       "id": 577,
@@ -7555,22 +7555,22 @@
     {
       "id": 741,
       "category": "14. 精神・哲学・感情・芸術",
-      "nrs": "cylan",
-      "ipa": "[ʃy.lan]",
-      "pos": "名/形",
-      "meaningJa": "美、崇高、調和美、美しい",
-      "meaningEn": "beauty, sublime, graceful",
-      "notes": "美しさ"
-    },
-    {
-      "id": 742,
-      "category": "14. 精神・哲学・感情・芸術",
       "nrs": "cylanar",
       "ipa": "[ʃy.la.nar]",
       "pos": "名",
       "meaningJa": "劇場、美術館、芸術の館",
       "meaningEn": "theater, art gallery, salon",
       "notes": "cylan (美) ＋ 空間"
+    },
+    {
+      "id": 742,
+      "category": "14. 精神・哲学・感情・芸術",
+      "nrs": "cylas",
+      "ipa": "[cy.las]",
+      "pos": "名/形",
+      "meaningJa": "美、崇高、調和美、美しい",
+      "meaningEn": "beauty, sublime, graceful",
+      "notes": "cyl (調和美) + -as (崇高美、美しい、優雅)"
     },
     {
       "id": 743,
@@ -9285,12 +9285,12 @@
     {
       "id": 914,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "foras",
-      "ipa": "[fo.ras]",
+      "nrs": "forvis",
+      "ipa": "[for.vis]",
       "pos": "副",
       "meaningJa": "おそらく、たぶん、星の導きによれば",
       "meaningEn": "perhaps, maybe",
-      "notes": "推量副詞"
+      "notes": "for (星の導き) + vis (推量様態: おそらく)"
     },
     {
       "id": 915,
@@ -9305,12 +9305,12 @@
     {
       "id": 916,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "haris",
-      "ipa": "[ha.ris]",
+      "nrs": "harvan",
+      "ipa": "[har.van]",
       "pos": "動",
       "meaningJa": "聴く、耳を傾ける、聞き届ける",
       "meaningEn": "listen, hear",
-      "notes": "聴覚動詞"
+      "notes": "har (耳) + van (傾聴する、聴く、聞き届ける)"
     },
     {
       "id": 917,
@@ -9495,12 +9495,12 @@
     {
       "id": 935,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "kypan",
-      "ipa": "[ky.pan]",
+      "nrs": "kympan",
+      "ipa": "[kym.pan]",
       "pos": "動",
       "meaningJa": "身を屈める、伏せる、しゃがむ",
       "meaningEn": "crouch, duck low, crouch beneath cover",
-      "notes": "kym (影) + pan (低姿勢)"
+      "notes": "kym (影) + pan (低姿勢に伏せる、身を屈める)"
     },
     {
       "id": 936,
@@ -10045,12 +10045,12 @@
     {
       "id": 990,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "valk",
-      "ipa": "[valk]",
+      "nrs": "valku",
+      "ipa": "[val.ku]",
       "pos": "副",
       "meaningJa": "頻繁に、度々、波打つように",
       "meaningEn": "often, frequently",
-      "notes": "周期的な頻度"
+      "notes": "valk (波打つ頻度) + -u (副詞化: 頻繁に、度々)"
     },
     {
       "id": 991,
@@ -10075,12 +10075,12 @@
     {
       "id": 993,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "velan",
-      "ipa": "[ve.lan]",
+      "nrs": "velfin",
+      "ipa": "[vel.fin]",
       "pos": "動",
       "meaningJa": "探す、探索する、発見する",
       "meaningEn": "search, find, discover",
-      "notes": "探索動詞"
+      "notes": "vel (探索の眼差し) + fin (見出す、探す、発見する)"
     },
     {
       "id": 994,

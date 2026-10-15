@@ -1,7 +1,7 @@
 # Nebulith Master Lexicon (星石語 統御語彙大系)
 
-> **Version**: 22.0 (Grand Milestone 1000 - 1,008 Master Roots across 16 Categories)  
-> **Design Principle**: Complete Purge of Earth Borrowings & Harmonious Celestial Aesthetics  
+> **Version**: 22.1 (Tuned & Harmonized - 1,008 Master Roots across 16 Categories)  
+> **Design Principle**: Complete Purge of Earth Borrowings, De-confused Core Roots & Organic Irregularity  
 > **Progress**: 1008 / 1000 roots (100.8%) [GOAL ACHIEVED]  
 > **Phonetic Base**: Sonorous vowels (a, e, i, o, u, y), liquid semivowels (r, l, v, w, j), resonant nasals (m, n), accented by restrained stops & fricatives (p, b, t, d, k, g, f, s, z, h). Strict exclusion of q, x.
 
@@ -134,7 +134,7 @@
 | 92 | **firven** | `[fir.ven]` | 名 | 不変量、保存量、不変則 | invariant, conserved quantity | firas (定数) + ven (状態) |
 | 93 | **jylkat** | `[jyl.kat]` | 名 | 直和、デカルト積、空間結合 | direct sum, Cartesian product | jylom (集合) + kat (積算) |
 | 94 | **jylrin** | `[ʒyl.rin]` | 名 | トポロジー、位相空間、閉曲面 | topology, manifold, topological ring | jyl (結合) ＋ rin (環) |
-| 95 | **jyt** | `[ʒyt]` | 名 | ノード、結節点、ネットワーク交点 | node, vertex | 網の結節点 |
+| 95 | **jytel** | `[jy.tel]` | 名 | ノード、結節点、ネットワーク交点 | node, vertex | jyt (結節点) + -el (素子: ノード、ネットワーク交点) |
 | 96 | **keldin** | `[kel.din]` | 名 | 偏微分、局所変化率、傾斜率 | partial derivative, directional change rate | kelon (変数) + din (基底微分) |
 | 97 | **kelon** | `[ke.lon]` | 名 | 変数、変動要素、パラメータ | variable, parameter | 可変値 |
 | 98 | **kelpon** | `[kel.pon]` | 名 | 勾配、傾き、グラディエント | gradient, slope, inclination rate | kel (変位) + pon (上昇度) |
@@ -226,7 +226,7 @@
 | 180 | **tolrin** | `[tol.rin]` | 名 | 帯域幅、伝送容量、チャンネル幅 | bandwidth, channel capacity | tolas (通信) + rin (環/枠) |
 | 181 | **torin** | `[to.rin]` | 名/動 | 入力、インプット、流入データ | input, ingress | 到来する入力 |
 | 182 | **tyk** | `[tyk]` | 名 | クロック、時計信号、規則拍 | clock, timing pulse | 刻時破裂音 |
-| 183 | **ved** | `[ved]` | 名 | 真偽値、論理極性、ブーリアン | boolean, truth-value | 真偽の確定値 |
+| 183 | **vedil** | `[ve.dil]` | 名 | 真偽値、論理極性、ブーリアン | boolean, truth-value | ved (論理極性) + -il (値/素子: 真偽値、ブーリアン) |
 | 184 | **velat** | `[ve.lat]` | 名 | 行列、マトリクス、格子配列 | matrix, grid array | 二次元配列 |
 | 185 | **velis** | `[ve.lis]` | 名/動 | 検索、クエリ、照会する | query, search lookup | 探求照会 |
 | 186 | **veltok** | `[vel.tok]` | 名/動 | インデックス、索引、検索目録 | index, search key | 探索の標識 |
@@ -557,7 +557,7 @@
 | 487 | **domnyr** | `[dom.nyr]` | 名 | 代議員、評議員、人民代表 | deputy, tribune, representative delegate | domsen (評議会) + nyr (委任代表) |
 | 488 | **dompal** | `[dom.pal]` | 名 | 街区、隣組、近隣共同体 | ward, neighborhood commune, parish | dom (家) + pal (近接域) |
 | 489 | **domsen** | `[dom.sen]` | 名 | 評議会、代議員会、合議機関 | senate, parliament, high assembly | dom (家/都市) + sen (合意) |
-| 490 | **elyr** | `[e.lyr]` | 名 | 祭典、祝祭、星の祭り | festival, celebration | 祝祭の日 |
+| 490 | **elyrat** | `[e.ly.rat]` | 名 | 祭典、祝祭、星の祭り | festival, celebration | elyr (星祭) + -at (大儀礼: 星の祭り、祭典) |
 | 491 | **jylik** | `[ʒy.lik]` | 名 | 条約文書、協定証書、公文書 | treaty document, signed charter | 法約の書字録 |
 | 492 | **jylkan** | `[jyl.kan]` | 名 | 条約、連邦約款、恒久同盟 | covenant, treaty, pact of union | jyl (結ぶ) + kan (定め) |
 | 493 | **jylmar** | `[ʒyl.mar]` | 名 | 協力、協同作業、チームワーク | cooperation, collaboration, team effort | jyl (結ぶ) ＋ mar (共動) |
@@ -630,24 +630,24 @@
 | 556 | **jylparv** | `[jyl.parv]` | 名 | 染料、天然草木染め液、染色槽 | dye, natural vat tint, mordant liquid | jylpan (織物) + parv (彩色) |
 | 557 | **jylzaran** | `[jyl.za.ran]` | 名 | 織物商、反物座、布地問屋 | draper guild, textile factor, cloth merchant | jylpan (織布) + zaran (商座) |
 | 558 | **kirasen** | `[ki.ra.sen]` | 動 | 修理する、直す、修繕する | repair, mend, fix | kiras (創る) ＋ 回復 |
-| 559 | **koran** | `[ko.ran]` | 動 | 切断する、裁つ、分かつ | sever, slice, cleave | 切断動詞 |
+| 559 | **kortan** | `[kor.tan]` | 動 | 切断する、裁つ、分かつ | sever, slice, cleave | kor (刃) + tan (断ち切る、切断する、裁つ) |
 | 560 | **marcor** | `[mar.cor]` | 名 | 商船、交易貨物船、運搬艇 | merchant vessel, cargo barge | mar (交易) + cor (艇) |
 | 561 | **mardin** | `[mar.din]` | 名 | 元金、元本、投資資本 | principal, capital sum, stake | mar (交換) + din (基底) |
 | 562 | **mardorn** | `[mar.dorn]` | 名 | 関税、入市税、交易賦課金 | customs tariff, excise, transit tribute | mar (交易) + dorn (賦課) |
-| 563 | **maren** | `[ma.ren]` | 動 | 受け取る、得る、引き継ぐ | receive, obtain, acquire | 受領動詞 |
-| 564 | **marlan** | `[mar.lan]` | 名 | 貨幣、公認通貨、流通硬貨 | coin, currency, minted legal tender | mar (交換) + lan (証) |
-| 565 | **marlanv** | `[mar.lanv]` | 名 | 鋳造所、造幣局、硬貨打刻所 | mint, coin foundry, official minting bureau | marlan (硬貨) + lanv (工房所) |
-| 566 | **marlorv** | `[mar.lorv]` | 名 | 運搬車、荷車、交易荷駄 | cargo cart, freight wagon, dray | laros (車両) + mar (貨物) |
-| 567 | **marmin** | `[mar.min]` | 名 | 市場、取引所、バザール | bazaar, exchange, commercial forum | mar (交易) + min (中心広場) |
-| 568 | **marnyr** | `[mar.nyr]` | 名 | 為替手形、引換券、小切手 | bill of exchange, note, promissory draft | mar (通貨) + nyr (書面証) |
-| 569 | **marpalv** | `[mar.palv]` | 名 | 卸売、一括仕入れ、大量売買 | wholesale lot, bulk lading, gross consignment | mar (商業) + palv (大口量) |
-| 570 | **marpan** | `[mar.pan]` | 動 | 取引する、売買する、清算する | transact, trade, settle accounts | mar (交易) + pan (実行) |
-| 571 | **marpanan** | `[mar.pa.nan]` | 動 | 投資する、出資する、資金を投じる | invest, advance funds, finance enterprise | mar (資本) + panan (供給投下) |
-| 572 | **marparv** | `[mar.parv]` | 名 | 見本市、定期市、大交易市 | trade fair, mart, seasonal emporium | marmin (市場) + parv (盛大) |
-| 573 | **marporv** | `[mar.porv]` | 名 | 商隊、キャラバン、星間交易船団 | caravan, merchant convoy, trade flotilla | mar (交易) + porv (連行船列) |
-| 574 | **marsarp** | `[mar.sarp]` | 名 | 在庫、棚卸資産、貯蔵商品 | inventory, stock of merchandise, reserve goods | mar (商品) + sarp (備蓄) |
-| 575 | **marsol** | `[mar.sol]` | 名 | 金庫、財嚢、備蓄金庫 | treasury vault, strongbox, coffer | mar (富) + sol (保管庫) |
-| 576 | **martalv** | `[mar.talv]` | 名 | 計量秤、天秤、分銅天秤 | scale balance, counterweight beam | mar (交易) + talv (秤量) |
+| 563 | **marlan** | `[mar.lan]` | 名 | 貨幣、公認通貨、流通硬貨 | coin, currency, minted legal tender | mar (交換) + lan (証) |
+| 564 | **marlanv** | `[mar.lanv]` | 名 | 鋳造所、造幣局、硬貨打刻所 | mint, coin foundry, official minting bureau | marlan (硬貨) + lanv (工房所) |
+| 565 | **marlorv** | `[mar.lorv]` | 名 | 運搬車、荷車、交易荷駄 | cargo cart, freight wagon, dray | laros (車両) + mar (貨物) |
+| 566 | **marmin** | `[mar.min]` | 名 | 市場、取引所、バザール | bazaar, exchange, commercial forum | mar (交易) + min (中心広場) |
+| 567 | **marnyr** | `[mar.nyr]` | 名 | 為替手形、引換券、小切手 | bill of exchange, note, promissory draft | mar (通貨) + nyr (書面証) |
+| 568 | **marpalv** | `[mar.palv]` | 名 | 卸売、一括仕入れ、大量売買 | wholesale lot, bulk lading, gross consignment | mar (商業) + palv (大口量) |
+| 569 | **marpan** | `[mar.pan]` | 動 | 取引する、売買する、清算する | transact, trade, settle accounts | mar (交易) + pan (実行) |
+| 570 | **marpanan** | `[mar.pa.nan]` | 動 | 投資する、出資する、資金を投じる | invest, advance funds, finance enterprise | mar (資本) + panan (供給投下) |
+| 571 | **marparv** | `[mar.parv]` | 名 | 見本市、定期市、大交易市 | trade fair, mart, seasonal emporium | marmin (市場) + parv (盛大) |
+| 572 | **marporv** | `[mar.porv]` | 名 | 商隊、キャラバン、星間交易船団 | caravan, merchant convoy, trade flotilla | mar (交易) + porv (連行船列) |
+| 573 | **marsarp** | `[mar.sarp]` | 名 | 在庫、棚卸資産、貯蔵商品 | inventory, stock of merchandise, reserve goods | mar (商品) + sarp (備蓄) |
+| 574 | **marsol** | `[mar.sol]` | 名 | 金庫、財嚢、備蓄金庫 | treasury vault, strongbox, coffer | mar (富) + sol (保管庫) |
+| 575 | **martalv** | `[mar.talv]` | 名 | 計量秤、天秤、分銅天秤 | scale balance, counterweight beam | mar (交易) + talv (秤量) |
+| 576 | **martan** | `[mar.tan]` | 動 | 受け取る、得る、引き継ぐ | receive, obtain, acquire | mar (交換) + tan (収受する、受け取る、引き継ぐ) |
 | 577 | **martas** | `[mar.tas]` | 名 | 利息、手数料、配当 | interest, commission, dividend | mar (交易) + tas (増分) |
 | 578 | **martor** | `[mar.tor]` | 名 | 商人、交易商人、商人ギルド員 | merchant, trader, factor | mar (交易) + tor (人) |
 | 579 | **marven** | `[mar.ven]` | 名 | 借入、負債、貸付信託 | loan, debt, credit trust | mar (交換) + ven (委託) |
@@ -828,8 +828,8 @@
 | 738 | **civsol** | `[civ.sol]` | 名 | 竪琴、リラ、ハープ、星辰弦楽器 | harp, lyre, starry kithara | cival (楽) + sol (共鳴胴) |
 | 739 | **civtas** | `[civ.tas]` | 名 | 和音、ハーモニー、協和響き | chord, consonant harmony | cival (音楽) + tas (調和) |
 | 740 | **civzar** | `[civ.zar]` | 名 | 交響曲、大合奏、大管弦詩 | symphony, grand polyphonic concerto | cival (音楽) + zar (大管弦組) |
-| 741 | **cylan** | `[ʃy.lan]` | 名/形 | 美、崇高、調和美、美しい | beauty, sublime, graceful | 美しさ |
-| 742 | **cylanar** | `[ʃy.la.nar]` | 名 | 劇場、美術館、芸術の館 | theater, art gallery, salon | cylan (美) ＋ 空間 |
+| 741 | **cylanar** | `[ʃy.la.nar]` | 名 | 劇場、美術館、芸術の館 | theater, art gallery, salon | cylan (美) ＋ 空間 |
+| 742 | **cylas** | `[cy.las]` | 名/形 | 美、崇高、調和美、美しい | beauty, sublime, graceful | cyl (調和美) + -as (崇高美、美しい、優雅) |
 | 743 | **cylinor** | `[ʃy.li.nor]` | 名 | 芸術家、美の探求者、表現者 | artist, aesthetician, creator of beauty | cylan (美) ＋ 専門職 |
 | 744 | **cynas** | `[ʃy.nas]` | 名 | 友情、親愛、心の絆 | friendship, fellowship | 友愛 |
 | 745 | **cynel** | `[ʃy.nel]` | 名/動 | 愛、慈しみ、深い共感、愛する | love, affection, cherish | 深い愛情 |
@@ -1009,9 +1009,9 @@
 | 911 | **fensir** | `[fen.sir]` | 動 | ささやく、小声で話す、耳打ちする | whisper, murmur softly | fenor (話す) ＋ sirin (静穏) |
 | 912 | **folan** | `[fo.lan]` | 名/副 | 外、外部、外側、外界 | outside, outward | 外部 |
 | 913 | **folanu** | `[fo.la.nu]` | 副 | 外へ、外部へ、外界へ向かって | outward, outside, outwardly | folan (外) ＋ -u (方向副詞) |
-| 914 | **foras** | `[fo.ras]` | 副 | おそらく、たぶん、星の導きによれば | perhaps, maybe | 推量副詞 |
+| 914 | **forvis** | `[for.vis]` | 副 | おそらく、たぶん、星の導きによれば | perhaps, maybe | for (星の導き) + vis (推量様態: おそらく) |
 | 915 | **hano** | `[ha.no]` | 副/名 | 今日、この日、現在 | today, present day | 本日 |
-| 916 | **haris** | `[ha.ris]` | 動 | 聴く、耳を傾ける、聞き届ける | listen, hear | 聴覚動詞 |
+| 916 | **harvan** | `[har.van]` | 動 | 聴く、耳を傾ける、聞き届ける | listen, hear | har (耳) + van (傾聴する、聴く、聞き届ける) |
 | 917 | **hav** | `[hav]` | 名 | 時、瞬間、今この瞬間 | time, moment, now | 瞬発的摩擦音 |
 | 918 | **havcor** | `[hav.cor]` | 副 | 定時に、規則正しく、時刻通りに | punctually, on schedule, regularly | hav (時) + cor (正確) |
 | 919 | **havel** | `[ha.vel]` | 名 | 時代、運行周期、時代の流れ | era, epoch, orbital cycle | 歴史・時代 |
@@ -1030,7 +1030,7 @@
 | 932 | **kylasu** | `[ky.la.su]` | 副 | 夕暮れ時に、日没に、黄昏に | at dusk, at twilight | kylas (夕) ＋ 副詞語尾 |
 | 933 | **kymden** | `[kym.den]` | 名/副 | 西、主星没入の方位、黄昏の方角 | west, sunset direction | 光が沈む方角 |
 | 934 | **kymdenu** | `[kym.de.nu]` | 副 | 西へ、日没の方角へ、黄昏に向かって | westward, toward twilight | kymden (西) ＋ 副詞語尾 |
-| 935 | **kypan** | `[ky.pan]` | 動 | 身を屈める、伏せる、しゃがむ | crouch, duck low, crouch beneath cover | kym (影) + pan (低姿勢) |
+| 935 | **kympan** | `[kym.pan]` | 動 | 身を屈める、伏せる、しゃがむ | crouch, duck low, crouch beneath cover | kym (影) + pan (低姿勢に伏せる、身を屈める) |
 | 936 | **kyrpan** | `[kyr.pan]` | 動 | 凍る、凝固する、結晶化する | freeze, solidify, congeal | 氷結動詞 |
 | 937 | **kyvel** | `[ky.vel]` | 動 | 隠す、包み込む、秘める | conceal, veil, shelter | 隠蔽動詞 |
 | 938 | **larvor** | `[lar.vor]` | 動 | 回り道する、迂回する、遠回りする | detour, bypass, skirt around | laris (道) ＋ 迂回 |
@@ -1085,10 +1085,10 @@
 | 987 | **ul** | `[ul]` | 接 | そして、また、〜と共に | and, also | 接続詞 |
 | 988 | **valar** | `[va.lar]` | 名 | 朝、夜明け、曙光の時 | morning, dawn | 朝 |
 | 989 | **valasu** | `[va.la.su]` | 副 | 朝早くに、黎明に、夜明け前に | at dawn, in early morning | valar (朝) ＋ 副詞語尾 |
-| 990 | **valk** | `[valk]` | 副 | 頻繁に、度々、波打つように | often, frequently | 周期的な頻度 |
+| 990 | **valku** | `[val.ku]` | 副 | 頻繁に、度々、波打つように | often, frequently | valk (波打つ頻度) + -u (副詞化: 頻繁に、度々) |
 | 991 | **valrotu** | `[val.ro.tu]` | 副 | 木漏れ日の中で、緑陰に | in dappled shade, under leafy light | velrot ＋ 副詞語尾 |
 | 992 | **ve** | `[ve]` | 副 | はい、然り、その通り（肯定極性辞） | yes, indeed, so it is | 肯定極性辞 |
-| 993 | **velan** | `[ve.lan]` | 動 | 探す、探索する、発見する | search, find, discover | 探索動詞 |
+| 993 | **velfin** | `[vel.fin]` | 動 | 探す、探索する、発見する | search, find, discover | vel (探索の眼差し) + fin (見出す、探す、発見する) |
 | 994 | **velkan** | `[vel.kan]` | 動 | 繁茂する、青葉を広げる、生い茂る | flourish, thrive, grow luxuriantly | vel (草木) + kan (盛況) |
 | 995 | **volan** | `[vo.lan]` | 動 | 飛ぶ、飛翔する、舞い上がる | fly, soar | 飛翔動詞 |
 | 996 | **volkin** | `[vol.kin]` | 動 | 滑空する、風に乗って滑る、空を滑る | glide, sail on the air | volan (飛ぶ) ＋ 滑走 |
