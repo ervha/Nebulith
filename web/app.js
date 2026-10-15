@@ -1017,10 +1017,6 @@ if(sessionRaw)try{
 }catch(e){reportStorageError(e.message);}
 const restoredFont=Number(safeStorage.getItem('neb_font_size')||36);
 if(restoredFont>=20&&restoredFont<=64){fontSizeSlider.value=String(restoredFont);fontSizeVal.textContent=restoredFont+'px';editorPreview.style.fontSize=restoredFont+'px';}
-const splitSlider=document.getElementById('splitWidth');
-function applySplit(value){document.documentElement.style.setProperty('--translation-columns',value+'fr '+(100-value)+'fr');document.getElementById('splitWidthValue').textContent=value+'%';}
-const savedSplit=Number(safeStorage.getItem('neb_split')||50);splitSlider.value=String(savedSplit>=25&&savedSplit<=75?savedSplit:50);applySplit(Number(splitSlider.value));
-splitSlider.addEventListener('input',e=>{const value=Number(e.target.value);if(value>=25&&value<=75){applySplit(value);safeStorage.setItem('neb_split',String(value));}});
 document.getElementById('queueStatusFilter').addEventListener('change',renderQueueList);
 let pendingQueueImport=null,pendingBackup=null;
 document.getElementById('importQueueFiles').addEventListener('change',async e=>{
@@ -1045,7 +1041,7 @@ document.getElementById('applyQueueImport').addEventListener('click',()=>{
   if(persistQueue(result.queue)){document.getElementById('queueImportPreview').textContent='取込済み：'+feedbackQueue.length+'件。';pendingQueueImport=null;document.getElementById('applyQueueImport').disabled=true;}
 });
 document.getElementById('backupExport').addEventListener('click',()=>{
-  const snapshot=safeStorage.snapshot();snapshot.values={...snapshot.values,neb_font_size:String(fontSizeSlider.value),neb_split:String(splitSlider.value),neb_theme:currentTheme,neb_favorites:JSON.stringify([...favorites]),neb_history:JSON.stringify(browsingHistory),neb_feedback_queue:JSON.stringify(feedbackQueue),neb_editor_draft:editorInput.value,neb_session_v1:JSON.stringify({schemaVersion:1,text:transInput.value,srcLang,dstLang,choices:inputChoicesState})};
+  const snapshot=safeStorage.snapshot();snapshot.values={...snapshot.values,neb_font_size:String(fontSizeSlider.value),neb_theme:currentTheme,neb_favorites:JSON.stringify([...favorites]),neb_history:JSON.stringify(browsingHistory),neb_feedback_queue:JSON.stringify(feedbackQueue),neb_editor_draft:editorInput.value,neb_session_v1:JSON.stringify({schemaVersion:1,text:transInput.value,srcLang,dstLang,choices:inputChoicesState})};
   downloadJson(snapshot,'nebulith-backup-'+Date.now()+'.json');
 });
 document.getElementById('backupImport').addEventListener('change',async e=>{

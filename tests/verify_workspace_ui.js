@@ -13,14 +13,13 @@ function start(storage){
   app.dom.inputSubject.value='私';app.event('inputSubject','change');app.event('confirmInputCandidate','click');
   assert.equal(app.dom.copyDstBtn.disabled,false);
   app.dom.fontSizeSlider.value='48';app.event('fontSizeSlider','input');
-  app.dom.splitWidth.value='60';app.event('splitWidth','input');
   app.dom.editorInput.value='書きかけの筆記';app.event('editorInput','input');
   app.ctx.window.openWordModal('mi');
   app=start(storage);
   assert.equal(app.dom.transInput.value,'あなたが嫌い。');assert.equal(app.dom.inputSubject.value,'私');
   assert.equal(app.dom.copyDstBtn.disabled,true,'restored inference needs confirmation');
   assert.ok(app.dom.transOutputText.textContent.includes('Nyrcan'));assert.ok(app.dom.sessionStatus.textContent.includes('復元'));
-  assert.equal(app.dom.fontSizeSlider.value,'48');assert.equal(app.dom.splitWidth.value,'60');assert.equal(app.dom.editorInput.value,'書きかけの筆記');
+  assert.equal(app.dom.fontSizeSlider.value,'48');assert.equal(app.dom.editorInput.value,'書きかけの筆記');
   assert.equal(app.eval('browsingHistory[0]'),'mi');
   app.dom.transInput.value='あなたが嫌い。未来を見る。';app.event('transInput','input');app.eval('doTranslate()');
   const selectSentence=index=>{app.dom.inputSentence.value=app.eval(`lastInputAnalysis.segments[${index}].key`);app.event('inputSentence','change');};

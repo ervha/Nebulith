@@ -562,7 +562,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
     /* Translation Panel */
     .trans-container {{
       display: grid;
-      grid-template-columns: var(--translation-columns, 1fr 1fr);
+      grid-template-columns: 1fr 1fr;
       gap: 20px;
       margin-bottom: 20px;
     }}
@@ -976,7 +976,6 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       </div>
 
       <div id="sessionStatus" role="status" aria-live="polite"></div>
-      <label>原文欄の幅 <input type="range" id="splitWidth" min="25" max="75" value="50"><span id="splitWidthValue">50%</span></label>
       <div class="trans-container">
         <div class="trans-box">
           <div class="trans-header">
