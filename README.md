@@ -4,6 +4,9 @@
 
 **現在の成果物：辞書v23.5・1008項目／フォントv2.5・87字形・112文字／公式コーパス30件。**
 
+> **Nebulith Studio Web公開版**: [https://ervha.github.io/Nebulith/](https://ervha.github.io/Nebulith/)  
+> （完全単一ファイル版: [https://ervha.github.io/Nebulith/standalone.html](https://ervha.github.io/Nebulith/standalone.html)）
+
 語彙は意味と語形の両方が既存言語と一致・酷似する場合だけ修正します。字形は同じコードの文字と比較し、手書きの筆流を残します。重要な問題は骨格から再編し、軽微な記号は慣用形を残して整えます。
 
 多言語比較の網羅性、人間による筆記・長文読字評価、ブラウザー・モバイルでのアプリ受入は未完了です。「類似ゼロ」「言語全体の完成」「リリース承認」とは扱いません。現行の言語仕様は6母音・4二重母音・18子音と声門キャリアを持ちます。
