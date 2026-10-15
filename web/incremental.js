@@ -575,6 +575,45 @@
         isSuperlative = true;
       }
 
+      // --- Adverb Modification Handling (時間・頻度・程度・様態) ---
+      const adverbList = [
+        { ja: 'いつも', neb: 'havon', role: '頻度副詞（恒常）' },
+        { ja: '常に', neb: 'havon', role: '頻度副詞（恒常）' },
+        { ja: '時々', neb: 'havtul', role: '頻度副詞（断続）' },
+        { ja: 'たまに', neb: 'havtul', role: '頻度副詞（断続）' },
+        { ja: 'すでに', neb: 'feval', role: '時間副詞（完了）' },
+        { ja: 'もう', neb: 'feval', role: '時間副詞（完了）' },
+        { ja: 'まだ', neb: 'divan', role: '時間副詞（継続）' },
+        { ja: 'すぐに', neb: 'tasik', role: '時間副詞（即時）' },
+        { ja: '直ちに', neb: 'tasik', role: '時間副詞（即時）' },
+        { ja: 'とても', neb: 'solpar', role: '程度副詞（極大）' },
+        { ja: '非常に', neb: 'solpar', role: '程度副詞（極大）' },
+        { ja: 'たいへん', neb: 'solpar', role: '程度副詞（極大）' },
+        { ja: '少し', neb: 'vyntul', role: '程度副詞（極小）' },
+        { ja: 'わずかに', neb: 'vyntul', role: '程度副詞（極小）' },
+        { ja: '全く', neb: 'narval', role: '程度副詞（全否定）' },
+        { ja: 'かなり', neb: 'radon', role: '程度副詞（中庸）' },
+        { ja: 'ゆっくり', neb: 'moril', role: '様態副詞（緩慢）' },
+        { ja: '早く', neb: 'tasin', role: '様態副詞（迅速）' },
+        { ja: '速く', neb: 'tasin', role: '様態副詞（迅速）' },
+        { ja: '静かに', neb: 'sirik', role: '様態副詞（沈黙）' },
+        { ja: '共に', neb: 'kulen', role: '様態副詞（協調）' },
+        { ja: '一緒に', neb: 'kulen', role: '様態副詞（協調）' },
+        { ja: '独りで', neb: 'minkir', role: '様態副詞（単独）' }
+      ];
+
+      let matchedAdverb = null;
+      if (depth === 0) {
+        for (const adv of adverbList) {
+          if (cleanSource.includes(adv.ja)) {
+            // Remove adverb from cleanSource
+            cleanSource = cleanSource.replace(new RegExp(adv.ja + '[\\s\\u3000]*'), '');
+            matchedAdverb = adv;
+            break;
+          }
+        }
+      }
+
       let moshi = false;
       if (/^もし[\s\u3000]*/.test(cleanSource)) {
         cleanSource = cleanSource.replace(/^もし[\s\u3000]*/, '');
@@ -643,6 +682,11 @@
           dText = dText[0].toUpperCase() + dText.slice(1);
           dAlign = [{src: '最も', dst: 'cel-', role: '最上級'}, ...dAlign];
         }
+        if (matchedAdverb) {
+          const advPrefix = matchedAdverb.neb[0].toUpperCase() + matchedAdverb.neb.slice(1);
+          dText = advPrefix + ' ' + dText.replace(/^[A-Z]/, c => c.toLowerCase());
+          dAlign = [{src: matchedAdverb.ja, dst: matchedAdverb.neb, role: matchedAdverb.role}, ...dAlign];
+        }
         return {...direct, text: dText, candidate: dText, alignment: dAlign, source};
       }
       let text=key(cleanSource), question=text.endsWith('?');text=text.replace(/\?$/,'');if(text.endsWith('か')){question=true;text=text.slice(0,-1);}
@@ -680,6 +724,17 @@
         const isSupportedModal = ['希望','可能','推量'].some(m => feature.includes(m));
         if(!isSupportedModal) notes.push(feature+'の表現は未対応。意味を省略せず保持します。');
       }
+      if(verbGroup && verbChoiceMap[verbGroup] && choices.verb) {
+        const selectedOpt = verbChoiceMap[verbGroup].find(o => o.label === choices.verb);
+        if(!selectedOpt) {
+          return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
+        }
+        const selectedForm = forms.find(f => f.id === selectedOpt.id && !f.feature && f.suffix === (form?.suffix || '') && JSON.stringify(f.prefixes) === JSON.stringify(form?.prefixes || []));
+        if(selectedForm) {
+          form = selectedForm;
+          notes.push('動作の解釈＝'+choices.verb+'（利用者が選択）');
+        }
+      }
       try {args=parsedArgs(body,form||{});}catch(_) {
         try {
           const split=body.match(/^(.+?)[はが、,](.+)$/);
@@ -692,16 +747,8 @@
       if(form?.emotion && !args.el)notes.push('感情の対象は指定済み。嫌う主体は未指定です。');
       if(verbGroup && verbChoiceMap[verbGroup] && choices.verb) {
         const selectedOpt = verbChoiceMap[verbGroup].find(o => o.label === choices.verb);
-        if(!selectedOpt) {
-          return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
-        }
-        if(selectedOpt.targetIa && args.ia !== selectedOpt.targetIa) {
+        if(selectedOpt && selectedOpt.targetIa && args.ia !== selectedOpt.targetIa) {
           return {source,text:'',state:'blocked',notes:[...notes,selectedOpt.label+'への読み替えは未来を対象とする場合だけ対応しています。']};
-        }
-        const selectedForm = forms.find(f => f.id === selectedOpt.id && !f.feature && f.suffix === (form?.suffix || '') && JSON.stringify(f.prefixes) === JSON.stringify(form?.prefixes || []));
-        if(selectedForm) {
-          form = selectedForm;
-          notes.push('動作の解釈＝'+choices.verb+'（利用者が選択）');
         }
       }
       const fragments=caseOrder.filter(c=>args[c]).map(c=>c+' '+args[c]).join(' ');
@@ -801,6 +848,46 @@
           meaning.superlative = true;
           alignment = [{src: '最も', dst: 'cel-', role: '最上級'}, ...(alignment || [])];
         }
+        if (matchedAdverb) {
+
+          const advPrefix = matchedAdverb.neb[0].toUpperCase() + matchedAdverb.neb.slice(1);
+
+          const bareCandidate = candidate.replace(/^[A-Z]/, c => c.toLowerCase());
+
+          const fullCandidate = advPrefix + ' ' + bareCandidate;
+
+          alignment = [
+
+            { src: matchedAdverb.ja, dst: matchedAdverb.neb, role: matchedAdverb.role },
+
+            ...alignment
+
+          ];
+
+          return {
+
+            source,
+
+            text: fullCandidate,
+
+            state: 'complete',
+
+            candidate: fullCandidate,
+
+            meaning: { ...meaning, adverb: matchedAdverb },
+
+            senseOptions,
+
+            verbOptions,
+
+            alignment,
+
+            notes: [...notes, matchedAdverb.ja + '（' + matchedAdverb.role + '）の副詞修飾を適用。']
+
+          };
+
+        }
+
         return {source,text:candidate,state:choices.confirmed?'complete':'candidate',candidate,meaning,senseOptions,verbOptions,alignment,notes:[...notes,'Nebulithの格・項構造を検証。解釈を確認して確定してください。',...extensionNotes(form)]};
       }catch(e){return {source,text:fragments,state:'blocked',notes:[...notes,e.message]};}
     }
