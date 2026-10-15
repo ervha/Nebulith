@@ -1003,7 +1003,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
               <div id="inputChoices" style="display:none;gap:8px;flex-wrap:wrap;margin:12px 0">
                 <label id="inputSentenceLabel" style="display:none">編集する文 <select id="inputSentence"></select></label>
                 <label id="inputSubjectLabel">主体の補完 <select id="inputSubject"><option value="">原文のまま</option><option>私</option><option>あなた</option><option>彼／彼女</option></select></label>
-                <label id="inputVerbLabel">動作の解釈 <select id="inputVerb"><option value="">未選択</option><option>観測する</option><option>仰ぎ見る</option><option>展望する</option><option>予見する</option></select></label>
+                <label id="inputVerbLabel">動作の解釈 <select id="inputVerb"><option value="">未選択</option><option>観測する</option><option>仰ぎ見る</option><option>見上げる</option><option>展望する</option><option>予見する</option><option>話す</option><option>語り合う</option><option>告げる</option><option>ささやく</option><option>問う</option><option>歩く</option><option>走る</option><option>行進する</option><option>滑空する</option><option>信じる</option><option>思索する</option><option>決断する</option><option>尊ぶ</option></select></label>
                 <label id="inputPossessionLabel" style="display:none">所有範囲 <select id="inputPossession"><option value="">未選択</option><option value="shared">（AとB）のC・共有所有</option><option value="separate">Aと（BのC）・別々の並列項</option></select></label>
                 <label id="inputSenseLabel" style="display:none">語義 <select id="inputSense"><option value="">未選択</option></select></label>
                 <button class="tool-btn" id="confirmInputCandidate">この解釈で確定</button>

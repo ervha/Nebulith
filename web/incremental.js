@@ -29,6 +29,44 @@
       frames[id]=frame;
     }
     const byId = new Map(vocab.map(e => [e.id, e]));
+    const defaultAliases = [
+      // 話す系
+      {ending:'語り合う',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'告げる',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'ささやく',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'話している',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'話した',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'話す',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'話して',replacement:'話す',complete:false,chooseGroup:'話す'},
+      {ending:'言っている',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'言った',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'言う',replacement:'話す',complete:true,chooseGroup:'話す'},
+      {ending:'言って',replacement:'話す',complete:false,chooseGroup:'話す'},
+      // 行く系
+      {ending:'行進する',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'滑空する',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'走る',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'行っている',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'行った',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'行く',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'行って',replacement:'歩く',complete:false,chooseGroup:'行く'},
+      {ending:'進んでいる',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'進んだ',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      {ending:'進む',replacement:'歩く',complete:true,chooseGroup:'行く'},
+      // 思う系
+      {ending:'思索する',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'決断する',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'尊ぶ',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'思っている',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'思った',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'思う',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'思って',replacement:'信じる',complete:false,chooseGroup:'思う'},
+      {ending:'考えている',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'考えた',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'考える',replacement:'信じる',complete:true,chooseGroup:'思う'},
+      {ending:'考えて',replacement:'信じる',complete:false,chooseGroup:'思う'}
+    ];
+    aliases = [...(aliases||[]).map(a => a.chooseVerb ? {...a, chooseGroup: '見る'} : a), ...defaultAliases];
     const productive=extensions.productive||{};
     for(const verb of productive.verbs||[])if(!frames[verb.id])frames[verb.id]=verb.frame;
     const placeRoots=new Set(['govan','vyrelar','nerar','celvan',...(productive.placeIds||[]).map(id=>byId.get(id)?.r).filter(Boolean)]);
@@ -117,6 +155,42 @@
     const uniqueForms=forms.filter(f=>{const signature=JSON.stringify([f.id,f.ending,f.prefixes,f.suffix,f.adjective||0,f.feature||'']);if(seenForms.has(signature))return false;seenForms.add(signature);return true;});
     forms.splice(0,forms.length,...uniqueForms);
     forms.sort((a,b)=>b.ending.length-a.ending.length);
+
+    const verbChoiceMap = {
+      '見る': [
+        {label: '観測する', id: 953},
+        {label: '仰ぎ見る', id: 841},
+        {label: '見上げる', id: 841},
+        {label: '展望する', id: 30007, targetIa: 'sehvan'},
+        {label: '予見する', id: 30008, targetIa: 'sehvan'}
+      ],
+      '話す': [
+        {label: '話す', id: 860},
+        {label: '語り合う', id: 840},
+        {label: '告げる', id: 858},
+        {label: 'ささやく', id: 861},
+        {label: '問う', id: 753}
+      ],
+      '行く': [
+        {label: '歩く', id: 902},
+        {label: '走る', id: 879},
+        {label: '行進する', id: 903},
+        {label: '滑空する', id: 946},
+        {label: '跳ぶ', id: 947},
+        {label: '飛ぶ', id: 945},
+        {label: '迂回する', id: 888},
+        {label: '航路変更する', id: 36}
+      ],
+      '思う': [
+        {label: '信じる', id: 705},
+        {label: '思索する', id: 721},
+        {label: '決断する', id: 726},
+        {label: '幻視する', id: 743},
+        {label: '尊ぶ', id: 732},
+        {label: '思い出す', id: 30006}
+      ]
+    };
+
     const caseOrder=['el','ia','al','uo','to','va','de','ku'];
     const extensionNotes=f=>f.extension?[(byId.get(f.id).c.includes('未監査')?'追加語彙案':'追加文型案')+'（未監査）を使用']:[];
     const provisionalRoots=new Set((extensions.entries||[]).map(e=>e.nrs));
@@ -296,7 +370,12 @@
         return {source,text:'',state:prefix?'draft':'blocked',notes:[prefix?'語の入力待ち':'語句・構文を確定できません。原文全体を保持しています。']};
       }
       const body=text.slice(0,-ending.length);let args;
-      if(alias?.chooseVerb)notes.push('動作候補：観測する／仰ぎ見る。未来への展望・予見も区別して選択してください。');
+      let verbOptions=[];
+      const verbGroup=alias?.chooseGroup || (alias?.chooseVerb ? '見る' : null);
+      if(verbGroup && verbChoiceMap[verbGroup]) {
+        verbOptions = verbChoiceMap[verbGroup].map(o => o.label);
+        notes.push('動作候補（' + verbGroup + '）：' + verbOptions.slice(0, 4).join('／') + (verbOptions.length > 4 ? 'など' : '') + 'を選択できます。');
+      }
       if(alias?.feature)feature=[feature,alias.feature].filter(Boolean).join('・');
       if(form?.feature)feature=[feature,form.feature].filter(Boolean).join('・');
       if(feature && !['行為','指針'].includes(feature))notes.push(feature+'の表現は未対応。意味を省略せず保持します。');
@@ -310,19 +389,25 @@
       }
       if(choices.subject) {try{args.el=phrase(choices.subject);argSources.set(args,{...(argSources.get(args)||{}),el:{text:choices.subject,inferred:true}});notes.push('主体＝'+choices.subject+'（利用者が補完）');}catch(_){} }
       if(form?.emotion && !args.el)notes.push('感情の対象は指定済み。嫌う主体は未指定です。');
-      if(alias?.chooseVerb && ['展望する','予見する'].includes(choices.verb)) {
-        if(args.ia!=='sehvan')return {source,text:'',state:'blocked',notes:[...notes,'展望・予見への読み替えは未来を対象とする場合だけ対応しています。']};
-        const id=choices.verb==='展望する'?30007:30008;
-        const selected=forms.find(f=>f.id===id && !f.feature && f.suffix===(form?.suffix||'') && JSON.stringify(f.prefixes)===JSON.stringify(form?.prefixes));
-        form=selected;
-        notes.push('未来を見る＝'+choices.verb+'（利用者が選択）');
+      if(verbGroup && verbChoiceMap[verbGroup] && choices.verb) {
+        const selectedOpt = verbChoiceMap[verbGroup].find(o => o.label === choices.verb);
+        if(!selectedOpt) {
+          return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
+        }
+        if(selectedOpt.targetIa && args.ia !== selectedOpt.targetIa) {
+          return {source,text:'',state:'blocked',notes:[...notes,selectedOpt.label+'への読み替えは未来を対象とする場合だけ対応しています。']};
+        }
+        const selectedForm = forms.find(f => f.id === selectedOpt.id && !f.feature && f.suffix === (form?.suffix || '') && JSON.stringify(f.prefixes) === JSON.stringify(form?.prefixes || []));
+        if(selectedForm) {
+          form = selectedForm;
+          notes.push('動作の解釈＝'+choices.verb+'（利用者が選択）');
+        }
       }
       const fragments=caseOrder.filter(c=>args[c]).map(c=>c+' '+args[c]).join(' ');
       notes.push(...lexicalNotes(fragments));
       if(!args.el)notes.push('主語未指定。自動で私を補いません。');
       if(alias && !alias.complete)notes.push('動作の続きの入力待ち');
-      if(alias?.chooseVerb && choices.verb==='仰ぎ見る')return {source,text:fragments,state:'blocked',notes:[...notes,'仰ぎ見るの出力文型は未対応です。']};
-      if(alias?.chooseVerb && choices.verb && !['観測する','展望する','予見する','仰ぎ見る'].includes(choices.verb))return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
+      if(verbGroup && choices.verb && !verbOptions.includes(choices.verb))return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
       const meaning=meaningOf(form?{...form,ending}:null,args,question,feature);
       if(feature==='行為' || feature==='指針') {
         if(!args.el) {
@@ -358,10 +443,10 @@
         }
       }
       if(feature || !form)return {source,text:fragments,state:'blocked',meaning,notes:[...notes,...(!form?['時制・相の組み合わせは未対応です。']:[])],alignment:argumentRows(args)};
-      if(!args.el || alias && !alias.complete || alias?.chooseVerb && !choices.verb)return {source,text:fragments,state:'draft',meaning,notes,alignment:argumentRows(args)};
+      if(!args.el || alias && !alias.complete || verbGroup && !choices.verb)return {source,text:fragments,state:'draft',meaning,verbOptions,notes,alignment:argumentRows(args)};
       try {
         const candidate=realize(meaning);
-        return {source,text:candidate,state:choices.confirmed?'complete':'candidate',candidate,meaning,senseOptions,alignment:meaning.alignment,notes:[...notes,'Nebulithの格・項構造を検証。解釈を確認して確定してください。',...extensionNotes(form)]};
+        return {source,text:candidate,state:choices.confirmed?'complete':'candidate',candidate,meaning,senseOptions,verbOptions,alignment:meaning.alignment,notes:[...notes,'Nebulithの格・項構造を検証。解釈を確認して確定してください。',...extensionNotes(form)]};
       }catch(e){return {source,text:fragments,state:'blocked',notes:[...notes,e.message]};}
     }
     const coveredIds=new Set(forms.filter(f=>!f.adjective).map(f=>f.id));

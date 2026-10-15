@@ -691,6 +691,9 @@ function renderIncrementalInput() {
   const senseOptions=selected?.senseOptions||[];
   document.getElementById('inputSenseLabel').style.display=senseOptions.length?'inline-block':'none';
   document.getElementById('inputSense').innerHTML='<option value="">未選択</option>'+senseOptions.map(o=>`<option value="${escapeHtml(o.value)}">${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('');
+  const defaultVerbOptions = ['観測する','仰ぎ見る','見上げる','展望する','予見する','話す','語り合う','告げる','ささやく','問う','歩く','走る','行進する','滑空する','信じる','思索する','決断する','尊ぶ'];
+  const verbOptions = selected?.verbOptions && selected.verbOptions.length ? selected.verbOptions : defaultVerbOptions;
+  document.getElementById('inputVerb').innerHTML = '<option value="">未選択</option>' + verbOptions.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
   for(const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense']])document.getElementById(id).value=selectedChoices[key]||'';
   for(const id of ['inputSubjectLabel','inputVerbLabel'])document.getElementById(id).style.display=selected?.scopeAmbiguous?'none':'inline-block';
   document.getElementById('confirmInputCandidate').disabled=selected?.state!=='candidate';
