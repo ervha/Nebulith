@@ -419,3 +419,83 @@
 418,10. 時空・方位・副詞,kylasu,[ky.la.su],副,夕暮れ時に、日没に、黄昏に,"at dusk, at twilight",kylas (夕) ＋ 副詞語尾
 419,10. 時空・方位・副詞,novasu,[no.va.su],副,高らかに、天上に向けて、頂点へ,"loftily, aloft, upwards",novan (高嶺) ＋ 副詞語尾
 420,10. 時空・方位・副詞,tulosu,[tu.lo.su],副,深く、足元へ、根源へ向けて,"deeply, profoundly, downwards",tulos (天底) ＋ 副詞語尾
+421,1. 天体・光・宇宙論,celvan,[ʃel.van],名,天球、全天、天体球殻,"celestial sphere, empyrean dome",天空を覆う球殻
+422,1. 天体・光・宇宙論,vyrkot,[vyr.kot],名,超新星爆発、恒星大爆発、新星閃光,"supernova explosion, stellar burst",vyr (星) ＋ kot (破裂)
+423,1. 天体・光・宇宙論,zoharmon,[zo.har.mon],名,白夜、極昼、沈まぬ主星,"midnight sun, polar day",zohar (太陽) ＋ 永続
+424,1. 天体・光・宇宙論,kymhav,[kym.hav],名,極夜、恒暗期、昇らぬ主星の季節,"polar night, perpetual night season",kym (夜) ＋ hav (周期)
+425,1. 天体・光・宇宙論,larfas,[lar.fas],名,軌道離脱、脱出速度、飛翔脱出,"orbital escape, escape velocity",laris (軌道) ＋ 離脱
+426,1. 天体・光・宇宙論,faldikur,[fal.di.kur],名,屈折、光の屈折、光路の曲がり,"optical refraction, light bending",falun (光) ＋ 屈折
+427,1. 天体・光・宇宙論,celzyl,[ʃel.zyl],名,青空、蒼穹光、大気の散乱光,"blue sky scattering, azure glow",celen (空) ＋ zylin (青)
+428,1. 天体・光・宇宙論,tyrfos,[tyr.fos],名,連星系の重心、天体共通重心、平衡点,"barycenter, Lagrange balance point",tyral (引力) ＋ 平衡点
+429,2. 数理・幾何・情報科学,suftas,[suf.tas],名,スタック、キュー、順序待ち列,"stack, queue, buffer sequence",suf (計算) ＋ 順序配列
+430,2. 数理・幾何・情報科学,zevkas,[zev.kas],名/動,パース、構文解析する、構文木,"parse, syntax analysis, AST",zevil (構文) ＋ 解析
+431,2. 数理・幾何・情報科学,jylrin,[ʒyl.rin],名,トポロジー、位相空間、閉曲面,"topology, manifold, topological ring",jyl (結合) ＋ rin (環)
+432,2. 数理・幾何・情報科学,kivkas,[kiv.kas],名/動,シリアライズ、直列化する、ビット列化,"serialize, marshal to stream",kiv (ビット) ＋ 連続化
+433,2. 数理・幾何・情報科学,matoris,[ma.to.ris],名,演算器、ALU、プロセッサコア,"processor core, arithmetic unit",mator (計算機) ＋ 核
+434,2. 数理・幾何・情報科学,delrin,[del.rin],名,連続体、無理数、実数直線,"continuum, irrational number",delis (小数) ＋ rin (環)
+435,2. 数理・幾何・情報科学,kirvat,[kir.vat],名,スキーマ、データ構造定義、論理骨格,"schema, data structure layout",kiran (記述) ＋ 格子
+436,2. 数理・幾何・情報科学,vedot,[ve.dot],名,条件式、論理前提、命題,"predicate, proposition, premise",ved (真偽値) ＋ 定立
+437,3. 生命・身体・医療,teirvan,[tei.rvan],名,染色体、螺旋鎖束,"chromosome, genetic strand bundle",teiran (遺伝子) ＋ 束
+438,3. 生命・身体・医療,nerzyv,[ner.zyv],名,消化、滋養吸収、同化代謝,"digestion, assimilation, nutrient uptake",ner (食) ＋ zyvel (生命)
+439,3. 生命・身体・医療,davelis,[da.ve.lis],名,血漿、体液、リンパ液,"lymph, plasma, serous fluid",davel (血液) ＋ 澄明液
+440,3. 生命・身体・医療,durvis,[dur.vis],名,軟骨、腱、靭帯,"cartilage, tendon, connective tissue",duril (骨) ＋ 柔軟結合
+441,3. 生命・身体・医療,vylmir,[vyl.mir],名,視力、視覚、見晴らし、視野,"eyesight, visual acuity, sightline",vylan (目) ＋ 遠望
+442,3. 生命・身体・医療,zyvrev,[zyv.rev],名/動,蘇生、心肺回復、再活性化する,"resuscitation, reanimation, revival",zyvel (命) ＋ revir (覚醒)
+443,3. 生命・身体・医療,kyminar,[ky.mi.nar],名,安息所、病床、療養室,"infirmary, recovery ward, hospice",kymin (睡眠/休養) ＋ 施設
+444,3. 生命・身体・医療,tylkin,[tyl.kin],名,傷痕、瘢痕、治癒の跡,"scar, cicatrisation, healed trace",tylkar (創傷) ＋ 痕跡
+445,4. 自然・気象・環境,talmor,[tal.mor],名,丘、丘陵、なだらかな隆起,"hill, knoll, mound",tal (大地) ＋ moran (大)
+446,4. 自然・気象・環境,velrot,[vel.rot],名,木漏れ日、梢の光、林床の光芒,"dappled sunlight, sun through leaves",vel (木) ＋ 光の粒
+447,4. 自然・気象・環境,darmar,[dar.mar],名,湿原、沼沢、水生植物の地,"marsh, swamp, bog, wetland",dar (水) ＋ 泥湿地
+448,4. 自然・気象・環境,wylor,[wy.lor],名,季節風、恒常風、偏西風,"monsoon, prevailing wind, trade wind",wylas (風) ＋ 循環
+449,4. 自然・気象・環境,kyrtam,[kyr.tam],名,凍土、ツンドラ、霜の大地,"tundra, frozen ground, permafrost",kyras (氷) ＋ talom (原野)
+450,4. 自然・気象・環境,pyrlom,[pyr.lom],名,火災、山火事、火炎原,"wildfire, conflagration, blazing zone",pyris (火) ＋ -om (広域)
+451,4. 自然・気象・環境,talisar,[ta.li.sar],名,採石場、鉱山、石切り場,"quarry, mine, stone-pit",talis (石) ＋ 採掘場
+452,4. 自然・気象・環境,faldaris,[fal.da.ris],名,虹、天の彩橋、分光光弧,"rainbow, celestial prismatic arc",falun (光) ＋ daris (水)
+453,5. 社会・法・共同体,kuralen,[ku.ra.len],名,憲章、基本法、連邦憲法,"constitution, basic charter",kuralom (社会) ＋ 根本法
+454,5. 社会・法・共同体,tarvyn,[tar.vyn],名,判例、先例、法の伝承,"judicial precedent, legal tradition",taros (法) ＋ 律道
+455,5. 社会・法・共同体,renlor,[ren.lor],名,銀行、金庫、通貨管理所,"bank, treasury, credit vault",renis (通貨) ＋ 保管座
+456,5. 社会・法・共同体,dolvan,[dol.van],名,産業、生産網、製造業,"industry, manufacture, production",dolar (労働) ＋ 規模
+457,5. 社会・法・共同体,polot,[po.lot],名,投票、採決、市民の意思表示,"vote, ballot, suffrage",polor (市民) ＋ 決議
+458,5. 社会・法・共同体,cynmar,[ʃyn.mar],名,扶助、相互扶助、福祉,"mutual aid, relief, welfare",cynel (慈しみ) ＋ mar (授受)
+459,5. 社会・法・共同体,vyranor,[vy.ra.nor],名,教師、教授、指導導師,"professor, instructor, mentor",vyranar (学舎) ＋ 指導者
+460,5. 社会・法・共同体,jyltis,[ʒyl.tis],名,連合、同盟条約、協調体制,"coalition, league, alliance",jylot (盟約) ＋ 連合
+461,6. 精神・感情・哲学,sylfir,[syl.fir],名,誠実、真摯、純心,"integrity, sincerity, uprightness",sylim (心) ＋ firas (不変)
+462,6. 精神・感情・哲学,krotik,[kro.tik],名,葛藤、心の嵐、内なる動揺,"inner conflict, turmoil, agitation",krotas (激動) ＋ 内心
+463,6. 精神・感情・哲学,sirvanis,[sir.va.nis],名,瞑想者、観照家、静思の徒,"contemplative, meditator, silent seer",sirvon (瞑想) ＋ 探求者
+464,6. 精神・感情・哲学,welnas,[wel.nas],名,祈り、希求、祈願,"prayer, supplication, earnest wish",welin (希望) ＋ 希求
+465,6. 精神・感情・哲学,durlan,[dur.lan],名,意志、不屈の覚悟、決意,"willpower, determination, firm resolve",duril (強固) ＋ 志向
+466,6. 精神・感情・哲学,fevnas,[fev.nas],名,忠誠、信義、誠意,"fidelity, loyalty, allegiance",fevas (信託) ＋ 誠意
+467,6. 精神・感情・哲学,cylanar,[ʃy.la.nar],名,劇場、美術館、芸術の館,"theater, art gallery, salon",cylan (美) ＋ 空間
+468,6. 精神・感情・哲学,suflom,[suf.lom],名,論理体系、公理系、推論規則系,"logical system, axiomatic framework",suf (論理) ＋ 体系領域
+469,7. 日常・住まい・食,domlik,[dom.lik],名,柱、支柱、梁、建築の骨柱,"pillar, column, support beam",dom (室) ＋ 支柱
+470,7. 日常・住まい・食,lervil,[ler.vil],名,閂、錠前、扉の留め具,"latch, door bolt, bar",lerel (扉) ＋ 施錠具
+471,7. 日常・住まい・食,falkom,[fal.kom],名,燭台、灯火台、照明スタンド,"candelabra, lamp stand",falun (光) ＋ 置き台
+472,7. 日常・住まい・食,nerkul,[ner.kul],名,スプーン、匙、汁掬い,"spoon, ladle, serving scoop",ner (食) ＋ 掬い具
+473,7. 日常・住まい・食,nerspik,[ner.spik],名,フォーク、刺し具、食具,"dining fork, pronged utensil",ner (食) ＋ 尖鋭刃
+474,7. 日常・住まい・食,valdanar,[val.da.nar],名,織物工房、機織り座、布工房,"textile atelier, loom workshop",valdan (絨毯) ＋ 工房
+475,7. 日常・住まい・食,bionas,[bi.o.nas],名,水差し、カラフェ、ピッチャー,"pitcher, jug, decanter",bion (飲む) ＋ 注ぎ器
+476,7. 日常・住まい・食,pamelar,[pa.me.lar],名,図書館、文庫、書物閲覧所,"library, archive, book hall",pamel (書物) ＋ 収蔵館
+477,8. 動作・相互作用,celvor,[ʃel.vor],動,覆う、包む、天蓋のように覆い被さる,"cover, canopy, encompass",celen (天蓋) ＋ 被覆
+478,8. 動作・相互作用,talkan,[tal.kan],動,耕す、土を鋤く、開墾する,"plow, till, cultivate soil",tal (大地) ＋ 開墾
+479,8. 動作・相互作用,darlit,[dar.lit],動,注ぐ、滴下する、水を注ぎ入れる,"pour, decant, infuse",dar (滴) ＋ 流入
+480,8. 動作・相互作用,wylrev,[wyl.rev],動,深呼吸する、風を吸い込む、息を整える,"inhale deeply, breathe wind",wylas (風) ＋ 吸入
+481,8. 動作・相互作用,talpyr,[tal.pyr],動,鍛造する、焼き入れする、熱処理する,"temper, anneal, heat-treat",talur (金属) ＋ pyris (火)
+482,8. 動作・相互作用,serfas,[ser.fas],動,離す、手を放す、手放す,"release, let go, disengage",ser (手) ＋ 離脱
+483,8. 動作・相互作用,klomas,[klo.mas],動,遮断する、孤立させる、隔離する,"isolate, insulate, shut off",klovel (鍵) ＋ 隔離
+484,8. 動作・相互作用,volkin,[vol.kin],動,滑空する、風に乗って滑る、空を滑る,"glide, sail on the air",volan (飛ぶ) ＋ 滑走
+485,9. 性質・色彩・状態,vyrini,[vy.ri.ni],形,星辰のように輝く、綺羅星の,"star-like, starry, glittering",vyr (星) の形容詞
+486,9. 性質・色彩・状態,taldari,[tal.da.ri],形,ぬかるんだ、泥深い、粘土質の,"muddy, miry, clayey",taldar (泥) の性質
+487,9. 性質・色彩・状態,velpari,[vel.pa.ri],形,樹木が生い茂った、森厳な,"wooded, arboraceous, dense-timbered",vel (木) の群生
+488,9. 性質・色彩・状態,darlori,[dar.lo.ri],形,激流の、潮汐力強い、奔流の,"torrential, surging, rushing",darlor (潮流) の性質
+489,9. 性質・色彩・状態,wylvani,[wyl.va.ni],形,旋風のような、目まぐるしい,"swirling, vortex-like, brisk",wylven (つむじ風) の性質
+490,9. 性質・色彩・状態,kyrfini,[kyr.fi.ni],形,凍結した、氷河のような、極寒の,"glacial, ice-locked, gelid",kyrfin (氷河) の性質
+491,9. 性質・色彩・状態,falpiri,[fal.pi.ri],形,冷光の、幽かな燐光を放つ,"phosphorescent, glow-in-the-dark",falpir (燐光) の性質
+492,9. 性質・色彩・状態,durvani,[dur.va.ni],形,免疫のある、抗体を持った、無傷の,"immune, resistant, impervious",durvan (免疫) の性質
+493,10. 時空・方位・副詞,havlor,[hav.lor],名/副,いつか、いずれ、将来のある時,"someday, eventually, in due time",hav (時) ＋ 巡行
+494,10. 時空・方位・副詞,eirvas,[eir.vas],名/副,永遠の彼方、無窮の果て,"eternity horizon, timeless expanse",eiran (永遠) ＋ 遥か
+495,10. 時空・方位・副詞,valrotu,[val.ro.tu],副,木漏れ日の中で、緑陰に,"in dappled shade, under leafy light",velrot ＋ 副詞語尾
+496,10. 時空・方位・副詞,kymdenu,[kym.de.nu],副,西へ、日没の方角へ、黄昏に向かって,"westward, toward twilight",kymden (西) ＋ 副詞語尾
+497,10. 時空・方位・副詞,faldenu,[fal.de.nu],副,東へ、日の出の方角へ、黎明に向かって,"eastward, toward sunrise",falden (東) ＋ 副詞語尾
+498,10. 時空・方位・副詞,novdenu,[nov.de.nu],副,北へ、天頂極へ向かって,"northward, toward zenith",novden (北) ＋ 副詞語尾
+499,10. 時空・方位・副詞,tuldenu,[tul.de.nu],副,南へ、天底極へ向かって,"southward, toward nadir",tulden (南) ＋ 副詞語尾
+500,10. 時空・方位・副詞,kivku,[kiv.ku],副,ビット単位で、微細に、逐一,"bit by bit, granularity, item by item",kiv (ビット) ＋ 共格副詞

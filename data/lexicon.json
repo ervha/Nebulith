@@ -5,8 +5,8 @@
   "updatedAt": "2026-10-15",
   "status": "Pure Celestial Conlang without Earth Borrowings (Gradual Expansion to 1000)",
   "targetGoal": 1000,
-  "currentProgressPercent": 42.0,
-  "totalEntries": 420,
+  "currentProgressPercent": 50.0,
+  "totalEntries": 500,
   "phonology": {
     "vowels": [
       "a",
@@ -4517,6 +4517,806 @@
       "meaningJa": "深く、足元へ、根源へ向けて",
       "meaningEn": "deeply, profoundly, downwards",
       "notes": "tulos (天底) ＋ 副詞語尾"
+    },
+    {
+      "id": 421,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "celvan",
+      "ipa": "[ʃel.van]",
+      "pos": "名",
+      "meaningJa": "天球、全天、天体球殻",
+      "meaningEn": "celestial sphere, empyrean dome",
+      "notes": "天空を覆う球殻"
+    },
+    {
+      "id": 422,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "vyrkot",
+      "ipa": "[vyr.kot]",
+      "pos": "名",
+      "meaningJa": "超新星爆発、恒星大爆発、新星閃光",
+      "meaningEn": "supernova explosion, stellar burst",
+      "notes": "vyr (星) ＋ kot (破裂)"
+    },
+    {
+      "id": 423,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "zoharmon",
+      "ipa": "[zo.har.mon]",
+      "pos": "名",
+      "meaningJa": "白夜、極昼、沈まぬ主星",
+      "meaningEn": "midnight sun, polar day",
+      "notes": "zohar (太陽) ＋ 永続"
+    },
+    {
+      "id": 424,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "kymhav",
+      "ipa": "[kym.hav]",
+      "pos": "名",
+      "meaningJa": "極夜、恒暗期、昇らぬ主星の季節",
+      "meaningEn": "polar night, perpetual night season",
+      "notes": "kym (夜) ＋ hav (周期)"
+    },
+    {
+      "id": 425,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "larfas",
+      "ipa": "[lar.fas]",
+      "pos": "名",
+      "meaningJa": "軌道離脱、脱出速度、飛翔脱出",
+      "meaningEn": "orbital escape, escape velocity",
+      "notes": "laris (軌道) ＋ 離脱"
+    },
+    {
+      "id": 426,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "faldikur",
+      "ipa": "[fal.di.kur]",
+      "pos": "名",
+      "meaningJa": "屈折、光の屈折、光路の曲がり",
+      "meaningEn": "optical refraction, light bending",
+      "notes": "falun (光) ＋ 屈折"
+    },
+    {
+      "id": 427,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "celzyl",
+      "ipa": "[ʃel.zyl]",
+      "pos": "名",
+      "meaningJa": "青空、蒼穹光、大気の散乱光",
+      "meaningEn": "blue sky scattering, azure glow",
+      "notes": "celen (空) ＋ zylin (青)"
+    },
+    {
+      "id": 428,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "tyrfos",
+      "ipa": "[tyr.fos]",
+      "pos": "名",
+      "meaningJa": "連星系の重心、天体共通重心、平衡点",
+      "meaningEn": "barycenter, Lagrange balance point",
+      "notes": "tyral (引力) ＋ 平衡点"
+    },
+    {
+      "id": 429,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "suftas",
+      "ipa": "[suf.tas]",
+      "pos": "名",
+      "meaningJa": "スタック、キュー、順序待ち列",
+      "meaningEn": "stack, queue, buffer sequence",
+      "notes": "suf (計算) ＋ 順序配列"
+    },
+    {
+      "id": 430,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "zevkas",
+      "ipa": "[zev.kas]",
+      "pos": "名/動",
+      "meaningJa": "パース、構文解析する、構文木",
+      "meaningEn": "parse, syntax analysis, AST",
+      "notes": "zevil (構文) ＋ 解析"
+    },
+    {
+      "id": 431,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "jylrin",
+      "ipa": "[ʒyl.rin]",
+      "pos": "名",
+      "meaningJa": "トポロジー、位相空間、閉曲面",
+      "meaningEn": "topology, manifold, topological ring",
+      "notes": "jyl (結合) ＋ rin (環)"
+    },
+    {
+      "id": 432,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "kivkas",
+      "ipa": "[kiv.kas]",
+      "pos": "名/動",
+      "meaningJa": "シリアライズ、直列化する、ビット列化",
+      "meaningEn": "serialize, marshal to stream",
+      "notes": "kiv (ビット) ＋ 連続化"
+    },
+    {
+      "id": 433,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "matoris",
+      "ipa": "[ma.to.ris]",
+      "pos": "名",
+      "meaningJa": "演算器、ALU、プロセッサコア",
+      "meaningEn": "processor core, arithmetic unit",
+      "notes": "mator (計算機) ＋ 核"
+    },
+    {
+      "id": 434,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "delrin",
+      "ipa": "[del.rin]",
+      "pos": "名",
+      "meaningJa": "連続体、無理数、実数直線",
+      "meaningEn": "continuum, irrational number",
+      "notes": "delis (小数) ＋ rin (環)"
+    },
+    {
+      "id": 435,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "kirvat",
+      "ipa": "[kir.vat]",
+      "pos": "名",
+      "meaningJa": "スキーマ、データ構造定義、論理骨格",
+      "meaningEn": "schema, data structure layout",
+      "notes": "kiran (記述) ＋ 格子"
+    },
+    {
+      "id": 436,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "vedot",
+      "ipa": "[ve.dot]",
+      "pos": "名",
+      "meaningJa": "条件式、論理前提、命題",
+      "meaningEn": "predicate, proposition, premise",
+      "notes": "ved (真偽値) ＋ 定立"
+    },
+    {
+      "id": 437,
+      "category": "3. 生命・身体・医療",
+      "nrs": "teirvan",
+      "ipa": "[tei.rvan]",
+      "pos": "名",
+      "meaningJa": "染色体、螺旋鎖束",
+      "meaningEn": "chromosome, genetic strand bundle",
+      "notes": "teiran (遺伝子) ＋ 束"
+    },
+    {
+      "id": 438,
+      "category": "3. 生命・身体・医療",
+      "nrs": "nerzyv",
+      "ipa": "[ner.zyv]",
+      "pos": "名",
+      "meaningJa": "消化、滋養吸収、同化代謝",
+      "meaningEn": "digestion, assimilation, nutrient uptake",
+      "notes": "ner (食) ＋ zyvel (生命)"
+    },
+    {
+      "id": 439,
+      "category": "3. 生命・身体・医療",
+      "nrs": "davelis",
+      "ipa": "[da.ve.lis]",
+      "pos": "名",
+      "meaningJa": "血漿、体液、リンパ液",
+      "meaningEn": "lymph, plasma, serous fluid",
+      "notes": "davel (血液) ＋ 澄明液"
+    },
+    {
+      "id": 440,
+      "category": "3. 生命・身体・医療",
+      "nrs": "durvis",
+      "ipa": "[dur.vis]",
+      "pos": "名",
+      "meaningJa": "軟骨、腱、靭帯",
+      "meaningEn": "cartilage, tendon, connective tissue",
+      "notes": "duril (骨) ＋ 柔軟結合"
+    },
+    {
+      "id": 441,
+      "category": "3. 生命・身体・医療",
+      "nrs": "vylmir",
+      "ipa": "[vyl.mir]",
+      "pos": "名",
+      "meaningJa": "視力、視覚、見晴らし、視野",
+      "meaningEn": "eyesight, visual acuity, sightline",
+      "notes": "vylan (目) ＋ 遠望"
+    },
+    {
+      "id": 442,
+      "category": "3. 生命・身体・医療",
+      "nrs": "zyvrev",
+      "ipa": "[zyv.rev]",
+      "pos": "名/動",
+      "meaningJa": "蘇生、心肺回復、再活性化する",
+      "meaningEn": "resuscitation, reanimation, revival",
+      "notes": "zyvel (命) ＋ revir (覚醒)"
+    },
+    {
+      "id": 443,
+      "category": "3. 生命・身体・医療",
+      "nrs": "kyminar",
+      "ipa": "[ky.mi.nar]",
+      "pos": "名",
+      "meaningJa": "安息所、病床、療養室",
+      "meaningEn": "infirmary, recovery ward, hospice",
+      "notes": "kymin (睡眠/休養) ＋ 施設"
+    },
+    {
+      "id": 444,
+      "category": "3. 生命・身体・医療",
+      "nrs": "tylkin",
+      "ipa": "[tyl.kin]",
+      "pos": "名",
+      "meaningJa": "傷痕、瘢痕、治癒の跡",
+      "meaningEn": "scar, cicatrisation, healed trace",
+      "notes": "tylkar (創傷) ＋ 痕跡"
+    },
+    {
+      "id": 445,
+      "category": "4. 自然・気象・環境",
+      "nrs": "talmor",
+      "ipa": "[tal.mor]",
+      "pos": "名",
+      "meaningJa": "丘、丘陵、なだらかな隆起",
+      "meaningEn": "hill, knoll, mound",
+      "notes": "tal (大地) ＋ moran (大)"
+    },
+    {
+      "id": 446,
+      "category": "4. 自然・気象・環境",
+      "nrs": "velrot",
+      "ipa": "[vel.rot]",
+      "pos": "名",
+      "meaningJa": "木漏れ日、梢の光、林床の光芒",
+      "meaningEn": "dappled sunlight, sun through leaves",
+      "notes": "vel (木) ＋ 光の粒"
+    },
+    {
+      "id": 447,
+      "category": "4. 自然・気象・環境",
+      "nrs": "darmar",
+      "ipa": "[dar.mar]",
+      "pos": "名",
+      "meaningJa": "湿原、沼沢、水生植物の地",
+      "meaningEn": "marsh, swamp, bog, wetland",
+      "notes": "dar (水) ＋ 泥湿地"
+    },
+    {
+      "id": 448,
+      "category": "4. 自然・気象・環境",
+      "nrs": "wylor",
+      "ipa": "[wy.lor]",
+      "pos": "名",
+      "meaningJa": "季節風、恒常風、偏西風",
+      "meaningEn": "monsoon, prevailing wind, trade wind",
+      "notes": "wylas (風) ＋ 循環"
+    },
+    {
+      "id": 449,
+      "category": "4. 自然・気象・環境",
+      "nrs": "kyrtam",
+      "ipa": "[kyr.tam]",
+      "pos": "名",
+      "meaningJa": "凍土、ツンドラ、霜の大地",
+      "meaningEn": "tundra, frozen ground, permafrost",
+      "notes": "kyras (氷) ＋ talom (原野)"
+    },
+    {
+      "id": 450,
+      "category": "4. 自然・気象・環境",
+      "nrs": "pyrlom",
+      "ipa": "[pyr.lom]",
+      "pos": "名",
+      "meaningJa": "火災、山火事、火炎原",
+      "meaningEn": "wildfire, conflagration, blazing zone",
+      "notes": "pyris (火) ＋ -om (広域)"
+    },
+    {
+      "id": 451,
+      "category": "4. 自然・気象・環境",
+      "nrs": "talisar",
+      "ipa": "[ta.li.sar]",
+      "pos": "名",
+      "meaningJa": "採石場、鉱山、石切り場",
+      "meaningEn": "quarry, mine, stone-pit",
+      "notes": "talis (石) ＋ 採掘場"
+    },
+    {
+      "id": 452,
+      "category": "4. 自然・気象・環境",
+      "nrs": "faldaris",
+      "ipa": "[fal.da.ris]",
+      "pos": "名",
+      "meaningJa": "虹、天の彩橋、分光光弧",
+      "meaningEn": "rainbow, celestial prismatic arc",
+      "notes": "falun (光) ＋ daris (水)"
+    },
+    {
+      "id": 453,
+      "category": "5. 社会・法・共同体",
+      "nrs": "kuralen",
+      "ipa": "[ku.ra.len]",
+      "pos": "名",
+      "meaningJa": "憲章、基本法、連邦憲法",
+      "meaningEn": "constitution, basic charter",
+      "notes": "kuralom (社会) ＋ 根本法"
+    },
+    {
+      "id": 454,
+      "category": "5. 社会・法・共同体",
+      "nrs": "tarvyn",
+      "ipa": "[tar.vyn]",
+      "pos": "名",
+      "meaningJa": "判例、先例、法の伝承",
+      "meaningEn": "judicial precedent, legal tradition",
+      "notes": "taros (法) ＋ 律道"
+    },
+    {
+      "id": 455,
+      "category": "5. 社会・法・共同体",
+      "nrs": "renlor",
+      "ipa": "[ren.lor]",
+      "pos": "名",
+      "meaningJa": "銀行、金庫、通貨管理所",
+      "meaningEn": "bank, treasury, credit vault",
+      "notes": "renis (通貨) ＋ 保管座"
+    },
+    {
+      "id": 456,
+      "category": "5. 社会・法・共同体",
+      "nrs": "dolvan",
+      "ipa": "[dol.van]",
+      "pos": "名",
+      "meaningJa": "産業、生産網、製造業",
+      "meaningEn": "industry, manufacture, production",
+      "notes": "dolar (労働) ＋ 規模"
+    },
+    {
+      "id": 457,
+      "category": "5. 社会・法・共同体",
+      "nrs": "polot",
+      "ipa": "[po.lot]",
+      "pos": "名",
+      "meaningJa": "投票、採決、市民の意思表示",
+      "meaningEn": "vote, ballot, suffrage",
+      "notes": "polor (市民) ＋ 決議"
+    },
+    {
+      "id": 458,
+      "category": "5. 社会・法・共同体",
+      "nrs": "cynmar",
+      "ipa": "[ʃyn.mar]",
+      "pos": "名",
+      "meaningJa": "扶助、相互扶助、福祉",
+      "meaningEn": "mutual aid, relief, welfare",
+      "notes": "cynel (慈しみ) ＋ mar (授受)"
+    },
+    {
+      "id": 459,
+      "category": "5. 社会・法・共同体",
+      "nrs": "vyranor",
+      "ipa": "[vy.ra.nor]",
+      "pos": "名",
+      "meaningJa": "教師、教授、指導導師",
+      "meaningEn": "professor, instructor, mentor",
+      "notes": "vyranar (学舎) ＋ 指導者"
+    },
+    {
+      "id": 460,
+      "category": "5. 社会・法・共同体",
+      "nrs": "jyltis",
+      "ipa": "[ʒyl.tis]",
+      "pos": "名",
+      "meaningJa": "連合、同盟条約、協調体制",
+      "meaningEn": "coalition, league, alliance",
+      "notes": "jylot (盟約) ＋ 連合"
+    },
+    {
+      "id": 461,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "sylfir",
+      "ipa": "[syl.fir]",
+      "pos": "名",
+      "meaningJa": "誠実、真摯、純心",
+      "meaningEn": "integrity, sincerity, uprightness",
+      "notes": "sylim (心) ＋ firas (不変)"
+    },
+    {
+      "id": 462,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "krotik",
+      "ipa": "[kro.tik]",
+      "pos": "名",
+      "meaningJa": "葛藤、心の嵐、内なる動揺",
+      "meaningEn": "inner conflict, turmoil, agitation",
+      "notes": "krotas (激動) ＋ 内心"
+    },
+    {
+      "id": 463,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "sirvanis",
+      "ipa": "[sir.va.nis]",
+      "pos": "名",
+      "meaningJa": "瞑想者、観照家、静思の徒",
+      "meaningEn": "contemplative, meditator, silent seer",
+      "notes": "sirvon (瞑想) ＋ 探求者"
+    },
+    {
+      "id": 464,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "welnas",
+      "ipa": "[wel.nas]",
+      "pos": "名",
+      "meaningJa": "祈り、希求、祈願",
+      "meaningEn": "prayer, supplication, earnest wish",
+      "notes": "welin (希望) ＋ 希求"
+    },
+    {
+      "id": 465,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "durlan",
+      "ipa": "[dur.lan]",
+      "pos": "名",
+      "meaningJa": "意志、不屈の覚悟、決意",
+      "meaningEn": "willpower, determination, firm resolve",
+      "notes": "duril (強固) ＋ 志向"
+    },
+    {
+      "id": 466,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "fevnas",
+      "ipa": "[fev.nas]",
+      "pos": "名",
+      "meaningJa": "忠誠、信義、誠意",
+      "meaningEn": "fidelity, loyalty, allegiance",
+      "notes": "fevas (信託) ＋ 誠意"
+    },
+    {
+      "id": 467,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "cylanar",
+      "ipa": "[ʃy.la.nar]",
+      "pos": "名",
+      "meaningJa": "劇場、美術館、芸術の館",
+      "meaningEn": "theater, art gallery, salon",
+      "notes": "cylan (美) ＋ 空間"
+    },
+    {
+      "id": 468,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "suflom",
+      "ipa": "[suf.lom]",
+      "pos": "名",
+      "meaningJa": "論理体系、公理系、推論規則系",
+      "meaningEn": "logical system, axiomatic framework",
+      "notes": "suf (論理) ＋ 体系領域"
+    },
+    {
+      "id": 469,
+      "category": "7. 日常・住まい・食",
+      "nrs": "domlik",
+      "ipa": "[dom.lik]",
+      "pos": "名",
+      "meaningJa": "柱、支柱、梁、建築の骨柱",
+      "meaningEn": "pillar, column, support beam",
+      "notes": "dom (室) ＋ 支柱"
+    },
+    {
+      "id": 470,
+      "category": "7. 日常・住まい・食",
+      "nrs": "lervil",
+      "ipa": "[ler.vil]",
+      "pos": "名",
+      "meaningJa": "閂、錠前、扉の留め具",
+      "meaningEn": "latch, door bolt, bar",
+      "notes": "lerel (扉) ＋ 施錠具"
+    },
+    {
+      "id": 471,
+      "category": "7. 日常・住まい・食",
+      "nrs": "falkom",
+      "ipa": "[fal.kom]",
+      "pos": "名",
+      "meaningJa": "燭台、灯火台、照明スタンド",
+      "meaningEn": "candelabra, lamp stand",
+      "notes": "falun (光) ＋ 置き台"
+    },
+    {
+      "id": 472,
+      "category": "7. 日常・住まい・食",
+      "nrs": "nerkul",
+      "ipa": "[ner.kul]",
+      "pos": "名",
+      "meaningJa": "スプーン、匙、汁掬い",
+      "meaningEn": "spoon, ladle, serving scoop",
+      "notes": "ner (食) ＋ 掬い具"
+    },
+    {
+      "id": 473,
+      "category": "7. 日常・住まい・食",
+      "nrs": "nerspik",
+      "ipa": "[ner.spik]",
+      "pos": "名",
+      "meaningJa": "フォーク、刺し具、食具",
+      "meaningEn": "dining fork, pronged utensil",
+      "notes": "ner (食) ＋ 尖鋭刃"
+    },
+    {
+      "id": 474,
+      "category": "7. 日常・住まい・食",
+      "nrs": "valdanar",
+      "ipa": "[val.da.nar]",
+      "pos": "名",
+      "meaningJa": "織物工房、機織り座、布工房",
+      "meaningEn": "textile atelier, loom workshop",
+      "notes": "valdan (絨毯) ＋ 工房"
+    },
+    {
+      "id": 475,
+      "category": "7. 日常・住まい・食",
+      "nrs": "bionas",
+      "ipa": "[bi.o.nas]",
+      "pos": "名",
+      "meaningJa": "水差し、カラフェ、ピッチャー",
+      "meaningEn": "pitcher, jug, decanter",
+      "notes": "bion (飲む) ＋ 注ぎ器"
+    },
+    {
+      "id": 476,
+      "category": "7. 日常・住まい・食",
+      "nrs": "pamelar",
+      "ipa": "[pa.me.lar]",
+      "pos": "名",
+      "meaningJa": "図書館、文庫、書物閲覧所",
+      "meaningEn": "library, archive, book hall",
+      "notes": "pamel (書物) ＋ 収蔵館"
+    },
+    {
+      "id": 477,
+      "category": "8. 動作・相互作用",
+      "nrs": "celvor",
+      "ipa": "[ʃel.vor]",
+      "pos": "動",
+      "meaningJa": "覆う、包む、天蓋のように覆い被さる",
+      "meaningEn": "cover, canopy, encompass",
+      "notes": "celen (天蓋) ＋ 被覆"
+    },
+    {
+      "id": 478,
+      "category": "8. 動作・相互作用",
+      "nrs": "talkan",
+      "ipa": "[tal.kan]",
+      "pos": "動",
+      "meaningJa": "耕す、土を鋤く、開墾する",
+      "meaningEn": "plow, till, cultivate soil",
+      "notes": "tal (大地) ＋ 開墾"
+    },
+    {
+      "id": 479,
+      "category": "8. 動作・相互作用",
+      "nrs": "darlit",
+      "ipa": "[dar.lit]",
+      "pos": "動",
+      "meaningJa": "注ぐ、滴下する、水を注ぎ入れる",
+      "meaningEn": "pour, decant, infuse",
+      "notes": "dar (滴) ＋ 流入"
+    },
+    {
+      "id": 480,
+      "category": "8. 動作・相互作用",
+      "nrs": "wylrev",
+      "ipa": "[wyl.rev]",
+      "pos": "動",
+      "meaningJa": "深呼吸する、風を吸い込む、息を整える",
+      "meaningEn": "inhale deeply, breathe wind",
+      "notes": "wylas (風) ＋ 吸入"
+    },
+    {
+      "id": 481,
+      "category": "8. 動作・相互作用",
+      "nrs": "talpyr",
+      "ipa": "[tal.pyr]",
+      "pos": "動",
+      "meaningJa": "鍛造する、焼き入れする、熱処理する",
+      "meaningEn": "temper, anneal, heat-treat",
+      "notes": "talur (金属) ＋ pyris (火)"
+    },
+    {
+      "id": 482,
+      "category": "8. 動作・相互作用",
+      "nrs": "serfas",
+      "ipa": "[ser.fas]",
+      "pos": "動",
+      "meaningJa": "離す、手を放す、手放す",
+      "meaningEn": "release, let go, disengage",
+      "notes": "ser (手) ＋ 離脱"
+    },
+    {
+      "id": 483,
+      "category": "8. 動作・相互作用",
+      "nrs": "klomas",
+      "ipa": "[klo.mas]",
+      "pos": "動",
+      "meaningJa": "遮断する、孤立させる、隔離する",
+      "meaningEn": "isolate, insulate, shut off",
+      "notes": "klovel (鍵) ＋ 隔離"
+    },
+    {
+      "id": 484,
+      "category": "8. 動作・相互作用",
+      "nrs": "volkin",
+      "ipa": "[vol.kin]",
+      "pos": "動",
+      "meaningJa": "滑空する、風に乗って滑る、空を滑る",
+      "meaningEn": "glide, sail on the air",
+      "notes": "volan (飛ぶ) ＋ 滑走"
+    },
+    {
+      "id": 485,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "vyrini",
+      "ipa": "[vy.ri.ni]",
+      "pos": "形",
+      "meaningJa": "星辰のように輝く、綺羅星の",
+      "meaningEn": "star-like, starry, glittering",
+      "notes": "vyr (星) の形容詞"
+    },
+    {
+      "id": 486,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "taldari",
+      "ipa": "[tal.da.ri]",
+      "pos": "形",
+      "meaningJa": "ぬかるんだ、泥深い、粘土質の",
+      "meaningEn": "muddy, miry, clayey",
+      "notes": "taldar (泥) の性質"
+    },
+    {
+      "id": 487,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "velpari",
+      "ipa": "[vel.pa.ri]",
+      "pos": "形",
+      "meaningJa": "樹木が生い茂った、森厳な",
+      "meaningEn": "wooded, arboraceous, dense-timbered",
+      "notes": "vel (木) の群生"
+    },
+    {
+      "id": 488,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "darlori",
+      "ipa": "[dar.lo.ri]",
+      "pos": "形",
+      "meaningJa": "激流の、潮汐力強い、奔流の",
+      "meaningEn": "torrential, surging, rushing",
+      "notes": "darlor (潮流) の性質"
+    },
+    {
+      "id": 489,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "wylvani",
+      "ipa": "[wyl.va.ni]",
+      "pos": "形",
+      "meaningJa": "旋風のような、目まぐるしい",
+      "meaningEn": "swirling, vortex-like, brisk",
+      "notes": "wylven (つむじ風) の性質"
+    },
+    {
+      "id": 490,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "kyrfini",
+      "ipa": "[kyr.fi.ni]",
+      "pos": "形",
+      "meaningJa": "凍結した、氷河のような、極寒の",
+      "meaningEn": "glacial, ice-locked, gelid",
+      "notes": "kyrfin (氷河) の性質"
+    },
+    {
+      "id": 491,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "falpiri",
+      "ipa": "[fal.pi.ri]",
+      "pos": "形",
+      "meaningJa": "冷光の、幽かな燐光を放つ",
+      "meaningEn": "phosphorescent, glow-in-the-dark",
+      "notes": "falpir (燐光) の性質"
+    },
+    {
+      "id": 492,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "durvani",
+      "ipa": "[dur.va.ni]",
+      "pos": "形",
+      "meaningJa": "免疫のある、抗体を持った、無傷の",
+      "meaningEn": "immune, resistant, impervious",
+      "notes": "durvan (免疫) の性質"
+    },
+    {
+      "id": 493,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "havlor",
+      "ipa": "[hav.lor]",
+      "pos": "名/副",
+      "meaningJa": "いつか、いずれ、将来のある時",
+      "meaningEn": "someday, eventually, in due time",
+      "notes": "hav (時) ＋ 巡行"
+    },
+    {
+      "id": 494,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "eirvas",
+      "ipa": "[eir.vas]",
+      "pos": "名/副",
+      "meaningJa": "永遠の彼方、無窮の果て",
+      "meaningEn": "eternity horizon, timeless expanse",
+      "notes": "eiran (永遠) ＋ 遥か"
+    },
+    {
+      "id": 495,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "valrotu",
+      "ipa": "[val.ro.tu]",
+      "pos": "副",
+      "meaningJa": "木漏れ日の中で、緑陰に",
+      "meaningEn": "in dappled shade, under leafy light",
+      "notes": "velrot ＋ 副詞語尾"
+    },
+    {
+      "id": 496,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "kymdenu",
+      "ipa": "[kym.de.nu]",
+      "pos": "副",
+      "meaningJa": "西へ、日没の方角へ、黄昏に向かって",
+      "meaningEn": "westward, toward twilight",
+      "notes": "kymden (西) ＋ 副詞語尾"
+    },
+    {
+      "id": 497,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "faldenu",
+      "ipa": "[fal.de.nu]",
+      "pos": "副",
+      "meaningJa": "東へ、日の出の方角へ、黎明に向かって",
+      "meaningEn": "eastward, toward sunrise",
+      "notes": "falden (東) ＋ 副詞語尾"
+    },
+    {
+      "id": 498,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "novdenu",
+      "ipa": "[nov.de.nu]",
+      "pos": "副",
+      "meaningJa": "北へ、天頂極へ向かって",
+      "meaningEn": "northward, toward zenith",
+      "notes": "novden (北) ＋ 副詞語尾"
+    },
+    {
+      "id": 499,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "tuldenu",
+      "ipa": "[tul.de.nu]",
+      "pos": "副",
+      "meaningJa": "南へ、天底極へ向かって",
+      "meaningEn": "southward, toward nadir",
+      "notes": "tulden (南) ＋ 副詞語尾"
+    },
+    {
+      "id": 500,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "kivku",
+      "ipa": "[kiv.ku]",
+      "pos": "副",
+      "meaningJa": "ビット単位で、微細に、逐一",
+      "meaningEn": "bit by bit, granularity, item by item",
+      "notes": "kiv (ビット) ＋ 共格副詞"
     }
   ]
 }
