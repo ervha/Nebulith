@@ -32,8 +32,13 @@ for(const v of patterns.verbs)for(const form of ctx.nebulithJapaneseForms(v.lemm
   const object=v.id===30006?'過去を':[30007,30008].includes(v.id)?'未来を':'';
   const input=subject+'は'+object+form.ending;
   const result=ctx.engine.analyze(input,{});
-  if(form.feature){assert.equal(result.complete,false,input+' must preserve desire');assert.ok(result.notes.some(n=>n.includes('希望')),input);}
-  else {assert.equal(result.complete,true,input+': '+JSON.stringify(result));assert.ok(result.segments[0].alignment.length,input);}
+  if(form.feature){
+    assert.equal(result.complete,false,input+' must preserve desire/modality');
+    assert.ok(result.notes.some(n=>n.includes(form.feature.split('・')[0]) || n.includes('モダリティ') || n.includes(form.feature)), input);
+  } else {
+    assert.equal(result.complete,true,input+': '+JSON.stringify(result));
+    assert.ok(result.segments[0].alignment.length,input);
+  }
   combinations++;
 }
 const ambiguous=ctx.engine.analyze('空は美しい',{});assert.equal(ambiguous.complete,false);assert.equal(ambiguous.recordable,false);

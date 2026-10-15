@@ -43,6 +43,7 @@ jobs:
         run: |
           node tests/verify_studio.js
           node tests/verify_productive_translation.js
+          node tests/verify_sprint1_modals_and_conditions.js
 
       - name: Prepare Pages Artifact
         run: |
