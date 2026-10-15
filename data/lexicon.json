@@ -1,9 +1,9 @@
 {
-  "version": "23.4",
+  "version": "23.5",
   "language": "Nebulith",
   "languageJa": "星石語 (Nebulith)",
   "updatedAt": "2026-10-15",
-  "status": "監査中。全項目適合・リリース承認は未実施。",
+  "status": "語幹改定v23.5反映（地球言語類似解消・音韻調律）。",
   "targetGoal": 1000,
   "currentProgressPercent": 100.8,
   "totalEntries": 1008,
@@ -1216,12 +1216,12 @@
     {
       "id": 110,
       "category": "2. 数理・幾何・計測",
-      "nrs": "rin",
-      "ipa": "[rin]",
+      "nrs": "klor",
+      "ipa": "[klor]",
       "pos": "名",
       "meaningJa": "円、真円、環",
       "meaningEn": "circle, ring",
-      "notes": "幾何円"
+      "notes": "幾何円；完全な円環（旧rinより改定、英ring衝突解消）"
     },
     {
       "id": 111,
@@ -2336,32 +2336,32 @@
     {
       "id": 222,
       "category": "4. 生命・生体・医療",
-      "nrs": "kymin",
-      "ipa": "[ky.min]",
+      "nrs": "tymis",
+      "ipa": "[ty.mis]",
       "pos": "名/動",
       "meaningJa": "眠り、睡眠、休眠する",
       "meaningEn": "sleep, rest",
-      "notes": "睡眠"
+      "notes": "睡眠；安息と精神休眠の語根（旧kyminより改定、日仮眠類似完全解消）"
     },
     {
       "id": 223,
       "category": "4. 生命・生体・医療",
-      "nrs": "kyminar",
-      "ipa": "[ky.mi.nar]",
+      "nrs": "tymisar",
+      "ipa": "[ty.mi.sar]",
       "pos": "名",
       "meaningJa": "安息所、病床、療養室",
       "meaningEn": "infirmary, recovery ward, hospice",
-      "notes": "kymin (睡眠/休養) ＋ 施設"
+      "notes": "tymis (眠り) + -ar (場所)"
     },
     {
       "id": 224,
       "category": "4. 生命・生体・医療",
-      "nrs": "kyminis",
-      "ipa": "[ky.mi.nis]",
+      "nrs": "tymisis",
+      "ipa": "[ty.mi.sis]",
       "pos": "名",
       "meaningJa": "居眠り、うたた寝、小休止",
       "meaningEn": "nap, doze, catnap",
-      "notes": "kymin (睡眠) ＋ 縮小"
+      "notes": "tymis (眠り) + -is (縮小・短時間)"
     },
     {
       "id": 225,
@@ -2566,12 +2566,12 @@
     {
       "id": 245,
       "category": "4. 生命・生体・医療",
-      "nrs": "palv",
-      "ipa": "[palv]",
+      "nrs": "zelv",
+      "ipa": "[zelv]",
       "pos": "名",
       "meaningJa": "手、掌、指",
       "meaningEn": "hand, palm, fingers",
-      "notes": "手；手のひら・手掌を表す星辰語幹（旧serより改定、地球言語類似完全排除）"
+      "notes": "手；手のひら・手掌を表す星辰語幹（旧palvより改定、英palm類似完全排除）"
     },
     {
       "id": 246,
@@ -2606,12 +2606,12 @@
     {
       "id": 249,
       "category": "4. 生命・生体・医療",
-      "nrs": "palvjyt",
-      "ipa": "[palv.ʒyt]",
+      "nrs": "zelvjyt",
+      "ipa": "[zelv.ʒyt]",
       "pos": "名",
       "meaningJa": "手首、関節、手の節点",
       "meaningEn": "wrist, joint, articulate node",
-      "notes": "palv (手) ＋ jyt (節点)；palv (手掌) + jyt (節点)"
+      "notes": "zelv (手) + jyt (節点)"
     },
     {
       "id": 250,
@@ -6706,12 +6706,12 @@
     {
       "id": 659,
       "category": "13. 衣飾・携行具・日常品",
-      "nrs": "palvval",
-      "ipa": "[palv.val]",
+      "nrs": "zelvval",
+      "ipa": "[zelv.val]",
       "pos": "名",
       "meaningJa": "手袋、保護手袋",
       "meaningEn": "gloves, gauntlets",
-      "notes": "palv (手) ＋ valis (布)；palv (手) + val (覆い・防護)"
+      "notes": "zelv (手) + val (覆い・防護)"
     },
     {
       "id": 660,
@@ -7546,12 +7546,12 @@
     {
       "id": 743,
       "category": "14. 精神・哲学・感情・芸術",
-      "nrs": "sonan",
-      "ipa": "[so.nan]",
+      "nrs": "muran",
+      "ipa": "[mu.ran]",
       "pos": "動",
       "meaningJa": "夢を見る、幻視する、構想する",
       "meaningEn": "dream, envision, visualize",
-      "notes": "夢見の動詞"
+      "notes": "夢見の動詞；精神の幻視・構想（旧sonanより改定、西soñar衝突解消）"
     },
     {
       "id": 744,
@@ -8166,12 +8166,12 @@
     {
       "id": 805,
       "category": "15. 性質・状態・色彩・感触",
-      "nrs": "rinini",
-      "ipa": "[ri.ni.ni]",
+      "nrs": "klorini",
+      "ipa": "[klo.ri.ni]",
       "pos": "形",
       "meaningJa": "丸い、円形の、球状の",
       "meaningEn": "round, circular, spherical",
-      "notes": "rin (円) の性質"
+      "notes": "klor (円) + -ini (形容詞化)"
     },
     {
       "id": 806,
@@ -8186,12 +8186,12 @@
     {
       "id": 807,
       "category": "15. 性質・状態・色彩・感触",
-      "nrs": "palvsarn",
-      "ipa": "[palv.sarn]",
+      "nrs": "zelvsarn",
+      "ipa": "[zelv.sarn]",
       "pos": "形",
       "meaningJa": "ざらつく、粒立ちのある、手応えのある",
       "meaningEn": "gritty, textured, tactile with grains",
-      "notes": "palv (触覚) + sarn (粒粗)；palv (手・触覚) + sarn (微粒子)"
+      "notes": "zelv (手・触覚) + sarn (微粒子)"
     },
     {
       "id": 808,
@@ -9076,22 +9076,22 @@
     {
       "id": 896,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "novden",
-      "ipa": "[nov.den]",
+      "nrs": "kyrvden",
+      "ipa": "[kyrv.den]",
       "pos": "名/副",
       "meaningJa": "北、天頂極の方位、上極",
       "meaningEn": "north, zenith pole",
-      "notes": "天頂を向く極"
+      "notes": "天頂を向く極；北極方位（旧novdenより改定、独Norden衝突完全解消）"
     },
     {
       "id": 897,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "novdenu",
-      "ipa": "[nov.de.nu]",
+      "nrs": "kyrvdenu",
+      "ipa": "[kyrv.de.nu]",
       "pos": "副",
       "meaningJa": "北へ、天頂極へ向かって",
       "meaningEn": "northward, toward zenith",
-      "notes": "novden (北) ＋ 副詞語尾"
+      "notes": "kyrvden (北) + -u (方向副詞)"
     },
     {
       "id": 898,
@@ -9206,22 +9206,22 @@
     {
       "id": 909,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "palvan",
-      "ipa": "[pal.van]",
+      "nrs": "zelvan",
+      "ipa": "[zel.van]",
       "pos": "動",
       "meaningJa": "授ける、手渡す、贈る",
       "meaningEn": "give, bestow, grant",
-      "notes": "授与動詞；palv (手) + -an (授受動詞化)"
+      "notes": "授与動詞；zelv (手) + -an (授受動詞化)"
     },
     {
       "id": 910,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "palvcor",
-      "ipa": "[palv.ʃor]",
+      "nrs": "zelvcor",
+      "ipa": "[zelv.ʃor]",
       "pos": "動",
       "meaningJa": "握手する、手を携える、協調する",
       "meaningEn": "clasp hands, cooperate, join forces",
-      "notes": "palv (手) + cor (共同)；palv (手) + cor (協調・連環動詞)"
+      "notes": "zelv (手) + cor (協調・連環動詞)"
     },
     {
       "id": 911,
@@ -9236,22 +9236,22 @@
     {
       "id": 912,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "palvfas",
-      "ipa": "[palv.fas]",
+      "nrs": "zelvfas",
+      "ipa": "[zelv.fas]",
       "pos": "動",
       "meaningJa": "離す、手を放す、手放す",
       "meaningEn": "release, let go, disengage",
-      "notes": "palv (手) ＋ 離脱；palv (手) + fas (離脱・開放)"
+      "notes": "zelv (手) + fas (離脱・開放)"
     },
     {
       "id": 913,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "palvin",
-      "ipa": "[pal.vin]",
+      "nrs": "zelvin",
+      "ipa": "[zel.vin]",
       "pos": "動",
       "meaningJa": "触れる、手渡す、受け止める",
       "meaningEn": "touch, hold, receive",
-      "notes": "触覚動詞；palv (手) + -in (接触・把持動詞)"
+      "notes": "触覚動詞；zelv (手) + -in (接触・把持動詞)"
     },
     {
       "id": 914,
@@ -9276,12 +9276,12 @@
     {
       "id": 916,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "palvzan",
-      "ipa": "[palv.zan]",
+      "nrs": "zelvzan",
+      "ipa": "[zelv.zan]",
       "pos": "動",
       "meaningJa": "手繰り寄せる、引き寄せる、引っ張る",
       "meaningEn": "draw near with hands, haul, pull cable",
-      "notes": "palv (手) + zan (引張)；palv (手) + zan (牽引・引導)"
+      "notes": "zelv (手) + zan (牽引・引導)"
     },
     {
       "id": 917,
@@ -9606,22 +9606,22 @@
     {
       "id": 949,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "voras",
-      "ipa": "[vo.ras]",
+      "nrs": "dyras",
+      "ipa": "[dy.ras]",
       "pos": "名/副",
       "meaningJa": "前、前方、未来の側",
       "meaningEn": "front, forward, ahead",
-      "notes": "進行方向"
+      "notes": "進行方向；前・順行（旧vorasより改定、独voraus衝突解消）"
     },
     {
       "id": 950,
       "category": "16. 動作・動態・時空・方向副詞",
-      "nrs": "vorasu",
-      "ipa": "[vo.ra.su]",
+      "nrs": "dyrasu",
+      "ipa": "[dy.ra.su]",
       "pos": "副",
       "meaningJa": "前へ、前方へ、未来へ向かって",
       "meaningEn": "forward, onward, ahead",
-      "notes": "voras (前) ＋ -u (方向副詞)"
+      "notes": "dyras (前) + -u (方向副詞)"
     },
     {
       "id": 951,

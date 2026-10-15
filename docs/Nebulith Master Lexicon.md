@@ -1,6 +1,6 @@
 # Nebulith Master Lexicon (星石語 統御語彙大系)
 
-> **Version**: 23.4 (1,008 Master Roots across 16 Categories)
+> **Version**: 23.5 (1,008 Master Roots across 16 Categories)
 > **Audit status**: 修正中。監査記録は [audit/README.md](../audit/README.md) を参照。
 
 ## 16-Domain Category Overview (全16領域構成)
@@ -143,7 +143,7 @@
 | 107 | **niven** | `[ni.ven]` | 名 | 次元、座標軸、空間度数 | dimension, coordinate axis | 次元・軸 |
 | 108 | **novdin** | `[nov.din]` | 名 | 上限、最小上界、スプレマム | supremum, least upper bound | novar (頂) + din (基底) |
 | 109 | **polytar** | `[po.ly.tar]` | 名 | 多面体、空間胞体、幾何胞 | polyhedron, spatial cell, geometric polytope | 幾何学空間胞体・多面体。大地talから分離 |
-| 110 | **rin** | `[rin]` | 名 | 円、真円、環 | circle, ring | 幾何円 |
+| 110 | **klor** | `[klor]` | 名 | 円、真円、環 | circle, ring | 幾何円；完全な円環（旧rinより改定、英ring衝突解消） |
 | 111 | **ryvel** | `[ry.vel]` | 名 | 測度、尺度、メトリック | metric, measure | 精密計測 |
 | 112 | **sevur** | `[se.vur]` | 名 | 選択肢、オルタナティブ、分岐選出 | alternative, option, choice | sevik (分岐) ＋ 選択肢 |
 | 113 | **sufcor** | `[suf.ʃor]` | 名 | 超限数、無限濃度、カージナル | transfinite number, aleph cardinal | suf (計算) + cor (無限大) |
@@ -263,9 +263,9 @@
 | 219 | **korgon** | `[kor.gon]` | 名 | 胃、消化器、滋養受納処 | stomach, digestive organ | 消化臓腑・胃。stomach/magenと完全分離 |
 | 220 | **kylar** | `[ky.lar]` | 名 | 病、乱調、軌道乱れ | illness, disease | 病気・不調 |
 | 221 | **kylat** | `[ky.lat]` | 名 | 疲労、消耗、エネルギー枯渇 | fatigue, weariness, drain | 生命力の減退 |
-| 222 | **kymin** | `[ky.min]` | 名/動 | 眠り、睡眠、休眠する | sleep, rest | 睡眠 |
-| 223 | **kyminar** | `[ky.mi.nar]` | 名 | 安息所、病床、療養室 | infirmary, recovery ward, hospice | kymin (睡眠/休養) ＋ 施設 |
-| 224 | **kyminis** | `[ky.mi.nis]` | 名 | 居眠り、うたた寝、小休止 | nap, doze, catnap | kymin (睡眠) ＋ 縮小 |
+| 222 | **tymis** | `[ty.mis]` | 名/動 | 眠り、睡眠、休眠する | sleep, rest | 睡眠；安息と精神休眠の語根（旧kyminより改定、日仮眠類似完全解消） |
+| 223 | **tymisar** | `[ty.mi.sar]` | 名 | 安息所、病床、療養室 | infirmary, recovery ward, hospice | tymis (眠り) + -ar (場所) |
+| 224 | **tymisis** | `[ty.mi.sis]` | 名 | 居眠り、うたた寝、小休止 | nap, doze, catnap | tymis (眠り) + -is (縮小・短時間) |
 | 225 | **larin** | `[la.rin]` | 名 | 足、脚、歩行肢 | foot, leg | 歩行肢 |
 | 226 | **larkul** | `[lar.kul]` | 名 | 足首、くるぶし、歩行関節 | ankle, tarsus | larin (足) ＋ 節点 |
 | 227 | **morcon** | `[mor.ʃon]` | 名 | 骨折、組織断裂、生体損傷 | fracture, skeletal rupture, trauma | mor (骨肉) + con (損傷) |
@@ -286,11 +286,11 @@
 | 242 | **revsol** | `[rev.sol]` | 名 | 代謝、生体恒常性、生命維持循環 | metabolism, homeostasis | rev (生気) + sol (循環) |
 | 243 | **revtin** | `[rev.tin]` | 名 | 脈診、触診、生体リズム診断 | pulse diagnosis, palpation, vital rhythm test | rev (脈動) + tin (検知) |
 | 244 | **revtis** | `[rev.tis]` | 名 | 疲労、消耗、体力の衰え | fatigue, weariness, exhaustion | rev (生気) + tis (減衰) |
-| 245 | **palv** | `[palv]` | 名 | 手、掌、指 | hand, palm, fingers | 手；手のひら・手掌を表す星辰語幹（旧serより改定、地球言語類似完全排除） |
+| 245 | **zelv** | `[zelv]` | 名 | 手、掌、指 | hand, palm, fingers | 手；手のひら・手掌を表す星辰語幹（旧palvより改定、英palm類似完全排除） |
 | 246 | **sercon** | `[ser.ʃon]` | 名 | 鎮痛薬、麻酔、感覚遮断薬 | analgesic, painkiller, anesthetic sedative | ser (静穏) + con (鎮静剤) |
 | 247 | **serdin** | `[ser.din]` | 名 | 反射、不随意運動、神経反射 | reflex, involuntary impulse | ser (神経) + din (直発動) |
 | 248 | **serfal** | `[ser.fal]` | 名 | 覚醒、目覚め、意識の再開 | awakening, vigil, waking state | ser (静) + fal (光) |
-| 249 | **palvjyt** | `[palv.ʒyt]` | 名 | 手首、関節、手の節点 | wrist, joint, articulate node | palv (手) ＋ jyt (節点)；palv (手掌) + jyt (節点) |
+| 249 | **zelvjyt** | `[zelv.ʒyt]` | 名 | 手首、関節、手の節点 | wrist, joint, articulate node | zelv (手) + jyt (節点) |
 | 250 | **serkin** | `[ser.kin]` | 名 | まどろみ、浅い眠り、仮眠 | doze, light slumber, nap | serkym (睡眠) + kin (小) |
 | 251 | **serkym** | `[ser.kym]` | 名 | 睡眠、安息、深い眠り | sleep, slumber, rest cycle | ser (静まる) + kym (夜) |
 | 252 | **serpanan** | `[ser.pa.nan]` | 動 | 鎮静させる、眠らせる、痛みを和らげる | soothe, tranquilize, alleviate pain | ser (静穏) + panan (施す) |
@@ -732,7 +732,7 @@
 | 656 | **pamelar** | `[pa.me.lar]` | 名 | 図書館、文庫、書物閲覧所 | library, archive, book hall | pamel (書物) ＋ 収蔵館 |
 | 657 | **pamelis** | `[pa.me.lis]` | 名 | 栞、ブックマーク、目印の紐 | bookmark, marker ribbon | pamel (本) ＋ 挟み紐 |
 | 658 | **serel** | `[se.rel]` | 名 | 小刀、ナイフ、調理刃 | knife, blade, cutter | 手元の刃具 |
-| 659 | **palvval** | `[palv.val]` | 名 | 手袋、保護手袋 | gloves, gauntlets | palv (手) ＋ valis (布)；palv (手) + val (覆い・防護) |
+| 659 | **zelvval** | `[zelv.val]` | 名 | 手袋、保護手袋 | gloves, gauntlets | zelv (手) + val (覆い・防護) |
 | 660 | **talparil** | `[tal.pa.ril]` | 名 | 耳飾り、イヤリング、耳環 | earring, ear drop, lobe pendant | tal (貴石) + paril (耳部小飾) |
 | 661 | **talvinor** | `[tal.vi.nor]` | 名 | 首飾り、ネックレス、宝石胸飾り | necklace, pectoral gorget, pendant collar | tal (宝飾) + vinor (首元連) |
 | 662 | **talvyn** | `[tal.vyn]` | 名 | 櫛、髪飾り、整髪具 | comb, hair clasp, ornamental pin | tal (材) + vyn (歯) |
@@ -820,7 +820,7 @@
 | 740 | **sirvanis** | `[sir.va.nis]` | 名 | 瞑想者、観照家、静思の徒 | contemplative, meditator, silent seer | sirvon (瞑想) ＋ 探求者 |
 | 741 | **sirvon** | `[sir.von]` | 名/形 | 瞑想、深い静思、観照する | meditation, tranquil mindfulness | sirin (平穏) ＋ 観照 |
 | 742 | **solen** | `[so.len]` | 名/形 | 孤高、静かな孤独、一人きり | solitude, solitude-proud | 孤高 |
-| 743 | **sonan** | `[so.nan]` | 動 | 夢を見る、幻視する、構想する | dream, envision, visualize | 夢見の動詞 |
+| 743 | **muran** | `[mu.ran]` | 動 | 夢を見る、幻視する、構想する | dream, envision, visualize | 夢見の動詞；精神の幻視・構想（旧sonanより改定、西soñar衝突解消） |
 | 744 | **sonir** | `[so.nir]` | 名 | 夢、幻視、内なるビジョン | dream, vision | 夢 |
 | 745 | **soras** | `[so.ras]` | 名 | 記憶、想い出、刻印 | memory, remembrance | 想い出 |
 | 746 | **sufan** | `[su.fan]` | 名/形 | 叡智、深奥な知慮、賢明な | wisdom, sagacity, deep insight | 思索から紡がれた智 |
@@ -886,9 +886,9 @@
 | 802 | **pyrin** | `[py.rin]` | 形 | 赤い、真紅の、燃えるような | red, crimson, fiery | 真紅 |
 | 803 | **pyrsol** | `[pyr.sol]` | 形 | 緋色の、深紅の、紅蓮の | crimson, scarlet-bright, ruby incandescent | pyris (炎) + sol (濃朱) |
 | 804 | **pyrzan** | `[pyr.zan]` | 形 | 熱烈な、灼熱の、焼けるような | scalding, scorching, fiercely fervent | pyris (火) + zan (高熱極) |
-| 805 | **rinini** | `[ri.ni.ni]` | 形 | 丸い、円形の、球状の | round, circular, spherical | rin (円) の性質 |
+| 805 | **klorini** | `[klo.ri.ni]` | 形 | 丸い、円形の、球状の | round, circular, spherical | klor (円) + -ini (形容詞化) |
 | 806 | **serini** | `[se.ri.ni]` | 形 | 細い、薄い、繊細な | thin, slim, subtle | 繊細 |
-| 807 | **palvsarn** | `[palv.sarn]` | 形 | ざらつく、粒立ちのある、手応えのある | gritty, textured, tactile with grains | palv (触覚) + sarn (粒粗)；palv (手・触覚) + sarn (微粒子) |
+| 807 | **zelvsarn** | `[zelv.sarn]` | 形 | ざらつく、粒立ちのある、手応えのある | gritty, textured, tactile with grains | zelv (手・触覚) + sarn (微粒子) |
 | 808 | **sersolv** | `[ser.solv]` | 形 | 絹のように滑らかな、つるつるとした | silky, satiny smooth, gliding | ser (触覚) + solv (無抵抗滑動) |
 | 809 | **sirani** | `[si.ra.ni]` | 形 | 優しい、穏やかな、柔らかな | gentle, mild, soft | 穏和 |
 | 810 | **syvan** | `[sy.van]` | 形 | 新しい、新鮮な、新緑の | new, fresh, novel | 時間的・生命的新鮮さ。new/novusと完全分離 |
@@ -981,8 +981,8 @@
 | 893 | **nerpan** | `[ner.pan]` | 動 | 刻む、細切りにする、みじん切りにする | chop, mince, dice finely | ner (食) + pan (分割) |
 | 894 | **novas** | `[no.vas]` | 動 | 登る、登攀する、頂点を目指す | climb, ascend, scale | 上昇動詞 |
 | 895 | **novasu** | `[no.va.su]` | 副 | 高らかに、天上に向けて、頂点へ | loftily, aloft, upwards | novan (高嶺) ＋ 副詞語尾 |
-| 896 | **novden** | `[nov.den]` | 名/副 | 北、天頂極の方位、上極 | north, zenith pole | 天頂を向く極 |
-| 897 | **novdenu** | `[nov.de.nu]` | 副 | 北へ、天頂極へ向かって | northward, toward zenith | novden (北) ＋ 副詞語尾 |
+| 896 | **kyrvden** | `[kyrv.den]` | 名/副 | 北、天頂極の方位、上極 | north, zenith pole | 天頂を向く極；北極方位（旧novdenより改定、独Norden衝突完全解消） |
+| 897 | **kyrvdenu** | `[kyrv.de.nu]` | 副 | 北へ、天頂極へ向かって | northward, toward zenith | kyrvden (北) + -u (方向副詞) |
 | 898 | **parin** | `[pa.rin]` | 名/副 | 右、右舷、右方 | right, starboard | 右側 |
 | 899 | **parinu** | `[pa.ri.nu]` | 副 | 右へ、右側へ、右舷へ | rightward, to the right | parin (右) ＋ -u (方向副詞) |
 | 900 | **pason** | `[pa.son]` | 名/副 | 後、後方、過去の側 | back, rear, behind | 過ぎ去る方向 |
@@ -994,14 +994,14 @@
 | 906 | **relen** | `[re.len]` | 動 | ある、存在する、実在する | exist, be present | 存在コピュラ |
 | 907 | **saren** | `[sa.ren]` | 動 | 笑う、微笑む、笑顔になる | smile, laugh | 笑顔動詞 |
 | 908 | **seno** | `[se.no]` | 副/名 | 明日、来たるべき日 | tomorrow | 来日 |
-| 909 | **palvan** | `[pal.van]` | 動 | 授ける、手渡す、贈る | give, bestow, grant | 授与動詞；palv (手) + -an (授受動詞化) |
-| 910 | **palvcor** | `[palv.ʃor]` | 動 | 握手する、手を携える、協調する | clasp hands, cooperate, join forces | palv (手) + cor (共同)；palv (手) + cor (協調・連環動詞) |
+| 909 | **zelvan** | `[zel.van]` | 動 | 授ける、手渡す、贈る | give, bestow, grant | 授与動詞；zelv (手) + -an (授受動詞化) |
+| 910 | **zelvcor** | `[zelv.ʃor]` | 動 | 握手する、手を携える、協調する | clasp hands, cooperate, join forces | zelv (手) + cor (協調・連環動詞) |
 | 911 | **serdar** | `[ser.dar]` | 動 | 洗う、洗い流す、清める | wash, rinse, cleanse | ser (手) ＋ dar (水) |
-| 912 | **palvfas** | `[palv.fas]` | 動 | 離す、手を放す、手放す | release, let go, disengage | palv (手) ＋ 離脱；palv (手) + fas (離脱・開放) |
-| 913 | **palvin** | `[pal.vin]` | 動 | 触れる、手渡す、受け止める | touch, hold, receive | 触覚動詞；palv (手) + -in (接触・把持動詞) |
+| 912 | **zelvfas** | `[zelv.fas]` | 動 | 離す、手を放す、手放す | release, let go, disengage | zelv (手) + fas (離脱・開放) |
+| 913 | **zelvin** | `[zel.vin]` | 動 | 触れる、手渡す、受け止める | touch, hold, receive | 触覚動詞；zelv (手) + -in (接触・把持動詞) |
 | 914 | **serlit** | `[ser.lit]` | 動 | 撫でる、優しく触れる、いたわる | stroke gently, caress | ser (手) の柔和接触 |
 | 915 | **serpan** | `[ser.pan]` | 動 | 掴む、握る、掌中に収める | grasp, clutch, grip | 把持動詞 |
-| 916 | **palvzan** | `[palv.zan]` | 動 | 手繰り寄せる、引き寄せる、引っ張る | draw near with hands, haul, pull cable | palv (手) + zan (引張)；palv (手) + zan (牽引・引導) |
+| 916 | **zelvzan** | `[zelv.zan]` | 動 | 手繰り寄せる、引き寄せる、引っ張る | draw near with hands, haul, pull cable | zelv (手) + zan (牽引・引導) |
 | 917 | **silin** | `[si.lin]` | 名/副 | 内、内部、中心側、心の内 | inside, inward, within | 内部 |
 | 918 | **silinu** | `[si.li.nu]` | 副 | 内へ、内部へ、心の内へ向かって | inward, inside, inwardly | silin (内) ＋ -u (方向副詞) |
 | 919 | **soran** | `[so.ran]` | 動 | （ノートに）書き留める、記す | record, chronicle, write down | 筆記動詞 |
@@ -1034,8 +1034,8 @@
 | 946 | **volkin** | `[vol.kin]` | 動 | 滑空する、風に乗って滑る、空を滑る | glide, sail on the air | veiran (飛ぶ) ＋ 滑走 |
 | 947 | **volpas** | `[vol.pas]` | 動 | 飛び降りる、跳躍する、飛び越える | jump, leap over, hop down | veiran (飛ぶ) ＋ 跳躍 |
 | 948 | **volzan** | `[vol.zan]` | 動 | 急降下する、ダイブする、滑空降下する | swoop, dive swiftly, plunge downward | veiran (飛ぶ) + zan (急降) |
-| 949 | **voras** | `[vo.ras]` | 名/副 | 前、前方、未来の側 | front, forward, ahead | 進行方向 |
-| 950 | **vorasu** | `[vo.ra.su]` | 副 | 前へ、前方へ、未来へ向かって | forward, onward, ahead | voras (前) ＋ -u (方向副詞) |
+| 949 | **dyras** | `[dy.ras]` | 名/副 | 前、前方、未来の側 | front, forward, ahead | 進行方向；前・順行（旧vorasより改定、独voraus衝突解消） |
+| 950 | **dyrasu** | `[dy.ra.su]` | 副 | 前へ、前方へ、未来へ向かって | forward, onward, ahead | dyras (前) + -u (方向副詞) |
 | 951 | **vymin** | `[vy.min]` | 動 | 守る、庇護する、防護する | protect, guard, shield | 守護動詞 |
 | 952 | **vyranu** | `[vy.ra.nu]` | 副 | 確かに、真に、疑いなく | truly, certainly, indeed | 確信副詞 |
 | 953 | **vyrel** | `[vy.rel]` | 動 | （精密に）観測する、測定する | observe, measure | 観測動詞 |

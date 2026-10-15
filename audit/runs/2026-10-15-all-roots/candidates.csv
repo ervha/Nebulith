@@ -7,25 +7,6 @@
 107,niven,次元、座標軸、空間度数,dimension,ja,jigen,in physics,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93522285,source-sense-review-required
 107,niven,次元、座標軸、空間度数,dimension,ja,jigen,in computing,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93522285,source-sense-review-required
 107,niven,次元、座標軸、空間度数,dimension,ja,jigen,in science fiction,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93522285,source-sense-review-required
-110,rin,円、真円、環,circle,ja,en,geometry: set of points that are equally distant from a center,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93409097,source-sense-review-required
-110,rin,円、真円、環,circle,de,Augenringe,bagginess of skin under eyes,Noun,7,True,https://en.wiktionary.org/w/index.php?oldid=93409097,source-sense-review-required
-110,rin,円、真円、環,ring,en,ring,ring,dictionary gloss,1,True,data/lexicon.json,dictionary-gloss-correspondence
-110,rin,円、真円、環,ring,de,Ring,circumscribing object,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Ring,round piece of (precious) metal worn around the finger,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Ring,bird band,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,fr,ring,place where some sports take place,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Ring,place where some sports take place,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,ja,ringu,place where some sports take place,Noun,2,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,es,ring,place where some sports take place,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Ring,group of people (for illicit purposes),Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,es,red,group of people (for illicit purposes),Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Ring,geometry: a planar geometrical figure,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,ja,kan,astronomy: a formation of various pieces of material orbiting around a planet,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,beringen,to attach a ring to for identification,Verb,5,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Ring,algebra: an algebraic structure,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,ja,kan,algebra: an algebraic structure,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Ring,family of sets...,Noun,1,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
-110,rin,円、真円、環,ring,de,Mengenring,family of sets...,Noun,7,True,https://en.wiktionary.org/w/index.php?oldid=93547992,source-sense-review-required
 132,jyn,電気、電力、電荷、エネルギー,power,ja,jō,maths: product of equal factors,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93425279,source-sense-review-required
 141,kiv,ビット、二値単位、情報最小光点,bit,en,bit,bit,dictionary gloss,2,False,data/lexicon.json,dictionary-gloss-correspondence
 141,kiv,ビット、二値単位、情報最小光点,bit,de,Bit,eighth of a dollar,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93563114,source-sense-review-required
@@ -33,11 +14,7 @@
 141,kiv,ビット、二値単位、情報最小光点,bit,de,Bit,math: binary digit,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93563114,source-sense-review-required
 141,kiv,ビット、二値単位、情報最小光点,bit,de,Bit,computing: smallest unit of storage,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93563114,source-sense-review-required
 141,kiv,ビット、二値単位、情報最小光点,bit,de,Bit,information theory: datum that may take on one of exactly two values,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93563114,source-sense-review-required
-222,kymin,眠り、睡眠、休眠する,sleep,ja,kamin,informal: act or instance of sleeping,Noun,1,False,https://en.wiktionary.org/w/index.php?oldid=93429733,source-sense-review-required
 235,noven,頭、頭脳、中枢神経,brain,ja,nō,organ,Noun,3,True,https://en.wiktionary.org/w/index.php?oldid=93551834,source-sense-review-required
-245,palv,手、掌、指,palm,en,palm,palm,dictionary gloss,1,False,data/lexicon.json,dictionary-gloss-correspondence
-245,palv,手、掌、指,palm,la,palma,"inner, concave part of hand",Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93517126,source-sense-review-required
-245,palv,手、掌、指,palm,es,palma,"inner, concave part of hand",Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93517126,source-sense-review-required
 277,tal,大地、土壌、足元、地面,earth,fr,sol,soil,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93355898,source-sense-review-required
 277,tal,大地、土壌、足元、地面,earth,de,Bau,fox's lair,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93355898,source-sense-review-required
 277,tal,大地、土壌、足元、地面,soil,fr,sol,mixture of sand and organic material,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93543850,source-sense-review-required
@@ -71,11 +48,6 @@
 578,martor,商人、交易商人、商人ギルド員,factor,es,factor,economic resource,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93555450,source-sense-review-required
 619,laros,乗り物、車両、列車、交通艇,train,ja,o,that which is drawn along,Noun,4,True,https://en.wiktionary.org/w/index.php?oldid=93554899,source-sense-review-required
 642,kirel,筆、ペン、鉄筆、スタイラス,quill,de,Kiel,lower shaft of a feather,Noun,1,False,https://en.wiktionary.org/w/index.php?oldid=92733280,source-sense-review-required
-743,sonan,夢を見る、幻視する、構想する,dream,fr,songe,imaginary events seen while sleeping,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
-743,sonan,夢を見る、幻視する、構想する,dream,fr,songe,hope or wish,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
-743,sonan,夢を見る、幻視する、構想する,dream,es,soñar,see imaginary events while sleeping,Verb,1,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
-743,sonan,夢を見る、幻視する、構想する,dream,es,soñar,"to hope, to wish",Verb,1,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
-743,sonan,夢を見る、幻視する、構想する,dream,es,soñar,to create an imaginary experience,Verb,1,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
 744,sonir,夢、幻視、内なるビジョン,dream,fr,songe,imaginary events seen while sleeping,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
 744,sonir,夢、幻視、内なるビジョン,dream,fr,songe,hope or wish,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
 744,sonir,夢、幻視、内なるビジョン,dream,la,somniō,see imaginary events while sleeping,Verb,2,False,https://en.wiktionary.org/w/index.php?oldid=93533971,source-sense-review-required
@@ -105,8 +77,6 @@
 892,mu,いいえ、〜でない（否定極性辞）,not,es,no,negates meaning of another word,Adverb,2,False,https://en.wiktionary.org/w/index.php?oldid=93572072,source-sense-review-required
 892,mu,いいえ、〜でない（否定極性辞）,not,es,no,And not,Conjunction,2,False,https://en.wiktionary.org/w/index.php?oldid=93572072,source-sense-review-required
 892,mu,いいえ、〜でない（否定極性辞）,no,en,no,no,dictionary gloss,2,False,data/lexicon.json,dictionary-gloss-correspondence
-896,novden,北、天頂極の方位、上極,north,de,Norden,compass point,Noun,1,False,https://en.wiktionary.org/w/index.php?oldid=93576621,source-sense-review-required
-896,novden,北、天頂極の方位、上極,north,de,Norden,towards the north,Adverb,1,False,https://en.wiktionary.org/w/index.php?oldid=93576621,source-sense-review-required
 917,silin,内、内部、中心側、心の内,inside,de,in,"within the interior of, closest to the center or to a specific point of reference",Preposition,3,True,https://en.wiktionary.org/w/index.php?oldid=93552941,source-sense-review-required
 917,silin,内、内部、中心側、心の内,within,de,in,spatially enclosed by,Preposition,3,True,https://en.wiktionary.org/w/index.php?oldid=92480719,source-sense-review-required
 917,silin,内、内部、中心側、心の内,within,la,in,spatially enclosed by,Preposition,3,True,https://en.wiktionary.org/w/index.php?oldid=92480719,source-sense-review-required
@@ -142,11 +112,6 @@
 943,ve,はい、然り、その通り（肯定極性辞）,yes,es,sí,vote of support,Noun,2,False,https://en.wiktionary.org/w/index.php?oldid=93022230,source-sense-review-required
 943,ve,はい、然り、その通り（肯定極性辞）,indeed,es,de veras,indication of agreement,Interjection,6,True,https://en.wiktionary.org/w/index.php?oldid=91678588,source-sense-review-required
 943,ve,はい、然り、その通り（肯定極性辞）,indeed,es,en verdad,indication of agreement,Interjection,7,True,https://en.wiktionary.org/w/index.php?oldid=91678588,source-sense-review-required
-949,voras,前、前方、未来の側,forward,de,vor,"at, near or towards the front of something",Adverb,2,True,https://en.wiktionary.org/w/index.php?oldid=93516311,source-sense-review-required
-949,voras,前、前方、未来の側,ahead,de,vorn,in or to the front,Adverb,2,False,https://en.wiktionary.org/w/index.php?oldid=91325639,source-sense-review-required
-949,voras,前、前方、未来の側,ahead,de,voraus,in or to the front,Adverb,1,False,https://en.wiktionary.org/w/index.php?oldid=91325639,source-sense-review-required
-950,vorasu,前へ、前方へ、未来へ向かって,forward,de,vor,"at, near or towards the front of something",Adverb,3,True,https://en.wiktionary.org/w/index.php?oldid=93516311,source-sense-review-required
-950,vorasu,前へ、前方へ、未来へ向かって,ahead,de,voraus,in or to the front,Adverb,2,False,https://en.wiktionary.org/w/index.php?oldid=91325639,source-sense-review-required
 957,zen,なぜなら、〜ゆえに、理由,because,de,denn,by or for the cause that; on this account that; for the reason that,Conjunction,2,False,https://en.wiktionary.org/w/index.php?oldid=92969782,source-sense-review-required
 957,zen,なぜなら、〜ゆえに、理由,because,ja,nazenara,by or for the cause that; on this account that; for the reason that,Conjunction,5,True,https://en.wiktionary.org/w/index.php?oldid=92969782,source-sense-review-required
 957,zen,なぜなら、〜ゆえに、理由,because,de,denn,as known because; as inferred because; as determined because,Conjunction,2,False,https://en.wiktionary.org/w/index.php?oldid=92969782,source-sense-review-required

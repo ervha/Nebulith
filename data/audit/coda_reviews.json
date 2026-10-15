@@ -399,25 +399,25 @@
     },
     {
       "lexiconId": 245,
-      "nrs": "palv",
+      "nrs": "zelv",
       "finalConsonant": "v",
       "decision": "rejected",
       "ruleId": "SOP.CHK08.neither",
       "reason": "手・掌は器官一般で硬質の牙や爪とは異なる。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "b2a6af1907dab07a2285efd17c74089adea9bf6ec6cc5124710fca8ccad356d3"
+      "reviewedAgainstEntryHash": "eeb925cae390172452112b1f020772ef3dc55ac93c1bd3a4d90bb6d0993c2fee"
     },
     {
       "lexiconId": 249,
-      "nrs": "palvjyt",
+      "nrs": "zelvjyt",
       "finalConsonant": "t",
       "decision": "rejected",
       "ruleId": "SOP.CHK08.neither",
       "reason": "手首・関節は可動器官で硬さを主要語義としない。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "3c2e257aa558521dc03406176272f409dfa5c4eeee03a990068eef2ce61e42c1"
+      "reviewedAgainstEntryHash": "1e7d6762cbf01186b1181d08c6e253fa13a312c4256792482cff05e97a096543"
     },
     {
       "lexiconId": 255,

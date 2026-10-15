@@ -108,7 +108,7 @@
 107,niven,次元、座標軸、空間度数,"dimension, coordinate axis",2,1,8,1,7,9,4,
 108,novdin,上限、最小上界、スプレマム,"supremum, least upper bound",2,0,1,1,1,1,0,la
 109,polytar,多面体、空間胞体、幾何胞,"polyhedron, spatial cell, geometric polytope",3,0,1,1,3,1,0,la
-110,rin,円、真円、環,"circle, ring",2,10,24,39,30,25,19,
+110,klor,円、真円、環,"circle, ring",2,10,24,39,30,25,0,
 111,ryvel,測度、尺度、メトリック,"metric, measure",2,5,9,16,20,10,0,
 112,sevur,選択肢、オルタナティブ、分岐選出,"alternative, option, choice",3,4,12,22,13,12,0,
 113,sufcor,超限数、無限濃度、カージナル,"transfinite number, aleph cardinal",2,0,0,0,0,0,0,"la,fr,es,de,ja"
@@ -220,9 +220,9 @@
 219,korgon,胃、消化器、滋養受納処,"stomach, digestive organ",2,5,4,5,2,7,0,
 220,kylar,病、乱調、軌道乱れ,"illness, disease",2,6,4,5,4,4,0,
 221,kylat,疲労、消耗、エネルギー枯渇,"fatigue, weariness, drain",3,6,13,23,18,3,0,
-222,kymin,眠り、睡眠、休眠する,"sleep, rest",2,9,26,27,30,17,1,
-223,kyminar,安息所、病床、療養室,"infirmary, recovery ward, hospice",3,1,4,2,6,3,0,
-224,kyminis,居眠り、うたた寝、小休止,"nap, doze, catnap",3,2,6,14,10,7,0,
+222,tymis,眠り、睡眠、休眠する,"sleep, rest",2,9,26,27,30,17,0,
+223,tymisar,安息所、病床、療養室,"infirmary, recovery ward, hospice",3,1,4,2,6,3,0,
+224,tymisis,居眠り、うたた寝、小休止,"nap, doze, catnap",3,2,6,14,10,7,0,
 225,larin,足、脚、歩行肢,"foot, leg",2,3,8,9,6,3,0,
 226,larkul,足首、くるぶし、歩行関節,"ankle, tarsus",2,1,3,1,4,2,0,
 227,morcon,骨折、組織断裂、生体損傷,"fracture, skeletal rupture, trauma",3,2,7,6,10,6,0,
@@ -243,11 +243,11 @@
 242,revsol,代謝、生体恒常性、生命維持循環,"metabolism, homeostasis",2,0,2,2,4,5,0,la
 243,revtin,脈診、触診、生体リズム診断,"pulse diagnosis, palpation, vital rhythm test",3,0,0,0,1,0,0,"la,fr,es,ja"
 244,revtis,疲労、消耗、体力の衰え,"fatigue, weariness, exhaustion",3,4,7,6,13,3,0,
-245,palv,手、掌、指,"hand, palm, fingers",3,4,4,7,4,6,3,
+245,zelv,手、掌、指,"hand, palm, fingers",3,4,4,7,4,6,0,
 246,sercon,鎮痛薬、麻酔、感覚遮断薬,"analgesic, painkiller, anesthetic sedative",3,0,3,3,3,3,0,la
 247,serdin,反射、不随意運動、神経反射,"reflex, involuntary impulse",2,0,2,4,3,1,0,la
 248,serfal,覚醒、目覚め、意識の再開,"awakening, vigil, waking state",3,4,3,8,8,4,0,
-249,palvjyt,手首、関節、手の節点,"wrist, joint, articulate node",3,3,24,24,50,2,0,
+249,zelvjyt,手首、関節、手の節点,"wrist, joint, articulate node",3,3,24,24,50,2,0,
 250,serkin,まどろみ、浅い眠り、仮眠,"doze, light slumber, nap",3,2,6,12,8,7,0,
 251,serkym,睡眠、安息、深い眠り,"sleep, slumber, rest cycle",3,5,5,14,22,10,0,
 252,serpanan,鎮静させる、眠らせる、痛みを和らげる,"soothe, tranquilize, alleviate pain",3,4,8,6,17,1,0,
@@ -657,7 +657,7 @@
 656,pamelar,図書館、文庫、書物閲覧所,"library, archive, book hall",3,6,8,8,9,11,0,
 657,pamelis,栞、ブックマーク、目印の紐,"bookmark, marker ribbon",2,0,5,6,3,4,0,la
 658,serel,小刀、ナイフ、調理刃,"knife, blade, cutter",3,3,11,29,16,11,0,
-659,palvval,手袋、保護手袋,"gloves, gauntlets",2,0,0,0,0,0,0,"la,fr,es,de,ja"
+659,zelvval,手袋、保護手袋,"gloves, gauntlets",2,0,0,0,0,0,0,"la,fr,es,de,ja"
 660,talparil,耳飾り、イヤリング、耳環,"earring, ear drop, lobe pendant",3,1,1,8,1,2,0,
 661,talvinor,首飾り、ネックレス、宝石胸飾り,"necklace, pectoral gorget, pendant collar",3,1,2,1,3,2,0,
 662,talvyn,櫛、髪飾り、整髪具,"comb, hair clasp, ornamental pin",3,3,7,6,5,2,0,
@@ -741,7 +741,7 @@
 740,sirvanis,瞑想者、観照家、静思の徒,"contemplative, meditator, silent seer",3,0,1,1,2,0,0,"la,ja"
 741,sirvon,瞑想、深い静思、観照する,"meditation, tranquil mindfulness",2,2,1,1,1,3,0,
 742,solen,孤高、静かな孤独、一人きり,"solitude, solitude-proud",2,2,1,2,2,1,0,
-743,sonan,夢を見る、幻視する、構想する,"dream, envision, visualize",3,5,14,18,9,15,5,
+743,muran,夢を見る、幻視する、構想する,"dream, envision, visualize",3,5,14,18,9,15,0,
 744,sonir,夢、幻視、内なるビジョン,"dream, vision",2,8,18,15,22,19,6,
 745,soras,記憶、想い出、刻印,"memory, remembrance",2,16,3,8,3,17,0,
 746,sufan,叡智、深奥な知慮、賢明な,"wisdom, sagacity, deep insight",3,6,6,4,7,8,0,
@@ -803,9 +803,9 @@
 802,pyrin,赤い、真紅の、燃えるような,"red, crimson, fiery",3,8,10,13,14,5,0,
 803,pyrsol,緋色の、深紅の、紅蓮の,"crimson, scarlet-bright, ruby incandescent",3,1,4,4,9,4,0,
 804,pyrzan,熱烈な、灼熱の、焼けるような,"scalding, scorching, fiercely fervent",3,0,0,0,0,0,0,"la,fr,es,de,ja"
-805,rinini,丸い、円形の、球状の,"round, circular, spherical",3,6,26,19,29,7,0,
+805,klorini,丸い、円形の、球状の,"round, circular, spherical",3,6,26,19,29,7,0,
 806,serini,細い、薄い、繊細な,"thin, slim, subtle",3,11,10,14,18,14,0,
-807,palvsarn,ざらつく、粒立ちのある、手応えのある,"gritty, textured, tactile with grains",3,0,3,4,8,0,0,"la,ja"
+807,zelvsarn,ざらつく、粒立ちのある、手応えのある,"gritty, textured, tactile with grains",3,0,3,4,8,0,0,"la,ja"
 808,sersolv,絹のように滑らかな、つるつるとした,"silky, satiny smooth, gliding",3,0,3,1,4,2,0,la
 809,sirani,優しい、穏やかな、柔らかな,"gentle, mild, soft",3,8,19,29,21,7,0,
 810,syvan,新しい、新鮮な、新緑の,"new, fresh, novel",3,7,11,17,8,5,0,
@@ -894,8 +894,8 @@
 893,nerpan,刻む、細切りにする、みじん切りにする,"chop, mince, dice finely",3,2,10,16,21,4,0,
 894,novas,登る、登攀する、頂点を目指す,"climb, ascend, scale",3,9,24,36,23,24,0,
 895,novasu,高らかに、天上に向けて、頂点へ,"loftily, aloft, upwards",3,1,4,2,5,0,0,ja
-896,novden,北、天頂極の方位、上極,"north, zenith pole",2,6,2,9,9,4,2,
-897,novdenu,北へ、天頂極へ向かって,"northward, toward zenith",2,0,0,0,1,0,0,"la,fr,es,ja"
+896,kyrvden,北、天頂極の方位、上極,"north, zenith pole",2,6,2,9,9,4,0,
+897,kyrvdenu,北へ、天頂極へ向かって,"northward, toward zenith",2,0,0,0,1,0,0,"la,fr,es,ja"
 898,parin,右、右舷、右方,"right, starboard",2,1,4,2,4,2,0,
 899,parinu,右へ、右側へ、右舷へ,"rightward, to the right",2,0,0,0,0,0,0,"la,fr,es,de,ja"
 900,pason,後、後方、過去の側,"back, rear, behind",3,13,29,55,43,35,0,
@@ -907,14 +907,14 @@
 906,relen,ある、存在する、実在する,"exist, be present",2,7,1,1,2,1,0,
 907,saren,笑う、微笑む、笑顔になる,"smile, laugh",2,9,6,6,7,13,0,
 908,seno,明日、来たるべき日,tomorrow,1,5,2,3,2,5,0,
-909,palvan,授ける、手渡す、贈る,"give, bestow, grant",3,5,14,11,16,11,0,
-910,palvcor,握手する、手を携える、協調する,"clasp hands, cooperate, join forces",3,0,2,1,4,1,0,la
+909,zelvan,授ける、手渡す、贈る,"give, bestow, grant",3,5,14,11,16,11,0,
+910,zelvcor,握手する、手を携える、協調する,"clasp hands, cooperate, join forces",3,0,2,1,4,1,0,la
 911,serdar,洗う、洗い流す、清める,"wash, rinse, cleanse",3,8,9,12,11,6,0,
-912,palvfas,離す、手を放す、手放す,"release, let go, disengage",3,3,15,43,18,8,0,
-913,palvin,触れる、手渡す、受け止める,"touch, hold, receive",3,17,21,30,26,27,0,
+912,zelvfas,離す、手を放す、手放す,"release, let go, disengage",3,3,15,43,18,8,0,
+913,zelvin,触れる、手渡す、受け止める,"touch, hold, receive",3,17,21,30,26,27,0,
 914,serlit,撫でる、優しく触れる、いたわる,"stroke gently, caress",2,3,1,7,5,1,0,
 915,serpan,掴む、握る、掌中に収める,"grasp, clutch, grip",3,5,18,34,21,8,0,
-916,palvzan,手繰り寄せる、引き寄せる、引っ張る,"draw near with hands, haul, pull cable",3,0,4,6,11,0,0,"la,ja"
+916,zelvzan,手繰り寄せる、引き寄せる、引っ張る,"draw near with hands, haul, pull cable",3,0,4,6,11,0,0,"la,ja"
 917,silin,内、内部、中心側、心の内,"inside, inward, within",3,12,14,11,14,2,5,
 918,silinu,内へ、内部へ、心の内へ向かって,"inward, inside, inwardly",3,5,11,7,11,2,1,
 919,soran,（ノートに）書き留める、記す,"record, chronicle, write down",3,2,9,15,17,18,0,
@@ -947,8 +947,8 @@
 946,volkin,滑空する、風に乗って滑る、空を滑る,"glide, sail on the air",2,1,2,4,3,2,0,
 947,volpas,飛び降りる、跳躍する、飛び越える,"jump, leap over, hop down",3,3,7,14,8,6,0,
 948,volzan,急降下する、ダイブする、滑空降下する,"swoop, dive swiftly, plunge downward",3,0,1,8,4,0,0,"la,ja"
-949,voras,前、前方、未来の側,"front, forward, ahead",3,3,21,26,87,26,3,
-950,vorasu,前へ、前方へ、未来へ向かって,"forward, onward, ahead",3,3,14,18,70,16,2,
+949,dyras,前、前方、未来の側,"front, forward, ahead",3,3,21,26,87,26,0,
+950,dyrasu,前へ、前方へ、未来へ向かって,"forward, onward, ahead",3,3,14,18,70,16,0,
 951,vymin,守る、庇護する、防護する,"protect, guard, shield",3,19,16,25,10,8,0,
 952,vyranu,確かに、真に、疑いなく,"truly, certainly, indeed",3,6,17,23,14,12,0,
 953,vyrel,（精密に）観測する、測定する,"observe, measure",2,20,10,16,15,10,0,

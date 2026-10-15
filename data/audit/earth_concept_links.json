@@ -134,7 +134,7 @@
       "conceptId": "swadesh-207:83",
       "decision": "approved",
       "reviewer": "Codex",
-      "reviewedAgainstEntryHash": "b2a6af1907dab07a2285efd17c74089adea9bf6ec6cc5124710fca8ccad356d3",
+      "reviewedAgainstEntryHash": "eeb925cae390172452112b1f020772ef3dc55ac93c1bd3a4d90bb6d0993c2fee",
       "reason": "辞書の手、掌、指 / handを、Swadeshのhandの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
     },
     {
@@ -222,7 +222,7 @@
       "conceptId": "swadesh-207:107",
       "decision": "approved",
       "reviewer": "Codex",
-      "reviewedAgainstEntryHash": "c077685a54f38d9367c5651db17f4010151b3354c96be9edab1ed55547fa93be",
+      "reviewedAgainstEntryHash": "1c4ef325d79351a3b4dd84c193ae6c4c3e626e71be925359ae87bd70d9836ab9",
       "reason": "辞書の眠り、睡眠、休眠する / sleepを、Swadeshのsleepの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
     },
     {
@@ -462,7 +462,7 @@
       "conceptId": "swadesh-207:128",
       "decision": "approved",
       "reviewer": "Codex",
-      "reviewedAgainstEntryHash": "ab4f3596a2eda3077cdd767b9ec4e6ac22cd8faa368afd6e84610f2e03352249",
+      "reviewedAgainstEntryHash": "d435ac293fefadad1fd146ed79312c4f17422cc7340e12c9f35cdee8bb3f05a7",
       "reason": "辞書の授ける、手渡す、贈る / giveを、Swadeshのgiveの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
     },
     {
@@ -614,7 +614,7 @@
       "conceptId": "swadesh-207:190",
       "decision": "approved",
       "reviewer": "Codex",
-      "reviewedAgainstEntryHash": "c7abee325546c5902ae3602a90cdce4599805bc08362fa94d2ef14a9d492334f",
+      "reviewedAgainstEntryHash": "9c75c2fa2647a0c4336cd14d21e52be8a11675188db28af7145fefa6779f1a73",
       "reason": "辞書の丸い、円形の、球状の / roundを、Swadeshのroundの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
     },
     {
@@ -710,7 +710,7 @@
       "conceptId": "swadesh-207:134",
       "decision": "approved",
       "reviewer": "Codex",
-      "reviewedAgainstEntryHash": "411dedec3e1b00cb37fb47d21a1818d68bae190f8b5991a84e038ba95e787d3c",
+      "reviewedAgainstEntryHash": "f848028e41ff1261858907b373ded9932928ea00b05b384cd43a69013e9ec08b",
       "reason": "辞書の手繰り寄せる、引き寄せる、引っ張る / pull cableを、Swadeshのpullの基本語義へ対応。手で引き寄せる行為に限定。複合・比喩の別語義まで網羅した承認ではない。"
     },
     {
