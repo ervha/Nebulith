@@ -163,7 +163,7 @@ vm.runInContext(`inputChoicesState.sense=lastInputAnalysis.segments[0].senseOpti
 assert.equal(dom.confirmInputCandidate.disabled,false);
 vm.runInContext(`inputChoicesState.confirmed=true;doTranslate()`,context);
 assert.equal(dom.copyDstBtn.disabled,false);
-assert.ok(dom.translationCoverage.textContent.includes('148'));
+assert.ok(dom.translationCoverage.textContent.includes('174'));
 assert.ok(dom.corpusList.innerHTML.includes('USE-24'));
 assert.equal(dom.corpusCount.textContent,'77 / 77例');
 vm.runInContext(`corpusSearch.value='過去・進行';renderCorpus()`,context);

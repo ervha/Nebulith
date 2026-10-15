@@ -81,6 +81,266 @@
       "meaningEn": "foresee",
       "ipa": "[vyrʃen]",
       "notes": "未対応JSON第2回の回収による追加語彙案。多言語比較・独立監査は未実施。"
+    },
+    {
+      "id": 30009,
+      "nrs": "velsen",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "知る、知識として持つ、面識がある",
+      "meaningEn": "know, be aware of, be acquainted with",
+      "ipa": "[vel.sen]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。vel(認知)+sen(合意・認識)。"
+    },
+    {
+      "id": 30010,
+      "nrs": "tornas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "理解する、呑み込む、筋道に納得する",
+      "meaningEn": "understand, comprehend, grasp reason",
+      "ipa": "[tor.nas]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。tor(到達)+nas(精神・知慮)。"
+    },
+    {
+      "id": 30011,
+      "nrs": "sorvyan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "覚える、記憶に留める、暗記する",
+      "meaningEn": "memorize, commit to memory, retain",
+      "ipa": "[sor.vyan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。sor(記憶)+vyan(定着・固定)。"
+    },
+    {
+      "id": 30012,
+      "nrs": "sorkan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "失念する、忘却する、記憶から脱落する",
+      "meaningEn": "forget accidentally, slip one's mind",
+      "ipa": "[sor.kan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。sor(記憶)+kan(減衰・脱落)。"
+    },
+    {
+      "id": 30013,
+      "nrs": "tornel",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "見つける、発見する、行き当たる",
+      "meaningEn": "find, discover, locate",
+      "ipa": "[tor.nel]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。tor(到来)+nel(獲得・把握)。"
+    },
+    {
+      "id": 30014,
+      "nrs": "nebtas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "始める、着手する、開始する",
+      "meaningEn": "begin, start, initiate (transitive)",
+      "ipa": "[neb.tas]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。neb(始原)+tas(能動作動)。"
+    },
+    {
+      "id": 30015,
+      "nrs": "nebpan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "始まる、開始する、幕が開く",
+      "meaningEn": "begin, start, commence (intransitive)",
+      "ipa": "[neb.pan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。neb(始原)+pan(自発展開)。"
+    },
+    {
+      "id": 30016,
+      "nrs": "klotas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "終える、完了させる、締めくくる",
+      "meaningEn": "finish, conclude, end (transitive)",
+      "ipa": "[klo.tas]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。klo(終局)+tas(能動達成)。"
+    },
+    {
+      "id": 30017,
+      "nrs": "klopan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "終わる、尽きる、幕を閉じる",
+      "meaningEn": "end, finish, conclude (intransitive)",
+      "ipa": "[klo.pan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。klo(終局)+pan(静止帰結)。"
+    },
+    {
+      "id": 30018,
+      "nrs": "morvan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "会う、対面する、巡り合う",
+      "meaningEn": "meet, encounter, see each other",
+      "ipa": "[mor.van]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。mor(身体・同胞)+van(交わり)。"
+    },
+    {
+      "id": 30019,
+      "nrs": "jyltas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "集める、収集する、一箇所にまとめる",
+      "meaningEn": "gather, collect, assemble (transitive)",
+      "ipa": "[jyl.tas]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。jyl(集合)+tas(能動操作)。"
+    },
+    {
+      "id": 30020,
+      "nrs": "jylren",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "集まる、集合する、寄り合う",
+      "meaningEn": "gather, assemble, congregate (intransitive)",
+      "ipa": "[jyl.ren]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。jyl(集合)+ren(群集動態)。"
+    },
+    {
+      "id": 30021,
+      "nrs": "kirval",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "教える、教授する、知識を授ける",
+      "meaningEn": "teach, instruct, impart knowledge",
+      "ipa": "[kir.val]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。kir(技術・文法)+val(放出・授与)。"
+    },
+    {
+      "id": 30022,
+      "nrs": "kirtan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "学ぶ、学習する、習得する",
+      "meaningEn": "learn, study, master",
+      "ipa": "[kir.tan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。kir(技術・文法)+tan(自己修得)。"
+    },
+    {
+      "id": 30023,
+      "nrs": "zeldar",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "助ける、支援する、救う",
+      "meaningEn": "help, aid, assist, rescue",
+      "ipa": "[zel.dar]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。zel(贈与・慈愛)+dar(力・支え)。"
+    },
+    {
+      "id": 30024,
+      "nrs": "dursen",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "防衛する、守護する、防護する",
+      "meaningEn": "defend, fortify, protect from attack",
+      "ipa": "[dur.sen]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。dur(防壁)+sen(庇護)。"
+    },
+    {
+      "id": 30025,
+      "nrs": "valcen",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "変える、変更する、改変する",
+      "meaningEn": "change, alter, modify (transitive)",
+      "ipa": "[val.ʃen]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。val(変化)+cen(使役・作動)。"
+    },
+    {
+      "id": 30026,
+      "nrs": "valpan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "変わる、変貌する、移り変わる",
+      "meaningEn": "change, transform, shift (intransitive)",
+      "ipa": "[val.pan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。val(変化)+pan(自然推移)。"
+    },
+    {
+      "id": 30027,
+      "nrs": "tordin",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "届く、到達する、至る",
+      "meaningEn": "reach, arrive at, be delivered (intransitive)",
+      "ipa": "[tor.din]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。tor(到来)+din(着地・至る)。"
+    },
+    {
+      "id": 30028,
+      "nrs": "marval",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "運ぶ、搬送する、荷を移送する",
+      "meaningEn": "carry, transport, convey (transitive)",
+      "ipa": "[mar.val]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。mar(交易・物資)+val(移動・運行)。"
+    },
+    {
+      "id": 30029,
+      "nrs": "turvel",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "勝つ、勝利する、制する",
+      "meaningEn": "win, prevail, triumph",
+      "ipa": "[tur.vel]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。tur(法・意志・審判)+vel(力・勝利)。"
+    },
+    {
+      "id": 30030,
+      "nrs": "turkan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "負ける、敗北する、屈する",
+      "meaningEn": "lose, be defeated, succumb",
+      "ipa": "[tur.kan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。tur(審判)+kan(減衰・屈服)。"
+    },
+    {
+      "id": 30031,
+      "nrs": "eliran",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "喜ぶ、歓喜する、喜悦を感じる",
+      "meaningEn": "rejoice, be glad, delight",
+      "ipa": "[e.li.ran]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。700 elir(喜び)の動詞化。"
+    },
+    {
+      "id": 30032,
+      "nrs": "lyran",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "悲しむ、哀悼する、悲哀を感じる",
+      "meaningEn": "grieve, mourn, sorrow",
+      "ipa": "[ly.ran]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。717 lyras(哀愁)の動詞化。"
+    },
+    {
+      "id": 30033,
+      "nrs": "krotan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "怒る、憤る、激昂する",
+      "meaningEn": "get angry, rage, be indignant",
+      "ipa": "[kro.tan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。713 krotas(怒り)の動詞化。"
+    },
+    {
+      "id": 30034,
+      "nrs": "falpan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "驚く、目を見張る、動揺する",
+      "meaningEn": "be surprised, be astonished, marvel",
+      "ipa": "[fal.pan]",
+      "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。fal(閃光)+pan(自発反応)。"
     }
   ],
   "frames": {
@@ -142,6 +402,310 @@
         "el",
         "ku",
         "uo"
+      ]
+    },
+    "30009": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30010": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30011": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30012": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30013": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30014": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30015": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30016": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30017": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30018": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "to",
+        "ku",
+        "uo",
+        "de"
+      ]
+    },
+    "30019": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30020": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30021": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "al",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30022": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "va",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30023": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30024": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30025": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30026": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30027": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "to",
+        "uo",
+        "de"
+      ]
+    },
+    "30028": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "to",
+        "va",
+        "uo",
+        "de"
+      ]
+    },
+    "30029": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30030": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30031": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30032": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30033": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30034": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
       ]
     }
   },
