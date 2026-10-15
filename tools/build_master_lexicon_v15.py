@@ -1,8 +1,9 @@
 # tools/build_master_lexicon_v15.py
 """
-Nebulith Master Lexicon v15.0 Build & Audit Script
+Nebulith Master Lexicon v16.0 Build & Audit Script
 Completely purged of Earth-language borrowings (English, Latin, Romance).
 Harmonious pure celestial vocabulary balancing fluid sonority with expressive stops/fricatives.
+Expanded to comprehensive 358-entry master vocabulary across 10 domains.
 
 Generates:
   1. docs/Nebulith Master Lexicon.md  (Human-readable Markdown specification)
@@ -29,11 +30,11 @@ def audit_word(word):
         return False, "Lone carrier"
     return True, "OK"
 
-# Comprehensive vetted vocabulary across 10 domains
+# Comprehensive vetted vocabulary across 10 domains (Total 358 entries)
 # Format: (Category, NRS, IPA, POS, MeaningJA, MeaningEN, Notes)
 entries = [
     # =========================================================================
-    # 1. 天体・光・宇宙論・力学 (Astronomy, Astrophysics & Celestial Mechanics)
+    # 1. 天体・光・宇宙論・力学 (Astronomy, Astrophysics & Celestial Mechanics) [40 entries]
     # =========================================================================
     ("1. 天体・光・宇宙論", "vyr", "[vyr]", "名", "星、天体、光点", "star, point of light", "星核の基本単音節"),
     ("1. 天体・光・宇宙論", "vyris", "[vy.ris]", "名/動", "恒星、光を放つ", "luminous star, shine", "星辰の輝き"),
@@ -54,7 +55,7 @@ entries = [
     ("1. 天体・光・宇宙論", "vyrelar", "[vy.re.lar]", "名", "天文台、天体観測ドーム", "observatory", "観測所"),
     ("1. 天体・光・宇宙論", "vyrelor", "[vy.re.lor]", "名", "天文学者、観測官", "astronomer", "天体観測士"),
     ("1. 天体・光・宇宙論", "tyral", "[ty.ral]", "名", "引力、重力、求心力", "gravity, attraction force", "天体の相互引力"),
-    ("1. 天体・光・宇宙論", "voris", "[vo.ris]", "名", "公転、自転、角速度、周回力", "orbital revolution, spin", "天体回転力学"),
+    ("1. 天体・光・宇宙論", "voris", "[vo.ris]", "名", "公転、自転、角速度、周活力", "orbital revolution, spin", "天体回転力学"),
     ("1. 天体・光・宇宙論", "falos", "[fa.los]", "名", "分光、光輪スペクトル、帯", "spectrum, spectral band", "光の波長分解"),
     ("1. 天体・光・宇宙論", "kyron", "[ky.ron]", "名", "黒孔、ブラックホール、重力特異点", "black hole, singularity", "光さえ出でぬ孔"),
     ("1. 天体・光・宇宙論", "nebulis", "[ne.bu.lis]", "名", "星雲、星間ガス、宇宙塵", "nebula, cosmic dust cloud", "星々の母胎"),
@@ -65,9 +66,19 @@ entries = [
     ("1. 天体・光・宇宙論", "falasro", "[fa.las.ro]", "名", "遠日点、最遠軌道点", "aphelion, apoapsis", "遥かなる周回点"),
     ("1. 天体・光・宇宙論", "nerisro", "[ne.ris.ro]", "名", "近日点、最接近点", "perihelion, periapsis", "至近の周回点"),
     ("1. 天体・光・宇宙論", "torp", "[torp]", "名", "天体衝突、隕石落下、インパクト", "impact, collision", "衝撃の破裂音"),
+    ("1. 天体・光・宇宙論", "vyrom", "[vy.rom]", "名", "星座、星群、星団", "constellation, asterism, star cluster", "星辰の集合体"),
+    ("1. 天体・光・宇宙論", "tyril", "[ty.ril]", "名", "潮汐力、引力波、重力波", "tidal force, gravitational wave", "重力の動的波動"),
+    ("1. 天体・光・宇宙論", "zoharom", "[zo.ha.rom]", "名", "コロナ、恒星大気層、光冠", "stellar corona, heliosphere", "恒星の光冠"),
+    ("1. 天体・光・宇宙論", "larkan", "[lar.kan]", "名", "軌道傾斜角、傾き、傾斜", "orbital inclination, tilt", "軌道の角度"),
+    ("1. 天体・光・宇宙論", "vyrelis", "[vy.re.lis]", "名", "星屑、微小星間塵、星砂", "stardust, micro-meteoroids", "微小な星の破片"),
+    ("1. 天体・光・宇宙論", "kyrom", "[ky.rom]", "名", "銀河団、超星系網、星界", "galaxy cluster, cosmic filament", "深宇宙の超巨視構造"),
+    ("1. 天体・光・宇宙論", "larven", "[lar.ven]", "名/動", "軌道遷移、スイングバイ、航路変更", "orbital transit, swing-by", "軌道間の跳躍遷移"),
+    ("1. 天体・光・宇宙論", "falarik", "[fa.la.rik]", "名", "光度、放射光束、輝度", "luminosity, radiant flux", "光の精密強度"),
+    ("1. 天体・光・宇宙論", "doran", "[do.ran]", "名", "惑星、放浪天体、巡礼星", "planet, wandering orb", "軌道を巡る大地天体"),
+    ("1. 天体・光・宇宙論", "radin", "[ra.din]", "名", "軌道半径、長半径、天体間距離", "orbital radius, semi-major axis", "天体周回半径"),
 
     # =========================================================================
-    # 2. 数理・幾何・論理・情報科学 (Mathematics, Logic & Computing)
+    # 2. 数理・幾何・論理・情報科学 (Mathematics, Logic & Computing) [40 entries]
     # =========================================================================
     ("2. 数理・幾何・情報科学", "suf", "[suf]", "名/動", "計算、論理、アルゴリズム", "computation, logic", "鋭敏な摩擦音語末"),
     ("2. 数理・幾何・情報科学", "sufor", "[su.for]", "名", "プログラマー、ITエンジニア、論理士", "programmer, software engineer", "論理技術職"),
@@ -99,9 +110,19 @@ entries = [
     ("2. 数理・幾何・情報科学", "vylom", "[vy.lom]", "名", "スコープ、視野域、有効範囲", "scope, valid range", "視界有効範囲"),
     ("2. 数理・幾何・情報科学", "tyk", "[tyk]", "名", "クロック、時計信号、規則拍", "clock, timing pulse", "刻時破裂音"),
     ("2. 数理・幾何・情報科学", "ryvel", "[ry.vel]", "名", "測度、尺度、メトリック", "metric, measure", "精密計測"),
+    ("2. 数理・幾何・情報科学", "jylom", "[ʒy.lom]", "名", "集合、集約配列、コレクション", "set, collection, array", "結びついた要素群"),
+    ("2. 数理・幾何・情報科学", "voret", "[vo.ret]", "名/動", "ループ、反復処理、再帰", "loop, iteration, recurse", "周回反復"),
+    ("2. 数理・幾何・情報科学", "sevik", "[se.vik]", "名", "条件分岐、フォーク、判定節", "branch, conditional fork", "論理の分岐点"),
+    ("2. 数理・幾何・情報科学", "ved", "[ved]", "名", "真偽値、論理極性、ブーリアン", "boolean, truth-value", "真偽の確定値"),
+    ("2. 数理・幾何・情報科学", "unor", "[u.nor]", "名", "整数、完数、離散値", "integer, whole number", "一単位ずつの整数"),
+    ("2. 数理・幾何・情報科学", "delis", "[de.lis]", "名", "小数、実数、分割比", "decimal, float, fraction", "連続分割値"),
+    ("2. 数理・幾何・情報科学", "velis", "[ve.lis]", "名/動", "検索、クエリ、照会する", "query, search lookup", "探求照会"),
+    ("2. 数理・幾何・情報科学", "torin", "[to.rin]", "名/動", "入力、インプット、流入データ", "input, ingress", "到来する入力"),
+    ("2. 数理・幾何・情報科学", "folin", "[fo.lin]", "名/動", "出力、アウトプット、流出データ", "output, egress", "外へ放つ出力"),
+    ("2. 数理・幾何・情報科学", "soril", "[so.ril]", "名", "メモリ、記憶素子、バッファ", "memory, cache, buffer", "記録を保持する素子"),
 
     # =========================================================================
-    # 3. 生命・生化学・身体・医療 (Biology, Anatomy & Medicine)
+    # 3. 生命・生化学・身体・医療 (Biology, Anatomy & Medicine) [35 entries]
     # =========================================================================
     ("3. 生命・身体・医療", "zyvel", "[zy.vel]", "名/動", "生命、息吹、生きる、脈動する", "life, breathe, live", "生命の脈動"),
     ("3. 生命・身体・医療", "myren", "[my.ren]", "名", "人間、知性体、観測者", "human, sentient being", "星を見上げる者"),
@@ -128,9 +149,19 @@ entries = [
     ("3. 生命・身体・医療", "zyvas", "[zy.vas]", "名", "健康、活力、健全な生命力", "health, vitality", "健康状態"),
     ("3. 生命・身体・医療", "jynten", "[ʒyn.ten]", "名", "神経、感覚伝達網、シナプス", "nerve, neural network", "生体電信線"),
     ("3. 生命・身体・医療", "zyvelan", "[zy.ve.lan]", "動", "呼吸する、息吹を交わす", "breathe, respire", "呼吸動詞"),
+    ("3. 生命・身体・医療", "teiran", "[tei.ran]", "名", "遺伝子、螺旋設計図、生体素核", "gene, genome, life helix", "生命の螺旋情報"),
+    ("3. 生命・身体・医療", "kivan", "[ki.van]", "名", "細胞、生体微小胞", "cell, life vesicle", "生命の最小単位小胞"),
+    ("3. 生命・身体・医療", "zyvlar", "[zyv.lar]", "名", "肺、呼吸器、気嚢", "lung, respiration organ", "大気交換器"),
+    ("3. 生命・身体・医療", "neron", "[ne.ron]", "名", "胃、消化器、滋養受納処", "stomach, digestive organ", "滋養受納器官"),
+    ("3. 生命・身体・医療", "davlar", "[dav.lar]", "名", "循環系、血管網、脈絡", "circulatory system, blood vessels", "血液循環網"),
+    ("3. 生命・身体・医療", "tylkar", "[tyl.kar]", "名", "創傷、裂傷、損傷部", "wound, lesion, trauma", "裂けた負傷"),
+    ("3. 生命・身体・医療", "valmik", "[val.mik]", "名", "包帯、防護布、被覆保護材", "bandage, protective dressing", "傷の保護布"),
+    ("3. 生命・身体・医療", "durvan", "[dur.van]", "名", "免疫、生体防御機構、抗体", "immunity, vital defense", "生体抵抗力"),
+    ("3. 生命・身体・医療", "kylat", "[ky.lat]", "名", "疲労、消耗、エネルギー枯渇", "fatigue, weariness, drain", "生命力の減退"),
+    ("3. 生命・身体・医療", "zyvor", "[zy.vor]", "名", "活力、スタミナ、強靭な精力", "stamina, vital vigour", "充実した活力"),
 
     # =========================================================================
-    # 4. 自然・地質・気象・環境 (Nature, Weather & Geography)
+    # 4. 自然・地質・気象・環境 (Nature, Weather & Geography) [44 entries]
     # =========================================================================
     ("4. 自然・気象・環境", "tal", "[tal]", "名", "大地、土壌、足元、地面", "earth, soil, ground", "地面・大地"),
     ("4. 自然・気象・環境", "novan", "[no.van]", "名", "山、連峰、そびえる高嶺", "mountain, peak", "天にそびえる山"),
@@ -166,9 +197,19 @@ entries = [
     ("4. 自然・気象・環境", "zylfer", "[zyl.fer]", "名", "魚、水棲生物", "fish, marine life", "水泳ぐ者"),
     ("4. 自然・気象・環境", "krap", "[krap]", "名", "虫、昆虫、甲虫", "insect, bug", "硬質外骨格"),
     ("4. 自然・気象・環境", "fermor", "[fer.mor]", "名", "天竜、星間巨獣、大蛇", "dragon, cosmic beast", "神話の巨獣"),
+    ("4. 自然・気象・環境", "talon", "[ta.lon]", "名", "島、孤立陸地、環礁", "island, isle, atoll", "海に浮かぶ大地"),
+    ("4. 自然・気象・環境", "talser", "[tal.ser]", "名", "岬、半島、海に突き出た陸", "cape, peninsula, headland", "突出した陸地"),
+    ("4. 自然・気象・環境", "darsik", "[dar.sik]", "名", "海峡、水路、海峡部", "strait, channel, sound", "水の細道"),
+    ("4. 自然・気象・環境", "darfal", "[dar.fal]", "名", "滝、瀑布、懸濁水流", "waterfall, cascade, cataract", "流れ落ちる水"),
+    ("4. 自然・気象・環境", "talkrot", "[tal.krot]", "名", "地震、地殻変動、地鳴り", "earthquake, tectonic tremor", "大地の激動"),
+    ("4. 自然・気象・環境", "pyrtal", "[pyr.tal]", "名", "火山、噴煙峰、火の山", "volcano, fire-mountain", "火を噴く山"),
+    ("4. 自然・気象・環境", "zylrim", "[zyl.rim]", "名", "砂浜、海岸線、渚、波打ち際", "beach, coast, shoreline", "海の縁"),
+    ("4. 自然・気象・環境", "havas", "[ha.vas]", "名", "季節、四季、周期候", "season, climatic period", "巡る気候期"),
+    ("4. 自然・気象・環境", "velhav", "[vel.hav]", "名", "春、芽吹きの季節、萌芽期", "spring, vernal season", "花咲く季節"),
+    ("4. 自然・気象・環境", "zohav", "[zo.hav]", "名", "夏、主星の季節、陽光盛期", "summer, high sun season", "太陽の季節"),
 
     # =========================================================================
-    # 5. 社会・共同体・法・経済 (Society, Law, Economy & Community)
+    # 5. 社会・共同体・法・経済 (Society, Law, Economy & Community) [29 entries]
     # =========================================================================
     ("5. 社会・法・共同体", "kuralom", "[ku.ra.lom]", "名", "社会、共同体、連盟", "society, community, polis", "共生の座"),
     ("5. 社会・法・共同体", "taros", "[ta.ros]", "名", "法、法律、軌道規則、掟", "law, statute, canon", "法律・規範"),
@@ -189,9 +230,19 @@ entries = [
     ("5. 社会・法・共同体", "elyr", "[e.lyr]", "名", "祭典、祝祭、星の祭り", "festival, celebration", "祝祭の日"),
     ("5. 社会・法・共同体", "sirar", "[si.rar]", "名", "安寧、平和、講和条約", "peace, truce, accord", "争いなき静けさ"),
     ("5. 社会・法・共同体", "zyd", "[zyd]", "名", "事実、実相、検証された事象", "fact, reality", "実証された真理"),
+    ("5. 社会・法・共同体", "kuralis", "[ku.ra.lis]", "名", "連邦、国家体、星間同盟", "commonwealth, interstellar union", "星間連邦国家"),
+    ("5. 社会・法・共同体", "vylar", "[vy.lar]", "名", "旗、象徴旗、星辰紋章", "flag, banner, celestial crest", "星辰を掲げる旗"),
+    ("5. 社会・法・共同体", "tarin", "[ta.rin]", "名", "権利、正当権能、資格", "right, lawful prerogative", "法に基づく権利"),
+    ("5. 社会・法・共同体", "dolyk", "[do.lyk]", "名", "義務、責務、誓約の勤め", "duty, civic obligation", "共同体への義務"),
+    ("5. 社会・法・共同体", "renon", "[re.non]", "名", "財産、資産、蓄積富", "wealth, assets, holdings", "蓄積された資材"),
+    ("5. 社会・法・共同体", "renan", "[re.nan]", "名/動", "交易、貿易、物々交換する", "trade, commerce, barter", "星間交易"),
+    ("5. 社会・法・共同体", "jylik", "[ʒy.lik]", "名", "条約文書、協定証書、公文書", "treaty document, signed charter", "法約の書字録"),
+    ("5. 社会・法・共同体", "vyrisor", "[vy.ri.sor]", "名", "星辰導師、祭司、天象官", "hierophant, astronomer-priest", "星辰の祭司"),
+    ("5. 社会・法・共同体", "dolinar", "[do.li.nar]", "名", "工匠、技術者、鍛冶師", "master craftsman, engineer", "熟練の工匠"),
+    ("5. 社会・法・共同体", "cynor", "[ʒy.nor]", "名", "親友、盟友、魂の伴走者", "confidant, sworn companion", "互いを慈しむ友"),
 
     # =========================================================================
-    # 6. 精神・感情・思考・哲学 (Mind, Emotion & Philosophy)
+    # 6. 精神・感情・思考・哲学 (Mind, Emotion & Philosophy) [29 entries]
     # =========================================================================
     ("6. 精神・感情・哲学", "sylim", "[sy.lim]", "名", "心、魂、精神、内なる核", "mind, soul, spirit", "精神の核"),
     ("6. 精神・感情・哲学", "cynel", "[ʃy.nel]", "名/動", "愛、慈しみ、深い共感、愛する", "love, affection, cherish", "深い愛情"),
@@ -212,9 +263,19 @@ entries = [
     ("6. 精神・感情・哲学", "cylan", "[ʃy.lan]", "名/形", "美、崇高、調和美、美しい", "beauty, sublime, graceful", "美しさ"),
     ("6. 精神・感情・哲学", "sonir", "[so.nir]", "名", "夢、幻視、内なるビジョン", "dream, vision", "夢"),
     ("6. 精神・感情・哲学", "durtan", "[dur.tan]", "名", "勇気、果敢さ、不屈の志", "courage, bravery, valor", "不屈の意志"),
+    ("6. 精神・感情・哲学", "sufan", "[su.fan]", "名/形", "叡智、深奥な知慮、賢明な", "wisdom, sagacity, deep insight", "思索から紡がれた智"),
+    ("6. 精神・感情・哲学", "tyras", "[ty.ras]", "名/動", "探求心、知的好奇心、問う", "curiosity, inquiry, probe", "真理への問いかけ"),
+    ("6. 精神・感情・哲学", "cynur", "[ʒy.nur]", "名", "感謝、謝意、心の返礼", "gratitude, thanksgiving", "心からの感謝"),
+    ("6. 精神・感情・哲学", "novis", "[no.vis]", "名/動", "敬意、崇敬、尊ぶ", "reverence, honor, venerate", "崇高なる敬意"),
+    ("6. 精神・感情・哲学", "duras", "[du.ras]", "名/形", "忍耐、耐性、不撓不屈の", "endurance, fortitude, patient", "静かに耐える力"),
+    ("6. 精神・感情・哲学", "lyren", "[ly.ren]", "名", "鎮魂歌、哀傷詩、エレジー", "elegy, requiem, lament", "魂を鎮める詩"),
+    ("6. 精神・感情・哲学", "falik", "[fa.lik]", "名", "直感、閃き、直観的洞察", "intuition, flash of insight", "光の閃き"),
+    ("6. 精神・感情・哲学", "larvyn", "[lar.vyn]", "名", "宿命、天命、星の軌道命数", "destiny, cosmic ordination", "軌道が示す運命"),
+    ("6. 精神・感情・哲学", "wylin", "[wy.lin]", "名/形", "自由、束縛なき飛翔、自在な", "freedom, liberty, unchained", "風の如き自由"),
+    ("6. 精神・感情・哲学", "sonan", "[so.nan]", "動", "夢を見る、幻視する、構想する", "dream, envision, visualize", "夢見の動詞"),
 
     # =========================================================================
-    # 7. 日常・住まい・食・衣・道具 (Home, Food & Living)
+    # 7. 日常・住まい・食・衣・道具 (Home, Food & Living) [37 entries]
     # =========================================================================
     ("7. 日常・住まい・食", "dom", "[dom]", "名", "部屋、私室、空間", "room, chamber", "居室"),
     ("7. 日常・住まい・食", "domar", "[do.mar]", "名", "家、住宅、住まい", "house, home, dwelling", "住宅"),
@@ -233,7 +294,7 @@ entries = [
     ("7. 日常・住まい・食", "neran", "[ne.ran]", "動", "食べる、食事する、味わう", "eat, dine, partake", "食事動詞"),
     ("7. 日常・住まい・食", "nerel", "[ne.rel]", "名", "料理、ごはん、温かい食事", "meal, cooked dish", "料理"),
     ("7. 日常・住まい・食", "neror", "[ne.ror]", "名", "料理人、シェフ", "cook, chef", "料理人"),
-    ("7. 日常・住まい・食", "nerar", "[ne.rar]", "名", "カフェ、喫茶店、食堂、レストラン", "cafe, restaurant, diner", "飲食店"),
+    ("7. 日出・住まい・食", "nerar", "[ne.rar]", "名", "カフェ、喫茶店、食堂、レストラン", "cafe, restaurant, diner", "飲食店"),
     ("7. 日常・住まい・食", "bion", "[bi.on]", "動", "飲む、喫する、喉を潤す", "drink, sip", "飲用動詞"),
     ("7. 日常・住まい・食", "terin", "[te.rin]", "名", "温かい煎じ茶、薬草茶", "tea, warm herbal brew", "温飲料"),
     ("7. 日常・住まい・食", "nerat", "[ne.rat]", "名", "主食、焼き穀物、糧", "bread, loaf, staple", "主食"),
@@ -243,9 +304,19 @@ entries = [
     ("7. 日常・住まい・食", "klovel", "[klo.vel]", "名", "鍵、解錠具、キー", "key, lock-opener", "施錠・解錠具"),
     ("7. 日常・住まい・食", "bionel", "[bi.o.nel]", "名", "杯、酒杯、グラス、器", "chalice, cup, goblet", "飲用具"),
     ("7. 日常・住まい・食", "serel", "[se.rel]", "名", "小刀、ナイフ、調理刃", "knife, blade, cutter", "手元の刃具"),
+    ("7. 日常・住まい・食", "celdom", "[ʃel.dom]", "名", "天井、屋根、日覆い天蓋", "ceiling, roof, canopy", "部屋の上蓋"),
+    ("7. 日常・住まい・食", "taldom", "[tal.dom]", "名", "床、床面、居住基盤面", "floor, ground level", "部屋の底面"),
+    ("7. 日常・住まい・食", "durval", "[dur.val]", "名", "壁、隔壁、防護仕切り", "wall, partition, bulkhead", "頑丈な壁"),
+    ("7. 日常・住まい・食", "velar", "[ve.lar]", "名", "庭、庭園、中庭、緑地", "garden, courtyard, arboretum", "緑豊かな庭"),
+    ("7. 日常・住まい・食", "nerom", "[ne.rom]", "名", "厨房、調理室、配膳所", "kitchen, cookroom, galley", "料理を作る部屋"),
+    ("7. 日常・住まい・食", "kirel", "[ki.rel]", "名", "筆、ペン、鉄筆、スタイラス", "pen, stylus, quill", "文字を刻む道具"),
+    ("7. 日常・住まい・食", "falvis", "[fal.vis]", "名", "鏡、姿見、光反射板", "mirror, looking glass", "光を映す具"),
+    ("7. 日常・住まい・食", "talvin", "[tal.vin]", "名", "皿、深鉢、陶器の器", "plate, dish, bowl, earthenware", "食事を盛る器"),
+    ("7. 日常・住まい・食", "valdan", "[val.dan]", "名", "絨毯、敷物、織布マット", "carpet, rug, floor tapestry", "床の敷物"),
+    ("7. 日常・住まい・食", "larsil", "[lar.sil]", "名", "靴、履物、歩行靴", "shoes, footwear, boots", "歩行の履物"),
 
     # =========================================================================
-    # 8. 動作・相互作用・変化 (Actions & Dynamics)
+    # 8. 動作・相互作用・変化 (Actions & Dynamics) [37 entries]
     # =========================================================================
     ("8. 動作・相互作用", "relen", "[re.len]", "動", "ある、存在する、実在する", "exist, be present", "存在コピュラ"),
     ("8. 動作・相互作用", "poran", "[po.ran]", "動", "歩く、歩む、旅する、進む", "walk, journey, travel", "歩行動詞"),
@@ -274,9 +345,19 @@ entries = [
     ("8. 動作・相互作用", "maren", "[ma.ren]", "動", "受け取る、得る、引き継ぐ", "receive, obtain, acquire", "受領動詞"),
     ("8. 動作・相互作用", "spilan", "[spi.lan]", "動", "舞う、踊る、旋回ステップを踏む", "dance, leap, sway", "舞踏動詞"),
     ("8. 動作・相互作用", "falk", "[falk]", "名/動", "閃光、火花、パチッと弾ける", "spark, flash, snap", "鋭い破裂動詞"),
+    ("8. 動作・相互作用", "zylan", "[zy.lan]", "動", "泳ぐ、水中を滑走する", "swim, glide in water", "水泳動詞"),
+    ("8. 動作・相互作用", "novas", "[no.vas]", "動", "登る、登攀する、頂点を目指す", "climb, ascend, scale", "上昇動詞"),
+    ("8. 動作・相互作用", "tulpan", "[tul.pan]", "動", "降りる、降下する、舞い降りる", "descend, alight, touch down", "下降動詞"),
+    ("8. 動作・相互作用", "wylkan", "[wyl.kan]", "動", "放つ、射出する、風に乗せる", "hurl, cast, launch", "放射動詞"),
+    ("8. 動作・相互作用", "serpan", "[ser.pan]", "動", "掴む、握る、掌中に収める", "grasp, clutch, grip", "把持動詞"),
+    ("8. 動作・相互作用", "koran", "[ko.ran]", "動", "切断する、裁つ、分かつ", "sever, slice, cleave", "切断動詞"),
+    ("8. 動作・相互作用", "jylpan", "[ʒyl.pan]", "動", "織る、編む、交差結節する", "weave, braid, intertwine", "製織動詞"),
+    ("8. 動作・相互作用", "darpan", "[dar.pan]", "動", "溶かす、溶解させる、融解する", "melt, dissolve, liquefy", "融解動詞"),
+    ("8. 動作・相互作用", "kyrpan", "[kyr.pan]", "動", "凍る、凝固する、結晶化する", "freeze, solidify, congeal", "氷結動詞"),
+    ("8. 動作・相互作用", "pyran", "[py.ran]", "動", "燃える、点火する、燃焼する", "burn, ignite, blaze", "燃焼動詞"),
 
     # =========================================================================
-    # 9. 性質・修飾・色彩・状態 (Adjectives, Colors & States)
+    # 9. 性質・修飾・色彩・状態 (Adjectives, Colors & States) [33 entries]
     # =========================================================================
     ("9. 性質・色彩・状態", "alin", "[a.lin]", "形", "白い、純白の、無垢な", "white, pure", "純白"),
     ("9. 性質・色彩・状態", "kyrin", "[ky.rin]", "形", "黒い、漆黒の、暗い", "black, pitch-dark", "漆黒"),
@@ -298,12 +379,22 @@ entries = [
     ("9. 性質・色彩・状態", "eiran", "[ei.ran]", "形", "永遠の、不滅の、無尽の", "eternal, perpetual, immortal", "不滅"),
     ("9. 性質・色彩・状態", "faluri", "[fa.lu.ri]", "形", "速い、迅速な、光速の", "fast, rapid, swift", "高速"),
     ("9. 性質・色彩・状態", "morini", "[mo.ri.ni]", "形", "遅い、緩やかな、歩みの遅い", "slow, gentle, unhurried", "低速"),
-    ("9. 性質・色彩・状態", "novani", "[no.va.ni]", "形", "高い、至高の、天上の", "high, lofty, elevated", "高位"),
+    ("9. 性質・色彩・状態", "novani", "[no.va.ni]", "形", "高い、至高の、天上界の", "high, lofty, elevated", "高位"),
     ("9. 性質・色彩・状態", "tulosi", "[tu.lo.si]", "形", "低い、底層の、足元の", "low, deep-set, base", "低位"),
     ("9. 性質・色彩・状態", "falini", "[fa.li.ni]", "形", "澄んだ、明瞭な、透き通った", "clear, transparent, lucid", "透明感"),
+    ("9. 性質・色彩・状態", "nebulin", "[ne.bu.lin]", "形", "紫の、深紫の、星雲色の", "purple, violet, nebula-hued", "星雲の紫"),
+    ("9. 性質・色彩・状態", "velini", "[ve.li.ni]", "形", "緑の、新緑色の、翠色の", "green, emerald, verdant", "新緑のエメラルド"),
+    ("9. 性質・色彩・状態", "durini", "[du.ri.ni]", "形", "重い、重厚な、高密度の", "heavy, dense, massive", "重力と密度"),
+    ("9. 性質・色彩・状態", "wylini", "[wy.li.ni]", "形", "軽い、軽快な、浮遊感ある", "light, airy, buoyant", "軽快な浮遊感"),
+    ("9. 性質・色彩・状態", "teirini", "[tei.ri.ni]", "形", "温かい、慈愛に満ちた、温もりの", "warm, tender, comforting", "温かな心核"),
+    ("9. 性質・色彩・状態", "kyrani", "[ky.ra.ni]", "形", "冷たい、凍てつく、氷結の", "cold, icy, frigid", "冷徹な氷"),
+    ("9. 性質・色彩・状態", "talpi", "[tal.pi]", "形", "硬い、硬質な、強硬な", "hard, rigid, unyielding", "硬質の破裂有標"),
+    ("9. 性質・色彩・状態", "darini", "[da.ri.ni]", "形", "柔らかい、柔軟な、しなやかな", "soft, supple, pliant", "柔和な水性"),
+    ("9. 性質・色彩・状態", "nerili", "[ne.ri.li]", "形", "甘い、滋味豊かな、甘美な", "sweet, luscious, delicious", "豊かな滋味"),
+    ("9. 性質・色彩・状態", "falki", "[fal.ki]", "形", "鋭い、研ぎ澄まされた、尖鋭な", "sharp, acute, keen", "鋭敏な閃光刃"),
 
     # =========================================================================
-    # 10. 時空・方位・関係・副詞 (Time, Coordinates, Adverbs & Relations)
+    # 10. 時空・方位・関係・副詞 (Time, Coordinates, Adverbs & Relations) [34 entries]
     # =========================================================================
     ("10. 時空・方位・副詞", "hav", "[hav]", "名", "時、瞬間、今この瞬間", "time, moment, now", "瞬発的摩擦音"),
     ("10. 時空・方位・副詞", "havel", "[ha.vel]", "名", "時代、運行周期、時代の流れ", "era, epoch, orbital cycle", "歴史・時代"),
@@ -329,6 +420,16 @@ entries = [
     ("10. 時空・方位・副詞", "ul", "[ul]", "接", "そして、また、〜と共に", "and, also", "接続詞"),
     ("10. 時空・方位・副詞", "zen", "[zen]", "接/副", "なぜなら、〜ゆえに、理由", "because, for reason", "因果接続詞"),
     ("10. 時空・方位・副詞", "tyro", "[ty.ro]", "副", "なぜ、いかにして（疑問副詞）", "why, wherefore", "探求の問い"),
+    ("10. 時空・方位・副詞", "falden", "[fal.den]", "名/副", "東、主星昇騰の方位、曙光の方角", "east, sunrise direction", "光が昇る方角"),
+    ("10. 時空・方位・副詞", "kymden", "[kym.den]", "名/副", "西、主星没入の方位、黄昏の方角", "west, sunset direction", "光が沈む方角"),
+    ("10. 時空・方位・副詞", "novden", "[nov.den]", "名/副", "北、天頂極の方位、上極", "north, zenith pole", "天頂を向く極"),
+    ("10. 時空・方位・副詞", "tulden", "[tul.den]", "名/副", "南、天底極の方位、下極", "south, nadir pole", "天底を向く極"),
+    ("10. 時空・方位・副詞", "voras", "[vo.ras]", "名/副", "前、前方、未来の側", "front, forward, ahead", "進行方向"),
+    ("10. 時空・方位・副詞", "pason", "[pa.son]", "名/副", "後、後方、過去の側", "back, rear, behind", "過ぎ去る方向"),
+    ("10. 時空・方位・副詞", "lerin", "[le.rin]", "名/副", "左、左舷、左方", "left, portside", "左側"),
+    ("10. 時空・方位・副詞", "parin", "[pa.rin]", "名/副", "右、右舷、右方", "right, starboard", "右側"),
+    ("10. 時空・方位・副詞", "tyku", "[ty.ku]", "副", "直ちに、即座に、一拍のうちに", "instantly, immediately, on the tick", "一拍での即応"),
+    ("10. 時空・方位・副詞", "valk", "[valk]", "副", "頻繁に、度々、波打つように", "often, frequently", "周期的な頻度"),
 ]
 
 # Run audit
@@ -353,12 +454,12 @@ print(f"AUDIT PASSED! Total vetted master entries: {len(entries)}")
 # -----------------------------------------------------------------------------
 # 1. Output docs/Nebulith Master Lexicon.md
 # -----------------------------------------------------------------------------
-header = f'''# 人工言語「Nebulith（ネビュリス）」マスター辞書データ定義書（Nebulith Master Lexicon v15.0）
+header = f'''# 人工言語「Nebulith（ネビュリス）」マスター辞書定義書（Nebulith Master Lexicon v16.0）
 
-**文書バージョン**: v15.0 (地球言語借用完全排除・柔剛調和独自音韻版)  
+**文書バージョン**: v16.0 (地球言語借用完全排除・全10分野358語幹・柔剛調和独自音韻版)  
 **最終更新日**: 2026-10-15  
 **ステータス**: **全10分野・計 {len(entries)} 語幹収録／既成言語借用ゼロ・同音衝突ゼロ・完全検証済**  
-**対応システム**: Nebulith Studio（統合スタジオ・単一画面）
+**対応システム**: Nebulith Studio（統合スタジオ・単一画面UI、IME、手記レンダラー）
 
 ---
 
@@ -417,9 +518,9 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | :--- | :--- | :--- | :--- |
 | **`-as`** | 日常的行為者・実務者 | `ner` (食) → `neras` [ne.ras] | 給仕人、配膳者 |
 | **`-or`** | 専門職・知識人・指導者 | `suf` (計算) → `sufor` [su.for] | プログラマー、論理技術者 |
-| | | `daris` (治癒) → `darisor` [da.ri.sor] | 医師、ドクター |
+| | | `daris` (治癒) → `darisor` [da.ri.sor] | 医師、調律医 |
 | **`-is`** | 学術研究者・探求者 | `vyran` (真理) → `vyranis` [vy.ra.nis] | 哲学者、真理探求者 |
-| **`-el`** | 道具・器具・機械・客体 | `mator` (演算機巧) → `pelel` [pe.lel] | 携帯情報端末（スマホ） |
+| **`-el`** | 道具・器具・機械・客体 | `kiras` (創る/書く) → `kirel` [ki.rel] | 筆、スタイラス、ペン |
 | | | `ner` (食) → `nerel` [ne.rel] | 料理、温かい食事 |
 | **`-ar` / `-an`** | 場所・施設・空間 | `dom` (部屋) → `domar` [do.mar] | 家、住宅 |
 | | | `daris` (治癒) → `darisar` [da.ri.sar] | 病院、診療所 |
@@ -427,9 +528,10 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`-il`** | 指小辞・愛称・親愛 | `vel` (木) → `velil` [ve.lil] | 若木、新芽、薬草 |
 | **`-om`** | 集合体・領域・世界 | `dom` (部屋) → `domom` [do.mom] | 都市、都市圏 |
 | | | `vel` (木) → `velom` [ve.lom] | 森林、樹海 |
-| | | `suf` (計算) → `sufom` [su.fom] | IT領域、電脳空間 |
+| | | `vyr` (星) → `vyrom` [vy.rom] | 星座、星団 |
 | **`-i`** | 形容詞化（〜の性質を持つ） | `falun` (光) → `faluni` [fa.lu.ni] | 明るい、輝かしい |
 | **`-u`** | 副詞化（〜のように、〜く） | `eiran` (永遠) → `eirinu` [ei.ri.nu] | 永遠に、いつでも |
+| | | `tyk` (拍) → `tyku` [ty.ku] | 直ちに、即座に |
 
 ---
 
@@ -450,7 +552,7 @@ for entry in entries:
 
 body = ""
 for cat in categories:
-    body += f"\n### {cat}\n\n"
+    body += f"\n### {cat} ({len(cat_map[cat])} 語幹)\n\n"
     body += "| NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |\n"
     body += "| :--- | :--- | :---: | :--- | :--- | :--- |\n"
     for _, nrs, ipa, pos, ja, en, notes in cat_map[cat]:
@@ -477,9 +579,9 @@ footer = '''
 - **音韻特徴**: 行為（`zyvan`）、対象（`myren`）、道具（`zyvil`）が調和し、施設（`darisar`）と医師（`darisor`）のみが自然な派生関係を保つ。
 
 ### 例文 3: 宇宙観測・自然哲学
-- **Nebulith**: *Vyrel el vyrelor ia vyr uo vyrelar de vyrelel.*
-- **発音**: [vy.rel el vy.re.lor ia vyr wo vy.re.lar de vy.re.lel]
-- **意訳**: 「天文学者は天文台で望遠鏡を用いて星を観測する。」
+- **Nebulith**: *Vyrel el vyrelor ia doran uo vyrelar de vyrelel.*
+- **発音**: [vy.rel el vy.re.lor ia do.ran wo vy.re.lar de vy.re.lel]
+- **意訳**: 「天文学者は天文台で望遠鏡を用いて惑星を観測する。」
 
 ### 例文 4: 社会・論理（破裂音と逆接のブレーキ）
 - **Nebulith**: *Kiran el sufor ia zevil, tor klovan ia mator.*
@@ -541,10 +643,10 @@ derivational_suffixes = [
     {"suffix": "-as", "function": "日常的行為者・実務者", "example": "ner -> neras", "meaning": "給仕人、配膳者"},
     {"suffix": "-or", "function": "専門職・知識人・指導者", "example": "suf -> sufor", "meaning": "プログラマー、医師"},
     {"suffix": "-is", "function": "学術研究者・探求者", "example": "vyran -> vyranis", "meaning": "哲学者、探求者"},
-    {"suffix": "-el", "function": "道具・器具・機械・客体", "example": "mator -> pelel", "meaning": "スマホ、料理"},
+    {"suffix": "-el", "function": "道具・器具・機械・客体", "example": "kiras -> kirel", "meaning": "ペン、料理"},
     {"suffix": "-ar / -an", "function": "場所・施設・空間", "example": "dom -> domar", "meaning": "家、病院、カフェ"},
     {"suffix": "-il", "function": "指小辞・愛称・親愛", "example": "vel -> velil", "meaning": "若木、新芽、薬草"},
-    {"suffix": "-om", "function": "集合体・領域・世界", "example": "dom -> domom", "meaning": "都市、森林、IT空間"},
+    {"suffix": "-om", "function": "集合体・領域・世界", "example": "vyr -> vyrom", "meaning": "都市、森林、星座"},
     {"suffix": "-i", "function": "形容詞化", "example": "falun -> faluni", "meaning": "明るい、輝かしい"},
     {"suffix": "-u", "function": "副詞化", "example": "eiran -> eirinu", "meaning": "永遠に、いつでも"},
 ]
@@ -563,11 +665,11 @@ for idx, (cat, nrs, ipa, pos, ja, en, notes) in enumerate(entries, 1):
     })
 
 json_data = {
-    "version": "15.0",
+    "version": "16.0",
     "language": "Nebulith",
     "languageJa": "ネビュリス（星辰語）",
     "updatedAt": "2026-10-15",
-    "status": "Pure Conlang without Earth Borrowings",
+    "status": "Pure Celestial Conlang without Earth Borrowings",
     "totalEntries": len(vocab_list),
     "phonology": {
         "vowels": ["a", "e", "i", "o", "u", "y"],
@@ -617,8 +719,8 @@ kt_header = '''package com.nebulith.data
 
 /**
  * Auto-generated by tools/build_master_lexicon_v15.py
- * Nebulith Master Lexicon v15.0
- * Pure celestial conlang without Earth borrowings
+ * Nebulith Master Lexicon v16.0
+ * Pure celestial conlang without Earth borrowings (358 master roots)
  */
 data class LexiconEntry(
     val id: Int,
