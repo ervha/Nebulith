@@ -254,6 +254,102 @@
       },
       "state": "complete",
       "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。 動作＝予見するを利用者が選び、確認した場合。展望とは区別する。"
+    },
+    {
+      "id": "USE-25",
+      "title": "完了相（基本形）",
+      "japanese": "私は歩き終える。",
+      "nebulith": "Poranfar el mi.",
+      "english": "I finish walking.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "完了相接尾辞 -far による動作の終了・完了。"
+    },
+    {
+      "id": "USE-26",
+      "title": "完了相（過去形）",
+      "japanese": "私は歩き終えた。",
+      "nebulith": "Fe poranfar el mi.",
+      "english": "I finished walking.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "過去接頭辞 fe- と完了相 -far の共起表現。"
+    },
+    {
+      "id": "USE-27",
+      "title": "完了相（自然現象）",
+      "japanese": "星は輝き終えた。",
+      "nebulith": "Fe falunfar el vyr.",
+      "english": "The star finished shining.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "自然現象の過去完了相。"
+    },
+    {
+      "id": "USE-28",
+      "title": "完了相（否定）",
+      "japanese": "私は歩き終えない。",
+      "nebulith": "Ne poranfar el mi.",
+      "english": "I do not finish walking.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "否定接頭辞 ne- と完了相 -far の共起。"
+    },
+    {
+      "id": "USE-29",
+      "title": "継続相（基本形）",
+      "japanese": "私は歩き続ける。",
+      "nebulith": "Poranliv el mi.",
+      "english": "I continue walking.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "継続相接尾辞 -liv による状態・動作の持続。"
+    },
+    {
+      "id": "USE-30",
+      "title": "継続相（過去形）",
+      "japanese": "私は歩き続けた。",
+      "nebulith": "Fe poranliv el mi.",
+      "english": "I continued walking.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "過去接頭辞 fe- と継続相 -liv の共起。"
+    },
+    {
+      "id": "USE-31",
+      "title": "継続相（自然現象）",
+      "japanese": "星は輝き続ける。",
+      "nebulith": "Falunliv el vyr.",
+      "english": "The star continues to shine.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "自然現象の継続相。"
+    },
+    {
+      "id": "USE-32",
+      "title": "継続相（否定）",
+      "japanese": "私は歩き続けない。",
+      "nebulith": "Ne poranliv el mi.",
+      "english": "I do not continue walking.",
+      "choices": {
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "否定接頭辞 ne- と継続相 -liv の共起。"
     }
   ]
 }

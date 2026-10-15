@@ -1449,8 +1449,8 @@
       "nrs": "jyncon",
       "ipa": "[ʒyn.ʃon]",
       "pos": "名",
-      "meaningJa": "論理ゲート、電脳回路素子、スイッチング素子",
-      "meaningEn": "logic gate, switching semiconductor element",
+      "meaningJa": "論理光路、星石回路素子、光流開閉素子",
+      "meaningEn": "logic gate, astral circuit element, flux switch",
       "notes": "jyn (電子) + con (接点)"
     },
     {
@@ -1469,8 +1469,8 @@
       "nrs": "jynkas",
       "ipa": "[ʒyn.kas]",
       "pos": "名",
-      "meaningJa": "パケット、転送単位、信号塊",
-      "meaningEn": "data packet, transmission frame",
+      "meaningJa": "光符束、信号塊、伝送光節",
+      "meaningEn": "light-rune packet, signal bundle, transmission frame",
       "notes": "jyn (電気) + kas (束)"
     },
     {
@@ -1479,8 +1479,8 @@
       "nrs": "kiran",
       "ipa": "[ki.ran]",
       "pos": "動",
-      "meaningJa": "（コードを）記述する、紡ぐ、組む",
-      "meaningEn": "write code, program, compile",
+      "meaningJa": "星符を記述する、数理譜を紡ぐ、論理を組む",
+      "meaningEn": "inscribe astral runes, weave logic, formulate script",
       "notes": "プログラミング動詞"
     },
     {
@@ -1499,8 +1499,8 @@
       "nrs": "kirpan",
       "ipa": "[kir.pan]",
       "pos": "動",
-      "meaningJa": "デプロイする、配備する、実稼働に載せる",
-      "meaningEn": "deploy, roll out, install into production",
+      "meaningJa": "星辰儀を据え付ける、実地配備する、運行に載せる",
+      "meaningEn": "install apparatus, deploy into field, place into operation",
       "notes": "kiran (コード) + pan (展開)"
     },
     {
@@ -1509,8 +1509,8 @@
       "nrs": "kirvat",
       "ipa": "[kir.vat]",
       "pos": "名",
-      "meaningJa": "スキーマ、データ構造定義、論理骨格",
-      "meaningEn": "schema, data structure layout",
+      "meaningJa": "論理骨格、星符構造定義、記録規型",
+      "meaningEn": "logical framework, rune structure layout, schema",
       "notes": "kiran (記述) ＋ 格子"
     },
     {
@@ -1519,8 +1519,8 @@
       "nrs": "kirvel",
       "ipa": "[kir.vel]",
       "pos": "名",
-      "meaningJa": "ルーティング、経路制御、伝送路選定",
-      "meaningEn": "routing, path control",
+      "meaningJa": "星網流路選定、光路制御、中継路選定",
+      "meaningEn": "astral path selection, optical routing, transmission relay",
       "notes": "kir (導く) + vel (経路)"
     },
     {
@@ -1529,8 +1529,8 @@
       "nrs": "kiv",
       "ipa": "[kiv]",
       "pos": "名",
-      "meaningJa": "ビット、二値単位、情報最小光点",
-      "meaningEn": "bit, binary unit",
+      "meaningJa": "二値光点、光符単位、最小情報点",
+      "meaningEn": "binary light-point, rune unit, elementary quantum of information",
       "notes": "瞬発的最小二値"
     },
     {
@@ -1539,8 +1539,8 @@
       "nrs": "kivkas",
       "ipa": "[kiv.kas]",
       "pos": "名/動",
-      "meaningJa": "シリアライズ、直列化する、ビット列化",
-      "meaningEn": "serialize, marshal to stream",
+      "meaningJa": "順序整列する、光列化する、直列記録する",
+      "meaningEn": "sequence in order, align into stream, serialize linearly",
       "notes": "kiv (ビット) ＋ 連続化"
     },
     {
@@ -1549,8 +1549,8 @@
       "nrs": "kivku",
       "ipa": "[kiv.ku]",
       "pos": "副",
-      "meaningJa": "ビット単位で、微細に、逐一",
-      "meaningEn": "bit by bit, granularity, item by item",
+      "meaningJa": "一光点ごとに、微細に、逐一精密に",
+      "meaningEn": "point by point, granularly, meticulously",
       "notes": "kiv (ビット) ＋ 共格副詞"
     },
     {
@@ -1559,8 +1559,8 @@
       "nrs": "kivlom",
       "ipa": "[kiv.lom]",
       "pos": "名",
-      "meaningJa": "バイト、オクテット、情報ブロック",
-      "meaningEn": "byte, octet, data block",
+      "meaningJa": "八連光節、光符塊、情報節塊",
+      "meaningEn": "octonary rune block, data unit block, byte cluster",
       "notes": "kiv (ビット) ＋ -om (集合)"
     },
     {
@@ -1569,8 +1569,8 @@
       "nrs": "kivmor",
       "ipa": "[kiv.mor]",
       "pos": "名",
-      "meaningJa": "ビット演算、論理シフト、ビットマスク",
-      "meaningEn": "bitwise operation, bit mask, shift",
+      "meaningJa": "光符演算、論理変調、光点操作",
+      "meaningEn": "rune-point operation, logical shift, bitwise calculation",
       "notes": "kiv (ビット) + mor (操作)"
     },
     {
@@ -1579,8 +1579,8 @@
       "nrs": "kivron",
       "ipa": "[kiv.ron]",
       "pos": "名",
-      "meaningJa": "ストリーム、連続データ流、ビット流",
-      "meaningEn": "data stream, continuous byte sequence",
+      "meaningJa": "連続光符流、光点流、情報奔流",
+      "meaningEn": "continuous rune stream, light-point flow, flux sequence",
       "notes": "kiv (情報) + ron (流水)"
     },
     {
@@ -1589,8 +1589,8 @@
       "nrs": "krotcon",
       "ipa": "[krot.ʃon]",
       "pos": "名",
-      "meaningJa": "フォールトトレランス、障害耐性、冗長系",
-      "meaningEn": "fault tolerance, redundant failover",
+      "meaningJa": "星網欠陥耐性、恒久堅牢性、二重保全系",
+      "meaningEn": "fault resilience, structural permanence, redundant failover",
       "notes": "krot (障害) + con (防護)"
     },
     {
@@ -1599,8 +1599,8 @@
       "nrs": "krotel",
       "ipa": "[kro.tel]",
       "pos": "名",
-      "meaningJa": "例外、ランタイムエラー、異常割り込み",
-      "meaningEn": "exception, runtime interrupt",
+      "meaningJa": "光路異常、異状断絶、突発異状",
+      "meaningEn": "path anomaly, optical exception, runtime interrupt",
       "notes": "krot (激動) ＋ 信号器"
     },
     {
@@ -1609,8 +1609,8 @@
       "nrs": "krotis",
       "ipa": "[kro.tis]",
       "pos": "名",
-      "meaningJa": "バグ、論理欠陥、不整合",
-      "meaningEn": "software defect, glitch, anomaly",
+      "meaningJa": "星符欠陥、論理の歪み、不整合",
+      "meaningEn": "rune defect, logical flaw, anomaly, glitch",
       "notes": "krot (破綻) + is (状態)"
     },
     {
@@ -1619,8 +1619,8 @@
       "nrs": "krotpan",
       "ipa": "[krot.pan]",
       "pos": "動",
-      "meaningJa": "クラッシュする、異常終了する、破綻する",
-      "meaningEn": "crash, abend, terminate abnormally",
+      "meaningJa": "瓦解する、運行破綻する、激甚崩壊する",
+      "meaningEn": "collapse catastrophically, break down, terminate fatally",
       "notes": "krot (破綻) + pan (分解)"
     },
     {
@@ -1629,8 +1629,8 @@
       "nrs": "kyvren",
       "ipa": "[kyv.ren]",
       "pos": "名/動",
-      "meaningJa": "暗号、暗号化する、秘匿符号",
-      "meaningEn": "cipher, encrypt",
+      "meaningJa": "星暗号、秘匿符号、秘紋を刻む",
+      "meaningEn": "astral cipher, occult seal, encrypt",
       "notes": "秘匿論理"
     },
     {
@@ -1639,8 +1639,8 @@
       "nrs": "livar",
       "ipa": "[li.var]",
       "pos": "名",
-      "meaningJa": "データベース、書庫、情報保管庫",
-      "meaningEn": "database, repository",
+      "meaningJa": "星辰書庫、記録保管座、天測宝庫",
+      "meaningEn": "astral repository, record vault, archive chamber",
       "notes": "データ集積所"
     },
     {
@@ -1649,8 +1649,8 @@
       "nrs": "livkas",
       "ipa": "[liv.kas]",
       "pos": "名",
-      "meaningJa": "アーカイブ、長期保管記録、恒久書庫",
-      "meaningEn": "archive, persistent store, vault",
+      "meaningJa": "恒久保管記録、永久書庫、原典保管函",
+      "meaningEn": "perpetual archive, ancestral record vault, timeless store",
       "notes": "livar (保管庫) + kas (強固)"
     },
     {
@@ -1659,8 +1659,8 @@
       "nrs": "livpan",
       "ipa": "[liv.pan]",
       "pos": "動",
-      "meaningJa": "同期する、データを一致させる、レプリケートする",
-      "meaningEn": "synchronize, replicate, reconcile data",
+      "meaningJa": "波長同調する、記録を照合一致させる、同調する",
+      "meaningEn": "synchronize harmonic frequency, reconcile records, replicate",
       "notes": "livar (保存) + pan (一致化)"
     },
     {
@@ -1669,8 +1669,8 @@
       "nrs": "livsol",
       "ipa": "[liv.sol]",
       "pos": "名",
-      "meaningJa": "トランザクション、不可分確定処理",
-      "meaningEn": "transaction, atomic commit unit",
+      "meaningJa": "不可分確定事象、不可分誓約、確約単位",
+      "meaningEn": "indivisible atomic event, sacred compact, atomic transaction",
       "notes": "livar (保存) + sol (完全塊)"
     },
     {
@@ -1699,8 +1699,8 @@
       "nrs": "mator",
       "ipa": "[ma.tor]",
       "pos": "名",
-      "meaningJa": "コンピューター、端末、演算機械",
-      "meaningEn": "computer, terminal",
+      "meaningJa": "星辰演算儀、天測計算機、星石盤",
+      "meaningEn": "astral computation engine, astrolabe calculator, celestial device",
       "notes": "精緻な計算機巧"
     },
     {
@@ -1709,8 +1709,8 @@
       "nrs": "matorcon",
       "ipa": "[ma.tor.ʃon]",
       "pos": "名",
-      "meaningJa": "オペレーティングシステム、統御核、カーネル",
-      "meaningEn": "operating system kernel, control core",
+      "meaningJa": "全系統御核、天測主幹律、統御中枢律",
+      "meaningEn": "master control core, sovereign operating system, executive core",
       "notes": "mator (機械) + con (中枢)"
     },
     {
@@ -1719,8 +1719,8 @@
       "nrs": "matoris",
       "ipa": "[ma.to.ris]",
       "pos": "名",
-      "meaningJa": "演算器、ALU、プロセッサコア",
-      "meaningEn": "processor core, arithmetic unit",
+      "meaningJa": "星石演算核、推論中枢、中枢演算器",
+      "meaningEn": "computation nucleus, reasoning core, arithmetic logic unit",
       "notes": "mator (計算機) ＋ 核"
     },
     {
@@ -1729,8 +1729,8 @@
       "nrs": "pelel",
       "ipa": "[pe.lel]",
       "pos": "名",
-      "meaningJa": "スマートフォン、携帯情報端末",
-      "meaningEn": "smartphone, mobile device",
+      "meaningJa": "携帯星盤、携行天測板、携帯光符盤",
+      "meaningEn": "portable astrolabe, handheld celestial tablet, portable device",
       "notes": "手のひらの端末"
     },
     {
@@ -1739,8 +1739,8 @@
       "nrs": "sevik",
       "ipa": "[se.vik]",
       "pos": "名",
-      "meaningJa": "条件分岐、フォーク、判定節",
-      "meaningEn": "branch, conditional fork",
+      "meaningJa": "条理分岐、軌道選択節、判定岐路",
+      "meaningEn": "logic branch, orbital fork, conditional threshold",
       "notes": "論理の分岐点"
     },
     {
@@ -1749,8 +1749,8 @@
       "nrs": "sorcon",
       "ipa": "[sor.ʃon]",
       "pos": "名",
-      "meaningJa": "ガベージコレクション、メモリ解放整理",
-      "meaningEn": "garbage collection, memory compaction",
+      "meaningJa": "余剰記憶浄化、記憶領域整正、忘却整頓",
+      "meaningEn": "memory purification, compaction, memory purge",
       "notes": "soril (メモリ) + con (浄化)"
     },
     {
@@ -1759,8 +1759,8 @@
       "nrs": "soril",
       "ipa": "[so.ril]",
       "pos": "名",
-      "meaningJa": "メモリ、記憶素子、バッファ",
-      "meaningEn": "memory, cache, buffer",
+      "meaningJa": "星石記憶素、記憶器、想念保持座",
+      "meaningEn": "astral memory store, recollection reservoir, memory cell",
       "notes": "記録を保持する素子"
     },
     {
@@ -1769,8 +1769,8 @@
       "nrs": "sorvat",
       "ipa": "[sor.vat]",
       "pos": "名",
-      "meaningJa": "レジスタ、超高速記憶枠、保持器",
-      "meaningEn": "register, high-speed storage cell",
+      "meaningJa": "即応記憶枠、超高速保持器、瞬時記憶座",
+      "meaningEn": "rapid retrieval cache, ultra-fast memory register, cell",
       "notes": "soril (記憶) + vat (枠)"
     },
     {
@@ -1779,8 +1779,8 @@
       "nrs": "suf",
       "ipa": "[suf]",
       "pos": "名/動",
-      "meaningJa": "計算、論理、アルゴリズム",
-      "meaningEn": "computation, logic",
+      "meaningJa": "数理、星辰計算、演繹律",
+      "meaningEn": "astral computation, mathematical deduction, algorithm",
       "notes": "鋭敏な摩擦音語末"
     },
     {
@@ -1789,8 +1789,8 @@
       "nrs": "suflik",
       "ipa": "[suf.lik]",
       "pos": "名",
-      "meaningJa": "ヒューリスティック、探索近似法",
-      "meaningEn": "heuristic, approximate search",
+      "meaningJa": "星辰近似測位、天測推定法、経験則推定",
+      "meaningEn": "celestial approximation, heuristic estimation, empirical method",
       "notes": "suf (計算) + lik (探索)"
     },
     {
@@ -1799,8 +1799,8 @@
       "nrs": "suflit",
       "ipa": "[suf.lit]",
       "pos": "名",
-      "meaningJa": "要約、まとめ、抄録、骨子",
-      "meaningEn": "summary, abstract, recap",
+      "meaningJa": "要録、観測抄録、骨子、要綱",
+      "meaningEn": "abstract, observational summary, synopsis, essence",
       "notes": "suf (計算/論理) ＋ 凝縮"
     },
     {
@@ -1809,8 +1809,8 @@
       "nrs": "sufom",
       "ipa": "[su.fom]",
       "pos": "名",
-      "meaningJa": "情報工学、電脳空間、IT領域",
-      "meaningEn": "computer science, cyberspace",
+      "meaningJa": "星辰数理工学、光符演算界、星網情報界",
+      "meaningEn": "astral computational science, mathematical realm, cyberspace",
       "notes": "計算・情報分野"
     },
     {
@@ -1819,8 +1819,8 @@
       "nrs": "sufor",
       "ipa": "[su.for]",
       "pos": "名",
-      "meaningJa": "プログラマー、ITエンジニア、論理士",
-      "meaningEn": "programmer, software engineer",
+      "meaningJa": "星辰数理士、光符算定士、論理工範士",
+      "meaningEn": "astral computational scholar, logic engineer, programmer",
       "notes": "論理技術職"
     },
     {
@@ -1829,8 +1829,8 @@
       "nrs": "sufrin",
       "ipa": "[suf.rin]",
       "pos": "名",
-      "meaningJa": "暗号鍵、認証トークン、署名符号",
-      "meaningEn": "cryptographic key, auth token",
+      "meaningJa": "星辰認証印、照合符信、開扉符標",
+      "meaningEn": "astral credential seal, authentication token, signature cipher",
       "notes": "suf (計算) ＋ rin (環)"
     },
     {
@@ -1839,8 +1839,8 @@
       "nrs": "suftar",
       "ipa": "[suf.tar]",
       "pos": "名",
-      "meaningJa": "スレッド、並行処理並列流",
-      "meaningEn": "thread, concurrent execution flow",
+      "meaningJa": "並行思索流、並列運行線、並行観測条",
+      "meaningEn": "concurrent calculation stream, parallel thread, execution flow",
       "notes": "suf (計算) + tar (細流)"
     },
     {
@@ -1849,8 +1849,8 @@
       "nrs": "suftas",
       "ipa": "[suf.tas]",
       "pos": "名",
-      "meaningJa": "スタック、キュー、順序待ち列",
-      "meaningEn": "stack, queue, buffer sequence",
+      "meaningJa": "順序待機列、累積連載列、堆積待機座",
+      "meaningEn": "sequence buffer queue, ordered stack, waiting line",
       "notes": "suf (計算) ＋ 順序配列"
     },
     {
@@ -1859,8 +1859,8 @@
       "nrs": "suftin",
       "ipa": "[suf.tin]",
       "pos": "名",
-      "meaningJa": "チェックサム、ハッシュ検証値、誤り検出符号",
-      "meaningEn": "checksum, cyclic redundancy hash, digest",
+      "meaningJa": "星符照合印、誤り検知符、完全性検証値",
+      "meaningEn": "integrity checksum, cyclic verification hash, digest seal",
       "notes": "suf (計算) + tin (検査印)"
     },
     {
@@ -1879,8 +1879,8 @@
       "nrs": "tolcon",
       "ipa": "[tol.ʃon]",
       "pos": "名",
-      "meaningJa": "プロトコル、通信規約、伝送規程",
-      "meaningEn": "protocol, transmission pact",
+      "meaningJa": "星網通信規程、伝送誓約律、交信儀礼",
+      "meaningEn": "astral communication protocol, transmission compact, transmission law",
       "notes": "tolas (通信) + con (約定)"
     },
     {
@@ -1889,8 +1889,8 @@
       "nrs": "tolkat",
       "ipa": "[tol.kat]",
       "pos": "名",
-      "meaningJa": "レイテンシ、伝送遅延、応答時間",
-      "meaningEn": "latency, propagation delay, response lag",
+      "meaningJa": "星光伝達遅延、伝送遅延、応答間隙",
+      "meaningEn": "signal propagation delay, latency, transmission lag",
       "notes": "tolas (通信) + kat (遅滞間隔)"
     },
     {
@@ -1899,8 +1899,8 @@
       "nrs": "tolom",
       "ipa": "[to.lom]",
       "pos": "名",
-      "meaningJa": "インターネット、Web、世界通信網",
-      "meaningEn": "internet, cyber network",
+      "meaningJa": "全天交信星網、大星網、天界通信網",
+      "meaningEn": "all-sky communication network, great astral web, global network",
       "notes": "世界情報網"
     },
     {
@@ -1909,8 +1909,8 @@
       "nrs": "tolpan",
       "ipa": "[tol.pan]",
       "pos": "動",
-      "meaningJa": "ルーティングする、中継転送する、フォワードする",
-      "meaningEn": "forward, route packet, relay transmission",
+      "meaningJa": "星網中継する、光路選定する、中継転送する",
+      "meaningEn": "relay transmission, forward optical route, route packet",
       "notes": "tolas (通信) + pan (中継)"
     },
     {
@@ -1919,8 +1919,8 @@
       "nrs": "tolpar",
       "ipa": "[tol.par]",
       "pos": "名",
-      "meaningJa": "ブロードキャスト、一斉同報、全域送信",
-      "meaningEn": "broadcast, omnidirectional beacon",
+      "meaningJa": "全天一斉放射、全域同報信、全天同報",
+      "meaningEn": "all-sky broadcast, omnidirectional transmission, celestial beacon",
       "notes": "tolas (通信) + par (全域)"
     },
     {
@@ -1929,8 +1929,8 @@
       "nrs": "tolrin",
       "ipa": "[tol.rin]",
       "pos": "名",
-      "meaningJa": "帯域幅、伝送容量、チャンネル幅",
-      "meaningEn": "bandwidth, channel capacity",
+      "meaningJa": "星網伝送容量、受光帯域幅、通信流路幅",
+      "meaningEn": "transmission capacity, spectral bandwidth, channel capacity",
       "notes": "tolas (通信) + rin (環/枠)"
     },
     {
@@ -1959,8 +1959,8 @@
       "nrs": "vedil",
       "ipa": "[ve.dil]",
       "pos": "名",
-      "meaningJa": "真偽値、論理極性、ブーリアン",
-      "meaningEn": "boolean, truth-value",
+      "meaningJa": "真偽律、光陰二極値、論理極性",
+      "meaningEn": "truth-value, light-shadow polarity, boolean state",
       "notes": "ved (論理極性) + -il (値/素子: 真偽値、ブーリアン)"
     },
     {
@@ -1969,8 +1969,8 @@
       "nrs": "velis",
       "ipa": "[ve.lis]",
       "pos": "名/動",
-      "meaningJa": "検索、クエリ、照会する",
-      "meaningEn": "query, search lookup",
+      "meaningJa": "星図探索する、観測照会する、探求する",
+      "meaningEn": "query the stars, observational lookup, search",
       "notes": "探求照会"
     },
     {
@@ -1979,8 +1979,8 @@
       "nrs": "veltok",
       "ipa": "[vel.tok]",
       "pos": "名/動",
-      "meaningJa": "インデックス、索引、検索目録",
-      "meaningEn": "index, search key",
+      "meaningJa": "星辰目録、観測索引、検索標記",
+      "meaningEn": "astral catalog, observation index, search directory",
       "notes": "探索の標識"
     },
     {
@@ -1989,8 +1989,8 @@
       "nrs": "voret",
       "ipa": "[vo.ret]",
       "pos": "名/動",
-      "meaningJa": "ループ、反復処理、再帰",
-      "meaningEn": "loop, iteration, recurse",
+      "meaningJa": "周期巡回、輪廻巡行、反復周期",
+      "meaningEn": "orbital cycle, recurrent iteration, repetitive loop",
       "notes": "周回反復"
     },
     {
@@ -1999,8 +1999,8 @@
       "nrs": "vylatel",
       "ipa": "[vy.la.tel]",
       "pos": "名",
-      "meaningJa": "ディスプレイ、画面、モニター",
-      "meaningEn": "display, screen, monitor",
+      "meaningJa": "星影投影面、観測表示板、天象投影盤",
+      "meaningEn": "celestial projection plate, observation screen, display monitor",
       "notes": "映像出力板"
     },
     {
@@ -2029,8 +2029,8 @@
       "nrs": "zevcon",
       "ipa": "[zev.ʃon]",
       "pos": "名",
-      "meaningJa": "正規表現、パターン照合式",
-      "meaningEn": "regular expression, regex pattern syntax",
+      "meaningJa": "星符定型照合式、律動文様式、照合律",
+      "meaningEn": "rune pattern formula, regular expression, symbolic match syntax",
       "notes": "zevil (構文) + con (整合)"
     },
     {
@@ -2039,8 +2039,8 @@
       "nrs": "zevil",
       "ipa": "[ze.vil]",
       "pos": "名",
-      "meaningJa": "コード、プログラム、構文、文字列",
-      "meaningEn": "code, syntax, script",
+      "meaningJa": "星辰記述文、数理言辞、星符譜",
+      "meaningEn": "celestial script, mathematical syntax, program code",
       "notes": "論理文字列"
     },
     {
@@ -2049,8 +2049,8 @@
       "nrs": "zevkas",
       "ipa": "[zev.kas]",
       "pos": "名/動",
-      "meaningJa": "パース、構文解析する、構文木",
-      "meaningEn": "parse, syntax analysis, AST",
+      "meaningJa": "星符解読する、言辞解析する、構文分解する",
+      "meaningEn": "decipher rune syntax, parse celestial script, analyze structure",
       "notes": "zevil (構文) ＋ 解析"
     },
     {
@@ -2059,8 +2059,8 @@
       "nrs": "zydot",
       "ipa": "[zy.dot]",
       "pos": "名/動",
-      "meaningJa": "検証、アサーション、実証テスト",
-      "meaningEn": "validation, assertion, proof test",
+      "meaningJa": "実証検証する、公理証明する、確証する",
+      "meaningEn": "verify by evidence, validate axiom, confirm truth",
       "notes": "zyd (検証実相) の確定"
     },
     {

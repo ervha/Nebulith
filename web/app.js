@@ -187,17 +187,25 @@ function getWordForms(word) {
       { label: '現在・基本形', neb: r },
       { label: '過去形 (fe-)', neb: 'fe ' + r },
       { label: '進行相 (di-)', neb: 'di ' + r },
+      { label: '完了相 (-far)', neb: r + 'far' },
+      { label: '継続維持相 (-liv)', neb: r + 'liv' },
       { label: '否定形 (ne-)', neb: 'ne ' + r },
       { label: '否定過去 (fe ne-)', neb: 'fe ne ' + r },
       { label: '推量 (se-)', neb: 'se ' + r },
       { label: '希望相 (-ast)', neb: r + 'ast' },
       { label: '可能相 (-ar)', neb: r + 'ar' },
-      { label: '反復相 (-cor)', neb: r + 'cor' }
+      { label: '反復相 (-cor)', neb: r + 'cor' },
+      { label: '派生名詞・抽象化 (-as)', neb: r + 'as' },
+      { label: '派生行為者 (-or)', neb: r + 'or' },
+      { label: '派生空間・施設 (-om)', neb: r + 'om' },
+      { label: '派生器具・装置 (-ik)', neb: r + 'ik' }
     ];
   } else if (word.p.includes('形')) {
     return [
       { label: '原級', neb: r },
       { label: '最上級 (cel-)', neb: 'cel' + r },
+      { label: '抽象名詞化 (-as)', neb: r + 'as' },
+      { label: '副詞化 (-in)', neb: r + 'in' },
       { label: '過去述語', neb: 'fe relen ... ia ' + r },
       { label: '否定述語', neb: 'ne relen ... ia ' + r }
     ];
@@ -205,6 +213,8 @@ function getWordForms(word) {
     return [
       { label: '単数形', neb: r },
       { label: '複数形 (-iin)', neb: r + 'iin' },
+      { label: '形容詞化 (-ik)', neb: r + 'ik' },
+      { label: '集合・体系化 (-om)', neb: r + 'om' },
       { label: '属格 (所有)', neb: '... en ' + r },
       { label: '道具格 (手段)', neb: 'de ' + r },
       { label: '場所格 (存在)', neb: 'uo ' + r }

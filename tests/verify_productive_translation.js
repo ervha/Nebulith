@@ -23,7 +23,7 @@ const fixtures=[
 ];
 for(const [input,output] of fixtures){const r=ctx.engine.analyze(input,{});assert.equal(r.complete,true,input+': '+JSON.stringify(r));assert.equal(r.text,output,input);}
 // Independent Japanese inflection witnesses, covering every configured conjugation family.
-for(const [lemma,kind,past,progress,negative] of [['書く','く','書いた','書いている','書かない'],['泳ぐ','ぐ','泳いだ','泳いでいる','泳がない'],['話す','す','話した','話している','話さない'],['待つ','つ','待った','待っている','待たない'],['飛ぶ','ぶ','飛んだ','飛んでいる','飛ばない'],['飲む','む','飲んだ','飲んでいる','飲まない'],['走る','る','走った','走っている','走らない'],['歌う','う','歌った','歌っている','歌わない'],['食べる','ichidan','食べた','食べている','食べない'],['同期する','suru','同期した','同期している','同期しない'],['来る','kuru','来た','来ている','来ない']]){
+for(const [lemma,kind,past,progress,negative] of [['書く','く','書いた','書いている','書かない'],['泳ぐ','ぐ','泳いだ','泳いでいる','泳がない'],['話す','す','話した','話している','話さない'],['待つ','つ','待った','待っている','待たない'],['飛ぶ','ぶ','飛んだ','飛んでいる','飛ばない'],['飲む','む','飲んだ','飲んでいる','飲まない'],['走る','る','走った','走っている','走らない'],['歌う','う','歌った','歌っている','歌わない'],['食べる','ichidan','食べた','食べている','食べない'],['観測する','suru','観測した','観測している','観測しない'],['来る','kuru','来た','来ている','来ない']]){
   const forms=ctx.nebulithJapaneseForms(lemma,kind).map(f=>f.ending);for(const word of [past,progress,negative])assert.ok(forms.includes(word),word);
 }
 const patterns=JSON.parse(fs.readFileSync('data/translation_patterns.json','utf8'));
@@ -51,7 +51,7 @@ for(const option of ambiguous.segments[0].senseOptions){
 for(const input of ['私は未知語を飲む','私は水を飲みたい','私は水を飲むかもしれない','私は物語を読む','水は冷たくて赤い'])assert.equal(ctx.engine.analyze(input,{}).complete,false,input);
 console.log(`PASS: ${fixtures.length} independent sentences, 11 conjugation families, ${combinations} productive combinations, sense selection and refusal to discard meaning`);
 const examples=JSON.parse(fs.readFileSync('data/usage_examples.json','utf8')).examples;
-assert.equal(examples.length,24);
+assert.equal(examples.length,32);
 assert.equal(new Set(examples.map(e=>e.id)).size,examples.length);
 for(const example of examples){
   const result=ctx.engine.analyze(example.japanese,example.choices);

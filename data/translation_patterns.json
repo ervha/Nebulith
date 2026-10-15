@@ -123,7 +123,7 @@
     },
     {
       "id": 138,
-      "lemma": "配備する",
+      "lemma": "実地配備する",
       "conjugation": "suru",
       "frame": {
         "required": [
@@ -141,7 +141,7 @@
     },
     {
       "id": 142,
-      "lemma": "シリアライズする",
+      "lemma": "直列化する",
       "conjugation": "suru",
       "frame": {
         "required": [
@@ -159,7 +159,7 @@
     },
     {
       "id": 150,
-      "lemma": "クラッシュする",
+      "lemma": "破綻する",
       "conjugation": "suru",
       "frame": {
         "required": [
@@ -194,7 +194,7 @@
     },
     {
       "id": 154,
-      "lemma": "同期する",
+      "lemma": "同調同期する",
       "conjugation": "suru",
       "frame": {
         "required": [
@@ -230,7 +230,7 @@
     },
     {
       "id": 179,
-      "lemma": "ルーティングする",
+      "lemma": "中継転送する",
       "conjugation": "suru",
       "frame": {
         "required": [
@@ -284,7 +284,7 @@
     },
     {
       "id": 186,
-      "lemma": "インデックスする",
+      "lemma": "索引付けする",
       "conjugation": "suru",
       "frame": {
         "required": [
@@ -302,7 +302,7 @@
     },
     {
       "id": 187,
-      "lemma": "ループする",
+      "lemma": "周回巡回する",
       "conjugation": "suru",
       "frame": {
         "required": [
@@ -337,7 +337,7 @@
     },
     {
       "id": 193,
-      "lemma": "構文解析する",
+      "lemma": "星符解読する",
       "conjugation": "suru",
       "frame": {
         "required": [

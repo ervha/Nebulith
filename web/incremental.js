@@ -45,7 +45,19 @@
       [lemma+'かもしれない',['se'],'','推量'],[lemma+'かも',['se'],'','推量'],
       [past+'かもしれない',['se','fe'],'','過去の推量'],[past+'かも',['se','fe'],'','過去の推量'],
       [negative+'かもしれない',['se','ne'],'','否定の推量'],[negative+'かも',['se','ne'],'','否定の推量'],
-      [negative.slice(0,-1)+'かったかもしれない',['se','fe','ne'],'','過去否定の推量']
+      [negative.slice(0,-1)+'かったかもしれない',['se','fe','ne'],'','過去否定の推量'],
+      // 完了相（Perfective -far）
+      [polite+'終える',[],'far','完了相'],[polite+'終えます',[],'far','完了相'],
+      [polite+'終えた',['fe'],'far','過去の完了相'],[polite+'終えました',['fe'],'far','過去の完了相'],
+      [polite+'終わる',[],'far','完了相'],[polite+'終わります',[],'far','完了相'],
+      [polite+'終わった',['fe'],'far','過去の完了相'],[polite+'終わりました',['fe'],'far','過去の完了相'],
+      [polite+'終えない',['ne'],'far','完了相の否定'],[polite+'終えません',['ne'],'far','完了相の否定'],
+      [polite+'終えなかった',['fe','ne'],'far','過去の完了相の否定'],[polite+'終えませんでした',['fe','ne'],'far','過去の完了相の否定'],
+      // 継続相（Durative / Continuative -liv）
+      [polite+'続ける',[],'liv','継続相'],[polite+'続けます',[],'liv','継続相'],
+      [polite+'続けた',['fe'],'liv','過去の継続相'],[polite+'続けました',['fe'],'liv','過去の継続相'],
+      [polite+'続けない',['ne'],'liv','継続相の否定'],[polite+'続けません',['ne'],'liv','継続相の否定'],
+      [polite+'続けなかった',['fe','ne'],'liv','過去の継続相の否定'],[polite+'続けませんでした',['fe','ne'],'liv','過去の継続相の否定']
     ];
     return rows.map(([ending,prefixes,suffix='',feature=''])=>({ending,prefixes,suffix,feature}));
   }
@@ -249,6 +261,9 @@
     add(953,['観測される'],[],'',true);add(953,['観測された'],['fe'],'',true);add(953,['観測されない'],['ne'],'',true);
     add(16,['輝き始める'],[],'ast');add(902,['歩き始める'],[],'ast');add(972,['食べ始める'],[],'ast');
     for(const [id,s] of [[16,'輝く'],[902,'歩く'],[953,'観測する'],[972,'食べる']]) add(id,['繰り返し'+s],[],'cor');
+    for(const [id,lemma,kind] of [[16,'輝く','く'],[16,'光る','る'],[902,'歩く','く'],[953,'観測する','suru'],[972,'食べる','ichidan']]) {
+      for(const f of japaneseForms(lemma, kind)) forms.push({...f, id, passive: false});
+    }
     for(const f of extensions.forms||[])forms.push({...f,suffix:'',passive:false,extension:true});
     for(const verb of productive.verbs||[])for(const f of japaneseForms(verb.lemma,verb.conjugation))forms.push({...f,id:verb.id,passive:false,extension:true});
     for(const e of vocab.filter(e=>e.p.includes('形')))for(const g of gloss(e)) {
@@ -357,7 +372,7 @@
     }
     function outputAlignment(f,args,question) {
       const verb=[...f.prefixes,(f.passive?'re':'')+byId.get(f.id).r+f.suffix].join(' ');
-      const roles='述語'+(f.prefixes.includes('ne')?'・否定':'')+(f.prefixes.includes('fe')?'・過去':'')+(f.prefixes.includes('se')?'・推量':'')+(f.suffix==='ar'?'・可能':'')+(f.suffix==='ast'?(f.feature?.includes('希望')?'・希望':'・始相'):'')+(f.suffix==='cor'?'・反復':'');
+      const roles='述語'+(f.prefixes.includes('ne')?'・否定':'')+(f.prefixes.includes('fe')?'・過去':'')+(f.prefixes.includes('se')?'・推量':'')+(f.suffix==='ar'?'・可能':'')+(f.suffix==='ast'?(f.feature?.includes('希望')?'・希望':'・始相'):'')+(f.suffix==='far'?'・完了相':'')+(f.suffix==='liv'?'・継続相':'')+(f.suffix==='cor'?'・反復':'');
       return [...argumentRows(args),{src:f.bareAdjective?'断定の文法（日本語では省略）':f.ending,dst:verb,role:roles},
         ...(question?[{src:'か／疑問符',dst:'ka',role:'疑問'}]:[])];
     }
@@ -392,10 +407,10 @@
     }
     function meaningOf(form,args,question,feature='') {
       const sources=argSources.get(args)||{};
-      const isRealizedModal = form && (form.suffix==='ar' || form.suffix==='ast' || form.prefixes.includes('se'));
+      const isRealizedModal = form && (form.suffix==='ar' || form.suffix==='ast' || form.suffix==='far' || form.suffix==='liv' || form.prefixes.includes('se'));
       return {schemaVersion:1,kind:'clause',predicate:form?{entryId:form.id,root:byId.get(form.id).r,source:form.ending,prefixes:[...form.prefixes],suffix:form.suffix||'',passive:!!form.passive}:null,
-        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':form?.prefixes.includes('se')?'future':'unmarked',negative:!!form?.prefixes.includes('ne'),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='ast'?(form?.feature?.includes('希望')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
-        modalities:feature?[{kind:feature.includes('希望')?'desire':feature.includes('推量')?'uncertainty':feature.includes('可能')?'possibility':feature.includes('意図')?'intention':feature.includes('必要')?'necessity':'thought',sourceFeature:feature,negated:feature.includes('否定'),past:feature.includes('過去'),scope:'clause',realization:isRealizedModal?'synthesized':'not-defined'}]:[],
+        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':form?.prefixes.includes('se')?'future':'unmarked',negative:!!form?.prefixes.includes('ne'),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='far'?'perfective':form?.suffix==='liv'?'durative':form?.suffix==='ast'?(form?.feature?.includes('希望')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
+        modalities:feature?[{kind:feature.includes('希望')?'desire':feature.includes('推量')?'uncertainty':feature.includes('可能')?'possibility':feature.includes('相')?'aspect':feature.includes('意図')?'intention':feature.includes('必要')?'necessity':'thought',sourceFeature:feature,negated:feature.includes('否定'),past:feature.includes('過去'),scope:'clause',realization:isRealizedModal?'synthesized':'not-defined'}]:[],
         alignment:form?outputAlignment(form,args,question):argumentRows(args)};
     }
     function realize(meaning) {
@@ -721,7 +736,7 @@
       if(alias?.feature)feature=[feature,alias.feature].filter(Boolean).join('・');
       if(form?.feature)feature=[feature,form.feature].filter(Boolean).join('・');
       if(feature && !['行為','指針'].includes(feature)) {
-        const isSupportedModal = ['希望','可能','推量'].some(m => feature.includes(m));
+        const isSupportedModal = ['希望','可能','推量','完了相','継続相'].some(m => feature.includes(m));
         if(!isSupportedModal) notes.push(feature+'の表現は未対応。意味を省略せず保持します。');
       }
       if(verbGroup && verbChoiceMap[verbGroup] && choices.verb) {
@@ -804,13 +819,19 @@
         } else if(feature.includes('希望') && !form.suffix) {
           form = {...form, suffix: 'ast', prefixes: feature.includes('過去') ? [...form.prefixes, 'fe'] : form.prefixes};
           if(feature.includes('否定') && !form.prefixes.includes('ne')) form.prefixes = [...form.prefixes, 'ne'];
+        } else if(feature.includes('完了相') && !form.suffix) {
+          form = {...form, suffix: 'far', prefixes: feature.includes('過去') ? [...form.prefixes, 'fe'] : form.prefixes};
+          if(feature.includes('否定') && !form.prefixes.includes('ne')) form.prefixes = [...form.prefixes, 'ne'];
+        } else if(feature.includes('継続相') && !form.suffix) {
+          form = {...form, suffix: 'liv', prefixes: feature.includes('過去') ? [...form.prefixes, 'fe'] : form.prefixes};
+          if(feature.includes('否定') && !form.prefixes.includes('ne')) form.prefixes = [...form.prefixes, 'ne'];
         } else if(feature.includes('推量') && !form.prefixes.includes('se')) {
           form = {...form, prefixes: ['se', ...form.prefixes]};
           if(feature.includes('過去') && !form.prefixes.includes('fe')) form.prefixes = [...form.prefixes, 'fe'];
           if(feature.includes('否定') && !form.prefixes.includes('ne')) form.prefixes = [...form.prefixes, 'ne'];
         }
       }
-      const isModal = ['希望','可能','推量'].some(m => feature.includes(m));
+      const isModal = ['希望','可能','推量','完了相','継続相'].some(m => feature.includes(m));
       if(isModal && form) {
         try {
           const updatedMeaning = meaningOf(form ? {...form, ending} : null, args, question, feature);

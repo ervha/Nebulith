@@ -127,7 +127,7 @@
       "nrs": "tornel",
       "category": "追加語彙（未監査）",
       "pos": "動",
-      "meaningJa": "見つける、発見する、行き当たる",
+      "meaningJa": "見つける、星辰発見する、行き当たる",
       "meaningEn": "find, discover, locate",
       "ipa": "[tor.nel]",
       "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。tor(到来)+nel(獲得・把握)。"
@@ -157,7 +157,7 @@
       "nrs": "klotas",
       "category": "追加語彙（未監査）",
       "pos": "動",
-      "meaningJa": "終える、完了させる、締めくくる",
+      "meaningJa": "星辰終える、完了させる、締めくくる",
       "meaningEn": "finish, conclude, end (transitive)",
       "ipa": "[klo.tas]",
       "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。klo(終局)+tas(能動達成)。"
@@ -237,7 +237,7 @@
       "nrs": "dursen",
       "category": "追加語彙（未監査）",
       "pos": "動",
-      "meaningJa": "防衛する、守護する、防護する",
+      "meaningJa": "防衛する、守護する、星辰防護する",
       "meaningEn": "defend, fortify, protect from attack",
       "ipa": "[dur.sen]",
       "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。dur(防壁)+sen(庇護)。"
@@ -267,7 +267,7 @@
       "nrs": "tordin",
       "category": "追加語彙（未監査）",
       "pos": "動",
-      "meaningJa": "届く、到達する、至る",
+      "meaningJa": "星辰届く、到達する、至る",
       "meaningEn": "reach, arrive at, be delivered (intransitive)",
       "ipa": "[tor.din]",
       "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。tor(到来)+din(着地・至る)。"
@@ -357,7 +357,7 @@
       "nrs": "kartor",
       "category": "追加語彙（未監査）",
       "pos": "動",
-      "meaningJa": "尋ねる、問う、質問する、教えを請う",
+      "meaningJa": "尋ねる、星辰問う、質問する、教えを請う",
       "meaningEn": "ask, inquire, question",
       "ipa": "[kar.tor]",
       "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「聞く（質問）」細分化造語案。kar(知恵探求)+tor(到来・引き出し)。"
@@ -457,7 +457,7 @@
       "nrs": "morkan",
       "category": "追加語彙（未監査）",
       "pos": "動",
-      "meaningJa": "握る、しっかりと掴む、保持する",
+      "meaningJa": "星辰握る、しっかりと掴む、保持する",
       "meaningEn": "grasp, grip firmly, clasp",
       "ipa": "[mor.kan]",
       "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「触れる・掴む」細分化造語案。mor(肉体)+kan(拘束把持)。"
@@ -467,7 +467,7 @@
       "nrs": "vyltas",
       "category": "追加語彙（未監査）",
       "pos": "動",
-      "meaningJa": "叫ぶ、大声をあげる、咆哮する",
+      "meaningJa": "叫ぶ、大声をあげる、星辰咆哮する",
       "meaningEn": "shout, cry out, roar",
       "ipa": "[vyl.tas]",
       "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「話す・発声」細分化造語案。vyl(声・音)+tas(放出能動)。"
@@ -477,7 +477,7 @@
       "nrs": "havon",
       "category": "追加語彙（副詞・頻度）",
       "pos": "副",
-      "meaningJa": "いつも、常に、恒常的に",
+      "meaningJa": "いつも、星辰常に、恒常的に",
       "meaningEn": "always, constantly, perpetually",
       "ipa": "[ha.von]",
       "notes": "マイルストーン2造語。hav(周期・時間)+-on(持続)。恒常的な反復・普遍的持続を表す。"
@@ -517,7 +517,7 @@
       "nrs": "tasik",
       "category": "追加語彙（副詞・時間）",
       "pos": "副",
-      "meaningJa": "すぐに、直ちに、即座に",
+      "meaningJa": "すぐに、星辰直ちに、星辰即座に",
       "meaningEn": "immediately, promptly, at once",
       "ipa": "[ta.sik]",
       "notes": "マイルストーン2造語。tas(迅速能動)+-ik(副詞化辞)。間髪を入れず次の動作へ移る様態。"
@@ -677,7 +677,7 @@
       "nrs": "tasilel",
       "category": "追加語彙（生活名詞）",
       "pos": "名",
-      "meaningJa": "道具、器具、手持ち器具",
+      "meaningJa": "天測器具、器具、手持ち器具",
       "meaningEn": "tool, utensil, implement",
       "ipa": "[ta.si.lel]",
       "notes": "マイルストーン2造語。tas(細工能動)+-el(道具素子)。人間が操作し作業を行う実体器具。"
@@ -717,7 +717,7 @@
       "nrs": "poras",
       "category": "追加語彙（生活名詞）",
       "pos": "名",
-      "meaningJa": "道、道路、小道、路",
+      "meaningJa": "道、星見街道、小道、路",
       "meaningEn": "road, path, pathway",
       "ipa": "[po.ras]",
       "notes": "マイルストーン2造語。por(歩行)+as(敷設路)。歩行や移動のために拓かれた地上の道。"
@@ -737,7 +737,7 @@
       "nrs": "vyllik",
       "category": "追加語彙（文化名詞）",
       "pos": "名",
-      "meaningJa": "歌、歌曲、旋律歌、賛歌",
+      "meaningJa": "天恵賛歌、星辰祝詞",
       "meaningEn": "song, chant, melody",
       "ipa": "[vyl.lik]",
       "notes": "マイルストーン2造語。vyl(声)+lik(形式調律)。声によって節をつけて紡がれる歌曲。"
@@ -774,13 +774,13 @@
     },
     {
       "id": 30078,
-      "nrs": "morpar",
+      "nrs": "morpal",
       "category": "追加語彙（身体名詞）",
       "pos": "名",
-      "meaningJa": "手、手のひら、御手",
+      "meaningJa": "手のひら、御手、手の甲",
       "meaningEn": "hand, palm",
-      "ipa": "[mor.par]",
-      "notes": "マイルストーン2造語。mor(身体)+par(操作端)。道具を握り他者と触れ合う上肢末端。"
+      "ipa": "[mor.pal]",
+      "notes": "mor(身体)+pal(触覚把持)。道具を握り他者と触れ合う上肢末端。"
     },
     {
       "id": 30079,
@@ -807,7 +807,7 @@
       "nrs": "falmin",
       "category": "追加語彙（感情名詞）",
       "pos": "名",
-      "meaningJa": "歓喜、喜悦、歓声、喜色",
+      "meaningJa": "魂の法悦、光輝歓喜",
       "meaningEn": "joy, delight, gladness",
       "ipa": "[fal.min]",
       "notes": "マイルストーン2造語。fal(光明)+min(心境)。心が晴れやかに満たされる感情。"
@@ -881,9 +881,2859 @@
       "meaningEn": "voice, vocal sound",
       "ipa": "[vy.len]",
       "notes": "マイルストーン2造語。vyl(音響)+-en(実体)。人間や生命が発する固有の音声。"
+    },
+    {
+      "id": 30089,
+      "nrs": "vyrelom",
+      "pos": "名",
+      "meaningJa": "高層天文台、星見座、天測楼閣",
+      "meaningEn": "observatory, star-gazing tower",
+      "ipa": "[vy.re.lom]",
+      "category": "追加語彙（天体工学）",
+      "notes": "vyrel(観測する)+om(空間施設)。全天球観測を行う高層観測施設。"
+    },
+    {
+      "id": 30090,
+      "nrs": "vyrelik",
+      "pos": "名",
+      "meaningJa": "天体望遠儀、観測測距計、天測鏡",
+      "meaningEn": "astronomical telescope, astrolabe optics",
+      "ipa": "[vy.re.lik]",
+      "category": "追加語彙（天体工学）",
+      "notes": "vyrel(観測する)+ik(器具装置)。遠方恒星光を集光・偏光測定する儀器。"
+    },
+    {
+      "id": 30091,
+      "nrs": "celvat",
+      "pos": "名",
+      "meaningJa": "星図、天球全図、星座配置譜",
+      "meaningEn": "star chart, celestial atlas",
+      "ipa": "[cel.vat]",
+      "category": "追加語彙（天体工学）",
+      "notes": "cel(天蓋)+vat(骨格構造)。全天球の恒星配置を幾何学的に写し取った図譜。"
+    },
+    {
+      "id": 30092,
+      "nrs": "celrad",
+      "pos": "名",
+      "meaningJa": "天球座標、赤経赤緯、天測座標系",
+      "meaningEn": "celestial coordinates, right ascension and declination",
+      "ipa": "[cel.rad]",
+      "category": "追加語彙（天体工学）",
+      "notes": "cel(天蓋)+rad(半径・座標)。恒星の位置を厳密に定位する天測角。"
+    },
+    {
+      "id": 30093,
+      "nrs": "falhav",
+      "pos": "名",
+      "meaningJa": "光年、光行周期、光速行程",
+      "meaningEn": "light-year, distance traversed by light in an orbital cycle",
+      "ipa": "[fal.hav]",
+      "category": "追加語彙（天体工学）",
+      "notes": "fal(光)+hav(周期)。星間距離を表す最大尺度単位。"
+    },
+    {
+      "id": 30094,
+      "nrs": "dorjyl",
+      "pos": "名",
+      "meaningJa": "重力錨、軌道固定錨、重力係留器",
+      "meaningEn": "gravitational anchor, orbital mooring device",
+      "ipa": "[dor.jyl]",
+      "category": "追加語彙（天体工学）",
+      "notes": "dor(軌道)+jyl(結合)。天体周回軌道に探査機や拠点を安定静止させる装置。"
+    },
+    {
+      "id": 30095,
+      "nrs": "vorven",
+      "pos": "名",
+      "meaningJa": "推進機関、星光推進炉、航宙発動機",
+      "meaningEn": "propulsion drive, starlight engine",
+      "ipa": "[vor.ven]",
+      "category": "追加語彙（天体工学）",
+      "notes": "vor(点火・熱源)+ven(跳躍移行)。光圧と熱源力学を用いた推進装置。"
+    },
+    {
+      "id": 30097,
+      "nrs": "kyrzanv",
+      "pos": "名",
+      "meaningJa": "彗星尾、氷塵帯、彗星雲流",
+      "meaningEn": "comet tail, icy dust trail",
+      "ipa": "[kyr.zanv]",
+      "category": "追加語彙（天体工学）",
+      "notes": "kyr(氷雪)+zanv(深淵流)。太陽風に吹き流される長大な氷粒子流。"
+    },
+    {
+      "id": 30098,
+      "nrs": "lariskot",
+      "pos": "名",
+      "meaningJa": "軌道共鳴、摂動周期、重力連動",
+      "meaningEn": "orbital resonance, gravitational perturbation cycle",
+      "ipa": "[la.ris.kot]",
+      "category": "追加語彙（天体工学）",
+      "notes": "laris(軌道)+kot(激動・振動)。複数惑星間の公転周期整数比の共鳴。"
+    },
+    {
+      "id": 30099,
+      "nrs": "talmon",
+      "pos": "名",
+      "meaningJa": "微惑星群、小惑星帯、岩石天体環",
+      "meaningEn": "asteroid belt, planetesimal ring",
+      "ipa": "[tal.mon]",
+      "category": "追加語彙（天体工学）",
+      "notes": "tal(大地岩石)+mon(集合)。惑星形成期の残骸岩石群。"
+    },
+    {
+      "id": 30100,
+      "nrs": "radcel",
+      "pos": "名",
+      "meaningJa": "天体視差、年周視差、測距角",
+      "meaningEn": "stellar parallax, parallax angle",
+      "ipa": "[rad.cel]",
+      "category": "追加語彙（天体工学）",
+      "notes": "rad(半径)+cel(天球)。公転軌道の両端から測る微小角度変位。"
+    },
+    {
+      "id": 30101,
+      "nrs": "falsil",
+      "pos": "名",
+      "meaningJa": "整調光線、コヒーレント光、位相同調光",
+      "meaningEn": "coherent light, laser flux",
+      "ipa": "[fal.sil]",
+      "category": "追加語彙（天体工学）",
+      "notes": "fal(光)+sil(調和秩序)。波長と位相が完全に一致した純粋光。"
+    },
+    {
+      "id": 30102,
+      "nrs": "tuloskym",
+      "pos": "名",
+      "meaningJa": "暗黒星雲核、深奥暗黒部、分子雲中心",
+      "meaningEn": "molecular cloud core, deepest cosmic dark",
+      "ipa": "[tu.los.kym]",
+      "category": "追加語彙（天体工学）",
+      "notes": "tulos(天底)+kym(暗黒)。星間物質が最も高密度に収縮した誕生前夜。"
+    },
+    {
+      "id": 30103,
+      "nrs": "celmor",
+      "pos": "名",
+      "meaningJa": "立体天球儀、天蓋球儀",
+      "meaningEn": "armillary sphere, celestial globe",
+      "ipa": "[cel.mor]",
+      "category": "追加語彙（天体工学）",
+      "notes": "cel(天蓋)+mor(模型)。真鍮環で天球諸元を模した立体模型。"
+    },
+    {
+      "id": 30104,
+      "nrs": "zoharlan",
+      "pos": "名",
+      "meaningJa": "日輪光冠、主星光冠、恒星大気環",
+      "meaningEn": "stellar corona, solar crown",
+      "ipa": "[zo.har.lan]",
+      "category": "追加語彙（天体工学）",
+      "notes": "zohar(主星)+lan(冠環)。日食時にのみ現れる真白き希薄大気光。"
+    },
+    {
+      "id": 30105,
+      "nrs": "kyrvel",
+      "pos": "名",
+      "meaningJa": "氷殻惑星、雪原衛星、凍結天体",
+      "meaningEn": "ice-world, frozen celestial satellite",
+      "ipa": "[kyr.vel]",
+      "category": "追加語彙（天体工学）",
+      "notes": "kyr(氷)+vel(天体)。全表層が永久氷殻で覆われた外縁惑星。"
+    },
+    {
+      "id": 30106,
+      "nrs": "larisrad",
+      "pos": "名",
+      "meaningJa": "遠日半径、長軸半径、最大離角",
+      "meaningEn": "apoapsis radius, major orbital span",
+      "ipa": "[la.ris.rad]",
+      "category": "追加語彙（天体工学）",
+      "notes": "laris(軌道)+rad(半径)。楕円軌道の最大周回半径。"
+    },
+    {
+      "id": 30107,
+      "nrs": "dorfin",
+      "pos": "名",
+      "meaningJa": "惑星地殻、外殻岩盤、表層土壌層",
+      "meaningEn": "planetary crust, lithosphere base",
+      "ipa": "[dor.fin]",
+      "category": "追加語彙（天体工学）",
+      "notes": "dor(惑星)+fin(基面)。天体の固い岩石外皮。"
+    },
+    {
+      "id": 30108,
+      "nrs": "faldar",
+      "pos": "名",
+      "meaningJa": "光圧、放射圧、光線推力",
+      "meaningEn": "radiation pressure, photon propulsion force",
+      "ipa": "[fal.dar]",
+      "category": "追加語彙（天体工学）",
+      "notes": "fal(光)+dar(力)。恒星光子が微小帆を押す物理力。"
+    },
+    {
+      "id": 30109,
+      "nrs": "turjyl",
+      "pos": "名",
+      "meaningJa": "星辰評議会、最高評議場、長老会",
+      "meaningEn": "Astral Council, High Assembly of Watchers",
+      "ipa": "[tur.jyl]",
+      "category": "追加語彙（社会制度）",
+      "notes": "tur(掟)+jyl(集合)。法と天測暦を管掌する最高合議組織。"
+    },
+    {
+      "id": 30110,
+      "nrs": "novtur",
+      "pos": "名",
+      "meaningJa": "星辰執政官、評議長、主席星見官",
+      "meaningEn": "Archon, Chief Magistrate, presiding councilor",
+      "ipa": "[nov.tur]",
+      "category": "追加語彙（社会制度）",
+      "notes": "nov(頭脳中枢)+tur(掟)。評議会を代表し調停を下す最高責任者。"
+    },
+    {
+      "id": 30111,
+      "nrs": "senpamel",
+      "pos": "名",
+      "meaningJa": "誓約書、盟約典籍、公的合意文書",
+      "meaningEn": "covenant scroll, charter of alliance, formal pact",
+      "ipa": "[sen.pa.mel]",
+      "category": "追加語彙（社会制度）",
+      "notes": "sen(誓約)+pamel(書物)。星々の名において交わされた不破の約定書。"
+    },
+    {
+      "id": 30112,
+      "nrs": "domciv",
+      "pos": "名",
+      "meaningJa": "市民権、共同体資格、参政権座",
+      "meaningEn": "citizenship, community franchise",
+      "ipa": "[dom.civ]",
+      "category": "追加語彙（社会制度）",
+      "notes": "dom(街)+civ(心想)。星辰共同体の一員としての誇りと権利。"
+    },
+    {
+      "id": 30113,
+      "nrs": "turdan",
+      "pos": "名",
+      "meaningJa": "星辰法廷、審問座、審理評議堂",
+      "meaningEn": "tribunal court, hall of justice",
+      "ipa": "[tur.dan]",
+      "category": "追加語彙（社会制度）",
+      "notes": "tur(掟)+dan(基台)。掟に基づいて公平な審理を行う場。"
+    },
+    {
+      "id": 30114,
+      "nrs": "zontal",
+      "pos": "名",
+      "meaningJa": "境界標、区画碑、管轄限界標",
+      "meaningEn": "boundary stone, demarcation post",
+      "ipa": "[zon.tal]",
+      "category": "追加語彙（社会制度）",
+      "notes": "zon(境界)+tal(大地)。耕作地や共同体域の境界を示す石碑。"
+    },
+    {
+      "id": 30115,
+      "nrs": "dolsen",
+      "pos": "名",
+      "meaningJa": "職人工匠同盟、技術者ギルド、技芸集団",
+      "meaningEn": "artisan guild, craft fraternity",
+      "ipa": "[dol.sen]",
+      "category": "追加語彙（社会制度）",
+      "notes": "dol(労働鍛造)+sen(誓約)。星石工や鋳造職人が結ぶ技の同盟。"
+    },
+    {
+      "id": 30116,
+      "nrs": "marten",
+      "pos": "名",
+      "meaningJa": "交易路、隊商隊、通商路行",
+      "meaningEn": "trade route, merchant caravan",
+      "ipa": "[mar.ten]",
+      "category": "追加語彙（社会制度）",
+      "notes": "mar(交易)+ten(旅路)。集落間を往来して鉱物や織物を届ける隊商。"
+    },
+    {
+      "id": 30117,
+      "nrs": "cynjyl",
+      "pos": "名",
+      "meaningJa": "天体星間同盟、平和同盟、親愛連邦",
+      "meaningEn": "concord federation, peace alliance",
+      "ipa": "[cyn.jyl]",
+      "category": "追加語彙（社会制度）",
+      "notes": "cyn(親愛)+jyl(結合)。互いの主権と天測独立を守る不可侵同盟。"
+    },
+    {
+      "id": 30118,
+      "nrs": "renpamel",
+      "pos": "名",
+      "meaningJa": "通行証、交易許可書、旅券",
+      "meaningEn": "transit pass, merchant permit",
+      "ipa": "[ren.pa.mel]",
+      "category": "追加語彙（社会制度）",
+      "notes": "ren(交易往来)+pamel(書物)。関門(zonpar)を通過するための公的許可書。"
+    },
+    {
+      "id": 30119,
+      "nrs": "turval",
+      "pos": "名",
+      "meaningJa": "布告書、公報条文、告知令",
+      "meaningEn": "public edict, decree proclamation",
+      "ipa": "[tur.val]",
+      "category": "追加語彙（社会制度）",
+      "notes": "tur(法)+val(放出)。評議場から全市民へ告知される最新の掟。"
+    },
+    {
+      "id": 30121,
+      "nrs": "korzanv",
+      "pos": "名",
+      "meaningJa": "晶洞、結晶洞窟、星石晶床",
+      "meaningEn": "crystal geode cave, mineral grotto",
+      "ipa": "[kor.zanv]",
+      "category": "追加語彙（自然地質）",
+      "notes": "kor(結晶)+zanv(深淵洞窟)。地底深くで星石結晶が自生する聖所。"
+    },
+    {
+      "id": 30124,
+      "nrs": "talvor",
+      "pos": "名",
+      "meaningJa": "星辰鉱脈、星石鉱床、地中金属帯",
+      "meaningEn": "mineral vein, ore deposit lode",
+      "ipa": "[tal.vor]",
+      "category": "追加語彙（自然鉱物）",
+      "notes": "tal(大地)+vor(火・熱源結晶)。青銅や希少星石を産出する地層。"
+    },
+    {
+      "id": 30125,
+      "nrs": "korsil",
+      "pos": "名",
+      "meaningJa": "純星石、高純度無欠陥結晶、聖石",
+      "meaningEn": "flawless pure star-stone, virgin crystal",
+      "ipa": "[kor.sil]",
+      "category": "追加語彙（自然鉱物）",
+      "notes": "kor(結晶)+sil(完全調和)。不純物がなく光を100%屈折する至宝。"
+    },
+    {
+      "id": 30127,
+      "nrs": "wylmon",
+      "pos": "名",
+      "meaningJa": "大旋風、天風嵐、突風暴風",
+      "meaningEn": "whirlwind, vortex storm, gale",
+      "ipa": "[wyl.mon]",
+      "category": "追加語彙（自然気象）",
+      "notes": "wyl(風)+mon(巨大集積)。天球気流が急変して生じる大嵐。"
+    },
+    {
+      "id": 30128,
+      "nrs": "talrad",
+      "pos": "名",
+      "meaningJa": "星見高地、高原台地、天測平原",
+      "meaningEn": "high plateau, observatory highland",
+      "ipa": "[tal.rad]",
+      "category": "追加語彙（自然地理）",
+      "notes": "tal(大地)+rad(視界開けた)。雲海の上に突き出た観測に適した高台。"
+    },
+    {
+      "id": 30129,
+      "nrs": "selvel",
+      "pos": "名",
+      "meaningJa": "神聖樹林、巨樹群落、原生母樹",
+      "meaningEn": "sacred grove, primordial mother-tree cluster",
+      "ipa": "[sel.vel]",
+      "category": "追加語彙（自然植物）",
+      "notes": "sel(原生林)+vel(樹木)。千年の星霜を数える大樹の森。"
+    },
+    {
+      "id": 30131,
+      "nrs": "pyrom",
+      "pos": "名",
+      "meaningJa": "石造調理炉、熱源炉",
+      "meaningEn": "hearth fire-chamber, stove furnace",
+      "ipa": "[py.rom]",
+      "category": "追加語彙（生活住居）",
+      "notes": "pyr(火)+om(空間)。家庭や集会所を暖め煮炊きを行う中心座。"
+    },
+    {
+      "id": 30132,
+      "nrs": "darvel",
+      "pos": "名",
+      "meaningJa": "星草茶、発酵薬草茶、香煎茶",
+      "meaningEn": "astral herbal tea, fermented leaf infusion",
+      "ipa": "[dar.vel]",
+      "category": "追加語彙（生活飲食）",
+      "notes": "dar(湯水)+vel(薬草)。思索や観測の合間に心身を温める伝統茶。"
+    },
+    {
+      "id": 30133,
+      "nrs": "valjyl",
+      "pos": "名",
+      "meaningJa": "星辰織布、天青織物、手織錦",
+      "meaningEn": "woven star-cloth, handloom textile",
+      "ipa": "[val.jyl]",
+      "category": "追加語彙（生活衣飾）",
+      "notes": "val(衣服)+jyl(編み合わせ)。天体図様が織り込まれた高貴な布。"
+    },
+    {
+      "id": 30134,
+      "nrs": "tykmar",
+      "pos": "名",
+      "meaningJa": "天測時計、星辰計時盤、砂時計",
+      "meaningEn": "astronomical chronometer, astral clock",
+      "ipa": "[tyk.mar]",
+      "category": "追加語彙（生活道具）",
+      "notes": "tyk(拍刻)+mar(計測)。水滴や星石の脈動で天測時を刻む時計。"
+    },
+    {
+      "id": 30135,
+      "nrs": "biotas",
+      "pos": "名",
+      "meaningJa": "食盆、食器、饗宴具",
+      "meaningEn": "dining bowl, serving dish, banquet vessel",
+      "ipa": "[bio.tas]",
+      "category": "追加語彙（生活飲食）",
+      "notes": "bio(飲食)+tas(器具)。木や星石から削り出した日常の食盆。"
+    },
+    {
+      "id": 30136,
+      "nrs": "darbion",
+      "pos": "名",
+      "meaningJa": "薬湯、滋養煎汁、温熱薬水",
+      "meaningEn": "medicinal broth, restorative tonic soup",
+      "ipa": "[dar.bion]",
+      "category": "追加語彙（生活医療）",
+      "notes": "dar(水)+bion(滋養摂取)。旅路の疲れを癒やす薬効ある温汁。"
+    },
+    {
+      "id": 30137,
+      "nrs": "pamelom",
+      "pos": "名",
+      "meaningJa": "星辰図書館、書庫、典籍収蔵殿",
+      "meaningEn": "grand astral library, book archive",
+      "ipa": "[pa.me.lom]",
+      "category": "追加語彙（生活建築）",
+      "notes": "pamel(書物)+om(大施設)。古文書や観測記録が網羅された知の殿堂。"
+    },
+    {
+      "id": 30138,
+      "nrs": "tasildor",
+      "pos": "名",
+      "meaningJa": "工芸工房、鍛造作業場、細工所",
+      "meaningEn": "artisan workshop, forge atelier",
+      "ipa": "[ta.sil.dor]",
+      "category": "追加語彙（生活工芸）",
+      "notes": "tasilel(道具)+dor(制作作業)。職人たちが工具を振るう作業場。"
+    },
+    {
+      "id": 30139,
+      "nrs": "domtur",
+      "pos": "名",
+      "meaningJa": "集会所、公会堂、市民広間",
+      "meaningEn": "civic assembly hall, town congregation hall",
+      "ipa": "[dom.tur]",
+      "category": "追加語彙（生活建築）",
+      "notes": "dom(街)+tur(集い掟)。街の住民が集い語り合う大広間。"
+    },
+    {
+      "id": 30140,
+      "nrs": "valmor",
+      "pos": "名",
+      "meaningJa": "防寒厚外套、毛皮服、極夜外套",
+      "meaningEn": "heavy winter cloak, fur thermal coat",
+      "ipa": "[val.mor]",
+      "category": "追加語彙（生活衣飾）",
+      "notes": "val(服)+mor(厚い防護)。極夜の酷寒から身を護る分厚い上着。"
+    },
+    {
+      "id": 30141,
+      "nrs": "novmin",
+      "pos": "名",
+      "meaningJa": "夜天畏敬、深遠崇敬",
+      "meaningEn": "numinous awe, reverent veneration",
+      "ipa": "[nov.min]",
+      "category": "追加語彙（精神哲学）",
+      "notes": "nov(知性)+min(精神高み)。全天の深遠を前に抱く厳かな感動。"
+    },
+    {
+      "id": 30142,
+      "nrs": "revlyr",
+      "pos": "名",
+      "meaningJa": "星辰郷愁、原点回帰の思念、故郷への想い",
+      "meaningEn": "homesickness, yearning for origin, nostalgia",
+      "ipa": "[rev.lyr]",
+      "category": "追加語彙（精神感情）",
+      "notes": "rev(回帰)+lyr(哀愁切なさ)。遠方で夜空を見上げ故郷を想う心。"
+    },
+    {
+      "id": 30143,
+      "nrs": "cylanin",
+      "pos": "名",
+      "meaningJa": "調和和音、天球の音楽、美曲",
+      "meaningEn": "harmonic celestial chord, music of spheres",
+      "ipa": "[cy.la.nin]",
+      "category": "追加語彙（芸術音楽）",
+      "notes": "cyl(美)+anin(旋律響き)。天体周期が奏でる調和の調べ。"
+    },
+    {
+      "id": 30144,
+      "nrs": "fevkiran",
+      "pos": "名",
+      "meaningJa": "星辰年代記、星辰叙事詩、祖先神話録",
+      "meaningEn": "heroic astral epic, ancestral chronicle",
+      "ipa": "[fev.ki.ran]",
+      "category": "追加語彙（芸術文学）",
+      "notes": "fev(古の歴史)+kiran(記述)。星々の創世と民の歩みを詠う大叙事詩。"
+    },
+    {
+      "id": 30145,
+      "nrs": "civvol",
+      "pos": "名",
+      "meaningJa": "心の共鳴、精神的共感、以心伝心",
+      "meaningEn": "spiritual resonance, empathy, mutual understanding",
+      "ipa": "[civ.vol]",
+      "category": "追加語彙（精神哲学）",
+      "notes": "civ(心)+vol(波動)。言葉を超えて互いの想いが通じ合う境地。"
+    },
+    {
+      "id": 30146,
+      "nrs": "minrad",
+      "pos": "名",
+      "meaningJa": "星辰洞察、直観知力、本質看取",
+      "meaningEn": "intuitive insight, discernment, piercing intellect",
+      "ipa": "[min.rad]",
+      "category": "追加語彙（精神哲学）",
+      "notes": "min(精神)+rad(光芒貫通)。複雑な現象から真理を直観する知力。"
+    },
+    {
+      "id": 30147,
+      "nrs": "sirnov",
+      "pos": "名",
+      "meaningJa": "沈思黙考、深慮、静かなる瞑想",
+      "meaningEn": "deep contemplation, silent meditation",
+      "ipa": "[sir.nov]",
+      "category": "追加語彙（精神哲学）",
+      "notes": "sir(静けさ)+nov(思索)。雑念を払い真理と向き合う静かな時間。"
+    },
+    {
+      "id": 30148,
+      "nrs": "elircon",
+      "pos": "名",
+      "meaningJa": "星光祝祭、歓喜の祭典、豊穣祭",
+      "meaningEn": "starlight festival, celebration jubilee",
+      "ipa": "[e.lir.con]",
+      "category": "追加語彙（芸術社会）",
+      "notes": "elir(喜び)+con(大集合)。主星の昇る春分に民が歌い踊る祭典。"
+    },
+    {
+      "id": 30149,
+      "nrs": "cynval",
+      "pos": "名",
+      "meaningJa": "温もり、慈愛の抱擁、いたわり",
+      "meaningEn": "loving warmth, tender embrace, kindness",
+      "ipa": "[cyn.val]",
+      "category": "追加語彙（精神感情）",
+      "notes": "cyn(愛)+val(放出授与)。他者の孤独を包み込む柔らかな慈愛。"
+    },
+    {
+      "id": 30150,
+      "nrs": "sefsir",
+      "pos": "名",
+      "meaningJa": "祈念、静かな誓い、胸中の誓願",
+      "meaningEn": "silent prayer, heartfelt wish",
+      "ipa": "[sef.sir]",
+      "category": "追加語彙（精神哲学）",
+      "notes": "sef(希望)+sir(静寂)。声に出さず天の星に捧げる真摯な祈り。"
+    },
+    {
+      "id": 30151,
+      "nrs": "farven",
+      "pos": "動",
+      "meaningJa": "完成する、全うする、成就する",
+      "meaningEn": "accomplish, reach completion, achieve",
+      "ipa": "[far.ven]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "far(完了極致)+ven(移行)。事業や旅路が目的を全うすること。"
+    },
+    {
+      "id": 30152,
+      "nrs": "livtas",
+      "pos": "動",
+      "meaningJa": "保ち続ける、維持する、守り通す",
+      "meaningEn": "maintain, preserve steadily, keep continuously",
+      "ipa": "[liv.tas]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "liv(存続保持)+tas(確固たる)。秩序や灯火を絶やさず維持する。"
+    },
+    {
+      "id": 30154,
+      "nrs": "velfal",
+      "pos": "動",
+      "meaningJa": "芽吹く、星辰生い茂る、緑づく",
+      "meaningEn": "sprout greenly, bud, flourish verdantly",
+      "ipa": "[vel.fal]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "vel(植物)+fal(光)。春の光を受けて草木が一斉に緑を増す。"
+    },
+    {
+      "id": 30155,
+      "nrs": "korfal",
+      "pos": "動",
+      "meaningJa": "星辰結晶化する、透き通る、澄み渡る",
+      "meaningEn": "crystallize, clarify, become transparently clear",
+      "ipa": "[kor.fal]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "kor(結晶)+fal(光)。濁りが消え星石のように清澄になる。"
+    },
+    {
+      "id": 30156,
+      "nrs": "talpor",
+      "pos": "動",
+      "meaningJa": "踏破する、巡検する、大地を踏み歩く",
+      "meaningEn": "traverse terrain, explore on foot, patrol land",
+      "ipa": "[tal.por]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "tal(大地)+por(歩む)。未踏の荒野を自らの脚で歩き通す。"
+    },
+    {
+      "id": 30157,
+      "nrs": "sirvan",
+      "pos": "動",
+      "meaningJa": "星辰凪ぐ、静まる、静粛になる",
+      "meaningEn": "grow calm, quiet down, settle into silence",
+      "ipa": "[sir.van]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "sir(静寂)+van(大気)。風が収まり海や空が鏡のように静まる。"
+    },
+    {
+      "id": 30158,
+      "nrs": "jylfen",
+      "pos": "動",
+      "meaningJa": "和解する、仲直りする、合意に至る",
+      "meaningEn": "reconcile, make peace, reach consensus",
+      "ipa": "[jyl.fen]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "jyl(結合)+fen(対話)。対立を対話によって結び直すこと。"
+    },
+    {
+      "id": 30159,
+      "nrs": "revcal",
+      "pos": "動",
+      "meaningJa": "回想する、語り継ぐ、追想する",
+      "meaningEn": "reminisce, recount memories, transmit lore",
+      "ipa": "[rev.cal]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "rev(回帰)+cal(語らう)。古き日々の記憶を炉端で語り継ぐ。"
+    },
+    {
+      "id": 30160,
+      "nrs": "zoldar",
+      "pos": "動",
+      "meaningJa": "導く、先導する、道案内する",
+      "meaningEn": "lead, guide along path, beacon ahead",
+      "ipa": "[zol.dar]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "zol(光標)+dar(力)。暗夜に星灯りを掲げて進路を示す。"
+    },
+    {
+      "id": 30161,
+      "nrs": "radis",
+      "pos": "形",
+      "meaningJa": "遥かな、遠方の、星辰悠久の",
+      "meaningEn": "distant, remote, far-reaching, far-off",
+      "ipa": "[ra.dis]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "rad(半径道のり)+is(属性)。空間的・時間的に遠く隔たった。"
+    },
+    {
+      "id": 30162,
+      "nrs": "tulvis",
+      "pos": "形",
+      "meaningJa": "深遠な、奥深い、根源的な",
+      "meaningEn": "profound, deep, unfathomable, primordial",
+      "ipa": "[tul.vis]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "tul(天底深淵)+vis(属性)。容易には底知れぬ深さを持つ。"
+    },
+    {
+      "id": 30163,
+      "nrs": "silvan",
+      "pos": "形",
+      "meaningJa": "純粋な、星辰無垢な、曇りなき",
+      "meaningEn": "pure, unblemished, crystal-clear",
+      "ipa": "[sil.van]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "sil(調和)+van(天空)。混じり気のない星空のように澄んだ。"
+    },
+    {
+      "id": 30165,
+      "nrs": "solvis",
+      "pos": "形",
+      "meaningJa": "豊かな、満ち足りた、潤沢な",
+      "meaningEn": "abundant, rich, plentiful, replete",
+      "ipa": "[sol.vis]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "sol(充満)+vis(属性)。恵みや知恵が十全に満ちている。"
+    },
+    {
+      "id": 30166,
+      "nrs": "cynis",
+      "pos": "形",
+      "meaningJa": "星辰温かい、心優しい、温厚な",
+      "meaningEn": "warm-hearted, gentle, affectionate",
+      "ipa": "[cy.nis]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "cyn(親愛)+is(属性)。人を穏やかに包み込む人柄。"
+    },
+    {
+      "id": 30167,
+      "nrs": "falvis",
+      "pos": "形",
+      "meaningJa": "聡明な、慧眼の、明晰な",
+      "meaningEn": "luminescently brilliant, lucid, sagacious",
+      "ipa": "[fal.vis]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "fal(光)+vis(属性)。星光のように事理を明瞭に見抜く知性。"
+    },
+    {
+      "id": 30168,
+      "nrs": "krotvis",
+      "pos": "形",
+      "meaningJa": "激烈な、猛烈な、圧倒的な",
+      "meaningEn": "vehement, intense, turbulent",
+      "ipa": "[krot.vis]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "krot(激動)+vis(属性)。暴風や星震のように凄まじい勢い。"
+    },
+    {
+      "id": 30169,
+      "nrs": "tasir",
+      "pos": "副",
+      "meaningJa": "星辰直ちに、間髪容れず、即刻",
+      "meaningEn": "instantly, promptly, without delay",
+      "ipa": "[ta.sir]",
+      "category": "追加語彙（時間副詞）",
+      "notes": "tas(迅速)+ir(副詞)。閃光の如く直ちに行動するさま。"
+    },
+    {
+      "id": 30171,
+      "nrs": "kymvel",
+      "pos": "名",
+      "meaningJa": "極夜期、恒暗季節、主星潜伏季",
+      "meaningEn": "polar night season, prolonged twilight epoch",
+      "ipa": "[kym.vel]",
+      "category": "追加語彙（天象季節）",
+      "notes": "kym(夜)+vel(期間)。主星が地平下に隠れる厳冬の内省期。"
+    },
+    {
+      "id": 30172,
+      "nrs": "zohhav",
+      "pos": "名",
+      "meaningJa": "極昼期、白夜季、白光季節",
+      "meaningEn": "midnight sun season, perpetual daylight epoch",
+      "ipa": "[zoh.hav]",
+      "category": "追加語彙（天象季節）",
+      "notes": "zohar(太陽)+hav(周期)。太陽が沈まず祝祭と農耕に沸く季節。"
+    },
+    {
+      "id": 30173,
+      "nrs": "darwyl",
+      "pos": "名",
+      "meaningJa": "雨風、嵐雨、風雨",
+      "meaningEn": "rainstorm, driving rain",
+      "ipa": "[dar.wyl]",
+      "category": "追加語彙（自然気象）",
+      "notes": "dar(雨)+wyl(風)。激しい大気移動を伴う雨。"
+    },
+    {
+      "id": 30174,
+      "nrs": "kyrfal",
+      "pos": "名",
+      "meaningJa": "ダイヤモンドダスト、細氷光、氷晶光映",
+      "meaningEn": "diamond dust, sun pillar on ice crystals",
+      "ipa": "[kyr.fal]",
+      "category": "追加語彙（自然気象）",
+      "notes": "kyr(氷雪)+fal(光)。大気中の微氷晶が太陽光を乱反射する絶景。"
+    },
+    {
+      "id": 30175,
+      "nrs": "selmar",
+      "pos": "名",
+      "meaningJa": "森林限界、樹林境界線、高嶺境",
+      "meaningEn": "timberline, forest boundary",
+      "ipa": "[sel.mar]",
+      "category": "追加語彙（自然地理）",
+      "notes": "sel(森)+mar(境界)。これより高地には木々が生えぬ天測の境界。"
+    },
+    {
+      "id": 30176,
+      "nrs": "darzanik",
+      "pos": "名",
+      "meaningJa": "水車、流水機構、揚水機",
+      "meaningEn": "waterwheel, hydraulic mill",
+      "ipa": "[dar.za.nik]",
+      "category": "追加語彙（生活道具）",
+      "notes": "dar(水)+zan(湧出)+ik(器具)。川の流れを利用して星石を研磨する装置。"
+    },
+    {
+      "id": 30177,
+      "nrs": "talzanv",
+      "pos": "名",
+      "meaningJa": "大裂溝峡谷、大地断層谷",
+      "meaningEn": "canyon, deep ravine, gorge",
+      "ipa": "[tal.zanv]",
+      "category": "追加語彙（自然地形）",
+      "notes": "tal(大地)+zanv(深淵)。滔々たる大河が悠久の時をかけて刻んだ谷。"
+    },
+    {
+      "id": 30178,
+      "nrs": "wylkor",
+      "pos": "名",
+      "meaningJa": "凍てつく風、氷風、寒気突風",
+      "meaningEn": "glacial wind, blizzard blast",
+      "ipa": "[wyl.kor]",
+      "category": "追加語彙（自然気象）",
+      "notes": "wyl(風)+kor(氷結)。肌を刺す高地からの冷たい風。"
+    },
+    {
+      "id": 30179,
+      "nrs": "falradin",
+      "pos": "名",
+      "meaningJa": "日輪光環、暈、天体光背",
+      "meaningEn": "solar halo, celestial ring of light",
+      "ipa": "[fal.ra.din]",
+      "category": "追加語彙（天象季節）",
+      "notes": "fal(光)+radin(半径環)。主星の周囲に現れる美しい光の輪。"
+    },
+    {
+      "id": 30180,
+      "nrs": "kymdar",
+      "pos": "名",
+      "meaningJa": "星辰夜露、夜気凝結水、夜雫",
+      "meaningEn": "night dew, condensed nocturnal moisture",
+      "ipa": "[kym.dar]",
+      "category": "追加語彙（自然気象）",
+      "notes": "kym(夜)+dar(水)。星々の下で静かに草木を濡らす露。"
+    },
+    {
+      "id": 30181,
+      "nrs": "domzon",
+      "pos": "名",
+      "meaningJa": "星辰城壁、星辰防壁、集落外郭",
+      "meaningEn": "rampart, city wall, outer perimeter",
+      "ipa": "[dom.zon]",
+      "category": "追加語彙（生活建築）",
+      "notes": "dom(街)+zon(境界)。外敵や夜獣から居住地を守る頑丈な石壁。"
+    },
+    {
+      "id": 30182,
+      "nrs": "pyrtas",
+      "pos": "名",
+      "meaningJa": "火打ち石、発火具、点火器",
+      "meaningEn": "flint stone, fire-striker",
+      "ipa": "[pyr.tas]",
+      "category": "追加語彙（生活道具）",
+      "notes": "pyr(火)+tas(石道具)。火花を散らして篝火を灯す携帯具。"
+    },
+    {
+      "id": 30184,
+      "nrs": "darpor",
+      "pos": "名",
+      "meaningJa": "渡渉点、星辰浅瀬、川渡り場",
+      "meaningEn": "ford, shallow river crossing",
+      "ipa": "[dar.por]",
+      "category": "追加語彙（自然地理）",
+      "notes": "dar(川)+por(歩く)。歩いて安全に向こう岸へ渡れる浅瀬。"
+    },
+    {
+      "id": 30185,
+      "nrs": "seltas",
+      "pos": "名",
+      "meaningJa": "木製器、木杓、曲物器",
+      "meaningEn": "wooden vessel, carved wooden ladle",
+      "ipa": "[sel.tas]",
+      "category": "追加語彙（生活道具）",
+      "notes": "sel(樹木)+tas(容器)。堅木を丁寧に削り出して作った日常の器。"
+    },
+    {
+      "id": 30186,
+      "nrs": "zonler",
+      "pos": "名",
+      "meaningJa": "星辰閂、かんぬき、扉の錠木",
+      "meaningEn": "door bolt, wooden bar latch",
+      "ipa": "[zon.ler]",
+      "category": "追加語彙（生活建築）",
+      "notes": "zon(門)+ler(扉)。夜間に大門を内側から固く閉ざす頑丈な横木。"
+    },
+    {
+      "id": 30187,
+      "nrs": "taltas",
+      "pos": "名",
+      "meaningJa": "古天青磁器、星土焼成器",
+      "meaningEn": "clay pottery, earthenware vessel",
+      "ipa": "[tal.tas]",
+      "category": "追加語彙（生活工芸）",
+      "notes": "tal(土壌)+tas(器)。大地の粘土を温熱炉で焼き締めた器。"
+    },
+    {
+      "id": 30188,
+      "nrs": "valden",
+      "pos": "名",
+      "meaningJa": "寝具、敷布、夜着",
+      "meaningEn": "bedding linens, sleeping quilt",
+      "ipa": "[val.den]",
+      "category": "追加語彙（生活住居）",
+      "notes": "val(布)+den(休息場)。極夜の寒さを防ぎ安らかな眠りを守る寝具。"
+    },
+    {
+      "id": 30189,
+      "nrs": "pyrfin",
+      "pos": "名",
+      "meaningJa": "灰、燃え殻、炉床灰",
+      "meaningEn": "hearth ashes, embers residue",
+      "ipa": "[pyr.fin]",
+      "category": "追加語彙（生活住居）",
+      "notes": "pyr(火)+fin(底面)。炉の底に白く積もった温もり残る灰。"
+    },
+    {
+      "id": 30190,
+      "nrs": "martenik",
+      "pos": "名",
+      "meaningJa": "星辰天秤、分銅秤、重量測定具",
+      "meaningEn": "balance scale, merchant weights",
+      "ipa": "[mar.te.nik]",
+      "category": "追加語彙（生活道具）",
+      "notes": "mar(交易)+ten(均衡)+ik(器具)。星石や薬草の重さを正しく量る天秤。"
+    },
+    {
+      "id": 30192,
+      "nrs": "harlan",
+      "pos": "名",
+      "meaningJa": "聴覚、音の感度、耳澄まし",
+      "meaningEn": "auditory sense, acoustic acuity",
+      "ipa": "[har.lan]",
+      "category": "追加語彙（身体感覚）",
+      "notes": "har(聴く)+lan(知覚)。夜の静寂の中で風や遠い星鳴りを聴き取る力。"
+    },
+    {
+      "id": 30193,
+      "nrs": "porven",
+      "pos": "動",
+      "meaningJa": "渡り歩く、巡歴する、行脚する",
+      "meaningEn": "itinerate, journey across regions, peregrinate",
+      "ipa": "[por.ven]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "por(歩む)+ven(移行)。星見の巡礼として各地の観測台を巡る。"
+    },
+    {
+      "id": 30195,
+      "nrs": "silfen",
+      "pos": "動",
+      "meaningJa": "和やかに語る、談笑する、穏やかに話す",
+      "meaningEn": "converse peacefully, chat genially",
+      "ipa": "[sil.fen]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "sil(調和)+fen(話す)。争いなく互いを思いやりながら語り合う。"
+    },
+    {
+      "id": 30196,
+      "nrs": "kiranliv",
+      "pos": "動",
+      "meaningJa": "書き留め続ける、記録を保つ、書き継ぐ",
+      "meaningEn": "record continuously, keep writing archives",
+      "ipa": "[ki.ran.liv]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "kiran(記述)+liv(継続)。世代を超えて歴史を記録し続ける。"
+    },
+    {
+      "id": 30197,
+      "nrs": "novfar",
+      "pos": "動",
+      "meaningJa": "悟り開く、理解し尽くす、了知する",
+      "meaningEn": "attain enlightenment, understand fully, comprehend",
+      "ipa": "[nov.far]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "nov(知性)+far(完了)。思索の果てに宇宙の真理を完全に悟る。"
+    },
+    {
+      "id": 30198,
+      "nrs": "falpor",
+      "pos": "動",
+      "meaningJa": "夜明けに出立する、朝発つ、光と共に歩む",
+      "meaningEn": "set out at dawn, walk in starlight",
+      "ipa": "[fal.por]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "fal(光)+por(歩く)。東の空が白むと同時に旅路へ踏み出す。"
+    },
+    {
+      "id": 30199,
+      "nrs": "cynjylas",
+      "pos": "動",
+      "meaningJa": "絆を結ぶ、深く契る、固く誓い合う",
+      "meaningEn": "forge an unbreakable bond, pledge deep alliance",
+      "ipa": "[cyn.jy.las]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "cyn(親愛)+jylas(結ぶ)。二つの魂が星の光の下で永遠の友誼を結ぶ。"
+    },
+    {
+      "id": 30200,
+      "nrs": "kymmor",
+      "pos": "動",
+      "meaningJa": "夜に籠もる、夜を耐え過ごす、夜臥する",
+      "meaningEn": "rest through dark night, shelter in twilight",
+      "ipa": "[kym.mor]",
+      "category": "追加語彙（汎用動詞）",
+      "notes": "kym(夜)+mor(静止)。極夜の間、温熱炉の傍らで静かに過ごす。"
+    },
+    {
+      "id": 30201,
+      "nrs": "silciv",
+      "pos": "名",
+      "meaningJa": "清らかな心、星辰誠実、星辰純心、素直さ",
+      "meaningEn": "sincerity, pure mind, uncorrupted heart",
+      "ipa": "[sil.civ]",
+      "category": "追加語彙（精神徳目）",
+      "notes": "sil(完全調和)+civ(心)。偽りや諂いのない澄み渡った心情。"
+    },
+    {
+      "id": 30202,
+      "nrs": "durciv",
+      "pos": "名",
+      "meaningJa": "星辰不屈の志、堅固な精神、剛毅",
+      "meaningEn": "steadfast fortitude, iron resolve",
+      "ipa": "[dur.civ]",
+      "category": "追加語彙（精神徳目）",
+      "notes": "dur(要塞不屈)+civ(心)。どのような逆境にも揺るがぬ強き意志。"
+    },
+    {
+      "id": 30203,
+      "nrs": "novval",
+      "pos": "名",
+      "meaningJa": "知恵の分かち合い、賢明なる教示、啓蒙",
+      "meaningEn": "imparting of wisdom, illumination, enlightenment",
+      "ipa": "[nov.val]",
+      "category": "追加語彙（精神徳目）",
+      "notes": "nov(知性)+val(授与)。先達が得た天測の知を次世代へ惜しみなく授けること。"
+    },
+    {
+      "id": 30204,
+      "nrs": "cynsen",
+      "pos": "名",
+      "meaningJa": "信愛、星辰信義、誠実な友愛誓約",
+      "meaningEn": "faithful devotion, loyal friendship covenant",
+      "ipa": "[cyn.sen]",
+      "category": "追加語彙（精神徳目）",
+      "notes": "cyn(愛)+sen(誓約)。友を裏切らぬ固い信義の心。"
+    },
+    {
+      "id": 30205,
+      "nrs": "sefliv",
+      "pos": "名",
+      "meaningJa": "抱き続ける希望、不断の望み、不滅の灯火",
+      "meaningEn": "enduring hope, unquenchable aspiration",
+      "ipa": "[sef.liv]",
+      "category": "追加語彙（精神徳目）",
+      "notes": "sef(希望)+liv(継続)。たとえ極夜が続こうとも決して絶やさぬ未来への信。"
+    },
+    {
+      "id": 30206,
+      "nrs": "sirvalas",
+      "pos": "名",
+      "meaningJa": "泰平の世、平穏無事の時代、安息の境地",
+      "meaningEn": "era of great tranquility, profound peace",
+      "ipa": "[sir.va.las]",
+      "category": "追加語彙（社会徳目）",
+      "notes": "sirval(平和境)+as(抽象名詞)。争いなく誰もが天を仰いで暮らせる時代。"
+    },
+    {
+      "id": 30207,
+      "nrs": "falminan",
+      "pos": "名",
+      "meaningJa": "光彩頌歌、暁天讃歌",
+      "meaningEn": "hymn of joy, canticle of celebration",
+      "ipa": "[fal.mi.nan]",
+      "category": "追加語彙（芸術音楽）",
+      "notes": "falmin(歓喜)+an(響き)。喜びの瞬間に人々が声を合わせて歌う調べ。"
+    },
+    {
+      "id": 30208,
+      "nrs": "lyrcal",
+      "pos": "名",
+      "meaningJa": "哀歌、追悼の詩、挽歌",
+      "meaningEn": "elegy, dirge of remembrance",
+      "ipa": "[lyr.cal]",
+      "category": "追加語彙（芸術詩歌）",
+      "notes": "lyr(切なさ)+cal(語らう)。遠く旅立った友を偲んで夜空へ捧げる詩。"
+    },
+    {
+      "id": 30209,
+      "nrs": "celdan",
+      "pos": "名",
+      "meaningJa": "祭壇、星見台座、天礼座",
+      "meaningEn": "altar of heaven, celestial dais",
+      "ipa": "[cel.dan]",
+      "category": "追加語彙（生活建築）",
+      "notes": "cel(天蓋)+dan(高座)。観測の前に天球へ敬意を捧げる神聖な石座。"
+    },
+    {
+      "id": 30210,
+      "nrs": "vorpamel",
+      "pos": "名",
+      "meaningJa": "秘術書、炎の典籍、鍛冶伝書",
+      "meaningEn": "tome of forgecraft, arcane metallurgical scroll",
+      "ipa": "[vor.pa.mel]",
+      "category": "追加語彙（生活工芸）",
+      "notes": "vor(火)+pamel(書物)。星石を精錬し青銅を鍛える秘伝を記した書。"
+    },
+    {
+      "id": 30211,
+      "nrs": "sirvalen",
+      "pos": "形",
+      "meaningJa": "静穏なる、波立たぬ",
+      "meaningEn": "serene, tranquil, undisturbed",
+      "ipa": "[sir.va.len]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "sirval(静和)+en(属性)。湖面のように平穏で穏やかな様子。"
+    },
+    {
+      "id": 30213,
+      "nrs": "solren",
+      "pos": "形",
+      "meaningJa": "満ち溢れる、豊穣な、尽きることなき",
+      "meaningEn": "overflowing, profuse, inexhaustible",
+      "ipa": "[sol.ren]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "sol(充満)+ren(流動)。大河の恵みが絶え間なく溢れるさま。"
+    },
+    {
+      "id": 30215,
+      "nrs": "falsin",
+      "pos": "形",
+      "meaningJa": "燦然たる、星辰輝かしい、光輝溢れる",
+      "meaningEn": "resplendent, radiant, luminous",
+      "ipa": "[fal.sin]",
+      "category": "追加語彙（汎用形容詞）",
+      "notes": "fal(光)+sin(属性)。主恒星が天頂で放つ圧倒的な輝き。"
+    },
+    {
+      "id": 30216,
+      "nrs": "minkor",
+      "pos": "副",
+      "meaningJa": "ひたむきに、一心に、専心して",
+      "meaningEn": "single-mindedly, intently, devotedly",
+      "ipa": "[min.kor]",
+      "category": "追加語彙（様態副詞）",
+      "notes": "min(心)+kor(凝縮)。脇目も振らず一つの真理を探求するさま。"
+    },
+    {
+      "id": 30217,
+      "nrs": "cynkor",
+      "pos": "副",
+      "meaningJa": "心を込めて、親身に、真情を尽くして",
+      "meaningEn": "wholeheartedly, tenderly, with deep warmth",
+      "ipa": "[cyn.kor]",
+      "category": "追加語彙（様態副詞）",
+      "notes": "cyn(愛)+kor(凝縮)。他者を心から思いやり行動するさま。"
+    },
+    {
+      "id": 30218,
+      "nrs": "tasval",
+      "pos": "副",
+      "meaningJa": "疾風の如く、一気に、瞬く間に",
+      "meaningEn": "swift as wind, in a flash, headlong",
+      "ipa": "[tas.val]",
+      "category": "追加語彙（様態副詞）",
+      "notes": "tas(速い)+val(放つ)。流星が夜空を駆け抜けるように素早く。"
+    },
+    {
+      "id": 30219,
+      "nrs": "radval",
+      "pos": "副",
+      "meaningJa": "遥か彼方まで、果てしなく、どこまでも",
+      "meaningEn": "to the far horizon, boundlessly, endlessly",
+      "ipa": "[rad.val]",
+      "category": "追加語彙（空間副詞）",
+      "notes": "rad(距離)+val(広がり)。視線の届く限りの彼方まで広がるさま。"
+    },
+    {
+      "id": 30220,
+      "nrs": "havval",
+      "pos": "副",
+      "meaningJa": "代々、連綿と、幾世代にもわたり",
+      "meaningEn": "from generation to generation, immemorially",
+      "ipa": "[hav.val]",
+      "category": "追加語彙（時間副詞）",
+      "notes": "hav(周期)+val(継承)。親から子へ、星辰の掟が受け継がれるさま。"
+    },
+    {
+      "nrs": "dorzen",
+      "pos": "名",
+      "meaningJa": "年周公転期、年周天体運行、惑星周期",
+      "meaningEn": "orbital period, planetary cycle",
+      "notes": "天体の公転周期",
+      "id": 30221,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dor.zen]"
+    },
+    {
+      "nrs": "falzen",
+      "pos": "名",
+      "meaningJa": "光条角、光線角、受光角度",
+      "meaningEn": "angle of illumination, ray incidence angle",
+      "notes": "光線が地表に入射する幾何学角",
+      "id": 30222,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[fal.zen]"
+    },
+    {
+      "nrs": "kyrzen",
+      "pos": "名",
+      "meaningJa": "星間氷微粒、宇宙氷塵、氷塵粒子",
+      "meaningEn": "interstellar ice grains, cosmic ice particles",
+      "notes": "宇宙空間を漂う氷の微粒子",
+      "id": 30223,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kyr.zen]"
+    },
+    {
+      "nrs": "larzen",
+      "pos": "名",
+      "meaningJa": "軌道交点、昇降交点、黄道交点",
+      "meaningEn": "orbital node, ascending node",
+      "notes": "軌道面と基準面が交わる点",
+      "id": 30224,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[lar.zen]"
+    },
+    {
+      "nrs": "novzen",
+      "pos": "名",
+      "meaningJa": "天頂角、天測高度角、極角",
+      "meaningEn": "zenith angle, celestial altitude",
+      "notes": "天頂から測った天体の角度",
+      "id": 30225,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[nov.zen]"
+    },
+    {
+      "nrs": "radzen",
+      "pos": "名",
+      "meaningJa": "軌道長半径、主軸離角、主径",
+      "meaningEn": "semi-major axis, orbital diameter",
+      "notes": "楕円軌道の主軸寸法",
+      "id": 30226,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[rad.zen]"
+    },
+    {
+      "nrs": "talzen",
+      "pos": "名",
+      "meaningJa": "地衡風、大地気流、地表定常風",
+      "meaningEn": "geostrophic wind, planetary ground wind",
+      "notes": "惑星自転と大気圧勾配による風",
+      "id": 30227,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tal.zen]"
+    },
+    {
+      "nrs": "tulzen",
+      "pos": "名",
+      "meaningJa": "重力井戸、天底引力圏、最深引力面",
+      "meaningEn": "gravity well, gravitational depression",
+      "notes": "天体中心へ引き込む重力場深部",
+      "id": 30228,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tul.zen]"
+    },
+    {
+      "nrs": "wylzen",
+      "pos": "名",
+      "meaningJa": "星気流、恒星微粒子流",
+      "meaningEn": "stellar wind, solar particle stream",
+      "notes": "恒星大気から放出される高エネルギー流",
+      "id": 30230,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[wyl.zen]"
+    },
+    {
+      "nrs": "zanzen",
+      "pos": "名",
+      "meaningJa": "深宇宙重力波、時空微小波動",
+      "meaningEn": "gravitational wave ripple, cosmic spacetime strain",
+      "notes": "連星衝突によって生じる時空の波",
+      "id": 30231,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[zan.zen]"
+    },
+    {
+      "nrs": "zohzen",
+      "pos": "名",
+      "meaningJa": "正午主星南中、日中最高点、天頂通過",
+      "meaningEn": "solar culmination, mid-zenith meridian transit",
+      "notes": "主星が最も高く昇る瞬間",
+      "id": 30232,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[zoh.zen]"
+    },
+    {
+      "nrs": "zonzen",
+      "pos": "名",
+      "meaningJa": "天球境界、星座境界線、星辰区画標",
+      "meaningEn": "celestial demarcation boundary",
+      "notes": "星図上で定められた天球領域の境",
+      "id": 30233,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[zon.zen]"
+    },
+    {
+      "nrs": "celkan",
+      "pos": "名",
+      "meaningJa": "天頂儀、鉛直望遠鏡、天頂鏡座",
+      "meaningEn": "zenith telescope, vertical celestial tube",
+      "notes": "天頂方向を極限精度で観測する固定鏡",
+      "id": 30234,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[cel.kan]"
+    },
+    {
+      "nrs": "dorkan",
+      "pos": "名",
+      "meaningJa": "軌道面、天体公転面、黄道面",
+      "meaningEn": "orbital plane, ecliptic disk",
+      "notes": "天体が運行する幾何学的平面",
+      "id": 30235,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dor.kan]"
+    },
+    {
+      "nrs": "falkan",
+      "pos": "名",
+      "meaningJa": "集光鏡、主鏡、凹面反射星鏡",
+      "meaningEn": "primary condensing mirror, parabolic objective",
+      "notes": "遠き星光を集める大型反射鏡",
+      "id": 30236,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[fal.kan]"
+    },
+    {
+      "nrs": "kirkan",
+      "pos": "名",
+      "meaningJa": "天測原簿、観測野帳、星辰日誌",
+      "meaningEn": "observational logbook, stellar ledger",
+      "notes": "日々の観測値を手書きで克明に記す帳面",
+      "id": 30238,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kir.kan]"
+    },
+    {
+      "nrs": "kymkan",
+      "pos": "名",
+      "meaningJa": "夜半、極夜中央時、暗夜最深刻",
+      "meaningEn": "deep midnight, nadir of dark night",
+      "notes": "夜の最も深き時刻",
+      "id": 30239,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kym.kan]"
+    },
+    {
+      "nrs": "kyrkan",
+      "pos": "名",
+      "meaningJa": "氷雪冠、天体極冠、氷原被覆",
+      "meaningEn": "polar ice cap, glacial planetary dome",
+      "notes": "惑星の南北極を覆う純白の氷冠",
+      "id": 30240,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kyr.kan]"
+    },
+    {
+      "nrs": "larkan2",
+      "pos": "名",
+      "meaningJa": "離心率、軌道歪み度、軌道扁平度",
+      "meaningEn": "orbital eccentricity, ellipse ratio",
+      "notes": "軌道が真円からどれほど離れているか",
+      "id": 30241,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[lar.kan2]"
+    },
+    {
+      "nrs": "radkan",
+      "pos": "名",
+      "meaningJa": "近点距離、最近接半径、近軸長",
+      "meaningEn": "periapsis distance, nearest orbital approach",
+      "notes": "周回天体が中心星に最も近づく距離",
+      "id": 30243,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[rad.kan]"
+    },
+    {
+      "nrs": "sirkan",
+      "pos": "名",
+      "meaningJa": "不活性恒星、静穏矮星、休眠主星",
+      "meaningEn": "quiescent dwarf star, dormant star",
+      "notes": "激しいフレアを起こさぬ穏やかな恒星",
+      "id": 30244,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sir.kan]"
+    },
+    {
+      "nrs": "talkan2",
+      "pos": "名",
+      "meaningJa": "惑星核、天体中心金属核、重質核",
+      "meaningEn": "planetary core, central metallic mass",
+      "notes": "天体の中心に眠る高密度の鉄・星石核",
+      "id": 30245,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tal.kan2]"
+    },
+    {
+      "nrs": "darfin",
+      "pos": "名",
+      "meaningJa": "川床、河底岩盤、流路底",
+      "meaningEn": "riverbed, gravel stream bottom",
+      "notes": "清流の底に敷き詰められた滑らかな丸石",
+      "id": 30246,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dar.fin]"
+    },
+    {
+      "nrs": "selfin",
+      "pos": "名",
+      "meaningJa": "林床、腐葉土層、樹下苔地",
+      "meaningEn": "forest floor, moss carpet beneath boughs",
+      "notes": "巨樹の根元に広がる柔らかな苔と土",
+      "id": 30247,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sel.fin]"
+    },
+    {
+      "nrs": "talcor",
+      "pos": "名",
+      "meaningJa": "地層累重、岩盤堆積層、年代地層",
+      "meaningEn": "geological strata, sedimentary rock layering",
+      "notes": "大地の歴史を物語る水平の縞模様",
+      "id": 30248,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tal.cor]"
+    },
+    {
+      "nrs": "darsel",
+      "pos": "名",
+      "meaningJa": "渓流林、河畔樹林、水辺の並木",
+      "meaningEn": "riparian forest, riverbank grove",
+      "notes": "大河の両岸に沿って連なる瑞々しい樹林",
+      "id": 30249,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dar.sel]"
+    },
+    {
+      "nrs": "wylsel",
+      "pos": "名",
+      "meaningJa": "風鳴りの森、松籟、樹波音",
+      "meaningEn": "wind-singing forest, whispering canopy",
+      "notes": "梢を渡る風が奏でる潮騒のような葉擦れ音",
+      "id": 30251,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[wyl.sel]"
+    },
+    {
+      "nrs": "falvel",
+      "pos": "名",
+      "meaningJa": "星辰木漏れ日、樹間光条、木の間影",
+      "meaningEn": "sunlight filtering through trees, dappled light",
+      "notes": "緑濃き枝葉の隙間から差す金色の光線",
+      "id": 30252,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[fal.vel]"
+    },
+    {
+      "nrs": "kyrvel2",
+      "pos": "名",
+      "meaningJa": "星辰樹氷、星辰霧氷、枝葉氷晶",
+      "meaningEn": "rime ice on branches, frost-covered foliage",
+      "notes": "冬の冷気で木々の枝先が白く氷結した造形",
+      "id": 30253,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kyr.vel2]"
+    },
+    {
+      "nrs": "talvel",
+      "pos": "名",
+      "meaningJa": "星辰肥沃土、黒土壌、農耕地層",
+      "meaningEn": "humus-rich soil, arable loam",
+      "notes": "豊かな収穫をもたらす大地と植物の恵み",
+      "id": 30255,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tal.vel]"
+    },
+    {
+      "nrs": "selkor",
+      "pos": "名",
+      "meaningJa": "琥珀、樹液化石、星石樹液",
+      "meaningEn": "amber resin, fossilized crystal sap",
+      "notes": "太古の樹液が鉱物化した黄金の結晶",
+      "id": 30256,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sel.kor]"
+    },
+    {
+      "nrs": "korfal2",
+      "pos": "名",
+      "meaningJa": "水晶晶簇、星晶石塊、光芒石",
+      "meaningEn": "quartz crystal cluster, sparkling drusy aggregate",
+      "notes": "光を浴びて幾重にも煌めく無欠陥の結晶群",
+      "id": 30257,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kor.fal2]"
+    },
+    {
+      "nrs": "wyltal",
+      "pos": "名",
+      "meaningJa": "星辰風成砂丘、風紋、砂漠波",
+      "meaningEn": "aeolian dune, wind-rippled sand plateau",
+      "notes": "風が描いた美しい幾何学的砂紋",
+      "id": 30258,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[wyl.tal]"
+    },
+    {
+      "nrs": "darwyl2",
+      "pos": "名",
+      "meaningJa": "星辰霧雨、細雨、煙雨",
+      "meaningEn": "misty drizzle, atmospheric fog-rain",
+      "notes": "風に吹かれて霞のように漂う細やかな雨",
+      "id": 30259,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dar.wyl2]"
+    },
+    {
+      "nrs": "kymvel3",
+      "pos": "名",
+      "meaningJa": "夜咲き花、月見草、星辰香花",
+      "meaningEn": "nocturnal night-blooming blossom",
+      "notes": "主星が沈み夜になると芳香を放つ花",
+      "id": 30260,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kym.vel3]"
+    },
+    {
+      "nrs": "falwyl",
+      "pos": "名",
+      "meaningJa": "陽光のそよ風、温暖気流、春風",
+      "meaningEn": "sun-warmed gentle breeze, zephyr",
+      "notes": "雪解けを告げるあたたかな日中の風",
+      "id": 30261,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[fal.wyl]"
+    },
+    {
+      "nrs": "kyrdar",
+      "pos": "名",
+      "meaningJa": "氷解水、雪解け川、雪冷泉",
+      "meaningEn": "glacial meltwater, snowmelt torrent",
+      "notes": "高嶺の残雪が溶け出して奔流となる澄んだ冷水",
+      "id": 30262,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kyr.dar]"
+    },
+    {
+      "nrs": "darzon",
+      "pos": "名",
+      "meaningJa": "星辰海岸線、星辰波打ち際、星辰渚",
+      "meaningEn": "coastline, water-land shore rim",
+      "notes": "波が寄せては返す大地の縁",
+      "id": 30264,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dar.zon]"
+    },
+    {
+      "nrs": "selzon",
+      "pos": "名",
+      "meaningJa": "森の入り口、樹林外縁、木立の縁",
+      "meaningEn": "forest skirt, edge of woods",
+      "notes": "開けた野原から深き森へと続く境界",
+      "id": 30265,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sel.zon]"
+    },
+    {
+      "nrs": "domfal",
+      "pos": "名",
+      "meaningJa": "街明かり、灯火群、居住区夜景",
+      "meaningEn": "city lights, evening hearth lanterns",
+      "notes": "夜の帳が下りた集落に灯る無数の温かな灯",
+      "id": 30266,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dom.fal]"
+    },
+    {
+      "nrs": "domdar",
+      "pos": "名",
+      "meaningJa": "上水道、水路網、共同水場",
+      "meaningEn": "aqueduct network, communal water well",
+      "notes": "市民の命を支える清流を引き込んだ共同水路",
+      "id": 30267,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dom.dar]"
+    },
+    {
+      "nrs": "domsel",
+      "pos": "名",
+      "meaningJa": "街区公園、緑地広場、共同樹林",
+      "meaningEn": "municipal garden, town commons park",
+      "notes": "家々の間に設けられた休息と語らいの木立",
+      "id": 30268,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dom.sel]"
+    },
+    {
+      "nrs": "domval",
+      "pos": "名",
+      "meaningJa": "広場市場、朝市、青空交易場",
+      "meaningEn": "open-air market square, civic agora",
+      "notes": "近隣の農夫や職人が品物を持ち寄る広場",
+      "id": 30269,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dom.val]"
+    },
+    {
+      "nrs": "domkym",
+      "pos": "名",
+      "meaningJa": "夜間警邏、夜回り、夜警",
+      "meaningEn": "night watch, town vigil patrol",
+      "notes": "市民が眠る間、篝火を掲げて街を守る見回り",
+      "id": 30270,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dom.kym]"
+    },
+    {
+      "nrs": "marsen",
+      "pos": "名",
+      "meaningJa": "交易契約、商業規約、通商定款",
+      "meaningEn": "mercantile agreement, trade treaty",
+      "notes": "売り手と買い手の間で交わされる信義の約定",
+      "id": 30272,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[mar.sen]"
+    },
+    {
+      "nrs": "marval2",
+      "pos": "名",
+      "meaningJa": "商品、交易貨物、特産品",
+      "meaningEn": "trade wares, merchant cargo, merchandise",
+      "notes": "隊商が荷車に載せて運ぶ品々の数々",
+      "id": 30273,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[mar.val2]"
+    },
+    {
+      "nrs": "marjyl",
+      "pos": "名",
+      "meaningJa": "市場連合、商業組合、交易同盟",
+      "meaningEn": "merchant league, trading cartel",
+      "notes": "不当な価格や粗悪品を防ぐ商人の自治組織",
+      "id": 30274,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[mar.jyl]"
+    },
+    {
+      "nrs": "tursen",
+      "pos": "名",
+      "meaningJa": "星辰憲章、基本法規、建国誓詞",
+      "meaningEn": "fundamental charter, foundational covenant",
+      "notes": "星の民の共同体が守るべき最も根本の掟",
+      "id": 30275,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tur.sen]"
+    },
+    {
+      "nrs": "turkiran",
+      "pos": "名",
+      "meaningJa": "法典、星辰判例集、掟の石版",
+      "meaningEn": "code of laws, inscribed jurisprudence tablets",
+      "notes": "歴代の評議会が定めた規約を刻んだ石板典籍",
+      "id": 30276,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tur.kiran]"
+    },
+    {
+      "nrs": "turdom",
+      "pos": "名",
+      "meaningJa": "評議都市、政庁所在地、主都",
+      "meaningEn": "capital city, seat of council assembly",
+      "notes": "全域から代表が集まる星辰評議会の座所",
+      "id": 30277,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tur.dom]"
+    },
+    {
+      "nrs": "senval",
+      "pos": "名",
+      "meaningJa": "宣誓、盟約宣言、誓約の言葉",
+      "meaningEn": "solemn oath, sworn pledge proclamation",
+      "notes": "市民権を得る際や就任時に天に捧げる誓言",
+      "id": 30278,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sen.val]"
+    },
+    {
+      "nrs": "senciv",
+      "pos": "名",
+      "meaningJa": "良心、誓約遵守心、信義の鑑",
+      "meaningEn": "conscience, fidelity to solemn oath",
+      "notes": "誰が見ていなくとも掟を守る内なる高潔さ",
+      "id": 30279,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sen.civ]"
+    },
+    {
+      "nrs": "pyrdar",
+      "pos": "名",
+      "meaningJa": "湯沸かし釜、大鍋、温熱煮釜",
+      "meaningEn": "cauldron, boiling kettle, hearth pot",
+      "notes": "温熱炉に掛けて湯を沸かし料理を作る大釜",
+      "id": 30281,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[pyr.dar]"
+    },
+    {
+      "nrs": "pyrsil",
+      "pos": "名",
+      "meaningJa": "行灯、油灯、室内置き灯火",
+      "meaningEn": "indoor oil lamp, quiet room lantern",
+      "notes": "夜間の読書や思索を照らす柔らかな小灯火",
+      "id": 30282,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[pyr.sil]"
+    },
+    {
+      "nrs": "valtin",
+      "pos": "名",
+      "meaningJa": "留め金、星辰ブローチ、衣服帯留め",
+      "meaningEn": "cloak clasp, mantle fibula, broach",
+      "notes": "外套の胸元を留める精緻な星辰紋の細工金物",
+      "id": 30283,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[val.tin]"
+    },
+    {
+      "nrs": "valran",
+      "pos": "名",
+      "meaningJa": "星辰環帯、飾り帯、星辰腰紐",
+      "meaningEn": "woven sash, waist belt, girdle",
+      "notes": "衣服を整え小刀や天測盤を提げる丈夫な帯",
+      "id": 30284,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[val.ran]"
+    },
+    {
+      "nrs": "valtas2",
+      "pos": "名",
+      "meaningJa": "衣裳箱、整理櫃、衣装長持",
+      "meaningEn": "wardrobe chest, linen coffer",
+      "notes": "樟の香りで虫を防ぎ正装を納める木箱",
+      "id": 30285,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[val.tas2]"
+    },
+    {
+      "nrs": "pameltas",
+      "pos": "名",
+      "meaningJa": "書見台、読書机、写本傾斜台",
+      "meaningEn": "reading lectern, scriptorium desk",
+      "notes": "分厚い典籍を開いて筆記するための台",
+      "id": 30286,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[pam.eltas]"
+    },
+    {
+      "nrs": "pamelval",
+      "pos": "名",
+      "meaningJa": "星辰羊皮紙、記録皮紙、植物厚紙",
+      "meaningEn": "parchment sheet, archival vellum",
+      "notes": "千年の保存に耐える特製の記録料紙",
+      "id": 30287,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[pam.elval]"
+    },
+    {
+      "nrs": "kirpor",
+      "pos": "名",
+      "meaningJa": "尖筆、星辰鉄筆、星符刻針",
+      "meaningEn": "engraving stylus, scribe metal stylus",
+      "notes": "星石や金属板に文字を刻む硬質のペン",
+      "id": 30288,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kir.por]"
+    },
+    {
+      "nrs": "kirdar",
+      "pos": "名",
+      "meaningJa": "黒色墨汁、星辰記録墨、没食子インク",
+      "meaningEn": "iron gall ink, archival black pigment",
+      "notes": "水に濡れても褪せぬ永久記録用の特製墨",
+      "id": 30289,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kir.dar]"
+    },
+    {
+      "nrs": "tasval2",
+      "pos": "名",
+      "meaningJa": "星辰小刀、細工刀、彫刻小刃",
+      "meaningEn": "craft knife, carver penknife",
+      "notes": "木材を削り皮を裁つ職人の万能小刃",
+      "id": 30290,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tas.val2]"
+    },
+    {
+      "nrs": "bioval",
+      "pos": "名",
+      "meaningJa": "糧食、保存携帯食、旅の干し肉",
+      "meaningEn": "travel rations, provisions, dried food",
+      "notes": "遠方の観測台へ赴く星見士が携える干し糧",
+      "id": 30291,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[bio.val]"
+    },
+    {
+      "nrs": "biodar",
+      "pos": "名",
+      "meaningJa": "清涼飲料、果汁水、薬草冷水",
+      "meaningEn": "refreshing fruit water, cool herbal nectar",
+      "notes": "野の果実を絞って冷水で割った爽やかな飲み物",
+      "id": 30292,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[bio.dar]"
+    },
+    {
+      "nrs": "biokor",
+      "pos": "名",
+      "meaningJa": "岩塩、結晶塩、精製調味塩",
+      "meaningEn": "rock salt crystal, mineral seasoning salt",
+      "notes": "鉱脈から採掘された料理に不可欠な塩",
+      "id": 30293,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[bio.kor]"
+    },
+    {
+      "nrs": "biovel",
+      "pos": "名",
+      "meaningJa": "香草、調味薬草、ハーブ",
+      "meaningEn": "culinary herb, aromatic seasoning green",
+      "notes": "料理に香りを添え消化を助ける庭の草木",
+      "id": 30294,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[bio.vel]"
+    },
+    {
+      "nrs": "domfin",
+      "pos": "名",
+      "meaningJa": "星辰敷石、舗装石畳、道石",
+      "meaningEn": "paving cobblestone, flagstone street",
+      "notes": "雨の日でも足元がぬかるまぬよう敷かれた石",
+      "id": 30295,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dom.fin]"
+    },
+    {
+      "nrs": "falmin2",
+      "pos": "名",
+      "meaningJa": "晴れやかな笑顔、喜悦の表情、歓色",
+      "meaningEn": "bright smile, joyful countenance",
+      "notes": "胸の内の歓喜が顔に現れた輝くような表情",
+      "id": 30296,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[fal.min2]"
+    },
+    {
+      "nrs": "kymin",
+      "pos": "名",
+      "meaningJa": "憂愁、もの思い、静かな憂い",
+      "meaningEn": "melancholy brood, quiet wistfulness",
+      "notes": "秋の夜長に去りし日を想う切ない心持ち",
+      "id": 30297,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kymin]"
+    },
+    {
+      "nrs": "cynfal",
+      "pos": "名",
+      "meaningJa": "慈愛の眼差し、温かな微笑み、慈光",
+      "meaningEn": "tender loving gaze, benevolent smile",
+      "notes": "幼子や旅人を包み込むような優しさの光",
+      "id": 30298,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[cyn.fal]"
+    },
+    {
+      "nrs": "novsil",
+      "pos": "名",
+      "meaningJa": "調和の知恵、分別、思慮分別",
+      "meaningEn": "harmonious wisdom, balanced prudence",
+      "notes": "極端に走らず全体の調和を見通す成熟した知恵",
+      "id": 30299,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[nov.sil]"
+    },
+    {
+      "nrs": "dursil",
+      "pos": "名",
+      "meaningJa": "精神平静、静水境地",
+      "meaningEn": "equanimity, serene steadfastness",
+      "notes": "嵐が吹き荒れても湖のように澄んだ平静さ",
+      "id": 30300,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dur.sil]"
+    },
+    {
+      "nrs": "sefval",
+      "pos": "名",
+      "meaningJa": "希望の灯火、光明の兆し、未来への光芒",
+      "meaningEn": "beacon of hope, ray of future promise",
+      "notes": "絶望の闇の中で道を照らす一点の光",
+      "id": 30301,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sef.val]"
+    },
+    {
+      "nrs": "sirfal",
+      "pos": "名",
+      "meaningJa": "朝の静けさ、夜明け前の静寂、黎明閑寂",
+      "meaningEn": "serene dawn silence, quiet of daybreak",
+      "notes": "鳥たちが鳴き始める前の荘厳な静けさ",
+      "id": 30302,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sir.fal]"
+    },
+    {
+      "nrs": "cylanval",
+      "pos": "名",
+      "meaningJa": "至高の美、絶景、息をのむ美しさ",
+      "meaningEn": "sublime beauty, breathtaking aesthetic vista",
+      "notes": "全天を埋める星雲と星々が放つ極上の美",
+      "id": 30303,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[cyl.anval]"
+    },
+    {
+      "nrs": "fevval",
+      "pos": "名",
+      "meaningJa": "古の記憶、伝承、祖先の語り",
+      "meaningEn": "ancestral lore, ancient remembrance tradition",
+      "notes": "文字なき時代から口伝で受け継がれてきた記憶",
+      "id": 30304,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[fev.val]"
+    },
+    {
+      "nrs": "civdar",
+      "pos": "名",
+      "meaningJa": "心の強さ、精神の耐久力、気骨",
+      "meaningEn": "inner strength of spirit, mental grit",
+      "notes": "孤独や困難に押し潰されぬ芯の強さ",
+      "id": 30305,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[civ.dar]"
+    },
+    {
+      "nrs": "civsil",
+      "pos": "名",
+      "meaningJa": "澄みきった心、明鏡止水、心の調和",
+      "meaningEn": "tranquil pure heart, emotional equilibrium",
+      "notes": "怒りや恐れのない穏やかな心の境地",
+      "id": 30306,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[civ.sil]"
+    },
+    {
+      "nrs": "civfal",
+      "pos": "名",
+      "meaningJa": "心の輝き、星辰気品、内なる光明",
+      "meaningEn": "radiance of soul, inner nobility",
+      "notes": "立派な振る舞いや誠実さから滲み出る輝き",
+      "id": 30307,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[civ.fal]"
+    },
+    {
+      "nrs": "vyrcal",
+      "pos": "名",
+      "meaningJa": "星の詩、星辰詠嘆歌、天文詩",
+      "meaningEn": "star-ode, astrological poetic verse",
+      "notes": "夜空の星々に捧げられる美しい詩歌",
+      "id": 30308,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[vyr.cal]"
+    },
+    {
+      "nrs": "zoharcal",
+      "pos": "名",
+      "meaningJa": "太陽讃歌、朝の祝詞、光の賛美歌",
+      "meaningEn": "solar hymn, morning anthem of praise",
+      "notes": "昇る主恒星を歓迎して歌われる力強い賛歌",
+      "id": 30309,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[zoh.arcal]"
+    },
+    {
+      "nrs": "kyrcal",
+      "pos": "名",
+      "meaningJa": "冬の歌、氷雪詠歌、極夜のバラッド",
+      "meaningEn": "winter song, ballad of the polar night",
+      "notes": "囲炉裏を囲んで静かに口ずさまれる冬の調べ",
+      "id": 30310,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[kyr.cal]"
+    },
+    {
+      "nrs": "darcal",
+      "pos": "名",
+      "meaningJa": "水の歌、川舟の舟歌、せせらぎ詩",
+      "meaningEn": "water canticle, boatman chantey",
+      "notes": "櫂の音に合わせて舟人が歌うリズミカルな歌",
+      "id": 30311,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dar.cal]"
+    },
+    {
+      "nrs": "wylcal",
+      "pos": "名",
+      "meaningJa": "風の歌、放浪歌、旅人の調べ",
+      "meaningEn": "wind ballad, song of wandering travelers",
+      "notes": "遠い未知の国を巡る旅人が爪弾く歌",
+      "id": 30312,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[wyl.cal]"
+    },
+    {
+      "nrs": "talcal",
+      "pos": "名",
+      "meaningJa": "大地の歌、収穫感謝歌、大地讃頌",
+      "meaningEn": "ode to the earth, harvest thanksgiving chant",
+      "notes": "実りの秋に大地への感謝を込めて歌われる歌",
+      "id": 30313,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[tal.cal]"
+    },
+    {
+      "nrs": "durcal",
+      "pos": "名",
+      "meaningJa": "不屈の頌歌、防人の勇士歌、凱旋歌",
+      "meaningEn": "song of heroic resilience, sentinel hymn",
+      "notes": "困難を乗り越えた者たちを称える誇り高き歌",
+      "id": 30314,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[dur.cal]"
+    },
+    {
+      "nrs": "sircal",
+      "pos": "名",
+      "meaningJa": "子守唄、鎮静の調べ、安眠歌",
+      "meaningEn": "gentle lullaby, nocturnal soothing song",
+      "notes": "夜の帳の中で子どもを安らかな眠りへ誘う歌",
+      "id": 30315,
+      "category": "追加語彙（星辰文明）",
+      "ipa": "[sir.cal]"
+    },
+    {
+      "id": 30316,
+      "nrs": "orvlun",
+      "pos": "名",
+      "meaningJa": "星辰光度、星の等級、輝度尺度",
+      "meaningEn": "stellar magnitude, luminosity scale",
+      "ipa": "[orv.lun]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星辰の輝きの階級を測る尺度"
+    },
+    {
+      "id": 30317,
+      "nrs": "taljyl",
+      "pos": "名",
+      "meaningJa": "天測星座盤、平面星図盤",
+      "meaningEn": "celestial globe, planisphere",
+      "ipa": "[tal.jyl]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星空の運行を立体的に模した天測器具"
+    },
+    {
+      "id": 30318,
+      "nrs": "vyrekor",
+      "pos": "名",
+      "meaningJa": "星辰記録官、天測書記、宙図編纂官",
+      "meaningEn": "celestial chronicler, astrometric scribe",
+      "ipa": "[vyr.ekor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "天体の運行記録と暦の編纂を司る書記官"
+    },
+    {
+      "id": 30319,
+      "nrs": "zenkel",
+      "pos": "名",
+      "meaningJa": "散開星団、散開星雲、星屑の群れ",
+      "meaningEn": "open cluster, star cloud, nebula",
+      "ipa": "[zen.kel]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "夜空に散乱する光の微粒子群"
+    },
+    {
+      "id": 30320,
+      "nrs": "novyras",
+      "pos": "名",
+      "meaningJa": "新星、超新星、星辰誕生の輝き",
+      "meaningEn": "supernova, stellar rebirth flare",
+      "ipa": "[nov.yras]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星の死と再生を告げる極大閃光"
+    },
+    {
+      "id": 30321,
+      "nrs": "morjyl",
+      "pos": "名",
+      "meaningJa": "恒星食、黒点、星辰掩蔽",
+      "meaningEn": "stellar occultation, starspot, shadow transit",
+      "ipa": "[mor.jyl]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "天体が主星の光を遮る現象"
+    },
+    {
+      "id": 30322,
+      "nrs": "lyrvon",
+      "pos": "名",
+      "meaningJa": "軌道最遠点、遠極離角",
+      "meaningEn": "apoapsis, aphelion, furthest orbital point",
+      "ipa": "[lyr.von]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "公転軌道において主星から最も離れる位置"
+    },
+    {
+      "id": 30323,
+      "nrs": "nelvon",
+      "pos": "名詞",
+      "meaningJa": "軌道最近点、近極離角",
+      "meaningEn": "periapsis, perihelion, closest orbital point",
+      "ipa": "[nel.von]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "公転軌道において主星に最も近づく位置"
+    },
+    {
+      "id": 30324,
+      "nrs": "celzon",
+      "pos": "名",
+      "meaningJa": "全天天蓋、宙頂、全天の頂",
+      "meaningEn": "celestial dome, zenith summit",
+      "ipa": "[cel.zon]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "観測者の真上に広がる天球の最頂点"
+    },
+    {
+      "id": 30325,
+      "nrs": "tulyris",
+      "pos": "名",
+      "meaningJa": "星界境界線、天涯地平",
+      "meaningEn": "horizon, realm boundary, celestial verge",
+      "ipa": "[tul.yris]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "大地と星空が交わる境界"
+    },
+    {
+      "id": 30326,
+      "nrs": "pelvyr",
+      "pos": "名",
+      "meaningJa": "天測眼鏡、小型望遠具、携行天眼鏡",
+      "meaningEn": "field astrolabe monocle, star glass",
+      "ipa": "[pel.vyr]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "旅の観測者が携える携帯用レンズ器具"
+    },
+    {
+      "id": 30327,
+      "nrs": "sarylis",
+      "pos": "名",
+      "meaningJa": "神秘崇敬、星辰畏敬心",
+      "meaningEn": "numinous awe, cosmic reverence",
+      "ipa": "[sar.ylis]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "無限の星辰に対する深い敬虔の情"
+    },
+    {
+      "id": 30328,
+      "nrs": "vorlan",
+      "pos": "名",
+      "meaningJa": "静かな受容、諦念、運命との和解",
+      "meaningEn": "tranquil acceptance, serene resignation",
+      "ipa": "[vor.lan]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "変えられぬ天球運行を受け入れる心の静けさ"
+    },
+    {
+      "id": 30329,
+      "nrs": "fendur",
+      "pos": "名",
+      "meaningJa": "星辰確信、不動の信念、揺るぎなき志",
+      "meaningEn": "unwavering conviction, steadfast resolve",
+      "ipa": "[fen.dur]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "迷いなき精神の芯"
+    },
+    {
+      "id": 30330,
+      "nrs": "mervas",
+      "pos": "名",
+      "meaningJa": "星辰慈愛、育む愛、無償の加護",
+      "meaningEn": "nurturing love, maternal benevolence",
+      "ipa": "[mer.vas]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "生命を慈しみ育む穏やかな愛情"
+    },
+    {
+      "id": 30331,
+      "nrs": "zulyr",
+      "pos": "名",
+      "meaningJa": "静寂なる独処、星辰孤高、独座",
+      "meaningEn": "solitary serenity, contemplative seclusion",
+      "ipa": "[zul.yr]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "雑音を離れ独りで星空と向き合う境地"
+    },
+    {
+      "id": 30332,
+      "nrs": "parylis",
+      "pos": "名",
+      "meaningJa": "熱情、探求の炎、激しい志気",
+      "meaningEn": "ardent passion, fiery zeal of inquiry",
+      "ipa": "[par.ylis]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "真理を追い求める燃えるような情熱"
+    },
+    {
+      "id": 30333,
+      "nrs": "koldar",
+      "pos": "名",
+      "meaningJa": "警戒心、研ぎ澄まされた注意力",
+      "meaningEn": "acute vigilance, watchful alertness",
+      "ipa": "[kol.dar]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "夜の暗がりに対する知的な警戒"
+    },
+    {
+      "id": 30334,
+      "nrs": "torlyn",
+      "pos": "名",
+      "meaningJa": "星辰悲哀、星の瞬きの哀感、惜別の情",
+      "meaningEn": "stellar sorrow, poignant melancholy",
+      "ipa": "[tor.lyn]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星が沈む折の静かな悲哀"
+    },
+    {
+      "id": 30335,
+      "nrs": "helvas",
+      "pos": "名",
+      "meaningJa": "情緒平穏、心湖安寧",
+      "meaningEn": "equanimity, placid composure",
+      "ipa": "[hel.vas]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "感情が澄み切った鏡のようであること"
+    },
+    {
+      "id": 30336,
+      "nrs": "falzin",
+      "pos": "名",
+      "meaningJa": "法悦閃光、魂の純歓",
+      "meaningEn": "radiant jubilation, ecstatic illumination",
+      "ipa": "[fal.zin]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "真理や光に触れた時の純粋な喜び"
+    },
+    {
+      "id": 30337,
+      "nrs": "falmator",
+      "pos": "名",
+      "meaningJa": "星石ランタン、光石照明具、携行灯",
+      "meaningEn": "astral crystal lantern, luminophore",
+      "ipa": "[fal.mator]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "発光結晶を収めた夜間携帯灯"
+    },
+    {
+      "id": 30338,
+      "nrs": "serkel",
+      "pos": "名",
+      "meaningJa": "星紋織、織布、天体紋様の布",
+      "meaningEn": "constellation-pattern cloth, astral weave",
+      "ipa": "[ser.kel]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "幾何学的な星の軌道を織り込んだ伝統布"
+    },
+    {
+      "id": 30339,
+      "nrs": "vontar",
+      "pos": "名",
+      "meaningJa": "星粘土器、釉薬陶器",
+      "meaningEn": "astral ceramic, glazed earthenware",
+      "ipa": "[von.tar]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星の砂を練り込んで焼成した陶器"
+    },
+    {
+      "id": 30340,
+      "nrs": "dolkiv",
+      "pos": "名",
+      "meaningJa": "記録針、刻印ペン、星石鉄筆",
+      "meaningEn": "stylus engraver, celestial scribe pen",
+      "ipa": "[dol.kiv]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "石板や羊皮紙に微細な星符を刻むペン"
+    },
+    {
+      "id": 30341,
+      "nrs": "tanmator",
+      "pos": "名",
+      "meaningJa": "蒸留器、霊薬抽出器、精製窯",
+      "meaningEn": "alchemical still, essence extractor",
+      "ipa": "[tan.mator]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星草の露や鉱石の精気を抽出する器具"
+    },
+    {
+      "id": 30342,
+      "nrs": "morvel",
+      "pos": "名",
+      "meaningJa": "夜天の外套、防寒星羽衣",
+      "meaningEn": "nocturnal mantle, celestial frost cloak",
+      "ipa": "[mor.vel]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "高地の極寒観測に耐える重厚な外套"
+    },
+    {
+      "id": 30343,
+      "nrs": "survan",
+      "pos": "名",
+      "meaningJa": "蓄熱調理台、熱石調理台",
+      "meaningEn": "thermal stone stove, cooking hearth",
+      "ipa": "[sur.van]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "蓄熱石を用いた清潔な調理炉"
+    },
+    {
+      "id": 30344,
+      "nrs": "belkor",
+      "pos": "名",
+      "meaningJa": "石工、彫刻師、石刻匠",
+      "meaningEn": "master stonemason, glyph carver",
+      "ipa": "[bel.kor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星辰神殿の石柱や石碑を彫る職人"
+    },
+    {
+      "id": 30345,
+      "nrs": "serkor",
+      "pos": "名",
+      "meaningJa": "織手、紡ぎ手、織工",
+      "meaningEn": "master weaver, textile artisan",
+      "ipa": "[ser.kor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星座布を織り上げる職人"
+    },
+    {
+      "id": 30346,
+      "nrs": "vonkor",
+      "pos": "名",
+      "meaningJa": "陶工、窯元、作陶師",
+      "meaningEn": "potter, ceramic master",
+      "ipa": "[von.kor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "星粘土の器を焼成する名匠"
+    },
+    {
+      "id": 30347,
+      "nrs": "lyrvad",
+      "pos": "名",
+      "meaningJa": "星影裂け谷、地割峡谷",
+      "meaningEn": "chasm valley, rift canyon",
+      "ipa": "[lyr.vad]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "地殻変動によって穿たれた深い谷"
+    },
+    {
+      "id": 30348,
+      "nrs": "zelkyr",
+      "pos": "名",
+      "meaningJa": "星砂の砂丘、砂波",
+      "meaningEn": "astral dunes, sand ripples",
+      "ipa": "[zel.kyr]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "風によって形作られた輝く砂丘"
+    },
+    {
+      "id": 30349,
+      "nrs": "morven",
+      "pos": "名",
+      "meaningJa": "霧深き沼沢、星辰湿原、星沼",
+      "meaningEn": "misty wetland, nocturnal marsh",
+      "ipa": "[mor.ven]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "夜霧が立ち込める水草の地"
+    },
+    {
+      "id": 30350,
+      "nrs": "tarvyr",
+      "pos": "名",
+      "meaningJa": "岩礁群、群島、星散島",
+      "meaningEn": "archipelago, reef cluster",
+      "ipa": "[tar.vyr]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "海上に連なる小さな島々と暗礁"
+    },
+    {
+      "id": 30351,
+      "nrs": "falnod",
+      "pos": "名",
+      "meaningJa": "清水の泉、湧水池、星雫泉",
+      "meaningEn": "sweetwater spring, fresh fountain",
+      "ipa": "[fal.nod]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "地下水が結晶を通して湧き出る泉"
+    },
+    {
+      "id": 30352,
+      "nrs": "kymril",
+      "pos": "名",
+      "meaningJa": "白霜、星霜、夜天の霜",
+      "meaningEn": "white frost, nocturnal rime",
+      "ipa": "[kym.ril]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "夜明け前の草木に降りる凍てつく結晶"
+    },
+    {
+      "id": 30353,
+      "nrs": "celton",
+      "pos": "名",
+      "meaningJa": "雷雲、放電雲、天鳴雲",
+      "meaningEn": "thunderhead, charged storm cloud",
+      "ipa": "[cel.ton]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "激しい光と音を放つ大気現象"
+    },
+    {
+      "id": 30354,
+      "nrs": "novlis",
+      "pos": "名",
+      "meaningJa": "微風、宵のそよ風、息吹の風",
+      "meaningEn": "evening zephyr, gentle night breeze",
+      "ipa": "[nov.lis]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "夕暮れ時に山から吹き下ろす穏やかな風"
+    },
+    {
+      "id": 30355,
+      "nrs": "valkym",
+      "pos": "名",
+      "meaningJa": "星辰永久凍土、氷結地、凍原",
+      "meaningEn": "permafrost plain, glacial ground",
+      "ipa": "[val.kym]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "万年溶けることのない硬い凍地"
+    },
+    {
+      "id": 30356,
+      "nrs": "zenvor",
+      "pos": "名",
+      "meaningJa": "潮汐、引力波の干満、星汐",
+      "meaningEn": "gravitational tides, orbital ebb and flow",
+      "ipa": "[zen.vor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "月と主星の引力によって動く海水"
+    },
+    {
+      "id": 30357,
+      "nrs": "solvad",
+      "pos": "名",
+      "meaningJa": "星辰盆地、星窪地、山間平野",
+      "meaningEn": "mountain basin, sunken valley plain",
+      "ipa": "[sol.vad]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "山々に囲まれた平坦な窪地"
+    },
+    {
+      "id": 30358,
+      "nrs": "kyrton",
+      "pos": "名",
+      "meaningJa": "落石、岩崩れ、砕石流",
+      "meaningEn": "rockfall, stone avalanche",
+      "ipa": "[kyr.ton]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "急斜面から崩落する巨石群"
+    },
+    {
+      "id": 30359,
+      "nrs": "valmir",
+      "pos": "動",
+      "meaningJa": "染み渡る、浸透する、内奥へ及ぶ",
+      "meaningEn": "permeate deeply, suffuse into core",
+      "ipa": "[val.mir]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "液体や光、思想が奥深くまで浸透すること"
+    },
+    {
+      "id": 30360,
+      "nrs": "jyltan",
+      "pos": "動",
+      "meaningJa": "微調整する、精密に合わせる、調律する",
+      "meaningEn": "fine-tune, calibrate precisely",
+      "ipa": "[jyl.tan]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "器具や心の状態を理想的な目盛りに合わせる"
+    },
+    {
+      "id": 30361,
+      "nrs": "vorpad",
+      "pos": "動",
+      "meaningJa": "凝縮する、星辰結実する、星辰結晶化する",
+      "meaningEn": "condense, crystallize into fruition",
+      "ipa": "[vor.pad]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "無形の思考や蒸気が形あるものへと固まる"
+    },
+    {
+      "id": 30362,
+      "nrs": "tarzon",
+      "pos": "動",
+      "meaningJa": "超越する、限界を超える、超脱する",
+      "meaningEn": "transcend, surpass mundane limits",
+      "ipa": "[tar.zon]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "定められた境界を精神や知性が超え出ること"
+    },
+    {
+      "id": 30363,
+      "nrs": "nyrmel",
+      "pos": "動",
+      "meaningJa": "反響する、木霊する、鳴り響く",
+      "meaningEn": "reverberate, echo across hills",
+      "ipa": "[nyr.mel]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "音が空間に幾重にも響き渡ること"
+    },
+    {
+      "id": 30364,
+      "nrs": "falvor",
+      "pos": "動",
+      "meaningJa": "昇華する、気化して輝く、高みへ昇る",
+      "meaningEn": "sublimate, evaporate into light",
+      "ipa": "[fal.vor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "重き物質が純粋な光へと変容すること"
+    },
+    {
+      "id": 30365,
+      "nrs": "dalken",
+      "pos": "動",
+      "meaningJa": "刻印する、石に刻み込む、銘記する",
+      "meaningEn": "inscribe permanently, engrave in stone",
+      "ipa": "[dal.ken]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "後世に残すため記録を深く刻み込む"
+    },
+    {
+      "id": 30366,
+      "nrs": "peldor",
+      "pos": "動",
+      "meaningJa": "踏査する、未知の領域を探検する",
+      "meaningEn": "explore uncharted frontiers, traverse",
+      "ipa": "[pel.dor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "地図のない領域へ足を踏み入れ調べる"
+    },
+    {
+      "id": 30367,
+      "nrs": "kelsur",
+      "pos": "動",
+      "meaningJa": "集約する、星辰束ねる、統合する",
+      "meaningEn": "consolidate, aggregate disparate elements",
+      "ipa": "[kel.sur]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "散らばった情報や物資を一箇所に集める"
+    },
+    {
+      "id": 30368,
+      "nrs": "zenpar",
+      "pos": "動",
+      "meaningJa": "共振する、周波数を合わせる、星辰同調する",
+      "meaningEn": "resonate synchronously, align frequency",
+      "ipa": "[zen.par]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "波動や心が同じリズムで震え合うこと"
+    },
+    {
+      "id": 30369,
+      "nrs": "marvyl",
+      "pos": "動",
+      "meaningJa": "解き放つ、解放する、枷を解く",
+      "meaningEn": "emancipate, unleash, release bonds",
+      "ipa": "[mar.vyl]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "拘束を解いて自由に行動させる"
+    },
+    {
+      "id": 30370,
+      "nrs": "tornen",
+      "pos": "動",
+      "meaningJa": "星辰手放す、断ち切る、未練を捨てる",
+      "meaningEn": "relinquish, sever cleanly",
+      "ipa": "[tor.nen]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "不要な執着や関係を潔く断つ"
+    },
+    {
+      "id": 30371,
+      "nrs": "surlon",
+      "pos": "動",
+      "meaningJa": "煎じる、煮出す、成分を抽出する",
+      "meaningEn": "decoct, boil down essence",
+      "ipa": "[sur.lon]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "薬草を煮詰めて効能を引き出す"
+    },
+    {
+      "id": 30372,
+      "nrs": "lyrzen",
+      "pos": "動",
+      "meaningJa": "瞑想する、星空の下で想索する",
+      "meaningEn": "meditate under stars, contemplate silently",
+      "ipa": "[lyr.zen]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "静夜に自己の内面と対話する"
+    },
+    {
+      "id": 30373,
+      "nrs": "kymtor",
+      "pos": "動",
+      "meaningJa": "凍結させる、静止させる、保全する",
+      "meaningEn": "freeze into stasis, immobilize",
+      "ipa": "[kym.tor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "寒冷により変化を完全に止める"
+    },
+    {
+      "id": 30374,
+      "nrs": "novpan",
+      "pos": "動",
+      "meaningJa": "芽吹く、萌え出る、新生する",
+      "meaningEn": "sprout, germinate, begin anew",
+      "ipa": "[nov.pan]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "種子から新たな命が生まれ出ること"
+    },
+    {
+      "id": 30375,
+      "nrs": "celmar",
+      "pos": "動",
+      "meaningJa": "仰ぎ見る、天を拝する、星辰見上げる",
+      "meaningEn": "look up toward heavens, revere upward",
+      "ipa": "[cel.mar]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "頭上高く広がる大空や星を見つめる"
+    },
+    {
+      "id": 30376,
+      "nrs": "tulpar",
+      "pos": "動",
+      "meaningJa": "根付く、定着する、地に根を張る",
+      "meaningEn": "take deep root, establish firmly",
+      "ipa": "[tul.par]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "新しい土地に腰を据えて定住する"
+    },
+    {
+      "id": 30377,
+      "nrs": "durfal",
+      "pos": "動",
+      "meaningJa": "研ぎ澄ます、鍛錬する、鋭敏にする",
+      "meaningEn": "hone to sharpness, discipline senses",
+      "ipa": "[dur.fal]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "刃物や感覚を極限まで鋭く磨く"
+    },
+    {
+      "id": 30378,
+      "nrs": "morken",
+      "pos": "動",
+      "meaningJa": "遮蔽する、影に隠す、秘匿する",
+      "meaningEn": "conceal in shadow, shield from sight",
+      "ipa": "[mor.ken]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "光や他者の視線から巧みに隠す"
+    },
+    {
+      "id": 30379,
+      "nrs": "fanvor",
+      "pos": "動",
+      "meaningJa": "熱望する、渇望する、心焦がす",
+      "meaningEn": "aspire ardently, yearn keenly",
+      "ipa": "[fan.vor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "対象を心から強く求める"
+    },
+    {
+      "id": 30380,
+      "nrs": "solmer",
+      "pos": "動",
+      "meaningJa": "沈殿する、静まる、底に落ち着く",
+      "meaningEn": "settle to sediment, become tranquil",
+      "ipa": "[sol.mer]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "濁りが沈んで水が澄むように落ち着く"
+    },
+    {
+      "id": 30381,
+      "nrs": "zelmar",
+      "pos": "動",
+      "meaningJa": "風化する、砂となる、時の洗礼を受ける",
+      "meaningEn": "weather into sand, erode over aeons",
+      "ipa": "[zel.mar]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "長い歳月を経て石が砂へと帰ること"
+    },
+    {
+      "id": 30382,
+      "nrs": "kirlan",
+      "pos": "動",
+      "meaningJa": "統御する、秩序を保つ、規律する",
+      "meaningEn": "govern with discipline, regulate orderly",
+      "ipa": "[kir.lan]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "集団や機械を規則正しく導く"
+    },
+    {
+      "id": 30383,
+      "nrs": "velpar",
+      "pos": "動",
+      "meaningJa": "紡ぎ出す、織り成す、細工する",
+      "meaningEn": "spin out, weave together, craft intricately",
+      "ipa": "[vel.par]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "糸や物語を緻密に組み上げる"
+    },
+    {
+      "id": 30384,
+      "nrs": "faldur",
+      "pos": "形",
+      "meaningJa": "強輝なる、星辰眩い、光彩陸離たる",
+      "meaningEn": "dazzlingly radiant, intensely bright",
+      "ipa": "[fal.dur]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "目を細めるほど強く発光しているさま"
+    },
+    {
+      "id": 30385,
+      "nrs": "mornel",
+      "pos": "形",
+      "meaningJa": "幽暗な、星辰薄暗い、微光の",
+      "meaningEn": "dimly shaded, twilight-like, shadowy",
+      "ipa": "[mor.nel]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "光が届きにくく薄暗いさま"
+    },
+    {
+      "id": 30386,
+      "nrs": "zenval",
+      "pos": "形",
+      "meaningJa": "精緻な、星辰調和のとれた、寸分の狂いなき",
+      "meaningEn": "exquisitely harmonious, mathematically flawless",
+      "ipa": "[zen.val]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "全体の釣り合いが完璧に整っているさま"
+    },
+    {
+      "id": 30387,
+      "nrs": "lyrtan",
+      "pos": "形",
+      "meaningJa": "高邁な、崇高な、気品ある",
+      "meaningEn": "lofty, exalted, morally noble",
+      "ipa": "[lyr.tan]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "精神や目標が極めて高い位置にあるさま"
+    },
+    {
+      "id": 30388,
+      "nrs": "tulkor",
+      "pos": "形",
+      "meaningJa": "堅牢な、揺るぎない、強固な",
+      "meaningEn": "stalwart, unshakable, structurally solid",
+      "ipa": "[tul.kor]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "外力に耐えてびくともしないさま"
+    },
+    {
+      "id": 30389,
+      "nrs": "novran",
+      "pos": "形",
+      "meaningJa": "星辰みずみずしい、初々しい、星辰新緑の",
+      "meaningEn": "freshly vibrant, vernal, nascent",
+      "ipa": "[nov.ran]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "生まれたばかりの瑞々しさに満ちたさま"
+    },
+    {
+      "id": 30390,
+      "nrs": "velkym",
+      "pos": "形",
+      "meaningJa": "冷涼な、清廉な、澄み渡る冷気ある",
+      "meaningEn": "crisply chilly, pristinely cold",
+      "ipa": "[vel.kym]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "汚れなく冷ややかに引き締まったさま"
+    },
+    {
+      "id": 30391,
+      "nrs": "parsur",
+      "pos": "形",
+      "meaningJa": "星辰灼熱の、星辰熱烈な、激しく燃え盛る",
+      "meaningEn": "scaldingly torrid, passionately fervent",
+      "ipa": "[par.sur]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "熱波や情熱が激しく渦巻いているさま"
+    },
+    {
+      "id": 30392,
+      "nrs": "dortan",
+      "pos": "形",
+      "meaningJa": "忠実な、献身的な、約束を守る",
+      "meaningEn": "unfalteringly faithful, devoted",
+      "ipa": "[dor.tan]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "主君や信念に対して裏表のないさま"
+    },
+    {
+      "id": 30393,
+      "nrs": "soltis",
+      "pos": "形",
+      "meaningJa": "平穏無事な、波風立たぬ、静止せる",
+      "meaningEn": "tranquil, calm, unruffled",
+      "ipa": "[sol.tis]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "風や波がなく穏やかに鎮まっているさま"
+    },
+    {
+      "id": 30394,
+      "nrs": "harton",
+      "pos": "形",
+      "meaningJa": "険しい、峻烈な、容易に近づけぬ",
+      "meaningEn": "rugged, precipitous, austere",
+      "ipa": "[har.ton]",
+      "category": "追加語彙（星辰文明）",
+      "notes": "地形や態度が厳しく人を拒むさま"
     }
   ],
   "frames": {
+    "267": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ku",
+        "uo"
+      ]
+    },
     "30001": {
       "required": [
         "el",
@@ -932,16 +3782,6 @@
       "allowed": [
         "el",
         "ia"
-      ]
-    },
-    "267": {
-      "required": [
-        "el"
-      ],
-      "allowed": [
-        "el",
-        "ku",
-        "uo"
       ]
     },
     "30009": {
