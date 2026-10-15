@@ -16,10 +16,10 @@
     "fonts/font_b64.txt": "21c3ef32a2ebba0fc412c454527f86d2ce310a72911967f13fb3ee1741097d4c",
     "web/app.js": "6cb43d638d13d056ec90c1de674e6ed9cfcac13badf0a33a9827d250d380ff55",
     "web/workspace.js": "9c2c41316fcc9238f66e2bcb699cd89ea5e2122c742a27dc6b24fccfdc1f2680",
-    "web/incremental.js": "b5025a1f591e66f95548f9e87c7786e3c83b0ee363c158433cf5a1b50d11ef98",
+    "web/incremental.js": "127d7cf50b9bcbb3a7e831b5654cc00793adc926902dca6f84acf262b9d00b52",
     "web/data.js": "738583d1abc18e9a67d105946094189aaaec6a193401de2c14c9f4013cbabc97",
     "web/index.html": "7f5b8523b842f9de6b364d00d7ae3a31ec9886510d2cb8f08ca976e7b5008496",
-    "web/standalone.html": "ea5bbd054b0a8652d22ed5105f01c98ce1608213eea8c5f1cb2b3da877599373",
+    "web/standalone.html": "d195a7ddb4f881c3ec59308692e73ea6011eb437e763a9a21ac067d983a0c212",
     "web/manifest.json": "66584246aa34d738552f66254eb2d155f9231546320ae72b9cca6a3b48b77384",
     "web/icon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35",
     "web/favicon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35"

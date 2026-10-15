@@ -45,6 +45,11 @@
       const found = [...new Map([...(index.get(text)||[]), ...(adj ? (index.get(text+'な')||[]) : [])].filter(e=>e.p.includes('名') || adj && e.p.includes('形')).map(e=>[e.id,e])).values()];
       if (found.length === 1) return found[0].r;
       if (found.length > 1) throw Error(`「${text}」の語義候補が複数：`+found.slice(0,5).map(e=>e.r).join(' / '));
+      if(text.endsWith('こと')) {
+        const v = text.slice(0, -2);
+        const verbEntry = vocab.find(e => e.p.includes('動') && gloss(e).includes(v));
+        if(verbEntry) return verbEntry.r;
+      }
       if ((text.match(/の/g)||[]).length === 1) { const [a,b] = text.split('の'); return phrase(b,adj,depth+1)+' en '+phrase(a,false,depth+1); }
       if(!text.includes('の') && (text.match(/と/g)||[]).length===1) {
         const [a,b]=text.split('と');return phrase(a,false,depth+1)+' ul '+phrase(b,false,depth+1);
@@ -222,12 +227,16 @@
       return null;
     }
     function part(source,choices,depth=0) {
-      const compound=source.match(/^(.+?)(なら|ので|けれど|とき)[、,](.+)$/);
+      const compound=source.match(/^(.+?)(なら|ので|から|だから|けれど|けれども|とき)(?:[、,]|\s+)(.+)$/);
       if(compound){
         if((source.match(/(?:なら|ので|けれど|とき)[、,]/g)||[]).length>1)return {source,text:'',state:'blocked',notes:['接続する節の範囲が複数あります。入れ子を推測せず、一節ずつ確認してください。']};
         if(depth>=2)return {source,text:'',state:'blocked',notes:['節の入れ子が深すぎます。一文を分けてください。']};
-        const relation={なら:['sen','条件'],ので:['zen','理由'],けれど:['tor','譲歩'],とき:['hav','時間']}[compound[2]];
-        const clauses=[part(compound[1].trim(),{},depth+1),part(compound[3].trim(),{},depth+1)];
+        const relation={なら:['sen','条件'],ので:['zen','理由'],から:['zen','理由'],だから:['zen','理由'],けれど:['tor','譲歩'],けれども:['tor','譲歩'],とき:['hav','時間']}[compound[2]];
+        let firstClauseText = compound[1].trim();
+        if(compound[2]==='だから' && !firstClauseText.endsWith('だ') && !firstClauseText.endsWith('である')) {
+          firstClauseText += 'だ';
+        }
+        const clauses=[part(firstClauseText,{},depth+1),part(compound[3].trim(),{},depth+1)];
         const meaning={schemaVersion:1,kind:'compound',relation:relation[0],clauses:clauses.map(c=>c.meaning||{kind:'unresolved',source:c.source})};
         if(clauses.some(c=>c.state!=='complete'||c.meaning?.question))return {source,text:'',state:clauses.some(c=>c.state==='blocked')?'blocked':'draft',meaning,notes:[relation[1]+'節の未確定部分を保持。節ごとに主体・解釈を明示してください。',...clauses.flatMap(c=>c.notes)]};
         const bare=t=>t.replace(/[.?]+$/,'').replace(/^./,c=>c.toLowerCase());
@@ -244,10 +253,29 @@
         const alignment=[...phraseRows(a,ar,shared?'共有所有者':'並列項'),{src:'と',dst:'ul',role:'並列'},...phraseRows(b,br,'所有者'),{src:'の',dst:'en',role:'属格（範囲を選択）'},...phraseRows(thing,tr,'所有物')];
         return {source,text:target,state:choices.confirmed?'phrase':'candidate',candidate:choices.confirmed?'':target,notes:[...notes,shared?'共有所有を選択':'別々の並列項を選択',...lexicalNotes(target)],scopeAmbiguous:true,alignment};
       }catch(_){}
+      const trailingCompound = key(source).match(/^(.+?)(なら|ので|から|だから|けれど|けれども|とき)$/);
+      if(trailingCompound) {
+        let subText = trailingCompound[1].trim();
+        if(trailingCompound[2]==='だから' && !subText.endsWith('だ') && !subText.endsWith('である')) subText += 'だ';
+        const relation = {なら:['sen','条件'],ので:['zen','理由'],から:['zen','理由'],だから:['zen','理由'],けれど:['tor','譲歩'],けれども:['tor','譲歩'],とき:['hav','時間']}[trailingCompound[2]];
+        const subClause = part(subText, choices, depth + 1);
+        const prefix = relation[0][0].toUpperCase() + relation[0].slice(1);
+        const bare = t => t.replace(/[.?]+$/, '').replace(/^./, c => c.toLowerCase());
+        const clauseText = subClause.text ? prefix + ' ' + bare(subClause.text) : prefix;
+        const meaning = {schemaVersion: 1, kind: 'compound_incomplete', relation: relation[0], clause: subClause.meaning || {kind: 'unresolved', source: subText}};
+        return {
+          source,
+          text: clauseText,
+          state: 'draft',
+          meaning,
+          notes: [relation[1] + '節として解釈。続く主節の入力待ちです。', ...subClause.notes],
+          alignment: [...(subClause.alignment || []).map(a => ({...a, role: '従属節・' + a.role})), {src: trailingCompound[2], dst: relation[0], role: relation[1] + '接続'}]
+        };
+      }
       const direct=full(source);if(direct)return {...direct,source};
       let text=key(source), question=text.endsWith('?');text=text.replace(/\?$/,'');if(text.endsWith('か')){question=true;text=text.slice(0,-1);}
       const notes=[];let feature='';
-      for(const [tail,label] of [['ことができなかった','過去の可能の否定'],['ことができない','可能の否定'],['ことができる','可能'],['必要がある','必要'],['つもりだ','意図'],['かもしれない','推量'],['と思う','思考'],['かも','推量']])if(text.endsWith(tail)){text=text.slice(0,-tail.length);feature=label;break;}
+      for(const [tail,label] of [['ことができなかった','過去の可能の否定'],['ことである','指針'],['ことです','指針'],['ことだ','指針'],['こと','行為'],['ことができない','可能の否定'],['ことができる','可能'],['必要がある','必要'],['つもりだ','意図'],['かもしれない','推量'],['と思う','思考'],['かも','推量']])if(text.endsWith(tail)){text=text.slice(0,-tail.length);feature=label;break;}
       const alias=[...aliases].sort((a,b)=>b.ending.length-a.ending.length).find(a=>text.endsWith(a.ending));
       let form=alias ? forms.find(f=>f.ending===alias.replacement) : forms.find(f=>text.endsWith(f.ending));
       const ending=alias?.ending || form?.ending;
@@ -271,7 +299,7 @@
       if(alias?.chooseVerb)notes.push('動作候補：観測する／仰ぎ見る。未来への展望・予見も区別して選択してください。');
       if(alias?.feature)feature=[feature,alias.feature].filter(Boolean).join('・');
       if(form?.feature)feature=[feature,form.feature].filter(Boolean).join('・');
-      if(feature)notes.push(feature+'の表現は未対応。意味を省略せず保持します。');
+      if(feature && !['行為','指針'].includes(feature))notes.push(feature+'の表現は未対応。意味を省略せず保持します。');
       try {args=parsedArgs(body,form||{});}catch(_) {
         try {
           const split=body.match(/^(.+?)[はが、,](.+)$/);
@@ -296,6 +324,39 @@
       if(alias?.chooseVerb && choices.verb==='仰ぎ見る')return {source,text:fragments,state:'blocked',notes:[...notes,'仰ぎ見るの出力文型は未対応です。']};
       if(alias?.chooseVerb && choices.verb && !['観測する','展望する','予見する','仰ぎ見る'].includes(choices.verb))return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
       const meaning=meaningOf(form?{...form,ending}:null,args,question,feature);
+      if(feature==='行為' || feature==='指針') {
+        if(!args.el) {
+          const p = form ? (byId.get(form.id).r + (form.suffix || '')) : '';
+          const words = [p];
+          for(const c of caseOrder) if(c!=='el' && args[c]) words.push(c, args[c]);
+          const phraseText = words.join(' ');
+          return {
+            source,
+            text: phraseText,
+            state: 'phrase',
+            meaning,
+            alignment: meaning.alignment,
+            notes: [...notes, (feature==='行為'?'行為（動名詞句）':'指針') + 'として変換。Nebulithの語順・格標識を適用。', ...extensionNotes(form)]
+          };
+        }
+        try {
+          const words = [...form.prefixes, (form.passive ? 're' : '') + byId.get(form.id).r + (form.suffix || '')];
+          for(const c of caseOrder) if(args[c]) words.push(c, args[c]);
+          const candidate = words[0][0].toUpperCase() + words[0].slice(1) + (words.length > 1 ? ' ' + words.slice(1).join(' ') : '') + '.';
+          return {
+            source,
+            text: candidate,
+            state: choices.confirmed ? 'complete' : 'candidate',
+            candidate,
+            meaning,
+            senseOptions,
+            alignment: meaning.alignment,
+            notes: [...notes, (feature==='行為'?'行為の叙述':'指針') + 'として変換。Nebulithの格・項構造を検証。', ...extensionNotes(form)]
+          };
+        } catch(e) {
+          return {source, text: fragments, state: 'blocked', notes: [...notes, e.message]};
+        }
+      }
       if(feature || !form)return {source,text:fragments,state:'blocked',meaning,notes:[...notes,...(!form?['時制・相の組み合わせは未対応です。']:[])],alignment:argumentRows(args)};
       if(!args.el || alias && !alias.complete || alias?.chooseVerb && !choices.verb)return {source,text:fragments,state:'draft',meaning,notes,alignment:argumentRows(args)};
       try {
