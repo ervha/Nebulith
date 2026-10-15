@@ -13,7 +13,7 @@ Nebulith（ネビュリス）は、天体運行論・軌道力学および自然
 Nebulith/
 ├── docs/                                # 仕様書・辞書・言語設計書
 │   ├── Project Requirements And Design.md  # 総合要件定義書 (v17.0)
-│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v18.0 - 計500語幹（目標1,000語中50.0%達成・折り返し到達）・純粋星辰語版)
+│   ├── Nebulith Master Lexicon.md          # 辞書・語彙リファレンス (v19.0 - 計580語幹（目標1,000語中58.0%達成・一般目的語彙＆方向副詞拡張）・純粋星辰語版)
 │   └── Nebulith Executive Summary.md       # プロジェクト総括リファレンス
 ├── data/                                # 機械可読・構造化語彙データ
 │   ├── lexicon.json                     # JSON形式（文法・数詞・接尾辞・語彙メタデータ）

@@ -1,9 +1,9 @@
-# 人工言語「Nebulith（ネビュリス）」マスター辞書定義書（Nebulith Master Lexicon v18.0）
+# 人工言語「Nebulith（ネビュリス）」マスター辞書定義書（Nebulith Master Lexicon v19.0）
 
-**文書バージョン**: v18.0 (地球言語借用完全排除・全10分野420語幹・柔剛調和独自音韻版)  
+**文書バージョン**: v19.0 (地球言語借用完全排除・全10分野420語幹・柔剛調和独自音韻版)  
 **最終更新日**: 2026-10-15  
-**ステータス**: **全10分野・計 500 語幹収録／既成言語借用ゼロ・同音衝突ゼロ・完全検証済**  
-**目標規模**: 1,000語規模へ段階的拡張中（現在進捗: 50.0%達成）  
+**ステータス**: **全10分野・計 580 語幹収録／既成言語借用ゼロ・同音衝突ゼロ・完全検証済**  
+**目標規模**: 1,000語規模へ段階的拡張中（現在進捗: 58.0%達成）  
 **対応システム**: Nebulith Studio（統合スタジオ・単一画面UI、IME、手記レンダラー）
 
 ---
@@ -84,7 +84,7 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 
 各語彙は同一文内での反復・類似音連続（ゲシュタルト崩壊）を徹底排除するため、**行為・対象・道具・場所・主体のそれぞれに固有の自立語根**を割り当てています。
 
-### 1. 天体・光・宇宙論 (54 語幹)
+### 1. 天体・光・宇宙論 (62 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -142,8 +142,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`faldikur`** | [fal.di.kur] | 名 | 屈折、光の屈折、光路の曲がり | optical refraction, light bending | falun (光) ＋ 屈折 |
 | **`celzyl`** | [ʃel.zyl] | 名 | 青空、蒼穹光、大気の散乱光 | blue sky scattering, azure glow | celen (空) ＋ zylin (青) |
 | **`tyrfos`** | [tyr.fos] | 名 | 連星系の重心、天体共通重心、平衡点 | barycenter, Lagrange balance point | tyral (引力) ＋ 平衡点 |
+| **`valkir`** | [val.kir] | 名 | 影、日陰、陰影、遮光域 | shadow, shade, silhouette | 光の遮断域 |
+| **`falret`** | [fal.ret] | 名 | 反射、照り返し、跳ね返り光 | reflection, reverberant glare | falun (光) ＋ 照り返し |
+| **`poryk`** | [po.ryk] | 名 | 距離、道のり、隔たり、行程 | distance, span, interval | poran (歩む) ＋ 隔たり |
+| **`taldun`** | [tal.dun] | 名 | 傾斜、坂道、勾配、斜面 | slope, incline, gradient | tal (大地) ＋ 勾配 |
+| **`celkop`** | [ʃel.kop] | 名 | 頂、てっぺん、最上部、頂嶺 | crest, summit, tip | celen (空) ＋ 突出点 |
+| **`tulfin`** | [tul.fin] | 名 | 底面、土台、底、最下面 | bottom surface, base, footing | tulos (天底) ＋ 基面 |
+| **`jylkon`** | [ʒyl.kon] | 名 | 隙間、間隔、スリット、間隙 | gap, slit, aperture | jyl (結合) 間の空隙 |
+| **`tykvar`** | [tyk.var] | 名 | 振動、揺れ、周期振動、脈動震 | vibration, oscillation, tremble | tyk (拍) ＋ 揺らぎ |
 
-### 2. 数理・幾何・情報科学 (54 語幹)
+### 2. 数理・幾何・情報科学 (62 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -201,8 +209,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`delrin`** | [del.rin] | 名 | 連続体、無理数、実数直線 | continuum, irrational number | delis (小数) ＋ rin (環) |
 | **`kirvat`** | [kir.vat] | 名 | スキーマ、データ構造定義、論理骨格 | schema, data structure layout | kiran (記述) ＋ 格子 |
 | **`vedot`** | [ve.dot] | 名 | 条件式、論理前提、命題 | predicate, proposition, premise | ved (真偽値) ＋ 定立 |
+| **`zydis`** | [zy.dis] | 名 | 証拠、証憑、裏付け、客観的事実証 | evidence, proof, corroboration | zyd (検証実相) ＋ 証跡 |
+| **`sevur`** | [se.vur] | 名 | 選択肢、オルタナティブ、分岐選出 | alternative, option, choice | sevik (分岐) ＋ 選択肢 |
+| **`firtas`** | [fir.tas] | 名 | 基準、標準、物差し、規準 | standard, benchmark, criterion | firas (不変値) ＋ 規範 |
+| **`kelvis`** | [kel.vis] | 名 | 差異、相違点、偏差、違い | difference, disparity, variance | kelon (変数) ＋ 差異 |
+| **`unvis`** | [un.vis] | 名 | 同一性、共通点、一致、同値 | identity, sameness, coincidence | un (一) ＋ 共通性 |
+| **`kirfas`** | [kir.fas] | 名 | 手順、段取り、プロセス、手続き | procedure, protocol, process | kiras (創る/組む) ＋ 工程 |
+| **`suflit`** | [suf.lit] | 名 | 要約、まとめ、抄録、骨子 | summary, abstract, recap | suf (計算/論理) ＋ 凝縮 |
+| **`vedkar`** | [ved.kar] | 名 | 結論、決着、論理的帰結 | conclusion, logical outcome, settlement | ved (真偽値) ＋ 確定点 |
 
-### 3. 生命・身体・医療 (49 語幹)
+### 3. 生命・身体・医療 (57 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -255,8 +271,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`zyvrev`** | [zyv.rev] | 名/動 | 蘇生、心肺回復、再活性化する | resuscitation, reanimation, revival | zyvel (命) ＋ revir (覚醒) |
 | **`kyminar`** | [ky.mi.nar] | 名 | 安息所、病床、療養室 | infirmary, recovery ward, hospice | kymin (睡眠/休養) ＋ 施設 |
 | **`tylkin`** | [tyl.kin] | 名 | 傷痕、瘢痕、治癒の跡 | scar, cicatrisation, healed trace | tylkar (創傷) ＋ 痕跡 |
+| **`vyltin`** | [vyl.tin] | 名 | 眉、まゆげ、額の弓 | eyebrow, brow | vylan (瞳) の上の弓 |
+| **`serjyt`** | [ser.ʒyt] | 名 | 手首、関節、手の節点 | wrist, joint, articulate node | ser (手) ＋ jyt (節点) |
+| **`larkul`** | [lar.kul] | 名 | 足首、くるぶし、歩行関節 | ankle, tarsus | larin (足) ＋ 節点 |
+| **`fenrut`** | [fen.rut] | 名 | 喉、気道、咽頭、声の通り道 | throat, pharynx | fenel (口) ＋ 息道 |
+| **`durtin`** | [dur.tin] | 名 | 肩、荷を担ぐ支え | shoulder, brace | duril (強骨) ＋ 支え |
+| **`velmor`** | [vel.mor] | 名 | 背中、脊椎、背部 | back, spine, dorsal plane | 身体の背側 |
+| **`zyvris`** | [zyv.ris] | 名 | 息、吐息、ため息、小呼吸 | breath, exhalation, sigh | zyvel (息吹) ＋ 吐息 |
+| **`kyminis`** | [ky.mi.nis] | 名 | 居眠り、うたた寝、小休止 | nap, doze, catnap | kymin (睡眠) ＋ 縮小 |
 
-### 4. 自然・気象・環境 (58 語幹)
+### 4. 自然・気象・環境 (66 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -318,8 +342,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`pyrlom`** | [pyr.lom] | 名 | 火災、山火事、火炎原 | wildfire, conflagration, blazing zone | pyris (火) ＋ -om (広域) |
 | **`talisar`** | [ta.li.sar] | 名 | 採石場、鉱山、石切り場 | quarry, mine, stone-pit | talis (石) ＋ 採掘場 |
 | **`faldaris`** | [fal.da.ris] | 名 | 虹、天の彩橋、分光光弧 | rainbow, celestial prismatic arc | falun (光) ＋ daris (水) |
+| **`talsid`** | [tal.sid] | 名 | 砂、小石、砂利、粗砂 | sand, gravel, fine grit | tal (大地) ＋ 砕粒 |
+| **`darpuk`** | [dar.puk] | 名 | 水たまり、窪みの水、雨水溜まり | puddle, pool, standing water | dar (水) ＋ 溜まり |
+| **`wylsuk`** | [wyl.suk] | 名 | すきま風、風の通り道、隙間風 | draft, gust through gap | wylas (風) ＋ 隙間抜け |
+| **`velspar`** | [vel.spar] | 名 | 枝、大枝、小枝、樹枝 | branch, bough, twig | vel (木) ＋ 伸びる枝 |
+| **`veltul`** | [vel.tul] | 名 | 根、地下茎、根源、根幹 | root, subterranean taproot | vel (木) ＋ tulos (底) |
+| **`celkym`** | [ʃel.kym] | 名 | 雨雲、暗雲、低層雨雲 | rain cloud, nimbus, dark sky cloud | celen (空) ＋ kym (闇) |
+| **`talfot`** | [tal.fot] | 名 | 土埃、砂ぼこり、微細粉塵 | dust, earth dust, airborne powder | tal (大地) ＋ 飛沫粉 |
+| **`darrot`** | [dar.rot] | 名 | 波、波浪、水面のさざ波 | wave, ripple, billow | dar (水) ＋ 揺らぎ波 |
 
-### 5. 社会・法・共同体 (43 語幹)
+### 5. 社会・法・共同体 (51 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -366,8 +398,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`cynmar`** | [ʃyn.mar] | 名 | 扶助、相互扶助、福祉 | mutual aid, relief, welfare | cynel (慈しみ) ＋ mar (授受) |
 | **`vyranor`** | [vy.ra.nor] | 名 | 教師、教授、指導導師 | professor, instructor, mentor | vyranar (学舎) ＋ 指導者 |
 | **`jyltis`** | [ʒyl.tis] | 名 | 連合、同盟条約、協調体制 | coalition, league, alliance | jylot (盟約) ＋ 連合 |
+| **`cynfin`** | [ʃyn.fin] | 名 | 仲間、同僚、同朋、連帯者 | comrade, peer, associate | cynas (友愛) ＋ 連帯 |
+| **`kuralit`** | [ku.ra.lit] | 名 | 隣人、近隣の住民、お隣さん | neighbor, fellow dweller | kuralom (共同体) ＋ 近隣 |
+| **`tarkas`** | [tar.kas] | 名 | 許可、承認、認可証、免許 | permission, permit, authorization | taros (法) ＋ 認可 |
+| **`renvis`** | [ren.vis] | 名 | 価格、代価、値段、対価 | price, cost, charge | renis (通貨) ＋ 評価 |
+| **`dolren`** | [dol.ren] | 名 | 給与、報酬、労賃、手当 | wage, salary, recompense | dolar (労働) ＋ renis (通貨) |
+| **`jylmar`** | [ʒyl.mar] | 名 | 協力、協同作業、チームワーク | cooperation, collaboration, team effort | jyl (結ぶ) ＋ mar (共動) |
+| **`calfen`** | [ʃal.fen] | 名 | 演説、スピーチ、呼びかけ、論述 | speech, address, proclamation | calun (語らう) ＋ fenor (発話) |
+| **`polkar`** | [pol.kar] | 名 | 集会、集まり、寄り合い、市民会合 | gathering, assembly, meetup | polor (市民) ＋ 会合 |
 
-### 6. 精神・感情・哲学 (43 語幹)
+### 6. 精神・感情・哲学 (51 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -414,8 +454,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`fevnas`** | [fev.nas] | 名 | 忠誠、信義、誠意 | fidelity, loyalty, allegiance | fevas (信託) ＋ 誠意 |
 | **`cylanar`** | [ʃy.la.nar] | 名 | 劇場、美術館、芸術の館 | theater, art gallery, salon | cylan (美) ＋ 空間 |
 | **`suflom`** | [suf.lom] | 名 | 論理体系、公理系、推論規則系 | logical system, axiomatic framework | suf (論理) ＋ 体系領域 |
+| **`sylran`** | [syl.ran] | 名 | 決断、覚悟、思い切り、決心 | decision, resolute choice | sylim (心) ＋ vyran (真理) |
+| **`lyrtas`** | [lyr.tas] | 名 | 後悔、悔恨、やり直しへの念 | regret, remorse | lyras (切なさ) ＋ 回顧 |
+| **`elirtas`** | [e.lir.tas] | 名 | 祝意、お祝い、祝福の辞 | congratulations, festive cheer | elir (喜び) ＋ 祝福 |
+| **`krotiluk`** | [kro.ti.luk] | 名 | 焦燥、苛立ち、もどかしさ | impatience, frustration, restlessness | krotas (激動) ＋ もどかしさ |
+| **`sirlem`** | [sir.lem] | 名 | 寛容、広い心、包容、受容 | tolerance, broad-mindedness, leniency | sirin (平穏) ＋ 包容 |
+| **`fevkar`** | [fev.kar] | 名 | 約束、確約、誓言、誓約言明 | pledge, firm undertaking | fevas (信託) ＋ 確約 |
+| **`sufvis`** | [suf.vis] | 名 | 機転、機智、臨機応変、知恵の働き | wit, clever resourcefulness, tact | suf (計算/論理) ＋ 転回 |
+| **`weldor`** | [wel.dor] | 名 | 抱負、大志、大いなる願い | ambition, aspiration, lofty vision | welin (希望) ＋ 志向 |
 
-### 7. 日常・住まい・食 (52 語幹)
+### 7. 日常・住まい・食 (60 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -471,8 +519,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`valdanar`** | [val.da.nar] | 名 | 織物工房、機織り座、布工房 | textile atelier, loom workshop | valdan (絨毯) ＋ 工房 |
 | **`bionas`** | [bi.o.nas] | 名 | 水差し、カラフェ、ピッチャー | pitcher, jug, decanter | bion (飲む) ＋ 注ぎ器 |
 | **`pamelar`** | [pa.me.lar] | 名 | 図書館、文庫、書物閲覧所 | library, archive, book hall | pamel (書物) ＋ 収蔵館 |
+| **`domtas`** | [dom.tas] | 名 | 階段、ステップ、昇降段 | stairs, steps, staircase | dom (室) ＋ 段差 |
+| **`lertal`** | [ler.tal] | 名 | 廊下、通路、渡り廊下 | corridor, hallway, passage | lerel (扉) ＋ tal (歩廊) |
+| **`valkor`** | [val.kor] | 名 | 紐、縄、コード、縛り糸 | string, cord, rope, tie | valis (布) ＋ 撚り糸 |
+| **`faldisan`** | [fal.di.san] | 名 | カーテン、ブラインド、遮光幕 | curtain, drape, sun-shade | falun (光) ＋ 遮光布 |
+| **`talpak`** | [tal.pak] | 名 | 箱、小箱、収納ケース、匣 | box, chest, container casing | 収納の外箱 |
+| **`nerkot`** | [ner.kot] | 名 | 鍋敷き、調理台敷、受け皿 | pot stand, trivet, saucer | ner (食) ＋ 受け座 |
+| **`biondis`** | [bi.on.dis] | 名 | 水筒、ボトル、携帯飲料瓶 | canteen, flask, portable bottle | bion (飲む) ＋ 携帯容器 |
+| **`pamelis`** | [pa.me.lis] | 名 | 栞、ブックマーク、目印の紐 | bookmark, marker ribbon | pamel (本) ＋ 挟み紐 |
 
-### 8. 動作・相互作用 (52 語幹)
+### 8. 動作・相互作用 (60 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -528,8 +584,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`serfas`** | [ser.fas] | 動 | 離す、手を放す、手放す | release, let go, disengage | ser (手) ＋ 離脱 |
 | **`klomas`** | [klo.mas] | 動 | 遮断する、孤立させる、隔離する | isolate, insulate, shut off | klovel (鍵) ＋ 隔離 |
 | **`volkin`** | [vol.kin] | 動 | 滑空する、風に乗って滑る、空を滑る | glide, sail on the air | volan (飛ぶ) ＋ 滑走 |
+| **`serdar`** | [ser.dar] | 動 | 洗う、洗い流す、清める | wash, rinse, cleanse | ser (手) ＋ dar (水) |
+| **`talsit`** | [tal.sit] | 動 | 置く、据える、配置する、着座させる | put, place, set down | tal (大地) ＋ 据え置く |
+| **`nerpas`** | [ner.pas] | 動 | 煮る、茹でる、熱湯調理する | boil, simmer, poach | ner (食) ＋ 温熱調理 |
+| **`pyrtos`** | [pyr.tos] | 動 | 焼く、炙る、ローストする | roast, bake, grill | pyris (火) ＋ 直火加熱 |
+| **`kirasen`** | [ki.ra.sen] | 動 | 修理する、直す、修繕する | repair, mend, fix | kiras (創る) ＋ 回復 |
+| **`larvor`** | [lar.vor] | 動 | 回り道する、迂回する、遠回りする | detour, bypass, skirt around | laris (道) ＋ 迂回 |
+| **`fensir`** | [fen.sir] | 動 | ささやく、小声で話す、耳打ちする | whisper, murmur softly | fenor (話す) ＋ sirin (静穏) |
+| **`volpas`** | [vol.pas] | 動 | 飛び降りる、跳躍する、飛び越える | jump, leap over, hop down | volan (飛ぶ) ＋ 跳躍 |
 
-### 9. 性質・色彩・状態 (47 語幹)
+### 9. 性質・色彩・状態 (55 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -580,8 +644,16 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`kyrfini`** | [kyr.fi.ni] | 形 | 凍結した、氷河のような、極寒の | glacial, ice-locked, gelid | kyrfin (氷河) の性質 |
 | **`falpiri`** | [fal.pi.ri] | 形 | 冷光の、幽かな燐光を放つ | phosphorescent, glow-in-the-dark | falpir (燐光) の性質 |
 | **`durvani`** | [dur.va.ni] | 形 | 免疫のある、抗体を持った、無傷の | immune, resistant, impervious | durvan (免疫) の性質 |
+| **`rinini`** | [ri.ni.ni] | 形 | 丸い、円形の、球状の | round, circular, spherical | rin (円) の性質 |
+| **`tuliki`** | [tu.li.ki] | 形 | 角張った、多角形の、角ばった | angular, polygonal, edged | tulik (多角形) の性質 |
+| **`taliski`** | [ta.lis.ki] | 形 | ざらざらした、粗い、岩肌のような | rough, coarse, gritty | talis (石) の性質 |
+| **`darisli`** | [da.ris.li] | 形 | なめらかな、すべすべした、水流のような | smooth, sleek, fluid | daris (水) の性質 |
+| **`valpini`** | [val.pi.ni] | 形 | 厚い、分厚い、重層の | thick, stout, dense-layered | 布地・層の厚み |
+| **`porkini`** | [por.ki.ni] | 形 | 狭い、窮屈な、幅の狭い | narrow, tight, cramped | 通路の狭さ |
+| **`talmori`** | [tal.mo.ri] | 形 | 広い、広々とした、開放的な | spacious, broad, roomy | talmor (広野) の性質 |
+| **`cironli`** | [ʃi.ron.li] | 形 | 賑やかな、活気ある、声響く | lively, bustling, vibrant | 声・音に満ちた |
 
-### 10. 時空・方位・副詞 (48 語幹)
+### 10. 時空・方位・副詞 (56 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -633,6 +705,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`novdenu`** | [nov.de.nu] | 副 | 北へ、天頂極へ向かって | northward, toward zenith | novden (北) ＋ 副詞語尾 |
 | **`tuldenu`** | [tul.de.nu] | 副 | 南へ、天底極へ向かって | southward, toward nadir | tulden (南) ＋ 副詞語尾 |
 | **`kivku`** | [kiv.ku] | 副 | ビット単位で、微細に、逐一 | bit by bit, granularity, item by item | kiv (ビット) ＋ 共格副詞 |
+| **`vorasu`** | [vo.ra.su] | 副 | 前へ、前方へ、未来へ向かって | forward, onward, ahead | voras (前) ＋ -u (方向副詞) |
+| **`pasonu`** | [pa.so.nu] | 副 | 後ろへ、後方へ、過去へ向かって | backward, rearward, behind | pason (後) ＋ -u (方向副詞) |
+| **`lerinu`** | [le.ri.nu] | 副 | 左へ、左側へ、左舷へ | leftward, to the left | lerin (左) ＋ -u (方向副詞) |
+| **`parinu`** | [pa.ri.nu] | 副 | 右へ、右側へ、右舷へ | rightward, to the right | parin (右) ＋ -u (方向副詞) |
+| **`silinu`** | [si.li.nu] | 副 | 内へ、内部へ、心の内へ向かって | inward, inside, inwardly | silin (内) ＋ -u (方向副詞) |
+| **`folanu`** | [fo.la.nu] | 副 | 外へ、外部へ、外界へ向かって | outward, outside, outwardly | folan (外) ＋ -u (方向副詞) |
+| **`celosu`** | [ʃe.lo.su] | 副 | 上へ、上方へ、空へ向かって | upward, aloft, to the heights | celos (上) ＋ -u (方向副詞) |
+| **`talosu`** | [ta.lo.su] | 副 | 下へ、下方へ、大地へ向かって | downward, beneath, to the ground | talos (下) ＋ -u (方向副詞) |
 
 ---
 

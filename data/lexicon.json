@@ -5,8 +5,8 @@
   "updatedAt": "2026-10-15",
   "status": "Pure Celestial Conlang without Earth Borrowings (Gradual Expansion to 1000)",
   "targetGoal": 1000,
-  "currentProgressPercent": 50.0,
-  "totalEntries": 500,
+  "currentProgressPercent": 58.0,
+  "totalEntries": 580,
   "phonology": {
     "vowels": [
       "a",
@@ -5317,6 +5317,806 @@
       "meaningJa": "ビット単位で、微細に、逐一",
       "meaningEn": "bit by bit, granularity, item by item",
       "notes": "kiv (ビット) ＋ 共格副詞"
+    },
+    {
+      "id": 501,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "valkir",
+      "ipa": "[val.kir]",
+      "pos": "名",
+      "meaningJa": "影、日陰、陰影、遮光域",
+      "meaningEn": "shadow, shade, silhouette",
+      "notes": "光の遮断域"
+    },
+    {
+      "id": 502,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "falret",
+      "ipa": "[fal.ret]",
+      "pos": "名",
+      "meaningJa": "反射、照り返し、跳ね返り光",
+      "meaningEn": "reflection, reverberant glare",
+      "notes": "falun (光) ＋ 照り返し"
+    },
+    {
+      "id": 503,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "poryk",
+      "ipa": "[po.ryk]",
+      "pos": "名",
+      "meaningJa": "距離、道のり、隔たり、行程",
+      "meaningEn": "distance, span, interval",
+      "notes": "poran (歩む) ＋ 隔たり"
+    },
+    {
+      "id": 504,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "taldun",
+      "ipa": "[tal.dun]",
+      "pos": "名",
+      "meaningJa": "傾斜、坂道、勾配、斜面",
+      "meaningEn": "slope, incline, gradient",
+      "notes": "tal (大地) ＋ 勾配"
+    },
+    {
+      "id": 505,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "celkop",
+      "ipa": "[ʃel.kop]",
+      "pos": "名",
+      "meaningJa": "頂、てっぺん、最上部、頂嶺",
+      "meaningEn": "crest, summit, tip",
+      "notes": "celen (空) ＋ 突出点"
+    },
+    {
+      "id": 506,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "tulfin",
+      "ipa": "[tul.fin]",
+      "pos": "名",
+      "meaningJa": "底面、土台、底、最下面",
+      "meaningEn": "bottom surface, base, footing",
+      "notes": "tulos (天底) ＋ 基面"
+    },
+    {
+      "id": 507,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "jylkon",
+      "ipa": "[ʒyl.kon]",
+      "pos": "名",
+      "meaningJa": "隙間、間隔、スリット、間隙",
+      "meaningEn": "gap, slit, aperture",
+      "notes": "jyl (結合) 間の空隙"
+    },
+    {
+      "id": 508,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "tykvar",
+      "ipa": "[tyk.var]",
+      "pos": "名",
+      "meaningJa": "振動、揺れ、周期振動、脈動震",
+      "meaningEn": "vibration, oscillation, tremble",
+      "notes": "tyk (拍) ＋ 揺らぎ"
+    },
+    {
+      "id": 509,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "zydis",
+      "ipa": "[zy.dis]",
+      "pos": "名",
+      "meaningJa": "証拠、証憑、裏付け、客観的事実証",
+      "meaningEn": "evidence, proof, corroboration",
+      "notes": "zyd (検証実相) ＋ 証跡"
+    },
+    {
+      "id": 510,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "sevur",
+      "ipa": "[se.vur]",
+      "pos": "名",
+      "meaningJa": "選択肢、オルタナティブ、分岐選出",
+      "meaningEn": "alternative, option, choice",
+      "notes": "sevik (分岐) ＋ 選択肢"
+    },
+    {
+      "id": 511,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "firtas",
+      "ipa": "[fir.tas]",
+      "pos": "名",
+      "meaningJa": "基準、標準、物差し、規準",
+      "meaningEn": "standard, benchmark, criterion",
+      "notes": "firas (不変値) ＋ 規範"
+    },
+    {
+      "id": 512,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "kelvis",
+      "ipa": "[kel.vis]",
+      "pos": "名",
+      "meaningJa": "差異、相違点、偏差、違い",
+      "meaningEn": "difference, disparity, variance",
+      "notes": "kelon (変数) ＋ 差異"
+    },
+    {
+      "id": 513,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "unvis",
+      "ipa": "[un.vis]",
+      "pos": "名",
+      "meaningJa": "同一性、共通点、一致、同値",
+      "meaningEn": "identity, sameness, coincidence",
+      "notes": "un (一) ＋ 共通性"
+    },
+    {
+      "id": 514,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "kirfas",
+      "ipa": "[kir.fas]",
+      "pos": "名",
+      "meaningJa": "手順、段取り、プロセス、手続き",
+      "meaningEn": "procedure, protocol, process",
+      "notes": "kiras (創る/組む) ＋ 工程"
+    },
+    {
+      "id": 515,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "suflit",
+      "ipa": "[suf.lit]",
+      "pos": "名",
+      "meaningJa": "要約、まとめ、抄録、骨子",
+      "meaningEn": "summary, abstract, recap",
+      "notes": "suf (計算/論理) ＋ 凝縮"
+    },
+    {
+      "id": 516,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "vedkar",
+      "ipa": "[ved.kar]",
+      "pos": "名",
+      "meaningJa": "結論、決着、論理的帰結",
+      "meaningEn": "conclusion, logical outcome, settlement",
+      "notes": "ved (真偽値) ＋ 確定点"
+    },
+    {
+      "id": 517,
+      "category": "3. 生命・身体・医療",
+      "nrs": "vyltin",
+      "ipa": "[vyl.tin]",
+      "pos": "名",
+      "meaningJa": "眉、まゆげ、額の弓",
+      "meaningEn": "eyebrow, brow",
+      "notes": "vylan (瞳) の上の弓"
+    },
+    {
+      "id": 518,
+      "category": "3. 生命・身体・医療",
+      "nrs": "serjyt",
+      "ipa": "[ser.ʒyt]",
+      "pos": "名",
+      "meaningJa": "手首、関節、手の節点",
+      "meaningEn": "wrist, joint, articulate node",
+      "notes": "ser (手) ＋ jyt (節点)"
+    },
+    {
+      "id": 519,
+      "category": "3. 生命・身体・医療",
+      "nrs": "larkul",
+      "ipa": "[lar.kul]",
+      "pos": "名",
+      "meaningJa": "足首、くるぶし、歩行関節",
+      "meaningEn": "ankle, tarsus",
+      "notes": "larin (足) ＋ 節点"
+    },
+    {
+      "id": 520,
+      "category": "3. 生命・身体・医療",
+      "nrs": "fenrut",
+      "ipa": "[fen.rut]",
+      "pos": "名",
+      "meaningJa": "喉、気道、咽頭、声の通り道",
+      "meaningEn": "throat, pharynx",
+      "notes": "fenel (口) ＋ 息道"
+    },
+    {
+      "id": 521,
+      "category": "3. 生命・身体・医療",
+      "nrs": "durtin",
+      "ipa": "[dur.tin]",
+      "pos": "名",
+      "meaningJa": "肩、荷を担ぐ支え",
+      "meaningEn": "shoulder, brace",
+      "notes": "duril (強骨) ＋ 支え"
+    },
+    {
+      "id": 522,
+      "category": "3. 生命・身体・医療",
+      "nrs": "velmor",
+      "ipa": "[vel.mor]",
+      "pos": "名",
+      "meaningJa": "背中、脊椎、背部",
+      "meaningEn": "back, spine, dorsal plane",
+      "notes": "身体の背側"
+    },
+    {
+      "id": 523,
+      "category": "3. 生命・身体・医療",
+      "nrs": "zyvris",
+      "ipa": "[zyv.ris]",
+      "pos": "名",
+      "meaningJa": "息、吐息、ため息、小呼吸",
+      "meaningEn": "breath, exhalation, sigh",
+      "notes": "zyvel (息吹) ＋ 吐息"
+    },
+    {
+      "id": 524,
+      "category": "3. 生命・身体・医療",
+      "nrs": "kyminis",
+      "ipa": "[ky.mi.nis]",
+      "pos": "名",
+      "meaningJa": "居眠り、うたた寝、小休止",
+      "meaningEn": "nap, doze, catnap",
+      "notes": "kymin (睡眠) ＋ 縮小"
+    },
+    {
+      "id": 525,
+      "category": "4. 自然・気象・環境",
+      "nrs": "talsid",
+      "ipa": "[tal.sid]",
+      "pos": "名",
+      "meaningJa": "砂、小石、砂利、粗砂",
+      "meaningEn": "sand, gravel, fine grit",
+      "notes": "tal (大地) ＋ 砕粒"
+    },
+    {
+      "id": 526,
+      "category": "4. 自然・気象・環境",
+      "nrs": "darpuk",
+      "ipa": "[dar.puk]",
+      "pos": "名",
+      "meaningJa": "水たまり、窪みの水、雨水溜まり",
+      "meaningEn": "puddle, pool, standing water",
+      "notes": "dar (水) ＋ 溜まり"
+    },
+    {
+      "id": 527,
+      "category": "4. 自然・気象・環境",
+      "nrs": "wylsuk",
+      "ipa": "[wyl.suk]",
+      "pos": "名",
+      "meaningJa": "すきま風、風の通り道、隙間風",
+      "meaningEn": "draft, gust through gap",
+      "notes": "wylas (風) ＋ 隙間抜け"
+    },
+    {
+      "id": 528,
+      "category": "4. 自然・気象・環境",
+      "nrs": "velspar",
+      "ipa": "[vel.spar]",
+      "pos": "名",
+      "meaningJa": "枝、大枝、小枝、樹枝",
+      "meaningEn": "branch, bough, twig",
+      "notes": "vel (木) ＋ 伸びる枝"
+    },
+    {
+      "id": 529,
+      "category": "4. 自然・気象・環境",
+      "nrs": "veltul",
+      "ipa": "[vel.tul]",
+      "pos": "名",
+      "meaningJa": "根、地下茎、根源、根幹",
+      "meaningEn": "root, subterranean taproot",
+      "notes": "vel (木) ＋ tulos (底)"
+    },
+    {
+      "id": 530,
+      "category": "4. 自然・気象・環境",
+      "nrs": "celkym",
+      "ipa": "[ʃel.kym]",
+      "pos": "名",
+      "meaningJa": "雨雲、暗雲、低層雨雲",
+      "meaningEn": "rain cloud, nimbus, dark sky cloud",
+      "notes": "celen (空) ＋ kym (闇)"
+    },
+    {
+      "id": 531,
+      "category": "4. 自然・気象・環境",
+      "nrs": "talfot",
+      "ipa": "[tal.fot]",
+      "pos": "名",
+      "meaningJa": "土埃、砂ぼこり、微細粉塵",
+      "meaningEn": "dust, earth dust, airborne powder",
+      "notes": "tal (大地) ＋ 飛沫粉"
+    },
+    {
+      "id": 532,
+      "category": "4. 自然・気象・環境",
+      "nrs": "darrot",
+      "ipa": "[dar.rot]",
+      "pos": "名",
+      "meaningJa": "波、波浪、水面のさざ波",
+      "meaningEn": "wave, ripple, billow",
+      "notes": "dar (水) ＋ 揺らぎ波"
+    },
+    {
+      "id": 533,
+      "category": "5. 社会・法・共同体",
+      "nrs": "cynfin",
+      "ipa": "[ʃyn.fin]",
+      "pos": "名",
+      "meaningJa": "仲間、同僚、同朋、連帯者",
+      "meaningEn": "comrade, peer, associate",
+      "notes": "cynas (友愛) ＋ 連帯"
+    },
+    {
+      "id": 534,
+      "category": "5. 社会・法・共同体",
+      "nrs": "kuralit",
+      "ipa": "[ku.ra.lit]",
+      "pos": "名",
+      "meaningJa": "隣人、近隣の住民、お隣さん",
+      "meaningEn": "neighbor, fellow dweller",
+      "notes": "kuralom (共同体) ＋ 近隣"
+    },
+    {
+      "id": 535,
+      "category": "5. 社会・法・共同体",
+      "nrs": "tarkas",
+      "ipa": "[tar.kas]",
+      "pos": "名",
+      "meaningJa": "許可、承認、認可証、免許",
+      "meaningEn": "permission, permit, authorization",
+      "notes": "taros (法) ＋ 認可"
+    },
+    {
+      "id": 536,
+      "category": "5. 社会・法・共同体",
+      "nrs": "renvis",
+      "ipa": "[ren.vis]",
+      "pos": "名",
+      "meaningJa": "価格、代価、値段、対価",
+      "meaningEn": "price, cost, charge",
+      "notes": "renis (通貨) ＋ 評価"
+    },
+    {
+      "id": 537,
+      "category": "5. 社会・法・共同体",
+      "nrs": "dolren",
+      "ipa": "[dol.ren]",
+      "pos": "名",
+      "meaningJa": "給与、報酬、労賃、手当",
+      "meaningEn": "wage, salary, recompense",
+      "notes": "dolar (労働) ＋ renis (通貨)"
+    },
+    {
+      "id": 538,
+      "category": "5. 社会・法・共同体",
+      "nrs": "jylmar",
+      "ipa": "[ʒyl.mar]",
+      "pos": "名",
+      "meaningJa": "協力、協同作業、チームワーク",
+      "meaningEn": "cooperation, collaboration, team effort",
+      "notes": "jyl (結ぶ) ＋ mar (共動)"
+    },
+    {
+      "id": 539,
+      "category": "5. 社会・法・共同体",
+      "nrs": "calfen",
+      "ipa": "[ʃal.fen]",
+      "pos": "名",
+      "meaningJa": "演説、スピーチ、呼びかけ、論述",
+      "meaningEn": "speech, address, proclamation",
+      "notes": "calun (語らう) ＋ fenor (発話)"
+    },
+    {
+      "id": 540,
+      "category": "5. 社会・法・共同体",
+      "nrs": "polkar",
+      "ipa": "[pol.kar]",
+      "pos": "名",
+      "meaningJa": "集会、集まり、寄り合い、市民会合",
+      "meaningEn": "gathering, assembly, meetup",
+      "notes": "polor (市民) ＋ 会合"
+    },
+    {
+      "id": 541,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "sylran",
+      "ipa": "[syl.ran]",
+      "pos": "名",
+      "meaningJa": "決断、覚悟、思い切り、決心",
+      "meaningEn": "decision, resolute choice",
+      "notes": "sylim (心) ＋ vyran (真理)"
+    },
+    {
+      "id": 542,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "lyrtas",
+      "ipa": "[lyr.tas]",
+      "pos": "名",
+      "meaningJa": "後悔、悔恨、やり直しへの念",
+      "meaningEn": "regret, remorse",
+      "notes": "lyras (切なさ) ＋ 回顧"
+    },
+    {
+      "id": 543,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "elirtas",
+      "ipa": "[e.lir.tas]",
+      "pos": "名",
+      "meaningJa": "祝意、お祝い、祝福の辞",
+      "meaningEn": "congratulations, festive cheer",
+      "notes": "elir (喜び) ＋ 祝福"
+    },
+    {
+      "id": 544,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "krotiluk",
+      "ipa": "[kro.ti.luk]",
+      "pos": "名",
+      "meaningJa": "焦燥、苛立ち、もどかしさ",
+      "meaningEn": "impatience, frustration, restlessness",
+      "notes": "krotas (激動) ＋ もどかしさ"
+    },
+    {
+      "id": 545,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "sirlem",
+      "ipa": "[sir.lem]",
+      "pos": "名",
+      "meaningJa": "寛容、広い心、包容、受容",
+      "meaningEn": "tolerance, broad-mindedness, leniency",
+      "notes": "sirin (平穏) ＋ 包容"
+    },
+    {
+      "id": 546,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "fevkar",
+      "ipa": "[fev.kar]",
+      "pos": "名",
+      "meaningJa": "約束、確約、誓言、誓約言明",
+      "meaningEn": "pledge, firm undertaking",
+      "notes": "fevas (信託) ＋ 確約"
+    },
+    {
+      "id": 547,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "sufvis",
+      "ipa": "[suf.vis]",
+      "pos": "名",
+      "meaningJa": "機転、機智、臨機応変、知恵の働き",
+      "meaningEn": "wit, clever resourcefulness, tact",
+      "notes": "suf (計算/論理) ＋ 転回"
+    },
+    {
+      "id": 548,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "weldor",
+      "ipa": "[wel.dor]",
+      "pos": "名",
+      "meaningJa": "抱負、大志、大いなる願い",
+      "meaningEn": "ambition, aspiration, lofty vision",
+      "notes": "welin (希望) ＋ 志向"
+    },
+    {
+      "id": 549,
+      "category": "7. 日常・住まい・食",
+      "nrs": "domtas",
+      "ipa": "[dom.tas]",
+      "pos": "名",
+      "meaningJa": "階段、ステップ、昇降段",
+      "meaningEn": "stairs, steps, staircase",
+      "notes": "dom (室) ＋ 段差"
+    },
+    {
+      "id": 550,
+      "category": "7. 日常・住まい・食",
+      "nrs": "lertal",
+      "ipa": "[ler.tal]",
+      "pos": "名",
+      "meaningJa": "廊下、通路、渡り廊下",
+      "meaningEn": "corridor, hallway, passage",
+      "notes": "lerel (扉) ＋ tal (歩廊)"
+    },
+    {
+      "id": 551,
+      "category": "7. 日常・住まい・食",
+      "nrs": "valkor",
+      "ipa": "[val.kor]",
+      "pos": "名",
+      "meaningJa": "紐、縄、コード、縛り糸",
+      "meaningEn": "string, cord, rope, tie",
+      "notes": "valis (布) ＋ 撚り糸"
+    },
+    {
+      "id": 552,
+      "category": "7. 日常・住まい・食",
+      "nrs": "faldisan",
+      "ipa": "[fal.di.san]",
+      "pos": "名",
+      "meaningJa": "カーテン、ブラインド、遮光幕",
+      "meaningEn": "curtain, drape, sun-shade",
+      "notes": "falun (光) ＋ 遮光布"
+    },
+    {
+      "id": 553,
+      "category": "7. 日常・住まい・食",
+      "nrs": "talpak",
+      "ipa": "[tal.pak]",
+      "pos": "名",
+      "meaningJa": "箱、小箱、収納ケース、匣",
+      "meaningEn": "box, chest, container casing",
+      "notes": "収納の外箱"
+    },
+    {
+      "id": 554,
+      "category": "7. 日常・住まい・食",
+      "nrs": "nerkot",
+      "ipa": "[ner.kot]",
+      "pos": "名",
+      "meaningJa": "鍋敷き、調理台敷、受け皿",
+      "meaningEn": "pot stand, trivet, saucer",
+      "notes": "ner (食) ＋ 受け座"
+    },
+    {
+      "id": 555,
+      "category": "7. 日常・住まい・食",
+      "nrs": "biondis",
+      "ipa": "[bi.on.dis]",
+      "pos": "名",
+      "meaningJa": "水筒、ボトル、携帯飲料瓶",
+      "meaningEn": "canteen, flask, portable bottle",
+      "notes": "bion (飲む) ＋ 携帯容器"
+    },
+    {
+      "id": 556,
+      "category": "7. 日常・住まい・食",
+      "nrs": "pamelis",
+      "ipa": "[pa.me.lis]",
+      "pos": "名",
+      "meaningJa": "栞、ブックマーク、目印の紐",
+      "meaningEn": "bookmark, marker ribbon",
+      "notes": "pamel (本) ＋ 挟み紐"
+    },
+    {
+      "id": 557,
+      "category": "8. 動作・相互作用",
+      "nrs": "serdar",
+      "ipa": "[ser.dar]",
+      "pos": "動",
+      "meaningJa": "洗う、洗い流す、清める",
+      "meaningEn": "wash, rinse, cleanse",
+      "notes": "ser (手) ＋ dar (水)"
+    },
+    {
+      "id": 558,
+      "category": "8. 動作・相互作用",
+      "nrs": "talsit",
+      "ipa": "[tal.sit]",
+      "pos": "動",
+      "meaningJa": "置く、据える、配置する、着座させる",
+      "meaningEn": "put, place, set down",
+      "notes": "tal (大地) ＋ 据え置く"
+    },
+    {
+      "id": 559,
+      "category": "8. 動作・相互作用",
+      "nrs": "nerpas",
+      "ipa": "[ner.pas]",
+      "pos": "動",
+      "meaningJa": "煮る、茹でる、熱湯調理する",
+      "meaningEn": "boil, simmer, poach",
+      "notes": "ner (食) ＋ 温熱調理"
+    },
+    {
+      "id": 560,
+      "category": "8. 動作・相互作用",
+      "nrs": "pyrtos",
+      "ipa": "[pyr.tos]",
+      "pos": "動",
+      "meaningJa": "焼く、炙る、ローストする",
+      "meaningEn": "roast, bake, grill",
+      "notes": "pyris (火) ＋ 直火加熱"
+    },
+    {
+      "id": 561,
+      "category": "8. 動作・相互作用",
+      "nrs": "kirasen",
+      "ipa": "[ki.ra.sen]",
+      "pos": "動",
+      "meaningJa": "修理する、直す、修繕する",
+      "meaningEn": "repair, mend, fix",
+      "notes": "kiras (創る) ＋ 回復"
+    },
+    {
+      "id": 562,
+      "category": "8. 動作・相互作用",
+      "nrs": "larvor",
+      "ipa": "[lar.vor]",
+      "pos": "動",
+      "meaningJa": "回り道する、迂回する、遠回りする",
+      "meaningEn": "detour, bypass, skirt around",
+      "notes": "laris (道) ＋ 迂回"
+    },
+    {
+      "id": 563,
+      "category": "8. 動作・相互作用",
+      "nrs": "fensir",
+      "ipa": "[fen.sir]",
+      "pos": "動",
+      "meaningJa": "ささやく、小声で話す、耳打ちする",
+      "meaningEn": "whisper, murmur softly",
+      "notes": "fenor (話す) ＋ sirin (静穏)"
+    },
+    {
+      "id": 564,
+      "category": "8. 動作・相互作用",
+      "nrs": "volpas",
+      "ipa": "[vol.pas]",
+      "pos": "動",
+      "meaningJa": "飛び降りる、跳躍する、飛び越える",
+      "meaningEn": "jump, leap over, hop down",
+      "notes": "volan (飛ぶ) ＋ 跳躍"
+    },
+    {
+      "id": 565,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "rinini",
+      "ipa": "[ri.ni.ni]",
+      "pos": "形",
+      "meaningJa": "丸い、円形の、球状の",
+      "meaningEn": "round, circular, spherical",
+      "notes": "rin (円) の性質"
+    },
+    {
+      "id": 566,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "tuliki",
+      "ipa": "[tu.li.ki]",
+      "pos": "形",
+      "meaningJa": "角張った、多角形の、角ばった",
+      "meaningEn": "angular, polygonal, edged",
+      "notes": "tulik (多角形) の性質"
+    },
+    {
+      "id": 567,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "taliski",
+      "ipa": "[ta.lis.ki]",
+      "pos": "形",
+      "meaningJa": "ざらざらした、粗い、岩肌のような",
+      "meaningEn": "rough, coarse, gritty",
+      "notes": "talis (石) の性質"
+    },
+    {
+      "id": 568,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "darisli",
+      "ipa": "[da.ris.li]",
+      "pos": "形",
+      "meaningJa": "なめらかな、すべすべした、水流のような",
+      "meaningEn": "smooth, sleek, fluid",
+      "notes": "daris (水) の性質"
+    },
+    {
+      "id": 569,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "valpini",
+      "ipa": "[val.pi.ni]",
+      "pos": "形",
+      "meaningJa": "厚い、分厚い、重層の",
+      "meaningEn": "thick, stout, dense-layered",
+      "notes": "布地・層の厚み"
+    },
+    {
+      "id": 570,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "porkini",
+      "ipa": "[por.ki.ni]",
+      "pos": "形",
+      "meaningJa": "狭い、窮屈な、幅の狭い",
+      "meaningEn": "narrow, tight, cramped",
+      "notes": "通路の狭さ"
+    },
+    {
+      "id": 571,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "talmori",
+      "ipa": "[tal.mo.ri]",
+      "pos": "形",
+      "meaningJa": "広い、広々とした、開放的な",
+      "meaningEn": "spacious, broad, roomy",
+      "notes": "talmor (広野) の性質"
+    },
+    {
+      "id": 572,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "cironli",
+      "ipa": "[ʃi.ron.li]",
+      "pos": "形",
+      "meaningJa": "賑やかな、活気ある、声響く",
+      "meaningEn": "lively, bustling, vibrant",
+      "notes": "声・音に満ちた"
+    },
+    {
+      "id": 573,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "vorasu",
+      "ipa": "[vo.ra.su]",
+      "pos": "副",
+      "meaningJa": "前へ、前方へ、未来へ向かって",
+      "meaningEn": "forward, onward, ahead",
+      "notes": "voras (前) ＋ -u (方向副詞)"
+    },
+    {
+      "id": 574,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "pasonu",
+      "ipa": "[pa.so.nu]",
+      "pos": "副",
+      "meaningJa": "後ろへ、後方へ、過去へ向かって",
+      "meaningEn": "backward, rearward, behind",
+      "notes": "pason (後) ＋ -u (方向副詞)"
+    },
+    {
+      "id": 575,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "lerinu",
+      "ipa": "[le.ri.nu]",
+      "pos": "副",
+      "meaningJa": "左へ、左側へ、左舷へ",
+      "meaningEn": "leftward, to the left",
+      "notes": "lerin (左) ＋ -u (方向副詞)"
+    },
+    {
+      "id": 576,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "parinu",
+      "ipa": "[pa.ri.nu]",
+      "pos": "副",
+      "meaningJa": "右へ、右側へ、右舷へ",
+      "meaningEn": "rightward, to the right",
+      "notes": "parin (右) ＋ -u (方向副詞)"
+    },
+    {
+      "id": 577,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "silinu",
+      "ipa": "[si.li.nu]",
+      "pos": "副",
+      "meaningJa": "内へ、内部へ、心の内へ向かって",
+      "meaningEn": "inward, inside, inwardly",
+      "notes": "silin (内) ＋ -u (方向副詞)"
+    },
+    {
+      "id": 578,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "folanu",
+      "ipa": "[fo.la.nu]",
+      "pos": "副",
+      "meaningJa": "外へ、外部へ、外界へ向かって",
+      "meaningEn": "outward, outside, outwardly",
+      "notes": "folan (外) ＋ -u (方向副詞)"
+    },
+    {
+      "id": 579,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "celosu",
+      "ipa": "[ʃe.lo.su]",
+      "pos": "副",
+      "meaningJa": "上へ、上方へ、空へ向かって",
+      "meaningEn": "upward, aloft, to the heights",
+      "notes": "celos (上) ＋ -u (方向副詞)"
+    },
+    {
+      "id": 580,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "talosu",
+      "ipa": "[ta.lo.su]",
+      "pos": "副",
+      "meaningJa": "下へ、下方へ、大地へ向かって",
+      "meaningEn": "downward, beneath, to the ground",
+      "notes": "talos (下) ＋ -u (方向副詞)"
     }
   ]
 }
