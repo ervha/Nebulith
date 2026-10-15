@@ -64,7 +64,31 @@
       {ending:'考えている',replacement:'信じる',complete:true,chooseGroup:'思う'},
       {ending:'考えた',replacement:'信じる',complete:true,chooseGroup:'思う'},
       {ending:'考える',replacement:'信じる',complete:true,chooseGroup:'思う'},
-      {ending:'考えて',replacement:'信じる',complete:false,chooseGroup:'思う'}
+      {ending:'考えて',replacement:'信じる',complete:false,chooseGroup:'思う'},
+      // 聞く系
+      {ending:'耳を傾ける',replacement:'聴く',complete:true},
+      {ending:'聞いている',replacement:'聴く',complete:true},
+      {ending:'聞いた',replacement:'聴く',complete:true},
+      {ending:'聞く',replacement:'聴く',complete:true},
+      {ending:'聞いて',replacement:'聴く',complete:false},
+      // 作る系
+      {ending:'作っている',replacement:'書く',complete:true},
+      {ending:'作った',replacement:'書く',complete:true},
+      {ending:'作る',replacement:'書く',complete:true},
+      {ending:'作って',replacement:'書く',complete:false},
+      {ending:'創る',replacement:'書く',complete:true},
+      // 取引・売買系
+      {ending:'買っている',replacement:'取引する',complete:true},
+      {ending:'買った',replacement:'取引する',complete:true},
+      {ending:'買う',replacement:'取引する',complete:true},
+      {ending:'売っている',replacement:'取引する',complete:true},
+      {ending:'売った',replacement:'取引する',complete:true},
+      {ending:'売る',replacement:'取引する',complete:true},
+      // 好む系
+      {ending:'好んでいる',replacement:'愛する',complete:true},
+      {ending:'好んだ',replacement:'愛する',complete:true},
+      {ending:'好む',replacement:'愛する',complete:true},
+      {ending:'愛好する',replacement:'愛する',complete:true}
     ];
     aliases = [...(aliases||[]).map(a => a.chooseVerb ? {...a, chooseGroup: '見る'} : a), ...defaultAliases];
     const productive=extensions.productive||{};
