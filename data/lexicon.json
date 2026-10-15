@@ -1,10 +1,12 @@
 {
-  "version": "16.0",
+  "version": "17.0",
   "language": "Nebulith",
   "languageJa": "ネビュリス（星辰語）",
   "updatedAt": "2026-10-15",
-  "status": "Pure Celestial Conlang without Earth Borrowings",
-  "totalEntries": 358,
+  "status": "Pure Celestial Conlang without Earth Borrowings (Gradual Expansion to 1000)",
+  "targetGoal": 1000,
+  "currentProgressPercent": 42.0,
+  "totalEntries": 420,
   "phonology": {
     "vowels": [
       "a",
@@ -718,6 +720,66 @@
     },
     {
       "id": 41,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "valosro",
+      "ipa": "[va.los.ro]",
+      "pos": "名",
+      "meaningJa": "軌道離心率、楕円度、扁平率",
+      "meaningEn": "orbital eccentricity, ellipticity",
+      "notes": "軌道の楕円性"
+    },
+    {
+      "id": 42,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "kymryn",
+      "ipa": "[kym.ryn]",
+      "pos": "名",
+      "meaningJa": "暗黒物質、ダークマター、不可視質量",
+      "meaningEn": "dark matter, unseen cosmic mass",
+      "notes": "kym (闇) ＋ 質量"
+    },
+    {
+      "id": 43,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "faldenar",
+      "ipa": "[fal.de.nar]",
+      "pos": "名",
+      "meaningJa": "朝焼け、黎明の光芒、払暁の輝き",
+      "meaningEn": "dawn glow, sunrise radiance",
+      "notes": "falden (東) ＋ 空間"
+    },
+    {
+      "id": 44,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "kymdenar",
+      "ipa": "[kym.de.nar]",
+      "pos": "名",
+      "meaningJa": "夕焼け、黄昏の残照、夕映え",
+      "meaningEn": "sunset glow, evening twilight afterglow",
+      "notes": "kymden (西) ＋ 空間"
+    },
+    {
+      "id": 45,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "neburil",
+      "ipa": "[ne.bu.ril]",
+      "pos": "名",
+      "meaningJa": "原生惑星系円盤、原始星雲環",
+      "meaningEn": "protoplanetary disk",
+      "notes": "nebulis ＋ 微小環"
+    },
+    {
+      "id": 46,
+      "category": "1. 天体・光・宇宙論",
+      "nrs": "zoharik",
+      "ipa": "[zo.ha.rik]",
+      "pos": "名",
+      "meaningJa": "太陽黒点、主星斑点、活動領域",
+      "meaningEn": "sunspot, starspot",
+      "notes": "zohar (主星) ＋ 点"
+    },
+    {
+      "id": 47,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "suf",
       "ipa": "[suf]",
@@ -727,7 +789,7 @@
       "notes": "鋭敏な摩擦音語末"
     },
     {
-      "id": 42,
+      "id": 48,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "sufor",
       "ipa": "[su.for]",
@@ -737,7 +799,7 @@
       "notes": "論理技術職"
     },
     {
-      "id": 43,
+      "id": 49,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "sufom",
       "ipa": "[su.fom]",
@@ -747,7 +809,7 @@
       "notes": "計算・情報分野"
     },
     {
-      "id": 44,
+      "id": 50,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "mator",
       "ipa": "[ma.tor]",
@@ -757,7 +819,7 @@
       "notes": "精緻な計算機巧"
     },
     {
-      "id": 45,
+      "id": 51,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "zevil",
       "ipa": "[ze.vil]",
@@ -767,7 +829,7 @@
       "notes": "論理文字列"
     },
     {
-      "id": 46,
+      "id": 52,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "kiran",
       "ipa": "[ki.ran]",
@@ -777,7 +839,7 @@
       "notes": "プログラミング動詞"
     },
     {
-      "id": 47,
+      "id": 53,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "pelel",
       "ipa": "[pe.lel]",
@@ -787,7 +849,7 @@
       "notes": "手のひらの端末"
     },
     {
-      "id": 48,
+      "id": 54,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "tolas",
       "ipa": "[to.las]",
@@ -797,7 +859,7 @@
       "notes": "短い便り"
     },
     {
-      "id": 49,
+      "id": 55,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "wesan",
       "ipa": "[we.san]",
@@ -807,7 +869,7 @@
       "notes": "通信動詞"
     },
     {
-      "id": 50,
+      "id": 56,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "tolom",
       "ipa": "[to.lom]",
@@ -817,7 +879,7 @@
       "notes": "世界情報網"
     },
     {
-      "id": 51,
+      "id": 57,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "vylatel",
       "ipa": "[vy.la.tel]",
@@ -827,7 +889,7 @@
       "notes": "映像出力板"
     },
     {
-      "id": 52,
+      "id": 58,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "falel",
       "ipa": "[fa.lel]",
@@ -837,7 +899,7 @@
       "notes": "光の記録"
     },
     {
-      "id": 53,
+      "id": 59,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "livar",
       "ipa": "[li.var]",
@@ -847,7 +909,7 @@
       "notes": "データ集積所"
     },
     {
-      "id": 54,
+      "id": 60,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "jyn",
       "ipa": "[ʒyn]",
@@ -857,7 +919,7 @@
       "notes": "電力・エネルギー"
     },
     {
-      "id": 55,
+      "id": 61,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "jynel",
       "ipa": "[ʒy.nel]",
@@ -867,7 +929,7 @@
       "notes": "蓄電器"
     },
     {
-      "id": 56,
+      "id": 62,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "rin",
       "ipa": "[rin]",
@@ -877,7 +939,7 @@
       "notes": "幾何円"
     },
     {
-      "id": 57,
+      "id": 63,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "tulik",
       "ipa": "[tu.lik]",
@@ -887,7 +949,7 @@
       "notes": "幾何立体"
     },
     {
-      "id": 58,
+      "id": 64,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "niven",
       "ipa": "[ni.ven]",
@@ -897,7 +959,7 @@
       "notes": "次元・軸"
     },
     {
-      "id": 59,
+      "id": 65,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "talisum",
       "ipa": "[ta.li.sum]",
@@ -907,7 +969,7 @@
       "notes": "数学的定理"
     },
     {
-      "id": 60,
+      "id": 66,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "kvan",
       "ipa": "[kvan]",
@@ -917,7 +979,7 @@
       "notes": "最小単位"
     },
     {
-      "id": 61,
+      "id": 67,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "jyt",
       "ipa": "[ʒyt]",
@@ -927,7 +989,7 @@
       "notes": "網の結節点"
     },
     {
-      "id": 62,
+      "id": 68,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "kiril",
       "ipa": "[ki.ril]",
@@ -937,7 +999,7 @@
       "notes": "数理写像"
     },
     {
-      "id": 63,
+      "id": 69,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "kelon",
       "ipa": "[ke.lon]",
@@ -947,7 +1009,7 @@
       "notes": "可変値"
     },
     {
-      "id": 64,
+      "id": 70,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "firas",
       "ipa": "[fi.ras]",
@@ -957,7 +1019,7 @@
       "notes": "不変値"
     },
     {
-      "id": 65,
+      "id": 71,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "kyvren",
       "ipa": "[kyv.ren]",
@@ -967,7 +1029,7 @@
       "notes": "秘匿論理"
     },
     {
-      "id": 66,
+      "id": 72,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "kiv",
       "ipa": "[kiv]",
@@ -977,7 +1039,7 @@
       "notes": "瞬発的最小二値"
     },
     {
-      "id": 67,
+      "id": 73,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "velat",
       "ipa": "[ve.lat]",
@@ -987,7 +1049,7 @@
       "notes": "二次元配列"
     },
     {
-      "id": 68,
+      "id": 74,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "vylom",
       "ipa": "[vy.lom]",
@@ -997,7 +1059,7 @@
       "notes": "視界有効範囲"
     },
     {
-      "id": 69,
+      "id": 75,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "tyk",
       "ipa": "[tyk]",
@@ -1007,7 +1069,7 @@
       "notes": "刻時破裂音"
     },
     {
-      "id": 70,
+      "id": 76,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "ryvel",
       "ipa": "[ry.vel]",
@@ -1017,7 +1079,7 @@
       "notes": "精密計測"
     },
     {
-      "id": 71,
+      "id": 77,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "jylom",
       "ipa": "[ʒy.lom]",
@@ -1027,7 +1089,7 @@
       "notes": "結びついた要素群"
     },
     {
-      "id": 72,
+      "id": 78,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "voret",
       "ipa": "[vo.ret]",
@@ -1037,7 +1099,7 @@
       "notes": "周回反復"
     },
     {
-      "id": 73,
+      "id": 79,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "sevik",
       "ipa": "[se.vik]",
@@ -1047,7 +1109,7 @@
       "notes": "論理の分岐点"
     },
     {
-      "id": 74,
+      "id": 80,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "ved",
       "ipa": "[ved]",
@@ -1057,7 +1119,7 @@
       "notes": "真偽の確定値"
     },
     {
-      "id": 75,
+      "id": 81,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "unor",
       "ipa": "[u.nor]",
@@ -1067,7 +1129,7 @@
       "notes": "一単位ずつの整数"
     },
     {
-      "id": 76,
+      "id": 82,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "delis",
       "ipa": "[de.lis]",
@@ -1077,7 +1139,7 @@
       "notes": "連続分割値"
     },
     {
-      "id": 77,
+      "id": 83,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "velis",
       "ipa": "[ve.lis]",
@@ -1087,7 +1149,7 @@
       "notes": "探求照会"
     },
     {
-      "id": 78,
+      "id": 84,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "torin",
       "ipa": "[to.rin]",
@@ -1097,7 +1159,7 @@
       "notes": "到来する入力"
     },
     {
-      "id": 79,
+      "id": 85,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "folin",
       "ipa": "[fo.lin]",
@@ -1107,7 +1169,7 @@
       "notes": "外へ放つ出力"
     },
     {
-      "id": 80,
+      "id": 86,
       "category": "2. 数理・幾何・情報科学",
       "nrs": "soril",
       "ipa": "[so.ril]",
@@ -1117,7 +1179,67 @@
       "notes": "記録を保持する素子"
     },
     {
-      "id": 81,
+      "id": 87,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "jylvat",
+      "ipa": "[ʒyl.vat]",
+      "pos": "名",
+      "meaningJa": "グラフ構造、連結網、関係図",
+      "meaningEn": "graph structure, network topology",
+      "notes": "jyl (結合) ＋ 格子配列"
+    },
+    {
+      "id": 88,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "sufrin",
+      "ipa": "[suf.rin]",
+      "pos": "名",
+      "meaningJa": "暗号鍵、認証トークン、署名符号",
+      "meaningEn": "cryptographic key, auth token",
+      "notes": "suf (計算) ＋ rin (環)"
+    },
+    {
+      "id": 89,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "kivlom",
+      "ipa": "[kiv.lom]",
+      "pos": "名",
+      "meaningJa": "バイト、オクテット、情報ブロック",
+      "meaningEn": "byte, octet, data block",
+      "notes": "kiv (ビット) ＋ -om (集合)"
+    },
+    {
+      "id": 90,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "veltok",
+      "ipa": "[vel.tok]",
+      "pos": "名/動",
+      "meaningJa": "インデックス、索引、検索目録",
+      "meaningEn": "index, search key",
+      "notes": "探索の標識"
+    },
+    {
+      "id": 91,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "zydot",
+      "ipa": "[zy.dot]",
+      "pos": "名/動",
+      "meaningJa": "検証、アサーション、実証テスト",
+      "meaningEn": "validation, assertion, proof test",
+      "notes": "zyd (検証実相) の確定"
+    },
+    {
+      "id": 92,
+      "category": "2. 数理・幾何・情報科学",
+      "nrs": "krotel",
+      "ipa": "[kro.tel]",
+      "pos": "名",
+      "meaningJa": "例外、ランタイムエラー、異常割り込み",
+      "meaningEn": "exception, runtime interrupt",
+      "notes": "krot (激動) ＋ 信号器"
+    },
+    {
+      "id": 93,
       "category": "3. 生命・身体・医療",
       "nrs": "zyvel",
       "ipa": "[zy.vel]",
@@ -1127,7 +1249,7 @@
       "notes": "生命の脈動"
     },
     {
-      "id": 82,
+      "id": 94,
       "category": "3. 生命・身体・医療",
       "nrs": "myren",
       "ipa": "[my.ren]",
@@ -1137,7 +1259,7 @@
       "notes": "星を見上げる者"
     },
     {
-      "id": 83,
+      "id": 95,
       "category": "3. 生命・身体・医療",
       "nrs": "darisor",
       "ipa": "[da.ri.sor]",
@@ -1147,7 +1269,7 @@
       "notes": "医療専門職"
     },
     {
-      "id": 84,
+      "id": 96,
       "category": "3. 生命・身体・医療",
       "nrs": "zyvan",
       "ipa": "[zy.van]",
@@ -1157,7 +1279,7 @@
       "notes": "治癒動詞"
     },
     {
-      "id": 85,
+      "id": 97,
       "category": "3. 生命・身体・医療",
       "nrs": "darisar",
       "ipa": "[da.ri.sar]",
@@ -1167,7 +1289,7 @@
       "notes": "医療施設"
     },
     {
-      "id": 86,
+      "id": 98,
       "category": "3. 生命・身体・医療",
       "nrs": "zyvil",
       "ipa": "[zy.vil]",
@@ -1177,7 +1299,7 @@
       "notes": "治癒の薬"
     },
     {
-      "id": 87,
+      "id": 99,
       "category": "3. 生命・身体・医療",
       "nrs": "kylar",
       "ipa": "[ky.lar]",
@@ -1187,7 +1309,7 @@
       "notes": "病気・不調"
     },
     {
-      "id": 88,
+      "id": 100,
       "category": "3. 生命・身体・医療",
       "nrs": "davel",
       "ipa": "[da.vel]",
@@ -1197,7 +1319,7 @@
       "notes": "体内の血"
     },
     {
-      "id": 89,
+      "id": 101,
       "category": "3. 生命・身体・医療",
       "nrs": "teirap",
       "ipa": "[tei.rap]",
@@ -1207,7 +1329,7 @@
       "notes": "心臓の拍動"
     },
     {
-      "id": 90,
+      "id": 102,
       "category": "3. 生命・身体・医療",
       "nrs": "noven",
       "ipa": "[no.ven]",
@@ -1217,7 +1339,7 @@
       "notes": "頭部・頭脳"
     },
     {
-      "id": 91,
+      "id": 103,
       "category": "3. 生命・身体・医療",
       "nrs": "vylan",
       "ipa": "[vy.lan]",
@@ -1227,7 +1349,7 @@
       "notes": "瞳"
     },
     {
-      "id": 92,
+      "id": 104,
       "category": "3. 生命・身体・医療",
       "nrs": "harel",
       "ipa": "[ha.rel]",
@@ -1237,7 +1359,7 @@
       "notes": "耳"
     },
     {
-      "id": 93,
+      "id": 105,
       "category": "3. 生命・身体・医療",
       "nrs": "fenel",
       "ipa": "[fe.nel]",
@@ -1247,7 +1369,7 @@
       "notes": "口"
     },
     {
-      "id": 94,
+      "id": 106,
       "category": "3. 生命・身体・医療",
       "nrs": "wylat",
       "ipa": "[wy.lat]",
@@ -1257,7 +1379,7 @@
       "notes": "息道"
     },
     {
-      "id": 95,
+      "id": 107,
       "category": "3. 生命・身体・医療",
       "nrs": "ser",
       "ipa": "[ser]",
@@ -1267,7 +1389,7 @@
       "notes": "手"
     },
     {
-      "id": 96,
+      "id": 108,
       "category": "3. 生命・身体・医療",
       "nrs": "larin",
       "ipa": "[la.rin]",
@@ -1277,7 +1399,7 @@
       "notes": "歩行肢"
     },
     {
-      "id": 97,
+      "id": 109,
       "category": "3. 生命・身体・医療",
       "nrs": "teira",
       "ipa": "[tei.ra]",
@@ -1287,7 +1409,7 @@
       "notes": "心臓・星核"
     },
     {
-      "id": 98,
+      "id": 110,
       "category": "3. 生命・身体・医療",
       "nrs": "kymin",
       "ipa": "[ky.min]",
@@ -1297,7 +1419,7 @@
       "notes": "睡眠"
     },
     {
-      "id": 99,
+      "id": 111,
       "category": "3. 生命・身体・医療",
       "nrs": "revir",
       "ipa": "[re.vir]",
@@ -1307,7 +1429,7 @@
       "notes": "覚醒・回復"
     },
     {
-      "id": 100,
+      "id": 112,
       "category": "3. 生命・身体・医療",
       "nrs": "duril",
       "ipa": "[du.ril]",
@@ -1317,7 +1439,7 @@
       "notes": "骨格"
     },
     {
-      "id": 101,
+      "id": 113,
       "category": "3. 生命・身体・医療",
       "nrs": "durtas",
       "ipa": "[dur.tas]",
@@ -1327,7 +1449,7 @@
       "notes": "筋力器官"
     },
     {
-      "id": 102,
+      "id": 114,
       "category": "3. 生命・身体・医療",
       "nrs": "velik",
       "ipa": "[ve.lik]",
@@ -1337,7 +1459,7 @@
       "notes": "肌・表皮"
     },
     {
-      "id": 103,
+      "id": 115,
       "category": "3. 生命・身体・医療",
       "nrs": "zyvas",
       "ipa": "[zy.vas]",
@@ -1347,7 +1469,7 @@
       "notes": "健康状態"
     },
     {
-      "id": 104,
+      "id": 116,
       "category": "3. 生命・身体・医療",
       "nrs": "jynten",
       "ipa": "[ʒyn.ten]",
@@ -1357,7 +1479,7 @@
       "notes": "生体電信線"
     },
     {
-      "id": 105,
+      "id": 117,
       "category": "3. 生命・身体・医療",
       "nrs": "zyvelan",
       "ipa": "[zy.ve.lan]",
@@ -1367,7 +1489,7 @@
       "notes": "呼吸動詞"
     },
     {
-      "id": 106,
+      "id": 118,
       "category": "3. 生命・身体・医療",
       "nrs": "teiran",
       "ipa": "[tei.ran]",
@@ -1377,7 +1499,7 @@
       "notes": "生命の螺旋情報"
     },
     {
-      "id": 107,
+      "id": 119,
       "category": "3. 生命・身体・医療",
       "nrs": "kivan",
       "ipa": "[ki.van]",
@@ -1387,7 +1509,7 @@
       "notes": "生命の最小単位小胞"
     },
     {
-      "id": 108,
+      "id": 120,
       "category": "3. 生命・身体・医療",
       "nrs": "zyvlar",
       "ipa": "[zyv.lar]",
@@ -1397,7 +1519,7 @@
       "notes": "大気交換器"
     },
     {
-      "id": 109,
+      "id": 121,
       "category": "3. 生命・身体・医療",
       "nrs": "neron",
       "ipa": "[ne.ron]",
@@ -1407,7 +1529,7 @@
       "notes": "滋養受納器官"
     },
     {
-      "id": 110,
+      "id": 122,
       "category": "3. 生命・身体・医療",
       "nrs": "davlar",
       "ipa": "[dav.lar]",
@@ -1417,7 +1539,7 @@
       "notes": "血液循環網"
     },
     {
-      "id": 111,
+      "id": 123,
       "category": "3. 生命・身体・医療",
       "nrs": "tylkar",
       "ipa": "[tyl.kar]",
@@ -1427,7 +1549,7 @@
       "notes": "裂けた負傷"
     },
     {
-      "id": 112,
+      "id": 124,
       "category": "3. 生命・身体・医療",
       "nrs": "valmik",
       "ipa": "[val.mik]",
@@ -1437,7 +1559,7 @@
       "notes": "傷の保護布"
     },
     {
-      "id": 113,
+      "id": 125,
       "category": "3. 生命・身体・医療",
       "nrs": "durvan",
       "ipa": "[dur.van]",
@@ -1447,7 +1569,7 @@
       "notes": "生体抵抗力"
     },
     {
-      "id": 114,
+      "id": 126,
       "category": "3. 生命・身体・医療",
       "nrs": "kylat",
       "ipa": "[ky.lat]",
@@ -1457,7 +1579,7 @@
       "notes": "生命力の減退"
     },
     {
-      "id": 115,
+      "id": 127,
       "category": "3. 生命・身体・医療",
       "nrs": "zyvor",
       "ipa": "[zy.vor]",
@@ -1467,7 +1589,67 @@
       "notes": "充実した活力"
     },
     {
-      "id": 116,
+      "id": 128,
+      "category": "3. 生命・身体・医療",
+      "nrs": "zyvten",
+      "ipa": "[zyv.ten]",
+      "pos": "名",
+      "meaningJa": "代謝、生体エネルギー代謝、同化作用",
+      "meaningEn": "metabolism, vital energy flux",
+      "notes": "生命の転換連鎖"
+    },
+    {
+      "id": 129,
+      "category": "3. 生命・身体・医療",
+      "nrs": "teiros",
+      "ipa": "[tei.ros]",
+      "pos": "名",
+      "meaningJa": "胎児、生命の萌芽、胚",
+      "meaningEn": "embryo, fetus, seed-life",
+      "notes": "teira (心核) ＋ 幼体"
+    },
+    {
+      "id": 130,
+      "category": "3. 生命・身体・医療",
+      "nrs": "harnas",
+      "ipa": "[har.nas]",
+      "pos": "名",
+      "meaningJa": "聴力、音感、耳の感度",
+      "meaningEn": "hearing ability, auditory sense",
+      "notes": "harel (耳) ＋ 働き"
+    },
+    {
+      "id": 131,
+      "category": "3. 生命・身体・医療",
+      "nrs": "fenlin",
+      "ipa": "[fen.lin]",
+      "pos": "名",
+      "meaningJa": "味覚、風味、舌ざわり",
+      "meaningEn": "taste sensation, flavor perception",
+      "notes": "fenel (口) ＋ 感覚"
+    },
+    {
+      "id": 132,
+      "category": "3. 生命・身体・医療",
+      "nrs": "darmut",
+      "ipa": "[dar.mut]",
+      "pos": "名",
+      "meaningJa": "汗、体液蒸散、滴り",
+      "meaningEn": "sweat, perspiration",
+      "notes": "dar (滴) ＋ 排出"
+    },
+    {
+      "id": 133,
+      "category": "3. 生命・身体・医療",
+      "nrs": "durvanar",
+      "ipa": "[dur.va.nar]",
+      "pos": "名",
+      "meaningJa": "隔離室、検疫所、無菌室",
+      "meaningEn": "quarantine chamber, clean room",
+      "notes": "durvan (免疫) ＋ 施設"
+    },
+    {
+      "id": 134,
       "category": "4. 自然・気象・環境",
       "nrs": "tal",
       "ipa": "[tal]",
@@ -1477,7 +1659,7 @@
       "notes": "地面・大地"
     },
     {
-      "id": 117,
+      "id": 135,
       "category": "4. 自然・気象・環境",
       "nrs": "novan",
       "ipa": "[no.van]",
@@ -1487,7 +1669,7 @@
       "notes": "天にそびえる山"
     },
     {
-      "id": 118,
+      "id": 136,
       "category": "4. 自然・気象・環境",
       "nrs": "talik",
       "ipa": "[ta.lik]",
@@ -1497,7 +1679,7 @@
       "notes": "谷"
     },
     {
-      "id": 119,
+      "id": 137,
       "category": "4. 自然・気象・環境",
       "nrs": "talom",
       "ipa": "[ta.lom]",
@@ -1507,7 +1689,7 @@
       "notes": "広大な平野"
     },
     {
-      "id": 120,
+      "id": 138,
       "category": "4. 自然・気象・環境",
       "nrs": "velom",
       "ipa": "[ve.lom]",
@@ -1517,7 +1699,7 @@
       "notes": "広大な森"
     },
     {
-      "id": 121,
+      "id": 139,
       "category": "4. 自然・気象・環境",
       "nrs": "vel",
       "ipa": "[vel]",
@@ -1527,7 +1709,7 @@
       "notes": "樹木"
     },
     {
-      "id": 122,
+      "id": 140,
       "category": "4. 自然・気象・環境",
       "nrs": "velas",
       "ipa": "[ve.las]",
@@ -1537,7 +1719,7 @@
       "notes": "葉"
     },
     {
-      "id": 123,
+      "id": 141,
       "category": "4. 自然・気象・環境",
       "nrs": "velin",
       "ipa": "[ve.lin]",
@@ -1547,7 +1729,7 @@
       "notes": "花"
     },
     {
-      "id": 124,
+      "id": 142,
       "category": "4. 自然・気象・環境",
       "nrs": "velil",
       "ipa": "[ve.lil]",
@@ -1557,7 +1739,7 @@
       "notes": "薬草・新芽"
     },
     {
-      "id": 125,
+      "id": 143,
       "category": "4. 自然・気象・環境",
       "nrs": "vorin",
       "ipa": "[vo.rin]",
@@ -1567,7 +1749,7 @@
       "notes": "果実"
     },
     {
-      "id": 126,
+      "id": 144,
       "category": "4. 自然・気象・環境",
       "nrs": "teiril",
       "ipa": "[tei.ril]",
@@ -1577,7 +1759,7 @@
       "notes": "種核"
     },
     {
-      "id": 127,
+      "id": 145,
       "category": "4. 自然・気象・環境",
       "nrs": "daris",
       "ipa": "[da.ris]",
@@ -1587,7 +1769,7 @@
       "notes": "真水・清流"
     },
     {
-      "id": 128,
+      "id": 146,
       "category": "4. 自然・気象・環境",
       "nrs": "dar",
       "ipa": "[dar]",
@@ -1597,7 +1779,7 @@
       "notes": "しずく"
     },
     {
-      "id": 129,
+      "id": 147,
       "category": "4. 自然・気象・環境",
       "nrs": "zylar",
       "ipa": "[zy.lar]",
@@ -1607,7 +1789,7 @@
       "notes": "大海"
     },
     {
-      "id": 130,
+      "id": 148,
       "category": "4. 自然・気象・環境",
       "nrs": "daron",
       "ipa": "[da.ron]",
@@ -1617,7 +1799,7 @@
       "notes": "静かな湖"
     },
     {
-      "id": 131,
+      "id": 149,
       "category": "4. 自然・気象・環境",
       "nrs": "darmon",
       "ipa": "[dar.mon]",
@@ -1627,7 +1809,7 @@
       "notes": "清らかな湧水"
     },
     {
-      "id": 132,
+      "id": 150,
       "category": "4. 自然・気象・環境",
       "nrs": "darlen",
       "ipa": "[dar.len]",
@@ -1637,7 +1819,7 @@
       "notes": "雨"
     },
     {
-      "id": 133,
+      "id": 151,
       "category": "4. 自然・気象・環境",
       "nrs": "kyrlen",
       "ipa": "[kyr.len]",
@@ -1647,7 +1829,7 @@
       "notes": "雪"
     },
     {
-      "id": 134,
+      "id": 152,
       "category": "4. 自然・気象・環境",
       "nrs": "kyras",
       "ipa": "[ky.ras]",
@@ -1657,7 +1839,7 @@
       "notes": "氷"
     },
     {
-      "id": 135,
+      "id": 153,
       "category": "4. 自然・気象・環境",
       "nrs": "wylas",
       "ipa": "[wy.las]",
@@ -1667,7 +1849,7 @@
       "notes": "風"
     },
     {
-      "id": 136,
+      "id": 154,
       "category": "4. 自然・気象・環境",
       "nrs": "celis",
       "ipa": "[ʃe.lis]",
@@ -1677,7 +1859,7 @@
       "notes": "雲・霧"
     },
     {
-      "id": 137,
+      "id": 155,
       "category": "4. 自然・気象・環境",
       "nrs": "pyris",
       "ipa": "[py.ris]",
@@ -1687,7 +1869,7 @@
       "notes": "火"
     },
     {
-      "id": 138,
+      "id": 156,
       "category": "4. 自然・気象・環境",
       "nrs": "talis",
       "ipa": "[ta.lis]",
@@ -1697,7 +1879,7 @@
       "notes": "鉱物・石"
     },
     {
-      "id": 139,
+      "id": 157,
       "category": "4. 自然・気象・環境",
       "nrs": "talur",
       "ipa": "[ta.lur]",
@@ -1707,7 +1889,7 @@
       "notes": "大地の金属"
     },
     {
-      "id": 140,
+      "id": 158,
       "category": "4. 自然・気象・環境",
       "nrs": "wylrim",
       "ipa": "[wyl.rim]",
@@ -1717,7 +1899,7 @@
       "notes": "激しき風"
     },
     {
-      "id": 141,
+      "id": 159,
       "category": "4. 自然・気象・環境",
       "nrs": "vyltor",
       "ipa": "[vyl.tor]",
@@ -1727,7 +1909,7 @@
       "notes": "光雷"
     },
     {
-      "id": 142,
+      "id": 160,
       "category": "4. 自然・気象・環境",
       "nrs": "celar",
       "ipa": "[ʃe.lar]",
@@ -1737,7 +1919,7 @@
       "notes": "極光の帯"
     },
     {
-      "id": 143,
+      "id": 161,
       "category": "4. 自然・気象・環境",
       "nrs": "talrim",
       "ipa": "[tal.rim]",
@@ -1747,7 +1929,7 @@
       "notes": "乾燥砂漠"
     },
     {
-      "id": 144,
+      "id": 162,
       "category": "4. 自然・気象・環境",
       "nrs": "vuron",
       "ipa": "[vu.ron]",
@@ -1757,7 +1939,7 @@
       "notes": "地下空洞"
     },
     {
-      "id": 145,
+      "id": 163,
       "category": "4. 自然・気象・環境",
       "nrs": "feras",
       "ipa": "[fe.ras]",
@@ -1767,7 +1949,7 @@
       "notes": "動物"
     },
     {
-      "id": 146,
+      "id": 164,
       "category": "4. 自然・気象・環境",
       "nrs": "volfer",
       "ipa": "[vol.fer]",
@@ -1777,7 +1959,7 @@
       "notes": "空翔る者"
     },
     {
-      "id": 147,
+      "id": 165,
       "category": "4. 自然・気象・環境",
       "nrs": "zylfer",
       "ipa": "[zyl.fer]",
@@ -1787,7 +1969,7 @@
       "notes": "水泳ぐ者"
     },
     {
-      "id": 148,
+      "id": 166,
       "category": "4. 自然・気象・環境",
       "nrs": "krap",
       "ipa": "[krap]",
@@ -1797,7 +1979,7 @@
       "notes": "硬質外骨格"
     },
     {
-      "id": 149,
+      "id": 167,
       "category": "4. 自然・気象・環境",
       "nrs": "fermor",
       "ipa": "[fer.mor]",
@@ -1807,7 +1989,7 @@
       "notes": "神話の巨獣"
     },
     {
-      "id": 150,
+      "id": 168,
       "category": "4. 自然・気象・環境",
       "nrs": "talon",
       "ipa": "[ta.lon]",
@@ -1817,7 +1999,7 @@
       "notes": "海に浮かぶ大地"
     },
     {
-      "id": 151,
+      "id": 169,
       "category": "4. 自然・気象・環境",
       "nrs": "talser",
       "ipa": "[tal.ser]",
@@ -1827,7 +2009,7 @@
       "notes": "突出した陸地"
     },
     {
-      "id": 152,
+      "id": 170,
       "category": "4. 自然・気象・環境",
       "nrs": "darsik",
       "ipa": "[dar.sik]",
@@ -1837,7 +2019,7 @@
       "notes": "水の細道"
     },
     {
-      "id": 153,
+      "id": 171,
       "category": "4. 自然・気象・環境",
       "nrs": "darfal",
       "ipa": "[dar.fal]",
@@ -1847,7 +2029,7 @@
       "notes": "流れ落ちる水"
     },
     {
-      "id": 154,
+      "id": 172,
       "category": "4. 自然・気象・環境",
       "nrs": "talkrot",
       "ipa": "[tal.krot]",
@@ -1857,7 +2039,7 @@
       "notes": "大地の激動"
     },
     {
-      "id": 155,
+      "id": 173,
       "category": "4. 自然・気象・環境",
       "nrs": "pyrtal",
       "ipa": "[pyr.tal]",
@@ -1867,7 +2049,7 @@
       "notes": "火を噴く山"
     },
     {
-      "id": 156,
+      "id": 174,
       "category": "4. 自然・気象・環境",
       "nrs": "zylrim",
       "ipa": "[zyl.rim]",
@@ -1877,7 +2059,7 @@
       "notes": "海の縁"
     },
     {
-      "id": 157,
+      "id": 175,
       "category": "4. 自然・気象・環境",
       "nrs": "havas",
       "ipa": "[ha.vas]",
@@ -1887,7 +2069,7 @@
       "notes": "巡る気候期"
     },
     {
-      "id": 158,
+      "id": 176,
       "category": "4. 自然・気象・環境",
       "nrs": "velhav",
       "ipa": "[vel.hav]",
@@ -1897,7 +2079,7 @@
       "notes": "花咲く季節"
     },
     {
-      "id": 159,
+      "id": 177,
       "category": "4. 自然・気象・環境",
       "nrs": "zohav",
       "ipa": "[zo.hav]",
@@ -1907,7 +2089,67 @@
       "notes": "太陽の季節"
     },
     {
-      "id": 160,
+      "id": 178,
+      "category": "4. 自然・気象・環境",
+      "nrs": "taldar",
+      "ipa": "[tal.dar]",
+      "pos": "名",
+      "meaningJa": "泥、湿地、ぬかるみ、粘土湿原",
+      "meaningEn": "mud, mire, loam, wetland",
+      "notes": "tal (土) ＋ dar (水)"
+    },
+    {
+      "id": 179,
+      "category": "4. 自然・気象・環境",
+      "nrs": "velpon",
+      "ipa": "[vel.pon]",
+      "pos": "名",
+      "meaningJa": "樹皮、木の幹、木質部",
+      "meaningEn": "bark, tree trunk, bole",
+      "notes": "vel (木) ＋ 胴幹"
+    },
+    {
+      "id": 180,
+      "category": "4. 自然・気象・環境",
+      "nrs": "darlor",
+      "ipa": "[dar.lor]",
+      "pos": "名",
+      "meaningJa": "潮流、海流、水流",
+      "meaningEn": "ocean current, tidal flow",
+      "notes": "daris (水) ＋ 巡行"
+    },
+    {
+      "id": 181,
+      "category": "4. 自然・気象・環境",
+      "nrs": "wylven",
+      "ipa": "[wyl.ven]",
+      "pos": "名",
+      "meaningJa": "つむじ風、局所旋風、塵旋風",
+      "meaningEn": "whirlwind, vortex eddy",
+      "notes": "wylas (風) ＋ 旋回"
+    },
+    {
+      "id": 182,
+      "category": "4. 自然・気象・環境",
+      "nrs": "kyrfin",
+      "ipa": "[kyr.fin]",
+      "pos": "名",
+      "meaningJa": "氷河、永久凍土、氷塊",
+      "meaningEn": "glacier, permafrost, ice pack",
+      "notes": "kyras (氷) ＋ 堆積層"
+    },
+    {
+      "id": 183,
+      "category": "4. 自然・気象・環境",
+      "nrs": "falpir",
+      "ipa": "[fal.pir]",
+      "pos": "名",
+      "meaningJa": "燐光、生物発光、冷光",
+      "meaningEn": "bioluminescence, phosphorescence",
+      "notes": "falun (光) ＋ pyris (火) の冷光"
+    },
+    {
+      "id": 184,
       "category": "5. 社会・法・共同体",
       "nrs": "kuralom",
       "ipa": "[ku.ra.lom]",
@@ -1917,7 +2159,7 @@
       "notes": "共生の座"
     },
     {
-      "id": 161,
+      "id": 185,
       "category": "5. 社会・法・共同体",
       "nrs": "taros",
       "ipa": "[ta.ros]",
@@ -1927,7 +2169,7 @@
       "notes": "法律・規範"
     },
     {
-      "id": 162,
+      "id": 186,
       "category": "5. 社会・法・共同体",
       "nrs": "calor",
       "ipa": "[ʃa.lor]",
@@ -1937,7 +2179,7 @@
       "notes": "議会"
     },
     {
-      "id": 163,
+      "id": 187,
       "category": "5. 社会・法・共同体",
       "nrs": "jylot",
       "ipa": "[ʒy.lot]",
@@ -1947,7 +2189,7 @@
       "notes": "結束の協定"
     },
     {
-      "id": 164,
+      "id": 188,
       "category": "5. 社会・法・共同体",
       "nrs": "polor",
       "ipa": "[po.lor]",
@@ -1957,7 +2199,7 @@
       "notes": "共同体の人"
     },
     {
-      "id": 165,
+      "id": 189,
       "category": "5. 社会・法・共同体",
       "nrs": "novor",
       "ipa": "[no.vor]",
@@ -1967,7 +2209,7 @@
       "notes": "頂点に立つ者"
     },
     {
-      "id": 166,
+      "id": 190,
       "category": "5. 社会・法・共同体",
       "nrs": "dirin",
       "ipa": "[di.rin]",
@@ -1977,7 +2219,7 @@
       "notes": "正義"
     },
     {
-      "id": 167,
+      "id": 191,
       "category": "5. 社会・法・共同体",
       "nrs": "silan",
       "ipa": "[si.lan]",
@@ -1987,7 +2229,7 @@
       "notes": "社会の平和"
     },
     {
-      "id": 168,
+      "id": 192,
       "category": "5. 社会・法・共同体",
       "nrs": "renis",
       "ipa": "[re.nis]",
@@ -1997,7 +2239,7 @@
       "notes": "通貨"
     },
     {
-      "id": 169,
+      "id": 193,
       "category": "5. 社会・法・共同体",
       "nrs": "renar",
       "ipa": "[re.nar]",
@@ -2007,7 +2249,7 @@
       "notes": "市場"
     },
     {
-      "id": 170,
+      "id": 194,
       "category": "5. 社会・法・共同体",
       "nrs": "dolar",
       "ipa": "[do.lar]",
@@ -2017,7 +2259,7 @@
       "notes": "労働動詞"
     },
     {
-      "id": 171,
+      "id": 195,
       "category": "5. 社会・法・共同体",
       "nrs": "dolor",
       "ipa": "[do.lor]",
@@ -2027,7 +2269,7 @@
       "notes": "職人・働き手"
     },
     {
-      "id": 172,
+      "id": 196,
       "category": "5. 社会・法・共同体",
       "nrs": "vyranar",
       "ipa": "[vy.ra.nar]",
@@ -2037,7 +2279,7 @@
       "notes": "真理の学舎"
     },
     {
-      "id": 173,
+      "id": 197,
       "category": "5. 社会・法・共同体",
       "nrs": "vyranas",
       "ipa": "[vy.ra.nas]",
@@ -2047,7 +2289,7 @@
       "notes": "学び手"
     },
     {
-      "id": 174,
+      "id": 198,
       "category": "5. 社会・法・共同体",
       "nrs": "sufis",
       "ipa": "[su.fis]",
@@ -2057,7 +2299,7 @@
       "notes": "学究の徒"
     },
     {
-      "id": 175,
+      "id": 199,
       "category": "5. 社会・法・共同体",
       "nrs": "tarosar",
       "ipa": "[ta.ro.sar]",
@@ -2067,7 +2309,7 @@
       "notes": "司法の場"
     },
     {
-      "id": 176,
+      "id": 200,
       "category": "5. 社会・法・共同体",
       "nrs": "elyr",
       "ipa": "[e.lyr]",
@@ -2077,7 +2319,7 @@
       "notes": "祝祭の日"
     },
     {
-      "id": 177,
+      "id": 201,
       "category": "5. 社会・法・共同体",
       "nrs": "sirar",
       "ipa": "[si.rar]",
@@ -2087,7 +2329,7 @@
       "notes": "争いなき静けさ"
     },
     {
-      "id": 178,
+      "id": 202,
       "category": "5. 社会・法・共同体",
       "nrs": "zyd",
       "ipa": "[zyd]",
@@ -2097,7 +2339,7 @@
       "notes": "実証された真理"
     },
     {
-      "id": 179,
+      "id": 203,
       "category": "5. 社会・法・共同体",
       "nrs": "kuralis",
       "ipa": "[ku.ra.lis]",
@@ -2107,7 +2349,7 @@
       "notes": "星間連邦国家"
     },
     {
-      "id": 180,
+      "id": 204,
       "category": "5. 社会・法・共同体",
       "nrs": "vylar",
       "ipa": "[vy.lar]",
@@ -2117,7 +2359,7 @@
       "notes": "星辰を掲げる旗"
     },
     {
-      "id": 181,
+      "id": 205,
       "category": "5. 社会・法・共同体",
       "nrs": "tarin",
       "ipa": "[ta.rin]",
@@ -2127,7 +2369,7 @@
       "notes": "法に基づく権利"
     },
     {
-      "id": 182,
+      "id": 206,
       "category": "5. 社会・法・共同体",
       "nrs": "dolyk",
       "ipa": "[do.lyk]",
@@ -2137,7 +2379,7 @@
       "notes": "共同体への義務"
     },
     {
-      "id": 183,
+      "id": 207,
       "category": "5. 社会・法・共同体",
       "nrs": "renon",
       "ipa": "[re.non]",
@@ -2147,7 +2389,7 @@
       "notes": "蓄積された資材"
     },
     {
-      "id": 184,
+      "id": 208,
       "category": "5. 社会・法・共同体",
       "nrs": "renan",
       "ipa": "[re.nan]",
@@ -2157,7 +2399,7 @@
       "notes": "星間交易"
     },
     {
-      "id": 185,
+      "id": 209,
       "category": "5. 社会・法・共同体",
       "nrs": "jylik",
       "ipa": "[ʒy.lik]",
@@ -2167,7 +2409,7 @@
       "notes": "法約の書字録"
     },
     {
-      "id": 186,
+      "id": 210,
       "category": "5. 社会・法・共同体",
       "nrs": "vyrisor",
       "ipa": "[vy.ri.sor]",
@@ -2177,7 +2419,7 @@
       "notes": "星辰の祭司"
     },
     {
-      "id": 187,
+      "id": 211,
       "category": "5. 社会・法・共同体",
       "nrs": "dolinar",
       "ipa": "[do.li.nar]",
@@ -2187,7 +2429,7 @@
       "notes": "熟練の工匠"
     },
     {
-      "id": 188,
+      "id": 212,
       "category": "5. 社会・法・共同体",
       "nrs": "cynor",
       "ipa": "[ʒy.nor]",
@@ -2197,7 +2439,67 @@
       "notes": "互いを慈しむ友"
     },
     {
-      "id": 189,
+      "id": 213,
+      "category": "5. 社会・法・共同体",
+      "nrs": "tarlot",
+      "ipa": "[tar.lot]",
+      "pos": "名",
+      "meaningJa": "判決、裁定、法廷審判",
+      "meaningEn": "judicial verdict, decree",
+      "notes": "taros (法) ＋ 確定"
+    },
+    {
+      "id": 214,
+      "category": "5. 社会・法・共同体",
+      "nrs": "kuralor",
+      "ipa": "[ku.ra.lor]",
+      "pos": "名",
+      "meaningJa": "外交官、連盟特使、使節",
+      "meaningEn": "diplomat, ambassador, envoy",
+      "notes": "kuralom (社会) ＋ 使節"
+    },
+    {
+      "id": 215,
+      "category": "5. 社会・法・共同体",
+      "nrs": "renik",
+      "ipa": "[re.nik]",
+      "pos": "名",
+      "meaningJa": "負債、借用証、債権",
+      "meaningEn": "debt, credit bond, liability",
+      "notes": "renis (通貨) ＋ 証約"
+    },
+    {
+      "id": 216,
+      "category": "5. 社会・法・共同体",
+      "nrs": "dolvis",
+      "ipa": "[dol.vis]",
+      "pos": "名",
+      "meaningJa": "協同組合、ギルド、職人座",
+      "meaningEn": "guild, cooperative, artisan syndicate",
+      "notes": "dolar (労働) の連合座"
+    },
+    {
+      "id": 217,
+      "category": "5. 社会・法・共同体",
+      "nrs": "calvir",
+      "ipa": "[ʃal.vir]",
+      "pos": "名",
+      "meaningJa": "請願、議案、提言",
+      "meaningEn": "petition, bill, motion",
+      "notes": "calor (議会) への提題"
+    },
+    {
+      "id": 218,
+      "category": "5. 社会・法・共同体",
+      "nrs": "polten",
+      "ipa": "[pol.ten]",
+      "pos": "名",
+      "meaningJa": "住民票、戸籍、市民登録",
+      "meaningEn": "citizen register, civic roll",
+      "notes": "polor (市民) ＋ 記録網"
+    },
+    {
+      "id": 219,
       "category": "6. 精神・感情・哲学",
       "nrs": "sylim",
       "ipa": "[sy.lim]",
@@ -2207,7 +2509,7 @@
       "notes": "精神の核"
     },
     {
-      "id": 190,
+      "id": 220,
       "category": "6. 精神・感情・哲学",
       "nrs": "cynel",
       "ipa": "[ʃy.nel]",
@@ -2217,7 +2519,7 @@
       "notes": "深い愛情"
     },
     {
-      "id": 191,
+      "id": 221,
       "category": "6. 精神・感情・哲学",
       "nrs": "cynas",
       "ipa": "[ʃy.nas]",
@@ -2227,7 +2529,7 @@
       "notes": "友愛"
     },
     {
-      "id": 192,
+      "id": 222,
       "category": "6. 精神・感情・哲学",
       "nrs": "elir",
       "ipa": "[e.lir]",
@@ -2237,7 +2539,7 @@
       "notes": "喜び"
     },
     {
-      "id": 193,
+      "id": 223,
       "category": "6. 精神・感情・哲学",
       "nrs": "lyras",
       "ipa": "[ly.ras]",
@@ -2247,7 +2549,7 @@
       "notes": "切なさ"
     },
     {
-      "id": 194,
+      "id": 224,
       "category": "6. 精神・感情・哲学",
       "nrs": "sirin",
       "ipa": "[si.rin]",
@@ -2257,7 +2559,7 @@
       "notes": "心の静けさ"
     },
     {
-      "id": 195,
+      "id": 225,
       "category": "6. 精神・感情・哲学",
       "nrs": "krotas",
       "ipa": "[kro.tas]",
@@ -2267,7 +2569,7 @@
       "notes": "高ぶり"
     },
     {
-      "id": 196,
+      "id": 226,
       "category": "6. 精神・感情・哲学",
       "nrs": "kefen",
       "ipa": "[ke.fen]",
@@ -2277,7 +2579,7 @@
       "notes": "畏怖"
     },
     {
-      "id": 197,
+      "id": 227,
       "category": "6. 精神・感情・哲学",
       "nrs": "welin",
       "ipa": "[we.lin]",
@@ -2287,7 +2589,7 @@
       "notes": "希望"
     },
     {
-      "id": 198,
+      "id": 228,
       "category": "6. 精神・感情・哲学",
       "nrs": "solen",
       "ipa": "[so.len]",
@@ -2297,7 +2599,7 @@
       "notes": "孤高"
     },
     {
-      "id": 199,
+      "id": 229,
       "category": "6. 精神・感情・哲学",
       "nrs": "memar",
       "ipa": "[me.mar]",
@@ -2307,7 +2609,7 @@
       "notes": "哲学的思索"
     },
     {
-      "id": 200,
+      "id": 230,
       "category": "6. 精神・感情・哲学",
       "nrs": "fevas",
       "ipa": "[fe.vas]",
@@ -2317,7 +2619,7 @@
       "notes": "信託動詞"
     },
     {
-      "id": 201,
+      "id": 231,
       "category": "6. 精神・感情・哲学",
       "nrs": "kores",
       "ipa": "[ko.res]",
@@ -2327,7 +2629,7 @@
       "notes": "忘却・解放"
     },
     {
-      "id": 202,
+      "id": 232,
       "category": "6. 精神・感情・哲学",
       "nrs": "soras",
       "ipa": "[so.ras]",
@@ -2337,7 +2639,7 @@
       "notes": "想い出"
     },
     {
-      "id": 203,
+      "id": 233,
       "category": "6. 精神・感情・哲学",
       "nrs": "vyran",
       "ipa": "[vy.ran]",
@@ -2347,7 +2649,7 @@
       "notes": "真理"
     },
     {
-      "id": 204,
+      "id": 234,
       "category": "6. 精神・感情・哲学",
       "nrs": "vyranis",
       "ipa": "[vy.ra.nis]",
@@ -2357,7 +2659,7 @@
       "notes": "哲学者"
     },
     {
-      "id": 205,
+      "id": 235,
       "category": "6. 精神・感情・哲学",
       "nrs": "cylan",
       "ipa": "[ʃy.lan]",
@@ -2367,7 +2669,7 @@
       "notes": "美しさ"
     },
     {
-      "id": 206,
+      "id": 236,
       "category": "6. 精神・感情・哲学",
       "nrs": "sonir",
       "ipa": "[so.nir]",
@@ -2377,7 +2679,7 @@
       "notes": "夢"
     },
     {
-      "id": 207,
+      "id": 237,
       "category": "6. 精神・感情・哲学",
       "nrs": "durtan",
       "ipa": "[dur.tan]",
@@ -2387,7 +2689,7 @@
       "notes": "不屈の意志"
     },
     {
-      "id": 208,
+      "id": 238,
       "category": "6. 精神・感情・哲学",
       "nrs": "sufan",
       "ipa": "[su.fan]",
@@ -2397,7 +2699,7 @@
       "notes": "思索から紡がれた智"
     },
     {
-      "id": 209,
+      "id": 239,
       "category": "6. 精神・感情・哲学",
       "nrs": "tyras",
       "ipa": "[ty.ras]",
@@ -2407,7 +2709,7 @@
       "notes": "真理への問いかけ"
     },
     {
-      "id": 210,
+      "id": 240,
       "category": "6. 精神・感情・哲学",
       "nrs": "cynur",
       "ipa": "[ʒy.nur]",
@@ -2417,7 +2719,7 @@
       "notes": "心からの感謝"
     },
     {
-      "id": 211,
+      "id": 241,
       "category": "6. 精神・感情・哲学",
       "nrs": "novis",
       "ipa": "[no.vis]",
@@ -2427,7 +2729,7 @@
       "notes": "崇高なる敬意"
     },
     {
-      "id": 212,
+      "id": 242,
       "category": "6. 精神・感情・哲学",
       "nrs": "duras",
       "ipa": "[du.ras]",
@@ -2437,7 +2739,7 @@
       "notes": "静かに耐える力"
     },
     {
-      "id": 213,
+      "id": 243,
       "category": "6. 精神・感情・哲学",
       "nrs": "lyren",
       "ipa": "[ly.ren]",
@@ -2447,7 +2749,7 @@
       "notes": "魂を鎮める詩"
     },
     {
-      "id": 214,
+      "id": 244,
       "category": "6. 精神・感情・哲学",
       "nrs": "falik",
       "ipa": "[fa.lik]",
@@ -2457,7 +2759,7 @@
       "notes": "光の閃き"
     },
     {
-      "id": 215,
+      "id": 245,
       "category": "6. 精神・感情・哲学",
       "nrs": "larvyn",
       "ipa": "[lar.vyn]",
@@ -2467,7 +2769,7 @@
       "notes": "軌道が示す運命"
     },
     {
-      "id": 216,
+      "id": 246,
       "category": "6. 精神・感情・哲学",
       "nrs": "wylin",
       "ipa": "[wy.lin]",
@@ -2477,7 +2779,7 @@
       "notes": "風の如き自由"
     },
     {
-      "id": 217,
+      "id": 247,
       "category": "6. 精神・感情・哲学",
       "nrs": "sonan",
       "ipa": "[so.nan]",
@@ -2487,7 +2789,67 @@
       "notes": "夢見の動詞"
     },
     {
-      "id": 218,
+      "id": 248,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "cylinor",
+      "ipa": "[ʃy.li.nor]",
+      "pos": "名",
+      "meaningJa": "芸術家、美の探求者、表現者",
+      "meaningEn": "artist, aesthetician, creator of beauty",
+      "notes": "cylan (美) ＋ 専門職"
+    },
+    {
+      "id": 249,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "sirvon",
+      "ipa": "[sir.von]",
+      "pos": "名/形",
+      "meaningJa": "瞑想、深い静思、観照する",
+      "meaningEn": "meditation, tranquil mindfulness",
+      "notes": "sirin (平穏) ＋ 観照"
+    },
+    {
+      "id": 250,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "fevok",
+      "ipa": "[fe.vok]",
+      "pos": "名",
+      "meaningJa": "確信、不抜の信仰、信条",
+      "meaningEn": "conviction, firm creed",
+      "notes": "fevas (信託) ＋ 確証"
+    },
+    {
+      "id": 251,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "kefur",
+      "ipa": "[ke.fur]",
+      "pos": "名",
+      "meaningJa": "畏敬の念、崇拝、神聖感",
+      "meaningEn": "sacred awe, reverence",
+      "notes": "kefen (畏怖) ＋ 崇高"
+    },
+    {
+      "id": 252,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "lyrvik",
+      "ipa": "[lyr.vik]",
+      "pos": "名",
+      "meaningJa": "郷愁、ノスタルジー、遠き星への憧憬",
+      "meaningEn": "nostalgia, longing for distant home",
+      "notes": "lyras (切なさ) ＋ 追憶"
+    },
+    {
+      "id": 253,
+      "category": "6. 精神・感情・哲学",
+      "nrs": "sylkin",
+      "ipa": "[syl.kin]",
+      "pos": "名",
+      "meaningJa": "誓い、心に誓う志、盟心",
+      "meaningEn": "solemn oath, inner pledge",
+      "notes": "sylim (心) ＋ 結縛"
+    },
+    {
+      "id": 254,
       "category": "7. 日常・住まい・食",
       "nrs": "dom",
       "ipa": "[dom]",
@@ -2497,7 +2859,7 @@
       "notes": "居室"
     },
     {
-      "id": 219,
+      "id": 255,
       "category": "7. 日常・住まい・食",
       "nrs": "domar",
       "ipa": "[do.mar]",
@@ -2507,7 +2869,7 @@
       "notes": "住宅"
     },
     {
-      "id": 220,
+      "id": 256,
       "category": "7. 日常・住まい・食",
       "nrs": "domom",
       "ipa": "[do.mom]",
@@ -2517,7 +2879,7 @@
       "notes": "都市"
     },
     {
-      "id": 221,
+      "id": 257,
       "category": "7. 日常・住まい・食",
       "nrs": "taran",
       "ipa": "[ta.ran]",
@@ -2527,7 +2889,7 @@
       "notes": "居住動詞"
     },
     {
-      "id": 222,
+      "id": 258,
       "category": "7. 日常・住まい・食",
       "nrs": "valis",
       "ipa": "[va.lis]",
@@ -2537,7 +2899,7 @@
       "notes": "衣服"
     },
     {
-      "id": 223,
+      "id": 259,
       "category": "7. 日常・住まい・食",
       "nrs": "pamel",
       "ipa": "[pa.mel]",
@@ -2547,7 +2909,7 @@
       "notes": "冊子・本"
     },
     {
-      "id": 224,
+      "id": 260,
       "category": "7. 日常・住まい・食",
       "nrs": "talel",
       "ipa": "[ta.lel]",
@@ -2557,7 +2919,7 @@
       "notes": "机"
     },
     {
-      "id": 225,
+      "id": 261,
       "category": "7. 日常・住まい・食",
       "nrs": "tasel",
       "ipa": "[ta.sel]",
@@ -2567,7 +2929,7 @@
       "notes": "椅子"
     },
     {
-      "id": 226,
+      "id": 262,
       "category": "7. 日常・住まい・食",
       "nrs": "kymel",
       "ipa": "[ky.mel]",
@@ -2577,7 +2939,7 @@
       "notes": "寝具"
     },
     {
-      "id": 227,
+      "id": 263,
       "category": "7. 日常・住まい・食",
       "nrs": "lerel",
       "ipa": "[le.rel]",
@@ -2587,7 +2949,7 @@
       "notes": "開閉具"
     },
     {
-      "id": 228,
+      "id": 264,
       "category": "7. 日常・住まい・食",
       "nrs": "falar",
       "ipa": "[fa.lar]",
@@ -2597,7 +2959,7 @@
       "notes": "光を取り込む処"
     },
     {
-      "id": 229,
+      "id": 265,
       "category": "7. 日常・住まい・食",
       "nrs": "laros",
       "ipa": "[la.ros]",
@@ -2607,7 +2969,7 @@
       "notes": "周回交通具"
     },
     {
-      "id": 230,
+      "id": 266,
       "category": "7. 日常・住まい・食",
       "nrs": "larar",
       "ipa": "[la.rar]",
@@ -2617,7 +2979,7 @@
       "notes": "交通拠点"
     },
     {
-      "id": 231,
+      "id": 267,
       "category": "7. 日常・住まい・食",
       "nrs": "ner",
       "ipa": "[ner]",
@@ -2627,7 +2989,7 @@
       "notes": "食料"
     },
     {
-      "id": 232,
+      "id": 268,
       "category": "7. 日常・住まい・食",
       "nrs": "neran",
       "ipa": "[ne.ran]",
@@ -2637,7 +2999,7 @@
       "notes": "食事動詞"
     },
     {
-      "id": 233,
+      "id": 269,
       "category": "7. 日常・住まい・食",
       "nrs": "nerel",
       "ipa": "[ne.rel]",
@@ -2647,7 +3009,7 @@
       "notes": "料理"
     },
     {
-      "id": 234,
+      "id": 270,
       "category": "7. 日常・住まい・食",
       "nrs": "neror",
       "ipa": "[ne.ror]",
@@ -2657,8 +3019,8 @@
       "notes": "料理人"
     },
     {
-      "id": 235,
-      "category": "7. 日出・住まい・食",
+      "id": 271,
+      "category": "7. 日常・住まい・食",
       "nrs": "nerar",
       "ipa": "[ne.rar]",
       "pos": "名",
@@ -2667,7 +3029,7 @@
       "notes": "飲食店"
     },
     {
-      "id": 236,
+      "id": 272,
       "category": "7. 日常・住まい・食",
       "nrs": "bion",
       "ipa": "[bi.on]",
@@ -2677,7 +3039,7 @@
       "notes": "飲用動詞"
     },
     {
-      "id": 237,
+      "id": 273,
       "category": "7. 日常・住まい・食",
       "nrs": "terin",
       "ipa": "[te.rin]",
@@ -2687,7 +3049,7 @@
       "notes": "温飲料"
     },
     {
-      "id": 238,
+      "id": 274,
       "category": "7. 日常・住まい・食",
       "nrs": "nerat",
       "ipa": "[ne.rat]",
@@ -2697,7 +3059,7 @@
       "notes": "主食"
     },
     {
-      "id": 239,
+      "id": 275,
       "category": "7. 日常・住まい・食",
       "nrs": "talyz",
       "ipa": "[ta.lyz]",
@@ -2707,7 +3069,7 @@
       "notes": "塩・調味料"
     },
     {
-      "id": 240,
+      "id": 276,
       "category": "7. 日常・住まい・食",
       "nrs": "darel",
       "ipa": "[da.rel]",
@@ -2717,7 +3079,7 @@
       "notes": "温かい汁物"
     },
     {
-      "id": 241,
+      "id": 277,
       "category": "7. 日常・住まい・食",
       "nrs": "voril",
       "ipa": "[vo.ril]",
@@ -2727,7 +3089,7 @@
       "notes": "酒"
     },
     {
-      "id": 242,
+      "id": 278,
       "category": "7. 日常・住まい・食",
       "nrs": "klovel",
       "ipa": "[klo.vel]",
@@ -2737,7 +3099,7 @@
       "notes": "施錠・解錠具"
     },
     {
-      "id": 243,
+      "id": 279,
       "category": "7. 日常・住まい・食",
       "nrs": "bionel",
       "ipa": "[bi.o.nel]",
@@ -2747,7 +3109,7 @@
       "notes": "飲用具"
     },
     {
-      "id": 244,
+      "id": 280,
       "category": "7. 日常・住まい・食",
       "nrs": "serel",
       "ipa": "[se.rel]",
@@ -2757,7 +3119,7 @@
       "notes": "手元の刃具"
     },
     {
-      "id": 245,
+      "id": 281,
       "category": "7. 日常・住まい・食",
       "nrs": "celdom",
       "ipa": "[ʃel.dom]",
@@ -2767,7 +3129,7 @@
       "notes": "部屋の上蓋"
     },
     {
-      "id": 246,
+      "id": 282,
       "category": "7. 日常・住まい・食",
       "nrs": "taldom",
       "ipa": "[tal.dom]",
@@ -2777,7 +3139,7 @@
       "notes": "部屋の底面"
     },
     {
-      "id": 247,
+      "id": 283,
       "category": "7. 日常・住まい・食",
       "nrs": "durval",
       "ipa": "[dur.val]",
@@ -2787,7 +3149,7 @@
       "notes": "頑丈な壁"
     },
     {
-      "id": 248,
+      "id": 284,
       "category": "7. 日常・住まい・食",
       "nrs": "velar",
       "ipa": "[ve.lar]",
@@ -2797,7 +3159,7 @@
       "notes": "緑豊かな庭"
     },
     {
-      "id": 249,
+      "id": 285,
       "category": "7. 日常・住まい・食",
       "nrs": "nerom",
       "ipa": "[ne.rom]",
@@ -2807,7 +3169,7 @@
       "notes": "料理を作る部屋"
     },
     {
-      "id": 250,
+      "id": 286,
       "category": "7. 日常・住まい・食",
       "nrs": "kirel",
       "ipa": "[ki.rel]",
@@ -2817,7 +3179,7 @@
       "notes": "文字を刻む道具"
     },
     {
-      "id": 251,
+      "id": 287,
       "category": "7. 日常・住まい・食",
       "nrs": "falvis",
       "ipa": "[fal.vis]",
@@ -2827,7 +3189,7 @@
       "notes": "光を映す具"
     },
     {
-      "id": 252,
+      "id": 288,
       "category": "7. 日常・住まい・食",
       "nrs": "talvin",
       "ipa": "[tal.vin]",
@@ -2837,7 +3199,7 @@
       "notes": "食事を盛る器"
     },
     {
-      "id": 253,
+      "id": 289,
       "category": "7. 日常・住まい・食",
       "nrs": "valdan",
       "ipa": "[val.dan]",
@@ -2847,7 +3209,7 @@
       "notes": "床の敷物"
     },
     {
-      "id": 254,
+      "id": 290,
       "category": "7. 日常・住まい・食",
       "nrs": "larsil",
       "ipa": "[lar.sil]",
@@ -2857,7 +3219,77 @@
       "notes": "歩行の履物"
     },
     {
-      "id": 255,
+      "id": 291,
+      "category": "7. 日常・住まい・食",
+      "nrs": "lervan",
+      "ipa": "[ler.van]",
+      "pos": "名",
+      "meaningJa": "敷居、玄関、踏み分け段",
+      "meaningEn": "threshold, foyer, entryway",
+      "notes": "lerel (扉) ＋ 入口"
+    },
+    {
+      "id": 292,
+      "category": "7. 日常・住まい・食",
+      "nrs": "tasor",
+      "ipa": "[ta.sor]",
+      "pos": "名",
+      "meaningJa": "肘掛け椅子、玉座、長椅子",
+      "meaningEn": "armchair, couch, settee",
+      "notes": "tasel (椅子) ＋ 上位座"
+    },
+    {
+      "id": 293,
+      "category": "7. 日常・住まい・食",
+      "nrs": "falmir",
+      "ipa": "[fal.mir]",
+      "pos": "名",
+      "meaningJa": "ランプ、常夜灯、星灯",
+      "meaningEn": "lamp, lantern, nightlight",
+      "notes": "falun (光) の照明具"
+    },
+    {
+      "id": 294,
+      "category": "7. 日常・住まい・食",
+      "nrs": "nerkam",
+      "ipa": "[ner.kam]",
+      "pos": "名",
+      "meaningJa": "鍋、煮込み釜、調理鍋",
+      "meaningEn": "pot, cauldron, stewpot",
+      "notes": "ner (食) の調理釜"
+    },
+    {
+      "id": 295,
+      "category": "7. 日常・住まい・食",
+      "nrs": "serval",
+      "ipa": "[ser.val]",
+      "pos": "名",
+      "meaningJa": "手袋、保護手袋",
+      "meaningEn": "gloves, gauntlets",
+      "notes": "ser (手) ＋ valis (布)"
+    },
+    {
+      "id": 296,
+      "category": "7. 日常・住まい・食",
+      "nrs": "valren",
+      "ipa": "[val.ren]",
+      "pos": "名",
+      "meaningJa": "帽子、頭巾、庇付き頭覆い",
+      "meaningEn": "hood, cap, headpiece",
+      "notes": "valis (布) ＋ noven (頭)"
+    },
+    {
+      "id": 297,
+      "category": "7. 日常・住まい・食",
+      "nrs": "terlar",
+      "ipa": "[ter.lar]",
+      "pos": "名",
+      "meaningJa": "茶器、急須、温茶瓶",
+      "meaningEn": "teapot, kettle, brew urn",
+      "notes": "terin (茶) の容器"
+    },
+    {
+      "id": 298,
       "category": "8. 動作・相互作用",
       "nrs": "relen",
       "ipa": "[re.len]",
@@ -2867,7 +3299,7 @@
       "notes": "存在コピュラ"
     },
     {
-      "id": 256,
+      "id": 299,
       "category": "8. 動作・相互作用",
       "nrs": "poran",
       "ipa": "[po.ran]",
@@ -2877,7 +3309,7 @@
       "notes": "歩行動詞"
     },
     {
-      "id": 257,
+      "id": 300,
       "category": "8. 動作・相互作用",
       "nrs": "kupan",
       "ipa": "[ku.pan]",
@@ -2887,7 +3319,7 @@
       "notes": "走行動詞"
     },
     {
-      "id": 258,
+      "id": 301,
       "category": "8. 動作・相互作用",
       "nrs": "volan",
       "ipa": "[vo.lan]",
@@ -2897,7 +3329,7 @@
       "notes": "飛翔動詞"
     },
     {
-      "id": 259,
+      "id": 302,
       "category": "8. 動作・相互作用",
       "nrs": "toren",
       "ipa": "[to.ren]",
@@ -2907,7 +3339,7 @@
       "notes": "到来動詞"
     },
     {
-      "id": 260,
+      "id": 303,
       "category": "8. 動作・相互作用",
       "nrs": "vyrel",
       "ipa": "[vy.rel]",
@@ -2917,7 +3349,7 @@
       "notes": "観測動詞"
     },
     {
-      "id": 261,
+      "id": 304,
       "category": "8. 動作・相互作用",
       "nrs": "celan",
       "ipa": "[ʃe.lan]",
@@ -2927,7 +3359,7 @@
       "notes": "仰望動詞"
     },
     {
-      "id": 262,
+      "id": 305,
       "category": "8. 動作・相互作用",
       "nrs": "haris",
       "ipa": "[ha.ris]",
@@ -2937,7 +3369,7 @@
       "notes": "聴覚動詞"
     },
     {
-      "id": 263,
+      "id": 306,
       "category": "8. 動作・相互作用",
       "nrs": "serin",
       "ipa": "[se.rin]",
@@ -2947,7 +3379,7 @@
       "notes": "触覚動詞"
     },
     {
-      "id": 264,
+      "id": 307,
       "category": "8. 動作・相互作用",
       "nrs": "fenor",
       "ipa": "[fe.nor]",
@@ -2957,7 +3389,7 @@
       "notes": "発話動詞"
     },
     {
-      "id": 265,
+      "id": 308,
       "category": "8. 動作・相互作用",
       "nrs": "calun",
       "ipa": "[ʃa.lun]",
@@ -2967,7 +3399,7 @@
       "notes": "対話動詞"
     },
     {
-      "id": 266,
+      "id": 309,
       "category": "8. 動作・相互作用",
       "nrs": "cival",
       "ipa": "[ʃi.val]",
@@ -2977,7 +3409,7 @@
       "notes": "音楽動詞"
     },
     {
-      "id": 267,
+      "id": 310,
       "category": "8. 動作・相互作用",
       "nrs": "saren",
       "ipa": "[sa.ren]",
@@ -2987,7 +3419,7 @@
       "notes": "笑顔動詞"
     },
     {
-      "id": 268,
+      "id": 311,
       "category": "8. 動作・相互作用",
       "nrs": "dyren",
       "ipa": "[dy.ren]",
@@ -2997,7 +3429,7 @@
       "notes": "落涙動詞"
     },
     {
-      "id": 269,
+      "id": 312,
       "category": "8. 動作・相互作用",
       "nrs": "jylas",
       "ipa": "[ʒy.las]",
@@ -3007,7 +3439,7 @@
       "notes": "結合動詞"
     },
     {
-      "id": 270,
+      "id": 313,
       "category": "8. 動作・相互作用",
       "nrs": "kiras",
       "ipa": "[ki.ras]",
@@ -3017,7 +3449,7 @@
       "notes": "創造動詞"
     },
     {
-      "id": 271,
+      "id": 314,
       "category": "8. 動作・相互作用",
       "nrs": "soran",
       "ipa": "[so.ran]",
@@ -3027,7 +3459,7 @@
       "notes": "筆記動詞"
     },
     {
-      "id": 272,
+      "id": 315,
       "category": "8. 動作・相互作用",
       "nrs": "taris",
       "ipa": "[ta.ris]",
@@ -3037,7 +3469,7 @@
       "notes": "静止動詞"
     },
     {
-      "id": 273,
+      "id": 316,
       "category": "8. 動作・相互作用",
       "nrs": "vymin",
       "ipa": "[vy.min]",
@@ -3047,7 +3479,7 @@
       "notes": "守護動詞"
     },
     {
-      "id": 274,
+      "id": 317,
       "category": "8. 動作・相互作用",
       "nrs": "velan",
       "ipa": "[ve.lan]",
@@ -3057,7 +3489,7 @@
       "notes": "探索動詞"
     },
     {
-      "id": 275,
+      "id": 318,
       "category": "8. 動作・相互作用",
       "nrs": "kyvel",
       "ipa": "[ky.vel]",
@@ -3067,7 +3499,7 @@
       "notes": "隠蔽動詞"
     },
     {
-      "id": 276,
+      "id": 319,
       "category": "8. 動作・相互作用",
       "nrs": "leras",
       "ipa": "[le.ras]",
@@ -3077,7 +3509,7 @@
       "notes": "開示動詞"
     },
     {
-      "id": 277,
+      "id": 320,
       "category": "8. 動作・相互作用",
       "nrs": "klovan",
       "ipa": "[klo.van]",
@@ -3087,7 +3519,7 @@
       "notes": "終了動詞"
     },
     {
-      "id": 278,
+      "id": 321,
       "category": "8. 動作・相互作用",
       "nrs": "seran",
       "ipa": "[se.ran]",
@@ -3097,7 +3529,7 @@
       "notes": "授与動詞"
     },
     {
-      "id": 279,
+      "id": 322,
       "category": "8. 動作・相互作用",
       "nrs": "maren",
       "ipa": "[ma.ren]",
@@ -3107,7 +3539,7 @@
       "notes": "受領動詞"
     },
     {
-      "id": 280,
+      "id": 323,
       "category": "8. 動作・相互作用",
       "nrs": "spilan",
       "ipa": "[spi.lan]",
@@ -3117,7 +3549,7 @@
       "notes": "舞踏動詞"
     },
     {
-      "id": 281,
+      "id": 324,
       "category": "8. 動作・相互作用",
       "nrs": "falk",
       "ipa": "[falk]",
@@ -3127,7 +3559,7 @@
       "notes": "鋭い破裂動詞"
     },
     {
-      "id": 282,
+      "id": 325,
       "category": "8. 動作・相互作用",
       "nrs": "zylan",
       "ipa": "[zy.lan]",
@@ -3137,7 +3569,7 @@
       "notes": "水泳動詞"
     },
     {
-      "id": 283,
+      "id": 326,
       "category": "8. 動作・相互作用",
       "nrs": "novas",
       "ipa": "[no.vas]",
@@ -3147,7 +3579,7 @@
       "notes": "上昇動詞"
     },
     {
-      "id": 284,
+      "id": 327,
       "category": "8. 動作・相互作用",
       "nrs": "tulpan",
       "ipa": "[tul.pan]",
@@ -3157,7 +3589,7 @@
       "notes": "下降動詞"
     },
     {
-      "id": 285,
+      "id": 328,
       "category": "8. 動作・相互作用",
       "nrs": "wylkan",
       "ipa": "[wyl.kan]",
@@ -3167,7 +3599,7 @@
       "notes": "放射動詞"
     },
     {
-      "id": 286,
+      "id": 329,
       "category": "8. 動作・相互作用",
       "nrs": "serpan",
       "ipa": "[ser.pan]",
@@ -3177,7 +3609,7 @@
       "notes": "把持動詞"
     },
     {
-      "id": 287,
+      "id": 330,
       "category": "8. 動作・相互作用",
       "nrs": "koran",
       "ipa": "[ko.ran]",
@@ -3187,7 +3619,7 @@
       "notes": "切断動詞"
     },
     {
-      "id": 288,
+      "id": 331,
       "category": "8. 動作・相互作用",
       "nrs": "jylpan",
       "ipa": "[ʒyl.pan]",
@@ -3197,7 +3629,7 @@
       "notes": "製織動詞"
     },
     {
-      "id": 289,
+      "id": 332,
       "category": "8. 動作・相互作用",
       "nrs": "darpan",
       "ipa": "[dar.pan]",
@@ -3207,7 +3639,7 @@
       "notes": "融解動詞"
     },
     {
-      "id": 290,
+      "id": 333,
       "category": "8. 動作・相互作用",
       "nrs": "kyrpan",
       "ipa": "[kyr.pan]",
@@ -3217,7 +3649,7 @@
       "notes": "氷結動詞"
     },
     {
-      "id": 291,
+      "id": 334,
       "category": "8. 動作・相互作用",
       "nrs": "pyran",
       "ipa": "[py.ran]",
@@ -3227,7 +3659,77 @@
       "notes": "燃焼動詞"
     },
     {
-      "id": 292,
+      "id": 335,
+      "category": "8. 動作・相互作用",
+      "nrs": "dolaran",
+      "ipa": "[do.la.ran]",
+      "pos": "動",
+      "meaningJa": "鍛造する、打刻する、精錬加工する",
+      "meaningEn": "forge, refine, craft with tool",
+      "notes": "dolar ＋ 精錬"
+    },
+    {
+      "id": 336,
+      "category": "8. 動作・相互作用",
+      "nrs": "falvan",
+      "ipa": "[fal.van]",
+      "pos": "動",
+      "meaningJa": "照らす、輝かせる、ライトアップする",
+      "meaningEn": "illuminate, shine light upon",
+      "notes": "光を当てる"
+    },
+    {
+      "id": 337,
+      "category": "8. 動作・相互作用",
+      "nrs": "vorken",
+      "ipa": "[vor.ken]",
+      "pos": "動",
+      "meaningJa": "収穫する、実りを摘む、取り込む",
+      "meaningEn": "harvest, reap, gather fruit",
+      "notes": "vorin (果実) を摘む"
+    },
+    {
+      "id": 338,
+      "category": "8. 動作・相互作用",
+      "nrs": "klovanis",
+      "ipa": "[klo.va.nis]",
+      "pos": "動",
+      "meaningJa": "封印する、厳封する、永久保管する",
+      "meaningEn": "seal irrevocably, sequester",
+      "notes": "klovan の強化"
+    },
+    {
+      "id": 339,
+      "category": "8. 動作・相互作用",
+      "nrs": "fenkas",
+      "ipa": "[fen.kas]",
+      "pos": "動",
+      "meaningJa": "告げる、響かせる、布告する",
+      "meaningEn": "announce, herald, proclaim",
+      "notes": "fenor (話す) ＋ 布告"
+    },
+    {
+      "id": 340,
+      "category": "8. 動作・相互作用",
+      "nrs": "serlit",
+      "ipa": "[ser.lit]",
+      "pos": "動",
+      "meaningJa": "撫でる、優しく触れる、いたわる",
+      "meaningEn": "stroke gently, caress",
+      "notes": "ser (手) の柔和接触"
+    },
+    {
+      "id": 341,
+      "category": "8. 動作・相互作用",
+      "nrs": "wylpur",
+      "ipa": "[wyl.pur]",
+      "pos": "動",
+      "meaningJa": "吹き飛ばす、風で散らす、浄化する",
+      "meaningEn": "blow away, scatter by wind",
+      "notes": "風で払う"
+    },
+    {
+      "id": 342,
       "category": "9. 性質・色彩・状態",
       "nrs": "alin",
       "ipa": "[a.lin]",
@@ -3237,7 +3739,7 @@
       "notes": "純白"
     },
     {
-      "id": 293,
+      "id": 343,
       "category": "9. 性質・色彩・状態",
       "nrs": "kyrin",
       "ipa": "[ky.rin]",
@@ -3247,7 +3749,7 @@
       "notes": "漆黒"
     },
     {
-      "id": 294,
+      "id": 344,
       "category": "9. 性質・色彩・状態",
       "nrs": "zylin",
       "ipa": "[zy.lin]",
@@ -3257,7 +3759,7 @@
       "notes": "蒼穹・深碧"
     },
     {
-      "id": 295,
+      "id": 345,
       "category": "9. 性質・色彩・状態",
       "nrs": "pyrin",
       "ipa": "[py.rin]",
@@ -3267,7 +3769,7 @@
       "notes": "真紅"
     },
     {
-      "id": 296,
+      "id": 346,
       "category": "9. 性質・色彩・状態",
       "nrs": "valin",
       "ipa": "[va.lin]",
@@ -3277,7 +3779,7 @@
       "notes": "黄金"
     },
     {
-      "id": 297,
+      "id": 347,
       "category": "9. 性質・色彩・状態",
       "nrs": "tyni",
       "ipa": "[ty.ni]",
@@ -3287,7 +3789,7 @@
       "notes": "月光白銀"
     },
     {
-      "id": 298,
+      "id": 348,
       "category": "9. 性質・色彩・状態",
       "nrs": "nerin",
       "ipa": "[ne.rin]",
@@ -3297,7 +3799,7 @@
       "notes": "新生"
     },
     {
-      "id": 299,
+      "id": 349,
       "category": "9. 性質・色彩・状態",
       "nrs": "eirin",
       "ipa": "[ei.rin]",
@@ -3307,7 +3809,7 @@
       "notes": "悠久"
     },
     {
-      "id": 300,
+      "id": 350,
       "category": "9. 性質・色彩・状態",
       "nrs": "moran",
       "ipa": "[mo.ran]",
@@ -3317,7 +3819,7 @@
       "notes": "巨大"
     },
     {
-      "id": 301,
+      "id": 351,
       "category": "9. 性質・色彩・状態",
       "nrs": "telin",
       "ipa": "[te.lin]",
@@ -3327,7 +3829,7 @@
       "notes": "微小"
     },
     {
-      "id": 302,
+      "id": 352,
       "category": "9. 性質・色彩・状態",
       "nrs": "talani",
       "ipa": "[ta.la.ni]",
@@ -3337,7 +3839,7 @@
       "notes": "堅固"
     },
     {
-      "id": 303,
+      "id": 353,
       "category": "9. 性質・色彩・状態",
       "nrs": "serini",
       "ipa": "[se.ri.ni]",
@@ -3347,7 +3849,7 @@
       "notes": "繊細"
     },
     {
-      "id": 304,
+      "id": 354,
       "category": "9. 性質・色彩・状態",
       "nrs": "sirani",
       "ipa": "[si.ra.ni]",
@@ -3357,7 +3859,7 @@
       "notes": "穏和"
     },
     {
-      "id": 305,
+      "id": 355,
       "category": "9. 性質・色彩・状態",
       "nrs": "faluni",
       "ipa": "[fa.lu.ni]",
@@ -3367,7 +3869,7 @@
       "notes": "明度"
     },
     {
-      "id": 306,
+      "id": 356,
       "category": "9. 性質・色彩・状態",
       "nrs": "kyrimi",
       "ipa": "[ky.ri.mi]",
@@ -3377,7 +3879,7 @@
       "notes": "深度"
     },
     {
-      "id": 307,
+      "id": 357,
       "category": "9. 性質・色彩・状態",
       "nrs": "cironi",
       "ipa": "[ʃi.ro.ni]",
@@ -3387,7 +3889,7 @@
       "notes": "静穏"
     },
     {
-      "id": 308,
+      "id": 358,
       "category": "9. 性質・色彩・状態",
       "nrs": "cylani",
       "ipa": "[ʃy.la.ni]",
@@ -3397,7 +3899,7 @@
       "notes": "美観"
     },
     {
-      "id": 309,
+      "id": 359,
       "category": "9. 性質・色彩・状態",
       "nrs": "eiran",
       "ipa": "[ei.ran]",
@@ -3407,7 +3909,7 @@
       "notes": "不滅"
     },
     {
-      "id": 310,
+      "id": 360,
       "category": "9. 性質・色彩・状態",
       "nrs": "faluri",
       "ipa": "[fa.lu.ri]",
@@ -3417,7 +3919,7 @@
       "notes": "高速"
     },
     {
-      "id": 311,
+      "id": 361,
       "category": "9. 性質・色彩・状態",
       "nrs": "morini",
       "ipa": "[mo.ri.ni]",
@@ -3427,7 +3929,7 @@
       "notes": "低速"
     },
     {
-      "id": 312,
+      "id": 362,
       "category": "9. 性質・色彩・状態",
       "nrs": "novani",
       "ipa": "[no.va.ni]",
@@ -3437,7 +3939,7 @@
       "notes": "高位"
     },
     {
-      "id": 313,
+      "id": 363,
       "category": "9. 性質・色彩・状態",
       "nrs": "tulosi",
       "ipa": "[tu.lo.si]",
@@ -3447,7 +3949,7 @@
       "notes": "低位"
     },
     {
-      "id": 314,
+      "id": 364,
       "category": "9. 性質・色彩・状態",
       "nrs": "falini",
       "ipa": "[fa.li.ni]",
@@ -3457,7 +3959,7 @@
       "notes": "透明感"
     },
     {
-      "id": 315,
+      "id": 365,
       "category": "9. 性質・色彩・状態",
       "nrs": "nebulin",
       "ipa": "[ne.bu.lin]",
@@ -3467,7 +3969,7 @@
       "notes": "星雲の紫"
     },
     {
-      "id": 316,
+      "id": 366,
       "category": "9. 性質・色彩・状態",
       "nrs": "velini",
       "ipa": "[ve.li.ni]",
@@ -3477,7 +3979,7 @@
       "notes": "新緑のエメラルド"
     },
     {
-      "id": 317,
+      "id": 367,
       "category": "9. 性質・色彩・状態",
       "nrs": "durini",
       "ipa": "[du.ri.ni]",
@@ -3487,7 +3989,7 @@
       "notes": "重力と密度"
     },
     {
-      "id": 318,
+      "id": 368,
       "category": "9. 性質・色彩・状態",
       "nrs": "wylini",
       "ipa": "[wy.li.ni]",
@@ -3497,7 +3999,7 @@
       "notes": "軽快な浮遊感"
     },
     {
-      "id": 319,
+      "id": 369,
       "category": "9. 性質・色彩・状態",
       "nrs": "teirini",
       "ipa": "[tei.ri.ni]",
@@ -3507,7 +4009,7 @@
       "notes": "温かな心核"
     },
     {
-      "id": 320,
+      "id": 370,
       "category": "9. 性質・色彩・状態",
       "nrs": "kyrani",
       "ipa": "[ky.ra.ni]",
@@ -3517,7 +4019,7 @@
       "notes": "冷徹な氷"
     },
     {
-      "id": 321,
+      "id": 371,
       "category": "9. 性質・色彩・状態",
       "nrs": "talpi",
       "ipa": "[tal.pi]",
@@ -3527,7 +4029,7 @@
       "notes": "硬質の破裂有標"
     },
     {
-      "id": 322,
+      "id": 372,
       "category": "9. 性質・色彩・状態",
       "nrs": "darini",
       "ipa": "[da.ri.ni]",
@@ -3537,7 +4039,7 @@
       "notes": "柔和な水性"
     },
     {
-      "id": 323,
+      "id": 373,
       "category": "9. 性質・色彩・状態",
       "nrs": "nerili",
       "ipa": "[ne.ri.li]",
@@ -3547,7 +4049,7 @@
       "notes": "豊かな滋味"
     },
     {
-      "id": 324,
+      "id": 374,
       "category": "9. 性質・色彩・状態",
       "nrs": "falki",
       "ipa": "[fal.ki]",
@@ -3557,7 +4059,67 @@
       "notes": "鋭敏な閃光刃"
     },
     {
-      "id": 325,
+      "id": 375,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "taluri",
+      "ipa": "[ta.lu.ri]",
+      "pos": "形",
+      "meaningJa": "金属的な、硬質な光沢の、鋼の",
+      "meaningEn": "metallic, steel-like, lustrous",
+      "notes": "talur (金属) の性質"
+    },
+    {
+      "id": 376,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "darmoni",
+      "ipa": "[dar.mo.ni]",
+      "pos": "形",
+      "meaningJa": "清冽な、湧水のように澄んだ",
+      "meaningEn": "pure, limpid, spring-clear",
+      "notes": "darmon (泉) の性質"
+    },
+    {
+      "id": 377,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "kyrlini",
+      "ipa": "[kyr.li.ni]",
+      "pos": "形",
+      "meaningJa": "雪白の、粉雪のような、純潔の",
+      "meaningEn": "snow-white, crystalline pure",
+      "notes": "kyrlen (雪) の性質"
+    },
+    {
+      "id": 378,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "zohari",
+      "ipa": "[zo.ha.ri]",
+      "pos": "形",
+      "meaningJa": "太陽のような、真昼の、熱烈な",
+      "meaningEn": "solar, radiant, high-noon",
+      "notes": "zohar (太陽) の性質"
+    },
+    {
+      "id": 379,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "celisi",
+      "ipa": "[ʃe.li.si]",
+      "pos": "形",
+      "meaningJa": "霞がかった、曖昧な、霧深い",
+      "meaningEn": "misty, hazy, nebulous",
+      "notes": "celis (霧) の性質"
+    },
+    {
+      "id": 380,
+      "category": "9. 性質・色彩・状態",
+      "nrs": "krotani",
+      "ipa": "[kro.ta.ni]",
+      "pos": "形",
+      "meaningJa": "騒然とした、激動の、波乱に満ちた",
+      "meaningEn": "turbulent, stormy, tumultuous",
+      "notes": "krotas (激動) の性質"
+    },
+    {
+      "id": 381,
       "category": "10. 時空・方位・副詞",
       "nrs": "hav",
       "ipa": "[hav]",
@@ -3567,7 +4129,7 @@
       "notes": "瞬発的摩擦音"
     },
     {
-      "id": 326,
+      "id": 382,
       "category": "10. 時空・方位・副詞",
       "nrs": "havel",
       "ipa": "[ha.vel]",
@@ -3577,7 +4139,7 @@
       "notes": "歴史・時代"
     },
     {
-      "id": 327,
+      "id": 383,
       "category": "10. 時空・方位・副詞",
       "nrs": "valar",
       "ipa": "[va.lar]",
@@ -3587,7 +4149,7 @@
       "notes": "朝"
     },
     {
-      "id": 328,
+      "id": 384,
       "category": "10. 時空・方位・副詞",
       "nrs": "sovil",
       "ipa": "[so.vil]",
@@ -3597,7 +4159,7 @@
       "notes": "昼"
     },
     {
-      "id": 329,
+      "id": 385,
       "category": "10. 時空・方位・副詞",
       "nrs": "kylas",
       "ipa": "[ky.las]",
@@ -3607,7 +4169,7 @@
       "notes": "夕方"
     },
     {
-      "id": 330,
+      "id": 386,
       "category": "10. 時空・方位・副詞",
       "nrs": "feno",
       "ipa": "[fe.no]",
@@ -3617,7 +4179,7 @@
       "notes": "過去日"
     },
     {
-      "id": 331,
+      "id": 387,
       "category": "10. 時空・方位・副詞",
       "nrs": "hano",
       "ipa": "[ha.no]",
@@ -3627,7 +4189,7 @@
       "notes": "本日"
     },
     {
-      "id": 332,
+      "id": 388,
       "category": "10. 時空・方位・副詞",
       "nrs": "seno",
       "ipa": "[se.no]",
@@ -3637,7 +4199,7 @@
       "notes": "来日"
     },
     {
-      "id": 333,
+      "id": 389,
       "category": "10. 時空・方位・副詞",
       "nrs": "celos",
       "ipa": "[ʃe.los]",
@@ -3647,7 +4209,7 @@
       "notes": "上方"
     },
     {
-      "id": 334,
+      "id": 390,
       "category": "10. 時空・方位・副詞",
       "nrs": "talos",
       "ipa": "[ta.los]",
@@ -3657,7 +4219,7 @@
       "notes": "下方"
     },
     {
-      "id": 335,
+      "id": 391,
       "category": "10. 時空・方位・副詞",
       "nrs": "silin",
       "ipa": "[si.lin]",
@@ -3667,7 +4229,7 @@
       "notes": "内部"
     },
     {
-      "id": 336,
+      "id": 392,
       "category": "10. 時空・方位・副詞",
       "nrs": "folan",
       "ipa": "[fo.lan]",
@@ -3677,7 +4239,7 @@
       "notes": "外部"
     },
     {
-      "id": 337,
+      "id": 393,
       "category": "10. 時空・方位・副詞",
       "nrs": "neris",
       "ipa": "[ne.ris]",
@@ -3687,7 +4249,7 @@
       "notes": "至近"
     },
     {
-      "id": 338,
+      "id": 394,
       "category": "10. 時空・方位・副詞",
       "nrs": "falas",
       "ipa": "[fa.las]",
@@ -3697,7 +4259,7 @@
       "notes": "遥か"
     },
     {
-      "id": 339,
+      "id": 395,
       "category": "10. 時空・方位・副詞",
       "nrs": "vyranu",
       "ipa": "[vy.ra.nu]",
@@ -3707,7 +4269,7 @@
       "notes": "確信副詞"
     },
     {
-      "id": 340,
+      "id": 396,
       "category": "10. 時空・方位・副詞",
       "nrs": "foras",
       "ipa": "[fo.ras]",
@@ -3717,7 +4279,7 @@
       "notes": "推量副詞"
     },
     {
-      "id": 341,
+      "id": 397,
       "category": "10. 時空・方位・副詞",
       "nrs": "eirinu",
       "ipa": "[ei.ri.nu]",
@@ -3727,7 +4289,7 @@
       "notes": "恒常副詞"
     },
     {
-      "id": 342,
+      "id": 398,
       "category": "10. 時空・方位・副詞",
       "nrs": "kural",
       "ipa": "[ku.ral]",
@@ -3737,7 +4299,7 @@
       "notes": "相互副詞"
     },
     {
-      "id": 343,
+      "id": 399,
       "category": "10. 時空・方位・副詞",
       "nrs": "mu",
       "ipa": "[mu]",
@@ -3747,7 +4309,7 @@
       "notes": "否定極性辞"
     },
     {
-      "id": 344,
+      "id": 400,
       "category": "10. 時空・方位・副詞",
       "nrs": "ve",
       "ipa": "[ve]",
@@ -3757,7 +4319,7 @@
       "notes": "肯定極性辞"
     },
     {
-      "id": 345,
+      "id": 401,
       "category": "10. 時空・方位・副詞",
       "nrs": "tor",
       "ipa": "[tor]",
@@ -3767,7 +4329,7 @@
       "notes": "逆接接続詞"
     },
     {
-      "id": 346,
+      "id": 402,
       "category": "10. 時空・方位・副詞",
       "nrs": "ul",
       "ipa": "[ul]",
@@ -3777,7 +4339,7 @@
       "notes": "接続詞"
     },
     {
-      "id": 347,
+      "id": 403,
       "category": "10. 時空・方位・副詞",
       "nrs": "zen",
       "ipa": "[zen]",
@@ -3787,7 +4349,7 @@
       "notes": "因果接続詞"
     },
     {
-      "id": 348,
+      "id": 404,
       "category": "10. 時空・方位・副詞",
       "nrs": "tyro",
       "ipa": "[ty.ro]",
@@ -3797,7 +4359,7 @@
       "notes": "探求の問い"
     },
     {
-      "id": 349,
+      "id": 405,
       "category": "10. 時空・方位・副詞",
       "nrs": "falden",
       "ipa": "[fal.den]",
@@ -3807,7 +4369,7 @@
       "notes": "光が昇る方角"
     },
     {
-      "id": 350,
+      "id": 406,
       "category": "10. 時空・方位・副詞",
       "nrs": "kymden",
       "ipa": "[kym.den]",
@@ -3817,7 +4379,7 @@
       "notes": "光が沈む方角"
     },
     {
-      "id": 351,
+      "id": 407,
       "category": "10. 時空・方位・副詞",
       "nrs": "novden",
       "ipa": "[nov.den]",
@@ -3827,7 +4389,7 @@
       "notes": "天頂を向く極"
     },
     {
-      "id": 352,
+      "id": 408,
       "category": "10. 時空・方位・副詞",
       "nrs": "tulden",
       "ipa": "[tul.den]",
@@ -3837,7 +4399,7 @@
       "notes": "天底を向く極"
     },
     {
-      "id": 353,
+      "id": 409,
       "category": "10. 時空・方位・副詞",
       "nrs": "voras",
       "ipa": "[vo.ras]",
@@ -3847,7 +4409,7 @@
       "notes": "進行方向"
     },
     {
-      "id": 354,
+      "id": 410,
       "category": "10. 時空・方位・副詞",
       "nrs": "pason",
       "ipa": "[pa.son]",
@@ -3857,7 +4419,7 @@
       "notes": "過ぎ去る方向"
     },
     {
-      "id": 355,
+      "id": 411,
       "category": "10. 時空・方位・副詞",
       "nrs": "lerin",
       "ipa": "[le.rin]",
@@ -3867,7 +4429,7 @@
       "notes": "左側"
     },
     {
-      "id": 356,
+      "id": 412,
       "category": "10. 時空・方位・副詞",
       "nrs": "parin",
       "ipa": "[pa.rin]",
@@ -3877,7 +4439,7 @@
       "notes": "右側"
     },
     {
-      "id": 357,
+      "id": 413,
       "category": "10. 時空・方位・副詞",
       "nrs": "tyku",
       "ipa": "[ty.ku]",
@@ -3887,7 +4449,7 @@
       "notes": "一拍での即応"
     },
     {
-      "id": 358,
+      "id": 414,
       "category": "10. 時空・方位・副詞",
       "nrs": "valk",
       "ipa": "[valk]",
@@ -3895,6 +4457,66 @@
       "meaningJa": "頻繁に、度々、波打つように",
       "meaningEn": "often, frequently",
       "notes": "周期的な頻度"
+    },
+    {
+      "id": 415,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "havit",
+      "ipa": "[ha.vit]",
+      "pos": "名/副",
+      "meaningJa": "やがて、程なくして、近い将来に",
+      "meaningEn": "soon, before long, presently",
+      "notes": "hav (時) の近傍"
+    },
+    {
+      "id": 416,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "eirlom",
+      "ipa": "[eir.lom]",
+      "pos": "名/副",
+      "meaningJa": "太古に、悠久の昔に、原初から",
+      "meaningEn": "in ancient times, from the dawn",
+      "notes": "eirin (悠久) ＋ 領域"
+    },
+    {
+      "id": 417,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "valasu",
+      "ipa": "[va.la.su]",
+      "pos": "副",
+      "meaningJa": "朝早くに、黎明に、夜明け前に",
+      "meaningEn": "at dawn, in early morning",
+      "notes": "valar (朝) ＋ 副詞語尾"
+    },
+    {
+      "id": 418,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "kylasu",
+      "ipa": "[ky.la.su]",
+      "pos": "副",
+      "meaningJa": "夕暮れ時に、日没に、黄昏に",
+      "meaningEn": "at dusk, at twilight",
+      "notes": "kylas (夕) ＋ 副詞語尾"
+    },
+    {
+      "id": 419,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "novasu",
+      "ipa": "[no.va.su]",
+      "pos": "副",
+      "meaningJa": "高らかに、天上に向けて、頂点へ",
+      "meaningEn": "loftily, aloft, upwards",
+      "notes": "novan (高嶺) ＋ 副詞語尾"
+    },
+    {
+      "id": 420,
+      "category": "10. 時空・方位・副詞",
+      "nrs": "tulosu",
+      "ipa": "[tu.lo.su]",
+      "pos": "副",
+      "meaningJa": "深く、足元へ、根源へ向けて",
+      "meaningEn": "deeply, profoundly, downwards",
+      "notes": "tulos (天底) ＋ 副詞語尾"
     }
   ]
 }

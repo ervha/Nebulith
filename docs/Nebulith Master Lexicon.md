@@ -1,8 +1,9 @@
-# 人工言語「Nebulith（ネビュリス）」マスター辞書定義書（Nebulith Master Lexicon v16.0）
+# 人工言語「Nebulith（ネビュリス）」マスター辞書定義書（Nebulith Master Lexicon v17.0）
 
-**文書バージョン**: v16.0 (地球言語借用完全排除・全10分野358語幹・柔剛調和独自音韻版)  
+**文書バージョン**: v17.0 (地球言語借用完全排除・全10分野420語幹・柔剛調和独自音韻版)  
 **最終更新日**: 2026-10-15  
-**ステータス**: **全10分野・計 358 語幹収録／既成言語借用ゼロ・同音衝突ゼロ・完全検証済**  
+**ステータス**: **全10分野・計 420 語幹収録／既成言語借用ゼロ・同音衝突ゼロ・完全検証済**  
+**目標規模**: 1,000語規模へ段階的拡張中（現在進捗: 42.0%達成）  
 **対応システム**: Nebulith Studio（統合スタジオ・単一画面UI、IME、手記レンダラー）
 
 ---
@@ -83,7 +84,7 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 
 各語彙は同一文内での反復・類似音連続（ゲシュタルト崩壊）を徹底排除するため、**行為・対象・道具・場所・主体のそれぞれに固有の自立語根**を割り当てています。
 
-### 1. 天体・光・宇宙論 (40 語幹)
+### 1. 天体・光・宇宙論 (46 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -127,8 +128,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`falarik`** | [fa.la.rik] | 名 | 光度、放射光束、輝度 | luminosity, radiant flux | 光の精密強度 |
 | **`doran`** | [do.ran] | 名 | 惑星、放浪天体、巡礼星 | planet, wandering orb | 軌道を巡る大地天体 |
 | **`radin`** | [ra.din] | 名 | 軌道半径、長半径、天体間距離 | orbital radius, semi-major axis | 天体周回半径 |
+| **`valosro`** | [va.los.ro] | 名 | 軌道離心率、楕円度、扁平率 | orbital eccentricity, ellipticity | 軌道の楕円性 |
+| **`kymryn`** | [kym.ryn] | 名 | 暗黒物質、ダークマター、不可視質量 | dark matter, unseen cosmic mass | kym (闇) ＋ 質量 |
+| **`faldenar`** | [fal.de.nar] | 名 | 朝焼け、黎明の光芒、払暁の輝き | dawn glow, sunrise radiance | falden (東) ＋ 空間 |
+| **`kymdenar`** | [kym.de.nar] | 名 | 夕焼け、黄昏の残照、夕映え | sunset glow, evening twilight afterglow | kymden (西) ＋ 空間 |
+| **`neburil`** | [ne.bu.ril] | 名 | 原生惑星系円盤、原始星雲環 | protoplanetary disk | nebulis ＋ 微小環 |
+| **`zoharik`** | [zo.ha.rik] | 名 | 太陽黒点、主星斑点、活動領域 | sunspot, starspot | zohar (主星) ＋ 点 |
 
-### 2. 数理・幾何・情報科学 (40 語幹)
+### 2. 数理・幾何・情報科学 (46 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -172,8 +179,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`torin`** | [to.rin] | 名/動 | 入力、インプット、流入データ | input, ingress | 到来する入力 |
 | **`folin`** | [fo.lin] | 名/動 | 出力、アウトプット、流出データ | output, egress | 外へ放つ出力 |
 | **`soril`** | [so.ril] | 名 | メモリ、記憶素子、バッファ | memory, cache, buffer | 記録を保持する素子 |
+| **`jylvat`** | [ʒyl.vat] | 名 | グラフ構造、連結網、関係図 | graph structure, network topology | jyl (結合) ＋ 格子配列 |
+| **`sufrin`** | [suf.rin] | 名 | 暗号鍵、認証トークン、署名符号 | cryptographic key, auth token | suf (計算) ＋ rin (環) |
+| **`kivlom`** | [kiv.lom] | 名 | バイト、オクテット、情報ブロック | byte, octet, data block | kiv (ビット) ＋ -om (集合) |
+| **`veltok`** | [vel.tok] | 名/動 | インデックス、索引、検索目録 | index, search key | 探索の標識 |
+| **`zydot`** | [zy.dot] | 名/動 | 検証、アサーション、実証テスト | validation, assertion, proof test | zyd (検証実相) の確定 |
+| **`krotel`** | [kro.tel] | 名 | 例外、ランタイムエラー、異常割り込み | exception, runtime interrupt | krot (激動) ＋ 信号器 |
 
-### 3. 生命・身体・医療 (35 語幹)
+### 3. 生命・身体・医療 (41 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -212,8 +225,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`durvan`** | [dur.van] | 名 | 免疫、生体防御機構、抗体 | immunity, vital defense | 生体抵抗力 |
 | **`kylat`** | [ky.lat] | 名 | 疲労、消耗、エネルギー枯渇 | fatigue, weariness, drain | 生命力の減退 |
 | **`zyvor`** | [zy.vor] | 名 | 活力、スタミナ、強靭な精力 | stamina, vital vigour | 充実した活力 |
+| **`zyvten`** | [zyv.ten] | 名 | 代謝、生体エネルギー代謝、同化作用 | metabolism, vital energy flux | 生命の転換連鎖 |
+| **`teiros`** | [tei.ros] | 名 | 胎児、生命の萌芽、胚 | embryo, fetus, seed-life | teira (心核) ＋ 幼体 |
+| **`harnas`** | [har.nas] | 名 | 聴力、音感、耳の感度 | hearing ability, auditory sense | harel (耳) ＋ 働き |
+| **`fenlin`** | [fen.lin] | 名 | 味覚、風味、舌ざわり | taste sensation, flavor perception | fenel (口) ＋ 感覚 |
+| **`darmut`** | [dar.mut] | 名 | 汗、体液蒸散、滴り | sweat, perspiration | dar (滴) ＋ 排出 |
+| **`durvanar`** | [dur.va.nar] | 名 | 隔離室、検疫所、無菌室 | quarantine chamber, clean room | durvan (免疫) ＋ 施設 |
 
-### 4. 自然・気象・環境 (44 語幹)
+### 4. 自然・気象・環境 (50 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -261,8 +280,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`havas`** | [ha.vas] | 名 | 季節、四季、周期候 | season, climatic period | 巡る気候期 |
 | **`velhav`** | [vel.hav] | 名 | 春、芽吹きの季節、萌芽期 | spring, vernal season | 花咲く季節 |
 | **`zohav`** | [zo.hav] | 名 | 夏、主星の季節、陽光盛期 | summer, high sun season | 太陽の季節 |
+| **`taldar`** | [tal.dar] | 名 | 泥、湿地、ぬかるみ、粘土湿原 | mud, mire, loam, wetland | tal (土) ＋ dar (水) |
+| **`velpon`** | [vel.pon] | 名 | 樹皮、木の幹、木質部 | bark, tree trunk, bole | vel (木) ＋ 胴幹 |
+| **`darlor`** | [dar.lor] | 名 | 潮流、海流、水流 | ocean current, tidal flow | daris (水) ＋ 巡行 |
+| **`wylven`** | [wyl.ven] | 名 | つむじ風、局所旋風、塵旋風 | whirlwind, vortex eddy | wylas (風) ＋ 旋回 |
+| **`kyrfin`** | [kyr.fin] | 名 | 氷河、永久凍土、氷塊 | glacier, permafrost, ice pack | kyras (氷) ＋ 堆積層 |
+| **`falpir`** | [fal.pir] | 名 | 燐光、生物発光、冷光 | bioluminescence, phosphorescence | falun (光) ＋ pyris (火) の冷光 |
 
-### 5. 社会・法・共同体 (29 語幹)
+### 5. 社会・法・共同体 (35 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -295,8 +320,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`vyrisor`** | [vy.ri.sor] | 名 | 星辰導師、祭司、天象官 | hierophant, astronomer-priest | 星辰の祭司 |
 | **`dolinar`** | [do.li.nar] | 名 | 工匠、技術者、鍛冶師 | master craftsman, engineer | 熟練の工匠 |
 | **`cynor`** | [ʒy.nor] | 名 | 親友、盟友、魂の伴走者 | confidant, sworn companion | 互いを慈しむ友 |
+| **`tarlot`** | [tar.lot] | 名 | 判決、裁定、法廷審判 | judicial verdict, decree | taros (法) ＋ 確定 |
+| **`kuralor`** | [ku.ra.lor] | 名 | 外交官、連盟特使、使節 | diplomat, ambassador, envoy | kuralom (社会) ＋ 使節 |
+| **`renik`** | [re.nik] | 名 | 負債、借用証、債権 | debt, credit bond, liability | renis (通貨) ＋ 証約 |
+| **`dolvis`** | [dol.vis] | 名 | 協同組合、ギルド、職人座 | guild, cooperative, artisan syndicate | dolar (労働) の連合座 |
+| **`calvir`** | [ʃal.vir] | 名 | 請願、議案、提言 | petition, bill, motion | calor (議会) への提題 |
+| **`polten`** | [pol.ten] | 名 | 住民票、戸籍、市民登録 | citizen register, civic roll | polor (市民) ＋ 記録網 |
 
-### 6. 精神・感情・哲学 (29 語幹)
+### 6. 精神・感情・哲学 (35 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -329,8 +360,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`larvyn`** | [lar.vyn] | 名 | 宿命、天命、星の軌道命数 | destiny, cosmic ordination | 軌道が示す運命 |
 | **`wylin`** | [wy.lin] | 名/形 | 自由、束縛なき飛翔、自在な | freedom, liberty, unchained | 風の如き自由 |
 | **`sonan`** | [so.nan] | 動 | 夢を見る、幻視する、構想する | dream, envision, visualize | 夢見の動詞 |
+| **`cylinor`** | [ʃy.li.nor] | 名 | 芸術家、美の探求者、表現者 | artist, aesthetician, creator of beauty | cylan (美) ＋ 専門職 |
+| **`sirvon`** | [sir.von] | 名/形 | 瞑想、深い静思、観照する | meditation, tranquil mindfulness | sirin (平穏) ＋ 観照 |
+| **`fevok`** | [fe.vok] | 名 | 確信、不抜の信仰、信条 | conviction, firm creed | fevas (信託) ＋ 確証 |
+| **`kefur`** | [ke.fur] | 名 | 畏敬の念、崇拝、神聖感 | sacred awe, reverence | kefen (畏怖) ＋ 崇高 |
+| **`lyrvik`** | [lyr.vik] | 名 | 郷愁、ノスタルジー、遠き星への憧憬 | nostalgia, longing for distant home | lyras (切なさ) ＋ 追憶 |
+| **`sylkin`** | [syl.kin] | 名 | 誓い、心に誓う志、盟心 | solemn oath, inner pledge | sylim (心) ＋ 結縛 |
 
-### 7. 日常・住まい・食 (36 語幹)
+### 7. 日常・住まい・食 (44 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -351,6 +388,7 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`neran`** | [ne.ran] | 動 | 食べる、食事する、味わう | eat, dine, partake | 食事動詞 |
 | **`nerel`** | [ne.rel] | 名 | 料理、ごはん、温かい食事 | meal, cooked dish | 料理 |
 | **`neror`** | [ne.ror] | 名 | 料理人、シェフ | cook, chef | 料理人 |
+| **`nerar`** | [ne.rar] | 名 | カフェ、喫茶店、食堂、レストラン | cafe, restaurant, diner | 飲食店 |
 | **`bion`** | [bi.on] | 動 | 飲む、喫する、喉を潤す | drink, sip | 飲用動詞 |
 | **`terin`** | [te.rin] | 名 | 温かい煎じ茶、薬草茶 | tea, warm herbal brew | 温飲料 |
 | **`nerat`** | [ne.rat] | 名 | 主食、焼き穀物、糧 | bread, loaf, staple | 主食 |
@@ -370,14 +408,15 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`talvin`** | [tal.vin] | 名 | 皿、深鉢、陶器の器 | plate, dish, bowl, earthenware | 食事を盛る器 |
 | **`valdan`** | [val.dan] | 名 | 絨毯、敷物、織布マット | carpet, rug, floor tapestry | 床の敷物 |
 | **`larsil`** | [lar.sil] | 名 | 靴、履物、歩行靴 | shoes, footwear, boots | 歩行の履物 |
+| **`lervan`** | [ler.van] | 名 | 敷居、玄関、踏み分け段 | threshold, foyer, entryway | lerel (扉) ＋ 入口 |
+| **`tasor`** | [ta.sor] | 名 | 肘掛け椅子、玉座、長椅子 | armchair, couch, settee | tasel (椅子) ＋ 上位座 |
+| **`falmir`** | [fal.mir] | 名 | ランプ、常夜灯、星灯 | lamp, lantern, nightlight | falun (光) の照明具 |
+| **`nerkam`** | [ner.kam] | 名 | 鍋、煮込み釜、調理鍋 | pot, cauldron, stewpot | ner (食) の調理釜 |
+| **`serval`** | [ser.val] | 名 | 手袋、保護手袋 | gloves, gauntlets | ser (手) ＋ valis (布) |
+| **`valren`** | [val.ren] | 名 | 帽子、頭巾、庇付き頭覆い | hood, cap, headpiece | valis (布) ＋ noven (頭) |
+| **`terlar`** | [ter.lar] | 名 | 茶器、急須、温茶瓶 | teapot, kettle, brew urn | terin (茶) の容器 |
 
-### 7. 日出・住まい・食 (1 語幹)
-
-| NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
-| :--- | :--- | :---: | :--- | :--- | :--- |
-| **`nerar`** | [ne.rar] | 名 | カフェ、喫茶店、食堂、レストラン | cafe, restaurant, diner | 飲食店 |
-
-### 8. 動作・相互作用 (37 語幹)
+### 8. 動作・相互作用 (44 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -418,8 +457,15 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`darpan`** | [dar.pan] | 動 | 溶かす、溶解させる、融解する | melt, dissolve, liquefy | 融解動詞 |
 | **`kyrpan`** | [kyr.pan] | 動 | 凍る、凝固する、結晶化する | freeze, solidify, congeal | 氷結動詞 |
 | **`pyran`** | [py.ran] | 動 | 燃える、点火する、燃焼する | burn, ignite, blaze | 燃焼動詞 |
+| **`dolaran`** | [do.la.ran] | 動 | 鍛造する、打刻する、精錬加工する | forge, refine, craft with tool | dolar ＋ 精錬 |
+| **`falvan`** | [fal.van] | 動 | 照らす、輝かせる、ライトアップする | illuminate, shine light upon | 光を当てる |
+| **`vorken`** | [vor.ken] | 動 | 収穫する、実りを摘む、取り込む | harvest, reap, gather fruit | vorin (果実) を摘む |
+| **`klovanis`** | [klo.va.nis] | 動 | 封印する、厳封する、永久保管する | seal irrevocably, sequester | klovan の強化 |
+| **`fenkas`** | [fen.kas] | 動 | 告げる、響かせる、布告する | announce, herald, proclaim | fenor (話す) ＋ 布告 |
+| **`serlit`** | [ser.lit] | 動 | 撫でる、優しく触れる、いたわる | stroke gently, caress | ser (手) の柔和接触 |
+| **`wylpur`** | [wyl.pur] | 動 | 吹き飛ばす、風で散らす、浄化する | blow away, scatter by wind | 風で払う |
 
-### 9. 性質・色彩・状態 (33 語幹)
+### 9. 性質・色彩・状態 (39 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -456,8 +502,14 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`darini`** | [da.ri.ni] | 形 | 柔らかい、柔軟な、しなやかな | soft, supple, pliant | 柔和な水性 |
 | **`nerili`** | [ne.ri.li] | 形 | 甘い、滋味豊かな、甘美な | sweet, luscious, delicious | 豊かな滋味 |
 | **`falki`** | [fal.ki] | 形 | 鋭い、研ぎ澄まされた、尖鋭な | sharp, acute, keen | 鋭敏な閃光刃 |
+| **`taluri`** | [ta.lu.ri] | 形 | 金属的な、硬質な光沢の、鋼の | metallic, steel-like, lustrous | talur (金属) の性質 |
+| **`darmoni`** | [dar.mo.ni] | 形 | 清冽な、湧水のように澄んだ | pure, limpid, spring-clear | darmon (泉) の性質 |
+| **`kyrlini`** | [kyr.li.ni] | 形 | 雪白の、粉雪のような、純潔の | snow-white, crystalline pure | kyrlen (雪) の性質 |
+| **`zohari`** | [zo.ha.ri] | 形 | 太陽のような、真昼の、熱烈な | solar, radiant, high-noon | zohar (太陽) の性質 |
+| **`celisi`** | [ʃe.li.si] | 形 | 霞がかった、曖昧な、霧深い | misty, hazy, nebulous | celis (霧) の性質 |
+| **`krotani`** | [kro.ta.ni] | 形 | 騒然とした、激動の、波乱に満ちた | turbulent, stormy, tumultuous | krotas (激動) の性質 |
 
-### 10. 時空・方位・副詞 (34 語幹)
+### 10. 時空・方位・副詞 (40 語幹)
 
 | NRS転写 | 発音 (IPA) | 品詞 | 日本語意味 | 英語対応 | 備考・語源 |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -495,6 +547,12 @@ Nebulithの音韻体系は、母音および流音・鼻音（`l, r, n, m, s`）
 | **`parin`** | [pa.rin] | 名/副 | 右、右舷、右方 | right, starboard | 右側 |
 | **`tyku`** | [ty.ku] | 副 | 直ちに、即座に、一拍のうちに | instantly, immediately, on the tick | 一拍での即応 |
 | **`valk`** | [valk] | 副 | 頻繁に、度々、波打つように | often, frequently | 周期的な頻度 |
+| **`havit`** | [ha.vit] | 名/副 | やがて、程なくして、近い将来に | soon, before long, presently | hav (時) の近傍 |
+| **`eirlom`** | [eir.lom] | 名/副 | 太古に、悠久の昔に、原初から | in ancient times, from the dawn | eirin (悠久) ＋ 領域 |
+| **`valasu`** | [va.la.su] | 副 | 朝早くに、黎明に、夜明け前に | at dawn, in early morning | valar (朝) ＋ 副詞語尾 |
+| **`kylasu`** | [ky.la.su] | 副 | 夕暮れ時に、日没に、黄昏に | at dusk, at twilight | kylas (夕) ＋ 副詞語尾 |
+| **`novasu`** | [no.va.su] | 副 | 高らかに、天上に向けて、頂点へ | loftily, aloft, upwards | novan (高嶺) ＋ 副詞語尾 |
+| **`tulosu`** | [tu.lo.su] | 副 | 深く、足元へ、根源へ向けて | deeply, profoundly, downwards | tulos (天底) ＋ 副詞語尾 |
 
 ---
 
