@@ -26,9 +26,9 @@ console.log('=== Verifying Nominal and Reason Clause Extensions ===');
 // 2. 指針・叙述としての「〜することだ」
 {
   const res = engine.analyze('歩くことだ');
-  assert.equal(res.segments[0].state, 'phrase');
-  assert.equal(res.text, 'poran');
-  console.log('PASS: 「歩くことだ」（主語なし） -> poran');
+  assert.equal(res.segments[0].state, 'candidate');
+  assert.ok(res.text.includes('Poran el mi'));
+  console.log('PASS: 「歩くことだ」（主語「私」を自動補完） -> Poran el mi.');
 }
 
 // 3. 理由節の途中段階（主節待ちの「〜から」「〜だから」）
@@ -56,11 +56,12 @@ console.log('=== Verifying Nominal and Reason Clause Extensions ===');
 }
 
 {
-  // 主語未指定の節を含む場合は安全にドラフト保持
+  // 主語未指定でも「私」が自動補完されて候補訳を生成
   const res = engine.analyze('夜だから、私は眠る。');
-  assert.equal(res.segments[0].state, 'draft');
-  assert.ok(res.notes.some(n => n.includes('理由節の未確定部分を保持')));
-  console.log('PASS: 主語未指定を含む複文「夜だから、私は眠る。」 -> 安全にドラフト保持');
+  assert.equal(res.segments[0].state, 'candidate');
+  assert.ok(res.text.includes('Zen relen el mi'));
+  assert.ok(res.notes.some(n => n.includes('主語未指定のため「私」を自動補完')));
+  console.log('PASS: 主語未指定の複文「夜だから、私は眠る。」 -> 自動で「私」を補完して候補生成');
 }
 
 console.log('ALL NOMINAL AND REASON VERIFICATIONS PASSED SUCCESSFULLY!');

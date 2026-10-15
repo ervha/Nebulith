@@ -312,10 +312,11 @@
         }
         const clauses=[part(firstClauseText,{},depth+1),part(compound[3].trim(),{},depth+1)];
         const meaning={schemaVersion:1,kind:'compound',relation:relation[0],clauses:clauses.map(c=>c.meaning||{kind:'unresolved',source:c.source})};
-        if(clauses.some(c=>c.state!=='complete'||c.meaning?.question))return {source,text:'',state:clauses.some(c=>c.state==='blocked')?'blocked':'draft',meaning,notes:[relation[1]+'節の未確定部分を保持。節ごとに主体・解釈を明示してください。',...clauses.flatMap(c=>c.notes)]};
+        if(clauses.some(c=>!['complete','candidate'].includes(c.state)||c.meaning?.question))return {source,text:'',state:clauses.some(c=>c.state==='blocked')?'blocked':'draft',meaning,notes:[relation[1]+'節の未確定部分を保持。節ごとに主体・解釈を明示してください。',...clauses.flatMap(c=>c.notes)]};
         const bare=t=>t.replace(/[.?]+$/,'').replace(/^./,c=>c.toLowerCase());
         const text=relation[0][0].toUpperCase()+relation[0].slice(1)+' '+bare(clauses[0].text)+', '+bare(clauses[1].text)+(clauses[1].text.endsWith('?')?'?':'.');
-        return {source,text,state:'complete',meaning,alignment:[...clauses.flatMap((c,i)=>(c.alignment||[]).map(a=>({...a,role:(i?'主節':'従属節')+'・'+a.role}))),{src:compound[2],dst:relation[0],role:relation[1]+'接続'}],notes:['節ごとの意味を保持して生成。追加複文規則（未監査）。',...clauses.flatMap(c=>c.notes)]};
+        const allConfirmed = clauses.every(c => c.state === 'complete');
+        return {source,text,state:allConfirmed?'complete':'candidate',candidate:text,meaning,alignment:[...clauses.flatMap((c,i)=>(c.alignment||[]).map(a=>({...a,role:(i?'主節':'従属節')+'・'+a.role}))),{src:compound[2],dst:relation[0],role:relation[1]+'接続'}],notes:['節ごとの意味を保持して生成。追加複文規則（未監査）。',...clauses.flatMap(c=>c.notes)]};
       }
       const ownership=key(source).match(/^(.+?)と(.+?)の(.+?)$/);
       if(ownership)try {
@@ -405,7 +406,14 @@
       }
       const fragments=caseOrder.filter(c=>args[c]).map(c=>c+' '+args[c]).join(' ');
       notes.push(...lexicalNotes(fragments));
-      if(!args.el)notes.push('主語未指定。自動で私を補いません。');
+      if(!args.el && feature !== '行為') {
+        args.el = 'mi';
+        argSources.set(args, {
+          ...(argSources.get(args)||{}),
+          el: { text: '私', particle: '（自動補完）', inferred: true }
+        });
+        notes.push('主語未指定のため「私」を自動補完しました。');
+      }
       if(alias && !alias.complete)notes.push('動作の続きの入力待ち');
       if(verbGroup && choices.verb && !verbOptions.includes(choices.verb))return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
       const meaning=meaningOf(form?{...form,ending}:null,args,question,feature);

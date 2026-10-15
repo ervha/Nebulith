@@ -28,7 +28,7 @@
       "requestId": "fb_1792068420776_v6238",
       "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
       "input": "あなたとともに生きる",
-      "initialState": "draft",
+      "initialState": "candidate",
       "choices": {
         "subject": "私",
         "confirmed": true
@@ -101,7 +101,7 @@
       "requestId": "fb_1792068334999_boq6k",
       "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
       "input": "あなたが嫌い。",
-      "initialState": "draft",
+      "initialState": "candidate",
       "choices": {
         "subject": "私",
         "confirmed": true
