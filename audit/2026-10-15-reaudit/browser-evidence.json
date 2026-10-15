@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-15",
+  "browser": "T3 Code Nightly 0.0.46-nightly.20261014.3105 / Electron 44.4.5 / Chrome 152.0.7977.130 / Windows",
+  "pages": [
+    {"path": "fonts/preview.html", "httpStatus": 200, "fontFamily": "Nebulith", "fontStatus": "loaded", "documentFontsCheck": true, "screenshot": "font-preview.png"},
+    {"path": "tools/num_specimen.html", "fontFamily": "Nebulith", "fontStatus": "loaded", "documentFontsCheck": true, "screenshot": "numeral-preview.png"},
+    {"path": "audit/2026-10-15/glyph-specimen.html", "inspection": "html_preview and collaborative browser", "width": 880, "contentHeight": 1117, "cells": 65, "fontFamily": "Nebulith", "fontStatus": "loaded", "documentFontsCheck": true, "screenshot": "all-glyphs.png", "screenshotBodyZoom": 0.6}
+  ],
+  "limits": "Browser loading and whole-glyph visual inspection do not prove zero resemblance to every Latin letter or Arabic digit. .notdef is shown as an outline and SPACE is intentionally blank."
+}

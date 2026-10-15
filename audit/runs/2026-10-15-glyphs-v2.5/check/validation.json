@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-15T04:01:39.208792+00:00",
+  "audited_inputs_unchanged": true,
+  "archive": {
+    "originalDocuments": 5,
+    "historicalSealedArtifacts": 17
+  },
+  "tests_run": 29,
+  "test_exit_code": 0,
+  "document_links_valid": true,
+  "scorecard_counts": {
+    "Pass": 13,
+    "Warn": 1,
+    "Reference": 1
+  },
+  "scope": "Automatic checks and reference integrity; no release approval."
+}

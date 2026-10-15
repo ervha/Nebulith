@@ -1,0 +1,588 @@
+{
+  "fontSha256": "1170d6d3df02575dd01f05f9a0d8f646e60b9ea4bd55f4f6a8775a801ff2fd37",
+  "entries": [
+    {
+      "glyph": ".notdef",
+      "codepoints": [],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "space",
+      "codepoints": [
+        32
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "a",
+      "codepoints": [
+        97
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "A",
+      "codepoints": [
+        65
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "e",
+      "codepoints": [
+        101
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "E",
+      "codepoints": [
+        69
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "i",
+      "codepoints": [
+        105
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "I",
+      "codepoints": [
+        73
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "o",
+      "codepoints": [
+        111
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "O",
+      "codepoints": [
+        79
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "u",
+      "codepoints": [
+        117
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "U",
+      "codepoints": [
+        85
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "y",
+      "codepoints": [
+        121
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "Y",
+      "codepoints": [
+        89
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "l",
+      "codepoints": [
+        108
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "L",
+      "codepoints": [
+        76
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "r",
+      "codepoints": [
+        114
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "R",
+      "codepoints": [
+        82
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "m",
+      "codepoints": [
+        109
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "M",
+      "codepoints": [
+        77
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "n",
+      "codepoints": [
+        110
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "N",
+      "codepoints": [
+        78
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "s",
+      "codepoints": [
+        115
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "S",
+      "codepoints": [
+        83
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "z",
+      "codepoints": [
+        122
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "Z",
+      "codepoints": [
+        90
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "c",
+      "codepoints": [
+        99
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "C",
+      "codepoints": [
+        67
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "j",
+      "codepoints": [
+        106
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "J",
+      "codepoints": [
+        74
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "f",
+      "codepoints": [
+        102
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "F",
+      "codepoints": [
+        70
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "v",
+      "codepoints": [
+        118
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "V",
+      "codepoints": [
+        86
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "h",
+      "codepoints": [
+        104
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "H",
+      "codepoints": [
+        72
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "w",
+      "codepoints": [
+        119
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "W",
+      "codepoints": [
+        87
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "p",
+      "codepoints": [
+        112
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "P",
+      "codepoints": [
+        80
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "b",
+      "codepoints": [
+        98
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "B",
+      "codepoints": [
+        66
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "t",
+      "codepoints": [
+        116
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "T",
+      "codepoints": [
+        84
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "d",
+      "codepoints": [
+        100
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "D",
+      "codepoints": [
+        68
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "k",
+      "codepoints": [
+        107
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "K",
+      "codepoints": [
+        75
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "g",
+      "codepoints": [
+        103
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "G",
+      "codepoints": [
+        71
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "quotesingle",
+      "codepoints": [
+        39
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "zero",
+      "codepoints": [
+        48
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "one",
+      "codepoints": [
+        49
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "two",
+      "codepoints": [
+        50
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "three",
+      "codepoints": [
+        51
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "four",
+      "codepoints": [
+        52
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "five",
+      "codepoints": [
+        53
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "six",
+      "codepoints": [
+        54
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "seven",
+      "codepoints": [
+        55
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "eight",
+      "codepoints": [
+        56
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "nine",
+      "codepoints": [
+        57
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "period",
+      "codepoints": [
+        46
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "comma",
+      "codepoints": [
+        44
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "colon",
+      "codepoints": [
+        58
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    },
+    {
+      "glyph": "hyphen",
+      "codepoints": [
+        45
+      ],
+      "decision": "pending",
+      "reason": null,
+      "reviewer": null
+    }
+  ]
+}

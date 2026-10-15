@@ -1,0 +1,16 @@
+{
+  "format_counts": {
+    "json": 1008,
+    "csv": 1008,
+    "kotlin": 1008,
+    "markdown": 1008
+  },
+  "field_differences": 0,
+  "earth_candidates": 0,
+  "marked_codas": 160,
+  "unresolved_tokens": 0,
+  "total_coda_compliance_rate": 1.0,
+  "font_version": "Version 2.1",
+  "direction_pairs": 14
+}
+Evidence saved to: C:\Users\danun\Desktop\Project\Nebulith\audit\2026-10-15-reaudit-02\evidence.json

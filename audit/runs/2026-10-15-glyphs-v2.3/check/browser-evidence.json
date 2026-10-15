@@ -1,0 +1,52 @@
+{
+  "browserCheck": {
+    "toolIcon": {
+      "_tag": "website",
+      "pageUrl": "http://127.0.0.1:8765/fonts/preview.html"
+    },
+    "value": {
+      "checks": [
+        {
+          "loaded": true,
+          "size": 16,
+          "width": 105.91993713378906
+        },
+        {
+          "loaded": true,
+          "size": 24,
+          "width": 158.87991333007812
+        },
+        {
+          "loaded": true,
+          "size": 48,
+          "width": 317.7598876953125
+        }
+      ],
+      "corpus": true,
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "title": "Nebulith-Regular.ttf Specimen v2.3"
+    }
+  },
+  "visualReview": {
+    "reviewer": "Codex",
+    "pages": [
+      "audit/comparisons/glyph-v2.3/letters-upper.html",
+      "audit/comparisons/glyph-v2.3/letters-lower.html"
+    ],
+    "approved": [
+      "U",
+      "u",
+      "J",
+      "j"
+    ],
+    "pending": 83,
+    "scope": "AI review of changed skeletons against local Arial and adjacent Nebulith letters; no universal originality or human readability certification."
+  },
+  "fontSha256": "08b9df6f60f0e6af16a0a066c10798421fd8ee6e2ec4814388d4b053e54ed004",
+  "corpusSha256": "f985bf10b8c7da2bd235cf8963f675c6ee5250bac37f83d2ae19c5dd03bf5981"
+}

@@ -1,0 +1,29 @@
+{
+  "changes": [
+    {
+      "lexiconId": 285,
+      "oldNrs": "talis",
+      "newNrs": "talyr",
+      "reason": "石のtalyr語幹へ統一。talis/lapisの出典付き距離2を是正。"
+    },
+    {
+      "lexiconId": 286,
+      "oldNrs": "talisar",
+      "newNrs": "talyrar",
+      "reason": "石のtalyr語幹へ統一。talis/lapisの出典付き距離2を是正。"
+    },
+    {
+      "lexiconId": 814,
+      "oldNrs": "taliski",
+      "newNrs": "talyrki",
+      "reason": "石のtalyr語幹へ統一。talis/lapisの出典付き距離2を是正。"
+    }
+  ],
+  "preservedIndependentRoots": [
+    {
+      "lexiconId": 119,
+      "nrs": "talisum",
+      "reason": "数学的定理の独立語。石の語源参照がないため変更しない。"
+    }
+  ]
+}

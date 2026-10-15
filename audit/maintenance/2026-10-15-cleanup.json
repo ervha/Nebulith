@@ -1,0 +1,499 @@
+{
+  "preserved": "Sealed artifact paths and audited input paths are protected.",
+  "files": [
+    {
+      "path": "tools/build_master_lexicon_grand_1000.py",
+      "bytes": 10143,
+      "sha256": "0b900278deda61728c1fabe67261b7245b2082a08c4aa02294b1353406d3e226",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/build_master_lexicon_v15.py",
+      "bytes": 114535,
+      "sha256": "39efcc8864d74512c265ef7c1b853c93df151f99abe4b1bab8f46ed7da7e3e8b",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/build_master_lexicon_v20.py",
+      "bytes": 19082,
+      "sha256": "dad8df2ce5ee5fc7a132b2919fe1b40c88043ff7aff10f1c86bde759067c42cb",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/build_master_lexicon_v21.py",
+      "bytes": 9985,
+      "sha256": "4202737f799b2f9d64d44de37608c40f70f4f4b7f41a3f07b1bbce8599ded469",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/generate_grand_milestone_1000.py",
+      "bytes": 54938,
+      "sha256": "0cf1454818c5d47b060ed2ac3cba948b548749240d16df200092a80b3aab2bac",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/generate_v20_candidates.py",
+      "bytes": 15406,
+      "sha256": "32741d16a58158ca3cb671a98b872fbad247df196962ec3523c71d9bfebee1df",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/generate_v21_candidates.py",
+      "bytes": 17843,
+      "sha256": "b8f4d6201dff82aca929281629805f3d0947cb1b3380378515b0d94c0c0a28e2",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/check_levenshtein_660.py",
+      "bytes": 1504,
+      "sha256": "7c9c267e15943cc864c2cb9d81f1f936ec5571d5a3643e77fb2a29e4f78807a1",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/generate_dashboard_v20.py",
+      "bytes": 4122,
+      "sha256": "65ab6ad500969ab5ad584348efff4a8e8db01d482107054d9c40fcb81e77a1f0",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/update_font_glyphs.py",
+      "bytes": 19257,
+      "sha256": "054dfa3ef0690e75b3286013d2fbe69afca3f9ce68540b942e23b8fb84f07908",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/update_all_remaining_glyphs.py",
+      "bytes": 18122,
+      "sha256": "ccb29da62693c538a8451f8a90398652ec2c68b86c85de0ead1e361850bbd9fc",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/update_num_specimen.py",
+      "bytes": 668,
+      "sha256": "fb2e5ffa5072df35b379e2a37aedf69c5b16e8d39ef9b70d2a19fec883620608",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/create_specimen.py",
+      "bytes": 4957,
+      "sha256": "bc5ccbd362083864c35664e7ece36eaaa5254fb06e93322ec187b15ecf873c09",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/map_reorganization.py",
+      "bytes": 502,
+      "sha256": "2f65275654a24a99dc598c71ae8336fde6f24884b53cae53a5c3dcfa9654b670",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/reclassify_lexicon.py",
+      "bytes": 757,
+      "sha256": "b4846a7f22e328b8a407ee18d567c0b253fdeb593e68a38dca06df7d29d091d9",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/reorganize_and_expand.py",
+      "bytes": 7477,
+      "sha256": "d5470dc6329d628cc1e1b80a11bcbeab25688af12a8a9bd17ccbcff629be2e21",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "docs/dashboard_v20.html",
+      "bytes": 17020,
+      "sha256": "c9bc91e8ffc78cd1c1e53890eb83b1c54c3d0fded62dec7e870c4b8eea9774a2",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.3-wide/inventory.json",
+      "bytes": 155195,
+      "sha256": "a44a6f1e481a81b7b60b9e98c4d7059da4a8f8d3e8a144b7240930287bf9ddf6",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.3-wide/lower.html",
+      "bytes": 27419,
+      "sha256": "c9f5deb186489e456e4372856900e8e70f103f2d57eb53a20829e1164094ad4b",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.3-wide/numbers.html",
+      "bytes": 13247,
+      "sha256": "6fd1121cf94147c7597d7edbc6f4e4f0642e6430ce74fdfd06344797675573c8",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.3-wide/symbols.html",
+      "bytes": 31275,
+      "sha256": "cd0041299b3bab5ef5d2ffac0bdc45f6a0a2daa73fe5e251931dc5f0ef49d6a3",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.3-wide/upper.html",
+      "bytes": 27419,
+      "sha256": "ec5f23b8cdcbbaa3f62d38ce080cb3921273daa90cfb3b0f8f5d9584336f70a8",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-a-only-draft/inventory.json",
+      "bytes": 23745,
+      "sha256": "72bbf073ad876c2d8c6527db4c60fd7cccd158993d050a5f554c4159e6d41ec4",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-a-only-draft/letters-lower.html",
+      "bytes": 16361,
+      "sha256": "b3c390181246d722b204ee89bbeba32df6d92a78509337927f701bd0ba74be1a",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-a-only-draft/letters-upper.html",
+      "bytes": 16361,
+      "sha256": "1dad19040fc60fb11ca7c35b24c2f2520870fbef301a56c2fefb5b108687f760",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-a-only-draft/numbers.html",
+      "bytes": 8713,
+      "sha256": "d25309b65c09f09476ee2e5b6bb650791f7666c3695b273369ac942db35a504c",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-a-only-draft/symbols.html",
+      "bytes": 18241,
+      "sha256": "e5c70ab69ad36123cba66b3a5f1fc92efada538197f3839317be3efb3887e8d7",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-angular-draft/inventory.json",
+      "bytes": 23745,
+      "sha256": "ae1e44b38da14cfdafef5c389c747fa1aebf646f8a14e888e54e251f8790507a",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-angular-draft/letters-lower.html",
+      "bytes": 16166,
+      "sha256": "1e5dadfac010be5ff486ff12c9060ab60f44678212047888ed7e1ccdc96e33a9",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-angular-draft/letters-upper.html",
+      "bytes": 16166,
+      "sha256": "190879334ece8858a72c24763b124311abbe2ad5f868a593dfbba56b614257b6",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-angular-draft/numbers.html",
+      "bytes": 8713,
+      "sha256": "d25309b65c09f09476ee2e5b6bb650791f7666c3695b273369ac942db35a504c",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-angular-draft/symbols.html",
+      "bytes": 18241,
+      "sha256": "e5c70ab69ad36123cba66b3a5f1fc92efada538197f3839317be3efb3887e8d7",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/inventory.json",
+      "bytes": 23745,
+      "sha256": "df9e610973dae6fc80ee85cd5d31b866f800557757e5fba6913cf56a9a52b78f",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/letters-lower.html",
+      "bytes": 15473,
+      "sha256": "596f72abb602017d5f29c0611b376d7258648e9997c1e19fd35fe704f91d5f83",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/letters-upper.html",
+      "bytes": 15473,
+      "sha256": "b54a0794714612bed4fbeceb49b19058ab85210fe5e113351f66c0397345bbfa",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/numbers.html",
+      "bytes": 7835,
+      "sha256": "f831ae46dea712bd87c3e0ab1ffa1a7ee2bcac28af64f6f0c90b277280cb1ec8",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/symbols.html",
+      "bytes": 18205,
+      "sha256": "8f0026bdc4bc63f6e03eac24fe552c27064dc5bc37673792803488f562a82026",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/wide/inventory.json",
+      "bytes": 155333,
+      "sha256": "da11ca3638f669d1ff23276c0f07f28236cdf99bc1fd00bd456fa17d62a68d00",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/wide/lower.html",
+      "bytes": 26528,
+      "sha256": "5229b79e3b6f9814f3c542c8faf0a2bb9b57b7462a0c635618032e061fa45ee1",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/wide/numbers.html",
+      "bytes": 12392,
+      "sha256": "bf8664edf0e4c731bd1f21342a3a558fa3618e8125258b94984bc49ca9f688b6",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/wide/symbols.html",
+      "bytes": 31275,
+      "sha256": "e0c2aaa908b0fab86b969a469d97a5161ce8573a97121877f0d2660c00135f19",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/comparisons/glyph-v2.4-cross-script-draft/wide/upper.html",
+      "bytes": 26528,
+      "sha256": "7e493732ab3e7e054ed361b3146c2152857230526d4eb1c8c212844e209fe17d",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-glyphs-v2.4/discarded-cross-script-draft/font_letter_revision.py",
+      "bytes": 3821,
+      "sha256": "c323ce62440ddace5a920aae7a87b30b40aeb10a75d6a299c3c4be0346180612",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-glyphs-v2.4/discarded-cross-script-draft/glyph_reviews.json",
+      "bytes": 30139,
+      "sha256": "27f3371c650dfd26c5b8801db7ce47761371512a22fa877adae2440e5879439c",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-glyphs-v2.4/discarded-cross-script-draft/Nebulith-Regular.ttf",
+      "bytes": 12680,
+      "sha256": "361055ddafd5d915030a74f173e82928faf5e588395a130ac9ce970cfde165d4",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-023500-531b3172/evidence.json",
+      "bytes": 102530,
+      "sha256": "c792c3f9b0775eec7581df004c191a252156c13f05f71127b25d2f5f581ddc11",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-023747-6b0f64c8/evidence.json",
+      "bytes": 103401,
+      "sha256": "ca2e4193420e0a54b3530876d085e39d6fcfa8948621d447a6119f09a08a64e2",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-023829-2e29cbe9/evidence.json",
+      "bytes": 103401,
+      "sha256": "aa23b581a096916326fdd522afec6bcfaa3b172bf2daa44f3ce013bfd3be2895",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-023837-d35b36c6/evidence.json",
+      "bytes": 103401,
+      "sha256": "9d5c1f6db5b6f3d4b88ceb18753abefb352b835ef2bc4f2dc7cf62fab7d33e21",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-024141-9d0a1947/evidence.json",
+      "bytes": 103429,
+      "sha256": "c0e8d52ae5a1af7a26248be97fb54d5c5ba385e08755a844d0a3943ec05a13df",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-024619-eaef386c/evidence.json",
+      "bytes": 104879,
+      "sha256": "b2433dc6bd7d0d8da4886629e14fb92a4c2091495744edaaa310b6e159427e6e",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-024716-94ff2cd7/evidence.json",
+      "bytes": 104879,
+      "sha256": "b5eadf63e3ec21256461c136b3733f4bd739f5c500602928bc9d8158b9182057",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-024912-121583d5/evidence.json",
+      "bytes": 104916,
+      "sha256": "46b684b0c9410d526acf8f313e56d6d94d292de81375e7eaac8e223561d9bd5b",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-031347-fdb0ba2f/evidence.json",
+      "bytes": 119837,
+      "sha256": "62c74dbb28decdf2aab52e1e1dacbedb07f2bab211ed898fee895167a839ab75",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-031520-e8617222/evidence.json",
+      "bytes": 119837,
+      "sha256": "d7b9e1445777696e7fc0f967573df8d38dbf6c1dc8abbaeaca1274e9d3d14ca6",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-031915-92df2165/evidence.json",
+      "bytes": 119837,
+      "sha256": "3743f902a4f323d10cae36dc5314da124fc4d65160b27bbfa564f11deac13373",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-032337-165e6b4b/evidence.json",
+      "bytes": 124855,
+      "sha256": "128f914899157725b44389e33a0e502852095971d471a277d3635aefc5a6dd46",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-032440-2b21475f/evidence.json",
+      "bytes": 124855,
+      "sha256": "ff21d4593d9cf9762f101345aea696551c1103e0fb98d2e2ffeb2730f7cf99a9",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-032711-ba142a86/evidence.json",
+      "bytes": 125348,
+      "sha256": "d148f4fa02f5ea3623f067a1504764d7e263cedbcb45b0e671ef2aac6c98c95d",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-033011-cc3626ad/evidence.json",
+      "bytes": 126658,
+      "sha256": "4938ebc298c2e424e7e198adb6d43a1a0402b9e931cc0f44fa583ecc67b85f34",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-034835-4acd8dc7/evidence.json",
+      "bytes": 127599,
+      "sha256": "ae4e2cf1f2ba1d0fe9496a49c3e4f438490341567d1f858aac2a8f1a3a586997",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-035010-1f6c3a02/evidence.json",
+      "bytes": 127866,
+      "sha256": "d40987b53f73e448a5d7e6913e7df3e098f60d25cf781ed97a74bc696ddea96b",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-035958-fa0765ef/evidence.json",
+      "bytes": 128554,
+      "sha256": "397a35e003e2a21941654d24c843cb74daa0400f8b1838c1396d2a5880f8cdd5",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "audit/runs/2026-10-15-040138-c63d3116/evidence.json",
+      "bytes": 128821,
+      "sha256": "ce631cd668971437cf1afca6d03fd2ab580a314c9e0e76cbacd27d9599e8ab4f",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/audit_reviews.cpython-314.pyc",
+      "bytes": 9230,
+      "sha256": "769a1d412ae79694e92c4ce6246c412f5868b1d9ac0fa842cebb180832eb810a",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/build_font.cpython-314.pyc",
+      "bytes": 55210,
+      "sha256": "eeae2bfb245a6f9451532b0d51535600488aef9b5741735d53087049575c3257",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/build_master_lexicon_v15.cpython-314.pyc",
+      "bytes": 104198,
+      "sha256": "dc14944b2a09ce0ff4bde818b3a5a4f4b07b6b4910b1921bb352fe8a3cde0692",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/corpus_review.cpython-314.pyc",
+      "bytes": 5377,
+      "sha256": "699016b87d74e1cfe720e82ad3c0d6317381fa4c9c996b92e20a1de8f78a2822",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/earth_comparison.cpython-314.pyc",
+      "bytes": 7355,
+      "sha256": "ed72cbefc226d88b2006b0ce0d3ef92e07c9e392185df2fddecc8562fac083ec",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/false_friend_detector.cpython-314.pyc",
+      "bytes": 9415,
+      "sha256": "610e7b37172c64bd444c4e52db9312708aede6da74ebf72587dedf8eb029fcd3",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/font_letter_revision.cpython-314.pyc",
+      "bytes": 3710,
+      "sha256": "e3915b6d0340c2b18dccdde9490ad46b8e29ca6df3e5945db5b46638d9391885",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/font_pending_revision.cpython-314.pyc",
+      "bytes": 7842,
+      "sha256": "982e9ab51b7583f95ac2d5625a7c53eeb3ecb5f36be984992b1ef2004e9f278e",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/font_symbols.cpython-314.pyc",
+      "bytes": 13132,
+      "sha256": "7103b04bfc19a5c5431e10c693f9004ef0a01a217eeb2a1f2f71bdb5f6841976",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/generate_grand_milestone_1000.cpython-314.pyc",
+      "bytes": 51793,
+      "sha256": "12ec4f56f92f439e417859880c4ae4c8473622bf14cece36e727edc38f451c34",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/generate_v20_candidates.cpython-314.pyc",
+      "bytes": 14487,
+      "sha256": "9ffc5d09c04548d2f854c825e73b5d14f3e6a299ff5f474bacf15eb2eb1c0018",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/generate_v21_candidates.cpython-314.pyc",
+      "bytes": 18586,
+      "sha256": "9190e99afef1124a66272dc690e1b84959a240ac5466433d8f568eb97d59f72e",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/import_swadesh_comparison.cpython-314.pyc",
+      "bytes": 12756,
+      "sha256": "e1b7f5039ce1f73375c81e697db3915ee7424efd7792d91396be7af1b6fdd925",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/nebulith_data.cpython-314.pyc",
+      "bytes": 14664,
+      "sha256": "4b11b52604bba76df03bb2d9e15306f59c65992c87183ca48c5e3c24a43f7948",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/tune_confusing_heteronyms.cpython-314.pyc",
+      "bytes": 2633,
+      "sha256": "246776b7ef507cb97999e2c0008624d1b005098bfbf8c00693e8bc7c72b4eec7",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tools/__pycache__/verify_audit_archive.cpython-314.pyc",
+      "bytes": 2457,
+      "sha256": "d116c8dee61cd8444a517bf5e45cef8f1b711eda5ce48c0acc78311cfe676cdd",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tests/__pycache__/test_font_symbols.cpython-314.pyc",
+      "bytes": 12310,
+      "sha256": "af2dc09c8229826650cd68e2ddf1a25231b18ec92e7d23aa2a917c53bea975e9",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    },
+    {
+      "path": "tests/__pycache__/test_remediation.cpython-314.pyc",
+      "bytes": 27038,
+      "sha256": "1356d278aadb62914cd423b5fef8d50eed743389a9b2450ecb7bff8ad2beb56d",
+      "reason": "obsolete generator, discarded draft, unsealed test run, or regenerable cache"
+    }
+  ],
+  "deletedFiles": 82,
+  "deletedBytes": 3693848.0
+}

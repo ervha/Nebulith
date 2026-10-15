@@ -1,0 +1,42 @@
+Total vocabulary to scrutinize: 1008
+
+--- 1. Uniqueness Audit ---
+Duplicate NRS roots: 0
+Duplicate IPA pronunciations: 0
+
+--- 2. Phonotactics & Orthography Audit ---
+Invalid characters: 0 []
+Forbidden 'q, x' characters: 0 []
+Unorthodox vowel sequences (outside ai, ei, au, oi): 10 [('biondis', 'io'), ('bion', 'io'), ('bionas', 'io'), ('biondor', 'io'), ('bionel', 'io'), ('bionmor', 'io'), ('bionpalv', 'io'), ('bionpan', 'io'), ('bionsol', 'io'), ('bionzar', 'io')]
+
+--- 3. Earth Language Borrowing & Similarity Audit ---
+Exact Earth word matches: 0
+
+--- 4. Short-word High-Confusion Risk Pairs (len<=4, dist=1) ---
+Total short confusable pairs: 4
+  feno   vs seno   | 昨日、過ぎ去りし日    vs 明日、来たるべき日    [16. 動作 vs 16. 動作]
+  ner    vs ser    | 滋養、食材、食物     vs 手、掌、指        [12. 食・ vs 4. 生命・]
+  tor    vs torp   | しかし、されど      vs 天体衝突、隕石落下、イン [16. 動作 vs 1. 天体・]
+  ve     vs vel    | はい、然り、その通り（肯 vs 木、樹木、大樹      [16. 動作 vs 7. 植物・]
+
+--- 5. POS & Suffix Consistency Audit ---
+Part of Speech breakdown: {'名': 716, '名/動': 25, '形': 81, '動': 120, '副': 29, '名/形': 13, '名/副': 16, '副/形': 2, '副/名': 3, '接': 2, '接/副': 1}
+Verbs with non-standard endings: 36
+  VERB: revir [目覚める、覚醒する、回復する]
+  VERB: dolar [働く、勤労する、奉仕する]
+  VERB: talpyr [鍛造する、焼き入れする、熱処理する]
+  VERB: fevas [信じる、信頼する、託す]
+  VERB: kores [忘れる、手放す、過去に置く]
+  VERB: memar [思索する、深く考える、熟慮する]
+  VERB: celvor [覆う、包む、天蓋のように覆い被さる]
+  VERB: cival [歌う、奏でる、旋律を紡ぐ]
+  VERB: darlit [注ぐ、滴下する、水を注ぎ入れる]
+  VERB: darvol [波打つ、うねる、起伏する]
+Adverbs ending in -u: 23 / 29
+Adverbs not ending in -u: 6
+  NON-U ADV: forvis [おそらく、たぶん、星の導きによれば]
+  NON-U ADV: havcor [定時に、規則正しく、時刻通りに]
+  NON-U ADV: havzan [間一髪で、ぎりぎりの時に、絶妙な頃合いで]
+  NON-U ADV: kural [互いに、双方向に、連星のように]
+  NON-U ADV: tyro [なぜ、いかにして（疑問副詞）]
+  NON-U ADV: ve [はい、然り、その通り（肯定極性辞）]

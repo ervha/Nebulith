@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-15",
+  "runId": "2026-10-15-reaudit-02",
+  "method": "Automated evidence collection plus document and visual adjudication; not inferred from script exit code.",
+  "overall": "Nonconforming; release approval withheld",
+  "counts": {
+    "Pass": 10,
+    "Fail": 1,
+    "Warn": 4
+  },
+  "items": [
+    {
+      "id": "CHK-01",
+      "status": "Pass",
+      "reason": "禁止文字0件"
+    },
+    {
+      "id": "CHK-02",
+      "status": "Pass",
+      "reason": "NRS重複0群"
+    },
+    {
+      "id": "CHK-03",
+      "status": "Pass",
+      "reason": "IPA重複0群（独立正規化でも確認）"
+    },
+    {
+      "id": "CHK-04",
+      "status": "Warn",
+      "reason": "86概念462語形・171語のみ照合、全面照合の証拠不足"
+    },
+    {
+      "id": "CHK-05",
+      "status": "Pass",
+      "reason": "全形式1008件、カテゴリー合計1008"
+    },
+    {
+      "id": "CHK-06",
+      "status": "Pass",
+      "reason": "8フィールド差分0"
+    },
+    {
+      "id": "CHK-07",
+      "status": "Pass",
+      "reason": "tal*最大71語"
+    },
+    {
+      "id": "CHK-08",
+      "status": "Warn",
+      "reason": "有標160語、カテゴリー範囲で全件一括承認"
+    },
+    {
+      "id": "CHK-09",
+      "status": "Pass",
+      "reason": "方向副詞14件すべて語幹実在"
+    },
+    {
+      "id": "CHK-10",
+      "status": "Pass",
+      "reason": "6×6の36セル一致"
+    },
+    {
+      "id": "CHK-11",
+      "status": "Warn",
+      "reason": "受動態al＝起格と基本格al＝与格が衝突"
+    },
+    {
+      "id": "CHK-12",
+      "status": "Warn",
+      "reason": "字形別の残存ゼロ評価が未立証、マトリクスと実体に不一致"
+    },
+    {
+      "id": "CHK-13",
+      "status": "Pass",
+      "reason": "10テーブル・65グリフ・64文字"
+    },
+    {
+      "id": "CHK-14",
+      "status": "Pass",
+      "reason": "3系統のBase64同期、今回ブラウザloaded"
+    },
+    {
+      "id": "CHK-15",
+      "status": "Fail",
+      "reason": "本文と逐語解説・辞書ID・和訳が不一致"
+    }
+  ]
+}

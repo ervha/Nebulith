@@ -1,0 +1,241 @@
+{
+  "normalized_ipa_duplicates": {},
+  "ipa_mapping_mismatches": [
+    {
+      "id": 253,
+      "nrs": "teira",
+      "actual": "[tei.ra]",
+      "expected_without_syllable_breaks": "teɪra"
+    },
+    {
+      "id": 254,
+      "nrs": "teiran",
+      "actual": "[tei.ran]",
+      "expected_without_syllable_breaks": "teɪran"
+    },
+    {
+      "id": 255,
+      "nrs": "teirap",
+      "actual": "[tei.rap]",
+      "expected_without_syllable_breaks": "teɪrap"
+    },
+    {
+      "id": 256,
+      "nrs": "teiros",
+      "actual": "[tei.ros]",
+      "expected_without_syllable_breaks": "teɪros"
+    },
+    {
+      "id": 257,
+      "nrs": "teirvan",
+      "actual": "[tei.rvan]",
+      "expected_without_syllable_breaks": "teɪrvan"
+    },
+    {
+      "id": 386,
+      "nrs": "teircon",
+      "actual": "[teir.ʃon]",
+      "expected_without_syllable_breaks": "teɪrʃon"
+    },
+    {
+      "id": 387,
+      "nrs": "teiril",
+      "actual": "[tei.ril]",
+      "expected_without_syllable_breaks": "teɪril"
+    },
+    {
+      "id": 388,
+      "nrs": "teirpan",
+      "actual": "[teir.pan]",
+      "expected_without_syllable_breaks": "teɪrpan"
+    },
+    {
+      "id": 389,
+      "nrs": "teirpanan",
+      "actual": "[teir.pa.nan]",
+      "expected_without_syllable_breaks": "teɪrpanan"
+    },
+    {
+      "id": 390,
+      "nrs": "teirvon",
+      "actual": "[teir.von]",
+      "expected_without_syllable_breaks": "teɪrvon"
+    },
+    {
+      "id": 775,
+      "nrs": "eiran",
+      "actual": "[ei.ran]",
+      "expected_without_syllable_breaks": "eɪran"
+    },
+    {
+      "id": 776,
+      "nrs": "eirin",
+      "actual": "[ei.rin]",
+      "expected_without_syllable_breaks": "eɪrin"
+    },
+    {
+      "id": 820,
+      "nrs": "teirini",
+      "actual": "[tei.ri.ni]",
+      "expected_without_syllable_breaks": "teɪrini"
+    },
+    {
+      "id": 851,
+      "nrs": "eirinu",
+      "actual": "[ei.ri.nu]",
+      "expected_without_syllable_breaks": "eɪrinu"
+    },
+    {
+      "id": 852,
+      "nrs": "eirlom",
+      "actual": "[eir.lom]",
+      "expected_without_syllable_breaks": "eɪrlom"
+    },
+    {
+      "id": 853,
+      "nrs": "eirvas",
+      "actual": "[eir.vas]",
+      "expected_without_syllable_breaks": "eɪrvas"
+    }
+  ],
+  "corpus_token_count": 68,
+  "corpus_token_types": {
+    "dictionary": 26,
+    "grammar": 30,
+    "correlative": 5,
+    "derivation_candidate": 7
+  },
+  "category_metadata_total": 1008,
+  "category_metadata_mismatches": [],
+  "marked_coda_count": 160,
+  "marked_coda_endings": {
+    "p": 16,
+    "k": 35,
+    "t": 40,
+    "v": 65,
+    "f": 1,
+    "d": 2,
+    "z": 1
+  },
+  "unmarked_rate": 0.8412698412698413,
+  "coda_approval_predicate": "category prefix is any integer 1..16; no semantic test",
+  "previous_evidence_manifest_drift": [],
+  "previous_browser_artifact_comparison": {
+    "browser-evidence.json": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "9aa2ef49c603c918612fe1b1ad1f378880dee99a74e64ba5f476d1faaba7cdff",
+      "previous_reaudit_sha256": "9aa2ef49c603c918612fe1b1ad1f378880dee99a74e64ba5f476d1faaba7cdff"
+    },
+    "font-preview.png": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "3f08ef244fb8a3006e425658c5e0f91eb42fd4c2dc5bb097297a5c2923556046",
+      "previous_reaudit_sha256": "3f08ef244fb8a3006e425658c5e0f91eb42fd4c2dc5bb097297a5c2923556046"
+    },
+    "numeral-preview.png": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "cdbf3f8612beaa97380ab402369c4821702b9f1b6c06628b9a7937acd84d28d9",
+      "previous_reaudit_sha256": "cdbf3f8612beaa97380ab402369c4821702b9f1b6c06628b9a7937acd84d28d9"
+    },
+    "all-glyphs.png": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "82e98cf38dfa9b2c628dbc38c69ab57ee9623a950b6d52dc7bdff72e78826c0f",
+      "previous_reaudit_sha256": "82e98cf38dfa9b2c628dbc38c69ab57ee9623a950b6d52dc7bdff72e78826c0f"
+    }
+  },
+  "font": {
+    "table_comparison_with_head": {
+      "OS/2": {
+        "same": true,
+        "current_sha256": "bfab775f2bed52287ca14c06d910f088a5350be3283db69f8b2b4c9ae04cb6a6",
+        "head_sha256": "bfab775f2bed52287ca14c06d910f088a5350be3283db69f8b2b4c9ae04cb6a6"
+      },
+      "cmap": {
+        "same": true,
+        "current_sha256": "ffd08df2d78f923b13f367ab46c6abd425fec0994d1e3228bfc44d8168191eef",
+        "head_sha256": "ffd08df2d78f923b13f367ab46c6abd425fec0994d1e3228bfc44d8168191eef"
+      },
+      "glyf": {
+        "same": true,
+        "current_sha256": "f6ead80085c236b4b598323dcfc97453e198da13ae8cfec670a96b6c8a932164",
+        "head_sha256": "f6ead80085c236b4b598323dcfc97453e198da13ae8cfec670a96b6c8a932164"
+      },
+      "head": {
+        "same": false,
+        "current_sha256": "a3357b74fc3c94cab2d4dd4eea50d00bb9c5d3153933e808f60d945b2a2aab5a",
+        "head_sha256": "cd21bf48f4f3ad99124e35b6c5ce770ed7ae7e86d732007778d49f3e2dabac19"
+      },
+      "hhea": {
+        "same": true,
+        "current_sha256": "f38780fa49bfafda4bb435520a6c7b96b6112f04989fb37cc411453cec152722",
+        "head_sha256": "f38780fa49bfafda4bb435520a6c7b96b6112f04989fb37cc411453cec152722"
+      },
+      "hmtx": {
+        "same": true,
+        "current_sha256": "e949e165ee4ec9d50f8d12e68f7b48bc6878b284de6352c1c24f6bec377b4c78",
+        "head_sha256": "e949e165ee4ec9d50f8d12e68f7b48bc6878b284de6352c1c24f6bec377b4c78"
+      },
+      "loca": {
+        "same": true,
+        "current_sha256": "4a700299a1b3e510f808194ab16eba9cd1e90f258b596a5a149e077e682cde15",
+        "head_sha256": "4a700299a1b3e510f808194ab16eba9cd1e90f258b596a5a149e077e682cde15"
+      },
+      "maxp": {
+        "same": true,
+        "current_sha256": "db716822bc97c5889d43aece41a822628458c0358213614c393c0c80d2f07405",
+        "head_sha256": "db716822bc97c5889d43aece41a822628458c0358213614c393c0c80d2f07405"
+      },
+      "name": {
+        "same": false,
+        "current_sha256": "2a25c4c383bca0e013f187303c19bc550c80d696b9cf1ce208219bb8e1029f55",
+        "head_sha256": "8baa939ea52ae60f630aa1cda16700da62a55f10d29997a76fca818632c1f419"
+      },
+      "post": {
+        "same": true,
+        "current_sha256": "598bb19814c4b695d2b8bd197244371f9be4d21da1a6b000eef7291ffa35253c",
+        "head_sha256": "598bb19814c4b695d2b8bd197244371f9be4d21da1a6b000eef7291ffa35253c"
+      }
+    },
+    "space_metrics": [
+      320,
+      30
+    ],
+    "notdef_contours": 2,
+    "notdef_coordinates": [
+      [
+        100,
+        0
+      ],
+      [
+        100,
+        700
+      ],
+      [
+        550,
+        700
+      ],
+      [
+        550,
+        0
+      ],
+      [
+        150,
+        50
+      ],
+      [
+        500,
+        50
+      ],
+      [
+        500,
+        650
+      ],
+      [
+        150,
+        650
+      ]
+    ],
+    "fontRevision": 2.100006103515625,
+    "created": 3874874913,
+    "modified": 3874874959
+  }
+}

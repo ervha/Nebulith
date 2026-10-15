@@ -1,0 +1,39 @@
+{
+  "before": {
+    "id": 37,
+    "category": "1. 天体・宇宙力学・光",
+    "nrs": "nebulis",
+    "ipa": "[ne.bu.lis]",
+    "pos": "名",
+    "meaningJa": "星雲、星間ガス、宇宙塵",
+    "meaningEn": "nebula, cosmic dust cloud",
+    "notes": "星々の母胎"
+  },
+  "after": {
+    "id": 37,
+    "category": "1. 天体・宇宙力学・光",
+    "nrs": "kyrven",
+    "ipa": "[kyr.ven]",
+    "pos": "名",
+    "meaningJa": "星雲、星間ガス、宇宙塵",
+    "meaningEn": "nebula, cosmic dust cloud",
+    "notes": "星々の母胎"
+  },
+  "reason": "星雲のnebulisとIAU OAEのNebula/Nebulosaは意味が一致し編集距離2。語形も近いためkyrvenへ変更。",
+  "rejectedTrial": {
+    "nrs": "nyvel",
+    "reason": "German Nebel remains at distance 2; rejected after recheck."
+  },
+  "source": "https://astro4edu.org/resources/glossary/term-detail/211/",
+  "reviewer": "Codex",
+  "noteUpdate": {
+    "lexiconId": 38,
+    "before": "nyvel ＋ 微小環（旧語幹 nebu- を保持）",
+    "after": "kyrven ＋ 微小環（旧語幹 nebu- を保持）"
+  },
+  "preserved": [
+    "neburil: protoplanetary disk, different meaning",
+    "nebulin: purple, adjective",
+    "Nebulith: project name"
+  ]
+}

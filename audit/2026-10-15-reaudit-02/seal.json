@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-10-15T02:21:57.828998+00:00",
+  "audited_inputs_unchanged": true,
+  "scorecard_verified": true,
+  "counts": {
+    "Pass": 10,
+    "Fail": 1,
+    "Warn": 4
+  },
+  "artifact_sha256": {
+    "audit/2026-10-15-reaudit-02/all-glyphs.png": "3585bbc22c8fc95888526b468e8145371005afd4830f9af9fafef51b6378f2a1",
+    "audit/2026-10-15-reaudit-02/browser-evidence.json": "b7600c29bccfaf17bc2ad0d7f853109612c05599419fd9367871450c9e831436",
+    "audit/2026-10-15-reaudit-02/build_glyph_specimen.py": "aad1282f35af39e5e063706f87fb1469b1e95d37be02afe66f6f819226e3846e",
+    "audit/2026-10-15-reaudit-02/collector.log": "22c8eee8394ca880c60c5081c9598a9415aa21ded43c7d927fe7e729cf2ac02d",
+    "audit/2026-10-15-reaudit-02/comprehensive.log": "494f2e2764a928dfe59b19d4cfcaaf2180b34eea93488b80ae218fe36faeb731",
+    "audit/2026-10-15-reaudit-02/evidence.json": "87269c0d5512c8607ab3f1debdb2f19bc97db569cfbae5ce19355d06cf56ada4",
+    "audit/2026-10-15-reaudit-02/false-friends.log": "45b2e9255dd8489a21668e679acb8bf3561fb7a24cf40923f04e95baacccda82",
+    "audit/2026-10-15-reaudit-02/font-preview.png": "1cd7ad39c8066d35059fbe90315ccd4096d25315b55b25e271ada1f582a57bfb",
+    "audit/2026-10-15-reaudit-02/glyph-specimen.html": "86efd6cf5ecf641de08504624a3b862a0cd79395a3acb5f632fa7f346ae47ee1",
+    "audit/2026-10-15-reaudit-02/independent.json": "f808500cb41cacfbfcf63d60270565a5d94f990036bfce0cd74027c7480e4b90",
+    "audit/2026-10-15-reaudit-02/independent.log": "743e4b00f894766deed963d902c6270454c094172ed9741615538e8712944f89",
+    "audit/2026-10-15-reaudit-02/numeral-preview.png": "5326e70f4143fc667d7ac5a54f20880bd6e6e5f213995b341b7e8aadf7c768bc",
+    "audit/2026-10-15-reaudit-02/root-families.log": "7af031aebb7c2922533990309d581aec214d5b9ccea5f9295c13f305241dcc28",
+    "audit/2026-10-15-reaudit-02/scorecard.json": "4d66bb655b0cf6081d31ad6cb279a2f586ac07bee88058e32f7e4ec255b258f5",
+    "audit/2026-10-15-reaudit-02/seal_evidence.py": "ece9a6436b744dc684d5e60cc12dae7474abe1dfdebd98e89e3f2071d3351bb4",
+    "audit/2026-10-15-reaudit-02/verify_independent.py": "b2de5a545c54c6d80d085ca024cb3784237e08ba9b0c1af9e929b41fafadcea9",
+    "docs/Nebulith Audit Results 2026-10-15-Reaudit-02.md": "a77419039c42c4c561993e81a56b55dec466b6d0a4b07fc896c150a1b3e6c1ea"
+  }
+}

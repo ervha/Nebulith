@@ -1,0 +1,69 @@
+{
+  "policy": "meaning-and-form-both-2026-10-15",
+  "reviewType": "AI individual review",
+  "entries": [
+    {
+      "candidateKey": "959|bion|swadesh-207:92|la|bibō",
+      "entryHash": "ff9c2b7c943ac03a33e75c59f7d51a5ad7bc88c9bb4b5b2af4f60bc9d7d6c933",
+      "reviewer": "Codex",
+      "decision": "ignore",
+      "meaningSimilar": true,
+      "formSimilar": false,
+      "reason": "意味は飲むで対応するが、bion/biboは4文字中2文字の置換で後半on/boも異なり、共通のbiだけでは語形全体が酷似すると判断しない。"
+    },
+    {
+      "candidateKey": "938|ul|swadesh-207:204|la|et",
+      "entryHash": "4c85ca5558900b03066767f4ecd26f115623c43ccad3c11b150a70c2e744c48b",
+      "reviewer": "Codex",
+      "decision": "ignore",
+      "meaningSimilar": true,
+      "formSimilar": false,
+      "reason": "接続詞の意味は対応するが、短語への距離2判定による抽出。ulとet/y/e/toは語形全体が異なり、undとの共通uだけでも酷似とは判断しない。"
+    },
+    {
+      "candidateKey": "938|ul|swadesh-207:204|fr|et",
+      "entryHash": "4c85ca5558900b03066767f4ecd26f115623c43ccad3c11b150a70c2e744c48b",
+      "reviewer": "Codex",
+      "decision": "ignore",
+      "meaningSimilar": true,
+      "formSimilar": false,
+      "reason": "接続詞の意味は対応するが、短語への距離2判定による抽出。ulとet/y/e/toは語形全体が異なり、undとの共通uだけでも酷似とは判断しない。"
+    },
+    {
+      "candidateKey": "938|ul|swadesh-207:204|es|y",
+      "entryHash": "4c85ca5558900b03066767f4ecd26f115623c43ccad3c11b150a70c2e744c48b",
+      "reviewer": "Codex",
+      "decision": "ignore",
+      "meaningSimilar": true,
+      "formSimilar": false,
+      "reason": "接続詞の意味は対応するが、短語への距離2判定による抽出。ulとet/y/e/toは語形全体が異なり、undとの共通uだけでも酷似とは判断しない。"
+    },
+    {
+      "candidateKey": "938|ul|swadesh-207:204|es|e",
+      "entryHash": "4c85ca5558900b03066767f4ecd26f115623c43ccad3c11b150a70c2e744c48b",
+      "reviewer": "Codex",
+      "decision": "ignore",
+      "meaningSimilar": true,
+      "formSimilar": false,
+      "reason": "接続詞の意味は対応するが、短語への距離2判定による抽出。ulとet/y/e/toは語形全体が異なり、undとの共通uだけでも酷似とは判断しない。"
+    },
+    {
+      "candidateKey": "938|ul|swadesh-207:204|de|und",
+      "entryHash": "4c85ca5558900b03066767f4ecd26f115623c43ccad3c11b150a70c2e744c48b",
+      "reviewer": "Codex",
+      "decision": "ignore",
+      "meaningSimilar": true,
+      "formSimilar": false,
+      "reason": "接続詞の意味は対応するが、短語への距離2判定による抽出。ulとet/y/e/toは語形全体が異なり、undとの共通uだけでも酷似とは判断しない。"
+    },
+    {
+      "candidateKey": "938|ul|swadesh-207:204|ja|to",
+      "entryHash": "4c85ca5558900b03066767f4ecd26f115623c43ccad3c11b150a70c2e744c48b",
+      "reviewer": "Codex",
+      "decision": "ignore",
+      "meaningSimilar": true,
+      "formSimilar": false,
+      "reason": "接続詞の意味は対応するが、短語への距離2判定による抽出。ulとet/y/e/toは語形全体が異なり、undとの共通uだけでも酷似とは判断しない。"
+    }
+  ]
+}

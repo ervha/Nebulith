@@ -1,0 +1,40 @@
+{
+  "note": "Original bytes retained; relocated copies have updated relative links.",
+  "documents": [
+    {
+      "oldPath": "docs/Nebulith Standard Audit Report.md",
+      "currentPath": "audit/docs/Nebulith Standard Audit Report.md",
+      "originalPath": "audit/archive/original-documents/Nebulith Standard Audit Report.md",
+      "originalSha256": "a1cee9b3548dcbe12cde1a9d9a71093ddf7961fa3ee2fac020583dc4d3342b10",
+      "relocatedSha256": "a1cee9b3548dcbe12cde1a9d9a71093ddf7961fa3ee2fac020583dc4d3342b10"
+    },
+    {
+      "oldPath": "docs/Nebulith Audit Results 2026-10-15.md",
+      "currentPath": "audit/docs/Nebulith Audit Results 2026-10-15.md",
+      "originalPath": "audit/archive/original-documents/Nebulith Audit Results 2026-10-15.md",
+      "originalSha256": "79e85e8f91c395922b3d0e35ebb0d9c088b1f924cc28232f9ac4961ffc5bcde2",
+      "relocatedSha256": "f4c8e2da8fd6942386be5a9aebb73582887570ce8dad0836048b7a83ec3b37a8"
+    },
+    {
+      "oldPath": "docs/Nebulith Audit Results 2026-10-15-Reaudit.md",
+      "currentPath": "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit.md",
+      "originalPath": "audit/archive/original-documents/Nebulith Audit Results 2026-10-15-Reaudit.md",
+      "originalSha256": "48e403a9940919c64f67ec00cbbe0b2c568229fdfb69cfc128a285777384fb5e",
+      "relocatedSha256": "4ba56644b9873af6640b0932923768a83faf573b69fe8c2b0e631ae75d7c762a"
+    },
+    {
+      "oldPath": "docs/Nebulith Audit Results 2026-10-15-Reaudit-02.md",
+      "currentPath": "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit-02.md",
+      "originalPath": "audit/archive/original-documents/Nebulith Audit Results 2026-10-15-Reaudit-02.md",
+      "originalSha256": "a77419039c42c4c561993e81a56b55dec466b6d0a4b07fc896c150a1b3e6c1ea",
+      "relocatedSha256": "44aeda6b14316408c9dc43a10310771e34302baa1a28f3f2f3b3a10d85d273bc"
+    },
+    {
+      "oldPath": "docs/Nebulith Remediation Proposal 2026-10-15.md",
+      "currentPath": "audit/docs/Nebulith Remediation Proposal 2026-10-15.md",
+      "originalPath": "audit/archive/original-documents/Nebulith Remediation Proposal 2026-10-15.md",
+      "originalSha256": "39d78e2814f026ee2498bfc35f6de40a1ef8442e04cbde7e1b97f28e7d3ccddc",
+      "relocatedSha256": "39d78e2814f026ee2498bfc35f6de40a1ef8442e04cbde7e1b97f28e7d3ccddc"
+    }
+  ]
+}

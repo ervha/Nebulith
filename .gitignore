@@ -1,5 +1,8 @@
 # Virtual Environment
 .venv/
+.venv-audit/
+studio/build/
+.gradle/
 venv/
 ENV/
 env/

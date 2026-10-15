@@ -1,11 +1,7 @@
 # Nebulith Master Lexicon (星石語 統御語彙大系)
 
-> **Version**: 23.0 (Organic & Naturalistic - 1,008 Master Roots across 16 Categories)  
-> **Design Principle**: Complete Purge of Earth Borrowings & False Cognates, Organic Ablaut, Historical Assimilation & Irregular Archaic Roots  
-> **Progress**: 1008 / 1000 roots (100.8%) [GOAL ACHIEVED]  
-> **Phonetic Base**: Sonorous vowels (a, e, i, o, u, y), liquid semivowels (r, l, v, w, j), resonant nasals (m, n), accented by restrained stops & fricatives (p, b, t, d, k, g, f, s, z, h). Strict exclusion of q, x.
-
----
+> **Version**: 23.4 (1,008 Master Roots across 16 Categories)
+> **Audit status**: 修正中。監査記録は [audit/README.md](../audit/README.md) を参照。
 
 ## 16-Domain Category Overview (全16領域構成)
 
@@ -22,13 +18,11 @@
 | 9 | **9. 統治・社会・法・共同体** | 70語 | 6.9% | 法規範、評議会、市民共同体、誓約、身分同盟 |
 | 10 | **10. 経済・交易・工芸・労働** | 46語 | 4.6% | 市場経済、貨幣、交易路、冶金鍛造、手織機、職人技 |
 | 11 | **11. 建築・都市・住空間** | 46語 | 4.6% | 家屋、建築構造、門柱、都市区画、広場、居住基盤 |
-| 12 | **12. 食・飲料・調理・食器** | 0語 | 0.0% | 穀物、主食、温煮料理、発酵酒、茶器、食卓具 |
+| 12 | **12. 食・飲料・調理・食具** | 50語 | 5.0% | 穀物、主食、温煮料理、発酵酒、茶器、食卓具 |
 | 13 | **13. 衣飾・携行具・日常品** | 50語 | 5.0% | 被服、布地、帯紐、携帯鞄、日用具、灯火、筆記具 |
 | 14 | **14. 精神・哲学・感情・芸術** | 76語 | 7.5% | 意識、思索、美学、詩歌旋律、情動、記憶遺産 |
 | 15 | **15. 性質・状態・色彩・感触** | 80語 | 7.9% | 星彩色彩、物性触感、状態属性、対極性質 |
 | 16 | **16. 動作・動態・時空・方向副詞** | 119語 | 11.8% | 基本動詞、時空概念、3次元方向副詞体系（語幹+-u） |
-
----
 
 ## 語彙目録 (Master Vocabulary Entries - 1,008 Roots)
 
@@ -38,12 +32,12 @@
 |---|---|---|---|---|---|---|
 | 1 | **celen** | `[ʃe.len]` | 名 | 空、天蓋、蒼穹、大気 | sky, firmament | 頭上の大空 |
 | 2 | **celkop** | `[ʃel.kop]` | 名 | 頂、てっぺん、最上部、頂嶺 | crest, summit, tip | celen (空) ＋ 突出点 |
-| 3 | **celmon** | `[cel.mon]` | 名 | 星間分子雲、巨大暗黒星雲 | giant molecular cloud, dark interstellar cloud | cel (天) + mon (巨大集合) |
+| 3 | **celmon** | `[ʃel.mon]` | 名 | 星間分子雲、巨大暗黒星雲 | giant molecular cloud, dark interstellar cloud | cel (天) + mon (巨大集合) |
 | 4 | **celvan** | `[ʃel.van]` | 名 | 天球、全天、天体球殻 | celestial sphere, empyrean dome | 天空を覆う球殻 |
 | 5 | **celzyl** | `[ʃel.zyl]` | 名 | 青空、蒼穹光、大気の散乱光 | blue sky scattering, azure glow | celen (空) ＋ zylin (青) |
-| 6 | **corval** | `/corval/` | 名 | 連星系の重心、共通軌道中心 | barycenter, common orbital center | 天体力学的重心・軌道平衡点。樹木velから分離 |
+| 6 | **corval** | `[ʃor.val]` | 名 | 連星系の重心、共通軌道中心 | barycenter, common orbital center | 天体力学的重心・軌道平衡点。樹木velから分離 |
 | 7 | **doran** | `[do.ran]` | 名 | 惑星、放浪天体、巡礼星 | planet, wandering orb | 軌道を巡る大地天体 |
-| 8 | **dorcon** | `[dor.con]` | 名 | 摂動、軌道摂動、外力微小偏位 | orbital perturbation, gravitational wobble | dor (軌道) + con (揺動) |
+| 8 | **dorcon** | `[dor.ʃon]` | 名 | 摂動、軌道摂動、外力微小偏位 | orbital perturbation, gravitational wobble | dor (軌道) + con (揺動) |
 | 9 | **falarik** | `[fa.la.rik]` | 名 | 光度、放射光束、輝度 | luminosity, radiant flux | 光の精密強度 |
 | 10 | **falasro** | `[fa.las.ro]` | 名 | 遠日点、最遠軌道点 | aphelion, apoapsis | 遥かなる周回点 |
 | 11 | **faldenar** | `[fal.de.nar]` | 名 | 朝焼け、黎明の光芒、払暁の輝き | dawn glow, sunrise radiance | falden (東) ＋ 空間 |
@@ -72,12 +66,12 @@
 | 34 | **laris** | `[la.ris]` | 名 | 軌道、航路、天体周期 | orbit, celestial path | 天体の周回進路 |
 | 35 | **larkan** | `[lar.kan]` | 名 | 軌道傾斜角、傾き、傾斜 | orbital inclination, tilt | 軌道の角度 |
 | 36 | **larven** | `[lar.ven]` | 名/動 | 軌道遷移、スイングバイ、航路変更 | orbital transit, swing-by | 軌道間の跳躍遷移 |
-| 37 | **nebulis** | `[ne.bu.lis]` | 名 | 星雲、星間ガス、宇宙塵 | nebula, cosmic dust cloud | 星々の母胎 |
-| 38 | **neburil** | `[ne.bu.ril]` | 名 | 原生惑星系円盤、原始星雲環 | protoplanetary disk | nebulis ＋ 微小環 |
+| 37 | **kyrven** | `[kyr.ven]` | 名 | 星雲、星間ガス、宇宙塵 | nebula, cosmic dust cloud | 星々の母胎 |
+| 38 | **neburil** | `[ne.bu.ril]` | 名 | 原生惑星系円盤、原始星雲環 | protoplanetary disk | kyrven ＋ 微小環（旧語幹 nebu- を保持） |
 | 39 | **nerisro** | `[ne.ris.ro]` | 名 | 近日点、最接近点 | perihelion, periapsis | 至近の周回点 |
 | 40 | **novar** | `[no.var]` | 名 | 天頂、真上、最高点 | zenith, apex | 天空の頂点 |
 | 41 | **poryk** | `[po.ryk]` | 名 | 距離、道のり、隔たり、行程 | distance, span, interval | poran (歩む) ＋ 隔たり |
-| 42 | **radcon** | `[rad.con]` | 名 | 脱出速度、第二宇宙速度 | escape velocity, parabolic speed | radin (半径) + con (突破限界) |
+| 42 | **radcon** | `[rad.ʃon]` | 名 | 脱出速度、第二宇宙速度 | escape velocity, parabolic speed | radin (半径) + con (突破限界) |
 | 43 | **radin** | `[ra.din]` | 名 | 軌道半径、長半径、天体間距離 | orbital radius, semi-major axis | 天体周回半径 |
 | 44 | **taldun** | `[tal.dun]` | 名 | 傾斜、坂道、勾配、斜面 | slope, incline, gradient | tal (大地) ＋ 勾配 |
 | 45 | **torp** | `[torp]` | 名 | 天体衝突、隕石落下、インパクト | impact, collision | 衝撃の破裂音 |
@@ -86,7 +80,7 @@
 | 48 | **tykvar** | `[tyk.var]` | 名 | 振動、揺れ、周期振動、脈動震 | vibration, oscillation, tremble | tyk (拍) ＋ 揺らぎ |
 | 49 | **tynes** | `[ty.nes]` | 名 | 月、衛星、夜の光球 | moon, satellite | 夜の衛星 |
 | 50 | **tyral** | `[ty.ral]` | 名 | 引力、重力、求心力 | gravity, attraction force | 天体の相互引力 |
-| 51 | **tyrcon** | `[tyr.con]` | 名 | 引力崩壊、重力崩壊、爆縮 | gravitational collapse, implosion | tyral (重力) + con (急激圧縮) |
+| 51 | **tyrcon** | `[tyr.ʃon]` | 名 | 引力崩壊、重力崩壊、爆縮 | gravitational collapse, implosion | tyral (重力) + con (急激圧縮) |
 | 52 | **tyrfos** | `[tyr.fos]` | 名 | 連星系の重心、天体共通重心、平衡点 | barycenter, Lagrange balance point | tyral (引力) ＋ 平衡点 |
 | 53 | **tyril** | `[ty.ril]` | 名 | 潮汐力、引力波、重力波 | tidal force, gravitational wave | 重力の動的波動 |
 | 54 | **valkir** | `[val.kir]` | 名 | 影、日陰、陰影、遮光域 | shadow, shade, silhouette | 光の遮断域 |
@@ -120,7 +114,7 @@
 
 | ID | 語根 (NRS) | IPA | 品詞 | 日本語意味 | 英語意味 | 語源・備考 |
 |---|---|---|---|---|---|---|
-| 81 | **delcon** | `[del.con]` | 名 | 特異点、不連続点、発散点 | singularity, discontinuity point | delis (分割) + con (破綻極) |
+| 81 | **delcon** | `[del.ʃon]` | 名 | 特異点、不連続点、発散点 | singularity, discontinuity point | delis (分割) + con (破綻極) |
 | 82 | **delis** | `[de.lis]` | 名 | 小数、実数、分割比 | decimal, float, fraction | 連続分割値 |
 | 83 | **delrin** | `[del.rin]` | 名 | 連続体、無理数、実数直線 | continuum, irrational number | delis (小数) ＋ rin (環) |
 | 84 | **dorkat** | `[dor.kat]` | 名 | 円錐曲線、二次曲線 | conic section, quadratic curve | dor (周回) + kat (断面) |
@@ -132,15 +126,15 @@
 | 90 | **firtas** | `[fir.tas]` | 名 | 基準、標準、物差し、規準 | standard, benchmark, criterion | firas (不変値) ＋ 規範 |
 | 91 | **firtor** | `[fir.tor]` | 名 | 固有値、固有ベクトル指標 | eigenvalue, characteristic root | firas (定数) + tor (本質) |
 | 92 | **firven** | `[fir.ven]` | 名 | 不変量、保存量、不変則 | invariant, conserved quantity | firas (定数) + ven (状態) |
-| 93 | **jylkat** | `[jyl.kat]` | 名 | 直和、デカルト積、空間結合 | direct sum, Cartesian product | jylom (集合) + kat (積算) |
+| 93 | **jylkat** | `[ʒyl.kat]` | 名 | 直和、デカルト積、空間結合 | direct sum, Cartesian product | jylom (集合) + kat (積算) |
 | 94 | **jylrin** | `[ʒyl.rin]` | 名 | トポロジー、位相空間、閉曲面 | topology, manifold, topological ring | jyl (結合) ＋ rin (環) |
-| 95 | **jytel** | `[jy.tel]` | 名 | ノード、結節点、ネットワーク交点 | node, vertex | jyt (結節点) + -el (素子: ノード、ネットワーク交点) |
+| 95 | **jytel** | `[ʒy.tel]` | 名 | ノード、結節点、ネットワーク交点 | node, vertex | jyt (結節点) + -el (素子: ノード、ネットワーク交点) |
 | 96 | **keldin** | `[kel.din]` | 名 | 偏微分、局所変化率、傾斜率 | partial derivative, directional change rate | kelon (変数) + din (基底微分) |
 | 97 | **kelon** | `[ke.lon]` | 名 | 変数、変動要素、パラメータ | variable, parameter | 可変値 |
 | 98 | **kelpon** | `[kel.pon]` | 名 | 勾配、傾き、グラディエント | gradient, slope, inclination rate | kel (変位) + pon (上昇度) |
 | 99 | **kelton** | `[kel.ton]` | 名 | ベクトル、方向量、有向線分 | vector, directed quantity | kel (変位) + ton (量) |
 | 100 | **kelvis** | `[kel.vis]` | 名 | 差異、相違点、偏差、違い | difference, disparity, variance | kelon (変数) ＋ 差異 |
-| 101 | **kircon** | `[kir.con]` | 名 | 同型写像、位相同型、同型性 | isomorphism, homeomorphism | kiril (写像) + con (一致) |
+| 101 | **kircon** | `[kir.ʃon]` | 名 | 同型写像、位相同型、同型性 | isomorphism, homeomorphism | kiril (写像) + con (一致) |
 | 102 | **kiril** | `[ki.ril]` | 名 | 関数、変換式、写像 | function, mapping formula | 数理写像 |
 | 103 | **kvan** | `[kvan]` | 名 | 量子、最小単位、離散値 | quantum, discrete packet | 最小単位 |
 | 104 | **nifmor** | `[nif.mor]` | 名 | 外積、クロス積、有向面積積 | cross product, outer product, vector product | niven (次元) + mor (直交積) |
@@ -148,11 +142,11 @@
 | 106 | **niftol** | `[nif.tol]` | 名 | 内積、ドット積、射影量 | dot product, inner product, scalar projection | niven (次元) + tol (積) |
 | 107 | **niven** | `[ni.ven]` | 名 | 次元、座標軸、空間度数 | dimension, coordinate axis | 次元・軸 |
 | 108 | **novdin** | `[nov.din]` | 名 | 上限、最小上界、スプレマム | supremum, least upper bound | novar (頂) + din (基底) |
-| 109 | **polytar** | `/polytar/` | 名 | 多面体、空間胞体、幾何胞 | polyhedron, spatial cell, geometric polytope | 幾何学空間胞体・多面体。大地talから分離 |
+| 109 | **polytar** | `[po.ly.tar]` | 名 | 多面体、空間胞体、幾何胞 | polyhedron, spatial cell, geometric polytope | 幾何学空間胞体・多面体。大地talから分離 |
 | 110 | **rin** | `[rin]` | 名 | 円、真円、環 | circle, ring | 幾何円 |
 | 111 | **ryvel** | `[ry.vel]` | 名 | 測度、尺度、メトリック | metric, measure | 精密計測 |
 | 112 | **sevur** | `[se.vur]` | 名 | 選択肢、オルタナティブ、分岐選出 | alternative, option, choice | sevik (分岐) ＋ 選択肢 |
-| 113 | **sufcor** | `[suf.cor]` | 名 | 超限数、無限濃度、カージナル | transfinite number, aleph cardinal | suf (計算) + cor (無限大) |
+| 113 | **sufcor** | `[suf.ʃor]` | 名 | 超限数、無限濃度、カージナル | transfinite number, aleph cardinal | suf (計算) + cor (無限大) |
 | 114 | **sufmor** | `[suf.mor]` | 名 | 論理和、選言、OR演算 | disjunction, logical OR, union | suf (論理) + mor (包括) |
 | 115 | **sufnar** | `[suf.nar]` | 名 | 否定、反転、NOT演算 | negation, logical NOT, inverse complement | suf (論理) + nar (反転) |
 | 116 | **sufron** | `[suf.ron]` | 名 | 統計、確率分布、標本集計 | statistics, probability distribution | suf (計算) + ron (集合) |
@@ -166,7 +160,7 @@
 | 124 | **unvis** | `[un.vis]` | 名 | 同一性、共通点、一致、同値 | identity, sameness, coincidence | un (一) ＋ 共通性 |
 | 125 | **vedkar** | `[ved.kar]` | 名 | 結論、決着、論理的帰結 | conclusion, logical outcome, settlement | ved (真偽値) ＋ 確定点 |
 | 126 | **vedot** | `[ve.dot]` | 名 | 条件式、論理前提、命題 | predicate, proposition, premise | ved (真偽値) ＋ 定立 |
-| 127 | **zydcon** | `[zyd.con]` | 名 | 反証、背理法、矛盾導出 | rebuttal, proof by contradiction, reductio | zydis (証拠) + con (矛盾打倒) |
+| 127 | **zydcon** | `[zyd.ʃon]` | 名 | 反証、背理法、矛盾導出 | rebuttal, proof by contradiction, reductio | zydis (証拠) + con (矛盾打倒) |
 | 128 | **zydis** | `[zy.dis]` | 名 | 証拠、証憑、裏付け、客観的事実証 | evidence, proof, corroboration | zyd (検証実相) ＋ 証跡 |
 ### 3. 情報・計算機・通信 (66語)
 
@@ -176,9 +170,9 @@
 | 130 | **jylom** | `[ʒy.lom]` | 名 | 集合、集約配列、コレクション | set, collection, array | 結びついた要素群 |
 | 131 | **jylvat** | `[ʒyl.vat]` | 名 | グラフ構造、連結網、関係図 | graph structure, network topology | jyl (結合) ＋ 格子配列 |
 | 132 | **jyn** | `[ʒyn]` | 名 | 電気、電力、電荷、エネルギー | electricity, power, energy | 電力・エネルギー |
-| 133 | **jyncon** | `[jyn.con]` | 名 | 論理ゲート、電脳回路素子、スイッチング素子 | logic gate, switching semiconductor element | jyn (電子) + con (接点) |
+| 133 | **jyncon** | `[ʒyn.ʃon]` | 名 | 論理ゲート、電脳回路素子、スイッチング素子 | logic gate, switching semiconductor element | jyn (電子) + con (接点) |
 | 134 | **jynel** | `[ʒy.nel]` | 名 | バッテリー、蓄電池、電源 | battery, power cell | 蓄電器 |
-| 135 | **jynkas** | `[jyn.kas]` | 名 | パケット、転送単位、信号塊 | data packet, transmission frame | jyn (電気) + kas (束) |
+| 135 | **jynkas** | `[ʒyn.kas]` | 名 | パケット、転送単位、信号塊 | data packet, transmission frame | jyn (電気) + kas (束) |
 | 136 | **kiran** | `[ki.ran]` | 動 | （コードを）記述する、紡ぐ、組む | write code, program, compile | プログラミング動詞 |
 | 137 | **kirfas** | `[kir.fas]` | 名 | 手順、段取り、プロセス、手続き | procedure, protocol, process | kiras (創る/組む) ＋ 工程 |
 | 138 | **kirpan** | `[kir.pan]` | 動 | デプロイする、配備する、実稼働に載せる | deploy, roll out, install into production | kiran (コード) + pan (展開) |
@@ -190,7 +184,7 @@
 | 144 | **kivlom** | `[kiv.lom]` | 名 | バイト、オクテット、情報ブロック | byte, octet, data block | kiv (ビット) ＋ -om (集合) |
 | 145 | **kivmor** | `[kiv.mor]` | 名 | ビット演算、論理シフト、ビットマスク | bitwise operation, bit mask, shift | kiv (ビット) + mor (操作) |
 | 146 | **kivron** | `[kiv.ron]` | 名 | ストリーム、連続データ流、ビット流 | data stream, continuous byte sequence | kiv (情報) + ron (流水) |
-| 147 | **krotcon** | `[krot.con]` | 名 | フォールトトレランス、障害耐性、冗長系 | fault tolerance, redundant failover | krot (障害) + con (防護) |
+| 147 | **krotcon** | `[krot.ʃon]` | 名 | フォールトトレランス、障害耐性、冗長系 | fault tolerance, redundant failover | krot (障害) + con (防護) |
 | 148 | **krotel** | `[kro.tel]` | 名 | 例外、ランタイムエラー、異常割り込み | exception, runtime interrupt | krot (激動) ＋ 信号器 |
 | 149 | **krotis** | `[kro.tis]` | 名 | バグ、論理欠陥、不整合 | software defect, glitch, anomaly | krot (破綻) + is (状態) |
 | 150 | **krotpan** | `[krot.pan]` | 動 | クラッシュする、異常終了する、破綻する | crash, abend, terminate abnormally | krot (破綻) + pan (分解) |
@@ -199,14 +193,14 @@
 | 153 | **livkas** | `[liv.kas]` | 名 | アーカイブ、長期保管記録、恒久書庫 | archive, persistent store, vault | livar (保管庫) + kas (強固) |
 | 154 | **livpan** | `[liv.pan]` | 動 | 同期する、データを一致させる、レプリケートする | synchronize, replicate, reconcile data | livar (保存) + pan (一致化) |
 | 155 | **livsol** | `[liv.sol]` | 名 | トランザクション、不可分確定処理 | transaction, atomic commit unit | livar (保存) + sol (完全塊) |
-| 156 | **lyvel** | `/lyvel/` | 名 | 写真、画像、静止画 | photo, image, graphic | 刻印された受光像・写真。photo/imageと完全分離 |
-| 157 | **marnat** | `/marnat/` | 名 | 行列、マトリクス、格子配列 | matrix, grid array | 格子状行列・数学マトリクス。樹木velから分離 |
+| 156 | **lyvel** | `[ly.vel]` | 名 | 写真、画像、静止画 | photo, image, graphic | 刻印された受光像・写真。photo/imageと完全分離 |
+| 157 | **marnat** | `[mar.nat]` | 名 | 行列、マトリクス、格子配列 | matrix, grid array | 格子状行列・数学マトリクス。樹木velから分離 |
 | 158 | **mator** | `[ma.tor]` | 名 | コンピューター、端末、演算機械 | computer, terminal | 精緻な計算機巧 |
-| 159 | **matorcon** | `[ma.tor.con]` | 名 | オペレーティングシステム、統御核、カーネル | operating system kernel, control core | mator (機械) + con (中枢) |
+| 159 | **matorcon** | `[ma.tor.ʃon]` | 名 | オペレーティングシステム、統御核、カーネル | operating system kernel, control core | mator (機械) + con (中枢) |
 | 160 | **matoris** | `[ma.to.ris]` | 名 | 演算器、ALU、プロセッサコア | processor core, arithmetic unit | mator (計算機) ＋ 核 |
 | 161 | **pelel** | `[pe.lel]` | 名 | スマートフォン、携帯情報端末 | smartphone, mobile device | 手のひらの端末 |
 | 162 | **sevik** | `[se.vik]` | 名 | 条件分岐、フォーク、判定節 | branch, conditional fork | 論理の分岐点 |
-| 163 | **sorcon** | `[sor.con]` | 名 | ガベージコレクション、メモリ解放整理 | garbage collection, memory compaction | soril (メモリ) + con (浄化) |
+| 163 | **sorcon** | `[sor.ʃon]` | 名 | ガベージコレクション、メモリ解放整理 | garbage collection, memory compaction | soril (メモリ) + con (浄化) |
 | 164 | **soril** | `[so.ril]` | 名 | メモリ、記憶素子、バッファ | memory, cache, buffer | 記録を保持する素子 |
 | 165 | **sorvat** | `[sor.vat]` | 名 | レジスタ、超高速記憶枠、保持器 | register, high-speed storage cell | soril (記憶) + vat (枠) |
 | 166 | **suf** | `[suf]` | 名/動 | 計算、論理、アルゴリズム | computation, logic | 鋭敏な摩擦音語末 |
@@ -219,7 +213,7 @@
 | 173 | **suftas** | `[suf.tas]` | 名 | スタック、キュー、順序待ち列 | stack, queue, buffer sequence | suf (計算) ＋ 順序配列 |
 | 174 | **suftin** | `[suf.tin]` | 名 | チェックサム、ハッシュ検証値、誤り検出符号 | checksum, cyclic redundancy hash, digest | suf (計算) + tin (検査印) |
 | 175 | **tolas** | `[to.las]` | 名 | メッセージ、通信文、便り | message, dispatch | 短い便り |
-| 176 | **tolcon** | `[tol.con]` | 名 | プロトコル、通信規約、伝送規程 | protocol, transmission pact | tolas (通信) + con (約定) |
+| 176 | **tolcon** | `[tol.ʃon]` | 名 | プロトコル、通信規約、伝送規程 | protocol, transmission pact | tolas (通信) + con (約定) |
 | 177 | **tolkat** | `[tol.kat]` | 名 | レイテンシ、伝送遅延、応答時間 | latency, propagation delay, response lag | tolas (通信) + kat (遅滞間隔) |
 | 178 | **tolom** | `[to.lom]` | 名 | インターネット、Web、世界通信網 | internet, cyber network | 世界情報網 |
 | 179 | **tolpan** | `[tol.pan]` | 動 | ルーティングする、中継転送する、フォワードする | forward, route packet, relay transmission | tolas (通信) + pan (中継) |
@@ -234,7 +228,7 @@
 | 188 | **vylatel** | `[vy.la.tel]` | 名 | ディスプレイ、画面、モニター | display, screen, monitor | 映像出力板 |
 | 189 | **vylom** | `[vy.lom]` | 名 | スコープ、視野域、有効範囲 | scope, valid range | 視界有効範囲 |
 | 190 | **wesan** | `[we.san]` | 動 | 送信する、送る、信号を放つ | send, transmit | 通信動詞 |
-| 191 | **zevcon** | `[zev.con]` | 名 | 正規表現、パターン照合式 | regular expression, regex pattern syntax | zevil (構文) + con (整合) |
+| 191 | **zevcon** | `[zev.ʃon]` | 名 | 正規表現、パターン照合式 | regular expression, regex pattern syntax | zevil (構文) + con (整合) |
 | 192 | **zevil** | `[ze.vil]` | 名 | コード、プログラム、構文、文字列 | code, syntax, script | 論理文字列 |
 | 193 | **zevkas** | `[zev.kas]` | 名/動 | パース、構文解析する、構文木 | parse, syntax analysis, AST | zevil (構文) ＋ 解析 |
 | 194 | **zydot** | `[zy.dot]` | 名/動 | 検証、アサーション、実証テスト | validation, assertion, proof test | zyd (検証実相) の確定 |
@@ -244,7 +238,7 @@
 |---|---|---|---|---|---|---|
 | 195 | **darisan** | `[da.ri.san]` | 動 | 療養する、回復する、快復に向かう | convalesce, recuperate, heal | daris (治癒) + an (動詞化) |
 | 196 | **darisar** | `[da.ri.sar]` | 名 | 病院、医院、診療所、癒しの座 | hospital, clinic | 医療施設 |
-| 197 | **dariscon** | `[da.ris.con]` | 名 | 包帯、固定具、創傷被覆材 | bandage, wound dressing, splint | daris (治療) + con (被覆帯) |
+| 197 | **dariscon** | `[da.ris.ʃon]` | 名 | 包帯、固定具、創傷被覆材 | bandage, wound dressing, splint | daris (治療) + con (被覆帯) |
 | 198 | **darisor** | `[da.ri.sor]` | 名 | 医師、治癒師、導師 | doctor, physician, healer | 医療専門職 |
 | 199 | **darispan** | `[da.ris.pan]` | 動 | 処方する、薬を調合する、投薬する | prescribe, dispense medicine, compound | daris (医療) + pan (調剤) |
 | 200 | **darispuk** | `[da.ris.puk]` | 名 | 軟膏、塗り薬、薬用膏薬 | ointment, therapeutic balm, salve | daris (治癒) + puk (膏油) |
@@ -263,10 +257,10 @@
 | 213 | **fenrut** | `[fen.rut]` | 名 | 喉、気道、咽頭、声の通り道 | throat, pharynx | fenel (口) ＋ 息道 |
 | 214 | **harel** | `[ha.rel]` | 名 | 耳、聴覚器官 | ear, auditory organ | 耳 |
 | 215 | **harnas** | `[har.nas]` | 名 | 聴力、音感、耳の感度 | hearing ability, auditory sense | harel (耳) ＋ 働き |
-| 216 | **hylik** | `/hylik/` | 名 | 皮膚、肌、外被 | skin, dermis | 生体表皮・細胞被膜。樹木velから分離 |
+| 216 | **hylik** | `[hy.lik]` | 名 | 皮膚、肌、外被 | skin, dermis | 生体表皮・細胞被膜。樹木velから分離 |
 | 217 | **jynten** | `[ʒyn.ten]` | 名 | 神経、感覚伝達網、シナプス | nerve, neural network | 生体電信線 |
 | 218 | **kivan** | `[ki.van]` | 名 | 細胞、生体微小胞 | cell, life vesicle | 生命の最小単位小胞 |
-| 219 | **korgon** | `/korgon/` | 名 | 胃、消化器、滋養受納処 | stomach, digestive organ | 消化臓腑・胃。stomach/magenと完全分離 |
+| 219 | **korgon** | `[kor.gon]` | 名 | 胃、消化器、滋養受納処 | stomach, digestive organ | 消化臓腑・胃。stomach/magenと完全分離 |
 | 220 | **kylar** | `[ky.lar]` | 名 | 病、乱調、軌道乱れ | illness, disease | 病気・不調 |
 | 221 | **kylat** | `[ky.lat]` | 名 | 疲労、消耗、エネルギー枯渇 | fatigue, weariness, drain | 生命力の減退 |
 | 222 | **kymin** | `[ky.min]` | 名/動 | 眠り、睡眠、休眠する | sleep, rest | 睡眠 |
@@ -274,7 +268,7 @@
 | 224 | **kyminis** | `[ky.mi.nis]` | 名 | 居眠り、うたた寝、小休止 | nap, doze, catnap | kymin (睡眠) ＋ 縮小 |
 | 225 | **larin** | `[la.rin]` | 名 | 足、脚、歩行肢 | foot, leg | 歩行肢 |
 | 226 | **larkul** | `[lar.kul]` | 名 | 足首、くるぶし、歩行関節 | ankle, tarsus | larin (足) ＋ 節点 |
-| 227 | **morcon** | `[mor.con]` | 名 | 骨折、組織断裂、生体損傷 | fracture, skeletal rupture, trauma | mor (骨肉) + con (損傷) |
+| 227 | **morcon** | `[mor.ʃon]` | 名 | 骨折、組織断裂、生体損傷 | fracture, skeletal rupture, trauma | mor (骨肉) + con (損傷) |
 | 228 | **mordin** | `[mor.din]` | 名 | 骨髄、造血組織、生命基底芯 | bone marrow, myeloid tissue, core marrow | mor (骨) + din (深芯) |
 | 229 | **morpan** | `[mor.pan]` | 動 | 麻痺する、感覚を失う、運動停止する | paralyze, go numb, lose motor function | mor (筋肉) + pan (不全化) |
 | 230 | **morpar** | `[mor.par]` | 名 | 皮膚、表皮、外皮組織 | epidermis, cuticle, skin barrier | mor (肉) + par (外面皮) |
@@ -283,7 +277,7 @@
 | 233 | **myren** | `[my.ren]` | 名 | 人間、知性体、観測者 | human, sentient being | 星を見上げる者 |
 | 234 | **nerzyv** | `[ner.zyv]` | 名 | 消化、滋養吸収、同化代謝 | digestion, assimilation, nutrient uptake | ner (食) ＋ zyvel (生命) |
 | 235 | **noven** | `[no.ven]` | 名 | 頭、頭脳、中枢神経 | head, brain, intellect center | 頭部・頭脳 |
-| 236 | **revcon** | `[rev.con]` | 名 | 抗体、免疫防御因子、解毒素 | antibody, immune defense agent, antitoxin | rev (生気) + con (防護) |
+| 236 | **revcon** | `[rev.ʃon]` | 名 | 抗体、免疫防御因子、解毒素 | antibody, immune defense agent, antitoxin | rev (生気) + con (防護) |
 | 237 | **revir** | `[re.vir]` | 動 | 目覚める、覚醒する、回復する | awake, recover | 覚醒・回復 |
 | 238 | **revkor** | `[rev.kor]` | 名 | 熱病、発熱、体温上昇症状 | fever, pyrexia, inflammatory heat | rev (生体) + kor (高熱) |
 | 239 | **revpan** | `[rev.pan]` | 動 | 蘇生する、意識を取り戻す、息を吹き返す | resuscitate, revive, regain consciousness | rev (生命) + pan (回帰) |
@@ -292,19 +286,19 @@
 | 242 | **revsol** | `[rev.sol]` | 名 | 代謝、生体恒常性、生命維持循環 | metabolism, homeostasis | rev (生気) + sol (循環) |
 | 243 | **revtin** | `[rev.tin]` | 名 | 脈診、触診、生体リズム診断 | pulse diagnosis, palpation, vital rhythm test | rev (脈動) + tin (検知) |
 | 244 | **revtis** | `[rev.tis]` | 名 | 疲労、消耗、体力の衰え | fatigue, weariness, exhaustion | rev (生気) + tis (減衰) |
-| 245 | **ser** | `[ser]` | 名 | 手、掌、指 | hand, palm, fingers | 手 |
-| 246 | **sercon** | `[ser.con]` | 名 | 鎮痛薬、麻酔、感覚遮断薬 | analgesic, painkiller, anesthetic sedative | ser (静穏) + con (鎮静剤) |
+| 245 | **palv** | `[palv]` | 名 | 手、掌、指 | hand, palm, fingers | 手；手のひら・手掌を表す星辰語幹（旧serより改定、地球言語類似完全排除） |
+| 246 | **sercon** | `[ser.ʃon]` | 名 | 鎮痛薬、麻酔、感覚遮断薬 | analgesic, painkiller, anesthetic sedative | ser (静穏) + con (鎮静剤) |
 | 247 | **serdin** | `[ser.din]` | 名 | 反射、不随意運動、神経反射 | reflex, involuntary impulse | ser (神経) + din (直発動) |
 | 248 | **serfal** | `[ser.fal]` | 名 | 覚醒、目覚め、意識の再開 | awakening, vigil, waking state | ser (静) + fal (光) |
-| 249 | **serjyt** | `[ser.ʒyt]` | 名 | 手首、関節、手の節点 | wrist, joint, articulate node | ser (手) ＋ jyt (節点) |
+| 249 | **palvjyt** | `[palv.ʒyt]` | 名 | 手首、関節、手の節点 | wrist, joint, articulate node | palv (手) ＋ jyt (節点)；palv (手掌) + jyt (節点) |
 | 250 | **serkin** | `[ser.kin]` | 名 | まどろみ、浅い眠り、仮眠 | doze, light slumber, nap | serkym (睡眠) + kin (小) |
 | 251 | **serkym** | `[ser.kym]` | 名 | 睡眠、安息、深い眠り | sleep, slumber, rest cycle | ser (静まる) + kym (夜) |
 | 252 | **serpanan** | `[ser.pa.nan]` | 動 | 鎮静させる、眠らせる、痛みを和らげる | soothe, tranquilize, alleviate pain | ser (静穏) + panan (施す) |
-| 253 | **teira** | `[tei.ra]` | 名 | 心臓、胸の核、肉体の中心 | heart, core | 心臓・星核 |
-| 254 | **teiran** | `[tei.ran]` | 名 | 遺伝子、螺旋設計図、生体素核 | gene, genome, life helix | 生命の螺旋情報 |
-| 255 | **teirap** | `[tei.rap]` | 名 | 心拍、脈拍、鼓動 | pulse, heartbeat | 心臓の拍動 |
-| 256 | **teiros** | `[tei.ros]` | 名 | 胎児、生命の萌芽、胚 | embryo, fetus, seed-life | teira (心核) ＋ 幼体 |
-| 257 | **teirvan** | `[tei.rvan]` | 名 | 染色体、螺旋鎖束 | chromosome, genetic strand bundle | teiran (遺伝子) ＋ 束 |
+| 253 | **teira** | `[teɪ.ra]` | 名 | 心臓、胸の核、肉体の中心 | heart, core | 心臓・星核 |
+| 254 | **teiran** | `[teɪ.ran]` | 名 | 遺伝子、螺旋設計図、生体素核 | gene, genome, life helix | 生命の螺旋情報 |
+| 255 | **teirap** | `[teɪ.rap]` | 名 | 心拍、脈拍、鼓動 | pulse, heartbeat | 心臓の拍動 |
+| 256 | **teiros** | `[teɪ.ros]` | 名 | 胎児、生命の萌芽、胚 | embryo, fetus, seed-life | teira (心核) ＋ 幼体 |
+| 257 | **teirvan** | `[teɪ.rvan]` | 名 | 染色体、螺旋鎖束 | chromosome, genetic strand bundle | teiran (遺伝子) ＋ 束 |
 | 258 | **tylkar** | `[tyl.kar]` | 名 | 創傷、裂傷、損傷部 | wound, lesion, trauma | 裂けた負傷 |
 | 259 | **tylkin** | `[tyl.kin]` | 名 | 傷痕、瘢痕、治癒の跡 | scar, cicatrisation, healed trace | tylkar (創傷) ＋ 痕跡 |
 | 260 | **valmik** | `[val.mik]` | 名 | 包帯、防護布、被覆保護材 | bandage, protective dressing | 傷の保護布 |
@@ -336,10 +330,10 @@
 | 282 | **talfot** | `[tal.fot]` | 名 | 土埃、砂ぼこり、微細粉塵 | dust, earth dust, airborne powder | tal (大地) ＋ 飛沫粉 |
 | 283 | **talgen** | `[tal.gen]` | 名 | 崖、絶壁、断崖 | cliff, precipice, sheer bluff | tal (地) + gen (急峻) |
 | 284 | **talik** | `[ta.lik]` | 名 | 谷、峡谷、大地の裂け目 | valley, canyon | 谷 |
-| 285 | **talis** | `[ta.lis]` | 名 | 石、岩、鉱石、結晶 | stone, rock, mineral | 鉱物・石 |
-| 286 | **talisar** | `[ta.li.sar]` | 名 | 採石場、鉱山、石切り場 | quarry, mine, stone-pit | talis (石) ＋ 採掘場 |
-| 287 | **taljyn** | `[tal.jyn]` | 名 | 磁鉄鉱、天然磁石、引力石 | magnetite, lodestone, magnetic mineral | tal (鉱) + jyn (磁気) |
-| 288 | **taljynar** | `[tal.jy.nar]` | 名 | 磁気異常地帯、引力異常断層 | magnetic anomaly zone, lodestone hill | taljyn (磁石) + ar (場) |
+| 285 | **talyr** | `[ta.lyr]` | 名 | 石、岩、鉱石、結晶 | stone, rock, mineral | 鉱物・石 |
+| 286 | **talyrar** | `[ta.ly.rar]` | 名 | 採石場、鉱山、石切り場 | quarry, mine, stone-pit | talyr (石) ＋ 採掘場 |
+| 287 | **taljyn** | `[tal.ʒyn]` | 名 | 磁鉄鉱、天然磁石、引力石 | magnetite, lodestone, magnetic mineral | tal (鉱) + jyn (磁気) |
+| 288 | **taljynar** | `[tal.ʒy.nar]` | 名 | 磁気異常地帯、引力異常断層 | magnetic anomaly zone, lodestone hill | taljyn (磁石) + ar (場) |
 | 289 | **talkanorv** | `[tal.ka.norv]` | 名 | 露頭、露出岩盤、地層断面 | outcrop, exposed bedrock scarp | tal (地) + kanorv (顕出) |
 | 290 | **talkrot** | `[tal.krot]` | 名 | 地震、地殻変動、地鳴り | earthquake, tectonic tremor | 大地の激動 |
 | 291 | **talmor** | `[tal.mor]` | 名 | 丘、丘陵、なだらかな隆起 | hill, knoll, mound | tal (大地) ＋ moran (大) |
@@ -352,7 +346,7 @@
 | 298 | **talpan** | `[tal.pan]` | 動 | 崩落する、地滑りを起こす、土砂崩れ | cave in, landslide, slump | tal (地) + pan (崩れ) |
 | 299 | **talparv** | `[tal.parv]` | 名 | 砂利河原、氾濫原、礫層地帯 | gravel bed, gravel bar, shingle reach | talsid (砂利) + parv (水辺) |
 | 300 | **talpen** | `[tal.pen]` | 名 | 地層、堆積層、岩盤層 | stratum, geological layer, bed | tal (地) + pen (層) |
-| 301 | **talpyrcon** | `[tal.pyr.con]` | 名 | カルデラ、火山陥没孔、火口湖盆 | caldera, collapsed volcanic crater | pyrtal (火山) + con (巨大窪地) |
+| 301 | **talpyrcon** | `[tal.pyr.ʃon]` | 名 | カルデラ、火山陥没孔、火口湖盆 | caldera, collapsed volcanic crater | pyrtal (火山) + con (巨大窪地) |
 | 302 | **talpyrven** | `[tal.pyr.ven]` | 名 | 溶岩、熔岩流、火成岩 | lava, volcanic magma, molten rock | tal (岩) + pyr (火) + ven (流) |
 | 303 | **talrim** | `[tal.rim]` | 名 | 砂漠、不毛地帯、乾いた荒野 | desert, wasteland | 乾燥砂漠 |
 | 304 | **talrimor** | `[tal.ri.mor]` | 名 | 砂丘、風成砂丘、砂の波 | dune, sand dune, barchan | talrim (砂漠) + mor (隆起) |
@@ -369,8 +363,8 @@
 | 315 | **talvelk** | `[tal.velk]` | 名 | 峡谷底、谷底平野、岩峰間の隘路 | gorge floor, canyon defile, ravine trough | talik (峡谷) + velk (通路) |
 | 316 | **talvon** | `[tal.von]` | 名 | 峡湾、フィヨルド、入江 | fjord, sea inlet, drowned valley | tal (地) + von (深く入り込む) |
 | 317 | **talvort** | `[tal.vort]` | 名 | 地下水脈孔、鍾乳洞水路、吸い込み穴 | sinkhole, ponor, karst swallow hole | vuron (洞窟) + vort (水路) |
-| 318 | **tolcor** | `/tolcor/` | 名 | 巨石、一枚岩、モノリス | monolith, megalith, huge boulder | 母音交替o-grade（tol: 重厚巨石・モノリス） |
-| 319 | **tulvir** | `/tulvir/` | 名 | 粘土、陶土、可塑性鉱物土 | clay, loam, potter's earth | 母音交替u-grade（tul: 深底粘質土・陶土） |
+| 318 | **tolcor** | `[tol.ʃor]` | 名 | 巨石、一枚岩、モノリス | monolith, megalith, huge boulder | 母音交替o-grade（tol: 重厚巨石・モノリス） |
+| 319 | **tulvir** | `[tul.vir]` | 名 | 粘土、陶土、可塑性鉱物土 | clay, loam, potter's earth | 母音交替u-grade（tul: 深底粘質土・陶土） |
 | 320 | **vuron** | `[vu.ron]` | 名 | 洞窟、鍾乳洞、地下空洞 | cave, cavern, grotto | 地下空洞 |
 ### 6. 気象・大気・水域 (58語)
 
@@ -379,13 +373,13 @@
 | 321 | **celar** | `[ʃe.lar]` | 名 | 極光、オーロラ、天の天幕 | aurora, polar light | 極光の帯 |
 | 322 | **celis** | `[ʃe.lis]` | 名 | 雲、霧、霞 | cloud, mist, fog | 雲・霧 |
 | 323 | **celkym** | `[ʃel.kym]` | 名 | 雨雲、暗雲、低層雨雲 | rain cloud, nimbus, dark sky cloud | celen (空) ＋ kym (闇) |
-| 324 | **celnyv** | `[cel.nyv]` | 名 | 薄霧、朝靄、山靄、蒸気靄 | haze, morning mist, blue vapor veil | celis (霧) + nyv (淡い) |
-| 325 | **celran** | `[cel.ran]` | 名 | 乱層雲、雨雲塊、濃密雷雲 | nimbostratus, dense thunderhead | celis (雲) + ran (重厚動乱) |
-| 326 | **celtyr** | `[cel.tyr]` | 名 | 巻雲、すじ雲、高層氷晶雲 | cirrus cloud, ice feather cloud | celis (雲) + tyr (羽) |
-| 327 | **celvorin** | `[cel.vo.rin]` | 名 | 霧雨、小雨、微細な雨滴 | drizzle, fine rain, mizzle | celis (雲) + vorin (滴り) |
-| 328 | **celvorv** | `[cel.vorv]` | 名 | 積乱雲、入道雲、雷雨積雲 | cumulonimbus, towering cloud anvil | celis (雲) + vorv (そびえ立つ) |
+| 324 | **celnyv** | `[ʃel.nyv]` | 名 | 薄霧、朝靄、山靄、蒸気靄 | haze, morning mist, blue vapor veil | celis (霧) + nyv (淡い) |
+| 325 | **celran** | `[ʃel.ran]` | 名 | 乱層雲、雨雲塊、濃密雷雲 | nimbostratus, dense thunderhead | celis (雲) + ran (重厚動乱) |
+| 326 | **celtyr** | `[ʃel.tyr]` | 名 | 巻雲、すじ雲、高層氷晶雲 | cirrus cloud, ice feather cloud | celis (雲) + tyr (羽) |
+| 327 | **celvorin** | `[ʃel.vo.rin]` | 名 | 霧雨、小雨、微細な雨滴 | drizzle, fine rain, mizzle | celis (雲) + vorin (滴り) |
+| 328 | **celvorv** | `[ʃel.vorv]` | 名 | 積乱雲、入道雲、雷雨積雲 | cumulonimbus, towering cloud anvil | celis (雲) + vorv (そびえ立つ) |
 | 329 | **dar** | `[dar]` | 名 | しずく、水滴、朝露 | droplet, dew | しずく |
-| 330 | **darcon** | `[dar.con]` | 名 | 洪水、氾濫、大増水 | flood, inundation, deluge overflow | daris (水) + con (越流) |
+| 330 | **darcon** | `[dar.ʃon]` | 名 | 洪水、氾濫、大増水 | flood, inundation, deluge overflow | daris (水) + con (越流) |
 | 331 | **darfal** | `[dar.fal]` | 名 | 滝、瀑布、懸濁水流 | waterfall, cascade, cataract | 流れ落ちる水 |
 | 332 | **daris** | `[da.ris]` | 名 | 水、清流、淡水 | water, stream | 真水・清流 |
 | 333 | **darlen** | `[dar.len]` | 名 | 雨、降雨 | rain, rainfall | 雨 |
@@ -407,9 +401,9 @@
 | 349 | **darvyr** | `[dar.vyr]` | 名 | 夜光海、夜光虫の光、海蛍の輝き | phosphorescent sea, sea sparkle glow | zylar (海) + vyr (星影発光) |
 | 350 | **faldaris** | `[fal.da.ris]` | 名 | 虹、天の彩橋、分光光弧 | rainbow, celestial prismatic arc | falun (光) ＋ daris (水) |
 | 351 | **havas** | `[ha.vas]` | 名 | 季節、四季、周期候 | season, climatic period | 巡る気候期 |
-| 352 | **havcon** | `[hav.con]` | 名 | 天候異変、異常気象、季節外れ | weather anomaly, climatic aberration | havas (季節) + con (異変) |
+| 352 | **havcon** | `[hav.ʃon]` | 名 | 天候異変、異常気象、季節外れ | weather anomaly, climatic aberration | havas (季節) + con (異変) |
 | 353 | **kyras** | `[ky.ras]` | 名 | 氷、霜、氷結体 | ice, frost | 氷 |
-| 354 | **kyrcon** | `[kyr.con]` | 名 | 猛吹雪、ブリザード、白魔 | blizzard, whiteout gale, ice gale | kyrlen (雪) + con (猛威) |
+| 354 | **kyrcon** | `[kyr.ʃon]` | 名 | 猛吹雪、ブリザード、白魔 | blizzard, whiteout gale, ice gale | kyrlen (雪) + con (猛威) |
 | 355 | **kyrfin** | `[kyr.fin]` | 名 | 氷河、永久凍土、氷塊 | glacier, permafrost, ice pack | kyras (氷) ＋ 堆積層 |
 | 356 | **kyrlen** | `[kyr.len]` | 名 | 雪、白雪、降雪 | snow, snowfall | 雪 |
 | 357 | **kyrsol** | `[kyr.sol]` | 名 | 氷柱、つらら、凍結垂下氷 | icicle, hanging ice spear | kyras (氷) + sol (柱晶) |
@@ -421,7 +415,7 @@
 | 363 | **velhav** | `[vel.hav]` | 名 | 春、芽吹きの季節、萌芽期 | spring, vernal season | 花咲く季節 |
 | 364 | **vyltor** | `[vyl.tor]` | 名 | 雷、稲妻、天の閃光 | thunder, lightning | 光雷 |
 | 365 | **wylas** | `[wy.las]` | 名/動 | 風、大気の流れ、そよぐ | wind, breeze | 風 |
-| 366 | **wylcon** | `[wyl.con]` | 名 | 暴風、烈風、台風、サイクロン | gale force storm, hurricane, typhoon | wylas (風) + con (極大) |
+| 366 | **wylcon** | `[wyl.ʃon]` | 名 | 暴風、烈風、台風、サイクロン | gale force storm, hurricane, typhoon | wylas (風) + con (極大) |
 | 367 | **wylmin** | `[wyl.min]` | 名 | 凪、無風状態、静穏気流 | calm, dead calm, stillness of air | wylas (風) + min (静止) |
 | 368 | **wylor** | `[wy.lor]` | 名 | 季節風、恒常風、偏西風 | monsoon, prevailing wind, trade wind | wylas (風) ＋ 循環 |
 | 369 | **wylpan** | `[wyl.pan]` | 動 | 凪ぐ、風が静まる、風が止む | abate, calm down, winds subside | wylas (風) + pan (静止化) |
@@ -445,16 +439,16 @@
 | 383 | **talkarn** | `[tal.karn]` | 名 | 牧草地、放牧場、緑野 | pasture, meadow range, grazing green | tal (地) + karn (放牧) |
 | 384 | **talkorl** | `[tal.korl]` | 名 | 鍬、平鍬、土掘り具 | mattock, hoe, grubbing tool | talkan (耕土) + korl (刃具) |
 | 385 | **talkorv** | `[tal.korv]` | 名 | 畝、作付列、畑の畦道 | ridge, furrow, planting bed row | talkan (耕作) + korv (隆起列) |
-| 386 | **teircon** | `[teir.con]` | 名 | 種穂、穀穂、穂先、麦穂 | ear of grain, spike, seed head | nerat (穀物) + con (穂実) |
-| 387 | **teiril** | `[tei.ril]` | 名 | 種、種子、生命の粒 | seed, pip | 種核 |
-| 388 | **teirpan** | `[teir.pan]` | 動 | 播種する、種を蒔く、植え付ける | sow seed, plant, propagate | teiril (種) + pan (散布) |
-| 389 | **teirpanan** | `[teir.pa.nan]` | 動 | 結実する、実を結ぶ、実をつける | bear fruit, set seeds, fructify | teiril (種) + panan (結実) |
-| 390 | **teirvon** | `[teir.von]` | 名 | 発芽、芽生え、萌芽 | germination, sprout, seedling rise | teiril (種) + von (萌出) |
+| 386 | **teircon** | `[teɪr.ʃon]` | 名 | 種穂、穀穂、穂先、麦穂 | ear of grain, spike, seed head | nerat (穀物) + con (穂実) |
+| 387 | **teiril** | `[teɪ.ril]` | 名 | 種、種子、生命の粒 | seed, pip | 種核 |
+| 388 | **teirpan** | `[teɪr.pan]` | 動 | 播種する、種を蒔く、植え付ける | sow seed, plant, propagate | teiril (種) + pan (散布) |
+| 389 | **teirpanan** | `[teɪr.pa.nan]` | 動 | 結実する、実を結ぶ、実をつける | bear fruit, set seeds, fructify | teiril (種) + panan (結実) |
+| 390 | **teirvon** | `[teɪr.von]` | 名 | 発芽、芽生え、萌芽 | germination, sprout, seedling rise | teiril (種) + von (萌出) |
 | 391 | **vel** | `[vel]` | 名 | 木、樹木、大樹 | tree | 樹木 |
 | 392 | **velas** | `[ve.las]` | 名 | 葉、緑、葉擦れ | leaf, foliage | 葉 |
-| 393 | **velbon** | `/velbon/` | 名 | 樹皮、木の幹、木質部 | bark, tree trunk, bole | 歴史的子音同化（lp -> lb: 樹皮・木幹） |
-| 394 | **velcon** | `[vel.con]` | 名 | 大樹、古木、神木、長寿樹 | ancient tree, venerable bough | vel (木) + con (尊大) |
-| 395 | **velcor** | `[vel.cor]` | 名 | 木立、林、小規模な樹林 | grove, copse, woodlot | vel (木) + cor (集まり) |
+| 393 | **velbon** | `[vel.bon]` | 名 | 樹皮、木の幹、木質部 | bark, tree trunk, bole | 歴史的子音同化（lp -> lb: 樹皮・木幹） |
+| 394 | **velcon** | `[vel.ʃon]` | 名 | 大樹、古木、神木、長寿樹 | ancient tree, venerable bough | vel (木) + con (尊大) |
+| 395 | **velcor** | `[vel.ʃor]` | 名 | 木立、林、小規模な樹林 | grove, copse, woodlot | vel (木) + cor (集まり) |
 | 396 | **veldor** | `[vel.dor]` | 名 | 年輪、成長輪、星辰樹輪 | growth ring, tree ring layer | vel (木) + dor (周期円環) |
 | 397 | **velil** | `[ve.lil]` | 名 | 新芽、若木、薬草、草 | herb, sprout, grass | 薬草・新芽 |
 | 398 | **velin** | `[ve.lin]` | 名/動 | 花、咲く、芳香 | flower, bloom | 花 |
@@ -485,16 +479,16 @@
 | 423 | **vorkas** | `[vor.kas]` | 名 | 穀物倉、収穫貯蔵庫、サイロ | granary, grain storehouse | vorken (収穫) + kas (庫) |
 | 424 | **vorken** | `[vor.ken]` | 動 | 収穫する、実りを摘む、取り込む | harvest, reap, gather fruit | vorin (果実) を摘む |
 | 425 | **vorkorl** | `[vor.korl]` | 名 | 大鎌、鎌、刈り取り刃 | scythe, sickle, reaping blade | vorken (収穫) + korl (湾曲刃) |
-| 426 | **vorst** | `/vorst/` | 名 | 背中、脊椎、背部 | back, spine, dorsal plane | 体軸背部・脊椎面。樹木velから分離 |
+| 426 | **vorst** | `[vorst]` | 名 | 背中、脊椎、背部 | back, spine, dorsal plane | 体軸背部・脊椎面。樹木velから分離 |
 ### 8. 動物・生物種・共生 (45語)
 
 | ID | 語根 (NRS) | IPA | 品詞 | 日本語意味 | 英語意味 | 語源・備考 |
 |---|---|---|---|---|---|---|
 | 427 | **falpir** | `[fal.pir]` | 名 | 燐光、生物発光、冷光 | bioluminescence, phosphorescence | falun (光) ＋ pyris (火) の冷光 |
 | 428 | **feras** | `[fe.ras]` | 名 | 動物、獣、野生生物 | animal, beast | 動物 |
-| 429 | **fercor** | `[fer.cor]` | 名 | 獣群、群れ、放牧群 | herd, pack, assemblage of beasts | feras (獣) + cor (集団) |
+| 429 | **fercor** | `[fer.ʃor]` | 名 | 獣群、群れ、放牧群 | herd, pack, assemblage of beasts | feras (獣) + cor (集団) |
 | 430 | **ferdor** | `[fer.dor]` | 名 | 捕食者、狩猟獣、天敵 | predator, apex carnivore | fer (獣) + dor (追撃) |
-| 431 | **ferjyl** | `[fer.jyl]` | 名 | 共生、共生関係、相利共生 | symbiosis, mutualism | fer (生物) + jyl (結合) |
+| 431 | **ferjyl** | `[fer.ʒyl]` | 名 | 共生、共生関係、相利共生 | symbiosis, mutualism | fer (生物) + jyl (結合) |
 | 432 | **ferkarn** | `[fer.karn]` | 名 | 家畜、飼育動物、愛玩動物 | domesticated animal, companion pet, farm beast | feras (獣) + karn (養育) |
 | 433 | **ferkon** | `[fer.kon]` | 名 | 猛獣、巨熊、獅子、大顎の捕食獣 | great bear, cave feline, apex roaring beast | feras (獣) + kon (巨力) |
 | 434 | **fermor** | `[fer.mor]` | 名 | 天竜、星間巨獣、大蛇 | dragon, cosmic beast | 神話の巨獣 |
@@ -506,28 +500,28 @@
 | 440 | **fervyn** | `[fer.vyn]` | 名 | 鳴き声、鳥獣の呼び交わし | bird call, animal cry, vocal call | fer (動物) + vyn (声) |
 | 441 | **ferzar** | `[fer.zar]` | 名 | 有蹄類、草食獣、鹿、山羊 | ungulate herbivore, stag, mountain gazelle | feras (獣) + zar (草食生) |
 | 442 | **krap** | `[krap]` | 名 | 虫、昆虫、甲虫 | insect, bug | 硬質外骨格 |
-| 443 | **krapcon** | `[krap.con]` | 名 | 甲虫、甲殻甲虫、大兜虫 | scarab, rhinoceros beetle, horned armor-bug | krap (甲虫) + con (重甲) |
+| 443 | **krapcon** | `[krap.ʃon]` | 名 | 甲虫、甲殻甲虫、大兜虫 | scarab, rhinoceros beetle, horned armor-bug | krap (甲虫) + con (重甲) |
 | 444 | **krapil** | `[krap.il]` | 名 | 幼虫、毛虫、蛹 | larva, caterpillar, pupa | krap (虫) + il (小) |
 | 445 | **krapkorv** | `[krap.korv]` | 名 | 蟻、地中巣穴の群行虫 | ant, burrowing colonist bug | krap (虫) + korv (地中列行) |
 | 446 | **krapnyr** | `[krap.nyr]` | 名 | 蝶、蛾、鱗粉の舞う翅虫 | butterfly, winged silk moth | krap (虫) + nyr (華麗翅) |
 | 447 | **krapvol** | `[krap.vol]` | 名 | 蜻蛉、羽虫、空中飛翔昆虫 | dragonfly, mayfly, needle-fly | krap (虫) + vol (高速飛) |
 | 448 | **krapzar** | `[krap.zar]` | 名 | 蜂、蜜蜂、群生羽虫 | honeybee, worker bee, social nectar-fly | krap (虫) + zar (共同群) |
-| 449 | **krota** | `/krota/` | 名 | 角、双角、突起角 | horn, antler, tusk | 角・突起の独立古語名詞。horn/tsunoと完全分離 |
-| 450 | **lyka** | `/lyka/` | 名 | 巣、塒、鳥獣の棲家 | nest, burrow, lair, den | 洞穴・巣の独立古語幹。nest/nidと完全分離 |
-| 451 | **paryv** | `/paryv/` | 名 | 牙、鋭い犬歯、門歯 | fang, tusk, canine tooth | 牙・門歯の独立古語名詞。fangと完全分離 |
-| 452 | **puka** | `/puka/` | 名 | ひづめ、蹄、甲角 | hoof, ungula | 蹄・甲角の独立語幹。hoof/sabotと完全分離 |
-| 453 | **pyrk** | `/pyrk/` | 名 | 鉤爪、爪、鋭爪 | claw, talon | 単音節の古語鋭爪名詞。claw/griffeと完全分離 |
-| 454 | **tenis** | `/tenis/` | 名 | 毛皮、体毛、獣皮 | fur, pelt, animal fleece | 獣毛・保温毛皮の独立語幹。fur/pelzと完全分離 |
-| 455 | **volcorv** | `[vol.corv]` | 名 | 猛禽、鷹、鷲、大空の狩人 | raptor, eagle, falcon, hawk of the zenith | volfer (鳥) + corv (鋭爪狩人) |
+| 449 | **krota** | `[kro.ta]` | 名 | 角、双角、突起角 | horn, antler, tusk | 角・突起の独立古語名詞。horn/tsunoと完全分離 |
+| 450 | **lyka** | `[ly.ka]` | 名 | 巣、塒、鳥獣の棲家 | nest, burrow, lair, den | 洞穴・巣の独立古語幹。nest/nidと完全分離 |
+| 451 | **paryv** | `[pa.ryv]` | 名 | 牙、鋭い犬歯、門歯 | fang, tusk, canine tooth | 牙・門歯の独立古語名詞。fangと完全分離 |
+| 452 | **puka** | `[pu.ka]` | 名 | ひづめ、蹄、甲角 | hoof, ungula | 蹄・甲角の独立語幹。hoof/sabotと完全分離 |
+| 453 | **pyrk** | `[pyrk]` | 名 | 鉤爪、爪、鋭爪 | claw, talon | 単音節の古語鋭爪名詞。claw/griffeと完全分離 |
+| 454 | **tenis** | `[te.nis]` | 名 | 毛皮、体毛、獣皮 | fur, pelt, animal fleece | 獣毛・保温毛皮の独立語幹。fur/pelzと完全分離 |
+| 455 | **volcorv** | `[vol.ʃorv]` | 名 | 猛禽、鷹、鷲、大空の狩人 | raptor, eagle, falcon, hawk of the zenith | volfer (鳥) + corv (鋭爪狩人) |
 | 456 | **volfer** | `[vol.fer]` | 名 | 鳥、翼ある者、飛翔生物 | bird, winged creature | 空翔る者 |
 | 457 | **volkorl** | `[vol.korl]` | 名 | 止まり木、鳥の止まり枝 | perch, bird roost, roosting branch | volfer (鳥) + korl (掛かり枝) |
 | 458 | **volmin** | `[vol.min]` | 名 | 嘴、くちばし | beak, bill, rostrum | vol (鳥) + min (先端) |
 | 459 | **volnyr** | `[vol.nyr]` | 名 | 鳴禽、小鳥、さえずる鳥 | songbird, warbler, piping finch | volfer (鳥) + nyr (清麗な声) |
-| 460 | **volpan** | `[vol.pan]` | 動 | 羽ばたく、飛翔旋回する、羽搏く | flutter, flap wings, hover | volan (飛ぶ) + pan (反復) |
+| 460 | **volpan** | `[vol.pan]` | 動 | 羽ばたく、飛翔旋回する、羽搏く | flutter, flap wings, hover | veiran (飛ぶ) + pan (反復) |
 | 461 | **volron** | `[vol.ron]` | 名 | 渡り鳥、渡り、群れ飛翔 | migratory bird, flock migration | volfer (鳥) + ron (渡り) |
 | 462 | **voltyr** | `[vol.tyr]` | 名 | 翼羽、風切羽、飛翔羽 | flight feather, quill, plumage | vol (飛) + tyr (羽) |
 | 463 | **volzar** | `[vol.zar]` | 名 | 水鳥、白鳥、鴨、水辺の飛翔鳥 | waterfowl, swan, diving wild goose | volfer (鳥) + zar (水辺生息) |
-| 464 | **zylcor** | `[zyl.cor]` | 名 | 水棲甲殻類、貝類、外骨格生物 | crustacean, shellfish, mollusk | zylfer (水生) + cor (殻) |
+| 464 | **zylcor** | `[zyl.ʃor]` | 名 | 水棲甲殻類、貝類、外骨格生物 | crustacean, shellfish, mollusk | zylfer (水生) + cor (殻) |
 | 465 | **zylfer** | `[zyl.fer]` | 名 | 魚、水棲生物 | fish, marine life | 水泳ぐ者 |
 | 466 | **zylkon** | `[zyl.kon]` | 名 | 海生巨獣、鯨、大魚、星間海獣 | great whale, leviathan, pelagic titan | zylfer (魚) + kon (巨大種) |
 | 467 | **zylparv** | `[zyl.parv]` | 名 | 魚の鰓、水呼吸器、えら | gill, branchia, aquatic respiratory fringe | zylfer (魚) + parv (呼吸器官) |
@@ -544,9 +538,9 @@
 | 474 | **calvir** | `[ʃal.vir]` | 名 | 請願、議案、提言 | petition, bill, motion | calor (議会) への提題 |
 | 475 | **cynfin** | `[ʃyn.fin]` | 名 | 仲間、同僚、同朋、連帯者 | comrade, peer, associate | cynas (友愛) ＋ 連帯 |
 | 476 | **cynmar** | `[ʃyn.mar]` | 名 | 扶助、相互扶助、福祉 | mutual aid, relief, welfare | cynel (慈しみ) ＋ mar (授受) |
-| 477 | **cynor** | `[ʒy.nor]` | 名 | 親友、盟友、魂の伴走者 | confidant, sworn companion | 互いを慈しむ友 |
-| 478 | **dankor** | `/dankor/` | 名 | 市民、定住住民、共同体構成員 | citizen, burgher, resident freeman | 歴史的鼻音同化（dom-kor -> dankor: 市民、定住住民） |
-| 479 | **dankorv** | `/dankorv/` | 名 | 元首、執政官、都市代表長 | archon, high magistrate, consul | 歴史的鼻音同化（dom-korv -> dankorv: 元首、執政官） |
+| 477 | **cynor** | `[ʃy.nor]` | 名 | 親友、盟友、魂の伴走者 | confidant, sworn companion | 互いを慈しむ友 |
+| 478 | **dankor** | `[dan.kor]` | 名 | 市民、定住住民、共同体構成員 | citizen, burgher, resident freeman | 歴史的鼻音同化（dom-kor -> dankor: 市民、定住住民） |
+| 479 | **dankorv** | `[dan.korv]` | 名 | 元首、執政官、都市代表長 | archon, high magistrate, consul | 歴史的鼻音同化（dom-korv -> dankorv: 元首、執政官） |
 | 480 | **dirin** | `[di.rin]` | 名/形 | 正義、公正、均衡、正しい | justice, equity, righteous | 正義 |
 | 481 | **dolar** | `[do.lar]` | 動 | 働く、勤労する、奉仕する | work, labor, serve | 労働動詞 |
 | 482 | **dolinar** | `[do.li.nar]` | 名 | 工匠、技術者、鍛冶師 | master craftsman, engineer | 熟練の工匠 |
@@ -559,14 +553,14 @@
 | 489 | **domsen** | `[dom.sen]` | 名 | 評議会、代議員会、合議機関 | senate, parliament, high assembly | dom (家/都市) + sen (合意) |
 | 490 | **elyrat** | `[e.ly.rat]` | 名 | 祭典、祝祭、星の祭り | festival, celebration | elyr (星祭) + -at (大儀礼: 星の祭り、祭典) |
 | 491 | **jylik** | `[ʒy.lik]` | 名 | 条約文書、協定証書、公文書 | treaty document, signed charter | 法約の書字録 |
-| 492 | **jylkan** | `[jyl.kan]` | 名 | 条約、連邦約款、恒久同盟 | covenant, treaty, pact of union | jyl (結ぶ) + kan (定め) |
+| 492 | **jylkan** | `[ʒyl.kan]` | 名 | 条約、連邦約款、恒久同盟 | covenant, treaty, pact of union | jyl (結ぶ) + kan (定め) |
 | 493 | **jylmar** | `[ʒyl.mar]` | 名 | 協力、協同作業、チームワーク | cooperation, collaboration, team effort | jyl (結ぶ) ＋ mar (共動) |
-| 494 | **jylmor** | `[jyl.mor]` | 名 | 代表団、使節、使者協議団 | delegation, embassy, envoy mission | jyl (結ぶ) + mor (公務) |
+| 494 | **jylmor** | `[ʒyl.mor]` | 名 | 代表団、使節、使者協議団 | delegation, embassy, envoy mission | jyl (結ぶ) + mor (公務) |
 | 495 | **jylot** | `[ʒy.lot]` | 名 | 約束、契約、協定、盟約 | pact, covenant, contract | 結束の協定 |
-| 496 | **jylpal** | `[jyl.pal]` | 名 | 親交、親善、友好関係 | amity, goodwill concord, fraternal fellowship | jyl (結び) + pal (親和) |
-| 497 | **jylporv** | `[jyl.porv]` | 名 | 議定書、付属約定、批准付属書 | protocol, convention accord, annexed covenant | jyl (約定) + porv (条文) |
+| 496 | **jylpal** | `[ʒyl.pal]` | 名 | 親交、親善、友好関係 | amity, goodwill concord, fraternal fellowship | jyl (結び) + pal (親和) |
+| 497 | **jylporv** | `[ʒyl.porv]` | 名 | 議定書、付属約定、批准付属書 | protocol, convention accord, annexed covenant | jyl (約定) + porv (条文) |
 | 498 | **jyltis** | `[ʒyl.tis]` | 名 | 連合、同盟条約、協調体制 | coalition, league, alliance | jylot (盟約) ＋ 連合 |
-| 499 | **jylzar** | `[jyl.zar]` | 名 | 連邦、諸都市連合、星間共同体 | commonwealth, federation, confederacy | jylkan (条約) + zar (大域統合) |
+| 499 | **jylzar** | `[ʒyl.zar]` | 名 | 連邦、諸都市連合、星間共同体 | commonwealth, federation, confederacy | jylkan (条約) + zar (大域統合) |
 | 500 | **kuralen** | `[ku.ra.len]` | 名 | 憲章、基本法、連邦憲法 | constitution, basic charter | kuralom (社会) ＋ 根本法 |
 | 501 | **kuralis** | `[ku.ra.lis]` | 名 | 連邦、国家体、星間同盟 | commonwealth, interstellar union | 星間連邦国家 |
 | 502 | **kuralit** | `[ku.ra.lit]` | 名 | 隣人、近隣の住民、お隣さん | neighbor, fellow dweller | kuralom (共同体) ＋ 近隣 |
@@ -592,7 +586,7 @@
 | 522 | **taros** | `[ta.ros]` | 名 | 法、法律、軌道規則、掟 | law, statute, canon | 法律・規範 |
 | 523 | **tarosar** | `[ta.ro.sar]` | 名 | 法廷、裁定所、審問の座 | court, tribunal | 司法の場 |
 | 524 | **tarvyn** | `[tar.vyn]` | 名 | 判例、先例、法の伝承 | judicial precedent, legal tradition | taros (法) ＋ 律道 |
-| 525 | **turcon** | `[tur.con]` | 名 | 憲章、根本法規、大憲章 | charter, fundamental constitution | tur (法) + con (根本) |
+| 525 | **turcon** | `[tur.ʃon]` | 名 | 憲章、根本法規、大憲章 | charter, fundamental constitution | tur (法) + con (根本) |
 | 526 | **turdorn** | `[tur.dorn]` | 名 | 刑罰、科料、制裁措置 | punishment, penal sanction, penalty | tur (法) + dorn (科刑) |
 | 527 | **turdornan** | `[tur.dor.nan]` | 動 | 宣告する、判決を下す、審判する | adjudicate, pronounce verdict, sentence | tur (法) + dornan (判定決定) |
 | 528 | **turmorv** | `[tur.morv]` | 名 | 判例、確立された先例、判例集 | judicial precedent, case law body | tur (法) + morv (蓄積記録) |
@@ -623,15 +617,15 @@
 | 549 | **dolsarp** | `[dol.sarp]` | 名 | 坩堝、るつぼ、耐火溶解皿 | crucible, melting pot, refractory vessel | dolar (鋳造) + sarp (耐熱深器) |
 | 550 | **dolsol** | `[dol.sol]` | 名 | 鞴、ふいご、送風機 | bellows, blast-furnace air blower | dolar (鍛冶) + sol (気風圧) |
 | 551 | **doltarv** | `[dol.tarv]` | 名 | 焼戻し油、焼入れ水槽、冷却槽 | quenching bath, tempering trough | dolar (冶金) + tarv (急冷浴) |
-| 552 | **jylcor** | `[jyl.cor]` | 名 | 紡績糸、撚り糸、細糸 | spun yarn, spun thread, ply | jylpan (紡ぐ) + cor (線条) |
-| 553 | **jyldan** | `[jyl.dan]` | 名 | 機織り機、織機 | weaving loom, textile frame | jylpan (織る) + dan (機具) |
-| 554 | **jylnyr** | `[jyl.nyr]` | 名 | 紡錘、糸巻き棒、スピンドル | spindle, distaff, bobbin whorl | jylpan (紡ぐ) + nyr (軸棒) |
+| 552 | **jylcor** | `[ʒyl.ʃor]` | 名 | 紡績糸、撚り糸、細糸 | spun yarn, spun thread, ply | jylpan (紡ぐ) + cor (線条) |
+| 553 | **jyldan** | `[ʒyl.dan]` | 名 | 機織り機、織機 | weaving loom, textile frame | jylpan (織る) + dan (機具) |
+| 554 | **jylnyr** | `[ʒyl.nyr]` | 名 | 紡錘、糸巻き棒、スピンドル | spindle, distaff, bobbin whorl | jylpan (紡ぐ) + nyr (軸棒) |
 | 555 | **jylpan** | `[ʒyl.pan]` | 動 | 織る、編む、交差結節する | weave, braid, intertwine | 製織動詞 |
-| 556 | **jylparv** | `[jyl.parv]` | 名 | 染料、天然草木染め液、染色槽 | dye, natural vat tint, mordant liquid | jylpan (織物) + parv (彩色) |
-| 557 | **jylzaran** | `[jyl.za.ran]` | 名 | 織物商、反物座、布地問屋 | draper guild, textile factor, cloth merchant | jylpan (織布) + zaran (商座) |
+| 556 | **jylparv** | `[ʒyl.parv]` | 名 | 染料、天然草木染め液、染色槽 | dye, natural vat tint, mordant liquid | jylpan (織物) + parv (彩色) |
+| 557 | **jylzaran** | `[ʒyl.za.ran]` | 名 | 織物商、反物座、布地問屋 | draper guild, textile factor, cloth merchant | jylpan (織布) + zaran (商座) |
 | 558 | **kirasen** | `[ki.ra.sen]` | 動 | 修理する、直す、修繕する | repair, mend, fix | kiras (創る) ＋ 回復 |
 | 559 | **kortan** | `[kor.tan]` | 動 | 切断する、裁つ、分かつ | sever, slice, cleave | kor (刃) + tan (断ち切る、切断する、裁つ) |
-| 560 | **marcor** | `[mar.cor]` | 名 | 商船、交易貨物船、運搬艇 | merchant vessel, cargo barge | mar (交易) + cor (艇) |
+| 560 | **marcor** | `[mar.ʃor]` | 名 | 商船、交易貨物船、運搬艇 | merchant vessel, cargo barge | mar (交易) + cor (艇) |
 | 561 | **mardin** | `[mar.din]` | 名 | 元金、元本、投資資本 | principal, capital sum, stake | mar (交換) + din (基底) |
 | 562 | **mardorn** | `[mar.dorn]` | 名 | 関税、入市税、交易賦課金 | customs tariff, excise, transit tribute | mar (交易) + dorn (賦課) |
 | 563 | **marlan** | `[mar.lan]` | 名 | 貨幣、公認通貨、流通硬貨 | coin, currency, minted legal tender | mar (交換) + lan (証) |
@@ -663,13 +657,13 @@
 
 | ID | 語根 (NRS) | IPA | 品詞 | 日本語意味 | 英語意味 | 語源・備考 |
 |---|---|---|---|---|---|---|
-| 588 | **borparn** | `/borparn/` | 名 | 梁、桁、天井支え桁 | rafter, joist, ceiling beam | 横架材・天井梁を表す構造語幹 |
-| 589 | **celpar** | `[cel.par]` | 名 | 天窓、採光ドーム、クーポラ | skylight dome, cupola, lantern roof | cel (天) + par (開口) |
-| 590 | **celporv** | `/selporv/` | 名 | 日除け庇、ポーチ屋根、キャノピー | awnings, portico canopy, marquee overhang | 日除け・天蓋庇を表す建築語幹 |
-| 591 | **celup** | `/selup/` | 名 | 天井、屋根、日覆い天蓋 | ceiling, roof, canopy | 天蓋内面・天井（cel空 + up仰ぐ面）。ceiling/plafondと完全分離 |
-| 592 | **dankar** | `/dankar/` | 名 | 基礎、土台、建築石礎 | foundation, plinth, bedrock base | 歴史的鼻音同化（dom-kar -> dankar: 基礎、建築石礎） |
-| 593 | **dankarn** | `/dankarn/` | 名 | 厩舎、馬屋、動物飼育棟 | stables, mews, beast barn | 歴史的鼻音同化（dom-karn -> dankarn: 厩舎、飼育棟） |
-| 594 | **domcor** | `[dom.cor]` | 名 | 塔、監視塔、物見櫓、尖塔 | tower, spire, watchtower | dom (建築) + cor (高聳) |
+| 588 | **borparn** | `[bor.parn]` | 名 | 梁、桁、天井支え桁 | rafter, joist, ceiling beam | 横架材・天井梁を表す構造語幹 |
+| 589 | **celpar** | `[ʃel.par]` | 名 | 天窓、採光ドーム、クーポラ | skylight dome, cupola, lantern roof | cel (天) + par (開口) |
+| 590 | **celporv** | `[ʃel.porv]` | 名 | 日除け庇、ポーチ屋根、キャノピー | awnings, portico canopy, marquee overhang | 日除け・天蓋庇を表す建築語幹 |
+| 591 | **celup** | `[ʃe.lup]` | 名 | 天井、屋根、日覆い天蓋 | ceiling, roof, canopy | 天蓋内面・天井（cel空 + up仰ぐ面）。ceiling/plafondと完全分離 |
+| 592 | **dankar** | `[dan.kar]` | 名 | 基礎、土台、建築石礎 | foundation, plinth, bedrock base | 歴史的鼻音同化（dom-kar -> dankar: 基礎、建築石礎） |
+| 593 | **dankarn** | `[dan.karn]` | 名 | 厩舎、馬屋、動物飼育棟 | stables, mews, beast barn | 歴史的鼻音同化（dom-karn -> dankarn: 厩舎、飼育棟） |
+| 594 | **domcor** | `[dom.ʃor]` | 名 | 塔、監視塔、物見櫓、尖塔 | tower, spire, watchtower | dom (建築) + cor (高聳) |
 | 595 | **domdorn** | `[dom.dorn]` | 名 | 雨樋、樋、排水配管 | gutter, waterspout, downspout pipe | dom (家) + dorn (排水溝) |
 | 596 | **domlorv** | `[dom.lorv]` | 名 | 鐘楼、時報塔、鐘楼台 | campanile, belfry, clock spire | domcor (塔) + lorv (鐘音) |
 | 597 | **domom** | `[do.mom]` | 名 | 都市、街、街区 | city, town, metropolis | 都市 |
@@ -682,7 +676,7 @@
 | 604 | **domvin** | `[dom.vin]` | 名 | 回廊、列柱廊、アーケード | colonnade, cloister, arcade walk | dom (家) + vin (連なり) |
 | 605 | **domzar** | `[dom.zar]` | 名 | 中央広場、アゴラ、フォーラム | central plaza, agora, civic concourse | domom (都市) + zar (中心大広場) |
 | 606 | **domzarv** | `[dom.zarv]` | 名 | 大聖堂、天体観測ドーム宮、大殿 | basilica, grand dome rotunda, star minster | dom (殿舎) + zarv (至高壮麗) |
-| 607 | **durcon** | `[dur.con]` | 名 | 防壁塔、堡塁、小要塞 | bastion, redoubt, fortified bulwark | durval (壁) + con (強固) |
+| 607 | **durcon** | `[dur.ʃon]` | 名 | 防壁塔、堡塁、小要塞 | bastion, redoubt, fortified bulwark | durval (壁) + con (強固) |
 | 608 | **durkas** | `[dur.kas]` | 名 | 防壁、城壁、外郭防護壁 | rampart, defensive parapet, outer wall | durval (壁) + kas (強固) |
 | 609 | **durpanan** | `[dur.pa.nan]` | 動 | 築く、城壁を巡らせる、要塞化する | fortify, entrench, embattle with wall | durval (壁) + panan (外郭構築) |
 | 610 | **dursarp** | `[dur.sarp]` | 名 | 胸壁、銃眼付き狭間胸壁 | battlement, crenellated parapet | durkas (城壁) + sarp (頂部胸壁) |
@@ -690,12 +684,12 @@
 | 612 | **durval** | `[dur.val]` | 名 | 壁、隔壁、防護仕切り | wall, partition, bulkhead | 頑丈な壁 |
 | 613 | **falnyr** | `[fal.nyr]` | 名 | 狭間、スリット窓、採光矢狭間 | loophole, arrow slit window, embrasure | falar (窓) + nyr (細隙) |
 | 614 | **falpar** | `[fal.par]` | 名 | バルコニー、露台、見晴台 | balcony, terrace, veranda | fal (開口/光) + par (突出) |
-| 615 | **farnal** | `/farnal/` | 名 | 窓、明かり取り、天窓 | window, skylight | 歴史的鼻音同化（fal-nar -> farnal: 採光窓）。window/fenetreと完全分離 |
-| 616 | **govan** | `/govan/` | 名 | 家、住宅、住まい | house, home, dwelling | 住処・炉床・定住地を表す原初語幹。ラテン語domusと完全分離 |
-| 617 | **kulmon** | `/kulmon/` | 名 | 柱、支柱、梁、建築の骨柱 | pillar, column, support beam | 直立支持石柱を表す巨石建築語幹。英語pillar・columnaと完全分離 |
+| 615 | **farnal** | `[far.nal]` | 名 | 窓、明かり取り、天窓 | window, skylight | 歴史的鼻音同化（fal-nar -> farnal: 採光窓）。window/fenetreと完全分離 |
+| 616 | **govan** | `[go.van]` | 名 | 家、住宅、住まい | house, home, dwelling | 住処・炉床・定住地を表す原初語幹。ラテン語domusと完全分離 |
+| 617 | **kulmon** | `[kul.mon]` | 名 | 柱、支柱、梁、建築の骨柱 | pillar, column, support beam | 直立支持石柱を表す巨石建築語幹。英語pillar・columnaと完全分離 |
 | 618 | **larar** | `[la.rar]` | 名 | 駅、ターミナル、空港、停泊地 | station, terminal, port | 交通拠点 |
 | 619 | **laros** | `[la.ros]` | 名 | 乗り物、車両、列車、交通艇 | vehicle, carriage, train | 周回交通具 |
-| 620 | **lercor** | `[ler.cor]` | 名 | アーチ門、凱旋門、重厚な門扉 | arched gate, portal, grand gateway | lerel (扉) + cor (円弧) |
+| 620 | **lercor** | `[ler.ʃor]` | 名 | アーチ門、凱旋門、重厚な門扉 | arched gate, portal, grand gateway | lerel (扉) + cor (円弧) |
 | 621 | **lerel** | `[le.rel]` | 名 | 扉、ドア、出入口、ゲート | door, gate, entrance | 開閉具 |
 | 622 | **lersol** | `[ler.sol]` | 名 | 落とし格子、鉄格子門、防護落とし戸 | portcullis, iron grate grille gate | lerel (扉) + sol (降下格子) |
 | 623 | **lerson** | `[ler.son]` | 名 | 跳ね橋、城門引橋、昇降橋 | drawbridge, portcullis causeway | lerel (門) + son (昇降橋梁) |
@@ -704,23 +698,23 @@
 | 626 | **lervor** | `[ler.vor]` | 名 | 玄関ホール、ポーチ、前室 | vestibule, front porch, ante-room | lerel (扉) + vor (前) |
 | 627 | **talsar** | `[tal.sar]` | 名 | 敷石、舗装、石畳の道 | paving stone, flagstone, cobbled walk | tal (石) + sar (平面敷設) |
 | 628 | **taran** | `[ta.ran]` | 動 | 住まう、暮らす、居住する | live, dwell, reside | 居住動詞 |
-| 629 | **tolst** | `/tolst/` | 名 | 床、床面、居住基盤面 | floor, ground level | 母音交替o-grade（tol床面）+ 古語接尾辞-st。floor/yukaと完全分離 |
-| 630 | **tolsun** | `/tolsun/` | 名 | 石橋、アーチ橋、橋梁 | arch bridge, stone viaduct, aqueduct | 母音交替・母音調和（tol-sun: 巨石アーチ橋） |
+| 629 | **tolst** | `[tolst]` | 名 | 床、床面、居住基盤面 | floor, ground level | 母音交替o-grade（tol床面）+ 古語接尾辞-st。floor/yukaと完全分離 |
+| 630 | **tolsun** | `[tol.sun]` | 名 | 石橋、アーチ橋、橋梁 | arch bridge, stone viaduct, aqueduct | 母音交替・母音調和（tol-sun: 巨石アーチ橋） |
 | 631 | **velar** | `[ve.lar]` | 名 | 庭、庭園、中庭、緑地 | garden, courtyard, arboretum | 緑豊かな庭 |
-| 632 | **vorn** | `/vorn/` | 名 | 部屋、私室、空間 | room, chamber | 奥室・内室を表す星辰古語幹。ラテン語domus・英語domesticと完全分離 |
-| 633 | **vostir** | `/vostir/` | 名 | 階段、ステップ、昇降段 | stairs, steps, staircase | 昇降傾斜を表す独立建築語幹。英語stairs・独語treppeと完全分離 |
+| 632 | **vorn** | `[vorn]` | 名 | 部屋、私室、空間 | room, chamber | 奥室・内室を表す星辰古語幹。ラテン語domus・英語domesticと完全分離 |
+| 633 | **vostir** | `[vos.tir]` | 名 | 階段、ステップ、昇降段 | stairs, steps, staircase | 昇降傾斜を表す独立建築語幹。英語stairs・独語treppeと完全分離 |
 ### 13. 衣飾・携行具・日常品 (50語)
 
 | ID | 語根 (NRS) | IPA | 品詞 | 日本語意味 | 英語意味 | 語源・備考 |
 |---|---|---|---|---|---|---|
 | 634 | **biondis** | `[bi.on.dis]` | 名 | 水筒、ボトル、携帯飲料瓶 | canteen, flask, portable bottle | bion (飲む) ＋ 携帯容器 |
-| 635 | **dovik** | `/dovik/` | 名 | 机、作業台、テーブル | desk, table | 作業面・台盤を表す調度語幹。英語table・独語tischと完全分離 |
+| 635 | **dovik** | `[do.vik]` | 名 | 机、作業台、テーブル | desk, table | 作業面・台盤を表す調度語幹。英語table・独語tischと完全分離 |
 | 636 | **faldisan** | `[fal.di.san]` | 名 | カーテン、ブラインド、遮光幕 | curtain, drape, sun-shade | falun (光) ＋ 遮光布 |
 | 637 | **falkom** | `[fal.kom]` | 名 | 燭台、灯火台、照明スタンド | candelabra, lamp stand | falun (光) ＋ 置き台 |
 | 638 | **falkor** | `[fal.kor]` | 名 | 日時計、影指し盤、影時計 | sundial, solar shadow clock | fal (太陽光) + kor (計測盤) |
 | 639 | **falmir** | `[fal.mir]` | 名 | ランプ、常夜灯、星灯 | lamp, lantern, nightlight | falun (光) の照明具 |
 | 640 | **falsol** | `[fal.sol]` | 名 | 松明、たいまつ、樹脂篝火 | torch, pitch cresset, flare stave | falmir (ランプ) + sol (剛柄木) |
-| 641 | **hylzar** | `/hylzar/` | 名 | 指輪、宝石指環、星辰印章環 | signet ring, gem band, annular circlet | 環状装飾・宝飾印章環。大地talから独立 |
+| 641 | **hylzar** | `[hyl.zar]` | 名 | 指輪、宝石指環、星辰印章環 | signet ring, gem band, annular circlet | 環状装飾・宝飾印章環。大地talから独立 |
 | 642 | **kirel** | `[ki.rel]` | 名 | 筆、ペン、鉄筆、スタイラス | pen, stylus, quill | 文字を刻む道具 |
 | 643 | **kirelor** | `[ki.re.lor]` | 名 | 筆入れ、ペンケース、文具箱 | pen case, stylus box, writing kit | kirel (ペン) + or (入れ物) |
 | 644 | **kirelpan** | `[ki.rel.pan]` | 動 | 清書する、写本する、毛筆筆耕する | transcribe, calligraph, fair-copy | kirel (ペン) + pan (美麗筆耕) |
@@ -728,24 +722,24 @@
 | 646 | **kirelzar** | `[ki.rel.zar]` | 名 | 羊皮紙、上質筆記羊皮紙、古文書葉 | parchment, vellum scroll, archival leaf | pamel (書物) + zar (高級紙葉) |
 | 647 | **klovel** | `[klo.vel]` | 名 | 鍵、解錠具、キー | key, lock-opener | 施錠・解錠具 |
 | 648 | **kymel** | `[ky.mel]` | 名 | 寝床、ベッド、休息の台 | bed, resting couch | 寝具 |
-| 649 | **kypal** | `/kypal/` | 名 | 箱、小箱、収納ケース、匣 | box, chest, container casing | 収容木匣・格納ケース。英語box・西語cajaと完全分離 |
+| 649 | **kypal** | `[ky.pal]` | 名 | 箱、小箱、収納ケース、匣 | box, chest, container casing | 収容木匣・格納ケース。英語box・西語cajaと完全分離 |
 | 650 | **larsil** | `[lar.sil]` | 名 | 靴、履物、歩行靴 | shoes, footwear, boots | 歩行の履物 |
 | 651 | **larsol** | `[lar.sol]` | 名 | サンダル、編み履物、軽靴 | sandal, strapped buskin, light slipper | larsil (靴) + sol (軽量開放) |
 | 652 | **larsor** | `[lar.sor]` | 名 | 革紐、靴紐、締め緒 | shoelace, leather lace, boot thong | larsil (靴) + sor (結び紐) |
 | 653 | **lervil** | `[ler.vil]` | 名 | 閂、錠前、扉の留め具 | latch, door bolt, bar | lerel (扉) ＋ 施錠具 |
-| 654 | **neltin** | `/neltin/` | 名 | 留め針、ブローチ、安全ピン | pin, brooch, fibula fastener | 金属工芸の留め針・飾り針。英語pinと完全分離 |
+| 654 | **neltin** | `[nel.tin]` | 名 | 留め針、ブローチ、安全ピン | pin, brooch, fibula fastener | 金属工芸の留め針・飾り針。英語pinと完全分離 |
 | 655 | **pamel** | `[pa.mel]` | 名 | 本、書籍、手記ノート、冊子 | book, notebook, volume | 冊子・本 |
 | 656 | **pamelar** | `[pa.me.lar]` | 名 | 図書館、文庫、書物閲覧所 | library, archive, book hall | pamel (書物) ＋ 収蔵館 |
 | 657 | **pamelis** | `[pa.me.lis]` | 名 | 栞、ブックマーク、目印の紐 | bookmark, marker ribbon | pamel (本) ＋ 挟み紐 |
 | 658 | **serel** | `[se.rel]` | 名 | 小刀、ナイフ、調理刃 | knife, blade, cutter | 手元の刃具 |
-| 659 | **serval** | `[ser.val]` | 名 | 手袋、保護手袋 | gloves, gauntlets | ser (手) ＋ valis (布) |
+| 659 | **palvval** | `[palv.val]` | 名 | 手袋、保護手袋 | gloves, gauntlets | palv (手) ＋ valis (布)；palv (手) + val (覆い・防護) |
 | 660 | **talparil** | `[tal.pa.ril]` | 名 | 耳飾り、イヤリング、耳環 | earring, ear drop, lobe pendant | tal (貴石) + paril (耳部小飾) |
 | 661 | **talvinor** | `[tal.vi.nor]` | 名 | 首飾り、ネックレス、宝石胸飾り | necklace, pectoral gorget, pendant collar | tal (宝飾) + vinor (首元連) |
 | 662 | **talvyn** | `[tal.vyn]` | 名 | 櫛、髪飾り、整髪具 | comb, hair clasp, ornamental pin | tal (材) + vyn (歯) |
 | 663 | **tasel** | `[ta.sel]` | 名 | 椅子、座席、腰掛け | chair, seat | 椅子 |
 | 664 | **tasor** | `[ta.sor]` | 名 | 肘掛け椅子、玉座、長椅子 | armchair, couch, settee | tasel (椅子) ＋ 上位座 |
-| 665 | **valcon** | `[val.con]` | 名 | 礼服、正装、儀礼用ローブ | vestment, ceremonial robe, gala gown | valis (服) + con (格式) |
-| 666 | **valcor** | `[val.cor]` | 名 | 天幕、テント、幕屋 | tent, pavilion, portable canopy | val (布) + cor (覆屋) |
+| 665 | **valcon** | `[val.ʃon]` | 名 | 礼服、正装、儀礼用ローブ | vestment, ceremonial robe, gala gown | valis (服) + con (格式) |
+| 666 | **valcor** | `[val.ʃor]` | 名 | 天幕、テント、幕屋 | tent, pavilion, portable canopy | val (布) + cor (覆屋) |
 | 667 | **valdan** | `[val.dan]` | 名 | 絨毯、敷物、織布マット | carpet, rug, floor tapestry | 床の敷物 |
 | 668 | **valdorv** | `[val.dorv]` | 名 | ボタン、留め釦、骨角ボタン | button, toggle, stud clasp | valser (留め具) + dorv (円球釦) |
 | 669 | **valis** | `[va.lis]` | 名 | 衣服、装い、布地、衣類 | garment, robe, clothes | 衣服 |
@@ -762,24 +756,24 @@
 | 680 | **valtas** | `[val.tas]` | 名 | 鞄、背嚢、サッチェル | bag, satchel, rucksack, haversack | valis (布) + tas (収容) |
 | 681 | **valtasp** | `[val.tasp]` | 名 | 財布、革巾着、小銭入れ | purse, pouch, coin purse | valtas (鞄) + p (小型) |
 | 682 | **valzar** | `[val.zar]` | 名 | 絹織物、極上布、天の薄絹 | fine silk, diaphanous samite, astral damask | valis (布) + zar (至高貴布) |
-| 683 | **zenkal** | `/zenkal/` | 名 | 鏡、姿見、光反射板 | mirror, looking glass | 反射鏡面・姿見。mirror/spiegel/visageと完全分離 |
+| 683 | **zenkal** | `[zen.kal]` | 名 | 鏡、姿見、光反射板 | mirror, looking glass | 反射鏡面・姿見。mirror/spiegel/visageと完全分離 |
 ### 14. 精神・哲学・感情・芸術 (76語)
 
 | ID | 語根 (NRS) | IPA | 品詞 | 日本語意味 | 英語意味 | 語源・備考 |
 |---|---|---|---|---|---|---|
-| 684 | **civdorv** | `[civ.dorv]` | 名 | 太鼓、打楽器、太古の律動鼓 | drum, timbrel, rhythm kettle | civ (音律) + dorv (連打膜) |
-| 685 | **civnyr** | `[civ.nyr]` | 名 | 笛、フルート、星風の木管笛 | flute, pipe, reed recorder | cival (音楽) + nyr (澄んだ笛音) |
-| 686 | **civom** | `[ci.vom]` | 名 | 叙事詩、星間神話詩、長編伝承 | epic poem, cosmological saga | cival (歌) + om (大系) |
-| 687 | **civpanan** | `[civ.pa.nan]` | 動 | 作曲する、メロディを紡ぐ、詩曲を作る | compose score, weave hymn melody, score music | cival (音楽) + panan (創作) |
-| 688 | **civsol** | `[civ.sol]` | 名 | 竪琴、リラ、ハープ、星辰弦楽器 | harp, lyre, starry kithara | cival (楽) + sol (共鳴胴) |
-| 689 | **civtas** | `[civ.tas]` | 名 | 和音、ハーモニー、協和響き | chord, consonant harmony | cival (音楽) + tas (調和) |
-| 690 | **civzar** | `[civ.zar]` | 名 | 交響曲、大合奏、大管弦詩 | symphony, grand polyphonic concerto | cival (音楽) + zar (大管弦組) |
+| 684 | **civdorv** | `[ʃiv.dorv]` | 名 | 太鼓、打楽器、太古の律動鼓 | drum, timbrel, rhythm kettle | civ (音律) + dorv (連打膜) |
+| 685 | **civnyr** | `[ʃiv.nyr]` | 名 | 笛、フルート、星風の木管笛 | flute, pipe, reed recorder | cival (音楽) + nyr (澄んだ笛音) |
+| 686 | **civom** | `[ʃi.vom]` | 名 | 叙事詩、星間神話詩、長編伝承 | epic poem, cosmological saga | cival (歌) + om (大系) |
+| 687 | **civpanan** | `[ʃiv.pa.nan]` | 動 | 作曲する、メロディを紡ぐ、詩曲を作る | compose score, weave hymn melody, score music | cival (音楽) + panan (創作) |
+| 688 | **civsol** | `[ʃiv.sol]` | 名 | 竪琴、リラ、ハープ、星辰弦楽器 | harp, lyre, starry kithara | cival (楽) + sol (共鳴胴) |
+| 689 | **civtas** | `[ʃiv.tas]` | 名 | 和音、ハーモニー、協和響き | chord, consonant harmony | cival (音楽) + tas (調和) |
+| 690 | **civzar** | `[ʃiv.zar]` | 名 | 交響曲、大合奏、大管弦詩 | symphony, grand polyphonic concerto | cival (音楽) + zar (大管弦組) |
 | 691 | **cylanar** | `[ʃy.la.nar]` | 名 | 劇場、美術館、芸術の館 | theater, art gallery, salon | cylan (美) ＋ 空間 |
-| 692 | **cylas** | `[cy.las]` | 名/形 | 美、崇高、調和美、美しい | beauty, sublime, graceful | cyl (調和美) + -as (崇高美、美しい、優雅) |
+| 692 | **cylas** | `[ʃy.las]` | 名/形 | 美、崇高、調和美、美しい | beauty, sublime, graceful | cyl (調和美) + -as (崇高美、美しい、優雅) |
 | 693 | **cylinor** | `[ʃy.li.nor]` | 名 | 芸術家、美の探求者、表現者 | artist, aesthetician, creator of beauty | cylan (美) ＋ 専門職 |
 | 694 | **cynas** | `[ʃy.nas]` | 名 | 友情、親愛、心の絆 | friendship, fellowship | 友愛 |
 | 695 | **cynel** | `[ʃy.nel]` | 名/動 | 愛、慈しみ、深い共感、愛する | love, affection, cherish | 深い愛情 |
-| 696 | **cynur** | `[ʒy.nur]` | 名 | 感謝、謝意、心の返礼 | gratitude, thanksgiving | 心からの感謝 |
+| 696 | **cynur** | `[ʃy.nur]` | 名 | 感謝、謝意、心の返礼 | gratitude, thanksgiving | 心からの感謝 |
 | 697 | **duras** | `[du.ras]` | 名/形 | 忍耐、耐性、不撓不屈の | endurance, fortitude, patient | 静かに耐える力 |
 | 698 | **durlan** | `[dur.lan]` | 名 | 意志、不屈の覚悟、決意 | willpower, determination, firm resolve | duril (強固) ＋ 志向 |
 | 699 | **durtan** | `[dur.tan]` | 名 | 勇気、果敢さ、不屈の志 | courage, bravery, valor | 不屈の意志 |
@@ -787,14 +781,14 @@
 | 701 | **elirtas** | `[e.lir.tas]` | 名 | 祝意、お祝い、祝福の辞 | congratulations, festive cheer | elir (喜び) ＋ 祝福 |
 | 702 | **falpanan** | `[fal.pa.nan]` | 動 | 彩色する、絵筆を執る、色を塗る | paint, brush color onto canvas, illuminate page | falel (画像) + panan (彩色描画) |
 | 703 | **falzar** | `[fal.zar]` | 名 | 壁画、フレスコ画、壮大な天井画 | fresco, mural painting, celestial tableau | falel (絵画) + zar (大壁面) |
-| 704 | **felyn** | `/felyn/` | 名 | 直感、閃き、直観的洞察 | intuition, flash of insight | 精神の閃き・直観 |
+| 704 | **felyn** | `[fe.lyn]` | 名 | 直感、閃き、直観的洞察 | intuition, flash of insight | 精神の閃き・直観 |
 | 705 | **fevas** | `[fe.vas]` | 動 | 信じる、信頼する、託す | trust, believe, confide | 信託動詞 |
 | 706 | **fevkar** | `[fev.kar]` | 名 | 約束、確約、誓言、誓約言明 | pledge, firm undertaking | fevas (信託) ＋ 確約 |
 | 707 | **fevnas** | `[fev.nas]` | 名 | 忠誠、信義、誠意 | fidelity, loyalty, allegiance | fevas (信託) ＋ 誠意 |
 | 708 | **fevok** | `[fe.vok]` | 名 | 確信、不抜の信仰、信条 | conviction, firm creed | fevas (信託) ＋ 確証 |
 | 709 | **kefen** | `[ke.fen]` | 名/形 | 畏怖、畏敬、厳粛な恐れ | awe, reverence | 畏怖 |
 | 710 | **kefur** | `[ke.fur]` | 名 | 畏敬の念、崇拝、神聖感 | sacred awe, reverence | kefen (畏怖) ＋ 崇高 |
-| 711 | **kolzan** | `/kolzan/` | 名 | 彫像、彫刻、石造モニュメント | statue, stone sculpture, effigy effigy | 彫琢された石像・モニュメント。大地talから独立 |
+| 711 | **kolzan** | `[kol.zan]` | 名 | 彫像、彫刻、石造モニュメント | statue, stone sculpture, effigy effigy | 彫琢された石像・モニュメント。大地talから独立 |
 | 712 | **kores** | `[ko.res]` | 動 | 忘れる、手放す、過去に置く | forget, release, let go | 忘却・解放 |
 | 713 | **krotas** | `[kro.tas]` | 名/形 | 激動、怒り、熱狂、激しい | fury, wrath, passion | 高ぶり |
 | 714 | **krotik** | `[kro.tik]` | 名 | 葛藤、心の嵐、内なる動揺 | inner conflict, turmoil, agitation | krotas (激動) ＋ 内心 |
@@ -805,7 +799,7 @@
 | 719 | **lyrtas** | `[lyr.tas]` | 名 | 後悔、悔恨、やり直しへの念 | regret, remorse | lyras (切なさ) ＋ 回顧 |
 | 720 | **lyrvik** | `[lyr.vik]` | 名 | 郷愁、ノスタルジー、遠き星への憧憬 | nostalgia, longing for distant home | lyras (切なさ) ＋ 追憶 |
 | 721 | **memar** | `[me.mar]` | 動 | 思索する、深く考える、熟慮する | contemplate, meditate, reflect | 哲学的思索 |
-| 722 | **mincor** | `[min.cor]` | 名 | 矜持、誇り、気品、自尊心 | dignity, noble pride, self-respect | min (心) + cor (高潔) |
+| 722 | **mincor** | `[min.ʃor]` | 名 | 矜持、誇り、気品、自尊心 | dignity, noble pride, self-respect | min (心) + cor (高潔) |
 | 723 | **mindan** | `[min.dan]` | 名 | 直観、ひらめき、洞察 | intuition, insight, flash of clarity | min (心) + dan (明察) |
 | 724 | **minnyr** | `[min.nyr]` | 名 | 慈愛、思いやり、深い憐憫 | compassion, tender mercy, gentleness of soul | min (情) + nyr (やさしさ) |
 | 725 | **minpalv** | `[min.palv]` | 名 | 安らぎ、静寂、心の平穏 | serenity, tranquil peace, quietude of mind | min (精神) + palv (波風なき安堵) |
@@ -816,7 +810,7 @@
 | 730 | **minvol** | `[min.vol]` | 名 | 憧憬、憧れ、高みへの熱望 | yearning, aspiration, starry longing | min (心) + vol (飛翔) |
 | 731 | **minzar** | `[min.zar]` | 名 | 悟り、真我の覚知、霊的開眼 | enlightenment, spiritual awakening, episteme | min (意識) + zar (最高覚醒) |
 | 732 | **novis** | `[no.vis]` | 名/動 | 敬意、崇敬、尊ぶ | reverence, honor, venerate | 崇高なる敬意 |
-| 733 | **sarcon** | `[sar.con]` | 名 | 祝祭、感謝祭、歓喜の祝宴 | jubilee, festive gala, joyful feast | saren (笑う) + con (大祭) |
+| 733 | **sarcon** | `[sar.ʃon]` | 名 | 祝祭、感謝祭、歓喜の祝宴 | jubilee, festive gala, joyful feast | saren (笑う) + con (大祭) |
 | 734 | **sardorn** | `[sar.dorn]` | 名 | 哀傷、メランコリー、静かな悲嘆 | melancholy, gentle grief, elegiac sadness | dyren (泣く) + dorn (沈思哀音) |
 | 735 | **sarmon** | `[sar.mon]` | 名 | ユーモア、機知、軽妙な笑い | wit, subtle humor, playful mirth | saren (笑う) + mon (軽妙) |
 | 736 | **sarpanan** | `[sar.pa.nan]` | 動 | 慰める、励ます、痛みに寄り添う | console, comfort, cheer grieving heart | minnyr (慈愛) + panan (施す) |
@@ -862,8 +856,8 @@
 | 772 | **dorvan** | `[dor.van]` | 形 | 脆い、壊れやすい、繊細な | fragile, brittle, delicate | dor (弱) + van (性) |
 | 773 | **durini** | `[du.ri.ni]` | 形 | 重い、重厚な、高密度の | heavy, dense, massive | 重力と密度 |
 | 774 | **durvani** | `[dur.va.ni]` | 形 | 免疫のある、抗体を持った、無傷の | immune, resistant, impervious | durvan (免疫) の性質 |
-| 775 | **eiran** | `[ei.ran]` | 形 | 永遠の、不滅の、無尽の | eternal, perpetual, immortal | 不滅 |
-| 776 | **eirin** | `[ei.rin]` | 形 | 古い、悠久の、古代の | ancient, old, timeless | 悠久 |
+| 775 | **eiran** | `[eɪ.ran]` | 形 | 永遠の、不滅の、無尽の | eternal, perpetual, immortal | 不滅 |
+| 776 | **eirin** | `[eɪ.rin]` | 形 | 古い、悠久の、古代の | ancient, old, timeless | 悠久 |
 | 777 | **falini** | `[fa.li.ni]` | 形 | 澄んだ、明瞭な、透き通った | clear, transparent, lucid | 透明感 |
 | 778 | **falkas** | `[fal.kas]` | 形 | 粗い、ざらざらした、無加工の | rough, coarse, unpolished | fal (素) + kas (硬質) |
 | 779 | **falpiri** | `[fal.pi.ri]` | 形 | 冷光の、幽かな燐光を放つ | phosphorescent, glow-in-the-dark | falpir (燐光) の性質 |
@@ -872,7 +866,7 @@
 | 782 | **faluni** | `[fa.lu.ni]` | 形 | 明るい、光り輝く | bright, radiant | 明度 |
 | 783 | **falzor** | `[fal.zor]` | 形 | 鮮明な、くっきりした、解像度の高い | vivid, distinct, sharply defined | fal (光) + zor (明晰) |
 | 784 | **krotani** | `[kro.ta.ni]` | 形 | 騒然とした、激動の、波乱に満ちた | turbulent, stormy, tumultuous | krotas (激動) の性質 |
-| 785 | **kymcon** | `[kym.con]` | 形 | 漆黒の、底知れぬ暗黒の | pitch-black, abyss-dark | kym (闇) + con (極度) |
+| 785 | **kymcon** | `[kym.ʃon]` | 形 | 漆黒の、底知れぬ暗黒の | pitch-black, abyss-dark | kym (闇) + con (極度) |
 | 786 | **kymsarn** | `[kym.sarn]` | 形 | ほの暗い、薄暗い、微光漂う | dim, dusky, shadowy crepuscular | kym (影) + sarn (微光陰) |
 | 787 | **kymsol** | `[kym.sol]` | 形 | 濃紺の、深夜の蒼天色の、インディゴの | midnight-blue, deep indigo, nocturnal cyan | kym (夜) + sol (深み青) |
 | 788 | **kyrani** | `[ky.ra.ni]` | 形 | 冷たい、凍てつく、氷結の | cold, icy, frigid | 冷徹な氷 |
@@ -880,9 +874,9 @@
 | 790 | **kyrimi** | `[ky.ri.mi]` | 形 | 深い、深淵な、奥底の | deep, profound | 深度 |
 | 791 | **kyrin** | `[ky.rin]` | 形 | 黒い、漆黒の、暗い | black, pitch-dark | 漆黒 |
 | 792 | **kyrlini** | `[kyr.li.ni]` | 形 | 雪白の、粉雪のような、純潔の | snow-white, crystalline pure | kyrlen (雪) の性質 |
-| 793 | **kyrpi** | `/kyrpi/` | 形 | 鋭い、研ぎ澄まされた、尖鋭な | sharp, acute, keen | 鋭利・切創刃先。sharp/scharfと完全分離 |
+| 793 | **kyrpi** | `[kyr.pi]` | 形 | 鋭い、研ぎ澄まされた、尖鋭な | sharp, acute, keen | 鋭利・切創刃先。sharp/scharfと完全分離 |
 | 794 | **kyrzan** | `[kyr.zan]` | 形 | 凍てつく、極冷の、骨身に染みる冷たさの | frigid, sub-zero chilling, gelid | kyras (氷) + zan (極冷) |
-| 795 | **melysi** | `/melysi/` | 形 | 甘い、滋味豊かな、甘美な | sweet, luscious, delicious | 蜜のような甘味。sweet/suessと完全分離 |
+| 795 | **melysi** | `[me.ly.si]` | 形 | 甘い、滋味豊かな、甘美な | sweet, luscious, delicious | 蜜のような甘味。sweet/suessと完全分離 |
 | 796 | **minzan** | `[min.zan]` | 形 | 誠実な、偽りのない、嘘偽りなき | candid, forthright, unfeigned upright | vyran (真理) + min (心) |
 | 797 | **moran** | `[mo.ran]` | 形 | 大きい、広大な、壮大な | large, vast, grand | 巨大 |
 | 798 | **morini** | `[mo.ri.ni]` | 形 | 遅い、緩やかな、歩みの遅い | slow, gentle, unhurried | 低速 |
@@ -894,20 +888,20 @@
 | 804 | **pyrzan** | `[pyr.zan]` | 形 | 熱烈な、灼熱の、焼けるような | scalding, scorching, fiercely fervent | pyris (火) + zan (高熱極) |
 | 805 | **rinini** | `[ri.ni.ni]` | 形 | 丸い、円形の、球状の | round, circular, spherical | rin (円) の性質 |
 | 806 | **serini** | `[se.ri.ni]` | 形 | 細い、薄い、繊細な | thin, slim, subtle | 繊細 |
-| 807 | **sersarn** | `[ser.sarn]` | 形 | ざらつく、粒立ちのある、手応えのある | gritty, textured, tactile with grains | ser (触覚) + sarn (粒粗) |
+| 807 | **palvsarn** | `[palv.sarn]` | 形 | ざらつく、粒立ちのある、手応えのある | gritty, textured, tactile with grains | palv (触覚) + sarn (粒粗)；palv (手・触覚) + sarn (微粒子) |
 | 808 | **sersolv** | `[ser.solv]` | 形 | 絹のように滑らかな、つるつるとした | silky, satiny smooth, gliding | ser (触覚) + solv (無抵抗滑動) |
 | 809 | **sirani** | `[si.ra.ni]` | 形 | 優しい、穏やかな、柔らかな | gentle, mild, soft | 穏和 |
-| 810 | **syvan** | `/syvan/` | 形 | 新しい、新鮮な、新緑の | new, fresh, novel | 時間的・生命的新鮮さ。new/novusと完全分離 |
+| 810 | **syvan** | `[sy.van]` | 形 | 新しい、新鮮な、新緑の | new, fresh, novel | 時間的・生命的新鮮さ。new/novusと完全分離 |
 | 811 | **talani** | `[ta.la.ni]` | 形 | 強い、堅固な、頑丈な、岩のような | strong, durable, solid | 堅固 |
-| 812 | **talcon** | `[tal.con]` | 形 | 頑強な、堅固な、ゆるぎない | sturdy, robust, steadfast | tal (岩) + con (強靱) |
+| 812 | **talcon** | `[tal.ʃon]` | 形 | 頑強な、堅固な、ゆるぎない | sturdy, robust, steadfast | tal (岩) + con (強靱) |
 | 813 | **taldari** | `[tal.da.ri]` | 形 | ぬかるんだ、泥深い、粘土質の | muddy, miry, clayey | taldar (泥) の性質 |
-| 814 | **taliski** | `[ta.lis.ki]` | 形 | ざらざらした、粗い、岩肌のような | rough, coarse, gritty | talis (石) の性質 |
+| 814 | **talyrki** | `[ta.lyr.ki]` | 形 | ざらざらした、粗い、岩肌のような | rough, coarse, gritty | talyr (石) の性質 |
 | 815 | **talmori** | `[tal.mo.ri]` | 形 | 広い、広々とした、開放的な | spacious, broad, roomy | talmor (広野) の性質 |
 | 816 | **talpi** | `[tal.pi]` | 形 | 硬い、硬質な、強硬な | hard, rigid, unyielding | 硬質の破裂有標 |
 | 817 | **talsarpv** | `[tal.sarpv]` | 形 | 硬質な、緻密な、刃を通さぬ | adamantine, impenetrable, dense-grained | tal (岩) + sarpv (極密) |
 | 818 | **talsolv** | `[tal.solv]` | 形 | 褐色の、土色の、琥珀土色の | tawny, amber-brown, earthen russet | tal (土) + solv (茶褐) |
 | 819 | **taluri** | `[ta.lu.ri]` | 形 | 金属的な、硬質な光沢の、鋼の | metallic, steel-like, lustrous | talur (金属) の性質 |
-| 820 | **teirini** | `[tei.ri.ni]` | 形 | 温かい、慈愛に満ちた、温もりの | warm, tender, comforting | 温かな心核 |
+| 820 | **teirini** | `[teɪ.ri.ni]` | 形 | 温かい、慈愛に満ちた、温もりの | warm, tender, comforting | 温かな心核 |
 | 821 | **telin** | `[te.lin]` | 形 | 小さい、細やかな、微小な | small, tiny, delicate | 微小 |
 | 822 | **tuliki** | `[tu.li.ki]` | 形 | 角張った、多角形の、角ばった | angular, polygonal, edged | tulik (多角形) の性質 |
 | 823 | **tulmin** | `[tul.min]` | 形 | 柔軟な、しなやかな、弾力のある | flexible, supple, pliable | tul (屈曲) + min (質) |
@@ -920,7 +914,7 @@
 | 830 | **velpor** | `[vel.por]` | 形 | みずみずしい、青々とした、生命力ある | verdant, lush, fresh with sap | vel (草木) + por (生気) |
 | 831 | **velsolv** | `[vel.solv]` | 形 | 深緑の、常緑の、濃緑色の | forest-green, deep emerald, evergreen verdure | vel (森) + solv (濃碧) |
 | 832 | **velzan** | `[vel.zan]` | 形 | 弾力ある、ゴム状の、しなやかに戻る | resilient, springy, buoyant elastic | tulmin (柔軟) + zan (復元力) |
-| 833 | **vyril** | `/vyril/` | 形 | 速い、迅速な、光速の | fast, rapid, swift | 星辰速度・迅速。fast/rapidと完全分離 |
+| 833 | **vyril** | `[vy.ril]` | 形 | 速い、迅速な、光速の | fast, rapid, swift | 星辰速度・迅速。fast/rapidと完全分離 |
 | 834 | **vyrini** | `[vy.ri.ni]` | 形 | 星辰のように輝く、綺羅星の | star-like, starry, glittering | vyr (星) の形容詞 |
 | 835 | **wylini** | `[wy.li.ni]` | 形 | 軽い、軽快な、浮遊感ある | light, airy, buoyant | 軽快な浮遊感 |
 | 836 | **wylvani** | `[wyl.va.ni]` | 形 | 旋風のような、目まぐるしい | swirling, vortex-like, brisk | wylven (つむじ風) の性質 |
@@ -940,11 +934,11 @@
 | 846 | **darlit** | `[dar.lit]` | 動 | 注ぐ、滴下する、水を注ぎ入れる | pour, decant, infuse | dar (滴) ＋ 流入 |
 | 847 | **darvol** | `[dar.vol]` | 動 | 波打つ、うねる、起伏する | undulate, swell, surge in waves | darrot (波) + vol (動態) |
 | 848 | **darzanv** | `[dar.zanv]` | 動 | 潜水する、水中に潜る、深みへ沈む | submerge, plunge underwater, dive into depths | zylan (泳ぐ) + zanv (潜行) |
-| 849 | **dolis** | `/dolis/` | 副/形 | 近く、傍らに、親密に | near, beside, close by | 空間的近接。near/procheと完全分離 |
+| 849 | **dolis** | `[do.lis]` | 副/形 | 近く、傍らに、親密に | near, beside, close by | 空間的近接。near/procheと完全分離 |
 | 850 | **dyren** | `[dy.ren]` | 動 | 涙する、泣く、しずくが滴る | weep, shed tear | 落涙動詞 |
-| 851 | **eirinu** | `[ei.ri.nu]` | 副 | 常に、絶え間なく、いつでも | always, perpetually | 恒常副詞 |
-| 852 | **eirlom** | `[eir.lom]` | 名/副 | 太古に、悠久の昔に、原初から | in ancient times, from the dawn | eirin (悠久) ＋ 領域 |
-| 853 | **eirvas** | `[eir.vas]` | 名/副 | 永遠の彼方、無窮の果て | eternity horizon, timeless expanse | eiran (永遠) ＋ 遥か |
+| 851 | **eirinu** | `[eɪ.ri.nu]` | 副 | 常に、絶え間なく、いつでも | always, perpetually | 恒常副詞 |
+| 852 | **eirlom** | `[eɪr.lom]` | 名/副 | 太古に、悠久の昔に、原初から | in ancient times, from the dawn | eirin (悠久) ＋ 領域 |
+| 853 | **eirvas** | `[eɪr.vas]` | 名/副 | 永遠の彼方、無窮の果て | eternity horizon, timeless expanse | eiran (永遠) ＋ 遥か |
 | 854 | **falden** | `[fal.den]` | 名/副 | 東、主星昇騰の方位、曙光の方角 | east, sunrise direction | 光が昇る方角 |
 | 855 | **faldenu** | `[fal.de.nu]` | 副 | 東へ、日の出の方角へ、黎明に向かって | eastward, toward sunrise | falden (東) ＋ 副詞語尾 |
 | 856 | **falk** | `[falk]` | 名/動 | 閃光、火花、パチッと弾ける | spark, flash, snap | 鋭い破裂動詞 |
@@ -959,13 +953,13 @@
 | 865 | **hano** | `[ha.no]` | 副/名 | 今日、この日、現在 | today, present day | 本日 |
 | 866 | **harvan** | `[har.van]` | 動 | 聴く、耳を傾ける、聞き届ける | listen, hear | har (耳) + van (傾聴する、聴く、聞き届ける) |
 | 867 | **hav** | `[hav]` | 名 | 時、瞬間、今この瞬間 | time, moment, now | 瞬発的摩擦音 |
-| 868 | **havcor** | `[hav.cor]` | 副 | 定時に、規則正しく、時刻通りに | punctually, on schedule, regularly | hav (時) + cor (正確) |
+| 868 | **havcor** | `[hav.ʃor]` | 副 | 定時に、規則正しく、時刻通りに | punctually, on schedule, regularly | hav (時) + cor (正確) |
 | 869 | **havel** | `[ha.vel]` | 名 | 時代、運行周期、時代の流れ | era, epoch, orbital cycle | 歴史・時代 |
 | 870 | **havit** | `[ha.vit]` | 名/副 | やがて、程なくして、近い将来に | soon, before long, presently | hav (時) の近傍 |
 | 871 | **havlor** | `[hav.lor]` | 名/副 | いつか、いずれ、将来のある時 | someday, eventually, in due time | hav (時) ＋ 巡行 |
 | 872 | **havzan** | `[hav.zan]` | 副 | 間一髪で、ぎりぎりの時に、絶妙な頃合いで | in the nick of time, just barely, on the razor edge of time | hav (時) + zan (極限合致) |
 | 873 | **jylas** | `[ʒy.las]` | 動 | 結ぶ、繋ぐ、交差する、結合する | connect, bind, intersect | 結合動詞 |
-| 874 | **jylvor** | `[jyl.vor]` | 動 | 編み上げる、結び合わせる、束ねる | plait, entwine, bind together | jyl (結ぶ) + vor (成形) |
+| 874 | **jylvor** | `[ʒyl.vor]` | 動 | 編み上げる、結び合わせる、束ねる | plait, entwine, bind together | jyl (結ぶ) + vor (成形) |
 | 875 | **kiras** | `[ki.ras]` | 動 | 創る、構築する、工作する、書く | create, build, compose | 創造動詞 |
 | 876 | **klomas** | `[klo.mas]` | 動 | 遮断する、孤立させる、隔離する | isolate, insulate, shut off | klovel (鍵) ＋ 隔離 |
 | 877 | **klovan** | `[klo.van]` | 動 | 閉じる、鍵をかける、終える | close, conclude, seal | 終了動詞 |
@@ -994,26 +988,26 @@
 | 900 | **pason** | `[pa.son]` | 名/副 | 後、後方、過去の側 | back, rear, behind | 過ぎ去る方向 |
 | 901 | **pasonu** | `[pa.so.nu]` | 副 | 後ろへ、後方へ、過去へ向かって | backward, rearward, behind | pason (後) ＋ -u (方向副詞) |
 | 902 | **poran** | `[po.ran]` | 動 | 歩く、歩む、旅する、進む | walk, journey, travel | 歩行動詞 |
-| 903 | **porcon** | `[por.con]` | 動 | 行進する、堂々と進む、パレードする | march, advance with dignity | poran (歩く) + con (威儀) |
+| 903 | **porcon** | `[por.ʃon]` | 動 | 行進する、堂々と進む、パレードする | march, advance with dignity | poran (歩く) + con (威儀) |
 | 904 | **porzan** | `[por.zan]` | 動 | 潜り抜ける、通過する、通り抜ける | pass through, thread way, traverse corridor | poran (歩く) + zan (貫通) |
 | 905 | **pyran** | `[py.ran]` | 動 | 燃える、点火する、燃焼する | burn, ignite, blaze | 燃焼動詞 |
 | 906 | **relen** | `[re.len]` | 動 | ある、存在する、実在する | exist, be present | 存在コピュラ |
 | 907 | **saren** | `[sa.ren]` | 動 | 笑う、微笑む、笑顔になる | smile, laugh | 笑顔動詞 |
 | 908 | **seno** | `[se.no]` | 副/名 | 明日、来たるべき日 | tomorrow | 来日 |
-| 909 | **seran** | `[se.ran]` | 動 | 授ける、手渡す、贈る | give, bestow, grant | 授与動詞 |
-| 910 | **sercor** | `[ser.cor]` | 動 | 握手する、手を携える、協調する | clasp hands, cooperate, join forces | ser (手) + cor (共同) |
+| 909 | **palvan** | `[pal.van]` | 動 | 授ける、手渡す、贈る | give, bestow, grant | 授与動詞；palv (手) + -an (授受動詞化) |
+| 910 | **palvcor** | `[palv.ʃor]` | 動 | 握手する、手を携える、協調する | clasp hands, cooperate, join forces | palv (手) + cor (共同)；palv (手) + cor (協調・連環動詞) |
 | 911 | **serdar** | `[ser.dar]` | 動 | 洗う、洗い流す、清める | wash, rinse, cleanse | ser (手) ＋ dar (水) |
-| 912 | **serfas** | `[ser.fas]` | 動 | 離す、手を放す、手放す | release, let go, disengage | ser (手) ＋ 離脱 |
-| 913 | **serin** | `[se.rin]` | 動 | 触れる、手渡す、受け止める | touch, hold, receive | 触覚動詞 |
+| 912 | **palvfas** | `[palv.fas]` | 動 | 離す、手を放す、手放す | release, let go, disengage | palv (手) ＋ 離脱；palv (手) + fas (離脱・開放) |
+| 913 | **palvin** | `[pal.vin]` | 動 | 触れる、手渡す、受け止める | touch, hold, receive | 触覚動詞；palv (手) + -in (接触・把持動詞) |
 | 914 | **serlit** | `[ser.lit]` | 動 | 撫でる、優しく触れる、いたわる | stroke gently, caress | ser (手) の柔和接触 |
 | 915 | **serpan** | `[ser.pan]` | 動 | 掴む、握る、掌中に収める | grasp, clutch, grip | 把持動詞 |
-| 916 | **serzan** | `[ser.zan]` | 動 | 手繰り寄せる、引き寄せる、引っ張る | draw near with hands, haul, pull cable | ser (手) + zan (引張) |
+| 916 | **palvzan** | `[palv.zan]` | 動 | 手繰り寄せる、引き寄せる、引っ張る | draw near with hands, haul, pull cable | palv (手) + zan (引張)；palv (手) + zan (牽引・引導) |
 | 917 | **silin** | `[si.lin]` | 名/副 | 内、内部、中心側、心の内 | inside, inward, within | 内部 |
 | 918 | **silinu** | `[si.li.nu]` | 副 | 内へ、内部へ、心の内へ向かって | inward, inside, inwardly | silin (内) ＋ -u (方向副詞) |
 | 919 | **soran** | `[so.ran]` | 動 | （ノートに）書き留める、記す | record, chronicle, write down | 筆記動詞 |
 | 920 | **sovil** | `[so.vil]` | 名 | 昼、日中、正午 | daytime, noon | 昼 |
 | 921 | **spilan** | `[spi.lan]` | 動 | 舞う、踊る、旋回ステップを踏む | dance, leap, sway | 舞踏動詞 |
-| 922 | **syndir** | `/syndir/` | 動 | 探す、探索する、発見する | search, find, discover | 探索・発見動詞。樹木velから分離 |
+| 922 | **syndir** | `[syn.dir]` | 動 | 探す、探索する、発見する | search, find, discover | 探索・発見動詞。樹木velから分離 |
 | 923 | **talos** | `[ta.los]` | 名/副 | 下、下方、大地の方向 | below, downward, beneath | 下方 |
 | 924 | **talosu** | `[ta.lo.su]` | 副 | 下へ、下方へ、大地へ向かって | downward, beneath, to the ground | talos (下) ＋ -u (方向副詞) |
 | 925 | **talsit** | `[tal.sit]` | 動 | 置く、据える、配置する、着座させる | put, place, set down | tal (大地) ＋ 据え置く |
@@ -1022,7 +1016,7 @@
 | 928 | **taris** | `[ta.ris]` | 動 | 待つ、佇む、待機する | wait, pause, linger | 静止動詞 |
 | 929 | **tor** | `[tor]` | 接 | しかし、されど | but, yet | 逆接接続詞 |
 | 930 | **toren** | `[to.ren]` | 動 | 来る、訪れる、届く、降る | come, arrive, fall | 到来動詞 |
-| 931 | **tulan** | `/tulan/` | 副/形 | 遠く、彼方に、遠日点に | far, distant, beyond | 遠隔空間・彼方。far/distantと完全分離 |
+| 931 | **tulan** | `[tu.lan]` | 副/形 | 遠く、彼方に、遠日点に | far, distant, beyond | 遠隔空間・彼方。far/distantと完全分離 |
 | 932 | **tulden** | `[tul.den]` | 名/副 | 南、天底極の方位、下極 | south, nadir pole | 天底を向く極 |
 | 933 | **tuldenu** | `[tul.de.nu]` | 副 | 南へ、天底極へ向かって | southward, toward nadir | tulden (南) ＋ 副詞語尾 |
 | 934 | **tulosu** | `[tu.lo.su]` | 副 | 深く、足元へ、根源へ向けて | deeply, profoundly, downwards | tulos (天底) ＋ 副詞語尾 |
@@ -1036,10 +1030,10 @@
 | 942 | **valrotu** | `[val.ro.tu]` | 副 | 木漏れ日の中で、緑陰に | in dappled shade, under leafy light | velrot ＋ 副詞語尾 |
 | 943 | **ve** | `[ve]` | 副 | はい、然り、その通り（肯定極性辞） | yes, indeed, so it is | 肯定極性辞 |
 | 944 | **velkan** | `[vel.kan]` | 動 | 繁茂する、青葉を広げる、生い茂る | flourish, thrive, grow luxuriantly | vel (草木) + kan (盛況) |
-| 945 | **volan** | `[vo.lan]` | 動 | 飛ぶ、飛翔する、舞い上がる | fly, soar | 飛翔動詞 |
-| 946 | **volkin** | `[vol.kin]` | 動 | 滑空する、風に乗って滑る、空を滑る | glide, sail on the air | volan (飛ぶ) ＋ 滑走 |
-| 947 | **volpas** | `[vol.pas]` | 動 | 飛び降りる、跳躍する、飛び越える | jump, leap over, hop down | volan (飛ぶ) ＋ 跳躍 |
-| 948 | **volzan** | `[vol.zan]` | 動 | 急降下する、ダイブする、滑空降下する | swoop, dive swiftly, plunge downward | volan (飛ぶ) + zan (急降) |
+| 945 | **veiran** | `[veɪran]` | 動 | 飛ぶ、飛翔する、舞い上がる | fly, soar | 飛翔動詞 |
+| 946 | **volkin** | `[vol.kin]` | 動 | 滑空する、風に乗って滑る、空を滑る | glide, sail on the air | veiran (飛ぶ) ＋ 滑走 |
+| 947 | **volpas** | `[vol.pas]` | 動 | 飛び降りる、跳躍する、飛び越える | jump, leap over, hop down | veiran (飛ぶ) ＋ 跳躍 |
+| 948 | **volzan** | `[vol.zan]` | 動 | 急降下する、ダイブする、滑空降下する | swoop, dive swiftly, plunge downward | veiran (飛ぶ) + zan (急降) |
 | 949 | **voras** | `[vo.ras]` | 名/副 | 前、前方、未来の側 | front, forward, ahead | 進行方向 |
 | 950 | **vorasu** | `[vo.ra.su]` | 副 | 前へ、前方へ、未来へ向かって | forward, onward, ahead | voras (前) ＋ -u (方向副詞) |
 | 951 | **vymin** | `[vy.min]` | 動 | 守る、庇護する、防護する | protect, guard, shield | 守護動詞 |
@@ -1065,11 +1059,11 @@
 | 967 | **bionzar** | `[bion.zar]` | 名 | 蒸留酒、酒精、ブランデー | distilled spirits, aqua vitae, hard liquor | voril (酒) + zar (高濃度精留) |
 | 968 | **darel** | `[da.rel]` | 名 | スープ、温煮汁、滋養汁 | soup, broth | 温かい汁物 |
 | 969 | **darpan** | `[dar.pan]` | 動 | 溶かす、溶解させる、融解する | melt, dissolve, liquefy | 融解動詞 |
-| 970 | **marnyz** | `/marnyz/` | 名 | 大地の結晶塩、調味料 | salt, seasoning | 大地の結晶塩・調味塩。独語salz・ラテン語salと完全分離 |
+| 970 | **marnyz** | `[mar.nyz]` | 名 | 大地の結晶塩、調味料 | salt, seasoning | 大地の結晶塩・調味塩。独語salz・ラテン語salと完全分離 |
 | 971 | **ner** | `[ner]` | 名 | 滋養、食材、食物 | nourishment, foodstuff | 食料 |
 | 972 | **neran** | `[ne.ran]` | 動 | 食べる、食事する、味わう | eat, dine, partake | 食事動詞 |
 | 973 | **nerar** | `[ne.rar]` | 名 | カフェ、喫茶店、食堂、レストラン | cafe, restaurant, diner | 飲食店 |
-| 974 | **nercor** | `[ner.cor]` | 名 | 干し肉、保存肉、燻製肉 | cured meat, jerky, smoked pemmican | ner (食) + cor (乾製) |
+| 974 | **nercor** | `[ner.ʃor]` | 名 | 干し肉、保存肉、燻製肉 | cured meat, jerky, smoked pemmican | ner (食) + cor (乾製) |
 | 975 | **nerdor** | `[ner.dor]` | 名 | 汁粉、シリアル、穀物粥 | porridge, gruel, cereal pottage | nerat (穀物) + dor (温煮) |
 | 976 | **nerdorn** | `[ner.dorn]` | 名 | 濾し器、篩い、裏ごし布 | sieve, colander, straining cheesecloth | ner (調理) + dorn (濾過分級) |
 | 977 | **nerel** | `[ne.rel]` | 名 | 料理、ごはん、温かい食事 | meal, cooked dish | 料理 |
@@ -1093,14 +1087,14 @@
 | 995 | **nerson** | `[ner.son]` | 名 | 焼き網、グリル台、鉄板 | griddle, gridiron, broiling rack | pyrtos (ロースト) + son (棚枠) |
 | 996 | **nertalv** | `[ner.talv]` | 名 | すりこぎ、擂粉木、杵 | pestle, muller, grinding pounder | talpork (すり鉢) + talv (打具) |
 | 997 | **nerzar** | `[ner.zar]` | 名 | 大宴会、祝宴、宮廷晩餐会 | banquet, symposium, festive banquet spread | nerel (料理) + zar (豪華饗宴) |
-| 998 | **nyrat** | `/nyrat/` | 名 | 主食、焼き穀物、糧 | bread, loaf, staple | 母音交替y-grade（nyr: 焼き固めた主食パン）。bread/pan/brotと完全分離 |
-| 999 | **nyrsan** | `/nyrsan/` | 名 | 焼き菓子、ビスケット、乾酪菓子 | pastry, biscuit, baked crisp | 母音交替y-grade（nyr: 焼き菓子・クリスプ） |
-| 1000 | **pylvin** | `/pylvin/` | 名 | 皿、深鉢、陶器の器 | plate, dish, bowl, earthenware | 焼成施釉陶器の皿・深鉢。英語plate・dish・仏語platと完全分離 |
+| 998 | **nyrat** | `[ny.rat]` | 名 | 主食、焼き穀物、糧 | bread, loaf, staple | 母音交替y-grade（nyr: 焼き固めた主食パン）。bread/pan/brotと完全分離 |
+| 999 | **nyrsan** | `[nyr.san]` | 名 | 焼き菓子、ビスケット、乾酪菓子 | pastry, biscuit, baked crisp | 母音交替y-grade（nyr: 焼き菓子・クリスプ） |
+| 1000 | **pylvin** | `[pyl.vin]` | 名 | 皿、深鉢、陶器の器 | plate, dish, bowl, earthenware | 焼成施釉陶器の皿・深鉢。英語plate・dish・仏語platと完全分離 |
 | 1001 | **pyrtos** | `[pyr.tos]` | 動 | 焼く、炙る、ローストする | roast, bake, grill | pyris (火) ＋ 直火加熱 |
 | 1002 | **talpork** | `[tal.pork]` | 名 | すり鉢、乳鉢、粉砕器 | mortar, grinding basin | tal (石) + pork (粉砕器) |
 | 1003 | **terin** | `[te.rin]` | 名 | 温かい煎じ茶、薬草茶 | tea, warm herbal brew | 温飲料 |
 | 1004 | **terlar** | `[ter.lar]` | 名 | 茶器、急須、温茶瓶 | teapot, kettle, brew urn | terin (茶) の容器 |
-| 1005 | **tursil** | `/tursil/` | 名 | 具材、スープの具、煮込み種 | ingredient, stew morsel, solid filling | スープ具材・煮込み固形実 |
+| 1005 | **tursil** | `[tur.sil]` | 名 | 具材、スープの具、煮込み種 | ingredient, stew morsel, solid filling | スープ具材・煮込み固形実 |
 | 1006 | **voril** | `[vo.ril]` | 名 | 発酵果実酒、祝い酒 | wine, fermented drink | 酒 |
-| 1007 | **vurlin** | `/vurlin/` | 名 | スプーン、匙、汁掬い | spoon, ladle, serving scoop | 椀型掬い具・匙。spoon/loeffelと完全分離 |
-| 1008 | **zartik** | `/zartik/` | 名 | フォーク、刺し具、食具 | dining fork, pronged utensil | 三つ又刺し具・フォーク。英語spike/forkと完全分離 |
+| 1007 | **vurlin** | `[vur.lin]` | 名 | スプーン、匙、汁掬い | spoon, ladle, serving scoop | 椀型掬い具・匙。spoon/loeffelと完全分離 |
+| 1008 | **zartik** | `[zar.tik]` | 名 | フォーク、刺し具、食具 | dining fork, pronged utensil | 三つ又刺し具・フォーク。英語spike/forkと完全分離 |

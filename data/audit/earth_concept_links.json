@@ -1,0 +1,725 @@
+{
+  "scope": "source-attributed partial concept mapping",
+  "entries": [
+    {
+      "lexiconId": 73,
+      "conceptId": "swadesh-207:147",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "c85fb348a338a18cca189a1c087ba207036d3104917825b86a936be262bd158a",
+      "reason": "辞書の太陽、主星、昼の光 / sunを、Swadeshのsunの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 49,
+      "conceptId": "swadesh-207:148",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "35fb61fdd078973bb62ea948f54f5b418676dc429a948be1dd0d49aff34752e7",
+      "reason": "辞書の月、衛星、夜の光球 / moonを、Swadeshのmoonの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 62,
+      "conceptId": "swadesh-207:149",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "44aec2f32cb3a0441cc0e9a4f0a4f92ff63edcf90d2958f1b7f214f1a1dc9682",
+      "reason": "辞書の星、天体、光点 / starを、Swadeshのstarの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 332,
+      "conceptId": "swadesh-207:150",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "48cb417b12fa1058c462edae1c4cf7fc6f8ba8816205e2c0d846fd763a3c0182",
+      "reason": "辞書の水、清流、淡水 / waterを、Swadeshのwaterの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 377,
+      "conceptId": "swadesh-207:154",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "002de8b682133a1702d5dd5c02db04495ee1be1758cfbd2c1c1094bfbdd2bd6b",
+      "reason": "辞書の海、海洋、大洋 / seaを、Swadeshのseaの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 285,
+      "conceptId": "swadesh-207:156",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "8e7a21c4b76ca766bb675ac52f43b28ba6a82aef66bf68a096d4c58432636d1f",
+      "reason": "辞書の石、岩、鉱石、結晶 / stoneを、Swadeshのstoneの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 308,
+      "conceptId": "swadesh-207:157",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "9e9cb0c808077f922b12470cd302db7b39af716fe0ca139af2958b94c2fea520",
+      "reason": "辞書の砂、小石、砂利、粗砂 / sandを、Swadeshのsandの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 322,
+      "conceptId": "swadesh-207:160",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "38dbfb84cd83b423a9a1b813bcbaa1d673c3a30e8621b5d2a0946961ef2bd12d",
+      "reason": "辞書の雲、霧、霞 / cloudを、Swadeshのcloudの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 365,
+      "conceptId": "swadesh-207:163",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "c6328ced04f4ea50a234ba4c838476e8f2397a0de12d32c9bc8c63ef4e83a849",
+      "reason": "辞書の風、大気の流れ、そよぐ / windを、Swadeshのwindの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 361,
+      "conceptId": "swadesh-207:167",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "64c13fadb0ab02a43818d8e69dd6a426699e54e75cc2816a005d710b6796e072",
+      "reason": "辞書の火、炎、熱源 / fireを、Swadeshのfireの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 391,
+      "conceptId": "swadesh-207:51",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "efe1a4c573ac5d4ec7051d8d8116864d2dbcc10cd5322dd27cf5fbd15508e19c",
+      "reason": "辞書の木、樹木、大樹 / treeを、Swadeshのtreeの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 392,
+      "conceptId": "swadesh-207:56",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "7980b4f5a7e0e83eccc7dbf443d111e940c5b03185389046344a3ac734c200f7",
+      "reason": "辞書の葉、緑、葉擦れ / leafを、Swadeshのleafの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 419,
+      "conceptId": "swadesh-207:57",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "6893d3c36e29e0047a41ddee2a981c2777be3e594f1ac53d67b8d9e3be6527e1",
+      "reason": "辞書の根、地下茎、根源、根幹 / rootを、Swadeshのrootの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 398,
+      "conceptId": "swadesh-207:59",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "d5d88c1b8a02fedc4fee545e04495c98cbd5429b2622d279dc1ca8f5e755b108",
+      "reason": "辞書の花、咲く、芳香 / flowerを、Swadeshのflowerの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 456,
+      "conceptId": "swadesh-207:46",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "61afe02cb206203dc47bbba9db3d12fdcc9a71d7ef995c09ad92d5cd3aaed95c",
+      "reason": "辞書の鳥、翼ある者、飛翔生物 / birdを、Swadeshのbirdの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 465,
+      "conceptId": "swadesh-207:45",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "17c4926e590ea86467d4c30d158e5a747d0d6b0be67156545b6f0332d24811b1",
+      "reason": "辞書の魚、水棲生物 / fishを、Swadeshのfishの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 245,
+      "conceptId": "swadesh-207:83",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "b2a6af1907dab07a2285efd17c74089adea9bf6ec6cc5124710fca8ccad356d3",
+      "reason": "辞書の手、掌、指 / handを、Swadeshのhandの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 225,
+      "conceptId": "swadesh-207:80",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "1b6dc028a9010f7f8bc10d536240de201e0124f516857060b3c98c9b2a1e5225",
+      "reason": "辞書の足、脚、歩行肢 / footを、Swadeshのfootの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 235,
+      "conceptId": "swadesh-207:72",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "fcc29a9644eb2696dad673568c25da546def733d3556d8014b82d2b67e34da66",
+      "reason": "辞書の頭、頭脳、中枢神経 / headを、Swadeshのheadの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 261,
+      "conceptId": "swadesh-207:74",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "9807450b83760416b85d7e0b6aca58771a6e9da4c54bfede42e4474af7ee64f0",
+      "reason": "辞書の目、瞳、視覚器官 / eyeを、Swadeshのeyeの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 214,
+      "conceptId": "swadesh-207:73",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "1625abc5aaa7414bbc15bba78afe56c191ab834923a69433f8d02bdcdafb9584",
+      "reason": "辞書の耳、聴覚器官 / earを、Swadeshのearの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 202,
+      "conceptId": "swadesh-207:64",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "63b3444d33fe87b9167fa556bb4ec4aaa076081652d8e8a60f7fee7d8ad91684",
+      "reason": "辞書の血液、脈流、体液 / bloodを、Swadeshのbloodの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 205,
+      "conceptId": "swadesh-207:65",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "252794d3685675d30d87b33458c5e6762e1a716c3f3fb4f353b3ec9c6fcee28a",
+      "reason": "辞書の骨、骨格、堅固な支柱 / boneを、Swadeshのboneの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 253,
+      "conceptId": "swadesh-207:90",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "f432d1200a3cd6cb7845ab6d1f1c985d22f9ad32a9b921a1961ed2b95f3ea30b",
+      "reason": "辞書の心臓、胸の核、肉体の中心 / heartを、Swadeshのheartの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 970,
+      "conceptId": "swadesh-207:155",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "6917c3e70502af56deca6a8375f8a3249f4816619c16e4aa2c3231af68db656d",
+      "reason": "辞書の大地の結晶塩、調味料 / saltを、Swadeshのsaltの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 902,
+      "conceptId": "swadesh-207:121",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "972eb84f2275de301faee549fd89ec0488debddfa14e1d65a5dc5a06964b6414",
+      "reason": "辞書の歩く、歩む、旅する、進む / walkを、Swadeshのwalkの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 972,
+      "conceptId": "swadesh-207:93",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "dabd590adca23688362c28fcec7b428eb678fc06fc482c74cc2404e706bde6fb",
+      "reason": "辞書の食べる、食事する、味わう / eatを、Swadeshのeatの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 222,
+      "conceptId": "swadesh-207:107",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "c077685a54f38d9367c5651db17f4010151b3354c96be9edab1ed55547fa93be",
+      "reason": "辞書の眠り、睡眠、休眠する / sleepを、Swadeshのsleepの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 333,
+      "conceptId": "swadesh-207:151",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "b87a3db4b59678c862f12e02f7a06aca15745bfefdb83eecca330e0b95e1ac07",
+      "reason": "辞書の雨、降雨 / rainを、Swadeshのrainの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 1,
+      "conceptId": "swadesh-207:162",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "93eae0b8ca998dc6cc055e0b2e154e8ef0c914e2717d0f4f9a2ec2f1997a132d",
+      "reason": "辞書の空、天蓋、蒼穹、大気 / skyを、Swadeshのskyの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 827,
+      "conceptId": "swadesh-207:30",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "dcb33dbfc17fed4da2cb4300f44e210834c4a45bc0620e8e7205148908c492d2",
+      "reason": "辞書の厚い、分厚い、重層の / thickを、Swadeshのthickの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 773,
+      "conceptId": "swadesh-207:31",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "e8518bb58ccd3ea1c7d7607e3623d50e023d6e6d344ccf5495fad3404f4d975c",
+      "reason": "辞書の重い、重厚な、高密度の / heavyを、Swadeshのheavyの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 821,
+      "conceptId": "swadesh-207:32",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "3aced3f783ca2c65551595ef920c45496dd26ffcca97fd90c65ba07e6a60cd2f",
+      "reason": "辞書の小さい、細やかな、微小な / smallを、Swadeshのsmallの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 801,
+      "conceptId": "swadesh-207:34",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "8f7182421370c69ab46f81ffd9d3aa497dd7b9e21d22a63cd59fd4de7103dd92",
+      "reason": "辞書の狭い、窮屈な、幅の狭い / narrowを、Swadeshのnarrowの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 806,
+      "conceptId": "swadesh-207:35",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "32df276b80d1d7b4bc6289db170b5a527b7c18b0d217b117a4ccec9c2747766b",
+      "reason": "辞書の細い、薄い、繊細な / thinを、Swadeshのthinの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 428,
+      "conceptId": "swadesh-207:44",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "299e43b527e58e058cf490a73058f8bd8cb505d578be0c5a7655374745c11d49",
+      "reason": "辞書の動物、獣、野生生物 / animalを、Swadeshのanimalの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 404,
+      "conceptId": "swadesh-207:52",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "e438cef31debb2d5e4c0f445b2bfbd026098c1a2fccecc66a559b4b475e06798",
+      "reason": "辞書の森、森林、樹海 / forestを、Swadeshのforestの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 422,
+      "conceptId": "swadesh-207:54",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "1c2fe8885797ef3bfccc1c757005771655ac4d25c499d580e33cacc8e480510a",
+      "reason": "辞書の果実、木の実、果物 / fruitを、Swadeshのfruitの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 387,
+      "conceptId": "swadesh-207:55",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "8c6cf3a4dd47eff72bf687e20d2becda1cefd8fb31feafc169d8373fc207db02",
+      "reason": "辞書の種、種子、生命の粒 / seedを、Swadeshのseedの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 393,
+      "conceptId": "swadesh-207:58",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "e7952528e7ee503a1b65a08f35209e39ae3eebbda2ad46a83214c05eb82012af",
+      "reason": "辞書の樹皮、木の幹、木質部 / barkを、Swadeshのbarkの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 397,
+      "conceptId": "swadesh-207:60",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "8570c452d37e668c42f1ab7f979e8ce91902256ba31efe9c7b6b56bf51e70203",
+      "reason": "辞書の新芽、若木、薬草、草 / grassを、Swadeshのgrassの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 670,
+      "conceptId": "swadesh-207:61",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "310c074b8af3ed98cbcaba8047be38076b618166ef37030888bd096a02aefa7b",
+      "reason": "辞書の紐、縄、コード、縛り糸 / ropeを、Swadeshのropeの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 216,
+      "conceptId": "swadesh-207:62",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "980be494bf3a372488ffa407bae831619d864a78b06ff56faee6fb5aad1f3d0a",
+      "reason": "辞書の皮膚、肌、外被 / skinを、Swadeshのskinの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 449,
+      "conceptId": "swadesh-207:68",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "92d9698eedf2e80917117cb6f210da0c1590cd2d3a5a702a74f5cb760f9be131",
+      "reason": "辞書の角、双角、突起角 / hornを、Swadeshのhornの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 264,
+      "conceptId": "swadesh-207:75",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "603db261502d700525f9aefa91325eac26786d4ac96d80367a3280a4f81a4773",
+      "reason": "辞書の鼻、息の通り道、嗅覚器官 / noseを、Swadeshのnoseの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 211,
+      "conceptId": "swadesh-207:76",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "ad609eb1a3bc39bd507c28cb99fabbe5f0cb5883ce05df62fae8f281ee2e977d",
+      "reason": "辞書の口、唇、声門 / mouthを、Swadeshのmouthの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 426,
+      "conceptId": "swadesh-207:88",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "327810f539188967720e9c3130fb5ba8962cbe62e15616b90e3c2041294c3e6c",
+      "reason": "辞書の背中、脊椎、背部 / backを、Swadeshのbackの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 959,
+      "conceptId": "swadesh-207:92",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "ff9c2b7c943ac03a33e75c59f7d51a5ad7bc88c9bb4b5b2af4f60bc9d7d6c933",
+      "reason": "辞書の飲む、喫する、喉を潤す / drinkを、Swadeshのdrinkの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 268,
+      "conceptId": "swadesh-207:99",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "ae32da89e462fd473fe4301d463c6a269f1cc47155e01608dcff9487016fcc21",
+      "reason": "辞書の呼吸する、息吹を交わす / breatheを、Swadeshのbreatheの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 907,
+      "conceptId": "swadesh-207:100",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "afda81d1957ec08c7e51b02d5fb1d037161c7e3e1a2058b80dc58ba3d59d3e45",
+      "reason": "辞書の笑う、微笑む、笑顔になる / laughを、Swadeshのlaughの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 866,
+      "conceptId": "swadesh-207:102",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "f60343f0afff93cfbd23eff31c33fd4e10e5d54b89f37cbf907d8909d60de471",
+      "reason": "辞書の聴く、耳を傾ける、聞き届ける / hearを、Swadeshのhearの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 267,
+      "conceptId": "swadesh-207:108",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "fb60c5ffab1f20e35941a1372b6771f3c825ee9b91b0f454a7552657db41f843",
+      "reason": "辞書の生命、息吹、生きる、脈動する / liveを、Swadeshのliveの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 926,
+      "conceptId": "swadesh-207:118",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "d94428325e49365d67f592cb492dc8162d907ad6f493e7e87527b6882e068ac8",
+      "reason": "辞書の掘る、穿つ、地下を開削する / digを、Swadeshのdigの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 958,
+      "conceptId": "swadesh-207:119",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "3ca254f694ca4d3f27de41bb569738e95f9386bf8bd7e5271bf5fb163c8ad44f",
+      "reason": "辞書の泳ぐ、水中を滑走する / swimを、Swadeshのswimの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 945,
+      "conceptId": "swadesh-207:120",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "1530635f3b836a3a78a186911503f374d9798e0e51a0648f3be444472b8e5f10",
+      "reason": "辞書の飛ぶ、飛翔する、舞い上がる / flyを、Swadeshのflyの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 930,
+      "conceptId": "swadesh-207:122",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "45638a3d1734a2badc15480f7d9e4c108b6cf578ac97c967b63bf7dc6aff0a6a",
+      "reason": "辞書の来る、訪れる、届く、降る / comeを、Swadeshのcomeの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 930,
+      "conceptId": "swadesh-207:127",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "45638a3d1734a2badc15480f7d9e4c108b6cf578ac97c967b63bf7dc6aff0a6a",
+      "reason": "辞書の来る、訪れる、届く、降る / fallを、Swadeshのfallの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 909,
+      "conceptId": "swadesh-207:128",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "ab4f3596a2eda3077cdd767b9ec4e6ac22cd8faa368afd6e84610f2e03352249",
+      "reason": "辞書の授ける、手渡す、贈る / giveを、Swadeshのgiveの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 911,
+      "conceptId": "swadesh-207:132",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "a0cb696bb97977ae3bbbf5dfd20f5e60381310632310ad99ea87ee698c83d804",
+      "reason": "辞書の洗う、洗い流す、清める / washを、Swadeshのwashの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 845,
+      "conceptId": "swadesh-207:141",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "4534d18e29d35b230866eb81fa44bd4fa458b493d0f7abcce49a2e1974d085d0",
+      "reason": "辞書の歌う、奏でる、旋律を紡ぐ / singを、Swadeshのsingの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 886,
+      "conceptId": "swadesh-207:145",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "4280da8ed7bf5418ec2e61f53e5dabd369d3315d4d17238253dc5e2af167b9e9",
+      "reason": "辞書の凍る、凝固する、結晶化する / freezeを、Swadeshのfreezeの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 339,
+      "conceptId": "swadesh-207:153",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "a6203fe38c50467f852b396e63484d5dfd746f59c0a2b37bc412505c050f33bc",
+      "reason": "辞書の湖、湖沼、静水面 / lakeを、Swadeshのlakeの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 282,
+      "conceptId": "swadesh-207:158",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "70978704d4063a16ee42ddc3d5eb7447f7940589eaf2f60571f2efb66b599674",
+      "reason": "辞書の土埃、砂ぼこり、微細粉塵 / dustを、Swadeshのdustの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 277,
+      "conceptId": "swadesh-207:159",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "bc41aaadd61d804414df53259fe9e53d5e0c2b2b99b01fa12d40726f58f20df0",
+      "reason": "辞書の大地、土壌、足元、地面 / earthを、Swadeshのearthの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 356,
+      "conceptId": "swadesh-207:164",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "3f7d4ef223b4f6721c752e15458b4aee24858f107757ee81a2dba1b3a5b063bb",
+      "reason": "辞書の雪、白雪、降雪 / snowを、Swadeshのsnowの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 353,
+      "conceptId": "swadesh-207:165",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "ded0a0931f3577ee39c069b418a1c7ade4c6d8532ec51f522e2a7c62644bf269",
+      "reason": "辞書の氷、霜、氷結体 / iceを、Swadeshのiceの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 905,
+      "conceptId": "swadesh-207:169",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "e5732ec29ae3a90788eba8810d65aeabb8bce8a0544cb064e90f3b13fcf3f609",
+      "reason": "辞書の燃える、点火する、燃焼する / burnを、Swadeshのburnの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 275,
+      "conceptId": "swadesh-207:171",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "b967909f7dd0919e660fee41b438ba938cebe9f88bfca3e7a6a8b2ca19147ba8",
+      "reason": "辞書の山、連峰、そびえる高嶺 / mountainを、Swadeshのmountainの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 802,
+      "conceptId": "swadesh-207:172",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "0d8a01d85f69d61887df13586f992c7903b9b91bf70250ccc27a323262b64ada",
+      "reason": "辞書の赤い、真紅の、燃えるような / redを、Swadeshのredの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 828,
+      "conceptId": "swadesh-207:173",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "8de188d01fe5897b1efe6e8d4b473dcd8d9e68844f58328166cc9b0698ed710f",
+      "reason": "辞書の緑の、新緑色の、翠色の / greenを、Swadeshのgreenの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 760,
+      "conceptId": "swadesh-207:175",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "39e481248d4cb76f1e2b04be49434f63d101dfe164e84979b159344afca01160",
+      "reason": "辞書の白い、純白の、無垢な / whiteを、Swadeshのwhiteの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 791,
+      "conceptId": "swadesh-207:176",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "84a24a65286d0b19610983f817cec3d5aa9e81c3952cf675ca9320a8b30dfbf5",
+      "reason": "辞書の黒い、漆黒の、暗い / blackを、Swadeshのblackの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 22,
+      "conceptId": "swadesh-207:177",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "a3c5e898558dc47ce9e64bb5e3ba30beaaf9c0db0275107d5058fd698a40feea",
+      "reason": "辞書の夜、闇、陰 / nightを、Swadeshのnightの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 788,
+      "conceptId": "swadesh-207:181",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "3d5adfd837f1980fd17d64af51df038ff97cd9c9eedd11686d1541dc28b39a41",
+      "reason": "辞書の冷たい、凍てつく、氷結の / coldを、Swadeshのcoldの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 810,
+      "conceptId": "swadesh-207:183",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "5f40368399f154a6eafd67e97ca7314d3d918756834e31ff871103792620d641",
+      "reason": "辞書の新しい、新鮮な、新緑の / newを、Swadeshのnewの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 776,
+      "conceptId": "swadesh-207:184",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "835c5d3f9be771d6007247e0245d642fe9639da011de4e8b81365664bdf4f928",
+      "reason": "辞書の古い、悠久の、古代の / oldを、Swadeshのoldの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 805,
+      "conceptId": "swadesh-207:190",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "c7abee325546c5902ae3602a90cdce4599805bc08362fa94d2ef14a9d492334f",
+      "reason": "辞書の丸い、円形の、球状の / roundを、Swadeshのroundの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 793,
+      "conceptId": "swadesh-207:191",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "1e71327ffa1635ef5dae5a941557656b42459d57312653c990483cb5fab9762e",
+      "reason": "辞書の鋭い、研ぎ澄まされた、尖鋭な / sharpを、Swadeshのsharpの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 766,
+      "conceptId": "swadesh-207:193",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "2898470177f4c611bfccf154f8ec2364326171d49a198aff2418b95bb0390421",
+      "reason": "辞書のなめらかな、すべすべした、水流のような / smoothを、Swadeshのsmoothの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 849,
+      "conceptId": "swadesh-207:197",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "b4f8839bf410416dc8d0ac9eb3eba41cfc0235f3b062898de1dbda2a2e6c8917",
+      "reason": "辞書の近く、傍らに、親密に / nearを、Swadeshのnearの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 931,
+      "conceptId": "swadesh-207:198",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "e410f15153d958d80f6cd255a09af59f140620032e69d1591afe3b78cdc4706b",
+      "reason": "辞書の遠く、彼方に、遠日点に / farを、Swadeshのfarの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 898,
+      "conceptId": "swadesh-207:199",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "a15197a518c4e923c6c146593fcbe155eefaee11b498a4509a2ce71d30ab9614",
+      "reason": "辞書の右、右舷、右方 / rightを、Swadeshのrightの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 890,
+      "conceptId": "swadesh-207:200",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "6e9b85e608a715aa88f95305caade997158318cd7224322e91f7bf77ab644d0c",
+      "reason": "辞書の左、左舷、左方 / leftを、Swadeshのleftの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 938,
+      "conceptId": "swadesh-207:204",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "4c85ca5558900b03066767f4ecd26f115623c43ccad3c11b150a70c2e744c48b",
+      "reason": "辞書のそして、また、〜と共に / andを、Swadeshのandの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 957,
+      "conceptId": "swadesh-207:206",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "ddd66b21a808cccb231134cccefcba8e6c5c13ab554bccfadd2a64d8eb444c02",
+      "reason": "辞書のなぜなら、〜ゆえに、理由 / becauseを、Swadeshのbecauseの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 225,
+      "conceptId": "swadesh-207:81",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "1b6dc028a9010f7f8bc10d536240de201e0124f516857060b3c98c9b2a1e5225",
+      "reason": "辞書の足、脚、歩行肢 / legを、Swadeshのlegの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 322,
+      "conceptId": "swadesh-207:161",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "38dbfb84cd83b423a9a1b813bcbaa1d673c3a30e8621b5d2a0946961ef2bd12d",
+      "reason": "辞書の雲、霧、霞 / fogを、Swadeshのfogの基本語義へ対応。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 462,
+      "conceptId": "swadesh-207:70",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "7995ce94642ea380c10ceaee903348242642a5cb8862c676ea94e8facf3c9ecf",
+      "reason": "辞書の翼羽、風切羽、飛翔羽 / flight featherを、Swadeshのfeatherの基本語義へ対応。飛翔羽という具体的な羽の語義に限定。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 916,
+      "conceptId": "swadesh-207:134",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "411dedec3e1b00cb37fb47d21a1818d68bae190f8b5991a84e038ba95e787d3c",
+      "reason": "辞書の手繰り寄せる、引き寄せる、引っ張る / pull cableを、Swadeshのpullの基本語義へ対応。手で引き寄せる行為に限定。複合・比喩の別語義まで網羅した承認ではない。"
+    },
+    {
+      "lexiconId": 837,
+      "conceptId": "swadesh-207:195",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewedAgainstEntryHash": "73f9e6b0d21cdc6d4a6e43060c1671f9cc93b292fb3ecb3a182d6215ec3d8851",
+      "reason": "辞書の乾燥した、乾ききった、からっとした / crisp dryを、Swadeshのdryの基本語義へ対応。乾いた性質の語義に限定。複合・比喩の別語義まで網羅した承認ではない。"
+    }
+  ]
+}

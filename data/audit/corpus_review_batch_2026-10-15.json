@@ -1,0 +1,11 @@
+{
+  "reviewer": "Codex",
+  "reviewType": "AI linguistic review",
+  "dependencyHashes": {
+    "aphorism": "4410e7b17b7dffb6cc95bc0c1225f7c7cd2b6946e92361ee319e04ace138affe",
+    "observation": "9ed4b3917ccd4e09f9511197e3d47680722d29e54b527a7b005d751e833cbff6",
+    "dialogue-a1": "8896ddcfac778bc5f362aa9b9318ce199915a186c03c333306c328adbd6c1a71",
+    "dialogue-b": "d18e045f61622bdb836958af5b59770a08d367b33fc854ec81288399504d79c9",
+    "dialogue-a2": "7c2350fe2390d1f46d02f1e419eb45babeceeda053f36f387abd5d2c5970f0b8"
+  }
+}

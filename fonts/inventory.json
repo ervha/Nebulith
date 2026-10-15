@@ -1,0 +1,170 @@
+{
+  "fontVersion": "2.5",
+  "glyphCount": 87,
+  "mappedCharacterCount": 112,
+  "characters": " !\"'()*+,-./0123456789:;=?ABCDEFGHIJKLMNOPRSTUVWYZ[]abcdefghijklmnoprstuvwyz{}×÷—―‘’“”…⋯、。「」『』！＂（）＊＋，－．／：；＝？［］｛｝",
+  "symbols": [
+    {
+      "glyph": "period",
+      "characters": ".．。",
+      "motif": "終止核",
+      "advance": 400
+    },
+    {
+      "glyph": "comma",
+      "characters": ",，、",
+      "motif": "彗星の小休止",
+      "advance": 400
+    },
+    {
+      "glyph": "colon",
+      "characters": ":：",
+      "motif": "連星の接続",
+      "advance": 400
+    },
+    {
+      "glyph": "hyphen",
+      "characters": "-－",
+      "motif": "短い軌道橋",
+      "advance": 500
+    },
+    {
+      "glyph": "quotesingle",
+      "characters": "'",
+      "motif": "声門キャリア（音素）",
+      "advance": 360
+    },
+    {
+      "glyph": "question",
+      "characters": "?？",
+      "motif": "開いた探索軌道と中心核",
+      "advance": 620
+    },
+    {
+      "glyph": "exclam",
+      "characters": "!！",
+      "motif": "放射する三角光芒と基底核",
+      "advance": 500
+    },
+    {
+      "glyph": "semicolon",
+      "characters": ";；",
+      "motif": "上部連星環と流下する彗星尾",
+      "advance": 440
+    },
+    {
+      "glyph": "ellipsis",
+      "characters": "…⋯",
+      "motif": "三つの終止核",
+      "advance": 760
+    },
+    {
+      "glyph": "parenleft",
+      "characters": "(（",
+      "motif": "左の抱擁軌道",
+      "advance": 440
+    },
+    {
+      "glyph": "parenright",
+      "characters": ")）",
+      "motif": "右の抱擁軌道",
+      "advance": 440
+    },
+    {
+      "glyph": "bracketleft",
+      "characters": "[［",
+      "motif": "左の観測枠",
+      "advance": 440
+    },
+    {
+      "glyph": "bracketright",
+      "characters": "]］",
+      "motif": "右の観測枠",
+      "advance": 440
+    },
+    {
+      "glyph": "braceleft",
+      "characters": "{｛",
+      "motif": "左の双極境界",
+      "advance": 480
+    },
+    {
+      "glyph": "braceright",
+      "characters": "}｝",
+      "motif": "右の双極境界",
+      "advance": 480
+    },
+    {
+      "glyph": "quoteleft",
+      "characters": "‘",
+      "motif": "左の浮遊核",
+      "advance": 340
+    },
+    {
+      "glyph": "quoteright",
+      "characters": "’",
+      "motif": "右の浮遊核",
+      "advance": 340
+    },
+    {
+      "glyph": "quotedblleft",
+      "characters": "“「『",
+      "motif": "左の二重浮遊核",
+      "advance": 520
+    },
+    {
+      "glyph": "quotedblright",
+      "characters": "”」』",
+      "motif": "右の二重浮遊核",
+      "advance": 520
+    },
+    {
+      "glyph": "quotedbl",
+      "characters": "\"＂",
+      "motif": "中立の二重引用核",
+      "advance": 520
+    },
+    {
+      "glyph": "slash",
+      "characters": "/／",
+      "motif": "斜交する軌道橋",
+      "advance": 560
+    },
+    {
+      "glyph": "plus",
+      "characters": "+＋",
+      "motif": "四方の連結核",
+      "advance": 620
+    },
+    {
+      "glyph": "equal",
+      "characters": "=＝",
+      "motif": "平行する双軌道",
+      "advance": 620
+    },
+    {
+      "glyph": "emdash",
+      "characters": "—―",
+      "motif": "長い連星架橋",
+      "advance": 900
+    },
+    {
+      "glyph": "asterisk",
+      "characters": "*＊",
+      "motif": "六方の星印",
+      "advance": 620
+    },
+    {
+      "glyph": "multiply",
+      "characters": "×",
+      "motif": "交差する二つの軌道",
+      "advance": 620
+    },
+    {
+      "glyph": "divide",
+      "characters": "÷",
+      "motif": "上下の核と分離軌道",
+      "advance": 620
+    }
+  ]
+}

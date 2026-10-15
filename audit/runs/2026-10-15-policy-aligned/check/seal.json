@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-15T03:24:40.635070+00:00",
+  "artifact_sha256": {
+    "audit/runs/2026-10-15-policy-aligned/check/evidence.json": "aebfbd5143477f79eb30201c4e42feda136801981cfbf5a36fb3388e64e364cf",
+    "audit/runs/2026-10-15-policy-aligned/check/unittest.log": "bac478b4fbacb2e5f60603cd9fe5601712b6061fec0afc5481822bed3c05271d",
+    "audit/runs/2026-10-15-policy-aligned/check/validation.json": "3803b5845ba5c5e33716e8f489a662f17cf00ed9f66d9dfe0b4758de20106845",
+    "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit-02.md": "44aeda6b14316408c9dc43a10310771e34302baa1a28f3f2f3b3a10d85d273bc",
+    "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit.md": "4ba56644b9873af6640b0932923768a83faf573b69fe8c2b0e631ae75d7c762a",
+    "audit/docs/Nebulith Audit Results 2026-10-15.md": "f4c8e2da8fd6942386be5a9aebb73582887570ce8dad0836048b7a83ec3b37a8",
+    "audit/docs/Nebulith Lexical Change Policy 2026-10-15.md": "265ba66928f45ce4809c71373273aa93bd268b93499e1d9e1faa09f359c5c5da",
+    "audit/docs/Nebulith Policy Aligned Audit 2026-10-15.md": "80e71baaffc2563aecdfad6491f95f2d2cd2beadfc22a97d4a2a818a90bf80a4",
+    "audit/docs/Nebulith Remediation Progress 2026-10-15.md": "a8dacf910aa139835b9753d73a6212ebe0b5ba6440a38ab84fa5843002596fbd",
+    "audit/docs/Nebulith Remediation Proposal 2026-10-15.md": "39d78e2814f026ee2498bfc35f6de40a1ef8442e04cbde7e1b97f28e7d3ccddc",
+    "audit/docs/Nebulith Review Findings 2026-10-15.md": "6fe2e24eaa97c330d7bff1a29f53dcbaf83dd12afb39b2c890bdcaba99a0f43d",
+    "audit/docs/Nebulith Standard Audit Report.md": "b0cd962e02a4b287c4a2160ce7c549b835ae8e4d172313f4e3b4b2a70585e05e",
+    "audit/docs/Nebulith Symbols Validation 2026-10-15.md": "4b07eb4b3422f61b792d85e8c85cfdab4a0ed5e199514d943da31200eafdc0f4",
+    "audit/README.md": "67181330090f58ab390093f881c9e57f2e63ce4d5f9c6d08f4335659d0223e49",
+    "tools/seal_audit_run.py": "2e9f92ce3cb1a831d4b1f60aaf3a415adf3f50a05df9e18ab19955f58c583585",
+    "tests/test_font_symbols.py": "3f8725c9d60a9622c560bd438e64a6e592eda362b0d2ddc6cb431d76242ea4dc",
+    "tests/test_remediation.py": "177329c90b8227a375957566647761decbf3c3dc96f3b9ce4890eeafffc23118"
+  },
+  "counts": {
+    "Pass": 12,
+    "Warn": 1,
+    "Reference": 1,
+    "Fail": 1
+  }
+}

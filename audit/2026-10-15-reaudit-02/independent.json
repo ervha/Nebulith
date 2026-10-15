@@ -1,0 +1,787 @@
+{
+  "normalized_ipa_duplicates": {},
+  "ipa_mapping_mismatches": [
+    {
+      "id": 253,
+      "nrs": "teira",
+      "actual": "[tei.ra]",
+      "expected_without_syllable_breaks": "teɪra"
+    },
+    {
+      "id": 254,
+      "nrs": "teiran",
+      "actual": "[tei.ran]",
+      "expected_without_syllable_breaks": "teɪran"
+    },
+    {
+      "id": 255,
+      "nrs": "teirap",
+      "actual": "[tei.rap]",
+      "expected_without_syllable_breaks": "teɪrap"
+    },
+    {
+      "id": 256,
+      "nrs": "teiros",
+      "actual": "[tei.ros]",
+      "expected_without_syllable_breaks": "teɪros"
+    },
+    {
+      "id": 257,
+      "nrs": "teirvan",
+      "actual": "[tei.rvan]",
+      "expected_without_syllable_breaks": "teɪrvan"
+    },
+    {
+      "id": 386,
+      "nrs": "teircon",
+      "actual": "[teir.ʃon]",
+      "expected_without_syllable_breaks": "teɪrʃon"
+    },
+    {
+      "id": 387,
+      "nrs": "teiril",
+      "actual": "[tei.ril]",
+      "expected_without_syllable_breaks": "teɪril"
+    },
+    {
+      "id": 388,
+      "nrs": "teirpan",
+      "actual": "[teir.pan]",
+      "expected_without_syllable_breaks": "teɪrpan"
+    },
+    {
+      "id": 389,
+      "nrs": "teirpanan",
+      "actual": "[teir.pa.nan]",
+      "expected_without_syllable_breaks": "teɪrpanan"
+    },
+    {
+      "id": 390,
+      "nrs": "teirvon",
+      "actual": "[teir.von]",
+      "expected_without_syllable_breaks": "teɪrvon"
+    },
+    {
+      "id": 775,
+      "nrs": "eiran",
+      "actual": "[ei.ran]",
+      "expected_without_syllable_breaks": "eɪran"
+    },
+    {
+      "id": 776,
+      "nrs": "eirin",
+      "actual": "[ei.rin]",
+      "expected_without_syllable_breaks": "eɪrin"
+    },
+    {
+      "id": 820,
+      "nrs": "teirini",
+      "actual": "[tei.ri.ni]",
+      "expected_without_syllable_breaks": "teɪrini"
+    },
+    {
+      "id": 851,
+      "nrs": "eirinu",
+      "actual": "[ei.ri.nu]",
+      "expected_without_syllable_breaks": "eɪrinu"
+    },
+    {
+      "id": 852,
+      "nrs": "eirlom",
+      "actual": "[eir.lom]",
+      "expected_without_syllable_breaks": "eɪrlom"
+    },
+    {
+      "id": 853,
+      "nrs": "eirvas",
+      "actual": "[eir.vas]",
+      "expected_without_syllable_breaks": "eɪrvas"
+    }
+  ],
+  "corpus_id_references": [
+    {
+      "line": 440,
+      "token": "Relen",
+      "gloss": "存在コピュラ: ID 906",
+      "id": 906,
+      "dictionary": {
+        "id": 906,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "relen",
+        "ipa": "[re.len]",
+        "pos": "動",
+        "meaningJa": "ある、存在する、実在する",
+        "meaningEn": "exist, be present",
+        "notes": "存在コピュラ"
+      },
+      "direct_token_matches_id": true
+    },
+    {
+      "line": 440,
+      "token": "el vyran",
+      "gloss": "主格: 真理は: ID 172",
+      "id": 172,
+      "dictionary": {
+        "id": 172,
+        "category": "3. 情報・計算機・通信",
+        "nrs": "suftar",
+        "ipa": "[suf.tar]",
+        "pos": "名",
+        "meaningJa": "スレッド、並行処理並列流",
+        "meaningEn": "thread, concurrent execution flow",
+        "notes": "suf (計算) + tar (細流)"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 440,
+      "token": "ia tolst",
+      "gloss": "対格補語: 確固たる基盤/床: ID 629",
+      "id": 629,
+      "dictionary": {
+        "id": 629,
+        "category": "11. 建築・都市・住空間",
+        "nrs": "tolst",
+        "ipa": "[tolst]",
+        "pos": "名",
+        "meaningJa": "床、床面、居住基盤面",
+        "meaningEn": "floor, ground level",
+        "notes": "母音交替o-grade（tol床面）+ 古語接尾辞-st。floor/yukaと完全分離"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 440,
+      "token": "tor poran",
+      "gloss": "譲歩接続詞: 歩み去るが: §6.4 + ID 902",
+      "id": 902,
+      "dictionary": {
+        "id": 902,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "poran",
+        "ipa": "[po.ran]",
+        "pos": "動",
+        "meaningJa": "歩く、歩む、旅する、進む",
+        "meaningEn": "walk, journey, travel",
+        "notes": "歩行動詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 440,
+      "token": "el havel",
+      "gloss": "主格: 時間は: ID 62",
+      "id": 62,
+      "dictionary": {
+        "id": 62,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "vyr",
+        "ipa": "[vyr]",
+        "pos": "名",
+        "meaningJa": "星、天体、光点",
+        "meaningEn": "star, point of light",
+        "notes": "星核の基本単音節"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 440,
+      "token": "ne klovol",
+      "gloss": "否定完了相: 尽き果てることはない: 否定ne + ID 877 klovan終える + 完了相-ol",
+      "id": 877,
+      "dictionary": {
+        "id": 877,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "klovan",
+        "ipa": "[klo.van]",
+        "pos": "動",
+        "meaningJa": "閉じる、鍵をかける、終える",
+        "meaningEn": "close, conclude, seal",
+        "notes": "終了動詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 440,
+      "token": "el falun",
+      "gloss": "主格: 光は: ID 16",
+      "id": 16,
+      "dictionary": {
+        "id": 16,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "falun",
+        "ipa": "[fa.lun]",
+        "pos": "名/動",
+        "meaningJa": "光、光条、輝き、照らす",
+        "meaningEn": "light, ray, illuminate",
+        "notes": "差し込む光条"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 440,
+      "token": "en vyr",
+      "gloss": "属格: 恒星の: ID 952",
+      "id": 952,
+      "dictionary": {
+        "id": 952,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "vyranu",
+        "ipa": "[vy.ra.nu]",
+        "pos": "副",
+        "meaningJa": "確かに、真に、疑いなく",
+        "meaningEn": "truly, certainly, indeed",
+        "notes": "確信副詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "Fe vyrelcor",
+      "gloss": "過去反復相: 定期観測した: 過去fe + ID 953 vyrel + 反復相-cor",
+      "id": 953,
+      "dictionary": {
+        "id": 953,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "vyrel",
+        "ipa": "[vy.rel]",
+        "pos": "動",
+        "meaningJa": "（精密に）観測する、測定する",
+        "meaningEn": "observe, measure",
+        "notes": "観測動詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "el vyrelor",
+      "gloss": "主格: 天文学者は: ID 953 + 専門職-or",
+      "id": 953,
+      "dictionary": {
+        "id": 953,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "vyrel",
+        "ipa": "[vy.rel]",
+        "pos": "動",
+        "meaningJa": "（精密に）観測する、測定する",
+        "meaningEn": "observe, measure",
+        "notes": "観測動詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "uo vyrelar",
+      "gloss": "処格: 天文台にて: ID 953 + 施設-ar",
+      "id": 953,
+      "dictionary": {
+        "id": 953,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "vyrel",
+        "ipa": "[vy.rel]",
+        "pos": "動",
+        "meaningJa": "（精密に）観測する、測定する",
+        "meaningEn": "observe, measure",
+        "notes": "観測動詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "to falden",
+      "gloss": "向格: 東方へ向けて: ID 11基底",
+      "id": 11,
+      "dictionary": {
+        "id": 11,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "faldenar",
+        "ipa": "[fal.de.nar]",
+        "pos": "名",
+        "meaningJa": "朝焼け、黎明の光芒、払暁の輝き",
+        "meaningEn": "dawn glow, sunrise radiance",
+        "notes": "falden (東) ＋ 空間"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "Falunast",
+      "gloss": "始動相: 輝き始めた: ID 16 + 始動相-ast",
+      "id": 16,
+      "dictionary": {
+        "id": 16,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "falun",
+        "ipa": "[fa.lun]",
+        "pos": "名/動",
+        "meaningJa": "光、光条、輝き、照らす",
+        "meaningEn": "light, ray, illuminate",
+        "notes": "差し込む光条"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "el vyr syvani",
+      "gloss": "主格: 新たな星が: ID 952 + ID 810 syvan新しい + 形容詞-i",
+      "id": 952,
+      "dictionary": {
+        "id": 952,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "vyranu",
+        "ipa": "[vy.ra.nu]",
+        "pos": "副",
+        "meaningJa": "確かに、真に、疑いなく",
+        "meaningEn": "truly, certainly, indeed",
+        "notes": "確信副詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "el vyr syvani",
+      "gloss": "主格: 新たな星が: ID 952 + ID 810 syvan新しい + 形容詞-i",
+      "id": 810,
+      "dictionary": {
+        "id": 810,
+        "category": "15. 性質・状態・色彩・感触",
+        "nrs": "syvan",
+        "ipa": "[sy.van]",
+        "pos": "形",
+        "meaningJa": "新しい、新鮮な、新緑の",
+        "meaningEn": "new, fresh, novel",
+        "notes": "時間的・生命的新鮮さ。new/novusと完全分離"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "uo celvan",
+      "gloss": "処格: 天球において: ID 4",
+      "id": 4,
+      "dictionary": {
+        "id": 4,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "celvan",
+        "ipa": "[ʃel.van]",
+        "pos": "名",
+        "meaningJa": "天球、全天、天体球殻",
+        "meaningEn": "celestial sphere, empyrean dome",
+        "notes": "天空を覆う球殻"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "fe revyrel",
+      "gloss": "過去受動態: 観測された: 過去fe + 受動re- + ID 953 vyrel",
+      "id": 953,
+      "dictionary": {
+        "id": 953,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "vyrel",
+        "ipa": "[vy.rel]",
+        "pos": "動",
+        "meaningJa": "（精密に）観測する、測定する",
+        "meaningEn": "observe, measure",
+        "notes": "観測動詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "el corval",
+      "gloss": "主格: 連星系重心が: ID 6",
+      "id": 6,
+      "dictionary": {
+        "id": 6,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "corval",
+        "ipa": "[ʃor.val]",
+        "pos": "名",
+        "meaningJa": "連星系の重心、共通軌道中心",
+        "meaningEn": "barycenter, common orbital center",
+        "notes": "天体力学的重心・軌道平衡点。樹木velから分離"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 445,
+      "token": "en celmon",
+      "gloss": "属格: 暗黒星雲の: ID 3",
+      "id": 3,
+      "dictionary": {
+        "id": 3,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "celmon",
+        "ipa": "[ʃel.mon]",
+        "pos": "名",
+        "meaningJa": "星間分子雲、巨大暗黒星雲",
+        "meaningEn": "giant molecular cloud, dark interstellar cloud",
+        "notes": "cel (天) + mon (巨大集合)"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 456,
+      "token": "Vyrin",
+      "gloss": "複数星々: ID 952 + -in",
+      "id": 952,
+      "dictionary": {
+        "id": 952,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "vyranu",
+        "ipa": "[vy.ra.nu]",
+        "pos": "副",
+        "meaningJa": "確かに、真に、疑いなく",
+        "meaningEn": "truly, certainly, indeed",
+        "notes": "確信副詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 456,
+      "token": "faluni",
+      "gloss": "光り輝く: ID 16 + -i",
+      "id": 16,
+      "dictionary": {
+        "id": 16,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "falun",
+        "ipa": "[fa.lun]",
+        "pos": "名/動",
+        "meaningJa": "光、光条、輝き、照らす",
+        "meaningEn": "light, ray, illuminate",
+        "notes": "差し込む光条"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 456,
+      "token": "poran",
+      "gloss": "歩む: ID 902",
+      "id": 902,
+      "dictionary": {
+        "id": 902,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "poran",
+        "ipa": "[po.ran]",
+        "pos": "動",
+        "meaningJa": "歩く、歩む、旅する、進む",
+        "meaningEn": "walk, journey, travel",
+        "notes": "歩行動詞"
+      },
+      "direct_token_matches_id": true
+    },
+    {
+      "line": 457,
+      "token": "Poran",
+      "gloss": "歩む: ID 902",
+      "id": 902,
+      "dictionary": {
+        "id": 902,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "poran",
+        "ipa": "[po.ran]",
+        "pos": "動",
+        "meaningJa": "歩く、歩む、旅する、進む",
+        "meaningEn": "walk, journey, travel",
+        "notes": "歩行動詞"
+      },
+      "direct_token_matches_id": true
+    },
+    {
+      "line": 457,
+      "token": "to govan",
+      "gloss": "向格: 家へ: ID 616",
+      "id": 616,
+      "dictionary": {
+        "id": 616,
+        "category": "11. 建築・都市・住空間",
+        "nrs": "govan",
+        "ipa": "[go.van]",
+        "pos": "名",
+        "meaningJa": "家、住宅、住まい",
+        "meaningEn": "house, home, dwelling",
+        "notes": "住処・炉床・定住地を表す原初語幹。ラテン語domusと完全分離"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 457,
+      "token": "en dolin",
+      "gloss": "属格: 友の: ID 477 親友・盟友・魂の伴走者",
+      "id": 477,
+      "dictionary": {
+        "id": 477,
+        "category": "9. 統治・社会・法・共同体",
+        "nrs": "cynor",
+        "ipa": "[ʃy.nor]",
+        "pos": "名",
+        "meaningJa": "親友、盟友、魂の伴走者",
+        "meaningEn": "confidant, sworn companion",
+        "notes": "互いを慈しむ友"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 457,
+      "token": "Nerancor",
+      "gloss": "反復相: 日常の糧を食む: ID 972 + -cor",
+      "id": 972,
+      "dictionary": {
+        "id": 972,
+        "category": "12. 食・飲料・調理・食具",
+        "nrs": "neran",
+        "ipa": "[ne.ran]",
+        "pos": "動",
+        "meaningJa": "食べる、食事する、味わう",
+        "meaningEn": "eat, dine, partake",
+        "notes": "食事動詞"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 457,
+      "token": "ia nyrat",
+      "gloss": "対格: 主食パンを: ID 998",
+      "id": 998,
+      "dictionary": {
+        "id": 998,
+        "category": "12. 食・飲料・調理・食具",
+        "nrs": "nyrat",
+        "ipa": "[ny.rat]",
+        "pos": "名",
+        "meaningJa": "主食、焼き穀物、糧",
+        "meaningEn": "bread, loaf, staple",
+        "notes": "母音交替y-grade（nyr: 焼き固めた主食パン）。bread/pan/brotと完全分離"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 457,
+      "token": "uo nerar",
+      "gloss": "処格: 食堂にて: ID 971",
+      "id": 971,
+      "dictionary": {
+        "id": 971,
+        "category": "12. 食・飲料・調理・食具",
+        "nrs": "ner",
+        "ipa": "[ner]",
+        "pos": "名",
+        "meaningJa": "滋養、食材、食物",
+        "meaningEn": "nourishment, foodstuff",
+        "notes": "食料"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 458,
+      "token": "Sirin",
+      "gloss": "平穏・安らぎ: ID 738",
+      "id": 738,
+      "dictionary": {
+        "id": 738,
+        "category": "14. 精神・哲学・感情・芸術",
+        "nrs": "sirin",
+        "ipa": "[si.rin]",
+        "pos": "名/形",
+        "meaningJa": "平穏、安らぎ、静けさ、穏やか",
+        "meaningEn": "serenity, peace, tranquility",
+        "notes": "心の静けさ"
+      },
+      "direct_token_matches_id": true
+    },
+    {
+      "line": 458,
+      "token": "el laris",
+      "gloss": "主格: 軌道が: ID 34",
+      "id": 34,
+      "dictionary": {
+        "id": 34,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "laris",
+        "ipa": "[la.ris]",
+        "pos": "名",
+        "meaningJa": "軌道、航路、天体周期",
+        "meaningEn": "orbit, celestial path",
+        "notes": "天体の周回進路"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 458,
+      "token": "Faldenu",
+      "gloss": "東方へ: ID 11基底 + 方向副詞-u",
+      "id": 11,
+      "dictionary": {
+        "id": 11,
+        "category": "1. 天体・宇宙力学・光",
+        "nrs": "faldenar",
+        "ipa": "[fal.de.nar]",
+        "pos": "名",
+        "meaningJa": "朝焼け、黎明の光芒、払暁の輝き",
+        "meaningEn": "dawn glow, sunrise radiance",
+        "notes": "falden (東) ＋ 空間"
+      },
+      "direct_token_matches_id": false
+    },
+    {
+      "line": 458,
+      "token": "poran",
+      "gloss": "歩む: ID 902",
+      "id": 902,
+      "dictionary": {
+        "id": 902,
+        "category": "16. 動作・動態・時空・方向副詞",
+        "nrs": "poran",
+        "ipa": "[po.ran]",
+        "pos": "動",
+        "meaningJa": "歩く、歩む、旅する、進む",
+        "meaningEn": "walk, journey, travel",
+        "notes": "歩行動詞"
+      },
+      "direct_token_matches_id": true
+    }
+  ],
+  "corpus_token_count": 68,
+  "corpus_token_types": {
+    "dictionary": 26,
+    "grammar": 30,
+    "correlative": 5,
+    "derivation_candidate": 7
+  },
+  "category_metadata_total": 1008,
+  "category_metadata_mismatches": [],
+  "marked_coda_count": 160,
+  "marked_coda_endings": {
+    "p": 16,
+    "k": 35,
+    "t": 40,
+    "v": 65,
+    "f": 1,
+    "d": 2,
+    "z": 1
+  },
+  "unmarked_rate": 0.8412698412698413,
+  "coda_approval_predicate": "category prefix is any integer 1..16; no semantic test",
+  "previous_evidence_manifest_drift": [],
+  "previous_browser_artifact_comparison": {
+    "browser-evidence.json": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "9aa2ef49c603c918612fe1b1ad1f378880dee99a74e64ba5f476d1faaba7cdff",
+      "previous_reaudit_sha256": "9aa2ef49c603c918612fe1b1ad1f378880dee99a74e64ba5f476d1faaba7cdff"
+    },
+    "font-preview.png": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "3f08ef244fb8a3006e425658c5e0f91eb42fd4c2dc5bb097297a5c2923556046",
+      "previous_reaudit_sha256": "3f08ef244fb8a3006e425658c5e0f91eb42fd4c2dc5bb097297a5c2923556046"
+    },
+    "numeral-preview.png": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "cdbf3f8612beaa97380ab402369c4821702b9f1b6c06628b9a7937acd84d28d9",
+      "previous_reaudit_sha256": "cdbf3f8612beaa97380ab402369c4821702b9f1b6c06628b9a7937acd84d28d9"
+    },
+    "all-glyphs.png": {
+      "byte_identical_to_initial_audit": true,
+      "initial_sha256": "82e98cf38dfa9b2c628dbc38c69ab57ee9623a950b6d52dc7bdff72e78826c0f",
+      "previous_reaudit_sha256": "82e98cf38dfa9b2c628dbc38c69ab57ee9623a950b6d52dc7bdff72e78826c0f"
+    }
+  },
+  "font": {
+    "table_comparison_with_head": {
+      "OS/2": {
+        "same": true,
+        "current_sha256": "bfab775f2bed52287ca14c06d910f088a5350be3283db69f8b2b4c9ae04cb6a6",
+        "head_sha256": "bfab775f2bed52287ca14c06d910f088a5350be3283db69f8b2b4c9ae04cb6a6"
+      },
+      "cmap": {
+        "same": true,
+        "current_sha256": "ffd08df2d78f923b13f367ab46c6abd425fec0994d1e3228bfc44d8168191eef",
+        "head_sha256": "ffd08df2d78f923b13f367ab46c6abd425fec0994d1e3228bfc44d8168191eef"
+      },
+      "glyf": {
+        "same": true,
+        "current_sha256": "f6ead80085c236b4b598323dcfc97453e198da13ae8cfec670a96b6c8a932164",
+        "head_sha256": "f6ead80085c236b4b598323dcfc97453e198da13ae8cfec670a96b6c8a932164"
+      },
+      "head": {
+        "same": false,
+        "current_sha256": "a3357b74fc3c94cab2d4dd4eea50d00bb9c5d3153933e808f60d945b2a2aab5a",
+        "head_sha256": "cd21bf48f4f3ad99124e35b6c5ce770ed7ae7e86d732007778d49f3e2dabac19"
+      },
+      "hhea": {
+        "same": true,
+        "current_sha256": "f38780fa49bfafda4bb435520a6c7b96b6112f04989fb37cc411453cec152722",
+        "head_sha256": "f38780fa49bfafda4bb435520a6c7b96b6112f04989fb37cc411453cec152722"
+      },
+      "hmtx": {
+        "same": true,
+        "current_sha256": "e949e165ee4ec9d50f8d12e68f7b48bc6878b284de6352c1c24f6bec377b4c78",
+        "head_sha256": "e949e165ee4ec9d50f8d12e68f7b48bc6878b284de6352c1c24f6bec377b4c78"
+      },
+      "loca": {
+        "same": true,
+        "current_sha256": "4a700299a1b3e510f808194ab16eba9cd1e90f258b596a5a149e077e682cde15",
+        "head_sha256": "4a700299a1b3e510f808194ab16eba9cd1e90f258b596a5a149e077e682cde15"
+      },
+      "maxp": {
+        "same": true,
+        "current_sha256": "db716822bc97c5889d43aece41a822628458c0358213614c393c0c80d2f07405",
+        "head_sha256": "db716822bc97c5889d43aece41a822628458c0358213614c393c0c80d2f07405"
+      },
+      "name": {
+        "same": false,
+        "current_sha256": "2a25c4c383bca0e013f187303c19bc550c80d696b9cf1ce208219bb8e1029f55",
+        "head_sha256": "8baa939ea52ae60f630aa1cda16700da62a55f10d29997a76fca818632c1f419"
+      },
+      "post": {
+        "same": true,
+        "current_sha256": "598bb19814c4b695d2b8bd197244371f9be4d21da1a6b000eef7291ffa35253c",
+        "head_sha256": "598bb19814c4b695d2b8bd197244371f9be4d21da1a6b000eef7291ffa35253c"
+      }
+    },
+    "space_metrics": [
+      320,
+      30
+    ],
+    "notdef_contours": 2,
+    "notdef_coordinates": [
+      [
+        100,
+        0
+      ],
+      [
+        100,
+        700
+      ],
+      [
+        550,
+        700
+      ],
+      [
+        550,
+        0
+      ],
+      [
+        150,
+        50
+      ],
+      [
+        500,
+        50
+      ],
+      [
+        500,
+        650
+      ],
+      [
+        150,
+        650
+      ]
+    ],
+    "fontRevision": 2.100006103515625,
+    "created": 3874874913,
+    "modified": 3874874959
+  }
+}

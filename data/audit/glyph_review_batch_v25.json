@@ -1,0 +1,8 @@
+{
+  "fontSha256": "d1029a13813d041982afe509579ac9f815efe35bb7435ea8784d7433009c12b2",
+  "criteriaSha256": "627f999391437f394c346acd00ba9c4fa685da1b08560819713f71a7d1880d4c",
+  "reviewer": "Codex",
+  "reviewType": "AI tiered review",
+  "humanReadabilityTest": false,
+  "metadataRecheck": "Dictionary target version updated to 23.4 only; glyph rules and font unchanged. Previous report and ledger saved in development/before."
+}

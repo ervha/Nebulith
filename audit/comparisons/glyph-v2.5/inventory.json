@@ -1,0 +1,733 @@
+{
+  "fontSha256": "d1029a13813d041982afe509579ac9f815efe35bb7435ea8784d7433009c12b2",
+  "fontVersion": "2.5",
+  "reference": {
+    "family": "Arial",
+    "version": "Version 7.06",
+    "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "localPath": "C:\\Windows\\Fonts\\arial.ttf",
+    "redistributed": false
+  },
+  "glyphs": [
+    {
+      "glyph": ".notdef",
+      "codepoints": [],
+      "outlineSha256": "ce29eadd5011a37db8eb92a2f40c891542693c02fb5b4f16892dfb44d464590b",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-.notdef"
+    },
+    {
+      "glyph": "space",
+      "codepoints": [
+        32
+      ],
+      "outlineSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-space"
+    },
+    {
+      "glyph": "a",
+      "codepoints": [
+        97
+      ],
+      "outlineSha256": "c794aa8fc37598ed4a8c44f63f457cb538c899aaf3f9d91d1e8c3bed9e720d77",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-a"
+    },
+    {
+      "glyph": "A",
+      "codepoints": [
+        65
+      ],
+      "outlineSha256": "c794aa8fc37598ed4a8c44f63f457cb538c899aaf3f9d91d1e8c3bed9e720d77",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-A"
+    },
+    {
+      "glyph": "e",
+      "codepoints": [
+        101
+      ],
+      "outlineSha256": "0e2ef2a206b330521f0ab854b14939b1ecff04a647ed7f6d2d2e5039024afb4b",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-e"
+    },
+    {
+      "glyph": "E",
+      "codepoints": [
+        69
+      ],
+      "outlineSha256": "0e2ef2a206b330521f0ab854b14939b1ecff04a647ed7f6d2d2e5039024afb4b",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-E"
+    },
+    {
+      "glyph": "i",
+      "codepoints": [
+        105
+      ],
+      "outlineSha256": "50d222271611791b2287fa6926a22f24ac0137c35fab80b914c40203fca43124",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-i"
+    },
+    {
+      "glyph": "I",
+      "codepoints": [
+        73
+      ],
+      "outlineSha256": "50d222271611791b2287fa6926a22f24ac0137c35fab80b914c40203fca43124",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-I"
+    },
+    {
+      "glyph": "o",
+      "codepoints": [
+        111
+      ],
+      "outlineSha256": "0c03c218a3040a26f9c1d27bb1338012c81b249dbad1272bc7866adf05faabee",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-o"
+    },
+    {
+      "glyph": "O",
+      "codepoints": [
+        79
+      ],
+      "outlineSha256": "0c03c218a3040a26f9c1d27bb1338012c81b249dbad1272bc7866adf05faabee",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-O"
+    },
+    {
+      "glyph": "u",
+      "codepoints": [
+        117
+      ],
+      "outlineSha256": "75cb9233ef01c9e3a0461003b8a7c260c6d5f3942e28a877021422342b484956",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-u"
+    },
+    {
+      "glyph": "U",
+      "codepoints": [
+        85
+      ],
+      "outlineSha256": "75cb9233ef01c9e3a0461003b8a7c260c6d5f3942e28a877021422342b484956",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-U"
+    },
+    {
+      "glyph": "y",
+      "codepoints": [
+        121
+      ],
+      "outlineSha256": "e64b0ca349d70123fb455c16d59197fc09e57b98ff25acc5d819f94965a0e4ec",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-y"
+    },
+    {
+      "glyph": "Y",
+      "codepoints": [
+        89
+      ],
+      "outlineSha256": "e64b0ca349d70123fb455c16d59197fc09e57b98ff25acc5d819f94965a0e4ec",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-Y"
+    },
+    {
+      "glyph": "l",
+      "codepoints": [
+        108
+      ],
+      "outlineSha256": "8ada10977a5d08527931c20a6843ad4347f85cbc68fe6df9fa90b12528a34abf",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-l"
+    },
+    {
+      "glyph": "L",
+      "codepoints": [
+        76
+      ],
+      "outlineSha256": "8ada10977a5d08527931c20a6843ad4347f85cbc68fe6df9fa90b12528a34abf",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-L"
+    },
+    {
+      "glyph": "r",
+      "codepoints": [
+        114
+      ],
+      "outlineSha256": "a140e6f768d512baca8795a3ade925290c062778150049ceea57f0bbeada981f",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-r"
+    },
+    {
+      "glyph": "R",
+      "codepoints": [
+        82
+      ],
+      "outlineSha256": "a140e6f768d512baca8795a3ade925290c062778150049ceea57f0bbeada981f",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-R"
+    },
+    {
+      "glyph": "m",
+      "codepoints": [
+        109
+      ],
+      "outlineSha256": "282f9c611fd93b2634ce38151deb93a16e408a0db1a7a82b6cf62e601e6e9e15",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-m"
+    },
+    {
+      "glyph": "M",
+      "codepoints": [
+        77
+      ],
+      "outlineSha256": "282f9c611fd93b2634ce38151deb93a16e408a0db1a7a82b6cf62e601e6e9e15",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-M"
+    },
+    {
+      "glyph": "n",
+      "codepoints": [
+        110
+      ],
+      "outlineSha256": "f5a1602089f080675a8872b7758fa431f426c62e79d15c20f78c9bfc4eee35e9",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-n"
+    },
+    {
+      "glyph": "N",
+      "codepoints": [
+        78
+      ],
+      "outlineSha256": "f5a1602089f080675a8872b7758fa431f426c62e79d15c20f78c9bfc4eee35e9",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-N"
+    },
+    {
+      "glyph": "s",
+      "codepoints": [
+        115
+      ],
+      "outlineSha256": "6dcb8b5f5bf45a53ad9fa720fa22540b7cd9bf7d21767aef0532fa027e72a9bd",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-s"
+    },
+    {
+      "glyph": "S",
+      "codepoints": [
+        83
+      ],
+      "outlineSha256": "6dcb8b5f5bf45a53ad9fa720fa22540b7cd9bf7d21767aef0532fa027e72a9bd",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-S"
+    },
+    {
+      "glyph": "z",
+      "codepoints": [
+        122
+      ],
+      "outlineSha256": "4b6e3d40fc19ccf181be038851d2f0684cd82c1d46a3d0c30dd4b2e2f5af90f9",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-z"
+    },
+    {
+      "glyph": "Z",
+      "codepoints": [
+        90
+      ],
+      "outlineSha256": "4b6e3d40fc19ccf181be038851d2f0684cd82c1d46a3d0c30dd4b2e2f5af90f9",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-Z"
+    },
+    {
+      "glyph": "c",
+      "codepoints": [
+        99
+      ],
+      "outlineSha256": "39fe9344542c6c5f7df3d4bcc7cfff47101181f8e81e14a6a250626aa9cdc740",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-c"
+    },
+    {
+      "glyph": "C",
+      "codepoints": [
+        67
+      ],
+      "outlineSha256": "39fe9344542c6c5f7df3d4bcc7cfff47101181f8e81e14a6a250626aa9cdc740",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-C"
+    },
+    {
+      "glyph": "j",
+      "codepoints": [
+        106
+      ],
+      "outlineSha256": "ac57efc6ccf6d1271b0d267c8db363761e9953547b912fc60af8f68515c2f171",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-j"
+    },
+    {
+      "glyph": "J",
+      "codepoints": [
+        74
+      ],
+      "outlineSha256": "ac57efc6ccf6d1271b0d267c8db363761e9953547b912fc60af8f68515c2f171",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-J"
+    },
+    {
+      "glyph": "f",
+      "codepoints": [
+        102
+      ],
+      "outlineSha256": "1ac1d39d6120460958fe6b976d99be3c2712327b7230d6b5062d498b95dcd824",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-f"
+    },
+    {
+      "glyph": "F",
+      "codepoints": [
+        70
+      ],
+      "outlineSha256": "1ac1d39d6120460958fe6b976d99be3c2712327b7230d6b5062d498b95dcd824",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-F"
+    },
+    {
+      "glyph": "v",
+      "codepoints": [
+        118
+      ],
+      "outlineSha256": "7fa17500f5e86958e58b0f8b935bc3c5a6e78607629438011dcfd496be72395e",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-v"
+    },
+    {
+      "glyph": "V",
+      "codepoints": [
+        86
+      ],
+      "outlineSha256": "7fa17500f5e86958e58b0f8b935bc3c5a6e78607629438011dcfd496be72395e",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-V"
+    },
+    {
+      "glyph": "h",
+      "codepoints": [
+        104
+      ],
+      "outlineSha256": "9bcc67db8ef43378b4ebf3506900e1cfe8dcdf077af86c2072c5e6b056943338",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-h"
+    },
+    {
+      "glyph": "H",
+      "codepoints": [
+        72
+      ],
+      "outlineSha256": "9bcc67db8ef43378b4ebf3506900e1cfe8dcdf077af86c2072c5e6b056943338",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-H"
+    },
+    {
+      "glyph": "w",
+      "codepoints": [
+        119
+      ],
+      "outlineSha256": "b18aa67fc37061b91ec49dc4706d5d1037a7e9af8942ce501bb3965dcd09fe59",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-w"
+    },
+    {
+      "glyph": "W",
+      "codepoints": [
+        87
+      ],
+      "outlineSha256": "b18aa67fc37061b91ec49dc4706d5d1037a7e9af8942ce501bb3965dcd09fe59",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-W"
+    },
+    {
+      "glyph": "p",
+      "codepoints": [
+        112
+      ],
+      "outlineSha256": "68e7553f355d80b11480bdac3d315c62ffcd8acc311d3af2eec6b17b440cec84",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-p"
+    },
+    {
+      "glyph": "P",
+      "codepoints": [
+        80
+      ],
+      "outlineSha256": "68e7553f355d80b11480bdac3d315c62ffcd8acc311d3af2eec6b17b440cec84",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-P"
+    },
+    {
+      "glyph": "b",
+      "codepoints": [
+        98
+      ],
+      "outlineSha256": "58fbfa2f746c35a6ebb3f0ea79186b4cd5d9b10cd6abde1f3f11ebbf06837257",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-b"
+    },
+    {
+      "glyph": "B",
+      "codepoints": [
+        66
+      ],
+      "outlineSha256": "58fbfa2f746c35a6ebb3f0ea79186b4cd5d9b10cd6abde1f3f11ebbf06837257",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-B"
+    },
+    {
+      "glyph": "t",
+      "codepoints": [
+        116
+      ],
+      "outlineSha256": "839515b9f94c926599ff081c7575a80706331a06df0f03738016cd059d7b894e",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-t"
+    },
+    {
+      "glyph": "T",
+      "codepoints": [
+        84
+      ],
+      "outlineSha256": "839515b9f94c926599ff081c7575a80706331a06df0f03738016cd059d7b894e",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-T"
+    },
+    {
+      "glyph": "d",
+      "codepoints": [
+        100
+      ],
+      "outlineSha256": "f845517810c92053f07bd3a9f2f4f1d3565f2654310fc495bab73f8dc504ec6f",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-d"
+    },
+    {
+      "glyph": "D",
+      "codepoints": [
+        68
+      ],
+      "outlineSha256": "f845517810c92053f07bd3a9f2f4f1d3565f2654310fc495bab73f8dc504ec6f",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-D"
+    },
+    {
+      "glyph": "k",
+      "codepoints": [
+        107
+      ],
+      "outlineSha256": "f16f4d6d40c1fe1cd5f0893814c3e58174606d76a0004591fbf508fb12486517",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-k"
+    },
+    {
+      "glyph": "K",
+      "codepoints": [
+        75
+      ],
+      "outlineSha256": "f16f4d6d40c1fe1cd5f0893814c3e58174606d76a0004591fbf508fb12486517",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-K"
+    },
+    {
+      "glyph": "g",
+      "codepoints": [
+        103
+      ],
+      "outlineSha256": "20a1103a89445e0ecc5ed8092ec5f2066d374bc4a05b06504c17ebcd98366788",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-lower.html#glyph-g"
+    },
+    {
+      "glyph": "G",
+      "codepoints": [
+        71
+      ],
+      "outlineSha256": "20a1103a89445e0ecc5ed8092ec5f2066d374bc4a05b06504c17ebcd98366788",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/letters-upper.html#glyph-G"
+    },
+    {
+      "glyph": "quotesingle",
+      "codepoints": [
+        39
+      ],
+      "outlineSha256": "ef9350d7ea99ccaa4b491c26ba84520c173f40efe1f9c0de821c7fbf9b3f3108",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-quotesingle"
+    },
+    {
+      "glyph": "zero",
+      "codepoints": [
+        48
+      ],
+      "outlineSha256": "637e7ec13d37609feb83998a26ad7c47d056aa01f1d4e6a5e36c4b8fc096e4b3",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-zero"
+    },
+    {
+      "glyph": "one",
+      "codepoints": [
+        49
+      ],
+      "outlineSha256": "b5d9fb18f4f2cd0f798aaa0608903c8cc9b2f1cdfd52e2a6ab72276f64573cc2",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-one"
+    },
+    {
+      "glyph": "two",
+      "codepoints": [
+        50
+      ],
+      "outlineSha256": "299100f1b03c9e5d51785e211dc8ee4a5d683df35a29e5e469804802679217e0",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-two"
+    },
+    {
+      "glyph": "three",
+      "codepoints": [
+        51
+      ],
+      "outlineSha256": "432fdd9a01c6989c5343dda79a8a402e9eddd54c7e6eaf96ded325c5bb1fb052",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-three"
+    },
+    {
+      "glyph": "four",
+      "codepoints": [
+        52
+      ],
+      "outlineSha256": "5cc2dcf8cc9432ac9b195e0e180058554fe43d43fdd408f92a4709869c5777e1",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-four"
+    },
+    {
+      "glyph": "five",
+      "codepoints": [
+        53
+      ],
+      "outlineSha256": "c26947b2a6407ffb6f790e94efc4ee7c4ad538ea5d73922e03702968aba0b665",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-five"
+    },
+    {
+      "glyph": "six",
+      "codepoints": [
+        54
+      ],
+      "outlineSha256": "863a79cdec29397aa3ebc5e92a93bee43857c9f3b27f3e7e5aa7226cfecd13d0",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-six"
+    },
+    {
+      "glyph": "seven",
+      "codepoints": [
+        55
+      ],
+      "outlineSha256": "17e83ccad2121ddae98e21ed22ddfe2f12fe4a2f2c0812f06f2ace15c279f084",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-seven"
+    },
+    {
+      "glyph": "eight",
+      "codepoints": [
+        56
+      ],
+      "outlineSha256": "2d7110f93c14f6c12da837df174b6b0d4ae3e219cc96f1db16ffb087a48d00ca",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-eight"
+    },
+    {
+      "glyph": "nine",
+      "codepoints": [
+        57
+      ],
+      "outlineSha256": "7301643b84c9f09c33083f310d44e1d2f09a9612d395cd5048d3a499a6b4a905",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/numbers.html#glyph-nine"
+    },
+    {
+      "glyph": "period",
+      "codepoints": [
+        46,
+        12290,
+        65294
+      ],
+      "outlineSha256": "78a5c79e4540514c794af332a4dfd72a5360f8e22a8ebc941ec612a51a523ea2",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-period"
+    },
+    {
+      "glyph": "comma",
+      "codepoints": [
+        44,
+        12289,
+        65292
+      ],
+      "outlineSha256": "a976bb28fc219d134ae42ec65ee4f2ef0dec78e719c2ae93ce442a02d52001ae",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-comma"
+    },
+    {
+      "glyph": "colon",
+      "codepoints": [
+        58,
+        65306
+      ],
+      "outlineSha256": "25019d796992750d906549c0b1bf1d13931e615f9fb7626ddd6e5e8b86a4c82a",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-colon"
+    },
+    {
+      "glyph": "hyphen",
+      "codepoints": [
+        45,
+        65293
+      ],
+      "outlineSha256": "3ba0daa97e2c04a0d026c163d4c4be06b018b3e79bd47230192434224bd8e194",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-hyphen"
+    },
+    {
+      "glyph": "question",
+      "codepoints": [
+        63,
+        65311
+      ],
+      "outlineSha256": "33ba634aa90fb6d7ad45bdc34eab2e87177134ec7345e1174ec36129e79afb95",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-question"
+    },
+    {
+      "glyph": "exclam",
+      "codepoints": [
+        33,
+        65281
+      ],
+      "outlineSha256": "30681ca341f9390b7a7ed9cad2394fc06bdec2dee3aedd222e0f32c002b74a0e",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-exclam"
+    },
+    {
+      "glyph": "semicolon",
+      "codepoints": [
+        59,
+        65307
+      ],
+      "outlineSha256": "ca90cfec5355b55936fa4a4818c149a27a6ec416c5db78601eecd22f9936543b",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-semicolon"
+    },
+    {
+      "glyph": "ellipsis",
+      "codepoints": [
+        8230,
+        8943
+      ],
+      "outlineSha256": "2db742c3cae00f2a75928b9472b43a52a52b02b14dc90a7d8bc51d4bcb8c5e63",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-ellipsis"
+    },
+    {
+      "glyph": "parenleft",
+      "codepoints": [
+        40,
+        65288
+      ],
+      "outlineSha256": "6040b6da5b8d4141fa8afeea78df9c761e7bf69a6d290c0952aeb7d4d3ae184b",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-parenleft"
+    },
+    {
+      "glyph": "parenright",
+      "codepoints": [
+        41,
+        65289
+      ],
+      "outlineSha256": "91b7055fa102ee3d5996d79611fcb68681aefafe3f0b089e1b01b9174e468e55",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-parenright"
+    },
+    {
+      "glyph": "bracketleft",
+      "codepoints": [
+        91,
+        65339
+      ],
+      "outlineSha256": "63dc053143bc36d9994ed773b265217057b036d0e8361a6176fbf87603249805",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-bracketleft"
+    },
+    {
+      "glyph": "bracketright",
+      "codepoints": [
+        93,
+        65341
+      ],
+      "outlineSha256": "249c13e402223478ed77f9f9e6989fc4016ab38c8addd3e9fe2e4fb2b98af4e0",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-bracketright"
+    },
+    {
+      "glyph": "braceleft",
+      "codepoints": [
+        123,
+        65371
+      ],
+      "outlineSha256": "5b4c46ab7dc2e930d4039b2812d2ae04783bcb01c8b3cce47d2092e94070d472",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-braceleft"
+    },
+    {
+      "glyph": "braceright",
+      "codepoints": [
+        125,
+        65373
+      ],
+      "outlineSha256": "d35568cf72901670c884e9a7bf10d0179e76846563443fbea93f4a08d03419b3",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-braceright"
+    },
+    {
+      "glyph": "quoteleft",
+      "codepoints": [
+        8216
+      ],
+      "outlineSha256": "3e0c356289fe38ce0a21e07a01c8a11b6b1e78fcda85c3150a2aa9bd3a4cb7a9",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-quoteleft"
+    },
+    {
+      "glyph": "quoteright",
+      "codepoints": [
+        8217
+      ],
+      "outlineSha256": "dfbc60fe88823fa76fa707ad42ef7025166ed23f300541ded23ade672dbf0028",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-quoteright"
+    },
+    {
+      "glyph": "quotedblleft",
+      "codepoints": [
+        8220,
+        12300,
+        12302
+      ],
+      "outlineSha256": "9e84ac555e0ad1bb674028a313c828adf6537bf1b8ebe5e9b4577592cff6fab0",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-quotedblleft"
+    },
+    {
+      "glyph": "quotedblright",
+      "codepoints": [
+        8221,
+        12301,
+        12303
+      ],
+      "outlineSha256": "1f7f97686d548910bb0b8bca3bd1f569b362ae06ca0a6cfc767cdfd357216c2e",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-quotedblright"
+    },
+    {
+      "glyph": "quotedbl",
+      "codepoints": [
+        34,
+        65282
+      ],
+      "outlineSha256": "56baa5340995dd0fc58a23d6cdf692685d9da8586124e92689a70ef657fcb6fd",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-quotedbl"
+    },
+    {
+      "glyph": "slash",
+      "codepoints": [
+        47,
+        65295
+      ],
+      "outlineSha256": "873786ffe30ef15a66f13838e522d23b5c02dfaf86827e0bfe32ef08a68ce8b9",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-slash"
+    },
+    {
+      "glyph": "plus",
+      "codepoints": [
+        43,
+        65291
+      ],
+      "outlineSha256": "20ce9f8f1b05ee61b52837250aed4d7990fd98431b4bfb7d45d9b002241646d7",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-plus"
+    },
+    {
+      "glyph": "equal",
+      "codepoints": [
+        61,
+        65309
+      ],
+      "outlineSha256": "68656298751e2ae425b10046942edaecc85ae2a7ef13de91f59902bd6199ca6b",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-equal"
+    },
+    {
+      "glyph": "emdash",
+      "codepoints": [
+        8212,
+        8213
+      ],
+      "outlineSha256": "b12b4747e1caeb52dd2b29ac598950cdf41d524d09f0bfa5cd1128d385dd4567",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-emdash"
+    },
+    {
+      "glyph": "asterisk",
+      "codepoints": [
+        42,
+        65290
+      ],
+      "outlineSha256": "8b1109e5754d246b1c7bf2b0a2f51d868206cdd40252071879a9185314d70833",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-asterisk"
+    },
+    {
+      "glyph": "multiply",
+      "codepoints": [
+        215
+      ],
+      "outlineSha256": "118363e27b7534e40f8385e9efe73c8dc30ebff82fc8e9a01b0565a07458b567",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-multiply"
+    },
+    {
+      "glyph": "divide",
+      "codepoints": [
+        247
+      ],
+      "outlineSha256": "6f622c40cbe9d9a802828e7fa8125d6b8c52c7fedfacaf880b363fb25da1d3e3",
+      "comparisonReference": "audit/comparisons/glyph-v2.5/symbols.html#glyph-divide"
+    }
+  ]
+}

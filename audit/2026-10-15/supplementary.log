@@ -1,0 +1,53 @@
+{
+  "format_counts": {
+    "json": 1008,
+    "csv": 1008,
+    "kotlin": 1008,
+    "markdown": 1008
+  },
+  "field_differences": 0,
+  "earth_candidates": 1,
+  "marked_codas": 159,
+  "direction_pairs": 14,
+  "font": {
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "loca",
+      "glyf",
+      "name",
+      "post"
+    ],
+    "glyph_count": 65,
+    "mapped_characters": 64,
+    "characters": " ',-.0123456789:ABCDEFGHIJKLMNOPRSTUVWYZabcdefghijklmnoprstuvwyz",
+    "cmap_formats": [
+      4
+    ],
+    "unitsPerEm": 1000,
+    "names": {
+      "1": "Nebulith",
+      "2": "Regular",
+      "3": "Nebulith-Regular-v1.0",
+      "4": "Nebulith Regular",
+      "5": "Version 1.0",
+      "6": "Nebulith-Regular"
+    },
+    "base64_equal": true,
+    "embedded_fonts": {
+      "fonts/preview.html": [
+        true
+      ],
+      "tools/num_specimen.html": [
+        true
+      ]
+    },
+    "missing_tables": []
+  }
+}
+Evidence: C:\Users\danun\Desktop\Project\Nebulith\audit\2026-10-15\evidence.json

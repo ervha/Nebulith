@@ -1,0 +1,2172 @@
+{
+  "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e",
+  "comparisonScope": "corresponding-codepoint",
+  "criteriaVersion": "SOP-v2.4-corresponding-handwriting-1",
+  "criteria": "同じコードの文字との比較のみ。別コードの競合は無視する。点だけの追加でなく閉路・開口・接続を評価し、丸み・筆流・線幅・字間の調和を確認。",
+  "entries": [
+    {
+      "glyph": ".notdef",
+      "codepoints": [],
+      "outlineSha256": "4d9c86146fceb8e4d78d4473118e934543aaf179642015e7a1858dacf857dc62",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-.notdef",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "空白または欠字の機能字形。文字割り当て・送り幅・輪郭の有無は技術検証するが、独自性の適合認定とは分離して扱う。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        0,
+        480,
+        700
+      ],
+      "advance": 650,
+      "investigated": true
+    },
+    {
+      "glyph": "space",
+      "codepoints": [
+        32
+      ],
+      "outlineSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-space",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "空白または欠字の機能字形。文字割り当て・送り幅・輪郭の有無は技術検証するが、独自性の適合認定とは分離して扱う。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": null,
+      "advance": 320,
+      "investigated": true
+    },
+    {
+      "glyph": "a",
+      "codepoints": [
+        97
+      ],
+      "outlineSha256": "c794aa8fc37598ed4a8c44f63f457cb538c899aaf3f9d91d1e8c3bed9e720d77",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-a",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "偏心した非対称の閉環と左へ流れる二つの曲線。Aの頂点・両脚・横棒、aのボウルと右の直立軸を除去。新しい曲線と細い光芒は既存字形の筆流に合わせた。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        204.6875,
+        423.7878787878788,
+        580
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "A",
+      "codepoints": [
+        65
+      ],
+      "outlineSha256": "c794aa8fc37598ed4a8c44f63f457cb538c899aaf3f9d91d1e8c3bed9e720d77",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-A",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "偏心した非対称の閉環と左へ流れる二つの曲線。Aの頂点・両脚・横棒、aのボウルと右の直立軸を除去。新しい曲線と細い光芒は既存字形の筆流に合わせた。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        204.6875,
+        423.7878787878788,
+        580
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "e",
+      "codepoints": [
+        101
+      ],
+      "outlineSha256": "0e2ef2a206b330521f0ab854b14939b1ecff04a647ed7f6d2d2e5039024afb4b",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-e",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "二つの交差する公転曲線が主体。Eの縦軸と三横画、eの開いた横棒付きボウルを主骨格にしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        158,
+        446,
+        542
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "E",
+      "codepoints": [
+        69
+      ],
+      "outlineSha256": "0e2ef2a206b330521f0ab854b14939b1ecff04a647ed7f6d2d2e5039024afb4b",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-E",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "二つの交差する公転曲線が主体。Eの縦軸と三横画、eの開いた横棒付きボウルを主骨格にしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        158,
+        446,
+        542
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "i",
+      "codepoints": [
+        105
+      ],
+      "outlineSha256": "3a877a2dd771f8246e1033add29efd32064d3a300fac4e02484d6c7e7eb6c3be",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-i",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "長い直立軸と上の点がI/iを連想させる。台座と側翼はあるが、16〜24pxの文字列で主軸が目立つため再設計候補。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        362,
+        740
+      ],
+      "advance": 620,
+      "investigated": true
+    },
+    {
+      "glyph": "I",
+      "codepoints": [
+        73
+      ],
+      "outlineSha256": "3a877a2dd771f8246e1033add29efd32064d3a300fac4e02484d6c7e7eb6c3be",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-I",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "長い直立軸と上の点がI/iを連想させる。台座と側翼はあるが、16〜24pxの文字列で主軸が目立つため再設計候補。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        362,
+        740
+      ],
+      "advance": 720,
+      "investigated": true
+    },
+    {
+      "glyph": "o",
+      "codepoints": [
+        111
+      ],
+      "outlineSha256": "0c03c218a3040a26f9c1d27bb1338012c81b249dbad1272bc7866adf05faabee",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-o",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "円環を横断する赤道バーが内部を分割する。O/oの単一の空洞から接続・閉路構造が変化している。丸みは全体の手書き調を保つ。別コードの文字との比較はしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        121,
+        390,
+        599
+      ],
+      "advance": 680,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "O",
+      "codepoints": [
+        79
+      ],
+      "outlineSha256": "0c03c218a3040a26f9c1d27bb1338012c81b249dbad1272bc7866adf05faabee",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-O",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "円環を横断する赤道バーが内部を分割する。O/oの単一の空洞から接続・閉路構造が変化している。丸みは全体の手書き調を保つ。別コードの文字との比較はしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        121,
+        390,
+        599
+      ],
+      "advance": 780,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "u",
+      "codepoints": [
+        117
+      ],
+      "outlineSha256": "75cb9233ef01c9e3a0461003b8a7c260c6d5f3942e28a877021422342b484956",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-u",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "閉じた菱形軌道と下降軸。U/uの開いた杯を除去済み。v2.3から輪郭を維持。角張りは周囲の曲線より強いため今後の柔らかさ調整候補。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        60,
+        450,
+        590
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "U",
+      "codepoints": [
+        85
+      ],
+      "outlineSha256": "75cb9233ef01c9e3a0461003b8a7c260c6d5f3942e28a877021422342b484956",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-U",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "閉じた菱形軌道と下降軸。U/uの開いた杯を除去済み。v2.3から輪郭を維持。角張りは周囲の曲線より強いため今後の柔らかさ調整候補。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        60,
+        450,
+        590
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "y",
+      "codepoints": [
+        121
+      ],
+      "outlineSha256": "e64b0ca349d70123fb455c16d59197fc09e57b98ff25acc5d819f94965a0e4ec",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-y",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "対向弧の下に閉じた滴形ループがある。Y/yの二股と単なる下行軸の構造を維持せず、曲線主体で統一。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        -122,
+        430,
+        540
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "Y",
+      "codepoints": [
+        89
+      ],
+      "outlineSha256": "e64b0ca349d70123fb455c16d59197fc09e57b98ff25acc5d819f94965a0e4ec",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-Y",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "対向弧の下に閉じた滴形ループがある。Y/yの二股と単なる下行軸の構造を維持せず、曲線主体で統一。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        -122,
+        430,
+        540
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "l",
+      "codepoints": [
+        108
+      ],
+      "outlineSha256": "8ada10977a5d08527931c20a6843ad4347f85cbc68fe6df9fa90b12528a34abf",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-l",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "長い軸の下部に大きな閉環と右上へ抜ける曲線がある。Lの直角足・lの単純縦軸と異なり、閉路と右端の反転が主構造。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        373,
+        769
+      ],
+      "advance": 620,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "L",
+      "codepoints": [
+        76
+      ],
+      "outlineSha256": "8ada10977a5d08527931c20a6843ad4347f85cbc68fe6df9fa90b12528a34abf",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-L",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "長い軸の下部に大きな閉環と右上へ抜ける曲線がある。Lの直角足・lの単純縦軸と異なり、閉路と右端の反転が主構造。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        373,
+        769
+      ],
+      "advance": 720,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "r",
+      "codepoints": [
+        114
+      ],
+      "outlineSha256": "a140e6f768d512baca8795a3ade925290c062778150049ceea57f0bbeada981f",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-r",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左の直立軸を使わず、公転弧と左下へ抜ける曲線を接続する。Rの軸・右上のボウル・斜脚、rの短い軸と肩にしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        155,
+        392,
+        586.6666666666666
+      ],
+      "advance": 640,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "R",
+      "codepoints": [
+        82
+      ],
+      "outlineSha256": "a140e6f768d512baca8795a3ade925290c062778150049ceea57f0bbeada981f",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-R",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左の直立軸を使わず、公転弧と左下へ抜ける曲線を接続する。Rの軸・右上のボウル・斜脚、rの短い軸と肩にしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        155,
+        392,
+        586.6666666666666
+      ],
+      "advance": 740,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "m",
+      "codepoints": [
+        109
+      ],
+      "outlineSha256": "282f9c611fd93b2634ce38151deb93a16e408a0db1a7a82b6cf62e601e6e9e15",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-m",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中心から左右へ垂れる対向した曲線翼と中央軸。Mの折れ線・mの並んだ山形ではない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        136,
+        422,
+        552
+      ],
+      "advance": 680,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "M",
+      "codepoints": [
+        77
+      ],
+      "outlineSha256": "282f9c611fd93b2634ce38151deb93a16e408a0db1a7a82b6cf62e601e6e9e15",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-M",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中心から左右へ垂れる対向した曲線翼と中央軸。Mの折れ線・mの並んだ山形ではない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        136,
+        422,
+        552
+      ],
+      "advance": 780,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "n",
+      "codepoints": [
+        110
+      ],
+      "outlineSha256": "f5a1602089f080675a8872b7758fa431f426c62e79d15c20f78c9bfc4eee35e9",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-n",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左下の閉じた小渦と右上へ伸びる斜めの曲線。Nの二軸と斜線・nの山形を排し、ループと上行流線を主体にする。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        240,
+        364,
+        599
+      ],
+      "advance": 640,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "N",
+      "codepoints": [
+        78
+      ],
+      "outlineSha256": "f5a1602089f080675a8872b7758fa431f426c62e79d15c20f78c9bfc4eee35e9",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-N",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左下の閉じた小渦と右上へ伸びる斜めの曲線。Nの二軸と斜線・nの山形を排し、ループと上行流線を主体にする。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        240,
+        364,
+        599
+      ],
+      "advance": 740,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "s",
+      "codepoints": [
+        115
+      ],
+      "outlineSha256": "6dcb8b5f5bf45a53ad9fa720fa22540b7cd9bf7d21767aef0532fa027e72a9bd",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-s",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "連続するS字曲線を除去。上部の開いた筆流と下部の非対称な閉じた滴形ループへ変更し、S/sにない閉路を主骨格とした。三角形の試案を採用せず、周囲の曲線へ合わせた。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        158.8235294117647,
+        413.9130434782609,
+        578.3333333333334
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "S",
+      "codepoints": [
+        83
+      ],
+      "outlineSha256": "6dcb8b5f5bf45a53ad9fa720fa22540b7cd9bf7d21767aef0532fa027e72a9bd",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-S",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "連続するS字曲線を除去。上部の開いた筆流と下部の非対称な閉じた滴形ループへ変更し、S/sにない閉路を主骨格とした。三角形の試案を採用せず、周囲の曲線へ合わせた。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        158.8235294117647,
+        413.9130434782609,
+        578.3333333333334
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "z",
+      "codepoints": [
+        122
+      ],
+      "outlineSha256": "4b6e3d40fc19ccf181be038851d2f0684cd82c1d46a3d0c30dd4b2e2f5af90f9",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-z",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "対向する二つの弧と中央の大きな共鳴環。Z/zの二横画と斜めの連結線ではなく、曲線と閉環が骨格。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        142,
+        382,
+        578
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "Z",
+      "codepoints": [
+        90
+      ],
+      "outlineSha256": "4b6e3d40fc19ccf181be038851d2f0684cd82c1d46a3d0c30dd4b2e2f5af90f9",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-Z",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "対向する二つの弧と中央の大きな共鳴環。Z/zの二横画と斜めの連結線ではなく、曲線と閉環が骨格。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        142,
+        382,
+        578
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "c",
+      "codepoints": [
+        99
+      ],
+      "outlineSha256": "39fe9344542c6c5f7df3d4bcc7cfff47101181f8e81e14a6a250626aa9cdc740",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-c",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "水平の天蓋から下がる閉じた受容形と中心核。C/cの右向きの開口と単一弧を維持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        220,
+        406,
+        538
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "C",
+      "codepoints": [
+        67
+      ],
+      "outlineSha256": "39fe9344542c6c5f7df3d4bcc7cfff47101181f8e81e14a6a250626aa9cdc740",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-C",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "水平の天蓋から下がる閉じた受容形と中心核。C/cの右向きの開口と単一弧を維持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        220,
+        406,
+        538
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "j",
+      "codepoints": [
+        106
+      ],
+      "outlineSha256": "ac57efc6ccf6d1271b0d267c8db363761e9953547b912fc60af8f68515c2f171",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-j",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上下左右にずれた二つの閉環と接続橋。J/jの縦軸と下端の鉤を除去済み。v2.3の輪郭を維持。別コードとの偶然の類似は判定対象外。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        150,
+        465,
+        570
+      ],
+      "advance": 620,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "J",
+      "codepoints": [
+        74
+      ],
+      "outlineSha256": "ac57efc6ccf6d1271b0d267c8db363761e9953547b912fc60af8f68515c2f171",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-J",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上下左右にずれた二つの閉環と接続橋。J/jの縦軸と下端の鉤を除去済み。v2.3の輪郭を維持。別コードとの偶然の類似は判定対象外。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        150,
+        465,
+        570
+      ],
+      "advance": 720,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "f",
+      "codepoints": [
+        102
+      ],
+      "outlineSha256": "1ac1d39d6120460958fe6b976d99be3c2712327b7230d6b5062d498b95dcd824",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-f",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央軸から左右へ上行する対称な曲線翼。Fの片側二横画、fの上部フックと横棒を保持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        406,
+        714
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "F",
+      "codepoints": [
+        70
+      ],
+      "outlineSha256": "1ac1d39d6120460958fe6b976d99be3c2712327b7230d6b5062d498b95dcd824",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-F",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央軸から左右へ上行する対称な曲線翼。Fの片側二横画、fの上部フックと横棒を保持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        406,
+        714
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "v",
+      "codepoints": [
+        118
+      ],
+      "outlineSha256": "7fa17500f5e86958e58b0f8b935bc3c5a6e78607629438011dcfd496be72395e",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-v",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "尖ったV/vの谷を丸い深底の放物線へ変更している。細い連続曲線と中央核を保ち、丸みだけを不適合理由にしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        426,
+        538
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "V",
+      "codepoints": [
+        86
+      ],
+      "outlineSha256": "7fa17500f5e86958e58b0f8b935bc3c5a6e78607629438011dcfd496be72395e",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-V",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "尖ったV/vの谷を丸い深底の放物線へ変更している。細い連続曲線と中央核を保ち、丸みだけを不適合理由にしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        426,
+        538
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "h",
+      "codepoints": [
+        104
+      ],
+      "outlineSha256": "9bcc67db8ef43378b4ebf3506900e1cfe8dcdf077af86c2072c5e6b056943338",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-h",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "二本の傾いた腕が下端で接続する閉底の形。Hの中央横棒、hの片側の肩を形成しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        390,
+        700
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "H",
+      "codepoints": [
+        72
+      ],
+      "outlineSha256": "9bcc67db8ef43378b4ebf3506900e1cfe8dcdf077af86c2072c5e6b056943338",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-H",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "二本の傾いた腕が下端で接続する閉底の形。Hの中央横棒、hの片側の肩を形成しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        390,
+        700
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "w",
+      "codepoints": [
+        119
+      ],
+      "outlineSha256": "b18aa67fc37061b91ec49dc4706d5d1037a7e9af8942ce501bb3965dcd09fe59",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-w",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "三重の重なった曲線弧と中央核。W/wの折れ線による二つの谷ではなく、入れ子の弧を主骨格とする。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        116,
+        430,
+        460
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "W",
+      "codepoints": [
+        87
+      ],
+      "outlineSha256": "b18aa67fc37061b91ec49dc4706d5d1037a7e9af8942ce501bb3965dcd09fe59",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-W",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "三重の重なった曲線弧と中央核。W/wの折れ線による二つの谷ではなく、入れ子の弧を主骨格とする。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        116,
+        430,
+        460
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "p",
+      "codepoints": [
+        112
+      ],
+      "outlineSha256": "68e7553f355d80b11480bdac3d315c62ffcd8acc311d3af2eec6b17b440cec84",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-p",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上部の水平軸から下がる閉じた滴形。P/pの片側縦軸と上部側方ボウルの配置を保持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        88,
+        330,
+        540
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "P",
+      "codepoints": [
+        80
+      ],
+      "outlineSha256": "68e7553f355d80b11480bdac3d315c62ffcd8acc311d3af2eec6b17b440cec84",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-P",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上部の水平軸から下がる閉じた滴形。P/pの片側縦軸と上部側方ボウルの配置を保持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        88,
+        330,
+        540
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "b",
+      "codepoints": [
+        98
+      ],
+      "outlineSha256": "58fbfa2f746c35a6ebb3f0ea79186b4cd5d9b10cd6abde1f3f11ebbf06837257",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-b",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央軸の左右に逆向きで上下の異なる曲線シェルを置く。Bの片側二ボウル、bの片側一ボウルと接続・配置が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        366,
+        747
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "B",
+      "codepoints": [
+        66
+      ],
+      "outlineSha256": "58fbfa2f746c35a6ebb3f0ea79186b4cd5d9b10cd6abde1f3f11ebbf06837257",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-B",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央軸の左右に逆向きで上下の異なる曲線シェルを置く。Bの片側二ボウル、bの片側一ボウルと接続・配置が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        366,
+        747
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "t",
+      "codepoints": [
+        116
+      ],
+      "outlineSha256": "9042f89f7920c5aec9bd6a68779edcd54b91802d1b55dbdc693b5a8f4dcac897",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-t",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "反った天蓋と中央縦軸はT/tの横画と軸を連想させる。基底の三叉を持つが小サイズでT型が目立つため再設計候補。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        156,
+        426,
+        660
+      ],
+      "advance": 660,
+      "investigated": true
+    },
+    {
+      "glyph": "T",
+      "codepoints": [
+        84
+      ],
+      "outlineSha256": "9042f89f7920c5aec9bd6a68779edcd54b91802d1b55dbdc693b5a8f4dcac897",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-T",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "反った天蓋と中央縦軸はT/tの横画と軸を連想させる。基底の三叉を持つが小サイズでT型が目立つため再設計候補。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        156,
+        426,
+        660
+      ],
+      "advance": 760,
+      "investigated": true
+    },
+    {
+      "glyph": "d",
+      "codepoints": [
+        100
+      ],
+      "outlineSha256": "f845517810c92053f07bd3a9f2f4f1d3565f2654310fc495bab73f8dc504ec6f",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-d",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "底部の三日月と中央の上行軸。Dの片側外周、dのボウルに接する片側軸と異なり、両側対称の開口と中央軸を構成する。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        446,
+        736
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "D",
+      "codepoints": [
+        68
+      ],
+      "outlineSha256": "f845517810c92053f07bd3a9f2f4f1d3565f2654310fc495bab73f8dc504ec6f",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-D",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "底部の三日月と中央の上行軸。Dの片側外周、dのボウルに接する片側軸と異なり、両側対称の開口と中央軸を構成する。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        446,
+        736
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "k",
+      "codepoints": [
+        107
+      ],
+      "outlineSha256": "f16f4d6d40c1fe1cd5f0893814c3e58174606d76a0004591fbf508fb12486517",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-k",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央から上・左右下へ放射する三本の曲線。K/kの片側縦軸と右へ出る二本の斜線とは接続点・方向が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        170,
+        400,
+        710
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "K",
+      "codepoints": [
+        75
+      ],
+      "outlineSha256": "f16f4d6d40c1fe1cd5f0893814c3e58174606d76a0004591fbf508fb12486517",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-K",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央から上・左右下へ放射する三本の曲線。K/kの片側縦軸と右へ出る二本の斜線とは接続点・方向が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        170,
+        400,
+        710
+      ],
+      "advance": 760,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "g",
+      "codepoints": [
+        103
+      ],
+      "outlineSha256": "20a1103a89445e0ecc5ed8092ec5f2066d374bc4a05b06504c17ebcd98366788",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-lower.html#glyph-g",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "三方の曲線放射を大きな天球環が横断する。Gの開いた環と横棒、gの一段・二段ボウルと下行部の骨格を保持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        410,
+        710
+      ],
+      "advance": 680,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "G",
+      "codepoints": [
+        71
+      ],
+      "outlineSha256": "20a1103a89445e0ecc5ed8092ec5f2066d374bc4a05b06504c17ebcd98366788",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/letters-upper.html#glyph-G",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "三方の曲線放射を大きな天球環が横断する。Gの開いた環と横棒、gの一段・二段ボウルと下行部の骨格を保持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        410,
+        710
+      ],
+      "advance": 780,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "quotesingle",
+      "codepoints": [
+        39
+      ],
+      "outlineSha256": "de44ddd84491aaf945e18c4ed8a00b256320cc778b64106fa6434163083058a8",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-quotesingle",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "声門キャリア（音素）。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        520,
+        86,
+        746
+      ],
+      "advance": 360,
+      "investigated": true
+    },
+    {
+      "glyph": "zero",
+      "codepoints": [
+        48
+      ],
+      "outlineSha256": "637e7ec13d37609feb83998a26ad7c47d056aa01f1d4e6a5e36c4b8fc096e4b3",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-zero",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "円環を縦軸が横断し左右の刻線が接続する。0の単一輪郭と空洞に対し、閉路内部と接続を変更。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        142,
+        470,
+        658
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "one",
+      "codepoints": [
+        49
+      ],
+      "outlineSha256": "6002e491bc1a7647729abde74f5e725063b27658c299e0433ef3f151b0f35e8f",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-one",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "直立した一本の軸が主体であり、環と点があっても1型を連想させる。小サイズでの識別と筆流を再検討する。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        138,
+        160,
+        738
+      ],
+      "advance": 600,
+      "investigated": true
+    },
+    {
+      "glyph": "two",
+      "codepoints": [
+        50
+      ],
+      "outlineSha256": "299100f1b03c9e5d51785e211dc8ee4a5d683df35a29e5e469804802679217e0",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-two",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左右の対向する二つの公転弧。2の上部ボウルから下方へ斜走し横画に終わる連続構造がない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        370,
+        580
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "three",
+      "codepoints": [
+        51
+      ],
+      "outlineSha256": "432fdd9a01c6989c5343dda79a8a402e9eddd54c7e6eaf96ded325c5bb1fb052",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-three",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央環と三方向の滴形ループ。3の右側に並ぶ二つの開いたボウルではない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        48,
+        198,
+        392,
+        662
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "four",
+      "codepoints": [
+        52
+      ],
+      "outlineSha256": "5cc2dcf8cc9432ac9b195e0e180058554fe43d43fdd408f92a4709869c5777e1",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-four",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "四方へ伸びるダイヤ状の光芒と中央閉環。4の片側縦画・三角形・横棒の骨格ではない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        118,
+        494,
+        682
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "five",
+      "codepoints": [
+        53
+      ],
+      "outlineSha256": "c26947b2a6407ffb6f790e94efc4ee7c4ad538ea5d73922e03702968aba0b665",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-five",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "五芒の軌道枠と内部の閉路。5の上横画・左縦画・下側のボウルという折れと開口を維持しない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        450,
+        670
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "six",
+      "codepoints": [
+        54
+      ],
+      "outlineSha256": "863a79cdec29397aa3ebc5e92a93bee43857c9f3b27f3e7e5aa7226cfecd13d0",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-six",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左上の彗星環と右下へ並行して流れる二本の尾。6の下側にある一つの大きなボウルとは閉路配置と放射が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        140,
+        430,
+        590
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "seven",
+      "codepoints": [
+        55
+      ],
+      "outlineSha256": "17e83ccad2121ddae98e21ed22ddfe2f12fe4a2f2c0812f06f2ace15c279f084",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-seven",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上部天蓋と下方へ曲がる軌道。7の上横画から左下へ落ちる直線の連続とは方向と曲線構造が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        160,
+        406,
+        704
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "eight",
+      "codepoints": [
+        56
+      ],
+      "outlineSha256": "2d7110f93c14f6c12da837df174b6b0d4ae3e219cc96f1db16ffb087a48d00ca",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-eight",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中央環の左右へ開く対向弧。8の上下に閉じた二つのループとは開口と閉路数が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        202,
+        406,
+        598
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "nine",
+      "codepoints": [
+        57
+      ],
+      "outlineSha256": "7301643b84c9f09c33083f310d44e1d2f09a9612d395cd5048d3a499a6b4a905",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/numbers.html#glyph-nine",
+      "decision": "approved",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上で横並びの二つの閉環と下向きの二本の光芒。9の一つの上ボウルと一本の下降軸とは閉路数と接続が異なる。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        126,
+        338,
+        590
+      ],
+      "advance": 660,
+      "investigated": true,
+      "approvalEvidence": {
+        "scope": "corresponding-codepoint",
+        "sameCharacterCompared": true,
+        "styleCompared": true,
+        "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e"
+      }
+    },
+    {
+      "glyph": "period",
+      "codepoints": [
+        46,
+        12290,
+        65294
+      ],
+      "outlineSha256": "3fd8942548e6fb6a29f7cbfa6b2bd7d049c7d4220fc907527f5b6948a15fb7e7",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-period",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "終止核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        145,
+        100,
+        215
+      ],
+      "advance": 400,
+      "investigated": true
+    },
+    {
+      "glyph": "comma",
+      "codepoints": [
+        44,
+        12289,
+        65292
+      ],
+      "outlineSha256": "deec956019394ceff9cc8bd058d006ea7d755e6500689c03ef80e0363cbc2551",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-comma",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "彗星の小休止。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        40,
+        109.44444444444444,
+        242
+      ],
+      "advance": 400,
+      "investigated": true
+    },
+    {
+      "glyph": "colon",
+      "codepoints": [
+        58,
+        65306
+      ],
+      "outlineSha256": "01f12223f6d6bd0cf18f9f7bd4dd6fe7cf4a7b77cd2b5fbb52bdfc9343bf2e72",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-colon",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "連星の接続。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        180,
+        70,
+        440
+      ],
+      "advance": 400,
+      "investigated": true
+    },
+    {
+      "glyph": "hyphen",
+      "codepoints": [
+        45,
+        65293
+      ],
+      "outlineSha256": "88b44fb542f1d870d7225f184fb5a924bf4953d15bdee92c6b046b4626d4d28d",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-hyphen",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "短い軌道橋。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        342,
+        326,
+        378
+      ],
+      "advance": 500,
+      "investigated": true
+    },
+    {
+      "glyph": "question",
+      "codepoints": [
+        63,
+        65311
+      ],
+      "outlineSha256": "3d48b5846c863664b053e10cfc37cd47a3a15b69a7765210a4436b73f8575c93",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-question",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "開いた探索軌道と中心核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        121,
+        372.0,
+        597.5675675675676
+      ],
+      "advance": 620,
+      "investigated": true
+    },
+    {
+      "glyph": "exclam",
+      "codepoints": [
+        33,
+        65281
+      ],
+      "outlineSha256": "2540ae46463d2e926f94f1c626bb5cf112968e402191c37c4c9954d14cc17c21",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-exclam",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "放射する三角光芒と基底核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        121,
+        304,
+        637
+      ],
+      "advance": 500,
+      "investigated": true
+    },
+    {
+      "glyph": "semicolon",
+      "codepoints": [
+        59,
+        65307
+      ],
+      "outlineSha256": "4ce33c48438825ca31227876370971453096102acc87045869c9c17469122a23",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-semicolon",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上部連星環と流下する彗星尾。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        65,
+        146.16279069767444,
+        508
+      ],
+      "advance": 440,
+      "investigated": true
+    },
+    {
+      "glyph": "ellipsis",
+      "codepoints": [
+        8230,
+        8943
+      ],
+      "outlineSha256": "cf05782032d7ff6e2446d1220bc1fdc31eac9128cfb9f4012f4d15678870bc5f",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-ellipsis",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "三つの終止核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        148,
+        534,
+        212
+      ],
+      "advance": 760,
+      "investigated": true
+    },
+    {
+      "glyph": "parenleft",
+      "codepoints": [
+        40,
+        65288
+      ],
+      "outlineSha256": "2779ec13f210f2d385570f6e972b0a67f71f0926f2275fffe6bd32bf4e1831c6",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-parenleft",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左の抱擁軌道。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        130,
+        42,
+        330,
+        668
+      ],
+      "advance": 440,
+      "investigated": true
+    },
+    {
+      "glyph": "parenright",
+      "codepoints": [
+        41,
+        65289
+      ],
+      "outlineSha256": "6d5be183bc96ca9a13eff44a14290bd6e3d446573a626bf6849764672bad37db",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-parenright",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "右の抱擁軌道。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        42,
+        230,
+        668
+      ],
+      "advance": 440,
+      "investigated": true
+    },
+    {
+      "glyph": "bracketleft",
+      "codepoints": [
+        91,
+        65339
+      ],
+      "outlineSha256": "cfc7c87655421d5e1b742cf2d4d788fe137794cfa66a55763ae68199c869935d",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-bracketleft",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左の観測枠。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        62,
+        230,
+        658
+      ],
+      "advance": 440,
+      "investigated": true
+    },
+    {
+      "glyph": "bracketright",
+      "codepoints": [
+        93,
+        65341
+      ],
+      "outlineSha256": "cc46ce29294216af6e8ccf70e84d2792490d6aee59c465b698cffe47a538b1c8",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-bracketright",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "右の観測枠。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        62,
+        230,
+        658
+      ],
+      "advance": 440,
+      "investigated": true
+    },
+    {
+      "glyph": "braceleft",
+      "codepoints": [
+        123,
+        65371
+      ],
+      "outlineSha256": "e72ad258d7df07b98239d1a75b9d757730d2a311a221259eb96c0e8bf7614ddf",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-braceleft",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左の双極境界。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        60,
+        313,
+        650
+      ],
+      "advance": 480,
+      "investigated": true
+    },
+    {
+      "glyph": "braceright",
+      "codepoints": [
+        125,
+        65373
+      ],
+      "outlineSha256": "9d21bcf7398908f37304feb305fa571cc9bf214b2f8be6ddda5bef08508c7f7e",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-braceright",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "右の双極境界。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        60,
+        313,
+        650
+      ],
+      "advance": 480,
+      "investigated": true
+    },
+    {
+      "glyph": "quoteleft",
+      "codepoints": [
+        8216
+      ],
+      "outlineSha256": "3792763807fdb08c5b6e41a6956f2be3f2f8d1d87c17ba99ddf7f124bcbfb4aa",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-quoteleft",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左の浮遊核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        465,
+        135,
+        625
+      ],
+      "advance": 340,
+      "investigated": true
+    },
+    {
+      "glyph": "quoteright",
+      "codepoints": [
+        8217
+      ],
+      "outlineSha256": "d8f91e6e19cc941ef9bf14f36ef543ad057781435f909cc1868d4032ccf8f24f",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-quoteright",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "右の浮遊核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        465,
+        135,
+        625
+      ],
+      "advance": 340,
+      "investigated": true
+    },
+    {
+      "glyph": "quotedblleft",
+      "codepoints": [
+        8220,
+        12300,
+        12302
+      ],
+      "outlineSha256": "cedaac37073d9da3223793970fc5363a11c783b46a92a318a4a8826b1f3cd50c",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-quotedblleft",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "左の二重浮遊核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        465,
+        335,
+        625
+      ],
+      "advance": 520,
+      "investigated": true
+    },
+    {
+      "glyph": "quotedblright",
+      "codepoints": [
+        8221,
+        12301,
+        12303
+      ],
+      "outlineSha256": "10759c3584bb76f7b324409bcca2c08bb333456ac575941a49f39ad686f8f137",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-quotedblright",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "右の二重浮遊核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        465,
+        335,
+        625
+      ],
+      "advance": 520,
+      "investigated": true
+    },
+    {
+      "glyph": "quotedbl",
+      "codepoints": [
+        34,
+        65282
+      ],
+      "outlineSha256": "1f1f4a9b6e17db31cd6ac152356f2a102cc4058bc566bf31b19bd77f032752ff",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-quotedbl",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "中立の二重引用核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        555,
+        300,
+        625
+      ],
+      "advance": 520,
+      "investigated": true
+    },
+    {
+      "glyph": "slash",
+      "codepoints": [
+        47,
+        65295
+      ],
+      "outlineSha256": "8dbd7828cf0a4a9709b638401426ac87b05558fc570a940d117af5b025ccf2e8",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-slash",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "斜交する軌道橋。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        82,
+        336,
+        638
+      ],
+      "advance": 560,
+      "investigated": true
+    },
+    {
+      "glyph": "plus",
+      "codepoints": [
+        43,
+        65291
+      ],
+      "outlineSha256": "b2c99c148938f9b65d9e75be29ff2e84aa89995bd21ed35a5c5bc60ed50e610a",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-plus",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "四方の連結核。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        144,
+        442,
+        576
+      ],
+      "advance": 620,
+      "investigated": true
+    },
+    {
+      "glyph": "equal",
+      "codepoints": [
+        61,
+        65309
+      ],
+      "outlineSha256": "ee8437d38ab0e33f21b0f4c61a9d3bc6839e8f8cb27b14c501760ebea134caaf",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-equal",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "平行する双軌道。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        245,
+        450,
+        475
+      ],
+      "advance": 620,
+      "investigated": true
+    },
+    {
+      "glyph": "emdash",
+      "codepoints": [
+        8212,
+        8213
+      ],
+      "outlineSha256": "a679db7292e416407bb8f2495c8f19a1b4e60fa1ea4dc2cb7b010a47fc0e470e",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-emdash",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "長い連星架橋。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        318,
+        766,
+        402
+      ],
+      "advance": 900,
+      "investigated": true
+    },
+    {
+      "glyph": "asterisk",
+      "codepoints": [
+        42,
+        65290
+      ],
+      "outlineSha256": "a369e25e4f1c3784cd8ae85e113ce9515ab117fee52a680d01992edb81d460ef",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-asterisk",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "六方の星印。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        150,
+        402,
+        570
+      ],
+      "advance": 620,
+      "investigated": true
+    },
+    {
+      "glyph": "multiply",
+      "codepoints": [
+        215
+      ],
+      "outlineSha256": "b1ec0057de30066f60dfd22712d39954b58e0e6161b7b6827425d5ed4e62c01a",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-multiply",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "交差する二つの軌道。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        184,
+        382,
+        536
+      ],
+      "advance": 620,
+      "investigated": true
+    },
+    {
+      "glyph": "divide",
+      "codepoints": [
+        247
+      ],
+      "outlineSha256": "6f6d97aff4bfcb0382efe21b36034088af67c443374cc297579ebcc7c34c69c2",
+      "comparisonReference": "audit/comparisons/glyph-v2.4/symbols.html#glyph-divide",
+      "decision": "pending",
+      "reviewer": "Codex",
+      "reviewType": "AI corresponding-character and style review",
+      "reason": "上下の核と分離軌道。同じ記号の慣用配置・曲線・直線が残る。文字列の読みやすさと独自性の扱いを含む最終デザイン審査は未確定。一括改形・一括合格にはしない。",
+      "styleInspection": "曲線・閉路・主軸・送り幅を確認。16/24/48/72pxの文字列標本も併用。人間の手書き試験と長文読字試験は未実施。",
+      "bounds": [
+        30,
+        148,
+        432,
+        572
+      ],
+      "advance": 620,
+      "investigated": true
+    }
+  ]
+}

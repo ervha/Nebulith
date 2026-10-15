@@ -1,0 +1,126 @@
+{
+  "reviewer": "Codex",
+  "scope": "30 current units, explicit reviewed senses and frames",
+  "units": {
+    "aphorism": {
+      "bodyHash": "5ce9508d48765bb203d013ae22cdf361b17bfa4be896cf226e37b124ebd201a8",
+      "dependencyHash": "6a234c2933306dc8742ba34c504fa4acc14b816ee4846da98559918a5088fa5e"
+    },
+    "observation": {
+      "bodyHash": "aa66d9d6d2b2db41dd5b1e845b03562fe097a45e74017858560a0e29e83f36cd",
+      "dependencyHash": "a48780325e526d1e9fb9a86de032c37c7e9764e8aea9c9cc0ac5e1b6405c2a77"
+    },
+    "dialogue-a1": {
+      "bodyHash": "2e65926641741ff0754f60c921cf08a95c43387690a0aff1af9540afcb0d080a",
+      "dependencyHash": "ee0ee546fd8e88d7f7a17423e1c7a694f8105d94be781394cf1a86886ab6804f"
+    },
+    "dialogue-b": {
+      "bodyHash": "90190a43b7e7c98420b8288ed865db70403483045372aa614bf376a78d467d28",
+      "dependencyHash": "614d94eb382c9b9f1f569e1c6ee12c331f4b867abbff852871e97521e3a2299d"
+    },
+    "dialogue-a2": {
+      "bodyHash": "026a21302ef61e4f8b9843e1f66f031063abad1c6c49266ff6ed01398669e336",
+      "dependencyHash": "9c3a85a40c37556ae3a6248a8d30d02477b40efba03eb8de242893b8d0806243"
+    },
+    "usage-present": {
+      "bodyHash": "455e8510d7ff8601c8268cf79232afe6672d2412f007bc0d0ea87935e4e8f1b0",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-past": {
+      "bodyHash": "6583a976e2f96560db1b31bfa6c0bf564f8e9714a09649e5f05f3e8242668765",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-future": {
+      "bodyHash": "4ed669bd750607257b63514e9ffce52800ea19b296d86f996edd64cbcb47307c",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-progress": {
+      "bodyHash": "633f7101160d4a28f313aab233fbafb36658028503e996aacf47dc91d2fd58b1",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-negative": {
+      "bodyHash": "0430e2c397cc887c0ea27b6b851893b37c1d3cd082cd35e0651f606afd23b3cb",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-question": {
+      "bodyHash": "6fb4a400c6c8ffd231e140095a8d274c6a495b1216e4dd2950606274ef0c29a4",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-inceptive": {
+      "bodyHash": "54f72a7970b33afce88857b3f6636617393073d9de2eb408dffcabd7566a1e42",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-repeated": {
+      "bodyHash": "faf5c8dd8e1fe9d9bb967708b9e33393d6f96fc0da0d8d7971a873e8a66665b6",
+      "dependencyHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012"
+    },
+    "usage-walk": {
+      "bodyHash": "a784594a00e1ba0fda349ce447b30459dd9531c253d3203687ee4b630fd29285",
+      "dependencyHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62"
+    },
+    "usage-walk-past": {
+      "bodyHash": "d8fdf288fc8044fb379b37708c28e939e75a83f182360b6279b93be87220c73b",
+      "dependencyHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62"
+    },
+    "usage-walk-future": {
+      "bodyHash": "197b70c3fee2ef1bf4b0bf1cf7958d9e2bb1066d4dabf4f27fac1f007a14f0e6",
+      "dependencyHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62"
+    },
+    "usage-walk-progress": {
+      "bodyHash": "0aa95834abb83752cdd3eddf135b0573c5a19c728e198ba7d387871ea67b92d3",
+      "dependencyHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62"
+    },
+    "usage-walk-negative": {
+      "bodyHash": "9e486e93039041ee4436d5d1527aba7c23ca5469031cdeb93462eb0694762477",
+      "dependencyHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62"
+    },
+    "usage-eat": {
+      "bodyHash": "1c6de282c36ec73d8348c1b94584985c257a280e29e7042768a45da8e9aeb5a4",
+      "dependencyHash": "4e322a00a88d5be1387a76f47cadb9b411c0d7ebc39fce9f8fa07a06645380c9"
+    },
+    "usage-eat-place": {
+      "bodyHash": "fc34d030b0fb6f5fd84525ab3e31ffbcdbfdc6eec444f107875a4be900e8330a",
+      "dependencyHash": "12670dedc9107c707adc99b8489003d54d86e8365b2325a07b57d745d4b58f7a"
+    },
+    "usage-eat-repeated": {
+      "bodyHash": "a911c6b0c86e144a9027c19dacb9259f0e554053ae5103da3d28c978e0facf12",
+      "dependencyHash": "4e322a00a88d5be1387a76f47cadb9b411c0d7ebc39fce9f8fa07a06645380c9"
+    },
+    "usage-observe": {
+      "bodyHash": "15af7f7b393f9d8b8d8ae4932ebb07adf5382ee6ec16acee3fc139952d608e1c",
+      "dependencyHash": "671de751e6ced2611ef1ad78162eb68d9b38c7cb82ba4abfcfba40f56ed0726d"
+    },
+    "usage-observe-past": {
+      "bodyHash": "8e33088af1c4a21c6826c5677f691b281d5fa8f3381a7a076d10d6ed3a15e5c3",
+      "dependencyHash": "532939f66545abcd19b72f1f5e08edca6787e48a5dc788d3d7e57eb11bf261e1"
+    },
+    "usage-passive": {
+      "bodyHash": "16e0b9f4e014972703fe569c9e8c59c1e35f8d86524ce0ffb8e1b7d79f3a91dc",
+      "dependencyHash": "532939f66545abcd19b72f1f5e08edca6787e48a5dc788d3d7e57eb11bf261e1"
+    },
+    "usage-passive-past": {
+      "bodyHash": "590ae88299a36f2d7423a4c441cd4949dea4ddbf25d6fa03d7511a9e065ab44f",
+      "dependencyHash": "532939f66545abcd19b72f1f5e08edca6787e48a5dc788d3d7e57eb11bf261e1"
+    },
+    "usage-copula": {
+      "bodyHash": "28d4d8557cc85cc35bee11335cd93f3b66c1b6eaf8d0108e1e5b3030b42db06c",
+      "dependencyHash": "2cc995c2888fd8b0ad3a08f1f41fd165758dbe0da6b5359094fcf4ddbe34a60b"
+    },
+    "usage-conditional": {
+      "bodyHash": "8c4f55340c4c4c8b6f070f1efafb1964957765cc10c0a88bb6c7462910e3a0be",
+      "dependencyHash": "582b97a602195f661493c6ea263f5ad322084193e22edc443c17399c80d56106"
+    },
+    "usage-reason": {
+      "bodyHash": "0adb8d761d703ee21bbd5c83d1595b661df39313652396e38bfcffbc92f35b2f",
+      "dependencyHash": "87b60e5a9646610d831e13873c4b5a1cd758472b61d5f9b0910f84c47f1f7e69"
+    },
+    "usage-time": {
+      "bodyHash": "96a1bb595137c337efa4571d637d27bc35bb236d306e2eb0c1ddbdbb22844174",
+      "dependencyHash": "aaefe89e12819a01c63a6d18fb379e523921452943ee9bf524f288e22769ff2c"
+    },
+    "usage-concession": {
+      "bodyHash": "3cf13cd05b9460e65758c4d0e5216a19079bc0c9a2dba7ccbcb81b34d52aaf53",
+      "dependencyHash": "09e9d2da5196b6a3d8981ed592b544e9806c48c1ecde467bb16b2b7ccf4dedfb"
+    }
+  }
+}

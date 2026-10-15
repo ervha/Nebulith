@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-10-15T03:15:20.781274+00:00",
+  "artifact_sha256": {
+    "audit/runs/2026-10-15-reviewed/check/browser-evidence.json": "53414d2fb8da8db7d9234bb9b95cbb20fdc6748c8fb84a9d0e8378b50c89e5ad",
+    "audit/runs/2026-10-15-reviewed/check/evidence.json": "3455daa938ae573cbd50a7b902a4c2c9c0fc6433e6e0893473fc11ce4fc64b93",
+    "audit/runs/2026-10-15-reviewed/check/unittest.log": "aaa17ca2fb98692b3b1ff7867016024b36053685e478a9aed1d9275a8ff8b604",
+    "audit/runs/2026-10-15-reviewed/check/validation.json": "a61b89715e86296e25aa90d274dc41ce60cc61cbf564d6eb0b8e2cc209e6eef3",
+    "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit-02.md": "44aeda6b14316408c9dc43a10310771e34302baa1a28f3f2f3b3a10d85d273bc",
+    "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit.md": "4ba56644b9873af6640b0932923768a83faf573b69fe8c2b0e631ae75d7c762a",
+    "audit/docs/Nebulith Audit Results 2026-10-15.md": "f4c8e2da8fd6942386be5a9aebb73582887570ce8dad0836048b7a83ec3b37a8",
+    "audit/docs/Nebulith Remediation Progress 2026-10-15.md": "a8dacf910aa139835b9753d73a6212ebe0b5ba6440a38ab84fa5843002596fbd",
+    "audit/docs/Nebulith Remediation Proposal 2026-10-15.md": "39d78e2814f026ee2498bfc35f6de40a1ef8442e04cbde7e1b97f28e7d3ccddc",
+    "audit/docs/Nebulith Review Findings 2026-10-15.md": "6fe2e24eaa97c330d7bff1a29f53dcbaf83dd12afb39b2c890bdcaba99a0f43d",
+    "audit/docs/Nebulith Standard Audit Report.md": "b0849bd33bfd2a4ae2b2692089281ae7d32f714e3b3a857dbed89bbcbf7990f8",
+    "audit/docs/Nebulith Symbols Validation 2026-10-15.md": "4b07eb4b3422f61b792d85e8c85cfdab4a0ed5e199514d943da31200eafdc0f4",
+    "audit/README.md": "f0f199c5d98dc599f0ccf9603c6807c58e1726e7488469a5e81b74e6277501f7",
+    "tools/seal_audit_run.py": "2e9f92ce3cb1a831d4b1f60aaf3a415adf3f50a05df9e18ab19955f58c583585",
+    "tests/test_font_symbols.py": "3f8725c9d60a9622c560bd438e64a6e592eda362b0d2ddc6cb431d76242ea4dc",
+    "tests/test_remediation.py": "18c33bb46b9659945a0359fbdcbe878a0de2fd062b4f38a261be7b53695b202e"
+  },
+  "counts": {
+    "Pass": 12,
+    "Warn": 1,
+    "Fail": 2
+  }
+}

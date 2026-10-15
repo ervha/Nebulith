@@ -1,0 +1,98 @@
+{
+  "status": "partial-source-backed",
+  "requiredLanguages": [
+    "en",
+    "la",
+    "fr",
+    "es",
+    "de",
+    "ja"
+  ],
+  "sources": [
+    {
+      "id": "wiktionary-swadesh-la",
+      "language": "la",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Latin_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:28.950772+00:00",
+      "revisionId": "77207384",
+      "sha256": "8fb0b9ebaabe4f53b1308d8596453da39a72c29d5526a0c58f668a947602cef6",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/la.html",
+      "attribution": "Wiktionary contributors, Appendix:Latin Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed"
+    },
+    {
+      "id": "wiktionary-swadesh-fr",
+      "language": "fr",
+      "url": "https://en.wiktionary.org/wiki/Appendix:French_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:30.147863+00:00",
+      "revisionId": "77634129",
+      "sha256": "8368a16aadc6d0aef63ee9b17547f07a23c71a967e55acd7567d6560a25379f7",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/fr.html",
+      "attribution": "Wiktionary contributors, Appendix:French Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed"
+    },
+    {
+      "id": "wiktionary-swadesh-de",
+      "language": "de",
+      "url": "https://en.wiktionary.org/wiki/Appendix:German_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:31.330327+00:00",
+      "revisionId": "66056579",
+      "sha256": "b0f1085dcb1bdbadf0e13f93e0f976049d96a35607506596b7e57215aeba0be1",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/de.html",
+      "attribution": "Wiktionary contributors, Appendix:German Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed"
+    },
+    {
+      "id": "wiktionary-swadesh-es",
+      "language": "es",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Spanish_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:32.457050+00:00",
+      "revisionId": "62514940",
+      "sha256": "35e0d8b8d61e03c5074610d229d96e6f19c26368387d1a63326fef92f7502660",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/es.html",
+      "attribution": "Wiktionary contributors, Appendix:Spanish Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed"
+    },
+    {
+      "id": "wiktionary-swadesh-ja",
+      "language": "ja",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Japanese_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:33.789881+00:00",
+      "revisionId": "89231374",
+      "sha256": "460e9968aee0f8c6e3079e1175ec36202cda10a4e8495d70c43140243991558d",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/ja.html",
+      "attribution": "Wiktionary contributors, Appendix:Japanese Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed"
+    }
+  ],
+  "comparisonRows": 1433,
+  "languageRows": {
+    "la": 271,
+    "en": 207,
+    "fr": 217,
+    "de": 266,
+    "es": 244,
+    "ja": 228
+  },
+  "normalization": "NFKC, casefold, ligatures oe/ae/ss, remove combining marks; Japanese source Hepburn macrons lose length in ASCII comparison. Orthographic, not phonetic equivalence.",
+  "scope": "207基本概念の出典付き比較資料。全1008語義の対応・約2000語の監査母集団の充足は未完了。",
+  "pending": [
+    "残るNebulith語義との意味対応",
+    "全語義・言語別の比較母集団と用語辞書",
+    "表記正規化の追加異形の検討"
+  ],
+  "legacyComparison": {
+    "path": "tools/false_friend_detector.py",
+    "mayCertifyFullCoverage": false
+  }
+}

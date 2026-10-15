@@ -1,0 +1,32 @@
+test_current_corpus_has_no_missing_punctuation (test_font_symbols.FontSymbolChecks.test_current_corpus_has_no_missing_punctuation) ... ok
+test_every_symbol_and_alias_is_mapped_to_a_drawn_glyph (test_font_symbols.FontSymbolChecks.test_every_symbol_and_alias_is_mapped_to_a_drawn_glyph) ... ok
+test_existing_glyph_outlines_and_spacing_are_preserved (test_font_symbols.FontSymbolChecks.test_existing_glyph_outlines_and_spacing_are_preserved) ... ok
+test_phonemic_apostrophe_and_quotes_remain_distinct (test_font_symbols.FontSymbolChecks.test_phonemic_apostrophe_and_quotes_remain_distinct) ... ok
+test_rebuild_is_byte_reproducible (test_font_symbols.FontSymbolChecks.test_rebuild_is_byte_reproducible) ... ok
+test_versioned_inventory_and_metric_bounds (test_font_symbols.FontSymbolChecks.test_versioned_inventory_and_metric_bounds) ... ok
+test_all_ipa_matches_declared_sound_rules (test_remediation.RemediationChecks.test_all_ipa_matches_declared_sound_rules) ... ok
+test_cli_refuses_existing_evidence_directory (test_remediation.RemediationChecks.test_cli_refuses_existing_evidence_directory) ... ok
+test_cli_rejects_output_outside_audit (test_remediation.RemediationChecks.test_cli_rejects_output_outside_audit) ... ok
+test_coda_categories_are_not_automatic_approval (test_remediation.RemediationChecks.test_coda_categories_are_not_automatic_approval) ... ok
+test_coda_missing_stale_and_unsubstantiated_reviews (test_remediation.RemediationChecks.test_coda_missing_stale_and_unsubstantiated_reviews) ... ok
+test_coda_review_bound_to_meaning (test_remediation.RemediationChecks.test_coda_review_bound_to_meaning) ... ok
+test_corpus_references_and_changed_id_detection (test_remediation.RemediationChecks.test_corpus_references_and_changed_id_detection) ... ok
+test_corpus_review_is_bound_to_meaning_and_frames (test_remediation.RemediationChecks.test_corpus_review_is_bound_to_meaning_and_frames) ... ok
+test_corpus_surface_drift_is_detected (test_remediation.RemediationChecks.test_corpus_surface_drift_is_detected) ... ok
+test_distance_candidates_need_individual_both_condition_review (test_remediation.RemediationChecks.test_distance_candidates_need_individual_both_condition_review) ... ok
+test_earth_distance_two_short_word_and_substrings (test_remediation.RemediationChecks.test_earth_distance_two_short_word_and_substrings) ... ok
+test_glyph_approval_rejects_missing_or_changed_comparison_evidence (test_remediation.RemediationChecks.test_glyph_approval_rejects_missing_or_changed_comparison_evidence) ... ok
+test_glyph_review_requires_real_comparison (test_remediation.RemediationChecks.test_glyph_review_requires_real_comparison) ... ok
+test_glyph_review_scope_and_full_investigation (test_remediation.RemediationChecks.test_glyph_review_scope_and_full_investigation) ... ok
+test_individual_codas_and_sourced_collision_repair (test_remediation.RemediationChecks.test_individual_codas_and_sourced_collision_repair) ... ok
+test_live_collector_reports_incomplete_reviews_instead_of_success (test_remediation.RemediationChecks.test_live_collector_reports_incomplete_reviews_instead_of_success) ... ok
+test_original_documents_and_seals_preserved (test_remediation.RemediationChecks.test_original_documents_and_seals_preserved) ... ok
+test_relocated_document_links (test_remediation.RemediationChecks.test_relocated_document_links) ... ok
+test_source_mapping_avoids_homograph_and_part_of_speech_false_matches (test_remediation.RemediationChecks.test_source_mapping_avoids_homograph_and_part_of_speech_false_matches) ... ok
+test_unattested_semantic_approval_is_pending (test_remediation.RemediationChecks.test_unattested_semantic_approval_is_pending) ... ok
+test_unsupported_nominal_passive_is_rejected (test_remediation.RemediationChecks.test_unsupported_nominal_passive_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 1.211s
+
+OK

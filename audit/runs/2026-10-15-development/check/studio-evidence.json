@@ -1,0 +1,32 @@
+{
+  "bundle": {
+    "jarSha256": "a336fa324799be7213f72e49c4b4d47ef1f6601272982679e6cb7b388ee8c274",
+    "sourceInputs": {
+      "data/lexicon.json": "f224706372035019b07a4a5f88b08a14dcb7b0697e085bf5f4bcfa98ace95c13",
+      "data/canon_corpus.json": "8801299d054f45aa26232658c354e30e04690e6be11bc9332e181769daa1a898",
+      "fonts/Nebulith-Regular.ttf": "d1029a13813d041982afe509579ac9f815efe35bb7435ea8784d7433009c12b2",
+      "fonts/inventory.json": "604d5502cec314996385c93c54ac319f8c38169e7fd0b27f8eaca04e62e5c330",
+      "tools/build_studio.py": "e6bc745debe00ccbc4b27d98e896d3945e86e7a93eaf81452439c4cf16197034"
+    },
+    "sourceSha256": {
+      "studio/src/commonMain/kotlin/com/reiun/nebulith/Catalog.kt": "bf667cdd0b1e6a1efd10df2c4e653b2e70f006d7027e6fbd22191f33836f8790",
+      "studio/src/jvmMain/kotlin/com/reiun/nebulith/Main.kt": "7bc8fbf56215f51fe2a06131d708b3e174eb8e00036171160cd884aa32568e94"
+    },
+    "resources": {
+      "lexicon.tsv": "024d9977281067fee22dad14bc70368d2860878cb8657ccc6bc3e28210900441",
+      "corpus.tsv": "81cddc01062b59eb3b2d4014e1aa08841729ee8f65fc5c327bf993ed91d5f160",
+      "Nebulith-Regular.ttf": "d1029a13813d041982afe509579ac9f815efe35bb7435ea8784d7433009c12b2",
+      "characters.txt": "b3ef36861ee2c5c21f3dfc96dfc51199ca2a3c2b1b26574904dd965d5c2c9976",
+      "version.txt": "c08f2a3caa1c729ecb3cf0e07e347ae34c8e572ecfc0cc167532fb5ce40f96c8"
+    },
+    "selfTest": "PASS: 1008 entries, 30 examples, search, category, font coverage, verbatim input and independent filtering; IME/clipboard not tested",
+    "validation": "Headless JVM UI and logic; native IME, clipboard, Android and installer acceptance pending."
+  },
+  "jvm21SelfTest": "PASS: 1008 entries, 30 examples, search, category, font coverage, verbatim input and independent filtering; IME/clipboard not tested\n",
+  "jvm8SelfTest": "PASS: executed with local Oracle Java 1.8.0_503, headless mode; same search/font/input assertions passed.",
+  "screenshotSha256": "b9f391e083c296eacf2e454a2b85f655cea6f9f0978304ddeadebeacb589bf6e",
+  "nativeWindowInteraction": false,
+  "imeVerified": false,
+  "clipboardVerified": false,
+  "androidVerified": false
+}

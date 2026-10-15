@@ -1,0 +1,6736 @@
+{
+  "sources": [
+    {
+      "id": "wiktionary-swadesh-la",
+      "language": "la",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Latin_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:28.950772+00:00",
+      "revisionId": "77207384",
+      "sha256": "8fb0b9ebaabe4f53b1308d8596453da39a72c29d5526a0c58f668a947602cef6",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/la.html",
+      "attribution": "Wiktionary contributors, Appendix:Latin Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed",
+      "rows": [
+        [
+          "No.",
+          "English",
+          "Latin; latina",
+          "Classical ; script",
+          "IPA; pronunciation"
+        ],
+        [
+          "1",
+          "I",
+          "egō",
+          "ego",
+          "ˈɛ.ɡɔː"
+        ],
+        [
+          "2",
+          "you (singular)",
+          "tū",
+          "tv",
+          "t̪uː"
+        ],
+        [
+          "3",
+          "he",
+          "is (m.), ea (f.), id (n.)",
+          "is, ea, id",
+          "is̠, ˈe.a, id̪"
+        ],
+        [
+          "4",
+          "we",
+          "nōs",
+          "nos",
+          "nɔːs̠"
+        ],
+        [
+          "5",
+          "you (plural)",
+          "vōs",
+          "vos",
+          "wɔːs̠"
+        ],
+        [
+          "6",
+          "they",
+          "eī, iī (m.), eae (f.), ea (n.)",
+          "ei, ii, eae, ea",
+          "ˈe.iː/iː, ˈe.ae̞̯, ˈe.a"
+        ],
+        [
+          "7",
+          "this",
+          "hic (m.), haec (f.), hoc (n.)",
+          "hic, haec, hoc",
+          "hik, hae̞̯k, hɔk"
+        ],
+        [
+          "8",
+          "that",
+          "ille (m.), illa (f.), illud (n.)",
+          "ille, illa, illvd",
+          "ˈil.lɛ, ˈil.la, ˈil.lud̪"
+        ],
+        [
+          "9",
+          "here",
+          "hīc",
+          "hic",
+          "hiːk"
+        ],
+        [
+          "10",
+          "there",
+          "illīc, ibi",
+          "illic, ibi",
+          "ˈil.liːk, ˈi.bi"
+        ],
+        [
+          "11",
+          "who",
+          "quis (m.), quae (f.)",
+          "qvis, qvae",
+          "kʷis̠, kʷae̞̯"
+        ],
+        [
+          "12",
+          "what",
+          "quid",
+          "qvid",
+          "kʷid̪"
+        ],
+        [
+          "13",
+          "where",
+          "ubi",
+          "vbi",
+          "ˈu.bi"
+        ],
+        [
+          "14",
+          "when",
+          "cum, quandō",
+          "cvm, qvando",
+          "kũ, ˈkʷan̪.d̪ɔː"
+        ],
+        [
+          "15",
+          "how",
+          "quōmodo",
+          "qvomodo",
+          "ˈkʷɔː.mɔ.d̪ɔ(ː)"
+        ],
+        [
+          "16",
+          "not",
+          "nōn, nē",
+          "non, ne",
+          "nɔːn, nɛː"
+        ],
+        [
+          "17",
+          "all",
+          "omnēs (mf.), omnia (n.)",
+          "omnes, omnia",
+          "ˈɔm.nɛːs̠, ˈɔm.ni.a"
+        ],
+        [
+          "18",
+          "many",
+          "multī (m.), multae (f.), multa (n.)",
+          "mvlti, mvltae, mvlta",
+          "ˈmul.t̪iː, ˈmul.t̪ae̞̯, ˈmul.t̪a"
+        ],
+        [
+          "19",
+          "some",
+          "aliquī (m.), aliqua (f.), aliquod (n.)",
+          "aliqvi, aliqva, aliqvod",
+          "ˈa.li.kʷiː, ˈa.li.kʷa, ˈa.li.kʷɔd̪"
+        ],
+        [
+          "20",
+          "few",
+          "paucī (m.), paucae (f.), pauca (n.)",
+          "pavci, pavcae, pavca",
+          "ˈpau̯.kiː, ˈpau̯.kae̞̯, ˈpau̯.ka"
+        ],
+        [
+          "21",
+          "other",
+          "alter, alius",
+          "alter, alivs",
+          "ˈal.t̪ɛr, ˈa.li.us̠"
+        ],
+        [
+          "22",
+          "one",
+          "ūnus",
+          "vnvs",
+          "ˈuː.nus̠"
+        ],
+        [
+          "23",
+          "two",
+          "duo",
+          "dvo",
+          "ˈd̪u.ɔ"
+        ],
+        [
+          "24",
+          "three",
+          "trēs",
+          "tres",
+          "t̪rɛːs̠"
+        ],
+        [
+          "25",
+          "four",
+          "quattuor",
+          "qvattvor",
+          "ˈkʷat̪.t̪u.ɔr"
+        ],
+        [
+          "26",
+          "five",
+          "quīnque",
+          "qvinqve",
+          "ˈkʷiːŋ.kʷɛ"
+        ],
+        [
+          "27",
+          "big",
+          "magnus",
+          "magnvs",
+          "ˈmaŋ.nus̠"
+        ],
+        [
+          "28",
+          "long",
+          "longus",
+          "longvs",
+          "ˈlɔŋ.ɡus̠"
+        ],
+        [
+          "29",
+          "wide",
+          "lātus",
+          "latvs",
+          "ˈlaː.t̪us̠"
+        ],
+        [
+          "30",
+          "thick",
+          "crassus",
+          "crassvs",
+          "ˈkras̠.s̠us̠"
+        ],
+        [
+          "31",
+          "heavy",
+          "gravis",
+          "gravis",
+          "ˈɡra.wis̠"
+        ],
+        [
+          "32",
+          "small",
+          "parvus",
+          "parvvs",
+          "ˈpar.wus̠"
+        ],
+        [
+          "33",
+          "short",
+          "brevis",
+          "brevis",
+          "ˈbrɛ.wis̠"
+        ],
+        [
+          "34",
+          "narrow",
+          "angustus",
+          "angvstvs",
+          "aŋˈɡus̠.t̪us̠"
+        ],
+        [
+          "35",
+          "thin",
+          "gracilis, tenuis",
+          "gracilis, tenvis",
+          "ˈɡra.ki.lis̠, ˈt̪ɛ.nu.is̠"
+        ],
+        [
+          "36",
+          "woman",
+          "fēmina, mulier",
+          "femina, mvlier",
+          "ˈfɛː.mi.na, ˈmu.li.ɛr"
+        ],
+        [
+          "37",
+          "man (adult male)",
+          "vir",
+          "vir",
+          "wir"
+        ],
+        [
+          "38",
+          "man (human being)",
+          "homō",
+          "homo",
+          "ˈhɔ.mɔː"
+        ],
+        [
+          "39",
+          "child",
+          "puer",
+          "pver",
+          "ˈpu.ɛr"
+        ],
+        [
+          "40",
+          "wife",
+          "uxor, mulier",
+          "vxor, mvlier",
+          "ˈuk.s̠ɔr, ˈmu.li.ɛr"
+        ],
+        [
+          "41",
+          "husband",
+          "marītus",
+          "maritvs",
+          "maˈriː.t̪us̠"
+        ],
+        [
+          "42",
+          "mother",
+          "māter",
+          "mater",
+          "ˈmaː.t̪ɛr"
+        ],
+        [
+          "43",
+          "father",
+          "pater",
+          "pater",
+          "ˈpa.t̪ɛ̞r"
+        ],
+        [
+          "44",
+          "animal",
+          "animal",
+          "animal",
+          "ˈa.ni.mal"
+        ],
+        [
+          "45",
+          "fish",
+          "piscis",
+          "piscis",
+          "ˈpis̠.kis̠"
+        ],
+        [
+          "46",
+          "bird",
+          "avis",
+          "avis",
+          "ˈa.wis̠"
+        ],
+        [
+          "47",
+          "dog",
+          "canis",
+          "canis",
+          "ˈka.nis̠"
+        ],
+        [
+          "48",
+          "louse",
+          "pēdis (pēdiculus)",
+          "pedis (pedicvlvs)",
+          "ˈpɛː.d̪is̠, pɛːˈd̪i.ku.lus̠"
+        ],
+        [
+          "49",
+          "snake",
+          "serpēns, anguis",
+          "serpens, angvis",
+          "ˈs̠ɛr.pẽːs̠, ˈaŋ.ɡʷis̠"
+        ],
+        [
+          "50",
+          "worm",
+          "vermis",
+          "vermis",
+          "ˈwɛr.mis̠"
+        ],
+        [
+          "51",
+          "tree",
+          "arbor",
+          "arbor",
+          "ˈar.bɔr"
+        ],
+        [
+          "52",
+          "forest",
+          "silva",
+          "silva",
+          "ˈs̠il.wa"
+        ],
+        [
+          "53",
+          "stick",
+          "baculum, pālus",
+          "bacvlvm, palvs",
+          "ˈba.ku.lũ, ˈpaː.lus̠"
+        ],
+        [
+          "54",
+          "fruit",
+          "frūctus",
+          "frvctvs",
+          "ˈfruːk.t̪us̠"
+        ],
+        [
+          "55",
+          "seed",
+          "sēmen",
+          "semen",
+          "ˈs̠ɛː.mɛn"
+        ],
+        [
+          "56",
+          "leaf",
+          "folium",
+          "folivm",
+          "ˈfɔ.li.ũ"
+        ],
+        [
+          "57",
+          "root",
+          "rādīx",
+          "radix",
+          "ˈraː.d̪iːks̠"
+        ],
+        [
+          "58",
+          "bark (of a tree)",
+          "cortex",
+          "cortex",
+          "ˈkɔr.t̪ɛks̠"
+        ],
+        [
+          "59",
+          "flower",
+          "flōs",
+          "flos",
+          "flɔːs̠"
+        ],
+        [
+          "60",
+          "grass",
+          "herba",
+          "herba",
+          "ˈhɛr.ba"
+        ],
+        [
+          "61",
+          "rope",
+          "fūnis, restis",
+          "fvnis, restis",
+          "ˈfuː.nis̠, ˈrɛs̠.t̪is̠"
+        ],
+        [
+          "62",
+          "skin",
+          "cutis",
+          "cvtis",
+          "ˈku.t̪is̠"
+        ],
+        [
+          "63",
+          "meat",
+          "carō",
+          "caro",
+          "ˈka.rɔː"
+        ],
+        [
+          "64",
+          "blood",
+          "sanguis",
+          "sangvis",
+          "ˈs̠aŋ.ɡʷis̠"
+        ],
+        [
+          "65",
+          "bone",
+          "os",
+          "os",
+          "ɔs̠"
+        ],
+        [
+          "66",
+          "fat (noun)",
+          "adeps, pinguāmen",
+          "adeps, pingvamen",
+          "ˈa.d̪ɛps̠, piŋˈɡʷaː.mɛn"
+        ],
+        [
+          "67",
+          "egg",
+          "ōvum",
+          "ovvm",
+          "ˈɔː.wũ"
+        ],
+        [
+          "68",
+          "horn",
+          "cornū",
+          "cornv",
+          "ˈkɔr.nuː"
+        ],
+        [
+          "69",
+          "tail",
+          "cauda",
+          "cavda",
+          "ˈkau̯.d̪a"
+        ],
+        [
+          "70",
+          "feather",
+          "penna",
+          "penna",
+          "ˈpɛn.na"
+        ],
+        [
+          "71",
+          "hair",
+          "pilus",
+          "pilvs",
+          "ˈpi.lus̠"
+        ],
+        [
+          "72",
+          "head",
+          "caput",
+          "capvt",
+          "ˈka.put̪"
+        ],
+        [
+          "73",
+          "ear",
+          "auris",
+          "avris",
+          "ˈau̯.ris̠"
+        ],
+        [
+          "74",
+          "eye",
+          "oculus",
+          "ocvlvs",
+          "ˈɔ.ku.lus̠"
+        ],
+        [
+          "75",
+          "nose",
+          "nāsus, nāris",
+          "nasvs, naris",
+          "ˈnaː.s̠us̠, ˈnaː.ris̠"
+        ],
+        [
+          "76",
+          "mouth",
+          "ōs",
+          "os",
+          "ɔːs̠"
+        ],
+        [
+          "77",
+          "tooth",
+          "dēns",
+          "dens",
+          "d̪ẽːs̠"
+        ],
+        [
+          "78",
+          "tongue (organ)",
+          "lingua",
+          "lingva",
+          "ˈliŋ.ɡʷa"
+        ],
+        [
+          "79",
+          "fingernail",
+          "unguis",
+          "vngvis",
+          "ˈuŋ.ɡʷis̠"
+        ],
+        [
+          "80",
+          "foot",
+          "pēs",
+          "pes",
+          "pɛːs̠"
+        ],
+        [
+          "81",
+          "leg",
+          "crūs",
+          "crvs",
+          "kruːs̠"
+        ],
+        [
+          "82",
+          "knee",
+          "genū",
+          "genv",
+          "ˈɡɛ.nuː"
+        ],
+        [
+          "83",
+          "hand",
+          "manus",
+          "manvs",
+          "ˈma.nus̠"
+        ],
+        [
+          "84",
+          "wing",
+          "āla",
+          "ala",
+          "ˈaː.la"
+        ],
+        [
+          "85",
+          "belly",
+          "venter, abdōmen",
+          "venter, abdomen",
+          "ˈwɛn̪.t̪ɛr, abˈd̪ɔː.mɛn"
+        ],
+        [
+          "86",
+          "guts",
+          "vīscera",
+          "viscera",
+          "ˈwiːs̠.kɛ.ra"
+        ],
+        [
+          "87",
+          "neck",
+          "cervīx",
+          "cervix",
+          "ˈkɛr.wiːks̠"
+        ],
+        [
+          "88",
+          "back",
+          "dorsum, tergum",
+          "dorsvm, tergvm",
+          "ˈd̪ɔr.s̠ũ, ˈt̪ɛr.ɡũ"
+        ],
+        [
+          "89",
+          "breast",
+          "mamma",
+          "mamma",
+          "ˈmam.ma"
+        ],
+        [
+          "90",
+          "heart",
+          "cor",
+          "cor",
+          "kɔr"
+        ],
+        [
+          "91",
+          "liver",
+          "iecur",
+          "iecvr",
+          "ˈjɛ.kur"
+        ],
+        [
+          "92",
+          "to drink",
+          "bibō",
+          "bibo",
+          "ˈbi.bɔː"
+        ],
+        [
+          "93",
+          "to eat",
+          "edō",
+          "edo",
+          "ˈɛ.d̪ɔː"
+        ],
+        [
+          "94",
+          "to bite",
+          "mordeō",
+          "mordeo",
+          "ˈmɔr.d̪e.ɔː"
+        ],
+        [
+          "95",
+          "to suck",
+          "sūgō",
+          "svgo",
+          "ˈs̠uː.ɡɔː"
+        ],
+        [
+          "96",
+          "to spit",
+          "spuō",
+          "spvo",
+          "ˈs̠pu.ɔː"
+        ],
+        [
+          "97",
+          "to vomit",
+          "vomō",
+          "vomo",
+          "ˈwɔ.mɔː"
+        ],
+        [
+          "98",
+          "to blow",
+          "īnflō",
+          "inflo",
+          "ˈĩː.flɔː"
+        ],
+        [
+          "99",
+          "to breathe",
+          "respīrō",
+          "respiro",
+          "rɛˈs̠piː.rɔː"
+        ],
+        [
+          "100",
+          "to laugh",
+          "rīdeō",
+          "rideo",
+          "ˈriː.d̪e.ɔː"
+        ],
+        [
+          "101",
+          "to see",
+          "videō",
+          "video",
+          "ˈwi.d̪e.ɔː"
+        ],
+        [
+          "102",
+          "to hear",
+          "audiō",
+          "avdio",
+          "ˈau̯.d̪i.ɔː"
+        ],
+        [
+          "103",
+          "to know",
+          "sciō",
+          "scio",
+          "ˈs̠ki.ɔː"
+        ],
+        [
+          "104",
+          "to think",
+          "cōgitō, putō, exīstimō",
+          "cogito, pvto, existimo",
+          "ˈkɔː.ɡi.t̪ɔː, ˈpu.t̪ɔː, ɛkˈs̠iːs̠.t̪i.mɔː"
+        ],
+        [
+          "105",
+          "to smell",
+          "olfaciō",
+          "olfacio",
+          "ɔlˈfa.ki.ɔː"
+        ],
+        [
+          "106",
+          "to fear",
+          "timeō",
+          "timeo",
+          "ˈt̪i.me.ɔː"
+        ],
+        [
+          "107",
+          "to sleep",
+          "dormiō",
+          "dormio",
+          "ˈd̪ɔr.mi.ɔː"
+        ],
+        [
+          "108",
+          "to live",
+          "vīvō",
+          "vivo",
+          "ˈwiː.wɔː"
+        ],
+        [
+          "109",
+          "to die",
+          "morior",
+          "morior",
+          "ˈmɔ.ri.ɔr"
+        ],
+        [
+          "110",
+          "to kill",
+          "necō",
+          "neco",
+          "ˈnɛ.kɔː"
+        ],
+        [
+          "111",
+          "to fight",
+          "lū̆ctor, pugnō",
+          "lvctor, pvgno",
+          "ˈlu(ː)k.t̪ɔr, ˈpuŋ.nɔː"
+        ],
+        [
+          "112",
+          "to hunt",
+          "vēnor",
+          "venor",
+          "ˈwɛː.nɔr"
+        ],
+        [
+          "113",
+          "to hit",
+          "pellō, pulsō",
+          "pello, pvlso",
+          "ˈpɛl.lɔː, ˈpul.s̠ɔː"
+        ],
+        [
+          "114",
+          "to cut",
+          "secō, caedō",
+          "seco, caedo",
+          "ˈs̠ɛ.kɔː, ˈkae̞̯.d̪ɔː"
+        ],
+        [
+          "115",
+          "to split",
+          "dīvidō, scindō",
+          "divido, scindo",
+          "ˈd̪iː.wi.d̪ɔː, ˈs̠kin̪.d̪ɔː"
+        ],
+        [
+          "116",
+          "to stab",
+          "pungō",
+          "pvngo",
+          "ˈpuŋ.ɡɔː"
+        ],
+        [
+          "117",
+          "to scratch",
+          "scabō, rādō",
+          "scabo, rado",
+          "ˈs̠ka.bɔː, ˈraː.d̪ɔː"
+        ],
+        [
+          "118",
+          "to dig",
+          "fodiō",
+          "fodio",
+          "ˈfɔ.d̪i.ɔː"
+        ],
+        [
+          "119",
+          "to swim",
+          "nō, natō",
+          "no, nato",
+          "nɔː, ˈna.t̪ɔː"
+        ],
+        [
+          "120",
+          "to fly",
+          "volō",
+          "volo",
+          "ˈwɔ.lɔː"
+        ],
+        [
+          "121",
+          "to walk",
+          "ambulō",
+          "ambvlo",
+          "ˈam.bu.lɔː"
+        ],
+        [
+          "122",
+          "to come",
+          "veniō",
+          "venio",
+          "ˈwɛ.ni.ɔː"
+        ],
+        [
+          "123",
+          "to lie (as in a bed)",
+          "cubō, iaceō",
+          "cvbo, iaceo",
+          "ˈku.bɔː, ˈja.ke.ɔː"
+        ],
+        [
+          "124",
+          "to sit",
+          "sedeō",
+          "sedeo",
+          "ˈs̠ɛ.d̪e.ɔː"
+        ],
+        [
+          "125",
+          "to stand",
+          "stō",
+          "sto",
+          "s̠t̪ɔː"
+        ],
+        [
+          "126",
+          "to turn (intransitive)",
+          "vertō",
+          "verto",
+          "ˈwɛr.t̪ɔː"
+        ],
+        [
+          "127",
+          "to fall",
+          "cadō",
+          "cado",
+          "ˈka.d̪ɔː"
+        ],
+        [
+          "128",
+          "to give",
+          "dō",
+          "do",
+          "d̪ɔː"
+        ],
+        [
+          "129",
+          "to hold",
+          "teneō",
+          "teneo",
+          "ˈt̪ɛ.ne.ɔː"
+        ],
+        [
+          "130",
+          "to squeeze",
+          "exprimō",
+          "exprimo",
+          "ˈɛks̠.pri.mɔː"
+        ],
+        [
+          "131",
+          "to rub",
+          "fricō, terō",
+          "frico, tero",
+          "ˈfri.kɔː, ˈt̪ɛ.rɔː"
+        ],
+        [
+          "132",
+          "to wash",
+          "lavō",
+          "lavo",
+          "ˈla.wɔː"
+        ],
+        [
+          "133",
+          "to wipe",
+          "tergeō",
+          "tergeo",
+          "ˈt̪ɛr.ɡe.ɔː"
+        ],
+        [
+          "134",
+          "to pull",
+          "trahō",
+          "traho",
+          "ˈt̪ra.(ɦ)ɔː"
+        ],
+        [
+          "135",
+          "to push",
+          "pellō",
+          "pello",
+          "ˈpɛl.lɔː"
+        ],
+        [
+          "136",
+          "to throw",
+          "iaciō",
+          "iacio",
+          "ˈja.ki.ɔː"
+        ],
+        [
+          "137",
+          "to tie",
+          "ligō",
+          "ligo",
+          "ˈli.ɡɔː"
+        ],
+        [
+          "138",
+          "to sew",
+          "cōnsuō",
+          "consvo",
+          "ˈkõː.s̠u.ɔː"
+        ],
+        [
+          "139",
+          "to count",
+          "computō, numerō",
+          "compvto, nvmero",
+          "ˈkɔm.pu.t̪ɔː, ˈnu.mɛ.rɔː"
+        ],
+        [
+          "140",
+          "to say",
+          "dīcō",
+          "dico",
+          "ˈd̪iː.kɔː"
+        ],
+        [
+          "141",
+          "to sing",
+          "canō",
+          "cano",
+          "ˈka.nɔː"
+        ],
+        [
+          "142",
+          "to play",
+          "lūdō",
+          "lvdo",
+          "ˈluː.d̪ɔː"
+        ],
+        [
+          "143",
+          "to float",
+          "flūctuō, flūitō",
+          "flvctvo, flvito",
+          "ˈfluːk.t̪u.ɔː, ˈflu.i.t̪ɔː"
+        ],
+        [
+          "144",
+          "to flow",
+          "fluō",
+          "flvo",
+          "ˈflu.ɔː"
+        ],
+        [
+          "145",
+          "to freeze",
+          "gelō",
+          "gelo",
+          "ˈɡɛ.lɔː"
+        ],
+        [
+          "146",
+          "to swell",
+          "augeō, tumeō",
+          "avgeo, tvmeo",
+          "ˈau̯.ɡe.ɔː, ˈt̪u.me.ɔː"
+        ],
+        [
+          "147",
+          "sun",
+          "sōl",
+          "sol",
+          "s̠ɔːl"
+        ],
+        [
+          "148",
+          "moon",
+          "lūna",
+          "lvna",
+          "ˈluː.na"
+        ],
+        [
+          "149",
+          "star",
+          "stēlla",
+          "stella",
+          "ˈs̠t̪ɛːl.la"
+        ],
+        [
+          "150",
+          "water",
+          "aqua",
+          "aqva",
+          "ˈa.kʷa"
+        ],
+        [
+          "151",
+          "rain",
+          "pluvia",
+          "plvvia",
+          "ˈplu.wi.a"
+        ],
+        [
+          "152",
+          "river",
+          "flūmen, fluvius, amnis",
+          "flvmen, flvvivs, amnis",
+          "ˈfluː.mɛn, ˈflu.wi.us̠, ˈam.nis̠"
+        ],
+        [
+          "153",
+          "lake",
+          "lacus",
+          "lacvs",
+          "ˈla.kus̠"
+        ],
+        [
+          "154",
+          "sea",
+          "mare",
+          "mare",
+          "ˈma.rɛ"
+        ],
+        [
+          "155",
+          "salt",
+          "sāl",
+          "sal",
+          "s̠aːl"
+        ],
+        [
+          "156",
+          "stone",
+          "saxum, lapis, petra",
+          "saxvm, lapis, petra",
+          "ˈs̠ak.s̠ũ, ˈla.pis̠, ˈpɛ.t̪ra"
+        ],
+        [
+          "157",
+          "sand",
+          "harēna",
+          "harena",
+          "häˈrɛː.na"
+        ],
+        [
+          "158",
+          "dust",
+          "pulvis",
+          "pvlvis",
+          "ˈpul.wis̠"
+        ],
+        [
+          "159",
+          "earth",
+          "humus, terra, ager",
+          "hvmvs, terra, ager",
+          "ˈhu.mus̠, ˈtɛr.ra, ˈa.ɡɛr"
+        ],
+        [
+          "160",
+          "cloud",
+          "nūbēs, nebula",
+          "nvbes, nebvla",
+          "ˈnuː.bɛːs̠, ˈnɛ.bu.la"
+        ],
+        [
+          "161",
+          "fog",
+          "cālīgō, nebula, tenebrae",
+          "caligo, nebvla, tenebrae",
+          "kaːˈliː.ɡɔː, ˈnɛ.bu.la, ˈt̪ɛ.nɛ.brae̞̯"
+        ],
+        [
+          "162",
+          "sky",
+          "caelum",
+          "caelvm",
+          "ˈkae̞̯.lũ"
+        ],
+        [
+          "163",
+          "wind",
+          "ventus",
+          "ventvs",
+          "ˈwɛn̪.t̪us̠"
+        ],
+        [
+          "164",
+          "snow",
+          "nix",
+          "nix",
+          "niks̠"
+        ],
+        [
+          "165",
+          "ice",
+          "gelū",
+          "gelv",
+          "ˈɡɛ.luː"
+        ],
+        [
+          "166",
+          "smoke",
+          "fūmus",
+          "fvmvs",
+          "ˈfuː.mus̠"
+        ],
+        [
+          "167",
+          "fire",
+          "ignis",
+          "ignis",
+          "ˈiŋ.nis̠"
+        ],
+        [
+          "168",
+          "ash",
+          "cinis",
+          "cinis",
+          "ˈki.nis̠"
+        ],
+        [
+          "169",
+          "to burn",
+          "ūrō, flammō",
+          "vro, flammo",
+          "ˈuː.rɔː, ˈflam.mɔː"
+        ],
+        [
+          "170",
+          "road",
+          "via",
+          "via",
+          "ˈwi.a"
+        ],
+        [
+          "171",
+          "mountain",
+          "mōns",
+          "mons",
+          "mõːs̠"
+        ],
+        [
+          "172",
+          "red",
+          "ruber, rūfus",
+          "rvber, rvfvs",
+          "ˈru.bɛr, ˈruː.fus̠"
+        ],
+        [
+          "173",
+          "green",
+          "viridis",
+          "viridis",
+          "ˈwi.ri.d̪is̠"
+        ],
+        [
+          "174",
+          "yellow",
+          "croceus, flāvus",
+          "crocevs, flavvs",
+          "ˈkrɔ.ke.us̠, ˈflaː.wus̠"
+        ],
+        [
+          "175",
+          "white",
+          "albus, candidus",
+          "albvs, candidvs",
+          "ˈal.bus̠, ˈkan̪.d̪i.d̪us̠"
+        ],
+        [
+          "176",
+          "black",
+          "āter, niger",
+          "ater, niger",
+          "ˈaː.tɛr, ˈni.ɡɛr"
+        ],
+        [
+          "177",
+          "night",
+          "nox",
+          "nox",
+          "nɔks̠"
+        ],
+        [
+          "178",
+          "day",
+          "diēs",
+          "dies",
+          "ˈdi.ɛːs̠"
+        ],
+        [
+          "179",
+          "year",
+          "annus",
+          "annvs",
+          "ˈan.nus̠"
+        ],
+        [
+          "180",
+          "warm",
+          "calidus",
+          "calidvs",
+          "ˈka.li.d̪us̠"
+        ],
+        [
+          "181",
+          "cold",
+          "frīgidus",
+          "frigidvs",
+          "ˈfriː.ɡi.d̪us̠"
+        ],
+        [
+          "182",
+          "full",
+          "plēnus",
+          "plenvs",
+          "ˈplɛː.nus̠"
+        ],
+        [
+          "183",
+          "new",
+          "novus",
+          "novvs",
+          "ˈnɔ.wus̠"
+        ],
+        [
+          "184",
+          "old",
+          "vetus",
+          "vetvs",
+          "ˈwɛ.t̪us̠"
+        ],
+        [
+          "185",
+          "good",
+          "bonus",
+          "bonvs",
+          "ˈbɔ.nus̠"
+        ],
+        [
+          "186",
+          "bad",
+          "malus",
+          "malvs",
+          "ˈma.lus̠"
+        ],
+        [
+          "187",
+          "rotten",
+          "putridus",
+          "pvtridvs",
+          "ˈpu.t̪ri.d̪us̠"
+        ],
+        [
+          "188",
+          "dirty",
+          "sordidus, immundus",
+          "sordidvs, immvndvs",
+          "ˈs̠ɔr.d̪i.d̪us̠, imˈmun̪.d̪us̠"
+        ],
+        [
+          "189",
+          "straight",
+          "rēctus",
+          "rectvs",
+          "ˈrɛːk.t̪us̠"
+        ],
+        [
+          "190",
+          "round",
+          "rotundus",
+          "rotvndvs",
+          "rɔˈt̪un̪.d̪us̠"
+        ],
+        [
+          "191",
+          "sharp (as a knife)",
+          "acūtus",
+          "acvtvs",
+          "aˈkuː.t̪us̠"
+        ],
+        [
+          "192",
+          "dull (as a knife)",
+          "hebes, retūsus",
+          "hebes, retvsvs",
+          "ˈhɛ.bɛs̠, rɛˈt̪uː.s̠us̠"
+        ],
+        [
+          "193",
+          "smooth",
+          "suāvis",
+          "svavis",
+          "s̠uˈaː.wis̠"
+        ],
+        [
+          "194",
+          "wet",
+          "ūmidus, aqueus",
+          "vmidvs, aqvevs",
+          "ˈuː.mi.d̪us̠, ˈa.kʷe.us̠"
+        ],
+        [
+          "195",
+          "dry",
+          "siccus",
+          "siccvs",
+          "ˈs̠ik.kus̠"
+        ],
+        [
+          "196",
+          "correct",
+          "rēctus",
+          "rectvs",
+          "ˈrɛːk.t̪us̠"
+        ],
+        [
+          "197",
+          "near",
+          "propinquus, proximus",
+          "propinqvvs, proximvs",
+          "prɔˈpiŋ.kus̠, ˈprɔk.s̠i.mus̠"
+        ],
+        [
+          "198",
+          "far",
+          "longus",
+          "longvs",
+          "ˈlɔŋ.ɡus̠"
+        ],
+        [
+          "199",
+          "right",
+          "dexter",
+          "dexter",
+          "ˈd̪ɛks̠.t̪ɛr"
+        ],
+        [
+          "200",
+          "left",
+          "laevus, sinister",
+          "laevvs, sinister",
+          "ˈlae̞̯.wus̠, s̠iˈnis̠.t̪ɛr"
+        ],
+        [
+          "201",
+          "at",
+          "ad, in",
+          "ad, in",
+          "ad, in"
+        ],
+        [
+          "202",
+          "in",
+          "in",
+          "in",
+          "in"
+        ],
+        [
+          "203",
+          "with",
+          "cum",
+          "cvm",
+          "kũ"
+        ],
+        [
+          "204",
+          "and",
+          "et, -que",
+          "et, -qve",
+          "ɛt̪, -kʷɛ"
+        ],
+        [
+          "205",
+          "if",
+          "sī",
+          "si",
+          "s̠iː"
+        ],
+        [
+          "206",
+          "because",
+          "quod",
+          "qvod",
+          "kʷɔd̪"
+        ],
+        [
+          "207",
+          "name",
+          "nōmen",
+          "nomen",
+          "ˈnɔː.mɛn"
+        ]
+      ]
+    },
+    {
+      "id": "wiktionary-swadesh-fr",
+      "language": "fr",
+      "url": "https://en.wiktionary.org/wiki/Appendix:French_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:30.147863+00:00",
+      "revisionId": "77634129",
+      "sha256": "8368a16aadc6d0aef63ee9b17547f07a23c71a967e55acd7567d6560a25379f7",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/fr.html",
+      "attribution": "Wiktionary contributors, Appendix:French Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed",
+      "rows": [
+        [
+          "№",
+          "English",
+          "French; Français;",
+          "IPA; (key)"
+        ],
+        [
+          "1",
+          "I (1sg)",
+          "je",
+          "/ʒə/"
+        ],
+        [
+          "2",
+          "you (2sg)",
+          "tu (informal), vous (formal)",
+          "/ty/, /vu/"
+        ],
+        [
+          "3",
+          "he, she, it (3sg)",
+          "il (masculine), elle (feminine)",
+          "/il/, /ɛl/"
+        ],
+        [
+          "4",
+          "we (1pl)",
+          "nous",
+          "/nu/"
+        ],
+        [
+          "5",
+          "you (2pl)",
+          "vous",
+          "/vu/"
+        ],
+        [
+          "6",
+          "they (3pl)",
+          "ils (masculine), elles (feminine)",
+          "/il/, /ɛl/"
+        ],
+        [
+          "7",
+          "this",
+          "ceci",
+          "/sə.si/"
+        ],
+        [
+          "8",
+          "that",
+          "cela",
+          "/sə.la/"
+        ],
+        [
+          "9",
+          "here",
+          "ici",
+          "/i.si/"
+        ],
+        [
+          "10",
+          "there",
+          "là",
+          "/la/"
+        ],
+        [
+          "11",
+          "who",
+          "qui",
+          "/ki/"
+        ],
+        [
+          "12",
+          "what",
+          "quoi",
+          "/kwa/"
+        ],
+        [
+          "13",
+          "where",
+          "où",
+          "/u/"
+        ],
+        [
+          "14",
+          "when",
+          "quand",
+          "/kɑ̃/"
+        ],
+        [
+          "15",
+          "how",
+          "comment",
+          "/kɔ.mɑ̃/"
+        ],
+        [
+          "16",
+          "not",
+          "ne pas",
+          "/nə ... pɑ/"
+        ],
+        [
+          "17",
+          "all",
+          "tout",
+          "/tu/"
+        ],
+        [
+          "18",
+          "many",
+          "beaucoup",
+          "/bo.ku/"
+        ],
+        [
+          "19",
+          "some",
+          "quelques",
+          "/kɛlk/"
+        ],
+        [
+          "20",
+          "few",
+          "peu",
+          "/pø/"
+        ],
+        [
+          "21",
+          "other",
+          "autre",
+          "/otʁ/"
+        ],
+        [
+          "22",
+          "one",
+          "un",
+          "/œ̃/"
+        ],
+        [
+          "23",
+          "two",
+          "deux",
+          "/dø/"
+        ],
+        [
+          "24",
+          "three",
+          "trois",
+          "/tʁwɑ/"
+        ],
+        [
+          "25",
+          "four",
+          "quatre",
+          "/katʁ/"
+        ],
+        [
+          "26",
+          "five",
+          "cinq",
+          "/sɛ̃k/"
+        ],
+        [
+          "27",
+          "big",
+          "grand",
+          "/ɡʁɑ̃/"
+        ],
+        [
+          "28",
+          "long",
+          "long",
+          "/lɔ̃/"
+        ],
+        [
+          "29",
+          "wide",
+          "large",
+          "/laʁʒ/"
+        ],
+        [
+          "30",
+          "thick",
+          "épais",
+          "/epɛ/"
+        ],
+        [
+          "31",
+          "heavy",
+          "lourd",
+          "/luʁ/"
+        ],
+        [
+          "32",
+          "small",
+          "petit",
+          "/pəti/"
+        ],
+        [
+          "33",
+          "short",
+          "court",
+          "/kuʁ/"
+        ],
+        [
+          "34",
+          "narrow",
+          "étroit",
+          "/etʁwa/"
+        ],
+        [
+          "35",
+          "thin",
+          "mince",
+          "/mɛ̃s/"
+        ],
+        [
+          "36",
+          "woman",
+          "femme",
+          "/fam/"
+        ],
+        [
+          "37",
+          "man (adult male)",
+          "homme",
+          "/ɔm/"
+        ],
+        [
+          "38",
+          "man (human being)",
+          "homme",
+          "/ɔm/"
+        ],
+        [
+          "39",
+          "child",
+          "enfant",
+          "/ɑ̃fɑ̃/"
+        ],
+        [
+          "40",
+          "wife",
+          "femme, épouse",
+          "/fam/, /epuz/"
+        ],
+        [
+          "41",
+          "husband",
+          "mari, époux",
+          "/maʁi/, /epu/"
+        ],
+        [
+          "42",
+          "mother",
+          "mère",
+          "/mɛʁ/"
+        ],
+        [
+          "43",
+          "father",
+          "père",
+          "/pɛʁ/"
+        ],
+        [
+          "44",
+          "animal",
+          "animal",
+          "/animal/"
+        ],
+        [
+          "45",
+          "fish",
+          "poisson",
+          "/pwasɔ̃/"
+        ],
+        [
+          "46",
+          "bird",
+          "oiseau",
+          "/wazo/"
+        ],
+        [
+          "47",
+          "dog",
+          "chien",
+          "/ʃjɛ̃/"
+        ],
+        [
+          "48",
+          "louse",
+          "pou",
+          "/pu/"
+        ],
+        [
+          "49",
+          "snake",
+          "serpent",
+          "/sɛʁpɑ̃/"
+        ],
+        [
+          "50",
+          "worm",
+          "ver",
+          "/vɛʁ/"
+        ],
+        [
+          "51",
+          "tree",
+          "arbre",
+          "/aʁbʁ/"
+        ],
+        [
+          "52",
+          "forest",
+          "forêt",
+          "/fɔʁɛ/"
+        ],
+        [
+          "53",
+          "stick",
+          "bâton",
+          "/bɑtɔ̃/"
+        ],
+        [
+          "54",
+          "fruit",
+          "fruit",
+          "/fʁɥi/"
+        ],
+        [
+          "55",
+          "seed",
+          "graine",
+          "/ɡʁɛn/"
+        ],
+        [
+          "56",
+          "leaf",
+          "feuille",
+          "/fœj/"
+        ],
+        [
+          "57",
+          "root",
+          "racine",
+          "/ʁasin/"
+        ],
+        [
+          "58",
+          "bark (of a tree)",
+          "écorce",
+          "/ekɔʁs/"
+        ],
+        [
+          "59",
+          "flower",
+          "fleur",
+          "/flœʁ/"
+        ],
+        [
+          "60",
+          "grass",
+          "herbe",
+          "/ɛʁb/"
+        ],
+        [
+          "61",
+          "rope",
+          "corde",
+          "/kɔʁd/"
+        ],
+        [
+          "62",
+          "skin",
+          "peau",
+          "/po/"
+        ],
+        [
+          "63",
+          "meat",
+          "viande",
+          "/vjɑ̃d/"
+        ],
+        [
+          "64",
+          "blood",
+          "sang",
+          "/sɑ̃/"
+        ],
+        [
+          "65",
+          "bone",
+          "os",
+          "/ɔs/"
+        ],
+        [
+          "66",
+          "fat (noun)",
+          "graisse",
+          "/ɡʁɛs/"
+        ],
+        [
+          "67",
+          "egg",
+          "œuf",
+          "/œf/"
+        ],
+        [
+          "68",
+          "horn",
+          "corne",
+          "/kɔʁn/"
+        ],
+        [
+          "69",
+          "tail",
+          "queue",
+          "/kø/"
+        ],
+        [
+          "70",
+          "feather",
+          "plume",
+          "/plym/"
+        ],
+        [
+          "71",
+          "hair",
+          "cheveux",
+          "/ʃəvø/"
+        ],
+        [
+          "72",
+          "head",
+          "tête",
+          "/tɛt/"
+        ],
+        [
+          "73",
+          "ear",
+          "oreille",
+          "/ɔʁɛj/"
+        ],
+        [
+          "74",
+          "eye",
+          "œil",
+          "/œj/"
+        ],
+        [
+          "75",
+          "nose",
+          "nez",
+          "/ne/"
+        ],
+        [
+          "76",
+          "mouth",
+          "bouche",
+          "/buʃ/"
+        ],
+        [
+          "77",
+          "tooth",
+          "dent",
+          "/dɑ̃/"
+        ],
+        [
+          "78",
+          "tongue (organ)",
+          "langue",
+          "/lɑ̃ɡ/"
+        ],
+        [
+          "79",
+          "fingernail",
+          "ongle",
+          "/ɔ̃ɡl/"
+        ],
+        [
+          "80",
+          "foot",
+          "pied",
+          "/pje/"
+        ],
+        [
+          "81",
+          "leg",
+          "jambe",
+          "/ʒɑ̃b/"
+        ],
+        [
+          "82",
+          "knee",
+          "genou",
+          "/ʒənu/"
+        ],
+        [
+          "83",
+          "hand",
+          "main",
+          "/mɛ̃/"
+        ],
+        [
+          "84",
+          "wing",
+          "aile",
+          "/ɛl/"
+        ],
+        [
+          "85",
+          "belly",
+          "ventre",
+          "/vɑ̃tʁ/"
+        ],
+        [
+          "86",
+          "guts",
+          "entrailles, intestins",
+          "/ɑ̃tʁɑj/, /ɛ̃tɛstɛ̃/"
+        ],
+        [
+          "87",
+          "neck",
+          "cou",
+          "/ku/"
+        ],
+        [
+          "88",
+          "back",
+          "dos",
+          "/do/"
+        ],
+        [
+          "89",
+          "breast",
+          "sein, poitrine",
+          "/sɛ̃/, /pwatʁin/"
+        ],
+        [
+          "90",
+          "heart",
+          "cœur",
+          "/kœʁ/"
+        ],
+        [
+          "91",
+          "liver",
+          "foie",
+          "/fwɑ/"
+        ],
+        [
+          "92",
+          "to drink",
+          "boire",
+          "/bwɑʁ/"
+        ],
+        [
+          "93",
+          "to eat",
+          "manger",
+          "/mɑ̃ʒe/"
+        ],
+        [
+          "94",
+          "to bite",
+          "mordre",
+          "/mɔʁdʁ/"
+        ],
+        [
+          "95",
+          "to suck",
+          "sucer",
+          "/syse/"
+        ],
+        [
+          "96",
+          "to spit",
+          "cracher",
+          "/kʁaʃe/"
+        ],
+        [
+          "97",
+          "to vomit",
+          "vomir",
+          "/vɔmiʁ/"
+        ],
+        [
+          "98",
+          "to blow",
+          "souffler",
+          "/sufle/"
+        ],
+        [
+          "99",
+          "to breathe",
+          "respirer",
+          "/ʁɛspiʁe/"
+        ],
+        [
+          "100",
+          "to laugh",
+          "rire",
+          "/ʁiʁ/"
+        ],
+        [
+          "101",
+          "to see",
+          "voir",
+          "/vwaʁ/"
+        ],
+        [
+          "102",
+          "to hear",
+          "entendre",
+          "/ɑ̃tɑ̃dʁ/"
+        ],
+        [
+          "103",
+          "to know",
+          "savoir",
+          "/savwaʁ/"
+        ],
+        [
+          "104",
+          "to think",
+          "penser",
+          "/pɑ̃se/"
+        ],
+        [
+          "105",
+          "to smell",
+          "sentir",
+          "/sɑ̃tiʁ/"
+        ],
+        [
+          "106",
+          "to fear",
+          "craindre",
+          "/kʁɛ̃dʁ/"
+        ],
+        [
+          "107",
+          "to sleep",
+          "dormir",
+          "/dɔʁmiʁ/"
+        ],
+        [
+          "108",
+          "to live",
+          "vivre",
+          "/vivʁ/"
+        ],
+        [
+          "109",
+          "to die",
+          "mourir",
+          "/muʁiʁ/"
+        ],
+        [
+          "110",
+          "to kill",
+          "tuer",
+          "/tɥe/"
+        ],
+        [
+          "111",
+          "to fight",
+          "se battre",
+          "/səbatʁ/"
+        ],
+        [
+          "112",
+          "to hunt",
+          "chasser",
+          "/ʃase/"
+        ],
+        [
+          "113",
+          "to hit",
+          "frapper",
+          "/fʁape/"
+        ],
+        [
+          "114",
+          "to cut",
+          "couper",
+          "/kupe/"
+        ],
+        [
+          "115",
+          "to split",
+          "fendre",
+          "/fɑ̃dʁ/"
+        ],
+        [
+          "116",
+          "to stab",
+          "poignarder",
+          "/pwaɲaʁde/"
+        ],
+        [
+          "117",
+          "to scratch",
+          "gratter",
+          "/ɡʁate/"
+        ],
+        [
+          "118",
+          "to dig",
+          "creuser",
+          "/kʁøze/"
+        ],
+        [
+          "119",
+          "to swim",
+          "nager",
+          "/naʒe/"
+        ],
+        [
+          "120",
+          "to fly",
+          "voler",
+          "/vɔle/"
+        ],
+        [
+          "121",
+          "to walk",
+          "marcher",
+          "/maʁʃe/"
+        ],
+        [
+          "122",
+          "to come",
+          "venir",
+          "/vəniʁ/"
+        ],
+        [
+          "123",
+          "to lie (as in a bed)",
+          "s'étendre (action)",
+          "/setɑ̃dʁ/"
+        ],
+        [
+          "124",
+          "to sit",
+          "s'asseoir (action)",
+          "/saswaʁ/"
+        ],
+        [
+          "125",
+          "to stand",
+          "se lever (action)",
+          "/sələve/"
+        ],
+        [
+          "126",
+          "to turn (intransitive)",
+          "tourner",
+          "/tuʁne/"
+        ],
+        [
+          "127",
+          "to fall",
+          "tomber",
+          "/tɔ̃be/"
+        ],
+        [
+          "128",
+          "to give",
+          "donner",
+          "/dɔne/"
+        ],
+        [
+          "129",
+          "to hold",
+          "tenir",
+          "/təniʁ/"
+        ],
+        [
+          "130",
+          "to squeeze",
+          "serrer",
+          "/seʁe/"
+        ],
+        [
+          "131",
+          "to rub",
+          "frotter",
+          "/fʁɔte/"
+        ],
+        [
+          "132",
+          "to wash",
+          "laver",
+          "/lave/"
+        ],
+        [
+          "133",
+          "to wipe",
+          "essuyer",
+          "/esɥije/"
+        ],
+        [
+          "134",
+          "to pull",
+          "tirer",
+          "/tiʁe/"
+        ],
+        [
+          "135",
+          "to push",
+          "pousser",
+          "/puse/"
+        ],
+        [
+          "136",
+          "to throw",
+          "jeter, lancer",
+          "/ʒəte/, /lɑ̃se/"
+        ],
+        [
+          "137",
+          "to tie",
+          "lier",
+          "/lje/"
+        ],
+        [
+          "138",
+          "to sew",
+          "coudre",
+          "/kudʁ/"
+        ],
+        [
+          "139",
+          "to count",
+          "compter",
+          "/kɔ̃te/"
+        ],
+        [
+          "140",
+          "to say",
+          "dire",
+          "/diʁ/"
+        ],
+        [
+          "141",
+          "to sing",
+          "chanter",
+          "/ʃɑ̃te/"
+        ],
+        [
+          "142",
+          "to play",
+          "jouer",
+          "/ʒwe/"
+        ],
+        [
+          "143",
+          "to float",
+          "flotter",
+          "/flɔte/"
+        ],
+        [
+          "144",
+          "to flow",
+          "couler",
+          "/kule/"
+        ],
+        [
+          "145",
+          "to freeze",
+          "geler",
+          "/ʒəle/"
+        ],
+        [
+          "146",
+          "to swell",
+          "gonfler",
+          "/ɡɔ̃fle/"
+        ],
+        [
+          "147",
+          "sun",
+          "soleil",
+          "/sɔlɛj/"
+        ],
+        [
+          "148",
+          "moon",
+          "lune",
+          "/lyn/"
+        ],
+        [
+          "149",
+          "star",
+          "étoile",
+          "/etwal/"
+        ],
+        [
+          "150",
+          "water",
+          "eau",
+          "/o/"
+        ],
+        [
+          "151",
+          "rain",
+          "pluie",
+          "/plɥi/"
+        ],
+        [
+          "152",
+          "river",
+          "rivière",
+          "/ʁivjɛʁ/"
+        ],
+        [
+          "153",
+          "lake",
+          "lac",
+          "/lak/"
+        ],
+        [
+          "154",
+          "sea",
+          "mer",
+          "/mɛʁ/"
+        ],
+        [
+          "155",
+          "salt",
+          "sel",
+          "/sɛl/"
+        ],
+        [
+          "156",
+          "stone",
+          "pierre",
+          "/pjɛʁ/"
+        ],
+        [
+          "157",
+          "sand",
+          "sable",
+          "/sabl/"
+        ],
+        [
+          "158",
+          "dust",
+          "poussière",
+          "/pusjɛʁ/"
+        ],
+        [
+          "159",
+          "earth",
+          "terre",
+          "/tɛʁ/"
+        ],
+        [
+          "160",
+          "cloud",
+          "nuage",
+          "/nɥaʒ/"
+        ],
+        [
+          "161",
+          "fog",
+          "brouillard",
+          "/bʁujaʁ/"
+        ],
+        [
+          "162",
+          "sky",
+          "ciel",
+          "/sjɛl/"
+        ],
+        [
+          "163",
+          "wind",
+          "vent",
+          "/vɑ̃/"
+        ],
+        [
+          "164",
+          "snow",
+          "neige",
+          "/nɛʒ/"
+        ],
+        [
+          "165",
+          "ice",
+          "glace",
+          "/ɡlas/"
+        ],
+        [
+          "166",
+          "smoke",
+          "fumée",
+          "/fyme/"
+        ],
+        [
+          "167",
+          "fire",
+          "feu",
+          "/fø/"
+        ],
+        [
+          "168",
+          "ash",
+          "cendre",
+          "/sɑ̃dʁ/"
+        ],
+        [
+          "169",
+          "to burn",
+          "brûler",
+          "/bʁyle/"
+        ],
+        [
+          "170",
+          "road",
+          "route",
+          "/ʁut/"
+        ],
+        [
+          "171",
+          "mountain",
+          "montagne",
+          "/mɔ̃taɲ/"
+        ],
+        [
+          "172",
+          "red",
+          "rouge",
+          "/ʁuʒ/"
+        ],
+        [
+          "173",
+          "green",
+          "vert",
+          "/vɛʁ/"
+        ],
+        [
+          "174",
+          "yellow",
+          "jaune",
+          "/ʒon/"
+        ],
+        [
+          "175",
+          "white",
+          "blanc",
+          "/blɑ̃/"
+        ],
+        [
+          "176",
+          "black",
+          "noir",
+          "/nwaʁ/"
+        ],
+        [
+          "177",
+          "night",
+          "nuit",
+          "/nɥi/"
+        ],
+        [
+          "178",
+          "day",
+          "jour",
+          "/ʒuʁ/"
+        ],
+        [
+          "179",
+          "year",
+          "an, année",
+          "/ɑ̃/, /ane/"
+        ],
+        [
+          "180",
+          "warm",
+          "chaud",
+          "/ʃo/"
+        ],
+        [
+          "181",
+          "cold",
+          "froid",
+          "/fʁwa/"
+        ],
+        [
+          "182",
+          "full",
+          "plein",
+          "/plɛ̃/"
+        ],
+        [
+          "183",
+          "new",
+          "nouveau, neuf",
+          "/nuvo/, /nœf/"
+        ],
+        [
+          "184",
+          "old",
+          "vieux",
+          "/vjø/"
+        ],
+        [
+          "185",
+          "good",
+          "bon",
+          "/bɔ̃/"
+        ],
+        [
+          "186",
+          "bad",
+          "mauvais",
+          "/movɛ/"
+        ],
+        [
+          "187",
+          "rotten",
+          "pourri",
+          "/puʁi/"
+        ],
+        [
+          "188",
+          "dirty",
+          "sale",
+          "/sal/"
+        ],
+        [
+          "189",
+          "straight",
+          "droit",
+          "/dʁwa/"
+        ],
+        [
+          "190",
+          "round",
+          "rond",
+          "/ʁɔ̃/"
+        ],
+        [
+          "191",
+          "sharp (as a knife)",
+          "tranchant",
+          "/tʁɑ̃ʃɑ̃/"
+        ],
+        [
+          "192",
+          "dull (as a knife)",
+          "émoussé",
+          "/emuse/"
+        ],
+        [
+          "193",
+          "smooth",
+          "lisse",
+          "/lis/"
+        ],
+        [
+          "194",
+          "wet",
+          "mouillé",
+          "/muje/"
+        ],
+        [
+          "195",
+          "dry",
+          "sec",
+          "/sɛk/"
+        ],
+        [
+          "196",
+          "correct",
+          "juste",
+          "/ʒyst/"
+        ],
+        [
+          "197",
+          "near",
+          "près",
+          "/pʁɛ/"
+        ],
+        [
+          "198",
+          "far",
+          "loin",
+          "/lwɛ̃/"
+        ],
+        [
+          "199",
+          "right",
+          "droite",
+          "/dʁwat/"
+        ],
+        [
+          "200",
+          "left",
+          "gauche",
+          "/ɡoʃ/"
+        ],
+        [
+          "201",
+          "at",
+          "à",
+          "/a/"
+        ],
+        [
+          "202",
+          "in",
+          "dans",
+          "/dɑ̃/"
+        ],
+        [
+          "203",
+          "with",
+          "avec",
+          "/avɛk/"
+        ],
+        [
+          "204",
+          "and",
+          "et",
+          "/e/"
+        ],
+        [
+          "205",
+          "if",
+          "si",
+          "/si/"
+        ],
+        [
+          "206",
+          "because",
+          "parce que",
+          "/paʁsəkə/"
+        ],
+        [
+          "207",
+          "name",
+          "nom",
+          "/nɔ̃/"
+        ]
+      ]
+    },
+    {
+      "id": "wiktionary-swadesh-de",
+      "language": "de",
+      "url": "https://en.wiktionary.org/wiki/Appendix:German_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:31.330327+00:00",
+      "revisionId": "66056579",
+      "sha256": "b0f1085dcb1bdbadf0e13f93e0f976049d96a35607506596b7e57215aeba0be1",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/de.html",
+      "attribution": "Wiktionary contributors, Appendix:German Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed",
+      "rows": [
+        [
+          "№",
+          "English",
+          "German; Deutsch;",
+          "IPA; (key)"
+        ],
+        [
+          "1",
+          "I (1sg)",
+          "ich",
+          "/ɪç/"
+        ],
+        [
+          "2",
+          "you (2sg)",
+          "du, Sie",
+          "/duː/, /ziː/"
+        ],
+        [
+          "3",
+          "he, she, it (3sg)",
+          "er, sie, es",
+          "/eːɐ̯/, /ziː/, /ɛs/"
+        ],
+        [
+          "4",
+          "we (1pl)",
+          "wir",
+          "/viːɐ̯/"
+        ],
+        [
+          "5",
+          "you (2pl)",
+          "ihr, Sie",
+          "/iːɐ̯/, /ziː/"
+        ],
+        [
+          "6",
+          "they (3pl)",
+          "sie",
+          "/ziː/"
+        ],
+        [
+          "7",
+          "this",
+          "dieser, diese, dieses, dies",
+          "/ˈdiːzɐ/, /ˈdiːzə/, /ˈdiːzəs/, /diːs/"
+        ],
+        [
+          "8",
+          "that",
+          "der, die, das, jener, jene, jenes",
+          "/deːɐ̯/, /diː/, /das/, /ˈjeːnɐ/, /ˈjeːnə/, /ˈjeːnəs/"
+        ],
+        [
+          "9",
+          "here",
+          "hier",
+          "/hiːɐ̯/"
+        ],
+        [
+          "10",
+          "there",
+          "da, dort",
+          "/daː/, /dɔʁt/"
+        ],
+        [
+          "11",
+          "who",
+          "wer",
+          "/veːɐ̯/"
+        ],
+        [
+          "12",
+          "what",
+          "was",
+          "/vas/"
+        ],
+        [
+          "13",
+          "where",
+          "wo",
+          "/voː/"
+        ],
+        [
+          "14",
+          "when",
+          "wann",
+          "/van/"
+        ],
+        [
+          "15",
+          "how",
+          "wie",
+          "/viː/"
+        ],
+        [
+          "16",
+          "not",
+          "nicht",
+          "/nɪçt/"
+        ],
+        [
+          "17",
+          "all",
+          "alle",
+          "/ˈalə/"
+        ],
+        [
+          "18",
+          "many",
+          "viele",
+          "/ˈfiːlə/"
+        ],
+        [
+          "19",
+          "some",
+          "einige, manche",
+          "/ˈaɪ̯nɪɡə/, /mançə/"
+        ],
+        [
+          "20",
+          "few",
+          "wenig",
+          "/ˈveːnɪç/"
+        ],
+        [
+          "21",
+          "other",
+          "anderer",
+          "/ˈand(ə)ʁɐ/"
+        ],
+        [
+          "22",
+          "one",
+          "eins",
+          "/aɪ̯ns/"
+        ],
+        [
+          "23",
+          "two",
+          "zwei, zwo",
+          "/tsvaɪ̯/, /t͡svoː/"
+        ],
+        [
+          "24",
+          "three",
+          "drei",
+          "/dʁaɪ̯/"
+        ],
+        [
+          "25",
+          "four",
+          "vier",
+          "/fiːɐ̯/"
+        ],
+        [
+          "26",
+          "five",
+          "fünf",
+          "/fʏnf/"
+        ],
+        [
+          "27",
+          "big",
+          "groß",
+          "/ɡʁoːs/"
+        ],
+        [
+          "28",
+          "long",
+          "lang",
+          "/laŋ/"
+        ],
+        [
+          "29",
+          "wide",
+          "breit, weit",
+          "/bʁaɪ̯t/, /vaɪ̯t/"
+        ],
+        [
+          "30",
+          "thick",
+          "dick",
+          "/dɪk/"
+        ],
+        [
+          "31",
+          "heavy",
+          "schwer",
+          "/ʃveːɐ̯/"
+        ],
+        [
+          "32",
+          "small",
+          "klein",
+          "/klaɪ̯n/"
+        ],
+        [
+          "33",
+          "short",
+          "kurz",
+          "/kʊʁts/"
+        ],
+        [
+          "34",
+          "narrow",
+          "eng, schmal",
+          "/ɛŋ/, /ʃmaːl/"
+        ],
+        [
+          "35",
+          "thin",
+          "dünn",
+          "/dʏn/"
+        ],
+        [
+          "36",
+          "woman",
+          "Frau, Weib",
+          "/fʁaʊ̯/, /vaɪ̯p/"
+        ],
+        [
+          "37",
+          "man (adult male)",
+          "Mann",
+          "/man/"
+        ],
+        [
+          "38",
+          "man (human being)",
+          "Mensch",
+          "/mɛnʃ/"
+        ],
+        [
+          "39",
+          "child",
+          "Kind",
+          "/kɪnt/"
+        ],
+        [
+          "40",
+          "wife",
+          "Frau, Ehefrau",
+          "/fʁaʊ̯/, /ˈeːəfʁaʊ̯/"
+        ],
+        [
+          "41",
+          "husband",
+          "Mann, Ehemann",
+          "/man/, /ˈeːəman/"
+        ],
+        [
+          "42",
+          "mother",
+          "Mutter",
+          "/ˈmʊtɐ/"
+        ],
+        [
+          "43",
+          "father",
+          "Vater",
+          "/ˈfaːtɐ/"
+        ],
+        [
+          "44",
+          "animal",
+          "Tier",
+          "/tiːɐ̯/"
+        ],
+        [
+          "45",
+          "fish",
+          "Fisch",
+          "/fɪʃ/"
+        ],
+        [
+          "46",
+          "bird",
+          "Vogel",
+          "/ˈfoːɡəl/"
+        ],
+        [
+          "47",
+          "dog",
+          "Hund",
+          "/hʊnt/"
+        ],
+        [
+          "48",
+          "louse",
+          "Laus",
+          "/laʊ̯s/"
+        ],
+        [
+          "49",
+          "snake",
+          "Schlange",
+          "/ˈʃlaŋə/"
+        ],
+        [
+          "50",
+          "worm",
+          "Wurm",
+          "/vʊʁm/"
+        ],
+        [
+          "51",
+          "tree",
+          "Baum",
+          "/baʊ̯m/"
+        ],
+        [
+          "52",
+          "forest",
+          "Forst, Wald",
+          "/fɔɐ̯st/, /valt/"
+        ],
+        [
+          "53",
+          "stick",
+          "Stock",
+          "/ʃtɔk/"
+        ],
+        [
+          "54",
+          "fruit",
+          "Frucht, Obst",
+          "/fʁʊxt/, /oːpst/"
+        ],
+        [
+          "55",
+          "seed",
+          "Samen, Saat",
+          "/ˈzaːmən/, /zaːt/"
+        ],
+        [
+          "56",
+          "leaf",
+          "Blatt",
+          "/blat/"
+        ],
+        [
+          "57",
+          "root",
+          "Wurzel",
+          "/ˈvʊʁtsəl/"
+        ],
+        [
+          "58",
+          "bark (of a tree)",
+          "Borke, Rinde",
+          "/ˈbɔʁ.kə/, /ˈʁɪndə/"
+        ],
+        [
+          "59",
+          "flower",
+          "Blume",
+          "/ˈbluːmə/"
+        ],
+        [
+          "60",
+          "grass",
+          "Gras",
+          "/ɡʁaːs/"
+        ],
+        [
+          "61",
+          "rope",
+          "Leine, Seil, Strick",
+          "/ˈlaɪ̯nə/, /zaɪ̯l/, /ʃtʁɪk/"
+        ],
+        [
+          "62",
+          "skin",
+          "Haut",
+          "/haʊ̯t/"
+        ],
+        [
+          "63",
+          "meat",
+          "Fleisch",
+          "/flaɪ̯ʃ/"
+        ],
+        [
+          "64",
+          "blood",
+          "Blut",
+          "/bluːt/"
+        ],
+        [
+          "65",
+          "bone",
+          "Knochen",
+          "/ˈknɔxən/"
+        ],
+        [
+          "66",
+          "fat (noun)",
+          "Fett",
+          "/fɛt/"
+        ],
+        [
+          "67",
+          "egg",
+          "Ei",
+          "/aɪ̯/"
+        ],
+        [
+          "68",
+          "horn",
+          "Horn",
+          "/hɔʁn/"
+        ],
+        [
+          "69",
+          "tail",
+          "Schwanz, Schweif",
+          "/ʃvants/, /ʃvaɪ̯f/"
+        ],
+        [
+          "70",
+          "feather",
+          "Feder",
+          "/ˈfeːdɐ/"
+        ],
+        [
+          "71",
+          "hair",
+          "Haar",
+          "/haːɐ̯/"
+        ],
+        [
+          "72",
+          "head",
+          "Haupt, Kopf",
+          "/haʊ̯pt/, /kɔpf/"
+        ],
+        [
+          "73",
+          "ear",
+          "Ohr",
+          "/oːɐ̯/"
+        ],
+        [
+          "74",
+          "eye",
+          "Auge",
+          "/ˈaʊ̯ɡə/"
+        ],
+        [
+          "75",
+          "nose",
+          "Nase",
+          "/ˈnaːzə/"
+        ],
+        [
+          "76",
+          "mouth",
+          "Mund",
+          "/mʊnt/"
+        ],
+        [
+          "77",
+          "tooth",
+          "Zahn",
+          "/tsaːn/"
+        ],
+        [
+          "78",
+          "tongue (organ)",
+          "Zunge",
+          "/ˈtsʊŋə/"
+        ],
+        [
+          "79",
+          "fingernail",
+          "Fingernagel",
+          "/ˈfɪŋɐnaːɡəl/"
+        ],
+        [
+          "80",
+          "foot",
+          "Fuß",
+          "/fuːs/"
+        ],
+        [
+          "81",
+          "leg",
+          "Bein",
+          "/baɪ̯n/"
+        ],
+        [
+          "82",
+          "knee",
+          "Knie",
+          "/kniː/"
+        ],
+        [
+          "83",
+          "hand",
+          "Hand",
+          "/hant/"
+        ],
+        [
+          "84",
+          "wing",
+          "Fittich, Flügel, Schwinge",
+          "/ˈfɪtɪç/, /ˈflyːɡəl/, /ˈʃvɪŋə/"
+        ],
+        [
+          "85",
+          "belly",
+          "Bauch, Leib",
+          "/baʊ̯x/, /laɪ̯p/"
+        ],
+        [
+          "86",
+          "guts",
+          "Eingeweide, Gedärm, Innereien, Kaldaunen",
+          "/ˈaɪ̯nɡəvaɪ̯də/, /ɡəˈdɛrm/, /ɪnəˈʁaɪ̯ən/, /kalˈdaʊ̯nən/"
+        ],
+        [
+          "87",
+          "neck",
+          "Hals, Nacken",
+          "/hals/, /ˈnakən/"
+        ],
+        [
+          "88",
+          "back",
+          "Rücken",
+          "/ˈʁʏkən/"
+        ],
+        [
+          "89",
+          "breast",
+          "Brust, Busen",
+          "/bʁʊst/, /ˈbuːzn̩/"
+        ],
+        [
+          "90",
+          "heart",
+          "Herz",
+          "/hɛʁts/"
+        ],
+        [
+          "91",
+          "liver",
+          "Leber",
+          "/ˈleːbɐ/"
+        ],
+        [
+          "92",
+          "to drink",
+          "trinken",
+          "/ˈtʁɪŋkən/"
+        ],
+        [
+          "93",
+          "to eat",
+          "essen",
+          "/ˈɛsən/"
+        ],
+        [
+          "94",
+          "to bite",
+          "beißen",
+          "/ˈbaɪ̯sən/"
+        ],
+        [
+          "95",
+          "to suck",
+          "lutschen, saugen",
+          "/ˈlʊ.t͡ʃn̩/, /ˈzaʊ̯ɡən/"
+        ],
+        [
+          "96",
+          "to spit",
+          "speien, spucken",
+          "/ˈʃpaɪ̯ən/, /ˈʃpʊkən/"
+        ],
+        [
+          "97",
+          "to vomit",
+          "brechen, erbrechen",
+          "/ˈbʁɛçən/, /ɛɐ̯ˈbʁɛçən/"
+        ],
+        [
+          "98",
+          "to blow",
+          "blasen, pusten, wehen",
+          "/ˈblaːzən/, /ˈpuːstən/, /ˈveː.ən/"
+        ],
+        [
+          "99",
+          "to breathe",
+          "atmen",
+          "/ˈaːtmən/"
+        ],
+        [
+          "100",
+          "to laugh",
+          "lachen",
+          "/ˈlaxən/"
+        ],
+        [
+          "101",
+          "to see",
+          "sehen",
+          "/ˈzeːən/"
+        ],
+        [
+          "102",
+          "to hear",
+          "hören",
+          "/ˈhøːʁən/"
+        ],
+        [
+          "103",
+          "to know",
+          "kennen, wissen",
+          "/ˈkɛnən/, /ˈvɪsən/"
+        ],
+        [
+          "104",
+          "to think",
+          "denken",
+          "/ˈdɛŋkən/"
+        ],
+        [
+          "105",
+          "to smell",
+          "riechen",
+          "/ˈʁiːçən/"
+        ],
+        [
+          "106",
+          "to fear",
+          "fürchten",
+          "/ˈfʏʁçtən/"
+        ],
+        [
+          "107",
+          "to sleep",
+          "schlafen",
+          "/ˈʃlaːfən/"
+        ],
+        [
+          "108",
+          "to live",
+          "leben",
+          "/ˈleːbən/"
+        ],
+        [
+          "109",
+          "to die",
+          "sterben",
+          "/ˈʃtɛʁbən/"
+        ],
+        [
+          "110",
+          "to kill",
+          "töten, umbringen",
+          "/ˈtøːtən/, /ˈʔʊmˌbʁɪŋən/"
+        ],
+        [
+          "111",
+          "to fight",
+          "fechten, kämpfen",
+          "/ˈfɛçtən/, /ˈkɛmpfən/"
+        ],
+        [
+          "112",
+          "to hunt",
+          "jagen",
+          "/ˈjaːɡən/"
+        ],
+        [
+          "113",
+          "to hit",
+          "schlagen",
+          "/ˈʃlaːɡən/"
+        ],
+        [
+          "114",
+          "to cut",
+          "schneiden",
+          "/ˈʃnaɪ̯dən/"
+        ],
+        [
+          "115",
+          "to split",
+          "spalten, spleißen",
+          "/ˈʃpaltən/, /ˈʃplaɪ̯sn̩/"
+        ],
+        [
+          "116",
+          "to stab",
+          "stechen",
+          "/ˈʃtɛçən/"
+        ],
+        [
+          "117",
+          "to scratch",
+          "kratzen, ritzen, scharren",
+          "/ˈkʁatsən/, /ˈʁɪt͡sən/, /ˈʃaʁn̩/"
+        ],
+        [
+          "118",
+          "to dig",
+          "graben",
+          "/ˈɡʁaːbən/"
+        ],
+        [
+          "119",
+          "to swim",
+          "schwimmen",
+          "/ˈʃvɪmən/"
+        ],
+        [
+          "120",
+          "to fly",
+          "fliegen",
+          "/ˈfliːɡən/"
+        ],
+        [
+          "121",
+          "to walk",
+          "gehen",
+          "/ˈɡeːən/"
+        ],
+        [
+          "122",
+          "to come",
+          "kommen",
+          "/ˈkɔmən/"
+        ],
+        [
+          "123",
+          "to lie (as in a bed)",
+          "liegen",
+          "/ˈliːɡən/"
+        ],
+        [
+          "124",
+          "to sit",
+          "sitzen",
+          "/ˈzɪtsən/"
+        ],
+        [
+          "125",
+          "to stand",
+          "stehen",
+          "/ˈʃteːən/"
+        ],
+        [
+          "126",
+          "to turn (intransitive)",
+          "drehen",
+          "/ˈdʁeːən/"
+        ],
+        [
+          "127",
+          "to fall",
+          "fallen",
+          "/ˈfalən/"
+        ],
+        [
+          "128",
+          "to give",
+          "geben",
+          "/ˈɡeːbən/"
+        ],
+        [
+          "129",
+          "to hold",
+          "halten",
+          "/ˈhaltən/"
+        ],
+        [
+          "130",
+          "to squeeze",
+          "quetschen",
+          "/ˈkvɛtʃən/"
+        ],
+        [
+          "131",
+          "to rub",
+          "reiben",
+          "/ˈʁaɪ̯bən/"
+        ],
+        [
+          "132",
+          "to wash",
+          "waschen",
+          "/ˈvaʃən/"
+        ],
+        [
+          "133",
+          "to wipe",
+          "wischen",
+          "/ˈvɪʃən/"
+        ],
+        [
+          "134",
+          "to pull",
+          "ziehen",
+          "/ˈtsiːən/"
+        ],
+        [
+          "135",
+          "to push",
+          "drücken, schieben",
+          "/ˈdʁʏkən/, /ˈʃiːbən/"
+        ],
+        [
+          "136",
+          "to throw",
+          "werfen",
+          "/ˈvɛʁfən/"
+        ],
+        [
+          "137",
+          "to tie",
+          "binden, knüpfen",
+          "/ˈbɪndən/, /ˈknʏpfən/"
+        ],
+        [
+          "138",
+          "to sew",
+          "nähen",
+          "/ˈnɛːən/"
+        ],
+        [
+          "139",
+          "to count",
+          "rechnen, zählen",
+          "/ˈʁɛçnən/, /ˈtsɛːlən/"
+        ],
+        [
+          "140",
+          "to say",
+          "sagen",
+          "/ˈzaːɡən/"
+        ],
+        [
+          "141",
+          "to sing",
+          "singen",
+          "/ˈzɪŋən/"
+        ],
+        [
+          "142",
+          "to play",
+          "spielen",
+          "/ˈʃpiːlən/"
+        ],
+        [
+          "143",
+          "to float",
+          "schweben",
+          "/ˈʃveːbən/"
+        ],
+        [
+          "144",
+          "to flow",
+          "fließen, strömen",
+          "/ˈfliːsən/, /ˈʃtʁøːmən/"
+        ],
+        [
+          "145",
+          "to freeze",
+          "frieren",
+          "/ˈfʁiːrən/"
+        ],
+        [
+          "146",
+          "to swell",
+          "schwellen",
+          "/ˈʃvɛlən/"
+        ],
+        [
+          "147",
+          "sun",
+          "Sonne",
+          "/ˈzɔnə/"
+        ],
+        [
+          "148",
+          "moon",
+          "Mond",
+          "/moːnt/"
+        ],
+        [
+          "149",
+          "star",
+          "Stern",
+          "/ʃtɛʁn/"
+        ],
+        [
+          "150",
+          "water",
+          "Wasser",
+          "/ˈvasɐ/"
+        ],
+        [
+          "151",
+          "rain",
+          "Regen",
+          "/ˈʁeːɡən/"
+        ],
+        [
+          "152",
+          "river",
+          "Fluss",
+          "/flʊs/"
+        ],
+        [
+          "153",
+          "lake",
+          "See",
+          "/zeː/"
+        ],
+        [
+          "154",
+          "sea",
+          "Meer",
+          "/meːɐ̯/"
+        ],
+        [
+          "155",
+          "salt",
+          "Salz",
+          "/zalts/"
+        ],
+        [
+          "156",
+          "stone",
+          "Stein",
+          "/ʃtaɪ̯n/"
+        ],
+        [
+          "157",
+          "sand",
+          "Sand",
+          "/zant/"
+        ],
+        [
+          "158",
+          "dust",
+          "Staub",
+          "/ʃtaʊ̯p/"
+        ],
+        [
+          "159",
+          "earth",
+          "Erde",
+          "/ˈeːɐ̯də/"
+        ],
+        [
+          "160",
+          "cloud",
+          "Wolke",
+          "/ˈvɔlkə/"
+        ],
+        [
+          "161",
+          "fog",
+          "Nebel",
+          "/ˈneːbəl/"
+        ],
+        [
+          "162",
+          "sky",
+          "Himmel",
+          "/ˈhɪməl/"
+        ],
+        [
+          "163",
+          "wind",
+          "Wind",
+          "/vɪnt/"
+        ],
+        [
+          "164",
+          "snow",
+          "Schnee",
+          "/ʃneː/"
+        ],
+        [
+          "165",
+          "ice",
+          "Eis",
+          "/aɪ̯s/"
+        ],
+        [
+          "166",
+          "smoke",
+          "Rauch",
+          "/ʁaʊ̯x/"
+        ],
+        [
+          "167",
+          "fire",
+          "Feuer",
+          "/ˈfɔʏɐ/"
+        ],
+        [
+          "168",
+          "ash",
+          "Asche",
+          "/ˈaʃə/"
+        ],
+        [
+          "169",
+          "to burn",
+          "brennen",
+          "/ˈbʁɛnən/"
+        ],
+        [
+          "170",
+          "road",
+          "Straße",
+          "/ˈʃtʁaːsə/"
+        ],
+        [
+          "171",
+          "mountain",
+          "Berg",
+          "/bɛʁk/"
+        ],
+        [
+          "172",
+          "red",
+          "rot",
+          "/ʁoːt/"
+        ],
+        [
+          "173",
+          "green",
+          "grün",
+          "/ɡʁyːn/"
+        ],
+        [
+          "174",
+          "yellow",
+          "gelb",
+          "/ɡɛlp/"
+        ],
+        [
+          "175",
+          "white",
+          "weiß",
+          "/vaɪ̯s/"
+        ],
+        [
+          "176",
+          "black",
+          "schwarz",
+          "/ʃvaʁts/"
+        ],
+        [
+          "177",
+          "night",
+          "Nacht",
+          "/naxt/"
+        ],
+        [
+          "178",
+          "day",
+          "Tag",
+          "/taːk/"
+        ],
+        [
+          "179",
+          "year",
+          "Jahr",
+          "/jaːɐ̯/"
+        ],
+        [
+          "180",
+          "warm",
+          "warm",
+          "/vaʁm/"
+        ],
+        [
+          "181",
+          "cold",
+          "kalt",
+          "/kalt/"
+        ],
+        [
+          "182",
+          "full",
+          "voll",
+          "/fɔl/"
+        ],
+        [
+          "183",
+          "new",
+          "neu",
+          "/nɔʏ̯/"
+        ],
+        [
+          "184",
+          "old",
+          "alt",
+          "/alt/"
+        ],
+        [
+          "185",
+          "good",
+          "gut",
+          "/ɡuːt/"
+        ],
+        [
+          "186",
+          "bad",
+          "schlecht, übel",
+          "/ʃlɛçt/, /ˈʔyː.bl̩/"
+        ],
+        [
+          "187",
+          "rotten",
+          "faul, verrottet",
+          "/faʊ̯l/, /fɛɐ̯ˈʁɔtət/"
+        ],
+        [
+          "188",
+          "dirty",
+          "schmutzig, dreckig",
+          "/ˈʃmʊtsɪç/, /ˈdʁɛkɪç/"
+        ],
+        [
+          "189",
+          "straight",
+          "gerade",
+          "/ɡ(ə)ˈʁaːdə/"
+        ],
+        [
+          "190",
+          "round",
+          "rund",
+          "/ʁʊnt/"
+        ],
+        [
+          "191",
+          "sharp (as a knife)",
+          "scharf",
+          "/ʃaʁf/"
+        ],
+        [
+          "192",
+          "dull (as a knife)",
+          "stumpf",
+          "/ʃtʊmpf/"
+        ],
+        [
+          "193",
+          "smooth",
+          "glatt",
+          "/ɡlat/"
+        ],
+        [
+          "194",
+          "wet",
+          "nass, feucht",
+          "/nas/, /fɔʏ̯çt/"
+        ],
+        [
+          "195",
+          "dry",
+          "dürr, trocken",
+          "/dʏʁ/, /ˈtʁɔkən/"
+        ],
+        [
+          "196",
+          "correct",
+          "richtig",
+          "/ˈʁɪçtɪç/"
+        ],
+        [
+          "197",
+          "near",
+          "nah",
+          "/ˈnaː/"
+        ],
+        [
+          "198",
+          "far",
+          "fern, weit",
+          "/fɛʁn/, /vaɪ̯t/"
+        ],
+        [
+          "199",
+          "right",
+          "rechts",
+          "/ʁɛçts/"
+        ],
+        [
+          "200",
+          "left",
+          "links",
+          "/lɪŋks/"
+        ],
+        [
+          "201",
+          "at",
+          "an, bei",
+          "/an/, /baɪ̯/"
+        ],
+        [
+          "202",
+          "in",
+          "in",
+          "/ɪn/"
+        ],
+        [
+          "203",
+          "with",
+          "mit",
+          "/mɪt/"
+        ],
+        [
+          "204",
+          "and",
+          "und",
+          "/ʊnt/"
+        ],
+        [
+          "205",
+          "if",
+          "ob, wenn",
+          "/ɔp/, /vɛn/"
+        ],
+        [
+          "206",
+          "because",
+          "weil",
+          "/vaɪ̯l/"
+        ],
+        [
+          "207",
+          "name",
+          "Name",
+          "/ˈnaːmə/"
+        ]
+      ]
+    },
+    {
+      "id": "wiktionary-swadesh-es",
+      "language": "es",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Spanish_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:32.457050+00:00",
+      "revisionId": "62514940",
+      "sha256": "35e0d8b8d61e03c5074610d229d96e6f19c26368387d1a63326fef92f7502660",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/es.html",
+      "attribution": "Wiktionary contributors, Appendix:Spanish Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed",
+      "rows": [
+        [
+          "№",
+          "English",
+          "Spanish; español;",
+          "IPA; (key)"
+        ],
+        [
+          "1",
+          "I (1sg)",
+          "yo",
+          "/ˈʝo/"
+        ],
+        [
+          "2",
+          "you (2sg)",
+          "tú, vos, usted (formal)",
+          ""
+        ],
+        [
+          "3",
+          "he, she, it (3sg)",
+          "él, ella",
+          ""
+        ],
+        [
+          "4",
+          "we (1pl)",
+          "nosotros, nosotras",
+          "/noˈsotɾos/, /noˈsotɾas/"
+        ],
+        [
+          "5",
+          "you (2pl)",
+          "vosotros, vosotras, ustedes",
+          ""
+        ],
+        [
+          "6",
+          "they (3pl)",
+          "ellos, ellas",
+          ""
+        ],
+        [
+          "7",
+          "this",
+          "este",
+          ""
+        ],
+        [
+          "8",
+          "that",
+          "ese, aquel",
+          ""
+        ],
+        [
+          "9",
+          "here",
+          "aquí, acá",
+          ""
+        ],
+        [
+          "10",
+          "there",
+          "ahí",
+          ""
+        ],
+        [
+          "11",
+          "who",
+          "quién",
+          ""
+        ],
+        [
+          "12",
+          "what",
+          "qué",
+          ""
+        ],
+        [
+          "13",
+          "where",
+          "dónde",
+          ""
+        ],
+        [
+          "14",
+          "when",
+          "cuándo",
+          ""
+        ],
+        [
+          "15",
+          "how",
+          "cómo",
+          ""
+        ],
+        [
+          "16",
+          "not",
+          "no",
+          ""
+        ],
+        [
+          "17",
+          "all",
+          "todo",
+          ""
+        ],
+        [
+          "18",
+          "many",
+          "mucho",
+          ""
+        ],
+        [
+          "19",
+          "some",
+          "alguno",
+          ""
+        ],
+        [
+          "20",
+          "few",
+          "poco",
+          ""
+        ],
+        [
+          "21",
+          "other",
+          "otro",
+          ""
+        ],
+        [
+          "22",
+          "one",
+          "uno",
+          ""
+        ],
+        [
+          "23",
+          "two",
+          "dos",
+          ""
+        ],
+        [
+          "24",
+          "three",
+          "tres",
+          ""
+        ],
+        [
+          "25",
+          "four",
+          "cuatro",
+          ""
+        ],
+        [
+          "26",
+          "five",
+          "cinco",
+          ""
+        ],
+        [
+          "27",
+          "big",
+          "grande",
+          ""
+        ],
+        [
+          "28",
+          "long",
+          "largo",
+          ""
+        ],
+        [
+          "29",
+          "wide",
+          "ancho",
+          ""
+        ],
+        [
+          "30",
+          "thick",
+          "grueso",
+          ""
+        ],
+        [
+          "31",
+          "heavy",
+          "pesado",
+          ""
+        ],
+        [
+          "32",
+          "small",
+          "pequeño",
+          ""
+        ],
+        [
+          "33",
+          "short",
+          "corto",
+          ""
+        ],
+        [
+          "34",
+          "narrow",
+          "estrecho, angosto",
+          ""
+        ],
+        [
+          "35",
+          "thin",
+          "delgado, flaco",
+          ""
+        ],
+        [
+          "36",
+          "woman",
+          "mujer",
+          ""
+        ],
+        [
+          "37",
+          "man (adult male)",
+          "varón",
+          ""
+        ],
+        [
+          "38",
+          "man (human being)",
+          "hombre",
+          ""
+        ],
+        [
+          "39",
+          "child",
+          "niño",
+          ""
+        ],
+        [
+          "40",
+          "wife",
+          "esposa, mujer",
+          ""
+        ],
+        [
+          "41",
+          "husband",
+          "esposo, marido",
+          ""
+        ],
+        [
+          "42",
+          "mother",
+          "madre",
+          ""
+        ],
+        [
+          "43",
+          "father",
+          "padre",
+          ""
+        ],
+        [
+          "44",
+          "animal",
+          "animal",
+          ""
+        ],
+        [
+          "45",
+          "fish",
+          "pez, pescado",
+          ""
+        ],
+        [
+          "46",
+          "bird",
+          "pájaro",
+          ""
+        ],
+        [
+          "47",
+          "dog",
+          "perro",
+          ""
+        ],
+        [
+          "48",
+          "louse",
+          "piojo",
+          ""
+        ],
+        [
+          "49",
+          "snake",
+          "serpiente, víbora, culebra",
+          ""
+        ],
+        [
+          "50",
+          "worm",
+          "gusano",
+          ""
+        ],
+        [
+          "51",
+          "tree",
+          "árbol",
+          ""
+        ],
+        [
+          "52",
+          "forest",
+          "bosque",
+          ""
+        ],
+        [
+          "53",
+          "stick",
+          "palo",
+          ""
+        ],
+        [
+          "54",
+          "fruit",
+          "fruta",
+          ""
+        ],
+        [
+          "55",
+          "seed",
+          "semilla",
+          ""
+        ],
+        [
+          "56",
+          "leaf",
+          "hoja",
+          ""
+        ],
+        [
+          "57",
+          "root",
+          "raíz",
+          ""
+        ],
+        [
+          "58",
+          "bark (of a tree)",
+          "corteza",
+          ""
+        ],
+        [
+          "59",
+          "flower",
+          "flor",
+          ""
+        ],
+        [
+          "60",
+          "grass",
+          "hierba, grama",
+          ""
+        ],
+        [
+          "61",
+          "rope",
+          "cuerda",
+          ""
+        ],
+        [
+          "62",
+          "skin",
+          "piel",
+          ""
+        ],
+        [
+          "63",
+          "meat",
+          "carne",
+          ""
+        ],
+        [
+          "64",
+          "blood",
+          "sangre",
+          ""
+        ],
+        [
+          "65",
+          "bone",
+          "hueso",
+          ""
+        ],
+        [
+          "66",
+          "fat (noun)",
+          "grasa",
+          ""
+        ],
+        [
+          "67",
+          "egg",
+          "huevo",
+          ""
+        ],
+        [
+          "68",
+          "horn",
+          "cuerno",
+          ""
+        ],
+        [
+          "69",
+          "tail",
+          "cola",
+          ""
+        ],
+        [
+          "70",
+          "feather",
+          "pluma",
+          ""
+        ],
+        [
+          "71",
+          "hair",
+          "pelo, cabello",
+          ""
+        ],
+        [
+          "72",
+          "head",
+          "cabeza",
+          ""
+        ],
+        [
+          "73",
+          "ear",
+          "oreja",
+          ""
+        ],
+        [
+          "74",
+          "eye",
+          "ojo",
+          ""
+        ],
+        [
+          "75",
+          "nose",
+          "nariz",
+          ""
+        ],
+        [
+          "76",
+          "mouth",
+          "boca",
+          ""
+        ],
+        [
+          "77",
+          "tooth",
+          "diente",
+          ""
+        ],
+        [
+          "78",
+          "tongue (organ)",
+          "lengua",
+          ""
+        ],
+        [
+          "79",
+          "fingernail",
+          "uña",
+          ""
+        ],
+        [
+          "80",
+          "foot",
+          "pie",
+          ""
+        ],
+        [
+          "81",
+          "leg",
+          "pierna",
+          ""
+        ],
+        [
+          "82",
+          "knee",
+          "rodilla",
+          ""
+        ],
+        [
+          "83",
+          "hand",
+          "mano",
+          ""
+        ],
+        [
+          "84",
+          "wing",
+          "ala",
+          ""
+        ],
+        [
+          "85",
+          "belly",
+          "barriga, vientre",
+          ""
+        ],
+        [
+          "86",
+          "guts",
+          "tripas",
+          ""
+        ],
+        [
+          "87",
+          "neck",
+          "cuello",
+          ""
+        ],
+        [
+          "88",
+          "back",
+          "espalda",
+          ""
+        ],
+        [
+          "89",
+          "breast",
+          "pecho",
+          ""
+        ],
+        [
+          "90",
+          "heart",
+          "corazón",
+          ""
+        ],
+        [
+          "91",
+          "liver",
+          "hígado",
+          ""
+        ],
+        [
+          "92",
+          "to drink",
+          "beber",
+          ""
+        ],
+        [
+          "93",
+          "to eat",
+          "comer",
+          ""
+        ],
+        [
+          "94",
+          "to bite",
+          "morder",
+          ""
+        ],
+        [
+          "95",
+          "to suck",
+          "chupar",
+          ""
+        ],
+        [
+          "96",
+          "to spit",
+          "escupir",
+          ""
+        ],
+        [
+          "97",
+          "to vomit",
+          "vomitar",
+          ""
+        ],
+        [
+          "98",
+          "to blow",
+          "soplar",
+          ""
+        ],
+        [
+          "99",
+          "to breathe",
+          "respirar",
+          ""
+        ],
+        [
+          "100",
+          "to laugh",
+          "reír",
+          ""
+        ],
+        [
+          "101",
+          "to see",
+          "ver",
+          ""
+        ],
+        [
+          "102",
+          "to hear",
+          "oír",
+          ""
+        ],
+        [
+          "103",
+          "to know",
+          "saber",
+          ""
+        ],
+        [
+          "104",
+          "to think",
+          "pensar",
+          ""
+        ],
+        [
+          "105",
+          "to smell",
+          "oler",
+          ""
+        ],
+        [
+          "106",
+          "to fear",
+          "temer",
+          ""
+        ],
+        [
+          "107",
+          "to sleep",
+          "dormir",
+          ""
+        ],
+        [
+          "108",
+          "to live",
+          "vivir",
+          ""
+        ],
+        [
+          "109",
+          "to die",
+          "morir",
+          ""
+        ],
+        [
+          "110",
+          "to kill",
+          "matar",
+          ""
+        ],
+        [
+          "111",
+          "to fight",
+          "pelear",
+          ""
+        ],
+        [
+          "112",
+          "to hunt",
+          "cazar",
+          ""
+        ],
+        [
+          "113",
+          "to hit",
+          "golpear",
+          ""
+        ],
+        [
+          "114",
+          "to cut",
+          "cortar",
+          ""
+        ],
+        [
+          "115",
+          "to split",
+          "partir",
+          ""
+        ],
+        [
+          "116",
+          "to stab",
+          "apuñalar",
+          ""
+        ],
+        [
+          "117",
+          "to scratch",
+          "arañar, rascar",
+          ""
+        ],
+        [
+          "118",
+          "to dig",
+          "cavar, excavar",
+          ""
+        ],
+        [
+          "119",
+          "to swim",
+          "nadar",
+          ""
+        ],
+        [
+          "120",
+          "to fly",
+          "volar",
+          ""
+        ],
+        [
+          "121",
+          "to walk",
+          "caminar",
+          ""
+        ],
+        [
+          "122",
+          "to come",
+          "venir",
+          ""
+        ],
+        [
+          "123",
+          "to lie (as in a bed)",
+          "echarse (action), yacer, estar en el suelo (state)",
+          ""
+        ],
+        [
+          "124",
+          "to sit",
+          "sentarse, estar sentado (state)",
+          ""
+        ],
+        [
+          "125",
+          "to stand",
+          "levantarse, estar de pie",
+          ""
+        ],
+        [
+          "126",
+          "to turn (intransitive)",
+          "girar, dar una vuelta",
+          ""
+        ],
+        [
+          "127",
+          "to fall",
+          "caer",
+          ""
+        ],
+        [
+          "128",
+          "to give",
+          "dar",
+          ""
+        ],
+        [
+          "129",
+          "to hold",
+          "tener",
+          ""
+        ],
+        [
+          "130",
+          "to squeeze",
+          "apretar",
+          ""
+        ],
+        [
+          "131",
+          "to rub",
+          "frotar",
+          ""
+        ],
+        [
+          "132",
+          "to wash",
+          "lavar",
+          ""
+        ],
+        [
+          "133",
+          "to wipe",
+          "limpiar",
+          ""
+        ],
+        [
+          "134",
+          "to pull",
+          "tirar de, jalar, halar",
+          ""
+        ],
+        [
+          "135",
+          "to push",
+          "empujar",
+          ""
+        ],
+        [
+          "136",
+          "to throw",
+          "tirar, arrojar",
+          ""
+        ],
+        [
+          "137",
+          "to tie",
+          "atar",
+          ""
+        ],
+        [
+          "138",
+          "to sew",
+          "coser",
+          ""
+        ],
+        [
+          "139",
+          "to count",
+          "contar",
+          ""
+        ],
+        [
+          "140",
+          "to say",
+          "decir",
+          ""
+        ],
+        [
+          "141",
+          "to sing",
+          "cantar",
+          ""
+        ],
+        [
+          "142",
+          "to play",
+          "jugar",
+          ""
+        ],
+        [
+          "143",
+          "to float",
+          "flotar",
+          ""
+        ],
+        [
+          "144",
+          "to flow",
+          "fluir",
+          ""
+        ],
+        [
+          "145",
+          "to freeze",
+          "congelarse, helar",
+          ""
+        ],
+        [
+          "146",
+          "to swell",
+          "hincharse",
+          ""
+        ],
+        [
+          "147",
+          "sun",
+          "sol",
+          ""
+        ],
+        [
+          "148",
+          "moon",
+          "luna",
+          ""
+        ],
+        [
+          "149",
+          "star",
+          "estrella",
+          ""
+        ],
+        [
+          "150",
+          "water",
+          "agua",
+          ""
+        ],
+        [
+          "151",
+          "rain",
+          "lluvia",
+          ""
+        ],
+        [
+          "152",
+          "river",
+          "río",
+          ""
+        ],
+        [
+          "153",
+          "lake",
+          "lago",
+          ""
+        ],
+        [
+          "154",
+          "sea",
+          "mar",
+          ""
+        ],
+        [
+          "155",
+          "salt",
+          "sal",
+          ""
+        ],
+        [
+          "156",
+          "stone",
+          "piedra",
+          ""
+        ],
+        [
+          "157",
+          "sand",
+          "arena",
+          ""
+        ],
+        [
+          "158",
+          "dust",
+          "polvo",
+          ""
+        ],
+        [
+          "159",
+          "earth",
+          "tierra",
+          ""
+        ],
+        [
+          "160",
+          "cloud",
+          "nube",
+          ""
+        ],
+        [
+          "161",
+          "fog",
+          "niebla",
+          ""
+        ],
+        [
+          "162",
+          "sky",
+          "cielo",
+          ""
+        ],
+        [
+          "163",
+          "wind",
+          "viento",
+          ""
+        ],
+        [
+          "164",
+          "snow",
+          "nieve",
+          ""
+        ],
+        [
+          "165",
+          "ice",
+          "hielo",
+          ""
+        ],
+        [
+          "166",
+          "smoke",
+          "humo",
+          ""
+        ],
+        [
+          "167",
+          "fire",
+          "fuego",
+          ""
+        ],
+        [
+          "168",
+          "ash",
+          "ceniza",
+          ""
+        ],
+        [
+          "169",
+          "to burn",
+          "quemar",
+          ""
+        ],
+        [
+          "170",
+          "road",
+          "camino",
+          ""
+        ],
+        [
+          "171",
+          "mountain",
+          "montaña",
+          ""
+        ],
+        [
+          "172",
+          "red",
+          "rojo",
+          ""
+        ],
+        [
+          "173",
+          "green",
+          "verde",
+          ""
+        ],
+        [
+          "174",
+          "yellow",
+          "amarillo",
+          ""
+        ],
+        [
+          "175",
+          "white",
+          "blanco",
+          ""
+        ],
+        [
+          "176",
+          "black",
+          "negro",
+          ""
+        ],
+        [
+          "177",
+          "night",
+          "noche",
+          ""
+        ],
+        [
+          "178",
+          "day",
+          "día",
+          ""
+        ],
+        [
+          "179",
+          "year",
+          "año",
+          ""
+        ],
+        [
+          "180",
+          "warm",
+          "caliente, cálido",
+          ""
+        ],
+        [
+          "181",
+          "cold",
+          "frío",
+          ""
+        ],
+        [
+          "182",
+          "full",
+          "lleno",
+          ""
+        ],
+        [
+          "183",
+          "new",
+          "nuevo",
+          ""
+        ],
+        [
+          "184",
+          "old",
+          "viejo",
+          ""
+        ],
+        [
+          "185",
+          "good",
+          "bueno",
+          ""
+        ],
+        [
+          "186",
+          "bad",
+          "malo",
+          ""
+        ],
+        [
+          "187",
+          "rotten",
+          "podrido",
+          ""
+        ],
+        [
+          "188",
+          "dirty",
+          "sucio",
+          ""
+        ],
+        [
+          "189",
+          "straight",
+          "recto",
+          ""
+        ],
+        [
+          "190",
+          "round",
+          "redondo",
+          ""
+        ],
+        [
+          "191",
+          "sharp (as a knife)",
+          "agudo, afilado",
+          ""
+        ],
+        [
+          "192",
+          "dull (as a knife)",
+          "sin filo, desafilado, embotado, romo",
+          ""
+        ],
+        [
+          "193",
+          "smooth",
+          "liso",
+          ""
+        ],
+        [
+          "194",
+          "wet",
+          "mojado",
+          ""
+        ],
+        [
+          "195",
+          "dry",
+          "seco",
+          ""
+        ],
+        [
+          "196",
+          "correct",
+          "correcto",
+          ""
+        ],
+        [
+          "197",
+          "near",
+          "cerca",
+          ""
+        ],
+        [
+          "198",
+          "far",
+          "lejos",
+          ""
+        ],
+        [
+          "199",
+          "right",
+          "derecha",
+          ""
+        ],
+        [
+          "200",
+          "left",
+          "izquierda",
+          ""
+        ],
+        [
+          "201",
+          "at",
+          "en, a",
+          ""
+        ],
+        [
+          "202",
+          "in",
+          "en",
+          ""
+        ],
+        [
+          "203",
+          "with",
+          "con",
+          ""
+        ],
+        [
+          "204",
+          "and",
+          "y, e",
+          ""
+        ],
+        [
+          "205",
+          "if",
+          "si",
+          ""
+        ],
+        [
+          "206",
+          "because",
+          "porque",
+          ""
+        ],
+        [
+          "207",
+          "name",
+          "nombre",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "wiktionary-swadesh-ja",
+      "language": "ja",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Japanese_Swadesh_list",
+      "retrievedAt": "2026-10-15T02:59:33.789881+00:00",
+      "revisionId": "89231374",
+      "sha256": "460e9968aee0f8c6e3079e1175ec36202cda10a4e8495d70c43140243991558d",
+      "snapshot": "audit/runs/2026-10-15-reviewed/swadesh/ja.html",
+      "attribution": "Wiktionary contributors, Appendix:Japanese Swadesh list; see source page history",
+      "license": "CC BY-SA 4.0 (page footer); individual lexical facts extracted",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "table-extracted-unreviewed",
+      "rows": [
+        [
+          "No.",
+          "English",
+          "日本語; Kanji characters",
+          "にほんご; Hiragana syllabary",
+          "Nihongo; Hepburn romanization"
+        ],
+        [
+          "1",
+          "I",
+          "私, 我",
+          "わたし, われ",
+          "watashi, ware"
+        ],
+        [
+          "2",
+          "you (singular)",
+          "貴方",
+          "あなた",
+          "anata"
+        ],
+        [
+          "3",
+          "he",
+          "彼",
+          "かれ",
+          "kare"
+        ],
+        [
+          "4",
+          "we",
+          "私達, 我等",
+          "わたしたち, われら",
+          "watashitachi, warera"
+        ],
+        [
+          "5",
+          "you (plural)",
+          "貴方達",
+          "あなたたち",
+          "anatatachi"
+        ],
+        [
+          "6",
+          "they",
+          "彼等, 彼ら",
+          "かれら",
+          "karera"
+        ],
+        [
+          "7",
+          "this",
+          "此れ",
+          "これ",
+          "kore"
+        ],
+        [
+          "8",
+          "that",
+          "其れ, 彼れ",
+          "それ, あれ",
+          "sore, are"
+        ],
+        [
+          "9",
+          "here",
+          "此処",
+          "ここ",
+          "koko"
+        ],
+        [
+          "10",
+          "there",
+          "其処, 彼処",
+          "そこ, あそこ",
+          "soko, asoko"
+        ],
+        [
+          "11",
+          "who",
+          "誰",
+          "だれ",
+          "dare"
+        ],
+        [
+          "12",
+          "what",
+          "何",
+          "なに",
+          "nani"
+        ],
+        [
+          "13",
+          "where",
+          "何処",
+          "どこ",
+          "doko"
+        ],
+        [
+          "14",
+          "when",
+          "何時",
+          "いつ",
+          "itsu"
+        ],
+        [
+          "15",
+          "how",
+          "如何",
+          "いか, いかが, どう",
+          "ika, ikaga, dō"
+        ],
+        [
+          "16",
+          "not",
+          "無い",
+          "ない",
+          "-nai"
+        ],
+        [
+          "17",
+          "all",
+          "皆, 全て",
+          "みな, すべて",
+          "mina, subete"
+        ],
+        [
+          "18",
+          "many",
+          "多い",
+          "おおい",
+          "ooi"
+        ],
+        [
+          "19",
+          "some",
+          "少し",
+          "すこし",
+          "sukoshi"
+        ],
+        [
+          "20",
+          "few",
+          "少ない",
+          "すくない",
+          "sukunai"
+        ],
+        [
+          "21",
+          "other",
+          "他",
+          "ほか",
+          "hoka"
+        ],
+        [
+          "22",
+          "one",
+          "一",
+          "ひと",
+          "hito"
+        ],
+        [
+          "23",
+          "two",
+          "二",
+          "ふた",
+          "futa"
+        ],
+        [
+          "24",
+          "three",
+          "三",
+          "み",
+          "mi"
+        ],
+        [
+          "25",
+          "four",
+          "四",
+          "よ",
+          "yo"
+        ],
+        [
+          "26",
+          "five",
+          "五",
+          "いつ",
+          "itsu"
+        ],
+        [
+          "27",
+          "big",
+          "大きい",
+          "おおきい",
+          "ōkii"
+        ],
+        [
+          "28",
+          "long",
+          "長い",
+          "ながい",
+          "nagai"
+        ],
+        [
+          "29",
+          "wide",
+          "広い",
+          "ひろい",
+          "hiroi"
+        ],
+        [
+          "30",
+          "thick",
+          "厚い",
+          "あつい",
+          "atsui"
+        ],
+        [
+          "31",
+          "heavy",
+          "重い",
+          "おもい",
+          "omoi"
+        ],
+        [
+          "32",
+          "small",
+          "小さい",
+          "ちいさい",
+          "chīsai"
+        ],
+        [
+          "33",
+          "short",
+          "短い",
+          "みじかい",
+          "mijikai"
+        ],
+        [
+          "34",
+          "narrow",
+          "狭い",
+          "せまい",
+          "semai"
+        ],
+        [
+          "35",
+          "thin",
+          "細い",
+          "ほそい",
+          "hosoi"
+        ],
+        [
+          "36",
+          "woman",
+          "女",
+          "おんな, め",
+          "onna, me"
+        ],
+        [
+          "37",
+          "man (male)",
+          "男",
+          "おとこ, お",
+          "otoko, o"
+        ],
+        [
+          "38",
+          "man (human)",
+          "人",
+          "ひと",
+          "hito"
+        ],
+        [
+          "39",
+          "child",
+          "子",
+          "こ",
+          "ko"
+        ],
+        [
+          "40",
+          "wife",
+          "妻",
+          "つま",
+          "tsuma"
+        ],
+        [
+          "41",
+          "husband",
+          "夫",
+          "おっと",
+          "otto"
+        ],
+        [
+          "42",
+          "mother",
+          "母",
+          "はは",
+          "haha"
+        ],
+        [
+          "43",
+          "father",
+          "父",
+          "ちち",
+          "chichi"
+        ],
+        [
+          "44",
+          "animal",
+          "獣, 動物",
+          "けもの, どうぶつ*",
+          "kemono, dōbutsu*"
+        ],
+        [
+          "45",
+          "fish",
+          "魚",
+          "うお",
+          "uo"
+        ],
+        [
+          "46",
+          "bird",
+          "鳥",
+          "とり",
+          "tori"
+        ],
+        [
+          "47",
+          "dog",
+          "犬",
+          "いぬ",
+          "inu"
+        ],
+        [
+          "48",
+          "louse",
+          "虱",
+          "しらみ",
+          "shirami"
+        ],
+        [
+          "49",
+          "snake",
+          "蛇",
+          "へび",
+          "hebi"
+        ],
+        [
+          "50",
+          "worm",
+          "蚯蚓",
+          "みみず",
+          "mimizu"
+        ],
+        [
+          "51",
+          "tree",
+          "木",
+          "き",
+          "ki"
+        ],
+        [
+          "52",
+          "forest",
+          "森",
+          "もり",
+          "mori"
+        ],
+        [
+          "53",
+          "stick",
+          "杖",
+          "つえ",
+          "tsue"
+        ],
+        [
+          "54",
+          "fruit",
+          "実, 果物",
+          "み, くだもの",
+          "mi, kudamono"
+        ],
+        [
+          "55",
+          "seed",
+          "種",
+          "たね",
+          "tane"
+        ],
+        [
+          "56",
+          "leaf",
+          "葉",
+          "は",
+          "ha"
+        ],
+        [
+          "57",
+          "root",
+          "根",
+          "ね",
+          "ne"
+        ],
+        [
+          "58",
+          "bark (of a tree)",
+          "樹皮",
+          "じゅひ*",
+          "juhi*"
+        ],
+        [
+          "59",
+          "flower",
+          "花",
+          "はな",
+          "hana"
+        ],
+        [
+          "60",
+          "grass",
+          "草",
+          "くさ",
+          "kusa"
+        ],
+        [
+          "61",
+          "rope",
+          "縄, 綱",
+          "なわ, つな",
+          "nawa, tsuna"
+        ],
+        [
+          "62",
+          "skin",
+          "皮",
+          "かわ",
+          "kawa"
+        ],
+        [
+          "63",
+          "meat",
+          "肉",
+          "にく*",
+          "niku*"
+        ],
+        [
+          "64",
+          "blood",
+          "血",
+          "ち",
+          "chi"
+        ],
+        [
+          "65",
+          "bone",
+          "骨",
+          "ほね",
+          "hone"
+        ],
+        [
+          "66",
+          "fat (noun)",
+          "脂",
+          "あぶら",
+          "abura"
+        ],
+        [
+          "67",
+          "egg",
+          "卵",
+          "たまご",
+          "tamago"
+        ],
+        [
+          "68",
+          "horn",
+          "角",
+          "つの",
+          "tsuno"
+        ],
+        [
+          "69",
+          "tail",
+          "尾",
+          "お",
+          "o"
+        ],
+        [
+          "70",
+          "feather",
+          "羽",
+          "はね",
+          "tsubasa, hane"
+        ],
+        [
+          "71",
+          "hair",
+          "髪",
+          "かみ",
+          "kami"
+        ],
+        [
+          "72",
+          "head",
+          "頭",
+          "あたま, かしら",
+          "atama, kashira"
+        ],
+        [
+          "73",
+          "ear",
+          "耳",
+          "みみ",
+          "mimi"
+        ],
+        [
+          "74",
+          "eye",
+          "目",
+          "め",
+          "me"
+        ],
+        [
+          "75",
+          "nose",
+          "鼻",
+          "はな",
+          "hana"
+        ],
+        [
+          "76",
+          "mouth",
+          "口",
+          "くち",
+          "kuchi"
+        ],
+        [
+          "77",
+          "tooth",
+          "歯",
+          "は",
+          "ha"
+        ],
+        [
+          "78",
+          "tongue",
+          "舌",
+          "した",
+          "shita"
+        ],
+        [
+          "79",
+          "fingernail",
+          "爪",
+          "つめ",
+          "tsume"
+        ],
+        [
+          "80",
+          "foot",
+          "足",
+          "あし",
+          "ashi"
+        ],
+        [
+          "81",
+          "leg",
+          "脚",
+          "あし",
+          "ashi"
+        ],
+        [
+          "82",
+          "knee",
+          "膝",
+          "ひざ",
+          "hiza"
+        ],
+        [
+          "83",
+          "hand",
+          "手",
+          "て",
+          "te"
+        ],
+        [
+          "84",
+          "wing",
+          "翼, 羽",
+          "つばさ, はね",
+          "hane"
+        ],
+        [
+          "85",
+          "belly",
+          "腹",
+          "はら",
+          "hara"
+        ],
+        [
+          "86",
+          "guts",
+          "腸",
+          "わた",
+          "wata"
+        ],
+        [
+          "87",
+          "neck",
+          "首",
+          "くび",
+          "kubi"
+        ],
+        [
+          "88",
+          "back",
+          "背",
+          "せ",
+          "se"
+        ],
+        [
+          "89",
+          "breast",
+          "胸 (chest); 乳 (female organ)",
+          "むね (chest); ちち (female organ)",
+          "mune (chest); chichi (female organ)"
+        ],
+        [
+          "90",
+          "heart",
+          "心",
+          "こころ",
+          "kokoro"
+        ],
+        [
+          "91",
+          "liver",
+          "肝",
+          "きも",
+          "kimo"
+        ],
+        [
+          "92",
+          "to drink",
+          "飲む",
+          "のむ",
+          "nomu"
+        ],
+        [
+          "93",
+          "to eat",
+          "食う, 食べる",
+          "くう, たべる",
+          "kuu, taberu"
+        ],
+        [
+          "94",
+          "to bite",
+          "噛む",
+          "かむ",
+          "kamu"
+        ],
+        [
+          "95",
+          "to suck",
+          "吸う",
+          "すう",
+          "suu"
+        ],
+        [
+          "96",
+          "to spit",
+          "吐く",
+          "はく",
+          "haku"
+        ],
+        [
+          "97",
+          "to vomit",
+          "吐く",
+          "はく",
+          "haku"
+        ],
+        [
+          "98",
+          "to blow",
+          "吹く",
+          "ふく",
+          "fuku"
+        ],
+        [
+          "99",
+          "to breathe",
+          "息をする",
+          "いきをする",
+          "iki wo suru"
+        ],
+        [
+          "100",
+          "to laugh",
+          "笑う",
+          "わらう",
+          "warau"
+        ],
+        [
+          "101",
+          "to see",
+          "見る",
+          "みる",
+          "miru"
+        ],
+        [
+          "102",
+          "to hear",
+          "聞く",
+          "きく",
+          "kiku"
+        ],
+        [
+          "103",
+          "to know",
+          "知る",
+          "しる",
+          "shiru"
+        ],
+        [
+          "104",
+          "to think",
+          "思う",
+          "おもう",
+          "omou"
+        ],
+        [
+          "105",
+          "to smell",
+          "嗅ぐ",
+          "かぐ",
+          "kagu"
+        ],
+        [
+          "106",
+          "to fear",
+          "恐れる",
+          "おそれる",
+          "osoreru"
+        ],
+        [
+          "107",
+          "to sleep",
+          "眠る, 寝る",
+          "ねむる, ねる",
+          "nemuru, neru"
+        ],
+        [
+          "108",
+          "to live",
+          "生きる",
+          "いきる",
+          "ikiru"
+        ],
+        [
+          "109",
+          "to die",
+          "死ぬ",
+          "しぬ",
+          "shinu"
+        ],
+        [
+          "110",
+          "to kill",
+          "殺す",
+          "ころす",
+          "korosu"
+        ],
+        [
+          "111",
+          "to fight",
+          "闘う",
+          "たたかう",
+          "tatakau"
+        ],
+        [
+          "112",
+          "to hunt",
+          "狩る",
+          "かる",
+          "karu"
+        ],
+        [
+          "113",
+          "to hit",
+          "叩く",
+          "たたく",
+          "tataku"
+        ],
+        [
+          "114",
+          "to cut",
+          "切る",
+          "きる",
+          "kiru"
+        ],
+        [
+          "115",
+          "to split",
+          "割る",
+          "わる",
+          "waru"
+        ],
+        [
+          "116",
+          "to stab",
+          "刺す",
+          "さす",
+          "sasu"
+        ],
+        [
+          "117",
+          "to scratch",
+          "掻く",
+          "かく",
+          "kaku"
+        ],
+        [
+          "118",
+          "to dig",
+          "掘る",
+          "ほる",
+          "horu"
+        ],
+        [
+          "119",
+          "to swim",
+          "泳ぐ",
+          "およぐ",
+          "oyogu"
+        ],
+        [
+          "120",
+          "to fly",
+          "飛ぶ",
+          "とぶ",
+          "tobu"
+        ],
+        [
+          "121",
+          "to walk",
+          "歩く",
+          "あるく",
+          "aruku"
+        ],
+        [
+          "122",
+          "to come",
+          "来る",
+          "くる",
+          "kuru"
+        ],
+        [
+          "123",
+          "to lie (as in a bed)",
+          "寝る",
+          "ねる",
+          "neru"
+        ],
+        [
+          "124",
+          "to sit",
+          "座る",
+          "すわる",
+          "suwaru"
+        ],
+        [
+          "125",
+          "to stand",
+          "立つ",
+          "たつ",
+          "tatsu"
+        ],
+        [
+          "126",
+          "to turn (intransitive)",
+          "回る",
+          "まわる",
+          "mawaru"
+        ],
+        [
+          "127",
+          "to fall",
+          "落ちる",
+          "おちる",
+          "ochiru"
+        ],
+        [
+          "128",
+          "to give",
+          "与える",
+          "あたえる",
+          "ataeru"
+        ],
+        [
+          "129",
+          "to hold",
+          "持つ",
+          "もつ",
+          "motsu"
+        ],
+        [
+          "130",
+          "to squeeze",
+          "絞る",
+          "しぼる",
+          "shiboru"
+        ],
+        [
+          "131",
+          "to rub",
+          "擦る",
+          "する",
+          "suru"
+        ],
+        [
+          "132",
+          "to wash",
+          "洗う",
+          "あらう",
+          "arau"
+        ],
+        [
+          "133",
+          "to wipe",
+          "拭く",
+          "ふく",
+          "fuku"
+        ],
+        [
+          "134",
+          "to pull",
+          "引く",
+          "ひく",
+          "hiku"
+        ],
+        [
+          "135",
+          "to push",
+          "押す",
+          "おす",
+          "osu"
+        ],
+        [
+          "136",
+          "to throw",
+          "投げる",
+          "なげる",
+          "nageru"
+        ],
+        [
+          "137",
+          "to tie",
+          "結ぶ",
+          "むすぶ",
+          "musubu"
+        ],
+        [
+          "138",
+          "to sew",
+          "縫う",
+          "ぬう",
+          "nuu"
+        ],
+        [
+          "139",
+          "to count",
+          "数える",
+          "かぞえる",
+          "kazoeru"
+        ],
+        [
+          "140",
+          "to say",
+          "言う",
+          "いう",
+          "iu"
+        ],
+        [
+          "141",
+          "to sing",
+          "歌う",
+          "うたう",
+          "utau"
+        ],
+        [
+          "142",
+          "to play",
+          "遊ぶ",
+          "あそぶ",
+          "asobu"
+        ],
+        [
+          "143",
+          "to float",
+          "浮く",
+          "うく",
+          "uku"
+        ],
+        [
+          "144",
+          "to flow",
+          "流れる",
+          "ながれる",
+          "nagareru"
+        ],
+        [
+          "145",
+          "to freeze",
+          "凍る",
+          "こおる",
+          "kōru"
+        ],
+        [
+          "146",
+          "to swell",
+          "膨れる",
+          "ふくれる",
+          "fukureru"
+        ],
+        [
+          "147",
+          "sun",
+          "日",
+          "ひ",
+          "hi"
+        ],
+        [
+          "148",
+          "moon",
+          "月",
+          "つき",
+          "tsuki"
+        ],
+        [
+          "149",
+          "star",
+          "星",
+          "ほし",
+          "hoshi"
+        ],
+        [
+          "150",
+          "water",
+          "水",
+          "みず",
+          "mizu"
+        ],
+        [
+          "151",
+          "rain",
+          "雨",
+          "あめ",
+          "ame"
+        ],
+        [
+          "152",
+          "river",
+          "川",
+          "かわ",
+          "kawa"
+        ],
+        [
+          "153",
+          "lake",
+          "湖",
+          "みずうみ",
+          "mizuumi"
+        ],
+        [
+          "154",
+          "sea",
+          "海",
+          "うみ",
+          "umi"
+        ],
+        [
+          "155",
+          "salt",
+          "塩",
+          "しお",
+          "shio"
+        ],
+        [
+          "156",
+          "stone",
+          "石",
+          "いし",
+          "ishi"
+        ],
+        [
+          "157",
+          "sand",
+          "砂",
+          "すな",
+          "suna"
+        ],
+        [
+          "158",
+          "dust",
+          "塵",
+          "ちり",
+          "chiri"
+        ],
+        [
+          "159",
+          "earth",
+          "土",
+          "つち",
+          "tsuchi"
+        ],
+        [
+          "160",
+          "cloud",
+          "雲",
+          "くも",
+          "kumo"
+        ],
+        [
+          "161",
+          "fog",
+          "霧",
+          "きり",
+          "kiri"
+        ],
+        [
+          "162",
+          "sky",
+          "空",
+          "そら",
+          "sora"
+        ],
+        [
+          "163",
+          "wind",
+          "風",
+          "かぜ",
+          "kaze"
+        ],
+        [
+          "164",
+          "snow",
+          "雪",
+          "ゆき",
+          "yuki"
+        ],
+        [
+          "165",
+          "ice",
+          "氷",
+          "こおり",
+          "kōri"
+        ],
+        [
+          "166",
+          "smoke",
+          "煙",
+          "けむり",
+          "kemuri"
+        ],
+        [
+          "167",
+          "fire",
+          "火",
+          "ひ",
+          "hi"
+        ],
+        [
+          "168",
+          "ash",
+          "灰",
+          "はい",
+          "hai"
+        ],
+        [
+          "169",
+          "to burn",
+          "燃える",
+          "もえる",
+          "moeru"
+        ],
+        [
+          "170",
+          "road",
+          "道",
+          "みち",
+          "michi"
+        ],
+        [
+          "171",
+          "mountain",
+          "山",
+          "やま",
+          "yama"
+        ],
+        [
+          "172",
+          "red",
+          "赤",
+          "あか",
+          "aka"
+        ],
+        [
+          "173",
+          "green",
+          "緑",
+          "みどり",
+          "midori"
+        ],
+        [
+          "174",
+          "yellow",
+          "黄",
+          "き",
+          "ki"
+        ],
+        [
+          "175",
+          "white",
+          "白",
+          "しろ",
+          "shiro"
+        ],
+        [
+          "176",
+          "black",
+          "黒",
+          "くろ",
+          "kuro"
+        ],
+        [
+          "177",
+          "night",
+          "夜",
+          "よる",
+          "yoru"
+        ],
+        [
+          "178",
+          "day",
+          "日",
+          "ひ",
+          "hi"
+        ],
+        [
+          "179",
+          "year",
+          "年",
+          "とし",
+          "toshi"
+        ],
+        [
+          "180",
+          "warm",
+          "暖かい",
+          "あたたかい",
+          "atatakai"
+        ],
+        [
+          "181",
+          "cold",
+          "寒い",
+          "さむい",
+          "samui"
+        ],
+        [
+          "182",
+          "full",
+          "満ちた",
+          "みちた",
+          "michita"
+        ],
+        [
+          "183",
+          "new",
+          "新しい",
+          "あたらしい",
+          "atarashii"
+        ],
+        [
+          "184",
+          "old",
+          "古い",
+          "ふるい",
+          "furui"
+        ],
+        [
+          "185",
+          "good",
+          "良い",
+          "いい",
+          "ii"
+        ],
+        [
+          "186",
+          "bad",
+          "悪い",
+          "わるい",
+          "warui"
+        ],
+        [
+          "187",
+          "rotten",
+          "腐った",
+          "くさった",
+          "kusatta"
+        ],
+        [
+          "188",
+          "dirty",
+          "汚い",
+          "きたない",
+          "kitanai"
+        ],
+        [
+          "189",
+          "straight",
+          "真っ直ぐ",
+          "まっすぐ",
+          "massugu"
+        ],
+        [
+          "190",
+          "round",
+          "丸い",
+          "まるい",
+          "marui"
+        ],
+        [
+          "191",
+          "sharp (as a knife)",
+          "鋭い",
+          "するどい",
+          "surudoi"
+        ],
+        [
+          "192",
+          "dull (as a knife)",
+          "鈍い",
+          "にぶい",
+          "nibui"
+        ],
+        [
+          "193",
+          "smooth",
+          "滑らか",
+          "なめらか",
+          "nameraka"
+        ],
+        [
+          "194",
+          "wet",
+          "濡れた",
+          "ぬれた",
+          "nureta"
+        ],
+        [
+          "195",
+          "dry",
+          "乾いた",
+          "かわいた",
+          "kawaita"
+        ],
+        [
+          "196",
+          "correct",
+          "正しい",
+          "ただしい",
+          "tadashii"
+        ],
+        [
+          "197",
+          "near",
+          "近い",
+          "ちかい",
+          "chikai"
+        ],
+        [
+          "198",
+          "far",
+          "遠い",
+          "とおい",
+          "tōi"
+        ],
+        [
+          "199",
+          "right",
+          "右",
+          "みぎ",
+          "migi"
+        ],
+        [
+          "200",
+          "left",
+          "左",
+          "ひだり",
+          "hidari"
+        ],
+        [
+          "201",
+          "at",
+          "",
+          "で, に",
+          "de, ni"
+        ],
+        [
+          "202",
+          "in",
+          "",
+          "で, に",
+          "de, ni"
+        ],
+        [
+          "203",
+          "with",
+          "",
+          "と",
+          "to"
+        ],
+        [
+          "204",
+          "and",
+          "",
+          "と",
+          "to"
+        ],
+        [
+          "205",
+          "if",
+          "若し",
+          "もし, なら, -ば",
+          "moshi, nara, ba"
+        ],
+        [
+          "206",
+          "because",
+          "",
+          "から",
+          "kara"
+        ],
+        [
+          "207",
+          "name",
+          "名",
+          "な",
+          "na"
+        ]
+      ]
+    }
+  ],
+  "scope": "Source acquisition only. No automatic semantic approval."
+}

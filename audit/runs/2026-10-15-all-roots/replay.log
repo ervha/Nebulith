@@ -1,0 +1,37 @@
+{
+  "dictionaryVersion": "23.4",
+  "dictionarySha256": "f224706372035019b07a4a5f88b08a14dcb7b0697e085bf5f4bcfa98ace95c13",
+  "processedEntries": 1008,
+  "uniqueEnglishLookups": 2529,
+  "retrievedPages": 1784,
+  "comparisonCounts": {
+    "en": 2633,
+    "la": 3120,
+    "fr": 6314,
+    "es": 8822,
+    "de": 9024,
+    "ja": 5169
+  },
+  "entriesWithExternalTranslations": 910,
+  "entriesWithAllSixLanguageForms": 673,
+  "screeningCandidates": 153,
+  "candidateEntryCount": 43,
+  "candidateLanguageCounts": {
+    "ja": 23,
+    "es": 35,
+    "la": 28,
+    "de": 45,
+    "en": 7,
+    "fr": 15
+  },
+  "semanticCertification": false,
+  "policy": "Only confirmed similarity of BOTH meaning and whole form warrants change. Distance <=2 / substring is retrieval only.",
+  "limitations": [
+    "English gloss comparison uses internal labels, not independent English semantic validation.",
+    "All retrieved senses are screened; homonyms and parts of speech require candidate review.",
+    "Japanese forms require an explicit source tr= Latin-script romanization; no generated readings.",
+    "Redirect-only translation references, nested templates, absent tables and Japanese-only extra senses are not certified.",
+    "All 1008 IDs processed does not certify all senses in all six languages."
+  ]
+}
+Source error batches: 0

@@ -1,0 +1,36 @@
+{
+  "browserCheck": {
+    "toolIcon": {
+      "_tag": "website",
+      "pageUrl": "http://127.0.0.1:8765/fonts/preview.html"
+    },
+    "value": {
+      "errors": 0,
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "pastExplicit": true,
+      "reviewRecorded": true,
+      "url": "http://127.0.0.1:8765/fonts/preview.html"
+    }
+  },
+  "visualReview": {
+    "pages": [
+      "audit/comparisons/glyph-v2.2/letters-upper.html",
+      "audit/comparisons/glyph-v2.2/letters-lower.html"
+    ],
+    "reviewer": "Codex",
+    "rejected": [
+      "U",
+      "u",
+      "J",
+      "j"
+    ],
+    "pending": 83
+  },
+  "fontSha256": "73e550209019c1d6e094fde11d3d7313cdb37dacae835ffad828baf96d84adcb",
+  "corpusSha256": "f985bf10b8c7da2bd235cf8963f675c6ee5250bac37f83d2ae19c5dd03bf5981"
+}

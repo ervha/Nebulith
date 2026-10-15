@@ -1,0 +1,49 @@
+{
+  "pages": [
+    {
+      "excerpt": "0 全グリフ完全脱ラテン化標本\n\n数字「0〜9」・母音6・主子音16・約物のすべてが、天体力学・星辰観測幾何学の統一デザイン言語で完全刷新されました。\n\n✦ 6大星辰母音（Astral Monophthongs）\na, e, i, o, u, y\na e i o u y\n[NRS]: a (黎明天蓋弧), e (星風二連交差波), i (北極星尖塔), o (満月軌道環), u (深淵受容杯), y (第6星辰結晶環)\n✦ 16主星子音（Primary Consonants - Completely De-Latinized）\n16 Roots\nm n l r s z c j f v h w p t k b d g\n[鼻音・流音]: m (双天球交差翼), n (始動スパイラル), l (天頂スピンドル), r (三日月公転スウィープ)\n[歯擦・摩擦]: s (双極磁場弧), z (連星共鳴環), c (静寂天蓋シェード), j (深淵旋回アンカー)\n[唇音・気音]: f (上昇オーロラ翼), v (受容ボウル星核), h (双対天門ピラー), w (重力井戸波紋)\n[破裂音群]: p (懸垂光芒ポッド), t (反り天蓋アンカー), k (三方放射光芒), b (二重軌道シェル), d (台座尖塔), g (重力屈折環)\n✦ 星軌数詞（Orbital Numerals 0〜9）\n0 1 2 3 4 5 6 7 8 9\n0 1 2 3 4 5 6 7 8 9\n0 (特異点照準環), 1 (単極重力尖塔), 2 (対向公転三日月), 3 (三つ葉トリスケル), 4 (四天球ダイヤ),\n5 (五芒螺旋リボン), 6 (彗星核テイル), 7 (七星天蓋弧), 8 (双極連星環), 9 (頂点日食コロナ)\n✦ 公式規範テクスト（Canon Corpus Specimen）\nVSO軌道統語論 ＆ 星辰幾何学組版\nRelen el vyran ia tolst en sentis: tor poran el havel, ne korol el falun en vyr.\n[星辰箴言] Relen el vyran ia tolst en sentis: tor poran el havel, ne korol el falun en vyr.\n[日本語訳] 真理は万物の床（礎）である。時が歩み去ろうとも、星の光が尽き果てることはない。\nFe vyrelcor el vyrelor uo vyrelar to falden. Falunast el vyr syvani uo celvan.\n[観測日誌] Fe vyrelcor el vyrelor uo vyrelar to falden. Falunast el vyr syvani uo celvan.\n[日本語訳] 天文学者は天文台にて東の空を観測した。天球に新たな星が光を放ち始めた。\nHite relen el govan en dolas, vate relen el vyrelar.\n[相関詞構文] Hite relen el govan en dolas, vate relen el vyrelar.\n[日本語訳] これが友の家であり、あれが天文台である。（近称 hite vs 遠称 vate）",
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "loaded": true,
+      "title": "Nebulith-Regular.ttf Specimen v2.1",
+      "url": "http://127.0.0.1:8765/fonts/preview.html",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3CodeNightly/0.0.46-nightly.20261014.3105 Chrome/152.0.7977.130 Electron/44.4.5 Safari/537.36"
+    },
+    {
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "loaded": true,
+      "title": "",
+      "url": "http://127.0.0.1:8765/tools/num_specimen.html",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3CodeNightly/0.0.46-nightly.20261014.3105 Chrome/152.0.7977.130 Electron/44.4.5 Safari/537.36"
+    },
+    {
+      "cells": 65,
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "loaded": true,
+      "timestamp": "2026-10-15T02:18:50.375Z",
+      "url": "http://127.0.0.1:8765/audit/2026-10-15-reaudit-02/glyph-specimen.html",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3CodeNightly/0.0.46-nightly.20261014.3105 Chrome/152.0.7977.130 Electron/44.4.5 Safari/537.36",
+      "zoom": "0.6"
+    }
+  ],
+  "screenshot_sources": [
+    "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8wsgz9-a3f58d6e.png",
+    "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8wtbkt-62fcdc5f.png",
+    "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8wtte2-135bcc86.png"
+  ],
+  "note": "Fresh browser inspection in re-audit 02. Loaded status proves rendering, not de-Latinization or corpus correctness."
+}

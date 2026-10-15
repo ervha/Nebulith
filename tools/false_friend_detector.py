@@ -1,4 +1,17 @@
 # tools/false_friend_detector.py
+"""
+Multilingual False Friend & Cognate Detector for Nebulith (Conlang Audit Framework)
+Compares Nebulith NRS roots against core vocabulary across 6 major Earth languages:
+  1. English (en)
+  2. Latin (la)
+  3. French (fr)
+  4. Spanish (es)
+  5. German (de)
+  6. Japanese (ja / Hepburn romaji)
+
+Standard Levenshtein threshold:
+  Distance <= 2 or substring containment for semantic equivalents constitutes a violation (CHK-04).
+"""
 import json
 import re
 
@@ -18,11 +31,11 @@ def levenshtein(s1, s2):
         prev = curr
     return prev[-1]
 
-# Common Earth language words mapped to their English meanings
-# Covers English, Latin, Romance (French/Spanish/Italian), German, Japanese romaji
+# Common Earth language words mapped to their concept meanings
+# Normalized lowercase ASCII/Hepburn forms across En, La, Fr, Es, De, Ja
 EARTH_WORDS = {
     # Food / dining
-    "bread": ["bread", "pan", "pain", "pane", "brot", "pane"],
+    "bread": ["bread", "pan", "pain", "pane", "brot"],
     "meat": ["meat", "carne", "viande", "fleisch", "niku"],
     "soup": ["soup", "suppe", "soupe", "sopa", "shiru"],
     "pot": ["pot", "topf", "olla", "marmite", "nabe"],
@@ -30,7 +43,7 @@ EARTH_WORDS = {
     "fork": ["fork", "fourchette", "tenedor", "gabel"],
     "knife": ["knife", "couteau", "cuchillo", "messer", "hocho"],
     "plate": ["plate", "plat", "plato", "teller", "sara"],
-    "honey": ["honey", "miel", "honig", "hachi"],
+    "honey": ["honey", "miel", "honig", "hachimitsu"],
     "cheese": ["cheese", "fromage", "queso", "kaese"],
     "salt": ["salt", "sal", "sel", "salz", "shio"],
     "meal": ["meal", "repas", "comida", "mahlzeit", "gohan", "meshi"],
@@ -58,7 +71,7 @@ EARTH_WORDS = {
     "flower": ["flower", "flos", "fleur", "flor", "blume", "hana"],
     "root": ["root", "radix", "racine", "raiz", "wurzel", "ne"],
     "forest": ["forest", "silva", "foret", "bosque", "wald", "mori", "hayashi"],
-    "animal": ["animal", "tier", "beast", "d動物", "kemono"],
+    "animal": ["animal", "tier", "beast", "doubutsu", "kemono"],
     "dog": ["dog", "canis", "chien", "perro", "hund", "inu"],
     "cat": ["cat", "felis", "chat", "gato", "katze", "neko"],
     "bird": ["bird", "avis", "oiseau", "ave", "vogel", "tori"],
@@ -125,20 +138,16 @@ def check_false_friends(vocab):
     for entry in vocab:
         nrs = entry["nrs"].lower()
         en_desc = entry["meaningEn"].lower()
-        ja_desc = entry["meaningJa"]
 
         for concept, words in EARTH_WORDS.items():
-            # Check if this concept is what the entry actually means
             concept_match = False
-            # Check concept keyword in en_desc
             if re.search(r'\b' + re.escape(concept) + r'\b', en_desc):
                 concept_match = True
             
             if concept_match:
                 for ew in words:
                     dist = levenshtein(nrs, ew)
-                    # If very close or substring/prefix
-                    if dist <= 1 or (len(ew) >= 4 and dist <= 2) or (len(nrs) >= 4 and dist <= 2 and ew in nrs):
+                    if dist <= 2 or ew in nrs or nrs in ew:
                         suspects.append({
                             "id": entry["id"],
                             "nrs": nrs,

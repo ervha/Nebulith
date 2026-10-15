@@ -1,0 +1,3416 @@
+{
+  "status": "draft-not-applied",
+  "entries": [
+    {
+      "lexiconId": 2,
+      "currentNrs": "celkop",
+      "meaningJa": "頂、てっぺん、最上部、頂嶺",
+      "candidates": [
+        {
+          "nrs": "celkon",
+          "phonemeSequence": "ʃelkon"
+        },
+        {
+          "nrs": "celkor",
+          "phonemeSequence": "ʃelkor"
+        },
+        {
+          "nrs": "celkol",
+          "phonemeSequence": "ʃelkol"
+        },
+        {
+          "nrs": "celkom",
+          "phonemeSequence": "ʃelkom"
+        },
+        {
+          "nrs": "celkos",
+          "phonemeSequence": "ʃelkos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 9,
+      "currentNrs": "falarik",
+      "meaningJa": "光度、放射光束、輝度",
+      "candidates": [
+        {
+          "nrs": "falarin",
+          "phonemeSequence": "falarin"
+        },
+        {
+          "nrs": "falarir",
+          "phonemeSequence": "falarir"
+        },
+        {
+          "nrs": "falaril",
+          "phonemeSequence": "falaril"
+        },
+        {
+          "nrs": "falarim",
+          "phonemeSequence": "falarim"
+        },
+        {
+          "nrs": "falaris",
+          "phonemeSequence": "falaris"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 15,
+      "currentNrs": "falret",
+      "meaningJa": "反射、照り返し、跳ね返り光",
+      "candidates": [
+        {
+          "nrs": "falren",
+          "phonemeSequence": "falren"
+        },
+        {
+          "nrs": "falrer",
+          "phonemeSequence": "falrer"
+        },
+        {
+          "nrs": "falrel",
+          "phonemeSequence": "falrel"
+        },
+        {
+          "nrs": "falrem",
+          "phonemeSequence": "falrem"
+        },
+        {
+          "nrs": "falres",
+          "phonemeSequence": "falres"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 18,
+      "currentNrs": "falyt",
+      "meaningJa": "流星、彗星、夜空を走る光条",
+      "candidates": [
+        {
+          "nrs": "falyn",
+          "phonemeSequence": "falyn"
+        },
+        {
+          "nrs": "falyr",
+          "phonemeSequence": "falyr"
+        },
+        {
+          "nrs": "falyl",
+          "phonemeSequence": "falyl"
+        },
+        {
+          "nrs": "falym",
+          "phonemeSequence": "falym"
+        },
+        {
+          "nrs": "falys",
+          "phonemeSequence": "falys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 24,
+      "currentNrs": "kymhav",
+      "meaningJa": "極夜、恒暗期、昇らぬ主星の季節",
+      "candidates": [
+        {
+          "nrs": "kymhan",
+          "phonemeSequence": "kymhan"
+        },
+        {
+          "nrs": "kymhar",
+          "phonemeSequence": "kymhar"
+        },
+        {
+          "nrs": "kymhal",
+          "phonemeSequence": "kymhal"
+        },
+        {
+          "nrs": "kymham",
+          "phonemeSequence": "kymham"
+        },
+        {
+          "nrs": "kymhas",
+          "phonemeSequence": "kymhas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 41,
+      "currentNrs": "poryk",
+      "meaningJa": "距離、道のり、隔たり、行程",
+      "candidates": [
+        {
+          "nrs": "poryn",
+          "phonemeSequence": "poryn"
+        },
+        {
+          "nrs": "poryr",
+          "phonemeSequence": "poryr"
+        },
+        {
+          "nrs": "poryl",
+          "phonemeSequence": "poryl"
+        },
+        {
+          "nrs": "porym",
+          "phonemeSequence": "porym"
+        },
+        {
+          "nrs": "porys",
+          "phonemeSequence": "porys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 60,
+      "currentNrs": "vorlyk",
+      "meaningJa": "公転周期、会合周期、周回調和",
+      "candidates": [
+        {
+          "nrs": "vorlyn",
+          "phonemeSequence": "vorlyn"
+        },
+        {
+          "nrs": "vorlyr",
+          "phonemeSequence": "vorlyr"
+        },
+        {
+          "nrs": "vorlyl",
+          "phonemeSequence": "vorlyl"
+        },
+        {
+          "nrs": "vorlym",
+          "phonemeSequence": "vorlym"
+        },
+        {
+          "nrs": "vorlys",
+          "phonemeSequence": "vorlys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 74,
+      "currentNrs": "zoharik",
+      "meaningJa": "太陽黒点、主星斑点、活動領域",
+      "candidates": [
+        {
+          "nrs": "zoharin",
+          "phonemeSequence": "zoharin"
+        },
+        {
+          "nrs": "zoharir",
+          "phonemeSequence": "zoharir"
+        },
+        {
+          "nrs": "zoharim",
+          "phonemeSequence": "zoharim"
+        },
+        {
+          "nrs": "zoharis",
+          "phonemeSequence": "zoharis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 84,
+      "currentNrs": "dorkat",
+      "meaningJa": "円錐曲線、二次曲線",
+      "candidates": [
+        {
+          "nrs": "dorkan",
+          "phonemeSequence": "dorkan"
+        },
+        {
+          "nrs": "dorkar",
+          "phonemeSequence": "dorkar"
+        },
+        {
+          "nrs": "dorkal",
+          "phonemeSequence": "dorkal"
+        },
+        {
+          "nrs": "dorkam",
+          "phonemeSequence": "dorkam"
+        },
+        {
+          "nrs": "dorkas",
+          "phonemeSequence": "dorkas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 85,
+      "currentNrs": "dorlik",
+      "meaningJa": "楕円、離心軌道、卵形",
+      "candidates": [
+        {
+          "nrs": "dorlin",
+          "phonemeSequence": "dorlin"
+        },
+        {
+          "nrs": "dorlir",
+          "phonemeSequence": "dorlir"
+        },
+        {
+          "nrs": "dorlil",
+          "phonemeSequence": "dorlil"
+        },
+        {
+          "nrs": "dorlim",
+          "phonemeSequence": "dorlim"
+        },
+        {
+          "nrs": "dorlis",
+          "phonemeSequence": "dorlis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 88,
+      "currentNrs": "firkat",
+      "meaningJa": "極限値、リミット、収束点",
+      "candidates": [
+        {
+          "nrs": "firkan",
+          "phonemeSequence": "firkan"
+        },
+        {
+          "nrs": "firkar",
+          "phonemeSequence": "firkar"
+        },
+        {
+          "nrs": "firkal",
+          "phonemeSequence": "firkal"
+        },
+        {
+          "nrs": "firkam",
+          "phonemeSequence": "firkam"
+        },
+        {
+          "nrs": "firkas",
+          "phonemeSequence": "firkas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 93,
+      "currentNrs": "jylkat",
+      "meaningJa": "直和、デカルト積、空間結合",
+      "candidates": [
+        {
+          "nrs": "jylkar",
+          "phonemeSequence": "ʒylkar"
+        },
+        {
+          "nrs": "jylkal",
+          "phonemeSequence": "ʒylkal"
+        },
+        {
+          "nrs": "jylkam",
+          "phonemeSequence": "ʒylkam"
+        },
+        {
+          "nrs": "jylkas",
+          "phonemeSequence": "ʒylkas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 122,
+      "currentNrs": "tulik",
+      "meaningJa": "多角形、星型幾何、立体多面体",
+      "candidates": [
+        {
+          "nrs": "tulin",
+          "phonemeSequence": "tulin"
+        },
+        {
+          "nrs": "tulir",
+          "phonemeSequence": "tulir"
+        },
+        {
+          "nrs": "tulil",
+          "phonemeSequence": "tulil"
+        },
+        {
+          "nrs": "tulim",
+          "phonemeSequence": "tulim"
+        },
+        {
+          "nrs": "tulis",
+          "phonemeSequence": "tulis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 126,
+      "currentNrs": "vedot",
+      "meaningJa": "条件式、論理前提、命題",
+      "candidates": [
+        {
+          "nrs": "vedon",
+          "phonemeSequence": "vedon"
+        },
+        {
+          "nrs": "vedor",
+          "phonemeSequence": "vedor"
+        },
+        {
+          "nrs": "vedol",
+          "phonemeSequence": "vedol"
+        },
+        {
+          "nrs": "vedom",
+          "phonemeSequence": "vedom"
+        },
+        {
+          "nrs": "vedos",
+          "phonemeSequence": "vedos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 131,
+      "currentNrs": "jylvat",
+      "meaningJa": "グラフ構造、連結網、関係図",
+      "candidates": [
+        {
+          "nrs": "jylvan",
+          "phonemeSequence": "ʒylvan"
+        },
+        {
+          "nrs": "jylvar",
+          "phonemeSequence": "ʒylvar"
+        },
+        {
+          "nrs": "jylval",
+          "phonemeSequence": "ʒylval"
+        },
+        {
+          "nrs": "jylvam",
+          "phonemeSequence": "ʒylvam"
+        },
+        {
+          "nrs": "jylvas",
+          "phonemeSequence": "ʒylvas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 139,
+      "currentNrs": "kirvat",
+      "meaningJa": "スキーマ、データ構造定義、論理骨格",
+      "candidates": [
+        {
+          "nrs": "kirvan",
+          "phonemeSequence": "kirvan"
+        },
+        {
+          "nrs": "kirvar",
+          "phonemeSequence": "kirvar"
+        },
+        {
+          "nrs": "kirval",
+          "phonemeSequence": "kirval"
+        },
+        {
+          "nrs": "kirvam",
+          "phonemeSequence": "kirvam"
+        },
+        {
+          "nrs": "kirvas",
+          "phonemeSequence": "kirvas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 141,
+      "currentNrs": "kiv",
+      "meaningJa": "ビット、二値単位、情報最小光点",
+      "candidates": [
+        {
+          "nrs": "kin",
+          "phonemeSequence": "kin"
+        },
+        {
+          "nrs": "kir",
+          "phonemeSequence": "kir"
+        },
+        {
+          "nrs": "kil",
+          "phonemeSequence": "kil"
+        },
+        {
+          "nrs": "kim",
+          "phonemeSequence": "kim"
+        },
+        {
+          "nrs": "kis",
+          "phonemeSequence": "kis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 157,
+      "currentNrs": "marnat",
+      "meaningJa": "行列、マトリクス、格子配列",
+      "candidates": [
+        {
+          "nrs": "marnan",
+          "phonemeSequence": "marnan"
+        },
+        {
+          "nrs": "marnar",
+          "phonemeSequence": "marnar"
+        },
+        {
+          "nrs": "marnal",
+          "phonemeSequence": "marnal"
+        },
+        {
+          "nrs": "marnam",
+          "phonemeSequence": "marnam"
+        },
+        {
+          "nrs": "marnas",
+          "phonemeSequence": "marnas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 162,
+      "currentNrs": "sevik",
+      "meaningJa": "条件分岐、フォーク、判定節",
+      "candidates": [
+        {
+          "nrs": "sevin",
+          "phonemeSequence": "sevin"
+        },
+        {
+          "nrs": "sevir",
+          "phonemeSequence": "sevir"
+        },
+        {
+          "nrs": "sevil",
+          "phonemeSequence": "sevil"
+        },
+        {
+          "nrs": "sevim",
+          "phonemeSequence": "sevim"
+        },
+        {
+          "nrs": "sevis",
+          "phonemeSequence": "sevis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 165,
+      "currentNrs": "sorvat",
+      "meaningJa": "レジスタ、超高速記憶枠、保持器",
+      "candidates": [
+        {
+          "nrs": "sorvan",
+          "phonemeSequence": "sorvan"
+        },
+        {
+          "nrs": "sorvar",
+          "phonemeSequence": "sorvar"
+        },
+        {
+          "nrs": "sorval",
+          "phonemeSequence": "sorval"
+        },
+        {
+          "nrs": "sorvam",
+          "phonemeSequence": "sorvam"
+        },
+        {
+          "nrs": "sorvas",
+          "phonemeSequence": "sorvas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 166,
+      "currentNrs": "suf",
+      "meaningJa": "計算、論理、アルゴリズム",
+      "candidates": [
+        {
+          "nrs": "sun",
+          "phonemeSequence": "sun"
+        },
+        {
+          "nrs": "sur",
+          "phonemeSequence": "sur"
+        },
+        {
+          "nrs": "sul",
+          "phonemeSequence": "sul"
+        },
+        {
+          "nrs": "sum",
+          "phonemeSequence": "sum"
+        },
+        {
+          "nrs": "sus",
+          "phonemeSequence": "sus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 167,
+      "currentNrs": "suflik",
+      "meaningJa": "ヒューリスティック、探索近似法",
+      "candidates": [
+        {
+          "nrs": "suflin",
+          "phonemeSequence": "suflin"
+        },
+        {
+          "nrs": "suflir",
+          "phonemeSequence": "suflir"
+        },
+        {
+          "nrs": "suflil",
+          "phonemeSequence": "suflil"
+        },
+        {
+          "nrs": "suflim",
+          "phonemeSequence": "suflim"
+        },
+        {
+          "nrs": "suflis",
+          "phonemeSequence": "suflis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 168,
+      "currentNrs": "suflit",
+      "meaningJa": "要約、まとめ、抄録、骨子",
+      "candidates": [
+        {
+          "nrs": "suflin",
+          "phonemeSequence": "suflin"
+        },
+        {
+          "nrs": "suflir",
+          "phonemeSequence": "suflir"
+        },
+        {
+          "nrs": "suflil",
+          "phonemeSequence": "suflil"
+        },
+        {
+          "nrs": "suflim",
+          "phonemeSequence": "suflim"
+        },
+        {
+          "nrs": "suflis",
+          "phonemeSequence": "suflis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 177,
+      "currentNrs": "tolkat",
+      "meaningJa": "レイテンシ、伝送遅延、応答時間",
+      "candidates": [
+        {
+          "nrs": "tolkan",
+          "phonemeSequence": "tolkan"
+        },
+        {
+          "nrs": "tolkar",
+          "phonemeSequence": "tolkar"
+        },
+        {
+          "nrs": "tolkal",
+          "phonemeSequence": "tolkal"
+        },
+        {
+          "nrs": "tolkam",
+          "phonemeSequence": "tolkam"
+        },
+        {
+          "nrs": "tolkas",
+          "phonemeSequence": "tolkas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 183,
+      "currentNrs": "tyk",
+      "meaningJa": "クロック、時計信号、規則拍",
+      "candidates": [
+        {
+          "nrs": "tyn",
+          "phonemeSequence": "tyn"
+        },
+        {
+          "nrs": "tyr",
+          "phonemeSequence": "tyr"
+        },
+        {
+          "nrs": "tyl",
+          "phonemeSequence": "tyl"
+        },
+        {
+          "nrs": "tym",
+          "phonemeSequence": "tym"
+        },
+        {
+          "nrs": "tys",
+          "phonemeSequence": "tys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 186,
+      "currentNrs": "veltok",
+      "meaningJa": "インデックス、索引、検索目録",
+      "candidates": [
+        {
+          "nrs": "velton",
+          "phonemeSequence": "velton"
+        },
+        {
+          "nrs": "veltor",
+          "phonemeSequence": "veltor"
+        },
+        {
+          "nrs": "veltol",
+          "phonemeSequence": "veltol"
+        },
+        {
+          "nrs": "veltom",
+          "phonemeSequence": "veltom"
+        },
+        {
+          "nrs": "veltos",
+          "phonemeSequence": "veltos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 187,
+      "currentNrs": "voret",
+      "meaningJa": "ループ、反復処理、再帰",
+      "candidates": [
+        {
+          "nrs": "voren",
+          "phonemeSequence": "voren"
+        },
+        {
+          "nrs": "vorer",
+          "phonemeSequence": "vorer"
+        },
+        {
+          "nrs": "vorel",
+          "phonemeSequence": "vorel"
+        },
+        {
+          "nrs": "vorem",
+          "phonemeSequence": "vorem"
+        },
+        {
+          "nrs": "vores",
+          "phonemeSequence": "vores"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 194,
+      "currentNrs": "zydot",
+      "meaningJa": "検証、アサーション、実証テスト",
+      "candidates": [
+        {
+          "nrs": "zydon",
+          "phonemeSequence": "zydon"
+        },
+        {
+          "nrs": "zydor",
+          "phonemeSequence": "zydor"
+        },
+        {
+          "nrs": "zydol",
+          "phonemeSequence": "zydol"
+        },
+        {
+          "nrs": "zydom",
+          "phonemeSequence": "zydom"
+        },
+        {
+          "nrs": "zydos",
+          "phonemeSequence": "zydos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 200,
+      "currentNrs": "darispuk",
+      "meaningJa": "軟膏、塗り薬、薬用膏薬",
+      "candidates": [
+        {
+          "nrs": "darispun",
+          "phonemeSequence": "darispun"
+        },
+        {
+          "nrs": "darispur",
+          "phonemeSequence": "darispur"
+        },
+        {
+          "nrs": "darispul",
+          "phonemeSequence": "darispul"
+        },
+        {
+          "nrs": "darispum",
+          "phonemeSequence": "darispum"
+        },
+        {
+          "nrs": "darispus",
+          "phonemeSequence": "darispus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 201,
+      "currentNrs": "darmut",
+      "meaningJa": "汗、体液蒸散、滴り",
+      "candidates": [
+        {
+          "nrs": "darmun",
+          "phonemeSequence": "darmun"
+        },
+        {
+          "nrs": "darmur",
+          "phonemeSequence": "darmur"
+        },
+        {
+          "nrs": "darmul",
+          "phonemeSequence": "darmul"
+        },
+        {
+          "nrs": "darmum",
+          "phonemeSequence": "darmum"
+        },
+        {
+          "nrs": "darmus",
+          "phonemeSequence": "darmus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 213,
+      "currentNrs": "fenrut",
+      "meaningJa": "喉、気道、咽頭、声の通り道",
+      "candidates": [
+        {
+          "nrs": "fenrun",
+          "phonemeSequence": "fenrun"
+        },
+        {
+          "nrs": "fenrur",
+          "phonemeSequence": "fenrur"
+        },
+        {
+          "nrs": "fenrul",
+          "phonemeSequence": "fenrul"
+        },
+        {
+          "nrs": "fenrum",
+          "phonemeSequence": "fenrum"
+        },
+        {
+          "nrs": "fenrus",
+          "phonemeSequence": "fenrus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 216,
+      "currentNrs": "hylik",
+      "meaningJa": "皮膚、肌、外被",
+      "candidates": [
+        {
+          "nrs": "hylin",
+          "phonemeSequence": "hylin"
+        },
+        {
+          "nrs": "hylir",
+          "phonemeSequence": "hylir"
+        },
+        {
+          "nrs": "hylil",
+          "phonemeSequence": "hylil"
+        },
+        {
+          "nrs": "hylim",
+          "phonemeSequence": "hylim"
+        },
+        {
+          "nrs": "hylis",
+          "phonemeSequence": "hylis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 221,
+      "currentNrs": "kylat",
+      "meaningJa": "疲労、消耗、エネルギー枯渇",
+      "candidates": [
+        {
+          "nrs": "kylan",
+          "phonemeSequence": "kylan"
+        },
+        {
+          "nrs": "kylal",
+          "phonemeSequence": "kylal"
+        },
+        {
+          "nrs": "kylam",
+          "phonemeSequence": "kylam"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 234,
+      "currentNrs": "nerzyv",
+      "meaningJa": "消化、滋養吸収、同化代謝",
+      "candidates": [
+        {
+          "nrs": "nerzyn",
+          "phonemeSequence": "nerzyn"
+        },
+        {
+          "nrs": "nerzyr",
+          "phonemeSequence": "nerzyr"
+        },
+        {
+          "nrs": "nerzyl",
+          "phonemeSequence": "nerzyl"
+        },
+        {
+          "nrs": "nerzym",
+          "phonemeSequence": "nerzym"
+        },
+        {
+          "nrs": "nerzys",
+          "phonemeSequence": "nerzys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 245,
+      "currentNrs": "palv",
+      "meaningJa": "手、掌、指",
+      "candidates": [
+        {
+          "nrs": "paln",
+          "phonemeSequence": "paln"
+        },
+        {
+          "nrs": "palr",
+          "phonemeSequence": "palr"
+        },
+        {
+          "nrs": "palm",
+          "phonemeSequence": "palm"
+        },
+        {
+          "nrs": "pals",
+          "phonemeSequence": "pals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 249,
+      "currentNrs": "palvjyt",
+      "meaningJa": "手首、関節、手の節点",
+      "candidates": [
+        {
+          "nrs": "palvjyn",
+          "phonemeSequence": "palvʒyn"
+        },
+        {
+          "nrs": "palvjyr",
+          "phonemeSequence": "palvʒyr"
+        },
+        {
+          "nrs": "palvjyl",
+          "phonemeSequence": "palvʒyl"
+        },
+        {
+          "nrs": "palvjym",
+          "phonemeSequence": "palvʒym"
+        },
+        {
+          "nrs": "palvjys",
+          "phonemeSequence": "palvʒys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 260,
+      "currentNrs": "valmik",
+      "meaningJa": "包帯、防護布、被覆保護材",
+      "candidates": [
+        {
+          "nrs": "valmin",
+          "phonemeSequence": "valmin"
+        },
+        {
+          "nrs": "valmir",
+          "phonemeSequence": "valmir"
+        },
+        {
+          "nrs": "valmil",
+          "phonemeSequence": "valmil"
+        },
+        {
+          "nrs": "valmim",
+          "phonemeSequence": "valmim"
+        },
+        {
+          "nrs": "valmis",
+          "phonemeSequence": "valmis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 264,
+      "currentNrs": "wylat",
+      "meaningJa": "鼻、息の通り道、嗅覚器官",
+      "candidates": [
+        {
+          "nrs": "wylan",
+          "phonemeSequence": "wylan"
+        },
+        {
+          "nrs": "wylar",
+          "phonemeSequence": "wylar"
+        },
+        {
+          "nrs": "wylal",
+          "phonemeSequence": "wylal"
+        },
+        {
+          "nrs": "wylam",
+          "phonemeSequence": "wylam"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 272,
+      "currentNrs": "zyvrev",
+      "meaningJa": "蘇生、心肺回復、再活性化する",
+      "candidates": [
+        {
+          "nrs": "zyvren",
+          "phonemeSequence": "zyvren"
+        },
+        {
+          "nrs": "zyvrer",
+          "phonemeSequence": "zyvrer"
+        },
+        {
+          "nrs": "zyvrel",
+          "phonemeSequence": "zyvrel"
+        },
+        {
+          "nrs": "zyvrem",
+          "phonemeSequence": "zyvrem"
+        },
+        {
+          "nrs": "zyvres",
+          "phonemeSequence": "zyvres"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 282,
+      "currentNrs": "talfot",
+      "meaningJa": "土埃、砂ぼこり、微細粉塵",
+      "candidates": [
+        {
+          "nrs": "talfon",
+          "phonemeSequence": "talfon"
+        },
+        {
+          "nrs": "talfor",
+          "phonemeSequence": "talfor"
+        },
+        {
+          "nrs": "talfol",
+          "phonemeSequence": "talfol"
+        },
+        {
+          "nrs": "talfom",
+          "phonemeSequence": "talfom"
+        },
+        {
+          "nrs": "talfos",
+          "phonemeSequence": "talfos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 284,
+      "currentNrs": "talik",
+      "meaningJa": "谷、峡谷、大地の裂け目",
+      "candidates": [
+        {
+          "nrs": "talin",
+          "phonemeSequence": "talin"
+        },
+        {
+          "nrs": "talir",
+          "phonemeSequence": "talir"
+        },
+        {
+          "nrs": "talil",
+          "phonemeSequence": "talil"
+        },
+        {
+          "nrs": "talim",
+          "phonemeSequence": "talim"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 293,
+      "currentNrs": "talmorv",
+      "meaningJa": "堆積、土砂堆積、沈殿層形成",
+      "candidates": [
+        {
+          "nrs": "talmorn",
+          "phonemeSequence": "talmorn"
+        },
+        {
+          "nrs": "talmorl",
+          "phonemeSequence": "talmorl"
+        },
+        {
+          "nrs": "talmorm",
+          "phonemeSequence": "talmorm"
+        },
+        {
+          "nrs": "talmors",
+          "phonemeSequence": "talmors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 306,
+      "currentNrs": "talsarv",
+      "meaningJa": "段丘、河岸段丘、海岸階段地形",
+      "candidates": [
+        {
+          "nrs": "talsarn",
+          "phonemeSequence": "talsarn"
+        },
+        {
+          "nrs": "talsarl",
+          "phonemeSequence": "talsarl"
+        },
+        {
+          "nrs": "talsarm",
+          "phonemeSequence": "talsarm"
+        },
+        {
+          "nrs": "talsars",
+          "phonemeSequence": "talsars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 314,
+      "currentNrs": "talvarp",
+      "meaningJa": "硫黄鉱床、噴気孔地帯、鉱気帯",
+      "candidates": [
+        {
+          "nrs": "talvarn",
+          "phonemeSequence": "talvarn"
+        },
+        {
+          "nrs": "talvarl",
+          "phonemeSequence": "talvarl"
+        },
+        {
+          "nrs": "talvarm",
+          "phonemeSequence": "talvarm"
+        },
+        {
+          "nrs": "talvars",
+          "phonemeSequence": "talvars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 315,
+      "currentNrs": "talvelk",
+      "meaningJa": "峡谷底、谷底平野、岩峰間の隘路",
+      "candidates": [
+        {
+          "nrs": "talveln",
+          "phonemeSequence": "talveln"
+        },
+        {
+          "nrs": "talvelr",
+          "phonemeSequence": "talvelr"
+        },
+        {
+          "nrs": "talvelm",
+          "phonemeSequence": "talvelm"
+        },
+        {
+          "nrs": "talvels",
+          "phonemeSequence": "talvels"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 317,
+      "currentNrs": "talvort",
+      "meaningJa": "地下水脈孔、鍾乳洞水路、吸い込み穴",
+      "candidates": [
+        {
+          "nrs": "talvorn",
+          "phonemeSequence": "talvorn"
+        },
+        {
+          "nrs": "talvorl",
+          "phonemeSequence": "talvorl"
+        },
+        {
+          "nrs": "talvorm",
+          "phonemeSequence": "talvorm"
+        },
+        {
+          "nrs": "talvors",
+          "phonemeSequence": "talvors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 324,
+      "currentNrs": "celnyv",
+      "meaningJa": "薄霧、朝靄、山靄、蒸気靄",
+      "candidates": [
+        {
+          "nrs": "celnyn",
+          "phonemeSequence": "ʃelnyn"
+        },
+        {
+          "nrs": "celnyr",
+          "phonemeSequence": "ʃelnyr"
+        },
+        {
+          "nrs": "celnyl",
+          "phonemeSequence": "ʃelnyl"
+        },
+        {
+          "nrs": "celnym",
+          "phonemeSequence": "ʃelnym"
+        },
+        {
+          "nrs": "celnys",
+          "phonemeSequence": "ʃelnys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 328,
+      "currentNrs": "celvorv",
+      "meaningJa": "積乱雲、入道雲、雷雨積雲",
+      "candidates": [
+        {
+          "nrs": "celvorn",
+          "phonemeSequence": "ʃelvorn"
+        },
+        {
+          "nrs": "celvorl",
+          "phonemeSequence": "ʃelvorl"
+        },
+        {
+          "nrs": "celvorm",
+          "phonemeSequence": "ʃelvorm"
+        },
+        {
+          "nrs": "celvors",
+          "phonemeSequence": "ʃelvors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 334,
+      "currentNrs": "darlik",
+      "meaningJa": "地下水、伏流水、帯水層",
+      "candidates": [
+        {
+          "nrs": "darlin",
+          "phonemeSequence": "darlin"
+        },
+        {
+          "nrs": "darlir",
+          "phonemeSequence": "darlir"
+        },
+        {
+          "nrs": "darlil",
+          "phonemeSequence": "darlil"
+        },
+        {
+          "nrs": "darlim",
+          "phonemeSequence": "darlim"
+        },
+        {
+          "nrs": "darlis",
+          "phonemeSequence": "darlis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 338,
+      "currentNrs": "darnyv",
+      "meaningJa": "朝露、夜露、草葉の露水",
+      "candidates": [
+        {
+          "nrs": "darnyn",
+          "phonemeSequence": "darnyn"
+        },
+        {
+          "nrs": "darnyr",
+          "phonemeSequence": "darnyr"
+        },
+        {
+          "nrs": "darnyl",
+          "phonemeSequence": "darnyl"
+        },
+        {
+          "nrs": "darnym",
+          "phonemeSequence": "darnym"
+        },
+        {
+          "nrs": "darnys",
+          "phonemeSequence": "darnys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 343,
+      "currentNrs": "darpuk",
+      "meaningJa": "水たまり、窪みの水、雨水溜まり",
+      "candidates": [
+        {
+          "nrs": "darpun",
+          "phonemeSequence": "darpun"
+        },
+        {
+          "nrs": "darpur",
+          "phonemeSequence": "darpur"
+        },
+        {
+          "nrs": "darpul",
+          "phonemeSequence": "darpul"
+        },
+        {
+          "nrs": "darpum",
+          "phonemeSequence": "darpum"
+        },
+        {
+          "nrs": "darpus",
+          "phonemeSequence": "darpus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 344,
+      "currentNrs": "darrot",
+      "meaningJa": "波、波浪、水面のさざ波",
+      "candidates": [
+        {
+          "nrs": "darron",
+          "phonemeSequence": "darron"
+        },
+        {
+          "nrs": "darror",
+          "phonemeSequence": "darror"
+        },
+        {
+          "nrs": "darrol",
+          "phonemeSequence": "darrol"
+        },
+        {
+          "nrs": "darrom",
+          "phonemeSequence": "darrom"
+        },
+        {
+          "nrs": "darros",
+          "phonemeSequence": "darros"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 345,
+      "currentNrs": "darsik",
+      "meaningJa": "海峡、水路、海峡部",
+      "candidates": [
+        {
+          "nrs": "darsin",
+          "phonemeSequence": "darsin"
+        },
+        {
+          "nrs": "darsir",
+          "phonemeSequence": "darsir"
+        },
+        {
+          "nrs": "darsil",
+          "phonemeSequence": "darsil"
+        },
+        {
+          "nrs": "darsim",
+          "phonemeSequence": "darsim"
+        },
+        {
+          "nrs": "darsis",
+          "phonemeSequence": "darsis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 346,
+      "currentNrs": "darsolv",
+      "meaningJa": "清流、小川、せせらぎ、渓流",
+      "candidates": [
+        {
+          "nrs": "darsoln",
+          "phonemeSequence": "darsoln"
+        },
+        {
+          "nrs": "darsolr",
+          "phonemeSequence": "darsolr"
+        },
+        {
+          "nrs": "darsolm",
+          "phonemeSequence": "darsolm"
+        },
+        {
+          "nrs": "darsols",
+          "phonemeSequence": "darsols"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 363,
+      "currentNrs": "velhav",
+      "meaningJa": "春、芽吹きの季節、萌芽期",
+      "candidates": [
+        {
+          "nrs": "velhan",
+          "phonemeSequence": "velhan"
+        },
+        {
+          "nrs": "velhar",
+          "phonemeSequence": "velhar"
+        },
+        {
+          "nrs": "velhal",
+          "phonemeSequence": "velhal"
+        },
+        {
+          "nrs": "velham",
+          "phonemeSequence": "velham"
+        },
+        {
+          "nrs": "velhas",
+          "phonemeSequence": "velhas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 373,
+      "currentNrs": "wylsuk",
+      "meaningJa": "すきま風、風の通り道、隙間風",
+      "candidates": [
+        {
+          "nrs": "wylsun",
+          "phonemeSequence": "wylsun"
+        },
+        {
+          "nrs": "wylsur",
+          "phonemeSequence": "wylsur"
+        },
+        {
+          "nrs": "wylsul",
+          "phonemeSequence": "wylsul"
+        },
+        {
+          "nrs": "wylsum",
+          "phonemeSequence": "wylsum"
+        },
+        {
+          "nrs": "wylsus",
+          "phonemeSequence": "wylsus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 374,
+      "currentNrs": "wyltorv",
+      "meaningJa": "竜巻、漏斗雲、トルネード",
+      "candidates": [
+        {
+          "nrs": "wyltorn",
+          "phonemeSequence": "wyltorn"
+        },
+        {
+          "nrs": "wyltorl",
+          "phonemeSequence": "wyltorl"
+        },
+        {
+          "nrs": "wyltorm",
+          "phonemeSequence": "wyltorm"
+        },
+        {
+          "nrs": "wyltors",
+          "phonemeSequence": "wyltors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 376,
+      "currentNrs": "zohav",
+      "meaningJa": "夏、主星の季節、陽光盛期",
+      "candidates": [
+        {
+          "nrs": "zohan",
+          "phonemeSequence": "zohan"
+        },
+        {
+          "nrs": "zohal",
+          "phonemeSequence": "zohal"
+        },
+        {
+          "nrs": "zoham",
+          "phonemeSequence": "zoham"
+        },
+        {
+          "nrs": "zohas",
+          "phonemeSequence": "zohas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 385,
+      "currentNrs": "talkorv",
+      "meaningJa": "畝、作付列、畑の畦道",
+      "candidates": [
+        {
+          "nrs": "talkorn",
+          "phonemeSequence": "talkorn"
+        },
+        {
+          "nrs": "talkorm",
+          "phonemeSequence": "talkorm"
+        },
+        {
+          "nrs": "talkors",
+          "phonemeSequence": "talkors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 401,
+      "currentNrs": "velkorv",
+      "meaningJa": "果皮、果実の外皮、殻皮",
+      "candidates": [
+        {
+          "nrs": "velkorn",
+          "phonemeSequence": "velkorn"
+        },
+        {
+          "nrs": "velkorl",
+          "phonemeSequence": "velkorl"
+        },
+        {
+          "nrs": "velkorm",
+          "phonemeSequence": "velkorm"
+        },
+        {
+          "nrs": "velkors",
+          "phonemeSequence": "velkors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 407,
+      "currentNrs": "velporv",
+      "meaningJa": "胞子、羊歯の胞子嚢群",
+      "candidates": [
+        {
+          "nrs": "velporn",
+          "phonemeSequence": "velporn"
+        },
+        {
+          "nrs": "velporl",
+          "phonemeSequence": "velporl"
+        },
+        {
+          "nrs": "velporm",
+          "phonemeSequence": "velporm"
+        },
+        {
+          "nrs": "velpors",
+          "phonemeSequence": "velpors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 408,
+      "currentNrs": "velrot",
+      "meaningJa": "木漏れ日、梢の光、林床の光芒",
+      "candidates": [
+        {
+          "nrs": "velron",
+          "phonemeSequence": "velron"
+        },
+        {
+          "nrs": "velror",
+          "phonemeSequence": "velror"
+        },
+        {
+          "nrs": "velrol",
+          "phonemeSequence": "velrol"
+        },
+        {
+          "nrs": "velrom",
+          "phonemeSequence": "velrom"
+        },
+        {
+          "nrs": "velros",
+          "phonemeSequence": "velros"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 411,
+      "currentNrs": "velsarp",
+      "meaningJa": "球根、鱗茎、地下貯蔵塊茎",
+      "candidates": [
+        {
+          "nrs": "velsarn",
+          "phonemeSequence": "velsarn"
+        },
+        {
+          "nrs": "velsarl",
+          "phonemeSequence": "velsarl"
+        },
+        {
+          "nrs": "velsarm",
+          "phonemeSequence": "velsarm"
+        },
+        {
+          "nrs": "velsars",
+          "phonemeSequence": "velsars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 414,
+      "currentNrs": "velsot",
+      "meaningJa": "樹液、植物の血漿、蜜液",
+      "candidates": [
+        {
+          "nrs": "velson",
+          "phonemeSequence": "velson"
+        },
+        {
+          "nrs": "velsor",
+          "phonemeSequence": "velsor"
+        },
+        {
+          "nrs": "velsom",
+          "phonemeSequence": "velsom"
+        },
+        {
+          "nrs": "velsos",
+          "phonemeSequence": "velsos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 416,
+      "currentNrs": "veltalv",
+      "meaningJa": "腐植堆肥、肥沃堆肥、有機肥料",
+      "candidates": [
+        {
+          "nrs": "veltaln",
+          "phonemeSequence": "veltaln"
+        },
+        {
+          "nrs": "veltalr",
+          "phonemeSequence": "veltalr"
+        },
+        {
+          "nrs": "veltalm",
+          "phonemeSequence": "veltalm"
+        },
+        {
+          "nrs": "veltals",
+          "phonemeSequence": "veltals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 417,
+      "currentNrs": "veltarv",
+      "meaningJa": "落葉、枯葉、秋の敷き藁",
+      "candidates": [
+        {
+          "nrs": "veltarn",
+          "phonemeSequence": "veltarn"
+        },
+        {
+          "nrs": "veltarl",
+          "phonemeSequence": "veltarl"
+        },
+        {
+          "nrs": "veltarm",
+          "phonemeSequence": "veltarm"
+        },
+        {
+          "nrs": "veltars",
+          "phonemeSequence": "veltars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 426,
+      "currentNrs": "vorst",
+      "meaningJa": "背中、脊椎、背部",
+      "candidates": [
+        {
+          "nrs": "vorsn",
+          "phonemeSequence": "vorsn"
+        },
+        {
+          "nrs": "vorsr",
+          "phonemeSequence": "vorsr"
+        },
+        {
+          "nrs": "vorsl",
+          "phonemeSequence": "vorsl"
+        },
+        {
+          "nrs": "vorsm",
+          "phonemeSequence": "vorsm"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 437,
+      "currentNrs": "ferporv",
+      "meaningJa": "獣の足跡、踏み跡、爪痕",
+      "candidates": [
+        {
+          "nrs": "ferporn",
+          "phonemeSequence": "ferporn"
+        },
+        {
+          "nrs": "ferporl",
+          "phonemeSequence": "ferporl"
+        },
+        {
+          "nrs": "ferporm",
+          "phonemeSequence": "ferporm"
+        },
+        {
+          "nrs": "ferpors",
+          "phonemeSequence": "ferpors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 442,
+      "currentNrs": "krap",
+      "meaningJa": "虫、昆虫、甲虫",
+      "candidates": [
+        {
+          "nrs": "kran",
+          "phonemeSequence": "kran"
+        },
+        {
+          "nrs": "krar",
+          "phonemeSequence": "krar"
+        },
+        {
+          "nrs": "kral",
+          "phonemeSequence": "kral"
+        },
+        {
+          "nrs": "kram",
+          "phonemeSequence": "kram"
+        },
+        {
+          "nrs": "kras",
+          "phonemeSequence": "kras"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 445,
+      "currentNrs": "krapkorv",
+      "meaningJa": "蟻、地中巣穴の群行虫",
+      "candidates": [
+        {
+          "nrs": "krapkorn",
+          "phonemeSequence": "krapkorn"
+        },
+        {
+          "nrs": "krapkorl",
+          "phonemeSequence": "krapkorl"
+        },
+        {
+          "nrs": "krapkorm",
+          "phonemeSequence": "krapkorm"
+        },
+        {
+          "nrs": "krapkors",
+          "phonemeSequence": "krapkors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 455,
+      "currentNrs": "volcorv",
+      "meaningJa": "猛禽、鷹、鷲、大空の狩人",
+      "candidates": [
+        {
+          "nrs": "volcorn",
+          "phonemeSequence": "volʃorn"
+        },
+        {
+          "nrs": "volcorl",
+          "phonemeSequence": "volʃorl"
+        },
+        {
+          "nrs": "volcorm",
+          "phonemeSequence": "volʃorm"
+        },
+        {
+          "nrs": "volcors",
+          "phonemeSequence": "volʃors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 467,
+      "currentNrs": "zylparv",
+      "meaningJa": "魚の鰓、水呼吸器、えら",
+      "candidates": [
+        {
+          "nrs": "zylparn",
+          "phonemeSequence": "zylparn"
+        },
+        {
+          "nrs": "zylparl",
+          "phonemeSequence": "zylparl"
+        },
+        {
+          "nrs": "zylparm",
+          "phonemeSequence": "zylparm"
+        },
+        {
+          "nrs": "zylpars",
+          "phonemeSequence": "zylpars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 479,
+      "currentNrs": "dankorv",
+      "meaningJa": "元首、執政官、都市代表長",
+      "candidates": [
+        {
+          "nrs": "dankorn",
+          "phonemeSequence": "dankorn"
+        },
+        {
+          "nrs": "dankorl",
+          "phonemeSequence": "dankorl"
+        },
+        {
+          "nrs": "dankorm",
+          "phonemeSequence": "dankorm"
+        },
+        {
+          "nrs": "dankors",
+          "phonemeSequence": "dankors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 486,
+      "currentNrs": "dolyk",
+      "meaningJa": "義務、責務、誓約の勤め",
+      "candidates": [
+        {
+          "nrs": "dolyn",
+          "phonemeSequence": "dolyn"
+        },
+        {
+          "nrs": "dolyr",
+          "phonemeSequence": "dolyr"
+        },
+        {
+          "nrs": "dolyl",
+          "phonemeSequence": "dolyl"
+        },
+        {
+          "nrs": "dolym",
+          "phonemeSequence": "dolym"
+        },
+        {
+          "nrs": "dolys",
+          "phonemeSequence": "dolys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 490,
+      "currentNrs": "elyrat",
+      "meaningJa": "祭典、祝祭、星の祭り",
+      "candidates": [
+        {
+          "nrs": "elyran",
+          "phonemeSequence": "elyran"
+        },
+        {
+          "nrs": "elyrar",
+          "phonemeSequence": "elyrar"
+        },
+        {
+          "nrs": "elyral",
+          "phonemeSequence": "elyral"
+        },
+        {
+          "nrs": "elyram",
+          "phonemeSequence": "elyram"
+        },
+        {
+          "nrs": "elyras",
+          "phonemeSequence": "elyras"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 491,
+      "currentNrs": "jylik",
+      "meaningJa": "条約文書、協定証書、公文書",
+      "candidates": [
+        {
+          "nrs": "jylin",
+          "phonemeSequence": "ʒylin"
+        },
+        {
+          "nrs": "jylir",
+          "phonemeSequence": "ʒylir"
+        },
+        {
+          "nrs": "jylil",
+          "phonemeSequence": "ʒylil"
+        },
+        {
+          "nrs": "jylim",
+          "phonemeSequence": "ʒylim"
+        },
+        {
+          "nrs": "jylis",
+          "phonemeSequence": "ʒylis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 495,
+      "currentNrs": "jylot",
+      "meaningJa": "約束、契約、協定、盟約",
+      "candidates": [
+        {
+          "nrs": "jylon",
+          "phonemeSequence": "ʒylon"
+        },
+        {
+          "nrs": "jylor",
+          "phonemeSequence": "ʒylor"
+        },
+        {
+          "nrs": "jylol",
+          "phonemeSequence": "ʒylol"
+        },
+        {
+          "nrs": "jylos",
+          "phonemeSequence": "ʒylos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 497,
+      "currentNrs": "jylporv",
+      "meaningJa": "議定書、付属約定、批准付属書",
+      "candidates": [
+        {
+          "nrs": "jylporn",
+          "phonemeSequence": "ʒylporn"
+        },
+        {
+          "nrs": "jylporl",
+          "phonemeSequence": "ʒylporl"
+        },
+        {
+          "nrs": "jylporm",
+          "phonemeSequence": "ʒylporm"
+        },
+        {
+          "nrs": "jylpors",
+          "phonemeSequence": "ʒylpors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 502,
+      "currentNrs": "kuralit",
+      "meaningJa": "隣人、近隣の住民、お隣さん",
+      "candidates": [
+        {
+          "nrs": "kuralin",
+          "phonemeSequence": "kuralin"
+        },
+        {
+          "nrs": "kuralir",
+          "phonemeSequence": "kuralir"
+        },
+        {
+          "nrs": "kuralil",
+          "phonemeSequence": "kuralil"
+        },
+        {
+          "nrs": "kuralim",
+          "phonemeSequence": "kuralim"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 508,
+      "currentNrs": "polot",
+      "meaningJa": "投票、採決、市民の意思表示",
+      "candidates": [
+        {
+          "nrs": "polon",
+          "phonemeSequence": "polon"
+        },
+        {
+          "nrs": "polol",
+          "phonemeSequence": "polol"
+        },
+        {
+          "nrs": "polom",
+          "phonemeSequence": "polom"
+        },
+        {
+          "nrs": "polos",
+          "phonemeSequence": "polos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 510,
+      "currentNrs": "renik",
+      "meaningJa": "負債、借用証、債権",
+      "candidates": [
+        {
+          "nrs": "renin",
+          "phonemeSequence": "renin"
+        },
+        {
+          "nrs": "renir",
+          "phonemeSequence": "renir"
+        },
+        {
+          "nrs": "renil",
+          "phonemeSequence": "renil"
+        },
+        {
+          "nrs": "renim",
+          "phonemeSequence": "renim"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 513,
+      "currentNrs": "senmorv",
+      "meaningJa": "公聴会、住民集会、開かれた会合",
+      "candidates": [
+        {
+          "nrs": "senmorn",
+          "phonemeSequence": "senmorn"
+        },
+        {
+          "nrs": "senmorl",
+          "phonemeSequence": "senmorl"
+        },
+        {
+          "nrs": "senmorm",
+          "phonemeSequence": "senmorm"
+        },
+        {
+          "nrs": "senmors",
+          "phonemeSequence": "senmors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 521,
+      "currentNrs": "tarlot",
+      "meaningJa": "判決、裁定、法廷審判",
+      "candidates": [
+        {
+          "nrs": "tarlon",
+          "phonemeSequence": "tarlon"
+        },
+        {
+          "nrs": "tarlor",
+          "phonemeSequence": "tarlor"
+        },
+        {
+          "nrs": "tarlol",
+          "phonemeSequence": "tarlol"
+        },
+        {
+          "nrs": "tarlom",
+          "phonemeSequence": "tarlom"
+        },
+        {
+          "nrs": "tarlos",
+          "phonemeSequence": "tarlos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 528,
+      "currentNrs": "turmorv",
+      "meaningJa": "判例、確立された先例、判例集",
+      "candidates": [
+        {
+          "nrs": "turmorn",
+          "phonemeSequence": "turmorn"
+        },
+        {
+          "nrs": "turmorl",
+          "phonemeSequence": "turmorl"
+        },
+        {
+          "nrs": "turmorm",
+          "phonemeSequence": "turmorm"
+        },
+        {
+          "nrs": "turmors",
+          "phonemeSequence": "turmors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 531,
+      "currentNrs": "tursarp",
+      "meaningJa": "誓詞、宣誓書、就任誓約",
+      "candidates": [
+        {
+          "nrs": "tursarn",
+          "phonemeSequence": "tursarn"
+        },
+        {
+          "nrs": "tursarl",
+          "phonemeSequence": "tursarl"
+        },
+        {
+          "nrs": "tursarm",
+          "phonemeSequence": "tursarm"
+        },
+        {
+          "nrs": "tursars",
+          "phonemeSequence": "tursars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 532,
+      "currentNrs": "tursolv",
+      "meaningJa": "免責、恩赦、罪の免除",
+      "candidates": [
+        {
+          "nrs": "tursoln",
+          "phonemeSequence": "tursoln"
+        },
+        {
+          "nrs": "tursolr",
+          "phonemeSequence": "tursolr"
+        },
+        {
+          "nrs": "tursolm",
+          "phonemeSequence": "tursolm"
+        },
+        {
+          "nrs": "tursols",
+          "phonemeSequence": "tursols"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 533,
+      "currentNrs": "turtasv",
+      "meaningJa": "公印、国璽、統治印章",
+      "candidates": [
+        {
+          "nrs": "turtasn",
+          "phonemeSequence": "turtasn"
+        },
+        {
+          "nrs": "turtasr",
+          "phonemeSequence": "turtasr"
+        },
+        {
+          "nrs": "turtasl",
+          "phonemeSequence": "turtasl"
+        },
+        {
+          "nrs": "turtasm",
+          "phonemeSequence": "turtasm"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 541,
+      "currentNrs": "zyd",
+      "meaningJa": "事実、実相、検証された事象",
+      "candidates": [
+        {
+          "nrs": "zyn",
+          "phonemeSequence": "zyn"
+        },
+        {
+          "nrs": "zyr",
+          "phonemeSequence": "zyr"
+        },
+        {
+          "nrs": "zyl",
+          "phonemeSequence": "zyl"
+        },
+        {
+          "nrs": "zym",
+          "phonemeSequence": "zym"
+        },
+        {
+          "nrs": "zys",
+          "phonemeSequence": "zys"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 551,
+      "currentNrs": "doltarv",
+      "meaningJa": "焼戻し油、焼入れ水槽、冷却槽",
+      "candidates": [
+        {
+          "nrs": "doltarn",
+          "phonemeSequence": "doltarn"
+        },
+        {
+          "nrs": "doltarl",
+          "phonemeSequence": "doltarl"
+        },
+        {
+          "nrs": "doltarm",
+          "phonemeSequence": "doltarm"
+        },
+        {
+          "nrs": "doltars",
+          "phonemeSequence": "doltars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 556,
+      "currentNrs": "jylparv",
+      "meaningJa": "染料、天然草木染め液、染色槽",
+      "candidates": [
+        {
+          "nrs": "jylparn",
+          "phonemeSequence": "ʒylparn"
+        },
+        {
+          "nrs": "jylparl",
+          "phonemeSequence": "ʒylparl"
+        },
+        {
+          "nrs": "jylparm",
+          "phonemeSequence": "ʒylparm"
+        },
+        {
+          "nrs": "jylpars",
+          "phonemeSequence": "ʒylpars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 568,
+      "currentNrs": "marpalv",
+      "meaningJa": "卸売、一括仕入れ、大量売買",
+      "candidates": [
+        {
+          "nrs": "marpaln",
+          "phonemeSequence": "marpaln"
+        },
+        {
+          "nrs": "marpalr",
+          "phonemeSequence": "marpalr"
+        },
+        {
+          "nrs": "marpalm",
+          "phonemeSequence": "marpalm"
+        },
+        {
+          "nrs": "marpals",
+          "phonemeSequence": "marpals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 571,
+      "currentNrs": "marparv",
+      "meaningJa": "見本市、定期市、大交易市",
+      "candidates": [
+        {
+          "nrs": "marparn",
+          "phonemeSequence": "marparn"
+        },
+        {
+          "nrs": "marparl",
+          "phonemeSequence": "marparl"
+        },
+        {
+          "nrs": "marparm",
+          "phonemeSequence": "marparm"
+        },
+        {
+          "nrs": "marpars",
+          "phonemeSequence": "marpars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 572,
+      "currentNrs": "marporv",
+      "meaningJa": "商隊、キャラバン、星間交易船団",
+      "candidates": [
+        {
+          "nrs": "marporn",
+          "phonemeSequence": "marporn"
+        },
+        {
+          "nrs": "marporl",
+          "phonemeSequence": "marporl"
+        },
+        {
+          "nrs": "marporm",
+          "phonemeSequence": "marporm"
+        },
+        {
+          "nrs": "marpors",
+          "phonemeSequence": "marpors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 573,
+      "currentNrs": "marsarp",
+      "meaningJa": "在庫、棚卸資産、貯蔵商品",
+      "candidates": [
+        {
+          "nrs": "marsarn",
+          "phonemeSequence": "marsarn"
+        },
+        {
+          "nrs": "marsarl",
+          "phonemeSequence": "marsarl"
+        },
+        {
+          "nrs": "marsarm",
+          "phonemeSequence": "marsarm"
+        },
+        {
+          "nrs": "marsars",
+          "phonemeSequence": "marsars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 590,
+      "currentNrs": "celporv",
+      "meaningJa": "日除け庇、ポーチ屋根、キャノピー",
+      "candidates": [
+        {
+          "nrs": "celporn",
+          "phonemeSequence": "ʃelporn"
+        },
+        {
+          "nrs": "celporl",
+          "phonemeSequence": "ʃelporl"
+        },
+        {
+          "nrs": "celporm",
+          "phonemeSequence": "ʃelporm"
+        },
+        {
+          "nrs": "celpors",
+          "phonemeSequence": "ʃelpors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 598,
+      "currentNrs": "dompalv",
+      "meaningJa": "街路樹通り、並木道、プロムナード",
+      "candidates": [
+        {
+          "nrs": "dompaln",
+          "phonemeSequence": "dompaln"
+        },
+        {
+          "nrs": "dompalr",
+          "phonemeSequence": "dompalr"
+        },
+        {
+          "nrs": "dompalm",
+          "phonemeSequence": "dompalm"
+        },
+        {
+          "nrs": "dompals",
+          "phonemeSequence": "dompals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 600,
+      "currentNrs": "domsarp",
+      "meaningJa": "屋根裏部屋、ロフト、小間屋根裏",
+      "candidates": [
+        {
+          "nrs": "domsarn",
+          "phonemeSequence": "domsarn"
+        },
+        {
+          "nrs": "domsarl",
+          "phonemeSequence": "domsarl"
+        },
+        {
+          "nrs": "domsarm",
+          "phonemeSequence": "domsarm"
+        },
+        {
+          "nrs": "domsars",
+          "phonemeSequence": "domsars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 603,
+      "currentNrs": "domtalv",
+      "meaningJa": "中庭噴水、噴水池、中庭水景",
+      "candidates": [
+        {
+          "nrs": "domtaln",
+          "phonemeSequence": "domtaln"
+        },
+        {
+          "nrs": "domtalr",
+          "phonemeSequence": "domtalr"
+        },
+        {
+          "nrs": "domtalm",
+          "phonemeSequence": "domtalm"
+        },
+        {
+          "nrs": "domtals",
+          "phonemeSequence": "domtals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 672,
+      "currentNrs": "valparv",
+      "meaningJa": "襟、首回り飾り、カラー",
+      "candidates": [
+        {
+          "nrs": "valparn",
+          "phonemeSequence": "valparn"
+        },
+        {
+          "nrs": "valparl",
+          "phonemeSequence": "valparl"
+        },
+        {
+          "nrs": "valparm",
+          "phonemeSequence": "valparm"
+        },
+        {
+          "nrs": "valpars",
+          "phonemeSequence": "valpars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 673,
+      "currentNrs": "valpuk",
+      "meaningJa": "外套、マント、防風外套",
+      "candidates": [
+        {
+          "nrs": "valpun",
+          "phonemeSequence": "valpun"
+        },
+        {
+          "nrs": "valpur",
+          "phonemeSequence": "valpur"
+        },
+        {
+          "nrs": "valpul",
+          "phonemeSequence": "valpul"
+        },
+        {
+          "nrs": "valpum",
+          "phonemeSequence": "valpum"
+        },
+        {
+          "nrs": "valpus",
+          "phonemeSequence": "valpus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 675,
+      "currentNrs": "valsarp",
+      "meaningJa": "袖、長袖、腕覆い",
+      "candidates": [
+        {
+          "nrs": "valsarn",
+          "phonemeSequence": "valsarn"
+        },
+        {
+          "nrs": "valsarl",
+          "phonemeSequence": "valsarl"
+        },
+        {
+          "nrs": "valsarm",
+          "phonemeSequence": "valsarm"
+        },
+        {
+          "nrs": "valsars",
+          "phonemeSequence": "valsars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 679,
+      "currentNrs": "valtarv",
+      "meaningJa": "ショール、肩掛け、大判肩掛け布",
+      "candidates": [
+        {
+          "nrs": "valtarn",
+          "phonemeSequence": "valtarn"
+        },
+        {
+          "nrs": "valtarl",
+          "phonemeSequence": "valtarl"
+        },
+        {
+          "nrs": "valtarm",
+          "phonemeSequence": "valtarm"
+        },
+        {
+          "nrs": "valtars",
+          "phonemeSequence": "valtars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 681,
+      "currentNrs": "valtasp",
+      "meaningJa": "財布、革巾着、小銭入れ",
+      "candidates": [
+        {
+          "nrs": "valtasn",
+          "phonemeSequence": "valtasn"
+        },
+        {
+          "nrs": "valtasr",
+          "phonemeSequence": "valtasr"
+        },
+        {
+          "nrs": "valtasl",
+          "phonemeSequence": "valtasl"
+        },
+        {
+          "nrs": "valtasm",
+          "phonemeSequence": "valtasm"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 708,
+      "currentNrs": "fevok",
+      "meaningJa": "確信、不抜の信仰、信条",
+      "candidates": [
+        {
+          "nrs": "fevon",
+          "phonemeSequence": "fevon"
+        },
+        {
+          "nrs": "fevor",
+          "phonemeSequence": "fevor"
+        },
+        {
+          "nrs": "fevol",
+          "phonemeSequence": "fevol"
+        },
+        {
+          "nrs": "fevom",
+          "phonemeSequence": "fevom"
+        },
+        {
+          "nrs": "fevos",
+          "phonemeSequence": "fevos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 714,
+      "currentNrs": "krotik",
+      "meaningJa": "葛藤、心の嵐、内なる動揺",
+      "candidates": [
+        {
+          "nrs": "krotin",
+          "phonemeSequence": "krotin"
+        },
+        {
+          "nrs": "krotir",
+          "phonemeSequence": "krotir"
+        },
+        {
+          "nrs": "krotil",
+          "phonemeSequence": "krotil"
+        },
+        {
+          "nrs": "krotim",
+          "phonemeSequence": "krotim"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 715,
+      "currentNrs": "krotiluk",
+      "meaningJa": "焦燥、苛立ち、もどかしさ",
+      "candidates": [
+        {
+          "nrs": "krotilun",
+          "phonemeSequence": "krotilun"
+        },
+        {
+          "nrs": "krotilur",
+          "phonemeSequence": "krotilur"
+        },
+        {
+          "nrs": "krotilul",
+          "phonemeSequence": "krotilul"
+        },
+        {
+          "nrs": "krotilum",
+          "phonemeSequence": "krotilum"
+        },
+        {
+          "nrs": "krotilus",
+          "phonemeSequence": "krotilus"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 720,
+      "currentNrs": "lyrvik",
+      "meaningJa": "郷愁、ノスタルジー、遠き星への憧憬",
+      "candidates": [
+        {
+          "nrs": "lyrvin",
+          "phonemeSequence": "lyrvin"
+        },
+        {
+          "nrs": "lyrvir",
+          "phonemeSequence": "lyrvir"
+        },
+        {
+          "nrs": "lyrvil",
+          "phonemeSequence": "lyrvil"
+        },
+        {
+          "nrs": "lyrvim",
+          "phonemeSequence": "lyrvim"
+        },
+        {
+          "nrs": "lyrvis",
+          "phonemeSequence": "lyrvis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 725,
+      "currentNrs": "minpalv",
+      "meaningJa": "安らぎ、静寂、心の平穏",
+      "candidates": [
+        {
+          "nrs": "minpaln",
+          "phonemeSequence": "minpaln"
+        },
+        {
+          "nrs": "minpalr",
+          "phonemeSequence": "minpalr"
+        },
+        {
+          "nrs": "minpalm",
+          "phonemeSequence": "minpalm"
+        },
+        {
+          "nrs": "minpals",
+          "phonemeSequence": "minpals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 728,
+      "currentNrs": "minparv",
+      "meaningJa": "好奇心、探求心、真理への憧れ",
+      "candidates": [
+        {
+          "nrs": "minparn",
+          "phonemeSequence": "minparn"
+        },
+        {
+          "nrs": "minparl",
+          "phonemeSequence": "minparl"
+        },
+        {
+          "nrs": "minparm",
+          "phonemeSequence": "minparm"
+        },
+        {
+          "nrs": "minpars",
+          "phonemeSequence": "minpars"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 781,
+      "currentNrs": "falsolv",
+      "meaningJa": "銀白色の、白銀に輝く、白光の",
+      "candidates": [
+        {
+          "nrs": "falsoln",
+          "phonemeSequence": "falsoln"
+        },
+        {
+          "nrs": "falsolr",
+          "phonemeSequence": "falsolr"
+        },
+        {
+          "nrs": "falsolm",
+          "phonemeSequence": "falsolm"
+        },
+        {
+          "nrs": "falsols",
+          "phonemeSequence": "falsols"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 808,
+      "currentNrs": "sersolv",
+      "meaningJa": "絹のように滑らかな、つるつるとした",
+      "candidates": [
+        {
+          "nrs": "sersoln",
+          "phonemeSequence": "sersoln"
+        },
+        {
+          "nrs": "sersolr",
+          "phonemeSequence": "sersolr"
+        },
+        {
+          "nrs": "sersolm",
+          "phonemeSequence": "sersolm"
+        },
+        {
+          "nrs": "sersols",
+          "phonemeSequence": "sersols"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 818,
+      "currentNrs": "talsolv",
+      "meaningJa": "褐色の、土色の、琥珀土色の",
+      "candidates": [
+        {
+          "nrs": "talsoln",
+          "phonemeSequence": "talsoln"
+        },
+        {
+          "nrs": "talsolr",
+          "phonemeSequence": "talsolr"
+        },
+        {
+          "nrs": "talsolm",
+          "phonemeSequence": "talsolm"
+        },
+        {
+          "nrs": "talsols",
+          "phonemeSequence": "talsols"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 831,
+      "currentNrs": "velsolv",
+      "meaningJa": "深緑の、常緑の、濃緑色の",
+      "candidates": [
+        {
+          "nrs": "velsoln",
+          "phonemeSequence": "velsoln"
+        },
+        {
+          "nrs": "velsolr",
+          "phonemeSequence": "velsolr"
+        },
+        {
+          "nrs": "velsolm",
+          "phonemeSequence": "velsolm"
+        },
+        {
+          "nrs": "velsols",
+          "phonemeSequence": "velsols"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 846,
+      "currentNrs": "darlit",
+      "meaningJa": "注ぐ、滴下する、水を注ぎ入れる",
+      "candidates": [
+        {
+          "nrs": "darlin",
+          "phonemeSequence": "darlin"
+        },
+        {
+          "nrs": "darlir",
+          "phonemeSequence": "darlir"
+        },
+        {
+          "nrs": "darlil",
+          "phonemeSequence": "darlil"
+        },
+        {
+          "nrs": "darlim",
+          "phonemeSequence": "darlim"
+        },
+        {
+          "nrs": "darlis",
+          "phonemeSequence": "darlis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 848,
+      "currentNrs": "darzanv",
+      "meaningJa": "潜水する、水中に潜る、深みへ沈む",
+      "candidates": [
+        {
+          "nrs": "darzanr",
+          "phonemeSequence": "darzanr"
+        },
+        {
+          "nrs": "darzanl",
+          "phonemeSequence": "darzanl"
+        },
+        {
+          "nrs": "darzanm",
+          "phonemeSequence": "darzanm"
+        },
+        {
+          "nrs": "darzans",
+          "phonemeSequence": "darzans"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 867,
+      "currentNrs": "hav",
+      "meaningJa": "時、瞬間、今この瞬間",
+      "candidates": [
+        {
+          "nrs": "han",
+          "phonemeSequence": "han"
+        },
+        {
+          "nrs": "har",
+          "phonemeSequence": "har"
+        },
+        {
+          "nrs": "hal",
+          "phonemeSequence": "hal"
+        },
+        {
+          "nrs": "ham",
+          "phonemeSequence": "ham"
+        },
+        {
+          "nrs": "has",
+          "phonemeSequence": "has"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 870,
+      "currentNrs": "havit",
+      "meaningJa": "やがて、程なくして、近い将来に",
+      "candidates": [
+        {
+          "nrs": "havin",
+          "phonemeSequence": "havin"
+        },
+        {
+          "nrs": "havir",
+          "phonemeSequence": "havir"
+        },
+        {
+          "nrs": "havil",
+          "phonemeSequence": "havil"
+        },
+        {
+          "nrs": "havim",
+          "phonemeSequence": "havim"
+        },
+        {
+          "nrs": "havis",
+          "phonemeSequence": "havis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 914,
+      "currentNrs": "serlit",
+      "meaningJa": "撫でる、優しく触れる、いたわる",
+      "candidates": [
+        {
+          "nrs": "serlin",
+          "phonemeSequence": "serlin"
+        },
+        {
+          "nrs": "serlir",
+          "phonemeSequence": "serlir"
+        },
+        {
+          "nrs": "serlil",
+          "phonemeSequence": "serlil"
+        },
+        {
+          "nrs": "serlim",
+          "phonemeSequence": "serlim"
+        },
+        {
+          "nrs": "serlis",
+          "phonemeSequence": "serlis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 925,
+      "currentNrs": "talsit",
+      "meaningJa": "置く、据える、配置する、着座させる",
+      "candidates": [
+        {
+          "nrs": "talsin",
+          "phonemeSequence": "talsin"
+        },
+        {
+          "nrs": "talsir",
+          "phonemeSequence": "talsir"
+        },
+        {
+          "nrs": "talsim",
+          "phonemeSequence": "talsim"
+        },
+        {
+          "nrs": "talsis",
+          "phonemeSequence": "talsis"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 926,
+      "currentNrs": "talvok",
+      "meaningJa": "掘る、穿つ、地下を開削する",
+      "candidates": [
+        {
+          "nrs": "talvor",
+          "phonemeSequence": "talvor"
+        },
+        {
+          "nrs": "talvol",
+          "phonemeSequence": "talvol"
+        },
+        {
+          "nrs": "talvom",
+          "phonemeSequence": "talvom"
+        },
+        {
+          "nrs": "talvos",
+          "phonemeSequence": "talvos"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 956,
+      "currentNrs": "wylrev",
+      "meaningJa": "深呼吸する、風を吸い込む、息を整える",
+      "candidates": [
+        {
+          "nrs": "wylren",
+          "phonemeSequence": "wylren"
+        },
+        {
+          "nrs": "wylrer",
+          "phonemeSequence": "wylrer"
+        },
+        {
+          "nrs": "wylrel",
+          "phonemeSequence": "wylrel"
+        },
+        {
+          "nrs": "wylrem",
+          "phonemeSequence": "wylrem"
+        },
+        {
+          "nrs": "wylres",
+          "phonemeSequence": "wylres"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 964,
+      "currentNrs": "bionpalv",
+      "meaningJa": "酒場、居酒屋、タバーン",
+      "candidates": [
+        {
+          "nrs": "bionpaln",
+          "phonemeSequence": "bionpaln"
+        },
+        {
+          "nrs": "bionpalr",
+          "phonemeSequence": "bionpalr"
+        },
+        {
+          "nrs": "bionpalm",
+          "phonemeSequence": "bionpalm"
+        },
+        {
+          "nrs": "bionpals",
+          "phonemeSequence": "bionpals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 978,
+      "currentNrs": "nerfat",
+      "meaningJa": "蒸し物、蒸気調理品",
+      "candidates": [
+        {
+          "nrs": "nerfan",
+          "phonemeSequence": "nerfan"
+        },
+        {
+          "nrs": "nerfar",
+          "phonemeSequence": "nerfar"
+        },
+        {
+          "nrs": "nerfal",
+          "phonemeSequence": "nerfal"
+        },
+        {
+          "nrs": "nerfam",
+          "phonemeSequence": "nerfam"
+        },
+        {
+          "nrs": "nerfas",
+          "phonemeSequence": "nerfas"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 986,
+      "currentNrs": "nerpalv",
+      "meaningJa": "パン屋、製パン工房、ベーカリー",
+      "candidates": [
+        {
+          "nrs": "nerpaln",
+          "phonemeSequence": "nerpaln"
+        },
+        {
+          "nrs": "nerpalr",
+          "phonemeSequence": "nerpalr"
+        },
+        {
+          "nrs": "nerpalm",
+          "phonemeSequence": "nerpalm"
+        },
+        {
+          "nrs": "nerpals",
+          "phonemeSequence": "nerpals"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 987,
+      "currentNrs": "nerpanv",
+      "meaningJa": "発酵させる、醸造熟成させる",
+      "candidates": [
+        {
+          "nrs": "nerpanr",
+          "phonemeSequence": "nerpanr"
+        },
+        {
+          "nrs": "nerpanl",
+          "phonemeSequence": "nerpanl"
+        },
+        {
+          "nrs": "nerpanm",
+          "phonemeSequence": "nerpanm"
+        },
+        {
+          "nrs": "nerpans",
+          "phonemeSequence": "nerpans"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 991,
+      "currentNrs": "nerpork",
+      "meaningJa": "調味油、オリーブ油、食用植物油",
+      "candidates": [
+        {
+          "nrs": "nerporn",
+          "phonemeSequence": "nerporn"
+        },
+        {
+          "nrs": "nerporl",
+          "phonemeSequence": "nerporl"
+        },
+        {
+          "nrs": "nerporm",
+          "phonemeSequence": "nerporm"
+        },
+        {
+          "nrs": "nerpors",
+          "phonemeSequence": "nerpors"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    },
+    {
+      "lexiconId": 998,
+      "currentNrs": "nyrat",
+      "meaningJa": "主食、焼き穀物、糧",
+      "candidates": [
+        {
+          "nrs": "nyran",
+          "phonemeSequence": "nyran"
+        },
+        {
+          "nrs": "nyrar",
+          "phonemeSequence": "nyrar"
+        },
+        {
+          "nrs": "nyral",
+          "phonemeSequence": "nyral"
+        },
+        {
+          "nrs": "nyram",
+          "phonemeSequence": "nyram"
+        },
+        {
+          "nrs": "nyras",
+          "phonemeSequence": "nyras"
+        }
+      ],
+      "applied": false,
+      "note": "未採用。語源・派生・音節構造・多言語類似と候補間の衝突を要確認。"
+    }
+  ]
+}

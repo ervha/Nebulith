@@ -1,0 +1,516 @@
+{
+  "version": "23.2",
+  "units": [
+    {
+      "id": "aphorism",
+      "title": "テクスト1：星辰箴言",
+      "label": "NRS",
+      "nrs": "Relen el vyran ia tolst en sente: tor poran el havel, ne klovol el falun en vyr.",
+      "translationJa": "真理は万物の床（礎）である。時が歩み去ろうとも、星の光が尽き果てることはない。",
+      "review": {
+        "status": "pending",
+        "note": "klovan/klovolの自他・項構造と詩的な意味を要確認。"
+      },
+      "tokens": [
+        {
+          "id": "aphorism:t01",
+          "surface": "relen",
+          "kind": "dictionary",
+          "lexiconId": 906
+        },
+        {
+          "id": "aphorism:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "aphorism:t03",
+          "surface": "vyran",
+          "kind": "dictionary",
+          "lexiconId": 754
+        },
+        {
+          "id": "aphorism:t04",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "aphorism:t05",
+          "surface": "tolst",
+          "kind": "dictionary",
+          "lexiconId": 629
+        },
+        {
+          "id": "aphorism:t06",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "aphorism:t07",
+          "surface": "sente",
+          "kind": "correlative",
+          "rule": "sente"
+        },
+        {
+          "id": "aphorism:t08",
+          "surface": "tor",
+          "kind": "dictionary",
+          "lexiconId": 929
+        },
+        {
+          "id": "aphorism:t09",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "aphorism:t10",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "aphorism:t11",
+          "surface": "havel",
+          "kind": "dictionary",
+          "lexiconId": 869
+        },
+        {
+          "id": "aphorism:t12",
+          "surface": "ne",
+          "kind": "grammar",
+          "rule": "ne"
+        },
+        {
+          "id": "aphorism:t13",
+          "surface": "klovol",
+          "kind": "derivation",
+          "stemId": 877,
+          "prefix": "",
+          "suffix": "ol"
+        },
+        {
+          "id": "aphorism:t14",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "aphorism:t15",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "aphorism:t16",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "aphorism:t17",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ]
+    },
+    {
+      "id": "observation",
+      "title": "テクスト2：天文台の日誌",
+      "label": "NRS",
+      "nrs": "Fe vyrelcor el vyrelor uo vyrelar to falden. Falunast el vyr syvani uo celvan, fe revyrel el corval en celmon.",
+      "translationJa": "天文学者は天文台にて東の空を定期観測した。天球に新たな星が光を放ち始め、暗黒星雲の重心が観測された。",
+      "review": {
+        "status": "pending",
+        "note": "時制の連続と観測内容の意味を要確認。"
+      },
+      "tokens": [
+        {
+          "id": "observation:t01",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "observation:t02",
+          "surface": "vyrelcor",
+          "kind": "derivation",
+          "stemId": 953,
+          "prefix": "",
+          "suffix": "cor"
+        },
+        {
+          "id": "observation:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "observation:t04",
+          "surface": "vyrelor",
+          "kind": "dictionary",
+          "lexiconId": 66
+        },
+        {
+          "id": "observation:t05",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "observation:t06",
+          "surface": "vyrelar",
+          "kind": "dictionary",
+          "lexiconId": 63
+        },
+        {
+          "id": "observation:t07",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "observation:t08",
+          "surface": "falden",
+          "kind": "dictionary",
+          "lexiconId": 854
+        },
+        {
+          "id": "observation:t09",
+          "surface": "falunast",
+          "kind": "derivation",
+          "stemId": 16,
+          "prefix": "",
+          "suffix": "ast"
+        },
+        {
+          "id": "observation:t10",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "observation:t11",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "observation:t12",
+          "surface": "syvani",
+          "kind": "derivation",
+          "stemId": 810,
+          "prefix": "",
+          "suffix": "i"
+        },
+        {
+          "id": "observation:t13",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "observation:t14",
+          "surface": "celvan",
+          "kind": "dictionary",
+          "lexiconId": 4
+        },
+        {
+          "id": "observation:t15",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "observation:t16",
+          "surface": "revyrel",
+          "kind": "derivation",
+          "stemId": 953,
+          "prefix": "re",
+          "suffix": ""
+        },
+        {
+          "id": "observation:t17",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "observation:t18",
+          "surface": "corval",
+          "kind": "dictionary",
+          "lexiconId": 6
+        },
+        {
+          "id": "observation:t19",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "observation:t20",
+          "surface": "celmon",
+          "kind": "dictionary",
+          "lexiconId": 3
+        }
+      ]
+    },
+    {
+      "id": "dialogue-a1",
+      "title": "テクスト3：対話A（導入）",
+      "label": "A",
+      "nrs": "Falun el vyrin. Poran el taas to kauo ka?",
+      "translationJa": "星々が輝いています。あなたはどこへ歩きますか。",
+      "review": {
+        "status": "pending",
+        "note": "一般構文へ改訂。対話全体の意味審査待ち。"
+      },
+      "tokens": [
+        {
+          "id": "dialogue-a1:t01",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "dialogue-a1:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a1:t03",
+          "surface": "vyrin",
+          "kind": "derivation",
+          "stemId": 62,
+          "prefix": "",
+          "suffix": "in"
+        },
+        {
+          "id": "dialogue-a1:t04",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "dialogue-a1:t05",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a1:t06",
+          "surface": "taas",
+          "kind": "correlative",
+          "rule": "taas"
+        },
+        {
+          "id": "dialogue-a1:t07",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "dialogue-a1:t08",
+          "surface": "kauo",
+          "kind": "correlative",
+          "rule": "kauo"
+        },
+        {
+          "id": "dialogue-a1:t09",
+          "surface": "ka",
+          "kind": "grammar",
+          "rule": "ka"
+        }
+      ]
+    },
+    {
+      "id": "dialogue-b",
+      "title": "テクスト3：対話B",
+      "label": "B",
+      "nrs": "Poran el mi to govan en cynor. Nerancor el mi ia nyrat uo nerar.",
+      "translationJa": "私は友の家へ歩きます。私は普段、食堂で主食を食べます。",
+      "review": {
+        "status": "pending",
+        "note": "単数・反復相へ和訳を修正。全体の意味審査待ち。"
+      },
+      "tokens": [
+        {
+          "id": "dialogue-b:t01",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "dialogue-b:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-b:t03",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "dialogue-b:t04",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "dialogue-b:t05",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        },
+        {
+          "id": "dialogue-b:t06",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "dialogue-b:t07",
+          "surface": "cynor",
+          "kind": "dictionary",
+          "lexiconId": 477
+        },
+        {
+          "id": "dialogue-b:t08",
+          "surface": "nerancor",
+          "kind": "derivation",
+          "stemId": 972,
+          "prefix": "",
+          "suffix": "cor"
+        },
+        {
+          "id": "dialogue-b:t09",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-b:t10",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "dialogue-b:t11",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "dialogue-b:t12",
+          "surface": "nyrat",
+          "kind": "dictionary",
+          "lexiconId": 998
+        },
+        {
+          "id": "dialogue-b:t13",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "dialogue-b:t14",
+          "surface": "nerar",
+          "kind": "dictionary",
+          "lexiconId": 973
+        }
+      ]
+    },
+    {
+      "id": "dialogue-a2",
+      "title": "テクスト3：対話A（応答）",
+      "label": "A",
+      "nrs": "Relen el laris en taas ia sirin. Poran el mi to falden.",
+      "translationJa": "あなたの軌道は穏やかです。私は東へ歩きます。",
+      "review": {
+        "status": "pending",
+        "note": "祈願を叙述へ改訂。対話全体の意味審査待ち。"
+      },
+      "tokens": [
+        {
+          "id": "dialogue-a2:t01",
+          "surface": "relen",
+          "kind": "dictionary",
+          "lexiconId": 906
+        },
+        {
+          "id": "dialogue-a2:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a2:t03",
+          "surface": "laris",
+          "kind": "dictionary",
+          "lexiconId": 34
+        },
+        {
+          "id": "dialogue-a2:t04",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "dialogue-a2:t05",
+          "surface": "taas",
+          "kind": "correlative",
+          "rule": "taas"
+        },
+        {
+          "id": "dialogue-a2:t06",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "dialogue-a2:t07",
+          "surface": "sirin",
+          "kind": "dictionary",
+          "lexiconId": 738
+        },
+        {
+          "id": "dialogue-a2:t08",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "dialogue-a2:t09",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a2:t10",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "dialogue-a2:t11",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "dialogue-a2:t12",
+          "surface": "falden",
+          "kind": "dictionary",
+          "lexiconId": 854
+        }
+      ]
+    }
+  ]
+}

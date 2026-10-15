@@ -1,0 +1,50 @@
+{
+  "reviewer": "Codex",
+  "reviewType": "AI meaning and form review",
+  "before": {
+    "id": 945,
+    "category": "16. 動作・動態・時空・方向副詞",
+    "nrs": "volan",
+    "ipa": "[vo.lan]",
+    "pos": "動",
+    "meaningJa": "飛ぶ、飛翔する、舞い上がる",
+    "meaningEn": "fly, soar",
+    "notes": "飛翔動詞"
+  },
+  "after": {
+    "id": 945,
+    "category": "16. 動作・動態・時空・方向副詞",
+    "nrs": "veiran",
+    "ipa": "[veɪran]",
+    "pos": "動",
+    "meaningJa": "飛ぶ、飛翔する、舞い上がる",
+    "meaningEn": "fly, soar",
+    "notes": "飛翔動詞"
+  },
+  "beforeHash": "9db3f01abaa36a1121f2c8460a48a04ba47c5cdb336c14d59812e398f2730e8b",
+  "afterHash": "1530635f3b836a3a78a186911503f374d9798e0e51a0648f3be444472b8e5f10",
+  "reason": "飛ぶの語義が一致し、volan/volarは末尾1文字のみ異なる。voler/volōとも近い。語形全体と意味の両条件で変更。",
+  "noteUpdates": [
+    {
+      "lexiconId": 460,
+      "before": "volan (飛ぶ) + pan (反復)",
+      "after": "veiran (飛ぶ) + pan (反復)"
+    },
+    {
+      "lexiconId": 946,
+      "before": "volan (飛ぶ) ＋ 滑走",
+      "after": "veiran (飛ぶ) ＋ 滑走"
+    },
+    {
+      "lexiconId": 947,
+      "before": "volan (飛ぶ) ＋ 跳躍",
+      "after": "veiran (飛ぶ) ＋ 跳躍"
+    },
+    {
+      "lexiconId": 948,
+      "before": "volan (飛ぶ) + zan (急降)",
+      "after": "veiran (飛ぶ) + zan (急降)"
+    }
+  ],
+  "preserved": "別語義のfervolan、意味と語形の両条件を満たさない他のvol系語は改名しない。"
+}

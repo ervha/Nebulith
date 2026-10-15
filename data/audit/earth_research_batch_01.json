@@ -1,0 +1,1657 @@
+{
+  "scope": "50 previously unmapped entries; partial research, no full-sense approval",
+  "indexSource": {
+    "url": "https://astro4edu.org/resources/glossary/search/",
+    "snapshot": "audit/runs/2026-10-15-development/sources/iau-index.html",
+    "sha256": "825e208a8e6dc629a8a13937dceef3b50e8a3ed6a4faecbbbbd3fcece42fe149"
+  },
+  "entries": [
+    {
+      "lexiconId": 2,
+      "nrs": "celkop",
+      "meaningJa": "頂、てっぺん、最上部、頂嶺",
+      "meaningEn": "crest, summit, tip",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "b548f22c8e870187ca485449ab277b9fe9a32bfdf65a7c98b959fd928dc71fb6",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 3,
+      "nrs": "celmon",
+      "meaningJa": "星間分子雲、巨大暗黒星雲",
+      "meaningEn": "giant molecular cloud, dark interstellar cloud",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "c79f04a3a3dfd47bfe0b5bd75fbfd3e41e1a5b6031a5c81cf2710721dd11c37f",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Molecular Cloud",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:517",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/517/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-517.html",
+            "sha256": "71fd2f36937bd5a0a040a488687da60d0cb2bd668b993645f6de6b7bcdfd4a7e",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:08.242492+00:00"
+          },
+          "translations": {
+            "en": "Molecular Cloud",
+            "fr": "Nuage moléculaire",
+            "de": "Molekülwolke",
+            "es": "Nube molecular"
+          },
+          "japaneseLabel": "分子雲 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 4,
+      "nrs": "celvan",
+      "meaningJa": "天球、全天、天体球殻",
+      "meaningEn": "celestial sphere, empyrean dome",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "3f5b1a0988526784bc363a5c4bbb27bb4117dea2141662c849a53b55be457735",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Celestial Sphere",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:53",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/53/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-53.html",
+            "sha256": "93e24456e7375d9dfcf237ba4170141063929a89f558bd3c07831b96aa874a86",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:02.099993+00:00"
+          },
+          "translations": {
+            "en": "Celestial Sphere",
+            "de": "Himmelskugel",
+            "fr": "Sphère Céleste",
+            "es": "Esfera celeste"
+          },
+          "japaneseLabel": "天球 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 5,
+      "nrs": "celzyl",
+      "meaningJa": "青空、蒼穹光、大気の散乱光",
+      "meaningEn": "blue sky scattering, azure glow",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "bac7a0876df2b2882c0f36864c260fa0d48602b9a03e8217a2ac4fd75910aa1f",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 6,
+      "nrs": "corval",
+      "meaningJa": "連星系の重心、共通軌道中心",
+      "meaningEn": "barycenter, common orbital center",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "645817edca3195180774b2e27290b3fc56f12e18702240ad9825eda1a6e71c2d",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 7,
+      "nrs": "doran",
+      "meaningJa": "惑星、放浪天体、巡礼星",
+      "meaningEn": "planet, wandering orb",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "0ad027f067b0bb6c4d0ea72e8379a83dc7c2349df7a321876a1dd6e0ad4a67e8",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Planet",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:253",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/253/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-253.html",
+            "sha256": "7b474ecb1cfe3b884b68cbcaae2ae1cb3a16727dfa6dcd19d20545aab876fe01",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:11.353296+00:00"
+          },
+          "translations": {
+            "en": "Planet",
+            "fr": "Planète",
+            "de": "Planet",
+            "es": "Planeta"
+          },
+          "japaneseLabel": "惑星 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 8,
+      "nrs": "dorcon",
+      "meaningJa": "摂動、軌道摂動、外力微小偏位",
+      "meaningEn": "orbital perturbation, gravitational wobble",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "d2eacb3e3f2f2a9d6a8cfef7a2494c6a06add17886222e17880a8a44981062b4",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 9,
+      "nrs": "falarik",
+      "meaningJa": "光度、放射光束、輝度",
+      "meaningEn": "luminosity, radiant flux",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "0f3361c5e32615410b45c86ee103b7e7b9da8be8acd69042c14f13e94a6c212b",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Luminosity",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:180",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/180/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-180.html",
+            "sha256": "a81fdcda21b63011d8b7b7b0cd533a10a8e949e77e0f7b67d9b407dd4f3e4f15",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:06.976595+00:00"
+          },
+          "translations": {
+            "en": "Luminosity",
+            "de": "Leuchtkraft",
+            "fr": "Luminosité",
+            "es": "Luminosidad"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 10,
+      "nrs": "falasro",
+      "meaningJa": "遠日点、最遠軌道点",
+      "meaningEn": "aphelion, apoapsis",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "8e2927a7561bb11db9f182fe03a95d2c87d3caae40a85521273d7422f17391ff",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Aphelion",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:13",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/13/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-13.html",
+            "sha256": "403589b6d7c8352bb05883cfeb12a7dbeb00fe46dcea799c5665a220449f2be2",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:02.065862+00:00"
+          },
+          "translations": {
+            "en": "Aphelion",
+            "es": "Afelio",
+            "de": "Aphel",
+            "fr": "Aphélie"
+          },
+          "japaneseLabel": "遠日点 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        },
+        {
+          "label": "Apoapsis",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:520",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/520/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-520.html",
+            "sha256": "f43e2c8f9a6962ceeca1eb257a0cae7f841dcc32e13eed0a21b9cb3c263ca5f1",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:02.038748+00:00"
+          },
+          "translations": {
+            "en": "Apoapsis",
+            "fr": "Apoapsis",
+            "es": "Apoapsis",
+            "de": "Apsis"
+          },
+          "japaneseLabel": "遠点 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 11,
+      "nrs": "faldenar",
+      "meaningJa": "朝焼け、黎明の光芒、払暁の輝き",
+      "meaningEn": "dawn glow, sunrise radiance",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "7e8b95850f45df33bbd94f87c0b6e49e527cb1fdcef42282698c6fb03b8a4405",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 12,
+      "nrs": "faldikur",
+      "meaningJa": "屈折、光の屈折、光路の曲がり",
+      "meaningEn": "optical refraction, light bending",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "f93aa613d01d9e90a625bea12218073574c531b91ef9958064e073b547f04060",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Refraction",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:282",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/282/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-282.html",
+            "sha256": "84db68e569fd2ef371b23dd47b8638bfaac0269f46ec4418dfcc091fc489483f",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:11.612775+00:00"
+          },
+          "translations": {
+            "en": "Refraction",
+            "de": "Brechung",
+            "fr": "Réfraction",
+            "es": "Refracción"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 13,
+      "nrs": "falmirin",
+      "meaningJa": "分光偏光、スペクトル輝線偏光",
+      "meaningEn": "spectropolarimetry, spectral polarization",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "dd36078fd2a7d34733f664bfc87ec6cb3f3df31b6219d15f6cb62add82419101",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 14,
+      "nrs": "falos",
+      "meaningJa": "分光、光輪スペクトル、帯",
+      "meaningEn": "spectrum, spectral band",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "633f30b03c140dc9d0672bd1876b103586a03f6d6f87bae7a4f53898691b89eb",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Spectrum",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:328",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/328/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-328.html",
+            "sha256": "f73e994b0fff4f8db5a6d6eff023c226c06a10edacf11c2451bf03bb490134ca",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:12.830657+00:00"
+          },
+          "translations": {
+            "en": "Spectrum",
+            "fr": "Spectre",
+            "de": "Spektrum",
+            "es": "Espectro"
+          },
+          "japaneseLabel": "スペクトル (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 15,
+      "nrs": "falret",
+      "meaningJa": "反射、照り返し、跳ね返り光",
+      "meaningEn": "reflection, reverberant glare",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "e3b6cb100dc32d4662c0e88932f1963a453ae2dd531782148dedb7c3a95429ff",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [
+        {
+          "label": "Reflection",
+          "status": "source-missing",
+          "reason": "No exact glossary entry; do not substitute a broader concept."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 16,
+      "nrs": "falun",
+      "meaningJa": "光、光条、輝き、照らす",
+      "meaningEn": "light, ray, illuminate",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名/動",
+      "entryHash": "b49ec146c8f1782a4710fd4732057ae452ed180b64ea251b9e0b04bbc45a6e78",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Light",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:175",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/175/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-175.html",
+            "sha256": "02e22f9530e845abad99dd11b02a486b50c363bcb605a974e10ed194a61ae715",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:06.967554+00:00"
+          },
+          "translations": {
+            "en": "Light",
+            "fr": "Lumière",
+            "de": "Licht",
+            "es": "Luz"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 17,
+      "nrs": "falvyn",
+      "meaningJa": "薄光、黄道光、微弱な宇宙光",
+      "meaningEn": "zodiacal light, faint celestial glow",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "e5d29e5de17446a0186988bb5ed2a47a916dfaa73474bcd4d48964657c336b19",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Zodiacal Light",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:392",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/392/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-392.html",
+            "sha256": "6bc553d9ae5b362c45b07f418625f8ab35c5f4b6de6e496fe97cd275219ea445",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:14.333797+00:00"
+          },
+          "translations": {
+            "en": "Zodiacal Light",
+            "de": "Zodiakallicht",
+            "fr": "Lumière zodiacale",
+            "es": "Luz zodiacal"
+          },
+          "japaneseLabel": "黄道光 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 18,
+      "nrs": "falyt",
+      "meaningJa": "流星、彗星、夜空を走る光条",
+      "meaningEn": "meteor, comet",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "c20aff06f380c216f34a17cdee45e5a6b6fc75a681d1d488c33baa1f53739cd3",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Comet",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:62",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/62/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-62.html",
+            "sha256": "2c94e1c2f8ce89469deded05c0d649039c8a556fcd3d535b0dd85e75dfe3aa2a",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:03.645763+00:00"
+          },
+          "translations": {
+            "en": "Comet",
+            "de": "Komet",
+            "fr": "Comète",
+            "es": "Cometa"
+          },
+          "japaneseLabel": "彗星 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 19,
+      "nrs": "falzon",
+      "meaningJa": "星間偏光、磁場散乱光",
+      "meaningEn": "interstellar polarization, scattered starlight",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "89288a4d912d087dae4b4fe6cc19975b75e4b4946e13badea1e59ebd14df43fd",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 20,
+      "nrs": "jylkon",
+      "meaningJa": "隙間、間隔、スリット、間隙",
+      "meaningEn": "gap, slit, aperture",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "b789e0441c9294bd1363aba513ec5cc9887294da4596874046b834565ee3fff5",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 21,
+      "nrs": "kylen",
+      "meaningJa": "星の終焉、超新星残骸、消滅",
+      "meaningEn": "star death, dissipation",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名/動",
+      "entryHash": "ac81f926e3dffe953bcb50bd5a2fd9f491fd434eb6bc67e255075ace0aacf6c6",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Supernova Remnant",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:526",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/526/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-526.html",
+            "sha256": "17f70f641d3c3b14c2a12d5e41ee0c5a9f245ce47d11058a1ec693a5f1cb3211",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:12.974674+00:00"
+          },
+          "translations": {
+            "en": "Supernova Remnant",
+            "de": "Supernova-Überrest",
+            "fr": "Rémanent de supernova",
+            "es": "Remanente de supernova"
+          },
+          "japaneseLabel": "超新星残骸 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 23,
+      "nrs": "kymdenar",
+      "meaningJa": "夕焼け、黄昏の残照、夕映え",
+      "meaningEn": "sunset glow, evening twilight afterglow",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "6dab777452256f8f65791902941a37f13500b0d79d1b9dab8548dd7144019900",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 24,
+      "nrs": "kymhav",
+      "meaningJa": "極夜、恒暗期、昇らぬ主星の季節",
+      "meaningEn": "polar night, perpetual night season",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "c44148c2dcbd6325b78f3b1ae577350932ab046b82f98364d421ebcc848f561a",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 25,
+      "nrs": "kymos",
+      "meaningJa": "日食、月食、天体交食",
+      "meaningEn": "eclipse, occultation",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "1c9358eef3256b50bde8bb44bad83e9c636798700e87c973ce53135a8b777d51",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Eclipse",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:91",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/91/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-91.html",
+            "sha256": "12b63ae0a0a8318c2b7dabae9efeb82feab00639d2c984579bc1acd6530a37d7",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:05.283336+00:00"
+          },
+          "translations": {
+            "en": "Eclipse",
+            "de": "Eklipse",
+            "fr": "Eclipse",
+            "es": "Eclipse"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        },
+        {
+          "label": "Occultation",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:464",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/464/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-464.html",
+            "sha256": "2127f37e7f9a65783d04b456bafd88b13ee1cc2490090e3b24c1cf2305339198",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:08.461931+00:00"
+          },
+          "translations": {
+            "en": "Occultation",
+            "de": "Bedeckung",
+            "fr": "Occultation",
+            "es": "Ocultación"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 26,
+      "nrs": "kymryn",
+      "meaningJa": "暗黒物質、ダークマター、不可視質量",
+      "meaningEn": "dark matter, unseen cosmic mass",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "c77e3bfcb907a1658141711eb412f4b1ec8c1ff7185124ce0bffa3db6c46ae46",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Dark Matter",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:76",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/76/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-76.html",
+            "sha256": "fe5ed04a048f33f27c34972c6b3e7f4b4970c5ced340cdf7dd8624724a92db77",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:03.586534+00:00"
+          },
+          "translations": {
+            "en": "Dark Matter",
+            "de": "Dunkle Materie",
+            "fr": "Matière noire",
+            "es": "Materia oscura"
+          },
+          "japaneseLabel": "ダークマター (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 27,
+      "nrs": "kymtul",
+      "meaningJa": "半影、薄影、光境界領域",
+      "meaningEn": "penumbra, twilight boundary",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "8fe272d59a320f71ce5d0ef94f08bde34b1db1b5787453c0b8716df26240a644",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Penumbra",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:243",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/243/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-243.html",
+            "sha256": "27907311f71bab85f036fe0466cb90d2e449adba26c0461f5f2a87700ed25f13",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:09.945693+00:00"
+          },
+          "translations": {
+            "en": "Penumbra",
+            "de": "Penumbra",
+            "fr": "Pénombre",
+            "es": "Penumbra"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 28,
+      "nrs": "kymzon",
+      "meaningJa": "事象の地平面、脱出不能境界",
+      "meaningEn": "event horizon boundary, gravitational limit",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "871b429039905dea2a1a072ea18a8eaf92806bb1acb085cadf0c0d46483b0a5f",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [
+        {
+          "label": "Event Horizon",
+          "status": "source-missing",
+          "reason": "No exact glossary entry; do not substitute a broader concept."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 29,
+      "nrs": "kyrim",
+      "meaningJa": "深淵、漆黒の宇宙、宇宙空間",
+      "meaningEn": "deep space, cosmos, abyss",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "0a1be8eabff6528268d8ff10eca09182385629c4bd56eab1e627bd4b3bfb9f05",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Outer Space",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:235",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/235/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-235.html",
+            "sha256": "5e30d76ef42ce03c95af33dd4da327a1c9b5b63435714d89db7b0e1eb0080888",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:09.790661+00:00"
+          },
+          "translations": {
+            "en": "Outer Space",
+            "de": "Weltraum",
+            "fr": "Espace extra-atmosphérique",
+            "es": "Espacio exterior"
+          },
+          "japaneseLabel": "宇宙空間 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        },
+        {
+          "label": "Cosmos",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:73",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/73/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-73.html",
+            "sha256": "985157722c5f23302ce2ce9084e9deab2576c6b9375be1522bb16eafc9db6bc5",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:03.678316+00:00"
+          },
+          "translations": {
+            "en": "Cosmos",
+            "fr": "Cosmos",
+            "de": "Kosmos",
+            "es": "Cosmos"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 30,
+      "nrs": "kyrom",
+      "meaningJa": "銀河団、超星系網、星界",
+      "meaningEn": "galaxy cluster, cosmic filament",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "784c68e257ace4190eb8645f9f8a071dc637673a6d97a79584504ae46c9bfc89",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Galaxy Cluster",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:120",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/120/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-120.html",
+            "sha256": "da11e79bb0bbd199575fb44869df19301ac69656b39d99683b97ef6b75a2eb19",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:05.428764+00:00"
+          },
+          "translations": {
+            "en": "Galaxy Cluster",
+            "de": "Galaxienhaufen",
+            "fr": "Amas de galaxies",
+            "es": "Cúmulo de galaxias"
+          },
+          "japaneseLabel": "銀河団 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 31,
+      "nrs": "kyron",
+      "meaningJa": "黒孔、ブラックホール、重力特異点",
+      "meaningEn": "black hole, singularity",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "0e23cab059d911662665995d8d5da0db9369d621412aeb156e94da1b10839665",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Black Hole",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:43",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/43/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-43.html",
+            "sha256": "198d3670c7a989115b52b757cd6f3a5f0ca28a228467f0ade96602bb7bd64a05",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:02.038748+00:00"
+          },
+          "translations": {
+            "en": "Black Hole",
+            "fr": "Trou noir",
+            "de": "Schwarzes Loch",
+            "es": "Agujero negro"
+          },
+          "japaneseLabel": "ブラックホール (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        },
+        {
+          "label": "Singularity",
+          "status": "source-missing",
+          "reason": "No exact glossary entry; do not substitute a broader concept."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 32,
+      "nrs": "kyrtas",
+      "meaningJa": "彗星核、氷雪天体核",
+      "meaningEn": "cometary nucleus, icy planetary core",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "d139ec77444f4da590f0ecdaa48feca2f561e196117046ec54e439129078542b",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Comet Nucleus",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:63",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/63/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-63.html",
+            "sha256": "fb78c2e53a99ca80b348c17db30b80dc7a31a2e78fa1cabd54676c0ee9c94508",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:03.626094+00:00"
+          },
+          "translations": {
+            "en": "Comet Nucleus",
+            "de": "Kometenkern",
+            "fr": "Noyau de la comète",
+            "es": "Núcleo del cometa"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 33,
+      "nrs": "larfas",
+      "meaningJa": "軌道離脱、脱出速度、飛翔脱出",
+      "meaningEn": "orbital escape, escape velocity",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "be8926f8ad32219e5a6951df20078ebb81ac0474ba435b8ba8d5543fe5603ab8",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Escape Velocity",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:105",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/105/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-105.html",
+            "sha256": "1b59a41107242a17ae3c7304ab792dc1b3b08b933c1068954f15ffa9863058da",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:05.368183+00:00"
+          },
+          "translations": {
+            "en": "Escape Velocity",
+            "de": "Fluchtgeschwindigkeit",
+            "fr": "Vitesse de libération",
+            "es": "Velocidad de escape"
+          },
+          "japaneseLabel": "脱出速度 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 34,
+      "nrs": "laris",
+      "meaningJa": "軌道、航路、天体周期",
+      "meaningEn": "orbit, celestial path",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "71294f6bbb7b4dca2fc191eaa81a234aa3ba92dccfc9bb2f466de1a48b148954",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Orbit",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:232",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/232/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-232.html",
+            "sha256": "30694bcda5a28ab98d500e707121b6afb581a59fb88216b12e2e3ab9ef4c16d0",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:09.750282+00:00"
+          },
+          "translations": {
+            "en": "Orbit",
+            "de": "Umlaufbahn",
+            "fr": "Orbite",
+            "es": "Órbita"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 35,
+      "nrs": "larkan",
+      "meaningJa": "軌道傾斜角、傾き、傾斜",
+      "meaningEn": "orbital inclination, tilt",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "6e36d567268af78ae3e7d7188fc7f25347fd15085fec09b45b2db9607c107a49",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [
+        {
+          "label": "Orbital Inclination",
+          "status": "source-missing",
+          "reason": "No exact glossary entry; do not substitute a broader concept."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 36,
+      "nrs": "larven",
+      "meaningJa": "軌道遷移、スイングバイ、航路変更",
+      "meaningEn": "orbital transit, swing-by",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名/動",
+      "entryHash": "75edb9bfce9c30d9b3da4d7756950c63a2626bbb1fb0feeac1ec902981a243bb",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 37,
+      "nrs": "kyrven",
+      "meaningJa": "星雲、星間ガス、宇宙塵",
+      "meaningEn": "nebula, cosmic dust cloud",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "29b509c3c678904feb7484a0a35c0e8b3016a0ee8e5956fd6dd5f05b65e83c35",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Nebula",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:211",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/211/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-211.html",
+            "sha256": "bdeb54707ff6f1f3544cf34e9aba3459a5b1a3a8358c4a8f0b1d9e081cef2efe",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:08.491384+00:00"
+          },
+          "translations": {
+            "en": "Nebula",
+            "de": "Nebel",
+            "fr": "Nébuleuse",
+            "es": "Nebulosa"
+          },
+          "japaneseLabel": "星雲 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        },
+        {
+          "label": "Dust Cloud",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:438",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/438/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-438.html",
+            "sha256": "0d042085b68485b29571cda06fd7be8732fdd4e03d0a578b387fbd5e3c030922",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:05.156373+00:00"
+          },
+          "translations": {
+            "en": "Dust Cloud",
+            "fr": "Nuage de poussière",
+            "de": "Staubwolke",
+            "es": "Nube de polvo"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 38,
+      "nrs": "neburil",
+      "meaningJa": "原生惑星系円盤、原始星雲環",
+      "meaningEn": "protoplanetary disk",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "ebba5b72d4709b8d9dd4dbf6ea8b44d83cd9ccc2e69a2f03fde76e2251b39c6a",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Protoplanetary Disk",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:417",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/417/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-417.html",
+            "sha256": "ed36c04b70c72598b489211c855faf5708037496745f294c0e248e9c561fbbbe",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:11.465998+00:00"
+          },
+          "translations": {
+            "en": "Protoplanetary Disk",
+            "fr": "Disque protoplanétaire",
+            "es": "Disco protoplanetario",
+            "de": "Protoplanetare Scheibe"
+          },
+          "japaneseLabel": "原始惑星系円盤 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 39,
+      "nrs": "nerisro",
+      "meaningJa": "近日点、最接近点",
+      "meaningEn": "perihelion, periapsis",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "28992a3209b1ccc968c5815b616a1197961036f900ccc6146a12c69d97ef3c42",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Perihelion",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:244",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/244/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-244.html",
+            "sha256": "6a1536d1c88e00500097736a0c25d4c6d7400d8d2ae2de3aadc52e3b00f40ef1",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:11.217537+00:00"
+          },
+          "translations": {
+            "en": "Perihelion",
+            "de": "Perihel",
+            "fr": "Périhélie",
+            "es": "Perihelio"
+          },
+          "japaneseLabel": "近日点 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        },
+        {
+          "label": "Periapsis",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:524",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/524/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-524.html",
+            "sha256": "c002776987988f368f4b57077da8741638c451ac032c61f43324db5eecc86b4c",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:10.043433+00:00"
+          },
+          "translations": {
+            "en": "Periapsis",
+            "fr": "Periapsis",
+            "de": "Periapsis",
+            "es": "Periapsis"
+          },
+          "japaneseLabel": "近点 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 40,
+      "nrs": "novar",
+      "meaningJa": "天頂、真上、最高点",
+      "meaningEn": "zenith, apex",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "49df35223245954bd0d1c40c538aa4449f756636d6d32ba3f4bc2f664f561186",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Zenith",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:390",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/390/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-390.html",
+            "sha256": "eae259679aecbfcd86b76b71144d78abb95969acf9c4e9113c58d89822304934",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:14.191364+00:00"
+          },
+          "translations": {
+            "en": "Zenith",
+            "de": "Zenit",
+            "fr": "Zénith",
+            "es": "Cenit"
+          },
+          "japaneseLabel": "天頂 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 41,
+      "nrs": "poryk",
+      "meaningJa": "距離、道のり、隔たり、行程",
+      "meaningEn": "distance, span, interval",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "8b874ac34c9f3cb729cdaff03c0d3d3a8f95d596bec0a6976b473ceb06885ec0",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 42,
+      "nrs": "radcon",
+      "meaningJa": "脱出速度、第二宇宙速度",
+      "meaningEn": "escape velocity, parabolic speed",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "42e3311457a91b77025c0a3e6d9d611818cc9a313116934f0a72a23da08342c7",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Escape Velocity",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:105",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/105/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-105.html",
+            "sha256": "1b59a41107242a17ae3c7304ab792dc1b3b08b933c1068954f15ffa9863058da",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:05.368183+00:00"
+          },
+          "translations": {
+            "en": "Escape Velocity",
+            "de": "Fluchtgeschwindigkeit",
+            "fr": "Vitesse de libération",
+            "es": "Velocidad de escape"
+          },
+          "japaneseLabel": "脱出速度 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 43,
+      "nrs": "radin",
+      "meaningJa": "軌道半径、長半径、天体間距離",
+      "meaningEn": "orbital radius, semi-major axis",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "8624d3d9d460601eee44be79ad8b7fa7308a70c71445c1b1d9ad64222701cf00",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Semi-major Axis",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:393",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/393/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-393.html",
+            "sha256": "320cab19a1ccc8d1c043d3cedb528004b29d720b7b3bf72528819c1f9622e7b2",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:12.688227+00:00"
+          },
+          "translations": {
+            "en": "Semi-Major Axis",
+            "fr": "Demi-grand Axe",
+            "de": "Große Halbachse",
+            "es": "Semieje mayor"
+          },
+          "japaneseLabel": "軌道長半径 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 44,
+      "nrs": "taldun",
+      "meaningJa": "傾斜、坂道、勾配、斜面",
+      "meaningEn": "slope, incline, gradient",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "2f9feb8b8a942210c37abf6e59c212d8fee471edd6ac020fb0d6cc807eaaffc4",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 45,
+      "nrs": "torp",
+      "meaningJa": "天体衝突、隕石落下、インパクト",
+      "meaningEn": "impact, collision",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "5c028560143ac50847686fc0ae2f888f94d95e96dab74e20bbcd5330d1ac0e49",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 46,
+      "nrs": "tulfin",
+      "meaningJa": "底面、土台、底、最下面",
+      "meaningEn": "bottom surface, base, footing",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "c05bea8ea0c9b084d857ad847f8644c6fb70641ab25a4885652feb5e8c124f89",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 47,
+      "nrs": "tulos",
+      "meaningJa": "天底、最深点、真下",
+      "meaningEn": "nadir, bottom",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "60c19542f74f865f7372f9965651daa08f3dda58c4afd494c48f3b96ffd72870",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Nadir",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:460",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/460/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-460.html",
+            "sha256": "dfd98cd7ed0ff67359e136640eea7f6edfeb9683098088c21cc5c034face331d",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:08.271341+00:00"
+          },
+          "translations": {
+            "en": "Nadir",
+            "de": "Nadir",
+            "fr": "Nadir",
+            "es": "Nadir"
+          },
+          "japaneseLabel": null,
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 48,
+      "nrs": "tykvar",
+      "meaningJa": "振動、揺れ、周期振動、脈動震",
+      "meaningEn": "vibration, oscillation, tremble",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "ca6985b8aaa07c8dfd6865e57ccb9b36c91f4ec9f34d5ddcd215c1fb145e985b",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 50,
+      "nrs": "tyral",
+      "meaningJa": "引力、重力、求心力",
+      "meaningEn": "gravity, attraction force",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "3fe05ad7ee9167b7ab66230a87050f83f9211373f1f893d9b99e8b706780f927",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Gravity",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:135",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/135/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-135.html",
+            "sha256": "cc853f88b5e2bb958a114f9a8b4ed8138b482b64e88a6abcea3bcb0e084438d6",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:06.844205+00:00"
+          },
+          "translations": {
+            "en": "Gravity",
+            "de": "Schwerkraft",
+            "fr": "Gravité",
+            "es": "Gravedad"
+          },
+          "japaneseLabel": "重力 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 51,
+      "nrs": "tyrcon",
+      "meaningJa": "引力崩壊、重力崩壊、爆縮",
+      "meaningEn": "gravitational collapse, implosion",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "30351f56e97cc5ad298c01bad42c2067d7283b0b66ce5734f9efb244d07c022e",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 52,
+      "nrs": "tyrfos",
+      "meaningJa": "連星系の重心、天体共通重心、平衡点",
+      "meaningEn": "barycenter, Lagrange balance point",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "06717ebcdda6b2539ebf19845445aa806d5e9fa47cef60514d0a61f79ae53918",
+      "reviewer": "Codex",
+      "status": "source-needed",
+      "senses": [],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    },
+    {
+      "lexiconId": 53,
+      "nrs": "tyril",
+      "meaningJa": "潮汐力、引力波、重力波",
+      "meaningEn": "tidal force, gravitational wave",
+      "category": "1. 天体・宇宙力学・光",
+      "pos": "名",
+      "entryHash": "6bc7dabd215bc6735924bcaeade43faeafe1cd48116d2eabe8acc18cdd8b369c",
+      "reviewer": "Codex",
+      "status": "partial",
+      "senses": [
+        {
+          "label": "Gravitational Waves",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:447",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/447/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-447.html",
+            "sha256": "cd20caa1756f69bc052f19066a39c25d7511980e80d00445bfaa8bea79ff404a",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:06.731604+00:00"
+          },
+          "translations": {
+            "en": "Gravitational Waves",
+            "de": "Gravitationswellen",
+            "fr": "Ondes gravitationnelles",
+            "es": "Ondas gravitacionales"
+          },
+          "japaneseLabel": "重力波 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        },
+        {
+          "label": "Tidal Force",
+          "status": "partial-source-backed",
+          "source": {
+            "id": "iau-oae:501",
+            "url": "https://astro4edu.org/resources/glossary/term-detail/501/",
+            "snapshot": "audit/runs/2026-10-15-development/sources/iau-501.html",
+            "sha256": "8dc8155bd5c92368fa144a3495bf8315c8e10fb7312d7164b9b97a0f5fb6f4b6",
+            "attribution": "IAU OAE",
+            "license": "CC BY 4.0",
+            "licenseVerified": true,
+            "retrievedAt": "2026-10-15T04:10:13.982684+00:00"
+          },
+          "translations": {
+            "en": "Tidal Force",
+            "fr": "Force de marée",
+            "es": "Fuerza de marea",
+            "de": "Gezeitenkraft"
+          },
+          "japaneseLabel": "潮汐力 (external link)",
+          "mappingReview": "Codex AI review: basic or explicit secondary sense only; not all meanings.",
+          "missing": [
+            "la",
+            "ja-romanization"
+          ],
+          "reason": "Latin translation and sourced Japanese reading/romanization are unavailable; six-language completeness is not claimed."
+        }
+      ],
+      "reason": "Inspect each dictionary sense separately. No exact documented translation has been assigned to unresolved senses."
+    }
+  ]
+}

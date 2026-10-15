@@ -1,0 +1,19 @@
+{
+  "version": "corpus-frames-1",
+  "scope": "公式コーパスで使用する動詞・構文の明示的な項構造。一般言語全体の完全な構文解析器ではない。",
+  "prefixes": ["fe", "se", "di", "ne", "sen", "zen", "tor", "hav"],
+  "cases": ["el", "ia", "al", "uo", "de", "to", "va", "ku"],
+  "frames": {
+    "906": {"sense": "存在・コピュラ", "required": ["el", "ia"], "allowed": ["el", "ia", "uo"], "source": "言語仕様§2.6コピュラ文、ID906"},
+    "16": {"sense": "光を発する（自動詞用法）", "required": ["el"], "allowed": ["el", "uo"], "source": "言語仕様§6.2 falun光る→falunast、ID16"},
+    "902": {"sense": "歩く・進む", "required": ["el"], "allowed": ["el", "to", "uo"], "source": "辞書ID902、言語仕様§2.6"},
+    "953": {"sense": "観測する", "required": ["el"], "allowed": ["el", "ia", "uo", "to"], "passiveAllowed": ["el", "de", "uo"], "source": "辞書ID953、言語仕様§6.2受動態"},
+    "972": {"sense": "食べる", "required": ["el"], "allowed": ["el", "ia", "uo", "ku"], "source": "辞書ID972、言語仕様§6.2反復相"}
+  },
+  "conventions": [
+    "無標は現在・一般叙述。独立した過去節はfeを明記し、前文からの時制継承を仮定しない。",
+    "torで始まる節を後続の主節と結ぶ。箴言ではhavelをporanの主語とする時間の擬人化を明示する。",
+    "属格enは直前の名詞句を修飾する。主語・対格等の新しい項ではない。",
+    "taasは§6.3の二人称用法。kauoはtoの目的地。sirinはrelenの形容詞補語。"
+  ]
+}

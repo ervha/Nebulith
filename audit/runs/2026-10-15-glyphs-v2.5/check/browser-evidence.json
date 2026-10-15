@@ -1,0 +1,48 @@
+{
+  "browserCheck": {
+    "toolIcon": {
+      "_tag": "website",
+      "pageUrl": "http://127.0.0.1:8765/fonts/handwriting.html"
+    },
+    "value": {
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "horizontalOverflow": false,
+      "sizes": [
+        "16px",
+        "24px",
+        "48px",
+        "72px"
+      ],
+      "title": "Nebulith 筆流標本 v2.5"
+    }
+  },
+  "visualReview": {
+    "reviewer": "Codex",
+    "scope": "corresponding-codepoint and tiered handwriting style",
+    "restructured": [
+      "I",
+      "i",
+      "T",
+      "t",
+      "one"
+    ],
+    "refinedSymbols": 27,
+    "functionalGlyphs": [
+      "space",
+      ".notdef"
+    ],
+    "unchangedPreviouslyApproved": 53,
+    "approvedDesign": 85,
+    "functionalChecked": 2,
+    "pending": 0,
+    "humanHandwritingTest": false,
+    "humanLongFormReadabilityTest": false
+  },
+  "fontSha256": "d1029a13813d041982afe509579ac9f815efe35bb7435ea8784d7433009c12b2",
+  "corpusSha256": "f985bf10b8c7da2bd235cf8963f675c6ee5250bac37f83d2ae19c5dd03bf5981"
+}

@@ -1,0 +1,8 @@
+{
+  "requiredLanguages": ["en", "la", "fr", "es", "de", "ja"],
+  "minimumComparisonForms": 2000,
+  "countingUnit": "unique conceptId, language, normalized comparison form",
+  "senseUnit": "Every comma-separated English sense and Japanese sense separated by Japanese comma or slash; ambiguous groups remain pending.",
+  "scope": "All current dictionary IDs and listed senses, reviewed against current entry hashes. Each reviewed sense needs an approved concept link with all six languages.",
+  "note": "2000 is the operational minimum for the existing approximately-2000-form requirement, not proof of semantic coverage. Japanese comparisons need sourced romanization; unavailable evidence remains pending."
+}

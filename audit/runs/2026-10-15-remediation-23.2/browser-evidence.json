@@ -1,0 +1,49 @@
+{
+  "pages": [
+    {
+      "corpusText": "規範コーパス候補 v23.2\n\n字句参照を検証済み。意味・統語の審査は未完了です。\n\nテクスト1：星辰箴言\nRelen el vyran ia tolst en sente: tor poran el havel, ne klovol el falun en vyr.\n\nRelen el vyran ia tolst en sente: tor poran el havel, ne klovol el falun en vyr.\n\n真理は万物の床（礎）である。時が歩み去ろうとも、星の光が尽き果てることはない。\n\nテクスト2：天文台の日誌\nFe vyrelcor el vyrelor uo vyrelar to falden. Falunast el vyr syvani uo celvan, fe revyrel el corval en celmon.\n\nFe vyrelcor el vyrelor uo vyrelar to falden. Falunast el vyr syvani uo celvan, fe revyrel el corval en celmon.\n\n天文学者は天文台にて東の空を定期観測した。天球に新たな星が光を放ち始め、暗黒星雲の重心が観測された。\n\nテクスト3：対話A（導入）\nFalun el vyrin. Poran el taas to kauo ka?\n\nFalun el vyrin. Poran el taas to kauo ka?\n\n星々が輝いています。あなたはどこへ歩きますか。\n\nテクスト3：対話B\nPoran el mi to govan en cynor. Nerancor el mi ia nyrat uo nerar.\n\nPoran el mi to govan en cynor. Nerancor el mi ia nyrat uo nerar.\n\n私は友の家へ歩きます。私は普段、食堂で主食を食べます。\n\nテクスト3：対話A（応答）\nRelen el laris en taas ia sirin. Poran el mi to falden.\n\nRelen el laris en taas ia sirin. Poran el mi to falden.\n\nあなたの軌道は穏やかです。私は東へ歩きます。",
+      "corpusUnits": 5,
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "loaded": true,
+      "timestamp": "2026-10-15T02:38:00.011Z",
+      "title": "Nebulith-Regular.ttf Specimen v2.1",
+      "url": "http://127.0.0.1:8765/fonts/preview.html",
+      "versionHeading": "🌌 Nebulith-Regular.ttf v2.1 全グリフ標本（独自性評価は審査中）"
+    },
+    {
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "loaded": true,
+      "timestamp": "2026-10-15T02:38:38.375Z",
+      "url": "http://127.0.0.1:8765/tools/num_specimen.html"
+    },
+    {
+      "loaded": true,
+      "overflow": false,
+      "timestamp": "2026-10-15T02:40:02.818Z",
+      "units": 5,
+      "url": "http://127.0.0.1:8765/fonts/preview.html",
+      "viewport": {
+        "height": 952,
+        "width": 943
+      }
+    }
+  ],
+  "screenshots": {
+    "font": "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8xig9g-739b58c3.png",
+    "numerals": "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8xj9v4-1ecbbeb3.png",
+    "corpus": "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8xl30u-6f825009.png"
+  },
+  "note": "Fresh loading checks. Rendering does not approve pending semantic or glyph originality reviews.",
+  "fontSha256": "1170d6d3df02575dd01f05f9a0d8f646e60b9ea4bd55f4f6a8775a801ff2fd37",
+  "corpusSha256": "08e22c6038a422048ab9a49724a4d0f57f7a11a5f277da3a6b2723b408b68e64"
+}

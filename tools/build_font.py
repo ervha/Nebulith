@@ -5,6 +5,9 @@ Features smooth rounded curves, loops, and celestial star nodes.
 """
 
 import os
+import json
+from pathlib import Path
+from font_symbols import FONT_VERSION, SYMBOLS, add_symbols
 from fontTools.ttLib import TTFont, newTable
 from fontTools.ttLib.tables._c_m_a_p import cmap_format_4
 from fontTools.pens.ttGlyphPen import TTGlyphPen
@@ -35,7 +38,7 @@ def draw_star_node(pen, cx, cy, r=22):
     """Draw a distinct star node dot."""
     make_circle(pen, cx, cy, r)
 
-def build_font():
+def build_font(output_dir=None):
     units_per_em = 1000
     ascender = 800
     descender = -200
@@ -178,27 +181,26 @@ def build_font():
     add_glyph("o", ord("o"), 680, draw_o)
     add_glyph("O", ord("O"), 780, draw_o)
 
-    # 'u' : Deep Abyss Chalice (天底の深淵杯 ＋ 3点支持星辰核)
-    # 脱・単なるU字：優雅な外反りを持つ天底の受容杯と、底面を支える3点星辰アンカー
+    # 'u': Closed orbital kite and lower axial ray. No open U-shaped cup.
     def draw_u(pen):
-        # 深淵受容杯 (Abyss Chalice)
-        pen.moveTo((140, 520))
-        pen.qCurveTo((180, 480), (180, 300))
-        pen.qCurveTo((180, 180), (330, 180))
-        pen.qCurveTo((480, 180), (480, 300))
-        pen.qCurveTo((480, 480), (520, 520))
-        pen.lineTo((480, 535))
-        pen.qCurveTo((440, 460), (440, 300))
-        pen.qCurveTo((440, 220), (330, 220))
-        pen.qCurveTo((220, 220), (220, 300))
-        pen.qCurveTo((220, 460), (180, 535))
+        pen.moveTo((330, 590))
+        pen.lineTo((540, 380))
+        pen.lineTo((330, 230))
+        pen.lineTo((120, 380))
         pen.closePath()
-        # 3点支持アンカー核 (Tri-Anchor Nodes)
-        draw_star_node(pen, 330, 120, 26)  # 中央深底核
-        draw_star_node(pen, 190, 160, 18)  # 左脚核
-        draw_star_node(pen, 470, 160, 18)  # 右脚核
-        draw_star_node(pen, 140, 520, 18)  # 左杯縁
-        draw_star_node(pen, 520, 520, 18)  # 右杯縁
+        # Opposite winding creates an actual counter, not a filled diamond.
+        pen.moveTo((330, 525))
+        pen.lineTo((185, 380))
+        pen.lineTo((330, 280))
+        pen.lineTo((475, 380))
+        pen.closePath()
+        pen.moveTo((310, 230))
+        pen.lineTo((350, 230))
+        pen.lineTo((350, 105))
+        pen.lineTo((310, 105))
+        pen.closePath()
+        draw_star_node(pen, 330, 380, 28)
+        draw_star_node(pen, 330, 80, 20)
     add_glyph("u", ord("u"), 660, draw_u)
     add_glyph("U", ord("U"), 760, draw_u)
 
@@ -387,21 +389,19 @@ def build_font():
     add_glyph("c", ord("c"), 660, draw_c)
     add_glyph("C", ord("C"), 760, draw_c)
 
-    # 8. 'j' : Binary Apex & Abyss Anchor [ʒ] (天頂連星対 ＋ 深淵旋回アンカー)
-    # 脱・ラテンj（直線の縦棒＋フックを排除：天頂の双子星から右回りに深淵へ潜る螺旋アンカー）
+    # 8. 'j': Offset binary orbits and horizontal transfer bridge [ʒ].
+    # No vertical stem with a lower hook; two separate closed orbital counters.
     def draw_j(pen):
-        pen.moveTo((330, 520))
-        pen.qCurveTo((460, 520), (460, 260))
-        pen.qCurveTo((460, -80), (300, -80))
-        pen.qCurveTo((180, -80), (200, 40))
-        pen.lineTo((235, 30))
-        pen.qCurveTo((220, -40), (295, -40))
-        pen.qCurveTo((415, -40), (415, 260))
-        pen.qCurveTo((415, 480), (330, 480))
+        make_ring(pen, 220, 465, 105, 63)
+        make_ring(pen, 445, 255, 105, 63)
+        pen.moveTo((220, 365))
+        pen.lineTo((220, 330))
+        pen.lineTo((445, 330))
+        pen.lineTo((445, 355))
+        pen.lineTo((260, 370))
         pen.closePath()
-        draw_star_node(pen, 270, 600, 20)
-        draw_star_node(pen, 380, 600, 20)
-        draw_star_node(pen, 215, 40, 18)
+        draw_star_node(pen, 220, 465, 20)
+        draw_star_node(pen, 445, 255, 20)
     add_glyph("j", ord("j"), 620, draw_j)
     add_glyph("J", ord("J"), 720, draw_j)
 
@@ -910,10 +910,16 @@ def build_font():
         draw_star_node(pen, 250, 360, 14)
     add_glyph("hyphen", ord("-"), 500, draw_hyphen)
 
+    add_symbols(add_glyph, char_map, make_ring, draw_star_node)
+    from font_letter_revision import revise_glyphs
+    revise_glyphs(glyphs, make_ring, draw_star_node)
+    from font_pending_revision import revise_pending
+    revise_pending(glyphs, make_ring, draw_star_node)
+
     # ==========================================
     # ASSEMBLE TRUETYPE FONT TABLES
     # ==========================================
-    font = TTFont()
+    font = TTFont(recalcTimestamp=False)
     
     # 1. 'glyf' & 'loca'
     glyf_table = newTable("glyf")
@@ -926,13 +932,13 @@ def build_font():
     # 2. 'head'
     head_table = newTable("head")
     head_table.tableVersion = 1.0
-    head_table.fontRevision = 1.0
+    head_table.fontRevision = float(FONT_VERSION)
     head_table.checkSumAdjustment = 0
     head_table.magicNumber = 0x5F0F3CF5
     head_table.flags = 0x0003
     head_table.unitsPerEm = units_per_em
-    head_table.created = 0
-    head_table.modified = 0
+    head_table.created = 3874874913
+    head_table.modified = 3874874913
     head_table.xMin = 0
     head_table.yMin = descender
     head_table.xMax = 800
@@ -950,7 +956,7 @@ def build_font():
     hhea_table.ascent = ascender
     hhea_table.descent = descender
     hhea_table.lineGap = 100
-    hhea_table.advanceWidthMax = 850
+    hhea_table.advanceWidthMax = max(width for _, width in glyphs.values())
     hhea_table.minLeftSideBearing = 0
     hhea_table.minRightSideBearing = 0
     hhea_table.xMaxExtent = 800
@@ -1005,9 +1011,9 @@ def build_font():
     names = [
         (1, "Nebulith"),
         (2, "Regular"),
-        (3, "Nebulith-Regular-v1.0"),
+        (3, "Nebulith-Regular-v"+FONT_VERSION),
         (4, "Nebulith Regular"),
-        (5, "Version 1.0"),
+        (5, "Version "+FONT_VERSION),
         (6, "Nebulith-Regular"),
         (9, "Reiun / DeepMind"),
     ]
@@ -1041,8 +1047,8 @@ def build_font():
     os2_table.ulUnicodeRange4 = 0
     os2_table.achVendID = b"NEBU"
     os2_table.fsSelection = 0x0040
-    os2_table.fsFirstCharIndex = 32
-    os2_table.fsLastCharIndex = 126
+    os2_table.fsFirstCharIndex = min(char_map)
+    os2_table.fsLastCharIndex = max(char_map)
     os2_table.sTypoAscender = ascender
     os2_table.sTypoDescender = descender
     os2_table.sTypoLineGap = 100
@@ -1056,6 +1062,7 @@ def build_font():
     os2_table.usBreakChar = 32
     os2_table.usMaxContext = 0
     font["OS/2"] = os2_table
+    os2_table.recalcUnicodeRanges(font)
 
     # 9. 'post'
     post_table = newTable("post")
@@ -1077,7 +1084,7 @@ def build_font():
     font.setGlyphOrder(glyph_order)
 
     # Save to disk
-    out_dir = r"C:\Users\danun\Desktop\Project\Nebulith\fonts"
+    out_dir = str(output_dir or (Path(__file__).resolve().parents[1] / 'fonts'))
     os.makedirs(out_dir, exist_ok=True)
     out_path = os.path.join(out_dir, "Nebulith-Regular.ttf")
     font.save(out_path)
@@ -1091,6 +1098,12 @@ def build_font():
     with open(b64_path, "w", encoding="ascii") as f:
         f.write(b64_str)
     print(f"Base64 font saved to {b64_path} ({len(b64_str)} chars)")
+    inventory = {'fontVersion': FONT_VERSION, 'glyphCount': len(glyph_order),
+                 'mappedCharacterCount': len(char_map),
+                 'characters': ''.join(chr(c) for c in sorted(char_map)),
+                 'symbols': [{'glyph': name, 'characters': chars, 'motif': motif, 'advance': width}
+                             for name, chars, motif, width in SYMBOLS]}
+    (Path(out_dir) / 'inventory.json').write_text(json.dumps(inventory, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 
 
 if __name__ == "__main__":

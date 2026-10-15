@@ -1,0 +1,48 @@
+{
+  "browserCheck": {
+    "toolIcon": {
+      "_tag": "website",
+      "pageUrl": "http://127.0.0.1:8765/fonts/handwriting.html"
+    },
+    "value": {
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "horizontalOverflow": false,
+      "sampleCount": 16,
+      "sizes": [
+        "16px",
+        "24px",
+        "48px",
+        "72px"
+      ],
+      "title": "Nebulith 筆流標本 v2.4"
+    }
+  },
+  "visualReview": {
+    "reviewer": "Codex",
+    "scope": "corresponding-codepoint; preserve curved handwriting feel and style harmony",
+    "investigated": 87,
+    "approved": 53,
+    "pending": 34,
+    "changed": [
+      "A",
+      "a",
+      "S",
+      "s"
+    ],
+    "sizes": [
+      16,
+      24,
+      48,
+      72
+    ],
+    "humanHandwritingTest": false,
+    "humanLongFormReadabilityTest": false
+  },
+  "fontSha256": "b04f8388ccd56159ad5cf762d899aff02cf38969db661e2452bf32be23b4b18e",
+  "corpusSha256": "f985bf10b8c7da2bd235cf8963f675c6ee5250bac37f83d2ae19c5dd03bf5981"
+}

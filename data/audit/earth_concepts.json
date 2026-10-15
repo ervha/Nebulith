@@ -1,0 +1,832 @@
+{
+  "concepts": [
+    {
+      "conceptId": "swadesh-207:1",
+      "englishGloss": "I"
+    },
+    {
+      "conceptId": "swadesh-207:2",
+      "englishGloss": "you (singular)"
+    },
+    {
+      "conceptId": "swadesh-207:3",
+      "englishGloss": "he"
+    },
+    {
+      "conceptId": "swadesh-207:4",
+      "englishGloss": "we"
+    },
+    {
+      "conceptId": "swadesh-207:5",
+      "englishGloss": "you (plural)"
+    },
+    {
+      "conceptId": "swadesh-207:6",
+      "englishGloss": "they"
+    },
+    {
+      "conceptId": "swadesh-207:7",
+      "englishGloss": "this"
+    },
+    {
+      "conceptId": "swadesh-207:8",
+      "englishGloss": "that"
+    },
+    {
+      "conceptId": "swadesh-207:9",
+      "englishGloss": "here"
+    },
+    {
+      "conceptId": "swadesh-207:10",
+      "englishGloss": "there"
+    },
+    {
+      "conceptId": "swadesh-207:11",
+      "englishGloss": "who"
+    },
+    {
+      "conceptId": "swadesh-207:12",
+      "englishGloss": "what"
+    },
+    {
+      "conceptId": "swadesh-207:13",
+      "englishGloss": "where"
+    },
+    {
+      "conceptId": "swadesh-207:14",
+      "englishGloss": "when"
+    },
+    {
+      "conceptId": "swadesh-207:15",
+      "englishGloss": "how"
+    },
+    {
+      "conceptId": "swadesh-207:16",
+      "englishGloss": "not"
+    },
+    {
+      "conceptId": "swadesh-207:17",
+      "englishGloss": "all"
+    },
+    {
+      "conceptId": "swadesh-207:18",
+      "englishGloss": "many"
+    },
+    {
+      "conceptId": "swadesh-207:19",
+      "englishGloss": "some"
+    },
+    {
+      "conceptId": "swadesh-207:20",
+      "englishGloss": "few"
+    },
+    {
+      "conceptId": "swadesh-207:21",
+      "englishGloss": "other"
+    },
+    {
+      "conceptId": "swadesh-207:22",
+      "englishGloss": "one"
+    },
+    {
+      "conceptId": "swadesh-207:23",
+      "englishGloss": "two"
+    },
+    {
+      "conceptId": "swadesh-207:24",
+      "englishGloss": "three"
+    },
+    {
+      "conceptId": "swadesh-207:25",
+      "englishGloss": "four"
+    },
+    {
+      "conceptId": "swadesh-207:26",
+      "englishGloss": "five"
+    },
+    {
+      "conceptId": "swadesh-207:27",
+      "englishGloss": "big"
+    },
+    {
+      "conceptId": "swadesh-207:28",
+      "englishGloss": "long"
+    },
+    {
+      "conceptId": "swadesh-207:29",
+      "englishGloss": "wide"
+    },
+    {
+      "conceptId": "swadesh-207:30",
+      "englishGloss": "thick"
+    },
+    {
+      "conceptId": "swadesh-207:31",
+      "englishGloss": "heavy"
+    },
+    {
+      "conceptId": "swadesh-207:32",
+      "englishGloss": "small"
+    },
+    {
+      "conceptId": "swadesh-207:33",
+      "englishGloss": "short"
+    },
+    {
+      "conceptId": "swadesh-207:34",
+      "englishGloss": "narrow"
+    },
+    {
+      "conceptId": "swadesh-207:35",
+      "englishGloss": "thin"
+    },
+    {
+      "conceptId": "swadesh-207:36",
+      "englishGloss": "woman"
+    },
+    {
+      "conceptId": "swadesh-207:37",
+      "englishGloss": "man (adult male)"
+    },
+    {
+      "conceptId": "swadesh-207:38",
+      "englishGloss": "man (human being)"
+    },
+    {
+      "conceptId": "swadesh-207:39",
+      "englishGloss": "child"
+    },
+    {
+      "conceptId": "swadesh-207:40",
+      "englishGloss": "wife"
+    },
+    {
+      "conceptId": "swadesh-207:41",
+      "englishGloss": "husband"
+    },
+    {
+      "conceptId": "swadesh-207:42",
+      "englishGloss": "mother"
+    },
+    {
+      "conceptId": "swadesh-207:43",
+      "englishGloss": "father"
+    },
+    {
+      "conceptId": "swadesh-207:44",
+      "englishGloss": "animal"
+    },
+    {
+      "conceptId": "swadesh-207:45",
+      "englishGloss": "fish"
+    },
+    {
+      "conceptId": "swadesh-207:46",
+      "englishGloss": "bird"
+    },
+    {
+      "conceptId": "swadesh-207:47",
+      "englishGloss": "dog"
+    },
+    {
+      "conceptId": "swadesh-207:48",
+      "englishGloss": "louse"
+    },
+    {
+      "conceptId": "swadesh-207:49",
+      "englishGloss": "snake"
+    },
+    {
+      "conceptId": "swadesh-207:50",
+      "englishGloss": "worm"
+    },
+    {
+      "conceptId": "swadesh-207:51",
+      "englishGloss": "tree"
+    },
+    {
+      "conceptId": "swadesh-207:52",
+      "englishGloss": "forest"
+    },
+    {
+      "conceptId": "swadesh-207:53",
+      "englishGloss": "stick"
+    },
+    {
+      "conceptId": "swadesh-207:54",
+      "englishGloss": "fruit"
+    },
+    {
+      "conceptId": "swadesh-207:55",
+      "englishGloss": "seed"
+    },
+    {
+      "conceptId": "swadesh-207:56",
+      "englishGloss": "leaf"
+    },
+    {
+      "conceptId": "swadesh-207:57",
+      "englishGloss": "root"
+    },
+    {
+      "conceptId": "swadesh-207:58",
+      "englishGloss": "bark (of a tree)"
+    },
+    {
+      "conceptId": "swadesh-207:59",
+      "englishGloss": "flower"
+    },
+    {
+      "conceptId": "swadesh-207:60",
+      "englishGloss": "grass"
+    },
+    {
+      "conceptId": "swadesh-207:61",
+      "englishGloss": "rope"
+    },
+    {
+      "conceptId": "swadesh-207:62",
+      "englishGloss": "skin"
+    },
+    {
+      "conceptId": "swadesh-207:63",
+      "englishGloss": "meat"
+    },
+    {
+      "conceptId": "swadesh-207:64",
+      "englishGloss": "blood"
+    },
+    {
+      "conceptId": "swadesh-207:65",
+      "englishGloss": "bone"
+    },
+    {
+      "conceptId": "swadesh-207:66",
+      "englishGloss": "fat (noun)"
+    },
+    {
+      "conceptId": "swadesh-207:67",
+      "englishGloss": "egg"
+    },
+    {
+      "conceptId": "swadesh-207:68",
+      "englishGloss": "horn"
+    },
+    {
+      "conceptId": "swadesh-207:69",
+      "englishGloss": "tail"
+    },
+    {
+      "conceptId": "swadesh-207:70",
+      "englishGloss": "feather"
+    },
+    {
+      "conceptId": "swadesh-207:71",
+      "englishGloss": "hair"
+    },
+    {
+      "conceptId": "swadesh-207:72",
+      "englishGloss": "head"
+    },
+    {
+      "conceptId": "swadesh-207:73",
+      "englishGloss": "ear"
+    },
+    {
+      "conceptId": "swadesh-207:74",
+      "englishGloss": "eye"
+    },
+    {
+      "conceptId": "swadesh-207:75",
+      "englishGloss": "nose"
+    },
+    {
+      "conceptId": "swadesh-207:76",
+      "englishGloss": "mouth"
+    },
+    {
+      "conceptId": "swadesh-207:77",
+      "englishGloss": "tooth"
+    },
+    {
+      "conceptId": "swadesh-207:78",
+      "englishGloss": "tongue (organ)"
+    },
+    {
+      "conceptId": "swadesh-207:79",
+      "englishGloss": "fingernail"
+    },
+    {
+      "conceptId": "swadesh-207:80",
+      "englishGloss": "foot"
+    },
+    {
+      "conceptId": "swadesh-207:81",
+      "englishGloss": "leg"
+    },
+    {
+      "conceptId": "swadesh-207:82",
+      "englishGloss": "knee"
+    },
+    {
+      "conceptId": "swadesh-207:83",
+      "englishGloss": "hand"
+    },
+    {
+      "conceptId": "swadesh-207:84",
+      "englishGloss": "wing"
+    },
+    {
+      "conceptId": "swadesh-207:85",
+      "englishGloss": "belly"
+    },
+    {
+      "conceptId": "swadesh-207:86",
+      "englishGloss": "guts"
+    },
+    {
+      "conceptId": "swadesh-207:87",
+      "englishGloss": "neck"
+    },
+    {
+      "conceptId": "swadesh-207:88",
+      "englishGloss": "back"
+    },
+    {
+      "conceptId": "swadesh-207:89",
+      "englishGloss": "breast"
+    },
+    {
+      "conceptId": "swadesh-207:90",
+      "englishGloss": "heart"
+    },
+    {
+      "conceptId": "swadesh-207:91",
+      "englishGloss": "liver"
+    },
+    {
+      "conceptId": "swadesh-207:92",
+      "englishGloss": "to drink"
+    },
+    {
+      "conceptId": "swadesh-207:93",
+      "englishGloss": "to eat"
+    },
+    {
+      "conceptId": "swadesh-207:94",
+      "englishGloss": "to bite"
+    },
+    {
+      "conceptId": "swadesh-207:95",
+      "englishGloss": "to suck"
+    },
+    {
+      "conceptId": "swadesh-207:96",
+      "englishGloss": "to spit"
+    },
+    {
+      "conceptId": "swadesh-207:97",
+      "englishGloss": "to vomit"
+    },
+    {
+      "conceptId": "swadesh-207:98",
+      "englishGloss": "to blow"
+    },
+    {
+      "conceptId": "swadesh-207:99",
+      "englishGloss": "to breathe"
+    },
+    {
+      "conceptId": "swadesh-207:100",
+      "englishGloss": "to laugh"
+    },
+    {
+      "conceptId": "swadesh-207:101",
+      "englishGloss": "to see"
+    },
+    {
+      "conceptId": "swadesh-207:102",
+      "englishGloss": "to hear"
+    },
+    {
+      "conceptId": "swadesh-207:103",
+      "englishGloss": "to know"
+    },
+    {
+      "conceptId": "swadesh-207:104",
+      "englishGloss": "to think"
+    },
+    {
+      "conceptId": "swadesh-207:105",
+      "englishGloss": "to smell"
+    },
+    {
+      "conceptId": "swadesh-207:106",
+      "englishGloss": "to fear"
+    },
+    {
+      "conceptId": "swadesh-207:107",
+      "englishGloss": "to sleep"
+    },
+    {
+      "conceptId": "swadesh-207:108",
+      "englishGloss": "to live"
+    },
+    {
+      "conceptId": "swadesh-207:109",
+      "englishGloss": "to die"
+    },
+    {
+      "conceptId": "swadesh-207:110",
+      "englishGloss": "to kill"
+    },
+    {
+      "conceptId": "swadesh-207:111",
+      "englishGloss": "to fight"
+    },
+    {
+      "conceptId": "swadesh-207:112",
+      "englishGloss": "to hunt"
+    },
+    {
+      "conceptId": "swadesh-207:113",
+      "englishGloss": "to hit"
+    },
+    {
+      "conceptId": "swadesh-207:114",
+      "englishGloss": "to cut"
+    },
+    {
+      "conceptId": "swadesh-207:115",
+      "englishGloss": "to split"
+    },
+    {
+      "conceptId": "swadesh-207:116",
+      "englishGloss": "to stab"
+    },
+    {
+      "conceptId": "swadesh-207:117",
+      "englishGloss": "to scratch"
+    },
+    {
+      "conceptId": "swadesh-207:118",
+      "englishGloss": "to dig"
+    },
+    {
+      "conceptId": "swadesh-207:119",
+      "englishGloss": "to swim"
+    },
+    {
+      "conceptId": "swadesh-207:120",
+      "englishGloss": "to fly"
+    },
+    {
+      "conceptId": "swadesh-207:121",
+      "englishGloss": "to walk"
+    },
+    {
+      "conceptId": "swadesh-207:122",
+      "englishGloss": "to come"
+    },
+    {
+      "conceptId": "swadesh-207:123",
+      "englishGloss": "to lie (as in a bed)"
+    },
+    {
+      "conceptId": "swadesh-207:124",
+      "englishGloss": "to sit"
+    },
+    {
+      "conceptId": "swadesh-207:125",
+      "englishGloss": "to stand"
+    },
+    {
+      "conceptId": "swadesh-207:126",
+      "englishGloss": "to turn (intransitive)"
+    },
+    {
+      "conceptId": "swadesh-207:127",
+      "englishGloss": "to fall"
+    },
+    {
+      "conceptId": "swadesh-207:128",
+      "englishGloss": "to give"
+    },
+    {
+      "conceptId": "swadesh-207:129",
+      "englishGloss": "to hold"
+    },
+    {
+      "conceptId": "swadesh-207:130",
+      "englishGloss": "to squeeze"
+    },
+    {
+      "conceptId": "swadesh-207:131",
+      "englishGloss": "to rub"
+    },
+    {
+      "conceptId": "swadesh-207:132",
+      "englishGloss": "to wash"
+    },
+    {
+      "conceptId": "swadesh-207:133",
+      "englishGloss": "to wipe"
+    },
+    {
+      "conceptId": "swadesh-207:134",
+      "englishGloss": "to pull"
+    },
+    {
+      "conceptId": "swadesh-207:135",
+      "englishGloss": "to push"
+    },
+    {
+      "conceptId": "swadesh-207:136",
+      "englishGloss": "to throw"
+    },
+    {
+      "conceptId": "swadesh-207:137",
+      "englishGloss": "to tie"
+    },
+    {
+      "conceptId": "swadesh-207:138",
+      "englishGloss": "to sew"
+    },
+    {
+      "conceptId": "swadesh-207:139",
+      "englishGloss": "to count"
+    },
+    {
+      "conceptId": "swadesh-207:140",
+      "englishGloss": "to say"
+    },
+    {
+      "conceptId": "swadesh-207:141",
+      "englishGloss": "to sing"
+    },
+    {
+      "conceptId": "swadesh-207:142",
+      "englishGloss": "to play"
+    },
+    {
+      "conceptId": "swadesh-207:143",
+      "englishGloss": "to float"
+    },
+    {
+      "conceptId": "swadesh-207:144",
+      "englishGloss": "to flow"
+    },
+    {
+      "conceptId": "swadesh-207:145",
+      "englishGloss": "to freeze"
+    },
+    {
+      "conceptId": "swadesh-207:146",
+      "englishGloss": "to swell"
+    },
+    {
+      "conceptId": "swadesh-207:147",
+      "englishGloss": "sun"
+    },
+    {
+      "conceptId": "swadesh-207:148",
+      "englishGloss": "moon"
+    },
+    {
+      "conceptId": "swadesh-207:149",
+      "englishGloss": "star"
+    },
+    {
+      "conceptId": "swadesh-207:150",
+      "englishGloss": "water"
+    },
+    {
+      "conceptId": "swadesh-207:151",
+      "englishGloss": "rain"
+    },
+    {
+      "conceptId": "swadesh-207:152",
+      "englishGloss": "river"
+    },
+    {
+      "conceptId": "swadesh-207:153",
+      "englishGloss": "lake"
+    },
+    {
+      "conceptId": "swadesh-207:154",
+      "englishGloss": "sea"
+    },
+    {
+      "conceptId": "swadesh-207:155",
+      "englishGloss": "salt"
+    },
+    {
+      "conceptId": "swadesh-207:156",
+      "englishGloss": "stone"
+    },
+    {
+      "conceptId": "swadesh-207:157",
+      "englishGloss": "sand"
+    },
+    {
+      "conceptId": "swadesh-207:158",
+      "englishGloss": "dust"
+    },
+    {
+      "conceptId": "swadesh-207:159",
+      "englishGloss": "earth"
+    },
+    {
+      "conceptId": "swadesh-207:160",
+      "englishGloss": "cloud"
+    },
+    {
+      "conceptId": "swadesh-207:161",
+      "englishGloss": "fog"
+    },
+    {
+      "conceptId": "swadesh-207:162",
+      "englishGloss": "sky"
+    },
+    {
+      "conceptId": "swadesh-207:163",
+      "englishGloss": "wind"
+    },
+    {
+      "conceptId": "swadesh-207:164",
+      "englishGloss": "snow"
+    },
+    {
+      "conceptId": "swadesh-207:165",
+      "englishGloss": "ice"
+    },
+    {
+      "conceptId": "swadesh-207:166",
+      "englishGloss": "smoke"
+    },
+    {
+      "conceptId": "swadesh-207:167",
+      "englishGloss": "fire"
+    },
+    {
+      "conceptId": "swadesh-207:168",
+      "englishGloss": "ash"
+    },
+    {
+      "conceptId": "swadesh-207:169",
+      "englishGloss": "to burn"
+    },
+    {
+      "conceptId": "swadesh-207:170",
+      "englishGloss": "road"
+    },
+    {
+      "conceptId": "swadesh-207:171",
+      "englishGloss": "mountain"
+    },
+    {
+      "conceptId": "swadesh-207:172",
+      "englishGloss": "red"
+    },
+    {
+      "conceptId": "swadesh-207:173",
+      "englishGloss": "green"
+    },
+    {
+      "conceptId": "swadesh-207:174",
+      "englishGloss": "yellow"
+    },
+    {
+      "conceptId": "swadesh-207:175",
+      "englishGloss": "white"
+    },
+    {
+      "conceptId": "swadesh-207:176",
+      "englishGloss": "black"
+    },
+    {
+      "conceptId": "swadesh-207:177",
+      "englishGloss": "night"
+    },
+    {
+      "conceptId": "swadesh-207:178",
+      "englishGloss": "day"
+    },
+    {
+      "conceptId": "swadesh-207:179",
+      "englishGloss": "year"
+    },
+    {
+      "conceptId": "swadesh-207:180",
+      "englishGloss": "warm"
+    },
+    {
+      "conceptId": "swadesh-207:181",
+      "englishGloss": "cold"
+    },
+    {
+      "conceptId": "swadesh-207:182",
+      "englishGloss": "full"
+    },
+    {
+      "conceptId": "swadesh-207:183",
+      "englishGloss": "new"
+    },
+    {
+      "conceptId": "swadesh-207:184",
+      "englishGloss": "old"
+    },
+    {
+      "conceptId": "swadesh-207:185",
+      "englishGloss": "good"
+    },
+    {
+      "conceptId": "swadesh-207:186",
+      "englishGloss": "bad"
+    },
+    {
+      "conceptId": "swadesh-207:187",
+      "englishGloss": "rotten"
+    },
+    {
+      "conceptId": "swadesh-207:188",
+      "englishGloss": "dirty"
+    },
+    {
+      "conceptId": "swadesh-207:189",
+      "englishGloss": "straight"
+    },
+    {
+      "conceptId": "swadesh-207:190",
+      "englishGloss": "round"
+    },
+    {
+      "conceptId": "swadesh-207:191",
+      "englishGloss": "sharp (as a knife)"
+    },
+    {
+      "conceptId": "swadesh-207:192",
+      "englishGloss": "dull (as a knife)"
+    },
+    {
+      "conceptId": "swadesh-207:193",
+      "englishGloss": "smooth"
+    },
+    {
+      "conceptId": "swadesh-207:194",
+      "englishGloss": "wet"
+    },
+    {
+      "conceptId": "swadesh-207:195",
+      "englishGloss": "dry"
+    },
+    {
+      "conceptId": "swadesh-207:196",
+      "englishGloss": "correct"
+    },
+    {
+      "conceptId": "swadesh-207:197",
+      "englishGloss": "near"
+    },
+    {
+      "conceptId": "swadesh-207:198",
+      "englishGloss": "far"
+    },
+    {
+      "conceptId": "swadesh-207:199",
+      "englishGloss": "right"
+    },
+    {
+      "conceptId": "swadesh-207:200",
+      "englishGloss": "left"
+    },
+    {
+      "conceptId": "swadesh-207:201",
+      "englishGloss": "at"
+    },
+    {
+      "conceptId": "swadesh-207:202",
+      "englishGloss": "in"
+    },
+    {
+      "conceptId": "swadesh-207:203",
+      "englishGloss": "with"
+    },
+    {
+      "conceptId": "swadesh-207:204",
+      "englishGloss": "and"
+    },
+    {
+      "conceptId": "swadesh-207:205",
+      "englishGloss": "if"
+    },
+    {
+      "conceptId": "swadesh-207:206",
+      "englishGloss": "because"
+    },
+    {
+      "conceptId": "swadesh-207:207",
+      "englishGloss": "name"
+    }
+  ]
+}

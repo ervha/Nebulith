@@ -1,0 +1,2729 @@
+{
+  "version": "23.4",
+  "units": [
+    {
+      "id": "aphorism",
+      "title": "テクスト1：星辰箴言",
+      "label": "NRS",
+      "nrs": "Relen el vyran ia tolst en sente. Tor poran el havel, falun el vyr.",
+      "translationJa": "真理は万物の礎である。時が進んでも、星は輝く。",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "note": "relenの主語vyran・補語tolst en sente、tor節の主語havelとporanの擬人化、主節の自動詞falunを照合。klovanの他動詞語義を尽きるへ拡張する旧表現を削除。",
+        "reviewedAgainstUnitHash": "26130a5a402b13cde0e1f360cd0fa8f926b6fa32f3124a9f51bffed2509b55b0",
+        "reviewedAgainstDependenciesHash": "6a234c2933306dc8742ba34c504fa4acc14b816ee4846da98559918a5088fa5e"
+      },
+      "tokens": [
+        {
+          "id": "aphorism:t01",
+          "surface": "relen",
+          "kind": "dictionary",
+          "lexiconId": 906
+        },
+        {
+          "id": "aphorism:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "aphorism:t03",
+          "surface": "vyran",
+          "kind": "dictionary",
+          "lexiconId": 754
+        },
+        {
+          "id": "aphorism:t04",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "aphorism:t05",
+          "surface": "tolst",
+          "kind": "dictionary",
+          "lexiconId": 629
+        },
+        {
+          "id": "aphorism:t06",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "aphorism:t07",
+          "surface": "sente",
+          "kind": "correlative",
+          "rule": "sente"
+        },
+        {
+          "id": "aphorism:t08",
+          "surface": "tor",
+          "kind": "dictionary",
+          "lexiconId": 929
+        },
+        {
+          "id": "aphorism:t09",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "aphorism:t10",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "aphorism:t11",
+          "surface": "havel",
+          "kind": "dictionary",
+          "lexiconId": 869
+        },
+        {
+          "id": "aphorism:t12",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "aphorism:t13",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "aphorism:t14",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Relen el vyran ia tolst en sente",
+            "predicate": "relen",
+            "lexiconId": 906,
+            "question": false,
+            "sense": "存在・コピュラ",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyran"
+              ],
+              "ia": [
+                "tolst",
+                "en",
+                "sente"
+              ]
+            }
+          },
+          {
+            "text": "Tor poran el havel",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [
+              "tor"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "havel"
+              ]
+            }
+          },
+          {
+            "text": "falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "observation",
+      "title": "テクスト2：天文台の日誌",
+      "label": "NRS",
+      "nrs": "Fe vyrelcor el vyrelor uo vyrelar to falden. Fe falunast el vyr syvan uo celvan. Fe revyrel el corval en celmon.",
+      "translationJa": "天文学者は天文台にて東方を定期観測した。天球で新しい星が輝き始めた。暗黒星雲の重心が観測された。",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "note": "3節へ過去feを明記。反復cor・始動ast・受動re、uo場所・to方向・en属格を照合。既存形容詞syvanを直接後置し、不要な-iを除去。",
+        "reviewedAgainstUnitHash": "3719dff0c6d1a16564ba69ca2b05761d190fa2ca242b4fac1b631f73c235971d",
+        "reviewedAgainstDependenciesHash": "a48780325e526d1e9fb9a86de032c37c7e9764e8aea9c9cc0ac5e1b6405c2a77"
+      },
+      "tokens": [
+        {
+          "id": "observation:t01",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "observation:t02",
+          "surface": "vyrelcor",
+          "kind": "derivation",
+          "stemId": 953,
+          "prefix": "",
+          "suffix": "cor"
+        },
+        {
+          "id": "observation:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "observation:t04",
+          "surface": "vyrelor",
+          "kind": "dictionary",
+          "lexiconId": 66
+        },
+        {
+          "id": "observation:t05",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "observation:t06",
+          "surface": "vyrelar",
+          "kind": "dictionary",
+          "lexiconId": 63
+        },
+        {
+          "id": "observation:t07",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "observation:t08",
+          "surface": "falden",
+          "kind": "dictionary",
+          "lexiconId": 854
+        },
+        {
+          "id": "observation:t09",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "observation:t10",
+          "surface": "falunast",
+          "kind": "derivation",
+          "stemId": 16,
+          "prefix": "",
+          "suffix": "ast"
+        },
+        {
+          "id": "observation:t11",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "observation:t12",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "observation:t13",
+          "surface": "syvan",
+          "kind": "dictionary",
+          "lexiconId": 810
+        },
+        {
+          "id": "observation:t14",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "observation:t15",
+          "surface": "celvan",
+          "kind": "dictionary",
+          "lexiconId": 4
+        },
+        {
+          "id": "observation:t16",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "observation:t17",
+          "surface": "revyrel",
+          "kind": "derivation",
+          "stemId": 953,
+          "prefix": "re",
+          "suffix": ""
+        },
+        {
+          "id": "observation:t18",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "observation:t19",
+          "surface": "corval",
+          "kind": "dictionary",
+          "lexiconId": 6
+        },
+        {
+          "id": "observation:t20",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "observation:t21",
+          "surface": "celmon",
+          "kind": "dictionary",
+          "lexiconId": 3
+        }
+      ],
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Fe vyrelcor el vyrelor uo vyrelar to falden",
+            "predicate": "vyrelcor",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [
+              "fe"
+            ],
+            "voice": "active",
+            "aspect": "cor",
+            "arguments": {
+              "el": [
+                "vyrelor"
+              ],
+              "uo": [
+                "vyrelar"
+              ],
+              "to": [
+                "falden"
+              ]
+            }
+          },
+          {
+            "text": "Fe falunast el vyr syvan uo celvan",
+            "predicate": "falunast",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "fe"
+            ],
+            "voice": "active",
+            "aspect": "ast",
+            "arguments": {
+              "el": [
+                "vyr",
+                "syvan"
+              ],
+              "uo": [
+                "celvan"
+              ]
+            }
+          },
+          {
+            "text": "Fe revyrel el corval en celmon",
+            "predicate": "revyrel",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [
+              "fe"
+            ],
+            "voice": "re",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "corval",
+                "en",
+                "celmon"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "dialogue-a1",
+      "title": "テクスト3：対話A（導入）",
+      "label": "A",
+      "nrs": "Falun el vyrin. Poran el taas to kauo ka?",
+      "translationJa": "星々が輝きます。あなたはどこへ歩きますか。",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "note": "vyr+-inの複数、無標現在、二人称taas、向格to kauoと文末kaを照合。祈願や進行を訳へ付加しない。",
+        "reviewedAgainstUnitHash": "72a86fabeb03d13f08112d31eb7c5fe72cf427f751b206a4ecfa3a66051be938",
+        "reviewedAgainstDependenciesHash": "ee0ee546fd8e88d7f7a17423e1c7a694f8105d94be781394cf1a86886ab6804f"
+      },
+      "tokens": [
+        {
+          "id": "dialogue-a1:t01",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "dialogue-a1:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a1:t03",
+          "surface": "vyrin",
+          "kind": "derivation",
+          "stemId": 62,
+          "prefix": "",
+          "suffix": "in"
+        },
+        {
+          "id": "dialogue-a1:t04",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "dialogue-a1:t05",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a1:t06",
+          "surface": "taas",
+          "kind": "correlative",
+          "rule": "taas"
+        },
+        {
+          "id": "dialogue-a1:t07",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "dialogue-a1:t08",
+          "surface": "kauo",
+          "kind": "correlative",
+          "rule": "kauo"
+        },
+        {
+          "id": "dialogue-a1:t09",
+          "surface": "ka",
+          "kind": "grammar",
+          "rule": "ka"
+        }
+      ],
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Falun el vyrin",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyrin"
+              ]
+            }
+          },
+          {
+            "text": "Poran el taas to kauo ka",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": true,
+            "sense": "歩く・進む",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "taas"
+              ],
+              "to": [
+                "kauo"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "dialogue-b",
+      "title": "テクスト3：対話B",
+      "label": "B",
+      "nrs": "Poran el mi to govan en cynor. Nerancor el mi ia nyrat uo nerar.",
+      "translationJa": "私は友の家へ歩きます。私は普段、食堂で主食を食べます。",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "note": "単数mi、govan en cynorの所有関係、反復cor、対格nyrat・処格nerarを照合。複数・共同行為・進行の旧訳を除去。",
+        "reviewedAgainstUnitHash": "814bad0eeda85ca76bc2e8b4aa954881f3fcf0a2f5d096f5994b5a38e1d98e31",
+        "reviewedAgainstDependenciesHash": "614d94eb382c9b9f1f569e1c6ee12c331f4b867abbff852871e97521e3a2299d"
+      },
+      "tokens": [
+        {
+          "id": "dialogue-b:t01",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "dialogue-b:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-b:t03",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "dialogue-b:t04",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "dialogue-b:t05",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        },
+        {
+          "id": "dialogue-b:t06",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "dialogue-b:t07",
+          "surface": "cynor",
+          "kind": "dictionary",
+          "lexiconId": 477
+        },
+        {
+          "id": "dialogue-b:t08",
+          "surface": "nerancor",
+          "kind": "derivation",
+          "stemId": 972,
+          "prefix": "",
+          "suffix": "cor"
+        },
+        {
+          "id": "dialogue-b:t09",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-b:t10",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "dialogue-b:t11",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "dialogue-b:t12",
+          "surface": "nyrat",
+          "kind": "dictionary",
+          "lexiconId": 998
+        },
+        {
+          "id": "dialogue-b:t13",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "dialogue-b:t14",
+          "surface": "nerar",
+          "kind": "dictionary",
+          "lexiconId": 973
+        }
+      ],
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Poran el mi to govan en cynor",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan",
+                "en",
+                "cynor"
+              ]
+            }
+          },
+          {
+            "text": "Nerancor el mi ia nyrat uo nerar",
+            "predicate": "nerancor",
+            "lexiconId": 972,
+            "question": false,
+            "sense": "食べる",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "cor",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "ia": [
+                "nyrat"
+              ],
+              "uo": [
+                "nerar"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "dialogue-a2",
+      "title": "テクスト3：対話A（応答）",
+      "label": "A",
+      "nrs": "Relen el laris en taas ia sirin. Poran el mi to falden.",
+      "translationJa": "あなたの軌道は穏やかです。私は東へ歩きます。",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "note": "relenのel主語laris en taas・ia性質補語sirin、poranのel miとto faldenを照合。軌道の穏やかさは比喩で、祈願・未来の保証を含めない。",
+        "reviewedAgainstUnitHash": "8a81c820966a0ab960eae4d917bdd3ca81188c5083a78b86b33e33841f5edf84",
+        "reviewedAgainstDependenciesHash": "9c3a85a40c37556ae3a6248a8d30d02477b40efba03eb8de242893b8d0806243"
+      },
+      "tokens": [
+        {
+          "id": "dialogue-a2:t01",
+          "surface": "relen",
+          "kind": "dictionary",
+          "lexiconId": 906
+        },
+        {
+          "id": "dialogue-a2:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a2:t03",
+          "surface": "laris",
+          "kind": "dictionary",
+          "lexiconId": 34
+        },
+        {
+          "id": "dialogue-a2:t04",
+          "surface": "en",
+          "kind": "grammar",
+          "rule": "en"
+        },
+        {
+          "id": "dialogue-a2:t05",
+          "surface": "taas",
+          "kind": "correlative",
+          "rule": "taas"
+        },
+        {
+          "id": "dialogue-a2:t06",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "dialogue-a2:t07",
+          "surface": "sirin",
+          "kind": "dictionary",
+          "lexiconId": 738
+        },
+        {
+          "id": "dialogue-a2:t08",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "dialogue-a2:t09",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "dialogue-a2:t10",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "dialogue-a2:t11",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "dialogue-a2:t12",
+          "surface": "falden",
+          "kind": "dictionary",
+          "lexiconId": 854
+        }
+      ],
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Relen el laris en taas ia sirin",
+            "predicate": "relen",
+            "lexiconId": 906,
+            "question": false,
+            "sense": "存在・コピュラ",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "laris",
+                "en",
+                "taas"
+              ],
+              "ia": [
+                "sirin"
+              ]
+            }
+          },
+          {
+            "text": "Poran el mi to falden",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "falden"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-present",
+      "title": "用例：present",
+      "label": "NRS",
+      "nrs": "Falun el vyr.",
+      "translationJa": "星は輝く。",
+      "tokens": [
+        {
+          "id": "usage-present:t01",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-present:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-present:t03",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "無標の現在・一般叙述。falunの主体をelで示す。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "bc1933b24ce73e59a08641459bb34d758c1155e3e3317c28ebef04b9f1da9876"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-past",
+      "title": "用例：past",
+      "label": "NRS",
+      "nrs": "Fe falun el vyr.",
+      "translationJa": "星は輝いた。",
+      "tokens": [
+        {
+          "id": "usage-past:t01",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "usage-past:t02",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-past:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-past:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "feはこの独立節の過去。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "ae25256e21fd48fb9d3fdf18145663ad55d2cc3d4ee4d991fdbfb53749ed00fe"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Fe falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "fe"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-future",
+      "title": "用例：future",
+      "label": "NRS",
+      "nrs": "Se falun el vyr.",
+      "translationJa": "星は輝くだろう。",
+      "tokens": [
+        {
+          "id": "usage-future:t01",
+          "surface": "se",
+          "kind": "grammar",
+          "rule": "se"
+        },
+        {
+          "id": "usage-future:t02",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-future:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-future:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "seは未来であり願望の意味を加えない。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "ad387cf832f52a0ca19e8376d893655c2207f148331dbc1aae2c4e6a3c4898b5"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Se falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "se"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-progress",
+      "title": "用例：progress",
+      "label": "NRS",
+      "nrs": "Di falun el vyr.",
+      "translationJa": "星は輝いている。",
+      "tokens": [
+        {
+          "id": "usage-progress:t01",
+          "surface": "di",
+          "kind": "grammar",
+          "rule": "di"
+        },
+        {
+          "id": "usage-progress:t02",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-progress:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-progress:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "進行はdiで明示し、名詞複数の-inと混同しない。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "891f4c1f69a7bbf86b5b66f092f5fef66070e6f41530ebbd482006d2b44cb44b"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Di falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "di"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-negative",
+      "title": "用例：negative",
+      "label": "NRS",
+      "nrs": "Ne falun el vyr.",
+      "translationJa": "星は輝かない。",
+      "tokens": [
+        {
+          "id": "usage-negative:t01",
+          "surface": "ne",
+          "kind": "grammar",
+          "rule": "ne"
+        },
+        {
+          "id": "usage-negative:t02",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-negative:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-negative:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "neによる通常否定。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "b75c7f79abb7f8fc8d1bb2d26097ab4c01a11b7591751feefd7058d3463f0e05"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Ne falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "ne"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-question",
+      "title": "用例：question",
+      "label": "NRS",
+      "nrs": "Falun el vyr ka?",
+      "translationJa": "星は輝くか。",
+      "tokens": [
+        {
+          "id": "usage-question:t01",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-question:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-question:t03",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-question:t04",
+          "surface": "ka",
+          "kind": "grammar",
+          "rule": "ka"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "文末kaの疑問。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "29585e0e2d163118d44039f853a2aefd2fc7eb3db5b15cb44fb8c5acd2feac70"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Falun el vyr ka",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": true,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-inceptive",
+      "title": "用例：inceptive",
+      "label": "NRS",
+      "nrs": "Falunast el vyr.",
+      "translationJa": "星は輝き始める。",
+      "tokens": [
+        {
+          "id": "usage-inceptive:t01",
+          "surface": "falunast",
+          "kind": "derivation",
+          "stemId": 16,
+          "prefix": "",
+          "suffix": "ast"
+        },
+        {
+          "id": "usage-inceptive:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-inceptive:t03",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "始動相-ast。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "da171d671ffc4af18a193b4a2364b93b210a11eb3978dc996f548a76dd24f9e0"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Falunast el vyr",
+            "predicate": "falunast",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "ast",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-repeated",
+      "title": "用例：repeated",
+      "label": "NRS",
+      "nrs": "Faluncor el vyr.",
+      "translationJa": "星は繰り返し輝く。",
+      "tokens": [
+        {
+          "id": "usage-repeated:t01",
+          "surface": "faluncor",
+          "kind": "derivation",
+          "stemId": 16,
+          "prefix": "",
+          "suffix": "cor"
+        },
+        {
+          "id": "usage-repeated:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-repeated:t03",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "反復相-corで、連続的進行とは分ける。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "95cce4ac05369db47a3cafb9001a280d757ee507d3f54c72f9ad9a90a7f72012",
+        "reviewedAgainstUnitHash": "d846d19965bb56ecbc942411502f267b7ac2af545313914c87ea06d961ce040b"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Faluncor el vyr",
+            "predicate": "faluncor",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "cor",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-walk",
+      "title": "用例：walk",
+      "label": "NRS",
+      "nrs": "Poran el mi to govan.",
+      "translationJa": "私は家へ歩く。",
+      "tokens": [
+        {
+          "id": "usage-walk:t01",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "usage-walk:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-walk:t03",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-walk:t04",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "usage-walk:t05",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "主体mi、向格to、目的地govan。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62",
+        "reviewedAgainstUnitHash": "931f8dcc9a170fb7ade0d8e0690914d2a2762cf756cf5a4d90e5974b75c00b21"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Poran el mi to govan",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-walk-past",
+      "title": "用例：walk-past",
+      "label": "NRS",
+      "nrs": "Fe poran el mi to govan.",
+      "translationJa": "私は家へ歩いた。",
+      "tokens": [
+        {
+          "id": "usage-walk-past:t01",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "usage-walk-past:t02",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "usage-walk-past:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-walk-past:t04",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-walk-past:t05",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "usage-walk-past:t06",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "歩行の過去をfeで明示。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62",
+        "reviewedAgainstUnitHash": "2aff9cbdb55e805bbdc587ff20fd879191c4e92e668240f397704fa4705e7132"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Fe poran el mi to govan",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [
+              "fe"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-walk-future",
+      "title": "用例：walk-future",
+      "label": "NRS",
+      "nrs": "Se poran el mi to govan.",
+      "translationJa": "私は家へ歩くだろう。",
+      "tokens": [
+        {
+          "id": "usage-walk-future:t01",
+          "surface": "se",
+          "kind": "grammar",
+          "rule": "se"
+        },
+        {
+          "id": "usage-walk-future:t02",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "usage-walk-future:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-walk-future:t04",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-walk-future:t05",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "usage-walk-future:t06",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "歩行の未来をseで明示。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62",
+        "reviewedAgainstUnitHash": "dade09da51a252e5fd2d9f81c0a6b2a65c6c4b229e2ba7b16044c184e2645ff7"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Se poran el mi to govan",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [
+              "se"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-walk-progress",
+      "title": "用例：walk-progress",
+      "label": "NRS",
+      "nrs": "Di poran el mi to govan.",
+      "translationJa": "私は家へ歩いている。",
+      "tokens": [
+        {
+          "id": "usage-walk-progress:t01",
+          "surface": "di",
+          "kind": "grammar",
+          "rule": "di"
+        },
+        {
+          "id": "usage-walk-progress:t02",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "usage-walk-progress:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-walk-progress:t04",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-walk-progress:t05",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "usage-walk-progress:t06",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "diによる進行とtoの目的地。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62",
+        "reviewedAgainstUnitHash": "155719be748e15cc59a45a496dbd26af476a8c1c5177ed2aa30715e9bac64929"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Di poran el mi to govan",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [
+              "di"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-walk-negative",
+      "title": "用例：walk-negative",
+      "label": "NRS",
+      "nrs": "Ne poran el mi to govan.",
+      "translationJa": "私は家へ歩かない。",
+      "tokens": [
+        {
+          "id": "usage-walk-negative:t01",
+          "surface": "ne",
+          "kind": "grammar",
+          "rule": "ne"
+        },
+        {
+          "id": "usage-walk-negative:t02",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "usage-walk-negative:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-walk-negative:t04",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-walk-negative:t05",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "usage-walk-negative:t06",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "歩くという述語の通常否定。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "0ac28fe63e831a180c7ce1b96e959bcb12f75c6fbc927d31933cfc9184269c62",
+        "reviewedAgainstUnitHash": "acf7f4c76bb4ed14ef6fbe24d1a1aeac172b569c450233c24c2bc42ae1ed2388"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Ne poran el mi to govan",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [
+              "ne"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-eat",
+      "title": "用例：eat",
+      "label": "NRS",
+      "nrs": "Neran el mi ia nyrat.",
+      "translationJa": "私は主食を食べる。",
+      "tokens": [
+        {
+          "id": "usage-eat:t01",
+          "surface": "neran",
+          "kind": "dictionary",
+          "lexiconId": 972
+        },
+        {
+          "id": "usage-eat:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-eat:t03",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-eat:t04",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-eat:t05",
+          "surface": "nyrat",
+          "kind": "dictionary",
+          "lexiconId": 998
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "el主体とia食物を分ける。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "4e322a00a88d5be1387a76f47cadb9b411c0d7ebc39fce9f8fa07a06645380c9",
+        "reviewedAgainstUnitHash": "d0e7dbc3875a6c4dc04cfa16ec71559d39afd71d70eb06d4da6309d498a11bcc"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Neran el mi ia nyrat",
+            "predicate": "neran",
+            "lexiconId": 972,
+            "question": false,
+            "sense": "食べる",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "ia": [
+                "nyrat"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-eat-place",
+      "title": "用例：eat-place",
+      "label": "NRS",
+      "nrs": "Neran el mi ia nyrat uo nerar.",
+      "translationJa": "私は食堂で主食を食べる。",
+      "tokens": [
+        {
+          "id": "usage-eat-place:t01",
+          "surface": "neran",
+          "kind": "dictionary",
+          "lexiconId": 972
+        },
+        {
+          "id": "usage-eat-place:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-eat-place:t03",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-eat-place:t04",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-eat-place:t05",
+          "surface": "nyrat",
+          "kind": "dictionary",
+          "lexiconId": 998
+        },
+        {
+          "id": "usage-eat-place:t06",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "usage-eat-place:t07",
+          "surface": "nerar",
+          "kind": "dictionary",
+          "lexiconId": 973
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "uoは場所であり、食物iaとは別の項。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "12670dedc9107c707adc99b8489003d54d86e8365b2325a07b57d745d4b58f7a",
+        "reviewedAgainstUnitHash": "560b69c4b3ff823cd7a0feb15d72f4e77e4ff815b926308bc44c3b77bcd5d4d7"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Neran el mi ia nyrat uo nerar",
+            "predicate": "neran",
+            "lexiconId": 972,
+            "question": false,
+            "sense": "食べる",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "ia": [
+                "nyrat"
+              ],
+              "uo": [
+                "nerar"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-eat-repeated",
+      "title": "用例：eat-repeated",
+      "label": "NRS",
+      "nrs": "Nerancor el mi ia nyrat.",
+      "translationJa": "私は普段、主食を食べる。",
+      "tokens": [
+        {
+          "id": "usage-eat-repeated:t01",
+          "surface": "nerancor",
+          "kind": "derivation",
+          "stemId": 972,
+          "prefix": "",
+          "suffix": "cor"
+        },
+        {
+          "id": "usage-eat-repeated:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-eat-repeated:t03",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-eat-repeated:t04",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-eat-repeated:t05",
+          "surface": "nyrat",
+          "kind": "dictionary",
+          "lexiconId": 998
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "反復・習慣の-cor。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "4e322a00a88d5be1387a76f47cadb9b411c0d7ebc39fce9f8fa07a06645380c9",
+        "reviewedAgainstUnitHash": "22f33a1c377b329823234b7f6e342cfd61b7cffab5657809ca4f705b31d345a5"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Nerancor el mi ia nyrat",
+            "predicate": "nerancor",
+            "lexiconId": 972,
+            "question": false,
+            "sense": "食べる",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "cor",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "ia": [
+                "nyrat"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-observe",
+      "title": "用例：observe",
+      "label": "NRS",
+      "nrs": "Vyrel el vyrelor ia vyr uo vyrelar.",
+      "translationJa": "天文学者は天文台で星を観測する。",
+      "tokens": [
+        {
+          "id": "usage-observe:t01",
+          "surface": "vyrel",
+          "kind": "dictionary",
+          "lexiconId": 953
+        },
+        {
+          "id": "usage-observe:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-observe:t03",
+          "surface": "vyrelor",
+          "kind": "dictionary",
+          "lexiconId": 66
+        },
+        {
+          "id": "usage-observe:t04",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-observe:t05",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-observe:t06",
+          "surface": "uo",
+          "kind": "grammar",
+          "rule": "uo"
+        },
+        {
+          "id": "usage-observe:t07",
+          "surface": "vyrelar",
+          "kind": "dictionary",
+          "lexiconId": 63
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "主体・被観測対象・場所の3項を照合。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "671de751e6ced2611ef1ad78162eb68d9b38c7cb82ba4abfcfba40f56ed0726d",
+        "reviewedAgainstUnitHash": "909a7f49c4688fbd9949f2404c34cf7be9604c2b6b9841c13d18dde5803988b7"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Vyrel el vyrelor ia vyr uo vyrelar",
+            "predicate": "vyrel",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyrelor"
+              ],
+              "ia": [
+                "vyr"
+              ],
+              "uo": [
+                "vyrelar"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-observe-past",
+      "title": "用例：observe-past",
+      "label": "NRS",
+      "nrs": "Fe vyrel el vyrelor ia vyr.",
+      "translationJa": "天文学者は星を観測した。",
+      "tokens": [
+        {
+          "id": "usage-observe-past:t01",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "usage-observe-past:t02",
+          "surface": "vyrel",
+          "kind": "dictionary",
+          "lexiconId": 953
+        },
+        {
+          "id": "usage-observe-past:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-observe-past:t04",
+          "surface": "vyrelor",
+          "kind": "dictionary",
+          "lexiconId": 66
+        },
+        {
+          "id": "usage-observe-past:t05",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-observe-past:t06",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "能動態の過去。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "532939f66545abcd19b72f1f5e08edca6787e48a5dc788d3d7e57eb11bf261e1",
+        "reviewedAgainstUnitHash": "9e52165c472c60bf6c53917b444868d910330f76c8d4f6b7d9fb453f4cfe6fad"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Fe vyrel el vyrelor ia vyr",
+            "predicate": "vyrel",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [
+              "fe"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyrelor"
+              ],
+              "ia": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-passive",
+      "title": "用例：passive",
+      "label": "NRS",
+      "nrs": "Revyrel el vyr de vyrelor.",
+      "translationJa": "星は天文学者によって観測される。",
+      "tokens": [
+        {
+          "id": "usage-passive:t01",
+          "surface": "revyrel",
+          "kind": "derivation",
+          "stemId": 953,
+          "prefix": "re",
+          "suffix": ""
+        },
+        {
+          "id": "usage-passive:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-passive:t03",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-passive:t04",
+          "surface": "de",
+          "kind": "grammar",
+          "rule": "de"
+        },
+        {
+          "id": "usage-passive:t05",
+          "surface": "vyrelor",
+          "kind": "dictionary",
+          "lexiconId": 66
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "re-で対象をelへ昇格。動作主はde。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "532939f66545abcd19b72f1f5e08edca6787e48a5dc788d3d7e57eb11bf261e1",
+        "reviewedAgainstUnitHash": "3b5a98242ef84086a7adabed0e89696ba778a74e9c5954708c9124293047a219"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Revyrel el vyr de vyrelor",
+            "predicate": "revyrel",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [],
+            "voice": "re",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ],
+              "de": [
+                "vyrelor"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-passive-past",
+      "title": "用例：passive-past",
+      "label": "NRS",
+      "nrs": "Fe revyrel el vyr de vyrelor.",
+      "translationJa": "星は天文学者によって観測された。",
+      "tokens": [
+        {
+          "id": "usage-passive-past:t01",
+          "surface": "fe",
+          "kind": "grammar",
+          "rule": "fe"
+        },
+        {
+          "id": "usage-passive-past:t02",
+          "surface": "revyrel",
+          "kind": "derivation",
+          "stemId": 953,
+          "prefix": "re",
+          "suffix": ""
+        },
+        {
+          "id": "usage-passive-past:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-passive-past:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-passive-past:t05",
+          "surface": "de",
+          "kind": "grammar",
+          "rule": "de"
+        },
+        {
+          "id": "usage-passive-past:t06",
+          "surface": "vyrelor",
+          "kind": "dictionary",
+          "lexiconId": 66
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "過去feと受動re-。iaを残さない。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "532939f66545abcd19b72f1f5e08edca6787e48a5dc788d3d7e57eb11bf261e1",
+        "reviewedAgainstUnitHash": "330bd9a47b7e87879d5f5707d9deb6defced61c4b7f4a70c4c6b85eb504af091"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Fe revyrel el vyr de vyrelor",
+            "predicate": "revyrel",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [
+              "fe"
+            ],
+            "voice": "re",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ],
+              "de": [
+                "vyrelor"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-copula",
+      "title": "用例：copula",
+      "label": "NRS",
+      "nrs": "Relen el mi ia vyrelor.",
+      "translationJa": "私は天文学者である。",
+      "tokens": [
+        {
+          "id": "usage-copula:t01",
+          "surface": "relen",
+          "kind": "dictionary",
+          "lexiconId": 906
+        },
+        {
+          "id": "usage-copula:t02",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-copula:t03",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-copula:t04",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-copula:t05",
+          "surface": "vyrelor",
+          "kind": "dictionary",
+          "lexiconId": 66
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "relenの主語miと名詞補語vyrelor。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "2cc995c2888fd8b0ad3a08f1f41fd165758dbe0da6b5359094fcf4ddbe34a60b",
+        "reviewedAgainstUnitHash": "db608bfb2e2ab042b821ea874f4a7a8a4e1ecc6279e6c47603110466afca377b"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Relen el mi ia vyrelor",
+            "predicate": "relen",
+            "lexiconId": 906,
+            "question": false,
+            "sense": "存在・コピュラ",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "ia": [
+                "vyrelor"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-conditional",
+      "title": "用例：conditional",
+      "label": "NRS",
+      "nrs": "Sen falun el vyr, poran el mi to govan.",
+      "translationJa": "星が輝けば、私は家へ歩く。",
+      "tokens": [
+        {
+          "id": "usage-conditional:t01",
+          "surface": "sen",
+          "kind": "grammar",
+          "rule": "sen"
+        },
+        {
+          "id": "usage-conditional:t02",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-conditional:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-conditional:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-conditional:t05",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "usage-conditional:t06",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-conditional:t07",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-conditional:t08",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "usage-conditional:t09",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "sen条件節と後続主節。単なる未来と混同しない。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "582b97a602195f661493c6ea263f5ad322084193e22edc443c17399c80d56106",
+        "reviewedAgainstUnitHash": "ff31d06b060ec7dcbc18048d74521803164a2ac6a95b182602c7851c5e1914f3"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Sen falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "sen"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          },
+          {
+            "text": "poran el mi to govan",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-reason",
+      "title": "用例：reason",
+      "label": "NRS",
+      "nrs": "Zen falun el vyr, vyrel el mi ia vyr.",
+      "translationJa": "星が輝くので、私は星を観測する。",
+      "tokens": [
+        {
+          "id": "usage-reason:t01",
+          "surface": "zen",
+          "kind": "dictionary",
+          "lexiconId": 957
+        },
+        {
+          "id": "usage-reason:t02",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-reason:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-reason:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-reason:t05",
+          "surface": "vyrel",
+          "kind": "dictionary",
+          "lexiconId": 953
+        },
+        {
+          "id": "usage-reason:t06",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-reason:t07",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-reason:t08",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-reason:t09",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "zen理由節と能動の主節。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "87b60e5a9646610d831e13873c4b5a1cd758472b61d5f9b0910f84c47f1f7e69",
+        "reviewedAgainstUnitHash": "a5335436ef74eba5fa0d3675ccf5472bec698a101dfccbd9314aacf9ba941d34"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Zen falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "zen"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          },
+          {
+            "text": "vyrel el mi ia vyr",
+            "predicate": "vyrel",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "ia": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-time",
+      "title": "用例：time",
+      "label": "NRS",
+      "nrs": "Hav falun el vyr, vyrel el mi ia vyr.",
+      "translationJa": "星が輝くとき、私は星を観測する。",
+      "tokens": [
+        {
+          "id": "usage-time:t01",
+          "surface": "hav",
+          "kind": "dictionary",
+          "lexiconId": 867
+        },
+        {
+          "id": "usage-time:t02",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-time:t03",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-time:t04",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-time:t05",
+          "surface": "vyrel",
+          "kind": "dictionary",
+          "lexiconId": 953
+        },
+        {
+          "id": "usage-time:t06",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-time:t07",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-time:t08",
+          "surface": "ia",
+          "kind": "grammar",
+          "rule": "ia"
+        },
+        {
+          "id": "usage-time:t09",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "hav時間節。因果や願望を加えない。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "aaefe89e12819a01c63a6d18fb379e523921452943ee9bf524f288e22769ff2c",
+        "reviewedAgainstUnitHash": "fbfdb3df5ef3b69f046117d571da592422ab07026ef5ee89dc820d13f071868d"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Hav falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "hav"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          },
+          {
+            "text": "vyrel el mi ia vyr",
+            "predicate": "vyrel",
+            "lexiconId": 953,
+            "question": false,
+            "sense": "観測する",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "ia": [
+                "vyr"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "usage-concession",
+      "title": "用例：concession",
+      "label": "NRS",
+      "nrs": "Tor ne falun el vyr, poran el mi to govan.",
+      "translationJa": "星が輝かなくても、私は家へ歩く。",
+      "tokens": [
+        {
+          "id": "usage-concession:t01",
+          "surface": "tor",
+          "kind": "dictionary",
+          "lexiconId": 929
+        },
+        {
+          "id": "usage-concession:t02",
+          "surface": "ne",
+          "kind": "grammar",
+          "rule": "ne"
+        },
+        {
+          "id": "usage-concession:t03",
+          "surface": "falun",
+          "kind": "dictionary",
+          "lexiconId": 16
+        },
+        {
+          "id": "usage-concession:t04",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-concession:t05",
+          "surface": "vyr",
+          "kind": "dictionary",
+          "lexiconId": 62
+        },
+        {
+          "id": "usage-concession:t06",
+          "surface": "poran",
+          "kind": "dictionary",
+          "lexiconId": 902
+        },
+        {
+          "id": "usage-concession:t07",
+          "surface": "el",
+          "kind": "grammar",
+          "rule": "el"
+        },
+        {
+          "id": "usage-concession:t08",
+          "surface": "mi",
+          "kind": "grammar",
+          "rule": "mi"
+        },
+        {
+          "id": "usage-concession:t09",
+          "surface": "to",
+          "kind": "grammar",
+          "rule": "to"
+        },
+        {
+          "id": "usage-concession:t10",
+          "surface": "govan",
+          "kind": "dictionary",
+          "lexiconId": 616
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "note": "tor譲歩節とne否定、後続の歩行主節。",
+        "reviewer": "Codex",
+        "reviewType": "AI linguistic review",
+        "criteriaVersion": "corpus-frames-1",
+        "reviewedAgainstDependenciesHash": "09e9d2da5196b6a3d8981ed592b544e9806c48c1ecde467bb16b2b7ccf4dedfb",
+        "reviewedAgainstUnitHash": "8d92025d89203cea948f419327bb801ce4a8cf805f94e21f95ce5dc165f834bd"
+      },
+      "syntaxReview": {
+        "clauses": [
+          {
+            "text": "Tor ne falun el vyr",
+            "predicate": "falun",
+            "lexiconId": 16,
+            "question": false,
+            "sense": "光を発する（自動詞用法）",
+            "prefixes": [
+              "tor",
+              "ne"
+            ],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "vyr"
+              ]
+            }
+          },
+          {
+            "text": "poran el mi to govan",
+            "predicate": "poran",
+            "lexiconId": 902,
+            "question": false,
+            "sense": "歩く・進む",
+            "prefixes": [],
+            "voice": "active",
+            "aspect": "unmarked",
+            "arguments": {
+              "el": [
+                "mi"
+              ],
+              "to": [
+                "govan"
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    }
+  ]
+}

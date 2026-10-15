@@ -1,0 +1,88 @@
+Captured 1/51 batches; batch 1 OK
+Captured 2/51 batches; batch 2 OK
+Captured 3/51 batches; batch 3 OK
+Captured 4/51 batches; batch 4 OK
+Captured 5/51 batches; batch 5 OK
+Captured 6/51 batches; batch 6 OK
+Captured 7/51 batches; batch 7 OK
+Captured 8/51 batches; batch 8 OK
+Captured 9/51 batches; batch 9 OK
+Captured 10/51 batches; batch 10 OK
+Captured 11/51 batches; batch 11 OK
+Captured 12/51 batches; batch 12 OK
+Captured 13/51 batches; batch 13 OK
+Captured 14/51 batches; batch 14 OK
+Captured 15/51 batches; batch 15 OK
+Captured 16/51 batches; batch 16 OK
+Captured 17/51 batches; batch 17 OK
+Captured 18/51 batches; batch 18 OK
+Captured 19/51 batches; batch 19 OK
+Captured 20/51 batches; batch 20 OK
+Captured 21/51 batches; batch 21 OK
+Captured 22/51 batches; batch 22 OK
+Captured 23/51 batches; batch 23 OK
+Captured 24/51 batches; batch 24 OK
+Captured 25/51 batches; batch 25 OK
+Captured 26/51 batches; batch 26 OK
+Captured 27/51 batches; batch 27 OK
+Captured 28/51 batches; batch 28 OK
+Captured 29/51 batches; batch 29 OK
+Captured 30/51 batches; batch 30 OK
+Captured 31/51 batches; batch 31 OK
+Captured 32/51 batches; batch 32 OK
+Captured 33/51 batches; batch 33 OK
+Captured 34/51 batches; batch 34 OK
+Captured 35/51 batches; batch 35 OK
+Captured 36/51 batches; batch 36 OK
+Captured 37/51 batches; batch 37 OK
+Captured 38/51 batches; batch 38 OK
+Captured 39/51 batches; batch 39 OK
+Captured 40/51 batches; batch 40 OK
+Captured 41/51 batches; batch 41 OK
+Captured 42/51 batches; batch 42 OK
+Captured 43/51 batches; batch 43 OK
+Captured 44/51 batches; batch 44 OK
+Captured 45/51 batches; batch 45 OK
+Captured 46/51 batches; batch 46 OK
+Captured 47/51 batches; batch 47 OK
+Captured 48/51 batches; batch 48 OK
+Captured 49/51 batches; batch 49 OK
+Captured 50/51 batches; batch 50 OK
+Captured 51/51 batches; batch 51 OK
+{
+  "dictionaryVersion": "23.4",
+  "dictionarySha256": "f224706372035019b07a4a5f88b08a14dcb7b0697e085bf5f4bcfa98ace95c13",
+  "processedEntries": 1008,
+  "uniqueEnglishLookups": 2529,
+  "retrievedPages": 1784,
+  "comparisonCounts": {
+    "en": 2633,
+    "la": 3120,
+    "fr": 6314,
+    "es": 8822,
+    "de": 9024,
+    "ja": 5169
+  },
+  "entriesWithExternalTranslations": 910,
+  "entriesWithAllSixLanguageForms": 673,
+  "screeningCandidates": 153,
+  "candidateEntryCount": 43,
+  "candidateLanguageCounts": {
+    "ja": 23,
+    "es": 35,
+    "la": 28,
+    "de": 45,
+    "en": 7,
+    "fr": 15
+  },
+  "semanticCertification": false,
+  "policy": "Only confirmed similarity of BOTH meaning and whole form warrants change. Distance <=2 / substring is retrieval only.",
+  "limitations": [
+    "English gloss comparison uses internal labels, not independent English semantic validation.",
+    "All retrieved senses are screened; homonyms and parts of speech require candidate review.",
+    "Japanese forms require an explicit source tr= Latin-script romanization; no generated readings.",
+    "Redirect-only translation references, nested templates, absent tables and Japanese-only extra senses are not certified.",
+    "All 1008 IDs processed does not certify all senses in all six languages."
+  ]
+}
+Source error batches: 0

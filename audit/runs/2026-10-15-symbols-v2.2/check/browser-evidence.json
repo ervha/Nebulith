@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "fonts": [
+        {
+          "family": "Nebulith",
+          "status": "loaded"
+        }
+      ],
+      "loaded": true,
+      "overflow": false,
+      "symbols": 27,
+      "timestamp": "2026-10-15T02:48:42.950Z",
+      "title": "Nebulith 記号標本",
+      "url": "http://127.0.0.1:8765/fonts/punctuation.html",
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    }
+  ],
+  "screenshots": {
+    "symbols": "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8xw8kn-1ebabc1b.png",
+    "sample": "C:\\Users\\danun\\.t3\\userdata\\browser-artifacts\\browser-screenshot-127-0-0-1-mv8xw92g-c65bd868.png"
+  },
+  "note": "27 symbol glyphs and inline usage inspected; fullwidth aliases share cmap glyphs. Rendering is separate from originality review.",
+  "fontSha256": "73e550209019c1d6e094fde11d3d7313cdb37dacae835ffad828baf96d84adcb",
+  "corpusSha256": "08e22c6038a422048ab9a49724a4d0f57f7a11a5f277da3a6b2723b408b68e64"
+}

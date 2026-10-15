@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-10-15T04:01:39.208792+00:00",
+  "artifact_sha256": {
+    "audit/runs/2026-10-15-glyphs-v2.5/check/browser-evidence.json": "fa5186a0d8bde513a8549e6f55886d9dedb8dda159869e95cbb16b3fe181a5bb",
+    "audit/runs/2026-10-15-glyphs-v2.5/check/evidence.json": "235cd2c138a68e828a0383864578dc9f3844335300a3ec5d2fabe0e40aeaf559",
+    "audit/runs/2026-10-15-glyphs-v2.5/check/unittest.log": "208b869e348ee3f3a99e0fedf061725569ceba05d0e268c21a065bf81b2db063",
+    "audit/runs/2026-10-15-glyphs-v2.5/check/validation.json": "7a52ad1e2b69d270277da081430d693476315933255715ce364cebed5d12782a",
+    "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit-02.md": "44aeda6b14316408c9dc43a10310771e34302baa1a28f3f2f3b3a10d85d273bc",
+    "audit/docs/Nebulith Audit Results 2026-10-15-Reaudit.md": "4ba56644b9873af6640b0932923768a83faf573b69fe8c2b0e631ae75d7c762a",
+    "audit/docs/Nebulith Audit Results 2026-10-15.md": "f4c8e2da8fd6942386be5a9aebb73582887570ce8dad0836048b7a83ec3b37a8",
+    "audit/docs/Nebulith Glyph Revision 2026-10-15.md": "2414c3aa5ed9a5aa69b9957499dbee03162e37b7dee87f0f1c81622c0a0ddb86",
+    "audit/docs/Nebulith Handwriting Glyph Review 2026-10-15.md": "c5a79fed97a9b603c4a746d4046ab70fac0fe595d9f9bc81cc31fc687ea788e2",
+    "audit/docs/Nebulith Lexical Change Policy 2026-10-15.md": "265ba66928f45ce4809c71373273aa93bd268b93499e1d9e1faa09f359c5c5da",
+    "audit/docs/Nebulith Pending Glyph Remediation 2026-10-15.md": "e0929c230d48c81e580913ccc44c892369dd81c7f412788a499150833964cfa0",
+    "audit/docs/Nebulith Policy Aligned Audit 2026-10-15.md": "80e71baaffc2563aecdfad6491f95f2d2cd2beadfc22a97d4a2a818a90bf80a4",
+    "audit/docs/Nebulith Remediation Progress 2026-10-15.md": "a8dacf910aa139835b9753d73a6212ebe0b5ba6440a38ab84fa5843002596fbd",
+    "audit/docs/Nebulith Remediation Proposal 2026-10-15.md": "39d78e2814f026ee2498bfc35f6de40a1ef8442e04cbde7e1b97f28e7d3ccddc",
+    "audit/docs/Nebulith Review Findings 2026-10-15.md": "6fe2e24eaa97c330d7bff1a29f53dcbaf83dd12afb39b2c890bdcaba99a0f43d",
+    "audit/docs/Nebulith Standard Audit Report.md": "89d77f597e3eb8f16ae869e7b2f2a86722d33a0fc5d44e3f3033fb3efbeca481",
+    "audit/docs/Nebulith Symbols Validation 2026-10-15.md": "4b07eb4b3422f61b792d85e8c85cfdab4a0ed5e199514d943da31200eafdc0f4",
+    "audit/README.md": "96d833074db4961d30bdcb2e919c9a1278a798d890d1a757befb8bb76bff6f35",
+    "tools/seal_audit_run.py": "2e9f92ce3cb1a831d4b1f60aaf3a415adf3f50a05df9e18ab19955f58c583585",
+    "tests/test_font_symbols.py": "85f32ff4191ed28e151ce55229c86eff4b01ceb878fec154b6c971ee60eb316f",
+    "tests/test_remediation.py": "f0f7ac9fe4a288f567c5ac30f6d3d3d2c9b844653713710ac08733047eb5cfa4"
+  },
+  "counts": {
+    "Pass": 13,
+    "Warn": 1,
+    "Reference": 1
+  }
+}
