@@ -1,0 +1,532 @@
+{
+  "version": 2,
+  "status": "追加語彙案・未監査",
+  "entries": [
+    {
+      "id": 30001,
+      "nrs": "nyrcan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "嫌う、嫌い",
+      "meaningEn": "dislike",
+      "ipa": "[nyr.ʃan]",
+      "notes": "未対応JSONの回収による追加語彙案。多言語比較・言語監査は未実施。「好きではない」とは区別する。強い憎悪を必ず含む訳ではない。"
+    },
+    {
+      "id": 30002,
+      "nrs": "kyrdan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "殺す、命を奪う",
+      "meaningEn": "kill, cause death",
+      "ipa": "[kyr.dan]",
+      "notes": "未対応JSONの回収による追加語彙案。多言語比較・言語監査は未実施。他者の生命を終わらせる他動詞。単なる死・消滅とは区別する。"
+    },
+    {
+      "id": 30003,
+      "nrs": "sehvan",
+      "category": "追加語彙（未監査）",
+      "pos": "名",
+      "meaningJa": "未来",
+      "meaningEn": "future",
+      "ipa": "[sehvan]",
+      "notes": "未対応JSON第2回の回収による追加語彙案。多言語比較・独立監査は未実施。時間そのものの名詞。方向・位置の比喩dyras／pasonとは区別する。"
+    },
+    {
+      "id": 30004,
+      "nrs": "fehvan",
+      "category": "追加語彙（未監査）",
+      "pos": "名",
+      "meaningJa": "過去",
+      "meaningEn": "the past",
+      "ipa": "[fehvan]",
+      "notes": "未対応JSON第2回の回収による追加語彙案。多言語比較・独立監査は未実施。時間そのものの名詞。方向・位置の比喩dyras／pasonとは区別する。"
+    },
+    {
+      "id": 30005,
+      "nrs": "soralen",
+      "category": "追加語彙（未監査）",
+      "pos": "名",
+      "meaningJa": "物語",
+      "meaningEn": "story, narrative",
+      "ipa": "[soralen]",
+      "notes": "未対応JSON第2回の回収による追加語彙案。多言語比較・独立監査は未実施。"
+    },
+    {
+      "id": 30006,
+      "nrs": "sorvel",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "思い出す、想起する",
+      "meaningEn": "recall, remember",
+      "ipa": "[sorvel]",
+      "notes": "未対応JSON第2回の回収による追加語彙案。多言語比較・独立監査は未実施。"
+    },
+    {
+      "id": 30007,
+      "nrs": "valcyn",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "展望する、見通す",
+      "meaningEn": "look ahead, consider prospects",
+      "ipa": "[valʃyn]",
+      "notes": "未対応JSON第2回の回収による追加語彙案。多言語比較・独立監査は未実施。"
+    },
+    {
+      "id": 30008,
+      "nrs": "vyrcen",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "予見する",
+      "meaningEn": "foresee",
+      "ipa": "[vyrʃen]",
+      "notes": "未対応JSON第2回の回収による追加語彙案。多言語比較・独立監査は未実施。"
+    }
+  ],
+  "frames": {
+    "30001": {
+      "required": [
+        "el",
+        "ia"
+      ],
+      "allowed": [
+        "el",
+        "ia"
+      ]
+    },
+    "30002": {
+      "required": [
+        "el",
+        "ia"
+      ],
+      "allowed": [
+        "el",
+        "ia"
+      ]
+    },
+    "30006": {
+      "required": [
+        "el",
+        "ia"
+      ],
+      "allowed": [
+        "el",
+        "ia"
+      ]
+    },
+    "30007": {
+      "required": [
+        "el",
+        "ia"
+      ],
+      "allowed": [
+        "el",
+        "ia"
+      ]
+    },
+    "30008": {
+      "required": [
+        "el",
+        "ia"
+      ],
+      "allowed": [
+        "el",
+        "ia"
+      ]
+    },
+    "267": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ku",
+        "uo"
+      ]
+    }
+  },
+  "forms": [
+    {
+      "id": 30001,
+      "ending": "嫌う",
+      "prefixes": []
+    },
+    {
+      "id": 30001,
+      "ending": "嫌った",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30001,
+      "ending": "嫌っている",
+      "prefixes": [
+        "di"
+      ]
+    },
+    {
+      "id": 30001,
+      "ending": "嫌わない",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30001,
+      "ending": "嫌わなかった",
+      "prefixes": [
+        "fe",
+        "ne"
+      ]
+    },
+    {
+      "id": 30001,
+      "ending": "嫌います",
+      "prefixes": []
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いました",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いません",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30002,
+      "ending": "殺す",
+      "prefixes": []
+    },
+    {
+      "id": 30002,
+      "ending": "殺した",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30002,
+      "ending": "殺している",
+      "prefixes": [
+        "di"
+      ]
+    },
+    {
+      "id": 30002,
+      "ending": "殺さない",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30002,
+      "ending": "殺さなかった",
+      "prefixes": [
+        "fe",
+        "ne"
+      ]
+    },
+    {
+      "id": 30002,
+      "ending": "殺します",
+      "prefixes": []
+    },
+    {
+      "id": 30002,
+      "ending": "殺しました",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30002,
+      "ending": "殺しません",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30001,
+      "ending": "嫌い",
+      "prefixes": [],
+      "emotion": true
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いだ",
+      "prefixes": [],
+      "emotion": true
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いです",
+      "prefixes": [],
+      "emotion": true
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いだった",
+      "prefixes": [
+        "fe"
+      ],
+      "emotion": true
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いでした",
+      "prefixes": [
+        "fe"
+      ],
+      "emotion": true
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いではない",
+      "prefixes": [
+        "ne"
+      ],
+      "emotion": true
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いじゃない",
+      "prefixes": [
+        "ne"
+      ],
+      "emotion": true
+    },
+    {
+      "id": 30001,
+      "ending": "嫌いではなかった",
+      "prefixes": [
+        "fe",
+        "ne"
+      ],
+      "emotion": true
+    },
+    {
+      "id": 30006,
+      "ending": "思い出す",
+      "prefixes": []
+    },
+    {
+      "id": 30006,
+      "ending": "思い出した",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30006,
+      "ending": "思い出している",
+      "prefixes": [
+        "di"
+      ]
+    },
+    {
+      "id": 30006,
+      "ending": "思い出さない",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30006,
+      "ending": "思い出さなかった",
+      "prefixes": [
+        "fe",
+        "ne"
+      ]
+    },
+    {
+      "id": 30006,
+      "ending": "思い出します",
+      "prefixes": []
+    },
+    {
+      "id": 30006,
+      "ending": "思い出しました",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30006,
+      "ending": "思い出しません",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30007,
+      "ending": "展望する",
+      "prefixes": []
+    },
+    {
+      "id": 30007,
+      "ending": "展望した",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30007,
+      "ending": "展望している",
+      "prefixes": [
+        "di"
+      ]
+    },
+    {
+      "id": 30007,
+      "ending": "展望しない",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30007,
+      "ending": "展望しなかった",
+      "prefixes": [
+        "fe",
+        "ne"
+      ]
+    },
+    {
+      "id": 30007,
+      "ending": "展望します",
+      "prefixes": []
+    },
+    {
+      "id": 30007,
+      "ending": "展望しました",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30007,
+      "ending": "展望しません",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30008,
+      "ending": "予見する",
+      "prefixes": []
+    },
+    {
+      "id": 30008,
+      "ending": "予見した",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30008,
+      "ending": "予見している",
+      "prefixes": [
+        "di"
+      ]
+    },
+    {
+      "id": 30008,
+      "ending": "予見しない",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 30008,
+      "ending": "予見しなかった",
+      "prefixes": [
+        "fe",
+        "ne"
+      ]
+    },
+    {
+      "id": 30008,
+      "ending": "予見します",
+      "prefixes": []
+    },
+    {
+      "id": 30008,
+      "ending": "予見しました",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 30008,
+      "ending": "予見しません",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 267,
+      "ending": "生きる",
+      "prefixes": []
+    },
+    {
+      "id": 267,
+      "ending": "生きた",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 267,
+      "ending": "生きている",
+      "prefixes": [
+        "di"
+      ]
+    },
+    {
+      "id": 267,
+      "ending": "生きない",
+      "prefixes": [
+        "ne"
+      ]
+    },
+    {
+      "id": 267,
+      "ending": "生きなかった",
+      "prefixes": [
+        "fe",
+        "ne"
+      ]
+    },
+    {
+      "id": 267,
+      "ending": "生きます",
+      "prefixes": []
+    },
+    {
+      "id": 267,
+      "ending": "生きました",
+      "prefixes": [
+        "fe"
+      ]
+    },
+    {
+      "id": 267,
+      "ending": "生きません",
+      "prefixes": [
+        "ne"
+      ]
+    }
+  ],
+  "conventions": [
+    "ulによる名詞句の並列。en後の並列所有者は一つの所有者句として扱う追加文型案。",
+    "主語省略の感情形容は対象をiaへ対応させ、経験主体elを自動追加しない。",
+    "未来を見るは展望・予見・観測を選択して確定。未来を必ず予見するという解釈は補わない。"
+  ]
+}

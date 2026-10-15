@@ -80,7 +80,8 @@ h1{font-size:24px}h2{font-size:16px}section{padding:18px;border:1px solid #41516
     spec_path = ROOT / 'docs/Project Requirements And Design.md'
     spec = spec_path.read_text(encoding='utf-8')
     start = spec.index('<!-- BEGIN GENERATED CANON -->')
-    spec_path.write_text(spec[:start]+corpus_markdown(corpus, vocab), encoding='utf-8')
+    end = spec.index('<!-- END GENERATED CANON -->', start) + len('<!-- END GENERATED CANON -->')
+    spec_path.write_text(spec[:start]+corpus_markdown(corpus, vocab).rstrip()+spec[end:], encoding='utf-8')
     cells = []
     for symbol in inventory['symbols']:
         chars = html.escape(symbol['characters'])

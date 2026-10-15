@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "scope": "追加語彙8語・追加項構造の審査台帳。既存承認を自動継承しない。",
+  "sourceSha256": "dc8e47864c8680d963bc48617d9428368b33d4b3ebdfd16c494ae177a64723af",
+  "entries": [
+    {
+      "id": 30001,
+      "root": "nyrcan",
+      "meaning": "嫌う、嫌い",
+      "distinctions": [
+        "好きではないとの同一視を避ける",
+        "強い憎悪とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30002,
+      "root": "kyrdan",
+      "meaning": "殺す、命を奪う",
+      "distinctions": [
+        "死ぬ・消滅するとは区別",
+        "生命を終わらせる他動詞"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30003,
+      "root": "sehvan",
+      "meaning": "未来",
+      "distinctions": [
+        "方向としての前方dyrasとは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30004,
+      "root": "fehvan",
+      "meaning": "過去",
+      "distinctions": [
+        "位置としての後方pasonとは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30005,
+      "root": "soralen",
+      "meaning": "物語",
+      "distinctions": [
+        "虚構か実話かは断定しない"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30006,
+      "root": "sorvel",
+      "meaning": "思い出す、想起する",
+      "distinctions": [
+        "覚えているという保持状態とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30007,
+      "root": "valcyn",
+      "meaning": "展望する、見通す",
+      "distinctions": [
+        "予見や未来の確定知識とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30008,
+      "root": "vyrcen",
+      "meaning": "予見する",
+      "distinctions": [
+        "単なる展望と区別",
+        "予見内容の真偽は検証しない"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    }
+  ],
+  "frameReview": {
+    "source": "data/translation_patterns.json",
+    "sha256": "e91847ebb6cb72979f1f0391ed18d54ffdb7479e87587009259aa8be1bcaf420",
+    "status": "provisional",
+    "canonicalFramesOverwritten": false,
+    "note": "各項構造は追加案として表示。自動テストの成功を言語審査の承認にはしない。"
+  }
+}

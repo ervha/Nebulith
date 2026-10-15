@@ -1,5 +1,8 @@
 import json
 import os
+import hashlib
+from pathlib import Path
+from studio_dictionary import dictionary_entries
 
 def build_web_studio():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -19,7 +22,7 @@ def build_web_studio():
 
     with open(lexicon_path, 'r', encoding='utf-8') as f:
         lex_data = json.load(f)
-        vocab = lex_data.get('vocabulary', [])
+        vocab = dictionary_entries(lex_data.get('vocabulary', []))
 
     canon_examples = []
     if os.path.exists(canon_path):
@@ -39,6 +42,23 @@ def build_web_studio():
             ext_data = json.load(f)
             ext_examples = ext_data.get('sentences', [])
 
+    with open(os.path.join(base_dir,'data','usage_examples.json'),encoding='utf-8') as f:
+        usage_examples=json.load(f)['examples']
+    total_examples=len(canon_examples)+len(ext_examples)+len(usage_examples)
+
+    with open(os.path.join(base_dir,'data','translation_input_rules.json'),encoding='utf-8') as f:
+        input_rules=json.load(f)
+    with open(os.path.join(base_dir,'data','corpus_rules.json'),encoding='utf-8') as f:
+        grammar_frames=json.load(f)['frames']
+    with open(os.path.join(base_dir,'data','translation_extensions.json'),encoding='utf-8') as f:
+        translation_extensions=json.load(f)
+    with open(os.path.join(base_dir,'data','translation_patterns.json'),encoding='utf-8') as f:
+        translation_extensions['productive']=json.load(f)
+    with open(os.path.join(web_dir,'workspace.js'),encoding='utf-8') as f:
+        workspace_js=f.read()
+    with open(os.path.join(web_dir,'incremental.js'),encoding='utf-8') as f:
+        incremental_js=f.read()
+
     compact_vocab = []
     for w in vocab:
         compact_vocab.append({
@@ -56,7 +76,11 @@ def build_web_studio():
     data_js_content = f"""// Nebulith Studio Web - Embedded Data Bundle
 const VOCAB = {json.dumps(compact_vocab, ensure_ascii=False)};
 const CANON = {json.dumps(canon_examples, ensure_ascii=False)};
+const INPUT_RULES = {json.dumps(input_rules, ensure_ascii=False)};
+const GRAMMAR_FRAMES = {json.dumps(grammar_frames, ensure_ascii=False)};
+const TRANSLATION_EXTENSIONS = {json.dumps(translation_extensions, ensure_ascii=False)};
 const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
+const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
 """
     with open(data_js_path, 'w', encoding='utf-8') as f:
         f.write(data_js_content)
@@ -538,7 +562,7 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
     /* Translation Panel */
     .trans-container {{
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: var(--translation-columns, 1fr 1fr);
       gap: 20px;
       margin-bottom: 20px;
     }}
@@ -871,7 +895,7 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
   <!-- Navigation Tabs -->
   <nav class="tab-nav">
     <button class="tab-btn active" data-tab="lexicon">
-      <span>📖</span> 辞書・語根 (1,008語)
+      <span>📖</span> 辞書・語根・文法 ({len(vocab):,}項目)
     </button>
     <button class="tab-btn" data-tab="translator">
       <span>🔄</span> 相互変換・多言語アライメント (JA / EN / NEB)
@@ -880,10 +904,19 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
       <span>✍️</span> 星石文字エディタ
     </button>
     <button class="tab-btn" data-tab="corpus">
-      <span>📜</span> 3言語対訳コーパス (53例文)
+      <span>📜</span> 例文・対訳コーパス ({total_examples}例)
     </button>
   </nav>
 
+  <div style="padding:8px 24px">
+    <div id="storageStatus" role="status" aria-live="polite" style="color:var(--md-sys-color-error)"></div>
+    <details><summary>保存・バックアップ</summary>
+      <p>このブラウザーの設定・下書き・記録を保存します。別ブラウザーや別URLでは保存領域が異なります。</p>
+      <button class="tool-btn" id="backupExport">全データをバックアップ</button>
+      <label>バックアップ取込 <input type="file" id="backupImport" accept=".json,application/json"></label>
+      <div id="backupPreview" role="status"></div><button class="tool-btn" id="backupApply" disabled>内容を確認して復元</button>
+    </details>
+  </div>
   <!-- Main Container -->
   <main class="app-main">
 
@@ -895,17 +928,23 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
           <input type="text" class="search-input" id="lexSearchInput" placeholder="ローマ字、日本語、星石文字、英語で検索... (クリックで詳細モーダル)">
         </div>
         <div class="filter-chips" id="filterChips">
-          <button class="chip-btn active" data-pos="ALL">すべて (1,008)</button>
+          <button class="chip-btn active" data-pos="ALL">すべて ({len(vocab):,})</button>
           <button class="chip-btn" data-pos="FAV">★ お気に入り (<span id="favCount">0</span>)</button>
+          <button class="chip-btn" data-pos="HISTORY">閲覧履歴</button>
           <button class="chip-btn" data-pos="名">名詞 (noun)</button>
           <button class="chip-btn" data-pos="動">動詞 (verb)</button>
           <button class="chip-btn" data-pos="形">形容詞 (adj)</button>
           <button class="chip-btn" data-pos="副">副詞 (adverb)</button>
+          <button class="chip-btn" data-pos="代名詞">代名詞</button>
+          <button class="chip-btn" data-pos="相関詞">相関詞</button>
+          <button class="chip-btn" data-pos="格標識">格標識</button>
+          <button class="chip-btn" data-pos="機能語">機能語</button>
+          <button class="chip-btn" data-pos="接辞">接辞</button>
         </div>
       </div>
 
       <div class="lexicon-summary">
-        <span id="resultCount">表示中: 1,008 語</span>
+        <span id="resultCount">表示中: {len(vocab):,} 項目</span>
         <span style="font-size: 0.8rem; color: var(--md-sys-color-outline);">カードクリックで詳細・語源・お気に入り登録</span>
       </div>
 
@@ -934,32 +973,10 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
             <option value="en">🇬🇧 英語 (EN)</option>
           </select>
         </div>
-        <select class="sample-selector" id="sampleSelect">
-          <option value="">▼ 拡張文型・英語・長文例文を選ぶ（単語アライメント表示）</option>
-          <option value="私はあなたが好きです。">【好悪・日】私はあなたが好きです。</option>
-          <option value="I like you.">【好悪・英】I like you.</option>
-          <option value="私は美しい星が好きだ。">【好悪+形容・日】私は美しい星が好きだ。</option>
-          <option value="I like beautiful stars.">【好悪+形容・英】I like beautiful stars.</option>
-          <option value="星が輝くなら、私は歩く。">【条件節・日】星が輝くなら、私は歩く。</option>
-          <option value="If stars shine, I walk.">【条件節・英】If stars shine, I walk.</option>
-          <option value="あなたが私を好きなら、私は嬉しいです。">【条件節+感情・日】あなたが私を好きなら、私は嬉しいです。</option>
-          <option value="If you like me, I am glad.">【条件節+感情・英】If you like me, I am glad.</option>
-          <option value="星は夜よりも美しい。">【比較級・日】星は夜よりも美しい。</option>
-          <option value="The star is more beautiful than the night.">【比較級・英】The star is more beautiful than the night.</option>
-          <option value="太陽は星よりも光る。">【比較級・動詞・日】太陽は星よりも光る。</option>
-          <option value="The sun shines more than the stars.">【比較級・動詞・英】The sun shines more than the stars.</option>
-          <option value="あなたは誰ですか？">【疑問詞:誰】あなたは誰ですか？</option>
-          <option value="Who are you?">【疑問詞:Who】Who are you?</option>
-          <option value="これは何ですか？">【疑問詞:何】これは何ですか？</option>
-          <option value="What is this?">【疑問詞:What】What is this?</option>
-          <option value="あなたはどこへ歩きますか？">【疑問詞:どこ】あなたはどこへ歩きますか？</option>
-          <option value="家へ歩きなさい。">【命令法】家へ歩きなさい。</option>
-          <option value="星を観測しよう。">【勧誘法】星を観測しよう。</option>
-          <option value="星が夜空で輝く。私はあなたが好きです。">【長文 2文】星が夜空で輝く。私はあなたが好きです。</option>
-          <option value="夜は美しい。星が輝くから、私は歩く。私はあなたを信じている。">【長文 3文段落】夜は美しい。星が輝くから、私は歩く。私はあなたを信じている。</option>
-        </select>
       </div>
 
+      <div id="sessionStatus" role="status" aria-live="polite"></div>
+      <label>原文欄の幅 <input type="range" id="splitWidth" min="25" max="75" value="50"><span id="splitWidthValue">50%</span></label>
       <div class="trans-container">
         <div class="trans-box">
           <div class="trans-header">
@@ -983,14 +1000,25 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
               <div id="transTagsList" class="trans-tags-list"></div>
               <div class="trans-result-text" id="transOutputText">ここに訳文が表示されます</div>
               <div class="trans-result-glyph" id="transOutputGlyph"></div>
+              <div id="inputInterpretation" style="margin:12px 0" aria-live="polite"></div>
+              <div id="inputChoices" style="display:none;gap:8px;flex-wrap:wrap;margin:12px 0">
+                <label id="inputSentenceLabel" style="display:none">編集する文 <select id="inputSentence"></select></label>
+                <label id="inputSubjectLabel">主体の補完 <select id="inputSubject"><option value="">原文のまま</option><option>私</option><option>あなた</option><option>彼／彼女</option></select></label>
+                <label id="inputVerbLabel">動作の解釈 <select id="inputVerb"><option value="">未選択</option><option>観測する</option><option>仰ぎ見る</option><option>展望する</option><option>予見する</option></select></label>
+                <label id="inputPossessionLabel" style="display:none">所有範囲 <select id="inputPossession"><option value="">未選択</option><option value="shared">（AとB）のC・共有所有</option><option value="separate">Aと（BのC）・別々の並列項</option></select></label>
+                <label id="inputSenseLabel" style="display:none">語義 <select id="inputSense"><option value="">未選択</option></select></label>
+                <button class="tool-btn" id="confirmInputCandidate">この解釈で確定</button>
+              </div>
+              <button class="tool-btn" id="copyConfirmedParts" style="display:none">確定した文だけコピー</button>
               <div id="transAlignmentBox" class="align-box"></div>
+              <details style="margin:12px 0"><summary>対応する動詞・表現の範囲</summary><div id="translationCoverage"></div></details>
               <div id="transMissingBox" class="missing-box" style="display: none;">
                 <span class="missing-text">⚠️ この文章の文型は現在未対応です</span>
                 <button class="record-btn" id="recordMissingTransBtn">📥 未対応文章として記録する</button>
               </div>
             </div>
             <div class="trans-notice" id="transNotice">
-              <span>ℹ️</span> 外部AI・通信ゼロ。文法規則（VSO・格助詞・条件節zen・奪格比較va）と辞書で確定変換します。
+              <span>ℹ️</span> 完全オフライン。日本語の語句・意味候補を読み取り、Nebulithの文法を検証して確定します。
             </div>
           </div>
         </div>
@@ -1030,8 +1058,10 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
     <!-- TAB 4: Corpus -->
     <div class="tab-content" id="tab-corpus">
       <div style="margin-bottom: 16px; color: var(--md-sys-color-on-surface-variant); font-size: 0.9rem;">
-        公式正本30例文 ＋ 拡張構文（条件節・比較・疑問・長文）23例の全53例文・3言語（星石語/日本語/英語）対訳集です。
+        公式正本{len(canon_examples)}例 ＋ 拡張構文{len(ext_examples)}例 ＋ 学習用例{len(usage_examples)}例、計{total_examples}例です。各例の区分・解釈条件と、用意されている日本語・英語・Nebulithの対訳を表示します。
       </div>
+      <input type="search" id="corpusSearch" class="search-input" style="margin-bottom:12px" placeholder="例文を日本語・英語・NRS・文型で検索" aria-label="例文を検索">
+      <div id="corpusCount" style="margin-bottom:12px" aria-live="polite"></div>
       <div class="corpus-list" id="corpusList"></div>
     </div>
 
@@ -1096,6 +1126,10 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
         <button class="tool-btn" id="clearAllQueueBtn" style="color: var(--md-sys-color-error);">🗑️ 全て消去</button>
       </div>
 
+      <label>未対応JSONを取込 <input type="file" id="importQueueFiles" accept=".json,application/json" multiple></label>
+      <div id="queueImportPreview" role="status" aria-live="polite"></div>
+      <button class="tool-btn" id="applyQueueImport" disabled>検証した記録を統合</button>
+      <label>状態で表示 <select id="queueStatusFilter"><option value="all">すべて</option><option value="untriaged">未整理</option><option value="investigating">調査中</option><option value="implemented">実装済み</option><option value="review">審査待ち</option><option value="held">保留</option></select></label>
       <div class="queue-list" id="queueList"></div>
 
       <div style="display: flex; gap: 10px; margin-top: 16px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px; flex-wrap: wrap;">
@@ -1112,6 +1146,8 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
 
   <!-- Scripts -->
   <script src="./data.js"></script>
+  <script src="./incremental.js"></script>
+  <script src="./workspace.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
@@ -1122,11 +1158,19 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
 
     # Standalone HTML (with inline data.js and app.js)
     standalone_html = base_html.replace(
-        '<script src="./data.js"></script>\n  <script src="./app.js"></script>',
-        f'<script>\n{data_js_content}\n{app_js_content}\n</script>'
+        '<script src="./data.js"></script>\n  <script src="./incremental.js"></script>\n  <script src="./workspace.js"></script>\n  <script src="./app.js"></script>',
+        f'<script>\n{data_js_content}\n{incremental_js}\n{workspace_js}\n{app_js_content}\n</script>'
     )
     with open(standalone_path, 'w', encoding='utf-8') as f:
         f.write(standalone_html)
+
+    files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'data/lexicon.json',
+             'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
+             'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
+             'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/incremental.js', 'web/data.js',
+             'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/icon.svg', 'web/favicon.svg']
+    hashes = {p: hashlib.sha256((Path(base_dir)/p).read_bytes()).hexdigest() for p in files}
+    (Path(web_dir)/'build-manifest.json').write_text(json.dumps({'schemaVersion':1, 'sha256':hashes}, indent=2)+'\n', encoding='utf-8')
 
     print(f"Build completed:")
     print(f" - {html_path} ({os.path.getsize(html_path):,} bytes)")

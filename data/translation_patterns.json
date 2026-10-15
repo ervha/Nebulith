@@ -1,0 +1,1412 @@
+{
+  "version": 2,
+  "status": "生産的活用・追加項構造案（未監査）",
+  "verbs": [
+    {
+      "id": 959,
+      "lemma": "飲む",
+      "conjugation": "む",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 875,
+      "lemma": "書く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "al",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 866,
+      "lemma": "聴く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 860,
+      "lemma": "話す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "al",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 845,
+      "lemma": "歌う",
+      "conjugation": "う",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 879,
+      "lemma": "走る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 945,
+      "lemma": "飛ぶ",
+      "conjugation": "ぶ",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 958,
+      "lemma": "泳ぐ",
+      "conjugation": "ぐ",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 928,
+      "lemma": "待つ",
+      "conjugation": "つ",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 930,
+      "lemma": "来る",
+      "conjugation": "kuru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 921,
+      "lemma": "踊る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 907,
+      "lemma": "笑う",
+      "conjugation": "う",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 850,
+      "lemma": "泣く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 628,
+      "lemma": "暮らす",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 481,
+      "lemma": "働く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 237,
+      "lemma": "目覚める",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 195,
+      "lemma": "療養する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 268,
+      "lemma": "呼吸する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 705,
+      "lemma": "信じる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 712,
+      "lemma": "忘れる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 695,
+      "lemma": "愛する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 721,
+      "lemma": "思索する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 727,
+      "lemma": "祈る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 736,
+      "lemma": "慰める",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 558,
+      "lemma": "直す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 558,
+      "lemma": "修理する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 877,
+      "lemma": "閉じる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 889,
+      "lemma": "開く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 915,
+      "lemma": "掴む",
+      "conjugation": "む",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 925,
+      "lemma": "置く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "to",
+          "uo",
+          "de",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 922,
+      "lemma": "探す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 951,
+      "lemma": "守る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 911,
+      "lemma": "洗う",
+      "conjugation": "う",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 893,
+      "lemma": "刻む",
+      "conjugation": "む",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 989,
+      "lemma": "煮る",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 1001,
+      "lemma": "焼く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 909,
+      "lemma": "贈る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "al",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 576,
+      "lemma": "受け取る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 190,
+      "lemma": "送る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "al",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 154,
+      "lemma": "同期する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 185,
+      "lemma": "照会する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 193,
+      "lemma": "構文解析する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 265,
+      "lemma": "癒す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 678,
+      "lemma": "着替える",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 222,
+      "lemma": "眠る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 267,
+      "lemma": "生きる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 902,
+      "lemma": "歩く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 953,
+      "lemma": "観測する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 972,
+      "lemma": "食べる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 16,
+      "lemma": "輝く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 30006,
+      "lemma": "思い出す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 30007,
+      "lemma": "展望する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 30008,
+      "lemma": "予見する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 239,
+      "lemma": "蘇生する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 379,
+      "lemma": "耕す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 388,
+      "lemma": "播種する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 424,
+      "lemma": "収穫する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 555,
+      "lemma": "織る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 873,
+      "lemma": "結ぶ",
+      "conjugation": "ぶ",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 874,
+      "lemma": "編み上げる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 887,
+      "lemma": "隠す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 912,
+      "lemma": "離す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 914,
+      "lemma": "撫でる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 916,
+      "lemma": "引っ張る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 919,
+      "lemma": "書き留める",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 926,
+      "lemma": "掘る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 927,
+      "lemma": "着陸する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 935,
+      "lemma": "降りる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 894,
+      "lemma": "登る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 904,
+      "lemma": "通り抜ける",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 905,
+      "lemma": "燃える",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 886,
+      "lemma": "凍る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 436,
+      "lemma": "吠える",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 460,
+      "lemma": "羽ばたく",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "to",
+          "va",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 956,
+      "lemma": "深呼吸する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 687,
+      "lemma": "作曲する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 644,
+      "lemma": "清書する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    },
+    {
+      "id": 138,
+      "lemma": "配備する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku",
+          "de"
+        ]
+      },
+      "note": "既存語義の表層活用。項構造の追加はアプリ用の未監査案。"
+    }
+  ],
+  "placeIds": [
+    1,
+    4,
+    63,
+    152,
+    196,
+    275,
+    284,
+    297,
+    303,
+    339,
+    377,
+    404,
+    537,
+    597,
+    616,
+    618,
+    631,
+    632,
+    656,
+    973
+  ],
+  "pronounAliases": {
+    "わたし": "mi",
+    "私たち": "miin",
+    "わたしたち": "miin",
+    "貴方": "ti",
+    "あなた方": "tiin",
+    "彼等": "riin"
+  },
+  "conventions": [
+    "既存の正本文型を上書きせず、新しい述語にだけ追加の項構造を割り当てる。",
+    "にの格は対応述語の許容項から与格・向格・処格を選ぶ。での場所用法は明示した場所語に限定する。",
+    "希望形は検出しても、未定義の願望標識を創作して訳さない。"
+  ]
+}

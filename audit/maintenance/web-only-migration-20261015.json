@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-15",
+  "reason": "Web-only migration requested by user",
+  "deletedSourceFiles": [
+    "studio/OFFLINE_TRANSLATION.md",
+    "studio/Start-Studio.cmd",
+    "studio/UI_IMPROVEMENTS.md",
+    "studio/launcher/NebulithStudio.csproj",
+    "studio/launcher/Program.cs",
+    "studio/src/commonMain/kotlin/com/reiun/nebulith/Catalog.kt",
+    "studio/src/commonMain/kotlin/com/reiun/nebulith/IncrementalTranslator.kt",
+    "studio/src/commonMain/kotlin/com/reiun/nebulith/OfflineTranslator.kt",
+    "studio/src/jvmMain/kotlin/com/reiun/nebulith/Main.kt",
+    "studio/src/jvmMain/kotlin/com/reiun/nebulith/StudioStorage.kt",
+    "studio/src/jvmMain/kotlin/com/reiun/nebulith/StudioWindow.kt",
+    "studio/src/jvmMain/kotlin/com/reiun/nebulith/Theme.kt",
+    "studio/src/jvmMain/kotlin/com/reiun/nebulith/TranslationChecks.kt",
+    "studio/src/jvmMain/kotlin/com/reiun/nebulith/TranslationPanel.kt",
+    "studio/src/jvmMain/kotlin/com/reiun/nebulith/WindowSmokeTest.kt",
+    "tools/build_studio.py",
+    "tools/package_studio.py",
+    "tools/verify_studio_bundle.py",
+    "tools/clean_studio_build.ps1",
+    "tools/create_thread_render.py",
+    "tests/test_studio_package.py",
+    "tests/test_offline_translation.py"
+  ],
+  "remainingBuild": {
+    "path": "studio/build",
+    "files": 1002,
+    "bytes": 718576829,
+    "status": "Deletion blocked by execution policy. No longer referenced by active builds/tests/audits."
+  }
+}

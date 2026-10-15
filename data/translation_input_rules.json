@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "scope": "Input interpretation only. Output must pass corpus argument frames. Nuance gaps are never discarded.",
+  "aliases": [
+    {"ending":"見ていたいな","replacement":"観測している","complete":true,"chooseVerb":true,"feature":"希望・柔らかな語調"},
+    {"ending":"見ていたい","replacement":"観測している","complete":true,"chooseVerb":true,"feature":"希望"},
+    {"ending":"見たい","replacement":"観測する","complete":true,"chooseVerb":true,"feature":"希望"},
+    {"ending":"食べたい","replacement":"食べる","complete":true,"chooseVerb":false,"feature":"希望"},
+    {"ending":"歩きたい","replacement":"歩く","complete":true,"chooseVerb":false,"feature":"希望"},
+    {"ending":"観測したい","replacement":"観測する","complete":true,"chooseVerb":false,"feature":"希望"},
+    {"ending":"見ている","replacement":"観測している","complete":true,"chooseVerb":true,"feature":""},
+    {"ending":"見てた","replacement":"観測していた","complete":true,"chooseVerb":true,"feature":""},
+    {"ending":"見た","replacement":"観測した","complete":true,"chooseVerb":true,"feature":""},
+    {"ending":"見ない","replacement":"観測しない","complete":true,"chooseVerb":true,"feature":""},
+    {"ending":"見る","replacement":"観測する","complete":true,"chooseVerb":true,"feature":""},
+    {"ending":"眺める","replacement":"観測する","complete":true,"chooseVerb":true,"feature":""},
+    {"ending":"見て","replacement":"観測する","complete":false,"chooseVerb":true,"feature":""},
+    {"ending":"見","replacement":"観測する","complete":false,"chooseVerb":true,"feature":""},
+    {"ending":"歩いてる","replacement":"歩いている","complete":true,"chooseVerb":false,"feature":""},
+    {"ending":"食べてる","replacement":"食べている","complete":true,"chooseVerb":false,"feature":""},
+    {"ending":"観測してる","replacement":"観測している","complete":true,"chooseVerb":false,"feature":""},
+    {"ending":"輝いてる","replacement":"輝いている","complete":true,"chooseVerb":false,"feature":""},
+    {"ending":"歩いて","replacement":"歩く","complete":false,"chooseVerb":false,"feature":""},
+    {"ending":"食べて","replacement":"食べる","complete":false,"chooseVerb":false,"feature":""},
+    {"ending":"観測して","replacement":"観測する","complete":false,"chooseVerb":false,"feature":""},
+    {"ending":"観測し","replacement":"観測する","complete":false,"chooseVerb":false,"feature":""},
+    {"ending":"観測","replacement":"観測する","complete":false,"chooseVerb":false,"feature":""},
+    {"ending":"観","replacement":"観測する","complete":false,"chooseVerb":false,"feature":""}
+  ]
+}

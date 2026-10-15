@@ -1,0 +1,170 @@
+{
+  "exportedAt": "2026-10-15T12:49:58.635Z",
+  "source": "Nebulith Studio Feedback Queue",
+  "totalItems": 7,
+  "queue": [
+    {
+      "id": "fb_1792068420776_v6238",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "あなたとともに生きる",
+      "context": "語句・構文を確定できません。原文全体を保持しています。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "あなたとともに生きる",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "語句・構文を確定できません。原文全体を保持しています。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:47:00.776Z"
+    },
+    {
+      "id": "fb_1792068406214_edxwi",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "私は過去を思い出した",
+      "context": "語句・構文を確定できません。原文全体を保持しています。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "私は過去を思い出した",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "語句・構文を確定できません。原文全体を保持しています。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:46:46.214Z"
+    },
+    {
+      "id": "fb_1792068401006_pg39x",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "私は過去を思い出す",
+      "context": "語句・構文を確定できません。原文全体を保持しています。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "私は過去を思い出す",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "語句・構文を確定できません。原文全体を保持しています。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:46:41.006Z"
+    },
+    {
+      "id": "fb_1792068390350_aoa5b",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "私は未来を見る",
+      "context": "動作候補：観測する／仰ぎ見る。意味を選択してください。 / 語句・助詞の解釈が未対応です。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "私は未来を見る",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "動作候補：観測する／仰ぎ見る。意味を選択してください。",
+              "語句・助詞の解釈が未対応です。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:46:30.350Z"
+    },
+    {
+      "id": "fb_1792068370902_y23um",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "未来を見る",
+      "context": "動作候補：観測する／仰ぎ見る。意味を選択してください。 / 語句・助詞の解釈が未対応です。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "未来を見る",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "動作候補：観測する／仰ぎ見る。意味を選択してください。",
+              "語句・助詞の解釈が未対応です。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:46:10.902Z"
+    },
+    {
+      "id": "fb_1792068353524_aopjd",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "私とあなたの物語",
+      "context": "語句・構文を確定できません。原文全体を保持しています。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "私とあなたの物語",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "語句・構文を確定できません。原文全体を保持しています。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:45:53.524Z"
+    },
+    {
+      "id": "fb_1792068334999_boq6k",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "あなたが嫌い。",
+      "context": "主語・補語の不足、または動詞の項構造に合わない格があります。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "あなたが嫌い。",
+            "text": "el ti",
+            "state": "blocked",
+            "notes": [
+              "主語・補語の不足、または動詞の項構造に合わない格があります。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:45:34.999Z"
+    }
+  ]
+}

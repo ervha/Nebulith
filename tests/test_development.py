@@ -50,7 +50,6 @@ class DevelopmentChecks(unittest.TestCase):
                 if '://' not in href and not href.startswith('#'):
                     self.assertTrue((path.parent/unquote(href).split('#')[0]).exists(),(path,href))
 
-    def test_studio_bundle_matches_current_sources(self):
-        if not (ROOT/'studio/build/NebulithStudio.jar').exists():self.skipTest('Build Studio for packaged-resource verification')
-        from verify_studio_bundle import verify
-        result=verify();self.assertEqual(1008,result['entries']);self.assertEqual(30,result['examples'])
+    def test_web_bundle_matches_current_sources(self):
+        from verify_web_bundle import verify
+        result=verify();self.assertEqual(1008,result['rootEntries']);self.assertGreater(result['entries'],1008);self.assertEqual(30,result['examples'])

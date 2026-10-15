@@ -71,9 +71,10 @@ paths += ['README.md','docs/Nebulith Executive Summary.md','docs/NEXT_DEVELOPMEN
           'data/audit/earth_research_batch_01.json','tools/research_earth_batch.py','data/audit/nebula_root_migration.json',
           'tools/fix_reviewed_nebula_collision.py','tools/expand_corpus.py','tools/review_corpus_30.py',
           'data/audit/corpus_review_batch_30.json','audit/maintenance/2026-10-15-cleanup.json',
-          'tools/clean_workspace.ps1','tools/update_project_overview.py','tools/build_studio.py','tools/verify_studio_bundle.py',
-          'studio/README.md','studio/Start-Studio.cmd','studio/build/NebulithStudio.jar','studio/build/bundle-manifest.json']
-paths += [p.relative_to(ROOT).as_posix() for p in sorted((ROOT/'studio/src').rglob('*.kt'))]
+          'tools/clean_workspace.ps1','tools/update_project_overview.py','tools/build_web_studio.py','tools/verify_web_bundle.py',
+          'tools/studio_dictionary.py','data/usage_examples.json','data/feedback_resolutions.json','data/translation_extensions.json','data/translation_patterns.json','data/grammar_dictionary.json','data/translation_input_rules.json',
+          'data/translation_input_fixtures.json','web/README.md','web/app.js','web/incremental.js','web/workspace.js','data/language_review_ledger.json',
+          'web/data.js','web/index.html','web/standalone.html','web/build-manifest.json']
 batch_dir = ROOT / 'audit/runs/2026-10-15-all-roots'
 if (batch_dir / 'comparison.json').exists():
     paths += ['tools/compare_all_roots.py', 'tools/report_all_roots.py', 'tests/test_all_roots.py',
@@ -224,7 +225,9 @@ corpus_errors = validate_corpus(canon, vocab)
 corpus_pending = corpus_semantic_pending(canon)
 ipa_errors = [r for r in vocab if normalize_ipa(r['ipa']) != expected_ipa(r['nrs'])]
 generated = corpus_markdown(canon, vocab)
-spec_sync = spec[spec.index('<!-- BEGIN GENERATED CANON -->'):] == generated
+canon_start = spec.index('<!-- BEGIN GENERATED CANON -->')
+canon_end = spec.index('<!-- END GENERATED CANON -->', canon_start) + len('<!-- END GENERATED CANON -->')
+spec_sync = spec[canon_start:canon_end].strip() == generated.strip()
 web = read('fonts/preview.html')
 web_sync = all(u['nrs'] in web and u['translationJa'] in web for u in canon['units'])
 category_counts = Counter(r['category'] for r in vocab)
@@ -293,8 +296,8 @@ check('CHK-15', not corpus_errors and spec_sync and web_sync, 'Corpus references
       pending=not corpus_errors and spec_sync and web_sync and bool(corpus_pending))
 result['scorecard'] = checks
 result['scorecard_counts'] = dict(Counter(c['status'] for c in checks.values()))
-from verify_studio_bundle import verify as verify_studio
-result['studio_bundle'] = verify_studio()
+from verify_web_bundle import verify as verify_web
+result['web_bundle'] = verify_web()
 if (batch_dir / 'comparison.json').exists():
     all_roots = json.loads((batch_dir/'comparison.json').read_text(encoding='utf-8'))
     assert all_roots['summary']['dictionarySha256'] == hashlib.sha256((ROOT/'data/lexicon.json').read_bytes()).hexdigest(), 'Stale all-roots comparison'

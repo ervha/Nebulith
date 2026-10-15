@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "status": "学習用・生成検証済み／言語監査未実施",
+  "examples": [
+    {
+      "id": "USE-01",
+      "title": "基本",
+      "japanese": "私は水を飲む。",
+      "nebulith": "Bion el mi ia daris.",
+      "english": "I drink water.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-02",
+      "title": "過去・否定・丁寧",
+      "japanese": "私は水を飲みませんでした。",
+      "nebulith": "Fe ne bion el mi ia daris.",
+      "english": "I did not drink water.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-03",
+      "title": "過去・進行",
+      "japanese": "あなたは物語を書いていました。",
+      "nebulith": "Fe di kiras el ti ia soralen.",
+      "english": "You were writing a story.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-04",
+      "title": "複数・場所",
+      "japanese": "私たちは森で働きます。",
+      "nebulith": "Dolar el miin uo velom.",
+      "english": "We work in the forest.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-05",
+      "title": "授受",
+      "japanese": "私はあなたに物語を贈った。",
+      "nebulith": "Fe zelvan el mi ia soralen al ti.",
+      "english": "I gave you a story.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-06",
+      "title": "受取・起点",
+      "japanese": "私はあなたから物語を受け取る。",
+      "nebulith": "Martan el mi ia soralen va ti.",
+      "english": "I receive a story from you.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-07",
+      "title": "居住・場所",
+      "japanese": "私は家で暮らす。",
+      "nebulith": "Taran el mi uo govan.",
+      "english": "I live in a house.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-08",
+      "title": "移動・起点",
+      "japanese": "私は家から走る。",
+      "nebulith": "Kupan el mi va govan.",
+      "english": "I run from the house.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-09",
+      "title": "共同者",
+      "japanese": "私はあなたと歌う。",
+      "nebulith": "Cival el mi ku ti.",
+      "english": "I sing with you.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-10",
+      "title": "道具・材料",
+      "japanese": "私は水で家を洗う。",
+      "nebulith": "Serdar el mi ia govan de daris.",
+      "english": "I wash the house with water.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-11",
+      "title": "始動・移動",
+      "japanese": "私は家へ走り始める。",
+      "nebulith": "Kupanast el mi to govan.",
+      "english": "I start running toward the house.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-12",
+      "title": "並列の主語",
+      "japanese": "私とあなたは走る。",
+      "nebulith": "Kupan el mi ul ti.",
+      "english": "You and I run.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-13",
+      "title": "形容詞叙述",
+      "japanese": "星は赤い。",
+      "nebulith": "Relen el vyr ia pyrin.",
+      "english": "The star is red.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-14",
+      "title": "形容詞・過去",
+      "japanese": "水は冷たかった。",
+      "nebulith": "Fe relen el daris ia kyrani.",
+      "english": "The water was cold.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-15",
+      "title": "形容詞・否定",
+      "japanese": "水は冷たくない。",
+      "nebulith": "Ne relen el daris ia kyrani.",
+      "english": "The water is not cold.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-16",
+      "title": "表記揺れ・丁寧",
+      "japanese": "わたしは眠ります。",
+      "nebulith": "Tymis el mi.",
+      "english": "I sleep.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-17",
+      "title": "疑問",
+      "japanese": "私は水を飲みますか？",
+      "nebulith": "Bion el mi ia daris ka?",
+      "english": "Do I drink water?",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-18",
+      "title": "信頼・代名詞",
+      "japanese": "彼女は私を信じる。",
+      "nebulith": "Fevas el ri ia mi.",
+      "english": "She trusts me.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-19",
+      "title": "待機・対象",
+      "japanese": "私はあなたを待つ。",
+      "nebulith": "Taris el mi ia ti.",
+      "english": "I wait for you.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-20",
+      "title": "場所・食事",
+      "japanese": "私は家で食べます。",
+      "nebulith": "Neran el mi uo govan.",
+      "english": "I eat at home.",
+      "choices": {},
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+    },
+    {
+      "id": "USE-21",
+      "title": "意味選択・展望",
+      "japanese": "未来を見る",
+      "nebulith": "Valcyn el mi ia sehvan.",
+      "english": "I look ahead to the future.",
+      "choices": {
+        "subject": "私",
+        "verb": "展望する",
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。 主体＝私、動作＝展望するを利用者が選び、確認した場合。"
+    },
+    {
+      "id": "USE-22",
+      "title": "所有範囲",
+      "japanese": "私とあなたの物語",
+      "nebulith": "soralen en mi ul ti",
+      "english": "our story (yours and mine)",
+      "choices": {
+        "possession": "shared",
+        "confirmed": true
+      },
+      "state": "phrase",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。 「（私とあなた）の物語」を選んで確認した語句。完成文ではない。"
+    },
+    {
+      "id": "USE-23",
+      "title": "省略された主体",
+      "japanese": "あなたが嫌い。",
+      "nebulith": "Nyrcan el mi ia ti.",
+      "english": "I dislike you.",
+      "choices": {
+        "subject": "私",
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。 嫌う主体＝私を利用者が選び、確認した場合。"
+    },
+    {
+      "id": "USE-24",
+      "title": "意味選択・予見",
+      "japanese": "私は未来を見る",
+      "nebulith": "Vyrcen el mi ia sehvan.",
+      "english": "I foresee the future.",
+      "choices": {
+        "verb": "予見する",
+        "confirmed": true
+      },
+      "state": "complete",
+      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。 動作＝予見するを利用者が選び、確認した場合。展望とは区別する。"
+    }
+  ]
+}

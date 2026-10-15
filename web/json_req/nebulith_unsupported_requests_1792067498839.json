@@ -1,0 +1,53 @@
+{
+  "exportedAt": "2026-10-15T12:31:38.839Z",
+  "source": "Nebulith Studio Feedback Queue",
+  "totalItems": 2,
+  "queue": [
+    {
+      "id": "fb_1792067479114_rnduc",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "私はあなたが嫌い",
+      "context": "語句・構文を確定できません。原文全体を保持しています。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "私はあなたが嫌い",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "語句・構文を確定できません。原文全体を保持しています。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:31:19.114Z"
+    },
+    {
+      "id": "fb_1792067444259_ttjg2",
+      "type": "sentence",
+      "lang": "ja",
+      "text": "私があなたを殺す",
+      "context": "語句・構文を確定できません。原文全体を保持しています。",
+      "interpretation": {
+        "version": 1,
+        "choices": {},
+        "segments": [
+          {
+            "source": "私があなたを殺す",
+            "text": "",
+            "state": "blocked",
+            "notes": [
+              "語句・構文を確定できません。原文全体を保持しています。"
+            ]
+          }
+        ]
+      },
+      "count": 1,
+      "createdAt": "2026-10-15T12:30:44.259Z"
+    }
+  ]
+}

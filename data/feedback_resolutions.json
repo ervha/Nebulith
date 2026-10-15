@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "lexicalReview": "追加語彙案・多言語比較と独立監査は未実施",
+  "items": [
+    {
+      "requestId": "fb_1792067479114_rnduc",
+      "input": "私はあなたが嫌い",
+      "output": "Nyrcan el mi ia ti.",
+      "newRoot": "nyrcan",
+      "status": "implemented-with-provisional-vocabulary",
+      "source": "web/json_req/nebulith_unsupported_requests_1792067498839.json",
+      "initialState": "complete",
+      "state": "complete",
+      "choices": {}
+    },
+    {
+      "requestId": "fb_1792067444259_ttjg2",
+      "input": "私があなたを殺す",
+      "output": "Kyrdan el mi ia ti.",
+      "newRoot": "kyrdan",
+      "status": "implemented-with-provisional-vocabulary",
+      "source": "web/json_req/nebulith_unsupported_requests_1792067498839.json",
+      "initialState": "complete",
+      "state": "complete",
+      "choices": {}
+    },
+    {
+      "requestId": "fb_1792068420776_v6238",
+      "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "input": "あなたとともに生きる",
+      "initialState": "draft",
+      "choices": {
+        "subject": "私",
+        "confirmed": true
+      },
+      "state": "complete",
+      "output": "Zyvel el mi ku ti.",
+      "status": "implemented-with-explicit-choices"
+    },
+    {
+      "requestId": "fb_1792068406214_edxwi",
+      "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "input": "私は過去を思い出した",
+      "initialState": "complete",
+      "choices": {},
+      "state": "complete",
+      "output": "Fe sorvel el mi ia fehvan.",
+      "status": "implemented-with-provisional-vocabulary"
+    },
+    {
+      "requestId": "fb_1792068401006_pg39x",
+      "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "input": "私は過去を思い出す",
+      "initialState": "complete",
+      "choices": {},
+      "state": "complete",
+      "output": "Sorvel el mi ia fehvan.",
+      "status": "implemented-with-provisional-vocabulary"
+    },
+    {
+      "requestId": "fb_1792068390350_aoa5b",
+      "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "input": "私は未来を見る",
+      "initialState": "draft",
+      "choices": {
+        "verb": "展望する",
+        "confirmed": true
+      },
+      "state": "complete",
+      "output": "Valcyn el mi ia sehvan.",
+      "status": "implemented-with-explicit-choices"
+    },
+    {
+      "requestId": "fb_1792068370902_y23um",
+      "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "input": "未来を見る",
+      "initialState": "draft",
+      "choices": {
+        "subject": "私",
+        "verb": "展望する",
+        "confirmed": true
+      },
+      "state": "complete",
+      "output": "Valcyn el mi ia sehvan.",
+      "status": "implemented-with-explicit-choices"
+    },
+    {
+      "requestId": "fb_1792068353524_aopjd",
+      "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "input": "私とあなたの物語",
+      "initialState": "draft",
+      "choices": {
+        "possession": "shared",
+        "confirmed": true
+      },
+      "state": "phrase",
+      "output": "soralen en mi ul ti",
+      "status": "implemented-with-explicit-choices"
+    },
+    {
+      "requestId": "fb_1792068334999_boq6k",
+      "source": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "input": "あなたが嫌い。",
+      "initialState": "draft",
+      "choices": {
+        "subject": "私",
+        "confirmed": true
+      },
+      "state": "complete",
+      "output": "Nyrcan el mi ia ti.",
+      "status": "implemented-with-explicit-choices"
+    }
+  ],
+  "sources": [
+    {
+      "path": "web/json_req/nebulith_unsupported_requests_1792067498839.json",
+      "sha256": "5a659525e875a3b0ac6ea24b6f9ce31d6bde03365c5a1b8ebf07d6a54b0728b0"
+    },
+    {
+      "path": "web/json_req/nebulith_unsupported_requests_1792068598636.json",
+      "sha256": "ad224d068854a78ff98816607a2dbcd01d395fc2b755cf78fc0fa35268f2bf93"
+    }
+  ],
+  "note": "choicesは検証用の選択例。アプリは原文にない主体・動作の意味・所有範囲を自動選択しない。"
+}

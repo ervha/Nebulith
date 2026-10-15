@@ -1,0 +1,217 @@
+[
+  {
+    "input": "星",
+    "choices": {},
+    "states": [
+      "phrase"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "赤い星",
+    "choices": {},
+    "states": [
+      "phrase"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "赤い星を",
+    "choices": {},
+    "states": [
+      "draft"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "星が",
+    "choices": {},
+    "states": [
+      "draft"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私が赤い星を",
+    "choices": {},
+    "states": [
+      "draft"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "赤い星を見て",
+    "choices": {},
+    "states": [
+      "draft"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "赤い星を見ていたい",
+    "choices": {},
+    "states": [
+      "blocked"
+    ],
+    "recordable": true
+  },
+  {
+    "input": "赤い星を見ていたい",
+    "choices": {
+      "subject": "私",
+      "verb": "観測する"
+    },
+    "states": [
+      "blocked"
+    ],
+    "recordable": true
+  },
+  {
+    "input": "私は星を見た",
+    "choices": {},
+    "states": [
+      "draft"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は星を見た",
+    "choices": {
+      "verb": "観測する"
+    },
+    "states": [
+      "candidate"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は星を見た",
+    "choices": {
+      "verb": "観測する",
+      "confirmed": true
+    },
+    "states": [
+      "complete"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "赤い星を見る",
+    "choices": {
+      "subject": "私",
+      "verb": "観測する"
+    },
+    "states": [
+      "candidate"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私、赤い星を見る",
+    "choices": {
+      "verb": "観測する"
+    },
+    "states": [
+      "candidate"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は歩いてる",
+    "choices": {},
+    "states": [
+      "candidate"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は歩いてる",
+    "choices": {
+      "confirmed": true
+    },
+    "states": [
+      "complete"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は家へ歩く。",
+    "choices": {},
+    "states": [
+      "complete"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は家へ歩く。赤い星を",
+    "choices": {},
+    "states": [
+      "complete",
+      "draft"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "超未知装置を",
+    "choices": {},
+    "states": [
+      "blocked"
+    ],
+    "recordable": true
+  },
+  {
+    "input": "私は星を観測するかも",
+    "choices": {},
+    "states": [
+      "blocked"
+    ],
+    "recordable": true
+  },
+  {
+    "input": "私は星を見ない",
+    "choices": {
+      "verb": "観測する",
+      "confirmed": true
+    },
+    "states": [
+      "complete"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は家を歩く",
+    "choices": {},
+    "states": [
+      "blocked"
+    ],
+    "recordable": true
+  },
+  {
+    "input": "私は星を見ている",
+    "choices": {
+      "verb": "観測する"
+    },
+    "states": [
+      "candidate"
+    ],
+    "recordable": false
+  },
+  {
+    "input": "私は宇宙船から星を見る",
+    "choices": {
+      "verb": "観測する"
+    },
+    "states": [
+      "blocked"
+    ],
+    "recordable": true
+  },
+  {
+    "input": "観",
+    "choices": {},
+    "states": [
+      "draft"
+    ],
+    "recordable": false
+  }
+]

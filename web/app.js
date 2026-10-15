@@ -1,12 +1,18 @@
 // Nebulith Studio Web - Complete Application Logic (v2.7)
 
 // State & LocalStorage
-let currentTheme = localStorage.getItem('neb_theme') || 'dark';
+function reportStorageError(message){document.getElementById('storageStatus').textContent=message;}
+const safeStorage=NebulithWorkspace.createStore(()=>localStorage,reportStorageError);
+function storedArray(key){const value=safeStorage.json(key,[]);if(!Array.isArray(value)||value.some(v=>typeof v!=='string')){reportStorageError('保存された一覧が不正です。元データは保持します。');return [];}return value;}
+
+let currentTheme = safeStorage.getItem('neb_theme') || 'dark';
 let currentFilterPos = 'ALL';
 let srcLang = 'ja'; // 'ja' | 'en' | 'neb'
 let dstLang = 'neb'; // 'neb' | 'ja' | 'en'
-let favorites = new Set(JSON.parse(localStorage.getItem('neb_favorites') || '[]'));
-let feedbackQueue = JSON.parse(localStorage.getItem('neb_feedback_queue') || '[]');
+let favorites = new Set(storedArray('neb_favorites'));
+let browsingHistory=storedArray('neb_history').slice(0,100);
+let feedbackQueue=[];
+try{feedbackQueue=NebulithWorkspace.normalizeQueue(safeStorage.json('neb_feedback_queue',[]),{name:'既存記録'});}catch(e){reportStorageError('記録の読込に問題があります：'+e.message);}
 let activeModalWord = null;
 
 function escapeHtml(str) {
@@ -21,7 +27,7 @@ updateThemeUI();
 document.getElementById('themeToggleBtn').addEventListener('click', () => {
   currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', currentTheme);
-  localStorage.setItem('neb_theme', currentTheme);
+  safeStorage.setItem('neb_theme', currentTheme);
   updateThemeUI();
 });
 
@@ -52,28 +58,13 @@ function updateQueueBadge() {
 updateQueueBadge();
 
 // Add Item to Feedback Queue
-function addFeedbackItem(type, lang, text, context) {
-  const trimmed = text.trim();
-  if (!trimmed) return false;
-  const existing = feedbackQueue.find(item => item.type === type && item.text.toLowerCase() === trimmed.toLowerCase());
-  if (existing) {
-    existing.count = (existing.count || 1) + 1;
-    existing.updatedAt = new Date().toISOString();
-  } else {
-    feedbackQueue.unshift({
-      id: 'fb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5),
-      type: type, // 'word' | 'sentence'
-      lang: lang, // 'ja' | 'en' | 'neb' | 'search'
-      text: trimmed,
-      context: context || '',
-      count: 1,
-      createdAt: new Date().toISOString()
-    });
-  }
-  localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
-  updateQueueBadge();
-  renderQueueList();
-  return true;
+function addFeedbackItem(type, lang, text, context, interpretation = null) {
+  const trimmed=text.trim();if(!trimmed)return false;
+  try {
+    const item={id:'fb_'+Date.now()+'_'+Math.random().toString(36).slice(2),type,lang,text:trimmed,context:context||'',...(interpretation?{interpretation}:{}),count:1,createdAt:new Date().toISOString()};
+    return persistQueue(NebulithWorkspace.mergeQueue(feedbackQueue,[item],{name:'このブラウザー'}).queue);
+  }catch(e){reportStorageError(e.message);return false;}
+
 }
 
 // Tab Navigation
@@ -101,17 +92,25 @@ updateFavCount();
 
 function renderLexicon() {
   const query = searchInput.value.trim().toLowerCase();
+  const rank = w => {
+    if (!query) return 0;
+    const labels = [w.r, ...(w.m+'、'+w.en).split(/[、／,;]/)].map(s=>s.trim().toLowerCase());
+    return labels.includes(query) ? 0 : labels.some(s=>s.startsWith(query)) ? 1 : 2;
+  };
   const filtered = VOCAB.filter(w => {
     if (currentFilterPos === 'FAV') {
       if (!favorites.has(w.r)) return false;
+    } else if (currentFilterPos === 'HISTORY') {
+      if(!browsingHistory.includes(w.r))return false;
     } else if (currentFilterPos !== 'ALL' && !w.p.includes(currentFilterPos)) {
       return false;
     }
     if (!query) return true;
     return (w.r && w.r.toLowerCase().includes(query)) ||
            (w.m && w.m.toLowerCase().includes(query)) ||
-           (w.en && w.en.toLowerCase().includes(query));
-  });
+           (w.en && w.en.toLowerCase().includes(query)) ||
+           (w.n && w.n.toLowerCase().includes(query));
+  }).sort((a,b)=>rank(a)-rank(b));
 
   if (filtered.length === 0 && query) {
     resultCount.textContent = `表示中: 0 語 (一致なし)`;
@@ -131,7 +130,7 @@ function renderLexicon() {
     const recBtn = document.getElementById('recordMissingWordBtn');
     if (recBtn && !alreadyInQueue) {
       recBtn.addEventListener('click', () => {
-        addFeedbackItem('word', 'search', query, '辞書検索0件ヒット');
+        if(!addFeedbackItem('word', 'search', query, '辞書検索0件ヒット'))return;
         recBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
         recBtn.disabled = true;
         recBtn.style.opacity = '0.7';
@@ -141,6 +140,7 @@ function renderLexicon() {
   }
 
   resultCount.textContent = `表示中: ${filtered.length.toLocaleString()} 語 (全${VOCAB.length.toLocaleString()}語)`;
+  if(currentFilterPos==='HISTORY')filtered.sort((a,b)=>browsingHistory.indexOf(a.r)-browsingHistory.indexOf(b.r));
   const displayList = filtered.slice(0, 150);
   wordGrid.innerHTML = displayList.map(w => {
     const isFav = favorites.has(w.r);
@@ -171,7 +171,7 @@ window.toggleFav = function(e, roman) {
   } else {
     favorites.add(roman);
   }
-  localStorage.setItem('neb_favorites', JSON.stringify([...favorites]));
+  safeStorage.setItem('neb_favorites', JSON.stringify([...favorites]));
   updateFavCount();
   renderLexicon();
   if (activeModalWord && activeModalWord.r === roman) {
@@ -183,6 +183,8 @@ window.openWordModal = function(roman) {
   const word = VOCAB.find(w => w.r === roman);
   if (!word) return;
   activeModalWord = word;
+  browsingHistory=[roman,...browsingHistory.filter(r=>r!==roman)].slice(0,100);
+  safeStorage.setItem('neb_history',JSON.stringify(browsingHistory));
   document.getElementById('modalGlyph').textContent = word.r;
   document.getElementById('modalRoman').textContent = word.r;
   document.getElementById('modalPos').textContent = word.p;
@@ -267,6 +269,14 @@ EXT_SENTENCES.forEach(e => {
   });
 });
 
+const inputEngine = createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, translationPairs, TRANSLATION_EXTENSIONS);
+const translationCoverage=inputEngine.coverage();
+document.getElementById('translationCoverage').textContent=`${translationCoverage.predicates}述語、${translationCoverage.productiveLemmas}動詞見出し、${translationCoverage.verbForms}動詞表層形、${translationCoverage.adjectiveForms}形容詞表層形。主語・対象・所有・場所などは辞書から組み合わせます。動詞例：${translationCoverage.verbs.map(v=>v.lemma).join('、')}。希望・推量・未整備の語義は自動で確定しません。英語・逆方向は登録対訳中心です。`;
+let inputChoicesState = {};
+let activeSentenceKey='';
+let lastInputAnalysis = null;
+let outputFingerprint = '';
+let composingInput = false;
 const transInput = document.getElementById('transInput');
 const transOutputText = document.getElementById('transOutputText');
 const transOutputGlyph = document.getElementById('transOutputGlyph');
@@ -278,7 +288,6 @@ const transNotice = document.getElementById('transNotice');
 const swapTransBtn = document.getElementById('swapTransBtn');
 const srcLangSelect = document.getElementById('srcLangSelect');
 const dstLangSelect = document.getElementById('dstLangSelect');
-const sampleSelect = document.getElementById('sampleSelect');
 const clearSrcBtn = document.getElementById('clearSrcBtn');
 const copyDstBtn = document.getElementById('copyDstBtn');
 
@@ -532,6 +541,14 @@ function translateSingleSentence(sent, fromLang, toLang) {
 
 // Multi-Sentence / Full-Text Translation
 function doTranslate() {
+  saveTranslationSession();
+  copyDstBtn.disabled = true;
+  document.getElementById('inputInterpretation').innerHTML = '';
+  document.getElementById('inputChoices').style.display = 'none';
+  document.getElementById('copyConfirmedParts').style.display = 'none';
+  if (composingInput) return;
+  if (srcLang === 'ja' && dstLang === 'neb') { renderIncrementalInput(); return; }
+  lastInputAnalysis=null;
   const text = transInput.value.trim();
   if (!text) {
     transOutputText.textContent = 'ここに訳文が表示されます';
@@ -563,6 +580,7 @@ function doTranslate() {
       transTagsList.innerHTML = `<span class="trans-structure-tag">${item.tag}</span>`;
       renderAlignments(item.alignment || []);
       if (transMissingBox) transMissingBox.style.display = 'none';
+      copyDstBtn.disabled = false; outputFingerprint = transInput.value + '|' + srcLang + '|' + dstLang;
       transNotice.innerHTML = '<span>✨</span> 長文段落・確定照合完了';
       return;
     }
@@ -591,6 +609,7 @@ function doTranslate() {
   }
 
   if (allSuccess && results.length > 0) {
+    copyDstBtn.disabled = false; outputFingerprint = transInput.value + '|' + srcLang + '|' + dstLang;
     const outJoined = results.join(' ');
     transOutputText.textContent = outJoined;
     transOutputGlyph.textContent = dstLang === 'neb' ? outJoined : '';
@@ -613,7 +632,7 @@ function doTranslate() {
         recordMissingTransBtn.disabled = already;
         recordMissingTransBtn.style.opacity = already ? '0.7' : '1';
         recordMissingTransBtn.onclick = () => {
-          addFeedbackItem('sentence', srcLang, text, '未確定構文・未対応文章');
+          if(!addFeedbackItem('sentence', srcLang, text, '未確定構文・未対応文章'))return;
           recordMissingTransBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
           recordMissingTransBtn.disabled = true;
           recordMissingTransBtn.style.opacity = '0.7';
@@ -637,57 +656,114 @@ function renderAlignments(alignments) {
     const srcWord = isEn ? (a.src_en || a.src) : a.src;
     return `
       <div class="align-chip">
-        <span class="align-src">${srcWord}</span>
+        <span class="align-src">${escapeHtml(srcWord)}</span>
         <span class="align-arrow">➔</span>
-        <span class="align-dst">${a.dst}</span>
-        <span class="align-role">${a.role}</span>
+        <span class="align-dst">${escapeHtml(a.dst)}</span>
+        <span class="align-role">${escapeHtml(a.role)}</span>
       </div>
     `;
   }).join('');
 
   transAlignmentBox.innerHTML = `
-    <div class="align-header">🔗 単語・構文アライメント (Word Alignment)</div>
+    <div class="align-header">🔗 原文とNebulithの語句対応</div>
+    <p>語順が変わるため、対応する語句を並べて表示します。活用・文法標識は複数語に対応することがあります。</p>
     <div class="align-list">${chipsHtml}</div>
   `;
 }
 
+function renderIncrementalInput() {
+  const text = transInput.value;
+  const result = inputEngine.analyze(text, inputChoicesState);
+  lastInputAnalysis = result;
+  const labels = {complete:'確定訳', phrase:'語句', draft:'入力待ち', candidate:'解釈候補', blocked:'要対応'};
+  transOutputText.textContent = result.text || (text.trim() ? '解釈を確認中' : '語句・文章を入力してください');
+  transOutputGlyph.textContent = result.complete ? result.text : '';
+  transTagsList.innerHTML = result.segments.map(s=>`<span class="trans-structure-tag">${labels[s.state]}</span>`).join('');
+  document.getElementById('inputInterpretation').textContent = result.notes.join(' / ');
+  if(!result.segments.some(s=>s.key===activeSentenceKey))activeSentenceKey=(result.segments.find(s=>!['complete','phrase'].includes(s.state))||result.segments[0])?.key||'';
+  const selected=result.segments.find(s=>s.key===activeSentenceKey)||result.segments[0];
+  const selectedChoices=currentSegmentChoices();
+  document.getElementById('inputChoices').style.display=text.trim()&&(!result.complete||result.segments.length>1)?'flex':'none';
+  document.getElementById('inputSentenceLabel').style.display=result.segments.length>1?'inline-block':'none';
+  document.getElementById('inputSentence').innerHTML=result.segments.map((s,i)=>`<option value="${escapeHtml(s.key)}">${i+1}文目・${labels[s.state]}：${escapeHtml(s.source.slice(0,55))}</option>`).join('');
+  document.getElementById('inputSentence').value=activeSentenceKey;
+  document.getElementById('inputPossessionLabel').style.display=selected?.scopeAmbiguous?'inline-block':'none';
+  const senseOptions=selected?.senseOptions||[];
+  document.getElementById('inputSenseLabel').style.display=senseOptions.length?'inline-block':'none';
+  document.getElementById('inputSense').innerHTML='<option value="">未選択</option>'+senseOptions.map(o=>`<option value="${escapeHtml(o.value)}">${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('');
+  for(const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense']])document.getElementById(id).value=selectedChoices[key]||'';
+  for(const id of ['inputSubjectLabel','inputVerbLabel'])document.getElementById(id).style.display=selected?.scopeAmbiguous?'none':'inline-block';
+  document.getElementById('confirmInputCandidate').disabled=selected?.state!=='candidate';
+  const copyablePhrase = result.segments.length===1 && result.segments[0].state==='phrase';
+  copyDstBtn.textContent = copyablePhrase ? '語句をコピー' : '完成訳をコピー';
+  copyDstBtn.disabled = !(result.complete || copyablePhrase);
+  outputFingerprint = text + '|' + srcLang + '|' + dstLang;
+  renderAlignments(result.segments.flatMap((s,i)=>(s.alignment||[]).map(a=>({...a,role:`${result.segments.length>1?(i+1)+'文目・':''}${labels[s.state]}・${a.role}`}))));
+  transNotice.textContent = result.complete ? 'Nebulithの文法を検証した完成訳です。' : '途中案は完成文ではありません。補完・意味候補は確認後に確定します。';
+  const completeParts = result.segments.filter(s=>s.state==='complete');
+  const copyParts = document.getElementById('copyConfirmedParts');
+  copyParts.style.display = !result.complete && completeParts.length ? 'inline-block' : 'none';
+  copyParts.textContent = `確定した文だけコピー（${completeParts.length}/${result.segments.length}文）`;
+  copyParts.onclick = () => { if(lastInputAnalysis===result && outputFingerprint===transInput.value+'|'+srcLang+'|'+dstLang) navigator.clipboard.writeText(completeParts.map(s=>s.text).join(' ')); };
+  transMissingBox.style.display = result.recordable ? 'flex' : 'none';
+  if(result.recordable) {
+    const interpretation={version:INPUT_RULES.version,choices:{...inputChoicesState},segments:result.segments};
+    const exists = feedbackQueue.some(i=>NebulithWorkspace.feedbackKey(i)===NebulithWorkspace.feedbackKey({type:'sentence',lang:srcLang,text,interpretation}));
+    recordMissingTransBtn.disabled = exists;
+    recordMissingTransBtn.textContent = exists ? '記録済み' : '未対応の意味・構文を記録';
+    recordMissingTransBtn.onclick = () => {
+      if(outputFingerprint!==transInput.value+'|'+srcLang+'|'+dstLang)return;
+      if(addFeedbackItem('sentence',srcLang,text,result.notes.join(' / '),{version:INPUT_RULES.version,choices:{...inputChoicesState},segments:result.segments}))renderIncrementalInput();
+    };
+  }
+}
+function currentSegmentChoices(){return lastInputAnalysis?.segments.length>1?inputChoicesState.bySegment?.[activeSentenceKey]||{}:inputChoicesState;}
+function changeSegmentChoices(patch){
+  if(lastInputAnalysis?.segments.length>1)inputChoicesState={...inputChoicesState,bySegment:{...(inputChoicesState.bySegment||{}),[activeSentenceKey]:{...currentSegmentChoices(),...patch}}};
+  else inputChoicesState={...inputChoicesState,...patch};
+}
+for (const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense']]) document.getElementById(id).addEventListener('change',e=>{changeSegmentChoices({[key]:e.target.value,confirmed:false});doTranslate();});
+document.getElementById('inputSentence').addEventListener('change',e=>{activeSentenceKey=e.target.value;doTranslate();});
+document.getElementById('confirmInputCandidate').addEventListener('click',()=>{
+  const selected=lastInputAnalysis?.segments.find(s=>s.key===activeSentenceKey);
+  if(selected?.state==='candidate'){changeSegmentChoices({confirmed:true});doTranslate();}
+});
+function resetInputChoices(preserve=false) {
+  let retained={};
+  if(preserve){
+    const sources=(transInput.value.match(/[^。！？!?\n]+[。！？!?]*/g)||[]).map(s=>s.trim()).filter(Boolean);
+    const prior={...(inputChoicesState.bySegment||{})};
+    if(lastInputAnalysis?.segments.length===1)prior[lastInputAnalysis.segments[0].key]=inputChoicesState;
+    const bySegment={};
+    for(const [key,value] of Object.entries(prior))try{const source=JSON.parse(key)[0];if(sources.filter(s=>s===source).length===1)bySegment[JSON.stringify([source,0])]=value;}catch(_){}
+    retained=sources.length===1?bySegment[JSON.stringify([sources[0],0])]||{}:{bySegment};
+  }
+  inputChoicesState=retained;lastInputAnalysis=null;
+  for(const id of ['inputSubject','inputVerb','inputPossession','inputSense'])document.getElementById(id).value='';
+  if(!preserve)activeSentenceKey='';
+}
 let transTimer = null;
+transInput.addEventListener('compositionstart',()=>{composingInput=true;clearTimeout(transTimer);copyDstBtn.disabled=true;swapTransBtn.disabled=true;recordMissingTransBtn.disabled=true;document.getElementById('confirmInputCandidate').disabled=true;transNotice.textContent='日本語を変換中です。確定後に解析します。';});
+transInput.addEventListener('compositionend',()=>{composingInput=false;resetInputChoices(true);doTranslate();});
 transInput.addEventListener('input', () => {
-  clearTimeout(transTimer);
-  transTimer = setTimeout(doTranslate, 120);
+  clearTimeout(transTimer);resetInputChoices(true);renderAlignments([]);copyDstBtn.disabled=true;swapTransBtn.disabled=true;
+  saveTranslationSession();
+  if(!composingInput)transTimer=setTimeout(()=>{doTranslate();swapTransBtn.disabled=false;},180);
 });
 
 srcLangSelect.addEventListener('change', () => {
-  srcLang = srcLangSelect.value;
+  resetInputChoices();srcLang = srcLangSelect.value;
   doTranslate();
 });
 
 dstLangSelect.addEventListener('change', () => {
-  dstLang = dstLangSelect.value;
+  resetInputChoices();dstLang = dstLangSelect.value;
   doTranslate();
 });
 
-sampleSelect.addEventListener('change', (e) => {
-  if (e.target.value) {
-    const val = e.target.value;
-    transInput.value = val;
-    // Auto-detect language of sample
-    if (/^[A-Za-z\s,.'!?]+$/.test(val)) {
-      srcLang = 'en';
-      dstLang = 'neb';
-      srcLangSelect.value = 'en';
-      dstLangSelect.value = 'neb';
-    } else {
-      srcLang = 'ja';
-      dstLang = 'neb';
-      srcLangSelect.value = 'ja';
-      dstLangSelect.value = 'neb';
-    }
-    doTranslate();
-  }
-});
-
 swapTransBtn.addEventListener('click', () => {
+  if(copyDstBtn.disabled)return;
+  resetInputChoices();
   const tmp = srcLang;
   srcLang = dstLang;
   dstLang = tmp;
@@ -702,12 +778,12 @@ swapTransBtn.addEventListener('click', () => {
 });
 
 clearSrcBtn.addEventListener('click', () => {
-  transInput.value = '';
-  sampleSelect.value = '';
+  resetInputChoices();transInput.value = '';
   doTranslate();
 });
 
 copyDstBtn.addEventListener('click', () => {
+  if(copyDstBtn.disabled || outputFingerprint!==transInput.value+'|'+srcLang+'|'+dstLang)return;
   navigator.clipboard.writeText(transOutputText.textContent).then(() => {
     alert('訳文をクリップボードにコピーしました！');
   });
@@ -722,6 +798,8 @@ const clearAllQueueBtn = document.getElementById('clearAllQueueBtn');
 const exportQueueJsonBtn = document.getElementById('exportQueueJsonBtn');
 const copyQueueJsonBtn = document.getElementById('copyQueueJsonBtn');
 
+const queueStatusLabels={untriaged:'未整理',investigating:'調査中',implemented:'実装済み',review:'審査待ち',held:'保留'};
+const queueCauseLabels={unknown:'未分類',vocabulary:'語彙不足',inflection:'活用不足',syntax:'文型不足',meaning:'解釈・語義',incomplete:'入力途中'};
 function renderQueueList() {
   if (!queueList) return;
   if (feedbackQueue.length === 0) {
@@ -734,7 +812,9 @@ function renderQueueList() {
     return;
   }
 
-  queueList.innerHTML = feedbackQueue.map(item => {
+  const statusFilter=document.getElementById('queueStatusFilter').value;
+  const shown=feedbackQueue.filter(item=>!statusFilter||statusFilter==='all'||item.status===statusFilter);
+  queueList.innerHTML = shown.map(item => {
     const typeLabel = item.type === 'word' ? '📖 単語検索' : '🔄 文章翻訳';
     const langLabel = item.lang.toUpperCase();
     const dateStr = item.createdAt ? new Date(item.createdAt).toLocaleString('ja-JP') : '';
@@ -747,7 +827,10 @@ function renderQueueList() {
             ${countBadge}
           </div>
           <div class="queue-card-text">${escapeHtml(item.text)}</div>
-          <div class="queue-card-meta">${dateStr} &bull; ${escapeHtml(item.context)}</div>
+          <div class="queue-card-meta">${escapeHtml(dateStr)} &bull; ${escapeHtml(item.context)}</div>
+          <label>状態 <select onchange="setQueueField('${item.id}','status',this.value)">${NebulithWorkspace.statuses.map(v=>`<option value="${v}" ${v===item.status?'selected':''}>${queueStatusLabels[v]}</option>`).join('')}</select></label>
+          <label>原因 <select onchange="setQueueField('${item.id}','cause',this.value)">${NebulithWorkspace.causes.map(v=>`<option value="${v}" ${v===item.cause?'selected':''}>${queueCauseLabels[v]}</option>`).join('')}</select></label>
+          <div class="queue-card-meta">元記録：${item.origins.length}件</div>
         </div>
         <button class="tool-btn" style="color: var(--md-sys-color-error); padding: 4px 8px;" onclick="deleteQueueItem('${item.id}')">✕</button>
       </div>
@@ -755,14 +838,16 @@ function renderQueueList() {
   }).join('');
 }
 
-window.deleteQueueItem = function(id) {
-  feedbackQueue = feedbackQueue.filter(item => item.id !== id);
-  localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
-  updateQueueBadge();
-  renderQueueList();
-  renderLexicon();
+function persistQueue(next){
+  if(!safeStorage.setItem('neb_feedback_queue',JSON.stringify(next)))return false;
+  feedbackQueue=next;updateQueueBadge();renderQueueList();return true;
+}
+window.deleteQueueItem=function(id){if(persistQueue(feedbackQueue.filter(item=>item.id!==id)))renderLexicon();};
+window.setQueueField=function(id,key,value){
+  if(!['status','cause'].includes(key))return;
+  if(!(key==='status'?NebulithWorkspace.statuses:NebulithWorkspace.causes).includes(value))return;
+  persistQueue(feedbackQueue.map(item=>item.id===id?{...item,[key]:value}:item));
 };
-
 if (queueToggleBtn) {
   queueToggleBtn.addEventListener('click', () => {
     renderQueueList();
@@ -786,8 +871,7 @@ if (clearAllQueueBtn) {
   clearAllQueueBtn.addEventListener('click', () => {
     if (feedbackQueue.length === 0) return;
     if (confirm('未対応キューの全記録を消去してもよろしいですか？')) {
-      feedbackQueue = [];
-      localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
+      if(!persistQueue([]))return;
       updateQueueBadge();
       renderQueueList();
       renderLexicon();
@@ -802,6 +886,7 @@ if (exportQueueJsonBtn) {
       return;
     }
     const exportData = {
+      schemaVersion:1,
       exportedAt: new Date().toISOString(),
       source: 'Nebulith Studio Feedback Queue',
       totalItems: feedbackQueue.length,
@@ -835,7 +920,7 @@ const editorStats = document.getElementById('editorStats');
 const fontSizeSlider = document.getElementById('fontSizeSlider');
 const fontSizeVal = document.getElementById('fontSizeVal');
 
-const savedDraft = localStorage.getItem('neb_editor_draft') || '';
+const savedDraft = safeStorage.getItem('neb_editor_draft') || '';
 if (savedDraft) {
   editorInput.value = savedDraft;
   editorPreview.textContent = savedDraft;
@@ -852,6 +937,7 @@ function updateEditorStats() {
 
 fontSizeSlider.addEventListener('input', (e) => {
   const size = e.target.value + 'px';
+  safeStorage.setItem('neb_font_size',String(e.target.value));
   fontSizeVal.textContent = size;
   editorPreview.style.fontSize = size;
 });
@@ -860,7 +946,7 @@ editorInput.addEventListener('input', (e) => {
   const val = e.target.value;
   editorPreview.textContent = val || 'Cynel el mi ia ti. Zen falun el vyr, cylani el valar.';
   updateEditorStats();
-  localStorage.setItem('neb_editor_draft', val);
+  safeStorage.setItem('neb_editor_draft', val);
 });
 
 document.getElementById('downloadNebBtn').addEventListener('click', () => {
@@ -881,37 +967,89 @@ document.getElementById('clearEditorBtn').addEventListener('click', () => {
   editorInput.value = '';
   editorPreview.textContent = 'Cynel el mi ia ti. Zen falun el vyr, cylani el valar.';
   updateEditorStats();
-  localStorage.removeItem('neb_editor_draft');
+  safeStorage.removeItem('neb_editor_draft');
 });
 
 // Corpus Cards Rendering (3 Languages: Nebulith / Japanese / English)
 const corpusList = document.getElementById('corpusList');
-const allSentences = EXT_SENTENCES.map(s => ({
-  id: s.id,
-  neb: s.nebulith,
-  ja: s.japanese,
-  en: s.english || '',
-  lit: s.structure ? `構造: ${s.structure}` : '',
-  badge: '★ 拡張構文 v2.6'
-})).concat(CANON.map(c => ({
-  id: c.id,
-  neb: c.neb,
-  ja: c.ja,
-  en: c.lit || '',
-  lit: c.lit ? `英語/逐語: ${c.lit}` : '',
-  badge: '公式正本コーパス'
+const allSentences = USAGE_EXAMPLES.map(s=>({
+  id:s.id,neb:s.nebulith,ja:s.japanese,en:s.english,lit:s.title+'：'+s.note,
+  badge:'学習用例・生成検証済み／未監査'
+})).concat(EXT_SENTENCES.map(s => ({
+  id:s.id,neb:s.nebulith,ja:s.japanese,en:s.english||'',lit:s.structure?'構造: '+s.structure:'',badge:'拡張構文'
+})),CANON.map(c => ({
+  id:c.id,neb:c.neb,ja:c.ja,en:c.en||'',lit:c.lit||'',badge:'公式正本コーパス'
 })));
-
-corpusList.innerHTML = allSentences.map(c => `
-  <div class="corpus-card">
-    <div class="corpus-badge">${c.badge} [#${c.id}]</div>
-    <div class="corpus-glyph">${c.neb}</div>
-    <div class="corpus-neb">${c.neb}</div>
-    <div class="corpus-ja">🇯🇵 ${c.ja}</div>
-    ${c.en ? `<div class="corpus-en" style="font-size: 0.9rem; color: var(--md-sys-color-primary); margin-top: 3px;">🇬🇧 ${c.en}</div>` : ''}
-    ${c.lit ? `<div class="corpus-lit">${c.lit}</div>` : ''}
-  </div>
-`).join('');
+const corpusSearch=document.getElementById('corpusSearch');
+function renderCorpus() {
+  const q=corpusSearch.value.trim().toLowerCase();
+  const filtered=allSentences.filter(c=>[c.id,c.ja,c.neb,c.en,c.lit,c.badge].join(' ').toLowerCase().includes(q));
+  document.getElementById('corpusCount').textContent=`${filtered.length} / ${allSentences.length}例`;
+  corpusList.innerHTML=filtered.length?filtered.map(c=>`
+    <div class="corpus-card">
+      <div class="corpus-badge">${escapeHtml(c.badge)} [#${escapeHtml(c.id)}]</div>
+      <div class="corpus-glyph">${escapeHtml(c.neb)}</div>
+      <div class="corpus-neb">${escapeHtml(c.neb)}</div>
+      <div class="corpus-ja">🇯🇵 ${escapeHtml(c.ja)}</div>
+      ${c.en?`<div class="corpus-en">🇬🇧 ${escapeHtml(c.en)}</div>`:''}
+      ${c.lit?`<div class="corpus-lit">${escapeHtml(c.lit)}</div>`:''}
+    </div>`).join(''):'<p>一致する例文がありません。</p>';
+}
+corpusSearch.addEventListener('input',renderCorpus);
+renderCorpus();
 
 // Initial Render
 renderLexicon();
+
+function saveTranslationSession(){
+  safeStorage.setItem('neb_session_v1',JSON.stringify({schemaVersion:1,text:transInput.value,srcLang,dstLang,choices:inputChoicesState,updatedAt:new Date().toISOString()}));
+}
+function downloadJson(value,name){
+  const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));
+  const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+const sessionRaw=safeStorage.json('neb_session_v1',null);
+if(sessionRaw)try{
+  const saved=NebulithWorkspace.session(sessionRaw);transInput.value=saved.text;srcLang=saved.srcLang;dstLang=saved.dstLang;inputChoicesState=saved.choices;
+  srcLangSelect.value=srcLang;dstLangSelect.value=dstLang;
+  for(const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense']])document.getElementById(id).value=inputChoicesState[key]||'';
+  doTranslate();document.getElementById('sessionStatus').textContent='翻訳下書きを復元しました。補完・解釈候補は確認して確定してください。';
+}catch(e){reportStorageError(e.message);}
+const restoredFont=Number(safeStorage.getItem('neb_font_size')||36);
+if(restoredFont>=20&&restoredFont<=64){fontSizeSlider.value=String(restoredFont);fontSizeVal.textContent=restoredFont+'px';editorPreview.style.fontSize=restoredFont+'px';}
+const splitSlider=document.getElementById('splitWidth');
+function applySplit(value){document.documentElement.style.setProperty('--translation-columns',value+'fr '+(100-value)+'fr');document.getElementById('splitWidthValue').textContent=value+'%';}
+const savedSplit=Number(safeStorage.getItem('neb_split')||50);splitSlider.value=String(savedSplit>=25&&savedSplit<=75?savedSplit:50);applySplit(Number(splitSlider.value));
+splitSlider.addEventListener('input',e=>{const value=Number(e.target.value);if(value>=25&&value<=75){applySplit(value);safeStorage.setItem('neb_split',String(value));}});
+document.getElementById('queueStatusFilter').addEventListener('change',renderQueueList);
+let pendingQueueImport=null,pendingBackup=null;
+document.getElementById('importQueueFiles').addEventListener('change',async e=>{
+  pendingQueueImport=null;document.getElementById('applyQueueImport').disabled=true;
+  try{
+    let next=feedbackQueue,files=[];
+    for(const file of Array.from(e.target.files||[])){
+      if(file.size>10*1024*1024)throw Error('1ファイル10MB以内にしてください。');
+      const text=await file.text();let sha256='';
+      if(globalThis.crypto?.subtle){const bytes=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text));sha256=Array.from(new Uint8Array(bytes),b=>b.toString(16).padStart(2,'0')).join('');}
+      const raw=JSON.parse(text);const source={name:file.name,sha256};
+      next=NebulithWorkspace.mergeQueue(next,raw,source).queue;files.push(file.name);
+    }
+    if(!files.length)return;
+    pendingQueueImport={queue:next,files};document.getElementById('queueImportPreview').textContent=files.join('、')+'：検証済み。統合後 '+next.length+'件（重複は元要求ごとに集約）。';
+    document.getElementById('applyQueueImport').disabled=false;
+  }catch(error){document.getElementById('queueImportPreview').textContent='取込できません：'+error.message;}
+});
+document.getElementById('applyQueueImport').addEventListener('click',()=>{
+  if(!pendingQueueImport)return;
+  const result=NebulithWorkspace.mergeQueue(feedbackQueue,pendingQueueImport.queue,{name:'検証済み取込'});
+  if(persistQueue(result.queue)){document.getElementById('queueImportPreview').textContent='取込済み：'+feedbackQueue.length+'件。';pendingQueueImport=null;document.getElementById('applyQueueImport').disabled=true;}
+});
+document.getElementById('backupExport').addEventListener('click',()=>{
+  const snapshot=safeStorage.snapshot();snapshot.values={...snapshot.values,neb_font_size:String(fontSizeSlider.value),neb_split:String(splitSlider.value),neb_theme:currentTheme,neb_favorites:JSON.stringify([...favorites]),neb_history:JSON.stringify(browsingHistory),neb_feedback_queue:JSON.stringify(feedbackQueue),neb_editor_draft:editorInput.value,neb_session_v1:JSON.stringify({schemaVersion:1,text:transInput.value,srcLang,dstLang,choices:inputChoicesState})};
+  downloadJson(snapshot,'nebulith-backup-'+Date.now()+'.json');
+});
+document.getElementById('backupImport').addEventListener('change',async e=>{
+  pendingBackup=null;document.getElementById('backupApply').disabled=true;
+  try{const file=e.target.files?.[0];if(!file)return;if(file.size>20*1024*1024)throw Error('20MB以内にしてください。');pendingBackup=NebulithWorkspace.backup(JSON.parse(await file.text()));document.getElementById('backupPreview').textContent='検証済み。復元すると現在の設定・下書き・記録を置き換えます。必要なら先にバックアップを保存してください。';document.getElementById('backupApply').disabled=false;}catch(error){document.getElementById('backupPreview').textContent=error.message;}
+});
+document.getElementById('backupApply').addEventListener('click',()=>{if(pendingBackup&&safeStorage.restore(pendingBackup))window.location.reload();});
