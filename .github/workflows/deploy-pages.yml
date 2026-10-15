@@ -46,6 +46,7 @@ jobs:
           node tests/verify_sprint1_modals_and_conditions.js
           node tests/verify_sprint2_comparison_and_quotes.js
           node tests/verify_sprint3_lexicon_and_adverbs.js
+          node tests/verify_sprint4_word_inspector.js
 
       - name: Prepare Pages Artifact
         run: |

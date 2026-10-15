@@ -2,7 +2,7 @@
 (function(global){
   'use strict';
   const PROFILE='neb_profile_v1';
-  const KEYS=['neb_theme','neb_favorites','neb_feedback_queue','neb_editor_draft','neb_session_v1','neb_font_size','neb_split','neb_history'];
+  const KEYS=['neb_theme','neb_favorites','neb_feedback_queue','neb_editor_draft','neb_session_v1','neb_font_size','neb_split','neb_history','neb_astral_font'];
   const statuses=['untriaged','investigating','implemented','review','held'];
   const causes=['unknown','vocabulary','inflection','syntax','meaning','incomplete'];
   const stable=v=>Array.isArray(v)?v.map(stable):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().filter(k=>!['__proto__','constructor','prototype'].includes(k)).map(k=>[k,stable(v[k])])):v;

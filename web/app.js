@@ -179,11 +179,61 @@ window.toggleFav = function(e, roman) {
   }
 };
 
+
+function getWordForms(word) {
+  const r = word.r;
+  if (word.p.includes('動')) {
+    return [
+      { label: '現在・基本形', neb: r },
+      { label: '過去形 (fe-)', neb: 'fe ' + r },
+      { label: '進行相 (di-)', neb: 'di ' + r },
+      { label: '否定形 (ne-)', neb: 'ne ' + r },
+      { label: '否定過去 (fe ne-)', neb: 'fe ne ' + r },
+      { label: '推量 (se-)', neb: 'se ' + r },
+      { label: '希望相 (-ast)', neb: r + 'ast' },
+      { label: '可能相 (-ar)', neb: r + 'ar' },
+      { label: '反復相 (-cor)', neb: r + 'cor' }
+    ];
+  } else if (word.p.includes('形')) {
+    return [
+      { label: '原級', neb: r },
+      { label: '最上級 (cel-)', neb: 'cel' + r },
+      { label: '過去述語', neb: 'fe relen ... ia ' + r },
+      { label: '否定述語', neb: 'ne relen ... ia ' + r }
+    ];
+  } else if (word.p.includes('名')) {
+    return [
+      { label: '単数形', neb: r },
+      { label: '複数形 (-iin)', neb: r + 'iin' },
+      { label: '属格 (所有)', neb: '... en ' + r },
+      { label: '道具格 (手段)', neb: 'de ' + r },
+      { label: '場所格 (存在)', neb: 'uo ' + r }
+    ];
+  }
+  return [];
+}
+
+function getWordCorpusExamples(wordRoot) {
+  const matches = [];
+  const regex = new RegExp('\\b' + wordRoot + '\\b', 'i');
+  for (const c of (typeof CANON !== 'undefined' ? CANON : [])) {
+    if (regex.test(c.neb)) matches.push({ neb: c.neb, ja: c.ja, tag: '正本カノン' });
+  }
+  for (const e of (typeof EXT_SENTENCES !== 'undefined' ? EXT_SENTENCES : [])) {
+    if (regex.test(e.nebulith)) matches.push({ neb: e.nebulith, ja: e.japanese, tag: '拡張文' });
+  }
+  for (const u of (typeof USAGE_EXAMPLES !== 'undefined' ? USAGE_EXAMPLES : [])) {
+    if (regex.test(u.nebulith)) matches.push({ neb: u.nebulith, ja: u.japanese, tag: '学習例文' });
+  }
+  return matches.slice(0, 4);
+}
+
 window.openWordModal = function(roman) {
-  const word = VOCAB.find(w => w.r === roman);
+  const cleanRoman = roman.replace(/^[-+]/, '').replace(/[-+]$/, '').trim();
+  const word = VOCAB.find(w => w.r === cleanRoman || w.r === roman);
   if (!word) return;
   activeModalWord = word;
-  browsingHistory=[roman,...browsingHistory.filter(r=>r!==roman)].slice(0,100);
+  browsingHistory=[word.r,...browsingHistory.filter(r=>r!==word.r)].slice(0,100);
   safeStorage.setItem('neb_history',JSON.stringify(browsingHistory));
   document.getElementById('modalGlyph').textContent = word.r;
   document.getElementById('modalRoman').textContent = word.r;
@@ -193,8 +243,60 @@ window.openWordModal = function(roman) {
   document.getElementById('modalMeaningEn').textContent = word.en || '—';
   document.getElementById('modalIpa').textContent = word.i ? `/${word.i}/` : '—';
   document.getElementById('modalNotes').textContent = word.n || '基本星石語彙';
+
+  // Render Forms List
+  const formsField = document.getElementById('modalFormsField');
+  const formsList = document.getElementById('modalFormsList');
+  if (formsField && formsList) {
+    const forms = getWordForms(word);
+    if (forms.length > 0) {
+      formsList.innerHTML = forms.map(f => `
+        <div class="modal-form-chip" title="クリックでコピー: ${f.neb}" onclick="navigator.clipboard.writeText('${f.neb}'); alert('コピーしました: ${f.neb}');">
+          <span class="form-lbl">${escapeHtml(f.label)}</span>
+          <span class="form-neb">${escapeHtml(f.neb)}</span>
+        </div>
+      `).join('');
+      formsField.style.display = 'block';
+    } else {
+      formsField.style.display = 'none';
+    }
+  }
+
+  // Render Contextual Examples
+  const exField = document.getElementById('modalExamplesField');
+  const exList = document.getElementById('modalExamplesList');
+  if (exField && exList) {
+    const examples = getWordCorpusExamples(word.r);
+    if (examples.length > 0) {
+      exList.innerHTML = examples.map(ex => `
+        <div class="modal-example-card" onclick="loadExampleToTranslator('${escapeHtml(ex.ja)}')">
+          <div class="ex-neb">${escapeHtml(ex.neb)}</div>
+          <div class="ex-ja">${escapeHtml(ex.ja)}</div>
+          <div class="ex-tag">出典: ${escapeHtml(ex.tag)}</div>
+        </div>
+      `).join('');
+      exField.style.display = 'block';
+    } else {
+      exField.style.display = 'none';
+    }
+  }
+
   updateModalFavButton();
   wordModal.classList.add('active');
+};
+
+window.loadExampleToTranslator = function(jaText) {
+  if (transInput) {
+    transInput.value = jaText;
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    const transTabBtn = document.querySelector('[data-tab="translator"]');
+    const transTabContent = document.getElementById('translatorTab');
+    if (transTabBtn) transTabBtn.classList.add('active');
+    if (transTabContent) transTabContent.classList.add('active');
+    if (typeof doTranslate === 'function') doTranslate();
+  }
+  if (wordModal) wordModal.classList.remove('active');
 };
 
 function updateModalFavButton() {
@@ -654,11 +756,14 @@ function renderAlignments(alignments) {
   const isEn = srcLang === 'en';
   const chipsHtml = alignments.map(a => {
     const srcWord = isEn ? (a.src_en || a.src) : a.src;
+    const cleanDst = (a.dst || '').replace(/^[-+]/, '').replace(/[-+]$/, '').trim();
+    const hasWord = typeof VOCAB !== 'undefined' && VOCAB.some(w => w.r === cleanDst);
+    const clickAttr = hasWord ? `class="align-dst has-word" title="辞書で『${escapeHtml(cleanDst)}』の詳細を見る" onclick="openWordModal('${escapeHtml(cleanDst)}')"` : 'class="align-dst"';
     return `
       <div class="align-chip">
         <span class="align-src">${escapeHtml(srcWord)}</span>
         <span class="align-arrow"></span>
-        <span class="align-dst">${escapeHtml(a.dst)}</span>
+        <span ${clickAttr}>${escapeHtml(a.dst)}</span>
         <span class="align-role">${escapeHtml(a.role)}</span>
       </div>
     `;
@@ -1052,3 +1157,30 @@ document.getElementById('backupImport').addEventListener('change',async e=>{
   try{const file=e.target.files?.[0];if(!file)return;if(file.size>20*1024*1024)throw Error('20MB以内にしてください。');pendingBackup=NebulithWorkspace.backup(JSON.parse(await file.text()));document.getElementById('backupPreview').textContent='検証済み。復元すると現在の設定・下書き・記録を置き換えます。必要なら先にバックアップを保存してください。';document.getElementById('backupApply').disabled=false;}catch(error){document.getElementById('backupPreview').textContent=error.message;}
 });
 document.getElementById('backupApply').addEventListener('click',()=>{if(pendingBackup&&safeStorage.restore(pendingBackup))window.location.reload();});
+
+
+// Astral Font Mode Toggle
+const astralToggleBtn = document.getElementById('astralToggleBtn');
+const astralToggleLabel = document.getElementById('astralToggleLabel');
+let isAstralMode = safeStorage.getItem('neb_astral_font') === 'true';
+
+function updateAstralUI() {
+  if (document.body) {
+    if (isAstralMode) {
+      document.body.classList.add('astral-mode');
+    } else {
+      document.body.classList.remove('astral-mode');
+    }
+  }
+  if (astralToggleLabel) astralToggleLabel.textContent = isAstralMode ? '星文字: ON' : '星文字: OFF';
+  if (astralToggleBtn) astralToggleBtn.style.background = isAstralMode ? 'var(--md-sys-color-primary-container)' : '';
+}
+
+if (astralToggleBtn) {
+  astralToggleBtn.addEventListener('click', () => {
+    isAstralMode = !isAstralMode;
+    safeStorage.setItem('neb_astral_font', isAstralMode ? 'true' : 'false');
+    updateAstralUI();
+  });
+}
+updateAstralUI();

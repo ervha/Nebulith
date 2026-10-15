@@ -1029,6 +1029,9 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       </div>
     </div>
     <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
+      <button class="theme-toggle-btn" id="astralToggleBtn" title="星石文字フォント表示切替">
+        <span id="astralToggleLabel">星文字: OFF</span>
+      </button>
       <button class="theme-toggle-btn" id="queueToggleBtn" title="未対応リクエスト・キュー">
         <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
       </button>
@@ -1245,6 +1248,18 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       <div class="modal-field">
         <div class="modal-label">語根ノート・語源・天体概念</div>
         <div class="modal-val" id="modalNotes" style="font-size: 0.9rem; color: var(--md-sys-color-on-surface-variant);">天蓋</div>
+      </div>
+
+      <!-- Enhanced: Forms Section -->
+      <div class="modal-field" id="modalFormsField" style="display: none;">
+        <div class="modal-label">主な活用形・構文表現 (Conjugations & Modals)</div>
+        <div class="modal-val" id="modalFormsList" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;"></div>
+      </div>
+
+      <!-- Enhanced: Contextual Examples Section -->
+      <div class="modal-field" id="modalExamplesField" style="display: none;">
+        <div class="modal-label">共起例文・コーパス文 (Contextual Examples) <span style="font-size:0.75rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックで翻訳ボックスへ入力)</span></div>
+        <div class="modal-val" id="modalExamplesList" style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;"></div>
       </div>
 
       <div style="display: flex; gap: 10px; margin-top: 24px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px;">
