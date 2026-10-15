@@ -14,8 +14,15 @@ import javax.swing.*
 import javax.swing.border.AbstractBorder
 import javax.swing.event.DocumentEvent
 import javax.swing.event.DocumentListener
-import javax.swing.table.DefaultTableCellRenderer
 import javax.swing.table.AbstractTableModel
+
+fun getAppFont(size: Float, bold: Boolean = false): Font {
+    val candidates = listOf("Yu Gothic UI", "Meiryo", "MS UI Gothic", "Segoe UI", "Noto Sans CJK JP", "Dialog")
+    val available = GraphicsEnvironment.getLocalGraphicsEnvironment().availableFontFamilyNames.toSet()
+    val chosen = candidates.firstOrNull { it in available } ?: "Dialog"
+    val style = if (bold) Font.BOLD else Font.PLAIN
+    return Font(chosen, style, size.toInt())
+}
 
 object M3Theme {
     val primary = Color(0x1B, 0x5E, 0xA0)
@@ -35,9 +42,11 @@ object M3Theme {
     val cardSelected = Color(0xEE, 0xF4, 0xFF)
     val gold = Color(0xC5, 0x9B, 0x27)
     val chipBg = Color(0xEB, 0xEE, 0xF5)
-    val fontBase: Font = Font("Segoe UI", Font.PLAIN, 14)
-    val fontTitle: Font = Font("Segoe UI", Font.BOLD, 18)
-    val fontSub: Font = Font("Segoe UI", Font.BOLD, 12)
+
+    fun font(size: Float, bold: Boolean = false) = getAppFont(size, bold)
+    val fontBase get() = getAppFont(14f)
+    val fontTitle get() = getAppFont(18f, bold = true)
+    val fontSub get() = getAppFont(12f, bold = true)
 }
 
 object MaterialIcons {
@@ -154,7 +163,7 @@ class WordsModel : AbstractTableModel() {
         set(value) { field = value; fireTableDataChanged() }
     override fun getRowCount() = rows.size
     override fun getColumnCount() = 3
-    override fun getColumnName(column: Int) = listOf("NRS (語根)", "日本語意味", "品詞")[column]
+    override fun getColumnName(column: Int) = listOf("語根 (NRS)", "日本語意味", "品詞")[column]
     override fun getValueAt(row: Int, column: Int): Any = when(column) {
         0 -> rows[row].nrs; 1 -> rows[row].meaningJa; else -> rows[row].pos
     }
@@ -164,6 +173,7 @@ fun JTextArea.readOnly() = apply {
     isEditable = false; lineWrap = true; wrapStyleWord = true
     background = M3Theme.cardBg
     foreground = M3Theme.onSurface
+    font = M3Theme.fontBase
     border = BorderFactory.createEmptyBorder(8, 8, 8, 8)
 }
 
@@ -252,11 +262,11 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
         val titleBox = JPanel(FlowLayout(FlowLayout.LEFT, 10, 0)).apply { isOpaque = false }
         val logoIcon = JLabel(MaterialIcons.createIcon("star", 26, M3Theme.gold))
         val titleText = JLabel("NEBULITH STUDIO").apply {
-            font = Font("Segoe UI", Font.BOLD, 20)
+            font = M3Theme.font(20f, bold = true)
             foreground = M3Theme.primary
         }
         val subText = JLabel("星石語 (Nebulith) 統合言語スタジオ").apply {
-            font = M3Theme.fontBase
+            font = M3Theme.font(14f)
             foreground = M3Theme.onSurfaceVariant
         }
         titleBox.add(logoIcon); titleBox.add(titleText); titleBox.add(subText)
@@ -277,7 +287,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             background = M3Theme.secondaryContainer
             border = BorderFactory.createEmptyBorder(3, 8, 3, 8)
         }
-        val badgeTotal = JLabel(" 1,008語 (完全一括照合) ").apply {
+        val badgeTotal = JLabel(" 1,008語 (多言語照合済) ").apply {
             font = M3Theme.fontSub
             foreground = M3Theme.onSurfaceVariant
             isOpaque = true
@@ -306,7 +316,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
         }
         val searchIcon = JLabel(MaterialIcons.createIcon("search", 20, M3Theme.onSurfaceVariant))
         query.apply {
-            font = Font("Segoe UI", Font.PLAIN, 15)
+            font = M3Theme.font(15f)
             background = M3Theme.surfaceVariant
             foreground = M3Theme.onSurface
             border = null
@@ -366,7 +376,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             rowHeight = 36
             setSelectionMode(ListSelectionModel.SINGLE_SELECTION)
             fillsViewportHeight = true
-            font = Font("Segoe UI", Font.PLAIN, 14)
+            font = M3Theme.font(14f)
             tableHeader.font = M3Theme.fontSub
             tableHeader.background = M3Theme.chipBg
             tableHeader.foreground = M3Theme.onSurfaceVariant
@@ -393,9 +403,9 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             add(tableScroll, BorderLayout.CENTER)
         }
 
-        // 3. 右側：タブパネル (Details / Editor / Corpus / Extended)
+        // 3. 右側：タブパネル (Details / Editor / Corpus)
         val tabs = JTabbedPane().apply {
-            font = M3Theme.fontBase
+            font = M3Theme.font(14f, bold = true)
             background = M3Theme.surface
         }
 
@@ -427,7 +437,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
 
         // 詳細テキストエリア
         details.apply {
-            font = Font("Segoe UI", Font.PLAIN, 15)
+            font = M3Theme.font(15f)
             lineWrap = true
             wrapStyleWord = true
         }
@@ -509,7 +519,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             )
         }
         editor.apply {
-            font = Font("Consolas", Font.PLAIN, 18)
+            font = M3Theme.font(18f)
             lineWrap = true
             wrapStyleWord = true
             border = BorderFactory.createEmptyBorder(10, 10, 10, 10)
@@ -565,7 +575,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
         // --- タブ3: 規範コーパス (Canon Corpus) ---
         val examplesList = JList(Bundle.examples.map { it.title }.toTypedArray()).apply {
             selectionMode = ListSelectionModel.SINGLE_SELECTION
-            font = Font("Segoe UI", Font.PLAIN, 14)
+            font = M3Theme.font(14f)
             fixedCellHeight = 32
             background = M3Theme.cardBg
         }
@@ -574,7 +584,7 @@ class StudioPanel : JPanel(BorderLayout(16, 16)) {
             foreground = M3Theme.primary
         }
         val translation = JTextArea().readOnly().apply {
-            font = Font("Segoe UI", Font.PLAIN, 14)
+            font = M3Theme.font(14f)
         }
         examplesList.addListSelectionListener {
             val example = Bundle.examples.getOrNull(examplesList.selectedIndex)
@@ -703,10 +713,11 @@ fun main(args: Array<String>) {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName())
     } catch (_: Exception) {}
 
-    UIManager.put("defaultFont", Font("Segoe UI", Font.PLAIN, 14))
+    val defaultAppFont = getAppFont(14f)
+    UIManager.put("defaultFont", defaultAppFont)
     val defaults = UIManager.getDefaults()
     defaults.keys().toList().filter { defaults[it] is javax.swing.plaf.FontUIResource }.forEach {
-        defaults[it] = javax.swing.plaf.FontUIResource("Segoe UI", Font.PLAIN, 14)
+        defaults[it] = javax.swing.plaf.FontUIResource(defaultAppFont)
     }
 
     if (args.contains("--self-test")) {
@@ -725,7 +736,9 @@ fun main(args: Array<String>) {
             panel.query.text = "星雲"; check(panel.editor.text == raw && panel.preview.text == raw)
             panel.query.text = ""; panel.editor.text = "Falun el vyrin."; panel.setSize(1180, 820); layoutTree(panel)
             val image = BufferedImage(1180, 820, BufferedImage.TYPE_INT_RGB)
-            val g = image.createGraphics(); panel.printAll(g); g.dispose()
+            val g = image.createGraphics()
+            g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON)
+            panel.printAll(g); g.dispose()
             val screenshot = args.getOrNull(args.indexOf("--self-test") + 1)
             if (screenshot != null) ImageIO.write(image, "png", File(screenshot))
         }
