@@ -793,10 +793,10 @@
     </div>
     <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
       <button class="theme-toggle-btn" id="queueToggleBtn" title="未対応リクエスト・キュー">
-        <span>📥</span> <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
+        <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
       </button>
       <button class="theme-toggle-btn" id="themeToggleBtn">
-        <span id="themeIcon">☀️</span> <span id="themeLabel">Light</span>
+        <span id="themeIcon"></span><span id="themeLabel">Light</span>
       </button>
     </div>
   </header>
@@ -804,16 +804,16 @@
   <!-- Navigation Tabs -->
   <nav class="tab-nav">
     <button class="tab-btn active" data-tab="lexicon">
-      <span>📖</span> 辞書・語根・文法 (1,138項目)
+      辞書・語根・文法 (1,138項目)
     </button>
     <button class="tab-btn" data-tab="translator">
-      <span>🔄</span> 相互変換・多言語アライメント (JA / EN / NEB)
+      相互変換・多言語アライメント (JA / EN / NEB)
     </button>
     <button class="tab-btn" data-tab="editor">
-      <span>✍️</span> 星石文字エディタ
+      星石文字エディタ
     </button>
     <button class="tab-btn" data-tab="corpus">
-      <span>📜</span> 例文・対訳コーパス (77例)
+      例文・対訳コーパス (77例)
     </button>
   </nav>
 
@@ -833,12 +833,12 @@
     <div class="tab-content active" id="tab-lexicon">
       <div class="search-panel">
         <div class="search-input-wrap">
-          <span class="search-icon">🔍</span>
+          <span class="search-icon"></span>
           <input type="text" class="search-input" id="lexSearchInput" placeholder="ローマ字、日本語、星石文字、英語で検索... (クリックで詳細モーダル)">
         </div>
         <div class="filter-chips" id="filterChips">
           <button class="chip-btn active" data-pos="ALL">すべて (1,138)</button>
-          <button class="chip-btn" data-pos="FAV">★ お気に入り (<span id="favCount">0</span>)</button>
+          <button class="chip-btn" data-pos="FAV">お気に入り (<span id="favCount">0</span>)</button>
           <button class="chip-btn" data-pos="HISTORY">閲覧履歴</button>
           <button class="chip-btn" data-pos="名">名詞 (noun)</button>
           <button class="chip-btn" data-pos="動">動詞 (verb)</button>
@@ -866,9 +866,9 @@
         <div style="display: flex; align-items: center; gap: 8px;">
           <label style="font-size: 0.82rem; font-weight: 600; color: var(--md-sys-color-outline);">入力:</label>
           <select class="sample-selector" id="srcLangSelect">
-            <option value="ja" selected>🇯🇵 日本語 (JA)</option>
-            <option value="en">🇬🇧 英語 (EN)</option>
-            <option value="neb">🌌 星石語 (NEB)</option>
+            <option value="ja" selected> 日本語 (JA)</option>
+            <option value="en"> 英語 (EN)</option>
+            <option value="neb"> 星石語 (NEB)</option>
           </select>
         </div>
         <button class="swap-btn" id="swapTransBtn">
@@ -877,9 +877,9 @@
         <div style="display: flex; align-items: center; gap: 8px;">
           <label style="font-size: 0.82rem; font-weight: 600; color: var(--md-sys-color-outline);">出力:</label>
           <select class="sample-selector" id="dstLangSelect">
-            <option value="neb" selected>🌌 星石語 (NEB)</option>
-            <option value="ja">🇯🇵 日本語 (JA)</option>
-            <option value="en">🇬🇧 英語 (EN)</option>
+            <option value="neb" selected> 星石語 (NEB)</option>
+            <option value="ja"> 日本語 (JA)</option>
+            <option value="en"> 英語 (EN)</option>
           </select>
         </div>
       </div>
@@ -921,12 +921,12 @@
               <div id="transAlignmentBox" class="align-box"></div>
               <details style="margin:12px 0"><summary>対応する動詞・表現の範囲</summary><div id="translationCoverage"></div></details>
               <div id="transMissingBox" class="missing-box" style="display: none;">
-                <span class="missing-text">⚠️ この文章の文型は現在未対応です</span>
-                <button class="record-btn" id="recordMissingTransBtn">📥 未対応文章として記録する</button>
+                <span class="missing-text">この文章の文型は現在未対応です</span>
+                <button class="record-btn" id="recordMissingTransBtn">未対応文章として記録する</button>
               </div>
             </div>
             <div class="trans-notice" id="transNotice">
-              <span>ℹ️</span> 完全オフライン。日本語の語句・意味候補を読み取り、Nebulithの文法を検証して確定します。
+              完全オフライン。日本語の語句・意味候補を読み取り、Nebulithの文法を検証して確定します。
             </div>
           </div>
         </div>
@@ -939,8 +939,8 @@
         <div class="editor-controls">
           <span style="font-weight: 600; font-size: 0.95rem;">星石文字リアルタイムエディタ (Version 2.5)</span>
           <div class="editor-actions">
-            <button class="tool-btn" id="downloadNebBtn">📥 .neb 保存</button>
-            <button class="tool-btn" id="copyEditorBtn">📋 コピー</button>
+            <button class="tool-btn" id="downloadNebBtn">.neb 保存</button>
+            <button class="tool-btn" id="copyEditorBtn">コピー</button>
             <button class="tool-btn" id="clearEditorBtn">消去</button>
           </div>
           <div class="slider-wrap">
@@ -978,7 +978,7 @@
   <!-- Word Detail Modal -->
   <div class="modal-backdrop" id="wordModal">
     <div class="modal-box">
-      <button class="modal-close-btn" id="modalCloseBtn">✕</button>
+      <button class="modal-close-btn" id="modalCloseBtn"></button>
       <div class="modal-glyph-large" id="modalGlyph">celen</div>
       
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
@@ -987,7 +987,7 @@
           <span id="modalPos" class="badge-chip">名詞</span>
           <span id="modalId" style="font-size: 0.75rem; color: var(--md-sys-color-outline);">#1</span>
         </div>
-        <button class="tool-btn" id="modalFavToggle">★ お気に入りに追加</button>
+        <button class="tool-btn" id="modalFavToggle">お気に入りに追加</button>
       </div>
 
       <div class="modal-field">
@@ -1020,9 +1020,9 @@
   <!-- Missing / Unsupported Queue Manager Modal -->
   <div class="modal-backdrop" id="queueModal">
     <div class="modal-box">
-      <button class="modal-close-btn" id="queueCloseBtn">✕</button>
+      <button class="modal-close-btn" id="queueCloseBtn"></button>
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
-        <span style="font-size: 1.5rem;">📥</span>
+        
         <h2 style="font-size: 1.3rem; font-weight: 600;">未対応リクエスト・キュー回収</h2>
       </div>
       <p style="font-size: 0.82rem; color: var(--md-sys-color-on-surface-variant); margin-bottom: 14px;">
@@ -1031,7 +1031,7 @@
 
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span id="queueSummaryText" style="font-size: 0.88rem; font-weight: 600;">記録件数: 0 件</span>
-        <button class="tool-btn" id="clearAllQueueBtn" style="color: var(--md-sys-color-error);">🗑️ 全て消去</button>
+        <button class="tool-btn" id="clearAllQueueBtn" style="color: var(--md-sys-color-error);">全て消去</button>
       </div>
 
       <label>未対応JSONを取込 <input type="file" id="importQueueFiles" accept=".json,application/json" multiple></label>
@@ -1041,8 +1041,8 @@
       <div class="queue-list" id="queueList"></div>
 
       <div style="display: flex; gap: 10px; margin-top: 16px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px; flex-wrap: wrap;">
-        <button class="record-btn" id="exportQueueJsonBtn">💾 JSONファイルで回収 (.json)</button>
-        <button class="tool-btn" id="copyQueueJsonBtn">📋 JSONをコピー</button>
+        <button class="record-btn" id="exportQueueJsonBtn">JSONファイルで回収 (.json)</button>
+        <button class="tool-btn" id="copyQueueJsonBtn">JSONをコピー</button>
       </div>
     </div>
   </div>

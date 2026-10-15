@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sha256": {
-    "tools/build_web_studio.py": "53e69a21cf2493448696d9a73f842c8da4b4f896959d38fb3213c49091c8f552",
+    "tools/build_web_studio.py": "b034f45bec94b236e3686027235b4671de24c5715db3fafc0896d9e7d619ec40",
     "tools/studio_dictionary.py": "96f21981078a2d32b091b9927f70b571074fbad71f26c7fd485cc5faa463debe",
     "data/lexicon.json": "1be239b474d39efadd2c9c2526cafbb50c1793efb25cf90d446ade882960322e",
     "data/grammar_dictionary.json": "b008b1d98a1212353d33367fd153f6beb9eddc7d45aaf9c6d16ad8befef3987d",
@@ -14,12 +14,12 @@
     "data/translation_input_fixtures.json": "7a4c29658f568f4d50e8e17d95478f6d470ffc319a8c22f60e10be88b4344a5e",
     "data/corpus_rules.json": "c3353dc0cd1b0f22e599aac127921d917ff10b77865b288464476b61ab9d444a",
     "fonts/font_b64.txt": "21c3ef32a2ebba0fc412c454527f86d2ce310a72911967f13fb3ee1741097d4c",
-    "web/app.js": "a82f775a045f704da0547c952ad3fa37af70f2e0c622a8736ace8427a3809eb6",
+    "web/app.js": "9cbcb1e6bd01a2bdbd4f94e96eede7896a9d9b6626328e1128588bbb6a9c92e8",
     "web/workspace.js": "9c2c41316fcc9238f66e2bcb699cd89ea5e2122c742a27dc6b24fccfdc1f2680",
     "web/incremental.js": "d45ad0c4e852ed5be6d9a3e8bbc5e67ddb9e0b551b00aea28ed5421525d188d0",
     "web/data.js": "5a415d96ddb1307a6f9f9314b6c0970a0873937e7b75fc90e992e0352f12aa48",
-    "web/index.html": "8e908e565ef57f0463bc7a6e01b58c42ac687921f58cf252bba912f767449875",
-    "web/standalone.html": "cc71aae76e0850cc3f696dcfabaa1c7c5e24688cae0205c32ecb35b918007f5b",
+    "web/index.html": "4451c64c04f30db8a8f3d244f50363baf6899949e498d7baab3e9398953d203b",
+    "web/standalone.html": "dc902d00c3e62feb150e411b6bd9f200707191952735f76b8f1ef7c8a74fc386",
     "web/manifest.json": "66584246aa34d738552f66254eb2d155f9231546320ae72b9cca6a3b48b77384",
     "web/icon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35",
     "web/favicon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35"

@@ -793,10 +793,10 @@
     </div>
     <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
       <button class="theme-toggle-btn" id="queueToggleBtn" title="未対応リクエスト・キュー">
-        <span>📥</span> <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
+        <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
       </button>
       <button class="theme-toggle-btn" id="themeToggleBtn">
-        <span id="themeIcon">☀️</span> <span id="themeLabel">Light</span>
+        <span id="themeIcon"></span><span id="themeLabel">Light</span>
       </button>
     </div>
   </header>
@@ -804,16 +804,16 @@
   <!-- Navigation Tabs -->
   <nav class="tab-nav">
     <button class="tab-btn active" data-tab="lexicon">
-      <span>📖</span> 辞書・語根・文法 (1,138項目)
+      辞書・語根・文法 (1,138項目)
     </button>
     <button class="tab-btn" data-tab="translator">
-      <span>🔄</span> 相互変換・多言語アライメント (JA / EN / NEB)
+      相互変換・多言語アライメント (JA / EN / NEB)
     </button>
     <button class="tab-btn" data-tab="editor">
-      <span>✍️</span> 星石文字エディタ
+      星石文字エディタ
     </button>
     <button class="tab-btn" data-tab="corpus">
-      <span>📜</span> 例文・対訳コーパス (77例)
+      例文・対訳コーパス (77例)
     </button>
   </nav>
 
@@ -833,12 +833,12 @@
     <div class="tab-content active" id="tab-lexicon">
       <div class="search-panel">
         <div class="search-input-wrap">
-          <span class="search-icon">🔍</span>
+          <span class="search-icon"></span>
           <input type="text" class="search-input" id="lexSearchInput" placeholder="ローマ字、日本語、星石文字、英語で検索... (クリックで詳細モーダル)">
         </div>
         <div class="filter-chips" id="filterChips">
           <button class="chip-btn active" data-pos="ALL">すべて (1,138)</button>
-          <button class="chip-btn" data-pos="FAV">★ お気に入り (<span id="favCount">0</span>)</button>
+          <button class="chip-btn" data-pos="FAV">お気に入り (<span id="favCount">0</span>)</button>
           <button class="chip-btn" data-pos="HISTORY">閲覧履歴</button>
           <button class="chip-btn" data-pos="名">名詞 (noun)</button>
           <button class="chip-btn" data-pos="動">動詞 (verb)</button>
@@ -866,9 +866,9 @@
         <div style="display: flex; align-items: center; gap: 8px;">
           <label style="font-size: 0.82rem; font-weight: 600; color: var(--md-sys-color-outline);">入力:</label>
           <select class="sample-selector" id="srcLangSelect">
-            <option value="ja" selected>🇯🇵 日本語 (JA)</option>
-            <option value="en">🇬🇧 英語 (EN)</option>
-            <option value="neb">🌌 星石語 (NEB)</option>
+            <option value="ja" selected> 日本語 (JA)</option>
+            <option value="en"> 英語 (EN)</option>
+            <option value="neb"> 星石語 (NEB)</option>
           </select>
         </div>
         <button class="swap-btn" id="swapTransBtn">
@@ -877,9 +877,9 @@
         <div style="display: flex; align-items: center; gap: 8px;">
           <label style="font-size: 0.82rem; font-weight: 600; color: var(--md-sys-color-outline);">出力:</label>
           <select class="sample-selector" id="dstLangSelect">
-            <option value="neb" selected>🌌 星石語 (NEB)</option>
-            <option value="ja">🇯🇵 日本語 (JA)</option>
-            <option value="en">🇬🇧 英語 (EN)</option>
+            <option value="neb" selected> 星石語 (NEB)</option>
+            <option value="ja"> 日本語 (JA)</option>
+            <option value="en"> 英語 (EN)</option>
           </select>
         </div>
       </div>
@@ -921,12 +921,12 @@
               <div id="transAlignmentBox" class="align-box"></div>
               <details style="margin:12px 0"><summary>対応する動詞・表現の範囲</summary><div id="translationCoverage"></div></details>
               <div id="transMissingBox" class="missing-box" style="display: none;">
-                <span class="missing-text">⚠️ この文章の文型は現在未対応です</span>
-                <button class="record-btn" id="recordMissingTransBtn">📥 未対応文章として記録する</button>
+                <span class="missing-text">この文章の文型は現在未対応です</span>
+                <button class="record-btn" id="recordMissingTransBtn">未対応文章として記録する</button>
               </div>
             </div>
             <div class="trans-notice" id="transNotice">
-              <span>ℹ️</span> 完全オフライン。日本語の語句・意味候補を読み取り、Nebulithの文法を検証して確定します。
+              完全オフライン。日本語の語句・意味候補を読み取り、Nebulithの文法を検証して確定します。
             </div>
           </div>
         </div>
@@ -939,8 +939,8 @@
         <div class="editor-controls">
           <span style="font-weight: 600; font-size: 0.95rem;">星石文字リアルタイムエディタ (Version 2.5)</span>
           <div class="editor-actions">
-            <button class="tool-btn" id="downloadNebBtn">📥 .neb 保存</button>
-            <button class="tool-btn" id="copyEditorBtn">📋 コピー</button>
+            <button class="tool-btn" id="downloadNebBtn">.neb 保存</button>
+            <button class="tool-btn" id="copyEditorBtn">コピー</button>
             <button class="tool-btn" id="clearEditorBtn">消去</button>
           </div>
           <div class="slider-wrap">
@@ -978,7 +978,7 @@
   <!-- Word Detail Modal -->
   <div class="modal-backdrop" id="wordModal">
     <div class="modal-box">
-      <button class="modal-close-btn" id="modalCloseBtn">✕</button>
+      <button class="modal-close-btn" id="modalCloseBtn"></button>
       <div class="modal-glyph-large" id="modalGlyph">celen</div>
       
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
@@ -987,7 +987,7 @@
           <span id="modalPos" class="badge-chip">名詞</span>
           <span id="modalId" style="font-size: 0.75rem; color: var(--md-sys-color-outline);">#1</span>
         </div>
-        <button class="tool-btn" id="modalFavToggle">★ お気に入りに追加</button>
+        <button class="tool-btn" id="modalFavToggle">お気に入りに追加</button>
       </div>
 
       <div class="modal-field">
@@ -1020,9 +1020,9 @@
   <!-- Missing / Unsupported Queue Manager Modal -->
   <div class="modal-backdrop" id="queueModal">
     <div class="modal-box">
-      <button class="modal-close-btn" id="queueCloseBtn">✕</button>
+      <button class="modal-close-btn" id="queueCloseBtn"></button>
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
-        <span style="font-size: 1.5rem;">📥</span>
+        
         <h2 style="font-size: 1.3rem; font-weight: 600;">未対応リクエスト・キュー回収</h2>
       </div>
       <p style="font-size: 0.82rem; color: var(--md-sys-color-on-surface-variant); margin-bottom: 14px;">
@@ -1031,7 +1031,7 @@
 
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span id="queueSummaryText" style="font-size: 0.88rem; font-weight: 600;">記録件数: 0 件</span>
-        <button class="tool-btn" id="clearAllQueueBtn" style="color: var(--md-sys-color-error);">🗑️ 全て消去</button>
+        <button class="tool-btn" id="clearAllQueueBtn" style="color: var(--md-sys-color-error);">全て消去</button>
       </div>
 
       <label>未対応JSONを取込 <input type="file" id="importQueueFiles" accept=".json,application/json" multiple></label>
@@ -1041,8 +1041,8 @@
       <div class="queue-list" id="queueList"></div>
 
       <div style="display: flex; gap: 10px; margin-top: 16px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px; flex-wrap: wrap;">
-        <button class="record-btn" id="exportQueueJsonBtn">💾 JSONファイルで回収 (.json)</button>
-        <button class="tool-btn" id="copyQueueJsonBtn">📋 JSONをコピー</button>
+        <button class="record-btn" id="exportQueueJsonBtn">JSONファイルで回収 (.json)</button>
+        <button class="tool-btn" id="copyQueueJsonBtn">JSONをコピー</button>
       </div>
     </div>
   </div>
@@ -1802,10 +1802,10 @@ function updateThemeUI() {
   const icon = document.getElementById('themeIcon');
   const label = document.getElementById('themeLabel');
   if (currentTheme === 'dark') {
-    icon.textContent = '☀️';
+    icon.textContent = '';
     label.textContent = 'Light';
   } else {
-    icon.textContent = '🌙';
+    icon.textContent = '';
     label.textContent = 'Dark';
   }
 }
@@ -1884,13 +1884,13 @@ function renderLexicon() {
     const alreadyInQueue = feedbackQueue.some(item => item.type === 'word' && item.text.toLowerCase() === query);
     wordGrid.innerHTML = `
       <div class="empty-state">
-        <div style="font-size: 2.2rem;">🔍</div>
+        
         <div style="font-size: 1.1rem; font-weight: 600;">「${escapeHtml(query)}」に一致する単語が見つかりませんでした</div>
         <p style="font-size: 0.85rem; color: var(--md-sys-color-on-surface-variant); max-width: 480px;">
           日本語・英語・星石文字での検索に対応していなかった語彙を内部キューに記録し、今後の辞書アップデートで回収・追加できます。
         </p>
         <button class="record-btn" id="recordMissingWordBtn" ${alreadyInQueue ? 'disabled style="opacity:0.7;"' : ''}>
-          <span>${alreadyInQueue ? '✅ キューに記録済み' : '📥 この未対応語を記録する'}</span>
+          <span>${alreadyInQueue ? 'キューに記録済み' : 'この未対応語を記録する'}</span>
         </button>
       </div>
     `;
@@ -1898,7 +1898,7 @@ function renderLexicon() {
     if (recBtn && !alreadyInQueue) {
       recBtn.addEventListener('click', () => {
         if(!addFeedbackItem('word', 'search', query, '辞書検索0件ヒット'))return;
-        recBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
+        recBtn.innerHTML = '<span>キューに記録しました</span>';
         recBtn.disabled = true;
         recBtn.style.opacity = '0.7';
       });
@@ -1913,7 +1913,7 @@ function renderLexicon() {
     const isFav = favorites.has(w.r);
     return `
       <div class="word-card" onclick="openWordModal('${w.r}')">
-        <button class="card-fav-btn ${isFav ? 'active' : ''}" onclick="toggleFav(event, '${w.r}')">★</button>
+        <button class="card-fav-btn ${isFav ? 'active' : ''}" onclick="toggleFav(event, '${w.r}')"></button>
         <div>
           <div class="word-card-top">
             <span class="word-roman">${w.r}</span>
@@ -1967,10 +1967,10 @@ window.openWordModal = function(roman) {
 function updateModalFavButton() {
   const btn = document.getElementById('modalFavToggle');
   if (activeModalWord && favorites.has(activeModalWord.r)) {
-    btn.textContent = '★ お気に入り解除';
+    btn.textContent = 'お気に入り解除';
     btn.style.color = '#fbbc04';
   } else {
-    btn.textContent = '☆ お気に入りに追加';
+    btn.textContent = 'お気に入りに追加';
     btn.style.color = '';
   }
 }
@@ -2323,7 +2323,7 @@ function doTranslate() {
     transTagsList.innerHTML = '';
     if (transAlignmentBox) transAlignmentBox.innerHTML = '';
     if (transMissingBox) transMissingBox.style.display = 'none';
-    transNotice.innerHTML = '<span>ℹ️</span> 入力すると即座に文法解析・翻訳されます。';
+    transNotice.innerHTML = '入力すると即座に文法解析・翻訳されます。';
     return;
   }
 
@@ -2348,7 +2348,7 @@ function doTranslate() {
       renderAlignments(item.alignment || []);
       if (transMissingBox) transMissingBox.style.display = 'none';
       copyDstBtn.disabled = false; outputFingerprint = transInput.value + '|' + srcLang + '|' + dstLang;
-      transNotice.innerHTML = '<span>✨</span> 長文段落・確定照合完了';
+      transNotice.innerHTML = '長文段落・確定照合完了';
       return;
     }
   }
@@ -2383,7 +2383,7 @@ function doTranslate() {
     transTagsList.innerHTML = tags.map(t => `<span class="trans-structure-tag">${t}</span>`).join('');
     renderAlignments(combinedAlignments);
     if (transMissingBox) transMissingBox.style.display = 'none';
-    transNotice.innerHTML = `<span>✨</span> 長文・構文解析完了 (${results.length}文 確定翻訳)`;
+    transNotice.innerHTML = `長文・構文解析完了 (${results.length}文 確定翻訳)`;
   } else {
     transOutputText.textContent = results.join(' ');
     transOutputGlyph.textContent = '';
@@ -2395,18 +2395,18 @@ function doTranslate() {
       transMissingBox.style.display = 'flex';
       const already = feedbackQueue.some(i => i.type === 'sentence' && i.text.toLowerCase() === text.toLowerCase());
       if (recordMissingTransBtn) {
-        recordMissingTransBtn.innerHTML = already ? '<span>✅ キューに記録済み</span>' : '<span>📥 未対応文章として記録する</span>';
+        recordMissingTransBtn.innerHTML = already ? '<span>キューに記録済み</span>' : '<span>未対応文章として記録する</span>';
         recordMissingTransBtn.disabled = already;
         recordMissingTransBtn.style.opacity = already ? '0.7' : '1';
         recordMissingTransBtn.onclick = () => {
           if(!addFeedbackItem('sentence', srcLang, text, '未確定構文・未対応文章'))return;
-          recordMissingTransBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
+          recordMissingTransBtn.innerHTML = '<span>キューに記録しました</span>';
           recordMissingTransBtn.disabled = true;
           recordMissingTransBtn.style.opacity = '0.7';
         };
       }
     }
-    transNotice.innerHTML = '<span>⚠️</span> 一部の文章が現在登録・検証済みの文型外です。下のボタンから未対応キューに記録できます。';
+    transNotice.innerHTML = '一部の文章が現在登録・検証済みの文型外です。下のボタンから未対応キューに記録できます。';
   }
 }
 
@@ -2424,7 +2424,7 @@ function renderAlignments(alignments) {
     return `
       <div class="align-chip">
         <span class="align-src">${escapeHtml(srcWord)}</span>
-        <span class="align-arrow">➔</span>
+        <span class="align-arrow"></span>
         <span class="align-dst">${escapeHtml(a.dst)}</span>
         <span class="align-role">${escapeHtml(a.role)}</span>
       </div>
@@ -2432,7 +2432,7 @@ function renderAlignments(alignments) {
   }).join('');
 
   transAlignmentBox.innerHTML = `
-    <div class="align-header">🔗 原文とNebulithの語句対応</div>
+    <div class="align-header">原文とNebulithの語句対応</div>
     <p>語順が変わるため、対応する語句を並べて表示します。活用・文法標識は複数語に対応することがあります。</p>
     <div class="align-list">${chipsHtml}</div>
   `;
@@ -2585,7 +2585,7 @@ function renderQueueList() {
   const statusFilter=document.getElementById('queueStatusFilter').value;
   const shown=feedbackQueue.filter(item=>!statusFilter||statusFilter==='all'||item.status===statusFilter);
   queueList.innerHTML = shown.map(item => {
-    const typeLabel = item.type === 'word' ? '📖 単語検索' : '🔄 文章翻訳';
+    const typeLabel = item.type === 'word' ? '単語検索' : '文章翻訳';
     const langLabel = item.lang.toUpperCase();
     const dateStr = item.createdAt ? new Date(item.createdAt).toLocaleString('ja-JP') : '';
     const countBadge = item.count > 1 ? `<span class="queue-badge" style="margin-left: 6px;">×${item.count}</span>` : '';
@@ -2602,7 +2602,7 @@ function renderQueueList() {
           <label>原因 <select onchange="setQueueField('${item.id}','cause',this.value)">${NebulithWorkspace.causes.map(v=>`<option value="${v}" ${v===item.cause?'selected':''}>${queueCauseLabels[v]}</option>`).join('')}</select></label>
           <div class="queue-card-meta">元記録：${item.origins.length}件</div>
         </div>
-        <button class="tool-btn" style="color: var(--md-sys-color-error); padding: 4px 8px;" onclick="deleteQueueItem('${item.id}')">✕</button>
+        <button class="tool-btn" style="color: var(--md-sys-color-error); padding: 4px 8px;" onclick="deleteQueueItem('${item.id}')"></button>
       </div>
     `;
   }).join('');
@@ -2760,8 +2760,8 @@ function renderCorpus() {
       <div class="corpus-badge">${escapeHtml(c.badge)} [#${escapeHtml(c.id)}]</div>
       <div class="corpus-glyph">${escapeHtml(c.neb)}</div>
       <div class="corpus-neb">${escapeHtml(c.neb)}</div>
-      <div class="corpus-ja">🇯🇵 ${escapeHtml(c.ja)}</div>
-      ${c.en?`<div class="corpus-en">🇬🇧 ${escapeHtml(c.en)}</div>`:''}
+      <div class="corpus-ja"> ${escapeHtml(c.ja)}</div>
+      ${c.en?`<div class="corpus-en"> ${escapeHtml(c.en)}</div>`:''}
       ${c.lit?`<div class="corpus-lit">${escapeHtml(c.lit)}</div>`:''}
     </div>`).join(''):'<p>一致する例文がありません。</p>';
 }
