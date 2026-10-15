@@ -144,6 +144,19 @@
       display: flex;
       align-items: center;
       gap: 6px;
+      transition: background var(--transition-fast);
+    }
+    .theme-toggle-btn:hover {
+      background: var(--md-sys-color-surface-container-highest);
+    }
+
+    .queue-badge {
+      background: var(--md-sys-color-primary);
+      color: var(--md-sys-color-on-primary);
+      padding: 2px 7px;
+      border-radius: var(--radius-full);
+      font-size: 0.72rem;
+      font-weight: 700;
     }
 
     /* Navigation Bar */
@@ -316,6 +329,39 @@
     .word-meaning { font-size: 0.95rem; color: var(--md-sys-color-on-surface); }
     .word-ipa { font-size: 0.78rem; color: var(--md-sys-color-outline); font-family: monospace; }
 
+    /* Empty state */
+    .empty-state {
+      grid-column: 1 / -1;
+      background: var(--md-sys-color-surface-container);
+      border: 1px dashed var(--md-sys-color-outline-variant);
+      border-radius: var(--radius-lg);
+      padding: 36px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .record-btn {
+      background: var(--md-sys-color-primary-container);
+      color: var(--md-sys-color-on-primary-container);
+      border: 1px solid var(--md-sys-color-primary);
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background var(--transition-fast);
+    }
+    .record-btn:hover {
+      background: var(--md-sys-color-primary);
+      color: var(--md-sys-color-on-primary);
+    }
+
     /* Detail Modal */
     .modal-backdrop {
       position: fixed;
@@ -380,6 +426,47 @@
       margin-bottom: 4px;
     }
     .modal-val { font-size: 1.05rem; color: var(--md-sys-color-on-surface); }
+
+    /* Queue Modal Styles */
+    .queue-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 50vh;
+      overflow-y: auto;
+      margin: 16px 0;
+    }
+    .queue-card {
+      background: var(--md-sys-color-surface-container-high);
+      border: 1px solid var(--md-sys-color-outline-variant);
+      border-radius: var(--radius-md);
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .queue-card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+    }
+    .queue-card-tag {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--md-sys-color-primary);
+    }
+    .queue-card-text {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--md-sys-color-on-surface);
+      word-break: break-all;
+    }
+    .queue-card-meta {
+      font-size: 0.75rem;
+      color: var(--md-sys-color-outline);
+    }
 
     /* Translation Panel */
     .trans-container {
@@ -515,6 +602,26 @@
       background: var(--md-sys-color-surface-container-highest);
       color: var(--md-sys-color-on-surface-variant);
       border-radius: var(--radius-full);
+    }
+
+    .missing-box {
+      margin-top: 14px;
+      padding: 12px 16px;
+      background: var(--md-sys-color-surface-container-high);
+      border: 1px dashed var(--md-sys-color-error);
+      border-radius: var(--radius-md);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .missing-text {
+      font-size: 0.85rem;
+      color: var(--md-sys-color-error);
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
 
     .trans-notice {
@@ -684,7 +791,10 @@
         <div class="brand-sub">星石語 統合辞書・完全オフライン多構文対訳・フォントスタジオ</div>
       </div>
     </div>
-    <div class="header-actions">
+    <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
+      <button class="theme-toggle-btn" id="queueToggleBtn" title="未対応リクエスト・キュー">
+        <span>📥</span> <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
+      </button>
       <button class="theme-toggle-btn" id="themeToggleBtn">
         <span id="themeIcon">☀️</span> <span id="themeLabel">Light</span>
       </button>
@@ -807,6 +917,10 @@
               <div class="trans-result-text" id="transOutputText">ここに訳文が表示されます</div>
               <div class="trans-result-glyph" id="transOutputGlyph"></div>
               <div id="transAlignmentBox" class="align-box"></div>
+              <div id="transMissingBox" class="missing-box" style="display: none;">
+                <span class="missing-text">⚠️ この文章の文型は現在未対応です</span>
+                <button class="record-btn" id="recordMissingTransBtn">📥 未対応文章として記録する</button>
+              </div>
             </div>
             <div class="trans-notice" id="transNotice">
               <span>ℹ️</span> 外部AI・通信ゼロ。文法規則（VSO・格助詞・条件節zen・奪格比較va）と辞書で確定変換します。
@@ -898,6 +1012,32 @@
     </div>
   </div>
 
+  <!-- Missing / Unsupported Queue Manager Modal -->
+  <div class="modal-backdrop" id="queueModal">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="queueCloseBtn">✕</button>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+        <span style="font-size: 1.5rem;">📥</span>
+        <h2 style="font-size: 1.3rem; font-weight: 600;">未対応リクエスト・キュー回収</h2>
+      </div>
+      <p style="font-size: 0.82rem; color: var(--md-sys-color-on-surface-variant); margin-bottom: 14px;">
+        辞書検索や文章翻訳で未対応だった単語・構文を記録したキューです。JSONファイルとして一括回収（エクスポート）し、語彙・構文の拡充開発にそのまま活用できます。
+      </p>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span id="queueSummaryText" style="font-size: 0.88rem; font-weight: 600;">記録件数: 0 件</span>
+        <button class="tool-btn" id="clearAllQueueBtn" style="color: var(--md-sys-color-error);">🗑️ 全て消去</button>
+      </div>
+
+      <div class="queue-list" id="queueList"></div>
+
+      <div style="display: flex; gap: 10px; margin-top: 16px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px; flex-wrap: wrap;">
+        <button class="record-btn" id="exportQueueJsonBtn">💾 JSONファイルで回収 (.json)</button>
+        <button class="tool-btn" id="copyQueueJsonBtn">📋 JSONをコピー</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer class="app-footer">
     Nebulith Project &bull; Language Version 23.5 &bull; TrueType Font Version 2.5 &bull; Standalone PWA
@@ -910,7 +1050,7 @@ const VOCAB = [{"id": 1, "r": "celen", "p": "名", "m": "空、天蓋、蒼穹�
 const CANON = [{"id": "aphorism", "neb": "Relen el vyran ia tolst en sente. Tor poran el havel, falun el vyr.", "ja": "真理は万物の礎である。時が進んでも、星は輝く。", "lit": "テクスト1：星辰箴言"}, {"id": "observation", "neb": "Fe vyrelcor el vyrelor uo vyrelar to falden. Fe falunast el vyr syvan uo celvan. Fe revyrel el corval en celmon.", "ja": "天文学者は天文台にて東方を定期観測した。天球で新しい星が輝き始めた。暗黒星雲の重心が観測された。", "lit": "テクスト2：天文台の日誌"}, {"id": "dialogue-a1", "neb": "Falun el vyrin. Poran el taas to kauo ka?", "ja": "星々が輝きます。あなたはどこへ歩きますか。", "lit": "テクスト3：対話A（導入）"}, {"id": "dialogue-b", "neb": "Poran el mi to govan en cynor. Nerancor el mi ia nyrat uo nerar.", "ja": "私は友の家へ歩きます。私は普段、食堂で主食を食べます。", "lit": "テクスト3：対話B"}, {"id": "dialogue-a2", "neb": "Relen el laris en taas ia sirin. Poran el mi to falden.", "ja": "あなたの軌道は穏やかです。私は東へ歩きます。", "lit": "テクスト3：対話A（応答）"}, {"id": "usage-present", "neb": "Falun el vyr.", "ja": "星は輝く。", "lit": "用例：present"}, {"id": "usage-past", "neb": "Fe falun el vyr.", "ja": "星は輝いた。", "lit": "用例：past"}, {"id": "usage-future", "neb": "Se falun el vyr.", "ja": "星は輝くだろう。", "lit": "用例：future"}, {"id": "usage-progress", "neb": "Di falun el vyr.", "ja": "星は輝いている。", "lit": "用例：progress"}, {"id": "usage-negative", "neb": "Ne falun el vyr.", "ja": "星は輝かない。", "lit": "用例：negative"}, {"id": "usage-question", "neb": "Falun el vyr ka?", "ja": "星は輝くか。", "lit": "用例：question"}, {"id": "usage-inceptive", "neb": "Falunast el vyr.", "ja": "星は輝き始める。", "lit": "用例：inceptive"}, {"id": "usage-repeated", "neb": "Faluncor el vyr.", "ja": "星は繰り返し輝く。", "lit": "用例：repeated"}, {"id": "usage-walk", "neb": "Poran el mi to govan.", "ja": "私は家へ歩く。", "lit": "用例：walk"}, {"id": "usage-walk-past", "neb": "Fe poran el mi to govan.", "ja": "私は家へ歩いた。", "lit": "用例：walk-past"}, {"id": "usage-walk-future", "neb": "Se poran el mi to govan.", "ja": "私は家へ歩くだろう。", "lit": "用例：walk-future"}, {"id": "usage-walk-progress", "neb": "Di poran el mi to govan.", "ja": "私は家へ歩いている。", "lit": "用例：walk-progress"}, {"id": "usage-walk-negative", "neb": "Ne poran el mi to govan.", "ja": "私は家へ歩かない。", "lit": "用例：walk-negative"}, {"id": "usage-eat", "neb": "Neran el mi ia nyrat.", "ja": "私は主食を食べる。", "lit": "用例：eat"}, {"id": "usage-eat-place", "neb": "Neran el mi ia nyrat uo nerar.", "ja": "私は食堂で主食を食べる。", "lit": "用例：eat-place"}, {"id": "usage-eat-repeated", "neb": "Nerancor el mi ia nyrat.", "ja": "私は普段、主食を食べる。", "lit": "用例：eat-repeated"}, {"id": "usage-observe", "neb": "Vyrel el vyrelor ia vyr uo vyrelar.", "ja": "天文学者は天文台で星を観測する。", "lit": "用例：observe"}, {"id": "usage-observe-past", "neb": "Fe vyrel el vyrelor ia vyr.", "ja": "天文学者は星を観測した。", "lit": "用例：observe-past"}, {"id": "usage-passive", "neb": "Revyrel el vyr de vyrelor.", "ja": "星は天文学者によって観測される。", "lit": "用例：passive"}, {"id": "usage-passive-past", "neb": "Fe revyrel el vyr de vyrelor.", "ja": "星は天文学者によって観測された。", "lit": "用例：passive-past"}, {"id": "usage-copula", "neb": "Relen el mi ia vyrelor.", "ja": "私は天文学者である。", "lit": "用例：copula"}, {"id": "usage-conditional", "neb": "Sen falun el vyr, poran el mi to govan.", "ja": "星が輝けば、私は家へ歩く。", "lit": "用例：conditional"}, {"id": "usage-reason", "neb": "Zen falun el vyr, vyrel el mi ia vyr.", "ja": "星が輝くので、私は星を観測する。", "lit": "用例：reason"}, {"id": "usage-time", "neb": "Hav falun el vyr, vyrel el mi ia vyr.", "ja": "星が輝くとき、私は星を観測する。", "lit": "用例：time"}, {"id": "usage-concession", "neb": "Tor ne falun el vyr, poran el mi to govan.", "ja": "星が輝かなくても、私は家へ歩く。", "lit": "用例：concession"}];
 const EXT_SENTENCES = [{"id": "EXT-01", "category": "emotion_affection", "japanese": "私はあなたが好きです。", "japanese_variants": ["私はあなたが好き。", "私はあなたが好きだ。", "私はあなたが好きです。", "私はあなたを愛しています。", "私はあなたを愛している。", "私はあなたを愛します。", "私はあなたを愛する。"], "nebulith": "Cynel el mi ia ti.", "literal": "愛する [主格] 私 [対格] あなた", "structure": "VSO (Cynel + el mi + ia ti)", "english": "I like you.", "english_variants": ["I like you.", "I love you.", "I really like you."], "alignment": [{"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)", "meaning": "私 (I)"}, {"src": "あなたが", "src_en": "you", "dst": "ia ti", "role": "対格 (Object)", "meaning": "あなた (you)"}, {"src": "好きだ", "src_en": "like / love", "dst": "Cynel", "role": "述語動詞 (Verb)", "meaning": "愛する・好む (love/like)"}]}, {"id": "EXT-02", "category": "emotion_affection_adj", "japanese": "私は美しい星が好きです。", "japanese_variants": ["私は美しい星が好き。", "私は美しい星が好きだ。", "私は美しい星が好きです。", "私は美しい星を愛している。", "私は美しい星を愛する。"], "nebulith": "Cynel el mi ia vyr cylani.", "literal": "愛する [主格] 私 [対格] 星 美しい", "structure": "VSO + Post-modifier (Cynel + el mi + ia [vyr cylani])", "english": "I like the beautiful star.", "english_variants": ["I like the beautiful star.", "I love the beautiful star."], "alignment": [{"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)", "meaning": "私 (I)"}, {"src": "好きだ", "src_en": "like", "dst": "Cynel", "role": "述語動詞 (Verb)", "meaning": "愛する・好む (love/like)"}, {"src": "星を", "src_en": "the star", "dst": "ia vyr", "role": "対格名詞 (Object Noun)", "meaning": "星 (star)"}, {"src": "美しい", "src_en": "beautiful", "dst": "cylani", "role": "後置形容詞 (Post-Adj)", "meaning": "美しい (beautiful)"}]}, {"id": "EXT-03", "category": "emotion_negative", "japanese": "私は暗闇が好きではありません。", "japanese_variants": ["私は暗闇が好きではありません。", "私は暗闇が好きではない。", "私は暗闇を好まない。", "私は闇が好きではない。", "私は闇を愛さない。"], "nebulith": "Ne cynel el mi ia kym.", "literal": "不 愛する [主格] 私 [対格] 闇", "structure": "Neg-VSO (Ne cynel + el mi + ia kym)", "english": "I do not like darkness.", "english_variants": ["I do not like darkness.", "I do not love darkness.", "I don't like darkness."], "alignment": [{"src": "不 / ない", "src_en": "not", "dst": "Ne", "role": "否定辞 (Negative)", "meaning": "〜でない (not)"}, {"src": "好きだ", "src_en": "like", "dst": "cynel", "role": "述語動詞 (Verb)", "meaning": "愛する・好む (love/like)"}, {"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)", "meaning": "私 (I)"}, {"src": "暗闇が", "src_en": "darkness", "dst": "ia kym", "role": "対格 (Object)", "meaning": "闇・夜 (darkness)"}]}, {"id": "EXT-04", "category": "cognition_trust", "japanese": "私はあなたを信じています。", "japanese_variants": ["私はあなたを信じています。", "私はあなたを信じている。", "私はあなたを信じる。", "私はあなたを信頼しています。", "私はあなたを信頼している。", "私はあなたを信頼する。"], "nebulith": "Fevas el mi ia ti.", "literal": "信託する [主格] 私 [対格] あなた", "structure": "VSO (Fevas + el mi + ia ti)", "english": "I believe in you.", "english_variants": ["I believe in you.", "I believe you.", "I trust you."], "alignment": [{"src": "信じている", "src_en": "believe / trust", "dst": "Fevas", "role": "述語動詞 (Verb)", "meaning": "信託・信頼する (trust)"}, {"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)", "meaning": "私 (I)"}, {"src": "あなたを", "src_en": "you", "dst": "ia ti", "role": "対格 (Object)", "meaning": "あなた (you)"}]}, {"id": "EXT-05", "category": "cognition_meditation", "japanese": "観測者は精神について深く考える。", "japanese_variants": ["観測者は精神について深く思索する。", "観測者は精神について深く考える。", "観測者は精神を熟慮する。", "観測者は魂について思索する。"], "nebulith": "Memar el myren ia sylim.", "literal": "思索する [主格] 観測者 [対格] 精神", "structure": "VSO (Memar + el myren + ia sylim)", "english": "The observer contemplates the spirit deeply.", "english_variants": ["The observer contemplates the soul.", "The observer contemplates the spirit deeply.", "The observer meditates on the mind."], "alignment": [{"src": "深く考える", "src_en": "contemplates", "dst": "Memar", "role": "述語動詞 (Verb)", "meaning": "思索・熟慮する (contemplate)"}, {"src": "観測者は", "src_en": "the observer", "dst": "el myren", "role": "主格 (Subject)", "meaning": "観測者・人間 (observer)"}, {"src": "精神について", "src_en": "the spirit", "dst": "ia sylim", "role": "対格 (Object)", "meaning": "精神・心 (spirit)"}]}, {"id": "EXT-06", "category": "volition_hope", "japanese": "私たちは平和を望みます。", "japanese_variants": ["私たちは平和を望みます。", "私たちは平和を望む。", "私たちは平和を願います。", "私たちは平和を願う。", "私たちは平穏を望みます。", "私たちは平穏を望む。", "私たちは平穏を願う。"], "nebulith": "Welin el mia ia sirin.", "literal": "希望する [主格] 私たち [対格] 平穏", "structure": "VSO (Welin + el mia + ia sirin)", "english": "We wish for peace.", "english_variants": ["We desire peace.", "We hope for peace.", "We wish for peace."], "alignment": [{"src": "望む", "src_en": "wish / hope for", "dst": "Welin", "role": "述語動詞 (Verb)", "meaning": "希望する (hope)"}, {"src": "私たちは", "src_en": "we", "dst": "el mia", "role": "主格複数 (Subject Plural)", "meaning": "私たち (we)"}, {"src": "平和を", "src_en": "peace", "dst": "ia sirin", "role": "対格 (Object)", "meaning": "平穏・平和 (peace)"}]}, {"id": "EXT-07", "category": "transfer_send", "japanese": "私はあなたに通信を送る。", "japanese_variants": ["私はあなたに通信を送ります。", "私はあなたに通信を送る。", "私はあなたに通信を送信します。", "私はあなたに通信を送信する。", "私はあなたへ信号を送る。", "私はあなたへ通信を送る。"], "nebulith": "Wesan el mi ia tolas to ti.", "literal": "送信する [主格] 私 [対格] 通信 [方向格] あなた", "structure": "VSO + Dir (Wesan + el mi + ia tolas + to ti)", "english": "I send a message to you.", "english_variants": ["I send a message to you.", "I send communication to you.", "I transmit a signal to you."], "alignment": [{"src": "送る", "src_en": "send / transmit", "dst": "Wesan", "role": "述語動詞 (Verb)", "meaning": "送信する (send)"}, {"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)", "meaning": "私 (I)"}, {"src": "通信を", "src_en": "a message", "dst": "ia tolas", "role": "対格 (Object)", "meaning": "通信・メッセージ (message)"}, {"src": "あなたに", "src_en": "to you", "dst": "to ti", "role": "方向格 (Direction)", "meaning": "あなたへ (to you)"}]}, {"id": "EXT-08", "category": "transfer_give", "japanese": "彼は私に光を与える。", "japanese_variants": ["彼は私に光を与えます。", "彼は私に光を与える。", "彼は私に光を授けます。", "彼は私に光を授ける。", "彼女は私に光を与えます。", "彼女は私に光を与える。"], "nebulith": "Zelvan el ri ia falun to mi.", "literal": "授与する [主格] 彼/彼女 [対格] 光 [方向格] 私", "structure": "VSO + Dir (Zelvan + el ri + ia falun + to mi)", "english": "He gives light to me.", "english_variants": ["He gives light to me.", "She gives light to me."], "alignment": [{"src": "与える", "src_en": "gives", "dst": "Zelvan", "role": "述語動詞 (Verb)", "meaning": "授与する (give/bestow)"}, {"src": "彼は", "src_en": "he / she", "dst": "el ri", "role": "主格 (Subject)", "meaning": "彼／彼女 (he/she)"}, {"src": "光を", "src_en": "light", "dst": "ia falun", "role": "対格 (Object)", "meaning": "光 (light)"}, {"src": "私に", "src_en": "to me", "dst": "to mi", "role": "方向格 (Direction)", "meaning": "私へ (to me)"}]}, {"id": "EXT-09", "category": "clause_contrast", "japanese": "私は星を観測するが、あなたは家へ歩く。", "japanese_variants": ["私は星を観測しますが、あなたは家へ歩きます。", "私は星を観測するが、あなたは家へ歩きます。", "私は星を観測するが、あなたは家へ歩く。"], "nebulith": "Vyrel el mi ia vyr, hav poran el ti to govan.", "literal": "観測する [主格] 私 [対格] 星, しかし 歩く [主格] あなた [方向格] 家", "structure": "Clause1 + hav + Clause2", "english": "I observe the star, but you walk to the house.", "english_variants": ["I observe the star, but you walk to the house.", "I watch the star, but you walk home."], "alignment": [{"src": "私は星を観測する", "src_en": "I observe the star", "dst": "Vyrel el mi ia vyr", "role": "第1節 (Clause 1)", "meaning": "私は星を観測する"}, {"src": "が / しかし", "src_en": "but", "dst": "hav", "role": "逆接接続詞 (Conjunction)", "meaning": "しかし (but)"}, {"src": "あなたは家へ歩く", "src_en": "you walk to the house", "dst": "poran el ti to govan", "role": "第2節 (Clause 2)", "meaning": "あなたは家へ歩く"}]}, {"id": "EXT-10", "category": "clause_reason", "japanese": "星が輝くから、夜は美しい。", "japanese_variants": ["星が輝くから、夜は美しい。", "星が輝くから、夜は美しいです。", "星が輝くので、夜は美しい。", "星が輝くので、夜は美しいです。"], "nebulith": "Sen falun el vyr, cylani el valar.", "literal": "〜だから 輝く [主格] 星, 美しい [主格] 夜", "structure": "Sen Clause1, Clause2 (Copula/Adj-predicate)", "english": "Because the star shines, the night is beautiful.", "english_variants": ["Because stars shine, the night is beautiful.", "Because the star shines, the night is beautiful.", "Because the stars shine, the night is beautiful.", "The night is beautiful because the star shines."], "alignment": [{"src": "〜だから", "src_en": "because", "dst": "Sen", "role": "原因接続詞 (Because)", "meaning": "〜なので (because)"}, {"src": "星が輝く", "src_en": "the star shines", "dst": "falun el vyr", "role": "原因節 (Reason Clause)", "meaning": "星が光る"}, {"src": "夜は美しい", "src_en": "the night is beautiful", "dst": "cylani el valar", "role": "主節 (Main Clause)", "meaning": "夜は美しい"}]}, {"id": "EXT-11", "category": "manner_adverb", "japanese": "星は常に輝く。", "japanese_variants": ["星はいつでも光る。", "星は常に光る。", "星は常に輝きます。", "星は常に輝く。", "星は絶え間なく輝く。"], "nebulith": "Falun eirinu el vyr.", "literal": "輝く 常に [主格] 星", "structure": "V + Adv + S (Falun eirinu + el vyr)", "english": "The star shines constantly.", "english_variants": ["The star always shines.", "The star shines constantly."], "alignment": [{"src": "輝く", "src_en": "shines", "dst": "Falun", "role": "述語動詞 (Verb)", "meaning": "光る・輝く (shine)"}, {"src": "常に", "src_en": "constantly / always", "dst": "eirinu", "role": "様態副詞 (Adverb)", "meaning": "絶え間なく・常に (constantly)"}, {"src": "星は", "src_en": "the star", "dst": "el vyr", "role": "主格 (Subject)", "meaning": "星 (star)"}]}, {"id": "EXT-12", "category": "possession_friend", "japanese": "私には親友がいる。", "japanese_variants": ["私には友がいます。", "私には友がいる。", "私には親友がいます。", "私には親友がいる。", "私は親友を持つ。"], "nebulith": "Relen el mi ia cynor.", "literal": "ある/持つ [主格] 私 [対格] 親友", "structure": "Possessive-Copula (Relen + el mi + ia cynor)", "english": "I have a close friend.", "english_variants": ["I have a close friend.", "I have a confidant.", "There is a friend for me."], "alignment": [{"src": "いる / 持つ", "src_en": "have / there is", "dst": "Relen", "role": "所有存在コピュラ (Copula)", "meaning": "存在する・持つ (exist/have)"}, {"src": "私には", "src_en": "I / for me", "dst": "el mi", "role": "主格 (Subject)", "meaning": "私 (I)"}, {"src": "親友が", "src_en": "a close friend", "dst": "ia cynor", "role": "対格 (Object)", "meaning": "親友・盟友 (confidant)"}]}, {"id": "EXT-13", "category": "conditional_action", "japanese": "星が輝くなら、私は歩く。", "japanese_variants": ["星が輝くなら、私は歩きます。", "星が光るなら、私は歩く。", "星が光るなら、私は歩きます。"], "nebulith": "Zen falun el vyr, poran el mi.", "literal": "もし 輝く [主格] 星, 歩く [主格] 私", "structure": "Zen Clause1, Clause2 (条件節)", "english": "If the star shines, I walk.", "english_variants": ["If stars shine, I walk.", "If the star shines, I walk.", "If the star shines, I will walk.", "If the stars shine, I walk."], "alignment": [{"src": "もし〜なら", "src_en": "if", "dst": "Zen", "role": "条件接続詞 (If)", "meaning": "もし〜なら (if)"}, {"src": "星が輝く", "src_en": "the star shines", "dst": "falun el vyr", "role": "条件節 (Condition Clause)", "meaning": "星が輝く"}, {"src": "私は歩く", "src_en": "I walk", "dst": "poran el mi", "role": "帰結節 (Consequence Clause)", "meaning": "私は歩く"}]}, {"id": "EXT-14", "category": "conditional_emotion", "japanese": "あなたが私を好きなら、私は嬉しいです。", "japanese_variants": ["あなたが私を好きなら、私は嬉しい。", "あなたが私を愛するなら、私は嬉しいです。"], "nebulith": "Zen cynel el ti ia mi, relen el mi ia elir.", "literal": "もし 愛する [主格] あなた [対格] 私, ある [主格] 私 [対格] 喜び", "structure": "Zen VSO1, VSO2 (条件節 + コピュラ感情)", "english": "If you like me, I am happy.", "english_variants": ["If you like me, I am happy.", "If you love me, I am glad."], "alignment": [{"src": "もし〜なら", "src_en": "if", "dst": "Zen", "role": "条件接続詞 (If)", "meaning": "もし〜なら (if)"}, {"src": "あなたが私を好き", "src_en": "you like me", "dst": "cynel el ti ia mi", "role": "条件節 (Condition Clause)", "meaning": "あなたが私を愛する"}, {"src": "私は嬉しい", "src_en": "I am happy", "dst": "relen el mi ia elir", "role": "帰結節 (Consequence Clause)", "meaning": "私は喜びに満ちる"}]}, {"id": "EXT-15", "category": "comparative_adj", "japanese": "星は夜よりも美しい。", "japanese_variants": ["星は夜より美しいです。", "星は夜より美しい。"], "nebulith": "Cylani el vyr va valar.", "literal": "美しい [主格] 星 [奪格:〜より] 夜", "structure": "Adj el S va O (奪格比較構文)", "english": "The star is more beautiful than the night.", "english_variants": ["A star is more beautiful than the night.", "Stars are more beautiful than night.", "Stars are more beautiful than the night.", "The star is more beautiful than the night."], "alignment": [{"src": "美しい", "src_en": "beautiful", "dst": "Cylani", "role": "述語形容詞 (Adj Predicate)", "meaning": "美しい (beautiful)"}, {"src": "星は", "src_en": "the star", "dst": "el vyr", "role": "主格 (Subject)", "meaning": "星 (star)"}, {"src": "夜よりも", "src_en": "than the night", "dst": "va valar", "role": "奪格比較 (Ablative Comparison)", "meaning": "夜より (than night)"}]}, {"id": "EXT-16", "category": "comparative_verb", "japanese": "太陽は星よりも光る。", "japanese_variants": ["太陽は星より光ります。", "太陽は星よりも輝く。"], "nebulith": "Falun el zohar va vyr.", "literal": "光る [主格] 太陽 [奪格:〜より] 星", "structure": "V el S va O (動詞奪格比較構文)", "english": "The sun shines more than the star.", "english_variants": ["The sun is brighter than the star.", "The sun shines more than the star."], "alignment": [{"src": "光る", "src_en": "shines", "dst": "Falun", "role": "述語動詞 (Verb)", "meaning": "光る (shine)"}, {"src": "太陽は", "src_en": "the sun", "dst": "el zohar", "role": "主格 (Subject)", "meaning": "太陽 (sun)"}, {"src": "星よりも", "src_en": "than the star", "dst": "va vyr", "role": "奪格比較 (Ablative Comparison)", "meaning": "星より (than star)"}]}, {"id": "EXT-17", "category": "interrogative_who", "japanese": "あなたは誰ですか？", "japanese_variants": ["お前は誰だ？", "あなたは誰？", "あなたは誰ですか。"], "nebulith": "Relen el ti ia keli ka?", "literal": "ある [主格] あなた [対格] 誰 [疑問詞]", "structure": "Relen el ti ia keli ka? (疑問詞疑問文: 誰)", "english": "Who are you?", "english_variants": ["Who are you?"], "alignment": [{"src": "ある / です", "src_en": "are", "dst": "Relen", "role": "コピュラ (Copula)", "meaning": "〜である (be)"}, {"src": "あなたは", "src_en": "you", "dst": "el ti", "role": "主格 (Subject)", "meaning": "あなた (you)"}, {"src": "誰", "src_en": "who", "dst": "ia keli", "role": "疑問代名詞 (Interrogative)", "meaning": "誰 (who)"}, {"src": "か？", "src_en": "?", "dst": "ka?", "role": "疑問小辞 (Question Particle)", "meaning": "疑問符 (?)"}]}, {"id": "EXT-18", "category": "interrogative_what", "japanese": "これは何ですか？", "japanese_variants": ["これは何？", "これは何だ？", "これは何ですか。"], "nebulith": "Relen el celen ia kelen ka?", "literal": "ある [主格] これ [対格] 何 [疑問詞]", "structure": "Relen el celen ia kelen ka? (疑問詞疑問文: 何)", "english": "What is this?", "english_variants": ["What is this?"], "alignment": [{"src": "ある / です", "src_en": "is", "dst": "Relen", "role": "コピュラ (Copula)", "meaning": "〜である (be)"}, {"src": "これは", "src_en": "this", "dst": "el celen", "role": "近称指示代名詞 (Pronoun)", "meaning": "これ (this)"}, {"src": "何", "src_en": "what", "dst": "ia kelen", "role": "疑問代名詞 (Interrogative)", "meaning": "何 (what)"}, {"src": "か？", "src_en": "?", "dst": "ka?", "role": "疑問小辞 (Question Particle)", "meaning": "疑問符 (?)"}]}, {"id": "EXT-19", "category": "interrogative_where", "japanese": "あなたはどこへ歩きますか？", "japanese_variants": ["お前はどこへ歩くのか？", "どこへ歩きますか？"], "nebulith": "Poran el ti to kauo ka?", "literal": "歩く [主格] あなた [方向格] どこ [疑問詞]", "structure": "Poran el ti to kauo ka? (疑問詞疑問文: どこ)", "english": "Where do you walk to?", "english_variants": ["Where are you walking?", "Where do you walk to?"], "alignment": [{"src": "歩く", "src_en": "walk", "dst": "Poran", "role": "述語動詞 (Verb)", "meaning": "歩く (walk)"}, {"src": "あなたは", "src_en": "you", "dst": "el ti", "role": "主格 (Subject)", "meaning": "あなた (you)"}, {"src": "どこへ", "src_en": "to where", "dst": "to kauo", "role": "方向疑問格 (Direction Where)", "meaning": "どこへ (where to)"}, {"src": "か？", "src_en": "?", "dst": "ka?", "role": "疑問小辞 (Question Particle)", "meaning": "疑問符 (?)"}]}, {"id": "EXT-20", "category": "imperative_command", "japanese": "家へ歩きなさい。", "japanese_variants": ["家へ歩け。", "家へ歩いてください。"], "nebulith": "Poran to govan lo!", "literal": "歩く [方向格] 家 [命令詞]", "structure": "V to Dir lo! (命令構文)", "english": "Walk to the house!", "english_variants": ["Walk home!", "Walk to the house!"], "alignment": [{"src": "歩け", "src_en": "Walk", "dst": "Poran", "role": "命令動詞 (Imperative Verb)", "meaning": "歩く (walk)"}, {"src": "家へ", "src_en": "to the house", "dst": "to govan", "role": "方向格 (Direction)", "meaning": "家へ (to house)"}, {"src": "なさい！", "src_en": "!", "dst": "lo!", "role": "命令小辞 (Imperative Particle)", "meaning": "〜せよ (!)"}]}, {"id": "EXT-21", "category": "imperative_cohortative", "japanese": "星を観測しよう。", "japanese_variants": ["星を観測しましょう。"], "nebulith": "Vyrel el mia ia vyr lo!", "literal": "観測する [主格] 私たち [対格] 星 [勧誘詞]", "structure": "V el mia ia O lo! (勧誘構文)", "english": "Let us observe the star!", "english_variants": ["Let us observe the star!", "Let's observe the star!"], "alignment": [{"src": "観測しよう", "src_en": "Let us observe", "dst": "Vyrel", "role": "動詞 (Verb)", "meaning": "観測する (observe)"}, {"src": "私たちは", "src_en": "we", "dst": "el mia", "role": "主格複数 (Subject)", "meaning": "私たち (we)"}, {"src": "星を", "src_en": "the star", "dst": "ia vyr", "role": "対格 (Object)", "meaning": "星 (star)"}, {"src": "！", "src_en": "!", "dst": "lo!", "role": "勧誘小辞 (Cohortative)", "meaning": "〜しよう (!)"}]}, {"id": "EXT-22", "category": "long_passage_2sent", "japanese": "星が夜空で輝く。私はあなたが好きです。", "japanese_variants": ["星が夜空で輝く。私はあなたが好きだ。"], "nebulith": "Falun el vyr uo valar. Cynel el mi ia ti.", "literal": "光る [主格] 星 [処格] 夜. 愛する [主格] 私 [対格] あなた", "structure": "2-Sentence Paragraph (単文 + VSO感情)", "english": "The star shines in the night sky. I like you.", "english_variants": ["The star shines in the night sky. I like you.", "The star shines in the night. I love you."], "alignment": [{"src": "星が夜空で輝く。", "src_en": "The star shines in the night sky.", "dst": "Falun el vyr uo valar.", "role": "第1文 (Sent 1)", "meaning": "星が夜空で輝く"}, {"src": "私はあなたが好きです。", "src_en": "I like you.", "dst": "Cynel el mi ia ti.", "role": "第2文 (Sent 2)", "meaning": "私はあなたを好む"}]}, {"id": "EXT-23", "category": "long_passage_3sent", "japanese": "夜は美しい。星が輝くから、私は歩く。私はあなたを信じている。", "japanese_variants": ["夜は美しい。星が輝くから、私は歩きます。私はあなたを信じています。"], "nebulith": "Cylani el valar. Sen falun el vyr, poran el mi. Fevas el mi ia ti.", "literal": "美しい [主格] 夜. 〜だから 輝く 星, 歩く 私. 信じる 私 あなた", "structure": "3-Sentence Complex Passage (形容述語 + 理由複文 + VSO)", "english": "The night is beautiful. Because the star shines, I walk. I believe in you.", "english_variants": ["The night is beautiful. As the star shines, I walk. I trust you.", "The night is beautiful. Because stars shine, I walk. I believe in you.", "The night is beautiful. Because the star shines, I walk. I believe in you.", "The night is beautiful. Because the stars shine, I walk. I believe in you."], "alignment": [{"src": "夜は美しい。", "src_en": "The night is beautiful.", "dst": "Cylani el valar.", "role": "第1文 (Sent 1)", "meaning": "夜は美しい"}, {"src": "星が輝くから、私は歩く。", "src_en": "Because the star shines, I walk.", "dst": "Sen falun el vyr, poran el mi.", "role": "第2文 (Sent 2)", "meaning": "星が輝くから私は歩く"}, {"src": "私はあなたを信じている。", "src_en": "I believe in you.", "dst": "Fevas el mi ia ti.", "role": "第3文 (Sent 3)", "meaning": "私はあなたを信じている"}]}];
 
-// Nebulith Studio Web - Complete Application Logic (v2.6)
+// Nebulith Studio Web - Complete Application Logic (v2.7)
 
 // State & LocalStorage
 let currentTheme = localStorage.getItem('neb_theme') || 'dark';
@@ -918,7 +1058,13 @@ let currentFilterPos = 'ALL';
 let srcLang = 'ja'; // 'ja' | 'en' | 'neb'
 let dstLang = 'neb'; // 'neb' | 'ja' | 'en'
 let favorites = new Set(JSON.parse(localStorage.getItem('neb_favorites') || '[]'));
+let feedbackQueue = JSON.parse(localStorage.getItem('neb_feedback_queue') || '[]');
 let activeModalWord = null;
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
 
 // Initialize Theme
 document.documentElement.setAttribute('data-theme', currentTheme);
@@ -941,6 +1087,45 @@ function updateThemeUI() {
     icon.textContent = '🌙';
     label.textContent = 'Dark';
   }
+}
+
+// Queue Badge Update
+const queueCountBadge = document.getElementById('queueCountBadge');
+function updateQueueBadge() {
+  if (queueCountBadge) {
+    queueCountBadge.textContent = feedbackQueue.length;
+    queueCountBadge.style.display = feedbackQueue.length > 0 ? 'inline-block' : 'none';
+  }
+  const summary = document.getElementById('queueSummaryText');
+  if (summary) {
+    summary.textContent = `記録件数: ${feedbackQueue.length} 件`;
+  }
+}
+updateQueueBadge();
+
+// Add Item to Feedback Queue
+function addFeedbackItem(type, lang, text, context) {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  const existing = feedbackQueue.find(item => item.type === type && item.text.toLowerCase() === trimmed.toLowerCase());
+  if (existing) {
+    existing.count = (existing.count || 1) + 1;
+    existing.updatedAt = new Date().toISOString();
+  } else {
+    feedbackQueue.unshift({
+      id: 'fb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5),
+      type: type, // 'word' | 'sentence'
+      lang: lang, // 'ja' | 'en' | 'neb' | 'search'
+      text: trimmed,
+      context: context || '',
+      count: 1,
+      createdAt: new Date().toISOString()
+    });
+  }
+  localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
+  updateQueueBadge();
+  renderQueueList();
+  return true;
 }
 
 // Tab Navigation
@@ -979,6 +1164,33 @@ function renderLexicon() {
            (w.m && w.m.toLowerCase().includes(query)) ||
            (w.en && w.en.toLowerCase().includes(query));
   });
+
+  if (filtered.length === 0 && query) {
+    resultCount.textContent = `表示中: 0 語 (一致なし)`;
+    const alreadyInQueue = feedbackQueue.some(item => item.type === 'word' && item.text.toLowerCase() === query);
+    wordGrid.innerHTML = `
+      <div class="empty-state">
+        <div style="font-size: 2.2rem;">🔍</div>
+        <div style="font-size: 1.1rem; font-weight: 600;">「${escapeHtml(query)}」に一致する単語が見つかりませんでした</div>
+        <p style="font-size: 0.85rem; color: var(--md-sys-color-on-surface-variant); max-width: 480px;">
+          日本語・英語・星石文字での検索に対応していなかった語彙を内部キューに記録し、今後の辞書アップデートで回収・追加できます。
+        </p>
+        <button class="record-btn" id="recordMissingWordBtn" ${alreadyInQueue ? 'disabled style="opacity:0.7;"' : ''}>
+          <span>${alreadyInQueue ? '✅ キューに記録済み' : '📥 この未対応語を記録する'}</span>
+        </button>
+      </div>
+    `;
+    const recBtn = document.getElementById('recordMissingWordBtn');
+    if (recBtn && !alreadyInQueue) {
+      recBtn.addEventListener('click', () => {
+        addFeedbackItem('word', 'search', query, '辞書検索0件ヒット');
+        recBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
+        recBtn.disabled = true;
+        recBtn.style.opacity = '0.7';
+      });
+    }
+    return;
+  }
 
   resultCount.textContent = `表示中: ${filtered.length.toLocaleString()} 語 (全${VOCAB.length.toLocaleString()}語)`;
   const displayList = filtered.slice(0, 150);
@@ -1112,6 +1324,8 @@ const transOutputText = document.getElementById('transOutputText');
 const transOutputGlyph = document.getElementById('transOutputGlyph');
 const transTagsList = document.getElementById('transTagsList');
 const transAlignmentBox = document.getElementById('transAlignmentBox');
+const transMissingBox = document.getElementById('transMissingBox');
+const recordMissingTransBtn = document.getElementById('recordMissingTransBtn');
 const transNotice = document.getElementById('transNotice');
 const swapTransBtn = document.getElementById('swapTransBtn');
 const srcLangSelect = document.getElementById('srcLangSelect');
@@ -1376,6 +1590,7 @@ function doTranslate() {
     transOutputGlyph.textContent = '';
     transTagsList.innerHTML = '';
     if (transAlignmentBox) transAlignmentBox.innerHTML = '';
+    if (transMissingBox) transMissingBox.style.display = 'none';
     transNotice.innerHTML = '<span>ℹ️</span> 入力すると即座に文法解析・翻訳されます。';
     return;
   }
@@ -1399,6 +1614,7 @@ function doTranslate() {
       transOutputGlyph.textContent = dstLang === 'neb' ? targetText : '';
       transTagsList.innerHTML = `<span class="trans-structure-tag">${item.tag}</span>`;
       renderAlignments(item.alignment || []);
+      if (transMissingBox) transMissingBox.style.display = 'none';
       transNotice.innerHTML = '<span>✨</span> 長文段落・確定照合完了';
       return;
     }
@@ -1432,13 +1648,31 @@ function doTranslate() {
     transOutputGlyph.textContent = dstLang === 'neb' ? outJoined : '';
     transTagsList.innerHTML = tags.map(t => `<span class="trans-structure-tag">${t}</span>`).join('');
     renderAlignments(combinedAlignments);
+    if (transMissingBox) transMissingBox.style.display = 'none';
     transNotice.innerHTML = `<span>✨</span> 長文・構文解析完了 (${results.length}文 確定翻訳)`;
   } else {
     transOutputText.textContent = results.join(' ');
     transOutputGlyph.textContent = '';
     transTagsList.innerHTML = tags.map(t => `<span class="trans-structure-tag">${t}</span>`).join('');
     if (transAlignmentBox) transAlignmentBox.innerHTML = '';
-    transNotice.innerHTML = '<span>⚠️</span> 一部の文章が現在登録・検証済みの文型外です。';
+    
+    // Show Missing Box for unhandled sentences
+    if (transMissingBox) {
+      transMissingBox.style.display = 'flex';
+      const already = feedbackQueue.some(i => i.type === 'sentence' && i.text.toLowerCase() === text.toLowerCase());
+      if (recordMissingTransBtn) {
+        recordMissingTransBtn.innerHTML = already ? '<span>✅ キューに記録済み</span>' : '<span>📥 未対応文章として記録する</span>';
+        recordMissingTransBtn.disabled = already;
+        recordMissingTransBtn.style.opacity = already ? '0.7' : '1';
+        recordMissingTransBtn.onclick = () => {
+          addFeedbackItem('sentence', srcLang, text, '未確定構文・未対応文章');
+          recordMissingTransBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
+          recordMissingTransBtn.disabled = true;
+          recordMissingTransBtn.style.opacity = '0.7';
+        };
+      }
+    }
+    transNotice.innerHTML = '<span>⚠️</span> 一部の文章が現在登録・検証済みの文型外です。下のボタンから未対応キューに記録できます。';
   }
 }
 
@@ -1530,6 +1764,121 @@ copyDstBtn.addEventListener('click', () => {
     alert('訳文をクリップボードにコピーしました！');
   });
 });
+
+// Queue Modal Management
+const queueModal = document.getElementById('queueModal');
+const queueToggleBtn = document.getElementById('queueToggleBtn');
+const queueCloseBtn = document.getElementById('queueCloseBtn');
+const queueList = document.getElementById('queueList');
+const clearAllQueueBtn = document.getElementById('clearAllQueueBtn');
+const exportQueueJsonBtn = document.getElementById('exportQueueJsonBtn');
+const copyQueueJsonBtn = document.getElementById('copyQueueJsonBtn');
+
+function renderQueueList() {
+  if (!queueList) return;
+  if (feedbackQueue.length === 0) {
+    queueList.innerHTML = `
+      <div style="text-align: center; padding: 24px; color: var(--md-sys-color-on-surface-variant); font-size: 0.9rem;">
+        現在、未対応キューに記録された項目はありません。<br>
+        辞書検索で0件だった語や翻訳未確定文を記録するとここに蓄積されます。
+      </div>
+    `;
+    return;
+  }
+
+  queueList.innerHTML = feedbackQueue.map(item => {
+    const typeLabel = item.type === 'word' ? '📖 単語検索' : '🔄 文章翻訳';
+    const langLabel = item.lang.toUpperCase();
+    const dateStr = item.createdAt ? new Date(item.createdAt).toLocaleString('ja-JP') : '';
+    const countBadge = item.count > 1 ? `<span class="queue-badge" style="margin-left: 6px;">×${item.count}</span>` : '';
+    return `
+      <div class="queue-card">
+        <div class="queue-card-content">
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <span class="queue-card-tag">${typeLabel} [${langLabel}]</span>
+            ${countBadge}
+          </div>
+          <div class="queue-card-text">${escapeHtml(item.text)}</div>
+          <div class="queue-card-meta">${dateStr} &bull; ${escapeHtml(item.context)}</div>
+        </div>
+        <button class="tool-btn" style="color: var(--md-sys-color-error); padding: 4px 8px;" onclick="deleteQueueItem('${item.id}')">✕</button>
+      </div>
+    `;
+  }).join('');
+}
+
+window.deleteQueueItem = function(id) {
+  feedbackQueue = feedbackQueue.filter(item => item.id !== id);
+  localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
+  updateQueueBadge();
+  renderQueueList();
+  renderLexicon();
+};
+
+if (queueToggleBtn) {
+  queueToggleBtn.addEventListener('click', () => {
+    renderQueueList();
+    queueModal.classList.add('active');
+  });
+}
+
+if (queueCloseBtn) {
+  queueCloseBtn.addEventListener('click', () => {
+    queueModal.classList.remove('active');
+  });
+}
+
+if (queueModal) {
+  queueModal.addEventListener('click', (e) => {
+    if (e.target === queueModal) queueModal.classList.remove('active');
+  });
+}
+
+if (clearAllQueueBtn) {
+  clearAllQueueBtn.addEventListener('click', () => {
+    if (feedbackQueue.length === 0) return;
+    if (confirm('未対応キューの全記録を消去してもよろしいですか？')) {
+      feedbackQueue = [];
+      localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
+      updateQueueBadge();
+      renderQueueList();
+      renderLexicon();
+    }
+  });
+}
+
+if (exportQueueJsonBtn) {
+  exportQueueJsonBtn.addEventListener('click', () => {
+    if (feedbackQueue.length === 0) {
+      alert('回収する未対応リクエストがありません。');
+      return;
+    }
+    const exportData = {
+      exportedAt: new Date().toISOString(),
+      source: 'Nebulith Studio Feedback Queue',
+      totalItems: feedbackQueue.length,
+      queue: feedbackQueue
+    };
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `nebulith_unsupported_requests_${Date.now()}.json`;
+    a.click();
+  });
+}
+
+if (copyQueueJsonBtn) {
+  copyQueueJsonBtn.addEventListener('click', () => {
+    if (feedbackQueue.length === 0) {
+      alert('コピーする未対応リクエストがありません。');
+      return;
+    }
+    const jsonStr = JSON.stringify(feedbackQueue, null, 2);
+    navigator.clipboard.writeText(jsonStr).then(() => {
+      alert('未対応リクエスト一覧のJSONをクリップボードにコピーしました！');
+    });
+  });
+}
 
 // Editor Features
 const editorInput = document.getElementById('editorInput');

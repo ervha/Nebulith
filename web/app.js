@@ -1,4 +1,4 @@
-// Nebulith Studio Web - Complete Application Logic (v2.6)
+// Nebulith Studio Web - Complete Application Logic (v2.7)
 
 // State & LocalStorage
 let currentTheme = localStorage.getItem('neb_theme') || 'dark';
@@ -6,7 +6,13 @@ let currentFilterPos = 'ALL';
 let srcLang = 'ja'; // 'ja' | 'en' | 'neb'
 let dstLang = 'neb'; // 'neb' | 'ja' | 'en'
 let favorites = new Set(JSON.parse(localStorage.getItem('neb_favorites') || '[]'));
+let feedbackQueue = JSON.parse(localStorage.getItem('neb_feedback_queue') || '[]');
 let activeModalWord = null;
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
 
 // Initialize Theme
 document.documentElement.setAttribute('data-theme', currentTheme);
@@ -29,6 +35,45 @@ function updateThemeUI() {
     icon.textContent = '🌙';
     label.textContent = 'Dark';
   }
+}
+
+// Queue Badge Update
+const queueCountBadge = document.getElementById('queueCountBadge');
+function updateQueueBadge() {
+  if (queueCountBadge) {
+    queueCountBadge.textContent = feedbackQueue.length;
+    queueCountBadge.style.display = feedbackQueue.length > 0 ? 'inline-block' : 'none';
+  }
+  const summary = document.getElementById('queueSummaryText');
+  if (summary) {
+    summary.textContent = `記録件数: ${feedbackQueue.length} 件`;
+  }
+}
+updateQueueBadge();
+
+// Add Item to Feedback Queue
+function addFeedbackItem(type, lang, text, context) {
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  const existing = feedbackQueue.find(item => item.type === type && item.text.toLowerCase() === trimmed.toLowerCase());
+  if (existing) {
+    existing.count = (existing.count || 1) + 1;
+    existing.updatedAt = new Date().toISOString();
+  } else {
+    feedbackQueue.unshift({
+      id: 'fb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5),
+      type: type, // 'word' | 'sentence'
+      lang: lang, // 'ja' | 'en' | 'neb' | 'search'
+      text: trimmed,
+      context: context || '',
+      count: 1,
+      createdAt: new Date().toISOString()
+    });
+  }
+  localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
+  updateQueueBadge();
+  renderQueueList();
+  return true;
 }
 
 // Tab Navigation
@@ -67,6 +112,33 @@ function renderLexicon() {
            (w.m && w.m.toLowerCase().includes(query)) ||
            (w.en && w.en.toLowerCase().includes(query));
   });
+
+  if (filtered.length === 0 && query) {
+    resultCount.textContent = `表示中: 0 語 (一致なし)`;
+    const alreadyInQueue = feedbackQueue.some(item => item.type === 'word' && item.text.toLowerCase() === query);
+    wordGrid.innerHTML = `
+      <div class="empty-state">
+        <div style="font-size: 2.2rem;">🔍</div>
+        <div style="font-size: 1.1rem; font-weight: 600;">「${escapeHtml(query)}」に一致する単語が見つかりませんでした</div>
+        <p style="font-size: 0.85rem; color: var(--md-sys-color-on-surface-variant); max-width: 480px;">
+          日本語・英語・星石文字での検索に対応していなかった語彙を内部キューに記録し、今後の辞書アップデートで回収・追加できます。
+        </p>
+        <button class="record-btn" id="recordMissingWordBtn" ${alreadyInQueue ? 'disabled style="opacity:0.7;"' : ''}>
+          <span>${alreadyInQueue ? '✅ キューに記録済み' : '📥 この未対応語を記録する'}</span>
+        </button>
+      </div>
+    `;
+    const recBtn = document.getElementById('recordMissingWordBtn');
+    if (recBtn && !alreadyInQueue) {
+      recBtn.addEventListener('click', () => {
+        addFeedbackItem('word', 'search', query, '辞書検索0件ヒット');
+        recBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
+        recBtn.disabled = true;
+        recBtn.style.opacity = '0.7';
+      });
+    }
+    return;
+  }
 
   resultCount.textContent = `表示中: ${filtered.length.toLocaleString()} 語 (全${VOCAB.length.toLocaleString()}語)`;
   const displayList = filtered.slice(0, 150);
@@ -200,6 +272,8 @@ const transOutputText = document.getElementById('transOutputText');
 const transOutputGlyph = document.getElementById('transOutputGlyph');
 const transTagsList = document.getElementById('transTagsList');
 const transAlignmentBox = document.getElementById('transAlignmentBox');
+const transMissingBox = document.getElementById('transMissingBox');
+const recordMissingTransBtn = document.getElementById('recordMissingTransBtn');
 const transNotice = document.getElementById('transNotice');
 const swapTransBtn = document.getElementById('swapTransBtn');
 const srcLangSelect = document.getElementById('srcLangSelect');
@@ -464,6 +538,7 @@ function doTranslate() {
     transOutputGlyph.textContent = '';
     transTagsList.innerHTML = '';
     if (transAlignmentBox) transAlignmentBox.innerHTML = '';
+    if (transMissingBox) transMissingBox.style.display = 'none';
     transNotice.innerHTML = '<span>ℹ️</span> 入力すると即座に文法解析・翻訳されます。';
     return;
   }
@@ -487,6 +562,7 @@ function doTranslate() {
       transOutputGlyph.textContent = dstLang === 'neb' ? targetText : '';
       transTagsList.innerHTML = `<span class="trans-structure-tag">${item.tag}</span>`;
       renderAlignments(item.alignment || []);
+      if (transMissingBox) transMissingBox.style.display = 'none';
       transNotice.innerHTML = '<span>✨</span> 長文段落・確定照合完了';
       return;
     }
@@ -520,13 +596,31 @@ function doTranslate() {
     transOutputGlyph.textContent = dstLang === 'neb' ? outJoined : '';
     transTagsList.innerHTML = tags.map(t => `<span class="trans-structure-tag">${t}</span>`).join('');
     renderAlignments(combinedAlignments);
+    if (transMissingBox) transMissingBox.style.display = 'none';
     transNotice.innerHTML = `<span>✨</span> 長文・構文解析完了 (${results.length}文 確定翻訳)`;
   } else {
     transOutputText.textContent = results.join(' ');
     transOutputGlyph.textContent = '';
     transTagsList.innerHTML = tags.map(t => `<span class="trans-structure-tag">${t}</span>`).join('');
     if (transAlignmentBox) transAlignmentBox.innerHTML = '';
-    transNotice.innerHTML = '<span>⚠️</span> 一部の文章が現在登録・検証済みの文型外です。';
+    
+    // Show Missing Box for unhandled sentences
+    if (transMissingBox) {
+      transMissingBox.style.display = 'flex';
+      const already = feedbackQueue.some(i => i.type === 'sentence' && i.text.toLowerCase() === text.toLowerCase());
+      if (recordMissingTransBtn) {
+        recordMissingTransBtn.innerHTML = already ? '<span>✅ キューに記録済み</span>' : '<span>📥 未対応文章として記録する</span>';
+        recordMissingTransBtn.disabled = already;
+        recordMissingTransBtn.style.opacity = already ? '0.7' : '1';
+        recordMissingTransBtn.onclick = () => {
+          addFeedbackItem('sentence', srcLang, text, '未確定構文・未対応文章');
+          recordMissingTransBtn.innerHTML = '<span>✅ キューに記録しました！</span>';
+          recordMissingTransBtn.disabled = true;
+          recordMissingTransBtn.style.opacity = '0.7';
+        };
+      }
+    }
+    transNotice.innerHTML = '<span>⚠️</span> 一部の文章が現在登録・検証済みの文型外です。下のボタンから未対応キューに記録できます。';
   }
 }
 
@@ -618,6 +712,121 @@ copyDstBtn.addEventListener('click', () => {
     alert('訳文をクリップボードにコピーしました！');
   });
 });
+
+// Queue Modal Management
+const queueModal = document.getElementById('queueModal');
+const queueToggleBtn = document.getElementById('queueToggleBtn');
+const queueCloseBtn = document.getElementById('queueCloseBtn');
+const queueList = document.getElementById('queueList');
+const clearAllQueueBtn = document.getElementById('clearAllQueueBtn');
+const exportQueueJsonBtn = document.getElementById('exportQueueJsonBtn');
+const copyQueueJsonBtn = document.getElementById('copyQueueJsonBtn');
+
+function renderQueueList() {
+  if (!queueList) return;
+  if (feedbackQueue.length === 0) {
+    queueList.innerHTML = `
+      <div style="text-align: center; padding: 24px; color: var(--md-sys-color-on-surface-variant); font-size: 0.9rem;">
+        現在、未対応キューに記録された項目はありません。<br>
+        辞書検索で0件だった語や翻訳未確定文を記録するとここに蓄積されます。
+      </div>
+    `;
+    return;
+  }
+
+  queueList.innerHTML = feedbackQueue.map(item => {
+    const typeLabel = item.type === 'word' ? '📖 単語検索' : '🔄 文章翻訳';
+    const langLabel = item.lang.toUpperCase();
+    const dateStr = item.createdAt ? new Date(item.createdAt).toLocaleString('ja-JP') : '';
+    const countBadge = item.count > 1 ? `<span class="queue-badge" style="margin-left: 6px;">×${item.count}</span>` : '';
+    return `
+      <div class="queue-card">
+        <div class="queue-card-content">
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <span class="queue-card-tag">${typeLabel} [${langLabel}]</span>
+            ${countBadge}
+          </div>
+          <div class="queue-card-text">${escapeHtml(item.text)}</div>
+          <div class="queue-card-meta">${dateStr} &bull; ${escapeHtml(item.context)}</div>
+        </div>
+        <button class="tool-btn" style="color: var(--md-sys-color-error); padding: 4px 8px;" onclick="deleteQueueItem('${item.id}')">✕</button>
+      </div>
+    `;
+  }).join('');
+}
+
+window.deleteQueueItem = function(id) {
+  feedbackQueue = feedbackQueue.filter(item => item.id !== id);
+  localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
+  updateQueueBadge();
+  renderQueueList();
+  renderLexicon();
+};
+
+if (queueToggleBtn) {
+  queueToggleBtn.addEventListener('click', () => {
+    renderQueueList();
+    queueModal.classList.add('active');
+  });
+}
+
+if (queueCloseBtn) {
+  queueCloseBtn.addEventListener('click', () => {
+    queueModal.classList.remove('active');
+  });
+}
+
+if (queueModal) {
+  queueModal.addEventListener('click', (e) => {
+    if (e.target === queueModal) queueModal.classList.remove('active');
+  });
+}
+
+if (clearAllQueueBtn) {
+  clearAllQueueBtn.addEventListener('click', () => {
+    if (feedbackQueue.length === 0) return;
+    if (confirm('未対応キューの全記録を消去してもよろしいですか？')) {
+      feedbackQueue = [];
+      localStorage.setItem('neb_feedback_queue', JSON.stringify(feedbackQueue));
+      updateQueueBadge();
+      renderQueueList();
+      renderLexicon();
+    }
+  });
+}
+
+if (exportQueueJsonBtn) {
+  exportQueueJsonBtn.addEventListener('click', () => {
+    if (feedbackQueue.length === 0) {
+      alert('回収する未対応リクエストがありません。');
+      return;
+    }
+    const exportData = {
+      exportedAt: new Date().toISOString(),
+      source: 'Nebulith Studio Feedback Queue',
+      totalItems: feedbackQueue.length,
+      queue: feedbackQueue
+    };
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `nebulith_unsupported_requests_${Date.now()}.json`;
+    a.click();
+  });
+}
+
+if (copyQueueJsonBtn) {
+  copyQueueJsonBtn.addEventListener('click', () => {
+    if (feedbackQueue.length === 0) {
+      alert('コピーする未対応リクエストがありません。');
+      return;
+    }
+    const jsonStr = JSON.stringify(feedbackQueue, null, 2);
+    navigator.clipboard.writeText(jsonStr).then(() => {
+      alert('未対応リクエスト一覧のJSONをクリップボードにコピーしました！');
+    });
+  });
+}
 
 // Editor Features
 const editorInput = document.getElementById('editorInput');

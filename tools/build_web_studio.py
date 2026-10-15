@@ -211,6 +211,19 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
       display: flex;
       align-items: center;
       gap: 6px;
+      transition: background var(--transition-fast);
+    }}
+    .theme-toggle-btn:hover {{
+      background: var(--md-sys-color-surface-container-highest);
+    }}
+
+    .queue-badge {{
+      background: var(--md-sys-color-primary);
+      color: var(--md-sys-color-on-primary);
+      padding: 2px 7px;
+      border-radius: var(--radius-full);
+      font-size: 0.72rem;
+      font-weight: 700;
     }}
 
     /* Navigation Bar */
@@ -383,6 +396,39 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
     .word-meaning {{ font-size: 0.95rem; color: var(--md-sys-color-on-surface); }}
     .word-ipa {{ font-size: 0.78rem; color: var(--md-sys-color-outline); font-family: monospace; }}
 
+    /* Empty state */
+    .empty-state {{
+      grid-column: 1 / -1;
+      background: var(--md-sys-color-surface-container);
+      border: 1px dashed var(--md-sys-color-outline-variant);
+      border-radius: var(--radius-lg);
+      padding: 36px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }}
+
+    .record-btn {{
+      background: var(--md-sys-color-primary-container);
+      color: var(--md-sys-color-on-primary-container);
+      border: 1px solid var(--md-sys-color-primary);
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background var(--transition-fast);
+    }}
+    .record-btn:hover {{
+      background: var(--md-sys-color-primary);
+      color: var(--md-sys-color-on-primary);
+    }}
+
     /* Detail Modal */
     .modal-backdrop {{
       position: fixed;
@@ -447,6 +493,47 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
       margin-bottom: 4px;
     }}
     .modal-val {{ font-size: 1.05rem; color: var(--md-sys-color-on-surface); }}
+
+    /* Queue Modal Styles */
+    .queue-list {{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 50vh;
+      overflow-y: auto;
+      margin: 16px 0;
+    }}
+    .queue-card {{
+      background: var(--md-sys-color-surface-container-high);
+      border: 1px solid var(--md-sys-color-outline-variant);
+      border-radius: var(--radius-md);
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }}
+    .queue-card-content {{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+    }}
+    .queue-card-tag {{
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--md-sys-color-primary);
+    }}
+    .queue-card-text {{
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--md-sys-color-on-surface);
+      word-break: break-all;
+    }}
+    .queue-card-meta {{
+      font-size: 0.75rem;
+      color: var(--md-sys-color-outline);
+    }}
 
     /* Translation Panel */
     .trans-container {{
@@ -582,6 +669,26 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
       background: var(--md-sys-color-surface-container-highest);
       color: var(--md-sys-color-on-surface-variant);
       border-radius: var(--radius-full);
+    }}
+
+    .missing-box {{
+      margin-top: 14px;
+      padding: 12px 16px;
+      background: var(--md-sys-color-surface-container-high);
+      border: 1px dashed var(--md-sys-color-error);
+      border-radius: var(--radius-md);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }}
+    .missing-text {{
+      font-size: 0.85rem;
+      color: var(--md-sys-color-error);
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }}
 
     .trans-notice {{
@@ -751,7 +858,10 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
         <div class="brand-sub">星石語 統合辞書・完全オフライン多構文対訳・フォントスタジオ</div>
       </div>
     </div>
-    <div class="header-actions">
+    <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
+      <button class="theme-toggle-btn" id="queueToggleBtn" title="未対応リクエスト・キュー">
+        <span>📥</span> <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
+      </button>
       <button class="theme-toggle-btn" id="themeToggleBtn">
         <span id="themeIcon">☀️</span> <span id="themeLabel">Light</span>
       </button>
@@ -874,6 +984,10 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
               <div class="trans-result-text" id="transOutputText">ここに訳文が表示されます</div>
               <div class="trans-result-glyph" id="transOutputGlyph"></div>
               <div id="transAlignmentBox" class="align-box"></div>
+              <div id="transMissingBox" class="missing-box" style="display: none;">
+                <span class="missing-text">⚠️ この文章の文型は現在未対応です</span>
+                <button class="record-btn" id="recordMissingTransBtn">📥 未対応文章として記録する</button>
+              </div>
             </div>
             <div class="trans-notice" id="transNotice">
               <span>ℹ️</span> 外部AI・通信ゼロ。文法規則（VSO・格助詞・条件節zen・奪格比較va）と辞書で確定変換します。
@@ -961,6 +1075,32 @@ const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
       <div style="display: flex; gap: 10px; margin-top: 24px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px;">
         <button class="tool-btn" id="copyModalRoman">ローマ字をコピー</button>
         <button class="tool-btn" id="copyModalGlyph">星石文字をコピー</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Missing / Unsupported Queue Manager Modal -->
+  <div class="modal-backdrop" id="queueModal">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="queueCloseBtn">✕</button>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+        <span style="font-size: 1.5rem;">📥</span>
+        <h2 style="font-size: 1.3rem; font-weight: 600;">未対応リクエスト・キュー回収</h2>
+      </div>
+      <p style="font-size: 0.82rem; color: var(--md-sys-color-on-surface-variant); margin-bottom: 14px;">
+        辞書検索や文章翻訳で未対応だった単語・構文を記録したキューです。JSONファイルとして一括回収（エクスポート）し、語彙・構文の拡充開発にそのまま活用できます。
+      </p>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span id="queueSummaryText" style="font-size: 0.88rem; font-weight: 600;">記録件数: 0 件</span>
+        <button class="tool-btn" id="clearAllQueueBtn" style="color: var(--md-sys-color-error);">🗑️ 全て消去</button>
+      </div>
+
+      <div class="queue-list" id="queueList"></div>
+
+      <div style="display: flex; gap: 10px; margin-top: 16px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px; flex-wrap: wrap;">
+        <button class="record-btn" id="exportQueueJsonBtn">💾 JSONファイルで回収 (.json)</button>
+        <button class="tool-btn" id="copyQueueJsonBtn">📋 JSONをコピー</button>
       </div>
     </div>
   </div>
