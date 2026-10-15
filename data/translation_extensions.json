@@ -341,6 +341,136 @@
       "meaningEn": "be surprised, be astonished, marvel",
       "ipa": "[fal.pan]",
       "notes": "汎用動詞拡充案。多言語比較・独立監査は未実施。汎用動詞拡充案。fal(閃光)+pan(自発反応)。"
+    },
+    {
+      "id": 30035,
+      "nrs": "hardin",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "聞こえる、耳に入る、自然と音が届く",
+      "meaningEn": "be heard, sound reaches ears, audible (intransitive)",
+      "ipa": "[har.din]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「聞く」細分化造語案。har(聴覚)+din(着地・到来)。"
+    },
+    {
+      "id": 30036,
+      "nrs": "kartor",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "尋ねる、問う、質問する、教えを請う",
+      "meaningEn": "ask, inquire, question",
+      "ipa": "[kar.tor]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「聞く（質問）」細分化造語案。kar(知恵探求)+tor(到来・引き出し)。"
+    },
+    {
+      "id": 30037,
+      "nrs": "harsen",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "聞き知る、聞き及ぶ、噂や情報を耳にする",
+      "meaningEn": "hear of, learn by hearsay, be informed",
+      "ipa": "[har.sen]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「聞く（伝聞知覚）」細分化造語案。har(聴覚)+sen(知識・認識)。"
+    },
+    {
+      "id": 30038,
+      "nrs": "hardor",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "聞き入れる、忠告や指示に従う、承諾する",
+      "meaningEn": "heed, obey advice, accept counsel",
+      "ipa": "[har.dor]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「聞く（従順・受容）」細分化造語案。har(聴覚)+dor(掟・裁定受容)。"
+    },
+    {
+      "id": 30039,
+      "nrs": "komas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "組み立てる、構成する、部品を結合する",
+      "meaningEn": "assemble, construct from parts, put together",
+      "ipa": "[ko.mas]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「作る」細分化造語案。ko(枠組)+mas(結合構築)。"
+    },
+    {
+      "id": 30040,
+      "nrs": "vorzen",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "創出する、生み出す、ゼロから産出する",
+      "meaningEn": "bring forth, originate, produce from void",
+      "ipa": "[vor.zen]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「作る（根源創出）」細分化造語案。vor(星生)+zen(産出)。"
+    },
+    {
+      "id": 30041,
+      "nrs": "vorpas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "急ぐ、急いで進む、速度を上げる",
+      "meaningEn": "hurry, hasten, rush forward",
+      "ipa": "[vor.pas]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「動く」細分化造語案。vor(加速)+pas(切迫・促し)。"
+    },
+    {
+      "id": 30042,
+      "nrs": "revdar",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "帰る、戻る、元の拠点や故郷へ回帰する",
+      "meaningEn": "return home, go back, regress to origin",
+      "ipa": "[rev.dar]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「動く」細分化造語案。rev(回帰)+dar(大地・拠点)。"
+    },
+    {
+      "id": 30043,
+      "nrs": "mordan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "留まる、立ち止まる、その場に留まる",
+      "meaningEn": "stay, remain, halt in place",
+      "ipa": "[mor.dan]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「動く（静止）」細分化造語案。mor(身体)+dan(固定・静止)。"
+    },
+    {
+      "id": 30044,
+      "nrs": "dyrtas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "旅立つ、出発する、前へ踏み出す",
+      "meaningEn": "set out, depart on journey, step forth",
+      "ipa": "[dyr.tas]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「動く（出立）」細分化造語案。dyr(前方)+tas(能動歩行)。"
+    },
+    {
+      "id": 30045,
+      "nrs": "velrin",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "感じる、感知する、心身で知覚する",
+      "meaningEn": "feel, perceive inwardly, sense",
+      "ipa": "[vel.rin]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「感じる」細分化造語案。vel(認知)+rin(共鳴)。"
+    },
+    {
+      "id": 30046,
+      "nrs": "morkan",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "握る、しっかりと掴む、保持する",
+      "meaningEn": "grasp, grip firmly, clasp",
+      "ipa": "[mor.kan]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「触れる・掴む」細分化造語案。mor(肉体)+kan(拘束把持)。"
+    },
+    {
+      "id": 30047,
+      "nrs": "vyltas",
+      "category": "追加語彙（未監査）",
+      "pos": "動",
+      "meaningJa": "叫ぶ、大声をあげる、咆哮する",
+      "meaningEn": "shout, cry out, roar",
+      "ipa": "[vyl.tas]",
+      "notes": "動詞細分化造語案。多言語比較・独立監査は未実施。「話す・発声」細分化造語案。vyl(声・音)+tas(放出能動)。"
     }
   ],
   "frames": {
@@ -703,6 +833,162 @@
       ],
       "allowed": [
         "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30035": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de",
+        "va"
+      ]
+    },
+    "30036": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "al",
+        "to",
+        "uo",
+        "de"
+      ]
+    },
+    "30037": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "va",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30038": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30039": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "de",
+        "uo",
+        "ku"
+      ]
+    },
+    "30040": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30041": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "to",
+        "uo",
+        "de"
+      ]
+    },
+    "30042": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "to",
+        "va",
+        "uo",
+        "de"
+      ]
+    },
+    "30043": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30044": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "to",
+        "va",
+        "uo",
+        "de"
+      ]
+    },
+    "30045": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30046": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "ia",
+        "uo",
+        "ku",
+        "de"
+      ]
+    },
+    "30047": {
+      "required": [
+        "el"
+      ],
+      "allowed": [
+        "el",
+        "to",
         "uo",
         "ku",
         "de"

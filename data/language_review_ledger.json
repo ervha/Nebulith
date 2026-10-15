@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "scope": "追加語彙34語・追加構文の審査台帳。公認判定なし。",
-  "sourceSha256": "518cd233c5ddbaf6a7720228b5feda15b5c7d8bf78b5a0c85a370653ebf604dc",
+  "scope": "追加語彙47語・追加構文の審査台帳。公認判定なし。",
+  "sourceSha256": "9d854fe723a1acb2a314000ca5130f334f37c5baff33fd923349f6b07cfea455",
   "entries": [
     {
       "id": 30001,
@@ -609,11 +609,245 @@
         "independentSemanticReview": "pending"
       },
       "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30035,
+      "root": "hardin",
+      "meaning": "聞こえる、耳に入る、自然と音が届く",
+      "distinctions": [
+        "能動的に耳を澄ます「聴く(866 harvan)」とは区別し、意図せず自然に音が耳に入ってくる知覚を表す",
+        "能動傾聴とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30036,
+      "root": "kartor",
+      "meaning": "尋ねる、問う、質問する、教えを請う",
+      "distinctions": [
+        "聴覚受容である「聴く(866 harvan)」や自問の「問う(753)」とは区別し、他者に向けて教えや情報を請い求める発問的「きく」を表す",
+        "受容とは対極の能動発問"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30037,
+      "root": "harsen",
+      "meaning": "聞き知る、聞き及ぶ、噂や情報を耳にする",
+      "distinctions": [
+        "直接の音聴取(866 harvan)や直接の既知(30009 velsen)とは区別し、人づて・噂・伝聞を通じて知識を得る間接受容を表す",
+        "直接観測とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30038,
+      "root": "hardor",
+      "meaning": "聞き入れる、忠告や指示に従う、承諾する",
+      "distinctions": [
+        "単なる音の受容(866 harvan)を超え、他者の言葉や掟を自らの規範として受け入れ従う受容意志を表す",
+        "物理的聴取とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30039,
+      "root": "komas",
+      "meaning": "組み立てる、構成する、部品を結合する",
+      "distinctions": [
+        "ゼロからの執筆・創作(875 kiras)や建築(599 dompanan)とは区別し、複数の部品や要素を枠組みに沿って結合・構築する工学的動作を表す",
+        "単一物加工とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30040,
+      "root": "vorzen",
+      "meaning": "創出する、生み出す、ゼロから産出する",
+      "distinctions": [
+        "既知の素材を組み合わせる工作(875 kiras)とは異なり、星生のように新秩序・存在を根源から生み出す創出を表す",
+        "既存物変形とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30041,
+      "root": "vorpas",
+      "meaning": "急ぐ、急いで進む、速度を上げる",
+      "distinctions": [
+        "単なる疾走(879 vorkan)の脚部運動とは異なり、時間的切迫や急迫感を持って行動速度を高める動態を表す",
+        "無目的走行とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30042,
+      "root": "revdar",
+      "meaning": "帰る、戻る、元の拠点や故郷へ回帰する",
+      "distinctions": [
+        "未知へ進む「歩く(902)」や出立とは対極をなす、自らの根源・故郷・定位置へと向かう回帰運動を表す",
+        "前進移動とは方向性が対照"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30043,
+      "root": "mordan",
+      "meaning": "留まる、立ち止まる、その場に留まる",
+      "distinctions": [
+        "移動の継続とは対照的に、進行を停止し同一の場所に身を置き続ける静止動態を表す",
+        "移動動詞と明確に対比"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30044,
+      "root": "dyrtas",
+      "meaning": "旅立つ、出発する、前へ踏み出す",
+      "distinctions": [
+        "帰還(30042 revdar)とは対極をなす、見知らぬ先や目的地へ向けて拠点を離れ踏み出す開始動態を表す",
+        "回帰と対照"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30045,
+      "root": "velrin",
+      "meaning": "感じる、感知する、心身で知覚する",
+      "distinctions": [
+        "外的な物理接触(913 zelvin)とは異なり、微細な波動や気配・感情を心身の内部で受け止める内面的感知を表す",
+        "外面把持とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30046,
+      "root": "morkan",
+      "meaning": "握る、しっかりと掴む、保持する",
+      "distinctions": [
+        "軽い接触(913 zelvin)や柔和な撫で(914 serlit)とは区別され、手や力でしっかりと対象を把持・拘束する力強い接触を表す",
+        "軽い接触とは強度・目的で区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30047,
+      "root": "vyltas",
+      "meaning": "叫ぶ、大声をあげる、咆哮する",
+      "distinctions": [
+        "静かなささやき(861 koren)や通常の対話(860)とは対極をなす、感情や合図を大音量で外へ放出する発声動態を表す",
+        "通常発声と音量・緊迫度で区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
     }
   ],
   "frameReview": {
     "source": "data/translation_patterns.json",
-    "sha256": "1eaf97036556ee6c01c62995f794ac2d95a4d2295f0eab77dfeca185ae1657b8",
+    "sha256": "0fee1084f66ac1899dd80155d68fc88380b6ef0d5901cc17eb96d92e93c62843",
     "status": "provisional",
     "canonicalFramesOverwritten": false,
     "note": "各項構造は追加案として表示。自動テストの成功を言語審査の承認にはしない。"

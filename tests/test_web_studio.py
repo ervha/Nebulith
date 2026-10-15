@@ -13,7 +13,7 @@ from verify_web_bundle import verify
 class WebStudioChecks(unittest.TestCase):
     def test_bundle_contains_current_dictionary_rules_and_offline_assets(self):
         result = verify()
-        self.assertEqual(1125, result['entries'])
+        self.assertEqual(1138, result['entries'])
         self.assertEqual(30, result['examples'])
         self.assertTrue(result['standaloneEmbedded'])
 
@@ -64,7 +64,7 @@ class WebStudioChecks(unittest.TestCase):
         ledger=json.loads((ROOT/'data/language_review_ledger.json').read_text(encoding='utf-8'))
         self.assertEqual(ledger['sourceSha256'],hashlib.sha256((ROOT/'data/translation_extensions.json').read_bytes()).hexdigest())
         self.assertEqual(ledger['frameReview']['sha256'],hashlib.sha256((ROOT/'data/translation_patterns.json').read_bytes()).hexdigest())
-        self.assertEqual(34,len(ledger['entries']))
+        self.assertEqual(47,len(ledger['entries']))
         for entry in ledger['entries']:
             self.assertEqual('needs-independent-review',entry['status'])
             self.assertFalse(entry['adoptedIntoCanonical'])
