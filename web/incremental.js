@@ -205,7 +205,7 @@
       if(results.size===1) return [...results][0];
       throw Error(`「${text}」の名詞・修飾語を確定できません。`);
     }
-    const particles = [['によって','de'],['を使って','de'],['とともに','ku'],['と共に','ku'],['と一緒に','ku'],['から','va'],['が','el'],['は','el'],['を','ia'],['へ','to'],['に','to'],['で','uo'],['と','ku']];
+    const particles = [['によって','de'],['を使って','de'],['とともに','ku'],['と共に','ku'],['と一緒に','ku'],['よりも','va'],['より','va'],['から','va'],['が','el'],['は','el'],['を','ia'],['へ','to'],['に','to'],['で','uo'],['と','ku']];
     function argsOf(text,frame=null) {
       const found=[]; let budget=500;
       function parse(rest,args,sources={}) {
@@ -331,7 +331,7 @@
     const extensionNotes=f=>f.extension?[(byId.get(f.id).c.includes('未監査')?'追加語彙案':'追加文型案')+'（未監査）を使用']:[];
     const provisionalRoots=new Set((extensions.entries||[]).map(e=>e.nrs));
     const lexicalNotes=target=>target.toLowerCase().split(/\W+/).some(w=>provisionalRoots.has(w))?['追加語彙案（未監査）を使用']:[];
-    const roles={el:'主体',ia:'対象・補語',al:'受け手',uo:'場所',to:'目的地',va:'起点',de:'動作主・道具',ku:'共同者'};
+    const roles={el:'主体',ia:'対象・補語',al:'受け手',uo:'場所',to:'目的地',va:'比較起点・起点',de:'動作主・道具',ku:'共同者'};
     function phraseRows(source,target,role) {
       if(!source.includes('の') && source.includes('と') && target.includes(' ul ')) {
         const [a,b]=source.split('と'),[left,right]=target.split(' ul ');
@@ -403,7 +403,8 @@
       if(meaning.modalities.some(m => m.realization === 'not-defined'))throw Error('ニュアンスの出力規則が未定義です。');
       const p=meaning.predicate,frame=frames[p.entryId];if(!frame)throw Error('動詞の項構造が未対応です。');
       const allowed=p.passive?frame.passiveAllowed||[]:frame.allowed;
-      if(!frame.required.every(c=>meaning.arguments[c])||Object.keys(meaning.arguments).some(c=>!allowed.includes(c)))throw Error('主語・補語の不足、または動詞の項構造に合わない格があります。');
+      const isComparative = !!meaning.arguments.va;
+      if(!frame.required.every(c=>meaning.arguments[c])||Object.keys(meaning.arguments).some(c=>!allowed.includes(c) && !(c==='va' && isComparative)))throw Error('主語・補語の不足、または動詞の項構造に合わない格があります。');
       const words=[...p.prefixes,(p.passive?'re':'')+p.root+p.suffix];
       for(const c of caseOrder)if(meaning.arguments[c])words.push(c,meaning.arguments[c].nrs);
       if(meaning.question)words.push('ka');const out=words.join(' ');
@@ -411,6 +412,12 @@
     }
     function full(text) {
       if(/^(.+?)と(.+?)の(.+?)$/.test(key(text)))return null;
+      let rawInput = text;
+      let isSuperlative = false;
+      if (/(最も|一番)/.test(text)) {
+        text = text.replace(/(最も|一番)[\s\u3000]*/g, '');
+        isSuperlative = true;
+      }
       const exact = [...new Set(pairs.filter(p=>(p.ja_variants||[p.ja]).some(x=>key(x)===key(text))).map(p=>p.neb))];
       let body=key(text), question=body.endsWith('?');body=body.replace(/\?$/,'');
       if(body.endsWith('か')) {question=true;body=body.slice(0,-1);}
@@ -438,7 +445,21 @@
         const alignment=generated?.alignment || registeredRows(text,exact[0],pair);
         return {text:exact[0],state:'complete',notes:['登録対訳との一致'],alignment,meaning:generated?.meaning||{schemaVersion:1,kind:'registered',source:text,target:exact[0],analysis:'word-analysis-incomplete'}};
       }
-      if(unique.length===1)return {...unique[0],state:'complete',notes:['Nebulithの格・項構造を検証',...unique[0].extensionNotes,...lexicalNotes(unique[0].text)]};
+      if(unique.length===1) {
+        let res = unique[0];
+        if (isSuperlative) {
+          let updatedText = res.text.replace(/^((?:(?:Fe|Se|Ne|Di)\s+)*)([a-zA-Z]+)/i, (m, prefixes, verb) => {
+            return prefixes + 'cel' + verb.toLowerCase();
+          });
+          updatedText = updatedText[0].toUpperCase() + updatedText.slice(1);
+          res = {
+            ...res,
+            text: updatedText,
+            alignment: [{src: '最も', dst: 'cel-', role: '最上級'}, ...(res.alignment || [])]
+          };
+        }
+        return {...res,state:'complete',notes:['Nebulithの格・項構造を検証',...res.extensionNotes,...lexicalNotes(res.text)]};
+      }
       try {if(!question){const target=phrase(body);return {text:target,state:'phrase',notes:['語句として変換。完成文ではありません。',...lexicalNotes(target)],alignment:phraseRows(body,target,'語句')};}}catch(_){}
       return null;
     }
@@ -478,6 +499,82 @@
     }
     function part(source,choices,depth=0) {
       let cleanSource = source.trim();
+
+      // --- Quote & Reported Speech / Thought Handling ---
+      let quoteMatch = cleanSource.match(/^(?:(.+?)[はが])?[「『](.+?)[」』]と(言った|言いました|言う|言います|思った|思いました|思う|思います)[。.]?$/);
+      if (!quoteMatch) {
+        quoteMatch = cleanSource.match(/^[「『](.+?)[」』]と(?:(.+?)[はが])?(言った|言いました|言う|言います|思った|思いました|思う|思います)[。.]?$/);
+        if (quoteMatch) {
+          quoteMatch = [quoteMatch[0], quoteMatch[2], quoteMatch[1], quoteMatch[3]];
+        }
+      }
+      if (!quoteMatch && depth === 0) {
+        let indirect = cleanSource.match(/^(.+?)[は](.+?)と(言った|言いました|言う|言います|思った|思いました|思う|思います)[。.]?$/);
+        if (!indirect) {
+          indirect = cleanSource.match(/^(.+?)と(.+?)[はが](言った|言いました|言う|言います|思った|思いました|思う|思います)[。.]?$/);
+          if (indirect) {
+            indirect = [indirect[0], indirect[2], indirect[1], indirect[3]];
+          }
+        }
+        if (!indirect) {
+          const whole = cleanSource.match(/^(.+?)と(言った|言いました|言う|言います|思った|思いました|思う|思います)[。.]?$/);
+          if (whole && !whole[1].includes('こと')) {
+            indirect = [whole[0], null, whole[1], whole[2]];
+          }
+        }
+        if (indirect && !indirect[2].includes('こと')) {
+          quoteMatch = indirect;
+        }
+      }
+
+      if (quoteMatch) {
+        const speakerRaw = (quoteMatch[1] || choices.subject || '私').trim();
+        const innerText = quoteMatch[2].trim();
+        const verbType = quoteMatch[3];
+        const isThought = verbType.startsWith('思');
+        const isPast = verbType.includes('た') || verbType.includes('まし');
+        
+        const innerResult = part(innerText, {}, depth + 1);
+        let innerNeb = innerResult.text ? innerResult.text.replace(/^[〔\[].*?[〕\]]\s*/, '').trim() : '';
+        if (!innerNeb && innerResult.candidate) innerNeb = innerResult.candidate.trim();
+        const innerClean = innerNeb.replace(/[.?]+$/, '');
+        const speakerNeb = phrase(speakerRaw);
+        const verbRoot = isThought ? 'memar' : 'fenor';
+        const verbWord = (isPast ? 'Fe ' : '') + (isPast ? verbRoot : (verbRoot[0].toUpperCase() + verbRoot.slice(1)));
+        const fullNeb = `${verbWord} el ${speakerNeb} ia \"${innerClean}.\"`;
+        
+        const alignment = [
+          {src: speakerRaw, dst: 'el ' + speakerNeb, role: '主体'},
+          {src: verbType, dst: (isPast ? 'Fe ' : '') + verbRoot, role: (isThought ? '思考述語' : '発話述語') + (isPast ? '・過去' : '')},
+          {src: '「' + innerText + '」と', dst: 'ia \"' + innerClean + '.\"', role: '引用節（対格）'},
+          ...(innerResult.alignment || []).map(a => ({...a, role: '引用内・' + a.role}))
+        ];
+        const meaning = {
+          schemaVersion: 1,
+          kind: 'reported_clause',
+          predicate: {root: verbRoot, past: isPast, type: isThought ? 'thought' : 'speech'},
+          arguments: {el: speakerNeb, ia: innerClean},
+          innerMeaning: innerResult.meaning
+        };
+        const allConfirmed = innerResult.state === 'complete';
+        return {
+          source,
+          text: fullNeb,
+          state: allConfirmed ? 'complete' : 'candidate',
+          candidate: fullNeb,
+          meaning,
+          alignment,
+          notes: ['引用構文（' + (isThought ? '思考節' : '発話節') + '）として解析。', ...(innerResult.notes || [])]
+        };
+      }
+
+      // --- Superlative Prefix Handling (最も / 一番) ---
+      let isSuperlative = false;
+      if (/(最も|一番)/.test(cleanSource)) {
+        cleanSource = cleanSource.replace(/(最も|一番)[\s\u3000]*/g, '');
+        isSuperlative = true;
+      }
+
       let moshi = false;
       if (/^もし[\s\u3000]*/.test(cleanSource)) {
         cleanSource = cleanSource.replace(/^もし[\s\u3000]*/, '');
@@ -503,7 +600,7 @@
         const extraNotes = moshi ? ['仮定・条件（もし〜なら）を認識。'] : [];
         return {source,text,state:allConfirmed?'complete':'candidate',candidate:text,meaning,alignment:[...clauses.flatMap((c,i)=>(c.alignment||[]).map(a=>({...a,role:(i?'主節':'従属節')+'・'+a.role}))),{src:(moshi?'もし... ':'')+compound[2],dst:relation[0],role:relation[1]+'接続'}],notes:['節ごとの意味を保持して生成。追加複文規則（未監査）。',...extraNotes,...clauses.flatMap(c=>c.notes)]};
       }
-      const ownership=key(source).match(/^(.+?)と(.+?)の(.+?)$/);
+      const ownership=key(cleanSource).match(/^(.+?)と(.+?)の(.+?)$/);
       if(ownership)try {
         const [,a,b,thing]=ownership,ar=phrase(a),br=phrase(b),tr=phrase(thing);
         const notes=['所有範囲を選択：「（AとB）のC」または「Aと（BのC）」。追加の並列・所有文型案です。'];
@@ -536,8 +633,19 @@
           alignment: [...(subClause.alignment || []).map(a => ({...a, role: '従属節・' + a.role})), {src: (moshi ? 'もし... ' : '') + trailingCompound[2], dst: relation[0], role: relation[1] + '接続'}]
         };
       }
-      const direct=full(source);if(direct)return {...direct,source};
-      let text=key(source), question=text.endsWith('?');text=text.replace(/\?$/,'');if(text.endsWith('か')){question=true;text=text.slice(0,-1);}
+      const direct=full(cleanSource);if(direct) {
+        let dText = direct.text;
+        let dAlign = direct.alignment || [];
+        if (isSuperlative) {
+          dText = dText.replace(/^((?:(?:Fe|Se|Ne|Di)\s+)*)([a-zA-Z]+)/i, (m, prefixes, verb) => {
+            return prefixes + 'cel' + verb.toLowerCase();
+          });
+          dText = dText[0].toUpperCase() + dText.slice(1);
+          dAlign = [{src: '最も', dst: 'cel-', role: '最上級'}, ...dAlign];
+        }
+        return {...direct, text: dText, candidate: dText, alignment: dAlign, source};
+      }
+      let text=key(cleanSource), question=text.endsWith('?');text=text.replace(/\?$/,'');if(text.endsWith('か')){question=true;text=text.slice(0,-1);}
       const notes=[];let feature='';
       for(const [tail,label] of [['ことができなかった','過去の可能の否定'],['ことである','指針'],['ことです','指針'],['ことだ','指針'],['こと','行為'],['ことができない','可能の否定'],['ことができる','可能'],['必要がある','必要'],['つもりだ','意図'],['かもしれない','推量'],['と思う','思考'],['かも','推量']])if(text.endsWith(tail)){text=text.slice(0,-tail.length);feature=label;break;}
       const alias=[...aliases].sort((a,b)=>b.ending.length-a.ending.length).find(a=>text.endsWith(a.ending));
@@ -678,8 +786,22 @@
       if(feature || !form)return {source,text:fragments,state:'blocked',meaning,notes:[...notes,...(!form?['時制・相の組み合わせは未対応です。']:[])],alignment:argumentRows(args)};
       if(!args.el || alias && !alias.complete || verbGroup && !choices.verb)return {source,text:fragments,state:'draft',meaning,verbOptions,notes,alignment:argumentRows(args)};
       try {
-        const candidate=realize(meaning);
-        return {source,text:candidate,state:choices.confirmed?'complete':'candidate',candidate,meaning,senseOptions,verbOptions,alignment:meaning.alignment,notes:[...notes,'Nebulithの格・項構造を検証。解釈を確認して確定してください。',...extensionNotes(form)]};
+        let candidate=realize(meaning);
+        let alignment=meaning.alignment;
+        if(isSuperlative) {
+          if(form && form.adjective) {
+            const adjRoot = byId.get(form.adjective).r;
+            candidate = candidate.replace(new RegExp('\\b' + adjRoot + '\\b', 'i'), 'cel' + adjRoot);
+          } else {
+            candidate = candidate.replace(/^((?:(?:Fe|Se|Ne|Di)\\s+)*)([a-zA-Z]+)/i, (m, prefixes, verb) => {
+              return prefixes + 'cel' + verb.toLowerCase();
+            });
+            candidate = candidate[0].toUpperCase() + candidate.slice(1);
+          }
+          meaning.superlative = true;
+          alignment = [{src: '最も', dst: 'cel-', role: '最上級'}, ...(alignment || [])];
+        }
+        return {source,text:candidate,state:choices.confirmed?'complete':'candidate',candidate,meaning,senseOptions,verbOptions,alignment,notes:[...notes,'Nebulithの格・項構造を検証。解釈を確認して確定してください。',...extensionNotes(form)]};
       }catch(e){return {source,text:fragments,state:'blocked',notes:[...notes,e.message]};}
     }
     const coveredIds=new Set(forms.filter(f=>!f.adjective).map(f=>f.id));

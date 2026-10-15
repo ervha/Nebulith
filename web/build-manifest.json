@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sha256": {
-    "tools/build_web_studio.py": "b034f45bec94b236e3686027235b4671de24c5715db3fafc0896d9e7d619ec40",
+    "tools/build_web_studio.py": "d6538b7876c338421f2b17e4a00c7a4349b2097dca4d554836a667ab5d6b81a9",
     "tools/studio_dictionary.py": "96f21981078a2d32b091b9927f70b571074fbad71f26c7fd485cc5faa463debe",
     "data/lexicon.json": "1be239b474d39efadd2c9c2526cafbb50c1793efb25cf90d446ade882960322e",
     "data/grammar_dictionary.json": "b008b1d98a1212353d33367fd153f6beb9eddc7d45aaf9c6d16ad8befef3987d",
@@ -16,10 +16,10 @@
     "fonts/font_b64.txt": "21c3ef32a2ebba0fc412c454527f86d2ce310a72911967f13fb3ee1741097d4c",
     "web/app.js": "9cbcb1e6bd01a2bdbd4f94e96eede7896a9d9b6626328e1128588bbb6a9c92e8",
     "web/workspace.js": "9c2c41316fcc9238f66e2bcb699cd89ea5e2122c742a27dc6b24fccfdc1f2680",
-    "web/incremental.js": "629320a546b991105e44f25b969d32b21f3ca24c2826b4a1130a01e454fd87f1",
+    "web/incremental.js": "f9d1d8771bd67045ace279dfc2c081696b4857c547b08a6928416e4fa43c96fd",
     "web/data.js": "5a415d96ddb1307a6f9f9314b6c0970a0873937e7b75fc90e992e0352f12aa48",
-    "web/index.html": "4451c64c04f30db8a8f3d244f50363baf6899949e498d7baab3e9398953d203b",
-    "web/standalone.html": "2b6568b28b3eba991ad4e537a9b492e7c241f135c1f2c8981880468c9c08f49f",
+    "web/index.html": "eaf94eb429f4c71dbe2ddfdfab14a5e064c8669dafb5cefbf61da82b51bcb64f",
+    "web/standalone.html": "fe56009f59148dd8b142fcf18ff243a2b01146d4f382e0be714f4cb3bcb0347f",
     "web/manifest.json": "66584246aa34d738552f66254eb2d155f9231546320ae72b9cca6a3b48b77384",
     "web/icon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35",
     "web/favicon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35"

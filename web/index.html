@@ -767,6 +767,152 @@
     .corpus-ja { font-size: 0.95rem; color: var(--md-sys-color-on-surface); }
     .corpus-lit { font-size: 0.8rem; color: var(--md-sys-color-outline); margin-top: 4px; }
 
+
+    /* Mobile & Smartphone Responsive Styles */
+    @media (max-width: 768px) {
+      header.app-bar {
+        padding: 10px 14px;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .brand-section {
+        gap: 8px;
+      }
+      .brand-icon-wrap {
+        width: 36px;
+        height: 36px;
+        padding: 4px;
+      }
+      .brand-title-wrap h1 {
+        font-size: 1.02rem;
+      }
+      .brand-sub {
+        display: none;
+      }
+      .header-actions {
+        gap: 6px;
+        margin-left: auto;
+      }
+      .theme-toggle-btn {
+        padding: 6px 10px;
+        font-size: 0.78rem;
+      }
+      
+      nav.tab-nav {
+        padding: 0 10px;
+        gap: 4px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      nav.tab-nav::-webkit-scrollbar {
+        display: none;
+      }
+      .tab-btn {
+        padding: 12px 10px;
+        font-size: 0.84rem;
+        min-height: 44px;
+      }
+
+      main.app-main {
+        padding: 14px 10px;
+      }
+
+      .search-panel {
+        padding: 14px 12px;
+        margin-bottom: 16px;
+        border-radius: var(--radius-md);
+      }
+      .search-input {
+        font-size: 16px;
+        padding: 10px 14px 10px 38px;
+      }
+      .search-icon {
+        left: 12px;
+      }
+      .filter-chips {
+        gap: 6px;
+      }
+      .chip-btn {
+        padding: 5px 10px;
+        font-size: 0.76rem;
+      }
+
+      .word-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .word-card {
+        padding: 14px;
+      }
+      .word-glyph {
+        font-size: 1.9rem;
+      }
+
+      .trans-container {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+      .trans-box {
+        padding: 14px;
+        border-radius: var(--radius-md);
+      }
+      .trans-textarea, .trans-result-area {
+        min-height: 140px;
+        height: 150px;
+        font-size: 16px;
+        padding: 10px;
+      }
+      .trans-result-glyph {
+        font-size: 1.45rem;
+      }
+      .align-chip {
+        padding: 4px 8px;
+        font-size: 0.76rem;
+      }
+
+      .editor-card {
+        padding: 14px;
+        border-radius: var(--radius-md);
+      }
+      .editor-input {
+        height: 120px;
+        font-size: 16px;
+        padding: 12px;
+      }
+      .editor-preview-box {
+        padding: 14px;
+        min-height: 140px;
+      }
+
+      .modal-box {
+        padding: 18px 14px;
+        border-radius: var(--radius-md);
+        max-width: 95vw;
+        max-height: 92vh;
+      }
+      .modal-glyph-large {
+        font-size: 2.8rem;
+        margin: 6px 0 12px 0;
+        padding-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 440px) {
+      .brand-title-wrap h1 {
+        font-size: 0.92rem;
+      }
+      .badge-chip {
+        display: none;
+      }
+      .theme-toggle-btn span:not(.queue-badge) {
+        font-size: 0.72rem;
+      }
+      .tab-btn {
+        padding: 10px 8px;
+        font-size: 0.78rem;
+      }
+    }
+
     footer.app-footer {
       margin-top: auto;
       background: var(--md-sys-color-surface-container-lowest);
