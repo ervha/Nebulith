@@ -145,7 +145,7 @@
   ],
   "frameReview": {
     "source": "data/translation_patterns.json",
-    "sha256": "e91847ebb6cb72979f1f0391ed18d54ffdb7479e87587009259aa8be1bcaf420",
+    "sha256": "1fa296ca8b6ab81efc8d4c03704e0f23f152d66d00053dafc5f90cce9ed4a299",
     "status": "provisional",
     "canonicalFramesOverwritten": false,
     "note": "各項構造は追加案として表示。自動テストの成功を言語審査の承認にはしない。"
