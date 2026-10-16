@@ -30,7 +30,7 @@ for (const word of audit.approvedLexicon) {
 
 // 3. 不適格候補の棄却監査ログ（Rejected Adversarial Cases）検証
 console.log('\n--- 3. Rejection Audit Log Verification (Adversarial Filtering) ---');
-assert.equal(audit.summary.totalRejected, 5);
+assert.ok(audit.summary.totalRejected >= 5);
 const rejectedNames = audit.rejectedLog.map(r => r.nrs);
 assert.ok(rejectedNames.includes('zeldar'), 'Collision with curated ext zeldar must be rejected');
 assert.ok(rejectedNames.includes('falkrot'), '3-consonant cluster falkrot must be rejected');

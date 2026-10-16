@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "3.0.0",
+  "timestamp": "2026-10-16T18:03:29.383622",
+  "summary": {
+    "totalFormalLexemes": 1463,
+    "canonCount": 1008,
+    "extensionCount": 372,
+    "grammarCount": 86,
+    "emergentHeldCount": 32,
+    "exactDuplicateCount": 0,
+    "dist1PairsCount": 1282,
+    "caseParticlesCount": 8,
+    "governanceIsolation": true
+  },
+  "posBreakdown": {
+    "verbs": 230,
+    "nouns": 1028,
+    "adjectives": 117,
+    "adverbs": 71,
+    "functional": 17
+  },
+  "codaDistribution": {
+    "n": 469,
+    "r": 279,
+    "l": 205,
+    "s": 151,
+    "v": 85,
+    "i": 50,
+    "t": 45,
+    "k": 41,
+    "m": 40,
+    "u": 31,
+    "o": 17,
+    "p": 16,
+    "e": 13,
+    "d": 10,
+    "a": 9,
+    "f": 1,
+    "z": 1
+  },
+  "numberedDisambiguatedWords": [
+    {
+      "id": 30241,
+      "nrs": "larkan2",
+      "meaningJa": "離心率、軌道歪み度、軌道扁平度"
+    },
+    {
+      "id": 30245,
+      "nrs": "talkan2",
+      "meaningJa": "惑星核、天体中心金属核、重質核"
+    },
+    {
+      "id": 30253,
+      "nrs": "kyrvel2",
+      "meaningJa": "星辰樹氷、星辰霧氷、枝葉氷晶"
+    },
+    {
+      "id": 30257,
+      "nrs": "korfal2",
+      "meaningJa": "水晶晶簇、星晶石塊、光芒石"
+    },
+    {
+      "id": 30259,
+      "nrs": "darwyl2",
+      "meaningJa": "星辰霧雨、細雨、煙雨"
+    },
+    {
+      "id": 30260,
+      "nrs": "kymvel3",
+      "meaningJa": "夜咲き花、月見草、星辰香花"
+    },
+    {
+      "id": 30273,
+      "nrs": "marval2",
+      "meaningJa": "商品、交易貨物、特産品"
+    },
+    {
+      "id": 30285,
+      "nrs": "valtas2",
+      "meaningJa": "衣裳箱、整理櫃、衣装長持"
+    },
+    {
+      "id": 30290,
+      "nrs": "tasval2",
+      "meaningJa": "星辰小刀、細工刀、彫刻小刃"
+    },
+    {
+      "id": 30296,
+      "nrs": "falmin2",
+      "meaningJa": "晴れやかな笑顔、喜悦の表情、歓色"
+    }
+  ]
+}
