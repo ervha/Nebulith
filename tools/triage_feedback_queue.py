@@ -26,7 +26,7 @@ from llm_agent_dialogue import DynamicEmergencePipeline, MockLLMProvider, OpenAI
 from simulate_agent_dialogue import StrictArbiterEngine, EXT_PATH, AUDIT_LEDGER_PATH
 
 
-def triage_queue_file(queue_file_path: str, provider_name: str = "mock", promote: bool = True) -> dict:
+def triage_queue_file(queue_file_path: str, provider_name: str = "mock", endpoint: str = None, model: str = None, promote: bool = True) -> dict:
     queue_path = Path(queue_file_path)
     if not queue_path.exists():
         raise FileNotFoundError(f"Feedback queue file not found: {queue_path}")
@@ -38,7 +38,10 @@ def triage_queue_file(queue_file_path: str, provider_name: str = "mock", promote
     if not isinstance(items, list):
         items = [items]
 
-    provider = MockLLMProvider() if provider_name == "mock" else OpenAICompatibleProvider()
+    if provider_name in ("openai", "colab") or endpoint:
+        provider = OpenAICompatibleProvider(base_url=endpoint, model=model)
+    else:
+        provider = MockLLMProvider()
     pipeline = DynamicEmergencePipeline(provider)
 
     triaged_results = []
@@ -115,11 +118,13 @@ def triage_queue_file(queue_file_path: str, provider_name: str = "mock", promote
 def main():
     parser = argparse.ArgumentParser(description="Nebulith Feedback Queue Auto-Triage Pipeline")
     parser.add_argument("queue_file", type=str, help="Path to exported feedback queue JSON file")
-    parser.add_argument("--provider", choices=["mock", "openai"], default="mock", help="LLM Provider to use")
+    parser.add_argument("--provider", choices=["mock", "openai", "colab"], default="mock", help="LLM Provider to use")
+    parser.add_argument("--endpoint", type=str, default=None, help="Colab or custom LLM endpoint (e.g. https://xxx.trycloudflare.com/v1)")
+    parser.add_argument("--model", type=str, default=None, help="Model name (e.g. Qwen/Qwen2.5-7B-Instruct)")
     parser.add_argument("--no-promote", action="store_true", help="Do not promote approved words into database")
     args = parser.parse_args()
 
-    triage_queue_file(args.queue_file, provider_name=args.provider, promote=not args.no_promote)
+    triage_queue_file(args.queue_file, provider_name=args.provider, endpoint=args.endpoint, model=args.model, promote=not args.no_promote)
 
 
 if __name__ == "__main__":

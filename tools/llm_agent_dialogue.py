@@ -249,15 +249,36 @@ class MockLLMProvider(BaseLLMProvider):
 
 
 class OpenAICompatibleProvider(BaseLLMProvider):
-    """Connects to OpenAI API or local models (Ollama, vLLM, LMStudio)."""
+    """Connects to OpenAI API, Google Colab inference server (via Cloudflare/ngrok), Ollama, or vLLM."""
 
     def __init__(self, api_key: str = None, base_url: str = None, model: str = None):
-        self.api_key = api_key or os.getenv("OPENAI_API_KEY", "")
-        self.base_url = (base_url or os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")).rstrip("/")
-        self.model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        raw_url = base_url or os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+        if not raw_url.endswith("/v1") and not raw_url.endswith("/v1/"):
+            raw_url = f"{raw_url.rstrip('/')}/v1"
+        self.base_url = raw_url.rstrip("/")
+        
+        # In Colab tunnels or local servers, API key can be a dummy string
+        is_tunnel_or_local = any(h in self.base_url for h in ("localhost", "127.0.0.1", "trycloudflare.com", "ngrok", "localtunnel", "gradio.live"))
+        self.api_key = api_key or os.getenv("OPENAI_API_KEY", "colab-token" if is_tunnel_or_local else "")
+        self.model = model or os.getenv("OPENAI_MODEL", "Qwen/Qwen2.5-7B-Instruct")
+
+    def health_check(self) -> bool:
+        """Checks if the remote/Colab inference endpoint is alive."""
+        try:
+            url = f"{self.base_url}/models"
+            req = urllib.request.Request(url, headers={"Authorization": f"Bearer {self.api_key}"})
+            with urllib.request.urlopen(req, timeout=8) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                models = [m.get("id") for m in data.get("data", [])]
+                print(f"[HEALTH-CHECK SUCCESS] Connected to {self.base_url} (Available models: {models or 'OK'})")
+                return True
+        except Exception as e:
+            print(f"[HEALTH-CHECK WARN] Could not reach {self.base_url}/models: {e}")
+            return False
 
     def generate_dialogue(self, topic: str, target_needs: list = None) -> dict:
-        if not self.api_key and "localhost" not in self.base_url and "127.0.0.1" not in self.base_url:
+        is_tunnel_or_local = any(h in self.base_url for h in ("localhost", "127.0.0.1", "trycloudflare.com", "ngrok", "localtunnel", "gradio.live"))
+        if not self.api_key and not is_tunnel_or_local:
             print("[WARN] No OpenAI API Key found. Falling back to MockLLMProvider.")
             return MockLLMProvider().generate_dialogue(topic, target_needs)
 
@@ -421,11 +442,21 @@ class DynamicEmergencePipeline:
 def main():
     parser = argparse.ArgumentParser(description="Nebulith Dynamic LLM Multi-Agent Dialogue & Emergence")
     parser.add_argument("--topic", type=str, default="海と港、波音", help="Topic for dynamic dialogue")
-    parser.add_argument("--provider", choices=["mock", "openai"], default="mock", help="LLM Provider to use")
+    parser.add_argument("--provider", choices=["mock", "openai", "colab"], default="mock", help="LLM Provider to use")
+    parser.add_argument("--endpoint", type=str, default=None, help="Colab or custom LLM endpoint (e.g. https://xxx.trycloudflare.com/v1)")
+    parser.add_argument("--model", type=str, default=None, help="Model name (e.g. Qwen/Qwen2.5-7B-Instruct)")
+    parser.add_argument("--api-key", type=str, default=None, help="API key if required")
+    parser.add_argument("--health-check", action="store_true", help="Check remote LLM endpoint connectivity")
     parser.add_argument("--no-promote", action="store_true", help="Do not promote approved words into database")
     args = parser.parse_args()
 
-    provider = MockLLMProvider() if args.provider == "mock" else OpenAICompatibleProvider()
+    if args.provider in ("openai", "colab") or args.endpoint:
+        provider = OpenAICompatibleProvider(api_key=args.api_key, base_url=args.endpoint, model=args.model)
+        if args.health_check:
+            provider.health_check()
+            return
+    else:
+        provider = MockLLMProvider()
     pipeline = DynamicEmergencePipeline(provider)
     result = pipeline.process_topic(args.topic, promote=not args.no_promote)
 
