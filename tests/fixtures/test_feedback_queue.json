@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-16T17:00:00.000Z",
+  "source": "Nebulith Studio Feedback Queue",
+  "totalItems": 2,
+  "queue": [
+    {
+      "id": "fb_test_sea_wave",
+      "type": "word",
+      "lang": "ja",
+      "text": "潮騒",
+      "context": "辞書検索0件ヒット",
+      "count": 2,
+      "status": "untriaged",
+      "cause": "vocabulary"
+    },
+    {
+      "id": "fb_test_garden_soil",
+      "type": "word",
+      "lang": "ja",
+      "text": "若葉の土",
+      "context": "辞書検索0件ヒット",
+      "count": 1,
+      "status": "untriaged",
+      "cause": "vocabulary"
+    }
+  ]
+}

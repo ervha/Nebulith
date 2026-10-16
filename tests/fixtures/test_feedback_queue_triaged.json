@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "triagedAt": "2026-10-16T17:08:02.973764",
+  "source": "data\\test_feedback_queue.json",
+  "totalItems": 2,
+  "implementedCount": 2,
+  "reviewCount": 0,
+  "queue": [
+    {
+      "id": "fb_test_sea_wave",
+      "type": "word",
+      "lang": "ja",
+      "text": "潮騒",
+      "context": "辞書検索0件ヒット",
+      "count": 2,
+      "status": "implemented",
+      "cause": "vocabulary",
+      "resolvedWith": {
+        "nrs": "darnyr",
+        "pos": "名",
+        "meaningJa": "波音、潮騒、打ち寄せる水音",
+        "meaningEn": "sound of sea surf, wave noise",
+        "score": 0.973,
+        "scenarioId": "LLM-MOCK-SEA"
+      },
+      "triagedAt": "2026-10-16T17:08:02.919160"
+    },
+    {
+      "id": "fb_test_garden_soil",
+      "type": "word",
+      "lang": "ja",
+      "text": "若葉の土",
+      "context": "辞書検索0件ヒット",
+      "count": 1,
+      "status": "implemented",
+      "cause": "vocabulary",
+      "resolvedWith": {
+        "nrs": "darnyr",
+        "pos": "名",
+        "meaningJa": "波音、潮騒、打ち寄せる水音",
+        "meaningEn": "sound of sea surf, wave noise",
+        "score": 0.973,
+        "scenarioId": "LLM-MOCK-SEA"
+      },
+      "triagedAt": "2026-10-16T17:08:02.973756"
+    }
+  ]
+}

@@ -1450,7 +1450,7 @@ const AUDIT_DATA = {json.dumps(emergent_audit_data, ensure_ascii=False)};
              'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
              'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
              'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/bidirectional.js', 'web/incremental.js', 'web/data.js',
-             'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/icon.svg', 'web/favicon.svg']
+             'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/service-worker.js', 'web/icon.svg', 'web/favicon.svg']
     hashes = {p: hashlib.sha256((Path(base_dir)/p).read_bytes()).hexdigest() for p in files}
     (Path(web_dir)/'build-manifest.json').write_text(json.dumps({'schemaVersion':1, 'sha256':hashes}, indent=2)+'\n', encoding='utf-8')
 

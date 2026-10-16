@@ -151,11 +151,17 @@ Nebulithを単なる辞書・翻訳ツールから、人工言語としての「
    - **コーパス・学習用例の拡充**: 用例データセット（`data/usage_examples.json`）を 32件へ増補、拡張コーパス文（`data/extended_corpus_v2.json`）を 28件へ拡充。
    - **全件検証スイート合格**: `tests/verify_sprint5_derivation_and_aspects.js` を含む全回帰テスト、および 44,880 通りの全生産的翻訳網羅テストが 100% GREEN で通過。
 
-6. **Sprint 6【次期対象】**: **英語双方向翻訳エンジン（EN ➔ NEB, NEB ➔ EN）と自然言語逆翻訳（NLG）**
+6. **Sprint 6【完了】**: **英語双方向翻訳エンジン（EN ➔ NEB, NEB ➔ EN）と自然言語逆翻訳（NLG）**
+   - **双方向生産的構文翻訳エンジン (`web/bidirectional.js`)**: SVO / SVC 構文解析から Nebulith の VSO 構造への動的マッピング、および格標識・時制小辞・アスペクト接尾辞から自然な日本語（SOV）と英語（SVO）への逆翻訳 NLG を完全実装。
+   - **Web Studio 第5タブ「AI対話創発・厳格監査ダッシュボード」**: 創発語彙台帳・KPI・棄却テストケースログ・対話シナリオ全文ビューアを完全統合。
+   - **全件検証テスト合格**: `tests/verify_bidirectional_engine.js`、`tests/verify_emergent_dialogue.js` が 100% GREEN。
+
+7. **Sprint 7【完了】**: **LLM活用動的マルチエージェント対話＆未対応キュー自動トリアージ（Auto-Triage）＆ PWAオフライン最適化**
+   - **動的LLM対話生成エンジン (`tools/llm_agent_dialogue.py`)**: OpenAI互換API / ローカルLLM（Ollama等） / 決定論的オフラインフォールバックプロバイダ（MockLLMProvider）を統合。2体のエージェントによる対話から未知の概念ギャップを特定・造語提案し、6段階厳格審査ゲート（StrictArbiterEngine）にリアルタイム投入。
+   - **未対応キュー自動トリアージパイプライン (`tools/triage_feedback_queue.py`)**: Web Studioで収集された辞書未ヒット語や未対応文から自動でトピックを生成して対話創発パイプラインに投入し、合格語を #40001+ に昇格、キュー状態を `implemented` に自動更新。
+   - **完全オフライン PWA 最適化 (`web/service-worker.js`)**: Service Worker による全コアアセット（HTML, JS, 辞書データ, 星文字フォント, アイコン）のローカルキャッシュと、ネットワーク切断下での完全自律動作を実現。
+   - **全件検証テスト合格**: `tests/verify_sprint7_llm_and_pwa.js` が 100% GREEN。
    - SVO / SVC / SVOO 英語構文パーサーの構築、および英語時制・相からの格構造マッピング。
    - Nebulith ➔ 自然な日本語（敬体・常体）／英語への流暢な逆翻訳文生成エンジン。
    - アライメントホバーによる双方向インタラクティブ・ハイライト表示の高度化。
 
-7. **Sprint 7【計画】**: **自律造語パイプライン（Feedback Queue Auto-Triage）とPWAオフライン最適化**
-   - 蓄積された未対応語彙キュー（`feedback_queue`）から、音素配列規則（`codaSonorityHierarchy`）に適合した語幹を半自動生成・審査台帳へ登録するパイプラインの確立。
-   - Service Worker による完全静的オフライン PWA キャッシュ化とモバイル端末向けタッチ操作の洗練。

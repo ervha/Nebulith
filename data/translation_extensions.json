@@ -4171,6 +4171,36 @@
       "scenarioId": "SPEC-02",
       "etymology": "fal(光) + zen(調和) + or(作用)",
       "notes": "【AI対話創発・6段階監査済】(SPEC-02: fal(光) + zen(調和) + or(作用)) 合意スコア:0.993 / 最短編集距離:2"
+    },
+    {
+      "id": 40031,
+      "nrs": "darnyr",
+      "pos": "名",
+      "meaningJa": "波音、潮騒、打ち寄せる水音",
+      "meaningEn": "sound of sea surf, wave noise",
+      "ipa": "[dar.nyr]",
+      "category": "AI動的創発（日常・海原）",
+      "origin": "ai_emergent",
+      "auditStatus": "audited_provisional",
+      "auditScore": 0.973,
+      "scenarioId": "LLM-MOCK-SEA",
+      "etymology": "dar(水) + nyr(響き)",
+      "notes": "【AI対話創発・6段階監査済】(LLM-MOCK-SEA: dar(水) + nyr(響き)) 合意スコア:0.973 / 最短編集距離:1"
+    },
+    {
+      "id": 40032,
+      "nrs": "pelzen",
+      "pos": "動",
+      "meaningJa": "順風航行する、平穏に船を進める",
+      "meaningEn": "sail favorably, navigate smoothly",
+      "ipa": "[pel.zen]",
+      "category": "AI動的創発（日常・海原）",
+      "origin": "ai_emergent",
+      "auditStatus": "audited_provisional",
+      "auditScore": 0.993,
+      "scenarioId": "LLM-MOCK-SEA",
+      "etymology": "pel(行・道) + zen(調和・穏やか)",
+      "notes": "【AI対話創発・6段階監査済】(LLM-MOCK-SEA: pel(行・道) + zen(調和・穏やか)) 合意スコア:0.993 / 最短編集距離:2"
     }
   ],
   "frames": {
