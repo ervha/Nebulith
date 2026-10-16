@@ -1,6 +1,6 @@
 # Nebulith on Google Colab: LLM推論サーバー連携ガイド
 
-Google Colabの無料/有料GPU（T4 / A100）を利用してオープンソースLLM推論サーバーを立ち上げ、ローカルのNebulith言語開発システム（動的対話生成・6段階厳格審査・未対応キュー自動トリアージ）と連携させる手順書です。
+Google Colabの無料/有料GPU（T4 / A100）を利用してオープンソースLLM推論サーバーを立ち上げ、ローカルのNebulith言語開発システム（トピック自動生成・動的対話生成・6段階厳格審査・監査待ち台帳記録）と連携させる手順書です。
 
 ---
 
@@ -17,86 +17,59 @@ Google Colabの無料/有料GPU（T4 / A100）を利用してオープンソー�
                                v
 +-------------------------------------------------------------+
 | ローカルPC (Nebulith プロジェクト)                          |
-|  - tools/llm_agent_dialogue.py (マルチエージェント対話)     |
+|  - tools/llm_agent_dialogue.py                              |
+|    * トピック自動発案（Auto-Topic Generator）               |
+|    * マルチエージェント対話（Colab Qwen2.5-7B連携）         |
+|    * 回数指定自動ループ実行（--rounds N）                   |
 |  - StrictArbiterEngine (6段階厳格審査ゲート)                |
-|  - translation_extensions.json (#40001+ 辞書自動昇格)       |
-|  - Web Studio (index.html / standalone.html ダッシュボード) |
+|  - emergent_lexicon_audit.json (監査待ち候補台帳)           |
+|    ※本番単語辞書への組み込みは人間による本番監査後とする   |
 +-------------------------------------------------------------+
 ```
 
-### なぜこの構成なのか？
-1. **マシンスペック不要**: ローカルPCに高価なGPUがなくても、Colabの無料GPUで7B〜14BクラスのLLMを高速推論できます。
-2. **アカウント登録不要**: トンネリングに Cloudflare Tunnel を使用するため、ngrokのようなアカウント登録やトークン設定、時間制限が一切不要です。
-3. **OpenAI互換**: vLLM が OpenAI と全く同じエンドポイント形式（`/v1/chat/completions`）を提供するため、コード変更なしでシームレスに接続できます。
-
 ---
 
-## 2. Google Colab で推論サーバーを建てる手順（所要時間: 約3分）
+## 2. 実行コマンド（トピック自動生成＆回数指定ループ）
 
-### Step 1: ノートブックを開く
-1. ブラウザで [Google Colab](https://colab.research.google.com/) を開きます。
-2. 「アップロード」タブから、本リポジトリの `colab/nebulith_inference_server.ipynb` をアップロードします。
-3. 上部メニューの **「ランタイム」➔「ランタイムのタイプを変更」** をクリックし、**「T4 GPU」**（または A100）を選択して「保存」します。
-
-### Step 2: セルを上から順に実行する
-ノートブック内の各セルを実行します：
-1. **Cell 1 (セットアップ)**: `vLLM` と `cloudflared` が自動インストールされます。
-2. **Cell 2 (vLLM起動)**: `Qwen/Qwen2.5-7B-Instruct` がGPUにロードされ、OpenAI互換サーバーが立ち上がります。
-3. **Cell 3 (トンネル発行)**: 公開アクセス用URLが発行されます。
-
-出力の末尾に、以下のように表示されます：
-```text
-===========================================================================
-★ Nebulith Colab 推論サーバーが接続準備完了しました！
-API Base Endpoint: https://random-words-1234.trycloudflare.com/v1
-===========================================================================
-```
-
-この `https://random-words-1234.trycloudflare.com/v1` をコピーします。
-
----
-
-## 3. ローカルPCからの利用方法
-
-ローカルのターミナル（PowerShell / Bash）で、コピーしたURLを指定して実行します。
+現在提供されている Colab エンドポイント `https://medieval-chance-starter-happen.trycloudflare.com/v1` がデフォルトに組み込まれているため、URLの指定を省略して直接実行できます。
 
 ### ① 接続テスト（ヘルスチェック）
 ```powershell
-python tools/llm_agent_dialogue.py --provider colab --endpoint "https://random-words-1234.trycloudflare.com/v1" --health-check
+python tools/llm_agent_dialogue.py --health-check
 ```
-> `[HEALTH-CHECK SUCCESS] Connected to https://...` と表示されれば接続成功です。
+> `[HEALTH-CHECK SUCCESS] Connected to https://... (Available models: ['Qwen/Qwen2.5-7B-Instruct'])` と表示されれば接続完了です。
 
-### ② 任意のテーマでAI対話生成＆6段階厳格審査を実行
+### ② トピック自動生成＆回数指定の自動連続実行（推奨）
+トピックを指定せず、指定した回数（例: 5回）自動で新しいシチュエーションを発案し、対話と新語生成・6段階審査を連続実行します：
 ```powershell
-python tools/llm_agent_dialogue.py --provider colab --endpoint "https://random-words-1234.trycloudflare.com/v1" --topic "港と航海、波の音"
-```
-- Colab上のLLMが2体のエージェント（船乗り・見送り人）として対話を生成します。
-- ローカルの審判エンジン（`StrictArbiterEngine`）がリアルタイムに6段階審査（音韻・語根衝突・意味重複・形態素・VSO構文・合意再利用）を実施します。
-- 合格した新語は自動的に `#40001+` 番台として `data/translation_extensions.json` および監査台帳 `data/emergent_lexicon_audit.json` へ昇格・記録されます。
+# 5ラウンド自動実行
+python tools/llm_agent_dialogue.py --rounds 5
 
-### ③ ユーザー未対応キュー（feedback_queue）の自動トリアージ
-Web Studio からエクスポートした未対応辞書リクエスト（JSON）を、Colab推論サーバーを使って自動造語・審査・解決します：
-```powershell
-python tools/triage_feedback_queue.py data/your_feedback_queue.json --provider colab --endpoint "https://random-words-1234.trycloudflare.com/v1"
+# 10ラウンド自動実行
+python tools/llm_agent_dialogue.py --rounds 10
 ```
 
-### ④ Web Studio への反映と確認
-対話・新語生成が終わったら、Web Studio を再ビルドしてブラウザで確認します：
+**各ラウンドの自動実行フロー**:
+1. **トピック自動発案**: 星辰文明・天測・自然気象・工芸・生活・感情等のテーマから、未表現の語彙ギャップをLLMが自動着想
+2. **マルチエージェント対話生成**: 2体の話者（Agent A, Agent B）が状況に応じた対話を交わし、新語（*word）を提案・了解・再利用
+3. **6段階厳格審査（Strict Arbiter）**: 音韻、レーベンシュタイン距離（編集距離>=1）、意味重複、形態論、VSO構文、合意再利用をリアルタイム審査
+4. **監査待ち台帳へ記録**: 審査合格語は `data/emergent_lexicon_audit.json` に「監査待ち（pending_review）」として安全に記録・蓄積（本番辞書へは自動組み込みされません）
+
+### ③ 特定のトピックを指定して実行する場合
 ```powershell
-python tools/build_web_studio.py
+python tools/llm_agent_dialogue.py --topic "港の朝露と砕ける波音、船旅への祈り"
 ```
-- [web/index.html](file:///C:/Users/danun/Desktop/Project/Nebulith/web/index.html) を開くと、第5タブ **「AI対話創発・厳格監査」** に Colab で生成された最新の対話ログと合格語彙が即座に反映されます。
+
+### ④ 新しいColabエンドポイントURLを指定する場合
+Colabを再起動して新しいCloudflare Tunnel URLが発行された場合は、`--endpoint` 引数で上書きできます：
+```powershell
+python tools/llm_agent_dialogue.py --endpoint "https://your-new-tunnel.trycloudflare.com/v1" --rounds 3
+```
 
 ---
 
-## 4. 推奨モデル一覧
+## 3. ガバナンス方針：実際の単語への組み込みは監査後
 
-Colabの無料枠（T4: 16GB VRAM）および有料枠で動作確認済みの推奨モデル：
-
-| モデル名 | サイズ | 特徴・推奨理由 |
-| :--- | :--- | :--- |
-| **`Qwen/Qwen2.5-7B-Instruct`**（デフォルト推奨） | 7B | 日本語・英語・未知構文の追従性能が極めて高く、VSO語順や格標識（`el, ia, uo...`）の規則を正確に守ります。T4で高速動作。 |
-| **`meta-llama/Meta-Llama-3.1-8B-Instruct`** | 8B | 文脈推論・語彙合成の論理性が非常に高い。Hugging Faceのトークンが必要。 |
-| **`elyza/Llama-3-ELYZA-JP-8B`** | 8B | 日本語のニュアンス理解に特化したモデル。 |
-
-別のモデルを使用したい場合は、ノートブック内の `MODEL_ID = "..."` またはローカルの `--model "..."` 引数で切り替え可能です。
+生成された単語候補は、自動で本番辞書（`data/translation_extensions.json`）には書き込まれません。
+- すべて [data/emergent_lexicon_audit.json](file:///C:/Users/danun/Desktop/Project/Nebulith/data/emergent_lexicon_audit.json) に審査スコア・対話シナリオ全文・不合格ログと共に蓄積されます。
+- 人間による本番監査・レビューを経て、公式語彙や体系拡張（#20000+）へ正式に昇格させる厳格な運用を行っています。
