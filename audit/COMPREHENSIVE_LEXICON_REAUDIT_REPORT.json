@@ -1,12 +1,12 @@
 {
   "schemaVersion": "3.0.0",
-  "timestamp": "2026-10-16T18:03:29.383622",
+  "timestamp": "2026-10-16T18:51:51.383777",
   "summary": {
     "totalFormalLexemes": 1463,
     "canonCount": 1008,
     "extensionCount": 372,
     "grammarCount": 86,
-    "emergentHeldCount": 32,
+    "emergentHeldCount": 520,
     "exactDuplicateCount": 0,
     "dist1PairsCount": 1282,
     "caseParticlesCount": 8,

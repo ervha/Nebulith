@@ -1,0 +1,3354 @@
+{
+  "timestamp": "2026-10-16T18:51:39.938608",
+  "total_approved": 520,
+  "domain_distribution": {
+    "汎用・日常（食事と喫茶）": 3,
+    "汎用・日常（旅・道案内・街歩き）": 3,
+    "汎用・日常（市場・買い物・交渉）": 3,
+    "汎用・日常（体調・感情・気遣い）": 3,
+    "汎用・日常（天候・洗濯・家事）": 3,
+    "汎用・日常（約束・待ち合わせ・雑談）": 2,
+    "汎用・日常（台所・調理と火加減）": 3,
+    "汎用・日常（旅立ち・荷造りと見送り）": 3,
+    "汎用・日常（薬草と手当て・快復の願い）": 3,
+    "専門・天体観測（光学・天測工学）": 2,
+    "専門・星石工芸（光学結晶・共鳴学）": 2,
+    "汎用・日常（海原と港・波の響き）": 2,
+    "自然・気象・大気現象": 13,
+    "地理・地質・鉱物": 14,
+    "海洋・河川・深海生物": 16,
+    "植物・森林・生態圏": 16,
+    "動物・飛翔・野生生態": 18,
+    "恒星・天体・重力物理": 17,
+    "宇宙航行・推進力学・探査": 20,
+    "都市・建築・インフラ": 17,
+    "冶金・鍛冶・工芸道具": 16,
+    "紡績・染織・衣装装飾": 18,
+    "食農・料理・醸造調味": 18,
+    "身体・生理・治癒医学": 18,
+    "感情・精神・内省心理": 18,
+    "対話・絆・儀礼・交友": 19,
+    "統治・法規範・社会制度": 20,
+    "数理・幾何・測量暦算": 20,
+    "音楽・音響・舞踏演劇": 20,
+    "光学・色彩・明暗陰影": 19,
+    "時間・季節・歴史記憶": 20,
+    "哲学・宇宙観・思索探求": 20,
+    "天体物理・星間観測": 17,
+    "深海探査・水域生態": 17,
+    "古代建築・石工構造": 17,
+    "精神哲学・内省思索": 16,
+    "数理論理・幾何調和": 16,
+    "音響共鳴・星間舞踏": 16,
+    "冶金工芸・合金製錬": 16,
+    "生薬調剤・生体治癒": 16
+  },
+  "sample_entries": [
+    {
+      "nrs": "darsul",
+      "pos": "名",
+      "meaningJa": "湯気、水蒸気、温かい蒸気",
+      "meaningEn": "rising steam, warm vapor",
+      "morphemes": [
+        "daris",
+        "sul"
+      ],
+      "etymology": "daris(水) + sul(温かい気息)",
+      "category": "AI創発語彙（日常・食事）",
+      "scenario_id": "UNIV-01",
+      "domain": "汎用・日常（食事と喫茶）",
+      "proposer": "Mirel",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darsol",
+          "detail": "Zero collision (min edit distance 1 vs 'darsol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "daris",
+            "sul"
+          ],
+          "detail": "Verified compound: daris + sul (daris(水) + sul(温かい気息))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40001,
+      "example_sentence": "Vyrel el mi ia *darsul uo vas en fal."
+    },
+    {
+      "nrs": "novbion",
+      "pos": "名",
+      "meaningJa": "朝餉、朝食、朝の軽食",
+      "meaningEn": "morning meal, light breakfast",
+      "morphemes": [
+        "nov",
+        "bion"
+      ],
+      "etymology": "nov(朝・新) + bion(食・糧)",
+      "category": "AI創発語彙（日常・食事）",
+      "scenario_id": "UNIV-01",
+      "domain": "汎用・日常（食事と喫茶）",
+      "proposer": "Tolan",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "novmin",
+          "detail": "Zero collision (min edit distance 2 vs 'novmin')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "nov",
+            "bion"
+          ],
+          "detail": "Verified compound: nov + bion (nov(朝・新) + bion(食・糧))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40002,
+      "example_sentence": "Vyrel el mi ia *novbion uo vas en fal."
+    },
+    {
+      "nrs": "sirtul",
+      "pos": "動",
+      "meaningJa": "くつろぐ、一息つく、休息をとる",
+      "meaningEn": "relax, take a breather, unwind",
+      "morphemes": [
+        "sir",
+        "tul"
+      ],
+      "etymology": "sir(静穏) + tul(腰を下ろす)",
+      "category": "AI創発語彙（日常・動作）",
+      "scenario_id": "UNIV-01",
+      "domain": "汎用・日常（食事と喫茶）",
+      "proposer": "Mirel",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "sirfal",
+          "detail": "Zero collision (min edit distance 2 vs 'sirfal')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sir",
+            "tul"
+          ],
+          "detail": "Verified compound: sir + tul (sir(静穏) + tul(腰を下ろす))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "id": 40003,
+      "example_sentence": "Vyrel el mi ia *sirtul uo vas en fal."
+    },
+    {
+      "nrs": "pelnel",
+      "pos": "名",
+      "meaningJa": "近道、捷径、抜け道",
+      "meaningEn": "shortcut, direct path",
+      "morphemes": [
+        "pel",
+        "nel"
+      ],
+      "etymology": "pel(道・経路) + nel(近い)",
+      "category": "AI創発語彙（日常・移動）",
+      "scenario_id": "UNIV-02",
+      "domain": "汎用・日常（旅・道案内・街歩き）",
+      "proposer": "Kael",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "pelel",
+          "detail": "Zero collision (min edit distance 1 vs 'pelel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "pel",
+            "nel"
+          ],
+          "detail": "Verified compound: pel + nel (pel(道・経路) + nel(近い))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "id": 40004,
+      "example_sentence": "Vyrel el mi ia *pelnel uo vas en fal."
+    },
+    {
+      "nrs": "pelsel",
+      "pos": "名",
+      "meaningJa": "目印、道標、ランドマーク",
+      "meaningEn": "landmark, waymark, signpost",
+      "morphemes": [
+        "pel",
+        "sel"
+      ],
+      "etymology": "pel(道) + sel(印・標識)",
+      "category": "AI創発語彙（日常・移動）",
+      "scenario_id": "UNIV-02",
+      "domain": "汎用・日常（旅・道案内・街歩き）",
+      "proposer": "Kael",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "pelel",
+          "detail": "Zero collision (min edit distance 1 vs 'pelel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "pel",
+            "sel"
+          ],
+          "detail": "Verified compound: pel + sel (pel(道) + sel(印・標識))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40005,
+      "example_sentence": "Vyrel el mi ia *pelsel uo vas en fal."
+    },
+    {
+      "nrs": "peltor",
+      "pos": "名",
+      "meaningJa": "曲がり角、街角、辻",
+      "meaningEn": "street corner, turn, junction",
+      "morphemes": [
+        "pel",
+        "tor"
+      ],
+      "etymology": "pel(道) + tor(転換・曲がる)",
+      "category": "AI創発語彙（日常・移動）",
+      "scenario_id": "UNIV-02",
+      "domain": "汎用・日常（旅・道案内・街歩き）",
+      "proposer": "Lira",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "peldor",
+          "detail": "Zero collision (min edit distance 1 vs 'peldor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "pel",
+            "tor"
+          ],
+          "detail": "Verified compound: pel + tor (pel(道) + tor(転換・曲がる))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "id": 40006,
+      "example_sentence": "Vyrel el mi ia *peltor uo vas en fal."
+    },
+    {
+      "nrs": "palvas",
+      "pos": "名",
+      "meaningJa": "手触り、肌触り、質感",
+      "meaningEn": "tactile feel, texture to the touch",
+      "morphemes": [
+        "pal",
+        "vas"
+      ],
+      "etymology": "pal(触れる) + vas(性質・状態)",
+      "category": "AI創発語彙（日常・感覚）",
+      "scenario_id": "UNIV-03",
+      "domain": "汎用・日常（市場・買い物・交渉）",
+      "proposer": "Sera",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "helvas",
+          "detail": "Zero collision (min edit distance 2 vs 'helvas')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "pal",
+            "vas"
+          ],
+          "detail": "Verified compound: pal + vas (pal(触れる) + vas(性質・状態))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "id": 40007,
+      "example_sentence": "Vyrel el mi ia *palvas uo vas en fal."
+    },
+    {
+      "nrs": "zenmol",
+      "pos": "形",
+      "meaningJa": "肌馴染みの良い、しっとり滑らかな、手触り優しき",
+      "meaningEn": "smooth, supple, soft to touch",
+      "morphemes": [
+        "zen",
+        "mol"
+      ],
+      "etymology": "zen(調和) + mol(柔らかな)",
+      "category": "AI創発語彙（日常・感覚）",
+      "scenario_id": "UNIV-03",
+      "domain": "汎用・日常（市場・買い物・交渉）",
+      "proposer": "Sera",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "zenkal",
+          "detail": "Zero collision (min edit distance 2 vs 'zenkal')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "zen",
+            "mol"
+          ],
+          "detail": "Verified compound: zen + mol (zen(調和) + mol(柔らかな))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "id": 40008,
+      "example_sentence": "Vyrel el mi ia *zenmol uo vas en fal."
+    },
+    {
+      "nrs": "keltan",
+      "pos": "動",
+      "meaningJa": "譲る、手頃に商う、分け与える",
+      "meaningEn": "offer fairly, trade, hand over",
+      "morphemes": [
+        "kel",
+        "tan"
+      ],
+      "etymology": "kel(交換・集約) + tan(整える)",
+      "category": "AI創発語彙（日常・生活）",
+      "scenario_id": "UNIV-03",
+      "domain": "汎用・日常（市場・買い物・交渉）",
+      "proposer": "Vonn",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kelton",
+          "detail": "Zero collision (min edit distance 1 vs 'kelton')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kel",
+            "tan"
+          ],
+          "detail": "Verified compound: kel + tan (kel(交換・集約) + tan(整える))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40009,
+      "example_sentence": "Vyrel el mi ia *keltan uo vas en fal."
+    },
+    {
+      "nrs": "morkym",
+      "pos": "名",
+      "meaningJa": "身体のこわばり、凝り、疲労感",
+      "meaningEn": "bodily stiffness, muscle fatigue",
+      "morphemes": [
+        "mor",
+        "kym"
+      ],
+      "etymology": "mor(身体) + kym(固まる・冷える)",
+      "category": "AI創発語彙（日常・身体）",
+      "scenario_id": "UNIV-04",
+      "domain": "汎用・日常（体調・感情・気遣い）",
+      "proposer": "Nolen",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-m)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "morvyn",
+          "detail": "Zero collision (min edit distance 2 vs 'morvyn')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "kym"
+          ],
+          "detail": "Verified compound: mor + kym (mor(身体) + kym(固まる・冷える))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 4,
+          "detail": "Attested in 4 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40010,
+      "example_sentence": "Vyrel el mi ia *morkym uo vas en fal."
+    },
+    {
+      "nrs": "tymsul",
+      "pos": "名",
+      "meaningJa": "眠気、あくび、まどろみの息",
+      "meaningEn": "drowsiness, yawn, sleepiness",
+      "morphemes": [
+        "tymis",
+        "sul"
+      ],
+      "etymology": "tymis(眠る) + sul(息)",
+      "category": "AI創発語彙（日常・身体）",
+      "scenario_id": "UNIV-04",
+      "domain": "汎用・日常（体調・感情・気遣い）",
+      "proposer": "Nolen",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "kymsol",
+          "detail": "Zero collision (min edit distance 2 vs 'kymsol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tymis",
+            "sul"
+          ],
+          "detail": "Verified compound: tymis + sul (tymis(眠る) + sul(息))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40011,
+      "example_sentence": "Vyrel el mi ia *tymsul uo vas en fal."
+    },
+    {
+      "nrs": "mersul",
+      "pos": "動",
+      "meaningJa": "労わる、気遣い包む、優しく案じる",
+      "meaningEn": "care for, show concern, comfort",
+      "morphemes": [
+        "mer",
+        "sul"
+      ],
+      "etymology": "mer(慈愛) + sul(温かい息吹)",
+      "category": "AI創発語彙（日常・感情）",
+      "scenario_id": "UNIV-04",
+      "domain": "汎用・日常（体調・感情・気遣い）",
+      "proposer": "Elen",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "nersol",
+          "detail": "Zero collision (min edit distance 2 vs 'nersol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mer",
+            "sul"
+          ],
+          "detail": "Verified compound: mer + sul (mer(慈愛) + sul(温かい息吹))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "id": 40012,
+      "example_sentence": "Vyrel el mi ia *mersul uo vas en fal."
+    },
+    {
+      "nrs": "darsir",
+      "pos": "名",
+      "meaningJa": "雨気配、湿り風、雨前の匂い",
+      "meaningEn": "scent of approaching rain, humid breeze",
+      "morphemes": [
+        "dar",
+        "sir"
+      ],
+      "etymology": "dar(水・雨) + sir(雨前の静けさ・気配)",
+      "category": "AI創発語彙（日常・天候）",
+      "scenario_id": "UNIV-05",
+      "domain": "汎用・日常（天候・洗濯・家事）",
+      "proposer": "Talia",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darsik",
+          "detail": "Zero collision (min edit distance 1 vs 'darsik')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "sir"
+          ],
+          "detail": "Verified compound: dar + sir (dar(水・雨) + sir(雨前の静けさ・気配))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40013,
+      "example_sentence": "Vyrel el mi ia *darsir uo vas en fal."
+    },
+    {
+      "nrs": "sernod",
+      "pos": "名",
+      "meaningJa": "干し布、洗い衣、洗濯布",
+      "meaningEn": "washed linen, drying laundry",
+      "morphemes": [
+        "ser",
+        "nod"
+      ],
+      "etymology": "ser(布・織物) + nod(清める・水洗い)",
+      "category": "AI創発語彙（日常・家事）",
+      "scenario_id": "UNIV-05",
+      "domain": "汎用・日常（天候・洗濯・家事）",
+      "proposer": "Talia",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.963,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 0.85,
+          "detail": "Permitted obstruent coda (-d)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "sirnov",
+          "detail": "Zero collision (min edit distance 2 vs 'sirnov')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "ser",
+            "nod"
+          ],
+          "detail": "Verified compound: ser + nod (ser(布・織物) + nod(清める・水洗い))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 4,
+          "detail": "Attested in 4 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40014,
+      "example_sentence": "Vyrel el mi ia *sernod uo vas en fal."
+    },
+    {
+      "nrs": "govkel",
+      "pos": "動",
+      "meaningJa": "屋内へ取り込む、軒下へ収める、急ぎ片付ける",
+      "meaningEn": "bring indoors, gather in, put away",
+      "morphemes": [
+        "govan",
+        "kel"
+      ],
+      "etymology": "govan(家) + kel(集める・収める)",
+      "category": "AI創発語彙（日常・家事）",
+      "scenario_id": "UNIV-05",
+      "domain": "汎用・日常（天候・洗濯・家事）",
+      "proposer": "Rovan",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 3,
+          "nearest_root": "zenkel",
+          "detail": "Zero collision (min edit distance 3 vs 'zenkel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "govan",
+            "kel"
+          ],
+          "detail": "Verified compound: govan + kel (govan(家) + kel(集める・収める))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40015,
+      "example_sentence": "Vyrel el mi ia *govkel uo vas en fal."
+    },
+    {
+      "nrs": "kelsir",
+      "pos": "名",
+      "meaningJa": "待ち合わせ、合流、落ち合う約束",
+      "meaningEn": "meeting up, rendezvous, appointment",
+      "morphemes": [
+        "kel",
+        "sir"
+      ],
+      "etymology": "kel(集まる) + sir(調和・約束)",
+      "category": "AI創発語彙（日常・社交）",
+      "scenario_id": "UNIV-06",
+      "domain": "汎用・日常（約束・待ち合わせ・雑談）",
+      "proposer": "Lyra",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kelsur",
+          "detail": "Zero collision (min edit distance 1 vs 'kelsur')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kel",
+            "sir"
+          ],
+          "detail": "Verified compound: kel + sir (kel(集まる) + sir(調和・約束))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40016,
+      "example_sentence": "Vyrel el mi ia *kelsir uo vas en fal."
+    },
+    {
+      "nrs": "fensul",
+      "pos": "名",
+      "meaningJa": "世間話、立ち話、気軽な歓談",
+      "meaningEn": "small talk, casual chat, friendly banter",
+      "morphemes": [
+        "fen",
+        "sul"
+      ],
+      "etymology": "fen(話す) + sul(軽やかな息吹)",
+      "category": "AI創発語彙（日常・社交）",
+      "scenario_id": "UNIV-06",
+      "domain": "汎用・日常（約束・待ち合わせ・雑談）",
+      "proposer": "Lyra",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "fenel",
+          "detail": "Zero collision (min edit distance 2 vs 'fenel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "fen",
+            "sul"
+          ],
+          "detail": "Verified compound: fen + sul (fen(話す) + sul(軽やかな息吹))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40017,
+      "example_sentence": "Vyrel el mi ia *fensul uo vas en fal."
+    },
+    {
+      "nrs": "sursir",
+      "pos": "名",
+      "meaningJa": "出汁、煮汁、温かいスープ",
+      "meaningEn": "cooking broth, savory stock",
+      "morphemes": [
+        "sur",
+        "sir"
+      ],
+      "etymology": "sur(煮る・温) + sir(浸水・液滴)",
+      "category": "AI創発語彙（日常・調理）",
+      "scenario_id": "UNIV-07",
+      "domain": "汎用・日常（台所・調理と火加減）",
+      "proposer": "Mirel",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "sefsir",
+          "detail": "Zero collision (min edit distance 2 vs 'sefsir')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sur",
+            "sir"
+          ],
+          "detail": "Verified compound: sur + sir (sur(煮る・温) + sir(浸水・液滴))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 4,
+          "detail": "Attested in 4 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40018,
+      "example_sentence": "Vyrel el mi ia *sursir uo vas en fal."
+    },
+    {
+      "nrs": "surzen",
+      "pos": "動",
+      "meaningJa": "炒める、弱火で火を通す、香ばしく煮る",
+      "meaningEn": "stir-fry, cook gently, roast mildly",
+      "morphemes": [
+        "sur",
+        "zen"
+      ],
+      "etymology": "sur(温める) + zen(調和・整える)",
+      "category": "AI創発語彙（日常・調理）",
+      "scenario_id": "UNIV-07",
+      "domain": "汎用・日常（台所・調理と火加減）",
+      "proposer": "Sylan",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "lyrzen",
+          "detail": "Zero collision (min edit distance 2 vs 'lyrzen')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sur",
+            "zen"
+          ],
+          "detail": "Verified compound: sur + zen (sur(温める) + zen(調和・整える))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40019,
+      "example_sentence": "Vyrel el mi ia *surzen uo vas en fal."
+    },
+    {
+      "nrs": "bionsur",
+      "pos": "動",
+      "meaningJa": "味見する、一口吟味する、風味を試す",
+      "meaningEn": "taste-test, sample flavor",
+      "morphemes": [
+        "bion",
+        "sur"
+      ],
+      "etymology": "bion(食) + sur(測る・試す)",
+      "category": "AI創発語彙（日常・調理）",
+      "scenario_id": "UNIV-07",
+      "domain": "汎用・日常（台所・調理と火加減）",
+      "proposer": "Mirel",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "bionsol",
+          "detail": "Zero collision (min edit distance 2 vs 'bionsol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "bion",
+            "sur"
+          ],
+          "detail": "Verified compound: bion + sur (bion(食) + sur(測る・試す))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40020,
+      "example_sentence": "Vyrel el mi ia *bionsur uo vas en fal."
+    },
+    {
+      "nrs": "pelvyn",
+      "pos": "名",
+      "meaningJa": "背負い袋、旅鞄、携行荷物",
+      "meaningEn": "travel knapsack, journey bag",
+      "morphemes": [
+        "pel",
+        "vyn"
+      ],
+      "etymology": "pel(道・行) + vyn(袋・包み)",
+      "category": "AI創発語彙（日常・旅）",
+      "scenario_id": "UNIV-08",
+      "domain": "汎用・日常（旅立ち・荷造りと見送り）",
+      "proposer": "Tolan",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "pelvyr",
+          "detail": "Zero collision (min edit distance 1 vs 'pelvyr')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "pel",
+            "vyn"
+          ],
+          "detail": "Verified compound: pel + vyn (pel(道・行) + vyn(袋・包み))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40021,
+      "example_sentence": "Vyrel el mi ia *pelvyn uo vas en fal."
+    },
+    {
+      "nrs": "peltel",
+      "pos": "動",
+      "meaningJa": "見送る、手を振る、道中無事を祈る",
+      "meaningEn": "see off, wave farewell, pray for safety",
+      "morphemes": [
+        "pel",
+        "tel"
+      ],
+      "etymology": "pel(道) + tel(祈る・見送る)",
+      "category": "AI創発語彙（日常・旅）",
+      "scenario_id": "UNIV-08",
+      "domain": "汎用・日常（旅立ち・荷造りと見送り）",
+      "proposer": "Aven",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "pelel",
+          "detail": "Zero collision (min edit distance 1 vs 'pelel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "pel",
+            "tel"
+          ],
+          "detail": "Verified compound: pel + tel (pel(道) + tel(祈る・見送る))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40022,
+      "example_sentence": "Vyrel el mi ia *peltel uo vas en fal."
+    },
+    {
+      "nrs": "sersol",
+      "pos": "名",
+      "meaningJa": "宿り場、野営地、街道の休息所",
+      "meaningEn": "roadside campsite, traveler shelter",
+      "morphemes": [
+        "ser",
+        "sol"
+      ],
+      "etymology": "ser(憩い・宿) + sol(地・場)",
+      "category": "AI創発語彙（日常・旅）",
+      "scenario_id": "UNIV-08",
+      "domain": "汎用・日常（旅立ち・荷造りと見送り）",
+      "proposer": "Tolan",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "nersol",
+          "detail": "Zero collision (min edit distance 1 vs 'nersol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "ser",
+            "sol"
+          ],
+          "detail": "Verified compound: ser + sol (ser(憩い・宿) + sol(地・場))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40023,
+      "example_sentence": "Vyrel el mi ia *sersol uo vas en fal."
+    },
+    {
+      "nrs": "zelpuk",
+      "pos": "名",
+      "meaningJa": "薬草湿布、薬草当て布、浸し湿布",
+      "meaningEn": "herbal compress, medicated poultice",
+      "morphemes": [
+        "zel",
+        "puk"
+      ],
+      "etymology": "zel(生・薬草) + puk(布・包み)",
+      "category": "AI創発語彙（日常・医療）",
+      "scenario_id": "UNIV-09",
+      "domain": "汎用・日常（薬草と手当て・快復の願い）",
+      "proposer": "Liran",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.963,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 0.85,
+          "detail": "Permitted obstruent coda (-k)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "valpuk",
+          "detail": "Zero collision (min edit distance 2 vs 'valpuk')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "zel",
+            "puk"
+          ],
+          "detail": "Verified compound: zel + puk (zel(生・薬草) + puk(布・包み))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40024,
+      "example_sentence": "Vyrel el mi ia *zelpuk uo vas en fal."
+    },
+    {
+      "nrs": "mervel",
+      "pos": "動",
+      "meaningJa": "痛みをさする、優しく撫でる、労わり触れる",
+      "meaningEn": "gently stroke pain, soothe tenderly",
+      "morphemes": [
+        "mer",
+        "vel"
+      ],
+      "etymology": "mer(優しき) + vel(触れる・感ず)",
+      "category": "AI創発語彙（日常・医療）",
+      "scenario_id": "UNIV-09",
+      "domain": "汎用・日常（薬草と手当て・快復の願い）",
+      "proposer": "Voran",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morvel",
+          "detail": "Zero collision (min edit distance 1 vs 'morvel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mer",
+            "vel"
+          ],
+          "detail": "Verified compound: mer + vel (mer(優しき) + vel(触れる・感ず))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40025,
+      "example_sentence": "Vyrel el mi ia *mervel uo vas en fal."
+    },
+    {
+      "nrs": "bionzel",
+      "pos": "名",
+      "meaningJa": "滋養粥、快復食、身体に優しい養生飯",
+      "meaningEn": "restorative porridge, nourishing convalescent meal",
+      "morphemes": [
+        "bion",
+        "zel"
+      ],
+      "etymology": "bion(食・糧) + zel(生・薬草)",
+      "category": "AI創発語彙（日常・医療）",
+      "scenario_id": "UNIV-09",
+      "domain": "汎用・日常（薬草と手当て・快復の願い）",
+      "proposer": "Liran",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "bionel",
+          "detail": "Zero collision (min edit distance 1 vs 'bionel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "bion",
+            "zel"
+          ],
+          "detail": "Verified compound: bion + zel (bion(食・糧) + zel(生・薬草))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40026,
+      "example_sentence": "Vyrel el mi ia *bionzel uo vas en fal."
+    },
+    {
+      "nrs": "faljyl",
+      "pos": "名",
+      "meaningJa": "屈折光環、二重光条、星食光輪",
+      "meaningEn": "refracted light ring, double ray corona",
+      "morphemes": [
+        "fal",
+        "jyl"
+      ],
+      "etymology": "fal(光) + jyl(輪・連環)",
+      "category": "AI創発語彙（専門・天体工学）",
+      "scenario_id": "SPEC-01",
+      "domain": "専門・天体観測（光学・天測工学）",
+      "proposer": "Vyreler Orin",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "taljyl",
+          "detail": "Zero collision (min edit distance 1 vs 'taljyl')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "fal",
+            "jyl"
+          ],
+          "detail": "Verified compound: fal + jyl (fal(光) + jyl(輪・連環))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40027,
+      "example_sentence": "Vyrel el mi ia *faljyl uo vas en fal."
+    },
+    {
+      "nrs": "vyrkels",
+      "pos": "動",
+      "meaningJa": "軌道演算する、天測算出する",
+      "meaningEn": "calculate orbital trajectory, compute astrometry",
+      "morphemes": [
+        "vyr",
+        "kels"
+      ],
+      "etymology": "vyr(星) + kels(集約演算する)",
+      "category": "AI創発語彙（専門・天体工学）",
+      "scenario_id": "SPEC-01",
+      "domain": "専門・天体観測（光学・天測工学）",
+      "proposer": "Sufor Zela",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "vyrel",
+          "detail": "Zero collision (min edit distance 2 vs 'vyrel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "vyr",
+            "kels"
+          ],
+          "detail": "Verified compound: vyr + kels (vyr(星) + kels(集約演算する))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40028,
+      "example_sentence": "Vyrel el mi ia *vyrkels uo vas en fal."
+    },
+    {
+      "nrs": "falmor",
+      "pos": "名",
+      "meaningJa": "光曇り、波長濁り、結晶減衰",
+      "meaningEn": "optical clouding, wavelength attenuation",
+      "morphemes": [
+        "fal",
+        "mor"
+      ],
+      "etymology": "fal(光) + mor(翳り・曇り)",
+      "category": "AI創発語彙（専門・星石工学）",
+      "scenario_id": "SPEC-02",
+      "domain": "専門・星石工芸（光学結晶・共鳴学）",
+      "proposer": "Kiranor Bel",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "valmor",
+          "detail": "Zero collision (min edit distance 1 vs 'valmor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "fal",
+            "mor"
+          ],
+          "detail": "Verified compound: fal + mor (fal(光) + mor(翳り・曇り))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40029,
+      "example_sentence": "Vyrel el mi ia *falmor uo vas en fal."
+    },
+    {
+      "nrs": "falzenor",
+      "pos": "動",
+      "meaningJa": "光調律する、結晶を再清澄化する",
+      "meaningEn": "re-tune optical crystal, clarify luminosity",
+      "morphemes": [
+        "fal",
+        "zen",
+        "or"
+      ],
+      "etymology": "fal(光) + zen(調和) + or(作用)",
+      "category": "AI創発語彙（専門・星石工学）",
+      "scenario_id": "SPEC-02",
+      "domain": "専門・星石工芸（光学結晶・共鳴学）",
+      "proposer": "Kiranor Sol",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "faldenar",
+          "detail": "Zero collision (min edit distance 2 vs 'faldenar')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "fal",
+            "zen",
+            "or"
+          ],
+          "detail": "Verified compound: fal + zen + or (fal(光) + zen(調和) + or(作用))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40030,
+      "example_sentence": "Vyrel el mi ia *falzenor uo vas en fal."
+    },
+    {
+      "nrs": "darnyr",
+      "pos": "名",
+      "meaningJa": "波音、潮騒、打ち寄せる水音",
+      "meaningEn": "sound of sea surf, wave noise",
+      "morphemes": [
+        "dar",
+        "nyr"
+      ],
+      "etymology": "dar(水) + nyr(響き)",
+      "category": "AI動的創発（日常・海原）",
+      "scenario_id": "LLM-MOCK-SEA",
+      "domain": "汎用・日常（海原と港・波の響き）",
+      "proposer": "Orin",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.973,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "marnyr",
+          "detail": "Zero collision (min edit distance 1 vs 'marnyr')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 3 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "nyr"
+          ],
+          "detail": "Verified compound: dar + nyr (dar(水) + nyr(響き))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 3,
+          "detail": "Attested in 3 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40031,
+      "example_sentence": "Vyrel el mi ia *darnyr uo vas en fal."
+    },
+    {
+      "nrs": "pelzen",
+      "pos": "動",
+      "meaningJa": "順風航行する、平穏に船を進める",
+      "meaningEn": "sail favorably, navigate smoothly",
+      "morphemes": [
+        "pel",
+        "zen"
+      ],
+      "etymology": "pel(行・道) + zen(調和・穏やか)",
+      "category": "AI動的創発（日常・海原）",
+      "scenario_id": "LLM-MOCK-SEA",
+      "domain": "汎用・日常（海原と港・波の響き）",
+      "proposer": "Lira",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.993,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "relen",
+          "detail": "Zero collision (min edit distance 2 vs 'relen')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "pel",
+            "zen"
+          ],
+          "detail": "Verified compound: pel + zen (pel(行・道) + zen(調和・穏やか))"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 0.95,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 0,
+          "detail": "Partner grounded and reused in dialogue"
+        }
+      },
+      "id": 40032,
+      "example_sentence": "Vyrel el mi ia *pelzen uo vas en fal."
+    },
+    {
+      "id": 40033,
+      "nrs": "dartul",
+      "pos": "名",
+      "meaningJa": "霧氷の様態、水と石の結晶",
+      "meaningEn": "霧氷 (dar-tul synthesis)",
+      "morphemes": [
+        "dar",
+        "tul"
+      ],
+      "etymology": "dar + tul",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "darvol",
+          "detail": "Zero collision (min edit distance 2 vs 'darvol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "tul"
+          ],
+          "detail": "Verified compound: dar + tul (dar + tul)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *dartul uo vas en fal.",
+      "example_ja": "私は星の空間で*dartulを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.822633"
+    },
+    {
+      "id": 40034,
+      "nrs": "darpel",
+      "pos": "名",
+      "meaningJa": "極光の様態、水と行の結晶",
+      "meaningEn": "極光 (dar-pel synthesis)",
+      "morphemes": [
+        "dar",
+        "pel"
+      ],
+      "etymology": "dar + pel",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darel",
+          "detail": "Zero collision (min edit distance 1 vs 'darel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "pel"
+          ],
+          "detail": "Verified compound: dar + pel (dar + pel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darpel uo vas en fal.",
+      "example_ja": "私は星の空間で*darpelを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.829886"
+    },
+    {
+      "id": 40035,
+      "nrs": "darnel",
+      "pos": "名",
+      "meaningJa": "雹の様態、水と心の結晶",
+      "meaningEn": "雹 (dar-nel synthesis)",
+      "morphemes": [
+        "dar",
+        "nel"
+      ],
+      "etymology": "dar + nel",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darel",
+          "detail": "Zero collision (min edit distance 1 vs 'darel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "nel"
+          ],
+          "detail": "Verified compound: dar + nel (dar + nel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darnel uo vas en fal.",
+      "example_ja": "私は星の空間で*darnelを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.836675"
+    },
+    {
+      "id": 40036,
+      "nrs": "dartor",
+      "pos": "名",
+      "meaningJa": "朝風、水と高の結晶",
+      "meaningEn": "朝風 (dar-tor synthesis)",
+      "morphemes": [
+        "dar",
+        "tor"
+      ],
+      "etymology": "dar + tor",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kartor",
+          "detail": "Zero collision (min edit distance 1 vs 'kartor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "tor"
+          ],
+          "detail": "Verified compound: dar + tor (dar + tor)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *dartor uo vas en fal.",
+      "example_ja": "私は星の空間で*dartorを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.844317"
+    },
+    {
+      "id": 40037,
+      "nrs": "darvas",
+      "pos": "名",
+      "meaningJa": "竜巻の様態、水と広の結晶",
+      "meaningEn": "竜巻 (dar-vas synthesis)",
+      "morphemes": [
+        "dar",
+        "vas"
+      ],
+      "etymology": "dar + vas",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darpas",
+          "detail": "Zero collision (min edit distance 1 vs 'darpas')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "vas"
+          ],
+          "detail": "Verified compound: dar + vas (dar + vas)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darvas uo vas en fal.",
+      "example_ja": "私は星の空間で*darvasを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.851989"
+    },
+    {
+      "id": 40038,
+      "nrs": "darzen",
+      "pos": "名",
+      "meaningJa": "積乱雲の様態、水と善の結晶",
+      "meaningEn": "積乱雲 (dar-zen synthesis)",
+      "morphemes": [
+        "dar",
+        "zen"
+      ],
+      "etymology": "dar + zen",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darzon",
+          "detail": "Zero collision (min edit distance 1 vs 'darzon')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "zen"
+          ],
+          "detail": "Verified compound: dar + zen (dar + zen)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darzen uo vas en fal.",
+      "example_ja": "私は星の空間で*darzenを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.859078"
+    },
+    {
+      "id": 40039,
+      "nrs": "darmol",
+      "pos": "名",
+      "meaningJa": "露、水と火の結晶",
+      "meaningEn": "露 (dar-mol synthesis)",
+      "morphemes": [
+        "dar",
+        "mol"
+      ],
+      "etymology": "dar + mol",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darvol",
+          "detail": "Zero collision (min edit distance 1 vs 'darvol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "mol"
+          ],
+          "detail": "Verified compound: dar + mol (dar + mol)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darmol uo vas en fal.",
+      "example_ja": "私は星の空間で*darmolを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.865825"
+    },
+    {
+      "id": 40040,
+      "nrs": "darkel",
+      "pos": "名",
+      "meaningJa": "嵐の様態、水と木の結晶",
+      "meaningEn": "嵐 (dar-kel synthesis)",
+      "morphemes": [
+        "dar",
+        "kel"
+      ],
+      "etymology": "dar + kel",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darel",
+          "detail": "Zero collision (min edit distance 1 vs 'darel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "kel"
+          ],
+          "detail": "Verified compound: dar + kel (dar + kel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darkel uo vas en fal.",
+      "example_ja": "私は星の空間で*darkelを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.873026"
+    },
+    {
+      "id": 40041,
+      "nrs": "dartan",
+      "pos": "名",
+      "meaningJa": "霜の様態、水と土の結晶",
+      "meaningEn": "霜 (dar-tan synthesis)",
+      "morphemes": [
+        "dar",
+        "tan"
+      ],
+      "etymology": "dar + tan",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "durtan",
+          "detail": "Zero collision (min edit distance 1 vs 'durtan')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "tan"
+          ],
+          "detail": "Verified compound: dar + tan (dar + tan)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *dartan uo vas en fal.",
+      "example_ja": "私は星の空間で*dartanを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.882120"
+    },
+    {
+      "id": 40042,
+      "nrs": "darmor",
+      "pos": "名",
+      "meaningJa": "熱上昇気流、水と終の結晶",
+      "meaningEn": "熱上昇気流 (dar-mor synthesis)",
+      "morphemes": [
+        "dar",
+        "mor"
+      ],
+      "etymology": "dar + mor",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darpor",
+          "detail": "Zero collision (min edit distance 1 vs 'darpor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "mor"
+          ],
+          "detail": "Verified compound: dar + mor (dar + mor)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darmor uo vas en fal.",
+      "example_ja": "私は星の空間で*darmorを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.889107"
+    },
+    {
+      "id": 40043,
+      "nrs": "darval",
+      "pos": "名",
+      "meaningJa": "朝風の様態、水と夜の結晶",
+      "meaningEn": "朝風 (dar-val synthesis)",
+      "morphemes": [
+        "dar",
+        "val"
+      ],
+      "etymology": "dar + val",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darvol",
+          "detail": "Zero collision (min edit distance 1 vs 'darvol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "val"
+          ],
+          "detail": "Verified compound: dar + val (dar + val)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darval uo vas en fal.",
+      "example_ja": "私は星の空間で*darvalを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.921285"
+    },
+    {
+      "id": 40044,
+      "nrs": "darpar",
+      "pos": "名",
+      "meaningJa": "露の様態、水と創の結晶",
+      "meaningEn": "露 (dar-par synthesis)",
+      "morphemes": [
+        "dar",
+        "par"
+      ],
+      "etymology": "dar + par",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "darpor",
+          "detail": "Zero collision (min edit distance 1 vs 'darpor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "par"
+          ],
+          "detail": "Verified compound: dar + par (dar + par)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *darpar uo vas en fal.",
+      "example_ja": "私は星の空間で*darparを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.942777"
+    },
+    {
+      "id": 40045,
+      "nrs": "dartas",
+      "pos": "名",
+      "meaningJa": "熱上昇気流の様態、水と器の結晶",
+      "meaningEn": "熱上昇気流 (dar-tas synthesis)",
+      "morphemes": [
+        "dar",
+        "tas"
+      ],
+      "etymology": "dar + tas",
+      "category": "AI創発語彙（自然・気象・大気現象）",
+      "scenario_id": "COLAB-DOM-01",
+      "domain": "自然・気象・大気現象",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "dyrtas",
+          "detail": "Zero collision (min edit distance 1 vs 'dyrtas')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "dar",
+            "tas"
+          ],
+          "detail": "Verified compound: dar + tas (dar + tas)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *dartas uo vas en fal.",
+      "example_ja": "私は星の空間で*dartasを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:08.966494"
+    },
+    {
+      "id": 40046,
+      "nrs": "sulbion",
+      "pos": "動",
+      "meaningJa": "晶洞石、気と生の結晶",
+      "meaningEn": "晶洞石 (sul-bion synthesis)",
+      "morphemes": [
+        "sul",
+        "bion"
+      ],
+      "etymology": "sul + bion",
+      "category": "AI創発語彙（地理・地質・鉱物）",
+      "scenario_id": "COLAB-DOM-02",
+      "domain": "地理・地質・鉱物",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 3,
+          "nearest_root": "silin",
+          "detail": "Zero collision (min edit distance 3 vs 'silin')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sul",
+            "bion"
+          ],
+          "detail": "Verified compound: sul + bion (sul + bion)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *sulbion uo vas en fal.",
+      "example_ja": "私は星の空間で*sulbionを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:09.016337"
+    },
+    {
+      "id": 40047,
+      "nrs": "sulsir",
+      "pos": "名",
+      "meaningJa": "峡谷の様態、気と光の結晶",
+      "meaningEn": "峡谷 (sul-sir synthesis)",
+      "morphemes": [
+        "sul",
+        "sir"
+      ],
+      "etymology": "sul + sir",
+      "category": "AI創発語彙（地理・地質・鉱物）",
+      "scenario_id": "COLAB-DOM-02",
+      "domain": "地理・地質・鉱物",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "tulvir",
+          "detail": "Zero collision (min edit distance 2 vs 'tulvir')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sul",
+            "sir"
+          ],
+          "detail": "Verified compound: sul + sir (sul + sir)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *sulsir uo vas en fal.",
+      "example_ja": "私は星の空間で*sulsirを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:09.023455"
+    },
+    {
+      "id": 40048,
+      "nrs": "sultul",
+      "pos": "名",
+      "meaningJa": "黒曜石、気と石の結晶",
+      "meaningEn": "黒曜石 (sul-tul synthesis)",
+      "morphemes": [
+        "sul",
+        "tul"
+      ],
+      "etymology": "sul + tul",
+      "category": "AI創発語彙（地理・地質・鉱物）",
+      "scenario_id": "COLAB-DOM-02",
+      "domain": "地理・地質・鉱物",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "suftol",
+          "detail": "Zero collision (min edit distance 2 vs 'suftol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sul",
+            "tul"
+          ],
+          "detail": "Verified compound: sul + tul (sul + tul)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *sultul uo vas en fal.",
+      "example_ja": "私は星の空間で*sultulを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:09.030496"
+    },
+    {
+      "id": 40049,
+      "nrs": "sulpel",
+      "pos": "名",
+      "meaningJa": "玄武岩の様態、気と行の結晶",
+      "meaningEn": "玄武岩 (sul-pel synthesis)",
+      "morphemes": [
+        "sul",
+        "pel"
+      ],
+      "etymology": "sul + pel",
+      "category": "AI創発語彙（地理・地質・鉱物）",
+      "scenario_id": "COLAB-DOM-02",
+      "domain": "地理・地質・鉱物",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "sultul",
+          "detail": "Zero collision (min edit distance 2 vs 'sultul')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sul",
+            "pel"
+          ],
+          "detail": "Verified compound: sul + pel (sul + pel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *sulpel uo vas en fal.",
+      "example_ja": "私は星の空間で*sulpelを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:09.037426"
+    },
+    {
+      "id": 40050,
+      "nrs": "sulnel",
+      "pos": "名",
+      "meaningJa": "地層の様態、気と心の結晶",
+      "meaningEn": "地層 (sul-nel synthesis)",
+      "morphemes": [
+        "sul",
+        "nel"
+      ],
+      "etymology": "sul + nel",
+      "category": "AI創発語彙（地理・地質・鉱物）",
+      "scenario_id": "COLAB-DOM-02",
+      "domain": "地理・地質・鉱物",
+      "proposer": "Qwen2.5-Colab-Inference",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "sulpel",
+          "detail": "Zero collision (min edit distance 1 vs 'sulpel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "sul",
+            "nel"
+          ],
+          "detail": "Verified compound: sul + nel (sul + nel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Vyrel el mi ia *sulnel uo vas en fal.",
+      "example_ja": "私は星の空間で*sulnelを見る。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:50:09.045808"
+    }
+  ]
+}

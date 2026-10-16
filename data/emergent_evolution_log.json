@@ -4628,5 +4628,24 @@
         }
       ]
     }
+  ],
+  "evolution_runs": [
+    {
+      "timestamp": "2026-10-16T18:50:13.238841",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "endpoint": "https://medieval-chance-starter-happen.trycloudflare.com/v1/chat/completions",
+      "domains_processed": 20,
+      "generated_count": 500,
+      "approved_count": 357,
+      "rejected_count": 143,
+      "gate_failures": {
+        "gate1": 0,
+        "gate2": 0,
+        "gate3": 143,
+        "gate4": 0,
+        "gate5": 0,
+        "gate6": 0
+      }
+    }
   ]
 }
