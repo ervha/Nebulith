@@ -130,20 +130,13 @@ console.log('\n--- 5. Load Example to Translator Interaction ---');
   console.log('PASS: loadExampleToTranslator - 翻訳タブへの例文ロードとモーダルクローズが正常連動');
 }
 
-// 6. 星文字フォント切替トグル（Astral Script Mode）
-console.log('\n--- 6. Astral Script Font Toggle Mode ---');
+// 6. 星文字フォント切替ボタンの整理・削除検証
+console.log('\n--- 6. Font Toggle Button Cleaned ---');
 {
-  assert.equal(context.document.body.classList.contains('astral-mode'), false);
-  dom.astralToggleBtn.click();
-  assert.equal(context.document.body.classList.contains('astral-mode'), true);
-  assert.equal(dom.astralToggleLabel.textContent, '星文字: ON');
-  assert.equal(vm.runInContext('safeStorage.getItem("neb_astral_font")', context), 'true');
-
-  dom.astralToggleBtn.click();
-  assert.equal(context.document.body.classList.contains('astral-mode'), false);
-  assert.equal(dom.astralToggleLabel.textContent, '星文字: OFF');
-  assert.equal(vm.runInContext('safeStorage.getItem("neb_astral_font")', context), 'false');
-  console.log('PASS: astralToggleBtn - 星文字/NRS表示の双方向トグルと永続化が正常動作');
+  // Button logic removed to simplify UI as requested
+  const appJsContent = fs.readFileSync('web/app.js', 'utf8');
+  assert.ok(!appJsContent.includes('id="astralToggleBtn"'), 'astralToggleBtn must not be active in web/app.js');
+  console.log('PASS: astralToggleBtn successfully cleaned and removed from UI');
 }
 
 // 7. アライメント表示での単語クリック連携（Interactive Alignment）

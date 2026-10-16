@@ -1045,9 +1045,6 @@ const AUDIT_DATA = {json.dumps(emergent_audit_data, ensure_ascii=False)};
       </div>
     </div>
     <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
-      <button class="theme-toggle-btn" id="astralToggleBtn" title="星石文字フォント表示切替">
-        <span id="astralToggleLabel">星文字: OFF</span>
-      </button>
       <button class="theme-toggle-btn" id="queueToggleBtn" title="未対応リクエスト・キュー">
         <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
       </button>

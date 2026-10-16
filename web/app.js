@@ -1210,31 +1210,8 @@ document.getElementById('backupImport').addEventListener('change',async e=>{
 document.getElementById('backupApply').addEventListener('click',()=>{if(pendingBackup&&safeStorage.restore(pendingBackup))window.location.reload();});
 
 
-// Astral Font Mode Toggle
-const astralToggleBtn = document.getElementById('astralToggleBtn');
-const astralToggleLabel = document.getElementById('astralToggleLabel');
-let isAstralMode = safeStorage.getItem('neb_astral_font') === 'true';
-
-function updateAstralUI() {
-  if (document.body) {
-    if (isAstralMode) {
-      document.body.classList.add('astral-mode');
-    } else {
-      document.body.classList.remove('astral-mode');
-    }
-  }
-  if (astralToggleLabel) astralToggleLabel.textContent = isAstralMode ? '星文字: ON' : '星文字: OFF';
-  if (astralToggleBtn) astralToggleBtn.style.background = isAstralMode ? 'var(--md-sys-color-primary-container)' : '';
-}
-
-if (astralToggleBtn) {
-  astralToggleBtn.addEventListener('click', () => {
-    isAstralMode = !isAstralMode;
-    safeStorage.setItem('neb_astral_font', isAstralMode ? 'true' : 'false');
-    updateAstralUI();
-  });
-}
-updateAstralUI();
+// Cleaned: Font toggle button removed as per project requirements.
+// Dedicated glyph sections (.word-glyph, .corpus-glyph, .modal-glyph-large) render Nebulith font natively.
 
 
 // ==============================================================================

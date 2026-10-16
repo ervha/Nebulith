@@ -4,7 +4,7 @@
   "auditPolicy": "6-Gate Strict Linguistic Council Audit (Phonotactics, Levenshtein Distance, Gloss Disjointness, Morphological Transparency, VSO Case Frame, Partner & Cross-Scenario Grounding)",
   "idRange": "40001-49999 (Reserved for AI-Emergent Audited Lexicon)",
   "summary": {
-    "totalScenarios": 13,
+    "totalScenarios": 14,
     "universalScenarios": 9,
     "specializedScenarios": 2,
     "totalEvaluated": 35,
@@ -3207,6 +3207,73 @@
           "reused_words": [
             "falzenor",
             "falmor"
+          ],
+          "proposed_words": []
+        }
+      ]
+    },
+    {
+      "scenario_id": "LLM-MOCK-SEA",
+      "domain": "汎用・日常（海原と港・波の響き）",
+      "title": "港の朝露と砕ける波音、船旅の平穏",
+      "communicative_need": "港で砕ける『波音・潮騒』と、平穏に船を進める『順風航行する』の海事語彙。",
+      "agent_a": {
+        "name": "Orin (船乗り)",
+        "role": "帆を張り波を見つめる"
+      },
+      "agent_b": {
+        "name": "Lira (見送り人)",
+        "role": "桟橋で旅立ちの安全を祈る"
+      },
+      "turns": [
+        {
+          "speaker": "Orin",
+          "nebulith": "Vyrel el mi ia daris. Nyrmen el *darnyr va pel.",
+          "japanese": "私は水を見つめる。水から『波音・潮騒 (*darnyr)』が響き渡る。",
+          "proposed_words": [
+            {
+              "nrs": "darnyr",
+              "pos": "名",
+              "meaningJa": "波音、潮騒、打ち寄せる水音",
+              "meaningEn": "sound of sea surf, wave noise",
+              "morphemes": [
+                "dar",
+                "nyr"
+              ],
+              "etymology": "dar(水) + nyr(響き)",
+              "category": "AI動的創発（日常・海原）"
+            }
+          ]
+        },
+        {
+          "speaker": "Lira",
+          "nebulith": "Velrin el mi ia *darnyr. *Pelzenar el ti uo valar en daris?",
+          "japanese": "私は波音を感じる。あなたは夜の水面で『順風航海できる (*pelzen)』か？",
+          "reused_words": [
+            "darnyr"
+          ],
+          "proposed_words": [
+            {
+              "nrs": "pelzen",
+              "pos": "動",
+              "meaningJa": "順風航行する、平穏に船を進める",
+              "meaningEn": "sail favorably, navigate smoothly",
+              "morphemes": [
+                "pel",
+                "zen"
+              ],
+              "etymology": "pel(行・道) + zen(調和・穏やか)",
+              "category": "AI動的創発（日常・海原）"
+            }
+          ]
+        },
+        {
+          "speaker": "Orin",
+          "nebulith": "Se *pelzen el mi de ser. Poranliv el ti uo *darnyr!",
+          "japanese": "私は穏やかに順風航海するだろう。あなたも波音の中で歩み続けよ！",
+          "reused_words": [
+            "pelzen",
+            "darnyr"
           ],
           "proposed_words": []
         }
