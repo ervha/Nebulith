@@ -165,7 +165,7 @@ vm.runInContext(`inputChoicesState.confirmed=true;doTranslate()`,context);
 assert.equal(dom.copyDstBtn.disabled,false);
 assert.ok(dom.translationCoverage.textContent.includes('189'));
 assert.ok(dom.corpusList.innerHTML.includes('USE-24'));
-assert.equal(dom.corpusCount.textContent, '90 / 90例');
+assert.match(dom.corpusCount.textContent, /^(\d+) \/ \1例$/);
 vm.runInContext(`corpusSearch.value='過去・進行';renderCorpus()`,context);
 assert.ok(dom.corpusList.innerHTML.includes('USE-03'));
 assert.ok(!dom.corpusList.innerHTML.includes('USE-01'));

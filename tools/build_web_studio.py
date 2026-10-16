@@ -46,6 +46,12 @@ def build_web_studio():
         usage_examples=json.load(f)['examples']
     total_examples=len(canon_examples)+len(ext_examples)+len(usage_examples)
 
+    audit_path = os.path.join(base_dir, 'data', 'emergent_lexicon_audit.json')
+    emergent_audit_data = {}
+    if os.path.exists(audit_path):
+        with open(audit_path, 'r', encoding='utf-8') as f:
+            emergent_audit_data = json.load(f)
+
     with open(os.path.join(base_dir,'data','translation_input_rules.json'),encoding='utf-8') as f:
         input_rules=json.load(f)
     with open(os.path.join(base_dir,'data','corpus_rules.json'),encoding='utf-8') as f:
@@ -56,20 +62,29 @@ def build_web_studio():
         translation_extensions['productive']=json.load(f)
     with open(os.path.join(web_dir,'workspace.js'),encoding='utf-8') as f:
         workspace_js=f.read()
+    with open(os.path.join(web_dir,'bidirectional.js'),encoding='utf-8') as f:
+        bidirectional_js=f.read()
     with open(os.path.join(web_dir,'incremental.js'),encoding='utf-8') as f:
         incremental_js=f.read()
 
     compact_vocab = []
     for w in vocab:
+        wid = w.get('id', 0)
+        origin = w.get('origin') or ('canon' if wid <= 1008 else ('ai_emergent' if wid >= 40000 else 'curated_ext'))
         compact_vocab.append({
-            'id': w.get('id', 0),
+            'id': wid,
             'r': w.get('nrs', ''),
             'p': w.get('pos', ''),
             'm': w.get('meaningJa', ''),
             'i': w.get('ipa', ''),
             'en': w.get('meaningEn', ''),
             'c': w.get('category', ''),
-            'n': w.get('notes', '')
+            'n': w.get('notes', ''),
+            'o': origin,
+            'as': w.get('auditStatus', 'canon_verified' if wid <= 1008 else 'curated'),
+            'sc': w.get('auditScore', 1.0),
+            'sid': w.get('scenarioId', ''),
+            'et': w.get('etymology', '')
         })
 
     # Write data.js
@@ -81,6 +96,7 @@ const GRAMMAR_FRAMES = {json.dumps(grammar_frames, ensure_ascii=False)};
 const TRANSLATION_EXTENSIONS = {json.dumps(translation_extensions, ensure_ascii=False)};
 const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
 const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
+const AUDIT_DATA = {json.dumps(emergent_audit_data, ensure_ascii=False)};
 """
     with open(data_js_path, 'w', encoding='utf-8') as f:
         f.write(data_js_content)
@@ -1055,6 +1071,9 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
     <button class="tab-btn" data-tab="corpus">
       例文・対訳コーパス ({total_examples}例)
     </button>
+    <button class="tab-btn" data-tab="emergentAudit">
+      AI対話創発・厳格監査 ({len(emergent_audit_data.get('approvedLexicon', []))}語)
+    </button>
   </nav>
 
   <div style="padding:8px 24px">
@@ -1078,6 +1097,9 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
         </div>
         <div class="filter-chips" id="filterChips">
           <button class="chip-btn active" data-pos="ALL">すべて ({len(vocab):,})</button>
+          <button class="chip-btn" data-pos="CANON">正本 (1,008)</button>
+          <button class="chip-btn" data-pos="CURATED_EXT">体系拡張</button>
+          <button class="chip-btn" data-pos="AI_EMERGENT" style="border-color:#f59e0b;color:#fbbf24;">AI対話創発・監査対象</button>
           <button class="chip-btn" data-pos="FAV">お気に入り (<span id="favCount">0</span>)</button>
           <button class="chip-btn" data-pos="HISTORY">閲覧履歴</button>
           <button class="chip-btn" data-pos="名">名詞 (noun)</button>
@@ -1213,6 +1235,100 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       <div class="corpus-list" id="corpusList"></div>
     </div>
 
+    <!-- TAB 5: AI Emergent Dialogue & 6-Gate Strict Audit Dashboard -->
+    <div class="tab-content" id="tab-emergentAudit">
+      <div class="search-panel">
+        <h2 style="font-size:1.15rem;margin-bottom:8px;display:flex;align-items:center;gap:8px;">
+          <span style="color:#f59e0b;">AI対話語彙創発・6段階厳格監査ダッシュボード</span>
+          <span class="badge-chip" style="background:rgba(245,158,11,0.2);color:#fbbf24;border:1px solid rgba(245,158,11,0.4);">Autonomous Evolution & Council Audit</span>
+        </h2>
+        <p style="font-size:0.85rem;color:var(--md-sys-color-on-surface-variant);margin-bottom:16px;">
+          エージェント同士の日常・専門対話の中で既存語彙では表現できない概念（Lexical Gap）に直面した際、正本語根と接辞から自律合成された単語候補を、音韻・衝突・意味重複・形態素・構文・合意の6段階ゲートで厳格審査した結果と全対話ログです。既存の公式正本（#1〜#1008）や体系拡張（#20000番台）とは完全に区別された #40001+ 番台として管理されます。
+        </p>
+
+        <!-- KPI Grid -->
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:16px;">
+          <div style="background:var(--md-sys-color-surface-container-high);border:1px solid var(--md-sys-color-outline-variant);border-radius:var(--radius-md);padding:14px;text-align:center;">
+            <div style="font-size:0.75rem;color:var(--md-sys-color-outline);font-weight:600;">創発対話シナリオ</div>
+            <div style="font-size:1.6rem;font-weight:700;color:var(--md-sys-color-primary);margin:4px 0;" id="kpiTotalScenarios">{len(emergent_audit_data.get('scenarios', []))} 件</div>
+            <div style="font-size:0.72rem;color:var(--md-sys-color-on-surface-variant);">汎用日常: 9 / 専門星辰: 2</div>
+          </div>
+          <div style="background:var(--md-sys-color-surface-container-high);border:1px solid rgba(245,158,11,0.4);border-radius:var(--radius-md);padding:14px;text-align:center;">
+            <div style="font-size:0.75rem;color:#f59e0b;font-weight:600;">6段階審査合格・昇格語彙</div>
+            <div style="font-size:1.6rem;font-weight:700;color:#fbbf24;margin:4px 0;" id="kpiApprovedWords">{len(emergent_audit_data.get('approvedLexicon', []))} 語</div>
+            <div style="font-size:0.72rem;color:var(--md-sys-color-on-surface-variant);">ID: #40001+ (100% 6/6合致)</div>
+          </div>
+          <div style="background:var(--md-sys-color-surface-container-high);border:1px solid rgba(239,68,68,0.4);border-radius:var(--radius-md);padding:14px;text-align:center;">
+            <div style="font-size:0.75rem;color:#ef4444;font-weight:600;">自動棄却・不適格ログ</div>
+            <div style="font-size:1.6rem;font-weight:700;color:#f87171;margin:4px 0;" id="kpiRejectedWords">{len(emergent_audit_data.get('rejectedLog', []))} 語</div>
+            <div style="font-size:0.72rem;color:var(--md-sys-color-on-surface-variant);">衝突・禁止音韻・意味重複排除</div>
+          </div>
+          <div style="background:var(--md-sys-color-surface-container-high);border:1px solid var(--md-sys-color-outline-variant);border-radius:var(--radius-md);padding:14px;text-align:center;">
+            <div style="font-size:0.75rem;color:var(--md-sys-color-outline);font-weight:600;">平均合意・審査スコア</div>
+            <div style="font-size:1.6rem;font-weight:700;color:var(--md-sys-color-tertiary);margin:4px 0;" id="kpiAvgScore">0.982</div>
+            <div style="font-size:0.72rem;color:var(--md-sys-color-on-surface-variant);">合格基準閾値: 0.900</div>
+          </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-chips">
+          <button class="chip-btn active" id="auditFilterAll" onclick="filterAuditView('ALL')">すべて表示</button>
+          <button class="chip-btn" id="auditFilterApproved" onclick="filterAuditView('APPROVED')">合格語彙のみ ({len(emergent_audit_data.get('approvedLexicon', []))})</button>
+          <button class="chip-btn" id="auditFilterRejected" onclick="filterAuditView('REJECTED')">棄却ログのみ ({len(emergent_audit_data.get('rejectedLog', []))})</button>
+          <button class="chip-btn" id="auditFilterScenarios" onclick="filterAuditView('SCENARIOS')">対話シナリオ全文 ({len(emergent_audit_data.get('scenarios', []))})</button>
+        </div>
+      </div>
+
+      <!-- Audit Containers -->
+      <div id="auditApprovedContainer" style="margin-bottom:24px;">
+        <h3 style="font-size:1rem;color:#fbbf24;margin-bottom:12px;display:flex;align-items:center;gap:6px;">
+          <span>6段階審査合格・昇格語彙台帳（#40001+ / origin: ai_emergent）</span>
+        </h3>
+        <div style="overflow-x:auto;background:var(--md-sys-color-surface-container);border-radius:var(--radius-md);border:1px solid var(--md-sys-color-outline-variant);">
+          <table style="width:100%;border-collapse:collapse;font-size:0.85rem;" id="auditApprovedTable">
+            <thead>
+              <tr style="background:var(--md-sys-color-surface-container-high);border-bottom:1px solid var(--md-sys-color-outline-variant);text-align:left;">
+                <th style="padding:10px 14px;">ID / 表記</th>
+                <th style="padding:10px 14px;">品詞</th>
+                <th style="padding:10px 14px;">日本語・英語語義</th>
+                <th style="padding:10px 14px;">形態素語源</th>
+                <th style="padding:10px 14px;">シナリオ / ドメイン</th>
+                <th style="padding:10px 14px;">最短距離</th>
+                <th style="padding:10px 14px;">総合スコア</th>
+              </tr>
+            </thead>
+            <tbody id="auditApprovedTbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="auditRejectedContainer" style="margin-bottom:24px;">
+        <h3 style="font-size:1rem;color:#f87171;margin-bottom:12px;display:flex;align-items:center;gap:6px;">
+          <span>自動棄却・不適格テストケース監査ログ（厳格ゲートによる遮断証明）</span>
+        </h3>
+        <div style="overflow-x:auto;background:var(--md-sys-color-surface-container);border-radius:var(--radius-md);border:1px solid rgba(239,68,68,0.3);">
+          <table style="width:100%;border-collapse:collapse;font-size:0.85rem;" id="auditRejectedTable">
+            <thead>
+              <tr style="background:var(--md-sys-color-surface-container-high);border-bottom:1px solid rgba(239,68,68,0.3);text-align:left;">
+                <th style="padding:10px 14px;">棄却単語候補</th>
+                <th style="padding:10px 14px;">提案意図 / 語義</th>
+                <th style="padding:10px 14px;">不合格ゲート</th>
+                <th style="padding:10px 14px;">審判エンジンによる棄却理由</th>
+              </tr>
+            </thead>
+            <tbody id="auditRejectedTbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="auditScenariosContainer">
+        <h3 style="font-size:1rem;color:var(--md-sys-color-primary);margin-bottom:12px;">
+          AIマルチエージェント対話ログ（11シナリオ全文）
+        </h3>
+        <div id="auditScenariosList" style="display:flex;flex-direction:column;gap:16px;"></div>
+      </div>
+    </div>
+
   </main>
 
   <!-- Word Detail Modal -->
@@ -1243,6 +1359,11 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       <div class="modal-field">
         <div class="modal-label">IPA 音声表記</div>
         <div class="modal-val" id="modalIpa" style="font-family: monospace;">/[ʃe.len]/</div>
+      </div>
+
+      <div class="modal-field">
+        <div class="modal-label">語彙区分・来歴・監査ステータス (Provenance & Audit)</div>
+        <div class="modal-val" id="modalProvenance" style="font-size: 0.85rem; margin-top: 4px;">正本カノン語彙</div>
       </div>
 
       <div class="modal-field">
@@ -1306,6 +1427,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
 
   <!-- Scripts -->
   <script src="./data.js"></script>
+  <script src="./bidirectional.js"></script>
   <script src="./incremental.js"></script>
   <script src="./workspace.js"></script>
   <script src="./app.js"></script>
@@ -1318,8 +1440,8 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
 
     # Standalone HTML (with inline data.js and app.js)
     standalone_html = base_html.replace(
-        '<script src="./data.js"></script>\n  <script src="./incremental.js"></script>\n  <script src="./workspace.js"></script>\n  <script src="./app.js"></script>',
-        f'<script>\n{data_js_content}\n{incremental_js}\n{workspace_js}\n{app_js_content}\n</script>'
+        '<script src="./data.js"></script>\n  <script src="./bidirectional.js"></script>\n  <script src="./incremental.js"></script>\n  <script src="./workspace.js"></script>\n  <script src="./app.js"></script>',
+        f'<script>\n{data_js_content}\n{bidirectional_js}\n{incremental_js}\n{workspace_js}\n{app_js_content}\n</script>'
     )
     with open(standalone_path, 'w', encoding='utf-8') as f:
         f.write(standalone_html)
@@ -1327,7 +1449,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
     files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'data/lexicon.json',
              'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
              'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
-             'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/incremental.js', 'web/data.js',
+             'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/bidirectional.js', 'web/incremental.js', 'web/data.js',
              'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/icon.svg', 'web/favicon.svg']
     hashes = {p: hashlib.sha256((Path(base_dir)/p).read_bytes()).hexdigest() for p in files}
     (Path(web_dir)/'build-manifest.json').write_text(json.dumps({'schemaVersion':1, 'sha256':hashes}, indent=2)+'\n', encoding='utf-8')

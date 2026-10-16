@@ -1053,6 +1053,83 @@
       "nebulith": "Faldur el novyras uo cel.",
       "japanese": "新星が天球にて強輝に輝く。",
       "notes": "超新星爆発を観測した古代天測記録。"
+    },
+    {
+      "id": "dialogue_univ-01",
+      "nebulith": "Surlon el mi ia daris uo survan. Talun el darsul va daris.",
+      "japanese": "私は調理台で水を煎じている。水から湯気が立ち昇る。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（食事と喫茶）] 朝の湯気と温かい飲み物の共有"
+    },
+    {
+      "id": "dialogue_univ-02",
+      "nebulith": "Poranar ka el mi to kelom de pelnel? Ne vyrel el mi ia pelsel.",
+      "japanese": "私は近道 (*pelnel)』で市場へ歩けるだろうか？私は『目印・道標を見失っている。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（旅・道案内・街歩き）] 初めての街での道迷いと曲がり角の案内"
+    },
+    {
+      "id": "dialogue_univ-03",
+      "nebulith": "Velrin el mi ia morvel de morpal. Relen el palvas en morvel ia zenmol.",
+      "japanese": "私は手のひらで外套に触れる。外套の手触り・肌触り (*palvas)』は『肌馴染み良く滑らかだ。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（市場・買い物・交渉）] 織物と陶器の交換・品定め"
+    },
+    {
+      "id": "dialogue_univ-04",
+      "nebulith": "Dalkenliv el mi ia dolkiv. Relen el morkym uo mor, ul talun el tymsul.",
+      "japanese": "私は記録針で書き続けている。身体にこわばり・凝り (*morkym)』があり、『眠気・あくびが込み上げる。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（体調・感情・気遣い）] 夜更けの疲れと友人へのいたわり"
+    },
+    {
+      "id": "dialogue_univ-05",
+      "nebulith": "Velrin el mi ia darsir uo novlis. Relen el sernod uo govan.",
+      "japanese": "そよ風の中に雨気配・湿り風 (*darsir)』を感じる。庭には『干し布・洗い衣がある。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（天候・洗濯・家事）] 通り雨の気配と干し物の取り込み"
+    },
+    {
+      "id": "dialogue_univ-06",
+      "nebulith": "Relenliv el mi uo peltor. Fanvor el mi ia kelsir ul fensul de ti.",
+      "japanese": "私は曲がり角（*peltor）に居続けていた。あなたとの待ち合わせ・合流 (*kelsir)』と『世間話・歓談を心待ちにしていたよ。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（約束・待ち合わせ・雑談）] 夕暮れの待ち合わせと立ち話"
+    },
+    {
+      "id": "dialogue_univ-07",
+      "nebulith": "Pyron el mi ia pyris. Talun el sursir va survan.",
+      "japanese": "私は調理火を燃やす。調理台から出汁・煮汁が煮立ち昇る。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（台所・調理と火加減）] 出汁の煮立ちと具材の炒め、味見の分かち合い"
+    },
+    {
+      "id": "dialogue_univ-08",
+      "nebulith": "Koran el mi ia pelvyn de sernod. Poranast el mi uo pel.",
+      "japanese": "私は布で背負い袋・旅鞄を括る。私は道を進み歩みたい。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（旅立ち・荷造りと見送り）] 朝露の立つ道と背負い袋、道中無事の見送り"
+    },
+    {
+      "id": "dialogue_univ-09",
+      "nebulith": "Tasel el mi ia zel. Koran el mi ia zelpuk de pal.",
+      "japanese": "私は薬草を刻む。私は手で薬草湿布・当て布を練る。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[汎用・日常（薬草と手当て・快復の願い）] 冷えた手足のさすり手当てと薬草湿布、滋養粥"
+    },
+    {
+      "id": "dialogue_spec-01",
+      "nebulith": "Vyrelliv el mi ia morjyl de vyrelik. Falun el faljyl uo tulyris en novar.",
+      "japanese": "私は天測望遠鏡で恒星食を観測し続けている。主星の縁にて屈折光環・二重光条が輝いている。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[専門・天体観測（光学・天測工学）] 連星食における二重光条と重力レンズの観測"
+    },
+    {
+      "id": "dialogue_spec-02",
+      "nebulith": "Mornel el falmator. Relen el falmor uo kyr en falmator.",
+      "japanese": "星石ランタンが薄暗い。ランタンの結晶内部に光曇り・波長濁りがある。",
+      "origin": "ai_emergent",
+      "notes": "【AI対話創発コーパス】[専門・星石工芸（光学結晶・共鳴学）] 星石ランタンの波長調律と微光減衰の防止"
     }
   ]
 }
