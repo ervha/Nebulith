@@ -32,4 +32,13 @@ def dictionary_entries(vocabulary):
         entry = by_id[verb['id']]
         if verb['lemma'] not in entry['meaningJa']:
             entry['notes'] += ' 対応する日本語動詞：' + verb['lemma'] + '。'
+
+    # Attach canonical scripture loci from Codex Astrolith
+    loci_file = ROOT / 'data/lexicon_canonical_loci.json'
+    if loci_file.exists():
+        loci_map = json.loads(loci_file.read_text(encoding='utf-8'))
+        for root, locus in loci_map.items():
+            if root in by_root:
+                by_root[root]['notes'] += f' 【聖典原典】{locus}。'
+
     return entries
