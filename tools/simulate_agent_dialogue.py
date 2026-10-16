@@ -976,7 +976,7 @@ REJECTED_TEST_CASES = [
 ]
 
 
-def run_simulation(promote: bool = True):
+def run_simulation(promote: bool = False):
     arbiter = StrictArbiterEngine()
 
     # Collect all utterances and track cross-scenario usage
@@ -1121,4 +1121,4 @@ def run_simulation(promote: bool = True):
 
 
 if __name__ == "__main__":
-    run_simulation(promote=True)
+    run_simulation(promote=False)

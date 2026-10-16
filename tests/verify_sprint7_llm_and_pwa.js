@@ -4,29 +4,30 @@ const path = require('path');
 
 console.log('=== Verifying Sprint 7: LLM Emergent Dialogue, Feedback Auto-Triage & PWA Offline Optimization ===\n');
 
-// 1. LLM Multi-Agent Dialogue Generator Verification
+// 1. Dynamic LLM Emergence & Strict Arbiter Integration Verification
 console.log('--- 1. LLM Multi-Agent Dialogue Engine Verification ---');
-const llmScriptPath = 'tools/llm_agent_dialogue.py';
-assert.ok(fs.existsSync(llmScriptPath), 'tools/llm_agent_dialogue.py must exist');
-const llmScript = fs.readFileSync(llmScriptPath, 'utf8');
-assert.ok(llmScript.includes('MockLLMProvider'), 'Must provide MockLLMProvider for offline deterministic execution');
-assert.ok(llmScript.includes('OpenAICompatibleProvider'), 'Must support OpenAI / Local LLM provider');
-assert.ok(llmScript.includes('DynamicEmergencePipeline'), 'Must define DynamicEmergencePipeline');
-assert.ok(llmScript.includes('StrictArbiterEngine'), 'Must pipe into StrictArbiterEngine for 6-gate audit');
+const llmDialoguePath = 'tools/llm_agent_dialogue.py';
+assert.ok(fs.existsSync(llmDialoguePath), 'tools/llm_agent_dialogue.py must exist');
+
+const llmScript = fs.readFileSync(llmDialoguePath, 'utf8');
+assert.ok(llmScript.includes('class MockLLMProvider'), 'Must provide offline MockLLMProvider');
+assert.ok(llmScript.includes('class OpenAICompatibleProvider'), 'Must provide OpenAICompatibleProvider for Ollama/APIs');
+assert.ok(llmScript.includes('class DynamicEmergencePipeline'), 'Must provide DynamicEmergencePipeline');
+assert.ok(llmScript.includes('StrictArbiterEngine'), 'Must interface directly with 6-gate StrictArbiterEngine');
 console.log('PASS: tools/llm_agent_dialogue.py structure and arbiter integration verified');
 
 // 2. Feedback Queue Auto-Triage Pipeline Verification
 console.log('\n--- 2. Feedback Queue Auto-Triage Pipeline Verification ---');
 const triageScriptPath = 'tools/triage_feedback_queue.py';
 assert.ok(fs.existsSync(triageScriptPath), 'tools/triage_feedback_queue.py must exist');
-const triageScript = fs.readFileSync(triageScriptPath, 'utf8');
-assert.ok(triageScript.includes('triage_queue_file'), 'Must define triage_queue_file function');
 
-const testTriagedPath = 'tests/fixtures/test_feedback_queue_triaged.json';
-assert.ok(fs.existsSync(testTriagedPath), 'tests/fixtures/test_feedback_queue_triaged.json must exist');
-const triagedData = JSON.parse(fs.readFileSync(testTriagedPath, 'utf8'));
-assert.equal(triagedData.schemaVersion, 2);
-assert.ok(triagedData.totalItems >= 2);
+const testQueuePath = 'tests/fixtures/test_feedback_queue.json';
+assert.ok(fs.existsSync(testQueuePath), 'Fixture tests/fixtures/test_feedback_queue.json must exist');
+
+const triagedOutPath = 'tests/fixtures/test_feedback_queue_triaged.json';
+assert.ok(fs.existsSync(triagedOutPath), 'Triaged output must exist');
+const triagedData = JSON.parse(fs.readFileSync(triagedOutPath, 'utf8'));
+assert.equal(triagedData.totalItems, 2);
 assert.ok(triagedData.implementedCount >= 1);
 for (const item of triagedData.queue) {
   if (item.status === 'implemented') {
@@ -59,20 +60,17 @@ const appJs = fs.readFileSync('web/app.js', 'utf8');
 assert.ok(appJs.includes('navigator.serviceWorker.register'), 'web/app.js must register service worker');
 console.log('PASS: Service Worker, manifest.json, and app.js registration verified');
 
-// 4. Emergent Audit Dashboard Tab in Web Studio Verification
-console.log('\n--- 4. Emergent Audit Dashboard Verification ---');
+// 4. Clean Web Studio UI Verification (Web Dashboard Removed)
+console.log('\n--- 4. Web Studio Clean UI (Dashboard Removed) Verification ---');
 const indexHtml = fs.readFileSync('web/index.html', 'utf8');
-assert.ok(indexHtml.includes('id="tab-emergentAudit"'), 'index.html must include emergentAudit tab');
-assert.ok(indexHtml.includes('kpiApprovedWords'), 'index.html must display KPI for approved words');
-assert.ok(indexHtml.includes('auditApprovedTable'), 'index.html must display approved audit table');
-assert.ok(indexHtml.includes('auditRejectedTable'), 'index.html must display rejected audit table');
-assert.ok(indexHtml.includes('auditScenariosList'), 'index.html must display dialogue scenario viewer');
+assert.ok(!indexHtml.includes('id="tab-emergentAudit"'), 'index.html must not include emergentAudit tab');
+assert.ok(!indexHtml.includes('data-tab="emergentAudit"'), 'index.html must not include emergentAudit button');
 
 const standaloneHtml = fs.readFileSync('web/standalone.html', 'utf8');
-assert.ok(standaloneHtml.includes('id="tab-emergentAudit"'), 'standalone.html must include emergentAudit tab');
-assert.ok(standaloneHtml.includes('kpiApprovedWords'), 'standalone.html must include KPI cards');
+assert.ok(!standaloneHtml.includes('id="tab-emergentAudit"'), 'standalone.html must not include emergentAudit tab');
+assert.ok(!standaloneHtml.includes('data-tab="emergentAudit"'), 'standalone.html must not include emergentAudit button');
 
-console.log('PASS: Web Studio Emergent Audit Dashboard (Tab 5) completely integrated in index.html & standalone.html');
+console.log('PASS: Web Studio cleanly freed from audit dashboard in index.html & standalone.html');
 
 console.log('\n===============================================================');
 console.log('ALL SPRINT 7 & DYNAMIC LLM EMERGENCE TESTS PASSED! (100% GREEN)');

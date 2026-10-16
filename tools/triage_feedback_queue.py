@@ -26,7 +26,7 @@ from llm_agent_dialogue import DynamicEmergencePipeline, MockLLMProvider, OpenAI
 from simulate_agent_dialogue import StrictArbiterEngine, EXT_PATH, AUDIT_LEDGER_PATH
 
 
-def triage_queue_file(queue_file_path: str, provider_name: str = "mock", endpoint: str = None, model: str = None, promote: bool = True) -> dict:
+def triage_queue_file(queue_file_path: str, provider_name: str = "mock", endpoint: str = None, model: str = None, promote: bool = False) -> dict:
     queue_path = Path(queue_file_path)
     if not queue_path.exists():
         raise FileNotFoundError(f"Feedback queue file not found: {queue_path}")

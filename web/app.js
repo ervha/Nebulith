@@ -106,8 +106,6 @@ function renderLexicon() {
       if ((w.o || 'canon') !== 'canon') return false;
     } else if (currentFilterPos === 'CURATED_EXT') {
       if (w.o !== 'curated_ext') return false;
-    } else if (currentFilterPos === 'AI_EMERGENT') {
-      if (w.o !== 'ai_emergent') return false;
     } else if (currentFilterPos !== 'ALL' && !w.p.includes(currentFilterPos)) {
       return false;
     }
@@ -150,11 +148,9 @@ function renderLexicon() {
   const displayList = filtered.slice(0, 150);
   wordGrid.innerHTML = displayList.map(w => {
     const isFav = favorites.has(w.r);
-    const originBadge = w.o === 'ai_emergent'
-      ? '<span class="word-pos" style="background:rgba(245,158,11,0.18);color:#f59e0b;border:1px solid rgba(245,158,11,0.45);" title="AI対話創発・6段階監査通過語彙">AI創発・監査済</span>'
-      : (w.o === 'curated_ext' ? '<span class="word-pos" style="opacity:0.85;">拡張語彙</span>' : '');
+    const originBadge = w.o === 'curated_ext' ? '<span class="word-pos" style="opacity:0.85;">拡張語彙</span>' : '';
     return `
-      <div class="word-card" onclick="openWordModal('${w.r}')" ${w.o === 'ai_emergent' ? 'style="border-color:rgba(245,158,11,0.35);"' : ''}>
+      <div class="word-card" onclick="openWordModal('${w.r}')">
         <button class="card-fav-btn ${isFav ? 'active' : ''}" onclick="toggleFav(event, '${w.r}')"></button>
         <div>
           <div class="word-card-top" style="flex-wrap:wrap;gap:4px;">
@@ -264,10 +260,8 @@ window.openWordModal = function(roman) {
   document.getElementById('modalNotes').textContent = word.n || '基本星石語彙';
   const provEl = document.getElementById('modalProvenance');
   if (provEl) {
-    if (word.o === 'ai_emergent') {
-      provEl.innerHTML = `<span style="color:#f59e0b;font-weight:700;">AI対話創発語彙（6段階監査ゲート通過: ${escapeHtml(word.sc || '6/6')}）</span><br>対話シナリオID: <code>${escapeHtml(word.sid || 'N/A')}</code> ／ 語源合成: <code>${escapeHtml(word.et || 'N/A')}</code> ／ 既存正本・手動拡張と区別管理中`;
-    } else if (word.o === 'curated_ext') {
-      provEl.textContent = '手動キュレーション拡張語彙（#20000番台・検証済み）';
+    if (word.o === 'curated_ext') {
+      provEl.textContent = '体系拡張語彙（#20000番台・検証済み）';
     } else {
       provEl.textContent = '公式正本語彙（Canon #1〜#1008）';
     }
@@ -1213,125 +1207,8 @@ document.getElementById('backupApply').addEventListener('click',()=>{if(pendingB
 // Cleaned: Font toggle button removed as per project requirements.
 // Dedicated glyph sections (.word-glyph, .corpus-glyph, .modal-glyph-large) render Nebulith font natively.
 
-
 // ==============================================================================
-// Emergent Audit Dashboard Logic
-// ==============================================================================
-function renderAuditDashboard() {
-  if (typeof AUDIT_DATA === 'undefined' || !AUDIT_DATA.summary) return;
-  const audit = AUDIT_DATA;
-  const approved = audit.approvedLexicon || [];
-  const rejected = audit.rejectedLog || [];
-  const scenarios = audit.scenarios || [];
-
-  // Update KPIs
-  const elTotalSc = document.getElementById('kpiTotalScenarios');
-  if (elTotalSc) elTotalSc.textContent = `${audit.summary.totalScenarios || scenarios.length} 件`;
-  const elApp = document.getElementById('kpiApprovedWords');
-  if (elApp) elApp.textContent = `${approved.length} 語`;
-  const elRej = document.getElementById('kpiRejectedWords');
-  if (elRej) elRej.textContent = `${rejected.length} 語`;
-
-  // Render Approved Table
-  const tbodyApp = document.getElementById('auditApprovedTbody');
-  if (tbodyApp) {
-    tbodyApp.innerHTML = approved.map(w => {
-      const minD = w.gates?.gate2_collision_distance?.min_distance ?? '—';
-      const score = w.overall_score ? Number(w.overall_score).toFixed(3) : '1.000';
-      return `
-        <tr style="border-bottom:1px solid var(--md-sys-color-outline-variant);">
-          <td style="padding:10px 14px;font-family:monospace;font-weight:700;color:#fbbf24;">
-            #${w.id || ''} *${escapeHtml(w.nrs)}
-          </td>
-          <td style="padding:10px 14px;"><span class="badge-chip">${escapeHtml(w.pos)}</span></td>
-          <td style="padding:10px 14px;"><strong>${escapeHtml(w.meaningJa)}</strong><br><span style="font-size:0.75rem;color:var(--md-sys-color-outline);">${escapeHtml(w.meaningEn || '')}</span></td>
-          <td style="padding:10px 14px;"><code>${escapeHtml(w.etymology || '')}</code></td>
-          <td style="padding:10px 14px;"><span style="font-size:0.75rem;">${escapeHtml(w.scenario_id || '')} (${escapeHtml(w.domain || '')})</span></td>
-          <td style="padding:10px 14px;text-align:center;">${minD}</td>
-          <td style="padding:10px 14px;color:#34d399;font-weight:700;">${score}</td>
-        </tr>
-      `;
-    }).join('');
-  }
-
-  // Render Rejected Table
-  const tbodyRej = document.getElementById('auditRejectedTbody');
-  if (tbodyRej) {
-    tbodyRej.innerHTML = rejected.map(r => {
-      const failedGates = Object.entries(r.gates || {}).filter(([, v]) => !v.passed).map(([k]) => k);
-      const reasons = Object.entries(r.gates || {}).filter(([, v]) => !v.passed).map(([k, v]) => `${k}: ${v.detail}`).join('<br>');
-      return `
-        <tr style="border-bottom:1px solid rgba(239,68,68,0.2);">
-          <td style="padding:10px 14px;font-family:monospace;font-weight:700;color:#f87171;">*${escapeHtml(r.nrs)}</td>
-          <td style="padding:10px 14px;">${escapeHtml(r.meaningJa)} (${escapeHtml(r.meaningEn || '')})</td>
-          <td style="padding:10px 14px;"><span style="color:#ef4444;font-size:0.75rem;font-weight:600;">${failedGates.join(', ')}</span></td>
-          <td style="padding:10px 14px;font-size:0.8rem;color:var(--md-sys-color-on-surface-variant);">${reasons || escapeHtml(r.rejection_reason_expected || '')}</td>
-        </tr>
-      `;
-    }).join('');
-  }
-
-  // Render Scenarios Full Dialogue
-  const scList = document.getElementById('auditScenariosList');
-  if (scList) {
-    scList.innerHTML = scenarios.map(sc => {
-      const turnsHtml = sc.turns.map(t => `
-        <div style="background:var(--md-sys-color-surface-container-high);border-radius:var(--radius-sm);padding:10px 14px;margin-bottom:8px;">
-          <div style="font-size:0.75rem;font-weight:700;color:var(--md-sys-color-primary);margin-bottom:4px;">${escapeHtml(t.speaker)}:</div>
-          <div style="font-weight:600;color:var(--md-sys-color-on-surface);margin-bottom:2px;">${escapeHtml(t.nebulith)}</div>
-          <div style="font-size:0.85rem;color:var(--md-sys-color-on-surface-variant);">${escapeHtml(t.japanese)}</div>
-        </div>
-      `).join('');
-
-      return `
-        <div style="background:var(--md-sys-color-surface-container);border:1px solid var(--md-sys-color-outline-variant);border-radius:var(--radius-md);padding:18px;">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:8px;">
-            <div style="font-weight:700;font-size:1.05rem;color:var(--md-sys-color-primary);">[${escapeHtml(sc.scenario_id)}] ${escapeHtml(sc.title)}</div>
-            <span class="badge-chip">${escapeHtml(sc.domain)}</span>
-          </div>
-          <div style="font-size:0.82rem;color:var(--md-sys-color-outline);margin-bottom:12px;"><strong>伝達課題:</strong> ${escapeHtml(sc.communicative_need)}</div>
-          ${turnsHtml}
-        </div>
-      `;
-    }).join('');
-  }
-}
-
-window.filterAuditView = function(mode) {
-  document.querySelectorAll('#tab-emergentAudit .filter-chips .chip-btn').forEach(b => b.classList.remove('active'));
-  const btn = document.getElementById('auditFilter' + mode.charAt(0) + mode.slice(1).toLowerCase());
-  if (btn) btn.classList.add('active');
-
-  const appBox = document.getElementById('auditApprovedContainer');
-  const rejBox = document.getElementById('auditRejectedContainer');
-  const scBox = document.getElementById('auditScenariosContainer');
-  if (!appBox || !rejBox || !scBox) return;
-
-  if (mode === 'ALL') {
-    appBox.style.display = 'block';
-    rejBox.style.display = 'block';
-    scBox.style.display = 'block';
-  } else if (mode === 'APPROVED') {
-    appBox.style.display = 'block';
-    rejBox.style.display = 'none';
-    scBox.style.display = 'none';
-  } else if (mode === 'REJECTED') {
-    appBox.style.display = 'none';
-    rejBox.style.display = 'block';
-    scBox.style.display = 'none';
-  } else if (mode === 'SCENARIOS') {
-    appBox.style.display = 'none';
-    rejBox.style.display = 'none';
-    scBox.style.display = 'block';
-  }
-};
-
-// Initial Render for Audit Dashboard
-renderAuditDashboard();
-
-
-// ==============================================================================
-// Service Worker Registration for Offline PWA (Sprint 7)
+// Service Worker Registration for Offline PWA
 // ==============================================================================
 if ('serviceWorker' in navigator && (window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
   window.addEventListener('load', () => {
