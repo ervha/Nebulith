@@ -1518,7 +1518,7 @@ document.getElementById('backupApply').addEventListener('click',()=>{if(pendingB
 // ==============================================================================
 // Service Worker Registration for Offline PWA
 // ==============================================================================
-if ('serviceWorker' in navigator && (window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && typeof window !== 'undefined' && window.location && (window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./service-worker.js').then((reg) => {
       console.log('Nebulith PWA Service Worker registered:', reg.scope);
