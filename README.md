@@ -13,6 +13,8 @@
 
 ## 入口
 
+- [物語原本『ヴァルネス遺聞』PDF](docs/Valnes_Ibun.pdf)・[HTML](docs/Valnes_Ibun.html)
+- [派生本と追補手順](docs/VALNES_SOURCE_EDITION.md)
 - [開発計画](docs/NEXT_DEVELOPMENT_PLAN.md)
 - [言語とアプリの仕様](docs/Project%20Requirements%20And%20Design.md)
 - [マスター辞書](docs/Nebulith%20Master%20Lexicon.md)

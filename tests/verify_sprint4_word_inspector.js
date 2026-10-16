@@ -80,10 +80,13 @@ console.log('--- 1. Verb Word Detail Modal & Conjugation Generator ---');
   const formsHtml = dom.modalFormsList.innerHTML;
   assert.ok(formsHtml.includes('fe poran'), 'Must include past fe poran');
   assert.ok(formsHtml.includes('ne poran'), 'Must include negative ne poran');
-  assert.ok(formsHtml.includes('poranast'), 'Must include desiderative -ast');
-  assert.ok(formsHtml.includes('poranar'), 'Must include potential -ar');
-  assert.ok(formsHtml.includes('se poran'), 'Must include conjecture se-');
-  console.log('PASS: poran (歩く) - 全活用形・モダリティバッジが動的に正常生成');
+  assert.ok(!formsHtml.includes('poranast'), 'Simplified modal must not synthesize unreviewed desiderative forms');
+  assert.ok(!formsHtml.includes('poranar'), 'Simplified modal must not synthesize unreviewed potential forms');
+  assert.ok(!formsHtml.includes('se poran'), 'Simplified modal shows base, past and negative forms');
+  assert.equal(dom.modalLiteraryField.style.display,'block');
+  assert.ok(dom.modalLiteraryQuote.textContent.includes('poran'));
+  assert.ok(dom.modalLiterarySource.innerHTML.includes('VL-00902'));
+  console.log('PASS: poran (歩く) - 基本形・過去・否定と物語出典を表示');
 }
 
 // 2. 形容詞の単語モーダル検査（Superlative & Comparison）
@@ -93,8 +96,9 @@ console.log('\n--- 2. Adjective Word Detail Modal ---');
   assert.equal(dom.modalRoman.textContent, 'cylani');
   assert.equal(dom.modalPos.textContent, '形');
   const formsHtml = dom.modalFormsList.innerHTML;
-  assert.ok(formsHtml.includes('celcylani'), 'Must include superlative celcylani');
-  console.log('PASS: cylani (美しい) - 最上級 celcylani が正常生成');
+  assert.ok(formsHtml.includes('cylani'), 'Must show base adjective');
+  assert.ok(!formsHtml.includes('celcylani'), 'Do not add unchecked superlatives in the simplified modal');
+  console.log('PASS: cylani (美しい) - 基本形のみ表示し未検証の派生形を省略');
 }
 
 // 3. 名詞の単語モーダル検査（Plural & Case Forms）
@@ -104,9 +108,10 @@ console.log('\n--- 3. Noun Word Detail Modal ---');
   assert.equal(dom.modalRoman.textContent, 'vyr');
   assert.equal(dom.modalPos.textContent, '名');
   const formsHtml = dom.modalFormsList.innerHTML;
-  assert.ok(formsHtml.includes('vyriin'), 'Must include plural -iin');
-  assert.ok(formsHtml.includes('en vyr'), 'Must include genitive en vyr');
-  console.log('PASS: vyr (星) - 複数形 vyriin および格助詞例が正常生成');
+  assert.ok(formsHtml.includes('基本形'), 'Must show noun base form');
+  assert.ok(!formsHtml.includes('vyriin'), 'Do not add unchecked plural forms in the simplified modal');
+  assert.ok(!formsHtml.includes('en vyr'), 'Do not create case phrases in the simplified modal');
+  console.log('PASS: vyr (星) - 名詞の基本形を表示し未検証の格句を省略');
 }
 
 // 4. 共起例文の抽出と表示（Contextual Examples）

@@ -1,10 +1,11 @@
 // Nebulith Studio Web - Complete Offline Service Worker (v2.8)
-const CACHE_NAME = 'nebulith-studio-v2.8';
+const CACHE_NAME = 'nebulith-studio-valnes-1';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
   './standalone.html',
   './data.js',
+  './library.html',
   './bidirectional.js',
   './incremental.js',
   './workspace.js',

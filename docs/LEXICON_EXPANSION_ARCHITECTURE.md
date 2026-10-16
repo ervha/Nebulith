@@ -1,3 +1,5 @@
+> **2026-10-16 訂正**：旧6-Gateによる承認は撤回しました。以下は旧方式の履歴です。現行手順と残課題は [修正記録](../audit/maintenance/emergent-remediation-20261016.md) を参照してください。
+
 # Nebulith 言語体系・語彙拡充アーキテクチャ発展計画書
 **Nebulith Lexicon & Grammar Expansion Architecture (2026-2027)**
 

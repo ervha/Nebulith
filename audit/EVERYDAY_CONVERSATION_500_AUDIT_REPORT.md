@@ -1,3 +1,5 @@
+> **2026-10-16 訂正**：旧6-Gateによる承認は撤回しました。以下は旧方式の履歴です。現行手順と残課題は [修正記録](maintenance/emergent-remediation-20261016.md) を参照してください。
+
 # Nebulith 500-Word Everyday Conversation & General Lexicon Audit Report
 **Date:** 2026-10-16 18:55:05  
 **Inference Server:** Google Colab vLLM (`Qwen/Qwen2.5-7B-Instruct`)  

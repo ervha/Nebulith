@@ -1,0 +1,102 @@
+{
+  "title": "ヴァルネス遺聞",
+  "literaryUsageLanguage": "ja-with-nebulith-term",
+  "notFullNrsTranslation": true,
+  "existingDictionaryCoverage": {
+    "dictionaryEntries": 1463,
+    "coveredRoots": 1463
+  },
+  "heldEmergentPromoted": 0,
+  "works": [
+    {
+      "path": "docs/Valnes_Ibun.pdf",
+      "pages": 421,
+      "pageSize": [
+        0.0,
+        0.0,
+        420.0,
+        595.0
+      ],
+      "unsafeTextBlocks": 0,
+      "title": "ヴァルネス遺聞 — 灰環の灯を継ぐ者たち",
+      "sha256": "ba5510e2e576c7cce82678843ec63b10b13b8da46515ba0cbb2a714683406d11"
+    },
+    {
+      "path": "docs/Valnes_saltwind.pdf",
+      "pages": 44,
+      "pageSize": [
+        0.0,
+        0.0,
+        420.0,
+        595.0
+      ],
+      "unsafeTextBlocks": 0,
+      "title": "塩風の余白",
+      "sha256": "542dfe3c747ef62fafc2edd04d0900115166c8061de32401ffcefee3f37ca94f"
+    },
+    {
+      "path": "docs/Valnes_glasswell.pdf",
+      "pages": 32,
+      "pageSize": [
+        0.0,
+        0.0,
+        420.0,
+        595.0
+      ],
+      "unsafeTextBlocks": 0,
+      "title": "玻璃の深井戸",
+      "sha256": "07d11aa163d939107d0ba9cdd34d52db8a7490d003b3ff840c302638c674c122"
+    },
+    {
+      "path": "docs/Valnes_lamptable.pdf",
+      "pages": 44,
+      "pageSize": [
+        0.0,
+        0.0,
+        420.0,
+        595.0
+      ],
+      "unsafeTextBlocks": 0,
+      "title": "灯守りの食卓",
+      "sha256": "23f363f3d913932ec26eb43e0436e494e1372e483fe14b550d715ce1c5306234"
+    }
+  ],
+  "browser": {
+    "quoteVisible": true,
+    "sourceAnchor": "vl-00001",
+    "sourceStatus": 200,
+    "exactQuoteMatches": true
+  },
+  "pdfAllSourceIdsPresent": true,
+  "pdfUniqueSourceIds": 1463,
+  "perWorkVocabulary": {
+    "valnes": 738,
+    "saltwind": 283,
+    "glasswell": 181,
+    "lamptable": 261
+  },
+  "verification": {
+    "pythonTotal": 61,
+    "pythonPassed": 51,
+    "pythonFailed": 10,
+    "failureNames": [
+      "test_all_current_ids_and_all_english_senses_accounted_for (test_all_roots.AllRootsComparison.test_all_current_ids_and_all_english_senses_accounted_for)",
+      "test_every_external_candidate_is_traceable_to_saved_source (test_all_roots.AllRootsComparison.test_every_external_candidate_is_traceable_to_saved_source)",
+      "test_corpus_structure (test_extended_translation.ExtendedTranslationChecks.test_corpus_structure)",
+      "test_vocabulary_consistency (test_extended_translation.ExtendedTranslationChecks.test_vocabulary_consistency)",
+      "test_web_shared_input_fixtures (test_incremental_input.IncrementalInputChecks.test_web_shared_input_fixtures)",
+      "test_coda_categories_are_not_automatic_approval (test_remediation.RemediationChecks.test_coda_categories_are_not_automatic_approval)",
+      "test_individual_codas_and_sourced_collision_repair (test_remediation.RemediationChecks.test_individual_codas_and_sourced_collision_repair)",
+      "test_live_collector_reports_incomplete_reviews_instead_of_success (test_remediation.RemediationChecks.test_live_collector_reports_incomplete_reviews_instead_of_success)",
+      "test_provisional_review_ledger_is_current_and_does_not_grant_approval (test_web_studio.WebStudioChecks.test_provisional_review_ledger_is_current_and_does_not_grant_approval)",
+      "test_shared_meaning_and_compositional_clauses (test_web_studio.WebStudioChecks.test_shared_meaning_and_compositional_clauses)"
+    ],
+    "newLiteraryTestsPassed": 5,
+    "priorRemediationTestsPassed": 4,
+    "allWordModalChecksPassed": 1463,
+    "webBundle": "pass",
+    "appendAndStableLoci": "pass",
+    "dictionarySenseChangeGuard": "pass",
+    "globalReleaseGate": "not-passed-existing-failures"
+  }
+}

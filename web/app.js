@@ -264,231 +264,9 @@ function getWordSyntaxRole(word) {
 }
 
 function getWordForms(word) {
-  const r = word.r;
-  const p = word.p || '';
-  const forms = [];
-
-  if (p.includes('動')) {
-    forms.push(
-      { label: '現在・基本形', neb: r },
-      { label: '過去形 (fe-)', neb: 'fe ' + r },
-      { label: '進行相 (di-)', neb: 'di ' + r },
-      { label: '完了相 (-far)', neb: r + 'far' },
-      { label: '継続維持相 (-liv)', neb: r + 'liv' },
-      { label: '否定形 (ne-)', neb: 'ne ' + r },
-      { label: '否定過去 (fe ne-)', neb: 'fe ne ' + r },
-      { label: '推量 (se-)', neb: 'se ' + r },
-      { label: '希望相 (-ast)', neb: r + 'ast' },
-      { label: '可能相 (-ar)', neb: r + 'ar' },
-      { label: '反復相 (-cor)', neb: r + 'cor' },
-      { label: '派生名詞・抽象化 (-as)', neb: r + 'as' },
-      { label: '派生行為者 (-or)', neb: r + 'or' },
-      { label: '派生空間・施設 (-om)', neb: r + 'om' },
-      { label: '派生器具・装置 (-ik)', neb: r + 'ik' }
-    );
-  }
-  
-  if (p.includes('形')) {
-    forms.push(
-      { label: '原級', neb: r },
-      { label: '最上級 (cel-)', neb: 'cel' + r },
-      { label: '抽象名詞化 (-as)', neb: r + 'as' },
-      { label: '副詞化 (-in)', neb: r + 'in' },
-      { label: '叙述文型', neb: (r.charAt(0).toUpperCase() + r.slice(1)) + ' el vyr' },
-      { label: '名詞後置修飾', neb: 'vyr ' + r },
-      { label: '過去叙述', neb: 'fe relen ... ia ' + r },
-      { label: '否定叙述', neb: 'ne relen ... ia ' + r }
-    );
-  }
-
-  if (p.includes('名')) {
-    forms.push(
-      { label: '単数形', neb: r },
-      { label: '複数形 (-iin)', neb: r + 'iin' },
-      { label: '形容詞化 (-ik)', neb: r + 'ik' },
-      { label: '集合・体系化 (-om)', neb: r + 'om' },
-      { label: '主格 (el: 主体)', neb: 'el ' + r },
-      { label: '目的格 (et: 対象)', neb: 'et ' + r },
-      { label: '属格 (en: 所有・帰属)', neb: 'en ' + r },
-      { label: '具格 (de: 手段・道具)', neb: 'de ' + r },
-      { label: '処格 (uo: 場所・存在)', neb: 'uo ' + r },
-      { label: '奪格 (va: 起点・比較)', neb: 'va ' + r },
-      { label: '与格 (ar: 方向・対象)', neb: 'ar ' + r }
-    );
-  }
-
-  if (p.includes('代名') || p === '代名詞') {
-    forms.push(
-      { label: '基本形', neb: r },
-      { label: '主格 (el: 主語)', neb: 'el ' + r },
-      { label: '目的格 (et: 目的語)', neb: 'et ' + r },
-      { label: '属格 (en: 私の/その)', neb: 'en ' + r },
-      { label: '与格 (ar: 〜へ)', neb: 'ar ' + r },
-      { label: '具格 (de: 〜によって)', neb: 'de ' + r },
-      { label: '強調形 (sol: まさに)', neb: 'sol ' + r }
-    );
-  }
-
-  if (p.includes('副')) {
-    forms.push(
-      { label: '連用修飾形', neb: r },
-      { label: '強調形 (sol-)', neb: 'sol ' + r },
-      { label: '動詞直後配置', neb: 'falun ' + r + ' el vyr' },
-      { label: '文頭叙述', neb: (r.charAt(0).toUpperCase() + r.slice(1)) + ', falun el vyr' }
-    );
-  }
-
-  if (p.includes('格') || p.includes('標識')) {
-    forms.push(
-      { label: '基本格標識', neb: r },
-      { label: '名詞結合例', neb: r + ' vyr' },
-      { label: '代名詞結合例', neb: r + ' mi' },
-      { label: 'VSO典型文型', neb: 'Poran el mi ' + r + ' celen' }
-    );
-  }
-
-  if (p.includes('接') || p.includes('機能')) {
-    forms.push(
-      { label: '論理接続小詞', neb: r },
-      { label: '節接続構文', neb: (r.charAt(0).toUpperCase() + r.slice(1)) + ' falun el vyr, poran el mi' },
-      { label: '等位結合例', neb: 'vyr ' + r + ' valar' }
-    );
-  }
-
-  if (p.includes('相関')) {
-    forms.push(
-      { label: '相関詞基本形', neb: r },
-      { label: '疑問相関 (ka-)', neb: 'ka' + r.replace(/^[aiu]/, '') },
-      { label: '近称相関 (i-)', neb: 'i' + r.replace(/^[aiu]/, '') },
-      { label: '遠称相関 (u-)', neb: 'u' + r.replace(/^[aiu]/, '') },
-      { label: '不定相関 (ha-)', neb: 'ha' + r.replace(/^[aiu]/, '') }
-    );
-  }
-
-  // Deduplicate by neb string
-  const seen = new Set();
-  return forms.filter(f => {
-    if (seen.has(f.neb)) return false;
-    seen.add(f.neb);
-    return true;
-  });
-}
-
-function generateExemplaryUsage(word) {
-  const r = word.r;
-  const p = word.p || '';
-  const mJa = (word.m || '').split(/[、,;]/)[0].trim() || word.m;
-  const mEn = (word.en || '').split(/[、,;]/)[0].trim() || 'essence';
-  const capR = r.charAt(0).toUpperCase() + r.slice(1);
-  const examples = [];
-
-  if (p.includes('動')) {
-    examples.push({
-      neb: `${capR} el vyr.`,
-      ja: `星が${mJa}。`,
-      en: `The star ${mEn}s.`,
-      tag: '標準用例 (VSO現在述語)'
-    });
-    examples.push({
-      neb: `Fe ${r} el mi uo celen.`,
-      ja: `私は天蓋で${mJa}した。`,
-      en: `I ${mEn}ed across the sky.`,
-      tag: '標準用例 (過去時制 fe-)'
-    });
-    examples.push({
-      neb: `Di ${r}ast el vyr.`,
-      ja: `星が${mJa}することを望み続けている。`,
-      en: `The star longs to continue ${mEn}ing.`,
-      tag: '標準用例 (進行・希望相)'
-    });
-  } else if (p.includes('形')) {
-    examples.push({
-      neb: `${capR} el vyr.`,
-      ja: `星は${mJa}。`,
-      en: `The star is ${mEn}.`,
-      tag: '標準用例 (形容詞述語構文)'
-    });
-    examples.push({
-      neb: `Falun el vyr ${r}.`,
-      ja: `${mJa}星が輝く。`,
-      en: `The ${mEn} star shines.`,
-      tag: '標準用例 (名詞後置限定修飾)'
-    });
-    examples.push({
-      neb: `Cel${r} el vyr va valar.`,
-      ja: `星は夜よりも最も${mJa}。`,
-      en: `The star is the most ${mEn} than night.`,
-      tag: '標準用例 (最上級・奪格比較)'
-    });
-  } else if (p.includes('名')) {
-    examples.push({
-      neb: `Falun el ${r}.`,
-      ja: `${mJa}が輝く。`,
-      en: `The ${mEn} shines.`,
-      tag: '標準用例 (主格 el ' + r + ')'
-    });
-    examples.push({
-      neb: `Vyrel el mi et ${r}.`,
-      ja: `私は${mJa}を観測する。`,
-      en: `I observe the ${mEn}.`,
-      tag: '標準用例 (目的格 et ' + r + ')'
-    });
-    examples.push({
-      neb: `Tora el faren en ${r}.`,
-      ja: `${mJa}の光が届く。`,
-      en: `The light of ${mEn} arrives.`,
-      tag: '標準用例 (属格修飾 en ' + r + ')'
-    });
-  } else if (p.includes('代名')) {
-    examples.push({
-      neb: `Poran el ${r} uo celen.`,
-      ja: `${mJa}が天蓋を歩む。`,
-      en: `${mEn} walks across the celestial dome.`,
-      tag: '標準用例 (代名詞主格)'
-    });
-    examples.push({
-      neb: `Vyrel el vyr et ${r}.`,
-      ja: `星が${mJa}を見守る。`,
-      en: `The star watches ${mEn}.`,
-      tag: '標準用例 (代名詞目的格)'
-    });
-  } else if (p.includes('副')) {
-    examples.push({
-      neb: `Falun ${r} el vyr.`,
-      ja: `星が${mJa}輝く。`,
-      en: `The star shines ${mEn}.`,
-      tag: '標準用例 (動詞連用修飾)'
-    });
-    examples.push({
-      neb: `${capR}, poran el mi.`,
-      ja: `${mJa}、私は歩む。`,
-      en: `${mEn}, I walk.`,
-      tag: '標準用例 (文頭叙述副詞)'
-    });
-  } else if (p.includes('格') || p.includes('標識')) {
-    examples.push({
-      neb: `Poran el mi ${r} celen.`,
-      ja: `私は空${mJa}歩む。`,
-      en: `I walk ${mEn} the sky.`,
-      tag: '標準用例 (格助詞支配)'
-    });
-  } else if (p.includes('接') || p.includes('機能')) {
-    examples.push({
-      neb: `${capR} falun el vyr, poran el mi.`,
-      ja: `${mJa}星が輝くなら、私は歩む。`,
-      en: `${mEn} the star shines, I walk.`,
-      tag: '標準用例 (論理・節接続)'
-    });
-  } else {
-    examples.push({
-      neb: `Falun el vyr is ${r}.`,
-      ja: `星が${mJa}とともに輝く。`,
-      en: `The star shines with ${mEn}.`,
-      tag: '標準用例 (共起構文)'
-    });
-  }
-
-  return examples;
+  const forms=[{label:'基本形',neb:word.r}];
+  if ((word.p||'').includes('動')) forms.push({label:'過去',neb:'fe '+word.r},{label:'否定',neb:'ne '+word.r});
+  return forms;
 }
 
 function getWordCorpusExamples(wordRoot, word) {
@@ -504,21 +282,12 @@ function getWordCorpusExamples(wordRoot, word) {
     if (regex.test(u.nebulith)) matches.push({ neb: u.nebulith, ja: u.japanese, tag: '学習例文' });
   }
 
-  // 100% Guaranteed Example Availability: augment with generative exemplary usage
-  if (word) {
-    const generative = generateExemplaryUsage(word);
-    for (const g of generative) {
-      if (matches.length >= 4) break;
-      matches.push(g);
-    }
-  }
-
   return matches.slice(0, 4);
 }
 
 window.openWordModal = function(roman) {
   const cleanRoman = roman.replace(/^[-+]/, '').replace(/[-+]$/, '').trim();
-  const word = VOCAB.find(w => w.r === cleanRoman || w.r === roman);
+  const word = VOCAB.find(w => w.r === roman) || VOCAB.find(w => w.r === cleanRoman);
   if (!word) return;
   activeModalWord = word;
   browsingHistory = [word.r, ...browsingHistory.filter(r => r !== word.r)].slice(0, 100);
@@ -530,7 +299,7 @@ window.openWordModal = function(roman) {
   const kanaEl = document.getElementById('modalKana');
   if (kanaEl) kanaEl.textContent = nebulithToKatakana(word.r);
   document.getElementById('modalPos').textContent = word.p;
-  document.getElementById('modalId').textContent = '#' + word.id;
+
   document.getElementById('modalMeaningJa').textContent = word.m;
   document.getElementById('modalMeaningEn').textContent = word.en || '—';
   document.getElementById('modalIpa').textContent = word.i ? `/${word.i}/` : '—';
@@ -546,33 +315,12 @@ window.openWordModal = function(roman) {
   if (syntaxEl) {
     syntaxEl.textContent = getWordSyntaxRole(word);
   }
-  const provEl = document.getElementById('modalProvenance');
-  if (provEl) {
-    if (word.o === 'curated_ext') {
-      provEl.textContent = '体系拡張語根（#20000番台・検証済み）';
-    } else if (word.id >= 30000) {
-      provEl.textContent = '文法機能語根（Grammar Core）';
-    } else {
-      provEl.textContent = '公式正本語根（Canon #1〜#1008）';
-    }
-  }
-  const auditEl = document.getElementById('modalAuditBadge');
-  if (auditEl) {
-    auditEl.textContent = '全1,463語衝突ゼロ監査済';
-  }
-
-  // Cultural notes & Worldview
   const noteEl = document.getElementById('modalNotes');
   if (noteEl) {
-    let worldviewDesc = '';
-    if (word.id >= 1 && word.id <= 1008) {
-      worldviewDesc = '【古代星辰文明基本語根】星辰の運行、自然の息吹、天体観測、精神哲学を司る中核語彙。';
-    } else if (word.id >= 20000 && word.id < 30000) {
-      worldviewDesc = '【星辰工学・論理拡張語根】精密観測、天体工学、宇宙航行、抽象論理概念を体系化した拡張語彙。';
-    } else {
-      worldviewDesc = '【文法・統語骨格語根】格関係、相・時制、論理接続を規定する文法構成要素。';
-    }
-    noteEl.innerHTML = `<strong>${worldviewDesc}</strong><br>${escapeHtml(word.n || '基本星石語彙ノート')}`;
+    // Keep usage warnings and definitions; omit internal classification and book-location metadata.
+    const notes=(word.n||'').replace(/【聖典原典】[^。]*。/g,'').replace(/【[^】]*(?:監査|語根|文明)[^】]*】/g,'').trim();
+    noteEl.textContent=notes;
+    document.getElementById('modalNotesField').style.display=notes?'block':'none';
   }
 
   // Render Forms List (100% of words covered)
@@ -610,6 +358,16 @@ window.openWordModal = function(roman) {
     } else {
       exField.style.display = 'none';
     }
+  }
+
+  const literary=typeof LITERARY_BOOK!=='undefined'?LITERARY_BOOK.entries[word.r]:null;
+  const literaryField=document.getElementById('modalLiteraryField');
+  if(literaryField){
+    literaryField.style.display=literary?'block':'none';
+    document.getElementById('modalLiteraryQuote').textContent=literary?.quote||'';
+    const source=document.getElementById('modalLiterarySource');
+    const bookLink=typeof location!=='undefined'&&/^https?:$/.test(location.protocol)&&literary?` <a href="library.html#${escapeHtml(literary.anchor)}" target="_blank" rel="noopener">原本を読む</a>`:'';
+    source.innerHTML=literary?`出典：『${escapeHtml(LITERARY_BOOK.title)}』「${escapeHtml(LITERARY_BOOK.works[literary.work])}」第${literary.chapter}章「${escapeHtml(literary.chapterTitle)}」 ${escapeHtml(literary.id)}${bookLink}`:'';
   }
 
   updateModalFavButton();

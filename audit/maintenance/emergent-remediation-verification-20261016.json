@@ -1,0 +1,33 @@
+{
+  "scope": "Full unittest suite plus targeted remediation, dictionary modal, persistence and generated bundle checks",
+  "pythonTests": 56,
+  "failed": 10,
+  "passed": 46,
+  "failureNames": [
+    "test_all_current_ids_and_all_english_senses_accounted_for (test_all_roots.AllRootsComparison.test_all_current_ids_and_all_english_senses_accounted_for)",
+    "test_every_external_candidate_is_traceable_to_saved_source (test_all_roots.AllRootsComparison.test_every_external_candidate_is_traceable_to_saved_source)",
+    "test_corpus_structure (test_extended_translation.ExtendedTranslationChecks.test_corpus_structure)",
+    "test_vocabulary_consistency (test_extended_translation.ExtendedTranslationChecks.test_vocabulary_consistency)",
+    "test_web_shared_input_fixtures (test_incremental_input.IncrementalInputChecks.test_web_shared_input_fixtures)",
+    "test_coda_categories_are_not_automatic_approval (test_remediation.RemediationChecks.test_coda_categories_are_not_automatic_approval)",
+    "test_individual_codas_and_sourced_collision_repair (test_remediation.RemediationChecks.test_individual_codas_and_sourced_collision_repair)",
+    "test_live_collector_reports_incomplete_reviews_instead_of_success (test_remediation.RemediationChecks.test_live_collector_reports_incomplete_reviews_instead_of_success)",
+    "test_provisional_review_ledger_is_current_and_does_not_grant_approval (test_web_studio.WebStudioChecks.test_provisional_review_ledger_is_current_and_does_not_grant_approval)",
+    "test_shared_meaning_and_compositional_clauses (test_web_studio.WebStudioChecks.test_shared_meaning_and_compositional_clauses)"
+  ],
+  "baselineCommit": "63e024b82fda9a014d2e246f8eb775df49542b70",
+  "sameFailureNamesPresentInHeadArchive": true,
+  "baselineArchiveCaveat": "git archive normalizes some working-tree bytes; additional hash failures in that snapshot are not counted as product regressions.",
+  "targetedRemediationTests": 4,
+  "targetedRemediationPassed": 4,
+  "wordModalsOpened": 1463,
+  "wordsWithoutSourcedExamples": 1368,
+  "pdfPages": 94,
+  "pdfTextBlocksOutsideSafeMargin": 0,
+  "browserModal": {
+    "url": "http://127.0.0.1:8889/web/index.html",
+    "hasAuditBadge": false,
+    "hasProvenanceBadge": false
+  },
+  "overallGate": "NOT_PASSED"
+}

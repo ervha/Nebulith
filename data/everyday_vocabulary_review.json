@@ -1,0 +1,4012 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "title": "暮らしの語彙500",
+  "method": "既存正本の語義・品詞をそのまま再利用した分野別学習索引。新造語500件の承認ではない。",
+  "source": "data/lexicon.json",
+  "sourceSha256": "08622ffa7c4b6ec2d9fd4fb7f2bb27cdb473a2b990b58edb5457161deb5473bd",
+  "reviewStatus": "source-consistency-checked",
+  "newRoots": 0,
+  "entries": [
+    {
+      "id": 840,
+      "nrs": "calun",
+      "pos": "動",
+      "meaningJa": "対話する、語り合う、相談する",
+      "meaningEn": "converse, converse with",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 841,
+      "nrs": "celan",
+      "pos": "動",
+      "meaningJa": "（空や星を）仰ぎ見る、見上げる",
+      "meaningEn": "look up, gaze, admire",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 842,
+      "nrs": "celos",
+      "pos": "名/副",
+      "meaningJa": "上、上方、天頂の方向",
+      "meaningEn": "above, upward",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 843,
+      "nrs": "celosu",
+      "pos": "副",
+      "meaningJa": "上へ、上方へ、空へ向かって",
+      "meaningEn": "upward, aloft, to the heights",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 844,
+      "nrs": "celvor",
+      "pos": "動",
+      "meaningJa": "覆う、包む、天蓋のように覆い被さる",
+      "meaningEn": "cover, canopy, encompass",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 845,
+      "nrs": "cival",
+      "pos": "動",
+      "meaningJa": "歌う、奏でる、旋律を紡ぐ",
+      "meaningEn": "sing, play music, harmonize",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 846,
+      "nrs": "darlit",
+      "pos": "動",
+      "meaningJa": "注ぐ、滴下する、水を注ぎ入れる",
+      "meaningEn": "pour, decant, infuse",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 847,
+      "nrs": "darvol",
+      "pos": "動",
+      "meaningJa": "波打つ、うねる、起伏する",
+      "meaningEn": "undulate, swell, surge in waves",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 848,
+      "nrs": "darzanv",
+      "pos": "動",
+      "meaningJa": "潜水する、水中に潜る、深みへ沈む",
+      "meaningEn": "submerge, plunge underwater, dive into depths",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 849,
+      "nrs": "dolis",
+      "pos": "副/形",
+      "meaningJa": "近く、傍らに、親密に",
+      "meaningEn": "near, beside, close by",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 850,
+      "nrs": "dyren",
+      "pos": "動",
+      "meaningJa": "涙する、泣く、しずくが滴る",
+      "meaningEn": "weep, shed tear",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 851,
+      "nrs": "eirinu",
+      "pos": "副",
+      "meaningJa": "常に、絶え間なく、いつでも",
+      "meaningEn": "always, perpetually",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 852,
+      "nrs": "eirlom",
+      "pos": "名/副",
+      "meaningJa": "太古に、悠久の昔に、原初から",
+      "meaningEn": "in ancient times, from the dawn",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 853,
+      "nrs": "eirvas",
+      "pos": "名/副",
+      "meaningJa": "永遠の彼方、無窮の果て",
+      "meaningEn": "eternity horizon, timeless expanse",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 854,
+      "nrs": "falden",
+      "pos": "名/副",
+      "meaningJa": "東、主星昇騰の方位、曙光の方角",
+      "meaningEn": "east, sunrise direction",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 855,
+      "nrs": "faldenu",
+      "pos": "副",
+      "meaningJa": "東へ、日の出の方角へ、黎明に向かって",
+      "meaningEn": "eastward, toward sunrise",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 856,
+      "nrs": "falk",
+      "pos": "名/動",
+      "meaningJa": "閃光、火花、パチッと弾ける",
+      "meaningEn": "spark, flash, snap",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 857,
+      "nrs": "falvan",
+      "pos": "動",
+      "meaningJa": "照らす、輝かせる、ライトアップする",
+      "meaningEn": "illuminate, shine light upon",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 858,
+      "nrs": "fenkas",
+      "pos": "動",
+      "meaningJa": "告げる、響かせる、布告する",
+      "meaningEn": "announce, herald, proclaim",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 859,
+      "nrs": "feno",
+      "pos": "副/名",
+      "meaningJa": "昨日、過ぎ去りし日",
+      "meaningEn": "yesterday",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 860,
+      "nrs": "fenor",
+      "pos": "動",
+      "meaningJa": "話す、語る、述べる、名づける",
+      "meaningEn": "speak, utter, tell",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 861,
+      "nrs": "fensir",
+      "pos": "動",
+      "meaningJa": "ささやく、小声で話す、耳打ちする",
+      "meaningEn": "whisper, murmur softly",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 862,
+      "nrs": "folan",
+      "pos": "名/副",
+      "meaningJa": "外、外部、外側、外界",
+      "meaningEn": "outside, outward",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 863,
+      "nrs": "folanu",
+      "pos": "副",
+      "meaningJa": "外へ、外部へ、外界へ向かって",
+      "meaningEn": "outward, outside, outwardly",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 864,
+      "nrs": "forvis",
+      "pos": "副",
+      "meaningJa": "おそらく、たぶん、星の導きによれば",
+      "meaningEn": "perhaps, maybe",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 865,
+      "nrs": "hano",
+      "pos": "副/名",
+      "meaningJa": "今日、この日、現在",
+      "meaningEn": "today, present day",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 866,
+      "nrs": "harvan",
+      "pos": "動",
+      "meaningJa": "聴く、耳を傾ける、聞き届ける",
+      "meaningEn": "listen, hear",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 867,
+      "nrs": "hav",
+      "pos": "名",
+      "meaningJa": "時、瞬間、今この瞬間",
+      "meaningEn": "time, moment, now",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 868,
+      "nrs": "havcor",
+      "pos": "副",
+      "meaningJa": "定時に、規則正しく、時刻通りに",
+      "meaningEn": "punctually, on schedule, regularly",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 869,
+      "nrs": "havel",
+      "pos": "名",
+      "meaningJa": "時代、運行周期、時代の流れ",
+      "meaningEn": "era, epoch, orbital cycle",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 870,
+      "nrs": "havit",
+      "pos": "名/副",
+      "meaningJa": "やがて、程なくして、近い将来に",
+      "meaningEn": "soon, before long, presently",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 871,
+      "nrs": "havlor",
+      "pos": "名/副",
+      "meaningJa": "いつか、いずれ、将来のある時",
+      "meaningEn": "someday, eventually, in due time",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 872,
+      "nrs": "havzan",
+      "pos": "副",
+      "meaningJa": "間一髪で、ぎりぎりの時に、絶妙な頃合いで",
+      "meaningEn": "in the nick of time, just barely, on the razor edge of time",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 873,
+      "nrs": "jylas",
+      "pos": "動",
+      "meaningJa": "結ぶ、繋ぐ、交差する、結合する",
+      "meaningEn": "connect, bind, intersect",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 874,
+      "nrs": "jylvor",
+      "pos": "動",
+      "meaningJa": "編み上げる、結び合わせる、束ねる",
+      "meaningEn": "plait, entwine, bind together",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 875,
+      "nrs": "kiras",
+      "pos": "動",
+      "meaningJa": "創る、構築する、工作する、書く",
+      "meaningEn": "create, build, compose",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 876,
+      "nrs": "klomas",
+      "pos": "動",
+      "meaningJa": "遮断する、孤立させる、隔離する",
+      "meaningEn": "isolate, insulate, shut off",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 877,
+      "nrs": "klovan",
+      "pos": "動",
+      "meaningJa": "閉じる、鍵をかける、終える",
+      "meaningEn": "close, conclude, seal",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 878,
+      "nrs": "klovanis",
+      "pos": "動",
+      "meaningJa": "封印する、厳封する、永久保管する",
+      "meaningEn": "seal irrevocably, sequester",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 879,
+      "nrs": "kupan",
+      "pos": "動",
+      "meaningJa": "走る、急ぎ行く、駆ける",
+      "meaningEn": "run, sprint, rush",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 880,
+      "nrs": "kural",
+      "pos": "副",
+      "meaningJa": "互いに、双方向に、連星のように",
+      "meaningEn": "mutually, together",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 881,
+      "nrs": "kylas",
+      "pos": "名",
+      "meaningJa": "夕、薄暮、黄昏の時",
+      "meaningEn": "evening, dusk, twilight",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 882,
+      "nrs": "kylasu",
+      "pos": "副",
+      "meaningJa": "夕暮れ時に、日没に、黄昏に",
+      "meaningEn": "at dusk, at twilight",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 883,
+      "nrs": "kymden",
+      "pos": "名/副",
+      "meaningJa": "西、主星没入の方位、黄昏の方角",
+      "meaningEn": "west, sunset direction",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 884,
+      "nrs": "kymdenu",
+      "pos": "副",
+      "meaningJa": "西へ、日没の方角へ、黄昏に向かって",
+      "meaningEn": "westward, toward twilight",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 885,
+      "nrs": "kympan",
+      "pos": "動",
+      "meaningJa": "身を屈める、伏せる、しゃがむ",
+      "meaningEn": "crouch, duck low, crouch beneath cover",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 886,
+      "nrs": "kyrpan",
+      "pos": "動",
+      "meaningJa": "凍る、凝固する、結晶化する",
+      "meaningEn": "freeze, solidify, congeal",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 887,
+      "nrs": "kyvel",
+      "pos": "動",
+      "meaningJa": "隠す、包み込む、秘める",
+      "meaningEn": "conceal, veil, shelter",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 888,
+      "nrs": "larvor",
+      "pos": "動",
+      "meaningJa": "回り道する、迂回する、遠回りする",
+      "meaningEn": "detour, bypass, skirt around",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 889,
+      "nrs": "leras",
+      "pos": "動",
+      "meaningJa": "開く、露わにする、顕現させる",
+      "meaningEn": "open, reveal, manifest",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 890,
+      "nrs": "lerin",
+      "pos": "名/副",
+      "meaningJa": "左、左舷、左方",
+      "meaningEn": "left, portside",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 891,
+      "nrs": "lerinu",
+      "pos": "副",
+      "meaningJa": "左へ、左側へ、左舷へ",
+      "meaningEn": "leftward, to the left",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 892,
+      "nrs": "mu",
+      "pos": "副",
+      "meaningJa": "いいえ、〜でない（否定極性辞）",
+      "meaningEn": "not, no",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 893,
+      "nrs": "nerpan",
+      "pos": "動",
+      "meaningJa": "刻む、細切りにする、みじん切りにする",
+      "meaningEn": "chop, mince, dice finely",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 894,
+      "nrs": "novas",
+      "pos": "動",
+      "meaningJa": "登る、登攀する、頂点を目指す",
+      "meaningEn": "climb, ascend, scale",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 895,
+      "nrs": "novasu",
+      "pos": "副",
+      "meaningJa": "高らかに、天上に向けて、頂点へ",
+      "meaningEn": "loftily, aloft, upwards",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 896,
+      "nrs": "kyrvden",
+      "pos": "名/副",
+      "meaningJa": "北、天頂極の方位、上極",
+      "meaningEn": "north, zenith pole",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 897,
+      "nrs": "kyrvdenu",
+      "pos": "副",
+      "meaningJa": "北へ、天頂極へ向かって",
+      "meaningEn": "northward, toward zenith",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 898,
+      "nrs": "parin",
+      "pos": "名/副",
+      "meaningJa": "右、右舷、右方",
+      "meaningEn": "right, starboard",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 899,
+      "nrs": "parinu",
+      "pos": "副",
+      "meaningJa": "右へ、右側へ、右舷へ",
+      "meaningEn": "rightward, to the right",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 900,
+      "nrs": "pason",
+      "pos": "名/副",
+      "meaningJa": "後、後方、過去の側",
+      "meaningEn": "back, rear, behind",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 901,
+      "nrs": "pasonu",
+      "pos": "副",
+      "meaningJa": "後ろへ、後方へ、過去へ向かって",
+      "meaningEn": "backward, rearward, behind",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 902,
+      "nrs": "poran",
+      "pos": "動",
+      "meaningJa": "歩く、歩む、旅する、進む",
+      "meaningEn": "walk, journey, travel",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 903,
+      "nrs": "porcon",
+      "pos": "動",
+      "meaningJa": "行進する、堂々と進む、パレードする",
+      "meaningEn": "march, advance with dignity",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 904,
+      "nrs": "porzan",
+      "pos": "動",
+      "meaningJa": "潜り抜ける、通過する、通り抜ける",
+      "meaningEn": "pass through, thread way, traverse corridor",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 905,
+      "nrs": "pyran",
+      "pos": "動",
+      "meaningJa": "燃える、点火する、燃焼する",
+      "meaningEn": "burn, ignite, blaze",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 906,
+      "nrs": "relen",
+      "pos": "動",
+      "meaningJa": "ある、存在する、実在する",
+      "meaningEn": "exist, be present",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 907,
+      "nrs": "saren",
+      "pos": "動",
+      "meaningJa": "笑う、微笑む、笑顔になる",
+      "meaningEn": "smile, laugh",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 908,
+      "nrs": "seno",
+      "pos": "副/名",
+      "meaningJa": "明日、来たるべき日",
+      "meaningEn": "tomorrow",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 909,
+      "nrs": "zelvan",
+      "pos": "動",
+      "meaningJa": "授ける、手渡す、贈る",
+      "meaningEn": "give, bestow, grant",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 910,
+      "nrs": "zelvcor",
+      "pos": "動",
+      "meaningJa": "握手する、手を携える、協調する",
+      "meaningEn": "clasp hands, cooperate, join forces",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 911,
+      "nrs": "serdar",
+      "pos": "動",
+      "meaningJa": "洗う、洗い流す、清める",
+      "meaningEn": "wash, rinse, cleanse",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 912,
+      "nrs": "zelvfas",
+      "pos": "動",
+      "meaningJa": "離す、手を放す、手放す",
+      "meaningEn": "release, let go, disengage",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 913,
+      "nrs": "zelvin",
+      "pos": "動",
+      "meaningJa": "触れる、手渡す、受け止める",
+      "meaningEn": "touch, hold, receive",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 914,
+      "nrs": "serlit",
+      "pos": "動",
+      "meaningJa": "撫でる、優しく触れる、いたわる",
+      "meaningEn": "stroke gently, caress",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 915,
+      "nrs": "serpan",
+      "pos": "動",
+      "meaningJa": "掴む、握る、掌中に収める",
+      "meaningEn": "grasp, clutch, grip",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 916,
+      "nrs": "zelvzan",
+      "pos": "動",
+      "meaningJa": "手繰り寄せる、引き寄せる、引っ張る",
+      "meaningEn": "draw near with hands, haul, pull cable",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 917,
+      "nrs": "silin",
+      "pos": "名/副",
+      "meaningJa": "内、内部、中心側、心の内",
+      "meaningEn": "inside, inward, within",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 918,
+      "nrs": "silinu",
+      "pos": "副",
+      "meaningJa": "内へ、内部へ、心の内へ向かって",
+      "meaningEn": "inward, inside, inwardly",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 919,
+      "nrs": "soran",
+      "pos": "動",
+      "meaningJa": "（ノートに）書き留める、記す",
+      "meaningEn": "record, chronicle, write down",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 920,
+      "nrs": "sovil",
+      "pos": "名",
+      "meaningJa": "昼、日中、正午",
+      "meaningEn": "daytime, noon",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 921,
+      "nrs": "spilan",
+      "pos": "動",
+      "meaningJa": "舞う、踊る、旋回ステップを踏む",
+      "meaningEn": "dance, leap, sway",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 922,
+      "nrs": "syndir",
+      "pos": "動",
+      "meaningJa": "探す、探索する、発見する",
+      "meaningEn": "search, find, discover",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 923,
+      "nrs": "talos",
+      "pos": "名/副",
+      "meaningJa": "下、下方、大地の方向",
+      "meaningEn": "below, downward, beneath",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 924,
+      "nrs": "talosu",
+      "pos": "副",
+      "meaningJa": "下へ、下方へ、大地へ向かって",
+      "meaningEn": "downward, beneath, to the ground",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 925,
+      "nrs": "talsit",
+      "pos": "動",
+      "meaningJa": "置く、据える、配置する、着座させる",
+      "meaningEn": "put, place, set down",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 926,
+      "nrs": "talvok",
+      "pos": "動",
+      "meaningJa": "掘る、穿つ、地下を開削する",
+      "meaningEn": "dig, excavate, burrow out",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 927,
+      "nrs": "talzon",
+      "pos": "動",
+      "meaningJa": "着陸する、接地する、着発する",
+      "meaningEn": "touch ground, make landfall, touch down",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 928,
+      "nrs": "taris",
+      "pos": "動",
+      "meaningJa": "待つ、佇む、待機する",
+      "meaningEn": "wait, pause, linger",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 929,
+      "nrs": "tor",
+      "pos": "接",
+      "meaningJa": "しかし、されど",
+      "meaningEn": "but, yet",
+      "category": "16. 動作・動態・時空・方向副詞"
+    },
+    {
+      "id": 959,
+      "nrs": "bion",
+      "pos": "動",
+      "meaningJa": "飲む、喫する、喉を潤す",
+      "meaningEn": "drink, sip",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 960,
+      "nrs": "bionas",
+      "pos": "名",
+      "meaningJa": "水差し、カラフェ、ピッチャー",
+      "meaningEn": "pitcher, jug, decanter",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 961,
+      "nrs": "biondor",
+      "pos": "名",
+      "meaningJa": "薬酒、滋養液、エリクサー",
+      "meaningEn": "tonic, elixir, medicinal draught",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 962,
+      "nrs": "bionel",
+      "pos": "名",
+      "meaningJa": "杯、酒杯、グラス、器",
+      "meaningEn": "chalice, cup, goblet",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 963,
+      "nrs": "bionmor",
+      "pos": "名",
+      "meaningJa": "果汁、搾りたてジュース、清涼果液",
+      "meaningEn": "fruit juice, sweet pressed nectar",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 964,
+      "nrs": "bionpalv",
+      "pos": "名",
+      "meaningJa": "酒場、居酒屋、タバーン",
+      "meaningEn": "tavern, alehouse, wayside pub",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 965,
+      "nrs": "bionpan",
+      "pos": "動",
+      "meaningJa": "乾杯する、祝杯をあげる、盃を交わす",
+      "meaningEn": "toast, raise cups in cheer, clink glasses",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 966,
+      "nrs": "bionsol",
+      "pos": "名",
+      "meaningJa": "麦酒、エール、醸造穀物酒",
+      "meaningEn": "ale, brewed malt draught, rustic beer",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 967,
+      "nrs": "bionzar",
+      "pos": "名",
+      "meaningJa": "蒸留酒、酒精、ブランデー",
+      "meaningEn": "distilled spirits, aqua vitae, hard liquor",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 968,
+      "nrs": "darel",
+      "pos": "名",
+      "meaningJa": "スープ、温煮汁、滋養汁",
+      "meaningEn": "soup, broth",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 969,
+      "nrs": "darpan",
+      "pos": "動",
+      "meaningJa": "溶かす、溶解させる、融解する",
+      "meaningEn": "melt, dissolve, liquefy",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 970,
+      "nrs": "marnyz",
+      "pos": "名",
+      "meaningJa": "大地の結晶塩、調味料",
+      "meaningEn": "salt, seasoning",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 971,
+      "nrs": "ner",
+      "pos": "名",
+      "meaningJa": "滋養、食材、食物",
+      "meaningEn": "nourishment, foodstuff",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 972,
+      "nrs": "neran",
+      "pos": "動",
+      "meaningJa": "食べる、食事する、味わう",
+      "meaningEn": "eat, dine, partake",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 973,
+      "nrs": "nerar",
+      "pos": "名",
+      "meaningJa": "カフェ、喫茶店、食堂、レストラン",
+      "meaningEn": "cafe, restaurant, diner",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 974,
+      "nrs": "nercor",
+      "pos": "名",
+      "meaningJa": "干し肉、保存肉、燻製肉",
+      "meaningEn": "cured meat, jerky, smoked pemmican",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 975,
+      "nrs": "nerdor",
+      "pos": "名",
+      "meaningJa": "汁粉、シリアル、穀物粥",
+      "meaningEn": "porridge, gruel, cereal pottage",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 976,
+      "nrs": "nerdorn",
+      "pos": "名",
+      "meaningJa": "濾し器、篩い、裏ごし布",
+      "meaningEn": "sieve, colander, straining cheesecloth",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 977,
+      "nrs": "nerel",
+      "pos": "名",
+      "meaningJa": "料理、ごはん、温かい食事",
+      "meaningEn": "meal, cooked dish",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 978,
+      "nrs": "nerfat",
+      "pos": "名",
+      "meaningJa": "蒸し物、蒸気調理品",
+      "meaningEn": "steamed food, steamed cake",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 979,
+      "nrs": "nerkam",
+      "pos": "名",
+      "meaningJa": "鍋、煮込み釜、調理鍋",
+      "meaningEn": "pot, cauldron, stewpot",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 980,
+      "nrs": "nerkot",
+      "pos": "名",
+      "meaningJa": "鍋敷き、調理台敷、受け皿",
+      "meaningEn": "pot stand, trivet, saucer",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 981,
+      "nrs": "nerlon",
+      "pos": "名",
+      "meaningJa": "乾酪、チーズ、凝縮乳",
+      "meaningEn": "curd, cheese, aged solid milk",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 982,
+      "nrs": "nerlorv",
+      "pos": "名",
+      "meaningJa": "焙煎機、焙煎釜、コーヒー豆煎り器",
+      "meaningEn": "roaster, parching pan, bean roaster",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 983,
+      "nrs": "nernyr",
+      "pos": "名",
+      "meaningJa": "蜂蜜、花蜜、天然蜜液",
+      "meaningEn": "honey, wild comb nectar, sweet mead-syrup",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 984,
+      "nrs": "nerom",
+      "pos": "名",
+      "meaningJa": "厨房、調理室、配膳所",
+      "meaningEn": "kitchen, cookroom, galley",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 985,
+      "nrs": "neror",
+      "pos": "名",
+      "meaningJa": "料理人、シェフ",
+      "meaningEn": "cook, chef",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 986,
+      "nrs": "nerpalv",
+      "pos": "名",
+      "meaningJa": "パン屋、製パン工房、ベーカリー",
+      "meaningEn": "bakery, bakehouse, bread stall",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 987,
+      "nrs": "nerpanv",
+      "pos": "動",
+      "meaningJa": "発酵させる、醸造熟成させる",
+      "meaningEn": "ferment, brew, culture with leaven",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 988,
+      "nrs": "nerparv",
+      "pos": "名",
+      "meaningJa": "燻製室、燻製小屋、スモーク室",
+      "meaningEn": "smokehouse, curing loft",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 989,
+      "nrs": "nerpas",
+      "pos": "動",
+      "meaningJa": "煮る、茹でる、熱湯調理する",
+      "meaningEn": "boil, simmer, poach",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 990,
+      "nrs": "nerpin",
+      "pos": "名",
+      "meaningJa": "香辛料、辛味薬味、芳香調味料",
+      "meaningEn": "spice, pungent seasoning, pepper",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 991,
+      "nrs": "nerpork",
+      "pos": "名",
+      "meaningJa": "調味油、オリーブ油、食用植物油",
+      "meaningEn": "edible culinary oil, seed pressing",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 992,
+      "nrs": "nersarn",
+      "pos": "名",
+      "meaningJa": "果実の砂糖漬け、ジャム、コンポート",
+      "meaningEn": "preserve, compote, candied conserve",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 993,
+      "nrs": "nersarp",
+      "pos": "名",
+      "meaningJa": "酒樽、貯蔵樽、木樽",
+      "meaningEn": "cask, keg, barrel tun",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 994,
+      "nrs": "nersol",
+      "pos": "名",
+      "meaningJa": "酵母、天然酵母、パン種",
+      "meaningEn": "yeast, leaven, sourdough starter culture",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 995,
+      "nrs": "nerson",
+      "pos": "名",
+      "meaningJa": "焼き網、グリル台、鉄板",
+      "meaningEn": "griddle, gridiron, broiling rack",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 996,
+      "nrs": "nertalv",
+      "pos": "名",
+      "meaningJa": "すりこぎ、擂粉木、杵",
+      "meaningEn": "pestle, muller, grinding pounder",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 997,
+      "nrs": "nerzar",
+      "pos": "名",
+      "meaningJa": "大宴会、祝宴、宮廷晩餐会",
+      "meaningEn": "banquet, symposium, festive banquet spread",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 998,
+      "nrs": "nyrat",
+      "pos": "名",
+      "meaningJa": "主食、焼き穀物、糧",
+      "meaningEn": "bread, loaf, staple",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 999,
+      "nrs": "nyrsan",
+      "pos": "名",
+      "meaningJa": "焼き菓子、ビスケット、乾酪菓子",
+      "meaningEn": "pastry, biscuit, baked crisp",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1000,
+      "nrs": "pylvin",
+      "pos": "名",
+      "meaningJa": "皿、深鉢、陶器の器",
+      "meaningEn": "plate, dish, bowl, earthenware",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1001,
+      "nrs": "pyrtos",
+      "pos": "動",
+      "meaningJa": "焼く、炙る、ローストする",
+      "meaningEn": "roast, bake, grill",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1002,
+      "nrs": "talpork",
+      "pos": "名",
+      "meaningJa": "すり鉢、乳鉢、粉砕器",
+      "meaningEn": "mortar, grinding basin",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1003,
+      "nrs": "terin",
+      "pos": "名",
+      "meaningJa": "温かい煎じ茶、薬草茶",
+      "meaningEn": "tea, warm herbal brew",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1004,
+      "nrs": "terlar",
+      "pos": "名",
+      "meaningJa": "茶器、急須、温茶瓶",
+      "meaningEn": "teapot, kettle, brew urn",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1005,
+      "nrs": "tursil",
+      "pos": "名",
+      "meaningJa": "具材、スープの具、煮込み種",
+      "meaningEn": "ingredient, stew morsel, solid filling",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1006,
+      "nrs": "voril",
+      "pos": "名",
+      "meaningJa": "発酵果実酒、祝い酒",
+      "meaningEn": "wine, fermented drink",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1007,
+      "nrs": "vurlin",
+      "pos": "名",
+      "meaningJa": "スプーン、匙、汁掬い",
+      "meaningEn": "spoon, ladle, serving scoop",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 1008,
+      "nrs": "zartik",
+      "pos": "名",
+      "meaningJa": "フォーク、刺し具、食具",
+      "meaningEn": "dining fork, pronged utensil",
+      "category": "12. 食・飲料・調理・食具"
+    },
+    {
+      "id": 634,
+      "nrs": "biondis",
+      "pos": "名",
+      "meaningJa": "水筒、ボトル、携帯飲料瓶",
+      "meaningEn": "canteen, flask, portable bottle",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 635,
+      "nrs": "dovik",
+      "pos": "名",
+      "meaningJa": "机、作業台、テーブル",
+      "meaningEn": "desk, table",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 636,
+      "nrs": "faldisan",
+      "pos": "名",
+      "meaningJa": "カーテン、ブラインド、遮光幕",
+      "meaningEn": "curtain, drape, sun-shade",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 637,
+      "nrs": "falkom",
+      "pos": "名",
+      "meaningJa": "燭台、灯火台、照明スタンド",
+      "meaningEn": "candelabra, lamp stand",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 638,
+      "nrs": "falkor",
+      "pos": "名",
+      "meaningJa": "日時計、影指し盤、影時計",
+      "meaningEn": "sundial, solar shadow clock",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 639,
+      "nrs": "falmir",
+      "pos": "名",
+      "meaningJa": "ランプ、常夜灯、星灯",
+      "meaningEn": "lamp, lantern, nightlight",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 640,
+      "nrs": "falsol",
+      "pos": "名",
+      "meaningJa": "松明、たいまつ、樹脂篝火",
+      "meaningEn": "torch, pitch cresset, flare stave",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 641,
+      "nrs": "hylzar",
+      "pos": "名",
+      "meaningJa": "指輪、宝石指環、星辰印章環",
+      "meaningEn": "signet ring, gem band, annular circlet",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 642,
+      "nrs": "kirel",
+      "pos": "名",
+      "meaningJa": "筆、ペン、鉄筆、スタイラス",
+      "meaningEn": "pen, stylus, quill",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 643,
+      "nrs": "kirelor",
+      "pos": "名",
+      "meaningJa": "筆入れ、ペンケース、文具箱",
+      "meaningEn": "pen case, stylus box, writing kit",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 644,
+      "nrs": "kirelpan",
+      "pos": "動",
+      "meaningJa": "清書する、写本する、毛筆筆耕する",
+      "meaningEn": "transcribe, calligraph, fair-copy",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 645,
+      "nrs": "kirelsol",
+      "pos": "名",
+      "meaningJa": "インク、黒インク、星辰筆記墨汁",
+      "meaningEn": "ink, writing fluid, lampblack wash",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 646,
+      "nrs": "kirelzar",
+      "pos": "名",
+      "meaningJa": "羊皮紙、上質筆記羊皮紙、古文書葉",
+      "meaningEn": "parchment, vellum scroll, archival leaf",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 647,
+      "nrs": "klovel",
+      "pos": "名",
+      "meaningJa": "鍵、解錠具、キー",
+      "meaningEn": "key, lock-opener",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 648,
+      "nrs": "kymel",
+      "pos": "名",
+      "meaningJa": "寝床、ベッド、休息の台",
+      "meaningEn": "bed, resting couch",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 649,
+      "nrs": "kypal",
+      "pos": "名",
+      "meaningJa": "箱、小箱、収納ケース、匣",
+      "meaningEn": "box, chest, container casing",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 650,
+      "nrs": "larsil",
+      "pos": "名",
+      "meaningJa": "靴、履物、歩行靴",
+      "meaningEn": "shoes, footwear, boots",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 651,
+      "nrs": "larsol",
+      "pos": "名",
+      "meaningJa": "サンダル、編み履物、軽靴",
+      "meaningEn": "sandal, strapped buskin, light slipper",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 652,
+      "nrs": "larsor",
+      "pos": "名",
+      "meaningJa": "革紐、靴紐、締め緒",
+      "meaningEn": "shoelace, leather lace, boot thong",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 653,
+      "nrs": "lervil",
+      "pos": "名",
+      "meaningJa": "閂、錠前、扉の留め具",
+      "meaningEn": "latch, door bolt, bar",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 654,
+      "nrs": "neltin",
+      "pos": "名",
+      "meaningJa": "留め針、ブローチ、安全ピン",
+      "meaningEn": "pin, brooch, fibula fastener",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 655,
+      "nrs": "pamel",
+      "pos": "名",
+      "meaningJa": "本、書籍、手記ノート、冊子",
+      "meaningEn": "book, notebook, volume",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 656,
+      "nrs": "pamelar",
+      "pos": "名",
+      "meaningJa": "図書館、文庫、書物閲覧所",
+      "meaningEn": "library, archive, book hall",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 657,
+      "nrs": "pamelis",
+      "pos": "名",
+      "meaningJa": "栞、ブックマーク、目印の紐",
+      "meaningEn": "bookmark, marker ribbon",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 658,
+      "nrs": "serel",
+      "pos": "名",
+      "meaningJa": "小刀、ナイフ、調理刃",
+      "meaningEn": "knife, blade, cutter",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 659,
+      "nrs": "zelvval",
+      "pos": "名",
+      "meaningJa": "手袋、保護手袋",
+      "meaningEn": "gloves, gauntlets",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 660,
+      "nrs": "talparil",
+      "pos": "名",
+      "meaningJa": "耳飾り、イヤリング、耳環",
+      "meaningEn": "earring, ear drop, lobe pendant",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 661,
+      "nrs": "talvinor",
+      "pos": "名",
+      "meaningJa": "首飾り、ネックレス、宝石胸飾り",
+      "meaningEn": "necklace, pectoral gorget, pendant collar",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 662,
+      "nrs": "talvyn",
+      "pos": "名",
+      "meaningJa": "櫛、髪飾り、整髪具",
+      "meaningEn": "comb, hair clasp, ornamental pin",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 663,
+      "nrs": "tasel",
+      "pos": "名",
+      "meaningJa": "椅子、座席、腰掛け",
+      "meaningEn": "chair, seat",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 664,
+      "nrs": "tasor",
+      "pos": "名",
+      "meaningJa": "肘掛け椅子、玉座、長椅子",
+      "meaningEn": "armchair, couch, settee",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 665,
+      "nrs": "valcon",
+      "pos": "名",
+      "meaningJa": "礼服、正装、儀礼用ローブ",
+      "meaningEn": "vestment, ceremonial robe, gala gown",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 666,
+      "nrs": "valcor",
+      "pos": "名",
+      "meaningJa": "天幕、テント、幕屋",
+      "meaningEn": "tent, pavilion, portable canopy",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 667,
+      "nrs": "valdan",
+      "pos": "名",
+      "meaningJa": "絨毯、敷物、織布マット",
+      "meaningEn": "carpet, rug, floor tapestry",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 668,
+      "nrs": "valdorv",
+      "pos": "名",
+      "meaningJa": "ボタン、留め釦、骨角ボタン",
+      "meaningEn": "button, toggle, stud clasp",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 669,
+      "nrs": "valis",
+      "pos": "名",
+      "meaningJa": "衣服、装い、布地、衣類",
+      "meaningEn": "garment, robe, clothes",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 670,
+      "nrs": "valkor",
+      "pos": "名",
+      "meaningJa": "紐、縄、コード、縛り糸",
+      "meaningEn": "string, cord, rope, tie",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 671,
+      "nrs": "valnyr",
+      "pos": "名",
+      "meaningJa": "刺繍、金糸銀糸の刺繍飾り",
+      "meaningEn": "embroidery, needlework, brocade threadwork",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 672,
+      "nrs": "valparv",
+      "pos": "名",
+      "meaningJa": "襟、首回り飾り、カラー",
+      "meaningEn": "collar, ruff, neckband",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 673,
+      "nrs": "valpuk",
+      "pos": "名",
+      "meaningJa": "外套、マント、防風外套",
+      "meaningEn": "cloak, mantle, travelling cape",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 674,
+      "nrs": "valren",
+      "pos": "名",
+      "meaningJa": "帽子、頭巾、庇付き頭覆い",
+      "meaningEn": "hood, cap, headpiece",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 675,
+      "nrs": "valsarp",
+      "pos": "名",
+      "meaningJa": "袖、長袖、腕覆い",
+      "meaningEn": "sleeve, gauntlet sleeve, arm covering",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 676,
+      "nrs": "valser",
+      "pos": "名",
+      "meaningJa": "帯、ベルト、腰紐",
+      "meaningEn": "sash, belt, girdle, waist-strap",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 677,
+      "nrs": "valsol",
+      "pos": "名",
+      "meaningJa": "裏地、内張り、保温裏毛",
+      "meaningEn": "lining, inner quilting, fleece lining",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 678,
+      "nrs": "valson",
+      "pos": "動",
+      "meaningJa": "着替える、装いを整える、身繕いする",
+      "meaningEn": "change attire, don festive robes, groom outfit",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 679,
+      "nrs": "valtarv",
+      "pos": "名",
+      "meaningJa": "ショール、肩掛け、大判肩掛け布",
+      "meaningEn": "shawl, shoulder wrap, stole",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 680,
+      "nrs": "valtas",
+      "pos": "名",
+      "meaningJa": "鞄、背嚢、サッチェル",
+      "meaningEn": "bag, satchel, rucksack, haversack",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 681,
+      "nrs": "valtasp",
+      "pos": "名",
+      "meaningJa": "財布、革巾着、小銭入れ",
+      "meaningEn": "purse, pouch, coin purse",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 682,
+      "nrs": "valzar",
+      "pos": "名",
+      "meaningJa": "絹織物、極上布、天の薄絹",
+      "meaningEn": "fine silk, diaphanous samite, astral damask",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 683,
+      "nrs": "zenkal",
+      "pos": "名",
+      "meaningJa": "鏡、姿見、光反射板",
+      "meaningEn": "mirror, looking glass",
+      "category": "13. 衣飾・携行具・日常品"
+    },
+    {
+      "id": 588,
+      "nrs": "borparn",
+      "pos": "名",
+      "meaningJa": "梁、桁、天井支え桁",
+      "meaningEn": "rafter, joist, ceiling beam",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 589,
+      "nrs": "celpar",
+      "pos": "名",
+      "meaningJa": "天窓、採光ドーム、クーポラ",
+      "meaningEn": "skylight dome, cupola, lantern roof",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 590,
+      "nrs": "celporv",
+      "pos": "名",
+      "meaningJa": "日除け庇、ポーチ屋根、キャノピー",
+      "meaningEn": "awnings, portico canopy, marquee overhang",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 591,
+      "nrs": "celup",
+      "pos": "名",
+      "meaningJa": "天井、屋根、日覆い天蓋",
+      "meaningEn": "ceiling, roof, canopy",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 592,
+      "nrs": "dankar",
+      "pos": "名",
+      "meaningJa": "基礎、土台、建築石礎",
+      "meaningEn": "foundation, plinth, bedrock base",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 593,
+      "nrs": "dankarn",
+      "pos": "名",
+      "meaningJa": "厩舎、馬屋、動物飼育棟",
+      "meaningEn": "stables, mews, beast barn",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 594,
+      "nrs": "domcor",
+      "pos": "名",
+      "meaningJa": "塔、監視塔、物見櫓、尖塔",
+      "meaningEn": "tower, spire, watchtower",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 595,
+      "nrs": "domdorn",
+      "pos": "名",
+      "meaningJa": "雨樋、樋、排水配管",
+      "meaningEn": "gutter, waterspout, downspout pipe",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 596,
+      "nrs": "domlorv",
+      "pos": "名",
+      "meaningJa": "鐘楼、時報塔、鐘楼台",
+      "meaningEn": "campanile, belfry, clock spire",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 597,
+      "nrs": "domom",
+      "pos": "名",
+      "meaningJa": "都市、街、街区",
+      "meaningEn": "city, town, metropolis",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 598,
+      "nrs": "dompalv",
+      "pos": "名",
+      "meaningJa": "街路樹通り、並木道、プロムナード",
+      "meaningEn": "boulevard, tree-lined allée, promenade",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 599,
+      "nrs": "dompanan",
+      "pos": "動",
+      "meaningJa": "落成する、上棟する、家を建てる",
+      "meaningEn": "erect dwelling, raise ridgepole, inaugurate building",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 600,
+      "nrs": "domsarp",
+      "pos": "名",
+      "meaningJa": "屋根裏部屋、ロフト、小間屋根裏",
+      "meaningEn": "attic, loft, garret bed-chamber",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 601,
+      "nrs": "domsol",
+      "pos": "名",
+      "meaningJa": "柱頭、柱飾り、エンタブラチュア",
+      "meaningEn": "capital, pediment pillar ornament",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 602,
+      "nrs": "domsor",
+      "pos": "名",
+      "meaningJa": "地下室、貯蔵室、食糧庫",
+      "meaningEn": "cellar, basement vault, storeroom",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 603,
+      "nrs": "domtalv",
+      "pos": "名",
+      "meaningJa": "中庭噴水、噴水池、中庭水景",
+      "meaningEn": "courtyard fountain, basin jet",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 604,
+      "nrs": "domvin",
+      "pos": "名",
+      "meaningJa": "回廊、列柱廊、アーケード",
+      "meaningEn": "colonnade, cloister, arcade walk",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 605,
+      "nrs": "domzar",
+      "pos": "名",
+      "meaningJa": "中央広場、アゴラ、フォーラム",
+      "meaningEn": "central plaza, agora, civic concourse",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 606,
+      "nrs": "domzarv",
+      "pos": "名",
+      "meaningJa": "大聖堂、天体観測ドーム宮、大殿",
+      "meaningEn": "basilica, grand dome rotunda, star minster",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 607,
+      "nrs": "durcon",
+      "pos": "名",
+      "meaningJa": "防壁塔、堡塁、小要塞",
+      "meaningEn": "bastion, redoubt, fortified bulwark",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 608,
+      "nrs": "durkas",
+      "pos": "名",
+      "meaningJa": "防壁、城壁、外郭防護壁",
+      "meaningEn": "rampart, defensive parapet, outer wall",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 609,
+      "nrs": "durpanan",
+      "pos": "動",
+      "meaningJa": "築く、城壁を巡らせる、要塞化する",
+      "meaningEn": "fortify, entrench, embattle with wall",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 610,
+      "nrs": "dursarp",
+      "pos": "名",
+      "meaningJa": "胸壁、銃眼付き狭間胸壁",
+      "meaningEn": "battlement, crenellated parapet",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 611,
+      "nrs": "dursol",
+      "pos": "名",
+      "meaningJa": "石垣、石積み擁壁、乾式石壁",
+      "meaningEn": "drystone masonry, drystone retaining revetment",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 612,
+      "nrs": "durval",
+      "pos": "名",
+      "meaningJa": "壁、隔壁、防護仕切り",
+      "meaningEn": "wall, partition, bulkhead",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 613,
+      "nrs": "falnyr",
+      "pos": "名",
+      "meaningJa": "狭間、スリット窓、採光矢狭間",
+      "meaningEn": "loophole, arrow slit window, embrasure",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 614,
+      "nrs": "falpar",
+      "pos": "名",
+      "meaningJa": "バルコニー、露台、見晴台",
+      "meaningEn": "balcony, terrace, veranda",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 615,
+      "nrs": "farnal",
+      "pos": "名",
+      "meaningJa": "窓、明かり取り、天窓",
+      "meaningEn": "window, skylight",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 616,
+      "nrs": "govan",
+      "pos": "名",
+      "meaningJa": "家、住宅、住まい",
+      "meaningEn": "house, home, dwelling",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 617,
+      "nrs": "kulmon",
+      "pos": "名",
+      "meaningJa": "柱、支柱、梁、建築の骨柱",
+      "meaningEn": "pillar, column, support beam",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 618,
+      "nrs": "larar",
+      "pos": "名",
+      "meaningJa": "駅、ターミナル、空港、停泊地",
+      "meaningEn": "station, terminal, port",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 619,
+      "nrs": "laros",
+      "pos": "名",
+      "meaningJa": "乗り物、車両、列車、交通艇",
+      "meaningEn": "vehicle, carriage, train",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 620,
+      "nrs": "lercor",
+      "pos": "名",
+      "meaningJa": "アーチ門、凱旋門、重厚な門扉",
+      "meaningEn": "arched gate, portal, grand gateway",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 621,
+      "nrs": "lerel",
+      "pos": "名",
+      "meaningJa": "扉、ドア、出入口、ゲート",
+      "meaningEn": "door, gate, entrance",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 622,
+      "nrs": "lersol",
+      "pos": "名",
+      "meaningJa": "落とし格子、鉄格子門、防護落とし戸",
+      "meaningEn": "portcullis, iron grate grille gate",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 623,
+      "nrs": "lerson",
+      "pos": "名",
+      "meaningJa": "跳ね橋、城門引橋、昇降橋",
+      "meaningEn": "drawbridge, portcullis causeway",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 624,
+      "nrs": "lertal",
+      "pos": "名",
+      "meaningJa": "廊下、通路、渡り廊下",
+      "meaningEn": "corridor, hallway, passage",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 625,
+      "nrs": "lervan",
+      "pos": "名",
+      "meaningJa": "敷居、玄関、踏み分け段",
+      "meaningEn": "threshold, foyer, entryway",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 626,
+      "nrs": "lervor",
+      "pos": "名",
+      "meaningJa": "玄関ホール、ポーチ、前室",
+      "meaningEn": "vestibule, front porch, ante-room",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 627,
+      "nrs": "talsar",
+      "pos": "名",
+      "meaningJa": "敷石、舗装、石畳の道",
+      "meaningEn": "paving stone, flagstone, cobbled walk",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 628,
+      "nrs": "taran",
+      "pos": "動",
+      "meaningJa": "住まう、暮らす、居住する",
+      "meaningEn": "live, dwell, reside",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 629,
+      "nrs": "tolst",
+      "pos": "名",
+      "meaningJa": "床、床面、居住基盤面",
+      "meaningEn": "floor, ground level",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 630,
+      "nrs": "tolsun",
+      "pos": "名",
+      "meaningJa": "石橋、アーチ橋、橋梁",
+      "meaningEn": "arch bridge, stone viaduct, aqueduct",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 631,
+      "nrs": "velar",
+      "pos": "名",
+      "meaningJa": "庭、庭園、中庭、緑地",
+      "meaningEn": "garden, courtyard, arboretum",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 632,
+      "nrs": "vorn",
+      "pos": "名",
+      "meaningJa": "部屋、私室、空間",
+      "meaningEn": "room, chamber",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 633,
+      "nrs": "vostir",
+      "pos": "名",
+      "meaningJa": "階段、ステップ、昇降段",
+      "meaningEn": "stairs, steps, staircase",
+      "category": "11. 建築・都市・住空間"
+    },
+    {
+      "id": 760,
+      "nrs": "alin",
+      "pos": "形",
+      "meaningJa": "白い、純白の、無垢な",
+      "meaningEn": "white, pure",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 761,
+      "nrs": "celisi",
+      "pos": "形",
+      "meaningJa": "霞がかった、曖昧な、霧深い",
+      "meaningEn": "misty, hazy, nebulous",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 762,
+      "nrs": "cironi",
+      "pos": "形",
+      "meaningJa": "静かな、無音の、凪いだ",
+      "meaningEn": "silent, quiet, peaceful",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 763,
+      "nrs": "cironli",
+      "pos": "形",
+      "meaningJa": "賑やかな、活気ある、声響く",
+      "meaningEn": "lively, bustling, vibrant",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 764,
+      "nrs": "cylani",
+      "pos": "形",
+      "meaningJa": "美しい、調和のとれた、麗しい",
+      "meaningEn": "beautiful, exquisite",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 765,
+      "nrs": "darini",
+      "pos": "形",
+      "meaningJa": "柔らかい、柔軟な、しなやかな",
+      "meaningEn": "soft, supple, pliant",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 766,
+      "nrs": "darisli",
+      "pos": "形",
+      "meaningJa": "なめらかな、すべすべした、水流のような",
+      "meaningEn": "smooth, sleek, fluid",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 767,
+      "nrs": "darlori",
+      "pos": "形",
+      "meaningJa": "激流の、潮汐力強い、奔流の",
+      "meaningEn": "torrential, surging, rushing",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 768,
+      "nrs": "darmoni",
+      "pos": "形",
+      "meaningJa": "清冽な、湧水のように澄んだ",
+      "meaningEn": "pure, limpid, spring-clear",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 769,
+      "nrs": "darsarn",
+      "pos": "形",
+      "meaningJa": "芳醇な、口当たりの良い、香り高い",
+      "meaningEn": "mellifluous, mellow, aromatic savory",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 770,
+      "nrs": "darsol",
+      "pos": "形",
+      "meaningJa": "透き通った、清澄な、透明な",
+      "meaningEn": "limpid, crystal-clear, transparent",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 771,
+      "nrs": "darzan",
+      "pos": "形",
+      "meaningJa": "湿った、しっとりした、水分を含んだ",
+      "meaningEn": "dank, humid, moist with vapor",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 772,
+      "nrs": "dorvan",
+      "pos": "形",
+      "meaningJa": "脆い、壊れやすい、繊細な",
+      "meaningEn": "fragile, brittle, delicate",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 773,
+      "nrs": "durini",
+      "pos": "形",
+      "meaningJa": "重い、重厚な、高密度の",
+      "meaningEn": "heavy, dense, massive",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 774,
+      "nrs": "durvani",
+      "pos": "形",
+      "meaningJa": "免疫のある、抗体を持った、無傷の",
+      "meaningEn": "immune, resistant, impervious",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 775,
+      "nrs": "eiran",
+      "pos": "形",
+      "meaningJa": "永遠の、不滅の、無尽の",
+      "meaningEn": "eternal, perpetual, immortal",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 776,
+      "nrs": "eirin",
+      "pos": "形",
+      "meaningJa": "古い、悠久の、古代の",
+      "meaningEn": "ancient, old, timeless",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 777,
+      "nrs": "falini",
+      "pos": "形",
+      "meaningJa": "澄んだ、明瞭な、透き通った",
+      "meaningEn": "clear, transparent, lucid",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 778,
+      "nrs": "falkas",
+      "pos": "形",
+      "meaningJa": "粗い、ざらざらした、無加工の",
+      "meaningEn": "rough, coarse, unpolished",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 779,
+      "nrs": "falpiri",
+      "pos": "形",
+      "meaningJa": "冷光の、幽かな燐光を放つ",
+      "meaningEn": "phosphorescent, glow-in-the-dark",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 780,
+      "nrs": "falsarn",
+      "pos": "形",
+      "meaningJa": "眩い、目が眩むほどの、強烈な閃光の",
+      "meaningEn": "dazzling, blindingly radiant, resplendent",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 781,
+      "nrs": "falsolv",
+      "pos": "形",
+      "meaningJa": "銀白色の、白銀に輝く、白光の",
+      "meaningEn": "silvery-white, argent, starlit pallor",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 782,
+      "nrs": "faluni",
+      "pos": "形",
+      "meaningJa": "明るい、光り輝く",
+      "meaningEn": "bright, radiant",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 783,
+      "nrs": "falzor",
+      "pos": "形",
+      "meaningJa": "鮮明な、くっきりした、解像度の高い",
+      "meaningEn": "vivid, distinct, sharply defined",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 784,
+      "nrs": "krotani",
+      "pos": "形",
+      "meaningJa": "騒然とした、激動の、波乱に満ちた",
+      "meaningEn": "turbulent, stormy, tumultuous",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 785,
+      "nrs": "kymcon",
+      "pos": "形",
+      "meaningJa": "漆黒の、底知れぬ暗黒の",
+      "meaningEn": "pitch-black, abyss-dark",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 786,
+      "nrs": "kymsarn",
+      "pos": "形",
+      "meaningJa": "ほの暗い、薄暗い、微光漂う",
+      "meaningEn": "dim, dusky, shadowy crepuscular",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 787,
+      "nrs": "kymsol",
+      "pos": "形",
+      "meaningJa": "濃紺の、深夜の蒼天色の、インディゴの",
+      "meaningEn": "midnight-blue, deep indigo, nocturnal cyan",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 788,
+      "nrs": "kyrani",
+      "pos": "形",
+      "meaningJa": "冷たい、凍てつく、氷結の",
+      "meaningEn": "cold, icy, frigid",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 789,
+      "nrs": "kyrfini",
+      "pos": "形",
+      "meaningJa": "凍結した、氷河のような、極寒の",
+      "meaningEn": "glacial, ice-locked, gelid",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 790,
+      "nrs": "kyrimi",
+      "pos": "形",
+      "meaningJa": "深い、深淵な、奥底の",
+      "meaningEn": "deep, profound",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 791,
+      "nrs": "kyrin",
+      "pos": "形",
+      "meaningJa": "黒い、漆黒の、暗い",
+      "meaningEn": "black, pitch-dark",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 792,
+      "nrs": "kyrlini",
+      "pos": "形",
+      "meaningJa": "雪白の、粉雪のような、純潔の",
+      "meaningEn": "snow-white, crystalline pure",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 793,
+      "nrs": "kyrpi",
+      "pos": "形",
+      "meaningJa": "鋭い、研ぎ澄まされた、尖鋭な",
+      "meaningEn": "sharp, acute, keen",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 794,
+      "nrs": "kyrzan",
+      "pos": "形",
+      "meaningJa": "凍てつく、極冷の、骨身に染みる冷たさの",
+      "meaningEn": "frigid, sub-zero chilling, gelid",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 795,
+      "nrs": "melysi",
+      "pos": "形",
+      "meaningJa": "甘い、滋味豊かな、甘美な",
+      "meaningEn": "sweet, luscious, delicious",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 796,
+      "nrs": "minzan",
+      "pos": "形",
+      "meaningJa": "誠実な、偽りのない、嘘偽りなき",
+      "meaningEn": "candid, forthright, unfeigned upright",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 797,
+      "nrs": "moran",
+      "pos": "形",
+      "meaningJa": "大きい、広大な、壮大な",
+      "meaningEn": "large, vast, grand",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 798,
+      "nrs": "morini",
+      "pos": "形",
+      "meaningJa": "遅い、緩やかな、歩みの遅い",
+      "meaningEn": "slow, gentle, unhurried",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 799,
+      "nrs": "nebulin",
+      "pos": "形",
+      "meaningJa": "紫の、深紫の、星雲色の",
+      "meaningEn": "purple, violet, nebula-hued",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 800,
+      "nrs": "novani",
+      "pos": "形",
+      "meaningJa": "高い、至高の、天上界の",
+      "meaningEn": "high, lofty, elevated",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 801,
+      "nrs": "porkini",
+      "pos": "形",
+      "meaningJa": "狭い、窮屈な、幅の狭い",
+      "meaningEn": "narrow, tight, cramped",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 802,
+      "nrs": "pyrin",
+      "pos": "形",
+      "meaningJa": "赤い、真紅の、燃えるような",
+      "meaningEn": "red, crimson, fiery",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 803,
+      "nrs": "pyrsol",
+      "pos": "形",
+      "meaningJa": "緋色の、深紅の、紅蓮の",
+      "meaningEn": "crimson, scarlet-bright, ruby incandescent",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 804,
+      "nrs": "pyrzan",
+      "pos": "形",
+      "meaningJa": "熱烈な、灼熱の、焼けるような",
+      "meaningEn": "scalding, scorching, fiercely fervent",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 805,
+      "nrs": "klorini",
+      "pos": "形",
+      "meaningJa": "丸い、円形の、球状の",
+      "meaningEn": "round, circular, spherical",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 806,
+      "nrs": "serini",
+      "pos": "形",
+      "meaningJa": "細い、薄い、繊細な",
+      "meaningEn": "thin, slim, subtle",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 807,
+      "nrs": "zelvsarn",
+      "pos": "形",
+      "meaningJa": "ざらつく、粒立ちのある、手応えのある",
+      "meaningEn": "gritty, textured, tactile with grains",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 808,
+      "nrs": "sersolv",
+      "pos": "形",
+      "meaningJa": "絹のように滑らかな、つるつるとした",
+      "meaningEn": "silky, satiny smooth, gliding",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 809,
+      "nrs": "sirani",
+      "pos": "形",
+      "meaningJa": "優しい、穏やかな、柔らかな",
+      "meaningEn": "gentle, mild, soft",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 810,
+      "nrs": "syvan",
+      "pos": "形",
+      "meaningJa": "新しい、新鮮な、新緑の",
+      "meaningEn": "new, fresh, novel",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 811,
+      "nrs": "talani",
+      "pos": "形",
+      "meaningJa": "強い、堅固な、頑丈な、岩のような",
+      "meaningEn": "strong, durable, solid",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 812,
+      "nrs": "talcon",
+      "pos": "形",
+      "meaningJa": "頑強な、堅固な、ゆるぎない",
+      "meaningEn": "sturdy, robust, steadfast",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 813,
+      "nrs": "taldari",
+      "pos": "形",
+      "meaningJa": "ぬかるんだ、泥深い、粘土質の",
+      "meaningEn": "muddy, miry, clayey",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 814,
+      "nrs": "talyrki",
+      "pos": "形",
+      "meaningJa": "ざらざらした、粗い、岩肌のような",
+      "meaningEn": "rough, coarse, gritty",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 815,
+      "nrs": "talmori",
+      "pos": "形",
+      "meaningJa": "広い、広々とした、開放的な",
+      "meaningEn": "spacious, broad, roomy",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 816,
+      "nrs": "talpi",
+      "pos": "形",
+      "meaningJa": "硬い、硬質な、強硬な",
+      "meaningEn": "hard, rigid, unyielding",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 817,
+      "nrs": "talsarpv",
+      "pos": "形",
+      "meaningJa": "硬質な、緻密な、刃を通さぬ",
+      "meaningEn": "adamantine, impenetrable, dense-grained",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 818,
+      "nrs": "talsolv",
+      "pos": "形",
+      "meaningJa": "褐色の、土色の、琥珀土色の",
+      "meaningEn": "tawny, amber-brown, earthen russet",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 819,
+      "nrs": "taluri",
+      "pos": "形",
+      "meaningJa": "金属的な、硬質な光沢の、鋼の",
+      "meaningEn": "metallic, steel-like, lustrous",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 820,
+      "nrs": "teirini",
+      "pos": "形",
+      "meaningJa": "温かい、慈愛に満ちた、温もりの",
+      "meaningEn": "warm, tender, comforting",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 821,
+      "nrs": "telin",
+      "pos": "形",
+      "meaningJa": "小さい、細やかな、微小な",
+      "meaningEn": "small, tiny, delicate",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 822,
+      "nrs": "tuliki",
+      "pos": "形",
+      "meaningJa": "角張った、多角形の、角ばった",
+      "meaningEn": "angular, polygonal, edged",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 823,
+      "nrs": "tulmin",
+      "pos": "形",
+      "meaningJa": "柔軟な、しなやかな、弾力のある",
+      "meaningEn": "flexible, supple, pliable",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 824,
+      "nrs": "tulosi",
+      "pos": "形",
+      "meaningJa": "低い、底層の、足元の",
+      "meaningEn": "low, deep-set, base",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 825,
+      "nrs": "tyni",
+      "pos": "形",
+      "meaningJa": "銀色の、白銀の、月光の",
+      "meaningEn": "silver, silvery, gleaming",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 826,
+      "nrs": "valin",
+      "pos": "形",
+      "meaningJa": "金色の、黄金の、輝かしい",
+      "meaningEn": "golden, amber, lustrous",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 827,
+      "nrs": "valpini",
+      "pos": "形",
+      "meaningJa": "厚い、分厚い、重層の",
+      "meaningEn": "thick, stout, dense-layered",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 828,
+      "nrs": "velini",
+      "pos": "形",
+      "meaningJa": "緑の、新緑色の、翠色の",
+      "meaningEn": "green, emerald, verdant",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 829,
+      "nrs": "velpari",
+      "pos": "形",
+      "meaningJa": "樹木が生い茂った、森厳な",
+      "meaningEn": "wooded, arboraceous, dense-timbered",
+      "category": "15. 性質・状態・色彩・感触"
+    },
+    {
+      "id": 684,
+      "nrs": "civdorv",
+      "pos": "名",
+      "meaningJa": "太鼓、打楽器、太古の律動鼓",
+      "meaningEn": "drum, timbrel, rhythm kettle",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 685,
+      "nrs": "civnyr",
+      "pos": "名",
+      "meaningJa": "笛、フルート、星風の木管笛",
+      "meaningEn": "flute, pipe, reed recorder",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 686,
+      "nrs": "civom",
+      "pos": "名",
+      "meaningJa": "叙事詩、星間神話詩、長編伝承",
+      "meaningEn": "epic poem, cosmological saga",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 687,
+      "nrs": "civpanan",
+      "pos": "動",
+      "meaningJa": "作曲する、メロディを紡ぐ、詩曲を作る",
+      "meaningEn": "compose score, weave hymn melody, score music",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 688,
+      "nrs": "civsol",
+      "pos": "名",
+      "meaningJa": "竪琴、リラ、ハープ、星辰弦楽器",
+      "meaningEn": "harp, lyre, starry kithara",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 689,
+      "nrs": "civtas",
+      "pos": "名",
+      "meaningJa": "和音、ハーモニー、協和響き",
+      "meaningEn": "chord, consonant harmony",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 690,
+      "nrs": "civzar",
+      "pos": "名",
+      "meaningJa": "交響曲、大合奏、大管弦詩",
+      "meaningEn": "symphony, grand polyphonic concerto",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 691,
+      "nrs": "cylanar",
+      "pos": "名",
+      "meaningJa": "劇場、美術館、芸術の館",
+      "meaningEn": "theater, art gallery, salon",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 692,
+      "nrs": "cylas",
+      "pos": "名/形",
+      "meaningJa": "美、崇高、調和美、美しい",
+      "meaningEn": "beauty, sublime, graceful",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 693,
+      "nrs": "cylinor",
+      "pos": "名",
+      "meaningJa": "芸術家、美の探求者、表現者",
+      "meaningEn": "artist, aesthetician, creator of beauty",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 694,
+      "nrs": "cynas",
+      "pos": "名",
+      "meaningJa": "友情、親愛、心の絆",
+      "meaningEn": "friendship, fellowship",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 695,
+      "nrs": "cynel",
+      "pos": "名/動",
+      "meaningJa": "愛、慈しみ、深い共感、愛する",
+      "meaningEn": "love, affection, cherish",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 696,
+      "nrs": "cynur",
+      "pos": "名",
+      "meaningJa": "感謝、謝意、心の返礼",
+      "meaningEn": "gratitude, thanksgiving",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 697,
+      "nrs": "duras",
+      "pos": "名/形",
+      "meaningJa": "忍耐、耐性、不撓不屈の",
+      "meaningEn": "endurance, fortitude, patient",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 698,
+      "nrs": "durlan",
+      "pos": "名",
+      "meaningJa": "意志、不屈の覚悟、決意",
+      "meaningEn": "willpower, determination, firm resolve",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 699,
+      "nrs": "durtan",
+      "pos": "名",
+      "meaningJa": "勇気、果敢さ、不屈の志",
+      "meaningEn": "courage, bravery, valor",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 700,
+      "nrs": "elir",
+      "pos": "名/形",
+      "meaningJa": "喜び、多幸感、嬉しい",
+      "meaningEn": "joy, delight, gladness",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 701,
+      "nrs": "elirtas",
+      "pos": "名",
+      "meaningJa": "祝意、お祝い、祝福の辞",
+      "meaningEn": "congratulations, festive cheer",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 702,
+      "nrs": "falpanan",
+      "pos": "動",
+      "meaningJa": "彩色する、絵筆を執る、色を塗る",
+      "meaningEn": "paint, brush color onto canvas, illuminate page",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 703,
+      "nrs": "falzar",
+      "pos": "名",
+      "meaningJa": "壁画、フレスコ画、壮大な天井画",
+      "meaningEn": "fresco, mural painting, celestial tableau",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 704,
+      "nrs": "felyn",
+      "pos": "名",
+      "meaningJa": "直感、閃き、直観的洞察",
+      "meaningEn": "intuition, flash of insight",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 705,
+      "nrs": "fevas",
+      "pos": "動",
+      "meaningJa": "信じる、信頼する、託す",
+      "meaningEn": "trust, believe, confide",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 706,
+      "nrs": "fevkar",
+      "pos": "名",
+      "meaningJa": "約束、確約、誓言、誓約言明",
+      "meaningEn": "pledge, firm undertaking",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 707,
+      "nrs": "fevnas",
+      "pos": "名",
+      "meaningJa": "忠誠、信義、誠意",
+      "meaningEn": "fidelity, loyalty, allegiance",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 708,
+      "nrs": "fevok",
+      "pos": "名",
+      "meaningJa": "確信、不抜の信仰、信条",
+      "meaningEn": "conviction, firm creed",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 709,
+      "nrs": "kefen",
+      "pos": "名/形",
+      "meaningJa": "畏怖、畏敬、厳粛な恐れ",
+      "meaningEn": "awe, reverence",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 710,
+      "nrs": "kefur",
+      "pos": "名",
+      "meaningJa": "畏敬の念、崇拝、神聖感",
+      "meaningEn": "sacred awe, reverence",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 711,
+      "nrs": "kolzan",
+      "pos": "名",
+      "meaningJa": "彫像、彫刻、石造モニュメント",
+      "meaningEn": "statue, stone sculpture, effigy effigy",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 712,
+      "nrs": "kores",
+      "pos": "動",
+      "meaningJa": "忘れる、手放す、過去に置く",
+      "meaningEn": "forget, release, let go",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 713,
+      "nrs": "krotas",
+      "pos": "名/形",
+      "meaningJa": "激動、怒り、熱狂、激しい",
+      "meaningEn": "fury, wrath, passion",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 714,
+      "nrs": "krotik",
+      "pos": "名",
+      "meaningJa": "葛藤、心の嵐、内なる動揺",
+      "meaningEn": "inner conflict, turmoil, agitation",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 715,
+      "nrs": "krotiluk",
+      "pos": "名",
+      "meaningJa": "焦燥、苛立ち、もどかしさ",
+      "meaningEn": "impatience, frustration, restlessness",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 716,
+      "nrs": "larvyn",
+      "pos": "名",
+      "meaningJa": "宿命、天命、星の軌道命数",
+      "meaningEn": "destiny, cosmic ordination",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 717,
+      "nrs": "lyras",
+      "pos": "名/形",
+      "meaningJa": "哀愁、切なさ、悲哀、切ない",
+      "meaningEn": "sorrow, melancholy, pathos",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 718,
+      "nrs": "lyren",
+      "pos": "名",
+      "meaningJa": "鎮魂歌、哀傷詩、エレジー",
+      "meaningEn": "elegy, requiem, lament",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 719,
+      "nrs": "lyrtas",
+      "pos": "名",
+      "meaningJa": "後悔、悔恨、やり直しへの念",
+      "meaningEn": "regret, remorse",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 720,
+      "nrs": "lyrvik",
+      "pos": "名",
+      "meaningJa": "郷愁、ノスタルジー、遠き星への憧憬",
+      "meaningEn": "nostalgia, longing for distant home",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 721,
+      "nrs": "memar",
+      "pos": "動",
+      "meaningJa": "思索する、深く考える、熟慮する",
+      "meaningEn": "contemplate, meditate, reflect",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 722,
+      "nrs": "mincor",
+      "pos": "名",
+      "meaningJa": "矜持、誇り、気品、自尊心",
+      "meaningEn": "dignity, noble pride, self-respect",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 723,
+      "nrs": "mindan",
+      "pos": "名",
+      "meaningJa": "直観、ひらめき、洞察",
+      "meaningEn": "intuition, insight, flash of clarity",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 724,
+      "nrs": "minnyr",
+      "pos": "名",
+      "meaningJa": "慈愛、思いやり、深い憐憫",
+      "meaningEn": "compassion, tender mercy, gentleness of soul",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 725,
+      "nrs": "minpalv",
+      "pos": "名",
+      "meaningJa": "安らぎ、静寂、心の平穏",
+      "meaningEn": "serenity, tranquil peace, quietude of mind",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 726,
+      "nrs": "minpan",
+      "pos": "動",
+      "meaningJa": "決断する、心を定める、意を決する",
+      "meaningEn": "resolve, determine, make up mind",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 727,
+      "nrs": "minpanan",
+      "pos": "動",
+      "meaningJa": "祈る、念じる、星辰に願う",
+      "meaningEn": "pray, supplicate the heavens, meditate longing",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 728,
+      "nrs": "minparv",
+      "pos": "名",
+      "meaningJa": "好奇心、探求心、真理への憧れ",
+      "meaningEn": "inquisitiveness, curiosity, thirst for truth",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 729,
+      "nrs": "minsol",
+      "pos": "名",
+      "meaningJa": "覚悟、揺るがぬ意志、不動心",
+      "meaningEn": "steadfast resolution, unyielding iron will",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 730,
+      "nrs": "minvol",
+      "pos": "名",
+      "meaningJa": "憧憬、憧れ、高みへの熱望",
+      "meaningEn": "yearning, aspiration, starry longing",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 731,
+      "nrs": "minzar",
+      "pos": "名",
+      "meaningJa": "悟り、真我の覚知、霊的開眼",
+      "meaningEn": "enlightenment, spiritual awakening, episteme",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 732,
+      "nrs": "novis",
+      "pos": "名/動",
+      "meaningJa": "敬意、崇敬、尊ぶ",
+      "meaningEn": "reverence, honor, venerate",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 733,
+      "nrs": "sarcon",
+      "pos": "名",
+      "meaningJa": "祝祭、感謝祭、歓喜の祝宴",
+      "meaningEn": "jubilee, festive gala, joyful feast",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 734,
+      "nrs": "sardorn",
+      "pos": "名",
+      "meaningJa": "哀傷、メランコリー、静かな悲嘆",
+      "meaningEn": "melancholy, gentle grief, elegiac sadness",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 735,
+      "nrs": "sarmon",
+      "pos": "名",
+      "meaningJa": "ユーモア、機知、軽妙な笑い",
+      "meaningEn": "wit, subtle humor, playful mirth",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 736,
+      "nrs": "sarpanan",
+      "pos": "動",
+      "meaningJa": "慰める、励ます、痛みに寄り添う",
+      "meaningEn": "console, comfort, cheer grieving heart",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 737,
+      "nrs": "sarzar",
+      "pos": "名",
+      "meaningJa": "至福、法悦、エクスタシー",
+      "meaningEn": "bliss, rapture, transcendent ecstasy",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 738,
+      "nrs": "sirin",
+      "pos": "名/形",
+      "meaningJa": "平穏、安らぎ、静けさ、穏やか",
+      "meaningEn": "serenity, peace, tranquility",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 739,
+      "nrs": "sirlem",
+      "pos": "名",
+      "meaningJa": "寛容、広い心、包容、受容",
+      "meaningEn": "tolerance, broad-mindedness, leniency",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 740,
+      "nrs": "sirvanis",
+      "pos": "名",
+      "meaningJa": "瞑想者、観照家、静思の徒",
+      "meaningEn": "contemplative, meditator, silent seer",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 741,
+      "nrs": "sirvon",
+      "pos": "名/形",
+      "meaningJa": "瞑想、深い静思、観照する",
+      "meaningEn": "meditation, tranquil mindfulness",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 742,
+      "nrs": "solen",
+      "pos": "名/形",
+      "meaningJa": "孤高、静かな孤独、一人きり",
+      "meaningEn": "solitude, solitude-proud",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 743,
+      "nrs": "muran",
+      "pos": "動",
+      "meaningJa": "夢を見る、幻視する、構想する",
+      "meaningEn": "dream, envision, visualize",
+      "category": "14. 精神・哲学・感情・芸術"
+    },
+    {
+      "id": 195,
+      "nrs": "darisan",
+      "pos": "動",
+      "meaningJa": "療養する、回復する、快復に向かう",
+      "meaningEn": "convalesce, recuperate, heal",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 196,
+      "nrs": "darisar",
+      "pos": "名",
+      "meaningJa": "病院、医院、診療所、癒しの座",
+      "meaningEn": "hospital, clinic",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 197,
+      "nrs": "dariscon",
+      "pos": "名",
+      "meaningJa": "包帯、固定具、創傷被覆材",
+      "meaningEn": "bandage, wound dressing, splint",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 198,
+      "nrs": "darisor",
+      "pos": "名",
+      "meaningJa": "医師、治癒師、導師",
+      "meaningEn": "doctor, physician, healer",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 199,
+      "nrs": "darispan",
+      "pos": "動",
+      "meaningJa": "処方する、薬を調合する、投薬する",
+      "meaningEn": "prescribe, dispense medicine, compound",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 200,
+      "nrs": "darispuk",
+      "pos": "名",
+      "meaningJa": "軟膏、塗り薬、薬用膏薬",
+      "meaningEn": "ointment, therapeutic balm, salve",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 201,
+      "nrs": "darmut",
+      "pos": "名",
+      "meaningJa": "汗、体液蒸散、滴り",
+      "meaningEn": "sweat, perspiration",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 202,
+      "nrs": "davel",
+      "pos": "名",
+      "meaningJa": "血液、脈流、体液",
+      "meaningEn": "blood, vital fluid",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 203,
+      "nrs": "davelis",
+      "pos": "名",
+      "meaningJa": "血漿、体液、リンパ液",
+      "meaningEn": "lymph, plasma, serous fluid",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 204,
+      "nrs": "davlar",
+      "pos": "名",
+      "meaningJa": "循環系、血管網、脈絡",
+      "meaningEn": "circulatory system, blood vessels",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 205,
+      "nrs": "duril",
+      "pos": "名",
+      "meaningJa": "骨、骨格、堅固な支柱",
+      "meaningEn": "bone, skeleton",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 206,
+      "nrs": "durtas",
+      "pos": "名",
+      "meaningJa": "筋肉、筋力、運動器官",
+      "meaningEn": "muscle, sinew",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 207,
+      "nrs": "durtin",
+      "pos": "名",
+      "meaningJa": "肩、荷を担ぐ支え",
+      "meaningEn": "shoulder, brace",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 208,
+      "nrs": "durvan",
+      "pos": "名",
+      "meaningJa": "免疫、生体防御機構、抗体",
+      "meaningEn": "immunity, vital defense",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 209,
+      "nrs": "durvanar",
+      "pos": "名",
+      "meaningJa": "隔離室、検疫所、無菌室",
+      "meaningEn": "quarantine chamber, clean room",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 210,
+      "nrs": "durvis",
+      "pos": "名",
+      "meaningJa": "軟骨、腱、靭帯",
+      "meaningEn": "cartilage, tendon, connective tissue",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 211,
+      "nrs": "fenel",
+      "pos": "名",
+      "meaningJa": "口、唇、声門",
+      "meaningEn": "mouth, lips",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 212,
+      "nrs": "fenlin",
+      "pos": "名",
+      "meaningJa": "味覚、風味、舌ざわり",
+      "meaningEn": "taste sensation, flavor perception",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 213,
+      "nrs": "fenrut",
+      "pos": "名",
+      "meaningJa": "喉、気道、咽頭、声の通り道",
+      "meaningEn": "throat, pharynx",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 214,
+      "nrs": "harel",
+      "pos": "名",
+      "meaningJa": "耳、聴覚器官",
+      "meaningEn": "ear, auditory organ",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 215,
+      "nrs": "harnas",
+      "pos": "名",
+      "meaningJa": "聴力、音感、耳の感度",
+      "meaningEn": "hearing ability, auditory sense",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 216,
+      "nrs": "hylik",
+      "pos": "名",
+      "meaningJa": "皮膚、肌、外被",
+      "meaningEn": "skin, dermis",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 217,
+      "nrs": "jynten",
+      "pos": "名",
+      "meaningJa": "神経、感覚伝達網、シナプス",
+      "meaningEn": "nerve, neural network",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 218,
+      "nrs": "kivan",
+      "pos": "名",
+      "meaningJa": "細胞、生体微小胞",
+      "meaningEn": "cell, life vesicle",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 219,
+      "nrs": "korgon",
+      "pos": "名",
+      "meaningJa": "胃、消化器、滋養受納処",
+      "meaningEn": "stomach, digestive organ",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 220,
+      "nrs": "kylar",
+      "pos": "名",
+      "meaningJa": "病、乱調、軌道乱れ",
+      "meaningEn": "illness, disease",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 221,
+      "nrs": "kylat",
+      "pos": "名",
+      "meaningJa": "疲労、消耗、エネルギー枯渇",
+      "meaningEn": "fatigue, weariness, drain",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 222,
+      "nrs": "tymis",
+      "pos": "名/動",
+      "meaningJa": "眠り、睡眠、休眠する",
+      "meaningEn": "sleep, rest",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 223,
+      "nrs": "tymisar",
+      "pos": "名",
+      "meaningJa": "安息所、病床、療養室",
+      "meaningEn": "infirmary, recovery ward, hospice",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 224,
+      "nrs": "tymisis",
+      "pos": "名",
+      "meaningJa": "居眠り、うたた寝、小休止",
+      "meaningEn": "nap, doze, catnap",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 225,
+      "nrs": "larin",
+      "pos": "名",
+      "meaningJa": "足、脚、歩行肢",
+      "meaningEn": "foot, leg",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 226,
+      "nrs": "larkul",
+      "pos": "名",
+      "meaningJa": "足首、くるぶし、歩行関節",
+      "meaningEn": "ankle, tarsus",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 227,
+      "nrs": "morcon",
+      "pos": "名",
+      "meaningJa": "骨折、組織断裂、生体損傷",
+      "meaningEn": "fracture, skeletal rupture, trauma",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 228,
+      "nrs": "mordin",
+      "pos": "名",
+      "meaningJa": "骨髄、造血組織、生命基底芯",
+      "meaningEn": "bone marrow, myeloid tissue, core marrow",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 229,
+      "nrs": "morpan",
+      "pos": "動",
+      "meaningJa": "麻痺する、感覚を失う、運動停止する",
+      "meaningEn": "paralyze, go numb, lose motor function",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 230,
+      "nrs": "morpar",
+      "pos": "名",
+      "meaningJa": "皮膚、表皮、外皮組織",
+      "meaningEn": "epidermis, cuticle, skin barrier",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 231,
+      "nrs": "morvin",
+      "pos": "名",
+      "meaningJa": "血管、動脈、静脈、血脈管",
+      "meaningEn": "blood vessel, artery, vascular channel",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 232,
+      "nrs": "morvyn",
+      "pos": "名",
+      "meaningJa": "軟骨、軟組織、緩衝肉",
+      "meaningEn": "cartilage, cushioning tissue",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 233,
+      "nrs": "myren",
+      "pos": "名",
+      "meaningJa": "人間、知性体、観測者",
+      "meaningEn": "human, sentient being",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 234,
+      "nrs": "nerzyv",
+      "pos": "名",
+      "meaningJa": "消化、滋養吸収、同化代謝",
+      "meaningEn": "digestion, assimilation, nutrient uptake",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 235,
+      "nrs": "noven",
+      "pos": "名",
+      "meaningJa": "頭、頭脳、中枢神経",
+      "meaningEn": "head, brain, intellect center",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 236,
+      "nrs": "revcon",
+      "pos": "名",
+      "meaningJa": "抗体、免疫防御因子、解毒素",
+      "meaningEn": "antibody, immune defense agent, antitoxin",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 237,
+      "nrs": "revir",
+      "pos": "動",
+      "meaningJa": "目覚める、覚醒する、回復する",
+      "meaningEn": "awake, recover",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 238,
+      "nrs": "revkor",
+      "pos": "名",
+      "meaningJa": "熱病、発熱、体温上昇症状",
+      "meaningEn": "fever, pyrexia, inflammatory heat",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 239,
+      "nrs": "revpan",
+      "pos": "動",
+      "meaningJa": "蘇生する、意識を取り戻す、息を吹き返す",
+      "meaningEn": "resuscitate, revive, regain consciousness",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 240,
+      "nrs": "revpar",
+      "pos": "名",
+      "meaningJa": "抗生物質、生体活性薬、滋養強壮薬",
+      "meaningEn": "antibiotic, vital tonic, therapeutic restorative",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 241,
+      "nrs": "revrin",
+      "pos": "名",
+      "meaningJa": "リンパ液、体液循環、組織間質液",
+      "meaningEn": "lymph, interstitial fluid, humors",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 242,
+      "nrs": "revsol",
+      "pos": "名",
+      "meaningJa": "代謝、生体恒常性、生命維持循環",
+      "meaningEn": "metabolism, homeostasis",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 243,
+      "nrs": "revtin",
+      "pos": "名",
+      "meaningJa": "脈診、触診、生体リズム診断",
+      "meaningEn": "pulse diagnosis, palpation, vital rhythm test",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 244,
+      "nrs": "revtis",
+      "pos": "名",
+      "meaningJa": "疲労、消耗、体力の衰え",
+      "meaningEn": "fatigue, weariness, exhaustion",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 245,
+      "nrs": "zelv",
+      "pos": "名",
+      "meaningJa": "手、掌、指",
+      "meaningEn": "hand, palm, fingers",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 246,
+      "nrs": "sercon",
+      "pos": "名",
+      "meaningJa": "鎮痛薬、麻酔、感覚遮断薬",
+      "meaningEn": "analgesic, painkiller, anesthetic sedative",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 247,
+      "nrs": "serdin",
+      "pos": "名",
+      "meaningJa": "反射、不随意運動、神経反射",
+      "meaningEn": "reflex, involuntary impulse",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 248,
+      "nrs": "serfal",
+      "pos": "名",
+      "meaningJa": "覚醒、目覚め、意識の再開",
+      "meaningEn": "awakening, vigil, waking state",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 249,
+      "nrs": "zelvjyt",
+      "pos": "名",
+      "meaningJa": "手首、関節、手の節点",
+      "meaningEn": "wrist, joint, articulate node",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 250,
+      "nrs": "serkin",
+      "pos": "名",
+      "meaningJa": "まどろみ、浅い眠り、仮眠",
+      "meaningEn": "doze, light slumber, nap",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 251,
+      "nrs": "serkym",
+      "pos": "名",
+      "meaningJa": "睡眠、安息、深い眠り",
+      "meaningEn": "sleep, slumber, rest cycle",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 252,
+      "nrs": "serpanan",
+      "pos": "動",
+      "meaningJa": "鎮静させる、眠らせる、痛みを和らげる",
+      "meaningEn": "soothe, tranquilize, alleviate pain",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 253,
+      "nrs": "teira",
+      "pos": "名",
+      "meaningJa": "心臓、胸の核、肉体の中心",
+      "meaningEn": "heart, core",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 254,
+      "nrs": "teiran",
+      "pos": "名",
+      "meaningJa": "遺伝子、螺旋設計図、生体素核",
+      "meaningEn": "gene, genome, life helix",
+      "category": "4. 生命・生体・医療"
+    },
+    {
+      "id": 321,
+      "nrs": "celar",
+      "pos": "名",
+      "meaningJa": "極光、オーロラ、天の天幕",
+      "meaningEn": "aurora, polar light",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 322,
+      "nrs": "celis",
+      "pos": "名",
+      "meaningJa": "雲、霧、霞",
+      "meaningEn": "cloud, mist, fog",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 323,
+      "nrs": "celkym",
+      "pos": "名",
+      "meaningJa": "雨雲、暗雲、低層雨雲",
+      "meaningEn": "rain cloud, nimbus, dark sky cloud",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 324,
+      "nrs": "celnyv",
+      "pos": "名",
+      "meaningJa": "薄霧、朝靄、山靄、蒸気靄",
+      "meaningEn": "haze, morning mist, blue vapor veil",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 325,
+      "nrs": "celran",
+      "pos": "名",
+      "meaningJa": "乱層雲、雨雲塊、濃密雷雲",
+      "meaningEn": "nimbostratus, dense thunderhead",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 326,
+      "nrs": "celtyr",
+      "pos": "名",
+      "meaningJa": "巻雲、すじ雲、高層氷晶雲",
+      "meaningEn": "cirrus cloud, ice feather cloud",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 327,
+      "nrs": "celvorin",
+      "pos": "名",
+      "meaningJa": "霧雨、小雨、微細な雨滴",
+      "meaningEn": "drizzle, fine rain, mizzle",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 328,
+      "nrs": "celvorv",
+      "pos": "名",
+      "meaningJa": "積乱雲、入道雲、雷雨積雲",
+      "meaningEn": "cumulonimbus, towering cloud anvil",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 329,
+      "nrs": "dar",
+      "pos": "名",
+      "meaningJa": "しずく、水滴、朝露",
+      "meaningEn": "droplet, dew",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 330,
+      "nrs": "darcon",
+      "pos": "名",
+      "meaningJa": "洪水、氾濫、大増水",
+      "meaningEn": "flood, inundation, deluge overflow",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 331,
+      "nrs": "darfal",
+      "pos": "名",
+      "meaningJa": "滝、瀑布、懸濁水流",
+      "meaningEn": "waterfall, cascade, cataract",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 332,
+      "nrs": "daris",
+      "pos": "名",
+      "meaningJa": "水、清流、淡水",
+      "meaningEn": "water, stream",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 333,
+      "nrs": "darlen",
+      "pos": "名",
+      "meaningJa": "雨、降雨",
+      "meaningEn": "rain, rainfall",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 334,
+      "nrs": "darlik",
+      "pos": "名",
+      "meaningJa": "地下水、伏流水、帯水層",
+      "meaningEn": "groundwater, subterranean stream",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 335,
+      "nrs": "darlor",
+      "pos": "名",
+      "meaningJa": "潮流、海流、水流",
+      "meaningEn": "ocean current, tidal flow",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 336,
+      "nrs": "darmar",
+      "pos": "名",
+      "meaningJa": "湿原、沼沢、水生植物の地",
+      "meaningEn": "marsh, swamp, bog, wetland",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 337,
+      "nrs": "darmon",
+      "pos": "名",
+      "meaningJa": "泉、湧水、水源",
+      "meaningEn": "spring, font",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 338,
+      "nrs": "darnyv",
+      "pos": "名",
+      "meaningJa": "朝露、夜露、草葉の露水",
+      "meaningEn": "morning dew, condensed night moisture",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 339,
+      "nrs": "daron",
+      "pos": "名",
+      "meaningJa": "湖、湖沼、静水面",
+      "meaningEn": "lake, pond",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 340,
+      "nrs": "darpal",
+      "pos": "名",
+      "meaningJa": "浅瀬、徒渉池、川の浅み",
+      "meaningEn": "ford, shallow river crossing, shoal",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 341,
+      "nrs": "darpanan",
+      "pos": "動",
+      "meaningJa": "氾濫する、溢れ出る、堤防を越える",
+      "meaningEn": "overflow banks, spill over, surge",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 342,
+      "nrs": "darpas",
+      "pos": "名",
+      "meaningJa": "引き潮、退潮、干潮",
+      "meaningEn": "ebb tide, low water, receding tide",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 343,
+      "nrs": "darpuk",
+      "pos": "名",
+      "meaningJa": "水たまり、窪みの水、雨水溜まり",
+      "meaningEn": "puddle, pool, standing water",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 344,
+      "nrs": "darrot",
+      "pos": "名",
+      "meaningJa": "波、波浪、水面のさざ波",
+      "meaningEn": "wave, ripple, billow",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 345,
+      "nrs": "darsik",
+      "pos": "名",
+      "meaningJa": "海峡、水路、海峡部",
+      "meaningEn": "strait, channel, sound",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 346,
+      "nrs": "darsolv",
+      "pos": "名",
+      "meaningJa": "清流、小川、せせらぎ、渓流",
+      "meaningEn": "brook, creek, babbling mountain rill",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 347,
+      "nrs": "darvor",
+      "pos": "名",
+      "meaningJa": "満ち潮、上げ潮、満潮",
+      "meaningEn": "flood tide, high water, rising tide",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 348,
+      "nrs": "darvorn",
+      "pos": "名",
+      "meaningJa": "渦潮、大渦、海流渦",
+      "meaningEn": "maelstrom, whirlpool, vortex eddy",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 349,
+      "nrs": "darvyr",
+      "pos": "名",
+      "meaningJa": "夜光海、夜光虫の光、海蛍の輝き",
+      "meaningEn": "phosphorescent sea, sea sparkle glow",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 350,
+      "nrs": "faldaris",
+      "pos": "名",
+      "meaningJa": "虹、天の彩橋、分光光弧",
+      "meaningEn": "rainbow, celestial prismatic arc",
+      "category": "6. 気象・大気・水域"
+    },
+    {
+      "id": 472,
+      "nrs": "calfen",
+      "pos": "名",
+      "meaningJa": "演説、スピーチ、呼びかけ、論述",
+      "meaningEn": "speech, address, proclamation",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 473,
+      "nrs": "calor",
+      "pos": "名",
+      "meaningJa": "評議会、会議、議会、対話の座",
+      "meaningEn": "council, parliament, forum",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 474,
+      "nrs": "calvir",
+      "pos": "名",
+      "meaningJa": "請願、議案、提言",
+      "meaningEn": "petition, bill, motion",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 475,
+      "nrs": "cynfin",
+      "pos": "名",
+      "meaningJa": "仲間、同僚、同朋、連帯者",
+      "meaningEn": "comrade, peer, associate",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 476,
+      "nrs": "cynmar",
+      "pos": "名",
+      "meaningJa": "扶助、相互扶助、福祉",
+      "meaningEn": "mutual aid, relief, welfare",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 477,
+      "nrs": "cynor",
+      "pos": "名",
+      "meaningJa": "親友、盟友、魂の伴走者",
+      "meaningEn": "confidant, sworn companion",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 478,
+      "nrs": "dankor",
+      "pos": "名",
+      "meaningJa": "市民、定住住民、共同体構成員",
+      "meaningEn": "citizen, burgher, resident freeman",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 479,
+      "nrs": "dankorv",
+      "pos": "名",
+      "meaningJa": "元首、執政官、都市代表長",
+      "meaningEn": "archon, high magistrate, consul",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 480,
+      "nrs": "dirin",
+      "pos": "名/形",
+      "meaningJa": "正義、公正、均衡、正しい",
+      "meaningEn": "justice, equity, righteous",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 481,
+      "nrs": "dolar",
+      "pos": "動",
+      "meaningJa": "働く、勤労する、奉仕する",
+      "meaningEn": "work, labor, serve",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 482,
+      "nrs": "dolinar",
+      "pos": "名",
+      "meaningJa": "工匠、技術者、鍛冶師",
+      "meaningEn": "master craftsman, engineer",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 483,
+      "nrs": "dolren",
+      "pos": "名",
+      "meaningJa": "給与、報酬、労賃、手当",
+      "meaningEn": "wage, salary, recompense",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 484,
+      "nrs": "dolvan",
+      "pos": "名",
+      "meaningJa": "産業、生産網、製造業",
+      "meaningEn": "industry, manufacture, production",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 485,
+      "nrs": "dolvis",
+      "pos": "名",
+      "meaningJa": "協同組合、ギルド、職人座",
+      "meaningEn": "guild, cooperative, artisan syndicate",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 486,
+      "nrs": "dolyk",
+      "pos": "名",
+      "meaningJa": "義務、責務、誓約の勤め",
+      "meaningEn": "duty, civic obligation",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 487,
+      "nrs": "domnyr",
+      "pos": "名",
+      "meaningJa": "代議員、評議員、人民代表",
+      "meaningEn": "deputy, tribune, representative delegate",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 488,
+      "nrs": "dompal",
+      "pos": "名",
+      "meaningJa": "街区、隣組、近隣共同体",
+      "meaningEn": "ward, neighborhood commune, parish",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 489,
+      "nrs": "domsen",
+      "pos": "名",
+      "meaningJa": "評議会、代議員会、合議機関",
+      "meaningEn": "senate, parliament, high assembly",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 490,
+      "nrs": "elyrat",
+      "pos": "名",
+      "meaningJa": "祭典、祝祭、星の祭り",
+      "meaningEn": "festival, celebration",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 491,
+      "nrs": "jylik",
+      "pos": "名",
+      "meaningJa": "条約文書、協定証書、公文書",
+      "meaningEn": "treaty document, signed charter",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 492,
+      "nrs": "jylkan",
+      "pos": "名",
+      "meaningJa": "条約、連邦約款、恒久同盟",
+      "meaningEn": "covenant, treaty, pact of union",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 493,
+      "nrs": "jylmar",
+      "pos": "名",
+      "meaningJa": "協力、協同作業、チームワーク",
+      "meaningEn": "cooperation, collaboration, team effort",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 494,
+      "nrs": "jylmor",
+      "pos": "名",
+      "meaningJa": "代表団、使節、使者協議団",
+      "meaningEn": "delegation, embassy, envoy mission",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 495,
+      "nrs": "jylot",
+      "pos": "名",
+      "meaningJa": "約束、契約、協定、盟約",
+      "meaningEn": "pact, covenant, contract",
+      "category": "9. 統治・社会・法・共同体"
+    },
+    {
+      "id": 542,
+      "nrs": "dolaran",
+      "pos": "動",
+      "meaningJa": "鍛造する、打刻する、精錬加工する",
+      "meaningEn": "forge, refine, craft with tool",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 543,
+      "nrs": "dolas",
+      "pos": "名",
+      "meaningJa": "鋳型、鋳型枠、金型",
+      "meaningEn": "mold, matrix, casting die",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 544,
+      "nrs": "dolkin",
+      "pos": "名",
+      "meaningJa": "やすり、研磨具、砥石",
+      "meaningEn": "file, rasp, whetstone abrasive",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 545,
+      "nrs": "dolnyr",
+      "pos": "名",
+      "meaningJa": "彫刻刀、鏨、金工たがね",
+      "meaningEn": "chisel, graver, repousse punch",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 546,
+      "nrs": "dolor",
+      "pos": "名",
+      "meaningJa": "労働者、職人、働き手",
+      "meaningEn": "worker, artisan",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 547,
+      "nrs": "dolpak",
+      "pos": "名",
+      "meaningJa": "金床、鉄敷、鍛冶台",
+      "meaningEn": "anvil, smithing block",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 548,
+      "nrs": "dolpanan",
+      "pos": "動",
+      "meaningJa": "鋳造する、型に流し込む、鋳型成型する",
+      "meaningEn": "cast, cast metal into mold, pour founding",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 549,
+      "nrs": "dolsarp",
+      "pos": "名",
+      "meaningJa": "坩堝、るつぼ、耐火溶解皿",
+      "meaningEn": "crucible, melting pot, refractory vessel",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 550,
+      "nrs": "dolsol",
+      "pos": "名",
+      "meaningJa": "鞴、ふいご、送風機",
+      "meaningEn": "bellows, blast-furnace air blower",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 551,
+      "nrs": "doltarv",
+      "pos": "名",
+      "meaningJa": "焼戻し油、焼入れ水槽、冷却槽",
+      "meaningEn": "quenching bath, tempering trough",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 552,
+      "nrs": "jylcor",
+      "pos": "名",
+      "meaningJa": "紡績糸、撚り糸、細糸",
+      "meaningEn": "spun yarn, spun thread, ply",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 553,
+      "nrs": "jyldan",
+      "pos": "名",
+      "meaningJa": "機織り機、織機",
+      "meaningEn": "weaving loom, textile frame",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 554,
+      "nrs": "jylnyr",
+      "pos": "名",
+      "meaningJa": "紡錘、糸巻き棒、スピンドル",
+      "meaningEn": "spindle, distaff, bobbin whorl",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 555,
+      "nrs": "jylpan",
+      "pos": "動",
+      "meaningJa": "織る、編む、交差結節する",
+      "meaningEn": "weave, braid, intertwine",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 556,
+      "nrs": "jylparv",
+      "pos": "名",
+      "meaningJa": "染料、天然草木染め液、染色槽",
+      "meaningEn": "dye, natural vat tint, mordant liquid",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 557,
+      "nrs": "jylzaran",
+      "pos": "名",
+      "meaningJa": "織物商、反物座、布地問屋",
+      "meaningEn": "draper guild, textile factor, cloth merchant",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 558,
+      "nrs": "kirasen",
+      "pos": "動",
+      "meaningJa": "修理する、直す、修繕する",
+      "meaningEn": "repair, mend, fix",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 559,
+      "nrs": "kortan",
+      "pos": "動",
+      "meaningJa": "切断する、裁つ、分かつ",
+      "meaningEn": "sever, slice, cleave",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 560,
+      "nrs": "marcor",
+      "pos": "名",
+      "meaningJa": "商船、交易貨物船、運搬艇",
+      "meaningEn": "merchant vessel, cargo barge",
+      "category": "10. 経済・交易・工芸・労働"
+    },
+    {
+      "id": 561,
+      "nrs": "mardin",
+      "pos": "名",
+      "meaningJa": "元金、元本、投資資本",
+      "meaningEn": "principal, capital sum, stake",
+      "category": "10. 経済・交易・工芸・労働"
+    }
+  ]
+}

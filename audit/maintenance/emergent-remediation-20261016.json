@@ -1,0 +1,11 @@
+{
+  "createdAt": "2026-10-16T10:04:57.323464+00:00",
+  "legacySnapshot": "audit/maintenance/emergent-ledger-before-remediation-20261016.json",
+  "legacySha256": "dae5da145ca16c227a0afe95e604be6a121d30a20dd68d3aaddc02944df415b5",
+  "withdrawnApprovals": 1020,
+  "promotedRoots": 0,
+  "regeneratedLearningEntries": 500,
+  "regeneratedNewRoots": 0,
+  "ledgerSha256": "a5dc9e80a8787fefd10a6f9ea83cbf7ee0df6c28245e6ad0295f4236ffe32e1e",
+  "learningSha256": "2aa51a6968dbc6cfd2fc017cf8af657087d68c82b648d86e4680171232968a59"
+}

@@ -1,0 +1,2 @@
+# Treat generated books as binary artifacts.
+*.pdf binary

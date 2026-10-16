@@ -1,0 +1,33 @@
+{
+  "canonicalRoots": 1008,
+  "indexedWords": 1463,
+  "learningEntries": 500,
+  "corpusUnits": 30,
+  "emergentPromoted": 0,
+  "title": "ヴァルネス遺聞",
+  "literaryUsages": 1463,
+  "works": 4,
+  "excluded": "All 1020 held emergent candidates; existing extension usages are literary only",
+  "sha256": {
+    "docs/Valnes_Ibun.html": "c23009db1a1af378698f558c8f6b4dd770e3ba4e73ac5a6fac6bf18013170fe2",
+    "docs/Valnes_Ibun.pdf": "ba5510e2e576c7cce82678843ec63b10b13b8da46515ba0cbb2a714683406d11",
+    "docs/Codex_Astrolith_Canon_Scripture.pdf": "ba5510e2e576c7cce82678843ec63b10b13b8da46515ba0cbb2a714683406d11",
+    "data/literary_sourcebook.json": "a1d0c6663d87ac5fe979339dbb9d36e51ae4afa395334b66457b3f68dfb7c96a",
+    "data/everyday_vocabulary_review.json": "2aa51a6968dbc6cfd2fc017cf8af657087d68c82b648d86e4680171232968a59",
+    "data/canon_corpus.json": "8801299d054f45aa26232658c354e30e04690e6be11bc9332e181769daa1a898",
+    "data/lexicon.json": "08622ffa7c4b6ec2d9fd4fb7f2bb27cdb473a2b990b58edb5457161deb5473bd",
+    "data/translation_extensions.json": "f52b5876690c1f8a42794dbdc4094216d16ba3d3e9372de17980209333b0c833",
+    "data/grammar_dictionary.json": "b008b1d98a1212353d33367fd153f6beb9eddc7d45aaf9c6d16ad8befef3987d",
+    "data/corpus_rules.json": "c3353dc0cd1b0f22e599aac127921d917ff10b77865b288464476b61ab9d444a",
+    "tools/literary_sourcebook.py": "6d0732bf352aec9994b62e5db26e6936cbc72ea45eb121c46df59fb329488fff",
+    "tools/literary_layout.py": "8b195b7e865de9ae7219a209831e866be50c274397c6581f981e3fe308463e53",
+    "tools/build_reviewed_codex.py": "5424337064ada0793093fe98f91ea9d59482e457ca3666c5731e8895ac71019c",
+    "docs/NEBULITH_CANON_LORE_AND_EXPEDITIONS.md": "72f008a9313a2e8fa4a83f5c9253933a68f1e3f9f6280e111d98eb422c16eb53",
+    "docs/Valnes_saltwind.html": "bc6ca237783183a17fe290163d7422f3ff181ba08e1675910851486c57e37e99",
+    "docs/Valnes_saltwind.pdf": "542dfe3c747ef62fafc2edd04d0900115166c8061de32401ffcefee3f37ca94f",
+    "docs/Valnes_glasswell.html": "76e193adaf2e3801539fde0622674bfe1d3157b911cadae7ccdafcc94a820e51",
+    "docs/Valnes_glasswell.pdf": "07d11aa163d939107d0ba9cdd34d52db8a7490d003b3ff840c302638c674c122",
+    "docs/Valnes_lamptable.html": "98b0fc32a5d3517e7fb93e6ab6ed7fb41186e2982bbdafc2c92575349fcf4019",
+    "docs/Valnes_lamptable.pdf": "23f363f3d913932ec26eb43e0436e494e1372e483fe14b550d715ce1c5306234"
+  }
+}

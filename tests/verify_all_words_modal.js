@@ -2,7 +2,7 @@ const fs = require('fs');
 const vm = require('vm');
 const assert = require('node:assert/strict');
 
-console.log('=== Verifying 100% All Words Modal Inspector & Audit Details ===\n');
+console.log('=== Verifying Simple Dictionary Details and Sourced Examples ===\n');
 
 const localStorage = {
   store: {},
@@ -81,6 +81,10 @@ for (let i = 0; i < vocab.length; i++) {
   const w = vocab[i];
   context.openWordModal(w.r);
 
+  assert.equal(dom.modalLiteraryField.style.display,'block');
+  assert.ok(dom.modalLiteraryQuote.textContent.includes(w.r));
+  assert.ok(dom.modalLiterarySource.innerHTML.includes('VL-'));
+
   // Check Kana
   if (!dom.modalKana.textContent || dom.modalKana.textContent.trim() === '') {
     missingKana++;
@@ -101,10 +105,10 @@ for (let i = 0; i < vocab.length; i++) {
     missingForms++;
   }
 
-  // Check Examples (must be visible and have example cards)
-  if (dom.modalExamplesField.style.display !== 'block' || !dom.modalExamplesList.innerHTML.includes('modal-example-card')) {
-    missingExamples++;
-  }
+  const expected=vm.runInContext(`getWordCorpusExamples(${JSON.stringify(w.r)},VOCAB.find(w=>w.r===${JSON.stringify(w.r)}))`,context);
+  assert.equal(dom.modalExamplesField.style.display,expected.length?'block':'none');
+  if (!expected.length) missingExamples++;
+
 }
 
 console.log(`\nAudit Results across ${vocab.length} words:`);
@@ -112,43 +116,14 @@ console.log(`- Missing Kana Pronunciation: ${missingKana} (Target: 0)`);
 console.log(`- Missing Phonetics Guide: ${missingPronGuide} (Target: 0)`);
 console.log(`- Missing Syntax Role: ${missingSyntaxRole} (Target: 0)`);
 console.log(`- Missing Conjugations / Forms: ${missingForms} (Target: 0)`);
-console.log(`- Missing Exemplary Usages: ${missingExamples} (Target: 0)`);
+console.log(`- Missing Exemplary Usages: ${missingExamples} (expected for words without sourced examples)`);
 
 assert.equal(missingKana, 0, 'Every word must have katakana pronunciation guide');
 assert.equal(missingPronGuide, 0, 'Every word must have phonetics guide');
 assert.equal(missingSyntaxRole, 0, 'Every word must have syntax role description');
 assert.equal(missingForms, 0, 'Every word must have forms / conjugations / syntax chips');
-assert.equal(missingExamples, 0, 'Every word must have 100% guaranteed contextual / exemplary usages');
+assert.ok(missingExamples>0,'Do not invent examples to fill missing coverage');
+assert.ok(!fs.readFileSync('web/index.html','utf8').includes('modalAuditBadge'));
+assert.ok(!fs.readFileSync('web/index.html','utf8').includes('modalProvenance'));
 
-console.log('\n--- Sample Check 1: Noun celen (#1) ---');
-context.openWordModal('celen');
-console.log('Kana:', dom.modalKana.textContent);
-console.log('PronGuide:', dom.modalPronGuide.textContent);
-console.log('SyntaxRole:', dom.modalSyntaxRole.textContent);
-console.log('AuditBadge:', dom.modalAuditBadge.textContent);
-console.log('Forms count:', (dom.modalFormsList.innerHTML.match(/modal-form-chip/g) || []).length);
-console.log('Examples count:', (dom.modalExamplesList.innerHTML.match(/modal-example-card/g) || []).length);
-
-console.log('\n--- Sample Check 2: Particle / Grammar Marker el (#30001) ---');
-context.openWordModal('el');
-console.log('Kana:', dom.modalKana.textContent);
-console.log('PronGuide:', dom.modalPronGuide.textContent);
-console.log('SyntaxRole:', dom.modalSyntaxRole.textContent);
-console.log('AuditBadge:', dom.modalAuditBadge.textContent);
-console.log('Forms count:', (dom.modalFormsList.innerHTML.match(/modal-form-chip/g) || []).length);
-console.log('Examples count:', (dom.modalExamplesList.innerHTML.match(/modal-example-card/g) || []).length);
-
-console.log('\n--- Sample Check 3: Curated Extension Word (#20000 range) ---');
-const extWord = vocab.find(w => w.o === 'curated_ext');
-if (extWord) {
-  context.openWordModal(extWord.r);
-  console.log('Word:', extWord.r);
-  console.log('Kana:', dom.modalKana.textContent);
-  console.log('PronGuide:', dom.modalPronGuide.textContent);
-  console.log('SyntaxRole:', dom.modalSyntaxRole.textContent);
-  console.log('AuditBadge:', dom.modalAuditBadge.textContent);
-  console.log('Forms count:', (dom.modalFormsList.innerHTML.match(/modal-form-chip/g) || []).length);
-  console.log('Examples count:', (dom.modalExamplesList.innerHTML.match(/modal-example-card/g) || []).length);
-}
-
-console.log('\n=== ALL 1,463 WORDS MODAL ENRICHMENT AUDIT PASSED 100%! ===\n');
+console.log('PASS: all word modals open; source-backed examples only; audit/provenance badges removed');

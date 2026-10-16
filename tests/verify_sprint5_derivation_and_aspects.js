@@ -146,49 +146,14 @@ console.log('--- 1. Aspect Engine (-far / -liv) ---');
   console.log('PASS: 「私は歩き続けない。」 -> ' + res.text + ' (ne- + -liv)');
 }
 
-// 2. 形態論派生と単語フォーム生成（Word Inspector Derivation Engine）
-console.log('\n--- 2. Morphological Derivation in Word Inspector ---');
-{
-  // 動詞の派生形テスト（poran: 歩く）
-  const forms = context.getWordForms({ r: 'poran', p: '動' });
-  const formLabels = forms.map(f => f.label);
-  const formNebs = forms.map(f => f.neb);
-  
-  assert.ok(formLabels.includes('完了相 (-far)'), 'Must include -far');
-  assert.ok(formLabels.includes('継続維持相 (-liv)'), 'Must include -liv');
-  assert.ok(formLabels.includes('派生名詞・抽象化 (-as)'), 'Must include -as');
-  assert.ok(formLabels.includes('派生行為者 (-or)'), 'Must include -or');
-  assert.ok(formLabels.includes('派生空間・施設 (-om)'), 'Must include -om');
-  assert.ok(formLabels.includes('派生器具・装置 (-ik)'), 'Must include -ik');
-
-  assert.ok(formNebs.includes('poranfar'));
-  assert.ok(formNebs.includes('poranliv'));
-  assert.ok(formNebs.includes('poranas'));
-  assert.ok(formNebs.includes('poranor'));
-  assert.ok(formNebs.includes('poranom'));
-  assert.ok(formNebs.includes('poranik'));
-  console.log('PASS: 動詞 poran からの 6大派生接尾辞 (-far, -liv, -as, -or, -om, -ik) の自動生成を確認');
+// 2. The simplified modal exposes only base / past / negative forms.
+// Productive aspects are still checked independently against the translation engine above.
+for(const word of [{r:'poran',p:'動'},{r:'fal',p:'形'},{r:'vyr',p:'名'}]) {
+  const forms=context.getWordForms(word);
+  const actual=Array.from(forms,f=>f.neb);
+  assert.deepEqual(actual,word.p==='動'?['poran','fe poran','ne poran']:[word.r]);
 }
-
-{
-  // 形容詞の派生形テスト（fal: 輝かしい）
-  const forms = context.getWordForms({ r: 'fal', p: '形' });
-  const formNebs = forms.map(f => f.neb);
-  assert.ok(formNebs.includes('celfal'), 'Must include superlative cel-');
-  assert.ok(formNebs.includes('falas'), 'Must include abstract -as');
-  assert.ok(formNebs.includes('falin'), 'Must include adverbial -in');
-  console.log('PASS: 形容詞 fal からの派生形 (celfal, falas, falin) の生成を確認');
-}
-
-{
-  // 名詞の派生形テスト（vyr: 星）
-  const forms = context.getWordForms({ r: 'vyr', p: '名' });
-  const formNebs = forms.map(f => f.neb);
-  assert.ok(formNebs.includes('vyriin'), 'Must include plural -iin');
-  assert.ok(formNebs.includes('vyrik'), 'Must include adjectival -ik');
-  assert.ok(formNebs.includes('vyrom'), 'Must include collective -om');
-  console.log('PASS: 名詞 vyr からの派生形 (vyriin, vyrik, vyrom) の生成を確認');
-}
+console.log('PASS: simplified word forms do not invent derivations; aspect engine checks remain active');
 
 // 3. 語彙規模と衝突検証（Zero Collisions & Scale: 1,350+ entries）
 console.log('\n--- 3. Lexical Scale & Extended Categories ---');

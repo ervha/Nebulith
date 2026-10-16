@@ -1132,7 +1132,6 @@
           <h2 id="modalRoman" style="font-size: 1.6rem; font-weight: 700; color: var(--md-sys-color-primary); letter-spacing: 0.02em;">celen</h2>
           <span id="modalKana" class="badge-chip" style="background: rgba(138, 180, 248, 0.12); color: var(--md-sys-color-primary); font-weight: 500;">シェレン</span>
           <span id="modalPos" class="badge-chip">名詞</span>
-          <span id="modalId" style="font-size: 0.75rem; color: var(--md-sys-color-outline);">#1</span>
         </div>
         <button class="tool-btn" id="modalFavToggle">お気に入りに追加</button>
       </div>
@@ -1158,27 +1157,27 @@
         <div id="modalPronGuide" style="font-size: 0.88rem; color: var(--md-sys-color-on-surface); margin-top: 4px;">c=[ʃ]（シャ行音）。母音eは明瞭に発音。</div>
       </div>
 
-      <!-- Provenance, Audit & Syntax Section -->
-      <div class="modal-field" style="margin-bottom: 14px;">
-        <div class="modal-label">語彙区分・監査検証・構文機能</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 6px;">
-          <span id="modalProvenance" class="badge-chip" style="font-size: 0.78rem;">公式正本語彙</span>
-          <span id="modalAuditBadge" class="badge-chip" style="font-size: 0.78rem; background: rgba(52, 168, 83, 0.15); color: #34a853; border-color: rgba(52, 168, 83, 0.3);">全1,463語衝突ゼロ監査済</span>
-          <span id="modalSyntaxRole" class="badge-chip" style="font-size: 0.78rem; background: rgba(242, 153, 74, 0.12); color: #f2994a; border-color: rgba(242, 153, 74, 0.3);">主語・目的語</span>
-        </div>
-        <div class="modal-val" id="modalNotes" style="font-size: 0.88rem; line-height: 1.5; color: var(--md-sys-color-on-surface-variant);">天蓋</div>
+      <div class="modal-field" id="modalNotesField" style="margin-bottom: 14px;">
+        <div class="modal-label">使い方・補足</div>
+        <div class="modal-val" id="modalNotes" style="font-size: 0.88rem; line-height: 1.5; color: var(--md-sys-color-on-surface-variant);"></div>
       </div>
 
       <!-- Enhanced: Forms Section -->
       <div class="modal-field" id="modalFormsField" style="display: none;">
-        <div class="modal-label">主な活用形・構文表現 (Conjugations & Modals) <span style="font-size:0.72rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックでコピー)</span></div>
+        <div class="modal-label">主な形 <span style="font-size:0.72rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックでコピー)</span></div>
         <div class="modal-val" id="modalFormsList" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;"></div>
       </div>
 
       <!-- Enhanced: Contextual Examples Section -->
       <div class="modal-field" id="modalExamplesField" style="display: none;">
-        <div class="modal-label">共起例文・標準用例 (Contextual Examples) <span style="font-size:0.75rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックで翻訳ボックスへ入力)</span></div>
+        <div class="modal-label">例文 <span style="font-size:0.75rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックで翻訳ボックスへ入力)</span></div>
         <div class="modal-val" id="modalExamplesList" style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;"></div>
+      </div>
+
+      <div class="modal-field" id="modalLiteraryField" style="display:none;">
+        <div class="modal-label">物語の中で <span style="font-size:0.72rem;font-weight:normal;">日本語の物語用例</span></div>
+        <p id="modalLiteraryQuote" style="line-height:1.9;margin:8px 0;"></p>
+        <div id="modalLiterarySource" style="font-size:0.78rem;color:var(--md-sys-color-outline);"></div>
       </div>
 
       <div style="display: flex; gap: 10px; margin-top: 24px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px;">

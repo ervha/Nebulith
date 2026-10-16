@@ -28,3 +28,6 @@ Thumbs.db
 scratch/
 *.tmp
 *.bak
+
+# PDF render inspection images
+tmp/pdfs/

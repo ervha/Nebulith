@@ -63,6 +63,17 @@ def build_web_studio():
     with open(os.path.join(web_dir,'incremental.js'),encoding='utf-8') as f:
         incremental_js=f.read()
 
+    from literary_sourcebook import source_hash
+    literary_path=Path(base_dir)/'data/literary_sourcebook.json'
+    literary=json.loads(literary_path.read_text(encoding='utf-8'))
+    literary_entries={row['root']:row for row in literary['entries']}
+    for row in vocab:
+        if row['nrs'] not in literary_entries or literary_entries[row['nrs']]['sourceHash']!=source_hash(row):
+            raise ValueError('Rebuild/review literary source edition before Web bundle: '+row['nrs'])
+    literary_bundle={'title':literary['title'],'works':{w['id']:w['title'] for w in literary['works']},
+        'entries':{r['root']:{k:r[k] for k in ['id','work','chapter','chapterTitle','quote','anchor']} for r in literary['entries']}}
+    (Path(web_dir)/'library.html').write_bytes((Path(base_dir)/'docs/Valnes_Ibun.html').read_bytes())
+
     compact_vocab = []
     for w in vocab:
         wid = w.get('id', 0)
@@ -87,6 +98,7 @@ def build_web_studio():
     data_js_content = f"""// Nebulith Studio Web - Embedded Data Bundle
 const VOCAB = {json.dumps(compact_vocab, ensure_ascii=False)};
 const CANON = {json.dumps(canon_examples, ensure_ascii=False)};
+const LITERARY_BOOK = {json.dumps(literary_bundle, ensure_ascii=False)};
 const INPUT_RULES = {json.dumps(input_rules, ensure_ascii=False)};
 const GRAMMAR_FRAMES = {json.dumps(grammar_frames, ensure_ascii=False)};
 const TRANSLATION_EXTENSIONS = {json.dumps(translation_extensions, ensure_ascii=False)};
@@ -1234,7 +1246,6 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
           <h2 id="modalRoman" style="font-size: 1.6rem; font-weight: 700; color: var(--md-sys-color-primary); letter-spacing: 0.02em;">celen</h2>
           <span id="modalKana" class="badge-chip" style="background: rgba(138, 180, 248, 0.12); color: var(--md-sys-color-primary); font-weight: 500;">シェレン</span>
           <span id="modalPos" class="badge-chip">名詞</span>
-          <span id="modalId" style="font-size: 0.75rem; color: var(--md-sys-color-outline);">#1</span>
         </div>
         <button class="tool-btn" id="modalFavToggle">お気に入りに追加</button>
       </div>
@@ -1260,27 +1271,27 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
         <div id="modalPronGuide" style="font-size: 0.88rem; color: var(--md-sys-color-on-surface); margin-top: 4px;">c=[ʃ]（シャ行音）。母音eは明瞭に発音。</div>
       </div>
 
-      <!-- Provenance, Audit & Syntax Section -->
-      <div class="modal-field" style="margin-bottom: 14px;">
-        <div class="modal-label">語彙区分・監査検証・構文機能</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 6px;">
-          <span id="modalProvenance" class="badge-chip" style="font-size: 0.78rem;">公式正本語彙</span>
-          <span id="modalAuditBadge" class="badge-chip" style="font-size: 0.78rem; background: rgba(52, 168, 83, 0.15); color: #34a853; border-color: rgba(52, 168, 83, 0.3);">全1,463語衝突ゼロ監査済</span>
-          <span id="modalSyntaxRole" class="badge-chip" style="font-size: 0.78rem; background: rgba(242, 153, 74, 0.12); color: #f2994a; border-color: rgba(242, 153, 74, 0.3);">主語・目的語</span>
-        </div>
-        <div class="modal-val" id="modalNotes" style="font-size: 0.88rem; line-height: 1.5; color: var(--md-sys-color-on-surface-variant);">天蓋</div>
+      <div class="modal-field" id="modalNotesField" style="margin-bottom: 14px;">
+        <div class="modal-label">使い方・補足</div>
+        <div class="modal-val" id="modalNotes" style="font-size: 0.88rem; line-height: 1.5; color: var(--md-sys-color-on-surface-variant);"></div>
       </div>
 
       <!-- Enhanced: Forms Section -->
       <div class="modal-field" id="modalFormsField" style="display: none;">
-        <div class="modal-label">主な活用形・構文表現 (Conjugations & Modals) <span style="font-size:0.72rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックでコピー)</span></div>
+        <div class="modal-label">主な形 <span style="font-size:0.72rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックでコピー)</span></div>
         <div class="modal-val" id="modalFormsList" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;"></div>
       </div>
 
       <!-- Enhanced: Contextual Examples Section -->
       <div class="modal-field" id="modalExamplesField" style="display: none;">
-        <div class="modal-label">共起例文・標準用例 (Contextual Examples) <span style="font-size:0.75rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックで翻訳ボックスへ入力)</span></div>
+        <div class="modal-label">例文 <span style="font-size:0.75rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックで翻訳ボックスへ入力)</span></div>
         <div class="modal-val" id="modalExamplesList" style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;"></div>
+      </div>
+
+      <div class="modal-field" id="modalLiteraryField" style="display:none;">
+        <div class="modal-label">物語の中で <span style="font-size:0.72rem;font-weight:normal;">日本語の物語用例</span></div>
+        <p id="modalLiteraryQuote" style="line-height:1.9;margin:8px 0;"></p>
+        <div id="modalLiterarySource" style="font-size:0.78rem;color:var(--md-sys-color-outline);"></div>
       </div>
 
       <div style="display: flex; gap: 10px; margin-top: 24px; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px;">
@@ -1347,7 +1358,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
         f.write(standalone_html)
 
     files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'data/lexicon.json',
-             'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
+             'data/literary_sourcebook.json', 'data/lexicon_canonical_loci.json', 'docs/Valnes_Ibun.html', 'web/library.html', 'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
              'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
              'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/bidirectional.js', 'web/incremental.js', 'web/data.js',
              'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/service-worker.js', 'web/icon.svg', 'web/favicon.svg']

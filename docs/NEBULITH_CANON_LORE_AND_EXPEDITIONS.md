@@ -1,817 +1,6706 @@
-# 星辰創世聖典・観測年代録（Codex Astrolith: Annales Caelestes）
-
-> **Nebulith 言語 正本原本・全語彙典拠聖典**  
-> 総収録語根数: 1463 語根 | 網羅率: 100% | 監査検証完了
+# ヴァルネス遺聞 — 灰環の灯を継ぐ者たち
 
----
-
-## 1. 聖典解題（Exegesis & Origins）
+本書は物語用例の編集原本。日本語の物語へNebulithの語を織り込む。歴史的語源やNRS全文の文法承認を意味しない。既存拡張語の審査状態は変更しない。
 
-人工言語 **Nebulith** において、単語は無味乾燥な記号ではなく、宇宙の創生・星辰運行・地上の生命の営みを記録した年代記『**Codex Astrolith**』の詩節から抽出された「生きた言の葉」です。
-
-本書は、公式正本語彙（Canon #1〜#1008）、体系拡張語彙（#20001〜#20372）、および文法小詞・格標識群（#30001〜）の**全1,463語根すべてを活用**し、物語式の叙事詩として編纂した原本です。今後生成される新単語も自律的に追補篇へと追加され、永遠に物語が拡充し続けます。
-
----
-
-## 2. 創世と観測の叙事詩（The Cantos of Creation）
+## 灰環の灯を継ぐ者たち
 
-### 第I篇：創世の黎明・天蓋と星核
-*Canto I: Genesis Caelestis et Astra Primeva* （収録語彙: 80 語）
-
-#### § 1. Celen el celkop, uo celen tor kyrim.
-- **日本語訳**: 〔第1節〕 空が頂を照らし、天蓋と深淵のあわいに立ち現れる。(celen（空）, celkop（頂）, celmon（星間分子雲）, celvan（天球）, celzyl（青空）, corval（連星系の重心）)
-- **英語対訳**: Verse 1: The essence of celen and celkop manifests under the celestial dome. (celen (sky), celkop (crest), celmon (giant molecular cloud), celvan (celestial sphere), celzyl (blue sky scattering), corval (barycenter))
-- **主要典拠語根**: `celen`, `celkop`, `celmon`, `celvan`, `celzyl`, `corval`
-
-#### § 2. Falmirin el falos, uo celen tor kyrim.
-- **日本語訳**: 〔第2節〕 分光偏光が分光を照らし、天蓋と深淵のあわいに立ち現れる。(falmirin（分光偏光）, falos（分光）, falret（反射）, falun（光）, falvyn（薄光）, falyt（流星）)
-- **英語対訳**: Verse 2: The essence of falmirin and falos manifests under the celestial dome. (falmirin (spectropolarimetry), falos (spectrum), falret (reflection), falun (light), falvyn (zodiacal light), falyt (meteor))
-- **主要典拠語根**: `falmirin`, `falos`, `falret`, `falun`, `falvyn`, `falyt`
-
-#### § 3. Kymos el kymryn, uo celen tor kyrim.
-- **日本語訳**: 〔第3節〕 日食が暗黒物質を照らし、天蓋と深淵のあわいに立ち現れる。(kymos（日食）, kymryn（暗黒物質）, kymtul（半影）, kymzon（事象の地平面）, kyrim（深淵）, kyrom（銀河団）)
-- **英語対訳**: Verse 3: The essence of kymos and kymryn manifests under the celestial dome. (kymos (eclipse), kymryn (dark matter), kymtul (penumbra), kymzon (event horizon boundary), kyrim (deep space), kyrom (galaxy cluster))
-- **主要典拠語根**: `kymos`, `kymryn`, `kymtul`, `kymzon`, `kyrim`, `kyrom`
-
-#### § 4. Kyrven el neburil, uo celen tor kyrim.
-- **日本語訳**: 〔第4節〕 星雲が原生惑星系円盤を照らし、天蓋と深淵のあわいに立ち現れる。(kyrven（星雲）, neburil（原生惑星系円盤）, nerisro（近日点）, novar（天頂）, poryk（距離）, radcon（脱出速度）)
-- **英語対訳**: Verse 4: The essence of kyrven and neburil manifests under the celestial dome. (kyrven (nebula), neburil (protoplanetary disk), nerisro (perihelion), novar (zenith), poryk (distance), radcon (escape velocity))
-- **主要典拠語根**: `kyrven`, `neburil`, `nerisro`, `novar`, `poryk`, `radcon`
-
-#### § 5. Tynes el tyral, uo celen tor kyrim.
-- **日本語訳**: 〔第5節〕 月が引力を照らし、天蓋と深淵のあわいに立ち現れる。(tynes（月）, tyral（引力）, tyrcon（引力崩壊）, tyrfos（連星系の重心）, tyril（潮汐力）, valkir（影）)
-- **英語対訳**: Verse 5: The essence of tynes and tyral manifests under the celestial dome. (tynes (moon), tyral (gravity), tyrcon (gravitational collapse), tyrfos (barycenter), tyril (tidal force), valkir (shadow))
-- **主要典拠語根**: `tynes`, `tyral`, `tyrcon`, `tyrfos`, `tyril`, `valkir`
-
-#### § 6. Vortas el vyr, uo celen tor kyrim.
-- **日本語訳**: 〔第6節〕 測地線が星を照らし、天蓋と深淵のあわいに立ち現れる。(vortas（測地線）, vyr（星）, vyrelar（天文台）, vyrelel（天体望遠鏡）, vyrelis（星屑）, vyrelor（天文学者）)
-- **英語対訳**: Verse 6: The essence of vortas and vyr manifests under the celestial dome. (vortas (geodesic path), vyr (star), vyrelar (observatory), vyrelel (telescope), vyrelis (stardust), vyrelor (astronomer))
-- **主要典拠語根**: `vortas`, `vyr`, `vyrelar`, `vyrelel`, `vyrelis`, `vyrelor`
-
-#### § 7. Zohar el zoharik, uo celen tor kyrim.
-- **日本語訳**: 〔第7節〕 太陽が太陽黒点を照らし、天蓋と深淵のあわいに立ち現れる。(zohar（太陽）, zoharik（太陽黒点）, zoharil（恒星風）, zoharmon（白夜）, zoharom（コロナ）, zoharpar（プロミネンス）)
-- **英語対訳**: Verse 7: The essence of zohar and zoharik manifests under the celestial dome. (zohar (sun), zoharik (sunspot), zoharil (stellar wind), zoharmon (midnight sun), zoharom (stellar corona), zoharpar (solar prominence))
-- **主要典拠語根**: `zohar`, `zoharik`, `zoharil`, `zoharmon`, `zoharom`, `zoharpar`
-
-### 第II篇：気象・大気・大地・水晶の理
-*Canto II: Elementa Mundi, Aquae et Mineralia* （収録語彙: 129 語）
-
-#### § 1. Serkin el serkym, uo celen tor kyrim.
-- **日本語訳**: 〔第1節〕 まどろみが睡眠を照らし、天蓋と深淵のあわいに立ち現れる。(serkin（まどろみ）, serkym（睡眠）, serpanan（鎮静させる）, teira（心臓）, teiran（遺伝子）, teirap（心拍）)
-- **英語対訳**: Verse 1: The essence of serkin and serkym manifests under the celestial dome. (serkin (doze), serkym (sleep), serpanan (soothe), teira (heart), teiran (gene), teirap (pulse))
-- **主要典拠語根**: `serkin`, `serkym`, `serpanan`, `teira`, `teiran`, `teirap`
-
-#### § 2. Vylmir el vyltin, uo celen tor kyrim.
-- **日本語訳**: 〔第2節〕 視力が眉を照らし、天蓋と深淵のあわいに立ち現れる。(vylmir（視力）, vyltin（眉）, wylat（鼻）, zyvan（治療する）, zyvas（健康）, zyvel（生命）)
-- **英語対訳**: Verse 2: The essence of vylmir and vyltin manifests under the celestial dome. (vylmir (eyesight), vyltin (eyebrow), wylat (nose), zyvan (heal), zyvas (health), zyvel (life))
-- **主要典拠語根**: `vylmir`, `vyltin`, `wylat`, `zyvan`, `zyvas`, `zyvel`
-
-#### § 3. Zyvten el novan, uo celen tor kyrim.
-- **日本語訳**: 〔第3節〕 代謝が山を照らし、天蓋と深淵のあわいに立ち現れる。(zyvten（代謝）, novan（山）, pyrtal（火山）, tal（大地）, taldar（泥）, taldol（鉄鉱石）)
-- **英語対訳**: Verse 3: The essence of zyvten and novan manifests under the celestial dome. (zyvten (metabolism), novan (mountain), pyrtal (volcano), tal (earth), taldar (mud), taldol (iron ore))
-- **主要典拠語根**: `zyvten`, `novan`, `pyrtal`, `tal`, `taldar`, `taldol`
-
-#### § 4. Talyrar el taljyn, uo celen tor kyrim.
-- **日本語訳**: 〔第4節〕 採石場が磁鉄鉱を照らし、天蓋と深淵のあわいに立ち現れる。(talyrar（採石場）, taljyn（磁鉄鉱）, taljynar（磁気異常地帯）, talkanorv（露頭）, talkrot（地震）, talmor（丘）)
-- **英語対訳**: Verse 4: The essence of talyrar and taljyn manifests under the celestial dome. (talyrar (quarry), taljyn (magnetite), taljynar (magnetic anomaly zone), talkanorv (outcrop), talkrot (earthquake), talmor (hill))
-- **主要典拠語根**: `talyrar`, `taljyn`, `taljynar`, `talkanorv`, `talkrot`, `talmor`
-
-#### § 5. Talpan el talparv, uo celen tor kyrim.
-- **日本語訳**: 〔第5節〕 崩落するが砂利河原を照らし、天蓋と深淵のあわいに立ち現れる。(talpan（崩落する）, talparv（砂利河原）, talpen（地層）, talpyrcon（カルデラ）, talpyrven（溶岩）, talrim（砂漠）)
-- **英語対訳**: Verse 5: The essence of talpan and talparv manifests under the celestial dome. (talpan (cave in), talparv (gravel bed), talpen (stratum), talpyrcon (caldera), talpyrven (lava), talrim (desert))
-- **主要典拠語根**: `talpan`, `talparv`, `talpen`, `talpyrcon`, `talpyrven`, `talrim`
-
-#### § 6. Talsol el talsor, uo celen tor kyrim.
-- **日本語訳**: 〔第6節〕 玄武岩が盆地を照らし、天蓋と深淵のあわいに立ち現れる。(talsol（玄武岩）, talsor（盆地）, talsorn（珪岩）, talur（金属）, talvarp（硫黄鉱床）, talvelk（峡谷底）)
-- **英語対訳**: Verse 6: The essence of talsol and talsor manifests under the celestial dome. (talsol (basalt), talsor (basin), talsorn (quartzite), talur (metal), talvarp (solfatara), talvelk (gorge floor))
-- **主要典拠語根**: `talsol`, `talsor`, `talsorn`, `talur`, `talvarp`, `talvelk`
-
-#### § 7. Celis el celkym, uo celen tor kyrim.
-- **日本語訳**: 〔第7節〕 雲が雨雲を照らし、天蓋と深淵のあわいに立ち現れる。(celis（雲）, celkym（雨雲）, celnyv（薄霧）, celran（乱層雲）, celtyr（巻雲）, celvorin（霧雨）)
-- **英語対訳**: Verse 7: The essence of celis and celkym manifests under the celestial dome. (celis (cloud), celkym (rain cloud), celnyv (haze), celran (nimbostratus), celtyr (cirrus cloud), celvorin (drizzle))
-- **主要典拠語根**: `celis`, `celkym`, `celnyv`, `celran`, `celtyr`, `celvorin`
-
-#### § 8. Darlik el darlor, uo celen tor kyrim.
-- **日本語訳**: 〔第8節〕 地下水が潮流を照らし、天蓋と深淵のあわいに立ち現れる。(darlik（地下水）, darlor（潮流）, darmar（湿原）, darmon（泉）, darnyv（朝露）, daron（湖）)
-- **英語対訳**: Verse 8: The essence of darlik and darlor manifests under the celestial dome. (darlik (groundwater), darlor (ocean current), darmar (marsh), darmon (spring), darnyv (morning dew), daron (lake))
-- **主要典拠語根**: `darlik`, `darlor`, `darmar`, `darmon`, `darnyv`, `daron`
-
-#### § 9. Darsolv el darvor, uo celen tor kyrim.
-- **日本語訳**: 〔第9節〕 清流が満ち潮を照らし、天蓋と深淵のあわいに立ち現れる。(darsolv（清流）, darvor（満ち潮）, darvorn（渦潮）, darvyr（夜光海）, faldaris（虹）, havas（季節）)
-- **英語対訳**: Verse 9: The essence of darsolv and darvor manifests under the celestial dome. (darsolv (brook), darvor (flood tide), darvorn (maelstrom), darvyr (phosphorescent sea), faldaris (rainbow), havas (season))
-- **主要典拠語根**: `darsolv`, `darvor`, `darvorn`, `darvyr`, `faldaris`, `havas`
-
-#### § 10. Kyrtam el kyrvon, uo celen tor kyrim.
-- **日本語訳**: 〔第10節〕 凍土が雹を照らし、天蓋と深淵のあわいに立ち現れる。(kyrtam（凍土）, kyrvon（雹）, kyrvyn（樹氷）, pyris（火）, pyrlom（火災）, velhav（春）)
-- **英語対訳**: Verse 10: The essence of kyrtam and kyrvon manifests under the celestial dome. (kyrtam (tundra), kyrvon (hail), kyrvyn (rime), pyris (fire), pyrlom (wildfire), velhav (spring))
-- **主要典拠語根**: `kyrtam`, `kyrvon`, `kyrvyn`, `pyris`, `pyrlom`, `velhav`
-
-#### § 11. Wylpar el wylrim, uo celen tor kyrim.
-- **日本語訳**: 〔第11節〕 突風が嵐を照らし、天蓋と深淵のあわいに立ち現れる。(wylpar（突風）, wylrim（嵐）, wylsar（海風）, wylsuk（すきま風）, wyltorv（竜巻）, wylven（つむじ風）)
-- **英語対訳**: Verse 11: The essence of wylpar and wylrim manifests under the celestial dome. (wylpar (gust), wylrim (storm), wylsar (sea breeze), wylsuk (draft), wyltorv (tornado), wylven (whirlwind))
-- **主要典拠語根**: `wylpar`, `wylrim`, `wylsar`, `wylsuk`, `wyltorv`, `wylven`
-
-### 第III篇：天文工学・幾何数理・観測儀
-*Canto III: Mechanica Siderum, Geometria et Instrumenta* （収録語彙: 114 語）
-
-#### § 1. Delcon el delis, uo celen tor kyrim.
-- **日本語訳**: 〔第1節〕 特異点が小数を照らし、天蓋と深淵のあわいに立ち現れる。(delcon（特異点）, delis（小数）, delrin（連続体）, dorkat（円錐曲線）, dorlik（楕円）, dorven（螺旋）)
-- **英語対訳**: Verse 1: The essence of delcon and delis manifests under the celestial dome. (delcon (singularity), delis (decimal), delrin (continuum), dorkat (conic section), dorlik (ellipse), dorven (spiral))
-- **主要典拠語根**: `delcon`, `delis`, `delrin`, `dorkat`, `dorlik`, `dorven`
-
-#### § 2. Jylkat el jylrin, uo celen tor kyrim.
-- **日本語訳**: 〔第2節〕 直和がトポロジーを照らし、天蓋と深淵のあわいに立ち現れる。(jylkat（直和）, jylrin（トポロジー）, jytel（ノード）, keldin（偏微分）, kelon（変数）, kelpon（勾配）)
-- **英語対訳**: Verse 2: The essence of jylkat and jylrin manifests under the celestial dome. (jylkat (direct sum), jylrin (topology), jytel (node), keldin (partial derivative), kelon (variable), kelpon (gradient))
-- **主要典拠語根**: `jylkat`, `jylrin`, `jytel`, `keldin`, `kelon`, `kelpon`
-
-#### § 3. Niftas el niftol, uo celen tor kyrim.
-- **日本語訳**: 〔第3節〕 公差が内積を照らし、天蓋と深淵のあわいに立ち現れる。(niftas（公差）, niftol（内積）, niven（次元）, novdin（上限）, polytar（多面体）, klor（円）)
-- **英語対訳**: Verse 3: The essence of niftas and niftol manifests under the celestial dome. (niftas (tolerance), niftol (dot product), niven (dimension), novdin (supremum), polytar (polyhedron), klor (circle))
-- **主要典拠語根**: `niftas`, `niftol`, `niven`, `novdin`, `polytar`, `klor`
-
-#### § 4. Suftol el suftur, uo celen tor kyrim.
-- **日本語訳**: 〔第4節〕 論理積が指数を照らし、天蓋と深淵のあわいに立ち現れる。(suftol（論理積）, suftur（指数）, talisum（定理）, talrin（接線）, tuldin（下限）, tulik（多角形）)
-- **英語対訳**: Verse 4: The essence of suftol and suftur manifests under the celestial dome. (suftol (conjunction), suftur (exponent), talisum (theorem), talrin (tangent line), tuldin (infimum), tulik (polygon))
-- **主要典拠語根**: `suftol`, `suftur`, `talisum`, `talrin`, `tuldin`, `tulik`
-
-#### § 5. Folin el jylom, uo celen tor kyrim.
-- **日本語訳**: 〔第5節〕 出力が集合を照らし、天蓋と深淵のあわいに立ち現れる。(folin（出力）, jylom（集合）, jylvat（グラフ構造）, jyn（電気）, jyncon（論理光路）, jynel（バッテリー）)
-- **英語対訳**: Verse 5: The essence of folin and jylom manifests under the celestial dome. (folin (output), jylom (set), jylvat (graph structure), jyn (electricity), jyncon (logic gate), jynel (battery))
-- **主要典拠語根**: `folin`, `jylom`, `jylvat`, `jyn`, `jyncon`, `jynel`
-
-#### § 6. Kiv el kivkas, uo celen tor kyrim.
-- **日本語訳**: 〔第6節〕 二値光点が順序整列するを照らし、天蓋と深淵のあわいに立ち現れる。(kiv（二値光点）, kivkas（順序整列する）, kivku（一光点ごとに）, kivlom（八連光節）, kivmor（光符演算）, kivron（連続光符流）)
-- **英語対訳**: Verse 6: The essence of kiv and kivkas manifests under the celestial dome. (kiv (binary light-point), kivkas (sequence in order), kivku (point by point), kivlom (octonary rune block), kivmor (rune-point operation), kivron (continuous rune stream))
-- **主要典拠語根**: `kiv`, `kivkas`, `kivku`, `kivlom`, `kivmor`, `kivron`
-
-#### § 7. Livkas el livpan, uo celen tor kyrim.
-- **日本語訳**: 〔第7節〕 恒久保管記録が波長同調するを照らし、天蓋と深淵のあわいに立ち現れる。(livkas（恒久保管記録）, livpan（波長同調する）, livsol（不可分確定事象）, lyvel（写真）, marnat（行列）, mator（星辰演算儀）)
-- **英語対訳**: Verse 7: The essence of livkas and livpan manifests under the celestial dome. (livkas (perpetual archive), livpan (synchronize harmonic frequency), livsol (indivisible atomic event), lyvel (photo), marnat (matrix), mator (astral computation engine))
-- **主要典拠語根**: `livkas`, `livpan`, `livsol`, `lyvel`, `marnat`, `mator`
-
-#### § 8. Sorvat el suf, uo celen tor kyrim.
-- **日本語訳**: 〔第8節〕 即応記憶枠が数理を照らし、天蓋と深淵のあわいに立ち現れる。(sorvat（即応記憶枠）, suf（数理）, suflik（星辰近似測位）, suflit（要録）, sufom（星辰数理工学）, sufor（星辰数理士）)
-- **英語対訳**: Verse 8: The essence of sorvat and suf manifests under the celestial dome. (sorvat (rapid retrieval cache), suf (astral computation), suflik (celestial approximation), suflit (abstract), sufom (astral computational science), sufor (astral computational scholar))
-- **主要典拠語根**: `sorvat`, `suf`, `suflik`, `suflit`, `sufom`, `sufor`
-
-#### § 9. Tolkat el tolom, uo celen tor kyrim.
-- **日本語訳**: 〔第9節〕 星光伝達遅延が全天交信星網を照らし、天蓋と深淵のあわいに立ち現れる。(tolkat（星光伝達遅延）, tolom（全天交信星網）, tolpan（星網中継する）, tolpar（全天一斉放射）, tolrin（星網伝送容量）, torin（入力）)
-- **英語対訳**: Verse 9: The essence of tolkat and tolom manifests under the celestial dome. (tolkat (signal propagation delay), tolom (all-sky communication network), tolpan (relay transmission), tolpar (all-sky broadcast), tolrin (transmission capacity), torin (input))
-- **主要典拠語根**: `tolkat`, `tolom`, `tolpan`, `tolpar`, `tolrin`, `torin`
-
-#### § 10. Vylom el wesan, uo celen tor kyrim.
-- **日本語訳**: 〔第10節〕 スコープが送信するを照らし、天蓋と深淵のあわいに立ち現れる。(vylom（スコープ）, wesan（送信する）, zevcon（星符定型照合式）, zevil（星辰記述文）, zevkas（星符解読する）, zydot（実証検証する）)
-- **英語対訳**: Verse 10: The essence of vylom and wesan manifests under the celestial dome. (vylom (scope), wesan (send), zevcon (rune pattern formula), zevil (celestial script), zevkas (decipher rune syntax), zydot (verify by evidence))
-- **主要典拠語根**: `vylom`, `wesan`, `zevcon`, `zevil`, `zevkas`, `zydot`
-
-### 第IV篇：生命・生物・治癒と共生の樹
-*Canto IV: Bio-Cosmos, Silvae et Concordia* （収録語彙: 148 語）
-
-#### § 1. Darisan el darisar, uo celen tor kyrim.
-- **日本語訳**: 〔第1節〕 療養するが病院を照らし、天蓋と深淵のあわいに立ち現れる。(darisan（療養する）, darisar（病院）, dariscon（包帯）, darisor（医師）, darispan（処方する）, darispuk（軟膏）)
-- **英語対訳**: Verse 1: The essence of darisan and darisar manifests under the celestial dome. (darisan (convalesce), darisar (hospital), dariscon (bandage), darisor (doctor), darispan (prescribe), darispuk (ointment))
-- **主要典拠語根**: `darisan`, `darisar`, `dariscon`, `darisor`, `darispan`, `darispuk`
-
-#### § 2. Durtin el durvan, uo celen tor kyrim.
-- **日本語訳**: 〔第2節〕 肩が免疫を照らし、天蓋と深淵のあわいに立ち現れる。(durtin（肩）, durvan（免疫）, durvanar（隔離室）, durvis（軟骨）, fenel（口）, fenlin（味覚）)
-- **英語対訳**: Verse 2: The essence of durtin and durvan manifests under the celestial dome. (durtin (shoulder), durvan (immunity), durvanar (quarantine chamber), durvis (cartilage), fenel (mouth), fenlin (taste sensation))
-- **主要典拠語根**: `durtin`, `durvan`, `durvanar`, `durvis`, `fenel`, `fenlin`
-
-#### § 3. Korgon el kylar, uo celen tor kyrim.
-- **日本語訳**: 〔第3節〕 胃が病を照らし、天蓋と深淵のあわいに立ち現れる。(korgon（胃）, kylar（病）, kylat（疲労）, tymis（眠り）, tymisar（安息所）, tymisis（居眠り）)
-- **英語対訳**: Verse 3: The essence of korgon and kylar manifests under the celestial dome. (korgon (stomach), kylar (illness), kylat (fatigue), tymis (sleep), tymisar (infirmary), tymisis (nap))
-- **主要典拠語根**: `korgon`, `kylar`, `kylat`, `tymis`, `tymisar`, `tymisis`
-
-#### § 4. Morvin el morvyn, uo celen tor kyrim.
-- **日本語訳**: 〔第4節〕 血管が軟骨を照らし、天蓋と深淵のあわいに立ち現れる。(morvin（血管）, morvyn（軟骨）, myren（人間）, nerzyv（消化）, noven（頭）, revcon（抗体）)
-- **英語対訳**: Verse 4: The essence of morvin and morvyn manifests under the celestial dome. (morvin (blood vessel), morvyn (cartilage), myren (human), nerzyv (digestion), noven (head), revcon (antibody))
-- **主要典拠語根**: `morvin`, `morvyn`, `myren`, `nerzyv`, `noven`, `revcon`
-
-#### § 5. Revtin el revtis, uo celen tor kyrim.
-- **日本語訳**: 〔第5節〕 脈診が疲労を照らし、天蓋と深淵のあわいに立ち現れる。(revtin（脈診）, revtis（疲労）, zelv（手）, sercon（鎮痛薬）, serdin（反射）, serfal（覚醒）)
-- **英語対訳**: Verse 5: The essence of revtin and revtis manifests under the celestial dome. (revtin (pulse diagnosis), revtis (fatigue), zelv (hand), sercon (analgesic), serdin (reflex), serfal (awakening))
-- **主要典拠語根**: `revtin`, `revtis`, `zelv`, `sercon`, `serdin`, `serfal`
-
-#### § 6. Talkorl el talkorv, uo celen tor kyrim.
-- **日本語訳**: 〔第6節〕 鍬が畝を照らし、天蓋と深淵のあわいに立ち現れる。(talkorl（鍬）, talkorv（畝）, teircon（種穂）, teiril（種）, teirpan（播種する）, teirpanan（結実する）)
-- **英語対訳**: Verse 6: The essence of talkorl and talkorv manifests under the celestial dome. (talkorl (mattock), talkorv (ridge), teircon (ear of grain), teiril (seed), teirpan (sow seed), teirpanan (bear fruit))
-- **主要典拠語根**: `talkorl`, `talkorv`, `teircon`, `teiril`, `teirpan`, `teirpanan`
-
-#### § 7. Veldor el velil, uo celen tor kyrim.
-- **日本語訳**: 〔第7節〕 年輪が新芽を照らし、天蓋と深淵のあわいに立ち現れる。(veldor（年輪）, velil（新芽）, velin（花）, velkarn（牧草）, velkin（灌木）, velkorv（果皮）)
-- **英語対訳**: Verse 7: The essence of veldor and velil manifests under the celestial dome. (veldor (growth ring), velil (herb), velin (flower), velkarn (pasture grass), velkin (shrub), velkorv (rind))
-- **主要典拠語根**: `veldor`, `velil`, `velin`, `velkarn`, `velkin`, `velkorv`
-
-#### § 8. Velrot el velrotas, uo celen tor kyrim.
-- **日本語訳**: 〔第8節〕 木漏れ日が腐葉土を照らし、天蓋と深淵のあわいに立ち現れる。(velrot（木漏れ日）, velrotas（腐葉土）, velryn（若芽）, velsarp（球根）, velsin（蔓）, velsol（心材）)
-- **英語対訳**: Verse 8: The essence of velrot and velrotas manifests under the celestial dome. (velrot (dappled sunlight), velrotas (humus), velryn (fresh tender shoot), velsarp (bulb), velsin (vine), velsol (heartwood))
-- **主要典拠語根**: `velrot`, `velrotas`, `velryn`, `velsarp`, `velsin`, `velsol`
-
-#### § 9. Veltyn el velzar, uo celen tor kyrim.
-- **日本語訳**: 〔第9節〕 花粉が原生林を照らし、天蓋と深淵のあわいに立ち現れる。(veltyn（花粉）, velzar（原生林）, vorin（果実）, vorkas（穀物倉）, vorken（収穫する）, vorkorl（大鎌）)
-- **英語対訳**: Verse 9: The essence of veltyn and velzar manifests under the celestial dome. (veltyn (pollen), velzar (primeval forest), vorin (fruit), vorkas (granary), vorken (harvest), vorkorl (scythe))
-- **主要典拠語根**: `veltyn`, `velzar`, `vorin`, `vorkas`, `vorken`, `vorkorl`
-
-#### § 10. Ferkarn el ferkon, uo celen tor kyrim.
-- **日本語訳**: 〔第10節〕 家畜が猛獣を照らし、天蓋と深淵のあわいに立ち現れる。(ferkarn（家畜）, ferkon（猛獣）, fermor（天竜）, fernyr（小動物）, ferpanan（咆哮する）, ferporv（獣の足跡）)
-- **英語対訳**: Verse 10: The essence of ferkarn and ferkon manifests under the celestial dome. (ferkarn (domesticated animal), ferkon (great bear), fermor (dragon), fernyr (small rodent), ferpanan (roar), ferporv (pawprint))
-- **主要典拠語根**: `ferkarn`, `ferkon`, `fermor`, `fernyr`, `ferpanan`, `ferporv`
-
-#### § 11. Krapil el krapkorv, uo celen tor kyrim.
-- **日本語訳**: 〔第11節〕 幼虫が蟻を照らし、天蓋と深淵のあわいに立ち現れる。(krapil（幼虫）, krapkorv（蟻）, krapnyr（蝶）, krapvol（蜻蛉）, krapzar（蜂）, krota（角）)
-- **英語対訳**: Verse 11: The essence of krapil and krapkorv manifests under the celestial dome. (krapil (larva), krapkorv (ant), krapnyr (butterfly), krapvol (dragonfly), krapzar (honeybee), krota (horn))
-- **主要典拠語根**: `krapil`, `krapkorv`, `krapnyr`, `krapvol`, `krapzar`, `krota`
-
-#### § 12. Volfer el volkorl, uo celen tor kyrim.
-- **日本語訳**: 〔第12節〕 鳥が止まり木を照らし、天蓋と深淵のあわいに立ち現れる。(volfer（鳥）, volkorl（止まり木）, volmin（嘴）, volnyr（鳴禽）, volpan（羽ばたく）, volron（渡り鳥）)
-- **英語対訳**: Verse 12: The essence of volfer and volkorl manifests under the celestial dome. (volfer (bird), volkorl (perch), volmin (beak), volnyr (songbird), volpan (flutter), volron (migratory bird))
-- **主要典拠語根**: `volfer`, `volkorl`, `volmin`, `volnyr`, `volpan`, `volron`
-
-#### § 13. Zylpas el zyltyr, uo celen tor kyrim.
-- **日本語訳**: 〔第13節〕 魚群が魚の鰭を照らし、天蓋と深淵のあわいに立ち現れる。(zylpas（魚群）, zyltyr（魚の鰭）, zylvis（鱗）, zylzar（深海魚）)
-- **英語対訳**: Verse 13: The essence of zylpas and zyltyr manifests under the celestial dome. (zylpas (school of fish), zyltyr (fin), zylvis (scale), zylzar (abyssal fish))
-- **主要典拠語根**: `zylpas`, `zyltyr`, `zylvis`, `zylzar`
-
-### 第V篇：天蓋都市・建築・日常と生活工芸
-*Canto V: Civitas, Architectura et Vita Cotidiana* （収録語彙: 258 語）
-
-#### § 1. Dolaran el dolas, uo celen tor kyrim.
-- **日本語訳**: 〔第1節〕 鍛造するが鋳型を照らし、天蓋と深淵のあわいに立ち現れる。(dolaran（鍛造する）, dolas（鋳型）, dolkin（やすり）, dolnyr（彫刻刀）, dolor（労働者）, dolpak（金床）)
-- **英語対訳**: Verse 1: The essence of dolaran and dolas manifests under the celestial dome. (dolaran (forge), dolas (mold), dolkin (file), dolnyr (chisel), dolor (worker), dolpak (anvil))
-- **主要典拠語根**: `dolaran`, `dolas`, `dolkin`, `dolnyr`, `dolor`, `dolpak`
-
-#### § 2. Jylnyr el jylpan, uo celen tor kyrim.
-- **日本語訳**: 〔第2節〕 紡錘が織るを照らし、天蓋と深淵のあわいに立ち現れる。(jylnyr（紡錘）, jylpan（織る）, jylparv（染料）, jylzaran（織物商）, kirasen（修理する）, kortan（切断する）)
-- **英語対訳**: Verse 2: The essence of jylnyr and jylpan manifests under the celestial dome. (jylnyr (spindle), jylpan (weave), jylparv (dye), jylzaran (draper guild), kirasen (repair), kortan (sever))
-- **主要典拠語根**: `jylnyr`, `jylpan`, `jylparv`, `jylzaran`, `kirasen`, `kortan`
-
-#### § 3. Marmin el marnyr, uo celen tor kyrim.
-- **日本語訳**: 〔第3節〕 市場が為替手形を照らし、天蓋と深淵のあわいに立ち現れる。(marmin（市場）, marnyr（為替手形）, marpalv（卸売）, marpan（取引する）, marpanan（投資する）, marparv（見本市）)
-- **英語対訳**: Verse 3: The essence of marmin and marnyr manifests under the celestial dome. (marmin (bazaar), marnyr (bill of exchange), marpalv (wholesale lot), marpan (transact), marpanan (invest), marparv (trade fair))
-- **主要典拠語根**: `marmin`, `marnyr`, `marpalv`, `marpan`, `marpanan`, `marparv`
-
-#### § 4. Martor el marven, uo celen tor kyrim.
-- **日本語訳**: 〔第4節〕 商人が借入を照らし、天蓋と深淵のあわいに立ち現れる。(martor（商人）, marven（借入）, marvis（運賃）, marzar（通商同盟）, renan（交易）, renar（市場）)
-- **英語対訳**: Verse 4: The essence of martor and marven manifests under the celestial dome. (martor (merchant), marven (loan), marvis (freight fare), marzar (merchant guild), renan (trade), renar (market))
-- **主要典拠語根**: `martor`, `marven`, `marvis`, `marzar`, `renan`, `renar`
-
-#### § 5. Celporv el celup, uo celen tor kyrim.
-- **日本語訳**: 〔第5節〕 日除け庇が天井を照らし、天蓋と深淵のあわいに立ち現れる。(celporv（日除け庇）, celup（天井）, dankar（基礎）, dankarn（厩舎）, domcor（塔）, domdorn（雨樋）)
-- **英語対訳**: Verse 5: The essence of celporv and celup manifests under the celestial dome. (celporv (awnings), celup (ceiling), dankar (foundation), dankarn (stables), domcor (tower), domdorn (gutter))
-- **主要典拠語根**: `celporv`, `celup`, `dankar`, `dankarn`, `domcor`, `domdorn`
-
-#### § 6. Domsor el domtalv, uo celen tor kyrim.
-- **日本語訳**: 〔第6節〕 地下室が中庭噴水を照らし、天蓋と深淵のあわいに立ち現れる。(domsor（地下室）, domtalv（中庭噴水）, domvin（回廊）, domzar（中央広場）, domzarv（大聖堂）, durcon（防壁塔）)
-- **英語対訳**: Verse 6: The essence of domsor and domtalv manifests under the celestial dome. (domsor (cellar), domtalv (courtyard fountain), domvin (colonnade), domzar (central plaza), domzarv (basilica), durcon (bastion))
-- **主要典拠語根**: `domsor`, `domtalv`, `domvin`, `domzar`, `domzarv`, `durcon`
-
-#### § 7. Falpar el farnal, uo celen tor kyrim.
-- **日本語訳**: 〔第7節〕 バルコニーが窓を照らし、天蓋と深淵のあわいに立ち現れる。(falpar（バルコニー）, farnal（窓）, govan（家）, kulmon（柱）, larar（駅）, laros（乗り物）)
-- **英語対訳**: Verse 7: The essence of falpar and farnal manifests under the celestial dome. (falpar (balcony), farnal (window), govan (house), kulmon (pillar), larar (station), laros (vehicle))
-- **主要典拠語根**: `falpar`, `farnal`, `govan`, `kulmon`, `larar`, `laros`
-
-#### § 8. Lervor el talsar, uo celen tor kyrim.
-- **日本語訳**: 〔第8節〕 玄関ホールが敷石を照らし、天蓋と深淵のあわいに立ち現れる。(lervor（玄関ホール）, talsar（敷石）, taran（住まう）, tolst（床）, tolsun（石橋）, velar（庭）)
-- **英語対訳**: Verse 8: The essence of lervor and talsar manifests under the celestial dome. (lervor (vestibule), talsar (paving stone), taran (live), tolst (floor), tolsun (arch bridge), velar (garden))
-- **主要典拠語根**: `lervor`, `talsar`, `taran`, `tolst`, `tolsun`, `velar`
-
-#### § 9. Falkor el falmir, uo celen tor kyrim.
-- **日本語訳**: 〔第9節〕 日時計がランプを照らし、天蓋と深淵のあわいに立ち現れる。(falkor（日時計）, falmir（ランプ）, falsol（松明）, hylzar（指輪）, kirel（筆）, kirelor（筆入れ）)
-- **英語対訳**: Verse 9: The essence of falkor and falmir manifests under the celestial dome. (falkor (sundial), falmir (lamp), falsol (torch), hylzar (signet ring), kirel (pen), kirelor (pen case))
-- **主要典拠語根**: `falkor`, `falmir`, `falsol`, `hylzar`, `kirel`, `kirelor`
-
-#### § 10. Larsil el larsol, uo celen tor kyrim.
-- **日本語訳**: 〔第10節〕 靴がサンダルを照らし、天蓋と深淵のあわいに立ち現れる。(larsil（靴）, larsol（サンダル）, larsor（革紐）, lervil（閂）, neltin（留め針）, pamel（本）)
-- **英語対訳**: Verse 10: The essence of larsil and larsol manifests under the celestial dome. (larsil (shoes), larsol (sandal), larsor (shoelace), lervil (latch), neltin (pin), pamel (book))
-- **主要典拠語根**: `larsil`, `larsol`, `larsor`, `lervil`, `neltin`, `pamel`
-
-#### § 11. Talvyn el tasel, uo celen tor kyrim.
-- **日本語訳**: 〔第11節〕 櫛が椅子を照らし、天蓋と深淵のあわいに立ち現れる。(talvyn（櫛）, tasel（椅子）, tasor（肘掛け椅子）, valcon（礼服）, valcor（天幕）, valdan（絨毯）)
-- **英語対訳**: Verse 11: The essence of talvyn and tasel manifests under the celestial dome. (talvyn (comb), tasel (chair), tasor (armchair), valcon (vestment), valcor (tent), valdan (carpet))
-- **主要典拠語根**: `talvyn`, `tasel`, `tasor`, `valcon`, `valcor`, `valdan`
-
-#### § 12. Valren el valsarp, uo celen tor kyrim.
-- **日本語訳**: 〔第12節〕 帽子が袖を照らし、天蓋と深淵のあわいに立ち現れる。(valren（帽子）, valsarp（袖）, valser（帯）, valsol（裏地）, valson（着替える）, valtarv（ショール）)
-- **英語対訳**: Verse 12: The essence of valren and valsarp manifests under the celestial dome. (valren (hood), valsarp (sleeve), valser (sash), valsol (lining), valson (change attire), valtarv (shawl))
-- **主要典拠語根**: `valren`, `valsarp`, `valser`, `valsol`, `valson`, `valtarv`
-
-#### § 13. Civom el civpanan, uo celen tor kyrim.
-- **日本語訳**: 〔第13節〕 叙事詩が作曲するを照らし、天蓋と深淵のあわいに立ち現れる。(civom（叙事詩）, civpanan（作曲する）, civsol（竪琴）, civtas（和音）, civzar（交響曲）, cylanar（劇場）)
-- **英語対訳**: Verse 13: The essence of civom and civpanan manifests under the celestial dome. (civom (epic poem), civpanan (compose score), civsol (harp), civtas (chord), civzar (symphony), cylanar (theater))
-- **主要典拠語根**: `civom`, `civpanan`, `civsol`, `civtas`, `civzar`, `cylanar`
-
-#### § 14. Durlan el durtan, uo celen tor kyrim.
-- **日本語訳**: 〔第14節〕 意志が勇気を照らし、天蓋と深淵のあわいに立ち現れる。(durlan（意志）, durtan（勇気）, elir（喜び）, elirtas（祝意）, falpanan（彩色する）, falzar（壁画）)
-- **英語対訳**: Verse 14: The essence of durlan and durtan manifests under the celestial dome. (durlan (willpower), durtan (courage), elir (joy), elirtas (congratulations), falpanan (paint), falzar (fresco))
-- **主要典拠語根**: `durlan`, `durtan`, `elir`, `elirtas`, `falpanan`, `falzar`
-
-#### § 15. Kefur el kolzan, uo celen tor kyrim.
-- **日本語訳**: 〔第15節〕 畏敬の念が彫像を照らし、天蓋と深淵のあわいに立ち現れる。(kefur（畏敬の念）, kolzan（彫像）, kores（忘れる）, krotas（激動）, krotik（葛藤）, krotiluk（焦燥）)
-- **英語対訳**: Verse 15: The essence of kefur and kolzan manifests under the celestial dome. (kefur (sacred awe), kolzan (statue), kores (forget), krotas (fury), krotik (inner conflict), krotiluk (impatience))
-- **主要典拠語根**: `kefur`, `kolzan`, `kores`, `krotas`, `krotik`, `krotiluk`
-
-#### § 16. Mincor el mindan, uo celen tor kyrim.
-- **日本語訳**: 〔第16節〕 矜持が直観を照らし、天蓋と深淵のあわいに立ち現れる。(mincor（矜持）, mindan（直観）, minnyr（慈愛）, minpalv（安らぎ）, minpan（決断する）, minpanan（祈る）)
-- **英語対訳**: Verse 16: The essence of mincor and mindan manifests under the celestial dome. (mincor (dignity), mindan (intuition), minnyr (compassion), minpalv (serenity), minpan (resolve), minpanan (pray))
-- **主要典拠語根**: `mincor`, `mindan`, `minnyr`, `minpalv`, `minpan`, `minpanan`
-
-#### § 17. Sardorn el sarmon, uo celen tor kyrim.
-- **日本語訳**: 〔第17節〕 哀傷がユーモアを照らし、天蓋と深淵のあわいに立ち現れる。(sardorn（哀傷）, sarmon（ユーモア）, sarpanan（慰める）, sarzar（至福）, sirin（平穏）, sirlem（寛容）)
-- **英語対訳**: Verse 17: The essence of sardorn and sarmon manifests under the celestial dome. (sardorn (melancholy), sarmon (wit), sarpanan (console), sarzar (bliss), sirin (serenity), sirlem (tolerance))
-- **主要典拠語根**: `sardorn`, `sarmon`, `sarpanan`, `sarzar`, `sirin`, `sirlem`
-
-#### § 18. Sufan el suflom, uo celen tor kyrim.
-- **日本語訳**: 〔第18節〕 叡智が論理体系を照らし、天蓋と深淵のあわいに立ち現れる。(sufan（叡智）, suflom（論理体系）, sufvis（機転）, sylfir（誠実）, bion（飲む）, bionas（水差し）)
-- **英語対訳**: Verse 18: The essence of sufan and suflom manifests under the celestial dome. (sufan (wisdom), suflom (logical system), sufvis (wit), sylfir (integrity), bion (drink), bionas (pitcher))
-- **主要典拠語根**: `sufan`, `suflom`, `sufvis`, `sylfir`, `bion`, `bionas`
-
-#### § 19. Bionzar el darel, uo celen tor kyrim.
-- **日本語訳**: 〔第19節〕 蒸留酒がスープを照らし、天蓋と深淵のあわいに立ち現れる。(bionzar（蒸留酒）, darel（スープ）, darpan（溶かす）, marnyz（大地の結晶塩）, ner（滋養）, neran（食べる）)
-- **英語対訳**: Verse 19: The essence of bionzar and darel manifests under the celestial dome. (bionzar (distilled spirits), darel (soup), darpan (melt), marnyz (salt), ner (nourishment), neran (eat))
-- **主要典拠語根**: `bionzar`, `darel`, `darpan`, `marnyz`, `ner`, `neran`
-
-#### § 20. Nerkam el nerkot, uo celen tor kyrim.
-- **日本語訳**: 〔第20節〕 鍋が鍋敷きを照らし、天蓋と深淵のあわいに立ち現れる。(nerkam（鍋）, nerkot（鍋敷き）, nerlon（乾酪）, nerlorv（焙煎機）, nernyr（蜂蜜）, nerom（厨房）)
-- **英語対訳**: Verse 20: The essence of nerkam and nerkot manifests under the celestial dome. (nerkam (pot), nerkot (pot stand), nerlon (curd), nerlorv (roaster), nernyr (honey), nerom (kitchen))
-- **主要典拠語根**: `nerkam`, `nerkot`, `nerlon`, `nerlorv`, `nernyr`, `nerom`
-
-#### § 21. Nerpork el nersarn, uo celen tor kyrim.
-- **日本語訳**: 〔第21節〕 調味油が果実の砂糖漬けを照らし、天蓋と深淵のあわいに立ち現れる。(nerpork（調味油）, nersarn（果実の砂糖漬け）, nersarp（酒樽）, nersol（酵母）, nerson（焼き網）, nertalv（すりこぎ）)
-- **英語対訳**: Verse 21: The essence of nerpork and nersarn manifests under the celestial dome. (nerpork (edible culinary oil), nersarn (preserve), nersarp (cask), nersol (yeast), nerson (griddle), nertalv (pestle))
-- **主要典拠語根**: `nerpork`, `nersarn`, `nersarp`, `nersol`, `nerson`, `nertalv`
-
-#### § 22. Terin el terlar, uo celen tor kyrim.
-- **日本語訳**: 〔第22節〕 温かい煎じ茶が茶器を照らし、天蓋と深淵のあわいに立ち現れる。(terin（温かい煎じ茶）, terlar（茶器）, tursil（具材）, voril（発酵果実酒）, vurlin（スプーン）, zartik（フォーク）)
-- **英語対訳**: Verse 22: The essence of terin and terlar manifests under the celestial dome. (terin (tea), terlar (teapot), tursil (ingredient), voril (wine), vurlin (spoon), zartik (dining fork))
-- **主要典拠語根**: `terin`, `terlar`, `tursil`, `voril`, `vurlin`, `zartik`
-
-### 第VI篇：精神・思索・感情と星辰詩歌
-*Canto VI: Mens, Philosophia et Poesis Sideralis* （収録語彙: 210 語）
-
-#### § 1. Calfen el calor, uo celen tor kyrim.
-- **日本語訳**: 〔第1節〕 演説が評議会を照らし、天蓋と深淵のあわいに立ち現れる。(calfen（演説）, calor（評議会）, calvir（請願）, cynfin（仲間）, cynmar（扶助）, cynor（親友）)
-- **英語対訳**: Verse 1: The essence of calfen and calor manifests under the celestial dome. (calfen (speech), calor (council), calvir (petition), cynfin (comrade), cynmar (mutual aid), cynor (confidant))
-- **主要典拠語根**: `calfen`, `calor`, `calvir`, `cynfin`, `cynmar`, `cynor`
-
-#### § 2. Dolvan el dolvis, uo celen tor kyrim.
-- **日本語訳**: 〔第2節〕 産業が協同組合を照らし、天蓋と深淵のあわいに立ち現れる。(dolvan（産業）, dolvis（協同組合）, dolyk（義務）, domnyr（代議員）, dompal（街区）, domsen（評議会）)
-- **英語対訳**: Verse 2: The essence of dolvan and dolvis manifests under the celestial dome. (dolvan (industry), dolvis (guild), dolyk (duty), domnyr (deputy), dompal (ward), domsen (senate))
-- **主要典拠語根**: `dolvan`, `dolvis`, `dolyk`, `domnyr`, `dompal`, `domsen`
-
-#### § 3. Jylpal el jylporv, uo celen tor kyrim.
-- **日本語訳**: 〔第3節〕 親交が議定書を照らし、天蓋と深淵のあわいに立ち現れる。(jylpal（親交）, jylporv（議定書）, jyltis（連合）, jylzar（連邦）, kuralen（憲章）, kuralis（連邦）)
-- **英語対訳**: Verse 3: The essence of jylpal and jylporv manifests under the celestial dome. (jylpal (amity), jylporv (protocol), jyltis (coalition), jylzar (commonwealth), kuralen (constitution), kuralis (commonwealth))
-- **主要典拠語根**: `jylpal`, `jylporv`, `jyltis`, `jylzar`, `kuralen`, `kuralis`
-
-#### § 4. Polot el polten, uo celen tor kyrim.
-- **日本語訳**: 〔第4節〕 投票が住民票を照らし、天蓋と深淵のあわいに立ち現れる。(polot（投票）, polten（住民票）, renik（負債）, renlor（銀行）, renvis（価格）, senmorv（公聴会）)
-- **英語対訳**: Verse 4: The essence of polot and polten manifests under the celestial dome. (polot (vote), polten (citizen register), renik (debt), renlor (bank), renvis (price), senmorv (town meeting))
-- **主要典拠語根**: `polot`, `polten`, `renik`, `renlor`, `renvis`, `senmorv`
-
-#### § 5. Tarkas el tarlot, uo celen tor kyrim.
-- **日本語訳**: 〔第5節〕 許可が判決を照らし、天蓋と深淵のあわいに立ち現れる。(tarkas（許可）, tarlot（判決）, taros（法）, tarosar（法廷）, tarvyn（判例）, turcon（憲章）)
-- **英語対訳**: Verse 5: The essence of tarkas and tarlot manifests under the celestial dome. (tarkas (permission), tarlot (judicial verdict), taros (law), tarosar (court), tarvyn (judicial precedent), turcon (charter))
-- **主要典拠語根**: `tarkas`, `tarlot`, `taros`, `tarosar`, `tarvyn`, `turcon`
-
-#### § 6. Tursolv el turtasv, uo celen tor kyrim.
-- **日本語訳**: 〔第6節〕 免責が公印を照らし、天蓋と深淵のあわいに立ち現れる。(tursolv（免責）, turtasv（公印）, turvan（裁判）, turzar（最高裁判所）, vylar（旗）, vyranar（学校）)
-- **英語対訳**: Verse 6: The essence of tursolv and turtasv manifests under the celestial dome. (tursolv (amnesty), turtasv (state seal), turvan (trial), turzar (supreme tribunal), vylar (flag), vyranar (school))
-- **主要典拠語根**: `tursolv`, `turtasv`, `turvan`, `turzar`, `vylar`, `vyranar`
-
-#### § 7. Sylran el tyras, uo celen tor kyrim.
-- **日本語訳**: 〔第7節〕 決断が探求心を照らし、天蓋と深淵のあわいに立ち現れる。(sylran（決断）, tyras（探求心）, vyran（真理）, vyranis（哲学者）, weldor（抱負）, welin（希望）)
-- **英語対訳**: Verse 7: The essence of sylran and tyras manifests under the celestial dome. (sylran (decision), tyras (curiosity), vyran (truth), vyranis (philosopher), weldor (ambition), welin (hope))
-- **主要典拠語根**: `sylran`, `tyras`, `vyran`, `vyranis`, `weldor`, `welin`
-
-#### § 8. Cylani el darini, uo celen tor kyrim.
-- **日本語訳**: 〔第8節〕 美しいが柔らかいを照らし、天蓋と深淵のあわいに立ち現れる。(cylani（美しい）, darini（柔らかい）, darisli（なめらかな）, darlori（激流の）, darmoni（清冽な）, darsarn（芳醇な）)
-- **英語対訳**: Verse 8: The essence of cylani and darini manifests under the celestial dome. (cylani (beautiful), darini (soft), darisli (smooth), darlori (torrential), darmoni (pure), darsarn (mellifluous))
-- **主要典拠語根**: `cylani`, `darini`, `darisli`, `darlori`, `darmoni`, `darsarn`
-
-#### § 9. Eirin el falini, uo celen tor kyrim.
-- **日本語訳**: 〔第9節〕 古いが澄んだを照らし、天蓋と深淵のあわいに立ち現れる。(eirin（古い）, falini（澄んだ）, falkas（粗い）, falpiri（冷光の）, falsarn（眩い）, falsolv（銀白色の）)
-- **英語対訳**: Verse 9: The essence of eirin and falini manifests under the celestial dome. (eirin (ancient), falini (clear), falkas (rough), falpiri (phosphorescent), falsarn (dazzling), falsolv (silvery-white))
-- **主要典拠語根**: `eirin`, `falini`, `falkas`, `falpiri`, `falsarn`, `falsolv`
-
-#### § 10. Kyrani el kyrfini, uo celen tor kyrim.
-- **日本語訳**: 〔第10節〕 冷たいが凍結したを照らし、天蓋と深淵のあわいに立ち現れる。(kyrani（冷たい）, kyrfini（凍結した）, kyrimi（深い）, kyrin（黒い）, kyrlini（雪白の）, kyrpi（鋭い）)
-- **英語対訳**: Verse 10: The essence of kyrani and kyrfini manifests under the celestial dome. (kyrani (cold), kyrfini (glacial), kyrimi (deep), kyrin (black), kyrlini (snow-white), kyrpi (sharp))
-- **主要典拠語根**: `kyrani`, `kyrfini`, `kyrimi`, `kyrin`, `kyrlini`, `kyrpi`
-
-#### § 11. Novani el porkini, uo celen tor kyrim.
-- **日本語訳**: 〔第11節〕 高いが狭いを照らし、天蓋と深淵のあわいに立ち現れる。(novani（高い）, porkini（狭い）, pyrin（赤い）, pyrsol（緋色の）, pyrzan（熱烈な）, klorini（丸い）)
-- **英語対訳**: Verse 11: The essence of novani and porkini manifests under the celestial dome. (novani (high), porkini (narrow), pyrin (red), pyrsol (crimson), pyrzan (scalding), klorini (round))
-- **主要典拠語根**: `novani`, `porkini`, `pyrin`, `pyrsol`, `pyrzan`, `klorini`
-
-#### § 12. Talcon el taldari, uo celen tor kyrim.
-- **日本語訳**: 〔第12節〕 頑強ながぬかるんだを照らし、天蓋と深淵のあわいに立ち現れる。(talcon（頑強な）, taldari（ぬかるんだ）, talyrki（ざらざらした）, talmori（広い）, talpi（硬い）, talsarpv（硬質な）)
-- **英語対訳**: Verse 12: The essence of talcon and taldari manifests under the celestial dome. (talcon (sturdy), taldari (muddy), talyrki (rough), talmori (spacious), talpi (hard), talsarpv (adamantine))
-- **主要典拠語根**: `talcon`, `taldari`, `talyrki`, `talmori`, `talpi`, `talsarpv`
-
-#### § 13. Tulosi el tyni, uo celen tor kyrim.
-- **日本語訳**: 〔第13節〕 低いが銀色のを照らし、天蓋と深淵のあわいに立ち現れる。(tulosi（低い）, tyni（銀色の）, valin（金色の）, valpini（厚い）, velini（緑の）, velpari（樹木が生い茂った）)
-- **英語対訳**: Verse 13: The essence of tulosi and tyni manifests under the celestial dome. (tulosi (low), tyni (silver), valin (golden), valpini (thick), velini (green), velpari (wooded))
-- **主要典拠語根**: `tulosi`, `tyni`, `valin`, `valpini`, `velini`, `velpari`
-
-#### § 14. Wylvani el wylzan, uo celen tor kyrim.
-- **日本語訳**: 〔第14節〕 旋風のようなが乾燥したを照らし、天蓋と深淵のあわいに立ち現れる。(wylvani（旋風のような）, wylzan（乾燥した）, zohari（太陽のような）, zylin（青い）, calun（対話する）, celan（（空や星を）仰ぎ見る）)
-- **英語対訳**: Verse 14: The essence of wylvani and wylzan manifests under the celestial dome. (wylvani (swirling), wylzan (arid), zohari (solar), zylin (blue), calun (converse), celan (look up))
-- **主要典拠語根**: `wylvani`, `wylzan`, `zohari`, `zylin`, `calun`, `celan`
-
-#### § 15. Darzanv el dolis, uo celen tor kyrim.
-- **日本語訳**: 〔第15節〕 潜水するが近くを照らし、天蓋と深淵のあわいに立ち現れる。(darzanv（潜水する）, dolis（近く）, dyren（涙する）, eirinu（常に）, eirlom（太古に）, eirvas（永遠の彼方）)
-- **英語対訳**: Verse 15: The essence of darzanv and dolis manifests under the celestial dome. (darzanv (submerge), dolis (near), dyren (weep), eirinu (always), eirlom (in ancient times), eirvas (eternity horizon))
-- **主要典拠語根**: `darzanv`, `dolis`, `dyren`, `eirinu`, `eirlom`, `eirvas`
-
-#### § 16. Fenor el fensir, uo celen tor kyrim.
-- **日本語訳**: 〔第16節〕 話すがささやくを照らし、天蓋と深淵のあわいに立ち現れる。(fenor（話す）, fensir（ささやく）, folan（外）, folanu（外へ）, forvis（おそらく）, hano（今日）)
-- **英語対訳**: Verse 16: The essence of fenor and fensir manifests under the celestial dome. (fenor (speak), fensir (whisper), folan (outside), folanu (outward), forvis (perhaps), hano (today))
-- **主要典拠語根**: `fenor`, `fensir`, `folan`, `folanu`, `forvis`, `hano`
-
-#### § 17. Havzan el jylas, uo celen tor kyrim.
-- **日本語訳**: 〔第17節〕 間一髪でが結ぶを照らし、天蓋と深淵のあわいに立ち現れる。(havzan（間一髪で）, jylas（結ぶ）, jylvor（編み上げる）, kiras（創る）, klomas（遮断する）, klovan（閉じる）)
-- **英語対訳**: Verse 17: The essence of havzan and jylas manifests under the celestial dome. (havzan (in the nick of time), jylas (connect), jylvor (plait), kiras (create), klomas (isolate), klovan (close))
-- **主要典拠語根**: `havzan`, `jylas`, `jylvor`, `kiras`, `klomas`, `klovan`
-
-#### § 18. Kymdenu el kympan, uo celen tor kyrim.
-- **日本語訳**: 〔第18節〕 西へが身を屈めるを照らし、天蓋と深淵のあわいに立ち現れる。(kymdenu（西へ）, kympan（身を屈める）, kyrpan（凍る）, kyvel（隠す）, larvor（回り道する）, leras（開く）)
-- **英語対訳**: Verse 18: The essence of kymdenu and kympan manifests under the celestial dome. (kymdenu (westward), kympan (crouch), kyrpan (freeze), kyvel (conceal), larvor (detour), leras (open))
-- **主要典拠語根**: `kymdenu`, `kympan`, `kyrpan`, `kyvel`, `larvor`, `leras`
-
-### 第VII篇：航路・動態・時空の変容
-*Canto VII: Motus, Navigatio et Spatium Infinitum* （収録語彙: 102 語）
-
-#### § 1. Lerin el lerinu, uo celen tor kyrim.
-- **日本語訳**: 〔第1節〕 左が左へを照らし、天蓋と深淵のあわいに立ち現れる。(lerin（左）, lerinu（左へ）, mu（いいえ）, nerpan（刻む）, novas（登る）, novasu（高らかに）)
-- **英語対訳**: Verse 1: The essence of lerin and lerinu manifests under the celestial dome. (lerin (left), lerinu (leftward), mu (not), nerpan (chop), novas (climb), novasu (loftily))
-- **主要典拠語根**: `lerin`, `lerinu`, `mu`, `nerpan`, `novas`, `novasu`
-
-#### § 2. Poran el porcon, uo celen tor kyrim.
-- **日本語訳**: 〔第2節〕 歩くが行進するを照らし、天蓋と深淵のあわいに立ち現れる。(poran（歩く）, porcon（行進する）, porzan（潜り抜ける）, pyran（燃える）, relen（ある）, saren（笑う）)
-- **英語対訳**: Verse 2: The essence of poran and porcon manifests under the celestial dome. (poran (walk), porcon (march), porzan (pass through), pyran (burn), relen (exist), saren (smile))
-- **主要典拠語根**: `poran`, `porcon`, `porzan`, `pyran`, `relen`, `saren`
-
-#### § 3. Serlit el serpan, uo celen tor kyrim.
-- **日本語訳**: 〔第3節〕 撫でるが掴むを照らし、天蓋と深淵のあわいに立ち現れる。(serlit（撫でる）, serpan（掴む）, zelvzan（手繰り寄せる）, silin（内）, silinu（内へ）, soran（（ノートに）書き留める）)
-- **英語対訳**: Verse 3: The essence of serlit and serpan manifests under the celestial dome. (serlit (stroke gently), serpan (grasp), zelvzan (draw near with hands), silin (inside), silinu (inward), soran (record))
-- **主要典拠語根**: `serlit`, `serpan`, `zelvzan`, `silin`, `silinu`, `soran`
-
-#### § 4. Talvok el talzon, uo celen tor kyrim.
-- **日本語訳**: 〔第4節〕 掘るが着陸するを照らし、天蓋と深淵のあわいに立ち現れる。(talvok（掘る）, talzon（着陸する）, taris（待つ）, toren（来る）, tulan（遠く）, tulden（南）)
-- **英語対訳**: Verse 4: The essence of talvok and talzon manifests under the celestial dome. (talvok (dig), talzon (touch ground), taris (wait), toren (come), tulan (far), tulden (south))
-- **主要典拠語根**: `talvok`, `talzon`, `taris`, `toren`, `tulan`, `tulden`
-
-#### § 5. Valasu el valku, uo celen tor kyrim.
-- **日本語訳**: 〔第5節〕 朝早くにが頻繁にを照らし、天蓋と深淵のあわいに立ち現れる。(valasu（朝早くに）, valku（頻繁に）, valrotu（木漏れ日の中で）, ve（はい）, velkan（繁茂する）, veiran（飛ぶ）)
-- **英語対訳**: Verse 5: The essence of valasu and valku manifests under the celestial dome. (valasu (at dawn), valku (often), valrotu (in dappled shade), ve (yes), velkan (flourish), veiran (fly))
-- **主要典拠語根**: `valasu`, `valku`, `valrotu`, `ve`, `velkan`, `veiran`
-
-#### § 6. Vyranu el vyrel, uo celen tor kyrim.
-- **日本語訳**: 〔第6節〕 確かにが（精密に）観測するを照らし、天蓋と深淵のあわいに立ち現れる。(vyranu（確かに）, vyrel（（精密に）観測する）, wylkan（放つ）, wylpur（吹き飛ばす）, wylrev（深呼吸する）, zylan（泳ぐ）)
-- **英語対訳**: Verse 6: The essence of vyranu and vyrel manifests under the celestial dome. (vyranu (truly), vyrel (observe), wylkan (hurl), wylpur (blow away), wylrev (inhale deeply), zylan (swim))
-- **主要典拠語根**: `vyranu`, `vyrel`, `wylkan`, `wylpur`, `wylrev`, `zylan`
-
-#### § 7. Hias el taas, uo celen tor kyrim.
-- **日本語訳**: 〔第7節〕 この人がその人を照らし、天蓋と深淵のあわいに立ち現れる。(hias（この人）, taas（その人）, vaas（あの人）, kaas（誰）, senas（全員）, nias（誰も〜ない）)
-- **英語対訳**: Verse 7: The essence of hias and taas manifests under the celestial dome. (hias (this person), taas (that person), vaas (that person over there), kaas (who), senas (everyone), nias (nobody))
-- **主要典拠語根**: `hias`, `taas`, `vaas`, `kaas`, `senas`, `nias`
-
-#### § 8. Hihav el tahav, uo celen tor kyrim.
-- **日本語訳**: 〔第8節〕 今がその時を照らし、天蓋と深淵のあわいに立ち現れる。(hihav（今）, tahav（その時）, vahav（往時）, kahav（いつ）, senhav（常に）, nihav（決して〜ない）)
-- **英語対訳**: Verse 8: The essence of hihav and tahav manifests under the celestial dome. (hihav (now), tahav (then), vahav (that time long ago), kahav (when), senhav (always), nihav (never))
-- **主要典拠語根**: `hihav`, `tahav`, `vahav`, `kahav`, `senhav`, `nihav`
-
-#### § 9. Hizen el tazen, uo celen tor kyrim.
-- **日本語訳**: 〔第9節〕 この故にがそれ故にを照らし、天蓋と深淵のあわいに立ち現れる。(hizen（この故に）, tazen（それ故に）, vazen（あの故に）, kazen（なぜ）, senzen（あらゆる理由で）, nizen（何の理由もなく）)
-- **英語対訳**: Verse 9: The essence of hizen and tazen manifests under the celestial dome. (hizen (for this reason), tazen (for that reason), vazen (for that distant reason), kazen (why), senzen (for every reason), nizen (for no reason))
-- **主要典拠語根**: `hizen`, `tazen`, `vazen`, `kazen`, `senzen`, `nizen`
-
-### 第VIII篇：統語小詞・格標識・不滅の盟約
-*Canto VIII: Foedus Grammaticum et Particulae Aeternae* （収録語彙: 422 語）
-
-#### § 1. Zen tor el vyr, poran el mi is ul.
-- **日本語訳**: 〔第1節〕 しかしがそしてを照らし、天蓋と深淵のあわいに立ち現れる。(tor（しかし）, ul（そして）, zen（なぜなら）, mi（私）, miel（私たち二人）, miin（私たち）)
-- **英語対訳**: Verse 1: The essence of tor and ul manifests under the celestial dome. (tor (but), ul (and), zen (because), mi (I), miel (we two), miin (we))
-- **主要典拠語根**: `tor`, `ul`, `zen`, `mi`, `miel`, `miin`
-
-#### § 2. Zen el el vyr, poran el mi is ia.
-- **日本語訳**: 〔第2節〕 主格が対格を照らし、天蓋と深淵のあわいに立ち現れる。(el（主格）, ia（対格）, al（与格）, en（属格）, uo（処格）, de（具格）)
-- **英語対訳**: Verse 2: The essence of el and ia manifests under the celestial dome. (el (subject marker), ia (object or complement marker), al (dative marker), en (genitive marker), uo (locative marker), de (instrumental marker))
-- **主要典拠語根**: `el`, `ia`, `al`, `en`, `uo`, `de`
-
-#### § 3. Zen ne el vyr, poran el mi is nila.
-- **日本語訳**: 〔第3節〕 否定が根源的否定を照らし、天蓋と深淵のあわいに立ち現れる。(ne（否定）, nila（根源的否定）, ka（疑問）, ze（文末助詞 ze）, na（文末助詞 na）, lo（文末助詞 lo）)
-- **英語対訳**: Verse 3: The essence of ne and nila manifests under the celestial dome. (ne (negation), nila (radical negation), ka (question particle), ze (sentence-final particle ze), na (sentence-final particle na), lo (sentence-final particle lo))
-- **主要典拠語根**: `ne`, `nila`, `ka`, `ze`, `na`, `lo`
-
-#### § 4. Zen -cor el vyr, poran el mi is re-.
-- **日本語訳**: 〔第4節〕 周期が反照を照らし、天蓋と深淵のあわいに立ち現れる。(-cor（周期）, re-（反照）, co-（連星）, -as（日常的な行為者）, -or（専門職）, -is（学者）)
-- **英語対訳**: Verse 4: The essence of -cor and re- manifests under the celestial dome. (-cor (iterative aspect), re- (passive voice), co- (reciprocal voice), -as (everyday agent), -or (professional agent), -is (scholar))
-- **主要典拠語根**: `-cor`, `re-`, `co-`, `-as`, `-or`, `-is`
-
-#### § 5. Zen -on el vyr, poran el mi is al-.
-- **日本語訳**: 〔第5節〕 尊称が敬意前置標識を照らし、天蓋と深淵のあわいに立ち現れる。(-on（尊称）, al-（敬意前置標識）, nyrcan（嫌う）, kyrdan（殺す）, sehvan（未来）, fehvan（過去）)
-- **英語対訳**: Verse 5: The essence of -on and al- manifests under the celestial dome. (-on (honorific suffix), al- (honorific prefix), nyrcan (dislike), kyrdan (kill), sehvan (future), fehvan (the past))
-- **主要典拠語根**: `-on`, `al-`, `nyrcan`, `kyrdan`, `sehvan`, `fehvan`
-
-#### § 6. Zen sorvyan el vyr, poran el mi is sorkan.
-- **日本語訳**: 〔第6節〕 覚えるが失念するを照らし、天蓋と深淵のあわいに立ち現れる。(sorvyan（覚える）, sorkan（失念する）, tornel（見つける）, nebtas（始める）, nebpan（始まる）, klotas（星辰終える）)
-- **英語対訳**: Verse 6: The essence of sorvyan and sorkan manifests under the celestial dome. (sorvyan (memorize), sorkan (forget accidentally), tornel (find), nebtas (begin), nebpan (begin), klotas (finish))
-- **主要典拠語根**: `sorvyan`, `sorkan`, `tornel`, `nebtas`, `nebpan`, `klotas`
-
-#### § 7. Zen zeldar el vyr, poran el mi is dursen.
-- **日本語訳**: 〔第7節〕 助けるが防衛するを照らし、天蓋と深淵のあわいに立ち現れる。(zeldar（助ける）, dursen（防衛する）, valcen（変える）, valpan（変わる）, tordin（星辰届く）, marval（運ぶ）)
-- **英語対訳**: Verse 7: The essence of zeldar and dursen manifests under the celestial dome. (zeldar (help), dursen (defend), valcen (change), valpan (change), tordin (reach), marval (carry))
-- **主要典拠語根**: `zeldar`, `dursen`, `valcen`, `valpan`, `tordin`, `marval`
-
-#### § 8. Zen hardin el vyr, poran el mi is kartor.
-- **日本語訳**: 〔第8節〕 聞こえるが尋ねるを照らし、天蓋と深淵のあわいに立ち現れる。(hardin（聞こえる）, kartor（尋ねる）, harsen（聞き知る）, hardor（聞き入れる）, komas（組み立てる）, vorzen（創出する）)
-- **英語対訳**: Verse 8: The essence of hardin and kartor manifests under the celestial dome. (hardin (be heard), kartor (ask), harsen (hear of), hardor (heed), komas (assemble), vorzen (bring forth))
-- **主要典拠語根**: `hardin`, `kartor`, `harsen`, `hardor`, `komas`, `vorzen`
-
-#### § 9. Zen vyltas el vyr, poran el mi is havon.
-- **日本語訳**: 〔第9節〕 叫ぶがいつもを照らし、天蓋と深淵のあわいに立ち現れる。(vyltas（叫ぶ）, havon（いつも）, havtul（時々）, feval（すでに）, divan（まだ）, tasik（すぐに）)
-- **英語対訳**: Verse 9: The essence of vyltas and havon manifests under the celestial dome. (vyltas (shout), havon (always), havtul (sometimes), feval (already), divan (still), tasik (immediately))
-- **主要典拠語根**: `vyltas`, `havon`, `havtul`, `feval`, `divan`, `tasik`
-
-#### § 10. Zen sirik el vyr, poran el mi is kulen.
-- **日本語訳**: 〔第10節〕 静かにが共にを照らし、天蓋と深淵のあわいに立ち現れる。(sirik（静かに）, kulen（共に）, minkir（独りで）, darlan（恵みの雨）, kyrlan（大雪）, seldor（樹木群落）)
-- **英語対訳**: Verse 10: The essence of sirik and kulen manifests under the celestial dome. (sirik (quietly), kulen (together), minkir (alone), darlan (rain), kyrlan (snow), seldor (forest))
-- **主要典拠語根**: `sirik`, `kulen`, `minkir`, `darlan`, `kyrlan`, `seldor`
-
-#### § 11. Zen zonpar el vyr, poran el mi is poras.
-- **日本語訳**: 〔第11節〕 大門が道を照らし、天蓋と深淵のあわいに立ち現れる。(zonpar（大門）, poras（道）, govom（集落）, vyllik（天恵賛歌）, vorpar（篝火）, civtor（胸の内）)
-- **英語対訳**: Verse 11: The essence of zonpar and poras manifests under the celestial dome. (zonpar (gate), poras (road), govom (town), vyllik (song), vorpar (fire), civtor (heart))
-- **主要典拠語根**: `zonpar`, `poras`, `govom`, `vyllik`, `vorpar`, `civtor`
-
-#### § 12. Zen vorkot el vyr, poran el mi is fevran.
-- **日本語訳**: 〔第12節〕 激憤が気概を照らし、天蓋と深淵のあわいに立ち現れる。(vorkot（激憤）, fevran（気概）, sefast（光明日）, sirval（静穏境）, cylmin（深い慈愛）, vylen（声）)
-- **英語対訳**: Verse 12: The essence of vorkot and fevran manifests under the celestial dome. (vorkot (anger), fevran (courage), sefast (hope), sirval (peace), cylmin (love), vylen (voice))
-- **主要典拠語根**: `vorkot`, `fevran`, `sefast`, `sirval`, `cylmin`, `vylen`
-
-#### § 13. Zen vorven el vyr, poran el mi is kyrzanv.
-- **日本語訳**: 〔第13節〕 推進機関が彗星尾を照らし、天蓋と深淵のあわいに立ち現れる。(vorven（推進機関）, kyrzanv（彗星尾）, lariskot（軌道共鳴）, talmon（微惑星群）, radcel（天体視差）, falsil（整調光線）)
-- **英語対訳**: Verse 13: The essence of vorven and kyrzanv manifests under the celestial dome. (vorven (propulsion drive), kyrzanv (comet tail), lariskot (orbital resonance), talmon (asteroid belt), radcel (stellar parallax), falsil (coherent light))
-- **主要典拠語根**: `vorven`, `kyrzanv`, `lariskot`, `talmon`, `radcel`, `falsil`
-
-#### § 14. Zen faldar el vyr, poran el mi is turjyl.
-- **日本語訳**: 〔第14節〕 光圧が星辰評議会を照らし、天蓋と深淵のあわいに立ち現れる。(faldar（光圧）, turjyl（星辰評議会）, novtur（星辰執政官）, senpamel（誓約書）, domciv（市民権）, turdan（星辰法廷）)
-- **英語対訳**: Verse 14: The essence of faldar and turjyl manifests under the celestial dome. (faldar (radiation pressure), turjyl (Astral Council), novtur (Archon), senpamel (covenant scroll), domciv (citizenship), turdan (tribunal court))
-- **主要典拠語根**: `faldar`, `turjyl`, `novtur`, `senpamel`, `domciv`, `turdan`
-
-#### § 15. Zen korzanv el vyr, poran el mi is talvor.
-- **日本語訳**: 〔第15節〕 晶洞が星辰鉱脈を照らし、天蓋と深淵のあわいに立ち現れる。(korzanv（晶洞）, talvor（星辰鉱脈）, korsil（純星石）, wylmon（大旋風）, talrad（星見高地）, selvel（神聖樹林）)
-- **英語対訳**: Verse 15: The essence of korzanv and talvor manifests under the celestial dome. (korzanv (crystal geode cave), talvor (mineral vein), korsil (flawless pure star-stone), wylmon (whirlwind), talrad (high plateau), selvel (sacred grove))
-- **主要典拠語根**: `korzanv`, `talvor`, `korsil`, `wylmon`, `talrad`, `selvel`
-
-#### § 16. Zen pamelom el vyr, poran el mi is tasildor.
-- **日本語訳**: 〔第16節〕 星辰図書館が工芸工房を照らし、天蓋と深淵のあわいに立ち現れる。(pamelom（星辰図書館）, tasildor（工芸工房）, domtur（集会所）, valmor（防寒厚外套）, novmin（夜天畏敬）, revlyr（星辰郷愁）)
-- **英語対訳**: Verse 16: The essence of pamelom and tasildor manifests under the celestial dome. (pamelom (grand astral library), tasildor (artisan workshop), domtur (civic assembly hall), valmor (heavy winter cloak), novmin (numinous awe), revlyr (homesickness))
-- **主要典拠語根**: `pamelom`, `tasildor`, `domtur`, `valmor`, `novmin`, `revlyr`
-
-#### § 17. Zen cynval el vyr, poran el mi is sefsir.
-- **日本語訳**: 〔第17節〕 温もりが祈念を照らし、天蓋と深淵のあわいに立ち現れる。(cynval（温もり）, sefsir（祈念）, farven（完成する）, livtas（保ち続ける）, velfal（芽吹く）, korfal（星辰結晶化する）)
-- **英語対訳**: Verse 17: The essence of cynval and sefsir manifests under the celestial dome. (cynval (loving warmth), sefsir (silent prayer), farven (accomplish), livtas (maintain), velfal (sprout greenly), korfal (crystallize))
-- **主要典拠語根**: `cynval`, `sefsir`, `farven`, `livtas`, `velfal`, `korfal`
-
-#### § 18. Zen tulvis el vyr, poran el mi is silvan.
-- **日本語訳**: 〔第18節〕 深遠なが純粋なを照らし、天蓋と深淵のあわいに立ち現れる。(tulvis（深遠な）, silvan（純粋な）, solvis（豊かな）, cynis（星辰温かい）, falvis（聡明な）, krotvis（激烈な）)
-- **英語対訳**: Verse 18: The essence of tulvis and silvan manifests under the celestial dome. (tulvis (profound), silvan (pure), solvis (abundant), cynis (warm-hearted), falvis (luminescently brilliant), krotvis (vehement))
-- **主要典拠語根**: `tulvis`, `silvan`, `solvis`, `cynis`, `falvis`, `krotvis`
-
-#### § 19. Zen darzanik el vyr, poran el mi is talzanv.
-- **日本語訳**: 〔第19節〕 水車が大裂溝峡谷を照らし、天蓋と深淵のあわいに立ち現れる。(darzanik（水車）, talzanv（大裂溝峡谷）, wylkor（凍てつく風）, falradin（日輪光環）, kymdar（星辰夜露）, domzon（星辰城壁）)
-- **英語対訳**: Verse 19: The essence of darzanik and talzanv manifests under the celestial dome. (darzanik (waterwheel), talzanv (canyon), wylkor (glacial wind), falradin (solar halo), kymdar (night dew), domzon (rampart))
-- **主要典拠語根**: `darzanik`, `talzanv`, `wylkor`, `falradin`, `kymdar`, `domzon`
-
-#### § 20. Zen pyrfin el vyr, poran el mi is martenik.
-- **日本語訳**: 〔第20節〕 灰が星辰天秤を照らし、天蓋と深淵のあわいに立ち現れる。(pyrfin（灰）, martenik（星辰天秤）, harlan（聴覚）, porven（渡り歩く）, silfen（和やかに語る）, kiranliv（書き留め続ける）)
-- **英語対訳**: Verse 20: The essence of pyrfin and martenik manifests under the celestial dome. (pyrfin (hearth ashes), martenik (balance scale), harlan (auditory sense), porven (itinerate), silfen (converse peacefully), kiranliv (record continuously))
-- **主要典拠語根**: `pyrfin`, `martenik`, `harlan`, `porven`, `silfen`, `kiranliv`
-
-#### § 21. Zen novval el vyr, poran el mi is cynsen.
-- **日本語訳**: 〔第21節〕 知恵の分かち合いが信愛を照らし、天蓋と深淵のあわいに立ち現れる。(novval（知恵の分かち合い）, cynsen（信愛）, sefliv（抱き続ける希望）, sirvalas（泰平の世）, falminan（光彩頌歌）, lyrcal（哀歌）)
-- **英語対訳**: Verse 21: The essence of novval and cynsen manifests under the celestial dome. (novval (imparting of wisdom), cynsen (faithful devotion), sefliv (enduring hope), sirvalas (era of great tranquility), falminan (hymn of joy), lyrcal (elegy))
-- **主要典拠語根**: `novval`, `cynsen`, `sefliv`, `sirvalas`, `falminan`, `lyrcal`
-
-#### § 22. Zen cynkor el vyr, poran el mi is tasval.
-- **日本語訳**: 〔第22節〕 心を込めてが疾風の如くを照らし、天蓋と深淵のあわいに立ち現れる。(cynkor（心を込めて）, tasval（疾風の如く）, radval（遥か彼方まで）, havval（代々）, dorzen（年周公転期）, falzen（光条角）)
-- **英語対訳**: Verse 22: The essence of cynkor and tasval manifests under the celestial dome. (cynkor (wholeheartedly), tasval (swift as wind), radval (to the far horizon), havval (from generation to generation), dorzen (orbital period), falzen (angle of illumination))
-- **主要典拠語根**: `cynkor`, `tasval`, `radval`, `havval`, `dorzen`, `falzen`
-
-#### § 23. Zen wylzen el vyr, poran el mi is zanzen.
-- **日本語訳**: 〔第23節〕 星気流が深宇宙重力波を照らし、天蓋と深淵のあわいに立ち現れる。(wylzen（星気流）, zanzen（深宇宙重力波）, zohzen（正午主星南中）, zonzen（天球境界）, celkan（天頂儀）, dorkan（軌道面）)
-- **英語対訳**: Verse 23: The essence of wylzen and zanzen manifests under the celestial dome. (wylzen (stellar wind), zanzen (gravitational wave ripple), zohzen (solar culmination), zonzen (celestial demarcation boundary), celkan (zenith telescope), dorkan (orbital plane))
-- **主要典拠語根**: `wylzen`, `zanzen`, `zohzen`, `zonzen`, `celkan`, `dorkan`
-
-#### § 24. Zen sirkan el vyr, poran el mi is talkan2.
-- **日本語訳**: 〔第24節〕 不活性恒星が惑星核を照らし、天蓋と深淵のあわいに立ち現れる。(sirkan（不活性恒星）, talkan2（惑星核）, darfin（川床）, selfin（林床）, talcor（地層累重）, darsel（渓流林）)
-- **英語対訳**: Verse 24: The essence of sirkan and talkan2 manifests under the celestial dome. (sirkan (quiescent dwarf star), talkan2 (planetary core), darfin (riverbed), selfin (forest floor), talcor (geological strata), darsel (riparian forest))
-- **主要典拠語根**: `sirkan`, `talkan2`, `darfin`, `selfin`, `talcor`, `darsel`
-
-#### § 25. Zen wyltal el vyr, poran el mi is darwyl2.
-- **日本語訳**: 〔第25節〕 星辰風成砂丘が星辰霧雨を照らし、天蓋と深淵のあわいに立ち現れる。(wyltal（星辰風成砂丘）, darwyl2（星辰霧雨）, kymvel3（夜咲き花）, falwyl（陽光のそよ風）, kyrdar（氷解水）, darzon（星辰海岸線）)
-- **英語対訳**: Verse 25: The essence of wyltal and darwyl2 manifests under the celestial dome. (wyltal (aeolian dune), darwyl2 (misty drizzle), kymvel3 (nocturnal night-blooming blossom), falwyl (sun-warmed gentle breeze), kyrdar (glacial meltwater), darzon (coastline))
-- **主要典拠語根**: `wyltal`, `darwyl2`, `kymvel3`, `falwyl`, `kyrdar`, `darzon`
-
-#### § 26. Zen marsen el vyr, poran el mi is marval2.
-- **日本語訳**: 〔第26節〕 交易契約が商品を照らし、天蓋と深淵のあわいに立ち現れる。(marsen（交易契約）, marval2（商品）, marjyl（市場連合）, tursen（星辰憲章）, turkiran（法典）, turdom（評議都市）)
-- **英語対訳**: Verse 26: The essence of marsen and marval2 manifests under the celestial dome. (marsen (mercantile agreement), marval2 (trade wares), marjyl (merchant league), tursen (fundamental charter), turkiran (code of laws), turdom (capital city))
-- **主要典拠語根**: `marsen`, `marval2`, `marjyl`, `tursen`, `turkiran`, `turdom`
-
-#### § 27. Zen valtas2 el vyr, poran el mi is pameltas.
-- **日本語訳**: 〔第27節〕 衣裳箱が書見台を照らし、天蓋と深淵のあわいに立ち現れる。(valtas2（衣裳箱）, pameltas（書見台）, pamelval（星辰羊皮紙）, kirpor（尖筆）, kirdar（黒色墨汁）, tasval2（星辰小刀）)
-- **英語対訳**: Verse 27: The essence of valtas2 and pameltas manifests under the celestial dome. (valtas2 (wardrobe chest), pameltas (reading lectern), pamelval (parchment sheet), kirpor (engraving stylus), kirdar (iron gall ink), tasval2 (craft knife))
-- **主要典拠語根**: `valtas2`, `pameltas`, `pamelval`, `kirpor`, `kirdar`, `tasval2`
-
-#### § 28. Zen kymin el vyr, poran el mi is cynfal.
-- **日本語訳**: 〔第28節〕 憂愁が慈愛の眼差しを照らし、天蓋と深淵のあわいに立ち現れる。(kymin（憂愁）, cynfal（慈愛の眼差し）, novsil（調和の知恵）, dursil（精神平静）, sefval（希望の灯火）, sirfal（朝の静けさ）)
-- **英語対訳**: Verse 28: The essence of kymin and cynfal manifests under the celestial dome. (kymin (melancholy brood), cynfal (tender loving gaze), novsil (harmonious wisdom), dursil (equanimity), sefval (beacon of hope), sirfal (serene dawn silence))
-- **主要典拠語根**: `kymin`, `cynfal`, `novsil`, `dursil`, `sefval`, `sirfal`
-
-#### § 29. Zen zoharcal el vyr, poran el mi is kyrcal.
-- **日本語訳**: 〔第29節〕 太陽讃歌が冬の歌を照らし、天蓋と深淵のあわいに立ち現れる。(zoharcal（太陽讃歌）, kyrcal（冬の歌）, darcal（水の歌）, wylcal（風の歌）, talcal（大地の歌）, durcal（不屈の頌歌）)
-- **英語対訳**: Verse 29: The essence of zoharcal and kyrcal manifests under the celestial dome. (zoharcal (solar hymn), kyrcal (winter song), darcal (water canticle), wylcal (wind ballad), talcal (ode to the earth), durcal (song of heroic resilience))
-- **主要典拠語根**: `zoharcal`, `kyrcal`, `darcal`, `wylcal`, `talcal`, `durcal`
-
-#### § 30. Zen morjyl el vyr, poran el mi is lyrvon.
-- **日本語訳**: 〔第30節〕 恒星食が軌道最遠点を照らし、天蓋と深淵のあわいに立ち現れる。(morjyl（恒星食）, lyrvon（軌道最遠点）, nelvon（軌道最近点）, celzon（全天天蓋）, tulyris（星界境界線）, pelvyr（天測眼鏡）)
-- **英語対訳**: Verse 30: The essence of morjyl and lyrvon manifests under the celestial dome. (morjyl (stellar occultation), lyrvon (apoapsis), nelvon (periapsis), celzon (celestial dome), tulyris (horizon), pelvyr (field astrolabe monocle))
-- **主要典拠語根**: `morjyl`, `lyrvon`, `nelvon`, `celzon`, `tulyris`, `pelvyr`
-
-#### § 31. Zen koldar el vyr, poran el mi is torlyn.
-- **日本語訳**: 〔第31節〕 警戒心が星辰悲哀を照らし、天蓋と深淵のあわいに立ち現れる。(koldar（警戒心）, torlyn（星辰悲哀）, helvas（情緒平穏）, falzin（法悦閃光）, falmator（星石ランタン）, serkel（星紋織）)
-- **英語対訳**: Verse 31: The essence of koldar and torlyn manifests under the celestial dome. (koldar (acute vigilance), torlyn (stellar sorrow), helvas (equanimity), falzin (radiant jubilation), falmator (astral crystal lantern), serkel (constellation-pattern cloth))
-- **主要典拠語根**: `koldar`, `torlyn`, `helvas`, `falzin`, `falmator`, `serkel`
-
-#### § 32. Zen serkor el vyr, poran el mi is vonkor.
-- **日本語訳**: 〔第32節〕 織手が陶工を照らし、天蓋と深淵のあわいに立ち現れる。(serkor（織手）, vonkor（陶工）, lyrvad（星影裂け谷）, zelkyr（星砂の砂丘）, morven（霧深き沼沢）, tarvyr（岩礁群）)
-- **英語対訳**: Verse 32: The essence of serkor and vonkor manifests under the celestial dome. (serkor (master weaver), vonkor (potter), lyrvad (chasm valley), zelkyr (astral dunes), morven (misty wetland), tarvyr (archipelago))
-- **主要典拠語根**: `serkor`, `vonkor`, `lyrvad`, `zelkyr`, `morven`, `tarvyr`
-
-#### § 33. Zen solvad el vyr, poran el mi is kyrton.
-- **日本語訳**: 〔第33節〕 星辰盆地が落石を照らし、天蓋と深淵のあわいに立ち現れる。(solvad（星辰盆地）, kyrton（落石）, valmir（染み渡る）, jyltan（微調整する）, vorpad（凝縮する）, tarzon（超越する）)
-- **英語対訳**: Verse 33: The essence of solvad and kyrton manifests under the celestial dome. (solvad (mountain basin), kyrton (rockfall), valmir (permeate deeply), jyltan (fine-tune), vorpad (condense), tarzon (transcend))
-- **主要典拠語根**: `solvad`, `kyrton`, `valmir`, `jyltan`, `vorpad`, `tarzon`
-
-#### § 34. Zen marvyl el vyr, poran el mi is tornen.
-- **日本語訳**: 〔第34節〕 解き放つが星辰手放すを照らし、天蓋と深淵のあわいに立ち現れる。(marvyl（解き放つ）, tornen（星辰手放す）, surlon（煎じる）, lyrzen（瞑想する）, kymtor（凍結させる）, novpan（芽吹く）)
-- **英語対訳**: Verse 34: The essence of marvyl and tornen manifests under the celestial dome. (marvyl (emancipate), tornen (relinquish), surlon (decoct), lyrzen (meditate under stars), kymtor (freeze into stasis), novpan (sprout))
-- **主要典拠語根**: `marvyl`, `tornen`, `surlon`, `lyrzen`, `kymtor`, `novpan`
-
-#### § 35. Zen zelmar el vyr, poran el mi is kirlan.
-- **日本語訳**: 〔第35節〕 風化するが統御するを照らし、天蓋と深淵のあわいに立ち現れる。(zelmar（風化する）, kirlan（統御する）, velpar（紡ぎ出す）, faldur（強輝なる）, mornel（幽暗な）, zenval（精緻な）)
-- **英語対訳**: Verse 35: The essence of zelmar and kirlan manifests under the celestial dome. (zelmar (weather into sand), kirlan (govern with discipline), velpar (spin out), faldur (dazzlingly radiant), mornel (dimly shaded), zenval (exquisitely harmonious))
-- **主要典拠語根**: `zelmar`, `kirlan`, `velpar`, `faldur`, `mornel`, `zenval`
-
-#### § 36. Zen soltis el vyr, poran el mi is harton.
-- **日本語訳**: 〔第36節〕 平穏無事なが険しいを照らし、天蓋と深淵のあわいに立ち現れる。(soltis（平穏無事な）, harton（険しい）)
-- **英語対訳**: Verse 36: The essence of soltis and harton manifests under the celestial dome. (soltis (tranquil), harton (rugged))
-- **主要典拠語根**: `soltis`, `harton`
-
----
-
-## 3. 拡張本・派生録：星辰三翼の物語群（The Three Sister Grimoires）
-
-### 派生録 I：『天蓋航海誌』（Navigatio Caelestis）
-- **概要**: 恒星間跳躍船「アルゴ・ネブラ号」の観測航行日誌。
-- **物語性**: 黄道光の薄暮を抜け、事象の地平面（kymzon）の縁を航行する探査士たちの記録。天体航行工学・航路計算・超新星の残滓を越える叙事詩。
-
-### 派生録 II：『深淵調律秘儀録』（Liber Harmoniae）
-- **概要**: 音響結晶（kris）と星光を共鳴させる調律師たちの秘儀書。
-- **物語性**: 光の波長濁りを清澄化し（falzenor）、重力波と光波を幾何学的に一致させる工学理論。数理・色彩・鉱物・感触のバックボーンを担う。
-
-### 派生録 III：『星影生活誌』（Chronica Quotidianae）
-- **概要**: 天蓋の下に暮らす市井の人々の生活年代記。
-- **物語性**: 朝餉の湯気、市場の行き交い、織り布の手触り、雨上がりの路地、見送り（peltel）と再会の抱擁。衣食住・共同体・温かい感情語彙の生命源泉。
-
----
-
-## 4. 全単語・出典詩節対照索引（Concordance Index）
-
-全 1463 語根の原本章節リファレンス（抜粋）:
-
-| 語根 (Root) | 品詞 | 日本語義 | 英語対訳 | 原本登場詩節 (Locus) |
-| :--- | :--- | :--- | :--- | :--- |
-| **-an** | 接辞 | 場所 | place suffix | 第VIII篇 第4節 |
-| **-ar** | 接辞 | 場所 | place suffix | 第VIII篇 第4節 |
-| **-as** | 接辞 | 日常的な行為者 | everyday agent | 第VIII篇 第4節 |
-| **-ast** | 接辞 | 始動相 | inceptive aspect | 第VIII篇 第3節 |
-| **-cor** | 接辞 | 周期 | iterative aspect | 第VIII篇 第4節 |
-| **-el** | 接辞 | 双数 | dual number | 第VIII篇 第3節 |
-| **-i** | 接辞 | 形容詞化 | adjective suffix | 第VIII篇 第4節 |
-| **-il** | 接辞 | 愛称 | diminutive | 第VIII篇 第4節 |
-| **-in** | 接辞 | 複数 | plural number | 第VIII篇 第3節 |
-| **-is** | 接辞 | 学者 | scholar | 第VIII篇 第4節 |
-| **-ol** | 接辞 | 完了相 | perfective aspect | 第VIII篇 第3節 |
-| **-om** | 接辞 | 状態 | domain suffix | 第VIII篇 第4節 |
-| **-on** | 接辞 | 尊称 | honorific suffix | 第VIII篇 第5節 |
-| **-or** | 接辞 | 専門職 | professional agent | 第VIII篇 第4節 |
-| **-u** | 接辞 | 副詞化 | adverb suffix | 第VIII篇 第4節 |
-| **al** | 格標識 | 与格 | dative marker | 第VIII篇 第2節 |
-| **al-** | 接辞 | 敬意前置標識 | honorific prefix | 第VIII篇 第5節 |
-| **alin** | 形 | 白い | white, pure | 第VI篇 第7節 |
-| **belkor** | 名 | 石工 | master stonemason, glyph carver | 第VIII篇 第31節 |
-| **biodar** | 名 | 清涼飲料 | refreshing fruit water, cool herbal nectar | 第VIII篇 第27節 |
-| **biokor** | 名 | 岩塩 | rock salt crystal, mineral seasoning salt | 第VIII篇 第27節 |
-| **bion** | 動 | 飲む | drink, sip | 第V篇 第18節 |
-| **bionas** | 名 | 水差し | pitcher, jug, decanter | 第V篇 第18節 |
-| **biondis** | 名 | 水筒 | canteen, flask, portable bottle | 第V篇 第8節 |
-| **biondor** | 名 | 薬酒 | tonic, elixir, medicinal draught | 第V篇 第18節 |
-| **bionel** | 名 | 杯 | chalice, cup, goblet | 第V篇 第18節 |
-| **bionmor** | 名 | 果汁 | fruit juice, sweet pressed nectar | 第V篇 第18節 |
-| **bionpalv** | 名 | 酒場 | tavern, alehouse, wayside pub | 第V篇 第18節 |
-| **bionpan** | 動 | 乾杯する | toast, raise cups in cheer, clink glasses | 第V篇 第18節 |
-| **bionsol** | 名 | 麦酒 | ale, brewed malt draught, rustic beer | 第V篇 第18節 |
-| **bionzar** | 名 | 蒸留酒 | distilled spirits, aqua vitae, hard liquor | 第V篇 第19節 |
-| **biotas** | 名 | 食盆 | dining bowl, serving dish, banquet vessel | 第VIII篇 第15節 |
-| **bioval** | 名 | 糧食 | travel rations, provisions, dried food | 第VIII篇 第27節 |
-| **biovel** | 名 | 香草 | culinary herb, aromatic seasoning green | 第VIII篇 第27節 |
-| **borparn** | 名 | 梁 | rafter, joist, ceiling beam | 第V篇 第4節 |
-| **calfen** | 名 | 演説 | speech, address, proclamation | 第VI篇 第1節 |
-| **calor** | 名 | 評議会 | council, parliament, forum | 第VI篇 第1節 |
-| **calun** | 動 | 対話する | converse, converse with | 第VI篇 第14節 |
-| **calvir** | 名 | 請願 | petition, bill, motion | 第VI篇 第1節 |
-| **celan** | 動 | （空や星を）仰ぎ見る | look up, gaze, admire | 第VI篇 第14節 |
-| **celar** | 名 | 極光 | aurora, polar light | 第II篇 第6節 |
-| **celdan** | 名 | 祭壇 | altar of heaven, celestial dais | 第VIII篇 第21節 |
-| **celen** | 名 | 空 | sky, firmament | 第I篇 第1節 |
-| **celis** | 名 | 雲 | cloud, mist, fog | 第II篇 第7節 |
-| **celisi** | 形 | 霞がかった | misty, hazy, nebulous | 第VI篇 第7節 |
-| **celkan** | 名 | 天頂儀 | zenith telescope, vertical celestial tube | 第VIII篇 第23節 |
-| **celkop** | 名 | 頂 | crest, summit, tip | 第I篇 第1節 |
-| **celkym** | 名 | 雨雲 | rain cloud, nimbus, dark sky cloud | 第II篇 第7節 |
-| **celmar** | 動 | 仰ぎ見る | look up toward heavens, revere upward | 第VIII篇 第34節 |
-| **celmir** | 名 | まなざし | eye, gaze, pupil | 第VIII篇 第11節 |
-| **celmon** | 名 | 星間分子雲 | giant molecular cloud, dark interstellar cloud | 第I篇 第1節 |
-| **celmor** | 名 | 立体天球儀 | armillary sphere, celestial globe | 第VIII篇 第13節 |
-| **celnyv** | 名 | 薄霧 | haze, morning mist, blue vapor veil | 第II篇 第7節 |
-| **celos** | 名/副 | 上 | above, upward | 第VI篇 第14節 |
-| **celosu** | 副 | 上へ | upward, aloft, to the heights | 第VI篇 第14節 |
-| **celpar** | 名 | 天窓 | skylight dome, cupola, lantern roof | 第V篇 第4節 |
-| **celporv** | 名 | 日除け庇 | awnings, portico canopy, marquee overhang | 第V篇 第5節 |
-| **celrad** | 名 | 天球座標 | celestial coordinates, right ascension and declination | 第VIII篇 第12節 |
-| **celran** | 名 | 乱層雲 | nimbostratus, dense thunderhead | 第II篇 第7節 |
-| **celton** | 名 | 雷雲 | thunderhead, charged storm cloud | 第VIII篇 第32節 |
-| **celtyr** | 名 | 巻雲 | cirrus cloud, ice feather cloud | 第II篇 第7節 |
-| **celup** | 名 | 天井 | ceiling, roof, canopy | 第V篇 第5節 |
-| **celvan** | 名 | 天球 | celestial sphere, empyrean dome | 第I篇 第1節 |
-| **celvat** | 名 | 星図 | star chart, celestial atlas | 第VIII篇 第12節 |
-| **celvor** | 動 | 覆う | cover, canopy, encompass | 第VI篇 第14節 |
-| **celvorin** | 名 | 霧雨 | drizzle, fine rain, mizzle | 第II篇 第7節 |
-| **celvorv** | 名 | 積乱雲 | cumulonimbus, towering cloud anvil | 第II篇 第7節 |
-| **celzon** | 名 | 全天天蓋 | celestial dome, zenith summit | 第VIII篇 第30節 |
-| **celzyl** | 名 | 青空 | blue sky scattering, azure glow | 第I篇 第1節 |
-| **cironi** | 形 | 静かな | silent, quiet, peaceful | 第VI篇 第7節 |
-| **cironli** | 形 | 賑やかな | lively, bustling, vibrant | 第VI篇 第7節 |
-| **cival** | 動 | 歌う | sing, play music, harmonize | 第VI篇 第14節 |
-| **civdar** | 名 | 心の強さ | inner strength of spirit, mental grit | 第VIII篇 第28節 |
-| **civdorv** | 名 | 太鼓 | drum, timbrel, rhythm kettle | 第V篇 第12節 |
-| **civfal** | 名 | 心の輝き | radiance of soul, inner nobility | 第VIII篇 第28節 |
-| **civnyr** | 名 | 笛 | flute, pipe, reed recorder | 第V篇 第12節 |
-| **civom** | 名 | 叙事詩 | epic poem, cosmological saga | 第V篇 第13節 |
-| **civpanan** | 動 | 作曲する | compose score, weave hymn melody, score music | 第V篇 第13節 |
-| **civsil** | 名 | 澄みきった心 | tranquil pure heart, emotional equilibrium | 第VIII篇 第28節 |
-| **civsol** | 名 | 竪琴 | harp, lyre, starry kithara | 第V篇 第13節 |
-| **civtas** | 名 | 和音 | chord, consonant harmony | 第V篇 第13節 |
-| **civtor** | 名 | 胸の内 | heart, mind, inner spirit | 第VIII篇 第11節 |
-| **civvol** | 名 | 心の共鳴 | spiritual resonance, empathy, mutual understanding | 第VIII篇 第16節 |
-| **civzar** | 名 | 交響曲 | symphony, grand polyphonic concerto | 第V篇 第13節 |
-| **co-** | 接辞 | 連星 | reciprocal voice | 第VIII篇 第4節 |
-| **corval** | 名 | 連星系の重心 | barycenter, common orbital center | 第I篇 第1節 |
-| **cylanar** | 名 | 劇場 | theater, art gallery, salon | 第V篇 第13節 |
-| **cylani** | 形 | 美しい | beautiful, exquisite | 第VI篇 第8節 |
-| **cylanin** | 名 | 調和和音 | harmonic celestial chord, music of spheres | 第VIII篇 第16節 |
-| **cylanval** | 名 | 至高の美 | sublime beauty, breathtaking aesthetic vista | 第VIII篇 第28節 |
-| **cylas** | 名/形 | 美 | beauty, sublime, graceful | 第V篇 第13節 |
-| **cylinor** | 名 | 芸術家 | artist, aesthetician, creator of beauty | 第V篇 第13節 |
-| **cylmin** | 名 | 深い慈愛 | love, affection, tenderness | 第VIII篇 第12節 |
-| **cynas** | 名 | 友情 | friendship, fellowship | 第V篇 第13節 |
-| **cynel** | 名/動 | 愛 | love, affection, cherish | 第V篇 第13節 |
-| **cynfal** | 名 | 慈愛の眼差し | tender loving gaze, benevolent smile | 第VIII篇 第28節 |
-| **cynfin** | 名 | 仲間 | comrade, peer, associate | 第VI篇 第1節 |
-| **cynis** | 形 | 星辰温かい | warm-hearted, gentle, affectionate | 第VIII篇 第18節 |
-| **cynjyl** | 名 | 天体星間同盟 | concord federation, peace alliance | 第VIII篇 第14節 |
-| **cynjylas** | 動 | 絆を結ぶ | forge an unbreakable bond, pledge deep alliance | 第VIII篇 第20節 |
-| **cynkor** | 副 | 心を込めて | wholeheartedly, tenderly, with deep warmth | 第VIII篇 第22節 |
-| **cynmar** | 名 | 扶助 | mutual aid, relief, welfare | 第VI篇 第1節 |
-| **cynor** | 名 | 親友 | confidant, sworn companion | 第VI篇 第1節 |
-| **cynsen** | 名 | 信愛 | faithful devotion, loyal friendship covenant | 第VIII篇 第21節 |
-| **cynur** | 名 | 感謝 | gratitude, thanksgiving | 第V篇 第13節 |
-| **cynval** | 名 | 温もり | loving warmth, tender embrace, kindness | 第VIII篇 第17節 |
-| **dalken** | 動 | 刻印する | inscribe permanently, engrave in stone | 第VIII篇 第33節 |
-| **dankar** | 名 | 基礎 | foundation, plinth, bedrock base | 第V篇 第5節 |
-| **dankarn** | 名 | 厩舎 | stables, mews, beast barn | 第V篇 第5節 |
-| **dankor** | 名 | 市民 | citizen, burgher, resident freeman | 第VI篇 第1節 |
-| **dankorv** | 名 | 元首 | archon, high magistrate, consul | 第VI篇 第1節 |
-| **dar** | 名 | しずく | droplet, dew | 第II篇 第7節 |
-| **darbion** | 名 | 薬湯 | medicinal broth, restorative tonic soup | 第VIII篇 第15節 |
-| **darcal** | 名 | 水の歌 | water canticle, boatman chantey | 第VIII篇 第29節 |
-| **darcon** | 名 | 洪水 | flood, inundation, deluge overflow | 第II篇 第7節 |
-| **darel** | 名 | スープ | soup, broth | 第V篇 第19節 |
-| **darfal** | 名 | 滝 | waterfall, cascade, cataract | 第II篇 第7節 |
-| **darfin** | 名 | 川床 | riverbed, gravel stream bottom | 第VIII篇 第24節 |
-| **darini** | 形 | 柔らかい | soft, supple, pliant | 第VI篇 第8節 |
-| **daris** | 名 | 水 | water, stream | 第II篇 第7節 |
-
-*(※ 全 1463 語根の完全索引は PDF および HTML 正本に完全収録されています)*
+ヴァルネス遺聞・原本巻
+
+### 第1章 焼け残った名簿
+
+都市が沈黙した朝、鐘は一度も鳴らなかった。写字生ユラが灰の下から拾ったのは、表紙も持ち主の名も失った一冊だった。頁の穴は火の形ではない。誰かが、必要な箇所だけを切り取っていた。
+
+灯守セヴは、その帳面を燃やすなと言った。「欠けていることも、残っていることの一つだ」。ユラは余白に最初の記録を書いた。
+
+#### VL-00001
+
+空〈celen〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00002
+
+余白に頂〈celkop〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00003
+
+写字生ユラは、星間分子雲〈celmon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00004
+
+天球〈celvan〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00005
+
+失われた頁にも、青空〈celzyl〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00006
+
+写字生ユラが最初に書き留めたのは、連星系の重心〈corval〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00007
+
+惑星〈doran〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00008
+
+余白に摂動〈dorcon〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00009
+
+写字生ユラは、光度〈falarik〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00010
+
+遠日点〈falasro〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00011
+
+失われた頁にも、朝焼け〈faldenar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00012
+
+写字生ユラが最初に書き留めたのは、屈折〈faldikur〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00013
+
+分光偏光〈falmirin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00014
+
+余白に分光〈falos〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00015
+
+写字生ユラは、反射〈falret〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00016
+
+光〈falun〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00017
+
+失われた頁にも、薄光〈falvyn〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00018
+
+写字生ユラが最初に書き留めたのは、流星〈falyt〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00019
+
+星間偏光〈falzon〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00020
+
+余白に隙間〈jylkon〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00021
+
+写字生ユラは、星の終焉〈kylen〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00022
+
+夜〈kym〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00023
+
+失われた頁にも、夕焼け〈kymdenar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00024
+
+写字生ユラが最初に書き留めたのは、極夜〈kymhav〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00025
+
+日食〈kymos〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00026
+
+余白に暗黒物質〈kymryn〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00027
+
+写字生ユラは、半影〈kymtul〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00028
+
+事象の地平面〈kymzon〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00029
+
+失われた頁にも、深淵〈kyrim〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00030
+
+写字生ユラが最初に書き留めたのは、銀河団〈kyrom〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00031
+
+黒孔〈kyron〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00032
+
+余白に彗星核〈kyrtas〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00033
+
+写字生ユラは、軌道離脱〈larfas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00034
+
+軌道〈laris〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00035
+
+失われた頁にも、軌道傾斜角〈larkan〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00036
+
+写字生ユラが最初に書き留めたのは、軌道遷移〈larven〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00037
+
+星雲〈kyrven〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00038
+
+余白に原生惑星系円盤〈neburil〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00039
+
+写字生ユラは、近日点〈nerisro〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00040
+
+天頂〈novar〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00041
+
+失われた頁にも、距離〈poryk〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00042
+
+写字生ユラが最初に書き留めたのは、脱出速度〈radcon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00043
+
+軌道半径〈radin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00044
+
+余白に傾斜〈taldun〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00045
+
+写字生ユラは、天体衝突〈torp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00046
+
+底面〈tulfin〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00047
+
+失われた頁にも、天底〈tulos〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00048
+
+写字生ユラが最初に書き留めたのは、振動〈tykvar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00049
+
+月〈tynes〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00050
+
+余白に引力〈tyral〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00051
+
+写字生ユラは、引力崩壊〈tyrcon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00052
+
+連星系の重心〈tyrfos〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00053
+
+失われた頁にも、潮汐力〈tyril〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00054
+
+写字生ユラが最初に書き留めたのは、影〈valkir〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00055
+
+軌道離心率〈valosro〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00056
+
+余白に電磁波放射〈valryn〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00057
+
+写字生ユラは、天体脈動〈valur〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00058
+
+星生〈voran〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00059
+
+失われた頁にも、公転〈voris〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00060
+
+写字生ユラが最初に書き留めたのは、公転周期〈vorlyk〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00061
+
+測地線〈vortas〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00062
+
+余白に星〈vyr〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00063
+
+写字生ユラは、天文台〈vyrelar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00064
+
+天体望遠鏡〈vyrelel〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00065
+
+失われた頁にも、星屑〈vyrelis〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00066
+
+写字生ユラが最初に書き留めたのは、天文学者〈vyrelor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00067
+
+写字生ユラは、目の前のものを「星辰の〈vyri〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00068
+
+余白に恒星〈vyris〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00069
+
+写字生ユラは、超新星爆発〈vyrkot〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00070
+
+星座〈vyrom〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00071
+
+失われた頁にも、天球図〈vyrtal〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00072
+
+写字生ユラが最初に書き留めたのは、地平線〈zemin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00073
+
+太陽〈zohar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00074
+
+余白に太陽黒点〈zoharik〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00075
+
+写字生ユラは、恒星風〈zoharil〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00076
+
+白夜〈zoharmon〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00077
+
+失われた頁にも、コロナ〈zoharom〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00078
+
+写字生ユラが最初に書き留めたのは、プロミネンス〈zoharpar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00079
+
+光球層〈zohartur〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00080
+
+余白に恒星風バブル〈zoharven〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00081
+
+写字生ユラは、特異点〈delcon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00082
+
+小数〈delis〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00083
+
+失われた頁にも、連続体〈delrin〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00084
+
+写字生ユラが最初に書き留めたのは、円錐曲線〈dorkat〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00085
+
+楕円〈dorlik〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00086
+
+余白に螺旋〈dorven〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00087
+
+写字生ユラは、定数〈firas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00088
+
+極限値〈firkat〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00089
+
+失われた頁にも、積分〈firsol〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00090
+
+写字生ユラが最初に書き留めたのは、基準〈firtas〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00091
+
+固有値〈firtor〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00092
+
+余白に不変量〈firven〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00093
+
+写字生ユラは、直和〈jylkat〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00094
+
+トポロジー〈jylrin〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00095
+
+失われた頁にも、ノード〈jytel〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00096
+
+写字生ユラが最初に書き留めたのは、偏微分〈keldin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00097
+
+変数〈kelon〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00098
+
+余白に勾配〈kelpon〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00099
+
+写字生ユラは、ベクトル〈kelton〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00100
+
+差異〈kelvis〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00101
+
+失われた頁にも、同型写像〈kircon〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00102
+
+写字生ユラが最初に書き留めたのは、関数〈kiril〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00103
+
+量子〈kvan〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00104
+
+余白に外積〈nifmor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00105
+
+写字生ユラは、公差〈niftas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00106
+
+内積〈niftol〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00107
+
+失われた頁にも、次元〈niven〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00108
+
+写字生ユラが最初に書き留めたのは、上限〈novdin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00109
+
+多面体〈polytar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00110
+
+余白に円〈klor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00111
+
+写字生ユラは、測度〈ryvel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00112
+
+選択肢〈sevur〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00113
+
+失われた頁にも、超限数〈sufcor〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00114
+
+写字生ユラが最初に書き留めたのは、論理和〈sufmor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00115
+
+否定〈sufnar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00116
+
+余白に統計〈sufron〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00117
+
+写字生ユラは、論理積〈suftol〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00118
+
+指数〈suftur〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00119
+
+失われた頁にも、定理〈talisum〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00120
+
+写字生ユラが最初に書き留めたのは、接線〈talrin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00121
+
+下限〈tuldin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00122
+
+余白に多角形〈tulik〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00123
+
+写字生ユラは、整数〈unor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+### 第2章 傾いた観測輪
+
+観測院の上階では、巨大な輪が一つだけ北へ傾いていた。星を追う装置だと教わってきたのに、その影は地下へ延びていた。ユラは輪の寸法と欠けた頁の幅を比べ、同じ比を見つけた。
+
+帳面は説明書ではなかった。遠く離れた人へ、場所を指し示す手紙だった。
+
+#### VL-00124
+
+同一性〈unvis〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00125
+
+失われた頁にも、結論〈vedkar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00126
+
+写字生ユラが最初に書き留めたのは、条件式〈vedot〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00127
+
+反証〈zydcon〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00128
+
+余白に証拠〈zydis〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00129
+
+写字生ユラは、出力〈folin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00130
+
+集合〈jylom〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00131
+
+失われた頁にも、グラフ構造〈jylvat〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00132
+
+写字生ユラが最初に書き留めたのは、電気〈jyn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00133
+
+論理光路〈jyncon〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00134
+
+余白にバッテリー〈jynel〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00135
+
+写字生ユラは、光符束〈jynkas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00136
+
+写字生ユラは、星符を記述する〈kiran〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00137
+
+失われた頁にも、手順〈kirfas〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00138
+
+写字生ユラは、星辰儀を据え付ける〈kirpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00139
+
+論理骨格〈kirvat〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00140
+
+余白に星網流路選定〈kirvel〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00141
+
+写字生ユラは、二値光点〈kiv〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00142
+
+順序整列する〈kivkas〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00143
+
+欄外の「kivku」には「一光点ごとに」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00144
+
+写字生ユラが最初に書き留めたのは、八連光節〈kivlom〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00145
+
+光符演算〈kivmor〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00146
+
+余白に連続光符流〈kivron〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00147
+
+写字生ユラは、星網欠陥耐性〈krotcon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00148
+
+光路異常〈krotel〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00149
+
+失われた頁にも、星符欠陥〈krotis〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00150
+
+写字生ユラは、瓦解する〈krotpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00151
+
+星暗号〈kyvren〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00152
+
+余白に星辰書庫〈livar〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00153
+
+写字生ユラは、恒久保管記録〈livkas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00154
+
+写字生ユラは、波長同調する〈livpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00155
+
+失われた頁にも、不可分確定事象〈livsol〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00156
+
+写字生ユラが最初に書き留めたのは、写真〈lyvel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00157
+
+行列〈marnat〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00158
+
+余白に星辰演算儀〈mator〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00159
+
+写字生ユラは、全系統御核〈matorcon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00160
+
+星石演算核〈matoris〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00161
+
+失われた頁にも、携帯星盤〈pelel〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00162
+
+写字生ユラが最初に書き留めたのは、条理分岐〈sevik〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00163
+
+余剰記憶浄化〈sorcon〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00164
+
+余白に星石記憶素〈soril〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00165
+
+写字生ユラは、即応記憶枠〈sorvat〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00166
+
+数理〈suf〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00167
+
+失われた頁にも、星辰近似測位〈suflik〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00168
+
+写字生ユラが最初に書き留めたのは、要録〈suflit〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00169
+
+星辰数理工学〈sufom〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00170
+
+余白に星辰数理士〈sufor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00171
+
+写字生ユラは、星辰認証印〈sufrin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00172
+
+並行思索流〈suftar〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00173
+
+失われた頁にも、順序待機列〈suftas〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00174
+
+写字生ユラが最初に書き留めたのは、星符照合印〈suftin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00175
+
+メッセージ〈tolas〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00176
+
+余白に星網通信規程〈tolcon〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00177
+
+写字生ユラは、星光伝達遅延〈tolkat〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00178
+
+全天交信星網〈tolom〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00179
+
+星網中継する〈tolpan〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00180
+
+写字生ユラが最初に書き留めたのは、全天一斉放射〈tolpar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00181
+
+星網伝送容量〈tolrin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00182
+
+余白に入力〈torin〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00183
+
+写字生ユラは、クロック〈tyk〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00184
+
+真偽律〈vedil〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00185
+
+失われた頁にも、星図探索する〈velis〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00186
+
+写字生ユラが最初に書き留めたのは、星辰目録〈veltok〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00187
+
+周期巡回〈voret〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00188
+
+余白に星影投影面〈vylatel〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00189
+
+写字生ユラは、スコープ〈vylom〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00190
+
+写字生ユラは、送信する〈wesan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00191
+
+失われた頁にも、星符定型照合式〈zevcon〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00192
+
+写字生ユラが最初に書き留めたのは、星辰記述文〈zevil〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00193
+
+星符解読する〈zevkas〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00194
+
+余白に実証検証する〈zydot〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00472
+
+演説〈calfen〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00473
+
+失われた頁にも、評議会〈calor〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00474
+
+写字生ユラが最初に書き留めたのは、請願〈calvir〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00475
+
+仲間〈cynfin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00476
+
+余白に扶助〈cynmar〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00477
+
+写字生ユラは、親友〈cynor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00478
+
+市民〈dankor〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00479
+
+失われた頁にも、元首〈dankorv〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00480
+
+「正義〈dirin〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00481
+
+「働く〈dolar〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00482
+
+余白に工匠〈dolinar〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00483
+
+写字生ユラは、給与〈dolren〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00484
+
+産業〈dolvan〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00485
+
+失われた頁にも、協同組合〈dolvis〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00486
+
+写字生ユラが最初に書き留めたのは、義務〈dolyk〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00487
+
+代議員〈domnyr〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00488
+
+余白に街区〈dompal〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00489
+
+写字生ユラは、評議会〈domsen〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00490
+
+祭典〈elyrat〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00491
+
+失われた頁にも、条約文書〈jylik〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00492
+
+写字生ユラが最初に書き留めたのは、条約〈jylkan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00493
+
+協力〈jylmar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00494
+
+余白に代表団〈jylmor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00495
+
+写字生ユラは、約束〈jylot〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00496
+
+親交〈jylpal〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00497
+
+失われた頁にも、議定書〈jylporv〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00498
+
+写字生ユラが最初に書き留めたのは、連合〈jyltis〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00499
+
+連邦〈jylzar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00500
+
+余白に憲章〈kuralen〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00501
+
+写字生ユラは、連邦〈kuralis〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00502
+
+隣人〈kuralit〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00503
+
+失われた頁にも、社会〈kuralom〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00504
+
+写字生ユラが最初に書き留めたのは、外交官〈kuralor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00505
+
+指導者〈novor〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00506
+
+余白に集会〈polkar〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00507
+
+写字生ユラは、市民〈polor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00508
+
+投票〈polot〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00509
+
+失われた頁にも、住民票〈polten〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00510
+
+写字生ユラが最初に書き留めたのは、負債〈renik〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00511
+
+銀行〈renlor〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00512
+
+余白に価格〈renvis〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00513
+
+写字生ユラは、公聴会〈senmorv〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00514
+
+写字生ユラは、可決する〈senpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00515
+
+失われた頁にも、全会一致〈senzar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00516
+
+写字生ユラが最初に書き留めたのは、調和〈silan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00517
+
+安寧〈sirar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00518
+
+余白に学者〈sufis〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00519
+
+写字生ユラは、権利〈tarin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00520
+
+許可〈tarkas〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00521
+
+失われた頁にも、判決〈tarlot〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00522
+
+写字生ユラが最初に書き留めたのは、法〈taros〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00523
+
+法廷〈tarosar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+### 第3章 沈黙の議場
+
+評議の席には、いまも十二人分の椅子が並んでいる。ユラは空席へ向かって、街に残された言葉を読んだ。かつて正しいとされた名にも、書き直しの跡があった。
+
+セヴは訂正した行を消さず、細い線で囲んだ。「前に何を信じたかを失えば、また同じ間違いをする」。
+
+#### VL-00524
+
+余白に判例〈tarvyn〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00525
+
+写字生ユラは、憲章〈turcon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00526
+
+刑罰〈turdorn〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00527
+
+宣告する〈turdornan〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00528
+
+写字生ユラが最初に書き留めたのは、判例〈turmorv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00529
+
+民法〈turpal〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00530
+
+写字生ユラは、布告する〈turpanan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00531
+
+写字生ユラは、誓詞〈tursarp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00532
+
+免責〈tursolv〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00533
+
+失われた頁にも、公印〈turtasv〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00534
+
+写字生ユラが最初に書き留めたのは、裁判〈turvan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00535
+
+最高裁判所〈turzar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00536
+
+余白に旗〈vylar〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00537
+
+写字生ユラは、学校〈vyranar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00538
+
+学生〈vyranas〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00539
+
+失われた頁にも、教師〈vyranor〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00540
+
+写字生ユラが最初に書き留めたのは、星辰導師〈vyrisor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00541
+
+事実〈zyd〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00684
+
+写字生ユラが最初に書き留めたのは、太鼓〈civdorv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00685
+
+笛〈civnyr〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00686
+
+余白に叙事詩〈civom〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00687
+
+作曲する〈civpanan〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00688
+
+竪琴〈civsol〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00689
+
+失われた頁にも、和音〈civtas〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00690
+
+写字生ユラが最初に書き留めたのは、交響曲〈civzar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00691
+
+劇場〈cylanar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00692
+
+「美〈cylas〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00693
+
+写字生ユラは、芸術家〈cylinor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00694
+
+友情〈cynas〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00695
+
+失われた頁にも、愛〈cynel〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00696
+
+写字生ユラが最初に書き留めたのは、感謝〈cynur〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00697
+
+写字生ユラは、目の前のものを「忍耐〈duras〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00698
+
+余白に意志〈durlan〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00699
+
+写字生ユラは、勇気〈durtan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00700
+
+「喜び〈elir〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00701
+
+失われた頁にも、祝意〈elirtas〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00702
+
+写字生ユラは、彩色する〈falpanan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00703
+
+壁画〈falzar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00704
+
+余白に直感〈felyn〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00705
+
+「信じる〈fevas〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00706
+
+約束〈fevkar〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00707
+
+失われた頁にも、忠誠〈fevnas〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00708
+
+写字生ユラが最初に書き留めたのは、確信〈fevok〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00709
+
+写字生ユラは、目の前のものを「畏怖〈kefen〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00710
+
+余白に畏敬の念〈kefur〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00711
+
+写字生ユラは、彫像〈kolzan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00712
+
+写字生ユラは、忘れる〈kores〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00713
+
+写字生ユラは、目の前のものを「激動〈krotas〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00714
+
+写字生ユラが最初に書き留めたのは、葛藤〈krotik〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00715
+
+焦燥〈krotiluk〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00716
+
+余白に宿命〈larvyn〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00717
+
+写字生ユラは、目の前のものを「哀愁〈lyras〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00718
+
+鎮魂歌〈lyren〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00719
+
+失われた頁にも、後悔〈lyrtas〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00720
+
+写字生ユラが最初に書き留めたのは、郷愁〈lyrvik〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00721
+
+「思索する〈memar〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00722
+
+余白に矜持〈mincor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00723
+
+写字生ユラは、直観〈mindan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00724
+
+慈愛〈minnyr〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00725
+
+失われた頁にも、安らぎ〈minpalv〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00726
+
+写字生ユラは、決断する〈minpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00727
+
+祈る〈minpanan〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00728
+
+余白に好奇心〈minparv〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00729
+
+写字生ユラは、覚悟〈minsol〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00730
+
+憧憬〈minvol〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00731
+
+失われた頁にも、悟り〈minzar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00732
+
+写字生ユラが最初に書き留めたのは、敬意〈novis〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00733
+
+祝祭〈sarcon〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00734
+
+余白に哀傷〈sardorn〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00735
+
+写字生ユラは、ユーモア〈sarmon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00736
+
+写字生ユラは、慰める〈sarpanan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00737
+
+失われた頁にも、至福〈sarzar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00738
+
+「平穏〈sirin〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00739
+
+寛容〈sirlem〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00740
+
+余白に瞑想者〈sirvanis〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00741
+
+写字生ユラは、目の前のものを「瞑想〈sirvon〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00742
+
+「孤高〈solen〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00743
+
+夢を見る〈muran〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00744
+
+写字生ユラが最初に書き留めたのは、夢〈sonir〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00745
+
+記憶〈soras〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00746
+
+「叡智〈sufan〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00747
+
+写字生ユラは、論理体系〈suflom〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00748
+
+機転〈sufvis〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00749
+
+失われた頁にも、誠実〈sylfir〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00750
+
+写字生ユラが最初に書き留めたのは、心〈sylim〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00751
+
+誓い〈sylkin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00752
+
+余白に決断〈sylran〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00753
+
+写字生ユラは、探求心〈tyras〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00754
+
+真理〈vyran〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00755
+
+失われた頁にも、哲学者〈vyranis〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00756
+
+写字生ユラが最初に書き留めたのは、抱負〈weldor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00757
+
+写字生ユラは、目の前のものを「希望〈welin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00758
+
+余白に祈り〈welnas〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00759
+
+写字生ユラは、目の前のものを「自由〈wylin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-20001
+
+読み違えた箇所は「mi」だった。写字生ユラは「私」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20002
+
+写字生ユラは「miel」の横に「私たち二人」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20003
+
+読み違えた箇所は「miin」だった。写字生ユラは「私たち」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20004
+
+写字生ユラは「ti」の横に「あなた」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20005
+
+読み違えた箇所は「tiel」だった。写字生ユラは「あなたたち二人」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20006
+
+写字生ユラは「tiin」の横に「あなたたち」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20007
+
+読み違えた箇所は「ri」だった。写字生ユラは「彼」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20008
+
+写字生ユラは「riel」の横に「あの二人」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20009
+
+読み違えた箇所は「riin」だった。写字生ユラは「彼ら」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20010
+
+写字生ユラは「hite」の横に「これ」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20011
+
+読み違えた箇所は「tate」だった。写字生ユラは「それ」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20012
+
+写字生ユラは「vate」の横に「あれ」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20013
+
+読み違えた箇所は「kate」だった。写字生ユラは「何」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20014
+
+写字生ユラは「sente」の横に「万物」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20015
+
+読み違えた箇所は「nite」だった。写字生ユラは「無」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20016
+
+写字生ユラは「hias」の横に「この人」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20017
+
+読み違えた箇所は「taas」だった。写字生ユラは「その人」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20018
+
+写字生ユラは「vaas」の横に「あの人」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20019
+
+読み違えた箇所は「kaas」だった。写字生ユラは「誰」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20020
+
+写字生ユラは「senas」の横に「全員」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20021
+
+読み違えた箇所は「nias」だった。写字生ユラは「誰も〜ない」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20022
+
+写字生ユラは「hiuo」の横に「ここ」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20023
+
+読み違えた箇所は「tauo」だった。写字生ユラは「そこ」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20024
+
+写字生ユラは「vauo」の横に「あそこ」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20025
+
+読み違えた箇所は「kauo」だった。写字生ユラは「どこ」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20026
+
+写字生ユラは「senuo」の横に「至る所」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20027
+
+読み違えた箇所は「niuo」だった。写字生ユラは「どこにも〜ない」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20028
+
+写字生ユラは「hihav」の横に「今」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20029
+
+読み違えた箇所は「tahav」だった。写字生ユラは「その時」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+### 第4章 灰環の外側
+
+夜、城壁の割れ目から細い灯が見えた。都市の外は何もない、と名簿には書かれている。ユラはその一行の横へ、小さな疑問符を置いた。
+
+外へ出た二人は、瓦礫の向こうに他の人々の足跡を見つけた。街は世界の終わりではなかった。
+
+#### VL-20030
+
+写字生ユラは「vahav」の横に「往時」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20031
+
+読み違えた箇所は「kahav」だった。写字生ユラは「いつ」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20032
+
+写字生ユラは「senhav」の横に「常に」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20033
+
+読み違えた箇所は「nihav」だった。写字生ユラは「決して〜ない」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20034
+
+写字生ユラは「hiku」の横に「このように」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20035
+
+読み違えた箇所は「taku」だった。写字生ユラは「そのように」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20036
+
+写字生ユラは「vaku」の横に「あのように」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20037
+
+読み違えた箇所は「kaku」だった。写字生ユラは「どう」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20038
+
+写字生ユラは「senku」の横に「あらゆる方法で」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20039
+
+読み違えた箇所は「niku」だった。写字生ユラは「どうやっても〜ない」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20040
+
+写字生ユラは「hizen」の横に「この故に」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20041
+
+読み違えた箇所は「tazen」だった。写字生ユラは「それ故に」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20042
+
+写字生ユラは「vazen」の横に「あの故に」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20043
+
+読み違えた箇所は「kazen」だった。写字生ユラは「なぜ」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20044
+
+写字生ユラは「senzen」の横に「あらゆる理由で」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20045
+
+読み違えた箇所は「nizen」だった。写字生ユラは「何の理由もなく」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20046
+
+写字生ユラは「el」の横に「主格」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20047
+
+読み違えた箇所は「ia」だった。写字生ユラは「対格」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20048
+
+写字生ユラは「al」の横に「与格」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20049
+
+読み違えた箇所は「en」だった。写字生ユラは「属格」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20050
+
+写字生ユラは「uo」の横に「処格」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20051
+
+読み違えた箇所は「de」だった。写字生ユラは「具格」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20052
+
+写字生ユラは「to」の横に「向格」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20053
+
+読み違えた箇所は「va」だった。写字生ユラは「奪格」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20054
+
+写字生ユラは「ku」の横に「共格」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20055
+
+読み違えた箇所は「fe」だった。写字生ユラは「過去」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20056
+
+写字生ユラは「se」の横に「未来」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20057
+
+読み違えた箇所は「di」だった。写字生ユラは「継続」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20058
+
+写字生ユラは「ne」の横に「否定」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20059
+
+読み違えた箇所は「nila」だった。写字生ユラは「根源的否定」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20060
+
+写字生ユラは「ka」の横に「疑問」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20061
+
+読み違えた箇所は「ze」だった。写字生ユラは「文末助詞 ze」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20062
+
+写字生ユラは「na」の横に「文末助詞 na」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20063
+
+読み違えた箇所は「lo」だった。写字生ユラは「文末助詞 lo」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20064
+
+写字生ユラは「i」の横に「関係節標識」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20065
+
+読み違えた箇所は「sen」だった。写字生ユラは「条件」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20069
+
+読み違えた箇所は「-el」だった。写字生ユラは「双数」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20070
+
+写字生ユラは「-in」の横に「複数」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20071
+
+読み違えた箇所は「-ast」だった。写字生ユラは「始動相」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20072
+
+写字生ユラは「-ol」の横に「完了相」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20073
+
+読み違えた箇所は「-cor」だった。写字生ユラは「周期」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20074
+
+写字生ユラは「re-」の横に「反照」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20075
+
+読み違えた箇所は「co-」だった。写字生ユラは「連星」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20076
+
+写字生ユラは「-as」の横に「日常的な行為者」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20077
+
+読み違えた箇所は「-or」だった。写字生ユラは「専門職」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20078
+
+写字生ユラは「-is」の横に「学者」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20079
+
+読み違えた箇所は「-ar」だった。写字生ユラは「場所」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20080
+
+写字生ユラは「-an」の横に「場所」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20081
+
+読み違えた箇所は「-il」だった。写字生ユラは「愛称」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20082
+
+写字生ユラは「-i」の横に「形容詞化」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20083
+
+読み違えた箇所は「-u」だった。写字生ユラは「副詞化」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20084
+
+写字生ユラは「-om」の横に「状態」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-20085
+
+読み違えた箇所は「-on」だった。写字生ユラは「尊称」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-20086
+
+写字生ユラは「al-」の横に「敬意前置標識」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-30001
+
+「嫌う〈nyrcan〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30002
+
+写字生ユラは、殺す〈kyrdan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30003
+
+写字生ユラは、未来〈sehvan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30004
+
+過去〈fehvan〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30005
+
+失われた頁にも、物語〈soralen〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30006
+
+写字生ユラは、思い出す〈sorvel〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30007
+
+展望する〈valcyn〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30008
+
+写字生ユラは、予見する〈vyrcen〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30009
+
+「知る〈velsen〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30010
+
+写字生ユラは、理解する〈tornas〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30011
+
+覚える〈sorvyan〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30012
+
+写字生ユラは、失念する〈sorkan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30013
+
+「見つける〈tornel〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30014
+
+写字生ユラは、始める〈nebtas〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30015
+
+始まる〈nebpan〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30016
+
+写字生ユラは、星辰終える〈klotas〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30017
+
+「終わる〈klopan〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30018
+
+写字生ユラは、会う〈morvan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30019
+
+集める〈jyltas〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30020
+
+写字生ユラは、集まる〈jylren〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30021
+
+「教える〈kirval〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30022
+
+写字生ユラは、学ぶ〈kirtan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30023
+
+助ける〈zeldar〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30024
+
+写字生ユラは、防衛する〈dursen〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30025
+
+「変える〈valcen〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30026
+
+写字生ユラは、変わる〈valpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30027
+
+星辰届く〈tordin〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30028
+
+写字生ユラは、運ぶ〈marval〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30029
+
+「勝つ〈turvel〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30030
+
+写字生ユラは、負ける〈turkan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30031
+
+喜ぶ〈eliran〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30032
+
+写字生ユラは、悲しむ〈lyran〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30033
+
+「怒る〈krotan〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30034
+
+写字生ユラは、驚く〈falpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30035
+
+聞こえる〈hardin〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30036
+
+写字生ユラは、尋ねる〈kartor〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30037
+
+「聞き知る〈harsen〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30038
+
+写字生ユラは、聞き入れる〈hardor〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30039
+
+組み立てる〈komas〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30040
+
+写字生ユラは、創出する〈vorzen〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30041
+
+「急ぐ〈vorpas〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30042
+
+写字生ユラは、帰る〈revdar〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30043
+
+留まる〈mordan〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30044
+
+写字生ユラは、旅立つ〈dyrtas〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30045
+
+「感じる〈velrin〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30046
+
+写字生ユラは、星辰握る〈morkan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30047
+
+叫ぶ〈vyltas〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30048
+
+欄外の「havon」には「いつも」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30049
+
+欄外の「havtul」には「時々」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30053
+
+欄外の「solpar」には「とても」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30054
+
+欄外の「vyntul」には「少し」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30055
+
+欄外の「narval」には「全く」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30056
+
+欄外の「radon」には「かなり」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30057
+
+欄外の「moril」には「ゆっくり」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30058
+
+欄外の「tasin」には「早く」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30059
+
+欄外の「sirik」には「静かに」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30060
+
+欄外の「kulen」には「共に」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30061
+
+欄外の「minkir」には「独りで」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30062
+
+余白に恵みの雨〈darlan〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30063
+
+写字生ユラは、大雪〈kyrlan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30064
+
+樹木群落〈seldor〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30065
+
+失われた頁にも、大河〈darven〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30066
+
+写字生ユラが最初に書き留めたのは、大気の息吹〈vanur〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30067
+
+広野〈talmar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30074
+
+余白に天恵賛歌〈vyllik〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30076
+
+胸の内〈civtor〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30086
+
+余白に静穏境〈sirval〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30089
+
+失われた頁にも、高層天文台〈vyrelom〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30090
+
+写字生ユラが最初に書き留めたのは、天体望遠儀〈vyrelik〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+### 第5章 空白を運ぶ者
+
+切り取られた頁は港で見つかった。避難した者たちは、失われた街の言葉を包み紙や舟板へ写して持ち出していた。一つの原本が失われても、言葉は誰かの暮らしに残る。
+
+ユラは頁を元へ戻そうとして手を止めた。旅のあいだに書き足された文字まで、古い順番に閉じ込めることはできなかった。
+
+#### VL-30091
+
+星図〈celvat〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30092
+
+余白に天球座標〈celrad〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30093
+
+写字生ユラは、光年〈falhav〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30094
+
+重力錨〈dorjyl〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30095
+
+失われた頁にも、推進機関〈vorven〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30097
+
+彗星尾〈kyrzanv〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30098
+
+余白に軌道共鳴〈lariskot〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30099
+
+写字生ユラは、微惑星群〈talmon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30100
+
+天体視差〈radcel〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30101
+
+失われた頁にも、整調光線〈falsil〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30102
+
+写字生ユラが最初に書き留めたのは、暗黒星雲核〈tuloskym〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30103
+
+立体天球儀〈celmor〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30104
+
+余白に日輪光冠〈zoharlan〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30105
+
+写字生ユラは、氷殻惑星〈kyrvel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30106
+
+遠日半径〈larisrad〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30107
+
+失われた頁にも、惑星地殻〈dorfin〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30108
+
+写字生ユラが最初に書き留めたのは、光圧〈faldar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30109
+
+星辰評議会〈turjyl〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30110
+
+余白に星辰執政官〈novtur〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30111
+
+写字生ユラは、誓約書〈senpamel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30112
+
+市民権〈domciv〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30113
+
+失われた頁にも、星辰法廷〈turdan〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30114
+
+写字生ユラが最初に書き留めたのは、境界標〈zontal〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30115
+
+職人工匠同盟〈dolsen〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30116
+
+余白に交易路〈marten〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30117
+
+写字生ユラは、天体星間同盟〈cynjyl〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30118
+
+通行証〈renpamel〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30119
+
+失われた頁にも、布告書〈turval〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30121
+
+晶洞〈korzanv〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30124
+
+星辰鉱脈〈talvor〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30125
+
+失われた頁にも、純星石〈korsil〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30141
+
+写字生ユラは、夜天畏敬〈novmin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30143
+
+失われた頁にも、調和和音〈cylanin〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30144
+
+写字生ユラが最初に書き留めたのは、星辰年代記〈fevkiran〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30145
+
+心の共鳴〈civvol〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30146
+
+余白に星辰洞察〈minrad〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30147
+
+写字生ユラは、沈思黙考〈sirnov〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30148
+
+星光祝祭〈elircon〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30150
+
+写字生ユラが最初に書き留めたのは、祈念〈sefsir〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30151
+
+完成する〈farven〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30152
+
+写字生ユラは、保ち続ける〈livtas〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30154
+
+写字生ユラは、芽吹く〈velfal〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30155
+
+星辰結晶化する〈korfal〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30156
+
+写字生ユラは、踏破する〈talpor〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30157
+
+「星辰凪ぐ〈sirvan〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30158
+
+写字生ユラは、和解する〈jylfen〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30159
+
+回想する〈revcal〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30160
+
+写字生ユラは、導く〈zoldar〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30161
+
+写字生ユラは、目の前のものを「遥かな〈radis〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30162
+
+「深遠な〈tulvis〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30163
+
+写字生ユラは、目の前のものを「純粋な〈silvan〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30165
+
+写字生ユラは、目の前のものを「豊かな〈solvis〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30166
+
+「星辰温かい〈cynis〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30167
+
+写字生ユラは、目の前のものを「聡明な〈falvis〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30168
+
+「激烈な〈krotvis〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30171
+
+写字生ユラは、極夜期〈kymvel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30172
+
+極昼期〈zohhav〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30177
+
+写字生ユラは、大裂溝峡谷〈talzanv〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30179
+
+失われた頁にも、日輪光環〈falradin〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30193
+
+「渡り歩く〈porven〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30195
+
+和やかに語る〈silfen〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30196
+
+写字生ユラは、書き留め続ける〈kiranliv〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30197
+
+「悟り開く〈novfar〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30198
+
+写字生ユラは、夜明けに出立する〈falpor〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30199
+
+絆を結ぶ〈cynjylas〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30200
+
+写字生ユラは、夜に籠もる〈kymmor〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30201
+
+写字生ユラは、清らかな心〈silciv〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30202
+
+星辰不屈の志〈durciv〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30203
+
+失われた頁にも、知恵の分かち合い〈novval〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30204
+
+写字生ユラが最初に書き留めたのは、信愛〈cynsen〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30205
+
+抱き続ける希望〈sefliv〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30206
+
+余白に泰平の世〈sirvalas〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30207
+
+写字生ユラは、光彩頌歌〈falminan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30208
+
+哀歌〈lyrcal〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30211
+
+写字生ユラは、目の前のものを「静穏なる〈sirvalen〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30213
+
+写字生ユラは、目の前のものを「満ち溢れる〈solren〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30215
+
+写字生ユラは、目の前のものを「燦然たる〈falsin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30216
+
+欄外の「minkor」には「ひたむきに」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30217
+
+欄外の「cynkor」には「心を込めて」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30218
+
+欄外の「tasval」には「疾風の如く」とある。写字生ユラはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30221
+
+失われた頁にも、年周公転期〈dorzen〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30222
+
+写字生ユラが最初に書き留めたのは、光条角〈falzen〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30223
+
+星間氷微粒〈kyrzen〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30224
+
+余白に軌道交点〈larzen〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30225
+
+写字生ユラは、天頂角〈novzen〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30226
+
+軌道長半径〈radzen〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30227
+
+失われた頁にも、地衡風〈talzen〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30228
+
+写字生ユラが最初に書き留めたのは、重力井戸〈tulzen〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30230
+
+余白に星気流〈wylzen〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30231
+
+写字生ユラは、深宇宙重力波〈zanzen〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30232
+
+正午主星南中〈zohzen〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30233
+
+失われた頁にも、天球境界〈zonzen〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30234
+
+写字生ユラが最初に書き留めたのは、天頂儀〈celkan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30235
+
+軌道面〈dorkan〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30236
+
+余白に集光鏡〈falkan〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30238
+
+天測原簿〈kirkan〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30239
+
+失われた頁にも、夜半〈kymkan〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30240
+
+写字生ユラが最初に書き留めたのは、氷雪冠〈kyrkan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30241
+
+離心率〈larkan2〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30243
+
+写字生ユラは、近点距離〈radkan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30244
+
+不活性恒星〈sirkan〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30245
+
+失われた頁にも、惑星核〈talkan2〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30246
+
+写字生ユラが最初に書き留めたのは、川床〈darfin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30247
+
+林床〈selfin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30248
+
+余白に地層累重〈talcor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30249
+
+写字生ユラは、渓流林〈darsel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30251
+
+失われた頁にも、風鳴りの森〈wylsel〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30252
+
+写字生ユラが最初に書き留めたのは、星辰木漏れ日〈falvel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30253
+
+星辰樹氷〈kyrvel2〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30255
+
+写字生ユラは、星辰肥沃土〈talvel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30256
+
+琥珀〈selkor〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30257
+
+失われた頁にも、水晶晶簇〈korfal2〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30258
+
+写字生ユラが最初に書き留めたのは、星辰風成砂丘〈wyltal〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30259
+
+星辰霧雨〈darwyl2〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30260
+
+余白に夜咲き花〈kymvel3〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30261
+
+写字生ユラは、陽光のそよ風〈falwyl〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30262
+
+氷解水〈kyrdar〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30264
+
+写字生ユラが最初に書き留めたのは、星辰海岸線〈darzon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30265
+
+森の入り口〈selzon〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30266
+
+余白に街明かり〈domfal〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30267
+
+写字生ユラは、上水道〈domdar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30268
+
+街区公園〈domsel〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30269
+
+失われた頁にも、広場市場〈domval〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+### 第6章 綴じ終えない本
+
+帰還の日、セヴは灯を観測輪の中心へ置いた。輪はもう星を追わない。外の道を歩く人に、ここに帰れると知らせる灯となった。
+
+ユラは最後の頁を白いまま残した。本を閉じるための空白ではなく、次の手が続きを書くための空白だった。
+
+#### VL-30270
+
+写字生ユラが最初に書き留めたのは、夜間警邏〈domkym〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30272
+
+余白に交易契約〈marsen〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30273
+
+写字生ユラは、商品〈marval2〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30274
+
+市場連合〈marjyl〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30275
+
+失われた頁にも、星辰憲章〈tursen〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30276
+
+写字生ユラが最初に書き留めたのは、法典〈turkiran〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30277
+
+評議都市〈turdom〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30278
+
+余白に宣誓〈senval〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30279
+
+写字生ユラは、良心〈senciv〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30281
+
+失われた頁にも、湯沸かし釜〈pyrdar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30282
+
+写字生ユラが最初に書き留めたのは、行灯〈pyrsil〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30283
+
+留め金〈valtin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30284
+
+余白に星辰環帯〈valran〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30285
+
+写字生ユラは、衣裳箱〈valtas2〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30286
+
+書見台〈pameltas〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30287
+
+失われた頁にも、星辰羊皮紙〈pamelval〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30288
+
+写字生ユラが最初に書き留めたのは、尖筆〈kirpor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30289
+
+黒色墨汁〈kirdar〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30290
+
+余白に星辰小刀〈tasval2〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30291
+
+写字生ユラは、糧食〈bioval〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30292
+
+清涼飲料〈biodar〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30293
+
+失われた頁にも、岩塩〈biokor〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30294
+
+写字生ユラが最初に書き留めたのは、香草〈biovel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30295
+
+星辰敷石〈domfin〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30296
+
+余白に晴れやかな笑顔〈falmin2〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30297
+
+写字生ユラは、憂愁〈kymin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30298
+
+慈愛の眼差し〈cynfal〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30299
+
+失われた頁にも、調和の知恵〈novsil〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30300
+
+写字生ユラが最初に書き留めたのは、精神平静〈dursil〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30301
+
+希望の灯火〈sefval〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30302
+
+余白に朝の静けさ〈sirfal〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30303
+
+写字生ユラは、至高の美〈cylanval〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30304
+
+古の記憶〈fevval〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30305
+
+失われた頁にも、心の強さ〈civdar〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30306
+
+写字生ユラが最初に書き留めたのは、澄みきった心〈civsil〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30307
+
+心の輝き〈civfal〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30308
+
+余白に星の詩〈vyrcal〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30309
+
+写字生ユラは、太陽讃歌〈zoharcal〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30310
+
+冬の歌〈kyrcal〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30311
+
+失われた頁にも、水の歌〈darcal〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30312
+
+写字生ユラが最初に書き留めたのは、風の歌〈wylcal〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30313
+
+大地の歌〈talcal〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30314
+
+余白に不屈の頌歌〈durcal〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30315
+
+写字生ユラは、子守唄〈sircal〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30316
+
+星辰光度〈orvlun〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30317
+
+失われた頁にも、天測星座盤〈taljyl〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30318
+
+写字生ユラが最初に書き留めたのは、星辰記録官〈vyrekor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30319
+
+散開星団〈zenkel〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30320
+
+余白に新星〈novyras〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30321
+
+写字生ユラは、恒星食〈morjyl〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30322
+
+軌道最遠点〈lyrvon〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30323
+
+失われた頁にも、軌道最近点〈nelvon〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30324
+
+写字生ユラが最初に書き留めたのは、全天天蓋〈celzon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30325
+
+星界境界線〈tulyris〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30326
+
+余白に天測眼鏡〈pelvyr〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30327
+
+写字生ユラは、神秘崇敬〈sarylis〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30328
+
+静かな受容〈vorlan〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30329
+
+失われた頁にも、星辰確信〈fendur〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30330
+
+写字生ユラが最初に書き留めたのは、星辰慈愛〈mervas〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30331
+
+静寂なる独処〈zulyr〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30332
+
+余白に熱情〈parylis〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30333
+
+写字生ユラは、警戒心〈koldar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30334
+
+星辰悲哀〈torlyn〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30335
+
+失われた頁にも、情緒平穏〈helvas〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30336
+
+写字生ユラが最初に書き留めたのは、法悦閃光〈falzin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30337
+
+星石ランタン〈falmator〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30338
+
+余白に星紋織〈serkel〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30339
+
+写字生ユラは、星粘土器〈vontar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30340
+
+記録針〈dolkiv〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30341
+
+失われた頁にも、蒸留器〈tanmator〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30342
+
+写字生ユラが最初に書き留めたのは、夜天の外套〈morvel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30343
+
+蓄熱調理台〈survan〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30344
+
+余白に石工〈belkor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30345
+
+写字生ユラは、織手〈serkor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30346
+
+陶工〈vonkor〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30347
+
+失われた頁にも、星影裂け谷〈lyrvad〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30348
+
+写字生ユラが最初に書き留めたのは、星砂の砂丘〈zelkyr〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30349
+
+霧深き沼沢〈morven〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30350
+
+余白に岩礁群〈tarvyr〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30351
+
+写字生ユラは、清水の泉〈falnod〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30352
+
+白霜〈kymril〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30353
+
+失われた頁にも、雷雲〈celton〉のことが書かれていたという。写字生ユラは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30354
+
+写字生ユラが最初に書き留めたのは、微風〈novlis〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30355
+
+星辰永久凍土〈valkym〉をめぐる話は、人ごとに少しずつ違った。写字生ユラは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30356
+
+余白に潮汐〈zenvor〉の名が加わった。写字生ユラはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30357
+
+写字生ユラは、星辰盆地〈solvad〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30358
+
+落石〈kyrton〉という言葉を、写字生ユラは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30359
+
+染み渡る〈valmir〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30360
+
+写字生ユラは、微調整する〈jyltan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30361
+
+「凝縮する〈vorpad〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30362
+
+写字生ユラは、超越する〈tarzon〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30363
+
+反響する〈nyrmel〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30364
+
+写字生ユラは、昇華する〈falvor〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30365
+
+「刻印する〈dalken〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30366
+
+写字生ユラは、踏査する〈peldor〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30367
+
+集約する〈kelsur〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30368
+
+写字生ユラは、共振する〈zenpar〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30369
+
+「解き放つ〈marvyl〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30370
+
+写字生ユラは、星辰手放す〈tornen〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30371
+
+煎じる〈surlon〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30372
+
+写字生ユラは、瞑想する〈lyrzen〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30373
+
+「凍結させる〈kymtor〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30374
+
+写字生ユラは、芽吹く〈novpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30375
+
+仰ぎ見る〈celmar〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30376
+
+写字生ユラは、根付く〈tulpar〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30377
+
+「研ぎ澄ます〈durfal〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30378
+
+写字生ユラは、遮蔽する〈morken〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30379
+
+熱望する〈fanvor〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30380
+
+写字生ユラは、沈殿する〈solmer〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-30381
+
+「風化する〈zelmar〉」。写字生ユラは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-30382
+
+写字生ユラは、統御する〈kirlan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30383
+
+紡ぎ出す〈velpar〉ことには、いつも小さなためらいが伴った。写字生ユラはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-30384
+
+「強輝なる〈faldur〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30385
+
+写字生ユラは、目の前のものを「幽暗な〈mornel〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30386
+
+「精緻な〈zenval〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30387
+
+写字生ユラは、目の前のものを「高邁な〈lyrtan〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30388
+
+「堅牢な〈tulkor〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30389
+
+写字生ユラは、目の前のものを「星辰みずみずしい〈novran〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30390
+
+「冷涼な〈velkym〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30391
+
+写字生ユラは、目の前のものを「星辰灼熱の〈parsur〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30392
+
+「忠実な〈dortan〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-30393
+
+写字生ユラは、目の前のものを「平穏無事な〈soltis〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-30394
+
+「険しい〈harton〉」。それが写字生ユラの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+
+これをヴァルネスの遺聞とする。灰の下に残ったものだけでなく、灰の外で育ったものを、ともに綴じる。
+
+## 塩風の余白
+
+ヴァルネス遺聞・航海別巻
+
+### 第1章 出帆のない朝
+
+舟守トアは、出港を命じる鐘を待つのをやめた。桟橋の柱に小さな札を結び、戻る日を空欄にした。船に積んだのは物資よりも、誰に届けるかを書いた紙片だった。
+
+ユラから渡された薄い帳面には、陸で使われる言葉が詰まっていた。海では同じものにも別の呼び方がある。トアは相違を削らず、二つを並べて記した。
+
+#### VL-00275
+
+失われた頁にも、山〈novan〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00276
+
+舟守トアが最初に書き留めたのは、火山〈pyrtal〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00277
+
+大地〈tal〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00278
+
+余白に泥〈taldar〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00279
+
+舟守トアは、鉄鉱石〈taldol〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00280
+
+侵食〈taldorn〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00281
+
+失われた頁にも、断層〈talfir〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00282
+
+舟守トアが最初に書き留めたのは、土埃〈talfot〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00283
+
+崖〈talgen〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00284
+
+余白に谷〈talik〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00285
+
+舟守トアは、石〈talyr〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00286
+
+採石場〈talyrar〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00287
+
+失われた頁にも、磁鉄鉱〈taljyn〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00288
+
+舟守トアが最初に書き留めたのは、磁気異常地帯〈taljynar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00289
+
+露頭〈talkanorv〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00290
+
+余白に地震〈talkrot〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00291
+
+舟守トアは、丘〈talmor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00292
+
+花崗岩〈talmorin〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00293
+
+失われた頁にも、堆積〈talmorv〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00294
+
+舟守トアが最初に書き留めたのは、腐植土壌〈talner〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00295
+
+雲母〈talnyr〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00296
+
+余白に平原〈talom〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00297
+
+舟守トアは、島〈talon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00298
+
+舟守トアは、崩落する〈talpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00299
+
+失われた頁にも、砂利河原〈talparv〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00300
+
+舟守トアが最初に書き留めたのは、地層〈talpen〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00301
+
+カルデラ〈talpyrcon〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00302
+
+余白に溶岩〈talpyrven〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00303
+
+舟守トアは、砂漠〈talrim〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00304
+
+砂丘〈talrimor〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00305
+
+失われた頁にも、石英〈talryn〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00306
+
+舟守トアが最初に書き留めたのは、段丘〈talsarv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00307
+
+岬〈talser〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00308
+
+余白に砂〈talsid〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00309
+
+舟守トアは、鉱脈〈talsil〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00310
+
+玄武岩〈talsol〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00311
+
+失われた頁にも、盆地〈talsor〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00312
+
+舟守トアが最初に書き留めたのは、珪岩〈talsorn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00313
+
+金属〈talur〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00314
+
+余白に硫黄鉱床〈talvarp〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00315
+
+舟守トアは、峡谷底〈talvelk〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00316
+
+峡湾〈talvon〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00317
+
+失われた頁にも、地下水脈孔〈talvort〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00318
+
+舟守トアが最初に書き留めたのは、巨石〈tolcor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00319
+
+粘土〈tulvir〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00320
+
+余白に洞窟〈vuron〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00321
+
+舟守トアは、極光〈celar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00322
+
+雲〈celis〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+### 第2章 浅瀬の約束
+
+最初の入り江で、船底が泥に触れた。地図には深い航路とある。少年のころに覚えた道が、いまの船を守るとは限らなかった。
+
+トアは潮が戻るまで待った。古い地図を捨てず、変わった水際を別の色で描き足した。
+
+#### VL-00323
+
+失われた頁にも、雨雲〈celkym〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00324
+
+舟守トアが最初に書き留めたのは、薄霧〈celnyv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00325
+
+乱層雲〈celran〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00326
+
+余白に巻雲〈celtyr〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00327
+
+舟守トアは、霧雨〈celvorin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00328
+
+積乱雲〈celvorv〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00329
+
+失われた頁にも、しずく〈dar〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00330
+
+舟守トアが最初に書き留めたのは、洪水〈darcon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00331
+
+滝〈darfal〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00332
+
+余白に水〈daris〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00333
+
+舟守トアは、雨〈darlen〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00334
+
+地下水〈darlik〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00335
+
+失われた頁にも、潮流〈darlor〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00336
+
+舟守トアが最初に書き留めたのは、湿原〈darmar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00337
+
+泉〈darmon〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00338
+
+余白に朝露〈darnyv〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00339
+
+舟守トアは、湖〈daron〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00340
+
+浅瀬〈darpal〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00341
+
+「氾濫する〈darpanan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00342
+
+舟守トアが最初に書き留めたのは、引き潮〈darpas〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00343
+
+水たまり〈darpuk〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00344
+
+余白に波〈darrot〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00345
+
+舟守トアは、海峡〈darsik〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00346
+
+清流〈darsolv〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00347
+
+失われた頁にも、満ち潮〈darvor〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00348
+
+舟守トアが最初に書き留めたのは、渦潮〈darvorn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00349
+
+夜光海〈darvyr〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00350
+
+余白に虹〈faldaris〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00351
+
+舟守トアは、季節〈havas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00352
+
+天候異変〈havcon〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00353
+
+失われた頁にも、氷〈kyras〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00354
+
+舟守トアが最初に書き留めたのは、猛吹雪〈kyrcon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00355
+
+氷河〈kyrfin〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00356
+
+余白に雪〈kyrlen〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00357
+
+舟守トアは、氷柱〈kyrsol〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00358
+
+凍土〈kyrtam〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00359
+
+失われた頁にも、雹〈kyrvon〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00360
+
+舟守トアが最初に書き留めたのは、樹氷〈kyrvyn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00361
+
+火〈pyris〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00362
+
+余白に火災〈pyrlom〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00363
+
+舟守トアは、春〈velhav〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00364
+
+雷〈vyltor〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00365
+
+失われた頁にも、風〈wylas〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00366
+
+舟守トアが最初に書き留めたのは、暴風〈wylcon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00367
+
+凪〈wylmin〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00368
+
+余白に季節風〈wylor〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00369
+
+「凪ぐ〈wylpan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+### 第3章 秤を持たない市
+
+南の市では、品の重さより、それを作るあいだ誰が待ったかが語られた。値段だけを写していた帳面に、トアは初めて作り手の名を書いた。
+
+取り引きのあと、見知らぬ女が食事を分けてくれた。その礼は、別の港で別の誰かへ返してよいという。
+
+#### VL-00370
+
+突風〈wylpar〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00371
+
+失われた頁にも、嵐〈wylrim〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00372
+
+舟守トアが最初に書き留めたのは、海風〈wylsar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00373
+
+すきま風〈wylsuk〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00374
+
+余白に竜巻〈wyltorv〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00375
+
+舟守トアは、つむじ風〈wylven〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00376
+
+夏〈zohav〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00377
+
+失われた頁にも、海〈zylar〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00378
+
+舟守トアが最初に書き留めたのは、砂浜〈zylrim〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00542
+
+舟守トアは、鍛造する〈dolaran〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00543
+
+舟守トアは、鋳型〈dolas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00544
+
+やすり〈dolkin〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00545
+
+失われた頁にも、彫刻刀〈dolnyr〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00546
+
+舟守トアが最初に書き留めたのは、労働者〈dolor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00547
+
+金床〈dolpak〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00548
+
+舟守トアは、鋳造する〈dolpanan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00549
+
+舟守トアは、坩堝〈dolsarp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00550
+
+鞴〈dolsol〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00551
+
+失われた頁にも、焼戻し油〈doltarv〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00552
+
+舟守トアが最初に書き留めたのは、紡績糸〈jylcor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00553
+
+機織り機〈jyldan〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00554
+
+余白に紡錘〈jylnyr〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00555
+
+織る〈jylpan〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00556
+
+染料〈jylparv〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00557
+
+失われた頁にも、織物商〈jylzaran〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00558
+
+舟守トアは、修理する〈kirasen〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00559
+
+切断する〈kortan〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00560
+
+余白に商船〈marcor〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00561
+
+舟守トアは、元金〈mardin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00562
+
+関税〈mardorn〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00563
+
+失われた頁にも、貨幣〈marlan〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00564
+
+舟守トアが最初に書き留めたのは、鋳造所〈marlanv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00565
+
+運搬車〈marlorv〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00566
+
+余白に市場〈marmin〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00567
+
+舟守トアは、為替手形〈marnyr〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00568
+
+卸売〈marpalv〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00569
+
+「取引する〈marpan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00570
+
+舟守トアは、投資する〈marpanan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00571
+
+見本市〈marparv〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00572
+
+余白に商隊〈marporv〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00573
+
+舟守トアは、在庫〈marsarp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00574
+
+金庫〈marsol〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00575
+
+失われた頁にも、計量秤〈martalv〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00576
+
+舟守トアは、受け取る〈martan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00577
+
+利息〈martas〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00578
+
+余白に商人〈martor〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00579
+
+舟守トアは、借入〈marven〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+### 第4章 夜を縫う帆
+
+嵐の前に帆を降ろした者を、臆病だと笑う声があった。トアは笑わなかった。遠くの稲光が消えるまで、船員たちは一枚の帆を縫い続けた。
+
+進まない夜にも、旅は続いていた。針を渡す手の動きが、舟を次の朝へ運んでいた。
+
+#### VL-00580
+
+運賃〈marvis〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00581
+
+失われた頁にも、通商同盟〈marzar〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00582
+
+舟守トアが最初に書き留めたのは、交易〈renan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00583
+
+市場〈renar〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00584
+
+余白に貨幣〈renis〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00585
+
+舟守トアは、財産〈renon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00586
+
+舟守トアは、鍛造する〈talpyr〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00587
+
+失われた頁にも、織物工房〈valdanar〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00840
+
+舟守トアは、対話する〈calun〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00841
+
+「（空や星を）仰ぎ見る〈celan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00842
+
+欄外の「celos」には「上」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00843
+
+欄外の「celosu」には「上へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00844
+
+舟守トアは、覆う〈celvor〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00845
+
+「歌う〈cival〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00846
+
+舟守トアは、注ぐ〈darlit〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00847
+
+波打つ〈darvol〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00848
+
+舟守トアは、潜水する〈darzanv〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00849
+
+舟守トアは、目の前のものを「近く〈dolis〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00850
+
+舟守トアは、涙する〈dyren〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00851
+
+欄外の「eirinu」には「常に」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00852
+
+欄外の「eirlom」には「太古に」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00853
+
+欄外の「eirvas」には「永遠の彼方」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00854
+
+欄外の「falden」には「東」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00855
+
+欄外の「faldenu」には「東へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00856
+
+閃光〈falk〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00857
+
+「照らす〈falvan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00858
+
+舟守トアは、告げる〈fenkas〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00859
+
+欄外の「feno」には「昨日」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00860
+
+舟守トアは、話す〈fenor〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00861
+
+「ささやく〈fensir〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00862
+
+欄外の「folan」には「外」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00863
+
+欄外の「folanu」には「外へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00864
+
+欄外の「forvis」には「おそらく」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00865
+
+欄外の「hano」には「今日」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00866
+
+舟守トアは、聴く〈harvan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00867
+
+読み違えた箇所は「hav」だった。舟守トアは「時」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-00868
+
+欄外の「havcor」には「定時に」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00869
+
+失われた頁にも、時代〈havel〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00870
+
+欄外の「havit」には「やがて」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00871
+
+欄外の「havlor」には「いつか」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00872
+
+欄外の「havzan」には「間一髪で」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00873
+
+「結ぶ〈jylas〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00874
+
+舟守トアは、編み上げる〈jylvor〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00875
+
+創る〈kiras〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00876
+
+舟守トアは、遮断する〈klomas〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00877
+
+「閉じる〈klovan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00878
+
+舟守トアは、封印する〈klovanis〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+### 第5章 名のない帰路
+
+霧のなかで、帰りの岬を見失った。トアは帳面を開く。測った距離だけでなく、店先の匂い、鳥の向く方、誰かの足音が、そこには残っていた。
+
+数にできない記録もまた、帰る道を支えた。
+
+#### VL-00879
+
+走る〈kupan〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00880
+
+欄外の「kural」には「互いに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00881
+
+失われた頁にも、夕〈kylas〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00882
+
+欄外の「kylasu」には「夕暮れ時に」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00883
+
+欄外の「kymden」には「西」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00884
+
+欄外の「kymdenu」には「西へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00885
+
+「身を屈める〈kympan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00886
+
+舟守トアは、凍る〈kyrpan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00887
+
+隠す〈kyvel〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00888
+
+舟守トアは、回り道する〈larvor〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00889
+
+「開く〈leras〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00890
+
+欄外の「lerin」には「左」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00891
+
+欄外の「lerinu」には「左へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00892
+
+欄外の「mu」には「いいえ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00893
+
+「刻む〈nerpan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00894
+
+舟守トアは、登る〈novas〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00895
+
+欄外の「novasu」には「高らかに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00896
+
+欄外の「kyrvden」には「北」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00897
+
+欄外の「kyrvdenu」には「北へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00898
+
+欄外の「parin」には「右」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00899
+
+欄外の「parinu」には「右へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00900
+
+欄外の「pason」には「後」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00901
+
+欄外の「pasonu」には「後ろへ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00902
+
+舟守トアは、歩く〈poran〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00903
+
+行進する〈porcon〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00904
+
+舟守トアは、潜り抜ける〈porzan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00905
+
+「燃える〈pyran〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00906
+
+舟守トアは、ある〈relen〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00907
+
+笑う〈saren〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00908
+
+欄外の「seno」には「明日」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00909
+
+「授ける〈zelvan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00910
+
+舟守トアは、握手する〈zelvcor〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00911
+
+洗う〈serdar〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00912
+
+舟守トアは、離す〈zelvfas〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00913
+
+「触れる〈zelvin〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00914
+
+舟守トアは、撫でる〈serlit〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00915
+
+掴む〈serpan〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00916
+
+舟守トアは、手繰り寄せる〈zelvzan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00917
+
+欄外の「silin」には「内」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00918
+
+欄外の「silinu」には「内へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00919
+
+（ノートに）書き留める〈soran〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00920
+
+余白に昼〈sovil〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00921
+
+「舞う〈spilan〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00922
+
+舟守トアは、探す〈syndir〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00923
+
+欄外の「talos」には「下」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00924
+
+欄外の「talosu」には「下へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00925
+
+「置く〈talsit〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+### 第6章 濡れた欄外
+
+港に戻ると、空欄だった帰還日へ子供が今日の日付を書いた。トアは濡れた帳面を干し、余白に新しい呼び名を残した。
+
+どの言葉が正しいかを一つに決めるのでなく、誰がどこで使ったかを書く。それが舟守の持ち帰った約束だった。
+
+#### VL-00926
+
+舟守トアは、掘る〈talvok〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00927
+
+着陸する〈talzon〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00928
+
+舟守トアは、待つ〈taris〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00929
+
+読み違えた箇所は「tor」だった。舟守トアは「しかし」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-00930
+
+舟守トアは、来る〈toren〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00931
+
+舟守トアは、目の前のものを「遠く〈tulan〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00932
+
+欄外の「tulden」には「南」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00933
+
+欄外の「tuldenu」には「南へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00934
+
+欄外の「tulosu」には「深く」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00935
+
+降りる〈tulpan〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00936
+
+欄外の「tyku」には「直ちに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00937
+
+欄外の「tyro」には「なぜ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00938
+
+舟守トアは「ul」の横に「そして」と添えた。短い語を一つ落とすだけで、誰の言葉か、何と何が結ばれるのかが変わってしまう。
+
+#### VL-00939
+
+舟守トアは、朝〈valar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00940
+
+欄外の「valasu」には「朝早くに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00941
+
+欄外の「valku」には「頻繁に」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00942
+
+欄外の「valrotu」には「木漏れ日の中で」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00943
+
+欄外の「ve」には「はい」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00944
+
+舟守トアは、繁茂する〈velkan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00945
+
+「飛ぶ〈veiran〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00946
+
+舟守トアは、滑空する〈volkin〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00947
+
+飛び降りる〈volpas〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00948
+
+舟守トアは、急降下する〈volzan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00949
+
+欄外の「dyras」には「前」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00950
+
+欄外の「dyrasu」には「前へ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00951
+
+守る〈vymin〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00952
+
+欄外の「vyranu」には「確かに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-00953
+
+「（精密に）観測する〈vyrel〉」。舟守トアは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00954
+
+舟守トアは、放つ〈wylkan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00955
+
+吹き飛ばす〈wylpur〉ことには、いつも小さなためらいが伴った。舟守トアはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00956
+
+舟守トアは、深呼吸する〈wylrev〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00957
+
+読み違えた箇所は「zen」だった。舟守トアは「なぜなら」という働きを確かめ、相手の返事を聞いてから行を写し直した。
+
+#### VL-00958
+
+舟守トアは、泳ぐ〈zylan〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-30050
+
+欄外の「feval」には「すでに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30051
+
+欄外の「divan」には「まだ」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30052
+
+欄外の「tasik」には「すぐに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30127
+
+大旋風〈wylmon〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30128
+
+余白に星見高地〈talrad〉の名が加わった。舟守トアはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30169
+
+欄外の「tasir」には「星辰直ちに」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30173
+
+失われた頁にも、雨風〈darwyl〉のことが書かれていたという。舟守トアは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30174
+
+舟守トアが最初に書き留めたのは、ダイヤモンドダスト〈kyrfal〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30175
+
+森林限界〈selmar〉をめぐる話は、人ごとに少しずつ違った。舟守トアは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30178
+
+凍てつく風〈wylkor〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30180
+
+舟守トアが最初に書き留めたのは、星辰夜露〈kymdar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30184
+
+渡渉点〈darpor〉という言葉を、舟守トアは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30219
+
+欄外の「radval」には「遥か彼方まで」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+#### VL-30220
+
+欄外の「havval」には「代々」とある。舟守トアはその一語を声に出し、同じ出来事でも語り方によって届くものが違うと気づいた。
+
+
+頁の端には、いまも塩の白い跡がある。その跡も取り去らず、次の航海へ渡す。
+
+## 玻璃の深井戸
+
+ヴァルネス遺聞・観測別巻
+
+### 第1章 光の降る井戸
+
+採集師ネリが井戸へ降りたのは、水を求めたからではない。底から漏れる薄い光のなかで、地上から消えた植物が芽を出していた。
+
+持ち帰った葉は、地上では光らなかった。ネリは失敗と書きかけて、その文字を観察へ置き換えた。
+
+#### VL-00195
+
+療養する〈darisan〉ことには、いつも小さなためらいが伴った。採集師ネリはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00196
+
+病院〈darisar〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00197
+
+失われた頁にも、包帯〈dariscon〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00198
+
+採集師ネリが最初に書き留めたのは、医師〈darisor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00199
+
+処方する〈darispan〉ことには、いつも小さなためらいが伴った。採集師ネリはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00200
+
+余白に軟膏〈darispuk〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00201
+
+採集師ネリは、汗〈darmut〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00202
+
+血液〈davel〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00203
+
+失われた頁にも、血漿〈davelis〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00204
+
+採集師ネリが最初に書き留めたのは、循環系〈davlar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00205
+
+骨〈duril〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00206
+
+余白に筋肉〈durtas〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00207
+
+採集師ネリは、肩〈durtin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00208
+
+免疫〈durvan〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00209
+
+失われた頁にも、隔離室〈durvanar〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00210
+
+採集師ネリが最初に書き留めたのは、軟骨〈durvis〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00211
+
+口〈fenel〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00212
+
+余白に味覚〈fenlin〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00213
+
+採集師ネリは、喉〈fenrut〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00214
+
+耳〈harel〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00215
+
+失われた頁にも、聴力〈harnas〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00216
+
+採集師ネリが最初に書き留めたのは、皮膚〈hylik〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00217
+
+神経〈jynten〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00218
+
+余白に細胞〈kivan〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00219
+
+採集師ネリは、胃〈korgon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00220
+
+病〈kylar〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00221
+
+失われた頁にも、疲労〈kylat〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00222
+
+採集師ネリが最初に書き留めたのは、眠り〈tymis〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00223
+
+安息所〈tymisar〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00224
+
+余白に居眠り〈tymisis〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00225
+
+採集師ネリは、足〈larin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+### 第2章 名札のない芽
+
+温室の鉢には、同じ名札が何枚も挿されていた。似た葉であっても、触れたときの硬さも、夜の開き方も違う。
+
+ネリは一つの名に押し込めず、葉の裏側へ小さな印を付けた。違いを覚えることは、隔てることとは違った。
+
+#### VL-00226
+
+足首〈larkul〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00227
+
+失われた頁にも、骨折〈morcon〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00228
+
+採集師ネリが最初に書き留めたのは、骨髄〈mordin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00229
+
+「麻痺する〈morpan〉」。採集師ネリは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00230
+
+余白に皮膚〈morpar〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00231
+
+採集師ネリは、血管〈morvin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00232
+
+軟骨〈morvyn〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00233
+
+失われた頁にも、人間〈myren〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00234
+
+採集師ネリが最初に書き留めたのは、消化〈nerzyv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00235
+
+頭〈noven〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00236
+
+余白に抗体〈revcon〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00237
+
+「目覚める〈revir〉」。採集師ネリは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00238
+
+熱病〈revkor〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00239
+
+蘇生する〈revpan〉ことには、いつも小さなためらいが伴った。採集師ネリはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00240
+
+採集師ネリが最初に書き留めたのは、抗生物質〈revpar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00241
+
+リンパ液〈revrin〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00242
+
+余白に代謝〈revsol〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00243
+
+採集師ネリは、脈診〈revtin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00244
+
+疲労〈revtis〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00245
+
+失われた頁にも、手〈zelv〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00246
+
+採集師ネリが最初に書き留めたのは、鎮痛薬〈sercon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00247
+
+反射〈serdin〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00248
+
+余白に覚醒〈serfal〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00249
+
+採集師ネリは、手首〈zelvjyt〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00250
+
+まどろみ〈serkin〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00251
+
+失われた頁にも、睡眠〈serkym〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00252
+
+採集師ネリは、鎮静させる〈serpanan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00253
+
+心臓〈teira〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00254
+
+余白に遺伝子〈teiran〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00255
+
+採集師ネリは、心拍〈teirap〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+### 第3章 薬師の留保
+
+痛みを和らげたという葉を、薬師はすぐには配らなかった。誰に、どれだけ、いつ試したのかを尋ねた。物語の美しさと、確かめられたことは別だと言った。
+
+ネリは答えられない欄を空白にした。知らないことを埋めない記録が、ここでは信頼を育てた。
+
+#### VL-00256
+
+胎児〈teiros〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00257
+
+失われた頁にも、染色体〈teirvan〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00258
+
+採集師ネリが最初に書き留めたのは、創傷〈tylkar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00259
+
+傷痕〈tylkin〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00260
+
+余白に包帯〈valmik〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00261
+
+採集師ネリは、目〈vylan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00262
+
+視力〈vylmir〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00263
+
+失われた頁にも、眉〈vyltin〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00264
+
+採集師ネリが最初に書き留めたのは、鼻〈wylat〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00265
+
+「治療する〈zyvan〉」。採集師ネリは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00266
+
+余白に健康〈zyvas〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00267
+
+採集師ネリは、生命〈zyvel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00268
+
+採集師ネリは、呼吸する〈zyvelan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00269
+
+失われた頁にも、薬〈zyvil〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00270
+
+採集師ネリが最初に書き留めたのは、肺〈zyvlar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00271
+
+活力〈zyvor〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00272
+
+余白に蘇生〈zyvrev〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00273
+
+採集師ネリは、息〈zyvris〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00274
+
+代謝〈zyvten〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00379
+
+耕す〈talkan〉ことには、いつも小さなためらいが伴った。採集師ネリはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00380
+
+余白に農場〈talkanar〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00381
+
+採集師ネリは、農夫〈talkanor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00382
+
+鋤〈talkanorl〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00383
+
+失われた頁にも、牧草地〈talkarn〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00384
+
+採集師ネリが最初に書き留めたのは、鍬〈talkorl〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00385
+
+畝〈talkorv〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00386
+
+余白に種穂〈teircon〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00387
+
+採集師ネリは、種〈teiril〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00388
+
+採集師ネリは、播種する〈teirpan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00389
+
+「結実する〈teirpanan〉」。採集師ネリは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+### 第4章 壁の呼吸
+
+井戸の壁には細かな生き物が棲み、温室の根へ水を渡していた。葉だけを運べばよいと思っていたネリは、小さなつながりを見落としていた。
+
+光は一つのものの力ではなかった。互いの働きが途切れないところに、光が生まれていた。
+
+#### VL-00390
+
+採集師ネリが最初に書き留めたのは、発芽〈teirvon〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00391
+
+木〈vel〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00392
+
+余白に葉〈velas〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00393
+
+採集師ネリは、樹皮〈velbon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00394
+
+大樹〈velcon〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00395
+
+失われた頁にも、木立〈velcor〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00396
+
+採集師ネリが最初に書き留めたのは、年輪〈veldor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00397
+
+新芽〈velil〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00398
+
+余白に花〈velin〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00399
+
+採集師ネリは、牧草〈velkarn〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00400
+
+灌木〈velkin〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00401
+
+失われた頁にも、果皮〈velkorv〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00402
+
+採集師ネリが最初に書き留めたのは、苔〈velmorn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00403
+
+葉脈〈velnyr〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00404
+
+余白に森〈velom〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00405
+
+「開花する〈velpanan〉」。採集師ネリは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00406
+
+花弁〈velparn〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00407
+
+失われた頁にも、胞子〈velporv〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00408
+
+採集師ネリが最初に書き留めたのは、木漏れ日〈velrot〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00409
+
+腐葉土〈velrotas〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00410
+
+余白に若芽〈velryn〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00411
+
+採集師ネリは、球根〈velsarp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00412
+
+蔓〈velsin〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00413
+
+失われた頁にも、心材〈velsol〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00414
+
+採集師ネリが最初に書き留めたのは、樹液〈velsot〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00415
+
+枝〈velspar〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00416
+
+余白に腐植堆肥〈veltalv〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00417
+
+採集師ネリは、落葉〈veltarv〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00418
+
+間引き〈veltorp〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00419
+
+失われた頁にも、根〈veltul〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+### 第5章 割れた採集瓶
+
+帰りの梯子で瓶が割れた。ネリは散った標本を拾い、無事だったものと、もう確かめられないものを分けた。
+
+失われた標本の欄にも、採集した場所と割れた時刻を残した。失敗を消してしまえば、次に降りる者の足元まで暗くなる。
+
+#### VL-00420
+
+採集師ネリが最初に書き留めたのは、花粉〈veltyn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00421
+
+原生林〈velzar〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00422
+
+余白に果実〈vorin〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00423
+
+採集師ネリは、穀物倉〈vorkas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00424
+
+採集師ネリは、収穫する〈vorken〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00425
+
+失われた頁にも、大鎌〈vorkorl〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00426
+
+採集師ネリが最初に書き留めたのは、背中〈vorst〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00427
+
+燐光〈falpir〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00428
+
+余白に動物〈feras〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00429
+
+採集師ネリは、獣群〈fercor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00430
+
+捕食者〈ferdor〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00431
+
+失われた頁にも、共生〈ferjyl〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00432
+
+採集師ネリが最初に書き留めたのは、家畜〈ferkarn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00433
+
+猛獣〈ferkon〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00434
+
+余白に天竜〈fermor〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00435
+
+採集師ネリは、小動物〈fernyr〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00436
+
+採集師ネリは、咆哮する〈ferpanan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00437
+
+失われた頁にも、獣の足跡〈ferporv〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00438
+
+採集師ネリが最初に書き留めたのは、蝙蝠〈fervol〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00439
+
+冬眠する〈fervolan〉ことには、いつも小さなためらいが伴った。採集師ネリはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00440
+
+余白に鳴き声〈fervyn〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00441
+
+採集師ネリは、有蹄類〈ferzar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00442
+
+虫〈krap〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00443
+
+失われた頁にも、甲虫〈krapcon〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00444
+
+採集師ネリが最初に書き留めたのは、幼虫〈krapil〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00445
+
+蟻〈krapkorv〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00446
+
+余白に蝶〈krapnyr〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00447
+
+採集師ネリは、蜻蛉〈krapvol〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00448
+
+蜂〈krapzar〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00449
+
+失われた頁にも、角〈krota〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+### 第6章 地上の小さな井戸
+
+庭に据えた浅い水鉢のそばで、一枚の葉が淡く光った。地下のものをそのまま移すのではなく、地上で支え合える形を探していたのだ。
+
+ネリは新しい葉に名札を結んだ。その裏には、まだ分からないことが三つ書かれていた。
+
+#### VL-00450
+
+採集師ネリが最初に書き留めたのは、巣〈lyka〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00451
+
+牙〈paryv〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00452
+
+余白にひづめ〈puka〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00453
+
+採集師ネリは、鉤爪〈pyrk〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00454
+
+毛皮〈tenis〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00455
+
+失われた頁にも、猛禽〈volcorv〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00456
+
+採集師ネリが最初に書き留めたのは、鳥〈volfer〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00457
+
+止まり木〈volkorl〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00458
+
+余白に嘴〈volmin〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00459
+
+採集師ネリは、鳴禽〈volnyr〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00460
+
+採集師ネリは、羽ばたく〈volpan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00461
+
+失われた頁にも、渡り鳥〈volron〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00462
+
+採集師ネリが最初に書き留めたのは、翼羽〈voltyr〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00463
+
+水鳥〈volzar〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00464
+
+余白に水棲甲殻類〈zylcor〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00465
+
+採集師ネリは、魚〈zylfer〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00466
+
+海生巨獣〈zylkon〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00467
+
+失われた頁にも、魚の鰓〈zylparv〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00468
+
+採集師ネリが最初に書き留めたのは、魚群〈zylpas〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00469
+
+魚の鰭〈zyltyr〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00470
+
+余白に鱗〈zylvis〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00471
+
+採集師ネリは、深海魚〈zylzar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30077
+
+失われた頁にも、まなざし〈celmir〉のことが書かれていたという。採集師ネリは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30078
+
+採集師ネリが最初に書き留めたのは、手のひら〈morpal〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30079
+
+歩行脚〈porpar〉をめぐる話は、人ごとに少しずつ違った。採集師ネリは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30080
+
+余白に思索座〈novciv〉の名が加わった。採集師ネリはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30088
+
+声〈vylen〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30129
+
+採集師ネリは、神聖樹林〈selvel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30136
+
+薬湯〈darbion〉という言葉を、採集師ネリは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30192
+
+採集師ネリが最初に書き留めたのは、聴覚〈harlan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+
+深さを競うために井戸は掘られない。帰ってきた者が地上を少し違って見るために、井戸は口を開けている。
+
+## 灯守りの食卓
+
+ヴァルネス遺聞・生活別巻
+
+### 第1章 人数の増える鍋
+
+共同炊事場の鍋は、いつも予定より一人分多く温められた。帰ってくる者がいる日にも、いない日にも、その決まりは変わらなかった。
+
+セヴは物の名前を教えるとき、それを使った人の話も添えた。器は、置かれた場所だけでは覚えられない。
+
+#### VL-00588
+
+灯守セヴが最初に書き留めたのは、梁〈borparn〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00589
+
+天窓〈celpar〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00590
+
+余白に日除け庇〈celporv〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00591
+
+灯守セヴは、天井〈celup〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00592
+
+基礎〈dankar〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00593
+
+失われた頁にも、厩舎〈dankarn〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00594
+
+灯守セヴが最初に書き留めたのは、塔〈domcor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00595
+
+雨樋〈domdorn〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00596
+
+余白に鐘楼〈domlorv〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00597
+
+灯守セヴは、都市〈domom〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00598
+
+街路樹通り〈dompalv〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00599
+
+落成する〈dompanan〉ことには、いつも小さなためらいが伴った。灯守セヴはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00600
+
+灯守セヴが最初に書き留めたのは、屋根裏部屋〈domsarp〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00601
+
+柱頭〈domsol〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00602
+
+余白に地下室〈domsor〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00603
+
+灯守セヴは、中庭噴水〈domtalv〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00604
+
+回廊〈domvin〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00605
+
+失われた頁にも、中央広場〈domzar〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00606
+
+灯守セヴが最初に書き留めたのは、大聖堂〈domzarv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00607
+
+防壁塔〈durcon〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00608
+
+余白に防壁〈durkas〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00609
+
+「築く〈durpanan〉」。灯守セヴは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00610
+
+胸壁〈dursarp〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00611
+
+失われた頁にも、石垣〈dursol〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00612
+
+灯守セヴが最初に書き留めたのは、壁〈durval〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00613
+
+狭間〈falnyr〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00614
+
+余白にバルコニー〈falpar〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00615
+
+灯守セヴは、窓〈farnal〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00616
+
+家〈govan〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00617
+
+失われた頁にも、柱〈kulmon〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00618
+
+灯守セヴが最初に書き留めたのは、駅〈larar〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00619
+
+乗り物〈laros〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00620
+
+余白にアーチ門〈lercor〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00621
+
+灯守セヴは、扉〈lerel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00622
+
+落とし格子〈lersol〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00623
+
+失われた頁にも、跳ね橋〈lerson〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00624
+
+灯守セヴが最初に書き留めたのは、廊下〈lertal〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00625
+
+敷居〈lervan〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00626
+
+余白に玄関ホール〈lervor〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00627
+
+灯守セヴは、敷石〈talsar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00628
+
+灯守セヴは、住まう〈taran〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00629
+
+失われた頁にも、床〈tolst〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00630
+
+灯守セヴが最初に書き留めたのは、石橋〈tolsun〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00631
+
+庭〈velar〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+### 第2章 継ぎ目のある椅子
+
+工房へ運ばれた椅子は、どれも違う高さの脚を持っていた。職人は一度にそろえず、座る人を呼んだ。
+
+直すことは、以前の形へ戻すことばかりではなかった。いま必要な形を、一緒に探すことだった。
+
+#### VL-00632
+
+余白に部屋〈vorn〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00633
+
+灯守セヴは、階段〈vostir〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00634
+
+水筒〈biondis〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00635
+
+失われた頁にも、机〈dovik〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00636
+
+灯守セヴが最初に書き留めたのは、カーテン〈faldisan〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00637
+
+燭台〈falkom〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00638
+
+余白に日時計〈falkor〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00639
+
+灯守セヴは、ランプ〈falmir〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00640
+
+松明〈falsol〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00641
+
+失われた頁にも、指輪〈hylzar〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00642
+
+灯守セヴが最初に書き留めたのは、筆〈kirel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00643
+
+筆入れ〈kirelor〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00644
+
+灯守セヴは、清書する〈kirelpan〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00645
+
+灯守セヴは、インク〈kirelsol〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00646
+
+羊皮紙〈kirelzar〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00647
+
+失われた頁にも、鍵〈klovel〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00648
+
+灯守セヴが最初に書き留めたのは、寝床〈kymel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00649
+
+箱〈kypal〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00650
+
+余白に靴〈larsil〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00651
+
+灯守セヴは、サンダル〈larsol〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00652
+
+革紐〈larsor〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00653
+
+失われた頁にも、閂〈lervil〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00654
+
+灯守セヴが最初に書き留めたのは、留め針〈neltin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00655
+
+本〈pamel〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00656
+
+余白に図書館〈pamelar〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00657
+
+灯守セヴは、栞〈pamelis〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00658
+
+小刀〈serel〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00659
+
+失われた頁にも、手袋〈zelvval〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00660
+
+灯守セヴが最初に書き留めたのは、耳飾り〈talparil〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00661
+
+首飾り〈talvinor〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00662
+
+余白に櫛〈talvyn〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00663
+
+灯守セヴは、椅子〈tasel〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00664
+
+肘掛け椅子〈tasor〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00665
+
+失われた頁にも、礼服〈valcon〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00666
+
+灯守セヴが最初に書き留めたのは、天幕〈valcor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00667
+
+絨毯〈valdan〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00668
+
+余白にボタン〈valdorv〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00669
+
+灯守セヴは、衣服〈valis〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00670
+
+紐〈valkor〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00671
+
+失われた頁にも、刺繍〈valnyr〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00672
+
+灯守セヴが最初に書き留めたのは、襟〈valparv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00673
+
+外套〈valpuk〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00674
+
+余白に帽子〈valren〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+### 第3章 雨を干す窓
+
+長雨の朝、窓際には衣服だけでなく、濡れた手紙や舟の帳面まで並んだ。誰かの旅と誰かの家事が、同じ紐に吊られていた。
+
+紙を裏返すたび、セヴはまだ知らない土地の匂いを嗅いだ。
+
+#### VL-00675
+
+灯守セヴは、袖〈valsarp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00676
+
+帯〈valser〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00677
+
+失われた頁にも、裏地〈valsol〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00678
+
+灯守セヴは、着替える〈valson〉という仕事を一人で抱えなかった。隣へ道具を渡したとき、その動きは二人の記憶になった。
+
+#### VL-00679
+
+ショール〈valtarv〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00680
+
+余白に鞄〈valtas〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00681
+
+灯守セヴは、財布〈valtasp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00682
+
+絹織物〈valzar〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00683
+
+失われた頁にも、鏡〈zenkal〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00760
+
+「白い〈alin〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00761
+
+灯守セヴは、目の前のものを「霞がかった〈celisi〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00762
+
+「静かな〈cironi〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00763
+
+灯守セヴは、目の前のものを「賑やかな〈cironli〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00764
+
+「美しい〈cylani〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00765
+
+灯守セヴは、目の前のものを「柔らかい〈darini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00766
+
+「なめらかな〈darisli〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00767
+
+灯守セヴは、目の前のものを「激流の〈darlori〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00768
+
+「清冽な〈darmoni〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00769
+
+灯守セヴは、目の前のものを「芳醇な〈darsarn〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00770
+
+「透き通った〈darsol〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00771
+
+灯守セヴは、目の前のものを「湿った〈darzan〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00772
+
+「脆い〈dorvan〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00773
+
+灯守セヴは、目の前のものを「重い〈durini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00774
+
+「免疫のある〈durvani〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00775
+
+灯守セヴは、目の前のものを「永遠の〈eiran〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00776
+
+「古い〈eirin〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00777
+
+灯守セヴは、目の前のものを「澄んだ〈falini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00778
+
+「粗い〈falkas〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00779
+
+灯守セヴは、目の前のものを「冷光の〈falpiri〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00780
+
+「眩い〈falsarn〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00781
+
+灯守セヴは、目の前のものを「銀白色の〈falsolv〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00782
+
+「明るい〈faluni〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00783
+
+灯守セヴは、目の前のものを「鮮明な〈falzor〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00784
+
+「騒然とした〈krotani〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00785
+
+灯守セヴは、目の前のものを「漆黒の〈kymcon〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00786
+
+「ほの暗い〈kymsarn〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00787
+
+灯守セヴは、目の前のものを「濃紺の〈kymsol〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00788
+
+「冷たい〈kyrani〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00789
+
+灯守セヴは、目の前のものを「凍結した〈kyrfini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00790
+
+「深い〈kyrimi〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00791
+
+灯守セヴは、目の前のものを「黒い〈kyrin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00792
+
+「雪白の〈kyrlini〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00793
+
+灯守セヴは、目の前のものを「鋭い〈kyrpi〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00794
+
+「凍てつく〈kyrzan〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+### 第4章 足りない日の分け方
+
+食材が足りない夕べ、誰も大きな声を出さなかった。一人が塩を持ち、一人が火を見た。食べ物の量は増えなくても、食卓を囲む時間は短くならなかった。
+
+その晩の記録には、豊かという言葉の横に、分けたものを一つずつ書いた。
+
+#### VL-00795
+
+灯守セヴは、目の前のものを「甘い〈melysi〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00796
+
+「誠実な〈minzan〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00797
+
+灯守セヴは、目の前のものを「大きい〈moran〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00798
+
+「遅い〈morini〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00799
+
+灯守セヴは、目の前のものを「紫の〈nebulin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00800
+
+「高い〈novani〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00801
+
+灯守セヴは、目の前のものを「狭い〈porkini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00802
+
+「赤い〈pyrin〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00803
+
+灯守セヴは、目の前のものを「緋色の〈pyrsol〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00804
+
+「熱烈な〈pyrzan〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00805
+
+灯守セヴは、目の前のものを「丸い〈klorini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00806
+
+「細い〈serini〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00807
+
+灯守セヴは、目の前のものを「ざらつく〈zelvsarn〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00808
+
+「絹のように滑らかな〈sersolv〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00809
+
+灯守セヴは、目の前のものを「優しい〈sirani〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00810
+
+「新しい〈syvan〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00811
+
+灯守セヴは、目の前のものを「強い〈talani〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00812
+
+「頑強な〈talcon〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00813
+
+灯守セヴは、目の前のものを「ぬかるんだ〈taldari〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00814
+
+「ざらざらした〈talyrki〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00815
+
+灯守セヴは、目の前のものを「広い〈talmori〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00816
+
+「硬い〈talpi〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00817
+
+灯守セヴは、目の前のものを「硬質な〈talsarpv〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00818
+
+「褐色の〈talsolv〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00819
+
+灯守セヴは、目の前のものを「金属的な〈taluri〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00820
+
+「温かい〈teirini〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00821
+
+灯守セヴは、目の前のものを「小さい〈telin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00822
+
+「角張った〈tuliki〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00823
+
+灯守セヴは、目の前のものを「柔軟な〈tulmin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00824
+
+「低い〈tulosi〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00825
+
+灯守セヴは、目の前のものを「銀色の〈tyni〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00826
+
+「金色の〈valin〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00827
+
+灯守セヴは、目の前のものを「厚い〈valpini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00828
+
+「緑の〈velini〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00829
+
+灯守セヴは、目の前のものを「樹木が生い茂った〈velpari〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00830
+
+「みずみずしい〈velpor〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00831
+
+灯守セヴは、目の前のものを「深緑の〈velsolv〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00832
+
+「弾力ある〈velzan〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00833
+
+灯守セヴは、目の前のものを「速い〈vyril〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00834
+
+「星辰のように輝く〈vyrini〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00835
+
+灯守セヴは、目の前のものを「軽い〈wylini〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00836
+
+「旋風のような〈wylvani〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00837
+
+灯守セヴは、目の前のものを「乾燥した〈wylzan〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+### 第5章 言い直せる部屋
+
+口論の翌日、セヴは片方の椅子だけを片付けなかった。戻って言い直せる場所まで失えば、残るのは最初の言葉だけになる。
+
+窓を開け、湯を沸かし、返事を急がせない。そのための小さな動作にも、記しておく価値があった。
+
+#### VL-00838
+
+「太陽のような〈zohari〉」。それが灯守セヴの最初の書き付けだった。けれど、同じものを見た隣人は別の印象を語った。二つの記録は並べて残された。
+
+#### VL-00839
+
+灯守セヴは、目の前のものを「青い〈zylin〉」と書き留めた。たった一語で言い尽くしたつもりにはならず、見る角度と時刻も添えた。
+
+#### VL-00959
+
+飲む〈bion〉ことには、いつも小さなためらいが伴った。灯守セヴはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00960
+
+灯守セヴが最初に書き留めたのは、水差し〈bionas〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00961
+
+薬酒〈biondor〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00962
+
+余白に杯〈bionel〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00963
+
+灯守セヴは、果汁〈bionmor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00964
+
+酒場〈bionpalv〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00965
+
+「乾杯する〈bionpan〉」。灯守セヴは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00966
+
+灯守セヴが最初に書き留めたのは、麦酒〈bionsol〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00967
+
+蒸留酒〈bionzar〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00968
+
+余白にスープ〈darel〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00969
+
+「溶かす〈darpan〉」。灯守セヴは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00970
+
+大地の結晶塩〈marnyz〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00971
+
+失われた頁にも、滋養〈ner〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00972
+
+灯守セヴは、食べる〈neran〉ことを選んだ。迷いが消えたのではない。先に手を動かさなければ、朝が来ても何も変わらないと知っていた。
+
+#### VL-00973
+
+カフェ〈nerar〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00974
+
+余白に干し肉〈nercor〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00975
+
+灯守セヴは、汁粉〈nerdor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00976
+
+濾し器〈nerdorn〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00977
+
+失われた頁にも、料理〈nerel〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00978
+
+灯守セヴが最初に書き留めたのは、蒸し物〈nerfat〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00979
+
+鍋〈nerkam〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00980
+
+余白に鍋敷き〈nerkot〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00981
+
+灯守セヴは、乾酪〈nerlon〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00982
+
+焙煎機〈nerlorv〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00983
+
+失われた頁にも、蜂蜜〈nernyr〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00984
+
+灯守セヴが最初に書き留めたのは、厨房〈nerom〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00985
+
+料理人〈neror〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00986
+
+余白にパン屋〈nerpalv〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00987
+
+発酵させる〈nerpanv〉ことには、いつも小さなためらいが伴った。灯守セヴはそのためらいも書き残した。次に同じ道を選ぶ人へ、勇ましい話だけを渡したくなかった。
+
+#### VL-00988
+
+燻製室〈nerparv〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00989
+
+「煮る〈nerpas〉」。灯守セヴは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-00990
+
+灯守セヴが最初に書き留めたのは、香辛料〈nerpin〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00991
+
+調味油〈nerpork〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00992
+
+余白に果実の砂糖漬け〈nersarn〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00993
+
+灯守セヴは、酒樽〈nersarp〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-00994
+
+酵母〈nersol〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-00995
+
+失われた頁にも、焼き網〈nerson〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-00996
+
+灯守セヴが最初に書き留めたのは、すりこぎ〈nertalv〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-00997
+
+大宴会〈nerzar〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-00998
+
+余白に主食〈nyrat〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-00999
+
+灯守セヴは、焼き菓子〈nyrsan〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-01000
+
+皿〈pylvin〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+### 第6章 最後ではない灯
+
+ユラが帳面を綴じる夜、セヴは食卓へ新しい灯を置いた。原本ができたから暮らしが終わるわけではない。灯のそばでは、次の話がもう始まっていた。
+
+セヴは余った椀をしまわなかった。誰かが遅れて帰る日のために。
+
+#### VL-01001
+
+「焼く〈pyrtos〉」。灯守セヴは作業の順を短く読み上げた。昨日できたことを、今日も確かめずに済ませてはならなかった。
+
+#### VL-01002
+
+灯守セヴが最初に書き留めたのは、すり鉢〈talpork〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-01003
+
+温かい煎じ茶〈terin〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-01004
+
+余白に茶器〈terlar〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-01005
+
+灯守セヴは、具材〈tursil〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-01006
+
+発酵果実酒〈voril〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-01007
+
+失われた頁にも、スプーン〈vurlin〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-01008
+
+灯守セヴが最初に書き留めたのは、フォーク〈zartik〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30068
+
+余白に天測器具〈tasilel〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30069
+
+灯守セヴは、書物〈fevtor〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30070
+
+外套衣〈valtur〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30071
+
+失われた頁にも、大門〈zonpar〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30072
+
+灯守セヴが最初に書き留めたのは、道〈poras〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30073
+
+集落〈govom〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30075
+
+灯守セヴは、篝火〈vorpar〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30081
+
+灯守セヴは、魂の法悦〈falmin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30082
+
+悲哀感〈kymmin〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30083
+
+失われた頁にも、激憤〈vorkot〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30084
+
+灯守セヴが最初に書き留めたのは、気概〈fevran〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30085
+
+光明日〈sefast〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30087
+
+灯守セヴは、深い慈愛〈cylmin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30131
+
+失われた頁にも、石造調理炉〈pyrom〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30132
+
+灯守セヴが最初に書き留めたのは、星草茶〈darvel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30133
+
+星辰織布〈valjyl〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30134
+
+余白に天測時計〈tykmar〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30135
+
+灯守セヴは、食盆〈biotas〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30137
+
+失われた頁にも、星辰図書館〈pamelom〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30138
+
+灯守セヴが最初に書き留めたのは、工芸工房〈tasildor〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30139
+
+集会所〈domtur〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30140
+
+余白に防寒厚外套〈valmor〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30142
+
+星辰郷愁〈revlyr〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30149
+
+失われた頁にも、温もり〈cynval〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30176
+
+余白に水車〈darzanik〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30181
+
+星辰城壁〈domzon〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30182
+
+余白に火打ち石〈pyrtas〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30185
+
+失われた頁にも、木製器〈seltas〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30186
+
+灯守セヴが最初に書き留めたのは、星辰閂〈zonler〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+#### VL-30187
+
+古天青磁器〈taltas〉をめぐる話は、人ごとに少しずつ違った。灯守セヴは一つにまとめず、語った人の名を添えて残した。
+
+#### VL-30188
+
+余白に寝具〈valden〉の名が加わった。灯守セヴはその隣を一行あけた。まだ聞けていない話があると、分かるように。
+
+#### VL-30189
+
+灯守セヴは、灰〈pyrfin〉について古い記録と新しい記録を照らし合わせた。変わったものと、呼び方だけが変わったものを、急いで同じにしないためだった。
+
+#### VL-30190
+
+星辰天秤〈martenik〉という言葉を、灯守セヴは旅の相手から教わった。その日付を記したとき、帳面は初めて、持ち主一人のものではなくなった。
+
+#### VL-30209
+
+失われた頁にも、祭壇〈celdan〉のことが書かれていたという。灯守セヴは残った証言から行を起こし、確かでない箇所には線を引かなかった。
+
+#### VL-30210
+
+灯守セヴが最初に書き留めたのは、秘術書〈vorpamel〉のことだった。ありふれた名前ほど、失ってからでは取り戻しにくい。
+
+
+灯を守るとは、燃え尽きさせないことだけではない。まだ名を知らない誰かの席を、暗くしないことである。
+
+# 資料篇 — 語彙と用例
+
+2026-10-16 改訂。未検証の自動生成詩節を除き、既存語の学習索引と参照を確認した例文を収録。新造語の昇格なし。
+
+## 暮らしの語彙500
+
+### 16. 動作・動態・時空・方向副詞
+
+- **calun**（動）：対話する、語り合う、相談する / converse, converse with
+- **celan**（動）：（空や星を）仰ぎ見る、見上げる / look up, gaze, admire
+- **celos**（名/副）：上、上方、天頂の方向 / above, upward
+- **celosu**（副）：上へ、上方へ、空へ向かって / upward, aloft, to the heights
+- **celvor**（動）：覆う、包む、天蓋のように覆い被さる / cover, canopy, encompass
+- **cival**（動）：歌う、奏でる、旋律を紡ぐ / sing, play music, harmonize
+- **darlit**（動）：注ぐ、滴下する、水を注ぎ入れる / pour, decant, infuse
+- **darvol**（動）：波打つ、うねる、起伏する / undulate, swell, surge in waves
+- **darzanv**（動）：潜水する、水中に潜る、深みへ沈む / submerge, plunge underwater, dive into depths
+- **dolis**（副/形）：近く、傍らに、親密に / near, beside, close by
+- **dyren**（動）：涙する、泣く、しずくが滴る / weep, shed tear
+- **eirinu**（副）：常に、絶え間なく、いつでも / always, perpetually
+- **eirlom**（名/副）：太古に、悠久の昔に、原初から / in ancient times, from the dawn
+- **eirvas**（名/副）：永遠の彼方、無窮の果て / eternity horizon, timeless expanse
+- **falden**（名/副）：東、主星昇騰の方位、曙光の方角 / east, sunrise direction
+- **faldenu**（副）：東へ、日の出の方角へ、黎明に向かって / eastward, toward sunrise
+- **falk**（名/動）：閃光、火花、パチッと弾ける / spark, flash, snap
+- **falvan**（動）：照らす、輝かせる、ライトアップする / illuminate, shine light upon
+- **fenkas**（動）：告げる、響かせる、布告する / announce, herald, proclaim
+- **feno**（副/名）：昨日、過ぎ去りし日 / yesterday
+- **fenor**（動）：話す、語る、述べる、名づける / speak, utter, tell
+- **fensir**（動）：ささやく、小声で話す、耳打ちする / whisper, murmur softly
+- **folan**（名/副）：外、外部、外側、外界 / outside, outward
+- **folanu**（副）：外へ、外部へ、外界へ向かって / outward, outside, outwardly
+- **forvis**（副）：おそらく、たぶん、星の導きによれば / perhaps, maybe
+- **hano**（副/名）：今日、この日、現在 / today, present day
+- **harvan**（動）：聴く、耳を傾ける、聞き届ける / listen, hear
+- **hav**（名）：時、瞬間、今この瞬間 / time, moment, now
+- **havcor**（副）：定時に、規則正しく、時刻通りに / punctually, on schedule, regularly
+- **havel**（名）：時代、運行周期、時代の流れ / era, epoch, orbital cycle
+- **havit**（名/副）：やがて、程なくして、近い将来に / soon, before long, presently
+- **havlor**（名/副）：いつか、いずれ、将来のある時 / someday, eventually, in due time
+- **havzan**（副）：間一髪で、ぎりぎりの時に、絶妙な頃合いで / in the nick of time, just barely, on the razor edge of time
+- **jylas**（動）：結ぶ、繋ぐ、交差する、結合する / connect, bind, intersect
+- **jylvor**（動）：編み上げる、結び合わせる、束ねる / plait, entwine, bind together
+- **kiras**（動）：創る、構築する、工作する、書く / create, build, compose
+- **klomas**（動）：遮断する、孤立させる、隔離する / isolate, insulate, shut off
+- **klovan**（動）：閉じる、鍵をかける、終える / close, conclude, seal
+- **klovanis**（動）：封印する、厳封する、永久保管する / seal irrevocably, sequester
+- **kupan**（動）：走る、急ぎ行く、駆ける / run, sprint, rush
+- **kural**（副）：互いに、双方向に、連星のように / mutually, together
+- **kylas**（名）：夕、薄暮、黄昏の時 / evening, dusk, twilight
+- **kylasu**（副）：夕暮れ時に、日没に、黄昏に / at dusk, at twilight
+- **kymden**（名/副）：西、主星没入の方位、黄昏の方角 / west, sunset direction
+- **kymdenu**（副）：西へ、日没の方角へ、黄昏に向かって / westward, toward twilight
+- **kympan**（動）：身を屈める、伏せる、しゃがむ / crouch, duck low, crouch beneath cover
+- **kyrpan**（動）：凍る、凝固する、結晶化する / freeze, solidify, congeal
+- **kyvel**（動）：隠す、包み込む、秘める / conceal, veil, shelter
+- **larvor**（動）：回り道する、迂回する、遠回りする / detour, bypass, skirt around
+- **leras**（動）：開く、露わにする、顕現させる / open, reveal, manifest
+- **lerin**（名/副）：左、左舷、左方 / left, portside
+- **lerinu**（副）：左へ、左側へ、左舷へ / leftward, to the left
+- **mu**（副）：いいえ、〜でない（否定極性辞） / not, no
+- **nerpan**（動）：刻む、細切りにする、みじん切りにする / chop, mince, dice finely
+- **novas**（動）：登る、登攀する、頂点を目指す / climb, ascend, scale
+- **novasu**（副）：高らかに、天上に向けて、頂点へ / loftily, aloft, upwards
+- **kyrvden**（名/副）：北、天頂極の方位、上極 / north, zenith pole
+- **kyrvdenu**（副）：北へ、天頂極へ向かって / northward, toward zenith
+- **parin**（名/副）：右、右舷、右方 / right, starboard
+- **parinu**（副）：右へ、右側へ、右舷へ / rightward, to the right
+- **pason**（名/副）：後、後方、過去の側 / back, rear, behind
+- **pasonu**（副）：後ろへ、後方へ、過去へ向かって / backward, rearward, behind
+- **poran**（動）：歩く、歩む、旅する、進む / walk, journey, travel
+- **porcon**（動）：行進する、堂々と進む、パレードする / march, advance with dignity
+- **porzan**（動）：潜り抜ける、通過する、通り抜ける / pass through, thread way, traverse corridor
+- **pyran**（動）：燃える、点火する、燃焼する / burn, ignite, blaze
+- **relen**（動）：ある、存在する、実在する / exist, be present
+- **saren**（動）：笑う、微笑む、笑顔になる / smile, laugh
+- **seno**（副/名）：明日、来たるべき日 / tomorrow
+- **zelvan**（動）：授ける、手渡す、贈る / give, bestow, grant
+- **zelvcor**（動）：握手する、手を携える、協調する / clasp hands, cooperate, join forces
+- **serdar**（動）：洗う、洗い流す、清める / wash, rinse, cleanse
+- **zelvfas**（動）：離す、手を放す、手放す / release, let go, disengage
+- **zelvin**（動）：触れる、手渡す、受け止める / touch, hold, receive
+- **serlit**（動）：撫でる、優しく触れる、いたわる / stroke gently, caress
+- **serpan**（動）：掴む、握る、掌中に収める / grasp, clutch, grip
+- **zelvzan**（動）：手繰り寄せる、引き寄せる、引っ張る / draw near with hands, haul, pull cable
+- **silin**（名/副）：内、内部、中心側、心の内 / inside, inward, within
+- **silinu**（副）：内へ、内部へ、心の内へ向かって / inward, inside, inwardly
+- **soran**（動）：（ノートに）書き留める、記す / record, chronicle, write down
+- **sovil**（名）：昼、日中、正午 / daytime, noon
+- **spilan**（動）：舞う、踊る、旋回ステップを踏む / dance, leap, sway
+- **syndir**（動）：探す、探索する、発見する / search, find, discover
+- **talos**（名/副）：下、下方、大地の方向 / below, downward, beneath
+- **talosu**（副）：下へ、下方へ、大地へ向かって / downward, beneath, to the ground
+- **talsit**（動）：置く、据える、配置する、着座させる / put, place, set down
+- **talvok**（動）：掘る、穿つ、地下を開削する / dig, excavate, burrow out
+- **talzon**（動）：着陸する、接地する、着発する / touch ground, make landfall, touch down
+- **taris**（動）：待つ、佇む、待機する / wait, pause, linger
+- **tor**（接）：しかし、されど / but, yet
+### 12. 食・飲料・調理・食具
+
+- **bion**（動）：飲む、喫する、喉を潤す / drink, sip
+- **bionas**（名）：水差し、カラフェ、ピッチャー / pitcher, jug, decanter
+- **biondor**（名）：薬酒、滋養液、エリクサー / tonic, elixir, medicinal draught
+- **bionel**（名）：杯、酒杯、グラス、器 / chalice, cup, goblet
+- **bionmor**（名）：果汁、搾りたてジュース、清涼果液 / fruit juice, sweet pressed nectar
+- **bionpalv**（名）：酒場、居酒屋、タバーン / tavern, alehouse, wayside pub
+- **bionpan**（動）：乾杯する、祝杯をあげる、盃を交わす / toast, raise cups in cheer, clink glasses
+- **bionsol**（名）：麦酒、エール、醸造穀物酒 / ale, brewed malt draught, rustic beer
+- **bionzar**（名）：蒸留酒、酒精、ブランデー / distilled spirits, aqua vitae, hard liquor
+- **darel**（名）：スープ、温煮汁、滋養汁 / soup, broth
+- **darpan**（動）：溶かす、溶解させる、融解する / melt, dissolve, liquefy
+- **marnyz**（名）：大地の結晶塩、調味料 / salt, seasoning
+- **ner**（名）：滋養、食材、食物 / nourishment, foodstuff
+- **neran**（動）：食べる、食事する、味わう / eat, dine, partake
+- **nerar**（名）：カフェ、喫茶店、食堂、レストラン / cafe, restaurant, diner
+- **nercor**（名）：干し肉、保存肉、燻製肉 / cured meat, jerky, smoked pemmican
+- **nerdor**（名）：汁粉、シリアル、穀物粥 / porridge, gruel, cereal pottage
+- **nerdorn**（名）：濾し器、篩い、裏ごし布 / sieve, colander, straining cheesecloth
+- **nerel**（名）：料理、ごはん、温かい食事 / meal, cooked dish
+- **nerfat**（名）：蒸し物、蒸気調理品 / steamed food, steamed cake
+- **nerkam**（名）：鍋、煮込み釜、調理鍋 / pot, cauldron, stewpot
+- **nerkot**（名）：鍋敷き、調理台敷、受け皿 / pot stand, trivet, saucer
+- **nerlon**（名）：乾酪、チーズ、凝縮乳 / curd, cheese, aged solid milk
+- **nerlorv**（名）：焙煎機、焙煎釜、コーヒー豆煎り器 / roaster, parching pan, bean roaster
+- **nernyr**（名）：蜂蜜、花蜜、天然蜜液 / honey, wild comb nectar, sweet mead-syrup
+- **nerom**（名）：厨房、調理室、配膳所 / kitchen, cookroom, galley
+- **neror**（名）：料理人、シェフ / cook, chef
+- **nerpalv**（名）：パン屋、製パン工房、ベーカリー / bakery, bakehouse, bread stall
+- **nerpanv**（動）：発酵させる、醸造熟成させる / ferment, brew, culture with leaven
+- **nerparv**（名）：燻製室、燻製小屋、スモーク室 / smokehouse, curing loft
+- **nerpas**（動）：煮る、茹でる、熱湯調理する / boil, simmer, poach
+- **nerpin**（名）：香辛料、辛味薬味、芳香調味料 / spice, pungent seasoning, pepper
+- **nerpork**（名）：調味油、オリーブ油、食用植物油 / edible culinary oil, seed pressing
+- **nersarn**（名）：果実の砂糖漬け、ジャム、コンポート / preserve, compote, candied conserve
+- **nersarp**（名）：酒樽、貯蔵樽、木樽 / cask, keg, barrel tun
+- **nersol**（名）：酵母、天然酵母、パン種 / yeast, leaven, sourdough starter culture
+- **nerson**（名）：焼き網、グリル台、鉄板 / griddle, gridiron, broiling rack
+- **nertalv**（名）：すりこぎ、擂粉木、杵 / pestle, muller, grinding pounder
+- **nerzar**（名）：大宴会、祝宴、宮廷晩餐会 / banquet, symposium, festive banquet spread
+- **nyrat**（名）：主食、焼き穀物、糧 / bread, loaf, staple
+- **nyrsan**（名）：焼き菓子、ビスケット、乾酪菓子 / pastry, biscuit, baked crisp
+- **pylvin**（名）：皿、深鉢、陶器の器 / plate, dish, bowl, earthenware
+- **pyrtos**（動）：焼く、炙る、ローストする / roast, bake, grill
+- **talpork**（名）：すり鉢、乳鉢、粉砕器 / mortar, grinding basin
+- **terin**（名）：温かい煎じ茶、薬草茶 / tea, warm herbal brew
+- **terlar**（名）：茶器、急須、温茶瓶 / teapot, kettle, brew urn
+- **tursil**（名）：具材、スープの具、煮込み種 / ingredient, stew morsel, solid filling
+- **voril**（名）：発酵果実酒、祝い酒 / wine, fermented drink
+- **vurlin**（名）：スプーン、匙、汁掬い / spoon, ladle, serving scoop
+- **zartik**（名）：フォーク、刺し具、食具 / dining fork, pronged utensil
+### 13. 衣飾・携行具・日常品
+
+- **biondis**（名）：水筒、ボトル、携帯飲料瓶 / canteen, flask, portable bottle
+- **dovik**（名）：机、作業台、テーブル / desk, table
+- **faldisan**（名）：カーテン、ブラインド、遮光幕 / curtain, drape, sun-shade
+- **falkom**（名）：燭台、灯火台、照明スタンド / candelabra, lamp stand
+- **falkor**（名）：日時計、影指し盤、影時計 / sundial, solar shadow clock
+- **falmir**（名）：ランプ、常夜灯、星灯 / lamp, lantern, nightlight
+- **falsol**（名）：松明、たいまつ、樹脂篝火 / torch, pitch cresset, flare stave
+- **hylzar**（名）：指輪、宝石指環、星辰印章環 / signet ring, gem band, annular circlet
+- **kirel**（名）：筆、ペン、鉄筆、スタイラス / pen, stylus, quill
+- **kirelor**（名）：筆入れ、ペンケース、文具箱 / pen case, stylus box, writing kit
+- **kirelpan**（動）：清書する、写本する、毛筆筆耕する / transcribe, calligraph, fair-copy
+- **kirelsol**（名）：インク、黒インク、星辰筆記墨汁 / ink, writing fluid, lampblack wash
+- **kirelzar**（名）：羊皮紙、上質筆記羊皮紙、古文書葉 / parchment, vellum scroll, archival leaf
+- **klovel**（名）：鍵、解錠具、キー / key, lock-opener
+- **kymel**（名）：寝床、ベッド、休息の台 / bed, resting couch
+- **kypal**（名）：箱、小箱、収納ケース、匣 / box, chest, container casing
+- **larsil**（名）：靴、履物、歩行靴 / shoes, footwear, boots
+- **larsol**（名）：サンダル、編み履物、軽靴 / sandal, strapped buskin, light slipper
+- **larsor**（名）：革紐、靴紐、締め緒 / shoelace, leather lace, boot thong
+- **lervil**（名）：閂、錠前、扉の留め具 / latch, door bolt, bar
+- **neltin**（名）：留め針、ブローチ、安全ピン / pin, brooch, fibula fastener
+- **pamel**（名）：本、書籍、手記ノート、冊子 / book, notebook, volume
+- **pamelar**（名）：図書館、文庫、書物閲覧所 / library, archive, book hall
+- **pamelis**（名）：栞、ブックマーク、目印の紐 / bookmark, marker ribbon
+- **serel**（名）：小刀、ナイフ、調理刃 / knife, blade, cutter
+- **zelvval**（名）：手袋、保護手袋 / gloves, gauntlets
+- **talparil**（名）：耳飾り、イヤリング、耳環 / earring, ear drop, lobe pendant
+- **talvinor**（名）：首飾り、ネックレス、宝石胸飾り / necklace, pectoral gorget, pendant collar
+- **talvyn**（名）：櫛、髪飾り、整髪具 / comb, hair clasp, ornamental pin
+- **tasel**（名）：椅子、座席、腰掛け / chair, seat
+- **tasor**（名）：肘掛け椅子、玉座、長椅子 / armchair, couch, settee
+- **valcon**（名）：礼服、正装、儀礼用ローブ / vestment, ceremonial robe, gala gown
+- **valcor**（名）：天幕、テント、幕屋 / tent, pavilion, portable canopy
+- **valdan**（名）：絨毯、敷物、織布マット / carpet, rug, floor tapestry
+- **valdorv**（名）：ボタン、留め釦、骨角ボタン / button, toggle, stud clasp
+- **valis**（名）：衣服、装い、布地、衣類 / garment, robe, clothes
+- **valkor**（名）：紐、縄、コード、縛り糸 / string, cord, rope, tie
+- **valnyr**（名）：刺繍、金糸銀糸の刺繍飾り / embroidery, needlework, brocade threadwork
+- **valparv**（名）：襟、首回り飾り、カラー / collar, ruff, neckband
+- **valpuk**（名）：外套、マント、防風外套 / cloak, mantle, travelling cape
+- **valren**（名）：帽子、頭巾、庇付き頭覆い / hood, cap, headpiece
+- **valsarp**（名）：袖、長袖、腕覆い / sleeve, gauntlet sleeve, arm covering
+- **valser**（名）：帯、ベルト、腰紐 / sash, belt, girdle, waist-strap
+- **valsol**（名）：裏地、内張り、保温裏毛 / lining, inner quilting, fleece lining
+- **valson**（動）：着替える、装いを整える、身繕いする / change attire, don festive robes, groom outfit
+- **valtarv**（名）：ショール、肩掛け、大判肩掛け布 / shawl, shoulder wrap, stole
+- **valtas**（名）：鞄、背嚢、サッチェル / bag, satchel, rucksack, haversack
+- **valtasp**（名）：財布、革巾着、小銭入れ / purse, pouch, coin purse
+- **valzar**（名）：絹織物、極上布、天の薄絹 / fine silk, diaphanous samite, astral damask
+- **zenkal**（名）：鏡、姿見、光反射板 / mirror, looking glass
+### 11. 建築・都市・住空間
+
+- **borparn**（名）：梁、桁、天井支え桁 / rafter, joist, ceiling beam
+- **celpar**（名）：天窓、採光ドーム、クーポラ / skylight dome, cupola, lantern roof
+- **celporv**（名）：日除け庇、ポーチ屋根、キャノピー / awnings, portico canopy, marquee overhang
+- **celup**（名）：天井、屋根、日覆い天蓋 / ceiling, roof, canopy
+- **dankar**（名）：基礎、土台、建築石礎 / foundation, plinth, bedrock base
+- **dankarn**（名）：厩舎、馬屋、動物飼育棟 / stables, mews, beast barn
+- **domcor**（名）：塔、監視塔、物見櫓、尖塔 / tower, spire, watchtower
+- **domdorn**（名）：雨樋、樋、排水配管 / gutter, waterspout, downspout pipe
+- **domlorv**（名）：鐘楼、時報塔、鐘楼台 / campanile, belfry, clock spire
+- **domom**（名）：都市、街、街区 / city, town, metropolis
+- **dompalv**（名）：街路樹通り、並木道、プロムナード / boulevard, tree-lined allée, promenade
+- **dompanan**（動）：落成する、上棟する、家を建てる / erect dwelling, raise ridgepole, inaugurate building
+- **domsarp**（名）：屋根裏部屋、ロフト、小間屋根裏 / attic, loft, garret bed-chamber
+- **domsol**（名）：柱頭、柱飾り、エンタブラチュア / capital, pediment pillar ornament
+- **domsor**（名）：地下室、貯蔵室、食糧庫 / cellar, basement vault, storeroom
+- **domtalv**（名）：中庭噴水、噴水池、中庭水景 / courtyard fountain, basin jet
+- **domvin**（名）：回廊、列柱廊、アーケード / colonnade, cloister, arcade walk
+- **domzar**（名）：中央広場、アゴラ、フォーラム / central plaza, agora, civic concourse
+- **domzarv**（名）：大聖堂、天体観測ドーム宮、大殿 / basilica, grand dome rotunda, star minster
+- **durcon**（名）：防壁塔、堡塁、小要塞 / bastion, redoubt, fortified bulwark
+- **durkas**（名）：防壁、城壁、外郭防護壁 / rampart, defensive parapet, outer wall
+- **durpanan**（動）：築く、城壁を巡らせる、要塞化する / fortify, entrench, embattle with wall
+- **dursarp**（名）：胸壁、銃眼付き狭間胸壁 / battlement, crenellated parapet
+- **dursol**（名）：石垣、石積み擁壁、乾式石壁 / drystone masonry, drystone retaining revetment
+- **durval**（名）：壁、隔壁、防護仕切り / wall, partition, bulkhead
+- **falnyr**（名）：狭間、スリット窓、採光矢狭間 / loophole, arrow slit window, embrasure
+- **falpar**（名）：バルコニー、露台、見晴台 / balcony, terrace, veranda
+- **farnal**（名）：窓、明かり取り、天窓 / window, skylight
+- **govan**（名）：家、住宅、住まい / house, home, dwelling
+- **kulmon**（名）：柱、支柱、梁、建築の骨柱 / pillar, column, support beam
+- **larar**（名）：駅、ターミナル、空港、停泊地 / station, terminal, port
+- **laros**（名）：乗り物、車両、列車、交通艇 / vehicle, carriage, train
+- **lercor**（名）：アーチ門、凱旋門、重厚な門扉 / arched gate, portal, grand gateway
+- **lerel**（名）：扉、ドア、出入口、ゲート / door, gate, entrance
+- **lersol**（名）：落とし格子、鉄格子門、防護落とし戸 / portcullis, iron grate grille gate
+- **lerson**（名）：跳ね橋、城門引橋、昇降橋 / drawbridge, portcullis causeway
+- **lertal**（名）：廊下、通路、渡り廊下 / corridor, hallway, passage
+- **lervan**（名）：敷居、玄関、踏み分け段 / threshold, foyer, entryway
+- **lervor**（名）：玄関ホール、ポーチ、前室 / vestibule, front porch, ante-room
+- **talsar**（名）：敷石、舗装、石畳の道 / paving stone, flagstone, cobbled walk
+- **taran**（動）：住まう、暮らす、居住する / live, dwell, reside
+- **tolst**（名）：床、床面、居住基盤面 / floor, ground level
+- **tolsun**（名）：石橋、アーチ橋、橋梁 / arch bridge, stone viaduct, aqueduct
+- **velar**（名）：庭、庭園、中庭、緑地 / garden, courtyard, arboretum
+- **vorn**（名）：部屋、私室、空間 / room, chamber
+- **vostir**（名）：階段、ステップ、昇降段 / stairs, steps, staircase
+### 15. 性質・状態・色彩・感触
+
+- **alin**（形）：白い、純白の、無垢な / white, pure
+- **celisi**（形）：霞がかった、曖昧な、霧深い / misty, hazy, nebulous
+- **cironi**（形）：静かな、無音の、凪いだ / silent, quiet, peaceful
+- **cironli**（形）：賑やかな、活気ある、声響く / lively, bustling, vibrant
+- **cylani**（形）：美しい、調和のとれた、麗しい / beautiful, exquisite
+- **darini**（形）：柔らかい、柔軟な、しなやかな / soft, supple, pliant
+- **darisli**（形）：なめらかな、すべすべした、水流のような / smooth, sleek, fluid
+- **darlori**（形）：激流の、潮汐力強い、奔流の / torrential, surging, rushing
+- **darmoni**（形）：清冽な、湧水のように澄んだ / pure, limpid, spring-clear
+- **darsarn**（形）：芳醇な、口当たりの良い、香り高い / mellifluous, mellow, aromatic savory
+- **darsol**（形）：透き通った、清澄な、透明な / limpid, crystal-clear, transparent
+- **darzan**（形）：湿った、しっとりした、水分を含んだ / dank, humid, moist with vapor
+- **dorvan**（形）：脆い、壊れやすい、繊細な / fragile, brittle, delicate
+- **durini**（形）：重い、重厚な、高密度の / heavy, dense, massive
+- **durvani**（形）：免疫のある、抗体を持った、無傷の / immune, resistant, impervious
+- **eiran**（形）：永遠の、不滅の、無尽の / eternal, perpetual, immortal
+- **eirin**（形）：古い、悠久の、古代の / ancient, old, timeless
+- **falini**（形）：澄んだ、明瞭な、透き通った / clear, transparent, lucid
+- **falkas**（形）：粗い、ざらざらした、無加工の / rough, coarse, unpolished
+- **falpiri**（形）：冷光の、幽かな燐光を放つ / phosphorescent, glow-in-the-dark
+- **falsarn**（形）：眩い、目が眩むほどの、強烈な閃光の / dazzling, blindingly radiant, resplendent
+- **falsolv**（形）：銀白色の、白銀に輝く、白光の / silvery-white, argent, starlit pallor
+- **faluni**（形）：明るい、光り輝く / bright, radiant
+- **falzor**（形）：鮮明な、くっきりした、解像度の高い / vivid, distinct, sharply defined
+- **krotani**（形）：騒然とした、激動の、波乱に満ちた / turbulent, stormy, tumultuous
+- **kymcon**（形）：漆黒の、底知れぬ暗黒の / pitch-black, abyss-dark
+- **kymsarn**（形）：ほの暗い、薄暗い、微光漂う / dim, dusky, shadowy crepuscular
+- **kymsol**（形）：濃紺の、深夜の蒼天色の、インディゴの / midnight-blue, deep indigo, nocturnal cyan
+- **kyrani**（形）：冷たい、凍てつく、氷結の / cold, icy, frigid
+- **kyrfini**（形）：凍結した、氷河のような、極寒の / glacial, ice-locked, gelid
+- **kyrimi**（形）：深い、深淵な、奥底の / deep, profound
+- **kyrin**（形）：黒い、漆黒の、暗い / black, pitch-dark
+- **kyrlini**（形）：雪白の、粉雪のような、純潔の / snow-white, crystalline pure
+- **kyrpi**（形）：鋭い、研ぎ澄まされた、尖鋭な / sharp, acute, keen
+- **kyrzan**（形）：凍てつく、極冷の、骨身に染みる冷たさの / frigid, sub-zero chilling, gelid
+- **melysi**（形）：甘い、滋味豊かな、甘美な / sweet, luscious, delicious
+- **minzan**（形）：誠実な、偽りのない、嘘偽りなき / candid, forthright, unfeigned upright
+- **moran**（形）：大きい、広大な、壮大な / large, vast, grand
+- **morini**（形）：遅い、緩やかな、歩みの遅い / slow, gentle, unhurried
+- **nebulin**（形）：紫の、深紫の、星雲色の / purple, violet, nebula-hued
+- **novani**（形）：高い、至高の、天上界の / high, lofty, elevated
+- **porkini**（形）：狭い、窮屈な、幅の狭い / narrow, tight, cramped
+- **pyrin**（形）：赤い、真紅の、燃えるような / red, crimson, fiery
+- **pyrsol**（形）：緋色の、深紅の、紅蓮の / crimson, scarlet-bright, ruby incandescent
+- **pyrzan**（形）：熱烈な、灼熱の、焼けるような / scalding, scorching, fiercely fervent
+- **klorini**（形）：丸い、円形の、球状の / round, circular, spherical
+- **serini**（形）：細い、薄い、繊細な / thin, slim, subtle
+- **zelvsarn**（形）：ざらつく、粒立ちのある、手応えのある / gritty, textured, tactile with grains
+- **sersolv**（形）：絹のように滑らかな、つるつるとした / silky, satiny smooth, gliding
+- **sirani**（形）：優しい、穏やかな、柔らかな / gentle, mild, soft
+- **syvan**（形）：新しい、新鮮な、新緑の / new, fresh, novel
+- **talani**（形）：強い、堅固な、頑丈な、岩のような / strong, durable, solid
+- **talcon**（形）：頑強な、堅固な、ゆるぎない / sturdy, robust, steadfast
+- **taldari**（形）：ぬかるんだ、泥深い、粘土質の / muddy, miry, clayey
+- **talyrki**（形）：ざらざらした、粗い、岩肌のような / rough, coarse, gritty
+- **talmori**（形）：広い、広々とした、開放的な / spacious, broad, roomy
+- **talpi**（形）：硬い、硬質な、強硬な / hard, rigid, unyielding
+- **talsarpv**（形）：硬質な、緻密な、刃を通さぬ / adamantine, impenetrable, dense-grained
+- **talsolv**（形）：褐色の、土色の、琥珀土色の / tawny, amber-brown, earthen russet
+- **taluri**（形）：金属的な、硬質な光沢の、鋼の / metallic, steel-like, lustrous
+- **teirini**（形）：温かい、慈愛に満ちた、温もりの / warm, tender, comforting
+- **telin**（形）：小さい、細やかな、微小な / small, tiny, delicate
+- **tuliki**（形）：角張った、多角形の、角ばった / angular, polygonal, edged
+- **tulmin**（形）：柔軟な、しなやかな、弾力のある / flexible, supple, pliable
+- **tulosi**（形）：低い、底層の、足元の / low, deep-set, base
+- **tyni**（形）：銀色の、白銀の、月光の / silver, silvery, gleaming
+- **valin**（形）：金色の、黄金の、輝かしい / golden, amber, lustrous
+- **valpini**（形）：厚い、分厚い、重層の / thick, stout, dense-layered
+- **velini**（形）：緑の、新緑色の、翠色の / green, emerald, verdant
+- **velpari**（形）：樹木が生い茂った、森厳な / wooded, arboraceous, dense-timbered
+### 14. 精神・哲学・感情・芸術
+
+- **civdorv**（名）：太鼓、打楽器、太古の律動鼓 / drum, timbrel, rhythm kettle
+- **civnyr**（名）：笛、フルート、星風の木管笛 / flute, pipe, reed recorder
+- **civom**（名）：叙事詩、星間神話詩、長編伝承 / epic poem, cosmological saga
+- **civpanan**（動）：作曲する、メロディを紡ぐ、詩曲を作る / compose score, weave hymn melody, score music
+- **civsol**（名）：竪琴、リラ、ハープ、星辰弦楽器 / harp, lyre, starry kithara
+- **civtas**（名）：和音、ハーモニー、協和響き / chord, consonant harmony
+- **civzar**（名）：交響曲、大合奏、大管弦詩 / symphony, grand polyphonic concerto
+- **cylanar**（名）：劇場、美術館、芸術の館 / theater, art gallery, salon
+- **cylas**（名/形）：美、崇高、調和美、美しい / beauty, sublime, graceful
+- **cylinor**（名）：芸術家、美の探求者、表現者 / artist, aesthetician, creator of beauty
+- **cynas**（名）：友情、親愛、心の絆 / friendship, fellowship
+- **cynel**（名/動）：愛、慈しみ、深い共感、愛する / love, affection, cherish
+- **cynur**（名）：感謝、謝意、心の返礼 / gratitude, thanksgiving
+- **duras**（名/形）：忍耐、耐性、不撓不屈の / endurance, fortitude, patient
+- **durlan**（名）：意志、不屈の覚悟、決意 / willpower, determination, firm resolve
+- **durtan**（名）：勇気、果敢さ、不屈の志 / courage, bravery, valor
+- **elir**（名/形）：喜び、多幸感、嬉しい / joy, delight, gladness
+- **elirtas**（名）：祝意、お祝い、祝福の辞 / congratulations, festive cheer
+- **falpanan**（動）：彩色する、絵筆を執る、色を塗る / paint, brush color onto canvas, illuminate page
+- **falzar**（名）：壁画、フレスコ画、壮大な天井画 / fresco, mural painting, celestial tableau
+- **felyn**（名）：直感、閃き、直観的洞察 / intuition, flash of insight
+- **fevas**（動）：信じる、信頼する、託す / trust, believe, confide
+- **fevkar**（名）：約束、確約、誓言、誓約言明 / pledge, firm undertaking
+- **fevnas**（名）：忠誠、信義、誠意 / fidelity, loyalty, allegiance
+- **fevok**（名）：確信、不抜の信仰、信条 / conviction, firm creed
+- **kefen**（名/形）：畏怖、畏敬、厳粛な恐れ / awe, reverence
+- **kefur**（名）：畏敬の念、崇拝、神聖感 / sacred awe, reverence
+- **kolzan**（名）：彫像、彫刻、石造モニュメント / statue, stone sculpture, effigy effigy
+- **kores**（動）：忘れる、手放す、過去に置く / forget, release, let go
+- **krotas**（名/形）：激動、怒り、熱狂、激しい / fury, wrath, passion
+- **krotik**（名）：葛藤、心の嵐、内なる動揺 / inner conflict, turmoil, agitation
+- **krotiluk**（名）：焦燥、苛立ち、もどかしさ / impatience, frustration, restlessness
+- **larvyn**（名）：宿命、天命、星の軌道命数 / destiny, cosmic ordination
+- **lyras**（名/形）：哀愁、切なさ、悲哀、切ない / sorrow, melancholy, pathos
+- **lyren**（名）：鎮魂歌、哀傷詩、エレジー / elegy, requiem, lament
+- **lyrtas**（名）：後悔、悔恨、やり直しへの念 / regret, remorse
+- **lyrvik**（名）：郷愁、ノスタルジー、遠き星への憧憬 / nostalgia, longing for distant home
+- **memar**（動）：思索する、深く考える、熟慮する / contemplate, meditate, reflect
+- **mincor**（名）：矜持、誇り、気品、自尊心 / dignity, noble pride, self-respect
+- **mindan**（名）：直観、ひらめき、洞察 / intuition, insight, flash of clarity
+- **minnyr**（名）：慈愛、思いやり、深い憐憫 / compassion, tender mercy, gentleness of soul
+- **minpalv**（名）：安らぎ、静寂、心の平穏 / serenity, tranquil peace, quietude of mind
+- **minpan**（動）：決断する、心を定める、意を決する / resolve, determine, make up mind
+- **minpanan**（動）：祈る、念じる、星辰に願う / pray, supplicate the heavens, meditate longing
+- **minparv**（名）：好奇心、探求心、真理への憧れ / inquisitiveness, curiosity, thirst for truth
+- **minsol**（名）：覚悟、揺るがぬ意志、不動心 / steadfast resolution, unyielding iron will
+- **minvol**（名）：憧憬、憧れ、高みへの熱望 / yearning, aspiration, starry longing
+- **minzar**（名）：悟り、真我の覚知、霊的開眼 / enlightenment, spiritual awakening, episteme
+- **novis**（名/動）：敬意、崇敬、尊ぶ / reverence, honor, venerate
+- **sarcon**（名）：祝祭、感謝祭、歓喜の祝宴 / jubilee, festive gala, joyful feast
+- **sardorn**（名）：哀傷、メランコリー、静かな悲嘆 / melancholy, gentle grief, elegiac sadness
+- **sarmon**（名）：ユーモア、機知、軽妙な笑い / wit, subtle humor, playful mirth
+- **sarpanan**（動）：慰める、励ます、痛みに寄り添う / console, comfort, cheer grieving heart
+- **sarzar**（名）：至福、法悦、エクスタシー / bliss, rapture, transcendent ecstasy
+- **sirin**（名/形）：平穏、安らぎ、静けさ、穏やか / serenity, peace, tranquility
+- **sirlem**（名）：寛容、広い心、包容、受容 / tolerance, broad-mindedness, leniency
+- **sirvanis**（名）：瞑想者、観照家、静思の徒 / contemplative, meditator, silent seer
+- **sirvon**（名/形）：瞑想、深い静思、観照する / meditation, tranquil mindfulness
+- **solen**（名/形）：孤高、静かな孤独、一人きり / solitude, solitude-proud
+- **muran**（動）：夢を見る、幻視する、構想する / dream, envision, visualize
+### 4. 生命・生体・医療
+
+- **darisan**（動）：療養する、回復する、快復に向かう / convalesce, recuperate, heal
+- **darisar**（名）：病院、医院、診療所、癒しの座 / hospital, clinic
+- **dariscon**（名）：包帯、固定具、創傷被覆材 / bandage, wound dressing, splint
+- **darisor**（名）：医師、治癒師、導師 / doctor, physician, healer
+- **darispan**（動）：処方する、薬を調合する、投薬する / prescribe, dispense medicine, compound
+- **darispuk**（名）：軟膏、塗り薬、薬用膏薬 / ointment, therapeutic balm, salve
+- **darmut**（名）：汗、体液蒸散、滴り / sweat, perspiration
+- **davel**（名）：血液、脈流、体液 / blood, vital fluid
+- **davelis**（名）：血漿、体液、リンパ液 / lymph, plasma, serous fluid
+- **davlar**（名）：循環系、血管網、脈絡 / circulatory system, blood vessels
+- **duril**（名）：骨、骨格、堅固な支柱 / bone, skeleton
+- **durtas**（名）：筋肉、筋力、運動器官 / muscle, sinew
+- **durtin**（名）：肩、荷を担ぐ支え / shoulder, brace
+- **durvan**（名）：免疫、生体防御機構、抗体 / immunity, vital defense
+- **durvanar**（名）：隔離室、検疫所、無菌室 / quarantine chamber, clean room
+- **durvis**（名）：軟骨、腱、靭帯 / cartilage, tendon, connective tissue
+- **fenel**（名）：口、唇、声門 / mouth, lips
+- **fenlin**（名）：味覚、風味、舌ざわり / taste sensation, flavor perception
+- **fenrut**（名）：喉、気道、咽頭、声の通り道 / throat, pharynx
+- **harel**（名）：耳、聴覚器官 / ear, auditory organ
+- **harnas**（名）：聴力、音感、耳の感度 / hearing ability, auditory sense
+- **hylik**（名）：皮膚、肌、外被 / skin, dermis
+- **jynten**（名）：神経、感覚伝達網、シナプス / nerve, neural network
+- **kivan**（名）：細胞、生体微小胞 / cell, life vesicle
+- **korgon**（名）：胃、消化器、滋養受納処 / stomach, digestive organ
+- **kylar**（名）：病、乱調、軌道乱れ / illness, disease
+- **kylat**（名）：疲労、消耗、エネルギー枯渇 / fatigue, weariness, drain
+- **tymis**（名/動）：眠り、睡眠、休眠する / sleep, rest
+- **tymisar**（名）：安息所、病床、療養室 / infirmary, recovery ward, hospice
+- **tymisis**（名）：居眠り、うたた寝、小休止 / nap, doze, catnap
+- **larin**（名）：足、脚、歩行肢 / foot, leg
+- **larkul**（名）：足首、くるぶし、歩行関節 / ankle, tarsus
+- **morcon**（名）：骨折、組織断裂、生体損傷 / fracture, skeletal rupture, trauma
+- **mordin**（名）：骨髄、造血組織、生命基底芯 / bone marrow, myeloid tissue, core marrow
+- **morpan**（動）：麻痺する、感覚を失う、運動停止する / paralyze, go numb, lose motor function
+- **morpar**（名）：皮膚、表皮、外皮組織 / epidermis, cuticle, skin barrier
+- **morvin**（名）：血管、動脈、静脈、血脈管 / blood vessel, artery, vascular channel
+- **morvyn**（名）：軟骨、軟組織、緩衝肉 / cartilage, cushioning tissue
+- **myren**（名）：人間、知性体、観測者 / human, sentient being
+- **nerzyv**（名）：消化、滋養吸収、同化代謝 / digestion, assimilation, nutrient uptake
+- **noven**（名）：頭、頭脳、中枢神経 / head, brain, intellect center
+- **revcon**（名）：抗体、免疫防御因子、解毒素 / antibody, immune defense agent, antitoxin
+- **revir**（動）：目覚める、覚醒する、回復する / awake, recover
+- **revkor**（名）：熱病、発熱、体温上昇症状 / fever, pyrexia, inflammatory heat
+- **revpan**（動）：蘇生する、意識を取り戻す、息を吹き返す / resuscitate, revive, regain consciousness
+- **revpar**（名）：抗生物質、生体活性薬、滋養強壮薬 / antibiotic, vital tonic, therapeutic restorative
+- **revrin**（名）：リンパ液、体液循環、組織間質液 / lymph, interstitial fluid, humors
+- **revsol**（名）：代謝、生体恒常性、生命維持循環 / metabolism, homeostasis
+- **revtin**（名）：脈診、触診、生体リズム診断 / pulse diagnosis, palpation, vital rhythm test
+- **revtis**（名）：疲労、消耗、体力の衰え / fatigue, weariness, exhaustion
+- **zelv**（名）：手、掌、指 / hand, palm, fingers
+- **sercon**（名）：鎮痛薬、麻酔、感覚遮断薬 / analgesic, painkiller, anesthetic sedative
+- **serdin**（名）：反射、不随意運動、神経反射 / reflex, involuntary impulse
+- **serfal**（名）：覚醒、目覚め、意識の再開 / awakening, vigil, waking state
+- **zelvjyt**（名）：手首、関節、手の節点 / wrist, joint, articulate node
+- **serkin**（名）：まどろみ、浅い眠り、仮眠 / doze, light slumber, nap
+- **serkym**（名）：睡眠、安息、深い眠り / sleep, slumber, rest cycle
+- **serpanan**（動）：鎮静させる、眠らせる、痛みを和らげる / soothe, tranquilize, alleviate pain
+- **teira**（名）：心臓、胸の核、肉体の中心 / heart, core
+- **teiran**（名）：遺伝子、螺旋設計図、生体素核 / gene, genome, life helix
+### 6. 気象・大気・水域
+
+- **celar**（名）：極光、オーロラ、天の天幕 / aurora, polar light
+- **celis**（名）：雲、霧、霞 / cloud, mist, fog
+- **celkym**（名）：雨雲、暗雲、低層雨雲 / rain cloud, nimbus, dark sky cloud
+- **celnyv**（名）：薄霧、朝靄、山靄、蒸気靄 / haze, morning mist, blue vapor veil
+- **celran**（名）：乱層雲、雨雲塊、濃密雷雲 / nimbostratus, dense thunderhead
+- **celtyr**（名）：巻雲、すじ雲、高層氷晶雲 / cirrus cloud, ice feather cloud
+- **celvorin**（名）：霧雨、小雨、微細な雨滴 / drizzle, fine rain, mizzle
+- **celvorv**（名）：積乱雲、入道雲、雷雨積雲 / cumulonimbus, towering cloud anvil
+- **dar**（名）：しずく、水滴、朝露 / droplet, dew
+- **darcon**（名）：洪水、氾濫、大増水 / flood, inundation, deluge overflow
+- **darfal**（名）：滝、瀑布、懸濁水流 / waterfall, cascade, cataract
+- **daris**（名）：水、清流、淡水 / water, stream
+- **darlen**（名）：雨、降雨 / rain, rainfall
+- **darlik**（名）：地下水、伏流水、帯水層 / groundwater, subterranean stream
+- **darlor**（名）：潮流、海流、水流 / ocean current, tidal flow
+- **darmar**（名）：湿原、沼沢、水生植物の地 / marsh, swamp, bog, wetland
+- **darmon**（名）：泉、湧水、水源 / spring, font
+- **darnyv**（名）：朝露、夜露、草葉の露水 / morning dew, condensed night moisture
+- **daron**（名）：湖、湖沼、静水面 / lake, pond
+- **darpal**（名）：浅瀬、徒渉池、川の浅み / ford, shallow river crossing, shoal
+- **darpanan**（動）：氾濫する、溢れ出る、堤防を越える / overflow banks, spill over, surge
+- **darpas**（名）：引き潮、退潮、干潮 / ebb tide, low water, receding tide
+- **darpuk**（名）：水たまり、窪みの水、雨水溜まり / puddle, pool, standing water
+- **darrot**（名）：波、波浪、水面のさざ波 / wave, ripple, billow
+- **darsik**（名）：海峡、水路、海峡部 / strait, channel, sound
+- **darsolv**（名）：清流、小川、せせらぎ、渓流 / brook, creek, babbling mountain rill
+- **darvor**（名）：満ち潮、上げ潮、満潮 / flood tide, high water, rising tide
+- **darvorn**（名）：渦潮、大渦、海流渦 / maelstrom, whirlpool, vortex eddy
+- **darvyr**（名）：夜光海、夜光虫の光、海蛍の輝き / phosphorescent sea, sea sparkle glow
+- **faldaris**（名）：虹、天の彩橋、分光光弧 / rainbow, celestial prismatic arc
+### 9. 統治・社会・法・共同体
+
+- **calfen**（名）：演説、スピーチ、呼びかけ、論述 / speech, address, proclamation
+- **calor**（名）：評議会、会議、議会、対話の座 / council, parliament, forum
+- **calvir**（名）：請願、議案、提言 / petition, bill, motion
+- **cynfin**（名）：仲間、同僚、同朋、連帯者 / comrade, peer, associate
+- **cynmar**（名）：扶助、相互扶助、福祉 / mutual aid, relief, welfare
+- **cynor**（名）：親友、盟友、魂の伴走者 / confidant, sworn companion
+- **dankor**（名）：市民、定住住民、共同体構成員 / citizen, burgher, resident freeman
+- **dankorv**（名）：元首、執政官、都市代表長 / archon, high magistrate, consul
+- **dirin**（名/形）：正義、公正、均衡、正しい / justice, equity, righteous
+- **dolar**（動）：働く、勤労する、奉仕する / work, labor, serve
+- **dolinar**（名）：工匠、技術者、鍛冶師 / master craftsman, engineer
+- **dolren**（名）：給与、報酬、労賃、手当 / wage, salary, recompense
+- **dolvan**（名）：産業、生産網、製造業 / industry, manufacture, production
+- **dolvis**（名）：協同組合、ギルド、職人座 / guild, cooperative, artisan syndicate
+- **dolyk**（名）：義務、責務、誓約の勤め / duty, civic obligation
+- **domnyr**（名）：代議員、評議員、人民代表 / deputy, tribune, representative delegate
+- **dompal**（名）：街区、隣組、近隣共同体 / ward, neighborhood commune, parish
+- **domsen**（名）：評議会、代議員会、合議機関 / senate, parliament, high assembly
+- **elyrat**（名）：祭典、祝祭、星の祭り / festival, celebration
+- **jylik**（名）：条約文書、協定証書、公文書 / treaty document, signed charter
+- **jylkan**（名）：条約、連邦約款、恒久同盟 / covenant, treaty, pact of union
+- **jylmar**（名）：協力、協同作業、チームワーク / cooperation, collaboration, team effort
+- **jylmor**（名）：代表団、使節、使者協議団 / delegation, embassy, envoy mission
+- **jylot**（名）：約束、契約、協定、盟約 / pact, covenant, contract
+### 10. 経済・交易・工芸・労働
+
+- **dolaran**（動）：鍛造する、打刻する、精錬加工する / forge, refine, craft with tool
+- **dolas**（名）：鋳型、鋳型枠、金型 / mold, matrix, casting die
+- **dolkin**（名）：やすり、研磨具、砥石 / file, rasp, whetstone abrasive
+- **dolnyr**（名）：彫刻刀、鏨、金工たがね / chisel, graver, repousse punch
+- **dolor**（名）：労働者、職人、働き手 / worker, artisan
+- **dolpak**（名）：金床、鉄敷、鍛冶台 / anvil, smithing block
+- **dolpanan**（動）：鋳造する、型に流し込む、鋳型成型する / cast, cast metal into mold, pour founding
+- **dolsarp**（名）：坩堝、るつぼ、耐火溶解皿 / crucible, melting pot, refractory vessel
+- **dolsol**（名）：鞴、ふいご、送風機 / bellows, blast-furnace air blower
+- **doltarv**（名）：焼戻し油、焼入れ水槽、冷却槽 / quenching bath, tempering trough
+- **jylcor**（名）：紡績糸、撚り糸、細糸 / spun yarn, spun thread, ply
+- **jyldan**（名）：機織り機、織機 / weaving loom, textile frame
+- **jylnyr**（名）：紡錘、糸巻き棒、スピンドル / spindle, distaff, bobbin whorl
+- **jylpan**（動）：織る、編む、交差結節する / weave, braid, intertwine
+- **jylparv**（名）：染料、天然草木染め液、染色槽 / dye, natural vat tint, mordant liquid
+- **jylzaran**（名）：織物商、反物座、布地問屋 / draper guild, textile factor, cloth merchant
+- **kirasen**（動）：修理する、直す、修繕する / repair, mend, fix
+- **kortan**（動）：切断する、裁つ、分かつ / sever, slice, cleave
+- **marcor**（名）：商船、交易貨物船、運搬艇 / merchant vessel, cargo barge
+- **mardin**（名）：元金、元本、投資資本 / principal, capital sum, stake
+
+## 正本の用例
+
+### テクスト1：星辰箴言
+Relen el vyran ia tolst en sente. Tor poran el havel, falun el vyr.
+
+真理は万物の礎である。時が進んでも、星は輝く。
+
+### テクスト2：天文台の日誌
+Fe vyrelcor el vyrelor uo vyrelar to falden. Fe falunast el vyr syvan uo celvan. Fe revyrel el corval en celmon.
+
+天文学者は天文台にて東方を定期観測した。天球で新しい星が輝き始めた。暗黒星雲の重心が観測された。
+
+### テクスト3：対話A（導入）
+Falun el vyrin. Poran el taas to kauo ka?
+
+星々が輝きます。あなたはどこへ歩きますか。
+
+### テクスト3：対話B
+Poran el mi to govan en cynor. Nerancor el mi ia nyrat uo nerar.
+
+私は友の家へ歩きます。私は普段、食堂で主食を食べます。
+
+### テクスト3：対話A（応答）
+Relen el laris en taas ia sirin. Poran el mi to falden.
+
+あなたの軌道は穏やかです。私は東へ歩きます。
+
+### 用例：present
+Falun el vyr.
+
+星は輝く。
+
+### 用例：past
+Fe falun el vyr.
+
+星は輝いた。
+
+### 用例：future
+Se falun el vyr.
+
+星は輝くだろう。
+
+### 用例：progress
+Di falun el vyr.
+
+星は輝いている。
+
+### 用例：negative
+Ne falun el vyr.
+
+星は輝かない。
+
+### 用例：question
+Falun el vyr ka?
+
+星は輝くか。
+
+### 用例：inceptive
+Falunast el vyr.
+
+星は輝き始める。
+
+### 用例：repeated
+Faluncor el vyr.
+
+星は繰り返し輝く。
+
+### 用例：walk
+Poran el mi to govan.
+
+私は家へ歩く。
+
+### 用例：walk-past
+Fe poran el mi to govan.
+
+私は家へ歩いた。
+
+### 用例：walk-future
+Se poran el mi to govan.
+
+私は家へ歩くだろう。
+
+### 用例：walk-progress
+Di poran el mi to govan.
+
+私は家へ歩いている。
+
+### 用例：walk-negative
+Ne poran el mi to govan.
+
+私は家へ歩かない。
+
+### 用例：eat
+Neran el mi ia nyrat.
+
+私は主食を食べる。
+
+### 用例：eat-place
+Neran el mi ia nyrat uo nerar.
+
+私は食堂で主食を食べる。
+
+### 用例：eat-repeated
+Nerancor el mi ia nyrat.
+
+私は普段、主食を食べる。
+
+### 用例：observe
+Vyrel el vyrelor ia vyr uo vyrelar.
+
+天文学者は天文台で星を観測する。
+
+### 用例：observe-past
+Fe vyrel el vyrelor ia vyr.
+
+天文学者は星を観測した。
+
+### 用例：passive
+Revyrel el vyr de vyrelor.
+
+星は天文学者によって観測される。
+
+### 用例：passive-past
+Fe revyrel el vyr de vyrelor.
+
+星は天文学者によって観測された。
+
+### 用例：copula
+Relen el mi ia vyrelor.
+
+私は天文学者である。
+
+### 用例：conditional
+Sen falun el vyr, poran el mi to govan.
+
+星が輝けば、私は家へ歩く。
+
+### 用例：reason
+Zen falun el vyr, vyrel el mi ia vyr.
+
+星が輝くので、私は星を観測する。
+
+### 用例：time
+Hav falun el vyr, vyrel el mi ia vyr.
+
+星が輝くとき、私は星を観測する。
+
+### 用例：concession
+Tor ne falun el vyr, poran el mi to govan.
+
+星が輝かなくても、私は家へ歩く。

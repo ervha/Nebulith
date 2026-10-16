@@ -1,3 +1,5 @@
+> **2026-10-16 訂正**：旧6-Gateによる承認は撤回しました。以下は旧方式の履歴です。現行手順と残課題は [修正記録](../audit/maintenance/emergent-remediation-20261016.md) を参照してください。
+
 # Nebulith 自律的言語進化・対話創発システム仕様書 (Emergent Dialogue Evolution Architecture)
 
 ## 1. 概要と目的

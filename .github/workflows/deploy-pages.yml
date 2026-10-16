@@ -48,6 +48,9 @@ jobs:
           node tests/verify_sprint3_lexicon_and_adverbs.js
           node tests/verify_sprint4_word_inspector.js
           node tests/verify_sprint5_derivation_and_aspects.js
+          node tests/verify_all_words_modal.js
+          node tests/verify_emergent_dialogue.js
+          python tools/verify_web_bundle.py
 
       - name: Prepare Pages Artifact
         run: |

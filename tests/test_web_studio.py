@@ -13,7 +13,9 @@ from verify_web_bundle import verify
 class WebStudioChecks(unittest.TestCase):
     def test_bundle_contains_current_dictionary_rules_and_offline_assets(self):
         result = verify()
-        self.assertEqual(1138, result['entries'])
+        from studio_dictionary import dictionary_entries
+        canonical=json.loads((ROOT/'data/lexicon.json').read_text(encoding='utf-8'))['vocabulary']
+        self.assertEqual(len(dictionary_entries(canonical)), result['entries'])
         self.assertEqual(30, result['examples'])
         self.assertTrue(result['standaloneEmbedded'])
 

@@ -212,43 +212,7 @@ class StrictArbiterEngine:
         }
 
     def run_6gate_audit(self, candidate: dict, all_utterances: list, cross_scenario_count: int) -> dict:
-        nrs = candidate["nrs"].lower().strip()
-        g1 = self.gate1_phonotactics(nrs)
-        g2 = self.gate2_collision_and_distance(nrs)
-        g3 = self.gate3_semantic_disjointness(candidate["meaningJa"])
-        g4 = self.gate4_morphological_transparency(candidate.get("morphemes", []), candidate.get("etymology", ""))
-        g5 = self.gate5_syntactic_vso_frame(nrs, all_utterances)
-        g6 = self.gate6_consensus_and_generational_reuse(candidate.get("reused_by_partner", False), cross_scenario_count)
-
-        gates = {
-            "gate1_phonotactics": g1,
-            "gate2_collision_distance": g2,
-            "gate3_semantic_disjointness": g3,
-            "gate4_morphology": g4,
-            "gate5_syntax_vso": g5,
-            "gate6_consensus": g6
-        }
-        all_passed = all(g["passed"] for g in gates.values())
-        weighted_score = round(
-            g1["score"] * 0.20 +
-            g2["score"] * 0.20 +
-            g3["score"] * 0.20 +
-            g4["score"] * 0.15 +
-            g5["score"] * 0.10 +
-            g6["score"] * 0.15,
-            3
-        )
-        approved = all_passed and weighted_score >= 0.90
-
-        return {
-            "nrs": nrs,
-            "approved": approved,
-            "audit_status": "AUDITED_PROVISIONAL" if approved else "REJECTED_BY_ARBITER",
-            "overall_score": weighted_score,
-            "gates_passed": sum(1 for g in gates.values() if g["passed"]),
-            "gates_total": 6,
-            "gates": gates
-        }
+        raise RuntimeError("Legacy six-gate approval is retired: use the source-backed remediation workflow; semantic and dialogue evidence must be reviewed separately.")
 
 
 # ==============================================================================
