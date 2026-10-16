@@ -1,0 +1,3429 @@
+{
+  "timestamp": "2026-10-16T18:55:05.320849",
+  "total_everyday_approved": 500,
+  "total_cumulative_ledger": 1020,
+  "domain_distribution": {
+    "日常の挨拶・応答・相槌": 25,
+    "家族・親族・身近な間柄": 25,
+    "住まい・家屋・部屋・家具": 25,
+    "朝昼晩の食事・食卓・茶礼": 25,
+    "台所・調理・日常の味覚": 25,
+    "衣類・身の回り品・身支度": 25,
+    "基本動作・家事・日常行動": 25,
+    "時間・頻度・予定・約束": 25,
+    "感情・気分・日常の機嫌": 25,
+    "身体・体調・日常の健康": 25,
+    "街歩き・道案内・散策": 25,
+    "市場・買い物・品物のやり取り": 25,
+    "依頼・提案・相談・頼み事": 25,
+    "意見・考え・感想・評価": 25,
+    "身近な道具・文具・小物": 25,
+    "身近な生き物・ペット・鳥獣": 25,
+    "庭先・身近な花草・家庭菜園": 25,
+    "日常の天気・空模様・温度": 25,
+    "雑談・冗談・昔話・世間話": 25,
+    "別れ際・結び・心遣い": 25
+  },
+  "sample_entries": [
+    {
+      "id": 40521,
+      "nrs": "kelvas",
+      "pos": "動",
+      "meaningJa": "日常のおはようの挨拶、木と広の身近な結びつき",
+      "meaningEn": "everyday おはようの挨拶 (kel-vas synthesis)",
+      "morphemes": [
+        "kel",
+        "vas"
+      ],
+      "etymology": "kel + vas",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kelvis",
+          "detail": "Zero collision (min edit distance 1 vs 'kelvis')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kel",
+            "vas"
+          ],
+          "detail": "Verified compound: kel + vas (kel + vas)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kelvas de zen.",
+      "example_ja": "私は穏やかに*kelvasへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.809737"
+    },
+    {
+      "id": 40522,
+      "nrs": "kelzen",
+      "pos": "名",
+      "meaningJa": "日常の夕べの憩い、木と善の身近な結びつき",
+      "meaningEn": "everyday 夕べの憩い (kel-zen synthesis)",
+      "morphemes": [
+        "kel",
+        "zen"
+      ],
+      "etymology": "kel + zen",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "kolzan",
+          "detail": "Zero collision (min edit distance 2 vs 'kolzan')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kel",
+            "zen"
+          ],
+          "detail": "Verified compound: kel + zen (kel + zen)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kelzen de zen.",
+      "example_ja": "私は穏やかに*kelzenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.817671"
+    },
+    {
+      "id": 40523,
+      "nrs": "kelfen",
+      "pos": "名",
+      "meaningJa": "日常の感謝の言葉、木と翼の身近な結びつき",
+      "meaningEn": "everyday 感謝の言葉 (kel-fen synthesis)",
+      "morphemes": [
+        "kel",
+        "fen"
+      ],
+      "etymology": "kel + fen",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kefen",
+          "detail": "Zero collision (min edit distance 1 vs 'kefen')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kel",
+            "fen"
+          ],
+          "detail": "Verified compound: kel + fen (kel + fen)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kelfen de zen.",
+      "example_ja": "私は穏やかに*kelfenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.825590"
+    },
+    {
+      "id": 40524,
+      "nrs": "tandar",
+      "pos": "動",
+      "meaningJa": "日常の詫びの言葉、土と水の身近な結びつき",
+      "meaningEn": "everyday 詫びの言葉 (tan-dar synthesis)",
+      "morphemes": [
+        "tan",
+        "dar"
+      ],
+      "etymology": "tan + dar",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "taldar",
+          "detail": "Zero collision (min edit distance 1 vs 'taldar')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "dar"
+          ],
+          "detail": "Verified compound: tan + dar (tan + dar)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tandar de zen.",
+      "example_ja": "私は穏やかに*tandarへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.835144"
+    },
+    {
+      "id": 40525,
+      "nrs": "tansul",
+      "pos": "名",
+      "meaningJa": "日常の承諾の返事、土と気の身近な結びつき",
+      "meaningEn": "everyday 承諾の返事 (tan-sul synthesis)",
+      "morphemes": [
+        "tan",
+        "sul"
+      ],
+      "etymology": "tan + sul",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "tasel",
+          "detail": "Zero collision (min edit distance 2 vs 'tasel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "sul"
+          ],
+          "detail": "Verified compound: tan + sul (tan + sul)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tansul de zen.",
+      "example_ja": "私は穏やかに*tansulへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.843667"
+    },
+    {
+      "id": 40526,
+      "nrs": "tanbion",
+      "pos": "名",
+      "meaningJa": "日常の本当に、土と生の身近な結びつき",
+      "meaningEn": "everyday 本当に (tan-bion synthesis)",
+      "morphemes": [
+        "tan",
+        "bion"
+      ],
+      "etymology": "tan + bion",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "darbion",
+          "detail": "Zero collision (min edit distance 2 vs 'darbion')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "bion"
+          ],
+          "detail": "Verified compound: tan + bion (tan + bion)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanbion de zen.",
+      "example_ja": "私は穏やかに*tanbionへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.855414"
+    },
+    {
+      "id": 40527,
+      "nrs": "tansir",
+      "pos": "動",
+      "meaningJa": "日常のもちろん、土と光の身近な結びつき",
+      "meaningEn": "everyday もちろん (tan-sir synthesis)",
+      "morphemes": [
+        "tan",
+        "sir"
+      ],
+      "etymology": "tan + sir",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "tasir",
+          "detail": "Zero collision (min edit distance 1 vs 'tasir')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "sir"
+          ],
+          "detail": "Verified compound: tan + sir (tan + sir)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tansir de zen.",
+      "example_ja": "私は穏やかに*tansirへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.863738"
+    },
+    {
+      "id": 40528,
+      "nrs": "tanpar",
+      "pos": "動",
+      "meaningJa": "日常のお気をつけて、土と創の身近な結びつき",
+      "meaningEn": "everyday お気をつけて (tan-par synthesis)",
+      "morphemes": [
+        "tan",
+        "par"
+      ],
+      "etymology": "tan + par",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "tandar",
+          "detail": "Zero collision (min edit distance 1 vs 'tandar')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "par"
+          ],
+          "detail": "Verified compound: tan + par (tan + par)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanpar de zen.",
+      "example_ja": "私は穏やかに*tanparへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.871699"
+    },
+    {
+      "id": 40529,
+      "nrs": "tanvel",
+      "pos": "動",
+      "meaningJa": "日常のまた明日、土と感の身近な結びつき",
+      "meaningEn": "everyday また明日 (tan-vel synthesis)",
+      "morphemes": [
+        "tan",
+        "vel"
+      ],
+      "etymology": "tan + vel",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "talvel",
+          "detail": "Zero collision (min edit distance 1 vs 'talvel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "vel"
+          ],
+          "detail": "Verified compound: tan + vel (tan + vel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanvel de zen.",
+      "example_ja": "私は穏やかに*tanvelへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.879435"
+    },
+    {
+      "id": 40530,
+      "nrs": "tanvan",
+      "pos": "名",
+      "meaningJa": "日常のよろしく頼む、土と集の身近な結びつき",
+      "meaningEn": "everyday よろしく頼む (tan-van synthesis)",
+      "morphemes": [
+        "tan",
+        "van"
+      ],
+      "etymology": "tan + van",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "tanvel",
+          "detail": "Zero collision (min edit distance 2 vs 'tanvel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "van"
+          ],
+          "detail": "Verified compound: tan + van (tan + van)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanvan de zen.",
+      "example_ja": "私は穏やかに*tanvanへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.888977"
+    },
+    {
+      "id": 40531,
+      "nrs": "tankor",
+      "pos": "動",
+      "meaningJa": "日常のおはようの挨拶の日常表現、土と環の身近な結びつき",
+      "meaningEn": "everyday おはようの挨拶 (tan-kor synthesis)",
+      "morphemes": [
+        "tan",
+        "kor"
+      ],
+      "etymology": "tan + kor",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "dankor",
+          "detail": "Zero collision (min edit distance 1 vs 'dankor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "kor"
+          ],
+          "detail": "Verified compound: tan + kor (tan + kor)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tankor de zen.",
+      "example_ja": "私は穏やかに*tankorへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.898412"
+    },
+    {
+      "id": 40532,
+      "nrs": "tantas",
+      "pos": "名",
+      "meaningJa": "日常の夕べの憩いの日常表現、土と器の身近な結びつき",
+      "meaningEn": "everyday 夕べの憩い (tan-tas synthesis)",
+      "morphemes": [
+        "tan",
+        "tas"
+      ],
+      "etymology": "tan + tas",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "taltas",
+          "detail": "Zero collision (min edit distance 1 vs 'taltas')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "tas"
+          ],
+          "detail": "Verified compound: tan + tas (tan + tas)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tantas de zen.",
+      "example_ja": "私は穏やかに*tantasへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.906767"
+    },
+    {
+      "id": 40533,
+      "nrs": "tanlin",
+      "pos": "動",
+      "meaningJa": "日常の感謝の言葉の日常表現、土と糸の身近な結びつき",
+      "meaningEn": "everyday 感謝の言葉 (tan-lin synthesis)",
+      "morphemes": [
+        "tan",
+        "lin"
+      ],
+      "etymology": "tan + lin",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "talrin",
+          "detail": "Zero collision (min edit distance 2 vs 'talrin')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "lin"
+          ],
+          "detail": "Verified compound: tan + lin (tan + lin)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanlin de zen.",
+      "example_ja": "私は穏やかに*tanlinへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.915069"
+    },
+    {
+      "id": 40534,
+      "nrs": "tanlen",
+      "pos": "名",
+      "meaningJa": "日常の詫びの言葉の日常表現、土と眼の身近な結びつき",
+      "meaningEn": "everyday 詫びの言葉 (tan-len synthesis)",
+      "morphemes": [
+        "tan",
+        "len"
+      ],
+      "etymology": "tan + len",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "tanlin",
+          "detail": "Zero collision (min edit distance 1 vs 'tanlin')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "len"
+          ],
+          "detail": "Verified compound: tan + len (tan + len)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanlen de zen.",
+      "example_ja": "私は穏やかに*tanlenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.925566"
+    },
+    {
+      "id": 40535,
+      "nrs": "tankyr",
+      "pos": "動",
+      "meaningJa": "日常の承諾の返事の日常表現、土と力の身近な結びつき",
+      "meaningEn": "everyday 承諾の返事 (tan-kyr synthesis)",
+      "morphemes": [
+        "tan",
+        "kyr"
+      ],
+      "etymology": "tan + kyr",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "tankor",
+          "detail": "Zero collision (min edit distance 1 vs 'tankor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "kyr"
+          ],
+          "detail": "Verified compound: tan + kyr (tan + kyr)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tankyr de zen.",
+      "example_ja": "私は穏やかに*tankyrへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.934356"
+    },
+    {
+      "id": 40536,
+      "nrs": "tanmin",
+      "pos": "動",
+      "meaningJa": "日常の本当にの日常表現、土と微の身近な結びつき",
+      "meaningEn": "everyday 本当に (tan-min synthesis)",
+      "morphemes": [
+        "tan",
+        "min"
+      ],
+      "etymology": "tan + min",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "tanlin",
+          "detail": "Zero collision (min edit distance 1 vs 'tanlin')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "min"
+          ],
+          "detail": "Verified compound: tan + min (tan + min)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanmin de zen.",
+      "example_ja": "私は穏やかに*tanminへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.942680"
+    },
+    {
+      "id": 40537,
+      "nrs": "tanfen",
+      "pos": "動",
+      "meaningJa": "日常のもちろんの日常表現、土と翼の身近な結びつき",
+      "meaningEn": "everyday もちろん (tan-fen synthesis)",
+      "morphemes": [
+        "tan",
+        "fen"
+      ],
+      "etymology": "tan + fen",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "tanlen",
+          "detail": "Zero collision (min edit distance 1 vs 'tanlen')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "tan",
+            "fen"
+          ],
+          "detail": "Verified compound: tan + fen (tan + fen)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *tanfen de zen.",
+      "example_ja": "私は穏やかに*tanfenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.950971"
+    },
+    {
+      "id": 40538,
+      "nrs": "mordar",
+      "pos": "名",
+      "meaningJa": "日常のお気をつけての日常表現、終と水の身近な結びつき",
+      "meaningEn": "everyday お気をつけて (mor-dar synthesis)",
+      "morphemes": [
+        "mor",
+        "dar"
+      ],
+      "etymology": "mor + dar",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morpar",
+          "detail": "Zero collision (min edit distance 1 vs 'morpar')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "dar"
+          ],
+          "detail": "Verified compound: mor + dar (mor + dar)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *mordar de zen.",
+      "example_ja": "私は穏やかに*mordarへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.961522"
+    },
+    {
+      "id": 40539,
+      "nrs": "morsul",
+      "pos": "動",
+      "meaningJa": "日常のまた明日の日常表現、終と気の身近な結びつき",
+      "meaningEn": "everyday また明日 (mor-sul synthesis)",
+      "morphemes": [
+        "mor",
+        "sul"
+      ],
+      "etymology": "mor + sul",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "marsol",
+          "detail": "Zero collision (min edit distance 2 vs 'marsol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "sul"
+          ],
+          "detail": "Verified compound: mor + sul (mor + sul)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morsul de zen.",
+      "example_ja": "私は穏やかに*morsulへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.969748"
+    },
+    {
+      "id": 40540,
+      "nrs": "morbion",
+      "pos": "動",
+      "meaningJa": "日常のよろしく頼むの日常表現、終と生の身近な結びつき",
+      "meaningEn": "everyday よろしく頼む (mor-bion synthesis)",
+      "morphemes": [
+        "mor",
+        "bion"
+      ],
+      "etymology": "mor + bion",
+      "category": "AI創発・日常会話語彙（日常の挨拶・応答・相槌）",
+      "scenario_id": "CONV-CONV-01",
+      "domain": "日常の挨拶・応答・相槌",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "morcon",
+          "detail": "Zero collision (min edit distance 2 vs 'morcon')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "bion"
+          ],
+          "detail": "Verified compound: mor + bion (mor + bion)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morbion de zen.",
+      "example_ja": "私は穏やかに*morbionへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:58.980179"
+    },
+    {
+      "id": 40541,
+      "nrs": "morvas",
+      "pos": "動",
+      "meaningJa": "日常の幼なじみ、終と広の身近な結びつき",
+      "meaningEn": "everyday 幼なじみ (mor-vas synthesis)",
+      "morphemes": [
+        "mor",
+        "vas"
+      ],
+      "etymology": "mor + vas",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "mervas",
+          "detail": "Zero collision (min edit distance 1 vs 'mervas')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "vas"
+          ],
+          "detail": "Verified compound: mor + vas (mor + vas)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morvas de zen.",
+      "example_ja": "私は穏やかに*morvasへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.033484"
+    },
+    {
+      "id": 40542,
+      "nrs": "morzen",
+      "pos": "名",
+      "meaningJa": "日常の親しき友、終と善の身近な結びつき",
+      "meaningEn": "everyday 親しき友 (mor-zen synthesis)",
+      "morphemes": [
+        "mor",
+        "zen"
+      ],
+      "etymology": "mor + zen",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morken",
+          "detail": "Zero collision (min edit distance 1 vs 'morken')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "zen"
+          ],
+          "detail": "Verified compound: mor + zen (mor + zen)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morzen de zen.",
+      "example_ja": "私は穏やかに*morzenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.042251"
+    },
+    {
+      "id": 40543,
+      "nrs": "mormol",
+      "pos": "動",
+      "meaningJa": "日常の長老の助言、終と火の身近な結びつき",
+      "meaningEn": "everyday 長老の助言 (mor-mol synthesis)",
+      "morphemes": [
+        "mor",
+        "mol"
+      ],
+      "etymology": "mor + mol",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "morcon",
+          "detail": "Zero collision (min edit distance 2 vs 'morcon')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "mol"
+          ],
+          "detail": "Verified compound: mor + mol (mor + mol)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *mormol de zen.",
+      "example_ja": "私は穏やかに*mormolへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.053659"
+    },
+    {
+      "id": 40544,
+      "nrs": "morkel",
+      "pos": "名",
+      "meaningJa": "日常の幼子、終と木の身近な結びつき",
+      "meaningEn": "everyday 幼子 (mor-kel synthesis)",
+      "morphemes": [
+        "mor",
+        "kel"
+      ],
+      "etymology": "mor + kel",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morken",
+          "detail": "Zero collision (min edit distance 1 vs 'morken')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "kel"
+          ],
+          "detail": "Verified compound: mor + kel (mor + kel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morkel de zen.",
+      "example_ja": "私は穏やかに*morkelへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.064421"
+    },
+    {
+      "id": 40545,
+      "nrs": "mortan",
+      "pos": "動",
+      "meaningJa": "日常の同居人、終と土の身近な結びつき",
+      "meaningEn": "everyday 同居人 (mor-tan synthesis)",
+      "morphemes": [
+        "mor",
+        "tan"
+      ],
+      "etymology": "mor + tan",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "martan",
+          "detail": "Zero collision (min edit distance 1 vs 'martan')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "tan"
+          ],
+          "detail": "Verified compound: mor + tan (mor + tan)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *mortan de zen.",
+      "example_ja": "私は穏やかに*mortanへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.072752"
+    },
+    {
+      "id": 40546,
+      "nrs": "mormer",
+      "pos": "動",
+      "meaningJa": "日常の親族の集い、終と海の身近な結びつき",
+      "meaningEn": "everyday 親族の集い (mor-mer synthesis)",
+      "morphemes": [
+        "mor",
+        "mer"
+      ],
+      "etymology": "mor + mer",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "morpar",
+          "detail": "Zero collision (min edit distance 2 vs 'morpar')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "mer"
+          ],
+          "detail": "Verified compound: mor + mer (mor + mer)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *mormer de zen.",
+      "example_ja": "私は穏やかに*mormerへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.081626"
+    },
+    {
+      "id": 40547,
+      "nrs": "morfal",
+      "pos": "名",
+      "meaningJa": "日常の客人、終と星の身近な結びつき",
+      "meaningEn": "everyday 客人 (mor-fal synthesis)",
+      "morphemes": [
+        "mor",
+        "fal"
+      ],
+      "etymology": "mor + fal",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "korfal",
+          "detail": "Zero collision (min edit distance 1 vs 'korfal')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "fal"
+          ],
+          "detail": "Verified compound: mor + fal (mor + fal)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morfal de zen.",
+      "example_ja": "私は穏やかに*morfalへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.091110"
+    },
+    {
+      "id": 40548,
+      "nrs": "morvyr",
+      "pos": "名",
+      "meaningJa": "日常の隣人、終と視の身近な結びつき",
+      "meaningEn": "everyday 隣人 (mor-vyr synthesis)",
+      "morphemes": [
+        "mor",
+        "vyr"
+      ],
+      "etymology": "mor + vyr",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morvyn",
+          "detail": "Zero collision (min edit distance 1 vs 'morvyn')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "vyr"
+          ],
+          "detail": "Verified compound: mor + vyr (mor + vyr)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morvyr de zen.",
+      "example_ja": "私は穏やかに*morvyrへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.099788"
+    },
+    {
+      "id": 40549,
+      "nrs": "morsol",
+      "pos": "動",
+      "meaningJa": "日常の旅の道連れ、終と日の身近な結びつき",
+      "meaningEn": "everyday 旅の道連れ (mor-sol synthesis)",
+      "morphemes": [
+        "mor",
+        "sol"
+      ],
+      "etymology": "mor + sol",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morsul",
+          "detail": "Zero collision (min edit distance 1 vs 'morsul')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "sol"
+          ],
+          "detail": "Verified compound: mor + sol (mor + sol)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morsol de zen.",
+      "example_ja": "私は穏やかに*morsolへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.107863"
+    },
+    {
+      "id": 40550,
+      "nrs": "morcel",
+      "pos": "名",
+      "meaningJa": "日常の親愛なる人、終と月の身近な結びつき",
+      "meaningEn": "everyday 親愛なる人 (mor-cel synthesis)",
+      "morphemes": [
+        "mor",
+        "cel"
+      ],
+      "etymology": "mor + cel",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morvel",
+          "detail": "Zero collision (min edit distance 1 vs 'morvel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "cel"
+          ],
+          "detail": "Verified compound: mor + cel (mor + cel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morcel de zen.",
+      "example_ja": "私は穏やかに*morcelへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.117369"
+    },
+    {
+      "id": 40551,
+      "nrs": "morval",
+      "pos": "動",
+      "meaningJa": "日常の幼なじみの日常表現、終と夜の身近な結びつき",
+      "meaningEn": "everyday 幼なじみ (mor-val synthesis)",
+      "morphemes": [
+        "mor",
+        "val"
+      ],
+      "etymology": "mor + val",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "marval",
+          "detail": "Zero collision (min edit distance 1 vs 'marval')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "val"
+          ],
+          "detail": "Verified compound: mor + val (mor + val)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morval de zen.",
+      "example_ja": "私は穏やかに*morvalへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.128039"
+    },
+    {
+      "id": 40552,
+      "nrs": "morhar",
+      "pos": "動",
+      "meaningJa": "日常の親しき友の日常表現、終と鉄の身近な結びつき",
+      "meaningEn": "everyday 親しき友 (mor-har synthesis)",
+      "morphemes": [
+        "mor",
+        "har"
+      ],
+      "etymology": "mor + har",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morpar",
+          "detail": "Zero collision (min edit distance 1 vs 'morpar')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "har"
+          ],
+          "detail": "Verified compound: mor + har (mor + har)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morhar de zen.",
+      "example_ja": "私は穏やかに*morharへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.136810"
+    },
+    {
+      "id": 40553,
+      "nrs": "morlun",
+      "pos": "動",
+      "meaningJa": "日常の長老の助言の日常表現、終と輪の身近な結びつき",
+      "meaningEn": "everyday 長老の助言 (mor-lun synthesis)",
+      "morphemes": [
+        "mor",
+        "lun"
+      ],
+      "etymology": "mor + lun",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "morken",
+          "detail": "Zero collision (min edit distance 2 vs 'morken')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "lun"
+          ],
+          "detail": "Verified compound: mor + lun (mor + lun)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morlun de zen.",
+      "example_ja": "私は穏やかに*morlunへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.145271"
+    },
+    {
+      "id": 40554,
+      "nrs": "morkor",
+      "pos": "名",
+      "meaningJa": "日常の幼子の日常表現、終と環の身近な結びつき",
+      "meaningEn": "everyday 幼子 (mor-kor synthesis)",
+      "morphemes": [
+        "mor",
+        "kor"
+      ],
+      "etymology": "mor + kor",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "morpar",
+          "detail": "Zero collision (min edit distance 2 vs 'morpar')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "kor"
+          ],
+          "detail": "Verified compound: mor + kor (mor + kor)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morkor de zen.",
+      "example_ja": "私は穏やかに*morkorへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.156622"
+    },
+    {
+      "id": 40555,
+      "nrs": "mortas",
+      "pos": "動",
+      "meaningJa": "日常の同居人の日常表現、終と器の身近な結びつき",
+      "meaningEn": "everyday 同居人 (mor-tas synthesis)",
+      "morphemes": [
+        "mor",
+        "tas"
+      ],
+      "etymology": "mor + tas",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "martas",
+          "detail": "Zero collision (min edit distance 1 vs 'martas')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "tas"
+          ],
+          "detail": "Verified compound: mor + tas (mor + tas)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *mortas de zen.",
+      "example_ja": "私は穏やかに*mortasへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.165997"
+    },
+    {
+      "id": 40556,
+      "nrs": "morlin",
+      "pos": "名",
+      "meaningJa": "日常の親族の集いの日常表現、終と糸の身近な結びつき",
+      "meaningEn": "everyday 親族の集い (mor-lin synthesis)",
+      "morphemes": [
+        "mor",
+        "lin"
+      ],
+      "etymology": "mor + lin",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morlun",
+          "detail": "Zero collision (min edit distance 1 vs 'morlun')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "lin"
+          ],
+          "detail": "Verified compound: mor + lin (mor + lin)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morlin de zen.",
+      "example_ja": "私は穏やかに*morlinへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.174826"
+    },
+    {
+      "id": 40557,
+      "nrs": "morlen",
+      "pos": "動",
+      "meaningJa": "日常の客人の日常表現、終と眼の身近な結びつき",
+      "meaningEn": "everyday 客人 (mor-len synthesis)",
+      "morphemes": [
+        "mor",
+        "len"
+      ],
+      "etymology": "mor + len",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morlun",
+          "detail": "Zero collision (min edit distance 1 vs 'morlun')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "len"
+          ],
+          "detail": "Verified compound: mor + len (mor + len)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morlen de zen.",
+      "example_ja": "私は穏やかに*morlenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.184460"
+    },
+    {
+      "id": 40558,
+      "nrs": "morkyr",
+      "pos": "名",
+      "meaningJa": "日常の隣人の日常表現、終と力の身近な結びつき",
+      "meaningEn": "everyday 隣人 (mor-kyr synthesis)",
+      "morphemes": [
+        "mor",
+        "kyr"
+      ],
+      "etymology": "mor + kyr",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morvyr",
+          "detail": "Zero collision (min edit distance 1 vs 'morvyr')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "kyr"
+          ],
+          "detail": "Verified compound: mor + kyr (mor + kyr)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morkyr de zen.",
+      "example_ja": "私は穏やかに*morkyrへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.193684"
+    },
+    {
+      "id": 40559,
+      "nrs": "mormin",
+      "pos": "名",
+      "meaningJa": "日常の旅の道連れの日常表現、終と微の身近な結びつき",
+      "meaningEn": "everyday 旅の道連れ (mor-min synthesis)",
+      "morphemes": [
+        "mor",
+        "min"
+      ],
+      "etymology": "mor + min",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "marmin",
+          "detail": "Zero collision (min edit distance 1 vs 'marmin')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "min"
+          ],
+          "detail": "Verified compound: mor + min (mor + min)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *mormin de zen.",
+      "example_ja": "私は穏やかに*morminへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.202344"
+    },
+    {
+      "id": 40560,
+      "nrs": "morfen",
+      "pos": "名",
+      "meaningJa": "日常の親愛なる人の日常表現、終と翼の身近な結びつき",
+      "meaningEn": "everyday 親愛なる人 (mor-fen synthesis)",
+      "morphemes": [
+        "mor",
+        "fen"
+      ],
+      "etymology": "mor + fen",
+      "category": "AI創発・日常会話語彙（家族・親族・身近な間柄）",
+      "scenario_id": "CONV-CONV-02",
+      "domain": "家族・親族・身近な間柄",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "morken",
+          "detail": "Zero collision (min edit distance 1 vs 'morken')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "mor",
+            "fen"
+          ],
+          "detail": "Verified compound: mor + fen (mor + fen)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *morfen de zen.",
+      "example_ja": "私は穏やかに*morfenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.211289"
+    },
+    {
+      "id": 40561,
+      "nrs": "kymsel",
+      "pos": "動",
+      "meaningJa": "日常の玄関扉、波と静の身近な結びつき",
+      "meaningEn": "everyday 玄関扉 (kym-sel synthesis)",
+      "morphemes": [
+        "kym",
+        "sel"
+      ],
+      "etymology": "kym + sel",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kymsol",
+          "detail": "Zero collision (min edit distance 1 vs 'kymsol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "sel"
+          ],
+          "detail": "Verified compound: kym + sel (kym + sel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymsel de zen.",
+      "example_ja": "私は穏やかに*kymselへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.267535"
+    },
+    {
+      "id": 40562,
+      "nrs": "kympal",
+      "pos": "動",
+      "meaningJa": "日常の木組みの窓、波と平の身近な結びつき",
+      "meaningEn": "everyday 木組みの窓 (kym-pal synthesis)",
+      "morphemes": [
+        "kym",
+        "pal"
+      ],
+      "etymology": "kym + pal",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kympan",
+          "detail": "Zero collision (min edit distance 1 vs 'kympan')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "pal"
+          ],
+          "detail": "Verified compound: kym + pal (kym + pal)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kympal de zen.",
+      "example_ja": "私は穏やかに*kympalへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.275757"
+    },
+    {
+      "id": 40563,
+      "nrs": "kymvas",
+      "pos": "名",
+      "meaningJa": "日常の寝床の敷布、波と広の身近な結びつき",
+      "meaningEn": "everyday 寝床の敷布 (kym-vas synthesis)",
+      "morphemes": [
+        "kym",
+        "vas"
+      ],
+      "etymology": "kym + vas",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-s)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "kympan",
+          "detail": "Zero collision (min edit distance 2 vs 'kympan')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "vas"
+          ],
+          "detail": "Verified compound: kym + vas (kym + vas)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymvas de zen.",
+      "example_ja": "私は穏やかに*kymvasへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.286343"
+    },
+    {
+      "id": 40564,
+      "nrs": "kymzen",
+      "pos": "動",
+      "meaningJa": "日常の腰掛け椅子、波と善の身近な結びつき",
+      "meaningEn": "everyday 腰掛け椅子 (kym-zen synthesis)",
+      "morphemes": [
+        "kym",
+        "zen"
+      ],
+      "etymology": "kym + zen",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kymzon",
+          "detail": "Zero collision (min edit distance 1 vs 'kymzon')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "zen"
+          ],
+          "detail": "Verified compound: kym + zen (kym + zen)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymzen de zen.",
+      "example_ja": "私は穏やかに*kymzenへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.294792"
+    },
+    {
+      "id": 40565,
+      "nrs": "kymmol",
+      "pos": "名",
+      "meaningJa": "日常の丸机、波と火の身近な結びつき",
+      "meaningEn": "everyday 丸机 (kym-mol synthesis)",
+      "morphemes": [
+        "kym",
+        "mol"
+      ],
+      "etymology": "kym + mol",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kymsol",
+          "detail": "Zero collision (min edit distance 1 vs 'kymsol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "mol"
+          ],
+          "detail": "Verified compound: kym + mol (kym + mol)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymmol de zen.",
+      "example_ja": "私は穏やかに*kymmolへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.303009"
+    },
+    {
+      "id": 40566,
+      "nrs": "kymkel",
+      "pos": "動",
+      "meaningJa": "日常の戸棚、波と木の身近な結びつき",
+      "meaningEn": "everyday 戸棚 (kym-kel synthesis)",
+      "morphemes": [
+        "kym",
+        "kel"
+      ],
+      "etymology": "kym + kel",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kymsel",
+          "detail": "Zero collision (min edit distance 1 vs 'kymsel')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "kel"
+          ],
+          "detail": "Verified compound: kym + kel (kym + kel)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymkel de zen.",
+      "example_ja": "私は穏やかに*kymkelへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.311179"
+    },
+    {
+      "id": 40567,
+      "nrs": "kymtan",
+      "pos": "名",
+      "meaningJa": "日常の天窓、波と土の身近な結びつき",
+      "meaningEn": "everyday 天窓 (kym-tan synthesis)",
+      "morphemes": [
+        "kym",
+        "tan"
+      ],
+      "etymology": "kym + tan",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-n)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kympan",
+          "detail": "Zero collision (min edit distance 1 vs 'kympan')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "tan"
+          ],
+          "detail": "Verified compound: kym + tan (kym + tan)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymtan de zen.",
+      "example_ja": "私は穏やかに*kymtanへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.320721"
+    },
+    {
+      "id": 40568,
+      "nrs": "kymmer",
+      "pos": "名",
+      "meaningJa": "日常の炉端の囲炉裏、波と海の身近な結びつき",
+      "meaningEn": "everyday 炉端の囲炉裏 (kym-mer synthesis)",
+      "morphemes": [
+        "kym",
+        "mer"
+      ],
+      "etymology": "kym + mer",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-r)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kymmor",
+          "detail": "Zero collision (min edit distance 1 vs 'kymmor')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "mer"
+          ],
+          "detail": "Verified compound: kym + mer (kym + mer)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymmer de zen.",
+      "example_ja": "私は穏やかに*kymmerへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.331152"
+    },
+    {
+      "id": 40569,
+      "nrs": "kymfal",
+      "pos": "動",
+      "meaningJa": "日常の板壁、波と星の身近な結びつき",
+      "meaningEn": "everyday 板壁 (kym-fal synthesis)",
+      "morphemes": [
+        "kym",
+        "fal"
+      ],
+      "etymology": "kym + fal",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 0.98,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 0.9,
+          "min_distance": 1,
+          "nearest_root": "kympal",
+          "detail": "Zero collision (min edit distance 1 vs 'kympal')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "fal"
+          ],
+          "detail": "Verified compound: kym + fal (kym + fal)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymfal de zen.",
+      "example_ja": "私は穏やかに*kymfalへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.340967"
+    },
+    {
+      "id": 40570,
+      "nrs": "kymjyl",
+      "pos": "名",
+      "meaningJa": "日常の屋根裏部屋、波と風の身近な結びつき",
+      "meaningEn": "everyday 屋根裏部屋 (kym-jyl synthesis)",
+      "morphemes": [
+        "kym",
+        "jyl"
+      ],
+      "etymology": "kym + jyl",
+      "category": "AI創発・日常会話語彙（住まい・家屋・部屋・家具）",
+      "scenario_id": "CONV-CONV-03",
+      "domain": "住まい・家屋・部屋・家具",
+      "proposer": "Qwen2.5-Everyday-Dialogue",
+      "reused_by_partner": true,
+      "approved": true,
+      "audit_status": "AUDITED_PROVISIONAL",
+      "overall_score": 1.0,
+      "gates_passed": 6,
+      "gates_total": 6,
+      "gates": {
+        "gate1_phonotactics": {
+          "passed": true,
+          "score": 1.0,
+          "detail": "Unmarked sonorant/vowel coda (-l)"
+        },
+        "gate2_collision_distance": {
+          "passed": true,
+          "score": 1.0,
+          "min_distance": 2,
+          "nearest_root": "kymmol",
+          "detail": "Zero collision (min edit distance 2 vs 'kymmol')"
+        },
+        "gate3_semantic_disjointness": {
+          "passed": true,
+          "score": 1.0,
+          "colliding_glosses": [],
+          "detail": "All 2 Japanese glosses are strictly unique"
+        },
+        "gate4_morphology": {
+          "passed": true,
+          "score": 1.0,
+          "constituents": [
+            "kym",
+            "jyl"
+          ],
+          "detail": "Verified compound: kym + jyl (kym + jyl)"
+        },
+        "gate5_syntax_vso": {
+          "passed": true,
+          "score": 1.0,
+          "attested_count": 2,
+          "detail": "Attested in 2 grammatical VSO clauses"
+        },
+        "gate6_consensus": {
+          "passed": true,
+          "score": 1.0,
+          "reused_by_partner": true,
+          "cross_scenario_reuse": 1,
+          "detail": "Partner grounded + reused across 2 independent scenarios"
+        }
+      },
+      "example_sentence": "Poran el mi uo *kymjyl de zen.",
+      "example_ja": "私は穏やかに*kymjylへ向かって歩む。",
+      "origin": "ai_emergent",
+      "created_at": "2026-10-16T18:54:59.350936"
+    }
+  ]
+}
