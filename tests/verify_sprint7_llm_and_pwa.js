@@ -43,7 +43,7 @@ console.log('\n--- 3. PWA Offline Optimization & Service Worker Verification ---
 const swPath = 'web/service-worker.js';
 assert.ok(fs.existsSync(swPath), 'web/service-worker.js must exist');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert.ok(swContent.includes('nebulith-studio-v2.8'), 'Service Worker must have versioned cache name');
+assert.ok(/const CACHE_NAME = 'nebulith-studio-[a-f0-9]{20}';/.test(swContent), 'Service Worker must have versioned cache name');
 assert.ok(swContent.includes("'./data.js'"), 'Service Worker must precache data.js');
 assert.ok(swContent.includes("'./bidirectional.js'"), 'Service Worker must precache bidirectional.js');
 assert.ok(swContent.includes("'./incremental.js'"), 'Service Worker must precache incremental.js');

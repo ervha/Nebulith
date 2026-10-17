@@ -51,9 +51,9 @@
     "input": "赤い星を見ていたい",
     "choices": {},
     "states": [
-      "blocked"
+      "candidate"
     ],
-    "recordable": true
+    "recordable": false
   },
   {
     "input": "赤い星を見ていたい",
@@ -62,9 +62,9 @@
       "verb": "観測する"
     },
     "states": [
-      "blocked"
+      "candidate"
     ],
-    "recordable": true
+    "recordable": false
   },
   {
     "input": "私は星を見た",
@@ -163,9 +163,9 @@
     "input": "私は星を観測するかも",
     "choices": {},
     "states": [
-      "blocked"
+      "candidate"
     ],
-    "recordable": true
+    "recordable": false
   },
   {
     "input": "私は星を見ない",

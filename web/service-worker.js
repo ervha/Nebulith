@@ -1,5 +1,5 @@
 // Nebulith Studio Web - Complete Offline Service Worker (v2.8)
-const CACHE_NAME = 'nebulith-studio-valnes-1';
+const CACHE_NAME = 'nebulith-studio-9bd84aa67461c4843e8b';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -28,7 +28,7 @@ self.addEventListener('activate', (event) => {
     caches.keys().then((keys) => {
       return Promise.all(
         keys.map((key) => {
-          if (key !== CACHE_NAME) {
+          if (key.startsWith('nebulith-studio-') && key !== CACHE_NAME) {
             return caches.delete(key);
           }
         })
@@ -40,9 +40,11 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   // Only handle GET requests
   if (event.request.method !== 'GET') return;
+  if (!event.request.url.startsWith(self.registration.scope)) return;
 
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
+    caches.open(CACHE_NAME).then(async (cache) => {
+      const cachedResponse = await cache.match(event.request);
       if (cachedResponse) {
         // Return cached asset immediately
         return cachedResponse;
@@ -53,16 +55,17 @@ self.addEventListener('fetch', (event) => {
           return networkResponse;
         }
         const responseToCache = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
-        });
+        event.waitUntil(cache.put(event.request, responseToCache));
         return networkResponse;
-      }).catch(() => {
+      }).catch(async () => {
         // Offline fallback to index.html or standalone.html
         if (event.request.mode === 'navigate') {
-          return caches.match('./index.html') || caches.match('./standalone.html');
+          const fallback = await cache.match('./index.html') || await cache.match('./standalone.html');
+          if (fallback) return fallback;
         }
+        return new Response('Offline asset unavailable', {status: 503});
       });
     })
   );
 });
+

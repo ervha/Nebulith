@@ -1,8 +1,30 @@
 import json
 import os
 import hashlib
+import re
 from pathlib import Path
 from studio_dictionary import dictionary_entries
+
+def update_service_worker(web_dir):
+    """Version the offline cache from the exact assets distributed by this build."""
+    web_dir = Path(web_dir)
+    path = web_dir / 'service-worker.js'
+    script = path.read_text(encoding='utf-8')
+    precache = re.search(r'const PRECACHE_ASSETS = \[(.*?)\];', script, re.S)
+    if not precache:
+        raise ValueError('Service Worker precache assets are missing')
+    assets = sorted(set(re.findall(r"'\./([^']*)'", precache[1])))
+    digest = hashlib.sha256()
+    for asset in assets:
+        name = asset or 'index.html'
+        digest.update(name.encode('utf-8') + b'\0')
+        digest.update(hashlib.sha256((web_dir / name).read_bytes()).digest())
+    cache_name = 'nebulith-studio-' + digest.hexdigest()[:20]
+    updated, count = re.subn(r"const CACHE_NAME = '[^']+';", "const CACHE_NAME = '" + cache_name + "';", script)
+    if count != 1:
+        raise ValueError('Service Worker cache name is missing or ambiguous')
+    path.write_text(updated, encoding='utf-8')
+    return cache_name
 
 def build_web_studio():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -1357,6 +1379,8 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
     with open(standalone_path, 'w', encoding='utf-8') as f:
         f.write(standalone_html)
 
+    update_service_worker(web_dir)
+
     files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'data/lexicon.json',
              'data/literary_sourcebook.json', 'data/lexicon_canonical_loci.json', 'docs/Valnes_Ibun.html', 'web/library.html', 'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
              'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
@@ -1372,3 +1396,4 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
 
 if __name__ == '__main__':
     build_web_studio()
+

@@ -12,7 +12,7 @@ for(const f of fixtures){
 const output=ctx.engine.analyze('私は星を見ない',{verb:'観測する',confirmed:true});
 assert.match(output.text,/^Ne vyrel /,'negation must survive');
 const hope=ctx.engine.analyze('赤い星を見ていたい',{subject:'私',verb:'観測する',confirmed:true});
-assert.equal(hope.complete,false);assert(hope.notes.some(n=>n.includes('希望')));
+assert.equal(hope.complete,true);assert.equal(hope.text,'Di vyrelast el mi ia vyr pyrin.');assert(hope.notes.some(n=>n.includes('希望')));
 assert.equal(ctx.engine.analyze('赤い星を').recordable,false);
 console.log(`PASS: ${fixtures.length} shared incremental fixtures, negation, hope and draft queue policy`);
 

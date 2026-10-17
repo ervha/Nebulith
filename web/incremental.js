@@ -63,6 +63,22 @@
   }
   global.nebulithJapaneseForms=japaneseForms;
   global.createIncrementalTranslator = function (vocab, frames, aliases, pairs, extensions={}) {
+    function splitSentences(input) {
+      const parts = [], closing = [];
+      let buffer = '';
+      for (let i = 0; i < input.length; i++) {
+        const c = input[i];
+        buffer += c;
+        if (c === '「' || c === '『') closing.push(c === '「' ? '」' : '』');
+        else if (c === closing[closing.length - 1]) closing.pop();
+        if (!closing.length && /[。！？!?\n]/.test(c) && !/[。！？!?\n]/.test(input[i + 1] || '')) {
+          if (buffer.trim()) parts.push(buffer.trim());
+          buffer = '';
+        }
+      }
+      if (buffer.trim()) parts.push(buffer.trim());
+      return parts;
+    }
     frames={...frames};
     for(const [id,frame] of Object.entries(extensions.frames||{})) {
       if(frames[id])throw Error('追加文型が正本文型と競合しています。');
@@ -409,7 +425,7 @@
       const sources=argSources.get(args)||{};
       const isRealizedModal = form && (form.suffix==='ar' || form.suffix==='ast' || form.suffix==='far' || form.suffix==='liv' || form.prefixes.includes('se'));
       return {schemaVersion:1,kind:'clause',predicate:form?{entryId:form.id,root:byId.get(form.id).r,source:form.ending,prefixes:[...form.prefixes],suffix:form.suffix||'',passive:!!form.passive}:null,
-        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':form?.prefixes.includes('se')?'future':'unmarked',negative:!!form?.prefixes.includes('ne'),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='far'?'perfective':form?.suffix==='liv'?'durative':form?.suffix==='ast'?(form?.feature?.includes('希望')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
+        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':form?.prefixes.includes('se')?'future':'unmarked',negative:!!form?.prefixes.includes('ne') && !(feature.includes('否定') && /希望|可能/.test(feature)),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='far'?'perfective':form?.suffix==='liv'?'durative':form?.suffix==='ast'?(form?.feature?.includes('希望')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
         modalities:feature?[{kind:feature.includes('希望')?'desire':feature.includes('推量')?'uncertainty':feature.includes('可能')?'possibility':feature.includes('相')?'aspect':feature.includes('意図')?'intention':feature.includes('必要')?'necessity':'thought',sourceFeature:feature,negated:feature.includes('否定'),past:feature.includes('過去'),scope:'clause',realization:isRealizedModal?'synthesized':'not-defined'}]:[],
         alignment:form?outputAlignment(form,args,question):argumentRows(args)};
     }
@@ -543,17 +559,25 @@
       }
 
       if (quoteMatch) {
+        if (depth >= 2) return {source,text:'',state:'blocked',notes:['引用の入れ子が深すぎます。一文を分けてください。']};
         const speakerRaw = (quoteMatch[1] || choices.subject || '私').trim();
         const innerText = quoteMatch[2].trim();
         const verbType = quoteMatch[3];
         const isThought = verbType.startsWith('思');
         const isPast = verbType.includes('た') || verbType.includes('まし');
         
-        const innerResult = part(innerText, {}, depth + 1);
+        let speakerNeb;
+        try { speakerNeb = phrase(speakerRaw); }
+        catch (e) { return {source,text:'',state:'blocked',notes:['引用の話者を確定できません。',e.message]}; }
+        const innerResult = part(innerText, choices, depth + 1);
+        if (!['complete', 'candidate'].includes(innerResult.state)) {
+          return {source,text:'',state:innerResult.state === 'draft' ? 'draft' : 'blocked',
+            verbOptions:innerResult.verbOptions,senseOptions:innerResult.senseOptions,scopeAmbiguous:innerResult.scopeAmbiguous,
+            notes:['引用内の文を確定してください。',...(innerResult.notes || [])]};
+        }
         let innerNeb = innerResult.text ? innerResult.text.replace(/^[〔\[].*?[〕\]]\s*/, '').trim() : '';
         if (!innerNeb && innerResult.candidate) innerNeb = innerResult.candidate.trim();
         const innerClean = innerNeb.replace(/[.?]+$/, '');
-        const speakerNeb = phrase(speakerRaw);
         const verbRoot = isThought ? 'memar' : 'fenor';
         const verbWord = (isPast ? 'Fe ' : '') + (isPast ? verbRoot : (verbRoot[0].toUpperCase() + verbRoot.slice(1)));
         const fullNeb = `${verbWord} el ${speakerNeb} ia \"${innerClean}.\"`;
@@ -577,6 +601,9 @@
           text: fullNeb,
           state: allConfirmed ? 'complete' : 'candidate',
           candidate: fullNeb,
+          verbOptions: innerResult.verbOptions,
+          senseOptions: innerResult.senseOptions,
+          scopeAmbiguous: innerResult.scopeAmbiguous,
           meaning,
           alignment,
           notes: ['引用構文（' + (isThought ? '思考節' : '発話節') + '）として解析。', ...(innerResult.notes || [])]
@@ -913,7 +940,7 @@
       }catch(e){return {source,text:fragments,state:'blocked',notes:[...notes,e.message]};}
     }
     const coveredIds=new Set(forms.filter(f=>!f.adjective).map(f=>f.id));
-    return { coverage() {
+    return { splitSentences, coverage() {
       return {predicates:coveredIds.size,productiveLemmas:(productive.verbs||[]).length,verbForms:forms.filter(f=>!f.adjective && !f.feature).length,
         adjectiveForms:forms.filter(f=>f.adjective).length,places:placeRoots.size,
         verbs:(productive.verbs||[]).map(v=>({id:v.id,lemma:v.lemma,root:byId.get(v.id).r})),
@@ -922,7 +949,7 @@
       if(!input.trim())return {segments:[],complete:false,text:'',notes:[],recordable:false};
       if(input.length>4000)return {segments:[],complete:false,text:'',notes:['4,000文字以内で入力してください。'],recordable:true};
       const direct=full(input);
-      const parts=direct ? [{...direct,source:input}] : (input.match(/[^。！？!?\n]+[。！？!?]*/g)||[]).filter(x=>x.trim()).map(x=>x.trim());
+      const parts=direct ? [{...direct,source:input}] : splitSentences(input);
       const occurrences=new Map();
       const segments=direct?parts.map(p=>({...p,key:JSON.stringify([p.source,0])})):parts.map(p=>{
         const occurrence=occurrences.get(p)||0;occurrences.set(p,occurrence+1);const segmentKey=JSON.stringify([p,occurrence]);
@@ -935,3 +962,4 @@
     }};
   };
 })(globalThis);
+

@@ -1620,152 +1620,78 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
   }
 
   function translateSingleEnglishClause(clause) {
-    const norm = clause.trim().replace(/[.,!?]+$/, '').toLowerCase();
-    const tokens = norm.split(/\s+/);
-    if (!tokens.length) return { success: false };
-
-    // Pronouns & Noun mappings
-    const pronounMap = {
-      i: 'mi', me: 'mi', my: 'mi',
-      you: 'ti', your: 'ti',
-      we: 'solan', us: 'solan', our: 'solan',
-      they: 'valin', them: 'valin',
-      star: 'vyr', stars: 'vyr',
-      night: 'valar',
-      sun: 'zohar',
-      water: 'daris',
-      light: 'fal'
+    // Accept only complete supported clauses. Unconsumed words must never disappear.
+    if (/[!?]/.test(clause)) return { success: false };
+    const norm = clause.trim().replace(/[.]+$/, '').toLowerCase();
+    const nouns = {
+      i: 'mi', me: 'mi', you: 'ti', we: 'miin', us: 'miin',
+      they: 'riin', them: 'riin', star: 'vyr', stars: 'vyr',
+      night: 'valar', sun: 'zohar', water: 'daris', light: 'fal'
     };
-
-    const verbMap = {
-      like: 'cynel', likes: 'cynel', love: 'cynel', loved: 'fe cynel',
+    const verbs = {
+      like: 'cynel', likes: 'cynel', liked: 'fe cynel',
+      love: 'cynel', loves: 'cynel', loved: 'fe cynel',
       walk: 'poran', walks: 'poran', walked: 'fe poran',
       shine: 'falun', shines: 'falun', shone: 'fe falun',
       see: 'vyrel', sees: 'vyrel', saw: 'fe vyrel',
-      rest: 'seron', rests: 'seron',
-      know: 'belan', knows: 'belan'
+      rest: 'seron', rests: 'seron', rested: 'fe seron',
+      know: 'belan', knows: 'belan', knew: 'fe belan'
+    };
+    const adjectives = { beautiful: 'cylani', bright: 'falani', dark: 'valani', warm: 'surani' };
+    const nounPattern = '(?:(?:the|a|an)\\s+)?([a-z]+)';
+    const fail = () => ({ success: false });
+    const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+    const noun = text => {
+      const match = text.match(new RegExp('^' + nounPattern + '$'));
+      return match && Object.hasOwn(nouns, match[1]) ? nouns[match[1]] : null;
     };
 
-    const adjMap = {
-      beautiful: 'cylani',
-      bright: 'falani',
-      dark: 'valani',
-      warm: 'surani'
-    };
-
-    let isNeg = norm.includes('not') || norm.includes("don't") || norm.includes("doesn't") || norm.includes("didn't");
-    let isPast = norm.includes('did ') || norm.includes('was ') || norm.includes('were ') || tokens.some(t => t.endsWith('ed'));
-
-    // Comparison: S is more Adj than O
-    if (norm.includes('more') && norm.includes('than')) {
-      const m = norm.match(/(?:the\s+)?(\w+)\s+(?:is|are)\s+more\s+(\w+)\s+than\s+(?:the\s+)?(\w+)/);
-      if (m) {
-        const sWord = pronounMap[m[1]] || m[1];
-        const adjWord = adjMap[m[2]] || m[2];
-        const oWord = pronounMap[m[3]] || m[3];
-        const capAdj = adjWord.charAt(0).toUpperCase() + adjWord.slice(1);
-        const res = `${capAdj} el ${sWord} va ${oWord}`;
-        return {
-          text: res,
-          tag: 'Adj el S va O (Comparative)',
-          alignments: [
-            { src: m[1], src_en: m[1], dst: `el ${sWord}`, role: '比較主格 (Subject)' },
-            { src: m[2], src_en: m[2], dst: capAdj, role: '形容詞述語 (Predicate)' },
-            { src: m[3], src_en: m[3], dst: `va ${oWord}`, role: '奪格比較 (Comparison)' }
-          ],
-          success: true
-        };
-      }
+    const copula = norm.match(new RegExp('^' + nounPattern + '\\s+(is|are)\\s+(not\\s+)?(more\\s+)?([a-z]+)(?:\\s+than\\s+' + nounPattern + ')?$'));
+    if (copula) {
+      const [, subject, , negation, more, adjective, comparison] = copula;
+      if (!Object.hasOwn(nouns, subject) || !Object.hasOwn(adjectives, adjective) ||
+          !!more !== !!comparison || comparison && !Object.hasOwn(nouns, comparison)) return fail();
+      const predicate = (negation ? 'ne ' : '') + adjectives[adjective];
+      return {
+        text: cap(predicate) + ' el ' + nouns[subject] + (comparison ? ' va ' + nouns[comparison] : ''),
+        tag: comparison ? 'Comparative' : 'Adjective Predicate',
+        alignments: [
+          { src: subject, dst: 'el ' + nouns[subject], role: 'Subject' },
+          { src: (negation || '') + adjective, dst: cap(predicate), role: 'Predicate' },
+          ...(comparison ? [{ src: comparison, dst: 'va ' + nouns[comparison], role: 'Comparison' }] : [])
+        ], success: true
+      };
     }
 
-    // Predicate Adjective: S is Adj (e.g. "The night is beautiful")
-    if (norm.includes('is ') || norm.includes('are ')) {
-      const m = norm.match(/(?:the\s+)?(\w+)\s+(?:is|are)\s+(\w+)/);
-      if (m && adjMap[m[2]]) {
-        const sWord = pronounMap[m[1]] || m[1];
-        const adjWord = adjMap[m[2]];
-        const capAdj = adjWord.charAt(0).toUpperCase() + adjWord.slice(1);
-        const res = `${capAdj} el ${sWord}`;
-        return {
-          text: res,
-          tag: 'Adj el S (Adjective Predicate)',
-          alignments: [
-            { src: m[1], src_en: m[1], dst: `el ${sWord}`, role: '主格 (Subject)' },
-            { src: m[2], src_en: m[2], dst: capAdj, role: '形容詞述語 (Predicate)' }
-          ],
-          success: true
-        };
-      }
+    const match = norm.match(new RegExp('^' + nounPattern + "\\s+(?:(do not|does not|did not|don't|doesn't|didn't)\\s+)?([a-z]+)(?:\\s+(.+))?$"));
+    if (!match) return fail();
+    const [, subject, auxiliary, verb, objectText] = match;
+    if (!Object.hasOwn(nouns, subject) || !Object.hasOwn(verbs, verb)) return fail();
+    // Only known transitive predicates may take an object; required objects stay required.
+    const transitive = ['cynel', 'vyrel', 'belan'].includes(verbs[verb].replace(/^fe /, ''));
+    if (transitive !== !!objectText) return fail();
+    let object = null;
+    let adjective = null;
+    if (objectText) {
+      const objectMatch = objectText.match(/^(?:(?:the|a|an)\\s+)?(?:([a-z]+)\\s+)?([a-z]+)$/);
+      if (!objectMatch) return fail();
+      const [, modifier, objectNoun] = objectMatch;
+      object = noun(objectNoun);
+      if (!object || modifier && !Object.hasOwn(adjectives, modifier)) return fail();
+      adjective = modifier ? adjectives[modifier] : null;
     }
-
-    // Transitive / Intransitive SVO
-    // Find subject
-    let subj = 'mi';
-    let subjSrc = 'I';
-    if (tokens[0] in pronounMap) {
-      subj = pronounMap[tokens[0]];
-      subjSrc = tokens[0];
-    } else if (tokens[0] === 'the' && tokens[1] in pronounMap) {
-      subj = pronounMap[tokens[1]];
-      subjSrc = `${tokens[0]} ${tokens[1]}`;
-    }
-
-    // Find verb
-    let verb = null;
-    let verbSrc = null;
-    for (const t of tokens) {
-      if (verbMap[t]) {
-        verb = verbMap[t];
-        verbSrc = t;
-        break;
-      }
-    }
-
-    if (!verb) return { success: false };
-
-    // Find object
-    let obj = null;
-    let objSrc = null;
-    let postAdj = null;
-    let postAdjSrc = null;
-
-    const remaining = tokens.slice(tokens.indexOf(verbSrc) + 1).filter(t => !['the', 'a', 'an'].includes(t));
-    for (const r of remaining) {
-      if (adjMap[r]) {
-        postAdj = adjMap[r];
-        postAdjSrc = r;
-      } else if (pronounMap[r]) {
-        obj = pronounMap[r];
-        objSrc = r;
-      }
-    }
-
-    let verbForm = verb;
-    if (isNeg && !verbForm.startsWith('ne ')) verbForm = `ne ${verbForm}`;
-    if (isPast && !verbForm.startsWith('fe ')) verbForm = `fe ${verbForm}`;
-    const capVerb = verbForm.charAt(0).toUpperCase() + verbForm.slice(1);
-
-    let res = `${capVerb} el ${subj}`;
-    const alignments = [
-      { src: subjSrc, src_en: subjSrc, dst: `el ${subj}`, role: '主格 (Subject)' },
-      { src: verbSrc, src_en: verbSrc, dst: capVerb, role: '述語動詞 (Verb)' }
-    ];
-
-    if (obj) {
-      res += ` ia ${obj}`;
-      if (postAdj) {
-        res += ` ${postAdj}`;
-        alignments.push({ src: `${postAdjSrc} ${objSrc}`, src_en: `${postAdjSrc} ${objSrc}`, dst: `ia ${obj} ${postAdj}`, role: '対格・後置修飾 (Object + Adj)' });
-      } else {
-        alignments.push({ src: objSrc, src_en: objSrc, dst: `ia ${obj}`, role: '対格 (Object)' });
-      }
-    }
-
+    if (auxiliary && verbs[verb].startsWith('fe ')) return fail();
+    const past = verbs[verb].startsWith('fe ') || auxiliary && auxiliary.startsWith('did');
+    const predicate = (past ? 'fe ' : '') + (auxiliary ? 'ne ' : '') + verbs[verb].replace(/^fe /, '');
+    const objectPhrase = object ? ' ia ' + object + (adjective ? ' ' + adjective : '') : '';
     return {
-      text: res,
-      tag: 'VSO (English SVO -> Nebulith VSO)',
-      alignments,
-      success: true
+      text: cap(predicate) + ' el ' + nouns[subject] + objectPhrase,
+      tag: 'English SVO -> Nebulith VSO',
+      alignments: [
+        { src: subject, dst: 'el ' + nouns[subject], role: 'Subject' },
+        { src: (auxiliary ? auxiliary + ' ' : '') + verb, dst: cap(predicate), role: 'Predicate' },
+        ...(object ? [{ src: objectText, dst: objectPhrase.trim(), role: 'Object' }] : [])
+      ], success: true
     };
   }
 
@@ -1775,6 +1701,7 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
     translateEnglishToNebulith
   };
 }));
+
 
 /* Offline interpretation: no network, no invisible subject/mood insertion. */
 (function (global) {
@@ -1841,6 +1768,22 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
   }
   global.nebulithJapaneseForms=japaneseForms;
   global.createIncrementalTranslator = function (vocab, frames, aliases, pairs, extensions={}) {
+    function splitSentences(input) {
+      const parts = [], closing = [];
+      let buffer = '';
+      for (let i = 0; i < input.length; i++) {
+        const c = input[i];
+        buffer += c;
+        if (c === '「' || c === '『') closing.push(c === '「' ? '」' : '』');
+        else if (c === closing[closing.length - 1]) closing.pop();
+        if (!closing.length && /[。！？!?\n]/.test(c) && !/[。！？!?\n]/.test(input[i + 1] || '')) {
+          if (buffer.trim()) parts.push(buffer.trim());
+          buffer = '';
+        }
+      }
+      if (buffer.trim()) parts.push(buffer.trim());
+      return parts;
+    }
     frames={...frames};
     for(const [id,frame] of Object.entries(extensions.frames||{})) {
       if(frames[id])throw Error('追加文型が正本文型と競合しています。');
@@ -2187,7 +2130,7 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
       const sources=argSources.get(args)||{};
       const isRealizedModal = form && (form.suffix==='ar' || form.suffix==='ast' || form.suffix==='far' || form.suffix==='liv' || form.prefixes.includes('se'));
       return {schemaVersion:1,kind:'clause',predicate:form?{entryId:form.id,root:byId.get(form.id).r,source:form.ending,prefixes:[...form.prefixes],suffix:form.suffix||'',passive:!!form.passive}:null,
-        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':form?.prefixes.includes('se')?'future':'unmarked',negative:!!form?.prefixes.includes('ne'),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='far'?'perfective':form?.suffix==='liv'?'durative':form?.suffix==='ast'?(form?.feature?.includes('希望')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
+        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':form?.prefixes.includes('se')?'future':'unmarked',negative:!!form?.prefixes.includes('ne') && !(feature.includes('否定') && /希望|可能/.test(feature)),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='far'?'perfective':form?.suffix==='liv'?'durative':form?.suffix==='ast'?(form?.feature?.includes('希望')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
         modalities:feature?[{kind:feature.includes('希望')?'desire':feature.includes('推量')?'uncertainty':feature.includes('可能')?'possibility':feature.includes('相')?'aspect':feature.includes('意図')?'intention':feature.includes('必要')?'necessity':'thought',sourceFeature:feature,negated:feature.includes('否定'),past:feature.includes('過去'),scope:'clause',realization:isRealizedModal?'synthesized':'not-defined'}]:[],
         alignment:form?outputAlignment(form,args,question):argumentRows(args)};
     }
@@ -2321,17 +2264,25 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
       }
 
       if (quoteMatch) {
+        if (depth >= 2) return {source,text:'',state:'blocked',notes:['引用の入れ子が深すぎます。一文を分けてください。']};
         const speakerRaw = (quoteMatch[1] || choices.subject || '私').trim();
         const innerText = quoteMatch[2].trim();
         const verbType = quoteMatch[3];
         const isThought = verbType.startsWith('思');
         const isPast = verbType.includes('た') || verbType.includes('まし');
         
-        const innerResult = part(innerText, {}, depth + 1);
+        let speakerNeb;
+        try { speakerNeb = phrase(speakerRaw); }
+        catch (e) { return {source,text:'',state:'blocked',notes:['引用の話者を確定できません。',e.message]}; }
+        const innerResult = part(innerText, choices, depth + 1);
+        if (!['complete', 'candidate'].includes(innerResult.state)) {
+          return {source,text:'',state:innerResult.state === 'draft' ? 'draft' : 'blocked',
+            verbOptions:innerResult.verbOptions,senseOptions:innerResult.senseOptions,scopeAmbiguous:innerResult.scopeAmbiguous,
+            notes:['引用内の文を確定してください。',...(innerResult.notes || [])]};
+        }
         let innerNeb = innerResult.text ? innerResult.text.replace(/^[〔\[].*?[〕\]]\s*/, '').trim() : '';
         if (!innerNeb && innerResult.candidate) innerNeb = innerResult.candidate.trim();
         const innerClean = innerNeb.replace(/[.?]+$/, '');
-        const speakerNeb = phrase(speakerRaw);
         const verbRoot = isThought ? 'memar' : 'fenor';
         const verbWord = (isPast ? 'Fe ' : '') + (isPast ? verbRoot : (verbRoot[0].toUpperCase() + verbRoot.slice(1)));
         const fullNeb = `${verbWord} el ${speakerNeb} ia \"${innerClean}.\"`;
@@ -2355,6 +2306,9 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
           text: fullNeb,
           state: allConfirmed ? 'complete' : 'candidate',
           candidate: fullNeb,
+          verbOptions: innerResult.verbOptions,
+          senseOptions: innerResult.senseOptions,
+          scopeAmbiguous: innerResult.scopeAmbiguous,
           meaning,
           alignment,
           notes: ['引用構文（' + (isThought ? '思考節' : '発話節') + '）として解析。', ...(innerResult.notes || [])]
@@ -2691,7 +2645,7 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
       }catch(e){return {source,text:fragments,state:'blocked',notes:[...notes,e.message]};}
     }
     const coveredIds=new Set(forms.filter(f=>!f.adjective).map(f=>f.id));
-    return { coverage() {
+    return { splitSentences, coverage() {
       return {predicates:coveredIds.size,productiveLemmas:(productive.verbs||[]).length,verbForms:forms.filter(f=>!f.adjective && !f.feature).length,
         adjectiveForms:forms.filter(f=>f.adjective).length,places:placeRoots.size,
         verbs:(productive.verbs||[]).map(v=>({id:v.id,lemma:v.lemma,root:byId.get(v.id).r})),
@@ -2700,7 +2654,7 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
       if(!input.trim())return {segments:[],complete:false,text:'',notes:[],recordable:false};
       if(input.length>4000)return {segments:[],complete:false,text:'',notes:['4,000文字以内で入力してください。'],recordable:true};
       const direct=full(input);
-      const parts=direct ? [{...direct,source:input}] : (input.match(/[^。！？!?\n]+[。！？!?]*/g)||[]).filter(x=>x.trim()).map(x=>x.trim());
+      const parts=direct ? [{...direct,source:input}] : splitSentences(input);
       const occurrences=new Map();
       const segments=direct?parts.map(p=>({...p,key:JSON.stringify([p.source,0])})):parts.map(p=>{
         const occurrence=occurrences.get(p)||0;occurrences.set(p,occurrence+1);const segmentKey=JSON.stringify([p,occurrence]);
@@ -2713,6 +2667,7 @@ const USAGE_EXAMPLES = [{"id": "USE-01", "title": "基本", "japanese": "私は�
     }};
   };
 })(globalThis);
+
 
 /* Local data only. All profile writes use one localStorage key. */
 (function(global){
@@ -3480,80 +3435,6 @@ function translateSingleSentence(sent, fromLang, toLang) {
     }
   }
 
-  // Dynamic fallback rules for English -> Nebulith
-  if (fromLang === 'en' && toLang === 'neb') {
-    if (norm.includes('like') || norm.includes('love')) {
-      if (norm.includes('you')) {
-        const neg = norm.includes('not') || norm.includes("don't");
-        const res = neg ? 'Ne cynel el mi ia ti.' : 'Cynel el mi ia ti.';
-        return {
-          neb: res,
-          text: res,
-          tag: 'VSO (English SVO -> Nebulith VSO)',
-          alignment: [
-            {"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)"},
-            {"src": "あなたを", "src_en": "you", "dst": "ia ti", "role": "対格 (Object)"},
-            {"src": neg ? "好まない" : "好きだ", "src_en": neg ? "do not like" : "like / love", "dst": neg ? "Ne cynel" : "Cynel", "role": "述語動詞 (Verb)"}
-          ],
-          success: true
-        };
-      }
-      if (norm.includes('star')) {
-        const beautiful = norm.includes('beautiful');
-        const res = beautiful ? 'Cynel el mi ia vyr cylani.' : 'Cynel el mi ia vyr.';
-        return {
-          neb: res,
-          text: res,
-          tag: 'VSO + Post-Adj',
-          alignment: [
-            {"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)"},
-            {"src": "星を", "src_en": "stars", "dst": "ia vyr", "role": "対格 (Object)"},
-            ...(beautiful ? [{"src": "美しい", "src_en": "beautiful", "dst": "cylani", "role": "後置形容詞 (Post-Adj)"}] : []),
-            {"src": "好きだ", "src_en": "like / love", "dst": "Cynel", "role": "述語動詞 (Verb)"}
-          ],
-          success: true
-        };
-      }
-    }
-    if (norm.includes('if') && norm.includes('star') && norm.includes('walk')) {
-      return {
-        neb: 'Zen falun el vyr, poran el mi.',
-        text: 'Zen falun el vyr, poran el mi.',
-        tag: 'Zen Clause1, Clause2 (Conditional)',
-        alignment: [
-          {"src": "星が輝くなら", "src_en": "if stars shine", "dst": "Zen falun el vyr", "role": "条件節 (Condition)"},
-          {"src": "私は歩く", "src_en": "I walk", "dst": "poran el mi", "role": "帰結節 (Consequence)"}
-        ],
-        success: true
-      };
-    }
-    if (norm.includes('more') && norm.includes('beautiful') && norm.includes('than')) {
-      return {
-        neb: 'Cylani el vyr va valar.',
-        text: 'Cylani el vyr va valar.',
-        tag: 'Adj el S va O (Ablative Comparison)',
-        alignment: [
-          {"src": "星は", "src_en": "the star", "dst": "el vyr", "role": "主格 (Subject)"},
-          {"src": "夜よりも", "src_en": "than the night", "dst": "va valar", "role": "奪格比較 (Comparison)"},
-          {"src": "美しい", "src_en": "is more beautiful", "dst": "Cylani", "role": "形容詞述語 (Predicate)"}
-        ],
-        success: true
-      };
-    }
-    if (norm.includes('night') && norm.includes('beautiful')) {
-      return {
-        neb: 'Cylani el valar.',
-        text: 'Cylani el valar.',
-        tag: 'Adj Predicate',
-        alignment: [
-          {"src": "夜は", "src_en": "the night", "dst": "el valar", "role": "主格 (Subject)"},
-          {"src": "美しい", "src_en": "is beautiful", "dst": "Cylani", "role": "形容詞述語 (Predicate)"}
-        ],
-        success: true
-      };
-    }
-  }
-
   // Productive Bidirectional Engine Integration (Sprint 6)
   if (typeof NebulithBidirectionalEngine !== 'undefined') {
     if (fromLang === 'neb' && (toLang === 'ja' || toLang === 'en')) {
@@ -3777,7 +3658,7 @@ document.getElementById('confirmInputCandidate').addEventListener('click',()=>{
 function resetInputChoices(preserve=false) {
   let retained={};
   if(preserve){
-    const sources=(transInput.value.match(/[^。！？!?\n]+[。！？!?]*/g)||[]).map(s=>s.trim()).filter(Boolean);
+    const sources=inputEngine.splitSentences(transInput.value);
     const prior={...(inputChoicesState.bySegment||{})};
     if(lastInputAnalysis?.segments.length===1)prior[lastInputAnalysis.segments[0].key]=inputChoicesState;
     const bySegment={};
@@ -4112,6 +3993,7 @@ if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && typeof w
     });
   });
 }
+
 
 </script>
 </body>

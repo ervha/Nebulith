@@ -3,10 +3,18 @@ const ctx={};vm.createContext(ctx);for(const file of ['web/data.js','web/increme
 vm.runInContext('globalThis.engine=createIncrementalTranslator(VOCAB,GRAMMAR_FRAMES,INPUT_RULES.aliases,[],TRANSLATION_EXTENSIONS)',ctx);
 let r=ctx.engine.analyze('私は水を飲みませんでした',{}),m=r.segments[0].meaning;
 assert.equal(m.schemaVersion,1);assert.equal(m.kind,'clause');assert.equal(m.tense,'past');assert.equal(m.negative,true);assert.equal(m.arguments.el.nrs,'mi');assert.equal(m.arguments.ia.source,'水');assert.deepEqual(Array.from(m.predicate.prefixes),['fe','ne']);
-for(const [source,kind,actionNeg,modalNeg] of [['私は水を飲みたくない','desire',false,true],['私は水を飲まないかも','uncertainty',true,false],['私は水を飲むことができない','possibility',false,true],['私は水を飲むつもりだ','intention',false,false],['私は水を飲む必要がある','necessity',false,false],['私は水を飲んだと思う','thought',false,false]]){
+for(const [source,kind,actionNeg,modalNeg] of [['私は水を飲みたくない','desire',false,true],['私は水を飲まないかも','uncertainty',true,false],['私は水を飲むことができない','possibility',false,true],['私は水を飲むつもりだ','intention',false,false],['私は水を飲む必要がある','necessity',false,false]]){
   const result=ctx.engine.analyze(source,{});assert.equal(result.complete,false,source);const meaning=result.segments[0].meaning;
-  assert.ok(meaning,source);assert.equal(meaning.negative,actionNeg,source);assert.equal(meaning.modalities[0].kind,kind,source);assert.equal(meaning.modalities[0].negated,modalNeg,source);assert.equal(meaning.modalities[0].realization,'not-defined');
+  assert.ok(meaning,source);assert.equal(meaning.negative,actionNeg,source);assert.equal(meaning.modalities[0].kind,kind,source);assert.equal(meaning.modalities[0].negated,modalNeg,source);assert.equal(meaning.modalities[0].realization,['desire','uncertainty','possibility'].includes(kind)?'synthesized':'not-defined');
+  if(['desire','uncertainty','possibility'].includes(kind)) {
+    const confirmed=ctx.engine.analyze(source,{confirmed:true});assert.equal(confirmed.complete,true,source);
+    assert.match(confirmed.text,/^(Ne bionast|Se ne bion|Ne bionar) /);
+  }
 }
+const thought=ctx.engine.analyze('私は水を飲んだと思う',{});
+assert.equal(thought.complete,false);assert.equal(thought.segments[0].meaning.kind,'reported_clause');
+assert.equal(thought.segments[0].meaning.innerMeaning.tense,'past');
+assert.equal(ctx.engine.analyze('私は水を飲んだと思う',{confirmed:true}).complete,true);
 for(const [source,target,relation] of [
  ['星が輝くなら、私は走る。','Sen falun el vyr, kupan el mi.','sen'],
  ['私は働いたので、私は家で眠る。','Zen fe dolar el mi, tymis el mi uo govan.','zen'],

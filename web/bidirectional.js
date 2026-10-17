@@ -384,152 +384,78 @@
   }
 
   function translateSingleEnglishClause(clause) {
-    const norm = clause.trim().replace(/[.,!?]+$/, '').toLowerCase();
-    const tokens = norm.split(/\s+/);
-    if (!tokens.length) return { success: false };
-
-    // Pronouns & Noun mappings
-    const pronounMap = {
-      i: 'mi', me: 'mi', my: 'mi',
-      you: 'ti', your: 'ti',
-      we: 'solan', us: 'solan', our: 'solan',
-      they: 'valin', them: 'valin',
-      star: 'vyr', stars: 'vyr',
-      night: 'valar',
-      sun: 'zohar',
-      water: 'daris',
-      light: 'fal'
+    // Accept only complete supported clauses. Unconsumed words must never disappear.
+    if (/[!?]/.test(clause)) return { success: false };
+    const norm = clause.trim().replace(/[.]+$/, '').toLowerCase();
+    const nouns = {
+      i: 'mi', me: 'mi', you: 'ti', we: 'miin', us: 'miin',
+      they: 'riin', them: 'riin', star: 'vyr', stars: 'vyr',
+      night: 'valar', sun: 'zohar', water: 'daris', light: 'fal'
     };
-
-    const verbMap = {
-      like: 'cynel', likes: 'cynel', love: 'cynel', loved: 'fe cynel',
+    const verbs = {
+      like: 'cynel', likes: 'cynel', liked: 'fe cynel',
+      love: 'cynel', loves: 'cynel', loved: 'fe cynel',
       walk: 'poran', walks: 'poran', walked: 'fe poran',
       shine: 'falun', shines: 'falun', shone: 'fe falun',
       see: 'vyrel', sees: 'vyrel', saw: 'fe vyrel',
-      rest: 'seron', rests: 'seron',
-      know: 'belan', knows: 'belan'
+      rest: 'seron', rests: 'seron', rested: 'fe seron',
+      know: 'belan', knows: 'belan', knew: 'fe belan'
+    };
+    const adjectives = { beautiful: 'cylani', bright: 'falani', dark: 'valani', warm: 'surani' };
+    const nounPattern = '(?:(?:the|a|an)\\s+)?([a-z]+)';
+    const fail = () => ({ success: false });
+    const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+    const noun = text => {
+      const match = text.match(new RegExp('^' + nounPattern + '$'));
+      return match && Object.hasOwn(nouns, match[1]) ? nouns[match[1]] : null;
     };
 
-    const adjMap = {
-      beautiful: 'cylani',
-      bright: 'falani',
-      dark: 'valani',
-      warm: 'surani'
-    };
-
-    let isNeg = norm.includes('not') || norm.includes("don't") || norm.includes("doesn't") || norm.includes("didn't");
-    let isPast = norm.includes('did ') || norm.includes('was ') || norm.includes('were ') || tokens.some(t => t.endsWith('ed'));
-
-    // Comparison: S is more Adj than O
-    if (norm.includes('more') && norm.includes('than')) {
-      const m = norm.match(/(?:the\s+)?(\w+)\s+(?:is|are)\s+more\s+(\w+)\s+than\s+(?:the\s+)?(\w+)/);
-      if (m) {
-        const sWord = pronounMap[m[1]] || m[1];
-        const adjWord = adjMap[m[2]] || m[2];
-        const oWord = pronounMap[m[3]] || m[3];
-        const capAdj = adjWord.charAt(0).toUpperCase() + adjWord.slice(1);
-        const res = `${capAdj} el ${sWord} va ${oWord}`;
-        return {
-          text: res,
-          tag: 'Adj el S va O (Comparative)',
-          alignments: [
-            { src: m[1], src_en: m[1], dst: `el ${sWord}`, role: '比較主格 (Subject)' },
-            { src: m[2], src_en: m[2], dst: capAdj, role: '形容詞述語 (Predicate)' },
-            { src: m[3], src_en: m[3], dst: `va ${oWord}`, role: '奪格比較 (Comparison)' }
-          ],
-          success: true
-        };
-      }
+    const copula = norm.match(new RegExp('^' + nounPattern + '\\s+(is|are)\\s+(not\\s+)?(more\\s+)?([a-z]+)(?:\\s+than\\s+' + nounPattern + ')?$'));
+    if (copula) {
+      const [, subject, , negation, more, adjective, comparison] = copula;
+      if (!Object.hasOwn(nouns, subject) || !Object.hasOwn(adjectives, adjective) ||
+          !!more !== !!comparison || comparison && !Object.hasOwn(nouns, comparison)) return fail();
+      const predicate = (negation ? 'ne ' : '') + adjectives[adjective];
+      return {
+        text: cap(predicate) + ' el ' + nouns[subject] + (comparison ? ' va ' + nouns[comparison] : ''),
+        tag: comparison ? 'Comparative' : 'Adjective Predicate',
+        alignments: [
+          { src: subject, dst: 'el ' + nouns[subject], role: 'Subject' },
+          { src: (negation || '') + adjective, dst: cap(predicate), role: 'Predicate' },
+          ...(comparison ? [{ src: comparison, dst: 'va ' + nouns[comparison], role: 'Comparison' }] : [])
+        ], success: true
+      };
     }
 
-    // Predicate Adjective: S is Adj (e.g. "The night is beautiful")
-    if (norm.includes('is ') || norm.includes('are ')) {
-      const m = norm.match(/(?:the\s+)?(\w+)\s+(?:is|are)\s+(\w+)/);
-      if (m && adjMap[m[2]]) {
-        const sWord = pronounMap[m[1]] || m[1];
-        const adjWord = adjMap[m[2]];
-        const capAdj = adjWord.charAt(0).toUpperCase() + adjWord.slice(1);
-        const res = `${capAdj} el ${sWord}`;
-        return {
-          text: res,
-          tag: 'Adj el S (Adjective Predicate)',
-          alignments: [
-            { src: m[1], src_en: m[1], dst: `el ${sWord}`, role: '主格 (Subject)' },
-            { src: m[2], src_en: m[2], dst: capAdj, role: '形容詞述語 (Predicate)' }
-          ],
-          success: true
-        };
-      }
+    const match = norm.match(new RegExp('^' + nounPattern + "\\s+(?:(do not|does not|did not|don't|doesn't|didn't)\\s+)?([a-z]+)(?:\\s+(.+))?$"));
+    if (!match) return fail();
+    const [, subject, auxiliary, verb, objectText] = match;
+    if (!Object.hasOwn(nouns, subject) || !Object.hasOwn(verbs, verb)) return fail();
+    // Only known transitive predicates may take an object; required objects stay required.
+    const transitive = ['cynel', 'vyrel', 'belan'].includes(verbs[verb].replace(/^fe /, ''));
+    if (transitive !== !!objectText) return fail();
+    let object = null;
+    let adjective = null;
+    if (objectText) {
+      const objectMatch = objectText.match(/^(?:(?:the|a|an)\\s+)?(?:([a-z]+)\\s+)?([a-z]+)$/);
+      if (!objectMatch) return fail();
+      const [, modifier, objectNoun] = objectMatch;
+      object = noun(objectNoun);
+      if (!object || modifier && !Object.hasOwn(adjectives, modifier)) return fail();
+      adjective = modifier ? adjectives[modifier] : null;
     }
-
-    // Transitive / Intransitive SVO
-    // Find subject
-    let subj = 'mi';
-    let subjSrc = 'I';
-    if (tokens[0] in pronounMap) {
-      subj = pronounMap[tokens[0]];
-      subjSrc = tokens[0];
-    } else if (tokens[0] === 'the' && tokens[1] in pronounMap) {
-      subj = pronounMap[tokens[1]];
-      subjSrc = `${tokens[0]} ${tokens[1]}`;
-    }
-
-    // Find verb
-    let verb = null;
-    let verbSrc = null;
-    for (const t of tokens) {
-      if (verbMap[t]) {
-        verb = verbMap[t];
-        verbSrc = t;
-        break;
-      }
-    }
-
-    if (!verb) return { success: false };
-
-    // Find object
-    let obj = null;
-    let objSrc = null;
-    let postAdj = null;
-    let postAdjSrc = null;
-
-    const remaining = tokens.slice(tokens.indexOf(verbSrc) + 1).filter(t => !['the', 'a', 'an'].includes(t));
-    for (const r of remaining) {
-      if (adjMap[r]) {
-        postAdj = adjMap[r];
-        postAdjSrc = r;
-      } else if (pronounMap[r]) {
-        obj = pronounMap[r];
-        objSrc = r;
-      }
-    }
-
-    let verbForm = verb;
-    if (isNeg && !verbForm.startsWith('ne ')) verbForm = `ne ${verbForm}`;
-    if (isPast && !verbForm.startsWith('fe ')) verbForm = `fe ${verbForm}`;
-    const capVerb = verbForm.charAt(0).toUpperCase() + verbForm.slice(1);
-
-    let res = `${capVerb} el ${subj}`;
-    const alignments = [
-      { src: subjSrc, src_en: subjSrc, dst: `el ${subj}`, role: '主格 (Subject)' },
-      { src: verbSrc, src_en: verbSrc, dst: capVerb, role: '述語動詞 (Verb)' }
-    ];
-
-    if (obj) {
-      res += ` ia ${obj}`;
-      if (postAdj) {
-        res += ` ${postAdj}`;
-        alignments.push({ src: `${postAdjSrc} ${objSrc}`, src_en: `${postAdjSrc} ${objSrc}`, dst: `ia ${obj} ${postAdj}`, role: '対格・後置修飾 (Object + Adj)' });
-      } else {
-        alignments.push({ src: objSrc, src_en: objSrc, dst: `ia ${obj}`, role: '対格 (Object)' });
-      }
-    }
-
+    if (auxiliary && verbs[verb].startsWith('fe ')) return fail();
+    const past = verbs[verb].startsWith('fe ') || auxiliary && auxiliary.startsWith('did');
+    const predicate = (past ? 'fe ' : '') + (auxiliary ? 'ne ' : '') + verbs[verb].replace(/^fe /, '');
+    const objectPhrase = object ? ' ia ' + object + (adjective ? ' ' + adjective : '') : '';
     return {
-      text: res,
-      tag: 'VSO (English SVO -> Nebulith VSO)',
-      alignments,
-      success: true
+      text: cap(predicate) + ' el ' + nouns[subject] + objectPhrase,
+      tag: 'English SVO -> Nebulith VSO',
+      alignments: [
+        { src: subject, dst: 'el ' + nouns[subject], role: 'Subject' },
+        { src: (auxiliary ? auxiliary + ' ' : '') + verb, dst: cap(predicate), role: 'Predicate' },
+        ...(object ? [{ src: objectText, dst: objectPhrase.trim(), role: 'Object' }] : [])
+      ], success: true
     };
   }
 
@@ -539,3 +465,4 @@
     translateEnglishToNebulith
   };
 }));
+

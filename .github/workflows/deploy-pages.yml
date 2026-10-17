@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -41,15 +41,10 @@ jobs:
 
       - name: Verify Web Studio
         run: |
-          node tests/verify_studio.js
-          node tests/verify_productive_translation.js
-          node tests/verify_sprint1_modals_and_conditions.js
-          node tests/verify_sprint2_comparison_and_quotes.js
-          node tests/verify_sprint3_lexicon_and_adverbs.js
-          node tests/verify_sprint4_word_inspector.js
-          node tests/verify_sprint5_derivation_and_aspects.js
-          node tests/verify_all_words_modal.js
-          node tests/verify_emergent_dialogue.js
+          for test in tests/verify*.js; do
+            node "$test"
+          done
+          python -m unittest discover -s tests -p test_service_worker.py -v
           python tools/verify_web_bundle.py
 
       - name: Prepare Pages Artifact
@@ -69,3 +64,30 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Publish Web distribution release
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          release_tag="web-${GITHUB_SHA:0:12}"
+          python -m zipfile -c "$RUNNER_TEMP/nebulith-studio-web.zip" web
+          cp web/standalone.html "$RUNNER_TEMP/standalone.html"
+          cat > "$RUNNER_TEMP/release-notes.md" <<'NOTES'
+          Web Studioの修正版です。
+
+          - 英語入力の否定・主語・目的語を保持し、未知語を省略した確定訳を防止。
+          - 未知の引用話者を安全に保留し、引用内の解釈選択・確認と未対応記録を修正。
+          - 配布物の内容に応じたPWAキャッシュ更新とオフライン代替表示を修正。
+          - 全JavaScript検証、キャッシュ更新テスト、配布物整合性検証を実行。
+
+          standalone.htmlは単体でオフライン利用できます。ZIPは分割Web版です。
+          この配布はWebアプリの修正であり、言語・字体の独立審査承認を意味しません。
+          NOTES
+          cd "$RUNNER_TEMP"
+          sha256sum standalone.html nebulith-studio-web.zip > SHA256SUMS.txt
+          if gh release view "$release_tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$release_tag" standalone.html nebulith-studio-web.zip SHA256SUMS.txt --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create "$release_tag" standalone.html nebulith-studio-web.zip SHA256SUMS.txt --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Web Studio ${GITHUB_SHA:0:7}" --notes-file release-notes.md --prerelease --latest=false
+          fi

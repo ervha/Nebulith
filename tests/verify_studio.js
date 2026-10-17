@@ -51,6 +51,7 @@ const dataCode = fs.readFileSync('web/data.js', 'utf8');
 const appCode = fs.readFileSync('web/app.js', 'utf8');
 
 vm.runInContext(dataCode, context);
+vm.runInContext(fs.readFileSync('web/bidirectional.js', 'utf8'), context);
 vm.runInContext(fs.readFileSync('web/incremental.js', 'utf8'), context);
 vm.runInContext(fs.readFileSync('web/workspace.js','utf8'), context);
 vm.runInContext(appCode, context);

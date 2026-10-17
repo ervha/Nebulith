@@ -653,80 +653,6 @@ function translateSingleSentence(sent, fromLang, toLang) {
     }
   }
 
-  // Dynamic fallback rules for English -> Nebulith
-  if (fromLang === 'en' && toLang === 'neb') {
-    if (norm.includes('like') || norm.includes('love')) {
-      if (norm.includes('you')) {
-        const neg = norm.includes('not') || norm.includes("don't");
-        const res = neg ? 'Ne cynel el mi ia ti.' : 'Cynel el mi ia ti.';
-        return {
-          neb: res,
-          text: res,
-          tag: 'VSO (English SVO -> Nebulith VSO)',
-          alignment: [
-            {"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)"},
-            {"src": "あなたを", "src_en": "you", "dst": "ia ti", "role": "対格 (Object)"},
-            {"src": neg ? "好まない" : "好きだ", "src_en": neg ? "do not like" : "like / love", "dst": neg ? "Ne cynel" : "Cynel", "role": "述語動詞 (Verb)"}
-          ],
-          success: true
-        };
-      }
-      if (norm.includes('star')) {
-        const beautiful = norm.includes('beautiful');
-        const res = beautiful ? 'Cynel el mi ia vyr cylani.' : 'Cynel el mi ia vyr.';
-        return {
-          neb: res,
-          text: res,
-          tag: 'VSO + Post-Adj',
-          alignment: [
-            {"src": "私は", "src_en": "I", "dst": "el mi", "role": "主格 (Subject)"},
-            {"src": "星を", "src_en": "stars", "dst": "ia vyr", "role": "対格 (Object)"},
-            ...(beautiful ? [{"src": "美しい", "src_en": "beautiful", "dst": "cylani", "role": "後置形容詞 (Post-Adj)"}] : []),
-            {"src": "好きだ", "src_en": "like / love", "dst": "Cynel", "role": "述語動詞 (Verb)"}
-          ],
-          success: true
-        };
-      }
-    }
-    if (norm.includes('if') && norm.includes('star') && norm.includes('walk')) {
-      return {
-        neb: 'Zen falun el vyr, poran el mi.',
-        text: 'Zen falun el vyr, poran el mi.',
-        tag: 'Zen Clause1, Clause2 (Conditional)',
-        alignment: [
-          {"src": "星が輝くなら", "src_en": "if stars shine", "dst": "Zen falun el vyr", "role": "条件節 (Condition)"},
-          {"src": "私は歩く", "src_en": "I walk", "dst": "poran el mi", "role": "帰結節 (Consequence)"}
-        ],
-        success: true
-      };
-    }
-    if (norm.includes('more') && norm.includes('beautiful') && norm.includes('than')) {
-      return {
-        neb: 'Cylani el vyr va valar.',
-        text: 'Cylani el vyr va valar.',
-        tag: 'Adj el S va O (Ablative Comparison)',
-        alignment: [
-          {"src": "星は", "src_en": "the star", "dst": "el vyr", "role": "主格 (Subject)"},
-          {"src": "夜よりも", "src_en": "than the night", "dst": "va valar", "role": "奪格比較 (Comparison)"},
-          {"src": "美しい", "src_en": "is more beautiful", "dst": "Cylani", "role": "形容詞述語 (Predicate)"}
-        ],
-        success: true
-      };
-    }
-    if (norm.includes('night') && norm.includes('beautiful')) {
-      return {
-        neb: 'Cylani el valar.',
-        text: 'Cylani el valar.',
-        tag: 'Adj Predicate',
-        alignment: [
-          {"src": "夜は", "src_en": "the night", "dst": "el valar", "role": "主格 (Subject)"},
-          {"src": "美しい", "src_en": "is beautiful", "dst": "Cylani", "role": "形容詞述語 (Predicate)"}
-        ],
-        success: true
-      };
-    }
-  }
-
   // Productive Bidirectional Engine Integration (Sprint 6)
   if (typeof NebulithBidirectionalEngine !== 'undefined') {
     if (fromLang === 'neb' && (toLang === 'ja' || toLang === 'en')) {
@@ -950,7 +876,7 @@ document.getElementById('confirmInputCandidate').addEventListener('click',()=>{
 function resetInputChoices(preserve=false) {
   let retained={};
   if(preserve){
-    const sources=(transInput.value.match(/[^。！？!?\n]+[。！？!?]*/g)||[]).map(s=>s.trim()).filter(Boolean);
+    const sources=inputEngine.splitSentences(transInput.value);
     const prior={...(inputChoicesState.bySegment||{})};
     if(lastInputAnalysis?.segments.length===1)prior[lastInputAnalysis.segments[0].key]=inputChoicesState;
     const bySegment={};
@@ -1285,3 +1211,4 @@ if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && typeof w
     });
   });
 }
+
