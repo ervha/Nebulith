@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
   "sha256": {
-    "tools/build_web_studio.py": "24d70e98d541fe699105db125b78e833e3c96985983ada7f3d4d40095f6cb4c5",
+    "tools/build_web_studio.py": "3525ecb5219b40873f96e3184adf7106306bc6b1362ea008879d581d43fc0a93",
     "tools/studio_dictionary.py": "a35b7d94ac653143fd8ef06399b3d78086d235c96dcf589a5a7e4c9ba4eee79d",
+    "tools/extended_corpus.py": "57d888b08d764dd593878d9157e64b0cdc8838c7f298fa8736c943da1f4fd0dd",
     "data/lexicon.json": "98c8c4118967da5b6505b37b72f4d6b76e9d6d0012e5609348f1ea5b06a02b12",
     "data/literary_sourcebook.json": "28fa4a34df691bb35b3c2742023bac0aea7e6d66fccc25349140818f1ac83421",
     "data/lexicon_canonical_loci.json": "ba78a992e65316fd55cf4ff527f8edaeb4a9a225c12b18f37dd1532dac2d9321",
@@ -13,7 +14,7 @@
     "data/translation_extensions.json": "8e9c2c1af86f2d0dffc531a3c0af3f1e888583fb502dc22f6fbbdf5da430dad3",
     "data/translation_patterns.json": "cc935e9d9898375a43409f38149691bc5dfd2f9adccb1b8328e4423ca3d11a14",
     "data/canon_corpus.json": "9f5a60b544db7ccdfb822b7797ff9e53d86447e0874b145c5b7f4b2ea3d5eebf",
-    "data/extended_corpus_v2.json": "7a3a12640600d677cddc49a182d63030a000803f14599a693698f504dc525d6c",
+    "data/extended_corpus_v2.json": "5ee1ab21fe5cd63927841cfa347cf598a2219c1436b1182115a74aeef51acf9c",
     "data/translation_input_rules.json": "edcb22ddbc46c6fcad6939ca42495343cd4f79ec3c21f70e43bb7dd0de2c6545",
     "data/translation_input_fixtures.json": "0fbbf127e5f5ca4c2dd912815840ec0643198b66f1921274dd3887c3429ae5bc",
     "data/corpus_rules.json": "c3353dc0cd1b0f22e599aac127921d917ff10b77865b288464476b61ab9d444a",
@@ -22,11 +23,11 @@
     "web/workspace.js": "cc9e6d8a210074c9128035270be83444928aa33a839b5dafa13df9cbe68ce948",
     "web/bidirectional.js": "549631d5488855ecb8edf283b82713d8741c15da8d070b2770b04710d1d2508e",
     "web/incremental.js": "2b797fd9b0e04144efd683f1b101039e535e68192884240689f4c7c7d8befddb",
-    "web/data.js": "556091d227c4ff505445b3bfe63c5c878cffa34fdafd1f8578aef9d0a4ccd2f0",
-    "web/index.html": "a34d2b0a7107dc3bdeef07bfefa8e15b9aa86bd6cd0681cee71fb39a99829f1a",
-    "web/standalone.html": "7d446e61d5dad88ffd76b814610fd64e9b08ada62a91a4d3151394f679f96253",
+    "web/data.js": "6f3604a6cc3fbbc3c826fe48d1fac83192a2e322029c638968d91c19489171cb",
+    "web/index.html": "7f797f71aa0fdeff67f650382f199aee666e316c788eb2323f77f0e2203099cd",
+    "web/standalone.html": "f6d26142e3089927739f7cddfd939348d0e546e438ca42775fe0fb21ddef18d4",
     "web/manifest.json": "a190ec7d33eda29a5d134f72ec0d0ddc3972a61c396e65e07d98f0a1866f2627",
-    "web/service-worker.js": "bd365804de4381c89f8f76737fde9b362efba96fe56ffc1edcd90d80218f491a",
+    "web/service-worker.js": "04f0554448635d5798c07f0bd41e85ec298f84faad7e630ab0711aaa0167f622",
     "web/icon.svg": "a93f17f00cb4ff0c3d4b133d7733e263ab6d83ab6b19f605d64b602c3da51efe",
     "web/favicon.svg": "a93f17f00cb4ff0c3d4b133d7733e263ab6d83ab6b19f605d64b602c3da51efe"
   }

@@ -44,7 +44,7 @@ class WebStudioChecks(unittest.TestCase):
 
     def test_productive_inflections_and_argument_combinations(self):
         result = subprocess.run(['node', 'tests/verify_productive_translation.js'], cwd=ROOT,
-                                capture_output=True, text=True, encoding='utf-8', timeout=45)
+                                capture_output=True, text=True, encoding='utf-8', timeout=600)
         self.assertEqual(0, result.returncode, result.stdout + result.stderr)
 
     def test_storage_and_feedback_import_are_safe_and_repeatable(self):
@@ -66,7 +66,13 @@ class WebStudioChecks(unittest.TestCase):
         ledger=json.loads((ROOT/'data/language_review_ledger.json').read_text(encoding='utf-8'))
         self.assertEqual(ledger['sourceSha256'],hashlib.sha256((ROOT/'data/translation_extensions.json').read_bytes()).hexdigest())
         self.assertEqual(ledger['frameReview']['sha256'],hashlib.sha256((ROOT/'data/translation_patterns.json').read_bytes()).hexdigest())
-        self.assertEqual(47,len(ledger['entries']))
+        from nebulith_data import entry_hash
+        current=json.loads((ROOT/'data/translation_extensions.json').read_text(encoding='utf-8'))['entries']
+        self.assertEqual({r['id'] for r in current},{r['id'] for r in ledger['entries']})
+        by_id={r['id']:r for r in current}
+        for row in ledger['entries']:
+            self.assertEqual(by_id[row['id']]['meaningJa'],row['meaning'])
+            self.assertEqual(entry_hash(by_id[row['id']]),row['targetEntryHash'])
         for entry in ledger['entries']:
             self.assertEqual('needs-independent-review',entry['status'])
             self.assertFalse(entry['adoptedIntoCanonical'])

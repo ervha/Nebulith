@@ -1,5 +1,6 @@
 """Source-backed print edition. No synthetic scripture or unreviewed candidate promotion."""
 import hashlib
+from evidence_hash import recorded_digest_matches
 import json
 from html import escape
 from pathlib import Path
@@ -32,7 +33,7 @@ def build_codex():
             raise ValueError('Corpus syntax error: ' + unit['id'])
     learning = load('data/everyday_vocabulary_review.json')
     source_sha = hashlib.sha256((ROOT / learning['source']).read_bytes()).hexdigest()
-    if source_sha != learning['sourceSha256']:
+    if not recorded_digest_matches(ROOT / learning['source'], learning['sourceSha256']):
         raise ValueError('Learning index source is stale')
     by_id = {r['id']: r for r in canon}
     for row in learning['entries']:
@@ -121,7 +122,9 @@ def build_codex():
                 'excluded': 'All 1020 held emergent candidates; existing extension usages are literary only',
                 'sha256': {str(p.relative_to(ROOT)).replace('\\','/'): hashlib.sha256(p.read_bytes()).hexdigest()
                            for p in [html, pdf, ROOT/'docs/Codex_Astrolith_Canon_Scripture.pdf', ROOT/'data/literary_sourcebook.json', ROOT/'data/everyday_vocabulary_review.json', ROOT/'data/canon_corpus.json', ROOT/'data/lexicon.json', ROOT/'data/translation_extensions.json', ROOT/'data/grammar_dictionary.json', ROOT/'data/corpus_rules.json', ROOT/'tools/literary_sourcebook.py', ROOT/'tools/literary_layout.py', ROOT/'tools/build_reviewed_codex.py', ROOT/'docs/NEBULITH_CANON_LORE_AND_EXPEDITIONS.md']+subsidiary}}
-    (ROOT / 'audit/maintenance/codex-build-20261016.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    from publication_manifest import build_manifest, CURRENT
+    manifest = build_manifest(ROOT)
+    (ROOT / CURRENT).write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     print(json.dumps({k: v for k, v in manifest.items() if k != 'sha256'}))
 
 

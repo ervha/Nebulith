@@ -1,0 +1,36 @@
+{
+  "status": "needs-linguistic-review",
+  "reason": "必須項目欠落・未定義語・語義不一致。登録対訳から外し原文を保持。",
+  "sentences": [
+    {
+      "id": "corpus_s5_01",
+      "nebulith": "Celmar el vyreliin ia celzon.",
+      "japanese": "星の民は天頂を仰ぎ見る。",
+      "notes": "星辰への敬意を込めた日常の挨拶や礼拝の文。"
+    },
+    {
+      "id": "corpus_s5_02",
+      "nebulith": "Relen el mervas de sarylis.",
+      "japanese": "慈愛と畏敬が存在する。",
+      "notes": "星辰倫理学の根本命題。"
+    },
+    {
+      "id": "corpus_s5_03",
+      "nebulith": "Tarzon el cival ia tulzen.",
+      "japanese": "知性は重力圏を超脱する。",
+      "notes": "星の民の探求心と航宙思想を表す格言。"
+    },
+    {
+      "id": "corpus_s5_04",
+      "nebulith": "Nyrmel el sircal uo solvad.",
+      "japanese": "子守唄が盆地に木霊する。",
+      "notes": "星辰文明の夜の情景。"
+    },
+    {
+      "id": "corpus_s5_05",
+      "nebulith": "Faldur el novyras uo cel.",
+      "japanese": "新星が天球にて強輝に輝く。",
+      "notes": "超新星爆発を観測した古代天測記録。"
+    }
+  ]
+}

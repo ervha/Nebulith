@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
+from evidence_hash import recorded_digest_matches
 
 
 def load(path):
@@ -29,7 +30,7 @@ class EmergentRemediationChecks(unittest.TestCase):
     def test_learning_entries_use_existing_meanings_not_fallback_coins(self):
         learning = load('data/everyday_vocabulary_review.json')
         canon = {r['id']: r for r in load(learning['source'])['vocabulary']}
-        self.assertEqual(learning['sourceSha256'], hashlib.sha256((ROOT / learning['source']).read_bytes()).hexdigest())
+        self.assertTrue(recorded_digest_matches(ROOT / learning['source'], learning['sourceSha256']))
         self.assertEqual(500, len({r['id'] for r in learning['entries']}))
         self.assertEqual(0, learning['newRoots'])
         for row in learning['entries']:
@@ -42,7 +43,9 @@ class EmergentRemediationChecks(unittest.TestCase):
             StrictArbiterEngine().run_6gate_audit({'nrs': 'kelvas', 'reused_by_partner': True}, ['nonsense el kelvas'], 1)
 
     def test_print_artifacts_are_current_and_exclude_unreviewed_templates(self):
-        manifest = load('audit/maintenance/codex-build-20261016.json')
+        manifest = load('audit/maintenance/current-publication.json')
+        self.assertFalse(manifest['independentReviewGranted'])
+        self.assertEqual('audit/maintenance/codex-build-20261016.json',manifest['previousManifest'])
         self.assertEqual(0, manifest['emergentPromoted'])
         self.assertEqual(500, manifest['learningEntries'])
         self.assertEqual(30, manifest['corpusUnits'])

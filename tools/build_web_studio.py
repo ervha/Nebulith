@@ -4,6 +4,7 @@ import hashlib
 import re
 from pathlib import Path
 from studio_dictionary import dictionary_entries
+from extended_corpus import validate_examples
 
 def update_service_worker(web_dir):
     """Version the offline cache from the exact assets distributed by this build."""
@@ -63,6 +64,7 @@ def build_web_studio():
         with open(ext_path, 'r', encoding='utf-8') as f:
             ext_data = json.load(f)
             ext_examples = ext_data.get('sentences', [])
+            validate_examples(ext_examples, vocab)
 
     with open(os.path.join(base_dir,'data','usage_examples.json'),encoding='utf-8') as f:
         usage_examples=json.load(f)['examples']
@@ -1381,7 +1383,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
 
     update_service_worker(web_dir)
 
-    files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'data/lexicon.json',
+    files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'tools/extended_corpus.py', 'data/lexicon.json',
              'data/literary_sourcebook.json', 'data/lexicon_canonical_loci.json', 'docs/Valnes_Ibun.html', 'web/library.html', 'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
              'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
              'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/bidirectional.js', 'web/incremental.js', 'web/data.js',

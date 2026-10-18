@@ -1,6 +1,13 @@
 import unittest
 import json
 import os
+import sys
+import copy
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'tools'))
+from extended_corpus import validate_examples
+from studio_dictionary import dictionary_entries
 
 class ExtendedTranslationChecks(unittest.TestCase):
     @classmethod
@@ -18,6 +25,18 @@ class ExtendedTranslationChecks(unittest.TestCase):
             self.assertTrue(s.get('japanese'), f"Sentence {s} must have japanese text")
             self.assertTrue(s.get('nebulith'), f"Sentence {s} must have nebulith text")
             self.assertTrue(len(s.get('japanese_variants', [])) > 0, f"Sentence {s} must have variants")
+
+    def test_invalid_additions_stay_held_and_cannot_be_bundled(self):
+        held=json.loads((ROOT/'data/audit/held_extended_corpus.json').read_text(encoding='utf-8'))
+        active={r['id'] for r in self.corpus['sentences']}
+        self.assertEqual(5,len(held['sentences']))
+        self.assertTrue(active.isdisjoint(r['id'] for r in held['sentences']))
+        vocab=dictionary_entries(json.loads((ROOT/'data/lexicon.json').read_text(encoding='utf-8'))['vocabulary'])
+        validate_examples(self.corpus['sentences'],vocab)
+        for row in held['sentences']:
+            with self.assertRaises(ValueError):validate_examples([row],vocab)
+        corrupt=copy.deepcopy(self.corpus['sentences'][0]);corrupt['nebulith']+=' undefinedtoken'
+        with self.assertRaisesRegex(ValueError,'Undefined'):validate_examples([corrupt],vocab)
 
     def test_vocabulary_consistency(self):
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

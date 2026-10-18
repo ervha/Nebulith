@@ -1,0 +1,855 @@
+{
+  "schemaVersion": 1,
+  "scope": "追加語彙47語・追加構文の審査台帳。公認判定なし。",
+  "sourceSha256": "9d854fe723a1acb2a314000ca5130f334f37c5baff33fd923349f6b07cfea455",
+  "entries": [
+    {
+      "id": 30001,
+      "root": "nyrcan",
+      "meaning": "嫌う、嫌い",
+      "distinctions": [
+        "好きではないとの同一視を避ける",
+        "強い憎悪とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30002,
+      "root": "kyrdan",
+      "meaning": "殺す、命を奪う",
+      "distinctions": [
+        "死ぬ・消滅するとは区別",
+        "生命を終わらせる他動詞"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30003,
+      "root": "sehvan",
+      "meaning": "未来",
+      "distinctions": [
+        "方向としての前方dyrasとは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30004,
+      "root": "fehvan",
+      "meaning": "過去",
+      "distinctions": [
+        "位置としての後方pasonとは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30005,
+      "root": "soralen",
+      "meaning": "物語",
+      "distinctions": [
+        "虚構か実話かは断定しない"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30006,
+      "root": "sorvel",
+      "meaning": "思い出す、想起する",
+      "distinctions": [
+        "覚えているという保持状態とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30007,
+      "root": "valcyn",
+      "meaning": "展望する、見通す",
+      "distinctions": [
+        "予見や未来の確定知識とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30008,
+      "root": "vyrcen",
+      "meaning": "予見する",
+      "distinctions": [
+        "単なる展望と区別",
+        "予見内容の真偽は検証しない"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "区別すべき意味を記録",
+        "phonology": "自動規則との照合対象",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30009,
+      "root": "velsen",
+      "meaning": "知る、知識として持つ、面識がある",
+      "distinctions": [
+        "「理解する(tornas)」とは区別し、事前の情報・事実としての認識を表す",
+        "論理的納得や内面化とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30010,
+      "root": "tornas",
+      "meaning": "理解する、呑み込む、筋道に納得する",
+      "distinctions": [
+        "「知る(velsen)」とは区別し、理由や因果関係を内面的に納得している深い理解を表す",
+        "表面的な既知とは明確に距離を置く"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30011,
+      "root": "sorvyan",
+      "meaning": "覚える、記憶に留める、暗記する",
+      "distinctions": [
+        "「思い出す(30006 sorvel)」が過去の記憶を呼び起こす行為であるのに対し、「覚える」は記憶を現在獲得・定着させる行為",
+        "保持状態とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30012,
+      "root": "sorkan",
+      "meaning": "失念する、忘却する、記憶から脱落する",
+      "distinctions": [
+        "正本712 kores(忘れる、手放す、過去に置く)の自発的諦念とは異なり、意図せず記憶から脱落する忘却を表す",
+        "能動的破棄とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30013,
+      "root": "tornel",
+      "meaning": "見つける、発見する、行き当たる",
+      "distinctions": [
+        "正本922 syndir(探す、探索する)の探索プロセスとは区別され、対象を捉えた結果・事象を表す",
+        "探索行為自体とは距離を置く"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30014,
+      "root": "nebtas",
+      "meaning": "始める、着手する、開始する",
+      "distinctions": [
+        "自発的・自然な推移である「始まる(nebpan)」とは明確に区別し、主体が意図して対象を開始させる他動詞",
+        "意志的着手"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30015,
+      "root": "nebpan",
+      "meaning": "始まる、開始する、幕が開く",
+      "distinctions": [
+        "主体が着手する「始める(nebtas)」とは区別し、事象や時間が外部からの自然な推移として幕を開ける自動詞",
+        "他動的使役とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30016,
+      "root": "klotas",
+      "meaning": "終える、完了させる、締めくくる",
+      "distinctions": [
+        "事象が尽きる「終わる(klopan)」とは区別し、主体が能動的に対象を完了・完結させる他動詞",
+        "自然消滅とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30017,
+      "root": "klopan",
+      "meaning": "終わる、尽きる、幕を閉じる",
+      "distinctions": [
+        "人為的な完了「終える(klotas)」とは区別し、事象や期間が自然な帰結として幕を閉じる自動詞",
+        "他動的完了とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30018,
+      "root": "morvan",
+      "meaning": "会う、対面する、巡り合う",
+      "distinctions": [
+        "単なる視認・観測(cynel)とは区別し、互いに顔を合わせる・巡り合う双方向の対面を表す",
+        "一方通行の目撃とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30019,
+      "root": "jyltas",
+      "meaning": "集める、収集する、一箇所にまとめる",
+      "distinctions": [
+        "自然集合「集まる(jylren)」とは区別し、主体が意図して人や物をかき集め統合する他動詞",
+        "自発的密集とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30020,
+      "root": "jylren",
+      "meaning": "集まる、集合する、寄り合う",
+      "distinctions": [
+        "意志的収集「集める(jyltas)」とは区別し、各個体が自発的に一箇所に寄り集まる自動詞",
+        "外力による統合とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30021,
+      "root": "kirval",
+      "meaning": "教える、教授する、知識を授ける",
+      "distinctions": [
+        "自己の吸収である「学ぶ(kirtan)」とは区別し、知識や技法を自らから他者へと伝達・授与する能動",
+        "学習とは対をなす概念"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30022,
+      "root": "kirtan",
+      "meaning": "学ぶ、学習する、習得する",
+      "distinctions": [
+        "授与である「教える(kirval)」とは対照的に、外からの知を自らの内に吸収・体得する行為",
+        "教示とは対をなす概念"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30023,
+      "root": "zeldar",
+      "meaning": "助ける、支援する、救う",
+      "distinctions": [
+        "物理的防壁である「防衛する(dursen)」や庇護(951 vymin)とは異なり、困難にある相手を能動的に手助け・救助する行為を表す",
+        "防壁維持とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30024,
+      "root": "dursen",
+      "meaning": "防衛する、守護する、防護する",
+      "distinctions": [
+        "一時的支援である「助ける(zeldar)」とは異なり、危険や侵略から対象を守り抜く防護・安全維持を表す",
+        "救助とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30025,
+      "root": "valcen",
+      "meaning": "変える、変更する、改変する",
+      "distinctions": [
+        "自然推移である「変わる(valpan)」とは区別し、主体が対象に働きかけて状態や形を意図的に変革する他動詞",
+        "内発的変遷とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30026,
+      "root": "valpan",
+      "meaning": "変わる、変貌する、移り変わる",
+      "distinctions": [
+        "使役的変更「変える(valcen)」とは区別し、対象自体が内発的または自然な推移によって別状態へと移ろい変わる自動詞",
+        "他動的改変とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30027,
+      "root": "tordin",
+      "meaning": "届く、到達する、至る",
+      "distinctions": [
+        "運搬動作である「運ぶ(marval)」とは区別され、距離や障害を越えて目的地・対象に到達する結果事象を表す",
+        "搬送プロセスとは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30028,
+      "root": "marval",
+      "meaning": "運ぶ、搬送する、荷を移送する",
+      "distinctions": [
+        "到着事象である「届く(tordin)」とは区別され、物や貨物を背負い・載せて空間を移動させる運搬の動作そのものを表す",
+        "到達結果とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30029,
+      "root": "turvel",
+      "meaning": "勝つ、勝利する、制する",
+      "distinctions": [
+        "屈服である「負ける(turkan)」とは対極をなす、競争や対峙において優位を獲得し制覇する動態",
+        "敗北と明確に対比"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30030,
+      "root": "turkan",
+      "meaning": "負ける、敗北する、屈する",
+      "distinctions": [
+        "優位制覇である「勝つ(turvel)」とは対照的に、対立の中で屈服・敗退する動態",
+        "勝利と明確に対比"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30031,
+      "root": "eliran",
+      "meaning": "喜ぶ、歓喜する、喜悦を感じる",
+      "distinctions": [
+        "正本700 elir(名/形: 喜び、嬉しい)の動詞形態。単なる状態ではなく感情の能動的発露を表す",
+        "悲哀(lyran)と対比"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30032,
+      "root": "lyran",
+      "meaning": "悲しむ、哀悼する、悲哀を感じる",
+      "distinctions": [
+        "正本717 lyras(名/形: 哀愁、悲哀)の動詞形態。単なる沈欝ではなく感情の動態・嘆きを表す",
+        "歓喜(eliran)と対比"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30033,
+      "root": "krotan",
+      "meaning": "怒る、憤る、激昂する",
+      "distinctions": [
+        "正本713 krotas(名/形: 激動、怒り、熱狂)の動詞形態。激情の爆発・怒りの動態を表す",
+        "静かな哀傷とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30034,
+      "root": "falpan",
+      "meaning": "驚く、目を見張る、動揺する",
+      "distinctions": [
+        "突発的な閃光・急変(fal)による心理的衝撃・驚愕を表す",
+        "平常心の維持とは明確に距離を置く"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+        "phonology": "CodaSonorityおよび合法音素の照合済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30035,
+      "root": "hardin",
+      "meaning": "聞こえる、耳に入る、自然と音が届く",
+      "distinctions": [
+        "能動的に耳を澄ます「聴く(866 harvan)」とは区別し、意図せず自然に音が耳に入ってくる知覚を表す",
+        "能動傾聴とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30036,
+      "root": "kartor",
+      "meaning": "尋ねる、問う、質問する、教えを請う",
+      "distinctions": [
+        "聴覚受容である「聴く(866 harvan)」や自問の「問う(753)」とは区別し、他者に向けて教えや情報を請い求める発問的「きく」を表す",
+        "受容とは対極の能動発問"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30037,
+      "root": "harsen",
+      "meaning": "聞き知る、聞き及ぶ、噂や情報を耳にする",
+      "distinctions": [
+        "直接の音聴取(866 harvan)や直接の既知(30009 velsen)とは区別し、人づて・噂・伝聞を通じて知識を得る間接受容を表す",
+        "直接観測とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30038,
+      "root": "hardor",
+      "meaning": "聞き入れる、忠告や指示に従う、承諾する",
+      "distinctions": [
+        "単なる音の受容(866 harvan)を超え、他者の言葉や掟を自らの規範として受け入れ従う受容意志を表す",
+        "物理的聴取とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30039,
+      "root": "komas",
+      "meaning": "組み立てる、構成する、部品を結合する",
+      "distinctions": [
+        "ゼロからの執筆・創作(875 kiras)や建築(599 dompanan)とは区別し、複数の部品や要素を枠組みに沿って結合・構築する工学的動作を表す",
+        "単一物加工とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30040,
+      "root": "vorzen",
+      "meaning": "創出する、生み出す、ゼロから産出する",
+      "distinctions": [
+        "既知の素材を組み合わせる工作(875 kiras)とは異なり、星生のように新秩序・存在を根源から生み出す創出を表す",
+        "既存物変形とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30041,
+      "root": "vorpas",
+      "meaning": "急ぐ、急いで進む、速度を上げる",
+      "distinctions": [
+        "単なる疾走(879 vorkan)の脚部運動とは異なり、時間的切迫や急迫感を持って行動速度を高める動態を表す",
+        "無目的走行とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30042,
+      "root": "revdar",
+      "meaning": "帰る、戻る、元の拠点や故郷へ回帰する",
+      "distinctions": [
+        "未知へ進む「歩く(902)」や出立とは対極をなす、自らの根源・故郷・定位置へと向かう回帰運動を表す",
+        "前進移動とは方向性が対照"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30043,
+      "root": "mordan",
+      "meaning": "留まる、立ち止まる、その場に留まる",
+      "distinctions": [
+        "移動の継続とは対照的に、進行を停止し同一の場所に身を置き続ける静止動態を表す",
+        "移動動詞と明確に対比"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30044,
+      "root": "dyrtas",
+      "meaning": "旅立つ、出発する、前へ踏み出す",
+      "distinctions": [
+        "帰還(30042 revdar)とは対極をなす、見知らぬ先や目的地へ向けて拠点を離れ踏み出す開始動態を表す",
+        "回帰と対照"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30045,
+      "root": "velrin",
+      "meaning": "感じる、感知する、心身で知覚する",
+      "distinctions": [
+        "外的な物理接触(913 zelvin)とは異なり、微細な波動や気配・感情を心身の内部で受け止める内面的感知を表す",
+        "外面把持とは区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30046,
+      "root": "morkan",
+      "meaning": "握る、しっかりと掴む、保持する",
+      "distinctions": [
+        "軽い接触(913 zelvin)や柔和な撫で(914 serlit)とは区別され、手や力でしっかりと対象を把持・拘束する力強い接触を表す",
+        "軽い接触とは強度・目的で区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    },
+    {
+      "id": 30047,
+      "root": "vyltas",
+      "meaning": "叫ぶ、大声をあげる、咆哮する",
+      "distinctions": [
+        "静かなささやき(861 koren)や通常の対話(860)とは対極をなす、感情や合図を大音量で外へ放出する発声動態を表す",
+        "通常発声と音量・緊迫度で区別"
+      ],
+      "status": "needs-independent-review",
+      "checks": {
+        "identity": "unique-in-app-dictionary",
+        "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+        "phonology": "音節規則・合法的接辞結合の確認済み",
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      },
+      "adoptedIntoCanonical": false
+    }
+  ],
+  "frameReview": {
+    "source": "data/translation_patterns.json",
+    "sha256": "0fee1084f66ac1899dd80155d68fc88380b6ef0d5901cc17eb96d92e93c62843",
+    "status": "provisional",
+    "canonicalFramesOverwritten": false,
+    "note": "各項構造は追加案として表示。自動テストの成功を言語審査の承認にはしない。"
+  }
+}

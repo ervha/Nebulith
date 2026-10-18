@@ -192,23 +192,45 @@
       "lexiconId": 139,
       "nrs": "kirvat",
       "finalConsonant": "t",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "スキーマはデータの抽象定義である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "6ffb0a4cab81d28b4200edd079c4fca821d6910dc5ef28dee34d09769173b323"
+      "reviewedAgainstEntryHash": "bc4f21e87d11ad526b66c7aedcc85ab4afd1f4193fc512c0ecfe35b89d567f62",
+      "previousReview": {
+        "lexiconId": 139,
+        "nrs": "kirvat",
+        "finalConsonant": "t",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "スキーマはデータの抽象定義である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "6ffb0a4cab81d28b4200edd079c4fca821d6910dc5ef28dee34d09769173b323"
+      }
     },
     {
       "lexiconId": 141,
       "nrs": "kiv",
       "finalConsonant": "v",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "ビットは情報単位で物理的な硬さを持たない。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "bba64400c91ba99b6f8181b47344e03468d81554640536635ca0928acb081f4c"
+      "reviewedAgainstEntryHash": "6be2cda920bdafc6067d2f119880740badf96280d57762e1e6c909c4df01928c",
+      "previousReview": {
+        "lexiconId": 141,
+        "nrs": "kiv",
+        "finalConsonant": "v",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "ビットは情報単位で物理的な硬さを持たない。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "bba64400c91ba99b6f8181b47344e03468d81554640536635ca0928acb081f4c"
+      }
     },
     {
       "lexiconId": 157,
@@ -225,67 +247,133 @@
       "lexiconId": 162,
       "nrs": "sevik",
       "finalConsonant": "k",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "条件分岐は計算手順である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "12b97d4f8d4202d85638bb53111d019c1291f109b7b12d179188092a55efc09c"
+      "reviewedAgainstEntryHash": "b5af4804fc7f06a3900bd7b53ed78ed425c00995053862d0e97fc462a724361b",
+      "previousReview": {
+        "lexiconId": 162,
+        "nrs": "sevik",
+        "finalConsonant": "k",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "条件分岐は計算手順である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "12b97d4f8d4202d85638bb53111d019c1291f109b7b12d179188092a55efc09c"
+      }
     },
     {
       "lexiconId": 165,
       "nrs": "sorvat",
       "finalConsonant": "t",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "レジスタは記憶機能で、硬さを語義に含めない。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "2274d4c37ce3259467b1a6d88ccb7f071c530acac108466a7c61221025750d6a"
+      "reviewedAgainstEntryHash": "eb8cc344995c1e41a4087b5764704c2ded4912ab6278c5270aa2902fc8f97070",
+      "previousReview": {
+        "lexiconId": 165,
+        "nrs": "sorvat",
+        "finalConsonant": "t",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "レジスタは記憶機能で、硬さを語義に含めない。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "2274d4c37ce3259467b1a6d88ccb7f071c530acac108466a7c61221025750d6a"
+      }
     },
     {
       "lexiconId": 166,
       "nrs": "suf",
       "finalConsonant": "f",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "計算・論理は抽象作用である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "c59a6a57c17cc0231ae6434c5fe7ed7c636a2fbcc2e53e68c78967a0f9a249e2"
+      "reviewedAgainstEntryHash": "413fc6a56a517942ddd55e1cabe1d847e9759f38c18264833a1c3e360ad41dd0",
+      "previousReview": {
+        "lexiconId": 166,
+        "nrs": "suf",
+        "finalConsonant": "f",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "計算・論理は抽象作用である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "c59a6a57c17cc0231ae6434c5fe7ed7c636a2fbcc2e53e68c78967a0f9a249e2"
+      }
     },
     {
       "lexiconId": 167,
       "nrs": "suflik",
       "finalConsonant": "k",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "探索近似法は手法である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "0c98b69fc51027ef5557bd06a1ffb2e8c0ccba18e5549246d3cbd77385479b73"
+      "reviewedAgainstEntryHash": "deed5cf0820c3dfb415cc79dd242b3f6228cab989bd1e182c7d7116eac4a7db4",
+      "previousReview": {
+        "lexiconId": 167,
+        "nrs": "suflik",
+        "finalConsonant": "k",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "探索近似法は手法である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "0c98b69fc51027ef5557bd06a1ffb2e8c0ccba18e5549246d3cbd77385479b73"
+      }
     },
     {
       "lexiconId": 168,
       "nrs": "suflit",
       "finalConsonant": "t",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "要約は情報表現である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "fc714baa31e4dbf74fe7a48b69397d923abf87b36407da539c8c0ce07a427c70"
+      "reviewedAgainstEntryHash": "fb010ba81b92f4a338591347cc726ad85157bc67d20ca80737af6f92ab8832ee",
+      "previousReview": {
+        "lexiconId": 168,
+        "nrs": "suflit",
+        "finalConsonant": "t",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "要約は情報表現である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "fc714baa31e4dbf74fe7a48b69397d923abf87b36407da539c8c0ce07a427c70"
+      }
     },
     {
       "lexiconId": 177,
       "nrs": "tolkat",
       "finalConsonant": "t",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "レイテンシは時間量である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "cbd1b8216afe7a88e6d932e2e6d953befdaae5a89aa232f414509be30b90c4fb"
+      "reviewedAgainstEntryHash": "155b37fef81654f3b95453d6f2415e27c43fe3dd32cd7b7cebc70f7db7701362",
+      "previousReview": {
+        "lexiconId": 177,
+        "nrs": "tolkat",
+        "finalConsonant": "t",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "レイテンシは時間量である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "cbd1b8216afe7a88e6d932e2e6d953befdaae5a89aa232f414509be30b90c4fb"
+      }
     },
     {
       "lexiconId": 183,
@@ -302,34 +390,67 @@
       "lexiconId": 186,
       "nrs": "veltok",
       "finalConsonant": "k",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "索引は参照情報である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "9e61c6adfb08f5d3b769cec339a9208d5eb38a6bb7bea3028a9793a98ad3c95b"
+      "reviewedAgainstEntryHash": "45662d917df5dfd67ba397cd5c4289b2ff3a8324a166da6fcf3436c17920c8f5",
+      "previousReview": {
+        "lexiconId": 186,
+        "nrs": "veltok",
+        "finalConsonant": "k",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "索引は参照情報である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "9e61c6adfb08f5d3b769cec339a9208d5eb38a6bb7bea3028a9793a98ad3c95b"
+      }
     },
     {
       "lexiconId": 187,
       "nrs": "voret",
       "finalConsonant": "t",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "ループ・再帰は処理構造である。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "38626291f1c183a0ef97ffff85c5a5f793bc50eb152e3845f57e9830f1659e4c"
+      "reviewedAgainstEntryHash": "02389478feb443e98b972014baac2d30964ff0b2c0a9011e463c7384fbc49a74",
+      "previousReview": {
+        "lexiconId": 187,
+        "nrs": "voret",
+        "finalConsonant": "t",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "ループ・再帰は処理構造である。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "38626291f1c183a0ef97ffff85c5a5f793bc50eb152e3845f57e9830f1659e4c"
+      }
     },
     {
       "lexiconId": 194,
       "nrs": "zydot",
       "finalConsonant": "t",
-      "decision": "rejected",
+      "decision": "pending",
       "ruleId": "SOP.CHK08.neither",
-      "reason": "検証は認識・確認の手続きである。",
+      "reason": "語義変更のため個別の再審査待ち。過去の判定はpreviousReviewに保存。",
       "reviewer": "Codex",
       "reviewType": "AI semantic review",
-      "reviewedAgainstEntryHash": "349730aeae570d43a4527d888cab2a04ed11cc11888266e6b50ecce881c3542c"
+      "reviewedAgainstEntryHash": "794c25c77432f90ff3309435a1381fd5d1523ac6cad4ed4da45863b32fa1f33f",
+      "previousReview": {
+        "lexiconId": 194,
+        "nrs": "zydot",
+        "finalConsonant": "t",
+        "decision": "rejected",
+        "ruleId": "SOP.CHK08.neither",
+        "reason": "検証は認識・確認の手続きである。",
+        "reviewer": "Codex",
+        "reviewType": "AI semantic review",
+        "reviewedAgainstEntryHash": "349730aeae570d43a4527d888cab2a04ed11cc11888266e6b50ecce881c3542c"
+      }
     },
     {
       "lexiconId": 200,

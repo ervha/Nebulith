@@ -1,2 +1,6 @@
 # Treat generated books as binary artifacts.
 *.pdf binary
+
+# Preserve the exact bytes covered by historical evidence digests.
+/audit/2026-10-15-reaudit-02/build_glyph_specimen.py -text
+/audit/maintenance/emergent-ledger-before-remediation-20261016.json -text

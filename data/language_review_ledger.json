@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "scope": "追加語彙47語・追加構文の審査台帳。公認判定なし。",
-  "sourceSha256": "9d854fe723a1acb2a314000ca5130f334f37c5baff33fd923349f6b07cfea455",
+  "scope": "追加語彙372語と追加構文の追跡台帳。機械的な同期であり公認判定なし。",
+  "sourceSha256": "8e9c2c1af86f2d0dffc531a3c0af3f1e888583fb502dc22f6fbbdf5da430dad3",
   "entries": [
     {
       "id": 30001,
@@ -19,7 +19,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "53860f9865a11441d5982c761bae52bfcbf42b091a6c90e81221d730140d1e52"
     },
     {
       "id": 30002,
@@ -37,7 +38,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b87894d56833f25406cbc234996fef8a72073a9411df3b256c15ff75ff7a3736"
     },
     {
       "id": 30003,
@@ -54,7 +56,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1eafda7727196a0c78debe25483203c83bf0b7ecbded852940dc559499e01311"
     },
     {
       "id": 30004,
@@ -71,7 +74,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d6a74a3953219bcabde05ece5aeedfbbf8228ca6a7eb7680d29bd749989390a5"
     },
     {
       "id": 30005,
@@ -88,7 +92,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c4fd7750ed974c6c77b39487d9a3dee64ac64d8b62e24129a2f3b7658243f7d4"
     },
     {
       "id": 30006,
@@ -105,7 +110,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2e49fc1fa24834e5b049b0caf61590418487f4b90061676d139be88bf6b1b770"
     },
     {
       "id": 30007,
@@ -122,7 +128,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "bbdf23bc277c63880ba9059dfb2941119a146131c71dcd35534bb17e6ed5aacf"
     },
     {
       "id": 30008,
@@ -140,7 +147,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a6fc0c5c2a4d132f1b46e38241ab74bfe1f6eb9b417130ad865ca729fdd641a5"
     },
     {
       "id": 30009,
@@ -158,7 +166,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "46e6591db51f1d0389167b319d86d48dd085eef228d4db4a5bba0a387aed8620"
     },
     {
       "id": 30010,
@@ -176,7 +185,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d9dcd39095e2846febb357669f48e2798cd66fc8a10b1b330825ad98674d1f35"
     },
     {
       "id": 30011,
@@ -194,7 +204,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f3674f770bcf6871d081ad2c7435da593c1780de9be35ad4cfe3a7187dbee5bf"
     },
     {
       "id": 30012,
@@ -212,12 +223,13 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "00e05ee077250bdcfb8bd3f8502170944f63ea1f2a94f20f4be2759b7dea4870"
     },
     {
       "id": 30013,
       "root": "tornel",
-      "meaning": "見つける、発見する、行き当たる",
+      "meaning": "見つける、星辰発見する、行き当たる",
       "distinctions": [
         "正本922 syndir(探す、探索する)の探索プロセスとは区別され、対象を捉えた結果・事象を表す",
         "探索行為自体とは距離を置く"
@@ -230,7 +242,26 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "previousRecord": {
+        "id": 30013,
+        "root": "tornel",
+        "meaning": "見つける、発見する、行き当たる",
+        "distinctions": [
+          "正本922 syndir(探す、探索する)の探索プロセスとは区別され、対象を捉えた結果・事象を表す",
+          "探索行為自体とは距離を置く"
+        ],
+        "status": "needs-independent-review",
+        "checks": {
+          "identity": "unique-in-app-dictionary",
+          "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+          "phonology": "CodaSonorityおよび合法音素の照合済み",
+          "earthLanguageComparison": "pending",
+          "independentSemanticReview": "pending"
+        },
+        "adoptedIntoCanonical": false
+      },
+      "targetEntryHash": "a0be27d0b7cc42107e3c52078c8f698e6c21ee9d6f5df944b720fbad020338e6"
     },
     {
       "id": 30014,
@@ -248,7 +279,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7d7108e93823b7424cd05cc9dfc640a3313afa8a80df4384d45aa9ac135067fb"
     },
     {
       "id": 30015,
@@ -266,12 +298,13 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "918890932ca55dac0dd136b8f70a3b599a850ff55447c25a272b9a99f4591bbc"
     },
     {
       "id": 30016,
       "root": "klotas",
-      "meaning": "終える、完了させる、締めくくる",
+      "meaning": "星辰終える、完了させる、締めくくる",
       "distinctions": [
         "事象が尽きる「終わる(klopan)」とは区別し、主体が能動的に対象を完了・完結させる他動詞",
         "自然消滅とは区別"
@@ -284,7 +317,26 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "previousRecord": {
+        "id": 30016,
+        "root": "klotas",
+        "meaning": "終える、完了させる、締めくくる",
+        "distinctions": [
+          "事象が尽きる「終わる(klopan)」とは区別し、主体が能動的に対象を完了・完結させる他動詞",
+          "自然消滅とは区別"
+        ],
+        "status": "needs-independent-review",
+        "checks": {
+          "identity": "unique-in-app-dictionary",
+          "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+          "phonology": "CodaSonorityおよび合法音素の照合済み",
+          "earthLanguageComparison": "pending",
+          "independentSemanticReview": "pending"
+        },
+        "adoptedIntoCanonical": false
+      },
+      "targetEntryHash": "28f76ce87204fbac3c8c5669b7502570279e9df576d99ebd772bf745c1961d58"
     },
     {
       "id": 30017,
@@ -302,7 +354,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "514e63f3624827415b64e7b5ff95d82584bc71c343746bbff8f3470250ca3fcd"
     },
     {
       "id": 30018,
@@ -320,7 +373,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2eac0ff9a3edfdd0671c290c137655a3a5f6b2f86437e30ab09cd2e2f4714f8c"
     },
     {
       "id": 30019,
@@ -338,7 +392,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6c76992d709ddadca63533aeef9269fca0663069a429b14ea47c6a39cff2490c"
     },
     {
       "id": 30020,
@@ -356,7 +411,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1cc5ba0849529f5424459d394fad5830d86bc7b6bad6e485f836986f10d534e1"
     },
     {
       "id": 30021,
@@ -374,7 +430,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "316e75d42f1dbe971f95ba685ca6e43b11e771f0909e6bbd20f55313733f1cfc"
     },
     {
       "id": 30022,
@@ -392,7 +449,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "18fe6da72a396d0bf7ca141b3d4a2c14c2e7e9f972df3162af2e859ecdbcd56b"
     },
     {
       "id": 30023,
@@ -410,12 +468,13 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b5de1c10e33168cc0b4fdb02d4b885999eb2d1edd9cb03c08676795b46985afd"
     },
     {
       "id": 30024,
       "root": "dursen",
-      "meaning": "防衛する、守護する、防護する",
+      "meaning": "防衛する、守護する、星辰防護する",
       "distinctions": [
         "一時的支援である「助ける(zeldar)」とは異なり、危険や侵略から対象を守り抜く防護・安全維持を表す",
         "救助とは区別"
@@ -428,7 +487,26 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "previousRecord": {
+        "id": 30024,
+        "root": "dursen",
+        "meaning": "防衛する、守護する、防護する",
+        "distinctions": [
+          "一時的支援である「助ける(zeldar)」とは異なり、危険や侵略から対象を守り抜く防護・安全維持を表す",
+          "救助とは区別"
+        ],
+        "status": "needs-independent-review",
+        "checks": {
+          "identity": "unique-in-app-dictionary",
+          "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+          "phonology": "CodaSonorityおよび合法音素の照合済み",
+          "earthLanguageComparison": "pending",
+          "independentSemanticReview": "pending"
+        },
+        "adoptedIntoCanonical": false
+      },
+      "targetEntryHash": "ce9463f4c444673a5d597ac7756137e98ec155a6119d643d4f63ccb8864646ae"
     },
     {
       "id": 30025,
@@ -446,7 +524,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f018ac7704957605924cd7448644f5e8886a14b1c9f205e6e48b2ada9d3cc5c9"
     },
     {
       "id": 30026,
@@ -464,12 +543,13 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b1e40b7df6cd0a7eebf53190760f08f15e83a40e7e21d374fe63deecc12ebdb2"
     },
     {
       "id": 30027,
       "root": "tordin",
-      "meaning": "届く、到達する、至る",
+      "meaning": "星辰届く、到達する、至る",
       "distinctions": [
         "運搬動作である「運ぶ(marval)」とは区別され、距離や障害を越えて目的地・対象に到達する結果事象を表す",
         "搬送プロセスとは区別"
@@ -482,7 +562,26 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "previousRecord": {
+        "id": 30027,
+        "root": "tordin",
+        "meaning": "届く、到達する、至る",
+        "distinctions": [
+          "運搬動作である「運ぶ(marval)」とは区別され、距離や障害を越えて目的地・対象に到達する結果事象を表す",
+          "搬送プロセスとは区別"
+        ],
+        "status": "needs-independent-review",
+        "checks": {
+          "identity": "unique-in-app-dictionary",
+          "meaningDraft": "語の距離・ニュアンスを個別設計した語意記録",
+          "phonology": "CodaSonorityおよび合法音素の照合済み",
+          "earthLanguageComparison": "pending",
+          "independentSemanticReview": "pending"
+        },
+        "adoptedIntoCanonical": false
+      },
+      "targetEntryHash": "4d73402a64a4c8af50c723ef2f5fd374982241c3d2fc2f0288936d8d5c579381"
     },
     {
       "id": 30028,
@@ -500,7 +599,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6c27aa3822123e0157522e6d8170649d623bb20a9721fcd57ee84ed06cb62763"
     },
     {
       "id": 30029,
@@ -518,7 +618,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a35f351a3e22c7c5a6527b0b8457120dc011d4c7d70172fc60871e85c215c172"
     },
     {
       "id": 30030,
@@ -536,7 +637,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3e84af33d83b8cde2b7dbfa4246474c4de776d8c85e3bc24ad57a465a6c0f19c"
     },
     {
       "id": 30031,
@@ -554,7 +656,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9f822d069eab3085fa9016b8edfd35f61ab48558406d426f75e45d61052289ae"
     },
     {
       "id": 30032,
@@ -572,7 +675,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "924d439e1453cc975f6b8b2cef6662862b9989fb92955b84b6217923c4e53eda"
     },
     {
       "id": 30033,
@@ -590,7 +694,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c45c1d25920d30635561e9679daeaaa0a0d0ad3242cc75dced4cfdff92475ba8"
     },
     {
       "id": 30034,
@@ -608,7 +713,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "21466c1970b5c69766368113341229121aa6db8d36fbbeed19ae7a8f4a7a7704"
     },
     {
       "id": 30035,
@@ -626,12 +732,13 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "70ac6215780db458a74f230f8f65b469a3ec0e4cfb0d1d204279bf2cbb8b4dea"
     },
     {
       "id": 30036,
       "root": "kartor",
-      "meaning": "尋ねる、問う、質問する、教えを請う",
+      "meaning": "尋ねる、星辰問う、質問する、教えを請う",
       "distinctions": [
         "聴覚受容である「聴く(866 harvan)」や自問の「問う(753)」とは区別し、他者に向けて教えや情報を請い求める発問的「きく」を表す",
         "受容とは対極の能動発問"
@@ -644,7 +751,26 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "previousRecord": {
+        "id": 30036,
+        "root": "kartor",
+        "meaning": "尋ねる、問う、質問する、教えを請う",
+        "distinctions": [
+          "聴覚受容である「聴く(866 harvan)」や自問の「問う(753)」とは区別し、他者に向けて教えや情報を請い求める発問的「きく」を表す",
+          "受容とは対極の能動発問"
+        ],
+        "status": "needs-independent-review",
+        "checks": {
+          "identity": "unique-in-app-dictionary",
+          "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+          "phonology": "音節規則・合法的接辞結合の確認済み",
+          "earthLanguageComparison": "pending",
+          "independentSemanticReview": "pending"
+        },
+        "adoptedIntoCanonical": false
+      },
+      "targetEntryHash": "8f97bd408c5dd9ee84b08ff68a4bd21974fad746421b8fa0983a2adca7286790"
     },
     {
       "id": 30037,
@@ -662,7 +788,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4bf1a64cf008b3263744490e71641829a9d194013ac91ecef5845a1d685a8177"
     },
     {
       "id": 30038,
@@ -680,7 +807,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4c5a3f8115474fc80d6e9421ebc02213905939d97bf5f6948ceb44ec49450837"
     },
     {
       "id": 30039,
@@ -698,7 +826,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e76bf109f40c538a05eb21e0c736e5040a83d01135fdb37529068e248811088c"
     },
     {
       "id": 30040,
@@ -716,7 +845,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "340d5c4d3a2e55f11dbf3160982acfea23a1acad4bae7b63f6ed11743c806391"
     },
     {
       "id": 30041,
@@ -734,7 +864,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3985dba3957b573451e96637fbd9b4571b48507bdfa97e03ce095aa46ed63885"
     },
     {
       "id": 30042,
@@ -752,7 +883,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f658fd7711a02d913ce83ffea927a83b943b8ed20cbf4740f6b689ec042da024"
     },
     {
       "id": 30043,
@@ -770,7 +902,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2970d0659fe3fadb1afd0ede854041b314d96044df15fd300592e2db1ffa8953"
     },
     {
       "id": 30044,
@@ -788,7 +921,8 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "abe79ce7cd0a341cb41fc5500d683d08368c76dad31913f421b574a342daa9d2"
     },
     {
       "id": 30045,
@@ -806,12 +940,13 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "19e4fdd1f3270db42d48f3d28e6e6978697614df3093749fe38ccb9e48d0f3b6"
     },
     {
       "id": 30046,
       "root": "morkan",
-      "meaning": "握る、しっかりと掴む、保持する",
+      "meaning": "星辰握る、しっかりと掴む、保持する",
       "distinctions": [
         "軽い接触(913 zelvin)や柔和な撫で(914 serlit)とは区別され、手や力でしっかりと対象を把持・拘束する力強い接触を表す",
         "軽い接触とは強度・目的で区別"
@@ -824,12 +959,31 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "previousRecord": {
+        "id": 30046,
+        "root": "morkan",
+        "meaning": "握る、しっかりと掴む、保持する",
+        "distinctions": [
+          "軽い接触(913 zelvin)や柔和な撫で(914 serlit)とは区別され、手や力でしっかりと対象を把持・拘束する力強い接触を表す",
+          "軽い接触とは強度・目的で区別"
+        ],
+        "status": "needs-independent-review",
+        "checks": {
+          "identity": "unique-in-app-dictionary",
+          "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+          "phonology": "音節規則・合法的接辞結合の確認済み",
+          "earthLanguageComparison": "pending",
+          "independentSemanticReview": "pending"
+        },
+        "adoptedIntoCanonical": false
+      },
+      "targetEntryHash": "2901c5491d8641dd71b45d075d89c382a4f25dbb060f593a293b9059c52083fa"
     },
     {
       "id": 30047,
       "root": "vyltas",
-      "meaning": "叫ぶ、大声をあげる、咆哮する",
+      "meaning": "叫ぶ、大声をあげる、星辰咆哮する",
       "distinctions": [
         "静かなささやき(861 koren)や通常の対話(860)とは対極をなす、感情や合図を大音量で外へ放出する発声動態を表す",
         "通常発声と音量・緊迫度で区別"
@@ -842,14 +996,4260 @@
         "earthLanguageComparison": "pending",
         "independentSemanticReview": "pending"
       },
-      "adoptedIntoCanonical": false
+      "adoptedIntoCanonical": false,
+      "previousRecord": {
+        "id": 30047,
+        "root": "vyltas",
+        "meaning": "叫ぶ、大声をあげる、咆哮する",
+        "distinctions": [
+          "静かなささやき(861 koren)や通常の対話(860)とは対極をなす、感情や合図を大音量で外へ放出する発声動態を表す",
+          "通常発声と音量・緊迫度で区別"
+        ],
+        "status": "needs-independent-review",
+        "checks": {
+          "identity": "unique-in-app-dictionary",
+          "meaningDraft": "意図や状況の距離・使い分けを明示した語意記録",
+          "phonology": "音節規則・合法的接辞結合の確認済み",
+          "earthLanguageComparison": "pending",
+          "independentSemanticReview": "pending"
+        },
+        "adoptedIntoCanonical": false
+      },
+      "targetEntryHash": "548d54cf73697998a28ba1a17aa4e4599371314c5dc649658fc2414e05335e9a"
+    },
+    {
+      "id": 30048,
+      "root": "havon",
+      "meaning": "いつも、星辰常に、恒常的に",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ee87324b1bbca9e16fed5ba734fe087a263b58264f6296c460e4d683cd43655c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30049,
+      "root": "havtul",
+      "meaning": "時々、たまに、断続的に",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3a5b43971f413d5f84dd9e23a05ee01dff9cb0ee59904782df816cf0272b26a8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30050,
+      "root": "feval",
+      "meaning": "すでに、もう、事前に",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d8f9912b679483fec93fea06b7cff87e78508826c960995a493e7d7debbf81d5",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30051,
+      "root": "divan",
+      "meaning": "まだ、今なお、依然として",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3123a233349b9a5622e733e8c420e5ef4f82d006f07d9c16244c75bd08f0bd96",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30052,
+      "root": "tasik",
+      "meaning": "すぐに、星辰直ちに、星辰即座に",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3a5aff78133227a6006fff0adeb28fa5cf1ed25a7317b37b106269a9b2711782",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30053,
+      "root": "solpar",
+      "meaning": "とても、非常に、極めて、たいへん",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1fd6d37c59844aaee20a593fa19d3e007310e94e5fccc126c4f81c157b3b7b79",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30054,
+      "root": "vyntul",
+      "meaning": "少し、わずかに、やや",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e0ff8987333fd979104aacd40ee17869a790a9b8873854495e9b317b0d489d72",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30055,
+      "root": "narval",
+      "meaning": "全く、少しも、完全に（否定呼応）",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "73a5964a988b642040d5394f4ccf42b3babea3e6f605c02d700796064c3e2515",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30056,
+      "root": "radon",
+      "meaning": "かなり、相当に、随分と",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "94994e12f913e303467700e3006f9339b3347d8ab702c9478093f98ffb90f290",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30057,
+      "root": "moril",
+      "meaning": "ゆっくり、緩やかに、穏やかに",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "716a8531e632102d3c1de64095316226a757ee5a28ee7fa8586228e0f17ca9ae",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30058,
+      "root": "tasin",
+      "meaning": "早く、速く、迅速に",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fd6df0e77c03674da6544f7eb124d5d839a15db4172150ff52ac610adc17be5d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30059,
+      "root": "sirik",
+      "meaning": "静かに、ひそかに、沈黙のうちに",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "91c92592a82efc943ec9b490e144f4d799c9b59f0b7d6d10bd151cbf2af42ee7",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30060,
+      "root": "kulen",
+      "meaning": "共に、一緒に、一体となって",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "978659f8b5b566074ae526511d63f41b763bd1053b2c80b983093d1ec60e55d3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30061,
+      "root": "minkir",
+      "meaning": "独りで、単独で、自ら",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "be256182e1813e1bc5597892f3dbf3f3e4d9e74ff27a13e670f0bc9897ad066e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30062,
+      "root": "darlan",
+      "meaning": "恵みの雨、慈雨、天降る雨",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "24c9e681b6bd14a3528bd774838aba7615525b583d112b9e471fde8bad625daa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30063,
+      "root": "kyrlan",
+      "meaning": "大雪、豪雪、吹雪",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c4d53d5df77e49f058ed76f9dc89eeea6d317d645b15c38a269fcf72a759d425",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30064,
+      "root": "seldor",
+      "meaning": "樹木群落、樹林帯、深き樹海、密林",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "95e42df20e73bf52740df2daeb913ebc98d001021d2a4ca2cc3d09743423d105",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30065,
+      "root": "darven",
+      "meaning": "大河、河川本流、河川流水、滔々たる流れ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "cd13ab2436d022238f39c199d9f20edbc1ff17b671e00f8e2273f0365cab8263",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30066,
+      "root": "vanur",
+      "meaning": "大気の息吹、風気、天風、気流",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "71ee8ed98f7dd40a196dfe04f5dc4b461329e7a0440d19769bac55cf7135338c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30067,
+      "root": "talmar",
+      "meaning": "広野、大地平原、原野、果てなき野",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "47a9e9cb90cd11ca1b05ffa156456145839125b354c39c34e5815311f60515cb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30068,
+      "root": "tasilel",
+      "meaning": "天測器具、器具、手持ち器具",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "97b49fb950e6bdccc75d00114cb4b732060b3c42f4515ef39dc6c82fd8c31f36",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30069,
+      "root": "fevtor",
+      "meaning": "書物、記録書、典籍、古文書",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "40fbb286fedf29a682f4e2adcd3e416a4c64069aeab4e7e26d945e03f6ad3ea3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30070,
+      "root": "valtur",
+      "meaning": "外套衣、正装衣、織物衣、装束",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7df06a67cc2d32eb4265433afefa5b1be7a53b987786c7b0777ae3f1531256bc",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30071,
+      "root": "zonpar",
+      "meaning": "大門、城門、関門、外門",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4304321162c9587b6760dc3468bdf0db7007b6756fe1ec79ef1222e45b50a419",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30072,
+      "root": "poras",
+      "meaning": "道、星見街道、小道、路",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "32b098b5665a70e7107cfb9eec2f66f1fe549ff244f26708b98bb55cb8bb4b5c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30073,
+      "root": "govom",
+      "meaning": "集落、居住区、街区集落、宿場",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "218c9c7c1bf0fc3330fdb1abd360fb884a89f165c456b0998ad0736f7ed3af4b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30074,
+      "root": "vyllik",
+      "meaning": "天恵賛歌、星辰祝詞",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "50b605b4915604eca935cba36e351424f8ac9a247296e58dad38bfab8b22d7b0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30075,
+      "root": "vorpar",
+      "meaning": "篝火、灯火、燃え盛る火、炬火",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a331f1734ef4f07b34c2c4264a015b03c0fdf276289d6c445c0fd6af2a5c3766",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30076,
+      "root": "civtor",
+      "meaning": "胸の内、心核、思念核、内なる想念",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "356abfb1d029ef251e39fb12bfbce0c17b5e67925ce1454d02cf6acb95172ef9",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30077,
+      "root": "celmir",
+      "meaning": "まなざし、視線、星見の瞳",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9be58e56eec0a255b4e9065f1ca1888be91c9fa0f15c2b586bd6ca908d3e7d2c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30078,
+      "root": "morpal",
+      "meaning": "手のひら、御手、手の甲",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "68905871e3316692444c935c568e51cde0804423c0c8709e92f7078f428e021e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30079,
+      "root": "porpar",
+      "meaning": "歩行脚、歩行肢体、足脚部",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ef1dcecffcef8cb7f61b5256a56a65e8e1591cc7112181d1e361e7a307584939",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30080,
+      "root": "novciv",
+      "meaning": "思索座、思索中枢、頭部中枢",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "512a2eecf09b4cc2a73dea0c8c4c0ceb4125884f5279c1a91ee5a6c1c62bbc50",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30081,
+      "root": "falmin",
+      "meaning": "魂の法悦、光輝歓喜",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6ed8fda9a41d5851c31386c4e55e06344ffe60fb0f357bd250b88f827840270c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30082,
+      "root": "kymmin",
+      "meaning": "悲哀感、悲嘆、慟哭、悲痛",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1eaac602ca8ea90fa22d9639b735cef20a214d24fff9341ff14a63e9cb2bd4e6",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30083,
+      "root": "vorkot",
+      "meaning": "激憤、憤激、怒号、義憤",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "20d10d801cedcbc50a56f3c94135677a949f7fa9b300e2ec0dc38ea689a171f3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30084,
+      "root": "fevran",
+      "meaning": "気概、剛胆、剛気、不屈の心",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e4de77b9e27ef9e75fc2d7af0f7247fad7efa839033a5344295a5651ede4de3f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30085,
+      "root": "sefast",
+      "meaning": "光明日、希望の兆し、未来願望、光輝への望み",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c71de05375c1e8f4c542f78ee46c8d7f6319382be6174be5f39738002075d555",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30086,
+      "root": "sirval",
+      "meaning": "静穏境、静和、平穏無事、泰平",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "16eabbaee590423f0b8bb84ecabfc8791c20ffd0836d9dc5e89b13e053abb6f1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30087,
+      "root": "cylmin",
+      "meaning": "深い慈愛、至愛、深い慈しみ、慈愛の情",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3aabd72476f4eaac963be2e1b4c4872f5731e393f98f13f10a7aa0fbf7b3fc55",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30088,
+      "root": "vylen",
+      "meaning": "声、音声、言葉の響き",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2a104aae0727fb102107a06016a017d80ace10ff93ce8d95cf12014985c8cd92",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30089,
+      "root": "vyrelom",
+      "meaning": "高層天文台、星見座、天測楼閣",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d11dea6c3b86abe751dc02b2a336fbf79c381c13157f885360952239ee230fc8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30090,
+      "root": "vyrelik",
+      "meaning": "天体望遠儀、観測測距計、天測鏡",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0fb93c29173763a018a15a55918e67f7d7781035f16ed7d106a8c9521bfba7cd",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30091,
+      "root": "celvat",
+      "meaning": "星図、天球全図、星座配置譜",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a192e6c99df9398e1adc80d4c07d53f0ba6f99d686e324bdcf2bb259173f0ea1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30092,
+      "root": "celrad",
+      "meaning": "天球座標、赤経赤緯、天測座標系",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4df50180f1a07a211d9cd4d158353cdb5848ee1488b21a112bd94a9f3972cc51",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30093,
+      "root": "falhav",
+      "meaning": "光年、光行周期、光速行程",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "26a5e1037e5d2014bd7310a77a13d4d7cd9695e9dd71d52161a33f44ceb3b089",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30094,
+      "root": "dorjyl",
+      "meaning": "重力錨、軌道固定錨、重力係留器",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6d8aeb1177fa1ab303bcdee8f4bb5ab58e7ced5f0f1718f13a08fdc14d358ba7",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30095,
+      "root": "vorven",
+      "meaning": "推進機関、星光推進炉、航宙発動機",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "92f64181edb7881764718a50bae5c71b2759a0c4f52f372750bbbeece259f114",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30097,
+      "root": "kyrzanv",
+      "meaning": "彗星尾、氷塵帯、彗星雲流",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ea40e20d25c680636aaa314961ee8814e9eca55d9b605adbb003a2f07ea14296",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30098,
+      "root": "lariskot",
+      "meaning": "軌道共鳴、摂動周期、重力連動",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b350ad8a7c08b87603047cf1c854302b35895a2eb58241f8f3cfc8e676847592",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30099,
+      "root": "talmon",
+      "meaning": "微惑星群、小惑星帯、岩石天体環",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "04b8e1a79fa5df3d674a575c99c7eced82922d8dace2dce85d5a9883b405655b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30100,
+      "root": "radcel",
+      "meaning": "天体視差、年周視差、測距角",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6abcb440c6414f55df97a9d1659520f869edda670001f26ca0c3785b9e452035",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30101,
+      "root": "falsil",
+      "meaning": "整調光線、コヒーレント光、位相同調光",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fc0b5c688001751bfc70f091c4618e807f2c1463d5f377b1d25a4cf96f6a31a2",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30102,
+      "root": "tuloskym",
+      "meaning": "暗黒星雲核、深奥暗黒部、分子雲中心",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f872959dbb63fb70456441de36c5244c817a3a7664380c504fceadaaa55f4ad7",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30103,
+      "root": "celmor",
+      "meaning": "立体天球儀、天蓋球儀",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "77ec07e13cb361b9f011ce031ca2041902ca535849dc092ec083cdb5f84f5e8d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30104,
+      "root": "zoharlan",
+      "meaning": "日輪光冠、主星光冠、恒星大気環",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "726ea0357d8b956fe7612d93754bc3e72c5762c8c9713125ccc25a4686a92f2a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30105,
+      "root": "kyrvel",
+      "meaning": "氷殻惑星、雪原衛星、凍結天体",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a52a1af9665acedb9c17b0d39a6325e133b3cf736d1b80b676a21a2810d8c10b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30106,
+      "root": "larisrad",
+      "meaning": "遠日半径、長軸半径、最大離角",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "78669290fb55bcf7bb56bfd27206dbddf96fb17d464cbb05d0528ae1ce5d4ffe",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30107,
+      "root": "dorfin",
+      "meaning": "惑星地殻、外殻岩盤、表層土壌層",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "10effb9accbd4836bae74397f735dfa3011ade87702697ca1d6cec2faddb5f6a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30108,
+      "root": "faldar",
+      "meaning": "光圧、放射圧、光線推力",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1c6292b38ed2e468b09085af540744b8a3e3c9ed2b30c8b8cb0d9609d2add649",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30109,
+      "root": "turjyl",
+      "meaning": "星辰評議会、最高評議場、長老会",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "93f60b7104f2a89b5b1ffa90f14325850fa12cba9f3fac1f93e331eb95e425b2",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30110,
+      "root": "novtur",
+      "meaning": "星辰執政官、評議長、主席星見官",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9385fcd7c6a7f6eceeb843e6d2c34e8ce59dd5719475888c78f688535865c76c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30111,
+      "root": "senpamel",
+      "meaning": "誓約書、盟約典籍、公的合意文書",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fe326780d6945bacd87530069740ef4e358fb94bbe0723fa10be2e601f1f9f8e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30112,
+      "root": "domciv",
+      "meaning": "市民権、共同体資格、参政権座",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "57aa0f8e8914261f8fdff4e97026f04fd2e20a12de6a5338ab9a75ca4548f3ef",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30113,
+      "root": "turdan",
+      "meaning": "星辰法廷、審問座、審理評議堂",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8a8e4b60f7db7c400c4af7998ea4c9e75281a41d8bd53f75b3e0a700dc5ec6e4",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30114,
+      "root": "zontal",
+      "meaning": "境界標、区画碑、管轄限界標",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "822d7f51b0c86375d9726ed1bdd0ed81268cb27c40db20d16ae4b73dd7207d13",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30115,
+      "root": "dolsen",
+      "meaning": "職人工匠同盟、技術者ギルド、技芸集団",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8d8c88c58f7411e42598f9098b8c1308ad6939bda528af21055baa06f4ab57e5",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30116,
+      "root": "marten",
+      "meaning": "交易路、隊商隊、通商路行",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f8a4bc2fc293be386b7ee52589aa58cbe6b9cbb8472de937fda0437ad8272cfc",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30117,
+      "root": "cynjyl",
+      "meaning": "天体星間同盟、平和同盟、親愛連邦",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "bae51338f5c893c9fce06d8633f817c995b729fbbc5c0053f2c4cae2106b420e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30118,
+      "root": "renpamel",
+      "meaning": "通行証、交易許可書、旅券",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e7f330064022190e3095940c17e7718fac3a8ee8b66d6244c84d61e81a708c69",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30119,
+      "root": "turval",
+      "meaning": "布告書、公報条文、告知令",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "702ce931d345cf5507e29f95651f634b624d791a630aff4a3c4c43ad01486dc8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30121,
+      "root": "korzanv",
+      "meaning": "晶洞、結晶洞窟、星石晶床",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "18e59d577990dd63826448b469b97e3ff5ff211f267ed01e5b880c0ec8fdcf93",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30124,
+      "root": "talvor",
+      "meaning": "星辰鉱脈、星石鉱床、地中金属帯",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "678887977f62beabe9c8f2585f761365e925a1d88c0963d829788963e93cefcb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30125,
+      "root": "korsil",
+      "meaning": "純星石、高純度無欠陥結晶、聖石",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "eb493206e492425dcea9258040f181d75fa24e55a6810dc53e5d67806cb800ea",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30127,
+      "root": "wylmon",
+      "meaning": "大旋風、天風嵐、突風暴風",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "da259d55670405039e8967279c5c31c9e779bfdc8fddcbc47b1c56337b486e7c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30128,
+      "root": "talrad",
+      "meaning": "星見高地、高原台地、天測平原",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8a94e7a4f9d122fd5e0b5145cfe2bd01979b45945a297544880a6f2a781a53df",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30129,
+      "root": "selvel",
+      "meaning": "神聖樹林、巨樹群落、原生母樹",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b8e5e13500734048fb36f3240cd7ca502ac95fd592493f49a7772f40fbd251da",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30131,
+      "root": "pyrom",
+      "meaning": "石造調理炉、熱源炉",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e58c869238ffd9447de20ad40ce76015b7f2106034726620c6146e1baeb5236e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30132,
+      "root": "darvel",
+      "meaning": "星草茶、発酵薬草茶、香煎茶",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "320db5c7eab0a1a92336e573e2caea8460d9f010b1f7fac7005897969b1d21eb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30133,
+      "root": "valjyl",
+      "meaning": "星辰織布、天青織物、手織錦",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d463dc7ec7ee698ab00765a0eb7146ee1b48d1d7242ffd6b8cf0675b05fbbf9c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30134,
+      "root": "tykmar",
+      "meaning": "天測時計、星辰計時盤、砂時計",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a2572d63e779e4562cce34b6a229ed2322a1d6e512e8885b36d46d85878326aa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30135,
+      "root": "biotas",
+      "meaning": "食盆、食器、饗宴具",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9c9ade0fb3158226a7b9850cd2199554845c3f235aa94d0c36b6ada29834b2aa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30136,
+      "root": "darbion",
+      "meaning": "薬湯、滋養煎汁、温熱薬水",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b1f4a5a0f13cdf45e0846fa1fa6cdf248c707c7c0f6ae439d94abbb868200a7f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30137,
+      "root": "pamelom",
+      "meaning": "星辰図書館、書庫、典籍収蔵殿",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fa2469ae4aecf641991626eeb5c26542c57927c4e9fd93fa5654c477c2c868a9",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30138,
+      "root": "tasildor",
+      "meaning": "工芸工房、鍛造作業場、細工所",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "20e12d844dd5c4bf870c243a37fcbb06ba23efc7b24f8b26cdb8a995d2361867",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30139,
+      "root": "domtur",
+      "meaning": "集会所、公会堂、市民広間",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "770df78481d8fa156c8309af76ae09ef9ef329cada3119fcf0d804850b373a52",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30140,
+      "root": "valmor",
+      "meaning": "防寒厚外套、毛皮服、極夜外套",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "be876e4f851d5047442279d55005bfef4ca63b8617c266b89a32757ab0187e8e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30141,
+      "root": "novmin",
+      "meaning": "夜天畏敬、深遠崇敬",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "df0a46a87141484513d516795b4092eaf068e3cf78d313115e580e7d9329c2cb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30142,
+      "root": "revlyr",
+      "meaning": "星辰郷愁、原点回帰の思念、故郷への想い",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "281ce4f99db8bb6ec76658d1d01c091343a5bed9994f114623dc41f3ce3101e4",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30143,
+      "root": "cylanin",
+      "meaning": "調和和音、天球の音楽、美曲",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "22411f2ebf04acb51370f3b29287a35b74e8f1e6494fa1c61571c9a7e298b87f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30144,
+      "root": "fevkiran",
+      "meaning": "星辰年代記、星辰叙事詩、祖先神話録",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "18e544dc4bb94bef7455918e834f2b57c82141111a99bf7a29ab3eb897da4e51",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30145,
+      "root": "civvol",
+      "meaning": "心の共鳴、精神的共感、以心伝心",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ae22f23dd10dea2203c82f92416c720adbced1ad82db62b476430b350c733286",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30146,
+      "root": "minrad",
+      "meaning": "星辰洞察、直観知力、本質看取",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b85c9157b85829f164cfecc810aa83b4f3f928def208699171ab83ead278cc2e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30147,
+      "root": "sirnov",
+      "meaning": "沈思黙考、深慮、静かなる瞑想",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "29bc91d800038780c1fe02cc7f5765c98e64e8ecc3328147132b03ec5d81c593",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30148,
+      "root": "elircon",
+      "meaning": "星光祝祭、歓喜の祭典、豊穣祭",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "787641217485ced2dc2b3cf7667c7705f4c96034873314f216482c2cd24be6c4",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30149,
+      "root": "cynval",
+      "meaning": "温もり、慈愛の抱擁、いたわり",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d26dc8afd6051f2651fa965c77781eda985eb4e5169d230c9f20d754b481345a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30150,
+      "root": "sefsir",
+      "meaning": "祈念、静かな誓い、胸中の誓願",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "38f67c6ce9e3ebe9edeaf2b3a0f58f694aab752dbdd9c32c16102637f1286fc7",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30151,
+      "root": "farven",
+      "meaning": "完成する、全うする、成就する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e4ea5410598d304f20986e9e00c3261a91cca4078bdfdb7606d8fb3537e0a924",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30152,
+      "root": "livtas",
+      "meaning": "保ち続ける、維持する、守り通す",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "760adde87e0ec2a626ac2ecfbc5a1bdf77dcf387c7abf1f53fd316e5038d003b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30154,
+      "root": "velfal",
+      "meaning": "芽吹く、星辰生い茂る、緑づく",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d4d64014a6fccfbd2ed4a391d44787aa5d44a7b1345123b8417b8ab7171953b0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30155,
+      "root": "korfal",
+      "meaning": "星辰結晶化する、透き通る、澄み渡る",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c0cfe526ad46e60ef9ce0fad3cd187263a726eb0aadec4687ac132722a17ae1d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30156,
+      "root": "talpor",
+      "meaning": "踏破する、巡検する、大地を踏み歩く",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d8b263bfc76c607ca0290c7ad2422b5583d5ae8455a14edea14b8819e92f9c20",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30157,
+      "root": "sirvan",
+      "meaning": "星辰凪ぐ、静まる、静粛になる",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fc07b76405da81e945cced391ea92e64474558a6276c9ccb00bcb0e5597ecc18",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30158,
+      "root": "jylfen",
+      "meaning": "和解する、仲直りする、合意に至る",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f5744172e83e9f67d523bbd83b9e2a1fb05001d0d50bd063a927799d1ccd4042",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30159,
+      "root": "revcal",
+      "meaning": "回想する、語り継ぐ、追想する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0545114e2907e2f5bef532b88d61e95c99520fe185e66ef40d1c87fad4229c8e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30160,
+      "root": "zoldar",
+      "meaning": "導く、先導する、道案内する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "56e1c861b504edd11384dc349579108df72e1d0cca9745ef98ab61b05705fc63",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30161,
+      "root": "radis",
+      "meaning": "遥かな、遠方の、星辰悠久の",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2bb1f87c7847d877c909865af8199031eb8e39e05a51c820c430b4701f002e3a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30162,
+      "root": "tulvis",
+      "meaning": "深遠な、奥深い、根源的な",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a4f5a8b0b62b28a8c34fd14e10291f7eb0a539dc63d8d4552d2c5110b4d19e6a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30163,
+      "root": "silvan",
+      "meaning": "純粋な、星辰無垢な、曇りなき",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5760e8ed31e2e8c756633105c32693834e1be3f0c0c53e730303bc200e9ef4ba",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30165,
+      "root": "solvis",
+      "meaning": "豊かな、満ち足りた、潤沢な",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ad5ff6c8c60265b560c69a715ab60768a38c6f351f47fb68b4db4f3506b9a574",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30166,
+      "root": "cynis",
+      "meaning": "星辰温かい、心優しい、温厚な",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1ea5b124508a5480cc7df56bf9a07b08d26e6e160626938dd663a33f68f4919d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30167,
+      "root": "falvis",
+      "meaning": "聡明な、慧眼の、明晰な",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d8a7be75b4bf23ed1ed72a40e9d123ba08d8d9ecf449a4497cc8ced360334da4",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30168,
+      "root": "krotvis",
+      "meaning": "激烈な、猛烈な、圧倒的な",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ce4168b23a9f6c7b60aba28d943f0df29bf2123bac58468d40f768a2ef64504e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30169,
+      "root": "tasir",
+      "meaning": "星辰直ちに、間髪容れず、即刻",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a76d2a28a1abbe326f445d49ab1b0a0b3cc603f5bd504f3452fef12929ca3bde",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30171,
+      "root": "kymvel",
+      "meaning": "極夜期、恒暗季節、主星潜伏季",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "805402b6fe7a8614c0bf16ab9a9adf323d21ef77a4b30bce23fac10e70f79fa2",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30172,
+      "root": "zohhav",
+      "meaning": "極昼期、白夜季、白光季節",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d9bb039a5466d39612752f95eb4789f06506da127f36241ead194f5240788c09",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30173,
+      "root": "darwyl",
+      "meaning": "雨風、嵐雨、風雨",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "835c6eab8d1c10fba09c0eb1570da98aa3d3b9a9b56967a23e7bc44ab87eec75",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30174,
+      "root": "kyrfal",
+      "meaning": "ダイヤモンドダスト、細氷光、氷晶光映",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2f0aa2f6c3657b55e5398fcb5ed601f23e0bad1038fdaec7e038c41a8281d265",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30175,
+      "root": "selmar",
+      "meaning": "森林限界、樹林境界線、高嶺境",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6c17a4801fbe55c6e1e518e023df4c1514059a3e77b348f9da2fd6d8e7d179ae",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30176,
+      "root": "darzanik",
+      "meaning": "水車、流水機構、揚水機",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "22c906536a760073f7c79da767d42f709619e7538b703de9185b0aa9d033ca16",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30177,
+      "root": "talzanv",
+      "meaning": "大裂溝峡谷、大地断層谷",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "526c4044ed753e755a86d5702176cea41e5fe6d485a29e1931782ba3768027eb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30178,
+      "root": "wylkor",
+      "meaning": "凍てつく風、氷風、寒気突風",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "953191d0893480898e2abf156fd122b7ce03ae23766ed87bc49fa1fa7f4eb5a5",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30179,
+      "root": "falradin",
+      "meaning": "日輪光環、暈、天体光背",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8b4b40460b0c926c4c97e02ce7280ef5c5a241ebe851aeef0ece7a254f60b7ca",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30180,
+      "root": "kymdar",
+      "meaning": "星辰夜露、夜気凝結水、夜雫",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "46f499cbbc6ebea03f32da70f48451b441f0a4cb7191ccc287c30e73a81faf77",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30181,
+      "root": "domzon",
+      "meaning": "星辰城壁、星辰防壁、集落外郭",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fd132fce31f673b4174319a6f39fafd3f6bf2ab592f3e598ec6650d433b63c30",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30182,
+      "root": "pyrtas",
+      "meaning": "火打ち石、発火具、点火器",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e1d60757ff5764356ba2c383f620319c8f0f2e3af9f4e35d4a753b1a9233fb71",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30184,
+      "root": "darpor",
+      "meaning": "渡渉点、星辰浅瀬、川渡り場",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e7ca1e80ae633a6c4983d0e9c7da1952951643813143190ebb78ea5c3526df20",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30185,
+      "root": "seltas",
+      "meaning": "木製器、木杓、曲物器",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b5872f18fcd060975d899eb5e68bdc94896773113aa2cbe0fbc2e1c8a65a7445",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30186,
+      "root": "zonler",
+      "meaning": "星辰閂、かんぬき、扉の錠木",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2a7b1079478b859e8ae448f9a5c93fc81002b0301ea77a78b2cf8150ce3187b8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30187,
+      "root": "taltas",
+      "meaning": "古天青磁器、星土焼成器",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a0b4cd11acd80b31aa21469d5e014b2de78af2a307bf0b4607ee9cda4b132658",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30188,
+      "root": "valden",
+      "meaning": "寝具、敷布、夜着",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e0a613553c05e9b544f5e2d990111d1ef18b5f37f5d7ca4cb234b756a5f2ee16",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30189,
+      "root": "pyrfin",
+      "meaning": "灰、燃え殻、炉床灰",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "19d4d54efa6c0bc5e5e5cfb2721fb558fe725c4803c0323bc5ec38ca9ca8a5d9",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30190,
+      "root": "martenik",
+      "meaning": "星辰天秤、分銅秤、重量測定具",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "dcf0f425c065ff1d6788b4f0797a4c38ebf3f03e32b6896ae0ba5b1e567cd3f3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30192,
+      "root": "harlan",
+      "meaning": "聴覚、音の感度、耳澄まし",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6833d0e13db661810bb616a06788d7b1e20cf2a6217e83417420bd9a78a14780",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30193,
+      "root": "porven",
+      "meaning": "渡り歩く、巡歴する、行脚する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0eebb7b2c38cf7d70e75aa62918a2a143f01cf9929ed68c4913c026f9c296b4c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30195,
+      "root": "silfen",
+      "meaning": "和やかに語る、談笑する、穏やかに話す",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4e4bf6b18b3b8cc0412be15c90602464310e559b1d900294974a4db2a2c4ffc3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30196,
+      "root": "kiranliv",
+      "meaning": "書き留め続ける、記録を保つ、書き継ぐ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f5afdfd96719bd235dd67e1412e2d3f5f5517bc3d82406dbb18a55c013a2dc31",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30197,
+      "root": "novfar",
+      "meaning": "悟り開く、理解し尽くす、了知する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3672943b313ed0c2d6098a9d3a80a1fd47a0eafb26b72d0c1a9819b45398af22",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30198,
+      "root": "falpor",
+      "meaning": "夜明けに出立する、朝発つ、光と共に歩む",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5e53157d19a34da5b7bb36a034f35ff4c6db967425e3aaca43b90b3336229c7b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30199,
+      "root": "cynjylas",
+      "meaning": "絆を結ぶ、深く契る、固く誓い合う",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "43a66c2dbdbc59eca4b01a2dfec3c8d8cadaf99f1f29f36654731ba02e9fcec1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30200,
+      "root": "kymmor",
+      "meaning": "夜に籠もる、夜を耐え過ごす、夜臥する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6e9d68c3e1bf379a4e2851af53c8bab9f96c51d33937ab53c874854e2a1ce9d8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30201,
+      "root": "silciv",
+      "meaning": "清らかな心、星辰誠実、星辰純心、素直さ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ef39bfaf14951e9c185dcc102930da4df82e6145aa282cab56ce77b9aa1b79e8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30202,
+      "root": "durciv",
+      "meaning": "星辰不屈の志、堅固な精神、剛毅",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "461ca6a6e13357aa29a88de29f81fa898446ee472583b5d7b77350aeb46419ee",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30203,
+      "root": "novval",
+      "meaning": "知恵の分かち合い、賢明なる教示、啓蒙",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "49c8778095c9fba12f240f663e06fcd1e37dd5affcfd445e6d5797e79daf274b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30204,
+      "root": "cynsen",
+      "meaning": "信愛、星辰信義、誠実な友愛誓約",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3926ef66b2d47fe4a729183c36fc563d80d01e3d6fd8dd21e515a307b4506d8c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30205,
+      "root": "sefliv",
+      "meaning": "抱き続ける希望、不断の望み、不滅の灯火",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6901e019271a8dd82afc2c5e29d6a80bc9be1d346ea75ec6857fe48b6aa296d1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30206,
+      "root": "sirvalas",
+      "meaning": "泰平の世、平穏無事の時代、安息の境地",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3d6e96eaea896e100c761a8812c3e73c7ba2fde95ef22e701da746926ac7dfe5",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30207,
+      "root": "falminan",
+      "meaning": "光彩頌歌、暁天讃歌",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a61ef4d7c55ea5d356689f7740e44a59947fa539e56fd4096a4c8325f1995e9a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30208,
+      "root": "lyrcal",
+      "meaning": "哀歌、追悼の詩、挽歌",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d640b2991fd5727d6c0f96a7f4886920a6a43ca6ede548729653965ecb9c1fa2",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30209,
+      "root": "celdan",
+      "meaning": "祭壇、星見台座、天礼座",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8a4df44badbd66588289d096a5be420973e518cc0875e041526aef66c10a234a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30210,
+      "root": "vorpamel",
+      "meaning": "秘術書、炎の典籍、鍛冶伝書",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0d7d333593b324eec2410fd19c77e67acc14de9c53208495044166320b0781ac",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30211,
+      "root": "sirvalen",
+      "meaning": "静穏なる、波立たぬ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7d1de458474e6244f7861b2fc4d9eff13f317dad26f9d62b833c94f1cd427dbc",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30213,
+      "root": "solren",
+      "meaning": "満ち溢れる、豊穣な、尽きることなき",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "38d15007877598b481e49d5443b78fe434c52f21eb0daedce2c11d5d8dfb8449",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30215,
+      "root": "falsin",
+      "meaning": "燦然たる、星辰輝かしい、光輝溢れる",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fc0f39d66c0ac4572ec40ce0f8cc5b1a926625759e49033e3e2c8d14a37b0b94",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30216,
+      "root": "minkor",
+      "meaning": "ひたむきに、一心に、専心して",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e14232d51c572429b5c3a5ad30de63bf9f17569a3aaec41a05704845927a4425",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30217,
+      "root": "cynkor",
+      "meaning": "心を込めて、親身に、真情を尽くして",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "054231a10f5d8cba64dac742dc64cd18d70406b6c0ccd22b2b8712c0ddb7d22d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30218,
+      "root": "tasval",
+      "meaning": "疾風の如く、一気に、瞬く間に",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "43e72ef7c92f294f087aa790c447fdd80fc62837f43e2c98b95f70f2d84c9672",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30219,
+      "root": "radval",
+      "meaning": "遥か彼方まで、果てしなく、どこまでも",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0f2a7e66d51962d5d594a44c4f63d70e78bfbd40bd4cf00e4770c7fd99acc618",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30220,
+      "root": "havval",
+      "meaning": "代々、連綿と、幾世代にもわたり",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "904d05b13a10b4cab09e2a4914dc4be5e96bd20c282c77e66d7fdc3436453104",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30221,
+      "root": "dorzen",
+      "meaning": "年周公転期、年周天体運行、惑星周期",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a6d65ccbe951994d5b930776f5eebe7638093e43100eacafeddf8e24dc17af6c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30222,
+      "root": "falzen",
+      "meaning": "光条角、光線角、受光角度",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5b3cc82eeeedd164bb3928ad8bd96b448eedf5a8478fdf5fe958801b7a832049",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30223,
+      "root": "kyrzen",
+      "meaning": "星間氷微粒、宇宙氷塵、氷塵粒子",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9fe20daf84e4031655a311ab8c9477941fa668a5fd0c2235b2176a31eb73f86c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30224,
+      "root": "larzen",
+      "meaning": "軌道交点、昇降交点、黄道交点",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "13363a28940aacf1c77bbe4ad47c9d9b8706eaa8a91dbc9f0b635bed6e6b0dba",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30225,
+      "root": "novzen",
+      "meaning": "天頂角、天測高度角、極角",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "cb52adaf4153cec97ad73fb79d3a55fee4ec1ee4a273a374e4249f1c499aa0f3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30226,
+      "root": "radzen",
+      "meaning": "軌道長半径、主軸離角、主径",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "bd3b7ab61b46e5099d1f63420112dd1df210365610cea3e00d268058555e9798",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30227,
+      "root": "talzen",
+      "meaning": "地衡風、大地気流、地表定常風",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0546be1e897af1c7aef0bdb752286e8ecce8137d9035e69f7676ba9fb5604e69",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30228,
+      "root": "tulzen",
+      "meaning": "重力井戸、天底引力圏、最深引力面",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7ef02c48b1f75beaf93c9284c708814dd115dd8280d62aab285d6d0e409fa6d6",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30230,
+      "root": "wylzen",
+      "meaning": "星気流、恒星微粒子流",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "11b6396e97c70e1101031ffe60033894312884f7e86b98061b53b58a3e1ea656",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30231,
+      "root": "zanzen",
+      "meaning": "深宇宙重力波、時空微小波動",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a196dd2721a5e7a22bd76102dc4990cfb9e5dfb0114931a8d366f58da513148f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30232,
+      "root": "zohzen",
+      "meaning": "正午主星南中、日中最高点、天頂通過",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "874de83b5579b1fe1629244d409613ecef53573af05336edae2c26b5426c0cd9",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30233,
+      "root": "zonzen",
+      "meaning": "天球境界、星座境界線、星辰区画標",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a6a96c1ca1c9e6c7c16da95d0102d9777bae7a569a8c4fc8d99bf0e86cf31f29",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30234,
+      "root": "celkan",
+      "meaning": "天頂儀、鉛直望遠鏡、天頂鏡座",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "696468c681d28f6f2d3d4e424afb6055f304574e45d6ccf359a5b68777380afe",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30235,
+      "root": "dorkan",
+      "meaning": "軌道面、天体公転面、黄道面",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1adac7e277b04d075404d7a2190dd8ae3a61c55b506cad244b9a3efd21346ae0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30236,
+      "root": "falkan",
+      "meaning": "集光鏡、主鏡、凹面反射星鏡",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "cb6b92e672062e523147367b6f400263ea6f2546c7f89075eec810b0f22d4136",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30238,
+      "root": "kirkan",
+      "meaning": "天測原簿、観測野帳、星辰日誌",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "db4c9c4ffa65417261bbdf36f613934b0a753c3ce46b2eff976f46d0e7e47a0b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30239,
+      "root": "kymkan",
+      "meaning": "夜半、極夜中央時、暗夜最深刻",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "40ba35f8ffa194cc6a36c4f9e8998a6cffbe9e03ff9859657702eea1f1ce9cdf",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30240,
+      "root": "kyrkan",
+      "meaning": "氷雪冠、天体極冠、氷原被覆",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b4c8ac56df58a383ec8c6a8f28fe10fb563d73a52281137c7a21bd3abfd3e00d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30241,
+      "root": "larkan2",
+      "meaning": "離心率、軌道歪み度、軌道扁平度",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fa297d90a8d194965aef103bca898bf4917668d4eed10825f2d60598e96e0116",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30243,
+      "root": "radkan",
+      "meaning": "近点距離、最近接半径、近軸長",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9614584f2c8be44cd6b5a38290429050fa1c98f17bf1bc263fab12d8e81f69e3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30244,
+      "root": "sirkan",
+      "meaning": "不活性恒星、静穏矮星、休眠主星",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4eb3ef605c66e171b061e956a7439d6459a0331c1c1c8219b799fde63eaf495f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30245,
+      "root": "talkan2",
+      "meaning": "惑星核、天体中心金属核、重質核",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5cf18f66b10f5f43bc64057f775ad4c97bd286c0e57cb628b750d1eb5cfa5adf",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30246,
+      "root": "darfin",
+      "meaning": "川床、河底岩盤、流路底",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4de40cbdf5cb8c3864f68a76d6c6ed23d7e0cc26f9cdadda140d8211f1d7f346",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30247,
+      "root": "selfin",
+      "meaning": "林床、腐葉土層、樹下苔地",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "423357748667f047f678fb85a693cc0f7eb8eaa307137c390a100fa52da51890",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30248,
+      "root": "talcor",
+      "meaning": "地層累重、岩盤堆積層、年代地層",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "12890c0808d2b162e1beabeeb5f2005367c589642730c0cd7ce91243e6c51770",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30249,
+      "root": "darsel",
+      "meaning": "渓流林、河畔樹林、水辺の並木",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7eba33a3e04091c681c1b5cf4cadc9330f53b2eb689a3e79c91b41aeb8ef343a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30251,
+      "root": "wylsel",
+      "meaning": "風鳴りの森、松籟、樹波音",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9ceca455919f2d19739644fc610e380ee1d6c0cc05e57772cd9a6b199c86e26b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30252,
+      "root": "falvel",
+      "meaning": "星辰木漏れ日、樹間光条、木の間影",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fd8d71e82720bd2892bfdc1b36fa0c37fe703a852f29dff40a3b16d75f172683",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30253,
+      "root": "kyrvel2",
+      "meaning": "星辰樹氷、星辰霧氷、枝葉氷晶",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e4592967b2da4801e3e2e0fc174632a097219be7c7d5cec198cd4d31f28c57fe",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30255,
+      "root": "talvel",
+      "meaning": "星辰肥沃土、黒土壌、農耕地層",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "72259659413a2b291799cfc59b63b1c8f27ec0051dfa60f45f58373c8250d8ee",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30256,
+      "root": "selkor",
+      "meaning": "琥珀、樹液化石、星石樹液",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "38e6ec40bda6da8effa6ba7f2f82cc3576126de92b4261b62e9e74c47cbcf5a0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30257,
+      "root": "korfal2",
+      "meaning": "水晶晶簇、星晶石塊、光芒石",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "61e58d4af99c9fd8dd1813e0b18517b9d6dc20f82161bc372341b462d59e6cdb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30258,
+      "root": "wyltal",
+      "meaning": "星辰風成砂丘、風紋、砂漠波",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "28ea4bcf6b3c3e8a6e26678e53a1360d40cceac2a7e3e76f119da13e485a9add",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30259,
+      "root": "darwyl2",
+      "meaning": "星辰霧雨、細雨、煙雨",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0729606be25c1c18aa447a8f862832e1f2ebd2bba4bd2038a704397704001273",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30260,
+      "root": "kymvel3",
+      "meaning": "夜咲き花、月見草、星辰香花",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f7c690efb41d7e5a3e7a8979f3745489528ef06c2d3ebf17590b80da67c4a3cf",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30261,
+      "root": "falwyl",
+      "meaning": "陽光のそよ風、温暖気流、春風",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f075ec30fc98d74a12122f9a6fb64557cb3450f75d19c877d4f011fe7796603e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30262,
+      "root": "kyrdar",
+      "meaning": "氷解水、雪解け川、雪冷泉",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "de6ee1ca52566c26d21192e3864168952a5f820f6af00bd6755eb8db98fb9aac",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30264,
+      "root": "darzon",
+      "meaning": "星辰海岸線、星辰波打ち際、星辰渚",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2ae67041d9f8f214c3b27ffab4a6fd52ab3c3d9a102810d37ba315815a652833",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30265,
+      "root": "selzon",
+      "meaning": "森の入り口、樹林外縁、木立の縁",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fd58550e8285f2b24dc1ae33a12ea0a496745f3b6b2908308b45f3986d8c403b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30266,
+      "root": "domfal",
+      "meaning": "街明かり、灯火群、居住区夜景",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "affd7eb6fe13819fc9a2a6444c6805fd2dcccae533aaed8f9e1d6eeaf22e9397",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30267,
+      "root": "domdar",
+      "meaning": "上水道、水路網、共同水場",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "94d13a930dd2effc7386a92d525c2fa6b0f9dbdbb332908a46cdc05821c7bf84",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30268,
+      "root": "domsel",
+      "meaning": "街区公園、緑地広場、共同樹林",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3d81d7f6fbafbbf343d8424cb7f04b9f282915d495fe7e6166e608dba92d928c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30269,
+      "root": "domval",
+      "meaning": "広場市場、朝市、青空交易場",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4bd7fe5f38ecbe01a10674940d01c351e1d7080b253d7ff615e737d8ade06fde",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30270,
+      "root": "domkym",
+      "meaning": "夜間警邏、夜回り、夜警",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "84047b62fb326ff6f18062d3cc180b1893c20734607dcf9d08f4e08cc37be16b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30272,
+      "root": "marsen",
+      "meaning": "交易契約、商業規約、通商定款",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0771ebce66563929d14b1083ebb6d046297ad38ec48a6a5cbb3305ac2f4d962b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30273,
+      "root": "marval2",
+      "meaning": "商品、交易貨物、特産品",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b624e313231e32be08f8c8570e558f43f324c5337649dc94de5a5a6e13585354",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30274,
+      "root": "marjyl",
+      "meaning": "市場連合、商業組合、交易同盟",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1b8391e5a97972c1d6c3cad1db0b6d72b42379adf03cc05e89222822ad6e4e6b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30275,
+      "root": "tursen",
+      "meaning": "星辰憲章、基本法規、建国誓詞",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2a0932680a66400b145e6786628d202b001d32f9659e5ffb4d236519d450abeb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30276,
+      "root": "turkiran",
+      "meaning": "法典、星辰判例集、掟の石版",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1848697e9f31569cf6fc92cc3c6c28441840f1d33cfd25b3c6d9de84e5307f87",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30277,
+      "root": "turdom",
+      "meaning": "評議都市、政庁所在地、主都",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "01a0c9a00e9de35333daa3d67ac5dd921dddeddc81a50eea8186d3c18bf091f9",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30278,
+      "root": "senval",
+      "meaning": "宣誓、盟約宣言、誓約の言葉",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "38aaf14751bf1285cca88d96dd4449050a68d802668a343dccf9ef96b41d8ea8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30279,
+      "root": "senciv",
+      "meaning": "良心、誓約遵守心、信義の鑑",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "111e1c127c4ef3fd7c078a2f0bb4d3e557b0c0d1f774fa22a3f2aa125295bc05",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30281,
+      "root": "pyrdar",
+      "meaning": "湯沸かし釜、大鍋、温熱煮釜",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ed5f48d4ee62175fe39c64cb998a907d0b533c4d4841e2521706b13eeab38f9a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30282,
+      "root": "pyrsil",
+      "meaning": "行灯、油灯、室内置き灯火",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1dc5a545efdb48639fffeb1393bb13ef2bc7284d00b2c646330f6362b1e666c8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30283,
+      "root": "valtin",
+      "meaning": "留め金、星辰ブローチ、衣服帯留め",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8b8f0ee76c383bbadd9d1e19497985a5f8ebc702a3221f718f6dad9ee3953a8e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30284,
+      "root": "valran",
+      "meaning": "星辰環帯、飾り帯、星辰腰紐",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "785cb572971a4f5b25f66b3670eaa7a089b697054fb35264202c2836b48a57b1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30285,
+      "root": "valtas2",
+      "meaning": "衣裳箱、整理櫃、衣装長持",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "feceac494fcce59ca3773f8f441a60921617b7d6f869ac8f087f9e32c1f8cbb8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30286,
+      "root": "pameltas",
+      "meaning": "書見台、読書机、写本傾斜台",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "41970c8603463eb5d491e75b5ddf4ea5a53a2ef394034c8125f00eb1343567f3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30287,
+      "root": "pamelval",
+      "meaning": "星辰羊皮紙、記録皮紙、植物厚紙",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "65147b8ef63b91fb79bc3920098766197608fbb31a83d75ffa086343119a4652",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30288,
+      "root": "kirpor",
+      "meaning": "尖筆、星辰鉄筆、星符刻針",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4ca9affffb47b578c70a62f6c7dafbd45b6b7069c843ff406ec704a674105d16",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30289,
+      "root": "kirdar",
+      "meaning": "黒色墨汁、星辰記録墨、没食子インク",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "eef83ed886007156c6c4d1623aeeb7bcae91bced83648cbcc81db3a1898206fc",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30290,
+      "root": "tasval2",
+      "meaning": "星辰小刀、細工刀、彫刻小刃",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f70c1b7d38f78e608323a6fd0020901397b6d8ede80d548b9ed031ef09ab3a17",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30291,
+      "root": "bioval",
+      "meaning": "糧食、保存携帯食、旅の干し肉",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c5f70f6285b27333133069494449ee3a8da1460b37a11da4887ef28e41d955e0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30292,
+      "root": "biodar",
+      "meaning": "清涼飲料、果汁水、薬草冷水",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "90a86a2a69581b4f14c97d5e15624a714233ec554417a276f67e16b0a70d5cd8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30293,
+      "root": "biokor",
+      "meaning": "岩塩、結晶塩、精製調味塩",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1e81f3990e65a07c5edfaa34a4f5200328055162ab9fb52f6ff908c038e48008",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30294,
+      "root": "biovel",
+      "meaning": "香草、調味薬草、ハーブ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3955b298d34fc88387f64be202452367a0058a3b0d64ac75861b9a5b8c0b956c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30295,
+      "root": "domfin",
+      "meaning": "星辰敷石、舗装石畳、道石",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "78b4c0c4630844866d23cf6a6be76a363f85ee88db54b91877c379735a56bb5c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30296,
+      "root": "falmin2",
+      "meaning": "晴れやかな笑顔、喜悦の表情、歓色",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "df45475a45b5deacd3d4fb96dcacec6901981fdb4bb57925b3bfb8d22f1490fa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30297,
+      "root": "kymin",
+      "meaning": "憂愁、もの思い、静かな憂い",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "af16387c3c23016125e8efb0a56faa748a391354b610f3a3a6763a4a45d87ddc",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30298,
+      "root": "cynfal",
+      "meaning": "慈愛の眼差し、温かな微笑み、慈光",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1df206f935d2e2b37ddef90aff7564a2834d88316ccdcba503d925f4033e0c9f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30299,
+      "root": "novsil",
+      "meaning": "調和の知恵、分別、思慮分別",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e70c4001819c7579d288633892602f304cd941575ccad11d6c744ba2d38cfe86",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30300,
+      "root": "dursil",
+      "meaning": "精神平静、静水境地",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fb0dd62a53b5fb0196e71d63950ffaa5722c94204d526f4fcbf1e8a3a0559b70",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30301,
+      "root": "sefval",
+      "meaning": "希望の灯火、光明の兆し、未来への光芒",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2681ce2811928af09840d9088eec7021a49e3110df63a82407cf27bcba10ce06",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30302,
+      "root": "sirfal",
+      "meaning": "朝の静けさ、夜明け前の静寂、黎明閑寂",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "56cc200a248978bf77414aded9b8e5f8ff99d8a9f4f70d0051e5ced60b733f76",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30303,
+      "root": "cylanval",
+      "meaning": "至高の美、絶景、息をのむ美しさ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "464a0972a69ac59115e20a332cfbe91a91c99e302c6e647be50b78012488512b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30304,
+      "root": "fevval",
+      "meaning": "古の記憶、伝承、祖先の語り",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a2ef3651d7a01c6c8a85b809ca7f57c833053a15f81607ddcd4be16b199cfbad",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30305,
+      "root": "civdar",
+      "meaning": "心の強さ、精神の耐久力、気骨",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "eea9a471ac97d7cad1f7a4b9df011ae33830c53d5ac875ee70e398875694cdaf",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30306,
+      "root": "civsil",
+      "meaning": "澄みきった心、明鏡止水、心の調和",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d0706675b459c2cda99b871fea92e8df81fa4df03c64bf2a23cbfb0e8206684a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30307,
+      "root": "civfal",
+      "meaning": "心の輝き、星辰気品、内なる光明",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5ea9ce1a9dccd3f2ebda522ad815cc4359100f161b33a0bb3ce96664dc03214c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30308,
+      "root": "vyrcal",
+      "meaning": "星の詩、星辰詠嘆歌、天文詩",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "746e54ff0d8843653f345caa5096156d60162055cedd59f943cea205266f2d7e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30309,
+      "root": "zoharcal",
+      "meaning": "太陽讃歌、朝の祝詞、光の賛美歌",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f07e824d2d69f813356391c7ee680e8ee766eadf4b4d61197b615e1c1ab313fd",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30310,
+      "root": "kyrcal",
+      "meaning": "冬の歌、氷雪詠歌、極夜のバラッド",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "ff66421813d6cf5cfceba34924c56289d840c74cf8be3ca2cf6ba9ee7a53c031",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30311,
+      "root": "darcal",
+      "meaning": "水の歌、川舟の舟歌、せせらぎ詩",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b5bf6257862027cde233d02f364cdc1dc0da0fc00d9a72cb184c7ed321d48206",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30312,
+      "root": "wylcal",
+      "meaning": "風の歌、放浪歌、旅人の調べ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4fd68a6bbb71cd27d780c1f19aa41b443ff014c3353358148147f45991062728",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30313,
+      "root": "talcal",
+      "meaning": "大地の歌、収穫感謝歌、大地讃頌",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "cf7cf206c50a88a912e825233b33fff830a07232006e4ddf0f5bb972e64d6f33",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30314,
+      "root": "durcal",
+      "meaning": "不屈の頌歌、防人の勇士歌、凱旋歌",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b9e95c9a4f0b3efd03c6f04d05e7c819f27a8012a35459b34f63826ff9f9723d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30315,
+      "root": "sircal",
+      "meaning": "子守唄、鎮静の調べ、安眠歌",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9f6e37926d6c35ddbcd4ccfc6b82e77df6f6a1431ea5db117754e65e632b6b62",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30316,
+      "root": "orvlun",
+      "meaning": "星辰光度、星の等級、輝度尺度",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "eee74654fc1721994440d27039cb3fdf5ec434589e7909ad65e45a9f3d198b71",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30317,
+      "root": "taljyl",
+      "meaning": "天測星座盤、平面星図盤",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "68856c185a721681fbada4d8a0ffb0f2f6196c99a6d3ac193deae4d34246d909",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30318,
+      "root": "vyrekor",
+      "meaning": "星辰記録官、天測書記、宙図編纂官",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0a7215b55d8433a40e54f110a55e1dd85e7d4a8414f17114913ad0e9cd6736d3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30319,
+      "root": "zenkel",
+      "meaning": "散開星団、散開星雲、星屑の群れ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f5d29bc582728ff5c1491c4e41c47c148bcbcd0641de5f9019bacf75048d9d24",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30320,
+      "root": "novyras",
+      "meaning": "新星、超新星、星辰誕生の輝き",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e405a340929e8b6b0a234697866253dde633e1d0aff509dbb02e02ec106d20fa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30321,
+      "root": "morjyl",
+      "meaning": "恒星食、黒点、星辰掩蔽",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "027ff27e08f49748c8c6157f6fecc22c76a6592b5afb43df4adae1312a351af1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30322,
+      "root": "lyrvon",
+      "meaning": "軌道最遠点、遠極離角",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "bcfec628aaf7f13d2328420cca7d189df1d65429d9d5aa6c77d3789c6ee7e5b0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30323,
+      "root": "nelvon",
+      "meaning": "軌道最近点、近極離角",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "4843da6522ea75a5d001f09d88695b1ffdff1daab247516a0704771617cb6539",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30324,
+      "root": "celzon",
+      "meaning": "全天天蓋、宙頂、全天の頂",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "962f6dad2f489f08fbb128a100067336a040d93d78112dc29d5a5d6a3306b00e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30325,
+      "root": "tulyris",
+      "meaning": "星界境界線、天涯地平",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "22e923a9349ca1e578b4327439f5697716d8ea07df1839793508592663f6a05e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30326,
+      "root": "pelvyr",
+      "meaning": "天測眼鏡、小型望遠具、携行天眼鏡",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6310173670655bffe1feac25e2d46daf90e78735d514ca0e581af865df6a2fb0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30327,
+      "root": "sarylis",
+      "meaning": "神秘崇敬、星辰畏敬心",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1ee30d18e055c2de1a9a254a1ca7a2d9585d02e2ce6efbdb5e0bb531fa6f0e6f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30328,
+      "root": "vorlan",
+      "meaning": "静かな受容、諦念、運命との和解",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8c29fc4d3c1d06ef6aabe0d35f6cd3eb3d7e1b9a1c23b0c0b63e3b8a9a6536fa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30329,
+      "root": "fendur",
+      "meaning": "星辰確信、不動の信念、揺るぎなき志",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0dc65d28f77a7d6f0adb79817edfc184ef9a3ccea49aee116833664f0d046c04",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30330,
+      "root": "mervas",
+      "meaning": "星辰慈愛、育む愛、無償の加護",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c6a8a41155c207b943b39317713b5e1e85251b7b98d05744c5ef0d2c7143ac23",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30331,
+      "root": "zulyr",
+      "meaning": "静寂なる独処、星辰孤高、独座",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "46e5af25a7dba453b709313f120846a4a6ce6f24f2a9f76e39baa0204d7fa662",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30332,
+      "root": "parylis",
+      "meaning": "熱情、探求の炎、激しい志気",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1d02780ea26f53d014d66f3f74344fb4f37701ab25afb7a895b9ad17868ac703",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30333,
+      "root": "koldar",
+      "meaning": "警戒心、研ぎ澄まされた注意力",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e176aa80a002dbd905b420b04f0e415e6c832a134f7610b849e3936518f0d59c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30334,
+      "root": "torlyn",
+      "meaning": "星辰悲哀、星の瞬きの哀感、惜別の情",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fe7c03ef0a14f26921039bc5135aefbbd5aa905f83bb35a3b0540bdd75574894",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30335,
+      "root": "helvas",
+      "meaning": "情緒平穏、心湖安寧",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7ca7f6565f2e14f9f2b3d441fd22cd2e582cd0e9badbb3f0c2da87ecbcc2c5bc",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30336,
+      "root": "falzin",
+      "meaning": "法悦閃光、魂の純歓",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c3cc4792a6d69142665a129e3e1c63162eb9339e519ee32cf8ab990654741b38",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30337,
+      "root": "falmator",
+      "meaning": "星石ランタン、光石照明具、携行灯",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d7bf76af0c0e96cae623f457fab0d3285d42ff1afb2573f0bd530f4bdbb79301",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30338,
+      "root": "serkel",
+      "meaning": "星紋織、織布、天体紋様の布",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1cbff961fd9c03911864fe34be680d68ca76b3bc0319240e4b7b57d7955e7a05",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30339,
+      "root": "vontar",
+      "meaning": "星粘土器、釉薬陶器",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c9d5be7c8a61edba8f67faef456878362d72406a485ef9884ad36fc4ba5940e2",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30340,
+      "root": "dolkiv",
+      "meaning": "記録針、刻印ペン、星石鉄筆",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3403ae29b9e0ee648656614056b6290ee32f15ced18d30b4349705ef207aae2a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30341,
+      "root": "tanmator",
+      "meaning": "蒸留器、霊薬抽出器、精製窯",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3ffff36270d959d9acd9bc455312107566c8e0e5a758fa4ce50150f63a954b23",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30342,
+      "root": "morvel",
+      "meaning": "夜天の外套、防寒星羽衣",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5a1f4d5fc19259ec88235535cf48bb4cece696fd7c83e4fa8d85971f991a447e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30343,
+      "root": "survan",
+      "meaning": "蓄熱調理台、熱石調理台",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0d90bf562b531e0d19a57ea7fc5707190b5c63f89a74438525e6e1d67b50ba10",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30344,
+      "root": "belkor",
+      "meaning": "石工、彫刻師、石刻匠",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "f480d713e0936895c2055694b24e397fd2f6d8c0fb738c491ab34c7b851de7e1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30345,
+      "root": "serkor",
+      "meaning": "織手、紡ぎ手、織工",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e8a342344b3bfe269021f23672d96f712ef05e696f28a9997c6a32f51b57f31b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30346,
+      "root": "vonkor",
+      "meaning": "陶工、窯元、作陶師",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "6de2ead36facf5c3a855d91cfa844c1550035b19e5da58c65f3ba791d618ee15",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30347,
+      "root": "lyrvad",
+      "meaning": "星影裂け谷、地割峡谷",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "459cdbff523f9ec41ab0276a17fd44d23f5a02258f42dddf4cf5dd6de989eafb",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30348,
+      "root": "zelkyr",
+      "meaning": "星砂の砂丘、砂波",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "638a0f3528713471e3cfb9d0889ec2a08e3ea02399588a04d38e195642262070",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30349,
+      "root": "morven",
+      "meaning": "霧深き沼沢、星辰湿原、星沼",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a390ef7fe2e863f9c5190379c1ae4680ac819ceb1c7a802700dad99c46187465",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30350,
+      "root": "tarvyr",
+      "meaning": "岩礁群、群島、星散島",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5329acc90b4ef4ee679a15f444438be9117546e126a9b0761d048958d78e35c2",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30351,
+      "root": "falnod",
+      "meaning": "清水の泉、湧水池、星雫泉",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b7c42f9568e2730a097d8091ff4ca400bc8ecb3fdebdea6400262a4c24c6a5f9",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30352,
+      "root": "kymril",
+      "meaning": "白霜、星霜、夜天の霜",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "067d4e8cb0c2dac265cd7ded027820ce09588c97dff309c51df0cb8e1aa0d93d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30353,
+      "root": "celton",
+      "meaning": "雷雲、放電雲、天鳴雲",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0519d1beb94e318bbc384d99a41c996fffaa9c905c5bc787eb27ddc958029ea0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30354,
+      "root": "novlis",
+      "meaning": "微風、宵のそよ風、息吹の風",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2755c9af7b8ec4b51862184f54f053648bbb2891e368c9b101faa510fcef42b5",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30355,
+      "root": "valkym",
+      "meaning": "星辰永久凍土、氷結地、凍原",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "113bd35cfd4d5084cc8bdcea01c8663bbd45bac1aac699a5c508b98ffcdadf38",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30356,
+      "root": "zenvor",
+      "meaning": "潮汐、引力波の干満、星汐",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "18b9e02a2c59978d63719c7d53a7e5c0faea0519f6dab6d4ccb8173d5102197d",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30357,
+      "root": "solvad",
+      "meaning": "星辰盆地、星窪地、山間平野",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "191c428cddab1c1afa6a85154a35c0d74472fe039f2814326f90a35d74bfa04b",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30358,
+      "root": "kyrton",
+      "meaning": "落石、岩崩れ、砕石流",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "0e483bad37c070778a29c55881cdf53eccc32632d9b3ce3e6d3661540fdf4c6f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30359,
+      "root": "valmir",
+      "meaning": "染み渡る、浸透する、内奥へ及ぶ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "983584667f6493eb6f88aad4dd0403e44be06de37407e956763f5a92806ffcb3",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30360,
+      "root": "jyltan",
+      "meaning": "微調整する、精密に合わせる、調律する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "94e84a1d229b3e715a0dcc67781b173c64a47cf42b71efe26447613f988aded1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30361,
+      "root": "vorpad",
+      "meaning": "凝縮する、星辰結実する、星辰結晶化する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "557a5616f208e322368ef3061ab4021a81a386d7118e047b85bd2f8ad190210c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30362,
+      "root": "tarzon",
+      "meaning": "超越する、限界を超える、超脱する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "b92b95bea1527b706314766fd0a654e6d566b97f61ab87b2638d3c556162ea66",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30363,
+      "root": "nyrmel",
+      "meaning": "反響する、木霊する、鳴り響く",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "177a1e0d88b320bbedb4ab8a4eea301f31693343952e2fc9358d5a979d61da1e",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30364,
+      "root": "falvor",
+      "meaning": "昇華する、気化して輝く、高みへ昇る",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "815c704ee66d36b8bef45b3dce9f7a61c5f964675e72ba0e6b5d72c958dbf7a1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30365,
+      "root": "dalken",
+      "meaning": "刻印する、石に刻み込む、銘記する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "9ab65de6db0c33592e22ea177a6dc1108ffb7ddee68e1c0303c0ebe8f9c36627",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30366,
+      "root": "peldor",
+      "meaning": "踏査する、未知の領域を探検する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7f23fb40a57cbd48b53b927e0edb8aa5675b0b3c9bfc064bdc06770788f57032",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30367,
+      "root": "kelsur",
+      "meaning": "集約する、星辰束ねる、統合する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "8ed14aa898a53009efbb69f2bbf895ceb24a28800157d4728315a6ec8e63cd44",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30368,
+      "root": "zenpar",
+      "meaning": "共振する、周波数を合わせる、星辰同調する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7b34074113d47b0b486a014dd382b4e7a71484947cb8afecceb7d58bc8a1089f",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30369,
+      "root": "marvyl",
+      "meaning": "解き放つ、解放する、枷を解く",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1cabd684ba8b47ce4297e37d2c3142ea85c763d18ce4ffb7375a0b77b65b69b6",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30370,
+      "root": "tornen",
+      "meaning": "星辰手放す、断ち切る、未練を捨てる",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d70a4587934baec3d41b85251b7ec2e8016dd9b2982e28515ee7c66658e5b980",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30371,
+      "root": "surlon",
+      "meaning": "煎じる、煮出す、成分を抽出する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "17ef8848e8ad939df29695d2fa1ab87cda766c2434db3bc464d8ffbc0e3c2107",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30372,
+      "root": "lyrzen",
+      "meaning": "瞑想する、星空の下で想索する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "1f58c3a11afd56401cf885ce93bf8679e82b3ea1eb9a1c2a888db27784c639fa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30373,
+      "root": "kymtor",
+      "meaning": "凍結させる、静止させる、保全する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "7690f038b76d01ee9b23fe66bd49986ea7da5e42cef86d18cd67dee24ed6122c",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30374,
+      "root": "novpan",
+      "meaning": "芽吹く、萌え出る、新生する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "5967dd5f0616dd4798c8f99d059be0bec61f859f749f25441cc94bc2480f42f7",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30375,
+      "root": "celmar",
+      "meaning": "仰ぎ見る、天を拝する、星辰見上げる",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "308817beb8658880f8882e20da9462870bb06bb4b3a0f605ec5d84d7fef4a7c4",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30376,
+      "root": "tulpar",
+      "meaning": "根付く、定着する、地に根を張る",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "a6c85557b7faadb774616a2359898167b20f816d05d09765971f83c1a9039b33",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30377,
+      "root": "durfal",
+      "meaning": "研ぎ澄ます、鍛錬する、鋭敏にする",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "64290f64277e748a2aa5952731b648471e86db1c32ebcc68960afbe6866eccb1",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30378,
+      "root": "morken",
+      "meaning": "遮蔽する、影に隠す、秘匿する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "89219a49b055ed4f6ab8ecb3258dfaffd531e758c769b88bbb6898be5b3070e0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30379,
+      "root": "fanvor",
+      "meaning": "熱望する、渇望する、心焦がす",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "edaac597a17934c2d72e03435c9a6ec80a622624fe7b33074c7dd243c1d41e46",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30380,
+      "root": "solmer",
+      "meaning": "沈殿する、静まる、底に落ち着く",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "061f29b486b6edecc1bae1e46173bd00c6ea999d1fccf4617291bb97c57ad327",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30381,
+      "root": "zelmar",
+      "meaning": "風化する、砂となる、時の洗礼を受ける",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "13364759847ce8e9a040ccf6fdea06495519070a4e22bd7f08589621b5ab4cc0",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30382,
+      "root": "kirlan",
+      "meaning": "統御する、秩序を保つ、規律する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "15ecf980b040a56455278b088eb8c0ae2095ff45d3ef9e536711cb98ce5d1cbf",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30383,
+      "root": "velpar",
+      "meaning": "紡ぎ出す、織り成す、細工する",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "862ab4090c1ac433aa11ce3fd08d6596356331bd12267a0619f22d79b85f1a95",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30384,
+      "root": "faldur",
+      "meaning": "強輝なる、星辰眩い、光彩陸離たる",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3048bf01e5db5d2cb702d538ff66401a933badcb7ec791ed4c7d20e651ddd405",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30385,
+      "root": "mornel",
+      "meaning": "幽暗な、星辰薄暗い、微光の",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "be344c704c2f73c8490fb4943c128d45e8aababab87f178134a58fab36426a11",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30386,
+      "root": "zenval",
+      "meaning": "精緻な、星辰調和のとれた、寸分の狂いなき",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "d9260de9c880fc83ec0995c18e1583b48cdc74228b4b4a12564cdbe8385a26f4",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30387,
+      "root": "lyrtan",
+      "meaning": "高邁な、崇高な、気品ある",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "c35e7f174d2cbb87bee4dc226f6d8acb3fccb1c4f0c89e83c3d0fd28308f4b71",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30388,
+      "root": "tulkor",
+      "meaning": "堅牢な、揺るぎない、強固な",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "fb27fcbda409461c7533eac22494549c5a94e7b588e04d77d00e4274a7b1dcee",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30389,
+      "root": "novran",
+      "meaning": "星辰みずみずしい、初々しい、星辰新緑の",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "50b8c63454c37420e53c26bbf52f11991ba4a3c773f4f1beecc9b0871b3e14c8",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30390,
+      "root": "velkym",
+      "meaning": "冷涼な、清廉な、澄み渡る冷気ある",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "2e54b120f94071cb47c25f507c33c69dc673408b94c9d1a70bde83d238acdd13",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30391,
+      "root": "parsur",
+      "meaning": "星辰灼熱の、星辰熱烈な、激しく燃え盛る",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "3f5031dc075b0298d2abb3ede97d17a3c69016fd65eaa3f56da020b096bbdf57",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30392,
+      "root": "dortan",
+      "meaning": "忠実な、献身的な、約束を守る",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "e8065c2fcedc685dfb889bacbf64a6888252114d35b8da2c0b1717617672175a",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30393,
+      "root": "soltis",
+      "meaning": "平穏無事な、波風立たぬ、静止せる",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "35a831d85db74d62c6024d405dd06b763c2212a209056c07c022779e6f73cbfa",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
+    },
+    {
+      "id": 30394,
+      "root": "harton",
+      "meaning": "険しい、峻烈な、容易に近づけぬ",
+      "status": "needs-independent-review",
+      "adoptedIntoCanonical": false,
+      "targetEntryHash": "385a9b4a52f78eb904744a7cac5eeb56c3e57d0bbdbbfa340ed9db81af412fa2",
+      "distinctions": [],
+      "checks": {
+        "earthLanguageComparison": "pending",
+        "independentSemanticReview": "pending"
+      }
     }
   ],
   "frameReview": {
     "source": "data/translation_patterns.json",
-    "sha256": "0fee1084f66ac1899dd80155d68fc88380b6ef0d5901cc17eb96d92e93c62843",
-    "status": "provisional",
+    "sha256": "cc935e9d9898375a43409f38149691bc5dfd2f9adccb1b8328e4423ca3d11a14",
+    "status": "needs-independent-review",
     "canonicalFramesOverwritten": false,
-    "note": "各項構造は追加案として表示。自動テストの成功を言語審査の承認にはしない。"
-  }
+    "note": "各項構造は追加案として表示。自動テストの成功を言語審査の承認にはしない。",
+    "previousSha256": "0fee1084f66ac1899dd80155d68fc88380b6ef0d5901cc17eb96d92e93c62843"
+  },
+  "previousLedger": "audit/maintenance/language-review-ledger-before-20261018.json"
 }

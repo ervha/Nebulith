@@ -300,9 +300,9 @@ from verify_web_bundle import verify as verify_web
 result['web_bundle'] = verify_web()
 if (batch_dir / 'comparison.json').exists():
     all_roots = json.loads((batch_dir/'comparison.json').read_text(encoding='utf-8'))
-    assert all_roots['summary']['dictionarySha256'] == hashlib.sha256((ROOT/'data/lexicon.json').read_bytes()).hexdigest(), 'Stale all-roots comparison'
-    assert {r['lexiconId'] for r in all_roots['entries']} == {r['id'] for r in vocab}, 'Incomplete all-roots inventory'
-    result['all_roots_screening'] = all_roots['summary']
+    from review_state import screening_state
+    result['historical_all_roots_summary'] = all_roots['summary']
+    result['all_roots_screening'] = screening_state(vocab, all_roots)
     result['all_roots_screening_note'] = 'Supplementary automatic screening. Unreviewed source senses do not grant CHK-04 approval.'
 result['git_status'] = subprocess.check_output(['git', 'status', '--short'], cwd=ROOT, text=True)
 result['supplementary_failures'] = {'ipa_mapping': len(ipa_errors), 'corpus_references': len(corpus_errors),

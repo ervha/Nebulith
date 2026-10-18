@@ -147,7 +147,9 @@ class RemediationChecks(unittest.TestCase):
         evidence = json.loads(output.read_text(encoding='utf-8'))
         self.assertEqual('Warn', evidence['scorecard']['CHK-04']['status'])
         self.assertEqual('Reference', evidence['scorecard']['CHK-08']['status'])
-        self.assertEqual('Fail', evidence['scorecard']['CHK-08']['historicalDiagnostic'])
+        self.assertEqual('Warn', evidence['scorecard']['CHK-08']['historicalDiagnostic'])
+        self.assertTrue(evidence['all_roots_screening']['pendingIds'])
+        self.assertFalse(evidence['all_roots_screening']['semanticCertification'])
         self.assertEqual('Pass', evidence['scorecard']['CHK-12']['status'])
         self.assertEqual('Pass', evidence['scorecard']['CHK-15']['status'])
         self.assertEqual([], evidence['field_differences'])
@@ -168,9 +170,15 @@ class RemediationChecks(unittest.TestCase):
     def test_individual_codas_and_sourced_collision_repair(self):
         from earth_comparison import load_and_compare
         result = coda_review(self.vocab, self.codas)
-        self.assertTrue(result['complete'])
-        self.assertEqual((33, 127), (len(result['approved']), len(result['rejected'])))
-        self.assertAlmostEqual(881/1008, result['complianceRate'])
+        self.assertFalse(result['complete'])
+        self.assertEqual([], result['errors'])
+        self.assertEqual((33, 116, 11), (len(result['approved']), len(result['rejected']), len(result['pending'])))
+        self.assertIsNone(result['complianceRate'])
+        self.assertAlmostEqual(881/1008, result['verifiedLowerBound'])
+        for row in self.codas['entries']:
+            if row['decision'] == 'pending':
+                self.assertIn('previousReview', row)
+                self.assertNotEqual(row['reviewedAgainstEntryHash'], row['previousReview']['reviewedAgainstEntryHash'])
         sourced = load_and_compare(self.vocab)
         self.assertEqual([], sourced['errors'])
         self.assertEqual([], sourced['confirmed'])
