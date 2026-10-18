@@ -4,3 +4,11 @@
 # Preserve the exact bytes covered by historical evidence digests.
 /audit/2026-10-15-reaudit-02/build_glyph_specimen.py -text
 /audit/maintenance/emergent-ledger-before-remediation-20261016.json -text
+/audit/2026-10-15-reaudit-02/collector.log -text
+/audit/2026-10-15-reaudit-02/comprehensive.log -text
+/audit/2026-10-15-reaudit-02/evidence.json -text
+/audit/2026-10-15-reaudit-02/false-friends.log -text
+/audit/2026-10-15-reaudit-02/glyph-specimen.html -text
+/audit/2026-10-15-reaudit-02/independent.json -text
+/audit/2026-10-15-reaudit-02/independent.log -text
+/audit/2026-10-15-reaudit-02/root-families.log -text

@@ -170,68 +170,68 @@
 | 130 | **jylom** | `[ʒy.lom]` | 名 | 集合、集約配列、コレクション | set, collection, array | 結びついた要素群 |
 | 131 | **jylvat** | `[ʒyl.vat]` | 名 | グラフ構造、連結網、関係図 | graph structure, network topology | jyl (結合) ＋ 格子配列 |
 | 132 | **jyn** | `[ʒyn]` | 名 | 電気、電力、電荷、エネルギー | electricity, power, energy | 電力・エネルギー |
-| 133 | **jyncon** | `[ʒyn.ʃon]` | 名 | 論理ゲート、電脳回路素子、スイッチング素子 | logic gate, switching semiconductor element | jyn (電子) + con (接点) |
+| 133 | **jyncon** | `[ʒyn.ʃon]` | 名 | 論理光路、星石回路素子、光流開閉素子 | logic gate, astral circuit element, flux switch | jyn (電子) + con (接点) |
 | 134 | **jynel** | `[ʒy.nel]` | 名 | バッテリー、蓄電池、電源 | battery, power cell | 蓄電器 |
-| 135 | **jynkas** | `[ʒyn.kas]` | 名 | パケット、転送単位、信号塊 | data packet, transmission frame | jyn (電気) + kas (束) |
-| 136 | **kiran** | `[ki.ran]` | 動 | （コードを）記述する、紡ぐ、組む | write code, program, compile | プログラミング動詞 |
+| 135 | **jynkas** | `[ʒyn.kas]` | 名 | 光符束、信号塊、伝送光節 | light-rune packet, signal bundle, transmission frame | jyn (電気) + kas (束) |
+| 136 | **kiran** | `[ki.ran]` | 動 | 星符を記述する、数理譜を紡ぐ、論理を組む | inscribe astral runes, weave logic, formulate script | プログラミング動詞 |
 | 137 | **kirfas** | `[kir.fas]` | 名 | 手順、段取り、プロセス、手続き | procedure, protocol, process | kiras (創る/組む) ＋ 工程 |
-| 138 | **kirpan** | `[kir.pan]` | 動 | デプロイする、配備する、実稼働に載せる | deploy, roll out, install into production | kiran (コード) + pan (展開) |
-| 139 | **kirvat** | `[kir.vat]` | 名 | スキーマ、データ構造定義、論理骨格 | schema, data structure layout | kiran (記述) ＋ 格子 |
-| 140 | **kirvel** | `[kir.vel]` | 名 | ルーティング、経路制御、伝送路選定 | routing, path control | kir (導く) + vel (経路) |
-| 141 | **kiv** | `[kiv]` | 名 | ビット、二値単位、情報最小光点 | bit, binary unit | 瞬発的最小二値 |
-| 142 | **kivkas** | `[kiv.kas]` | 名/動 | シリアライズ、直列化する、ビット列化 | serialize, marshal to stream | kiv (ビット) ＋ 連続化 |
-| 143 | **kivku** | `[kiv.ku]` | 副 | ビット単位で、微細に、逐一 | bit by bit, granularity, item by item | kiv (ビット) ＋ 共格副詞 |
-| 144 | **kivlom** | `[kiv.lom]` | 名 | バイト、オクテット、情報ブロック | byte, octet, data block | kiv (ビット) ＋ -om (集合) |
-| 145 | **kivmor** | `[kiv.mor]` | 名 | ビット演算、論理シフト、ビットマスク | bitwise operation, bit mask, shift | kiv (ビット) + mor (操作) |
-| 146 | **kivron** | `[kiv.ron]` | 名 | ストリーム、連続データ流、ビット流 | data stream, continuous byte sequence | kiv (情報) + ron (流水) |
-| 147 | **krotcon** | `[krot.ʃon]` | 名 | フォールトトレランス、障害耐性、冗長系 | fault tolerance, redundant failover | krot (障害) + con (防護) |
-| 148 | **krotel** | `[kro.tel]` | 名 | 例外、ランタイムエラー、異常割り込み | exception, runtime interrupt | krot (激動) ＋ 信号器 |
-| 149 | **krotis** | `[kro.tis]` | 名 | バグ、論理欠陥、不整合 | software defect, glitch, anomaly | krot (破綻) + is (状態) |
-| 150 | **krotpan** | `[krot.pan]` | 動 | クラッシュする、異常終了する、破綻する | crash, abend, terminate abnormally | krot (破綻) + pan (分解) |
-| 151 | **kyvren** | `[kyv.ren]` | 名/動 | 暗号、暗号化する、秘匿符号 | cipher, encrypt | 秘匿論理 |
-| 152 | **livar** | `[li.var]` | 名 | データベース、書庫、情報保管庫 | database, repository | データ集積所 |
-| 153 | **livkas** | `[liv.kas]` | 名 | アーカイブ、長期保管記録、恒久書庫 | archive, persistent store, vault | livar (保管庫) + kas (強固) |
-| 154 | **livpan** | `[liv.pan]` | 動 | 同期する、データを一致させる、レプリケートする | synchronize, replicate, reconcile data | livar (保存) + pan (一致化) |
-| 155 | **livsol** | `[liv.sol]` | 名 | トランザクション、不可分確定処理 | transaction, atomic commit unit | livar (保存) + sol (完全塊) |
+| 138 | **kirpan** | `[kir.pan]` | 動 | 星辰儀を据え付ける、実地配備する、運行に載せる | install apparatus, deploy into field, place into operation | kiran (コード) + pan (展開) |
+| 139 | **kirvat** | `[kir.vat]` | 名 | 論理骨格、星符構造定義、記録規型 | logical framework, rune structure layout, schema | kiran (記述) ＋ 格子 |
+| 140 | **kirvel** | `[kir.vel]` | 名 | 星網流路選定、光路制御、中継路選定 | astral path selection, optical routing, transmission relay | kir (導く) + vel (経路) |
+| 141 | **kiv** | `[kiv]` | 名 | 二値光点、光符単位、最小情報点 | binary light-point, rune unit, elementary quantum of information | 瞬発的最小二値 |
+| 142 | **kivkas** | `[kiv.kas]` | 名/動 | 順序整列する、光列化する、直列記録する | sequence in order, align into stream, serialize linearly | kiv (ビット) ＋ 連続化 |
+| 143 | **kivku** | `[kiv.ku]` | 副 | 一光点ごとに、微細に、逐一精密に | point by point, granularly, meticulously | kiv (ビット) ＋ 共格副詞 |
+| 144 | **kivlom** | `[kiv.lom]` | 名 | 八連光節、光符塊、情報節塊 | octonary rune block, data unit block, byte cluster | kiv (ビット) ＋ -om (集合) |
+| 145 | **kivmor** | `[kiv.mor]` | 名 | 光符演算、論理変調、光点操作 | rune-point operation, logical shift, bitwise calculation | kiv (ビット) + mor (操作) |
+| 146 | **kivron** | `[kiv.ron]` | 名 | 連続光符流、光点流、情報奔流 | continuous rune stream, light-point flow, flux sequence | kiv (情報) + ron (流水) |
+| 147 | **krotcon** | `[krot.ʃon]` | 名 | 星網欠陥耐性、恒久堅牢性、二重保全系 | fault resilience, structural permanence, redundant failover | krot (障害) + con (防護) |
+| 148 | **krotel** | `[kro.tel]` | 名 | 光路異常、異状断絶、突発異状 | path anomaly, optical exception, runtime interrupt | krot (激動) ＋ 信号器 |
+| 149 | **krotis** | `[kro.tis]` | 名 | 星符欠陥、論理の歪み、不整合 | rune defect, logical flaw, anomaly, glitch | krot (破綻) + is (状態) |
+| 150 | **krotpan** | `[krot.pan]` | 動 | 瓦解する、運行破綻する、激甚崩壊する | collapse catastrophically, break down, terminate fatally | krot (破綻) + pan (分解) |
+| 151 | **kyvren** | `[kyv.ren]` | 名/動 | 星暗号、秘匿符号、秘紋を刻む | astral cipher, occult seal, encrypt | 秘匿論理 |
+| 152 | **livar** | `[li.var]` | 名 | 星辰書庫、記録保管座、天測宝庫 | astral repository, record vault, archive chamber | データ集積所 |
+| 153 | **livkas** | `[liv.kas]` | 名 | 恒久保管記録、永久書庫、原典保管函 | perpetual archive, ancestral record vault, timeless store | livar (保管庫) + kas (強固) |
+| 154 | **livpan** | `[liv.pan]` | 動 | 波長同調する、記録を照合一致させる、同調する | synchronize harmonic frequency, reconcile records, replicate | livar (保存) + pan (一致化) |
+| 155 | **livsol** | `[liv.sol]` | 名 | 不可分確定事象、不可分誓約、確約単位 | indivisible atomic event, sacred compact, atomic transaction | livar (保存) + sol (完全塊) |
 | 156 | **lyvel** | `[ly.vel]` | 名 | 写真、画像、静止画 | photo, image, graphic | 刻印された受光像・写真。photo/imageと完全分離 |
 | 157 | **marnat** | `[mar.nat]` | 名 | 行列、マトリクス、格子配列 | matrix, grid array | 格子状行列・数学マトリクス。樹木velから分離 |
-| 158 | **mator** | `[ma.tor]` | 名 | コンピューター、端末、演算機械 | computer, terminal | 精緻な計算機巧 |
-| 159 | **matorcon** | `[ma.tor.ʃon]` | 名 | オペレーティングシステム、統御核、カーネル | operating system kernel, control core | mator (機械) + con (中枢) |
-| 160 | **matoris** | `[ma.to.ris]` | 名 | 演算器、ALU、プロセッサコア | processor core, arithmetic unit | mator (計算機) ＋ 核 |
-| 161 | **pelel** | `[pe.lel]` | 名 | スマートフォン、携帯情報端末 | smartphone, mobile device | 手のひらの端末 |
-| 162 | **sevik** | `[se.vik]` | 名 | 条件分岐、フォーク、判定節 | branch, conditional fork | 論理の分岐点 |
-| 163 | **sorcon** | `[sor.ʃon]` | 名 | ガベージコレクション、メモリ解放整理 | garbage collection, memory compaction | soril (メモリ) + con (浄化) |
-| 164 | **soril** | `[so.ril]` | 名 | メモリ、記憶素子、バッファ | memory, cache, buffer | 記録を保持する素子 |
-| 165 | **sorvat** | `[sor.vat]` | 名 | レジスタ、超高速記憶枠、保持器 | register, high-speed storage cell | soril (記憶) + vat (枠) |
-| 166 | **suf** | `[suf]` | 名/動 | 計算、論理、アルゴリズム | computation, logic | 鋭敏な摩擦音語末 |
-| 167 | **suflik** | `[suf.lik]` | 名 | ヒューリスティック、探索近似法 | heuristic, approximate search | suf (計算) + lik (探索) |
-| 168 | **suflit** | `[suf.lit]` | 名 | 要約、まとめ、抄録、骨子 | summary, abstract, recap | suf (計算/論理) ＋ 凝縮 |
-| 169 | **sufom** | `[su.fom]` | 名 | 情報工学、電脳空間、IT領域 | computer science, cyberspace | 計算・情報分野 |
-| 170 | **sufor** | `[su.for]` | 名 | プログラマー、ITエンジニア、論理士 | programmer, software engineer | 論理技術職 |
-| 171 | **sufrin** | `[suf.rin]` | 名 | 暗号鍵、認証トークン、署名符号 | cryptographic key, auth token | suf (計算) ＋ rin (環) |
-| 172 | **suftar** | `[suf.tar]` | 名 | スレッド、並行処理並列流 | thread, concurrent execution flow | suf (計算) + tar (細流) |
-| 173 | **suftas** | `[suf.tas]` | 名 | スタック、キュー、順序待ち列 | stack, queue, buffer sequence | suf (計算) ＋ 順序配列 |
-| 174 | **suftin** | `[suf.tin]` | 名 | チェックサム、ハッシュ検証値、誤り検出符号 | checksum, cyclic redundancy hash, digest | suf (計算) + tin (検査印) |
+| 158 | **mator** | `[ma.tor]` | 名 | 星辰演算儀、天測計算機、星石盤 | astral computation engine, astrolabe calculator, celestial device | 精緻な計算機巧 |
+| 159 | **matorcon** | `[ma.tor.ʃon]` | 名 | 全系統御核、天測主幹律、統御中枢律 | master control core, sovereign operating system, executive core | mator (機械) + con (中枢) |
+| 160 | **matoris** | `[ma.to.ris]` | 名 | 星石演算核、推論中枢、中枢演算器 | computation nucleus, reasoning core, arithmetic logic unit | mator (計算機) ＋ 核 |
+| 161 | **pelel** | `[pe.lel]` | 名 | 携帯星盤、携行天測板、携帯光符盤 | portable astrolabe, handheld celestial tablet, portable device | 手のひらの端末 |
+| 162 | **sevik** | `[se.vik]` | 名 | 条理分岐、軌道選択節、判定岐路 | logic branch, orbital fork, conditional threshold | 論理の分岐点 |
+| 163 | **sorcon** | `[sor.ʃon]` | 名 | 余剰記憶浄化、記憶領域整正、忘却整頓 | memory purification, compaction, memory purge | soril (メモリ) + con (浄化) |
+| 164 | **soril** | `[so.ril]` | 名 | 星石記憶素、記憶器、想念保持座 | astral memory store, recollection reservoir, memory cell | 記録を保持する素子 |
+| 165 | **sorvat** | `[sor.vat]` | 名 | 即応記憶枠、超高速保持器、瞬時記憶座 | rapid retrieval cache, ultra-fast memory register, cell | soril (記憶) + vat (枠) |
+| 166 | **suf** | `[suf]` | 名/動 | 数理、星辰計算、演繹律 | astral computation, mathematical deduction, algorithm | 鋭敏な摩擦音語末 |
+| 167 | **suflik** | `[suf.lik]` | 名 | 星辰近似測位、天測推定法、経験則推定 | celestial approximation, heuristic estimation, empirical method | suf (計算) + lik (探索) |
+| 168 | **suflit** | `[suf.lit]` | 名 | 要録、観測抄録、骨子、要綱 | abstract, observational summary, synopsis, essence | suf (計算/論理) ＋ 凝縮 |
+| 169 | **sufom** | `[su.fom]` | 名 | 星辰数理工学、光符演算界、星網情報界 | astral computational science, mathematical realm, cyberspace | 計算・情報分野 |
+| 170 | **sufor** | `[su.for]` | 名 | 星辰数理士、光符算定士、論理工範士 | astral computational scholar, logic engineer, programmer | 論理技術職 |
+| 171 | **sufrin** | `[suf.rin]` | 名 | 星辰認証印、照合符信、開扉符標 | astral credential seal, authentication token, signature cipher | suf (計算) ＋ rin (環) |
+| 172 | **suftar** | `[suf.tar]` | 名 | 並行思索流、並列運行線、並行観測条 | concurrent calculation stream, parallel thread, execution flow | suf (計算) + tar (細流) |
+| 173 | **suftas** | `[suf.tas]` | 名 | 順序待機列、累積連載列、堆積待機座 | sequence buffer queue, ordered stack, waiting line | suf (計算) ＋ 順序配列 |
+| 174 | **suftin** | `[suf.tin]` | 名 | 星符照合印、誤り検知符、完全性検証値 | integrity checksum, cyclic verification hash, digest seal | suf (計算) + tin (検査印) |
 | 175 | **tolas** | `[to.las]` | 名 | メッセージ、通信文、便り | message, dispatch | 短い便り |
-| 176 | **tolcon** | `[tol.ʃon]` | 名 | プロトコル、通信規約、伝送規程 | protocol, transmission pact | tolas (通信) + con (約定) |
-| 177 | **tolkat** | `[tol.kat]` | 名 | レイテンシ、伝送遅延、応答時間 | latency, propagation delay, response lag | tolas (通信) + kat (遅滞間隔) |
-| 178 | **tolom** | `[to.lom]` | 名 | インターネット、Web、世界通信網 | internet, cyber network | 世界情報網 |
-| 179 | **tolpan** | `[tol.pan]` | 動 | ルーティングする、中継転送する、フォワードする | forward, route packet, relay transmission | tolas (通信) + pan (中継) |
-| 180 | **tolpar** | `[tol.par]` | 名 | ブロードキャスト、一斉同報、全域送信 | broadcast, omnidirectional beacon | tolas (通信) + par (全域) |
-| 181 | **tolrin** | `[tol.rin]` | 名 | 帯域幅、伝送容量、チャンネル幅 | bandwidth, channel capacity | tolas (通信) + rin (環/枠) |
+| 176 | **tolcon** | `[tol.ʃon]` | 名 | 星網通信規程、伝送誓約律、交信儀礼 | astral communication protocol, transmission compact, transmission law | tolas (通信) + con (約定) |
+| 177 | **tolkat** | `[tol.kat]` | 名 | 星光伝達遅延、伝送遅延、応答間隙 | signal propagation delay, latency, transmission lag | tolas (通信) + kat (遅滞間隔) |
+| 178 | **tolom** | `[to.lom]` | 名 | 全天交信星網、大星網、天界通信網 | all-sky communication network, great astral web, global network | 世界情報網 |
+| 179 | **tolpan** | `[tol.pan]` | 動 | 星網中継する、光路選定する、中継転送する | relay transmission, forward optical route, route packet | tolas (通信) + pan (中継) |
+| 180 | **tolpar** | `[tol.par]` | 名 | 全天一斉放射、全域同報信、全天同報 | all-sky broadcast, omnidirectional transmission, celestial beacon | tolas (通信) + par (全域) |
+| 181 | **tolrin** | `[tol.rin]` | 名 | 星網伝送容量、受光帯域幅、通信流路幅 | transmission capacity, spectral bandwidth, channel capacity | tolas (通信) + rin (環/枠) |
 | 182 | **torin** | `[to.rin]` | 名/動 | 入力、インプット、流入データ | input, ingress | 到来する入力 |
 | 183 | **tyk** | `[tyk]` | 名 | クロック、時計信号、規則拍 | clock, timing pulse | 刻時破裂音 |
-| 184 | **vedil** | `[ve.dil]` | 名 | 真偽値、論理極性、ブーリアン | boolean, truth-value | ved (論理極性) + -il (値/素子: 真偽値、ブーリアン) |
-| 185 | **velis** | `[ve.lis]` | 名/動 | 検索、クエリ、照会する | query, search lookup | 探求照会 |
-| 186 | **veltok** | `[vel.tok]` | 名/動 | インデックス、索引、検索目録 | index, search key | 探索の標識 |
-| 187 | **voret** | `[vo.ret]` | 名/動 | ループ、反復処理、再帰 | loop, iteration, recurse | 周回反復 |
-| 188 | **vylatel** | `[vy.la.tel]` | 名 | ディスプレイ、画面、モニター | display, screen, monitor | 映像出力板 |
+| 184 | **vedil** | `[ve.dil]` | 名 | 真偽律、光陰二極値、論理極性 | truth-value, light-shadow polarity, boolean state | ved (論理極性) + -il (値/素子: 真偽値、ブーリアン) |
+| 185 | **velis** | `[ve.lis]` | 名/動 | 星図探索する、観測照会する、探求する | query the stars, observational lookup, search | 探求照会 |
+| 186 | **veltok** | `[vel.tok]` | 名/動 | 星辰目録、観測索引、検索標記 | astral catalog, observation index, search directory | 探索の標識 |
+| 187 | **voret** | `[vo.ret]` | 名/動 | 周期巡回、輪廻巡行、反復周期 | orbital cycle, recurrent iteration, repetitive loop | 周回反復 |
+| 188 | **vylatel** | `[vy.la.tel]` | 名 | 星影投影面、観測表示板、天象投影盤 | celestial projection plate, observation screen, display monitor | 映像出力板 |
 | 189 | **vylom** | `[vy.lom]` | 名 | スコープ、視野域、有効範囲 | scope, valid range | 視界有効範囲 |
 | 190 | **wesan** | `[we.san]` | 動 | 送信する、送る、信号を放つ | send, transmit | 通信動詞 |
-| 191 | **zevcon** | `[zev.ʃon]` | 名 | 正規表現、パターン照合式 | regular expression, regex pattern syntax | zevil (構文) + con (整合) |
-| 192 | **zevil** | `[ze.vil]` | 名 | コード、プログラム、構文、文字列 | code, syntax, script | 論理文字列 |
-| 193 | **zevkas** | `[zev.kas]` | 名/動 | パース、構文解析する、構文木 | parse, syntax analysis, AST | zevil (構文) ＋ 解析 |
-| 194 | **zydot** | `[zy.dot]` | 名/動 | 検証、アサーション、実証テスト | validation, assertion, proof test | zyd (検証実相) の確定 |
+| 191 | **zevcon** | `[zev.ʃon]` | 名 | 星符定型照合式、律動文様式、照合律 | rune pattern formula, regular expression, symbolic match syntax | zevil (構文) + con (整合) |
+| 192 | **zevil** | `[ze.vil]` | 名 | 星辰記述文、数理言辞、星符譜 | celestial script, mathematical syntax, program code | 論理文字列 |
+| 193 | **zevkas** | `[zev.kas]` | 名/動 | 星符解読する、言辞解析する、構文分解する | decipher rune syntax, parse celestial script, analyze structure | zevil (構文) ＋ 解析 |
+| 194 | **zydot** | `[zy.dot]` | 名/動 | 実証検証する、公理証明する、確証する | verify by evidence, validate axiom, confirm truth | zyd (検証実相) の確定 |
 ### 4. 生命・生体・医療 (80語)
 
 | ID | 語根 (NRS) | IPA | 品詞 | 日本語意味 | 英語意味 | 語源・備考 |

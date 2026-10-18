@@ -20,12 +20,12 @@ jobs:
           python-version: '3.12'
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
       - run: python -m pip install -r requirements.txt
       - run: python tools/build_web_studio.py
       - name: Verify all tests
         run: |
-          python -m unittest discover -s tests -v
+          python -m unittest discover -s tests -v -f
           for test in tests/verify*.js; do
             if [ "$test" != "tests/verify_productive_translation.js" ]; then
               node "$test"

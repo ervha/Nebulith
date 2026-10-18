@@ -2,6 +2,7 @@
 import hashlib
 from fontTools.pens.svgPathPen import SVGPathPen
 from nebulith_data import ROOT, entry_hash
+from evidence_hash import recorded_digest_matches
 
 
 def coda_review(vocab, records):
@@ -47,7 +48,7 @@ def glyph_review(font, font_sha, records):
     if records.get('fontSha256') != font_sha:
         errors.append('font hash changed')
     criteria_sha = records.get('criteriaSha256')
-    if criteria_sha and criteria_sha != hashlib.sha256((ROOT / 'audit/docs/Nebulith Standard Audit Report.md').read_bytes()).hexdigest():
+    if criteria_sha and not recorded_digest_matches(ROOT / 'audit/docs/Nebulith Standard Audit Report.md', criteria_sha):
         errors.append('glyph review criteria changed')
     if len(rows) != len(names) or set(r.get('glyph') for r in rows) != set(names):
         errors.append('glyph inventory mismatch')

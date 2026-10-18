@@ -292,6 +292,20 @@
     const uniqueForms=forms.filter(f=>{const signature=JSON.stringify([f.id,f.ending,f.prefixes,f.suffix,f.adjective||0,f.feature||'']);if(seenForms.has(signature))return false;seenForms.add(signature);return true;});
     forms.splice(0,forms.length,...uniqueForms);
     forms.sort((a,b)=>b.ending.length-a.ending.length);
+    const formsByEnding = new Map();
+    for (const form of forms) {
+      if (!formsByEnding.has(form.ending)) formsByEnding.set(form.ending, []);
+      formsByEnding.get(form.ending).push(form);
+    }
+    function matchingForms(text) {
+      const matched = [];
+      // Longest suffix first, retaining the original order among equal endings.
+      for (let start = 0; start < text.length; start++) {
+        const rows = formsByEnding.get(text.slice(start));
+        if (rows) matched.push(...rows);
+      }
+      return matched;
+    }
 
     const verbChoiceMap = {
       '見る': [
@@ -454,7 +468,7 @@
       if(body.endsWith('か')) {question=true;body=body.slice(0,-1);}
       const results=[];
       let maxMatchLen = 0;
-      for(const f of forms) if(!f.feature && body.endsWith(f.ending)) {
+      for(const f of matchingForms(body)) if(!f.feature) {
         if(maxMatchLen && f.ending.length < maxMatchLen) continue;
         try {
           const head=body.slice(0,-f.ending.length);let args;
@@ -735,11 +749,11 @@
       const notes=[];let feature='';
       for(const [tail,label] of [['ことができなかった','過去の可能の否定'],['ことである','指針'],['ことです','指針'],['ことだ','指針'],['こと','行為'],['ことができない','可能の否定'],['ことができる','可能'],['必要がある','必要'],['つもりだ','意図'],['かもしれない','推量'],['と思う','思考'],['かも','推量']])if(text.endsWith(tail)){text=text.slice(0,-tail.length);feature=label;break;}
       const alias=[...aliases].sort((a,b)=>b.ending.length-a.ending.length).find(a=>text.endsWith(a.ending));
-      let form=alias ? forms.find(f=>f.ending===alias.replacement) : forms.find(f=>text.endsWith(f.ending));
+      let form=alias ? formsByEnding.get(alias.replacement)?.[0] : matchingForms(text)[0];
       const ending=alias?.ending || form?.ending;
       let senseOptions=[];
       if(!alias && form) {
-        const options=[...new Map(forms.filter(f=>f.ending===form.ending).map(f=>[f.id+':'+(f.adjective||0),f])).values()];
+        const options=[...new Map(formsByEnding.get(form.ending).map(f=>[f.id+':'+(f.adjective||0),f])).values()];
         if(options.length>1) {
           senseOptions=options.map(f=>{const e=byId.get(f.adjective||f.id);return {value:f.id+':'+(f.adjective||0),root:e.r,meaning:e.m};});
           const selected=options.find(f=>f.id+':'+(f.adjective||0)===choices.sense);
