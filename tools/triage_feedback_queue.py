@@ -39,7 +39,7 @@ def triage_queue_file(queue_file_path: str, provider_name: str = "mock", endpoin
         items = [items]
 
     if provider_name in ("openai", "colab") or endpoint:
-        provider = OpenAICompatibleProvider(base_url=endpoint, model=model)
+        provider = OpenAICompatibleProvider(base_url=endpoint, model=model, provider=provider_name)
     else:
         provider = MockLLMProvider()
     pipeline = DynamicEmergencePipeline(provider)

@@ -41,9 +41,10 @@ from simulate_agent_dialogue import (
     AUDIT_LEDGER_PATH,
     EMERGENT_LOG_PATH
 )
+from llm_endpoint import LlmEndpointError, authorization_headers, resolve_base_url
 
-DEFAULT_COLAB_URL = "https://medieval-chance-starter-happen.trycloudflare.com/v1/chat/completions"
 DEFAULT_MODEL = "Qwen/Qwen2.5-7B-Instruct"
+LLM = {"base_url": None, "api_key": None}
 
 # 20 Domains designed to broaden lexical coverage (25 words each -> 500 total)
 DOMAINS = [
@@ -213,10 +214,12 @@ Format:
         "max_tokens": 550
     }
     data = json.dumps(payload).encode("utf-8")
+    headers = {"Content-Type": "application/json"}
+    headers.update(authorization_headers(LLM["base_url"], LLM["api_key"]))
     req = urllib.request.Request(
-        DEFAULT_COLAB_URL,
+        LLM["base_url"] + "/chat/completions",
         data=data,
-        headers={"Content-Type": "application/json"}
+        headers=headers
     )
     with urllib.request.urlopen(req, timeout=25) as resp:
         res_json = json.loads(resp.read().decode("utf-8"))
@@ -297,7 +300,7 @@ def run():
     print("Nebulith Colab Multi-Threaded 500-Word Lexicon Expansion & 6-Gate Audit")
     print("=" * 80)
     print(f"Timestamp: {datetime.now().isoformat()}")
-    print(f"Endpoint:  {DEFAULT_COLAB_URL}")
+    print(f"Endpoint:  {LLM['base_url']}")
     print(f"Model:     {DEFAULT_MODEL}")
     print()
 
@@ -502,7 +505,7 @@ def run():
     log_entry = {
         "timestamp": datetime.now().isoformat(),
         "model": DEFAULT_MODEL,
-        "endpoint": DEFAULT_COLAB_URL,
+        "endpoint": LLM["base_url"],
         "domains_processed": len(DOMAINS),
         "generated_count": len(all_raw_generated),
         "approved_count": len(approved_candidates),
@@ -539,7 +542,7 @@ def run():
         "# Nebulith Colab-Driven 500-Word Lexicon Expansion & 6-Gate Audit Report",
         f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  ",
         f"**Inference Engine:** Google Colab vLLM (`{DEFAULT_MODEL}`)  ",
-        f"**Endpoint:** `{DEFAULT_COLAB_URL}`  ",
+        f"**Endpoint:** `{LLM['base_url']}`  ",
         "**Audit Policy:** 6-Gate Strict Linguistic Council Audit (Isolated Ledger)  ",
         f"**Ledger Location:** [`data/emergent_lexicon_audit.json`](file:///{AUDIT_LEDGER_PATH.as_posix()})",
         "",
@@ -623,5 +626,20 @@ def run():
     print("=" * 80)
 
 
-if __name__ == "__main__":
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Expand the Nebulith lexicon through a self-hosted vLLM endpoint")
+    parser.add_argument("--endpoint", default=None, help="Self-hosted /v1 base URL, or set NEBULITH_LLM_ENDPOINT. No public default.")
+    parser.add_argument("--api-key", default=None, help="Self-hosted API key, or set NEBULITH_LLM_API_KEY. OPENAI_API_KEY is not sent here.")
+    args = parser.parse_args()
+    try:
+        LLM["base_url"] = resolve_base_url(args.endpoint)
+        LLM["api_key"] = args.api_key
+        authorization_headers(LLM["base_url"], LLM["api_key"])
+    except LlmEndpointError as exc:
+        parser.error(str(exc))
     run()
+
+
+if __name__ == "__main__":
+    main()

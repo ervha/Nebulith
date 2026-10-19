@@ -42,8 +42,7 @@ from simulate_agent_dialogue import (
     EMERGENT_LOG_PATH,
     EXT_CORPUS_PATH
 )
-
-DEFAULT_COLAB_ENDPOINT = "https://medieval-chance-starter-happen.trycloudflare.com/v1"
+from llm_endpoint import LlmEndpointError, authorization_headers, resolve_api_key, resolve_base_url
 
 
 # ==============================================================================
@@ -292,21 +291,21 @@ class MockLLMProvider(BaseLLMProvider):
 class OpenAICompatibleProvider(BaseLLMProvider):
     """Connects to Google Colab vLLM server (via Cloudflare), OpenAI API, Ollama, etc."""
 
-    def __init__(self, api_key: str = None, base_url: str = None, model: str = None):
-        raw_url = base_url or os.getenv("COLAB_LLM_ENDPOINT") or os.getenv("OPENAI_BASE_URL") or DEFAULT_COLAB_ENDPOINT
-        if not raw_url.endswith("/v1") and not raw_url.endswith("/v1/"):
-            raw_url = f"{raw_url.rstrip('/')}/v1"
-        self.base_url = raw_url.rstrip("/")
-
-        is_tunnel_or_local = any(h in self.base_url for h in ("localhost", "127.0.0.1", "trycloudflare.com", "ngrok", "localtunnel", "gradio.live"))
-        self.api_key = api_key or os.getenv("OPENAI_API_KEY", "colab-token" if is_tunnel_or_local else "")
+    def __init__(self, api_key: str = None, base_url: str = None, model: str = None, provider: str = None):
+        self.base_url = resolve_base_url(base_url, provider=provider)
+        self.api_key = resolve_api_key(self.base_url, api_key)
         self.model = model or os.getenv("OPENAI_MODEL", "Qwen/Qwen2.5-7B-Instruct")
+
+    def _headers(self):
+        headers = {"Content-Type": "application/json"}
+        headers.update(authorization_headers(self.base_url, self.api_key or None))
+        return headers
 
     def health_check(self) -> bool:
         """Checks if the remote/Colab inference endpoint is alive."""
         try:
             url = f"{self.base_url}/models"
-            req = urllib.request.Request(url, headers={"Authorization": f"Bearer {self.api_key}"})
+            req = urllib.request.Request(url, headers=self._headers())
             with urllib.request.urlopen(req, timeout=10) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
                 models = [m.get("id") for m in data.get("data", [])]
@@ -319,10 +318,7 @@ class OpenAICompatibleProvider(BaseLLMProvider):
     def generate_topic(self) -> dict:
         """Generates a novel situation and lexical gap using the LLM."""
         endpoint = f"{self.base_url}/chat/completions"
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_key}"
-        }
+        headers = self._headers()
         payload = {
             "model": self.model,
             "messages": [
@@ -352,21 +348,13 @@ class OpenAICompatibleProvider(BaseLLMProvider):
             return MockLLMProvider().generate_topic()
 
     def generate_dialogue(self, topic: str, target_needs: list = None) -> dict:
-        is_tunnel_or_local = any(h in self.base_url for h in ("localhost", "127.0.0.1", "trycloudflare.com", "ngrok", "localtunnel", "gradio.live"))
-        if not self.api_key and not is_tunnel_or_local:
-            print("[WARN] No API Key / Tunnel found. Falling back to MockLLMProvider.")
-            return MockLLMProvider().generate_dialogue(topic, target_needs)
-
         endpoint = f"{self.base_url}/chat/completions"
         prompt_content = f"Generate an authentic Nebulith multi-agent dialogue about the topic: '{topic}'."
         if target_needs:
             prompt_content += f" Explicitly address these communicative lexical gaps: {target_needs}."
         prompt_content += f"\nFollow this exact JSON structure:\n{NEBULITH_FEW_SHOT_TEMPLATE}"
 
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_key}"
-        }
+        headers = self._headers()
         payload = {
             "model": self.model,
             "messages": [
@@ -570,20 +558,23 @@ def main():
     parser.add_argument("--topic", type=str, default=None, help="Explicit topic (if omitted, topic will be auto-generated)")
     parser.add_argument("--auto-topic", action="store_true", help="Explicitly enable automatic topic generation")
     parser.add_argument("--provider", choices=["mock", "openai", "colab"], default="colab", help="LLM Provider (default: colab)")
-    parser.add_argument("--endpoint", type=str, default=DEFAULT_COLAB_ENDPOINT, help=f"Colab or custom LLM endpoint (default: {DEFAULT_COLAB_ENDPOINT})")
+    parser.add_argument("--endpoint", type=str, default=None, help="LLM endpoint (or NEBULITH_LLM_ENDPOINT). Required for colab/self-hosted; no public default.")
     parser.add_argument("--model", type=str, default="Qwen/Qwen2.5-7B-Instruct", help="Model name (default: Qwen/Qwen2.5-7B-Instruct)")
-    parser.add_argument("--api-key", type=str, default=None, help="API key if required")
+    parser.add_argument("--api-key", type=str, default=None, help="API key. Self-hosted endpoints use NEBULITH_LLM_API_KEY; OPENAI_API_KEY is sent only to api.openai.com.")
     parser.add_argument("--health-check", action="store_true", help="Check remote LLM endpoint connectivity")
     args = parser.parse_args()
 
     # Determine provider
-    if args.provider in ("openai", "colab") or args.endpoint:
-        provider = OpenAICompatibleProvider(api_key=args.api_key, base_url=args.endpoint, model=args.model)
+    if args.provider == "mock" and not args.endpoint:
+        provider = MockLLMProvider()
+    else:
+        try:
+            provider = OpenAICompatibleProvider(api_key=args.api_key, base_url=args.endpoint, model=args.model, provider=args.provider)
+        except LlmEndpointError as exc:
+            parser.error(str(exc))
         if args.health_check:
             provider.health_check()
             return
-    else:
-        provider = MockLLMProvider()
 
     pipeline = DynamicEmergencePipeline(provider)
 

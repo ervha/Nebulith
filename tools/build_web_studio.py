@@ -276,6 +276,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       border: 1px solid var(--md-sys-color-outline-variant);
       color: var(--md-sys-color-on-surface);
       padding: 8px 14px;
+      min-height: 44px;
       border-radius: var(--radius-full);
       cursor: pointer;
       font-size: 0.85rem;
@@ -436,16 +437,26 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
 
     .card-fav-btn {{
       position: absolute;
-      top: 14px;
-      right: 14px;
+      top: 8px;
+      right: 8px;
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       background: transparent;
       border: none;
-      font-size: 1.1rem;
+      padding: 0;
+      font-size: 1.35rem;
+      line-height: 1;
+      color: var(--md-sys-color-on-surface);
       cursor: pointer;
-      opacity: 0.4;
+      opacity: 0.9;
       transition: opacity var(--transition-fast), transform var(--transition-fast);
     }}
-    .card-fav-btn:hover {{ opacity: 1; transform: scale(1.15); }}
+    .card-fav-btn:hover {{ opacity: 1; transform: scale(1.08); }}
     .card-fav-btn.active {{ opacity: 1; color: #fbbc04; }}
 
     .word-roman {{ font-size: 1.15rem; font-weight: 700; color: var(--md-sys-color-primary); }}
@@ -529,18 +540,23 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
 
     .modal-close-btn {{
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 16px;
+      right: 16px;
       background: var(--md-sys-color-surface-container-high);
       border: 1px solid var(--md-sys-color-outline-variant);
       color: var(--md-sys-color-on-surface);
-      width: 32px;
-      height: 32px;
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      min-height: 44px;
       border-radius: var(--radius-full);
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
+      font-size: 1.5rem;
+      line-height: 1;
+      padding: 0;
     }}
 
     .modal-glyph-large {{
@@ -643,6 +659,14 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       display: flex;
       align-items: center;
       gap: 6px;
+    }}
+    .tool-btn.icon-btn {{
+      min-width: 44px;
+      min-height: 44px;
+      padding: 0 12px;
+      justify-content: center;
+      font-size: 1.35rem;
+      line-height: 1;
     }}
 
     .trans-textarea {{
@@ -1079,8 +1103,8 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
       <button class="theme-toggle-btn" id="queueToggleBtn" title="未対応リクエスト・キュー">
         <span>未対応キュー</span> <span class="queue-badge" id="queueCountBadge">0</span>
       </button>
-      <button class="theme-toggle-btn" id="themeToggleBtn">
-        <span id="themeIcon"></span><span id="themeLabel">Light</span>
+      <button type="button" class="theme-toggle-btn" id="themeToggleBtn" aria-label="ライトテーマに切り替え">
+        <span id="themeIcon" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span id="themeLabel">Light</span>
       </button>
     </div>
   </header>
@@ -1262,7 +1286,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
   <!-- Word Detail Modal -->
   <div class="modal-backdrop" id="wordModal">
     <div class="modal-box">
-      <button class="modal-close-btn" id="modalCloseBtn"></button>
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="閉じる">×</button>
       <div class="modal-glyph-large" id="modalGlyph">celen</div>
       
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 8px;">
@@ -1328,7 +1352,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
   <!-- Missing / Unsupported Queue Manager Modal -->
   <div class="modal-backdrop" id="queueModal">
     <div class="modal-box">
-      <button class="modal-close-btn" id="queueCloseBtn"></button>
+      <button type="button" class="modal-close-btn" id="queueCloseBtn" aria-label="閉じる">×</button>
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
         
         <h2 style="font-size: 1.3rem; font-weight: 600;">未対応リクエスト・キュー回収</h2>
