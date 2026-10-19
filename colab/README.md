@@ -31,19 +31,28 @@ Google Colabの無料/有料GPU（T4 / A100）を利用してオープンソー�
 
 ## 2. 実行コマンド（トピック自動生成＆回数指定ループ）
 
-現在提供されている Colab エンドポイント `https://medieval-chance-starter-happen.trycloudflare.com/v1` がデフォルトに組み込まれているため、URLの指定を省略して直接実行できます。
+Colab ノートブックは起動のたびに API キーを生成し、vLLM を `--api-key` 付きで立ち上げます。表示されたキーとトンネル URL を、ローカルでは次の環境変数に入れてください。公開トンネルの URL はリポジトリに既定値として書きません。
+
+- `NEBULITH_LLM_ENDPOINT` … ノートブックが表示した `https://….trycloudflare.com/v1`
+- `NEBULITH_LLM_API_KEY` … ノートブックが表示した vLLM の API キー
+
+`OPENAI_API_KEY` は `api.openai.com` にだけ送ります。自前のトンネルやローカル vLLM には使いません。
 
 ### ① 接続テスト（ヘルスチェック）
 ```powershell
+$env:NEBULITH_LLM_ENDPOINT = "https://your-tunnel.trycloudflare.com/v1"
+$env:NEBULITH_LLM_API_KEY = "ノートブックが表示したキー"
 python tools/llm_agent_dialogue.py --health-check
 ```
 > `[HEALTH-CHECK SUCCESS] Connected to https://... (Available models: ['Qwen/Qwen2.5-7B-Instruct'])` と表示されれば接続完了です。
+
+同じ値は `--endpoint` と `--api-key` でも渡せます。
 
 ### ② トピック自動生成＆回数指定の自動連続実行（推奨）
 トピックを指定せず、指定した回数（例: 5回）自動で新しいシチュエーションを発案し、対話と新語生成・6段階審査を連続実行します：
 ```powershell
 # 5ラウンド自動実行
-python tools/llm_agent_dialogue.py --rounds 5
+python tools/llm_agent_dialogue.py --endpoint $env:NEBULITH_LLM_ENDPOINT --api-key $env:NEBULITH_LLM_API_KEY --rounds 5
 
 # 10ラウンド自動実行
 python tools/llm_agent_dialogue.py --rounds 10
@@ -61,9 +70,16 @@ python tools/llm_agent_dialogue.py --topic "港の朝露と砕ける波音、船
 ```
 
 ### ④ 新しいColabエンドポイントURLを指定する場合
-Colabを再起動して新しいCloudflare Tunnel URLが発行された場合は、`--endpoint` 引数で上書きできます：
+Colabを再起動すると Cloudflare Tunnel の URL と API キーが新しくなります。どちらも省略せず指定します：
 ```powershell
-python tools/llm_agent_dialogue.py --endpoint "https://your-new-tunnel.trycloudflare.com/v1" --rounds 3
+python tools/llm_agent_dialogue.py --endpoint "https://your-new-tunnel.trycloudflare.com/v1" --api-key "ノートブックが表示したキー" --rounds 3
+```
+
+語彙の一括拡張も同じ接続先を要求します。
+
+```powershell
+python tools/batch_colab_lexicon_expansion.py --endpoint $env:NEBULITH_LLM_ENDPOINT --api-key $env:NEBULITH_LLM_API_KEY
+python tools/batch_colab_daily_conversation_expansion.py --endpoint $env:NEBULITH_LLM_ENDPOINT --api-key $env:NEBULITH_LLM_API_KEY
 ```
 
 ---

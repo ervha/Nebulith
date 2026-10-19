@@ -32,15 +32,15 @@ document.getElementById('themeToggleBtn').addEventListener('click', () => {
 });
 
 function updateThemeUI() {
+  const sun = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+  const moon = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>';
   const icon = document.getElementById('themeIcon');
   const label = document.getElementById('themeLabel');
-  if (currentTheme === 'dark') {
-    icon.textContent = '';
-    label.textContent = 'Light';
-  } else {
-    icon.textContent = '';
-    label.textContent = 'Dark';
-  }
+  const btn = document.getElementById('themeToggleBtn');
+  const toLight = currentTheme === 'dark';
+  if (icon) icon.innerHTML = toLight ? sun : moon;
+  if (label) label.textContent = toLight ? 'Light' : 'Dark';
+  if (btn && typeof btn.setAttribute === 'function') btn.setAttribute('aria-label', toLight ? 'ライトテーマに切り替え' : 'ダークテーマに切り替え');
 }
 
 // Queue Badge Update
@@ -67,15 +67,18 @@ function addFeedbackItem(type, lang, text, context, interpretation = null) {
 
 }
 
+function activateTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.getAttribute('data-tab') === tabName);
+  });
+  document.querySelectorAll('.tab-content').forEach(panel => panel.classList.remove('active'));
+  const panel = document.getElementById('tab-' + tabName);
+  if (panel) panel.classList.add('active');
+}
+
 // Tab Navigation
 document.querySelectorAll('.tab-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-    btn.classList.add('active');
-    const tabId = btn.getAttribute('data-tab');
-    document.getElementById('tab-' + tabId).classList.add('active');
-  });
+  btn.addEventListener('click', () => activateTab(btn.getAttribute('data-tab')));
 });
 
 // Lexicon & Favorites
@@ -151,7 +154,7 @@ function renderLexicon() {
     const originBadge = w.o === 'curated_ext' ? '<span class="word-pos" style="opacity:0.85;">拡張語彙</span>' : '';
     return `
       <div class="word-card" onclick="openWordModal('${w.r}')">
-        <button class="card-fav-btn ${isFav ? 'active' : ''}" onclick="toggleFav(event, '${w.r}')"></button>
+        <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" onclick="toggleFav(event, '${w.r}')" aria-label="${isFav ? 'お気に入りを解除' : 'お気に入りに追加'}" aria-pressed="${isFav ? 'true' : 'false'}">${isFav ? '★' : '☆'}</button>
         <div>
           <div class="word-card-top" style="flex-wrap:wrap;gap:4px;">
             <span class="word-roman">${w.r}</span>
@@ -377,12 +380,7 @@ window.openWordModal = function(roman) {
 window.loadExampleToTranslator = function(jaText) {
   if (transInput) {
     transInput.value = jaText;
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-    const transTabBtn = document.querySelector('[data-tab="translator"]');
-    const transTabContent = document.getElementById('translatorTab');
-    if (transTabBtn) transTabBtn.classList.add('active');
-    if (transTabContent) transTabContent.classList.add('active');
+    activateTab('translator');
     if (typeof doTranslate === 'function') doTranslate();
   }
   if (wordModal) wordModal.classList.remove('active');
@@ -977,7 +975,7 @@ function renderQueueList() {
           <label>原因 <select onchange="setQueueField('${item.id}','cause',this.value)">${NebulithWorkspace.causes.map(v=>`<option value="${v}" ${v===item.cause?'selected':''}>${queueCauseLabels[v]}</option>`).join('')}</select></label>
           <div class="queue-card-meta">元記録：${item.origins.length}件</div>
         </div>
-        <button class="tool-btn" style="color: var(--md-sys-color-error); padding: 4px 8px;" onclick="deleteQueueItem('${item.id}')"></button>
+        <button type="button" class="tool-btn icon-btn" style="color: var(--md-sys-color-error);" aria-label="この記録を削除" onclick="deleteQueueItem('${item.id}')">×</button>
       </div>
     `;
   }).join('');

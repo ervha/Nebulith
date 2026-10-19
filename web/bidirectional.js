@@ -235,14 +235,10 @@
     let vJa = vInfo ? (vInfo.m || vInfo.meaningJa || verbClean).split(/[、／/]/)[0].trim() : verbClean;
     let vEn = vInfo ? (vInfo.en || vInfo.meaningEn || verbClean).split(/[,;/]/)[0].trim() : verbClean;
 
-    // Apply suffixes
+    // Apply suffixes. Japanese uses the shared conjugation table so endings are not appended twice.
+    const meaningJa = vInfo ? (vInfo.m || vInfo.meaningJa || verbClean) : verbClean;
     if (parsed.aspectSuffix) {
-      if (isJa) {
-        if (parsed.aspectSuffix.suffix === 'ast') vJa = vJa.replace(/る$/, 'たい').replace(/す$/, 'したい') + (vJa.endsWith('たい') ? '' : 'たい');
-        else if (parsed.aspectSuffix.suffix === 'ar') vJa = vJa.replace(/る$/, 'られる') + (vJa.endsWith('れる') ? '' : 'できる');
-        else if (parsed.aspectSuffix.suffix === 'far') vJa = vJa.replace(/る$/, 'し終えた') + (vJa.endsWith('終えた') ? '' : 'し終えた');
-        else if (parsed.aspectSuffix.suffix === 'liv') vJa = vJa.replace(/る$/, 'し続けている') + (vJa.endsWith('続けている') ? '' : 'し続けている');
-      } else {
+      if (!isJa) {
         if (parsed.aspectSuffix.suffix === 'ast') vEn = `want to ${vEn}`;
         else if (parsed.aspectSuffix.suffix === 'ar') vEn = `can ${vEn}`;
         else if (parsed.aspectSuffix.suffix === 'far') vEn = `have finished ${vEn}-ing`;
@@ -250,17 +246,14 @@
       }
     }
 
-    if (parsed.isNeg) {
-      if (isJa) vJa = vJa.replace(/る$/, 'ない').replace(/す$/, 'さない') + (vJa.endsWith('ない') ? '' : 'ない');
-      else vEn = `do not ${vEn}`;
-    }
+    if (parsed.isNeg && !isJa) vEn = `do not ${vEn}`;
 
-    if (parsed.tensePrefix === 'fe') {
-      if (isJa) vJa = vJa.replace(/る$/, 'た').replace(/す$/, 'した') + (vJa.endsWith('た') ? '' : 'た');
-      else vEn = vEn.endsWith('e') ? `${vEn}d` : `${vEn}ed`;
-    } else if (parsed.tensePrefix === 'di') {
-      if (isJa) vJa = vJa.replace(/る$/, 'ている') + (vJa.endsWith('ている') ? '' : 'ている');
-      else vEn = `is ${vEn}-ing`;
+    if (!isJa) {
+      if (parsed.tensePrefix === 'fe') vEn = vEn.endsWith('e') ? `${vEn}d` : `${vEn}ed`;
+      else if (parsed.tensePrefix === 'di') vEn = `is ${vEn}-ing`;
+    } else {
+      const conjugated = conjugateJapaneseVerb(meaningJa, parsed);
+      if (conjugated) vJa = conjugated;
     }
 
     // 2. Resolve Phrases
@@ -437,7 +430,7 @@
     let object = null;
     let adjective = null;
     if (objectText) {
-      const objectMatch = objectText.match(/^(?:(?:the|a|an)\\s+)?(?:([a-z]+)\\s+)?([a-z]+)$/);
+      const objectMatch = objectText.match(/^(?:(?:the|a|an)\s+)?(?:([a-z]+)\s+)?([a-z]+)$/);
       if (!objectMatch) return fail();
       const [, modifier, objectNoun] = objectMatch;
       object = noun(objectNoun);
@@ -457,6 +450,114 @@
         ...(object ? [{ src: objectText, dst: objectPhrase.trim(), role: 'Object' }] : [])
       ], success: true
     };
+  }
+
+  const GODAN_RU = new Set(['走る', '帰る', '入る', '切る', '知る', '要る', '減る', '焦る', '限る', '蹴る', '滑る', '照る', '練る', '参る', '喋る']);
+  const ICHIDAN_VOWEL = 'いきしちにひみりぎじぢびぴえけせてねへめれげぜでべぺ';
+
+  function glossList(meaning) {
+    return String(meaning || '').split(/[、／/・]/).map(part => part.replace(/（[^）]*）|\([^)]*\)/g, '').trim()).filter(Boolean);
+  }
+
+  function dictionaryVerbKind(lemma) {
+    if (!lemma || lemma.length < 2) return null;
+    if (lemma === '来る' || lemma === 'くる') return 'kuru';
+    if (lemma.endsWith('する')) return 'suru';
+    if (lemma.endsWith('くる')) return 'kuru';
+    if (lemma.endsWith('る')) {
+      if (GODAN_RU.has(lemma)) return 'る';
+      return ICHIDAN_VOWEL.includes(lemma[lemma.length - 2]) ? 'ichidan' : 'る';
+    }
+    const last = lemma.slice(-1);
+    return 'うくぐすつぬぶむ'.includes(last) ? last : null;
+  }
+
+  function localJapaneseForms(lemma, kind) {
+    let past, te, negative, polite, potStem;
+    if (kind === 'kuru') {
+      past = '来た'; te = '来て'; negative = '来ない'; polite = '来'; potStem = '来られ';
+    } else if (kind === 'suru') {
+      const stem = lemma.slice(0, -2);
+      past = stem + 'した'; te = stem + 'して'; negative = stem + 'しない'; polite = stem + 'し'; potStem = stem + 'でき';
+    } else if (kind === 'ichidan') {
+      const stem = lemma.slice(0, -1);
+      past = stem + 'た'; te = stem + 'て'; negative = stem + 'ない'; polite = stem; potStem = stem + 'られ';
+    } else {
+      const endings = { 'う': ['わ', 'い', 'った', 'って', 'え'], 'く': ['か', 'き', 'いた', 'いて', 'け'], 'ぐ': ['が', 'ぎ', 'いだ', 'いで', 'げ'], 'す': ['さ', 'し', 'した', 'して', 'せ'], 'つ': ['た', 'ち', 'った', 'って', 'て'], 'ぬ': ['な', 'に', 'んだ', 'んで', 'ね'], 'ぶ': ['ば', 'び', 'んだ', 'んで', 'べ'], 'む': ['ま', 'み', 'んだ', 'んで', 'め'], 'る': ['ら', 'り', 'った', 'って', 'れ'] };
+      const table = endings[kind];
+      if (!table || !lemma.endsWith(kind)) return [];
+      const stem = lemma.slice(0, -1);
+      negative = stem + table[0] + 'ない';
+      polite = stem + table[1];
+      past = stem + table[2];
+      te = stem + table[3];
+      potStem = stem + table[4];
+    }
+    const rows = [
+      [lemma, []],
+      [past, ['fe']],
+      [negative, ['ne']],
+      [negative.slice(0, -1) + 'かった', ['fe', 'ne']],
+      [te + 'いる', ['di']],
+      [te + 'いた', ['fe', 'di']],
+      [te + 'いない', ['ne', 'di']],
+      [te + 'いなかった', ['fe', 'ne', 'di']],
+      [polite + 'たい', [], 'ast', '希望'],
+      [polite + 'たかった', ['fe'], 'ast', '過去の希望'],
+      [polite + 'たくない', ['ne'], 'ast', '希望の否定'],
+      [polite + 'たくなかった', ['fe', 'ne'], 'ast', '過去の希望の否定'],
+      [potStem + 'る', [], 'ar', '可能'],
+      [potStem + 'た', ['fe'], 'ar', '過去の可能'],
+      [potStem + 'ない', ['ne'], 'ar', '可能の否定'],
+      [potStem + 'なかった', ['fe', 'ne'], 'ar', '過去の可能の否定'],
+      [polite + '終える', [], 'far', '完了相'],
+      [polite + '終えた', ['fe'], 'far', '過去の完了相'],
+      [polite + '終えない', ['ne'], 'far', '完了相の否定'],
+      [polite + '終えなかった', ['fe', 'ne'], 'far', '過去の完了相の否定'],
+      [polite + '続ける', [], 'liv', '継続相'],
+      [polite + '続けた', ['fe'], 'liv', '過去の継続相'],
+      [polite + '続けない', ['ne'], 'liv', '継続相の否定'],
+      [polite + '続けなかった', ['fe', 'ne'], 'liv', '過去の継続相の否定']
+    ];
+    return rows.map(([ending, prefixes, suffix = '', feature = '']) => ({ ending, prefixes, suffix, feature }));
+  }
+
+  function formsFor(lemma, kind) {
+    const external = typeof globalThis !== 'undefined' ? globalThis.nebulithJapaneseForms : null;
+    if (typeof external === 'function') {
+      try { return external(lemma, kind); } catch (_) { /* use the local table */ }
+    }
+    return localJapaneseForms(lemma, kind);
+  }
+
+  function samePrefixes(actual, expected) {
+    if (actual.length !== expected.length) return false;
+    const got = new Set(actual);
+    return expected.every(prefix => got.has(prefix));
+  }
+
+  function selectJapaneseForm(forms, prefixes, suffix) {
+    let rows = forms.filter(form => (form.suffix || '') === suffix && samePrefixes(form.prefixes || [], prefixes));
+    if (suffix === 'ast') rows = rows.filter(form => /たい/.test(form.ending) || (form.feature || '').includes('希望'));
+    const plain = rows.filter(form => !/ます|です/.test(form.ending) && !/ことができる|ことができな/.test(form.ending));
+    if (plain.length) rows = plain;
+    rows.sort((a, b) => a.ending.length - b.ending.length);
+    return rows[0] || null;
+  }
+
+  function conjugateJapaneseVerb(meaning, parsed) {
+    const suffix = parsed.aspectSuffix && ['ast', 'ar', 'far', 'liv'].includes(parsed.aspectSuffix.suffix) ? parsed.aspectSuffix.suffix : '';
+    const prefixes = [];
+    if (parsed.isNeg) prefixes.push('ne');
+    if (parsed.tensePrefix === 'fe' || parsed.tensePrefix === 'di') prefixes.push(parsed.tensePrefix);
+    if (!suffix && !prefixes.length) return null;
+    for (const lemma of glossList(meaning)) {
+      const kind = dictionaryVerbKind(lemma);
+      if (!kind) continue;
+      const chosen = selectJapaneseForm(formsFor(lemma, kind), prefixes, suffix);
+      if (chosen) return chosen.ending;
+    }
+    return null;
   }
 
   return {

@@ -130,7 +130,7 @@ console.log('\n--- 5. Load Example to Translator Interaction ---');
 {
   context.loadExampleToTranslator('星は夜より美しい。');
   assert.equal(dom.transInput.value, '星は夜より美しい。');
-  assert.equal(dom.translatorTab.classList.contains('active'), true);
+  assert.equal(dom['tab-translator'].classList.contains('active'), true);
   assert.equal(dom.wordModal.classList.contains('active'), false);
   console.log('PASS: loadExampleToTranslator - 翻訳タブへの例文ロードとモーダルクローズが正常連動');
 }

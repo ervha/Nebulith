@@ -14,7 +14,6 @@ const fixtures=[
  ['私は家から走る','Kupan el mi va govan.'],
  ['私はあなたと歌う','Cival el mi ku ti.'],
  ['私は水で家を洗う','Serdar el mi ia govan de daris.'],
- ['私は家へ走り始める','Kupanast el mi to govan.'],
  ['私とあなたは走る','Kupan el mi ul ti.'],
  ['星は赤い','Relen el vyr ia pyrin.'],
  ['水は冷たかった','Fe relen el daris ia kyrani.'],
@@ -22,6 +21,29 @@ const fixtures=[
  ['わたしは眠ります','Tymis el mi.']
 ];
 for(const [input,output] of fixtures){const r=ctx.engine.analyze(input,{});assert.equal(r.complete,true,input+': '+JSON.stringify(r));assert.equal(r.text,output,input);}
+const inchoative=ctx.engine.analyze('私は家へ走り始める',{});
+assert.equal(inchoative.complete,false);
+assert.equal(inchoative.segments[0].state,'candidate');
+assert.equal(inchoative.candidate,'Kupanast el mi to govan.');
+assert.equal(inchoative.segments[0].meaning.aspect,'inceptive');
+assert.ok(inchoative.notes.some(n=>n.includes('始相')));
+const desire=ctx.engine.analyze('私は歩きたい',{});
+assert.equal(desire.complete,false);
+assert.equal(desire.segments[0].state,'candidate');
+assert.equal(desire.candidate,'Poranast el mi.');
+assert.equal(desire.segments[0].meaning.aspect,'desiderative');
+const startWalk=ctx.engine.analyze('私は歩き始める',{});
+assert.equal(startWalk.complete,false);
+assert.equal(startWalk.segments[0].state,'candidate');
+assert.notEqual(startWalk.segments[0].meaning.aspect,'desiderative');
+const confirmedStart=ctx.engine.analyze('私は歩き始める',{confirmed:true});
+assert.equal(confirmedStart.complete,true);
+assert.equal(confirmedStart.text,'Poranast el mi.');
+const held=vm.runInContext(`createIncrementalTranslator(VOCAB.filter(e=>e.r!=='-ast'),GRAMMAR_FRAMES,INPUT_RULES.aliases,[],TRANSLATION_EXTENSIONS).analyze('私は歩き始める',{confirmed:true})`,ctx);
+assert.equal(held.complete,false);
+assert.equal(held.segments[0].state,'candidate');
+assert.ok(!/ast/i.test(held.candidate||held.segments[0].text||''), JSON.stringify(held));
+assert.ok(held.notes.some(n=>n.includes('始相')));
 // Independent Japanese inflection witnesses, covering every configured conjugation family.
 for(const [lemma,kind,past,progress,negative] of [['書く','く','書いた','書いている','書かない'],['泳ぐ','ぐ','泳いだ','泳いでいる','泳がない'],['話す','す','話した','話している','話さない'],['待つ','つ','待った','待っている','待たない'],['飛ぶ','ぶ','飛んだ','飛んでいる','飛ばない'],['飲む','む','飲んだ','飲んでいる','飲まない'],['走る','る','走った','走っている','走らない'],['歌う','う','歌った','歌っている','歌わない'],['食べる','ichidan','食べた','食べている','食べない'],['観測する','suru','観測した','観測している','観測しない'],['来る','kuru','来た','来ている','来ない']]){
   const forms=ctx.nebulithJapaneseForms(lemma,kind).map(f=>f.ending);for(const word of [past,progress,negative])assert.ok(forms.includes(word),word);
@@ -55,8 +77,10 @@ assert.equal(examples.length,32);
 assert.equal(new Set(examples.map(e=>e.id)).size,examples.length);
 for(const example of examples){
   const result=ctx.engine.analyze(example.japanese,example.choices);
-  assert.equal(result.text,example.nebulith,example.id+': '+JSON.stringify(result));
+  const displayed=['complete','phrase'].includes(example.state)?result.text:result.segments[0].text;
+  assert.equal(displayed,example.nebulith,example.id+': '+JSON.stringify(result));
   assert.equal(result.segments[0].state,example.state,example.id);
+  if(example.state!=='complete')assert.equal(result.complete,false,example.id);
   assert.ok(example.english&&example.title&&example.note,example.id);
   if(Object.keys(example.choices).length)assert.equal(ctx.engine.analyze(example.japanese,{}).complete,false,example.id+' must not bypass choices');
 }

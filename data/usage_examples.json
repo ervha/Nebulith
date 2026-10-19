@@ -109,8 +109,8 @@
       "nebulith": "Kupanast el mi to govan.",
       "english": "I start running toward the house.",
       "choices": {},
-      "state": "complete",
-      "note": "辞書・文型による生成結果を検証した学習用例。言語監査・人間による自然さの審査は未実施。"
+      "state": "candidate",
+      "note": "始動相は言語データにある接辞 -ast を使う未確認候補。希望法と同じ表面形でも自動では確定しない。言語監査・人間による自然さの審査は未実施。"
     },
     {
       "id": "USE-12",
