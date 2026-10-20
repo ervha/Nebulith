@@ -1,0 +1,712 @@
+[
+  {
+    "scenario_id": "CANON-COLAB-31",
+    "batch": "Batch 52",
+    "domain": "協同作業・水路運河の沈殿泥土浚渫と流路清掃",
+    "title": "運河浚渫での水深測量と清澄水路の保全",
+    "communicative_need": "舟守と採集師が運河水深基準数に基づいて泥土を浚渫し、水路保全の志をもって清澄水路を守る。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "浚渫舟を操る舟守"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "水生植物の繁茂を調査する採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Kiras el mi ia daronunor. Vymin el mi ia daronjyn uo daronalin.",
+        "japanese": "私は運河水深基準数を測量する。私は清澄水路のなかで水路保全の志を守る。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Poran el mi uo daronalin. Vymin el miin ia daronunor ul daronjyn.",
+        "japanese": "私は清澄水路を舟で進む。私たちは運河水深基準数と水路保全の志を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "daronjyn",
+        "pos": "名",
+        "meaningJa": "水路保全の志、運河愛着、水路精神",
+        "meaningEn": "canal preservation resolve, waterway affection, canal ethos",
+        "morphemes": [
+          "daron",
+          "jyn"
+        ],
+        "etymology": "daron(湖) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia daronjyn.",
+        "example_ja": "私は水路保全の志を守る。"
+      },
+      {
+        "nrs": "daronunor",
+        "pos": "名",
+        "meaningJa": "運河水深基準数、浚渫定数、水路測深値",
+        "meaningEn": "canal depth benchmark constant, dredging modulus, waterway soundings",
+        "morphemes": [
+          "daron",
+          "unor"
+        ],
+        "etymology": "daron(湖) + unor(整数)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Kiras el mi ia daronunor.",
+        "example_ja": "私は運河水深基準数を測量する。"
+      },
+      {
+        "nrs": "daronalin",
+        "pos": "名",
+        "meaningJa": "澄明運河、清澄水路、清浄湖水",
+        "meaningEn": "limpid clear canal, crystalline channel, purified lake water",
+        "morphemes": [
+          "daron",
+          "alin"
+        ],
+        "etymology": "daron(湖) + alin(白い)",
+        "category": "2. 自然・気象・地形・鉱物",
+        "example_sentence": "Poran el mi uo daronalin.",
+        "example_ja": "私は清澄水路を舟で進む。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-32",
+    "batch": "Batch 52",
+    "domain": "協同作業・薬草乾燥室の換気と温湿度調整",
+    "title": "薬草乾燥室での精製滋養粉と処方規定の検定",
+    "communicative_need": "採集師と灯守が純白薬草粉末を精製し、生薬への真情をもって薬量定数を計量する。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "乾燥生薬を粉砕する採集師"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "温湿度と計量器を点検する灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Kiras el mi ia neralin. Vymin el mi ia nerjyn uo nerunor.",
+        "japanese": "私は純白薬草粉末を精製する。私は薬量定数の基準のもとで生薬への真情を守る。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Nerel el mi ia nerunor. Vymin el miin ia neralin ul nerjyn.",
+        "japanese": "私は薬量定数を厳格に計量する。私たちは純白薬草粉末と生薬への真情を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "neralin",
+        "pos": "名",
+        "meaningJa": "純白薬草粉末、精製滋養粉、白生薬",
+        "meaningEn": "pure white medicinal powder, refined nutritive flour, bright herbal powder",
+        "morphemes": [
+          "ner",
+          "alin"
+        ],
+        "etymology": "ner(滋養) + alin(白い)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Kiras el mi ia neralin.",
+        "example_ja": "私は純白薬草粉末を精製する。"
+      },
+      {
+        "nrs": "nerunor",
+        "pos": "名",
+        "meaningJa": "薬量定数、処方計量数、生薬規定値",
+        "meaningEn": "pharmacological dosage constant, formula metric, herbal measure integer",
+        "morphemes": [
+          "ner",
+          "unor"
+        ],
+        "etymology": "ner(滋養) + unor(整数)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Nerel el mi ia nerunor.",
+        "example_ja": "私は薬量定数を厳格に計量する。"
+      },
+      {
+        "nrs": "nerjyn",
+        "pos": "名",
+        "meaningJa": "医薬への真情、滋養の志、生薬愛着",
+        "meaningEn": "healing dedication spirit, nutritional care ethos, herbalist soul",
+        "morphemes": [
+          "ner",
+          "jyn"
+        ],
+        "etymology": "ner(滋養) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia nerjyn.",
+        "example_ja": "私は生薬への真情を守る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-33",
+    "batch": "Batch 52",
+    "domain": "協同作業・石工彫刻と記念碑碑文の刻印",
+    "title": "黒色石碑への大地刻銘と石工気概の継承",
+    "communicative_need": "舟守と写字生が暗黒玄武岩の石碑に石刻文字を刻み、石工気概を込めて歴史を記録する。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "石碑を切り出す舟守兼石工"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "碑文を刻み込む写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Kiras el mi ia talyrkym. Vymin el mi ia talyrjyn uo talsoran.",
+        "japanese": "私は暗黒玄武岩の石材を整える。私は石碑刻銘の場において石工気概を守る。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Soran el mi ia talsoran. Vymin el miin ia talyrkym ul talyrjyn.",
+        "japanese": "私は石碑刻銘を彫り刻む。私たちは暗黒玄武岩の石碑と石工気概を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talsoran",
+        "pos": "名",
+        "meaningJa": "石碑刻銘、石刻文字、大地碑文",
+        "meaningEn": "monument stone inscription, lapidary engraving, lithic stele text",
+        "morphemes": [
+          "tal",
+          "soran"
+        ],
+        "etymology": "tal(大地) + soran(書く)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Soran el mi ia talsoran.",
+        "example_ja": "私は石碑刻銘を彫り刻む。"
+      },
+      {
+        "nrs": "talyrjyn",
+        "pos": "名",
+        "meaningJa": "石工気概、石材への愛着、堅石精神",
+        "meaningEn": "stonemason resolve, lithic dedication, masonry spirit",
+        "morphemes": [
+          "talyr",
+          "jyn"
+        ],
+        "etymology": "talyr(石) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia talyrjyn.",
+        "example_ja": "私は石工気概を守る。"
+      },
+      {
+        "nrs": "talyrkym",
+        "pos": "名",
+        "meaningJa": "暗黒玄武岩、夜色石材、黒色石碑",
+        "meaningEn": "nocturnal basalt block, dark quarry stone, night shadow rock",
+        "morphemes": [
+          "talyr",
+          "kym"
+        ],
+        "etymology": "talyr(石) + kym(夜)",
+        "category": "2. 自然・気象・地形・鉱物",
+        "example_sentence": "Kiras el mi ia talyrkym.",
+        "example_ja": "私は暗黒玄武岩の石材を整える。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-34",
+    "batch": "Batch 53",
+    "domain": "協同作業・天文台の屈折望遠鏡の反射鏡研磨",
+    "title": "円形反射鏡の精密研磨と幾何定数の測定",
+    "communicative_need": "灯守と写字生が純白鏡面を研磨し、円卓の精神をもって円環幾何定数を測定する。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "鏡面を研磨する灯守"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "曲率数値を記録する写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Kiras el mi ia kloralin. Vymin el mi ia klorjyn uo klorunor.",
+        "japanese": "私は純白鏡面を研磨する。私は円環幾何定数の計測で円卓の精神を守る。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia klorunor. Vymin el miin ia kloralin ul klorjyn.",
+        "japanese": "私は円環幾何定数を測定記録する。私たちは純白鏡面と円卓の精神を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kloralin",
+        "pos": "名",
+        "meaningJa": "純白鏡面、円形反射鏡、円形明輝面",
+        "meaningEn": "pure white specular disc, circular reflector, round lustrous face",
+        "morphemes": [
+          "klor",
+          "alin"
+        ],
+        "etymology": "klor(円) + alin(白い)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Kiras el mi ia kloralin.",
+        "example_ja": "私は純白鏡面を研磨する。"
+      },
+      {
+        "nrs": "klorunor",
+        "pos": "名",
+        "meaningJa": "円環幾何定数、円周完数、曲率規格",
+        "meaningEn": "circular geometric modulus, circumference integer, curvature standard",
+        "morphemes": [
+          "klor",
+          "unor"
+        ],
+        "etymology": "klor(円) + unor(整数)",
+        "category": "1. 天体・宇宙・天文",
+        "example_sentence": "Vyrel el mi ia klorunor.",
+        "example_ja": "私は円環幾何定数を測定記録する。"
+      },
+      {
+        "nrs": "klorjyn",
+        "pos": "名",
+        "meaningJa": "円卓の精神、連帯の心、環状友誼",
+        "meaningEn": "round synod fellowship, civic solidarity ethos, annular fraternal resolve",
+        "morphemes": [
+          "klor",
+          "jyn"
+        ],
+        "etymology": "klor(円) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia klorjyn.",
+        "example_ja": "私は円卓の精神を守る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-35",
+    "batch": "Batch 53",
+    "domain": "協同作業・沿岸灯台の導灯油調合と夜間点灯",
+    "title": "灯台点灯での夜間労務と夜警気概の共有",
+    "communicative_need": "灯守と舟守が夜間労務に励み、夜警の気概を胸に夜間当番定数の航路を守る。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "灯台の灯芯と灯油を整える灯守"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "標柱とブイを点検する舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Dolar el mi ia kymdolar. Vymin el mi ia kymjyn uo kymunor.",
+        "japanese": "私は夜間労務に励む。私は夜間当番定数の務めで夜警の気概を守る。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Dolar el mi ia kymdolar. Vymin el miin ia kymjyn ul kymunor.",
+        "japanese": "私は夜間労務に共に励む。私たちは夜警の気概と夜間当番定数を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymdolar",
+        "pos": "名",
+        "meaningJa": "夜間労務、夜警当番労働、夜勤作業",
+        "meaningEn": "nocturnal duty labor, night shift toil, midnight watch work",
+        "morphemes": [
+          "kym",
+          "dolar"
+        ],
+        "etymology": "kym(夜) + dolar(働く)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Dolar el mi ia kymdolar.",
+        "example_ja": "私は夜間労務に励む。"
+      },
+      {
+        "nrs": "kymjyn",
+        "pos": "名",
+        "meaningJa": "夜警の気概、夜間警備の志、沈着精神",
+        "meaningEn": "night watchman resolve, nocturnal vigilance spirit, calm night ethos",
+        "morphemes": [
+          "kym",
+          "jyn"
+        ],
+        "etymology": "kym(夜) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia kymjyn.",
+        "example_ja": "私は夜警の気概を守る。"
+      },
+      {
+        "nrs": "kymunor",
+        "pos": "名",
+        "meaningJa": "夜間当番定数、夜警巡回数、夜限時間",
+        "meaningEn": "nocturnal shift constant, night patrol count, nightfall duty period",
+        "morphemes": [
+          "kym",
+          "unor"
+        ],
+        "etymology": "kym(夜) + unor(整数)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia kymunor.",
+        "example_ja": "私は夜間当番定数の務めを守る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-36",
+    "batch": "Batch 53",
+    "domain": "協同作業・都市城門の鉄帯補強と木扉修繕",
+    "title": "都市城門の木扉修繕と建築基準寸法の照合",
+    "communicative_need": "舟守と灯守が家屋梁木で門扉を修繕し、家族愛と住居愛着を胸に建築基準寸法を照合する。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "大扉を支える舟守"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "金具と木枠を締める灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Kiras el mi ia govanvel. Vymin el mi ia govanjyn uo govanunor.",
+        "japanese": "私は家屋梁木の木枠を修繕する。私は建築基準寸法のもとで家族愛の精神を守る。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el mi ia govanunor. Vymin el miin ia govanvel ul govanjyn.",
+        "japanese": "私は建築基準寸法を照合する。私たちは家屋梁木と家族愛の精神を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "govanvel",
+        "pos": "名",
+        "meaningJa": "家屋梁木、建築木材、門扉木枠",
+        "meaningEn": "architectural timber beam, residential wood frame, door casing arbor",
+        "morphemes": [
+          "govan",
+          "vel"
+        ],
+        "etymology": "govan(家) + vel(木)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Kiras el mi ia govanvel.",
+        "example_ja": "私は家屋梁木の木枠を修繕する。"
+      },
+      {
+        "nrs": "govanunor",
+        "pos": "名",
+        "meaningJa": "建築基準寸法、家屋規格数、門扉寸法定数",
+        "meaningEn": "building modulus metric, housing standard dimension, gate gauge constant",
+        "morphemes": [
+          "govan",
+          "unor"
+        ],
+        "etymology": "govan(家) + unor(整数)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Vyrel el mi ia govanunor.",
+        "example_ja": "私は建築基準寸法を照合する。"
+      },
+      {
+        "nrs": "govanjyn",
+        "pos": "名",
+        "meaningJa": "家族愛、住居への愛着、家門精神",
+        "meaningEn": "family affection ethos, domicile devotion spirit, homestead soul",
+        "morphemes": [
+          "govan",
+          "jyn"
+        ],
+        "etymology": "govan(家) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia govanjyn.",
+        "example_ja": "私は家族愛の精神を守る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-37",
+    "batch": "Batch 54",
+    "domain": "協同作業・市民市場の糧食分配と公正台帳",
+    "title": "市場広場での公共配給台設置と市民給水の検分",
+    "communicative_need": "写字生と採集師が公共木製配給台を整え、純白市民規範を守って公共給水を点検する。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "配給割当を点検する写字生"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "穀物と水を配る採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Kiras el mi ia polorvel. Vymin el mi ia poloralin uo polordar.",
+        "japanese": "私は公共木製配給台を整える。私は公共給水の場で純白市民規範を守る。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Nerel el mi ia polordar. Vymin el miin ia polorvel ul poloralin.",
+        "japanese": "私は公共給水を分配する。私たちは公共木製配給台と純白市民規範を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "polorvel",
+        "pos": "名",
+        "meaningJa": "公共木製配給台、市民広場木柵、公民木棚",
+        "meaningEn": "civic distribution timber bench, burgher square palisade, communal shelf",
+        "morphemes": [
+          "polor",
+          "vel"
+        ],
+        "etymology": "polor(市民) + vel(木)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Kiras el mi ia polorvel.",
+        "example_ja": "私は公共木製配給台を整える。"
+      },
+      {
+        "nrs": "poloralin",
+        "pos": "名",
+        "meaningJa": "公正無私、純白市民規範、潔白公民",
+        "meaningEn": "civic rectitude, immaculate citizen integrity, pure civic ethos",
+        "morphemes": [
+          "polor",
+          "alin"
+        ],
+        "etymology": "polor(市民) + alin(白い)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia poloralin.",
+        "example_ja": "私は純白市民規範を守る。"
+      },
+      {
+        "nrs": "polordar",
+        "pos": "名",
+        "meaningJa": "公共給水、市民割当水、自治水利",
+        "meaningEn": "communal water allotment, citizen public water, civic hydrology right",
+        "morphemes": [
+          "polor",
+          "dar"
+        ],
+        "etymology": "polor(市民) + dar(しずく)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Nerel el mi ia polordar.",
+        "example_ja": "私は公共給水を分配する。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-38",
+    "batch": "Batch 54",
+    "domain": "協同作業・航路標識ブイの係留と海底アンカー点検",
+    "title": "海図水深定数の照合と夜光海面での航路警戒",
+    "communicative_need": "舟守と灯守が海図水深定数を測量し、船乗り魂を胸に夜光海面の航路安全を守る。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "ブイの索具を締める舟守"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "夜光塗料と測深錘を点検する灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vyrel el mi ia zylarunor. Vymin el mi ia zylarjyn uo zylarkym.",
+        "japanese": "私は海図水深定数を測量する。私は夜光海面の航路で船乗り魂を守る。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Poran el mi uo zylarkym. Vymin el miin ia zylarunor ul zylarjyn.",
+        "japanese": "私は夜光海面を巡回する。私たちは海図水深定数と船乗り魂を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "zylarunor",
+        "pos": "名",
+        "meaningJa": "海図水深定数、潮流計測数、海洋基準値",
+        "meaningEn": "nautical depth soundings integer, marine tidal constant, oceanic benchmark",
+        "morphemes": [
+          "zylar",
+          "unor"
+        ],
+        "etymology": "zylar(海) + unor(整数)",
+        "category": "10. 道具・住居・工芸・人工物",
+        "example_sentence": "Vyrel el mi ia zylarunor.",
+        "example_ja": "私は海図水深定数を測量する。"
+      },
+      {
+        "nrs": "zylarjyn",
+        "pos": "名",
+        "meaningJa": "船乗り魂、海洋精神、海防の気概",
+        "meaningEn": "seafarer resolution spirit, oceanic soul, coastal mariner resolve",
+        "morphemes": [
+          "zylar",
+          "jyn"
+        ],
+        "etymology": "zylar(海) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia zylarjyn.",
+        "example_ja": "私は船乗り魂を守る。"
+      },
+      {
+        "nrs": "zylarkym",
+        "pos": "名",
+        "meaningJa": "夜光海面、夜間潮流、暗夜航路",
+        "meaningEn": "luminescent night sea, nocturnal tide current, dark sea passage",
+        "morphemes": [
+          "zylar",
+          "kym"
+        ],
+        "etymology": "zylar(海) + kym(夜)",
+        "category": "2. 自然・気象・地形・鉱物",
+        "example_sentence": "Poran el mi uo zylarkym.",
+        "example_ja": "私は夜光海面を巡回する。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-39",
+    "batch": "Batch 54",
+    "domain": "協同作業・公立薬局の滋養製剤と包装封印",
+    "title": "公立薬局での処方箋記録と生体滋養剤の封緘",
+    "communicative_need": "採集師と写字生が処方箋記録を清書し、生体滋養剤と夜用滋養薬を包装封印する。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "丸薬を成形する採集師"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "生薬の台帳を清書する写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Kiras el mi ia nerbion. Relen el nerkym uo nersoran.",
+        "japanese": "私は生体滋養剤を調剤する。処方箋記録に夜用滋養薬の配合が記されている。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Soran el mi ia nersoran. Vymin el miin ia nerbion ul nerkym.",
+        "japanese": "私は処方箋記録を清書する。私たちは生体滋養剤と夜用滋養薬の品質を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "nersoran",
+        "pos": "名",
+        "meaningJa": "処方箋記録、調剤録、生薬調合記録",
+        "meaningEn": "pharmacopoeia ledger, dispensary register, herbal formula record",
+        "morphemes": [
+          "ner",
+          "soran"
+        ],
+        "etymology": "ner(滋養) + soran(書く)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Soran el mi ia nersoran.",
+        "example_ja": "私は処方箋記録を清書する。"
+      },
+      {
+        "nrs": "nerbion",
+        "pos": "名",
+        "meaningJa": "生体滋養剤、活性生薬、活力補給剤",
+        "meaningEn": "bioactive tonic agent, vital herbal medicine, vitality restorative",
+        "morphemes": [
+          "ner",
+          "bion"
+        ],
+        "etymology": "ner(滋養) + bion(生きる)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Kiras el mi ia nerbion.",
+        "example_ja": "私は生体滋養剤を調剤する。"
+      },
+      {
+        "nrs": "nerkym",
+        "pos": "名",
+        "meaningJa": "夜用滋養薬、安眠生薬、夜間鎮静薬",
+        "meaningEn": "nocturnal restorative tonic, nightfall sedative herb, night soothing potion",
+        "morphemes": [
+          "ner",
+          "kym"
+        ],
+        "etymology": "ner(滋養) + kym(夜)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vymin el mi ia nerkym.",
+        "example_ja": "私は夜用滋養薬の品質を守る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-40",
+    "batch": "Batch 54",
+    "domain": "協同作業・都市大評議会の協約批准と終章の誓詞",
+    "title": "大評議会での条約定数批准と至誠協定の調印",
+    "communicative_need": "写字生と舟守が条約定数を批准し、連帯の真情をもって純白の誓約に調印する。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "最終誓約文書を読み上げる写字生"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "市民同盟代表として署名する舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Soran el mi ia jylasunor. Jylas el mi ia jylasalin uo jylasjyn.",
+        "japanese": "私は条約定数を清書する。私は連帯の真情を胸に純白の誓約を結び誓う。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Jylas el mi ia jylasalin. Vymin el miin ia jylasunor ul jylasjyn.",
+        "japanese": "私は純白の誓約に調印する。私たちは条約定数と連帯の真情を守り抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "jylasunor",
+        "pos": "名",
+        "meaningJa": "条約定数、批准条項数、誓約規定",
+        "meaningEn": "covenant treaty metric, ratification clauses count, alliance statute",
+        "morphemes": [
+          "jylas",
+          "unor"
+        ],
+        "etymology": "jylas(結ぶ) + unor(整数)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Soran el mi ia jylasunor.",
+        "example_ja": "私は条約定数を清書する。"
+      },
+      {
+        "nrs": "jylasjyn",
+        "pos": "名",
+        "meaningJa": "連帯の真情、誓約精神、同盟気概",
+        "meaningEn": "concord covenant ethos, alliance commitment soul, fraternal pledge spirit",
+        "morphemes": [
+          "jylas",
+          "jyn"
+        ],
+        "etymology": "jylas(結ぶ) + jyn(心)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia jylasjyn.",
+        "example_ja": "私は連帯の真情を守る。"
+      },
+      {
+        "nrs": "jylasalin",
+        "pos": "名",
+        "meaningJa": "純白の誓約、無垢なる同盟、至誠協定",
+        "meaningEn": "pure white covenant, immaculate alliance, sincere pact",
+        "morphemes": [
+          "jylas",
+          "alin"
+        ],
+        "etymology": "jylas(結ぶ) + alin(白い)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Jylas el mi ia jylasalin.",
+        "example_ja": "私は純白の誓約を結び誓う。"
+      }
+    ]
+  }
+]

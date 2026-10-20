@@ -1,13 +1,13 @@
-# 正本複合語590語・197対話シナリオによる保留候補救済監査レポート (Phase 1〜51 完了記録)
+# 正本複合語620語・207対話シナリオによる保留候補救済監査レポート (Phase 1〜54 完了記録)
 
 - **対象データセット**: `data/verified_canonical_compounds.json`
 - **機械監査レポート**: `audit/maintenance/canonical-compounds-batch1-20261019.json`
 - **派生典籍出力**: `docs/Valnes_dialogues.html` / `docs/Valnes_dialogues.pdf` / `docs/VALNES_DIALOGUES_COMPANION.md`
-- **検証済み正本複合語数**: **590 語**（全51バッチ：`Batch 1` 〜 `Batch 51`）
-- **実証済み2話者対話シナリオ数**: **197 篇**（`CANON-CONV-01` 〜 `CANON-COLAB-30`）
+- **検証済み正本複合語数**: **620 語**（全54バッチ：`Batch 1` 〜 `Batch 54`）
+- **実証済み2話者対話シナリオ数**: **207 篇**（`CANON-CONV-01` 〜 `CANON-COLAB-40`）
 - **監査判定**: **`ZERO_FLAGS_VERIFIED`（監査フラグ 0 件）**
 - **旧保留台帳（`data/emergent_lexicon_audit.json`）総数**: 1020 件（うち日常会話 `CONV-*` 500 件）
-- **正本複合語へのリマッピング（救済対応付け）完了件数**: **590 件**
+- **正本複合語へのリマッピング（救済対応付け）完了件数**: **620 件**
 
 ## 1. バッチ別構成と監査結果
 
@@ -64,10 +64,13 @@
 | **Batch 49** | `CANON-COLAB-21` 〜 `CANON-COLAB-23` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 | **Batch 50** | `CANON-COLAB-24` 〜 `CANON-COLAB-26` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 | **Batch 51** | `CANON-COLAB-27` 〜 `CANON-COLAB-30` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 52** | `CANON-COLAB-31` 〜 `CANON-COLAB-33` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 53** | `CANON-COLAB-34` 〜 `CANON-COLAB-36` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 54** | `CANON-COLAB-37` 〜 `CANON-COLAB-40` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 
-## 2. 旧保留候補（非自立語根を含む合成語）からのリマッピング対応表（抜粋50件＋全590件要約）
+## 2. 旧保留候補（非自立語根を含む合成語）からのリマッピング対応表（抜粋50件＋全620件要約）
 
-旧生成スクリプト（`CORE_MORPHEMES` の非辞書語根 `kel`, `vas`, `pel` 等や `r[:3]` 切り詰めを使用していたもの）で生成された保留候補に対し、正本辞書（`data/lexicon.json`）の単独語根2つのみを連結した正本複合語590語を1対1で対応付けました。
+旧生成スクリプト（`CORE_MORPHEMES` の非辞書語根 `kel`, `vas`, `pel` 等や `r[:3]` 切り詰めを使用していたもの）で生成された保留候補に対し、正本辞書（`data/lexicon.json`）の単独語根2つのみを連結した正本複合語620語を1対1で対応付けました。
 
 | 正本複合語 ID | 正本複合語 (`nrs`) | 正本語根分解 | 日本語定義 | 代替対象の旧保留 ID | 旧保留語 (`legacyNrs`) | 旧形態素 |
 | :---: | :--- | :--- | :--- | :---: | :--- | :--- |
@@ -122,7 +125,7 @@
 | `#31049` | **`tyniserel`** | `tyni + serel` | 銀の小刀、白銀の刃物、銀細工ナイフ | `#40569` | `kymfal` | `kym + fal` |
 | `#31050` | **`veldolar`** | `vel + dolar` | 木工仕事、木彫りの勤労、木材加工 | `#40570` | `kymjyl` | `kym + jyl` |
 
-> 全 590 件の完全なリマッピング対応表は `data/verified_canonical_compounds.json` の `remappingTable` フィールドに収録されています。
+> 全 620 件の完全なリマッピング対応表は `data/verified_canonical_compounds.json` の `remappingTable` フィールドに収録されています。
 
 ## 3. 正本・歴史的監査スナップショットの不変性確認
 

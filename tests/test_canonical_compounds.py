@@ -45,7 +45,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertNotIn("kel", arbiter.known_morphemes)
         self.assertNotIn("pel", arbiter.known_morphemes)
 
-    def test_verified_canonical_compounds_batches_1_to_51_have_zero_audit_flags(self):
+    def test_verified_canonical_compounds_batches_1_to_54_have_zero_audit_flags(self):
         self.assertTrue(VERIFIED_COMPOUNDS_PATH.exists())
         self.assertTrue(BATCH_AUDIT_REPORT_PATH.exists())
         self.assertTrue(REMEDIATION_SUMMARY_PATH.exists())
@@ -56,10 +56,10 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
         self.assertEqual("ZERO_FLAGS_VERIFIED", saved_report["verdict"])
         self.assertEqual({}, saved_report["flagCounts"])
-        self.assertEqual(590, saved_dataset["summary"]["totalEntries"])
-        self.assertEqual(197, saved_dataset["summary"]["totalScenarios"])
+        self.assertEqual(620, saved_dataset["summary"]["totalEntries"])
+        self.assertEqual(207, saved_dataset["summary"]["totalScenarios"])
         self.assertEqual(0, saved_dataset["summary"]["auditFlagCount"])
-        self.assertEqual(590, saved_dataset["summary"]["remediatedLegacyCount"])
+        self.assertEqual(620, saved_dataset["summary"]["remediatedLegacyCount"])
         self.assertEqual(saved_dataset["entries"], live["dataset"]["entries"])
         self.assertEqual(saved_report["entries"], live["auditReport"]["entries"])
 
@@ -102,7 +102,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
     def test_web_studio_and_valnes_dialogues_pdf_integration(self):
         bundle_res = verify_web_bundle()
-        self.assertEqual(590, bundle_res["verifiedCompounds"])
+        self.assertEqual(620, bundle_res["verifiedCompounds"])
         self.assertTrue(bundle_res["sourceInputsMatch"])
 
         html_path = ROOT / "docs/Valnes_dialogues.html"
@@ -121,6 +121,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("CANON-COLAB-10", html_text)
         self.assertIn("CANON-COLAB-20", html_text)
         self.assertIn("CANON-COLAB-30", html_text)
+        self.assertIn("CANON-COLAB-40", html_text)
         self.assertIn("domain-category-index", html_text)
         self.assertIn("constituent-root-index", html_text)
 
@@ -166,8 +167,8 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
     def test_promotion_gateway_requires_explicit_council_signoff(self):
         status = evaluate_promotion_readiness()
         self.assertTrue(status["mechanicallyReady"])
-        self.assertEqual(590, status["candidateCount"])
-        self.assertEqual(197, status["scenarioCount"])
+        self.assertEqual(620, status["candidateCount"])
+        self.assertEqual(207, status["scenarioCount"])
         self.assertFalse(status["councilSignoffGranted"])
         self.assertEqual("HOLD_FOR_COUNCIL_SIGNOFF", status["status"])
 
@@ -182,8 +183,8 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         sim = simulate_promotion()
         self.assertTrue(sim["simulationPassed"])
         self.assertEqual(372, sim["existingExtensionsCount"])
-        self.assertEqual(590, sim["promotedCandidateCount"])
-        self.assertEqual(962, sim["totalSimulatedExtensionsCount"])
+        self.assertEqual(620, sim["promotedCandidateCount"])
+        self.assertEqual(992, sim["totalSimulatedExtensionsCount"])
         self.assertEqual(0, sim["idCollisions"])
         self.assertEqual(0, sim["rootCollisions"])
         self.assertEqual("PROMOTION_SIMULATION_SUCCESSFUL", sim["verdict"])
