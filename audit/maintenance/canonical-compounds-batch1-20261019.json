@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T03:02:30.299451+00:00",
+  "createdAt": "2026-10-20T03:20:41.863374+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 480,
-    "uniqueRoots": 480,
-    "uniqueIds": 480,
-    "scenarios": 160,
+    "rows": 500,
+    "uniqueRoots": 500,
+    "uniqueIds": 500,
+    "scenarios": 167,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -57,8 +57,8 @@
     "Toren el <TERM> va velom.": 1,
     "Soran el mi ia <TERM> de tynikirel.": 1,
     "Vyrel el mi ia vyrpamel ul <TERM>.": 1,
-    "Relen el <TERM> uo sylim.": 3,
-    "Poran el mi to <TERM>.": 1,
+    "Relen el <TERM> uo sylim.": 4,
+    "Poran el mi to <TERM>.": 2,
     "Vyrel el mi ia <TERM> uo velil.": 1,
     "Neranast el mi ia <TERM>.": 1,
     "Falun el <TERM> uo morpal.": 1,
@@ -129,10 +129,10 @@
     "Vymin el miin ia <TERM>.": 1,
     "Vyrel el mi ia <TERM> ul talvalis uo vorn.": 1,
     "Vyrel el mi ia vyrvalis ul <TERM> uo vorn.": 1,
-    "Relen el <TERM> uo vorn.": 14,
+    "Relen el <TERM> uo vorn.": 15,
     "Vyrel el mi ia <TERM> ul darkypal uo govan.": 1,
     "Vyrel el mi ia vyrkypal ul <TERM> uo govan.": 1,
-    "Relen el <TERM> uo govan.": 12,
+    "Relen el <TERM> uo govan.": 13,
     "Vyrel el mi ia <TERM> ul velkirel uo dovik.": 1,
     "Vyrel el mi ia vyrkirel ul <TERM> uo dovik.": 1,
     "Relen el <TERM> uo dovik.": 1,
@@ -383,7 +383,23 @@
     "Vyrel el mi ia <TERM> ul vyrkyron uo livar.": 1,
     "Vyrel el mi ia alinkyrom ul <TERM> uo livar.": 1,
     "Vymin el mi ia <TERM> ul darsirar uo livar.": 1,
-    "Vymin el mi ia havlivar ul <TERM> uo livar.": 1
+    "Vymin el mi ia havlivar ul <TERM> uo livar.": 1,
+    "Vyrel el mi ia <TERM> uo zylartal.": 1,
+    "Relen el <TERM> uo tal.": 1,
+    "Poran el mi to <TERM> ku ti.": 1,
+    "Vyrel el mi ia <TERM> uo talonvel.": 1,
+    "Vymin el <TERM> ia tal.": 1,
+    "Relen el <TERM> uo dar.": 1,
+    "Relen el <TERM> to terinvorn.": 1,
+    "Relen el <TERM> to pamelvorn.": 1,
+    "Vymin el mi ia <TERM>.": 1,
+    "Soran el mi uo <TERM>.": 1,
+    "Kiras el mi ia <TERM> ul kypalvel.": 1,
+    "Vymin el <TERM> ia pamel.": 1,
+    "Vyrel el mi ia <TERM> to duriltal.": 1,
+    "Vymin el nervelas ia <TERM>.": 1,
+    "Soran el mi ia <TERM>.": 1,
+    "Vyrel el mi ia <TERM>.": 1
   },
   "entries": [
     {
@@ -9985,6 +10001,406 @@
         "Yura"
       ],
       "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31481,
+      "nrs": "wylordar",
+      "meaningJa": "季節風が運ぶ恵みの雨、モンスーンの降雨、風の潤い雨",
+      "meaningEn": "monsoon rain, wind-carried seasonal rain, nourishing monsoon shower",
+      "pos": "名",
+      "morphemes": [
+        "wylor",
+        "dar"
+      ],
+      "scenario_id": "CANON-CONV-161",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> uo zylartal."
+    },
+    {
+      "id": 31482,
+      "nrs": "wylorvel",
+      "meaningJa": "潮風に耐える防風樹、海風の樹林、風除けの常緑木",
+      "meaningEn": "windbreak tree, coastal shelterbelt timber, wind-resisting evergreen",
+      "pos": "名",
+      "morphemes": [
+        "wylor",
+        "vel"
+      ],
+      "scenario_id": "CANON-CONV-161",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo tal."
+    },
+    {
+      "id": 31483,
+      "nrs": "zylartal",
+      "meaningJa": "海岸段丘、海と大地の境、波打ち際の段丘地",
+      "meaningEn": "coastal terrace, shoreland plateau, maritime terrace",
+      "pos": "名",
+      "morphemes": [
+        "zylar",
+        "tal"
+      ],
+      "scenario_id": "CANON-CONV-161",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Poran el mi to <TERM> ku ti."
+    },
+    {
+      "id": 31484,
+      "nrs": "talondar",
+      "meaningJa": "孤島の淡水泉、海島の湧水、島の中央の水源",
+      "meaningEn": "island freshwater spring, insular freshwater fountain, oceanic isle spring",
+      "pos": "名",
+      "morphemes": [
+        "talon",
+        "dar"
+      ],
+      "scenario_id": "CANON-CONV-162",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> uo talonvel."
+    },
+    {
+      "id": 31485,
+      "nrs": "talonvel",
+      "meaningJa": "島の原生林、孤島に根づく固有樹、島峰の森",
+      "meaningEn": "insular native woodland, endemic island timber, isle forest tree",
+      "pos": "名",
+      "morphemes": [
+        "talon",
+        "vel"
+      ],
+      "scenario_id": "CANON-CONV-162",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el <TERM> ia tal."
+    },
+    {
+      "id": 31486,
+      "nrs": "dargovan",
+      "meaningJa": "水上の高床住居、波止場の舟小屋、水辺の家",
+      "meaningEn": "stilt waterhouse, dockside boat cottage, riparian dwelling",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "govan"
+      ],
+      "scenario_id": "CANON-CONV-162",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo dar."
+    },
+    {
+      "id": 31487,
+      "nrs": "pyrisvorn",
+      "meaningJa": "暖炉の間、石炉の憩い室、火床のある温もり部屋",
+      "meaningEn": "hearth room, stone-fireplace parlor, fire-warmed family chamber",
+      "pos": "名",
+      "morphemes": [
+        "pyris",
+        "vorn"
+      ],
+      "scenario_id": "CANON-CONV-163",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo govan."
+    },
+    {
+      "id": 31488,
+      "nrs": "terinvorn",
+      "meaningJa": "茶室、煎じ茶の談話室、温茶を愉しむ小間",
+      "meaningEn": "tea chamber, herb-infusion parlor, warm tea tasting room",
+      "pos": "名",
+      "morphemes": [
+        "terin",
+        "vorn"
+      ],
+      "scenario_id": "CANON-CONV-163",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Poran el mi to <TERM>."
+    },
+    {
+      "id": 31489,
+      "nrs": "nergovan",
+      "meaningJa": "糧食の貯蔵家屋、食料庫、収穫物を納める保冷庫",
+      "meaningEn": "food storage cottage, grain pantry annex, harvest provision house",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "govan"
+      ],
+      "scenario_id": "CANON-CONV-163",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> to terinvorn."
+    },
+    {
+      "id": 31490,
+      "nrs": "tasorvorn",
+      "meaningJa": "安楽椅子の読書室、応接の小間、肘掛け椅子の寛ぎ部屋",
+      "meaningEn": "armchair reading room, reception parlor, easy-chair chamber",
+      "pos": "名",
+      "morphemes": [
+        "tasor",
+        "vorn"
+      ],
+      "scenario_id": "CANON-CONV-164",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> to pamelvorn."
+    },
+    {
+      "id": 31491,
+      "nrs": "pamelvorn",
+      "meaningJa": "蔵書室、図書閲覧室、典籍が並ぶ静かな小部屋",
+      "meaningEn": "library study room, book archival cabinet, quiet reading chamber",
+      "pos": "名",
+      "morphemes": [
+        "pamel",
+        "vorn"
+      ],
+      "scenario_id": "CANON-CONV-164",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31492,
+      "nrs": "dovikvorn",
+      "meaningJa": "執務室、文机の仕事部屋、記録を綴る書斎",
+      "meaningEn": "writing desk study, scribal office chamber, deskwork cabinet",
+      "pos": "名",
+      "morphemes": [
+        "dovik",
+        "vorn"
+      ],
+      "scenario_id": "CANON-CONV-164",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi uo <TERM>."
+    },
+    {
+      "id": 31493,
+      "nrs": "serelvel",
+      "meaningJa": "木彫りの工芸品、小刀で彫られた銘木細工、木彫刻",
+      "meaningEn": "woodcarving craftwork, knife-carved timber art, engraved woodcraft",
+      "pos": "名",
+      "morphemes": [
+        "serel",
+        "vel"
+      ],
+      "scenario_id": "CANON-CONV-165",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM> ul kypalvel."
+    },
+    {
+      "id": 31494,
+      "nrs": "kypalvel",
+      "meaningJa": "木製の収納箱、銘木の小箱、桐箱のような工芸箱",
+      "meaningEn": "wooden storage chest, crafted timber coffer, fine-grain wooden casket",
+      "pos": "名",
+      "morphemes": [
+        "kypal",
+        "vel"
+      ],
+      "scenario_id": "CANON-CONV-165",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el <TERM> ia pamel."
+    },
+    {
+      "id": 31495,
+      "nrs": "tasorvel",
+      "meaningJa": "肘掛け椅子の銘木、椅子用の頑丈な木材、家具用材",
+      "meaningEn": "armchair hardwood, sturdy chair timber, fine furniture wood",
+      "pos": "名",
+      "morphemes": [
+        "tasor",
+        "vel"
+      ],
+      "scenario_id": "CANON-CONV-165",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo vorn."
+    },
+    {
+      "id": 31496,
+      "nrs": "nervelas",
+      "meaningJa": "滋養の薬草葉、食用薬草の青葉、ビタミン豊富な野草葉",
+      "meaningEn": "nourishing medicinal leaf, edible herbal foliage, nutrient-rich green leaf",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "velas"
+      ],
+      "scenario_id": "CANON-CONV-166",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> to duriltal."
+    },
+    {
+      "id": 31497,
+      "nrs": "nerzyvas",
+      "meaningJa": "食による健全な健康、滋養に満ちた健やかさ、食療養",
+      "meaningEn": "nutritional wellness, diet-derived sound health, wholesome vitality",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "zyvas"
+      ],
+      "scenario_id": "CANON-CONV-166",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el nervelas ia <TERM>."
+    },
+    {
+      "id": 31498,
+      "nrs": "duriltal",
+      "meaningJa": "太古の骨石層、化石を含む地層、古生物の骨岩層",
+      "meaningEn": "fossil bone layer, fossiliferous rock stratum, ancient skeletal bedrock",
+      "pos": "名",
+      "morphemes": [
+        "duril",
+        "tal"
+      ],
+      "scenario_id": "CANON-CONV-166",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM>."
+    },
+    {
+      "id": 31499,
+      "nrs": "klorteira",
+      "meaningJa": "心臓の環状脈系、生命の核たる循環脈、胸の円環脈",
+      "meaningEn": "cardiovascular circle, central core arterial ring, circulatory cycle",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "teira"
+      ],
+      "scenario_id": "CANON-CONV-167",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31500,
+      "nrs": "nerteira",
+      "meaningJa": "生命を養う心臓の滋養、心魂の活力、生命核の滋養",
+      "meaningEn": "heart-nourishing vitality, core sustenance of life, vital cardiac nourishment",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "teira"
+      ],
+      "scenario_id": "CANON-CONV-167",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo sylim."
     }
   ]
 }
