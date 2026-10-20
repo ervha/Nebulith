@@ -1,0 +1,812 @@
+[
+  {
+    "scenario_id": "CANON-ARCH-01",
+    "batch": "Batch 86",
+    "domain": "古代建築・石工構造",
+    "title": "古代建築の基壇支柱と石造架構",
+    "communicative_need": "石工棟梁と構造設計士が古代建築の基壇支柱と石造架構について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Boran",
+      "role": "石工棟梁"
+    },
+    "agent_b": {
+      "name": "Livia",
+      "role": "構造設計士"
+    },
+    "turns": [
+      {
+        "speaker": "Boran",
+        "nebulith": "Vyreler el mi uo taltor to dar. Vyreler el mi uo taldoran to dar. Vyreler el mi uo taltulan to dar.",
+        "japanese": "私は礎石円柱（taltor）を観測・記録します。私は基壇トラス群（taldoran）を観測・記録します。私は構造力学律（taltulan）を観測・記録します。"
+      },
+      {
+        "speaker": "Livia",
+        "nebulith": "Ve, taltor el alin to toren. taldoran el alin to toren. taltulan el alin to toren.",
+        "japanese": "ええ、その礎石円柱（taltor）は確かな秩序に基づいています。その基壇トラス群（taldoran）は確かな秩序に基づいています。その構造力学律（taltulan）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "taltor",
+        "pos": "名",
+        "meaningJa": "礎石円柱、基壇支柱、建築主柱",
+        "meaningEn": "foundation pillar, base column, structural pier",
+        "morphemes": [
+          "tal",
+          "tor"
+        ],
+        "etymology": "tal(大地) + tor(しかし)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo taltor to dar.",
+        "example_ja": "私は礎石円柱を観測・記録します。"
+      },
+      {
+        "nrs": "taldoran",
+        "pos": "名",
+        "meaningJa": "基壇トラス群、基礎石造架構、地盤結合骨組",
+        "meaningEn": "foundation truss frame, base masonry framework",
+        "morphemes": [
+          "tal",
+          "doran"
+        ],
+        "etymology": "tal(大地) + doran(惑星)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo taldoran to dar.",
+        "example_ja": "私は基壇トラス群を観測・記録します。"
+      },
+      {
+        "nrs": "taltulan",
+        "pos": "名",
+        "meaningJa": "構造力学律、石工架構規範、建築構造律",
+        "meaningEn": "structural mechanics law, architectural framing rule",
+        "morphemes": [
+          "tal",
+          "tulan"
+        ],
+        "etymology": "tal(大地) + tulan(遠く)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo taltulan to dar.",
+        "example_ja": "私は構造力学律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ARCH-02",
+    "batch": "Batch 86",
+    "domain": "古代建築・石工構造",
+    "title": "尖塔頂点の力学と立柱岩盤",
+    "communicative_need": "石造架構技師と測量技手が尖塔頂点の力学と立柱岩盤について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Kastor",
+      "role": "石造架構技師"
+    },
+    "agent_b": {
+      "name": "Helene",
+      "role": "測量技手"
+    },
+    "turns": [
+      {
+        "speaker": "Kastor",
+        "nebulith": "Vyreler el mi uo taltoren to dar. Vyreler el mi uo taltaran to dar. Vyreler el mi uo tortal to dar.",
+        "japanese": "私は基壇石工群（taltoren）を観測・記録します。私は尖塔頂点（taltaran）を観測・記録します。私は柱基礎地盤（tortal）を観測・記録します。"
+      },
+      {
+        "speaker": "Helene",
+        "nebulith": "Ve, taltoren el alin to toren. taltaran el alin to toren. tortal el alin to toren.",
+        "japanese": "ええ、その基壇石工群（taltoren）は確かな秩序に基づいています。その尖塔頂点（taltaran）は確かな秩序に基づいています。その柱基礎地盤（tortal）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "taltoren",
+        "pos": "名",
+        "meaningJa": "基壇石工群、礎石積層群、切石基礎層",
+        "meaningEn": "foundation stone masonry, bedrock ashlar layers",
+        "morphemes": [
+          "tal",
+          "toren"
+        ],
+        "etymology": "tal(大地) + toren(来る)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo taltoren to dar.",
+        "example_ja": "私は基壇石工群を観測・記録します。"
+      },
+      {
+        "nrs": "taltaran",
+        "pos": "名",
+        "meaningJa": "尖塔頂点、高塔天頂部、建築尖塔頂",
+        "meaningEn": "spire pinnacle, tower apex, architectural apex",
+        "morphemes": [
+          "tal",
+          "taran"
+        ],
+        "etymology": "tal(大地) + taran(住まう)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo taltaran to dar.",
+        "example_ja": "私は尖塔頂点を観測・記録します。"
+      },
+      {
+        "nrs": "tortal",
+        "pos": "名",
+        "meaningJa": "柱基礎地盤、支柱定着基盤、立柱岩盤",
+        "meaningEn": "pillar base stratum, column foundation bed",
+        "morphemes": [
+          "tor",
+          "tal"
+        ],
+        "etymology": "tor(しかし) + tal(大地)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo tortal to dar.",
+        "example_ja": "私は柱基礎地盤を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ARCH-03",
+    "batch": "Batch 86",
+    "domain": "古代建築・石工構造",
+    "title": "円堂ロタンダとアーチ架構律",
+    "communicative_need": "建築史学者と古代建築復元士が円堂ロタンダとアーチ架構律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Markos",
+      "role": "建築史学者"
+    },
+    "agent_b": {
+      "name": "Thera",
+      "role": "古代建築復元士"
+    },
+    "turns": [
+      {
+        "speaker": "Markos",
+        "nebulith": "Vyreler el mi uo torterin to dar. Vyreler el mi uo tordoran to dar. Vyreler el mi uo tortulan to dar.",
+        "japanese": "私は群柱架構（torterin）を観測・記録します。私は円柱石工組（tordoran）を観測・記録します。私は支柱配列律（tortulan）を観測・記録します。"
+      },
+      {
+        "speaker": "Thera",
+        "nebulith": "Ve, torterin el alin to toren. tordoran el alin to toren. tortulan el alin to toren.",
+        "japanese": "ええ、その群柱架構（torterin）は確かな秩序に基づいています。その円柱石工組（tordoran）は確かな秩序に基づいています。その支柱配列律（tortulan）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "torterin",
+        "pos": "名",
+        "meaningJa": "群柱架構、連立支柱群、複列柱トラス",
+        "meaningEn": "clustered pillar truss, multi-column arcade frame",
+        "morphemes": [
+          "tor",
+          "terin"
+        ],
+        "etymology": "tor(しかし) + terin(温かい煎じ茶)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo torterin to dar.",
+        "example_ja": "私は群柱架構を観測・記録します。"
+      },
+      {
+        "nrs": "tordoran",
+        "pos": "名",
+        "meaningJa": "円柱石工組、石造列柱体、円柱ブロック積",
+        "meaningEn": "masonry column assembly, stone pillar structure",
+        "morphemes": [
+          "tor",
+          "doran"
+        ],
+        "etymology": "tor(しかし) + doran(惑星)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo tordoran to dar.",
+        "example_ja": "私は円柱石工組を観測・記録します。"
+      },
+      {
+        "nrs": "tortulan",
+        "pos": "名",
+        "meaningJa": "支柱配列律、柱頭比例公理、列柱配置規範",
+        "meaningEn": "column spacing law, capital proportion axiom",
+        "morphemes": [
+          "tor",
+          "tulan"
+        ],
+        "etymology": "tor(しかし) + tulan(遠く)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo tortulan to dar.",
+        "example_ja": "私は支柱配列律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ARCH-04",
+    "batch": "Batch 87",
+    "domain": "古代建築・石工構造",
+    "title": "切石組積と幾何敷石地盤",
+    "communicative_need": "石工棟梁と構造設計士が切石組積と幾何敷石地盤について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Boran",
+      "role": "石工棟梁"
+    },
+    "agent_b": {
+      "name": "Livia",
+      "role": "構造設計士"
+    },
+    "turns": [
+      {
+        "speaker": "Boran",
+        "nebulith": "Vyreler el mi uo tortoren to dar. Vyreler el mi uo tortulos to dar. Vyreler el mi uo torvorn to dar.",
+        "japanese": "私は地下円室基盤（tortoren）を観測・記録します。私は穹窿構造則（tortulos）を観測・記録します。私は多角柱頭（torvorn）を観測・記録します。"
+      },
+      {
+        "speaker": "Livia",
+        "nebulith": "Ve, tortoren el alin to toren. tortulos el alin to toren. torvorn el alin to toren.",
+        "japanese": "ええ、その地下円室基盤（tortoren）は確かな秩序に基づいています。その穹窿構造則（tortulos）は確かな秩序に基づいています。その多角柱頭（torvorn）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tortoren",
+        "pos": "名",
+        "meaningJa": "地下円室基盤、石造地下室床、地下穹窿基礎",
+        "meaningEn": "subterranean vault bed, stone crypt floor, crypt foundation",
+        "morphemes": [
+          "tor",
+          "toren"
+        ],
+        "etymology": "tor(しかし) + toren(来る)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo tortoren to dar.",
+        "example_ja": "私は地下円室基盤を観測・記録します。"
+      },
+      {
+        "nrs": "tortulos",
+        "pos": "名",
+        "meaningJa": "穹窿構造則、アーチ力学律、ヴォールト架構律",
+        "meaningEn": "vault structural rule, arch mechanics law",
+        "morphemes": [
+          "tor",
+          "tulos"
+        ],
+        "etymology": "tor(しかし) + tulos(天底)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo tortulos to dar.",
+        "example_ja": "私は穹窿構造則を観測・記録します。"
+      },
+      {
+        "nrs": "torvorn",
+        "pos": "名",
+        "meaningJa": "多角柱頭、幾何彫刻柱頭、角柱束石",
+        "meaningEn": "polygonal capital, geometric column head, polygonal pier",
+        "morphemes": [
+          "tor",
+          "vorn"
+        ],
+        "etymology": "tor(しかし) + vorn(部屋)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo torvorn to dar.",
+        "example_ja": "私は多角柱頭を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ARCH-05",
+    "batch": "Batch 87",
+    "domain": "古代建築・石工構造",
+    "title": "トラス主柱と骨組定着地盤",
+    "communicative_need": "石造架構技師と測量技手がトラス主柱と骨組定着地盤について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Kastor",
+      "role": "石造架構技師"
+    },
+    "agent_b": {
+      "name": "Helene",
+      "role": "測量技手"
+    },
+    "turns": [
+      {
+        "speaker": "Kastor",
+        "nebulith": "Vyreler el mi uo tortaran to dar. Vyreler el mi uo terintal to dar. Vyreler el mi uo terintor to dar.",
+        "japanese": "私は幾何敷石地盤（tortaran）を観測・記録します。私は幾何組積則（terintal）を観測・記録します。私は架構主柱群（terintor）を観測・記録します。"
+      },
+      {
+        "speaker": "Helene",
+        "nebulith": "Ve, tortaran el alin to toren. terintal el alin to toren. terintor el alin to toren.",
+        "japanese": "ええ、その幾何敷石地盤（tortaran）は確かな秩序に基づいています。その幾何組積則（terintal）は確かな秩序に基づいています。その架構主柱群（terintor）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tortaran",
+        "pos": "名",
+        "meaningJa": "幾何敷石地盤、多面体敷石層、敷石舗装層",
+        "meaningEn": "geometric paving stratum, polyhedral flagging bed",
+        "morphemes": [
+          "tor",
+          "taran"
+        ],
+        "etymology": "tor(しかし) + taran(住まう)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo tortaran to dar.",
+        "example_ja": "私は幾何敷石地盤を観測・記録します。"
+      },
+      {
+        "nrs": "terintal",
+        "pos": "名",
+        "meaningJa": "幾何組積則、切石幾何律、石工接合規範",
+        "meaningEn": "stereotomy rule, stone cutting geometric law",
+        "morphemes": [
+          "terin",
+          "tal"
+        ],
+        "etymology": "terin(温かい煎じ茶) + tal(大地)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo terintal to dar.",
+        "example_ja": "私は幾何組積則を観測・記録します。"
+      },
+      {
+        "nrs": "terintor",
+        "pos": "名",
+        "meaningJa": "架構主柱群、トラス結合柱、骨組交差柱",
+        "meaningEn": "framework main columns, intersecting truss piers",
+        "morphemes": [
+          "terin",
+          "tor"
+        ],
+        "etymology": "terin(温かい煎じ茶) + tor(しかし)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo terintor to dar.",
+        "example_ja": "私は架構主柱群を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ARCH-06",
+    "batch": "Batch 87",
+    "domain": "古代建築・石工構造",
+    "title": "石造楣石梁の強度解析",
+    "communicative_need": "建築史学者と古代建築復元士が石造楣石梁の強度解析について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Markos",
+      "role": "建築史学者"
+    },
+    "agent_b": {
+      "name": "Thera",
+      "role": "古代建築復元士"
+    },
+    "turns": [
+      {
+        "speaker": "Markos",
+        "nebulith": "Vyreler el mi uo dorantal to dar. Vyreler el mi uo dorantor to dar.",
+        "japanese": "私は骨組定着地盤（dorantal）を観測・記録します。私は石造楣石梁（dorantor）を観測・記録します。"
+      },
+      {
+        "speaker": "Thera",
+        "nebulith": "Ve, dorantal el alin to toren. dorantor el alin to toren.",
+        "japanese": "ええ、その骨組定着地盤（dorantal）は確かな秩序に基づいています。その石造楣石梁（dorantor）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "dorantal",
+        "pos": "名",
+        "meaningJa": "骨組定着地盤、架構支持岩床、骨組基礎地盤",
+        "meaningEn": "framework anchorage stratum, superstructure support bed",
+        "morphemes": [
+          "doran",
+          "tal"
+        ],
+        "etymology": "doran(惑星) + tal(大地)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo dorantal to dar.",
+        "example_ja": "私は骨組定着地盤を観測・記録します。"
+      },
+      {
+        "nrs": "dorantor",
+        "pos": "名",
+        "meaningJa": "石造楣石梁、門扉上部楣石、石造開口梁",
+        "meaningEn": "stone lintel beam, masonry portal beam, header stone",
+        "morphemes": [
+          "doran",
+          "tor"
+        ],
+        "etymology": "doran(惑星) + tor(しかし)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo dorantor to dar.",
+        "example_ja": "私は石造楣石梁を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MIND-01",
+    "batch": "Batch 88",
+    "domain": "精神哲学・内省思索",
+    "title": "純粋理性の直観と論理公理",
+    "communicative_need": "精神哲学者と内省思索家が純粋理性の直観と論理公理について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Philon",
+      "role": "精神哲学者"
+    },
+    "agent_b": {
+      "name": "Sophia",
+      "role": "内省思索家"
+    },
+    "turns": [
+      {
+        "speaker": "Philon",
+        "nebulith": "Zenalin el dar to miin. Vyreler el mi uo zenelir to dar. Vyreler el mi uo zencynel to dar.",
+        "japanese": "この純粋理性の（zenalin）道は私たちに光を与えます。私は直観的覚知（zenelir）を観測・記録します。私は理法秩序（zencynel）を観測・記録します。"
+      },
+      {
+        "speaker": "Sophia",
+        "nebulith": "Ve, Zenalin el toren to fal. zenelir el alin to toren. zencynel el alin to toren.",
+        "japanese": "ええ、純粋理性の（zenalin）秩序は光と調和しています。その直観的覚知（zenelir）は確かな秩序に基づいています。その理法秩序（zencynel）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "zenalin",
+        "pos": "形",
+        "meaningJa": "純粋理性の、澄明な思索の、明晰判明な",
+        "meaningEn": "purely rational, lucidly meditative, clearly reasoned",
+        "morphemes": [
+          "zen",
+          "alin"
+        ],
+        "etymology": "zen(なぜなら) + alin(白い)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Zenalin el dar to miin.",
+        "example_ja": "この純粋理性の道は私たちに光を与えます。"
+      },
+      {
+        "nrs": "zenelir",
+        "pos": "名",
+        "meaningJa": "直観的覚知、理性の歓喜、思索の歓び",
+        "meaningEn": "intuitive awakening, joy of pure reason, intellectual bliss",
+        "morphemes": [
+          "zen",
+          "elir"
+        ],
+        "etymology": "zen(なぜなら) + elir(喜び)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo zenelir to dar.",
+        "example_ja": "私は直観的覚知を観測・記録します。"
+      },
+      {
+        "nrs": "zencynel",
+        "pos": "名",
+        "meaningJa": "理法秩序、因果論理律、思索の公理系",
+        "meaningEn": "rational cosmic order, causal logic principle, axiomatic law",
+        "morphemes": [
+          "zen",
+          "cynel"
+        ],
+        "etymology": "zen(なぜなら) + cynel(愛)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo zencynel to dar.",
+        "example_ja": "私は理法秩序を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MIND-02",
+    "batch": "Batch 88",
+    "domain": "精神哲学・内省思索",
+    "title": "精神潮流因果と清澄な法悦",
+    "communicative_need": "論理倫理学者と瞑想修道士が精神潮流因果と清澄な法悦について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Cleon",
+      "role": "論理倫理学者"
+    },
+    "agent_b": {
+      "name": "Elena",
+      "role": "瞑想修道士"
+    },
+    "turns": [
+      {
+        "speaker": "Cleon",
+        "nebulith": "Vyreler el mi uo zentoren to dar. Zenfevas el dar to miin. Zencylas el dar to miin.",
+        "japanese": "私は精神潮流因果（zentoren）を観測・記録します。この清澄な法悦（zenfevas）道は私たちに光を与えます。この明晰なる公理（zencylas）道は私たちに光を与えます。"
+      },
+      {
+        "speaker": "Elena",
+        "nebulith": "Ve, zentoren el alin to toren. Zenfevas el toren to fal. Zencylas el toren to fal.",
+        "japanese": "ええ、その精神潮流因果（zentoren）は確かな秩序に基づいています。清澄な法悦（zenfevas）秩序は光と調和しています。明晰なる公理（zencylas）秩序は光と調和しています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "zentoren",
+        "pos": "名",
+        "meaningJa": "精神潮流因果、内面思潮原理、思索潮流理",
+        "meaningEn": "mental tidal causality, internal tide philosophy",
+        "morphemes": [
+          "zen",
+          "toren"
+        ],
+        "etymology": "zen(なぜなら) + toren(来る)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo zentoren to dar.",
+        "example_ja": "私は精神潮流因果を観測・記録します。"
+      },
+      {
+        "nrs": "zenfevas",
+        "pos": "形",
+        "meaningJa": "清澄な法悦、無垢なる歓喜、澄明の至福",
+        "meaningEn": "lucid ecstasy, serene pure joy, blissful clarity",
+        "morphemes": [
+          "zen",
+          "fevas"
+        ],
+        "etymology": "zen(なぜなら) + fevas(信じる)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Zenfevas el dar to miin.",
+        "example_ja": "この清澄な法悦道は私たちに光を与えます。"
+      },
+      {
+        "nrs": "zencylas",
+        "pos": "形",
+        "meaningJa": "明晰なる公理、純粋論理規律、澄明思考律",
+        "meaningEn": "clear axiomatic rule, pure logical discipline, lucid reason law",
+        "morphemes": [
+          "zen",
+          "cylas"
+        ],
+        "etymology": "zen(なぜなら) + cylas(美)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Zencylas el dar to miin.",
+        "example_ja": "この明晰なる公理道は私たちに光を与えます。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MIND-03",
+    "batch": "Batch 88",
+    "domain": "精神哲学・内省思索",
+    "title": "調和的至福律と魂の潮鳴り",
+    "communicative_need": "自然観照哲学者と心理思索士が調和的至福律と魂の潮鳴りについて討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Zenon",
+      "role": "自然観照哲学者"
+    },
+    "agent_b": {
+      "name": "Iris",
+      "role": "心理思索士"
+    },
+    "turns": [
+      {
+        "speaker": "Zenon",
+        "nebulith": "Alinzen el dar to miin. Vyreler el mi uo alinelir to dar.",
+        "japanese": "この内面潮流澄明な（alinzen）道は私たちに光を与えます。私は調和的至福律（alinelir）を観測・記録します。"
+      },
+      {
+        "speaker": "Iris",
+        "nebulith": "Ve, Alinzen el toren to fal. alinelir el alin to toren.",
+        "japanese": "ええ、内面潮流澄明な（alinzen）秩序は光と調和しています。その調和的至福律（alinelir）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinzen",
+        "pos": "形",
+        "meaningJa": "内面潮流澄明な、澄んだ思潮の、精神波清らかな",
+        "meaningEn": "lucidly mind-tidal, clear thought-currented",
+        "morphemes": [
+          "alin",
+          "zen"
+        ],
+        "etymology": "alin(白い) + zen(なぜなら)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Alinzen el dar to miin.",
+        "example_ja": "この内面潮流澄明な道は私たちに光を与えます。"
+      },
+      {
+        "nrs": "alinelir",
+        "pos": "名",
+        "meaningJa": "調和的至福律、法悦の規律、歓喜秩序則",
+        "meaningEn": "harmonic beatitude rule, ecstatic order law",
+        "morphemes": [
+          "alin",
+          "elir"
+        ],
+        "etymology": "alin(白い) + elir(喜び)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo alinelir to dar.",
+        "example_ja": "私は調和的至福律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MIND-04",
+    "batch": "Batch 89",
+    "domain": "精神哲学・内省思索",
+    "title": "思潮原理と清明なる沈潜",
+    "communicative_need": "精神哲学者と内省思索家が思潮原理と清明なる沈潜について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Philon",
+      "role": "精神哲学者"
+    },
+    "agent_b": {
+      "name": "Sophia",
+      "role": "内省思索家"
+    },
+    "turns": [
+      {
+        "speaker": "Philon",
+        "nebulith": "Vyreler el mi uo alincynel to dar. Vyreler el mi uo alintoren to dar. Vyreler el mi uo alinsirin to dar.",
+        "japanese": "私は内面波動歓喜（alincynel）を観測・記録します。私は思潮原理（alintoren）を観測・記録します。私は澄明心潮（alinsirin）を観測・記録します。"
+      },
+      {
+        "speaker": "Sophia",
+        "nebulith": "Ve, alincynel el alin to toren. alintoren el alin to toren. alinsirin el alin to toren.",
+        "japanese": "ええ、その内面波動歓喜（alincynel）は確かな秩序に基づいています。その思潮原理（alintoren）は確かな秩序に基づいています。その澄明心潮（alinsirin）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alincynel",
+        "pos": "名",
+        "meaningJa": "内面波動歓喜、心の波立ち歓、魂の潮鳴り歓",
+        "meaningEn": "joyous wave of soul, mental surge exhilaration",
+        "morphemes": [
+          "alin",
+          "cynel"
+        ],
+        "etymology": "alin(白い) + cynel(愛)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo alincynel to dar.",
+        "example_ja": "私は内面波動歓喜を観測・記録します。"
+      },
+      {
+        "nrs": "alintoren",
+        "pos": "名",
+        "meaningJa": "思潮原理、潮流内省理、精神流因果律",
+        "meaningEn": "thought wave philosophy, mind current causal principle",
+        "morphemes": [
+          "alin",
+          "toren"
+        ],
+        "etymology": "alin(白い) + toren(来る)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo alintoren to dar.",
+        "example_ja": "私は思潮原理を観測・記録します。"
+      },
+      {
+        "nrs": "alinsirin",
+        "pos": "名",
+        "meaningJa": "澄明心潮、精神清澄流、清明思潮",
+        "meaningEn": "clear mental tide, tranquil thought stream",
+        "morphemes": [
+          "alin",
+          "sirin"
+        ],
+        "etymology": "alin(白い) + sirin(平穏)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo alinsirin to dar.",
+        "example_ja": "私は澄明心潮を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MIND-05",
+    "batch": "Batch 89",
+    "domain": "精神哲学・内省思索",
+    "title": "瞑想静思と静止澄明の境地",
+    "communicative_need": "論理倫理学者と瞑想修道士が瞑想静思と静止澄明の境地について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Cleon",
+      "role": "論理倫理学者"
+    },
+    "agent_b": {
+      "name": "Elena",
+      "role": "瞑想修道士"
+    },
+    "turns": [
+      {
+        "speaker": "Cleon",
+        "nebulith": "Alinfevas el dar to miin. Vyreler el mi uo alincylas to dar. Elirzen el dar to miin.",
+        "japanese": "この魂の歓声潮（alinfevas）道は私たちに光を与えます。私は静止内省原理（alincylas）を観測・記録します。この静止澄明な（elirzen）道は私たちに光を与えます。"
+      },
+      {
+        "speaker": "Elena",
+        "nebulith": "Ve, Alinfevas el toren to fal. alincylas el alin to toren. Elirzen el toren to fal.",
+        "japanese": "ええ、魂の歓声潮（alinfevas）秩序は光と調和しています。その静止内省原理（alincylas）は確かな秩序に基づいています。静止澄明な（elirzen）秩序は光と調和しています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinfevas",
+        "pos": "形",
+        "meaningJa": "魂の歓声潮、内省歓喜波、精神潮鳴悦",
+        "meaningEn": "soul resonance joy, reflective bliss surge",
+        "morphemes": [
+          "alin",
+          "fevas"
+        ],
+        "etymology": "alin(白い) + fevas(信じる)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Alinfevas el dar to miin.",
+        "example_ja": "この魂の歓声潮道は私たちに光を与えます。"
+      },
+      {
+        "nrs": "alincylas",
+        "pos": "名",
+        "meaningJa": "静止内省原理、沈思黙考理、瞑想静思因果",
+        "meaningEn": "meditative stillness principle, quiescent reflection axiom",
+        "morphemes": [
+          "alin",
+          "cylas"
+        ],
+        "etymology": "alin(白い) + cylas(美)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo alincylas to dar.",
+        "example_ja": "私は静止内省原理を観測・記録します。"
+      },
+      {
+        "nrs": "elirzen",
+        "pos": "形",
+        "meaningJa": "静止澄明な、沈静清澄の、安穏明晰な",
+        "meaningEn": "quiescently tranquil, serenely clarified",
+        "morphemes": [
+          "elir",
+          "zen"
+        ],
+        "etymology": "elir(喜び) + zen(なぜなら)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Elirzen el dar to miin.",
+        "example_ja": "この静止澄明な道は私たちに光を与えます。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MIND-06",
+    "batch": "Batch 89",
+    "domain": "精神哲学・内省思索",
+    "title": "内省の静規と精神の定住",
+    "communicative_need": "自然観照哲学者と心理思索士が内省の静規と精神の定住について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Zenon",
+      "role": "自然観照哲学者"
+    },
+    "agent_b": {
+      "name": "Iris",
+      "role": "心理思索士"
+    },
+    "turns": [
+      {
+        "speaker": "Zenon",
+        "nebulith": "Eliralin el dar to miin. Elircynel el dar to miin.",
+        "japanese": "この心の安堵感（eliralin）道は私たちに光を与えます。この内省の静規（elircynel）道は私たちに光を与えます。"
+      },
+      {
+        "speaker": "Iris",
+        "nebulith": "Ve, Eliralin el toren to fal. Elircynel el toren to fal.",
+        "japanese": "ええ、心の安堵感（eliralin）秩序は光と調和しています。内省の静規（elircynel）秩序は光と調和しています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "eliralin",
+        "pos": "形",
+        "meaningJa": "心の安堵感、帰港の至福、憩いの安寧歓",
+        "meaningEn": "tranquil relief, bliss of return, haven joy",
+        "morphemes": [
+          "elir",
+          "alin"
+        ],
+        "etymology": "elir(喜び) + alin(白い)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Eliralin el dar to miin.",
+        "example_ja": "この心の安堵感道は私たちに光を与えます。"
+      },
+      {
+        "nrs": "elircynel",
+        "pos": "形",
+        "meaningJa": "内省の静規、沈潜規律、精神定住律",
+        "meaningEn": "inner quietude rule, meditative discipline, settled mind law",
+        "morphemes": [
+          "elir",
+          "cynel"
+        ],
+        "etymology": "elir(喜び) + cynel(愛)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Elircynel el dar to miin.",
+        "example_ja": "この内省の静規道は私たちに光を与えます。"
+      }
+    ]
+  }
+]

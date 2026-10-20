@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1.0",
-  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-85)",
-  "generatedAt": "2026-10-20T15:49:47.460070+00:00",
+  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-97)",
+  "generatedAt": "2026-10-20T16:15:19.506253+00:00",
   "source": "data/lexicon.json",
   "validator": "tools/canonical_compound_validator.py",
   "summary": {
-    "totalEntries": 917,
-    "totalScenarios": 307,
+    "totalEntries": 1020,
+    "totalScenarios": 346,
     "batches": [
       "Batch 1",
       "Batch 2",
@@ -92,12 +92,24 @@
       "Batch 82",
       "Batch 83",
       "Batch 84",
-      "Batch 85"
+      "Batch 85",
+      "Batch 86",
+      "Batch 87",
+      "Batch 88",
+      "Batch 89",
+      "Batch 90",
+      "Batch 91",
+      "Batch 92",
+      "Batch 93",
+      "Batch 94",
+      "Batch 95",
+      "Batch 96",
+      "Batch 97"
     ],
     "auditFlagCount": 0,
     "allConstituentsStandalone": true,
     "twoSpeakerReuseVerified": true,
-    "remediatedLegacyCount": 917
+    "remediatedLegacyCount": 1020
   },
   "remappingTable": [
     {
@@ -13854,6 +13866,1552 @@
         "kel",
         "tor"
       ]
+    },
+    {
+      "canonicalCompoundId": 31918,
+      "canonicalNrs": "taltor",
+      "canonicalMorphemes": [
+        "tal",
+        "tor"
+      ],
+      "canonicalMeaningJa": "礎石円柱、基壇支柱、建築主柱",
+      "remediatedLegacyId": 40392,
+      "legacyNrs": "darcel",
+      "legacyMorphemes": [
+        "dar",
+        "cel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31919,
+      "canonicalNrs": "taldoran",
+      "canonicalMorphemes": [
+        "tal",
+        "doran"
+      ],
+      "canonicalMeaningJa": "基壇トラス群、基礎石造架構、地盤結合骨組",
+      "remediatedLegacyId": 40400,
+      "legacyNrs": "darfen",
+      "legacyMorphemes": [
+        "dar",
+        "fen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31920,
+      "canonicalNrs": "taltulan",
+      "canonicalMorphemes": [
+        "tal",
+        "tulan"
+      ],
+      "canonicalMeaningJa": "構造力学律、石工架構規範、建築構造律",
+      "remediatedLegacyId": 40408,
+      "legacyNrs": "sulval",
+      "legacyMorphemes": [
+        "sul",
+        "val"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31921,
+      "canonicalNrs": "taltoren",
+      "canonicalMorphemes": [
+        "tal",
+        "toren"
+      ],
+      "canonicalMeaningJa": "基壇石工群、礎石積層群、切石基礎層",
+      "remediatedLegacyId": 40416,
+      "legacyNrs": "novkel",
+      "legacyMorphemes": [
+        "nov",
+        "kel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31922,
+      "canonicalNrs": "taltaran",
+      "canonicalMorphemes": [
+        "tal",
+        "taran"
+      ],
+      "canonicalMeaningJa": "尖塔頂点、高塔天頂部、建築尖塔頂",
+      "remediatedLegacyId": 40424,
+      "legacyNrs": "biontul",
+      "legacyMorphemes": [
+        "bion",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31923,
+      "canonicalNrs": "tortal",
+      "canonicalMorphemes": [
+        "tor",
+        "tal"
+      ],
+      "canonicalMeaningJa": "柱基礎地盤、支柱定着基盤、立柱岩盤",
+      "remediatedLegacyId": 40432,
+      "legacyNrs": "biontas",
+      "legacyMorphemes": [
+        "bion",
+        "tas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31924,
+      "canonicalNrs": "torterin",
+      "canonicalMorphemes": [
+        "tor",
+        "terin"
+      ],
+      "canonicalMeaningJa": "群柱架構、連立支柱群、複列柱トラス",
+      "remediatedLegacyId": 40440,
+      "legacyNrs": "sirpar",
+      "legacyMorphemes": [
+        "sir",
+        "par"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31925,
+      "canonicalNrs": "tordoran",
+      "canonicalMorphemes": [
+        "tor",
+        "doran"
+      ],
+      "canonicalMeaningJa": "円柱石工組、石造列柱体、円柱ブロック積",
+      "remediatedLegacyId": 40448,
+      "legacyNrs": "tulhar",
+      "legacyMorphemes": [
+        "tul",
+        "har"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31926,
+      "canonicalNrs": "tortulan",
+      "canonicalMorphemes": [
+        "tor",
+        "tulan"
+      ],
+      "canonicalMeaningJa": "支柱配列律、柱頭比例公理、列柱配置規範",
+      "remediatedLegacyId": 40456,
+      "legacyNrs": "pelval",
+      "legacyMorphemes": [
+        "pel",
+        "val"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31927,
+      "canonicalNrs": "tortoren",
+      "canonicalMorphemes": [
+        "tor",
+        "toren"
+      ],
+      "canonicalMeaningJa": "地下円室基盤、石造地下室床、地下穹窿基礎",
+      "remediatedLegacyId": 40464,
+      "legacyNrs": "nelmol",
+      "legacyMorphemes": [
+        "nel",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31928,
+      "canonicalNrs": "tortulos",
+      "canonicalMorphemes": [
+        "tor",
+        "tulos"
+      ],
+      "canonicalMeaningJa": "穹窿構造則、アーチ力学律、ヴォールト架構律",
+      "remediatedLegacyId": 40472,
+      "legacyNrs": "selsir",
+      "legacyMorphemes": [
+        "sel",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31929,
+      "canonicalNrs": "torvorn",
+      "canonicalMorphemes": [
+        "tor",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "多角柱頭、幾何彫刻柱頭、角柱束石",
+      "remediatedLegacyId": 40480,
+      "legacyNrs": "selmin",
+      "legacyMorphemes": [
+        "sel",
+        "min"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31930,
+      "canonicalNrs": "tortaran",
+      "canonicalMorphemes": [
+        "tor",
+        "taran"
+      ],
+      "canonicalMeaningJa": "幾何敷石地盤、多面体敷石層、敷石舗装層",
+      "remediatedLegacyId": 40488,
+      "legacyNrs": "torvel",
+      "legacyMorphemes": [
+        "tor",
+        "vel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31931,
+      "canonicalNrs": "terintal",
+      "canonicalMorphemes": [
+        "terin",
+        "tal"
+      ],
+      "canonicalMeaningJa": "幾何組積則、切石幾何律、石工接合規範",
+      "remediatedLegacyId": 40496,
+      "legacyNrs": "palkyr",
+      "legacyMorphemes": [
+        "pal",
+        "kyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31932,
+      "canonicalNrs": "terintor",
+      "canonicalMorphemes": [
+        "terin",
+        "tor"
+      ],
+      "canonicalMeaningJa": "架構主柱群、トラス結合柱、骨組交差柱",
+      "remediatedLegacyId": 40504,
+      "legacyNrs": "vaskyr",
+      "legacyMorphemes": [
+        "vas",
+        "kyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31933,
+      "canonicalNrs": "dorantal",
+      "canonicalMorphemes": [
+        "doran",
+        "tal"
+      ],
+      "canonicalMeaningJa": "骨組定着地盤、架構支持岩床、骨組基礎地盤",
+      "remediatedLegacyId": 40512,
+      "legacyNrs": "molmer",
+      "legacyMorphemes": [
+        "mol",
+        "mer"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31934,
+      "canonicalNrs": "dorantor",
+      "canonicalMorphemes": [
+        "doran",
+        "tor"
+      ],
+      "canonicalMeaningJa": "石造楣石梁、門扉上部楣石、石造開口梁",
+      "remediatedLegacyId": 40520,
+      "legacyNrs": "kelpal",
+      "legacyMorphemes": [
+        "kel",
+        "pal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31935,
+      "canonicalNrs": "zenalin",
+      "canonicalMorphemes": [
+        "zen",
+        "alin"
+      ],
+      "canonicalMeaningJa": "純粋理性の、澄明な思索の、明晰判明な",
+      "remediatedLegacyId": 40393,
+      "legacyNrs": "darhar",
+      "legacyMorphemes": [
+        "dar",
+        "har"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31936,
+      "canonicalNrs": "zenelir",
+      "canonicalMorphemes": [
+        "zen",
+        "elir"
+      ],
+      "canonicalMeaningJa": "直観的覚知、理性の歓喜、思索の歓び",
+      "remediatedLegacyId": 40401,
+      "legacyNrs": "suldar",
+      "legacyMorphemes": [
+        "sul",
+        "dar"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31937,
+      "canonicalNrs": "zencynel",
+      "canonicalMorphemes": [
+        "zen",
+        "cynel"
+      ],
+      "canonicalMeaningJa": "理法秩序、因果論理律、思索の公理系",
+      "remediatedLegacyId": 40409,
+      "legacyNrs": "sulhar",
+      "legacyMorphemes": [
+        "sul",
+        "har"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31938,
+      "canonicalNrs": "zentoren",
+      "canonicalMorphemes": [
+        "zen",
+        "toren"
+      ],
+      "canonicalMeaningJa": "精神潮流因果、内面思潮原理、思索潮流理",
+      "remediatedLegacyId": 40417,
+      "legacyNrs": "novtan",
+      "legacyMorphemes": [
+        "nov",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31939,
+      "canonicalNrs": "zenfevas",
+      "canonicalMorphemes": [
+        "zen",
+        "fevas"
+      ],
+      "canonicalMeaningJa": "清澄な法悦、無垢なる歓喜、澄明の至福",
+      "remediatedLegacyId": 40425,
+      "legacyNrs": "bionpel",
+      "legacyMorphemes": [
+        "bion",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31940,
+      "canonicalNrs": "zencylas",
+      "canonicalMorphemes": [
+        "zen",
+        "cylas"
+      ],
+      "canonicalMeaningJa": "明晰なる公理、純粋論理規律、澄明思考律",
+      "remediatedLegacyId": 40433,
+      "legacyNrs": "bionfen",
+      "legacyMorphemes": [
+        "bion",
+        "fen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31941,
+      "canonicalNrs": "alinzen",
+      "canonicalMorphemes": [
+        "alin",
+        "zen"
+      ],
+      "canonicalMeaningJa": "内面潮流澄明な、澄んだ思潮の、精神波清らかな",
+      "remediatedLegacyId": 40441,
+      "legacyNrs": "sirtas",
+      "legacyMorphemes": [
+        "sir",
+        "tas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31942,
+      "canonicalNrs": "alinelir",
+      "canonicalMorphemes": [
+        "alin",
+        "elir"
+      ],
+      "canonicalMeaningJa": "調和的至福律、法悦の規律、歓喜秩序則",
+      "remediatedLegacyId": 40449,
+      "legacyNrs": "tullun",
+      "legacyMorphemes": [
+        "tul",
+        "lun"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31943,
+      "canonicalNrs": "alincynel",
+      "canonicalMorphemes": [
+        "alin",
+        "cynel"
+      ],
+      "canonicalMeaningJa": "内面波動歓喜、心の波立ち歓、魂の潮鳴り歓",
+      "remediatedLegacyId": 40457,
+      "legacyNrs": "pelhar",
+      "legacyMorphemes": [
+        "pel",
+        "har"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31944,
+      "canonicalNrs": "alintoren",
+      "canonicalMorphemes": [
+        "alin",
+        "toren"
+      ],
+      "canonicalMeaningJa": "思潮原理、潮流内省理、精神流因果律",
+      "remediatedLegacyId": 40465,
+      "legacyNrs": "nelkel",
+      "legacyMorphemes": [
+        "nel",
+        "kel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31945,
+      "canonicalNrs": "alinsirin",
+      "canonicalMorphemes": [
+        "alin",
+        "sirin"
+      ],
+      "canonicalMeaningJa": "澄明心潮、精神清澄流、清明思潮",
+      "remediatedLegacyId": 40473,
+      "legacyNrs": "seltul",
+      "legacyMorphemes": [
+        "sel",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31946,
+      "canonicalNrs": "alinfevas",
+      "canonicalMorphemes": [
+        "alin",
+        "fevas"
+      ],
+      "canonicalMeaningJa": "魂の歓声潮、内省歓喜波、精神潮鳴悦",
+      "remediatedLegacyId": 40481,
+      "legacyNrs": "selfen",
+      "legacyMorphemes": [
+        "sel",
+        "fen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31947,
+      "canonicalNrs": "alincylas",
+      "canonicalMorphemes": [
+        "alin",
+        "cylas"
+      ],
+      "canonicalMeaningJa": "静止内省原理、沈思黙考理、瞑想静思因果",
+      "remediatedLegacyId": 40489,
+      "legacyNrs": "palzen",
+      "legacyMorphemes": [
+        "pal",
+        "zen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31948,
+      "canonicalNrs": "elirzen",
+      "canonicalMorphemes": [
+        "elir",
+        "zen"
+      ],
+      "canonicalMeaningJa": "静止澄明な、沈静清澄の、安穏明晰な",
+      "remediatedLegacyId": 40497,
+      "legacyNrs": "vastul",
+      "legacyMorphemes": [
+        "vas",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31949,
+      "canonicalNrs": "eliralin",
+      "canonicalMorphemes": [
+        "elir",
+        "alin"
+      ],
+      "canonicalMeaningJa": "心の安堵感、帰港の至福、憩いの安寧歓",
+      "remediatedLegacyId": 40505,
+      "legacyNrs": "vasmin",
+      "legacyMorphemes": [
+        "vas",
+        "min"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31950,
+      "canonicalNrs": "elircynel",
+      "canonicalMorphemes": [
+        "elir",
+        "cynel"
+      ],
+      "canonicalMeaningJa": "内省の静規、沈潜規律、精神定住律",
+      "remediatedLegacyId": 40513,
+      "legacyNrs": "molfal",
+      "legacyMorphemes": [
+        "mol",
+        "fal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31951,
+      "canonicalNrs": "unorradin",
+      "canonicalMorphemes": [
+        "unor",
+        "radin"
+      ],
+      "canonicalMeaningJa": "数理公理系、計量規準律、数理規範体系",
+      "remediatedLegacyId": 40394,
+      "legacyNrs": "darlun",
+      "legacyMorphemes": [
+        "dar",
+        "lun"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31952,
+      "canonicalNrs": "unortoren",
+      "canonicalMorphemes": [
+        "unor",
+        "toren"
+      ],
+      "canonicalMeaningJa": "基準間隔尺度、尺度基準比、測度間隔規準",
+      "remediatedLegacyId": 40402,
+      "legacyNrs": "sulkel",
+      "legacyMorphemes": [
+        "sul",
+        "kel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31953,
+      "canonicalNrs": "unordelis",
+      "canonicalMorphemes": [
+        "unor",
+        "delis"
+      ],
+      "canonicalMeaningJa": "量子単位規準、離散素量尺度、最小量子単位標",
+      "remediatedLegacyId": 40410,
+      "legacyNrs": "sullun",
+      "legacyMorphemes": [
+        "sul",
+        "lun"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31954,
+      "canonicalNrs": "unorniven",
+      "canonicalMorphemes": [
+        "unor",
+        "niven"
+      ],
+      "canonicalMeaningJa": "量子論理律、離散調和則、量子秩序公理",
+      "remediatedLegacyId": 40418,
+      "legacyNrs": "novmor",
+      "legacyMorphemes": [
+        "nov",
+        "mor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31955,
+      "canonicalNrs": "unorkiril",
+      "canonicalMorphemes": [
+        "unor",
+        "kiril"
+      ],
+      "canonicalMeaningJa": "量子格子間隔、離散格子幅、素量格子周期",
+      "remediatedLegacyId": 40426,
+      "legacyNrs": "bionsel",
+      "legacyMorphemes": [
+        "bion",
+        "sel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31956,
+      "canonicalNrs": "unorjytel",
+      "canonicalMorphemes": [
+        "unor",
+        "jytel"
+      ],
+      "canonicalMeaningJa": "幾何単位胞、結晶単位格子、空間充填単位体",
+      "remediatedLegacyId": 40434,
+      "legacyNrs": "sirdar",
+      "legacyMorphemes": [
+        "sir",
+        "dar"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31957,
+      "canonicalNrs": "unorsevur",
+      "canonicalMorphemes": [
+        "unor",
+        "sevur"
+      ],
+      "canonicalMeaningJa": "幾何素量点、多面体離散点、結晶格点素量",
+      "remediatedLegacyId": 40442,
+      "legacyNrs": "sirlin",
+      "legacyMorphemes": [
+        "sir",
+        "lin"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31958,
+      "canonicalNrs": "kvanradin",
+      "canonicalMorphemes": [
+        "kvan",
+        "radin"
+      ],
+      "canonicalMeaningJa": "多面体対称則、幾何対称性公理、空間結晶群律",
+      "remediatedLegacyId": 40450,
+      "legacyNrs": "tulvel",
+      "legacyMorphemes": [
+        "tul",
+        "vel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31959,
+      "canonicalNrs": "kvantoren",
+      "canonicalMorphemes": [
+        "kvan",
+        "toren"
+      ],
+      "canonicalMeaningJa": "多角形辺長比、幾何面間隔比、多面体稜線比",
+      "remediatedLegacyId": 40458,
+      "legacyNrs": "pellun",
+      "legacyMorphemes": [
+        "pel",
+        "lun"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31960,
+      "canonicalNrs": "kvandelis",
+      "canonicalMorphemes": [
+        "kvan",
+        "delis"
+      ],
+      "canonicalMeaningJa": "離散時間素量、クロック量子、時間刻み素量",
+      "remediatedLegacyId": 40466,
+      "legacyNrs": "neltan",
+      "legacyMorphemes": [
+        "nel",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31961,
+      "canonicalNrs": "kvanniven",
+      "canonicalMorphemes": [
+        "kvan",
+        "niven"
+      ],
+      "canonicalMeaningJa": "拍動周期律、クロック同期律、時間調和公理",
+      "remediatedLegacyId": 40474,
+      "legacyNrs": "selpel",
+      "legacyMorphemes": [
+        "sel",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31962,
+      "canonicalNrs": "kvankiril",
+      "canonicalMorphemes": [
+        "kvan",
+        "kiril"
+      ],
+      "canonicalMeaningJa": "離散拍動間隔、パルス間隔時間、拍動周期長",
+      "remediatedLegacyId": 40482,
+      "legacyNrs": "tormol",
+      "legacyMorphemes": [
+        "tor",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31963,
+      "canonicalNrs": "kvanjytel",
+      "canonicalMorphemes": [
+        "kvan",
+        "jytel"
+      ],
+      "canonicalMeaningJa": "位相幾何軌道、幾何学的周期軌道、位相空間多角軌道",
+      "remediatedLegacyId": 40490,
+      "legacyNrs": "palmol",
+      "legacyMorphemes": [
+        "pal",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31964,
+      "canonicalNrs": "kvansevur",
+      "canonicalMorphemes": [
+        "kvan",
+        "sevur"
+      ],
+      "canonicalMeaningJa": "球体幾何単位、球殻基準度量、球面計量規準",
+      "remediatedLegacyId": 40498,
+      "legacyNrs": "vaspel",
+      "legacyMorphemes": [
+        "vas",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31965,
+      "canonicalNrs": "radinunor",
+      "canonicalMorphemes": [
+        "radin",
+        "unor"
+      ],
+      "canonicalMeaningJa": "球半径比率、球面曲率間隔、同心球殻間隔",
+      "remediatedLegacyId": 40506,
+      "legacyNrs": "vasfen",
+      "legacyMorphemes": [
+        "vas",
+        "fen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31966,
+      "canonicalNrs": "tulikunor",
+      "canonicalMorphemes": [
+        "tulik",
+        "unor"
+      ],
+      "canonicalMeaningJa": "球関数調和則、球面調和級数律、閉曲面幾何則",
+      "remediatedLegacyId": 40514,
+      "legacyNrs": "moljyl",
+      "legacyMorphemes": [
+        "mol",
+        "jyl"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31967,
+      "canonicalNrs": "valiselir",
+      "canonicalMorphemes": [
+        "valis",
+        "elir"
+      ],
+      "canonicalMeaningJa": "音波気流伝播、波動気流脈、音響気流響",
+      "remediatedLegacyId": 40395,
+      "legacyNrs": "darvan",
+      "legacyMorphemes": [
+        "dar",
+        "van"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31968,
+      "canonicalNrs": "valistyni",
+      "canonicalMorphemes": [
+        "valis",
+        "tyni"
+      ],
+      "canonicalMeaningJa": "共鳴歓喜、音波共振の法悦、響鳴の歓声",
+      "remediatedLegacyId": 40403,
+      "legacyNrs": "sulmor",
+      "legacyMorphemes": [
+        "sul",
+        "mor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31969,
+      "canonicalNrs": "valisalin",
+      "canonicalMorphemes": [
+        "valis",
+        "alin"
+      ],
+      "canonicalMeaningJa": "音響調和律、周波数倍音則、波動共鳴規範",
+      "remediatedLegacyId": 40411,
+      "legacyNrs": "sulpar",
+      "legacyMorphemes": [
+        "sul",
+        "par"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31970,
+      "canonicalNrs": "valurelir",
+      "canonicalMorphemes": [
+        "valur",
+        "elir"
+      ],
+      "canonicalMeaningJa": "放射気流流動、放射エネルギー風、電磁波気流脈",
+      "remediatedLegacyId": 40419,
+      "legacyNrs": "novmer",
+      "legacyMorphemes": [
+        "nov",
+        "mer"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31971,
+      "canonicalNrs": "valurtyni",
+      "canonicalMorphemes": [
+        "valur",
+        "tyni"
+      ],
+      "canonicalMeaningJa": "放射光歓声、星辰交信の歓喜、受光の歓喜",
+      "remediatedLegacyId": 40427,
+      "legacyNrs": "biontor",
+      "legacyMorphemes": [
+        "bion",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31972,
+      "canonicalNrs": "valuralin",
+      "canonicalMorphemes": [
+        "valur",
+        "alin"
+      ],
+      "canonicalMeaningJa": "電磁放射律、放射減衰則、天体放射伝播則",
+      "remediatedLegacyId": 40435,
+      "legacyNrs": "sirsul",
+      "legacyMorphemes": [
+        "sir",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31973,
+      "canonicalNrs": "tykvalis",
+      "canonicalMorphemes": [
+        "tyk",
+        "valis"
+      ],
+      "canonicalMeaningJa": "律動気流響、拍動する風、脈動微風音",
+      "remediatedLegacyId": 40443,
+      "legacyNrs": "sirlen",
+      "legacyMorphemes": [
+        "sir",
+        "len"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31974,
+      "canonicalNrs": "tykvalur",
+      "canonicalMorphemes": [
+        "tyk",
+        "valur"
+      ],
+      "canonicalMeaningJa": "舞踏律動歓喜、拍子に踊る歓び、リズム法悦",
+      "remediatedLegacyId": 40451,
+      "legacyNrs": "peltan",
+      "legacyMorphemes": [
+        "pel",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31975,
+      "canonicalNrs": "tykwylin",
+      "canonicalMorphemes": [
+        "tyk",
+        "wylin"
+      ],
+      "canonicalMeaningJa": "律動波動音、周期拍動波、拍子音波脈",
+      "remediatedLegacyId": 40459,
+      "legacyNrs": "neldar",
+      "legacyMorphemes": [
+        "nel",
+        "dar"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31976,
+      "canonicalNrs": "tyktoren",
+      "canonicalMorphemes": [
+        "tyk",
+        "toren"
+      ],
+      "canonicalMeaningJa": "律動電磁波、拍動放射線、パルス放射波束",
+      "remediatedLegacyId": 40467,
+      "legacyNrs": "nelmor",
+      "legacyMorphemes": [
+        "nel",
+        "mor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31977,
+      "canonicalNrs": "tykfalos",
+      "canonicalMorphemes": [
+        "tyk",
+        "falos"
+      ],
+      "canonicalMeaningJa": "風の歌の歓喜、流風共鳴歓声、息吹の歓び",
+      "remediatedLegacyId": 40475,
+      "legacyNrs": "selval",
+      "legacyMorphemes": [
+        "sel",
+        "val"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31978,
+      "canonicalNrs": "tyksirin",
+      "canonicalMorphemes": [
+        "tyk",
+        "sirin"
+      ],
+      "canonicalMeaningJa": "気流音響律、流動音響法則、管楽器流速律",
+      "remediatedLegacyId": 40483,
+      "legacyNrs": "tortan",
+      "legacyMorphemes": [
+        "tor",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31979,
+      "canonicalNrs": "tykwylas",
+      "canonicalMorphemes": [
+        "tyk",
+        "wylas"
+      ],
+      "canonicalMeaningJa": "光彩気流脈、発光オーロラ風、分光風流",
+      "remediatedLegacyId": 40491,
+      "legacyNrs": "paltan",
+      "legacyMorphemes": [
+        "pal",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31980,
+      "canonicalNrs": "wylinelir",
+      "canonicalMorphemes": [
+        "wylin",
+        "elir"
+      ],
+      "canonicalMeaningJa": "色彩法悦、スペクトル美歓喜、虹彩の歓声",
+      "remediatedLegacyId": 40499,
+      "legacyNrs": "vasnel",
+      "legacyMorphemes": [
+        "vas",
+        "nel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31981,
+      "canonicalNrs": "wylintyni",
+      "canonicalMorphemes": [
+        "wylin",
+        "tyni"
+      ],
+      "canonicalMeaningJa": "分光調和則、スペクトル階調律、光彩波長律",
+      "remediatedLegacyId": 40507,
+      "legacyNrs": "zenlun",
+      "legacyMorphemes": [
+        "zen",
+        "lun"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31982,
+      "canonicalNrs": "wylinalin",
+      "canonicalMorphemes": [
+        "wylin",
+        "alin"
+      ],
+      "canonicalMeaningJa": "音色波形彩、音色スペクトル波、音色波動",
+      "remediatedLegacyId": 40515,
+      "legacyNrs": "molvyr",
+      "legacyMorphemes": [
+        "mol",
+        "vyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31983,
+      "canonicalNrs": "kymkyrin",
+      "canonicalMorphemes": [
+        "kym",
+        "kyrin"
+      ],
+      "canonicalMeaningJa": "金属支柱、鋳鉄鍛造柱、金敷主柱",
+      "remediatedLegacyId": 40396,
+      "legacyNrs": "darkor",
+      "legacyMorphemes": [
+        "dar",
+        "kor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31984,
+      "canonicalNrs": "kymtyril",
+      "canonicalMorphemes": [
+        "kym",
+        "tyril"
+      ],
+      "canonicalMeaningJa": "製錬坩堝、鋳造るつぼ殻、耐熱金属容器",
+      "remediatedLegacyId": 40404,
+      "legacyNrs": "sulmer",
+      "legacyMorphemes": [
+        "sul",
+        "mer"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31985,
+      "canonicalNrs": "kymdolas",
+      "canonicalMorphemes": [
+        "kym",
+        "dolas"
+      ],
+      "canonicalMeaningJa": "冶金相平衡律、合金状態図則、金属製錬規範",
+      "remediatedLegacyId": 40412,
+      "legacyNrs": "sulvel",
+      "legacyMorphemes": [
+        "sul",
+        "vel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31986,
+      "canonicalNrs": "kymrenan",
+      "canonicalMorphemes": [
+        "kym",
+        "renan"
+      ],
+      "canonicalMeaningJa": "鉱石母岩盤、金属鉱脈層、含金属岩床",
+      "remediatedLegacyId": 40420,
+      "legacyNrs": "novfal",
+      "legacyMorphemes": [
+        "nov",
+        "fal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31987,
+      "canonicalNrs": "kymtoren",
+      "canonicalMorphemes": [
+        "kym",
+        "toren"
+      ],
+      "canonicalMeaningJa": "結晶格子間隔比、金属原子間隔、結晶格子の歩長",
+      "remediatedLegacyId": 40428,
+      "legacyNrs": "bionpal",
+      "legacyMorphemes": [
+        "bion",
+        "pal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31988,
+      "canonicalNrs": "torkym",
+      "canonicalMorphemes": [
+        "tor",
+        "kym"
+      ],
+      "canonicalMeaningJa": "金属微結晶体、合金晶析体、金属デンドライト",
+      "remediatedLegacyId": 40436,
+      "legacyNrs": "sirbion",
+      "legacyMorphemes": [
+        "sir",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31989,
+      "canonicalNrs": "torkyrin",
+      "canonicalMorphemes": [
+        "tor",
+        "kyrin"
+      ],
+      "canonicalMeaningJa": "引張強度限界、金属抗張力、合金耐荷重引力",
+      "remediatedLegacyId": 40444,
+      "legacyNrs": "sirkyr",
+      "legacyMorphemes": [
+        "sir",
+        "kyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31990,
+      "canonicalNrs": "tortyril",
+      "canonicalMorphemes": [
+        "tor",
+        "tyril"
+      ],
+      "canonicalMeaningJa": "製錬石炭熱、鍛冶還元炭火、冶金燃料炭",
+      "remediatedLegacyId": 40452,
+      "legacyNrs": "pelmor",
+      "legacyMorphemes": [
+        "pel",
+        "mor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31991,
+      "canonicalNrs": "tordolas",
+      "canonicalMorphemes": [
+        "tor",
+        "dolas"
+      ],
+      "canonicalMeaningJa": "鍛造打撃成形、打槌鍛金作業、熱間鍛造打伸",
+      "remediatedLegacyId": 40460,
+      "legacyNrs": "nelbion",
+      "legacyMorphemes": [
+        "nel",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31992,
+      "canonicalNrs": "torrenan",
+      "canonicalMorphemes": [
+        "tor",
+        "renan"
+      ],
+      "canonicalMeaningJa": "柱状晶組織、結晶柱状組織、結晶支柱",
+      "remediatedLegacyId": 40468,
+      "legacyNrs": "nelkor",
+      "legacyMorphemes": [
+        "nel",
+        "kor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31993,
+      "canonicalNrs": "klortor",
+      "canonicalMorphemes": [
+        "klor",
+        "tor"
+      ],
+      "canonicalMeaningJa": "晶出カプセル、微細結晶包有殻、晶析容器",
+      "remediatedLegacyId": 40476,
+      "legacyNrs": "sellun",
+      "legacyMorphemes": [
+        "sel",
+        "lun"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31994,
+      "canonicalNrs": "klorterin",
+      "canonicalMorphemes": [
+        "klor",
+        "terin"
+      ],
+      "canonicalMeaningJa": "晶出母材基盤、結晶析出地床、晶出母相盤",
+      "remediatedLegacyId": 40484,
+      "legacyNrs": "torval",
+      "legacyMorphemes": [
+        "tor",
+        "val"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31995,
+      "canonicalNrs": "klorkyrin",
+      "canonicalMorphemes": [
+        "klor",
+        "kyrin"
+      ],
+      "canonicalMeaningJa": "結晶晶癖律、結晶育成則、単結晶成長公理",
+      "remediatedLegacyId": 40492,
+      "legacyNrs": "palmor",
+      "legacyMorphemes": [
+        "pal",
+        "mor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31996,
+      "canonicalNrs": "klortyril",
+      "canonicalMorphemes": [
+        "klor",
+        "tyril"
+      ],
+      "canonicalMeaningJa": "大型鍛造金敷、鍛金支持台、打鎚鍛造基台",
+      "remediatedLegacyId": 40500,
+      "legacyNrs": "vassel",
+      "legacyMorphemes": [
+        "vas",
+        "sel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31997,
+      "canonicalNrs": "klorrenan",
+      "canonicalMorphemes": [
+        "klor",
+        "renan"
+      ],
+      "canonicalMeaningJa": "鍛造焼入槽、急冷油槽殻、鍛造焼入容器",
+      "remediatedLegacyId": 40508,
+      "legacyNrs": "zenvel",
+      "legacyMorphemes": [
+        "zen",
+        "vel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31998,
+      "canonicalNrs": "klortoren",
+      "canonicalMorphemes": [
+        "klor",
+        "toren"
+      ],
+      "canonicalMeaningJa": "鍛造炉床盤、製鉄炉底耐火盤、鍛冶炉床地盤",
+      "remediatedLegacyId": 40516,
+      "legacyNrs": "molsol",
+      "legacyMorphemes": [
+        "mol",
+        "sol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31999,
+      "canonicalNrs": "bionneran",
+      "canonicalMorphemes": [
+        "bion",
+        "neran"
+      ],
+      "canonicalMeaningJa": "薬効生体滴、生薬チンキ滴、薬用露滴",
+      "remediatedLegacyId": 40397,
+      "legacyNrs": "darlin",
+      "legacyMorphemes": [
+        "dar",
+        "lin"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32000,
+      "canonicalNrs": "biondaron",
+      "canonicalMorphemes": [
+        "bion",
+        "daron"
+      ],
+      "canonicalMeaningJa": "清浄生薬の、無菌賦活の、純薬効の",
+      "remediatedLegacyId": 40405,
+      "legacyNrs": "suljyl",
+      "legacyMorphemes": [
+        "sul",
+        "jyl"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32001,
+      "canonicalNrs": "bionalin",
+      "canonicalMorphemes": [
+        "bion",
+        "alin"
+      ],
+      "canonicalMeaningJa": "生体滋養補給、滋養強壮食薬、薬効滋養摂取",
+      "remediatedLegacyId": 40413,
+      "legacyNrs": "novnel",
+      "legacyMorphemes": [
+        "nov",
+        "nel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32002,
+      "canonicalNrs": "bionterin",
+      "canonicalMorphemes": [
+        "bion",
+        "terin"
+      ],
+      "canonicalMeaningJa": "生体恒常性律、ホメオスタシス則、生命調和律",
+      "remediatedLegacyId": 40421,
+      "legacyNrs": "novjyl",
+      "legacyMorphemes": [
+        "nov",
+        "jyl"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32003,
+      "canonicalNrs": "biontoren",
+      "canonicalMorphemes": [
+        "bion",
+        "toren"
+      ],
+      "canonicalMeaningJa": "生薬自生土壌、薬草成育地盤、生体植物地床",
+      "remediatedLegacyId": 40429,
+      "legacyNrs": "bionvas",
+      "legacyMorphemes": [
+        "bion",
+        "vas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32004,
+      "canonicalNrs": "bionelner",
+      "canonicalMorphemes": [
+        "bionel",
+        "ner"
+      ],
+      "canonicalMeaningJa": "生薬浸出煎液、薬草煎じ薬液、生体抽出浸液",
+      "remediatedLegacyId": 40437,
+      "legacyNrs": "sirpel",
+      "legacyMorphemes": [
+        "sir",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32005,
+      "canonicalNrs": "neranbion",
+      "canonicalMorphemes": [
+        "neran",
+        "bion"
+      ],
+      "canonicalMeaningJa": "生薬点眼滴、薬効精油滴、抽出エリクサー滴",
+      "remediatedLegacyId": 40445,
+      "legacyNrs": "sirmin",
+      "legacyMorphemes": [
+        "sir",
+        "min"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32006,
+      "canonicalNrs": "neranalin",
+      "canonicalMorphemes": [
+        "neran",
+        "alin"
+      ],
+      "canonicalMeaningJa": "精製生薬の、清澄薬効成分の、高純度エキスの",
+      "remediatedLegacyId": 40453,
+      "legacyNrs": "peljyl",
+      "legacyMorphemes": [
+        "pel",
+        "jyl"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32007,
+      "canonicalNrs": "neranner",
+      "canonicalMorphemes": [
+        "neran",
+        "ner"
+      ],
+      "canonicalMeaningJa": "軟膏丸薬壺、生薬カプセル殻、薬包密閉壺",
+      "remediatedLegacyId": 40461,
+      "legacyNrs": "nelsir",
+      "legacyMorphemes": [
+        "nel",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32008,
+      "canonicalNrs": "daronbion",
+      "canonicalMorphemes": [
+        "daron",
+        "bion"
+      ],
+      "canonicalMeaningJa": "薬効滋養食、薬膳滋養処方、生薬栄養配合",
+      "remediatedLegacyId": 40469,
+      "legacyNrs": "nelkyr",
+      "legacyMorphemes": [
+        "nel",
+        "kyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32009,
+      "canonicalNrs": "darisbion",
+      "canonicalMorphemes": [
+        "daris",
+        "bion"
+      ],
+      "canonicalMeaningJa": "生薬薬理調剤律、薬効用量規範、処方用量律",
+      "remediatedLegacyId": 40477,
+      "legacyNrs": "sellin",
+      "legacyMorphemes": [
+        "sel",
+        "lin"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32010,
+      "canonicalNrs": "darisalin",
+      "canonicalMorphemes": [
+        "daris",
+        "alin"
+      ],
+      "canonicalMeaningJa": "生薬自生床、薬用植物培地層、生薬群落基盤",
+      "remediatedLegacyId": 40485,
+      "legacyNrs": "torhar",
+      "legacyMorphemes": [
+        "tor",
+        "har"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32011,
+      "canonicalNrs": "darisner",
+      "canonicalMorphemes": [
+        "daris",
+        "ner"
+      ],
+      "canonicalMeaningJa": "滅菌蒸留水滴、清浄点眼水滴、洗眼清澄滴",
+      "remediatedLegacyId": 40493,
+      "legacyNrs": "palmer",
+      "legacyMorphemes": [
+        "pal",
+        "mer"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32012,
+      "canonicalNrs": "alinbion",
+      "canonicalMorphemes": [
+        "alin",
+        "bion"
+      ],
+      "canonicalMeaningJa": "清浄無菌床盤、無菌室床盤、清浄基盤面",
+      "remediatedLegacyId": 40501,
+      "legacyNrs": "vastor",
+      "legacyMorphemes": [
+        "vas",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32013,
+      "canonicalNrs": "alinneran",
+      "canonicalMorphemes": [
+        "alin",
+        "neran"
+      ],
+      "canonicalMeaningJa": "体液電解質調和律、浸透圧平衡則、体液恒常律",
+      "remediatedLegacyId": 40509,
+      "legacyNrs": "zenvan",
+      "legacyMorphemes": [
+        "zen",
+        "van"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32014,
+      "canonicalNrs": "alindaron",
+      "canonicalMorphemes": [
+        "alin",
+        "daron"
+      ],
+      "canonicalMeaningJa": "微量点滴投薬律、点滴速度規範、点滴投与量律",
+      "remediatedLegacyId": 40517,
+      "legacyNrs": "kelsul",
+      "legacyMorphemes": [
+        "kel",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32015,
+      "canonicalNrs": "falosvyri",
+      "canonicalMorphemes": [
+        "falos",
+        "vyri"
+      ],
+      "canonicalMeaningJa": "天文分光軌道線、星辰分光航路、分光観測測線",
+      "remediatedLegacyId": 40027,
+      "legacyNrs": "faljyl",
+      "legacyMorphemes": [
+        "fal",
+        "jyl"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32016,
+      "canonicalNrs": "falosdar",
+      "canonicalMorphemes": [
+        "falos",
+        "dar"
+      ],
+      "canonicalMeaningJa": "人工衛星カプセル、軌道観測球殻器、星辰探査衛星殻",
+      "remediatedLegacyId": 40028,
+      "legacyNrs": "vyrkels",
+      "legacyMorphemes": [
+        "vyr",
+        "kels"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32017,
+      "canonicalNrs": "falosvel",
+      "canonicalMorphemes": [
+        "falos",
+        "vel"
+      ],
+      "canonicalMeaningJa": "精緻切削石工の、整美な切石の、美形組石の",
+      "remediatedLegacyId": 40029,
+      "legacyNrs": "falmor",
+      "legacyMorphemes": [
+        "fal",
+        "mor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32018,
+      "canonicalNrs": "falosalin",
+      "canonicalMorphemes": [
+        "falos",
+        "alin"
+      ],
+      "canonicalMeaningJa": "玄武岩柱頭、石工アーチ力学柱、切石組積主柱",
+      "remediatedLegacyId": 40030,
+      "legacyNrs": "falzenor",
+      "legacyMorphemes": [
+        "fal",
+        "zen",
+        "or"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32019,
+      "canonicalNrs": "falosvyr",
+      "canonicalMorphemes": [
+        "falos",
+        "vyr"
+      ],
+      "canonicalMeaningJa": "深海潮流動態、海洋潮流脈流、海流大循環脈",
+      "remediatedLegacyId": 40031,
+      "legacyNrs": "darnyr",
+      "legacyMorphemes": [
+        "dar",
+        "nyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 32020,
+      "canonicalNrs": "vyritalyr",
+      "canonicalMorphemes": [
+        "vyri",
+        "talyr"
+      ],
+      "canonicalMeaningJa": "潮流巡航艇、海流航行艇、定時航路艇",
+      "remediatedLegacyId": 40032,
+      "legacyNrs": "pelzen",
+      "legacyMorphemes": [
+        "pel",
+        "zen"
+      ]
     }
   ],
   "scenarios": [
@@ -22348,6 +23906,1059 @@
           "speaker": "Maya",
           "nebulith": "Ve, suftal el terin to zelin. Sufner el bion to neran.",
           "japanese": "ええ、最深海床（suftal）は静まり返った基盤です。深海熱水有機栄養（sufner）は深海のあらゆる生命を支えています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-ARCH-01",
+      "batch": "Batch 86",
+      "domain": "古代建築・石工構造",
+      "title": "古代建築の基壇支柱と石造架構",
+      "communicative_need": "石工棟梁と構造設計士が古代建築の基壇支柱と石造架構について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Boran",
+        "role": "石工棟梁"
+      },
+      "agent_b": {
+        "name": "Livia",
+        "role": "構造設計士"
+      },
+      "turns": [
+        {
+          "speaker": "Boran",
+          "nebulith": "Vyreler el mi uo taltor to dar. Vyreler el mi uo taldoran to dar. Vyreler el mi uo taltulan to dar.",
+          "japanese": "私は礎石円柱（taltor）を観測・記録します。私は基壇トラス群（taldoran）を観測・記録します。私は構造力学律（taltulan）を観測・記録します。"
+        },
+        {
+          "speaker": "Livia",
+          "nebulith": "Ve, taltor el alin to toren. taldoran el alin to toren. taltulan el alin to toren.",
+          "japanese": "ええ、その礎石円柱（taltor）は確かな秩序に基づいています。その基壇トラス群（taldoran）は確かな秩序に基づいています。その構造力学律（taltulan）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-ARCH-02",
+      "batch": "Batch 86",
+      "domain": "古代建築・石工構造",
+      "title": "尖塔頂点の力学と立柱岩盤",
+      "communicative_need": "石造架構技師と測量技手が尖塔頂点の力学と立柱岩盤について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Kastor",
+        "role": "石造架構技師"
+      },
+      "agent_b": {
+        "name": "Helene",
+        "role": "測量技手"
+      },
+      "turns": [
+        {
+          "speaker": "Kastor",
+          "nebulith": "Vyreler el mi uo taltoren to dar. Vyreler el mi uo taltaran to dar. Vyreler el mi uo tortal to dar.",
+          "japanese": "私は基壇石工群（taltoren）を観測・記録します。私は尖塔頂点（taltaran）を観測・記録します。私は柱基礎地盤（tortal）を観測・記録します。"
+        },
+        {
+          "speaker": "Helene",
+          "nebulith": "Ve, taltoren el alin to toren. taltaran el alin to toren. tortal el alin to toren.",
+          "japanese": "ええ、その基壇石工群（taltoren）は確かな秩序に基づいています。その尖塔頂点（taltaran）は確かな秩序に基づいています。その柱基礎地盤（tortal）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-ARCH-03",
+      "batch": "Batch 86",
+      "domain": "古代建築・石工構造",
+      "title": "円堂ロタンダとアーチ架構律",
+      "communicative_need": "建築史学者と古代建築復元士が円堂ロタンダとアーチ架構律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Markos",
+        "role": "建築史学者"
+      },
+      "agent_b": {
+        "name": "Thera",
+        "role": "古代建築復元士"
+      },
+      "turns": [
+        {
+          "speaker": "Markos",
+          "nebulith": "Vyreler el mi uo torterin to dar. Vyreler el mi uo tordoran to dar. Vyreler el mi uo tortulan to dar.",
+          "japanese": "私は群柱架構（torterin）を観測・記録します。私は円柱石工組（tordoran）を観測・記録します。私は支柱配列律（tortulan）を観測・記録します。"
+        },
+        {
+          "speaker": "Thera",
+          "nebulith": "Ve, torterin el alin to toren. tordoran el alin to toren. tortulan el alin to toren.",
+          "japanese": "ええ、その群柱架構（torterin）は確かな秩序に基づいています。その円柱石工組（tordoran）は確かな秩序に基づいています。その支柱配列律（tortulan）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-ARCH-04",
+      "batch": "Batch 87",
+      "domain": "古代建築・石工構造",
+      "title": "切石組積と幾何敷石地盤",
+      "communicative_need": "石工棟梁と構造設計士が切石組積と幾何敷石地盤について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Boran",
+        "role": "石工棟梁"
+      },
+      "agent_b": {
+        "name": "Livia",
+        "role": "構造設計士"
+      },
+      "turns": [
+        {
+          "speaker": "Boran",
+          "nebulith": "Vyreler el mi uo tortoren to dar. Vyreler el mi uo tortulos to dar. Vyreler el mi uo torvorn to dar.",
+          "japanese": "私は地下円室基盤（tortoren）を観測・記録します。私は穹窿構造則（tortulos）を観測・記録します。私は多角柱頭（torvorn）を観測・記録します。"
+        },
+        {
+          "speaker": "Livia",
+          "nebulith": "Ve, tortoren el alin to toren. tortulos el alin to toren. torvorn el alin to toren.",
+          "japanese": "ええ、その地下円室基盤（tortoren）は確かな秩序に基づいています。その穹窿構造則（tortulos）は確かな秩序に基づいています。その多角柱頭（torvorn）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-ARCH-05",
+      "batch": "Batch 87",
+      "domain": "古代建築・石工構造",
+      "title": "トラス主柱と骨組定着地盤",
+      "communicative_need": "石造架構技師と測量技手がトラス主柱と骨組定着地盤について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Kastor",
+        "role": "石造架構技師"
+      },
+      "agent_b": {
+        "name": "Helene",
+        "role": "測量技手"
+      },
+      "turns": [
+        {
+          "speaker": "Kastor",
+          "nebulith": "Vyreler el mi uo tortaran to dar. Vyreler el mi uo terintal to dar. Vyreler el mi uo terintor to dar.",
+          "japanese": "私は幾何敷石地盤（tortaran）を観測・記録します。私は幾何組積則（terintal）を観測・記録します。私は架構主柱群（terintor）を観測・記録します。"
+        },
+        {
+          "speaker": "Helene",
+          "nebulith": "Ve, tortaran el alin to toren. terintal el alin to toren. terintor el alin to toren.",
+          "japanese": "ええ、その幾何敷石地盤（tortaran）は確かな秩序に基づいています。その幾何組積則（terintal）は確かな秩序に基づいています。その架構主柱群（terintor）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-ARCH-06",
+      "batch": "Batch 87",
+      "domain": "古代建築・石工構造",
+      "title": "石造楣石梁の強度解析",
+      "communicative_need": "建築史学者と古代建築復元士が石造楣石梁の強度解析について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Markos",
+        "role": "建築史学者"
+      },
+      "agent_b": {
+        "name": "Thera",
+        "role": "古代建築復元士"
+      },
+      "turns": [
+        {
+          "speaker": "Markos",
+          "nebulith": "Vyreler el mi uo dorantal to dar. Vyreler el mi uo dorantor to dar.",
+          "japanese": "私は骨組定着地盤（dorantal）を観測・記録します。私は石造楣石梁（dorantor）を観測・記録します。"
+        },
+        {
+          "speaker": "Thera",
+          "nebulith": "Ve, dorantal el alin to toren. dorantor el alin to toren.",
+          "japanese": "ええ、その骨組定着地盤（dorantal）は確かな秩序に基づいています。その石造楣石梁（dorantor）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MIND-01",
+      "batch": "Batch 88",
+      "domain": "精神哲学・内省思索",
+      "title": "純粋理性の直観と論理公理",
+      "communicative_need": "精神哲学者と内省思索家が純粋理性の直観と論理公理について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Philon",
+        "role": "精神哲学者"
+      },
+      "agent_b": {
+        "name": "Sophia",
+        "role": "内省思索家"
+      },
+      "turns": [
+        {
+          "speaker": "Philon",
+          "nebulith": "Zenalin el dar to miin. Vyreler el mi uo zenelir to dar. Vyreler el mi uo zencynel to dar.",
+          "japanese": "この純粋理性の（zenalin）道は私たちに光を与えます。私は直観的覚知（zenelir）を観測・記録します。私は理法秩序（zencynel）を観測・記録します。"
+        },
+        {
+          "speaker": "Sophia",
+          "nebulith": "Ve, Zenalin el toren to fal. zenelir el alin to toren. zencynel el alin to toren.",
+          "japanese": "ええ、純粋理性の（zenalin）秩序は光と調和しています。その直観的覚知（zenelir）は確かな秩序に基づいています。その理法秩序（zencynel）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MIND-02",
+      "batch": "Batch 88",
+      "domain": "精神哲学・内省思索",
+      "title": "精神潮流因果と清澄な法悦",
+      "communicative_need": "論理倫理学者と瞑想修道士が精神潮流因果と清澄な法悦について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Cleon",
+        "role": "論理倫理学者"
+      },
+      "agent_b": {
+        "name": "Elena",
+        "role": "瞑想修道士"
+      },
+      "turns": [
+        {
+          "speaker": "Cleon",
+          "nebulith": "Vyreler el mi uo zentoren to dar. Zenfevas el dar to miin. Zencylas el dar to miin.",
+          "japanese": "私は精神潮流因果（zentoren）を観測・記録します。この清澄な法悦（zenfevas）道は私たちに光を与えます。この明晰なる公理（zencylas）道は私たちに光を与えます。"
+        },
+        {
+          "speaker": "Elena",
+          "nebulith": "Ve, zentoren el alin to toren. Zenfevas el toren to fal. Zencylas el toren to fal.",
+          "japanese": "ええ、その精神潮流因果（zentoren）は確かな秩序に基づいています。清澄な法悦（zenfevas）秩序は光と調和しています。明晰なる公理（zencylas）秩序は光と調和しています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MIND-03",
+      "batch": "Batch 88",
+      "domain": "精神哲学・内省思索",
+      "title": "調和的至福律と魂の潮鳴り",
+      "communicative_need": "自然観照哲学者と心理思索士が調和的至福律と魂の潮鳴りについて討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Zenon",
+        "role": "自然観照哲学者"
+      },
+      "agent_b": {
+        "name": "Iris",
+        "role": "心理思索士"
+      },
+      "turns": [
+        {
+          "speaker": "Zenon",
+          "nebulith": "Alinzen el dar to miin. Vyreler el mi uo alinelir to dar.",
+          "japanese": "この内面潮流澄明な（alinzen）道は私たちに光を与えます。私は調和的至福律（alinelir）を観測・記録します。"
+        },
+        {
+          "speaker": "Iris",
+          "nebulith": "Ve, Alinzen el toren to fal. alinelir el alin to toren.",
+          "japanese": "ええ、内面潮流澄明な（alinzen）秩序は光と調和しています。その調和的至福律（alinelir）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MIND-04",
+      "batch": "Batch 89",
+      "domain": "精神哲学・内省思索",
+      "title": "思潮原理と清明なる沈潜",
+      "communicative_need": "精神哲学者と内省思索家が思潮原理と清明なる沈潜について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Philon",
+        "role": "精神哲学者"
+      },
+      "agent_b": {
+        "name": "Sophia",
+        "role": "内省思索家"
+      },
+      "turns": [
+        {
+          "speaker": "Philon",
+          "nebulith": "Vyreler el mi uo alincynel to dar. Vyreler el mi uo alintoren to dar. Vyreler el mi uo alinsirin to dar.",
+          "japanese": "私は内面波動歓喜（alincynel）を観測・記録します。私は思潮原理（alintoren）を観測・記録します。私は澄明心潮（alinsirin）を観測・記録します。"
+        },
+        {
+          "speaker": "Sophia",
+          "nebulith": "Ve, alincynel el alin to toren. alintoren el alin to toren. alinsirin el alin to toren.",
+          "japanese": "ええ、その内面波動歓喜（alincynel）は確かな秩序に基づいています。その思潮原理（alintoren）は確かな秩序に基づいています。その澄明心潮（alinsirin）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MIND-05",
+      "batch": "Batch 89",
+      "domain": "精神哲学・内省思索",
+      "title": "瞑想静思と静止澄明の境地",
+      "communicative_need": "論理倫理学者と瞑想修道士が瞑想静思と静止澄明の境地について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Cleon",
+        "role": "論理倫理学者"
+      },
+      "agent_b": {
+        "name": "Elena",
+        "role": "瞑想修道士"
+      },
+      "turns": [
+        {
+          "speaker": "Cleon",
+          "nebulith": "Alinfevas el dar to miin. Vyreler el mi uo alincylas to dar. Elirzen el dar to miin.",
+          "japanese": "この魂の歓声潮（alinfevas）道は私たちに光を与えます。私は静止内省原理（alincylas）を観測・記録します。この静止澄明な（elirzen）道は私たちに光を与えます。"
+        },
+        {
+          "speaker": "Elena",
+          "nebulith": "Ve, Alinfevas el toren to fal. alincylas el alin to toren. Elirzen el toren to fal.",
+          "japanese": "ええ、魂の歓声潮（alinfevas）秩序は光と調和しています。その静止内省原理（alincylas）は確かな秩序に基づいています。静止澄明な（elirzen）秩序は光と調和しています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MIND-06",
+      "batch": "Batch 89",
+      "domain": "精神哲学・内省思索",
+      "title": "内省の静規と精神の定住",
+      "communicative_need": "自然観照哲学者と心理思索士が内省の静規と精神の定住について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Zenon",
+        "role": "自然観照哲学者"
+      },
+      "agent_b": {
+        "name": "Iris",
+        "role": "心理思索士"
+      },
+      "turns": [
+        {
+          "speaker": "Zenon",
+          "nebulith": "Eliralin el dar to miin. Elircynel el dar to miin.",
+          "japanese": "この心の安堵感（eliralin）道は私たちに光を与えます。この内省の静規（elircynel）道は私たちに光を与えます。"
+        },
+        {
+          "speaker": "Iris",
+          "nebulith": "Ve, Eliralin el toren to fal. Elircynel el toren to fal.",
+          "japanese": "ええ、心の安堵感（eliralin）秩序は光と調和しています。内省の静規（elircynel）秩序は光と調和しています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MATH-01",
+      "batch": "Batch 90",
+      "domain": "数理論理・幾何調和",
+      "title": "数理公理系と量子論理律",
+      "communicative_need": "幾何数理学者と公理計量学者が数理公理系と量子論理律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Pythor",
+        "role": "幾何数理学者"
+      },
+      "agent_b": {
+        "name": "Theano",
+        "role": "公理計量学者"
+      },
+      "turns": [
+        {
+          "speaker": "Pythor",
+          "nebulith": "Vyreler el mi uo unorradin to dar. Vyreler el mi uo unortoren to dar. Vyreler el mi uo unordelis to dar.",
+          "japanese": "私は数理公理系（unorradin）を観測・記録します。私は基準間隔尺度（unortoren）を観測・記録します。私は量子単位規準（unordelis）を観測・記録します。"
+        },
+        {
+          "speaker": "Theano",
+          "nebulith": "Ve, unorradin el alin to toren. unortoren el alin to toren. unordelis el alin to toren.",
+          "japanese": "ええ、その数理公理系（unorradin）は確かな秩序に基づいています。その基準間隔尺度（unortoren）は確かな秩序に基づいています。その量子単位規準（unordelis）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MATH-02",
+      "batch": "Batch 90",
+      "domain": "数理論理・幾何調和",
+      "title": "量子格子間隔と空間結晶群律",
+      "communicative_need": "空間群幾何士と離散論理学者が量子格子間隔と空間結晶群律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Euklos",
+        "role": "空間群幾何士"
+      },
+      "agent_b": {
+        "name": "Aletheia",
+        "role": "離散論理学者"
+      },
+      "turns": [
+        {
+          "speaker": "Euklos",
+          "nebulith": "Vyreler el mi uo unorniven to dar. Vyreler el mi uo unorkiril to dar. Vyreler el mi uo unorjytel to dar.",
+          "japanese": "私は量子論理律（unorniven）を観測・記録します。私は量子格子間隔（unorkiril）を観測・記録します。私は幾何単位胞（unorjytel）を観測・記録します。"
+        },
+        {
+          "speaker": "Aletheia",
+          "nebulith": "Ve, unorniven el alin to toren. unorkiril el alin to toren. unorjytel el alin to toren.",
+          "japanese": "ええ、その量子論理律（unorniven）は確かな秩序に基づいています。その量子格子間隔（unorkiril）は確かな秩序に基づいています。その幾何単位胞（unorjytel）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MATH-03",
+      "batch": "Batch 90",
+      "domain": "数理論理・幾何調和",
+      "title": "離散時間素量と拍動周期律",
+      "communicative_need": "数理天文学者と位相空間論者が離散時間素量と拍動周期律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Arion",
+        "role": "数理天文学者"
+      },
+      "agent_b": {
+        "name": "Kalliope",
+        "role": "位相空間論者"
+      },
+      "turns": [
+        {
+          "speaker": "Arion",
+          "nebulith": "Vyreler el mi uo unorsevur to dar. Vyreler el mi uo kvanradin to dar.",
+          "japanese": "私は幾何素量点（unorsevur）を観測・記録します。私は多面体対称則（kvanradin）を観測・記録します。"
+        },
+        {
+          "speaker": "Kalliope",
+          "nebulith": "Ve, unorsevur el alin to toren. kvanradin el alin to toren.",
+          "japanese": "ええ、その幾何素量点（unorsevur）は確かな秩序に基づいています。その多面体対称則（kvanradin）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MATH-04",
+      "batch": "Batch 91",
+      "domain": "数理論理・幾何調和",
+      "title": "幾何単位胞と位相軌道振動",
+      "communicative_need": "幾何数理学者と公理計量学者が幾何単位胞と位相軌道振動について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Pythor",
+        "role": "幾何数理学者"
+      },
+      "agent_b": {
+        "name": "Theano",
+        "role": "公理計量学者"
+      },
+      "turns": [
+        {
+          "speaker": "Pythor",
+          "nebulith": "Vyreler el mi uo kvantoren to dar. Vyreler el mi uo kvandelis to dar. Vyreler el mi uo kvanniven to dar.",
+          "japanese": "私は多角形辺長比（kvantoren）を観測・記録します。私は離散時間素量（kvandelis）を観測・記録します。私は拍動周期律（kvanniven）を観測・記録します。"
+        },
+        {
+          "speaker": "Theano",
+          "nebulith": "Ve, kvantoren el alin to toren. kvandelis el alin to toren. kvanniven el alin to toren.",
+          "japanese": "ええ、その多角形辺長比（kvantoren）は確かな秩序に基づいています。その離散時間素量（kvandelis）は確かな秩序に基づいています。その拍動周期律（kvanniven）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MATH-05",
+      "batch": "Batch 91",
+      "domain": "数理論理・幾何調和",
+      "title": "球面調和級数律と同心球殻間隔",
+      "communicative_need": "空間群幾何士と離散論理学者が球面調和級数律と同心球殻間隔について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Euklos",
+        "role": "空間群幾何士"
+      },
+      "agent_b": {
+        "name": "Aletheia",
+        "role": "離散論理学者"
+      },
+      "turns": [
+        {
+          "speaker": "Euklos",
+          "nebulith": "Vyreler el mi uo kvankiril to dar. Vyreler el mi uo kvanjytel to dar. Vyreler el mi uo kvansevur to dar.",
+          "japanese": "私は離散拍動間隔（kvankiril）を観測・記録します。私は位相幾何軌道（kvanjytel）を観測・記録します。私は球体幾何単位（kvansevur）を観測・記録します。"
+        },
+        {
+          "speaker": "Aletheia",
+          "nebulith": "Ve, kvankiril el alin to toren. kvanjytel el alin to toren. kvansevur el alin to toren.",
+          "japanese": "ええ、その離散拍動間隔（kvankiril）は確かな秩序に基づいています。その位相幾何軌道（kvanjytel）は確かな秩序に基づいています。その球体幾何単位（kvansevur）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MATH-06",
+      "batch": "Batch 91",
+      "domain": "数理論理・幾何調和",
+      "title": "閉曲面幾何則と計量規準",
+      "communicative_need": "数理天文学者と位相空間論者が閉曲面幾何則と計量規準について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Arion",
+        "role": "数理天文学者"
+      },
+      "agent_b": {
+        "name": "Kalliope",
+        "role": "位相空間論者"
+      },
+      "turns": [
+        {
+          "speaker": "Arion",
+          "nebulith": "Vyreler el mi uo radinunor to dar. Vyreler el mi uo tulikunor to dar.",
+          "japanese": "私は球半径比率（radinunor）を観測・記録します。私は球関数調和則（tulikunor）を観測・記録します。"
+        },
+        {
+          "speaker": "Kalliope",
+          "nebulith": "Ve, radinunor el alin to toren. tulikunor el alin to toren.",
+          "japanese": "ええ、その球半径比率（radinunor）は確かな秩序に基づいています。その球関数調和則（tulikunor）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SOUND-01",
+      "batch": "Batch 92",
+      "domain": "音響共鳴・星間舞踏",
+      "title": "音波気流伝播と共鳴歓喜",
+      "communicative_need": "星間音響音楽家と舞踏律動家が音波気流伝播と共鳴歓喜について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Orpheon",
+        "role": "星間音響音楽家"
+      },
+      "agent_b": {
+        "name": "Terps",
+        "role": "舞踏律動家"
+      },
+      "turns": [
+        {
+          "speaker": "Orpheon",
+          "nebulith": "Vyreler el mi uo valiselir to dar. Vyreler el mi uo valistyni to dar. Vyreler el mi uo valisalin to dar.",
+          "japanese": "私は音波気流伝播（valiselir）を観測・記録します。私は共鳴歓喜（valistyni）を観測・記録します。私は音響調和律（valisalin）を観測・記録します。"
+        },
+        {
+          "speaker": "Terps",
+          "nebulith": "Ve, valiselir el alin to toren. valistyni el alin to toren. valisalin el alin to toren.",
+          "japanese": "ええ、その音波気流伝播（valiselir）は確かな秩序に基づいています。その共鳴歓喜（valistyni）は確かな秩序に基づいています。その音響調和律（valisalin）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SOUND-02",
+      "batch": "Batch 92",
+      "domain": "音響共鳴・星間舞踏",
+      "title": "電磁放射律と放射光歓声",
+      "communicative_need": "音波波動物理士と調和音階調律師が電磁放射律と放射光歓声について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Harmon",
+        "role": "音波波動物理士"
+      },
+      "agent_b": {
+        "name": "Melodia",
+        "role": "調和音階調律師"
+      },
+      "turns": [
+        {
+          "speaker": "Harmon",
+          "nebulith": "Vyreler el mi uo valurelir to dar. Vyreler el mi uo valurtyni to dar. Vyreler el mi uo valuralin to dar.",
+          "japanese": "私は放射気流流動（valurelir）を観測・記録します。私は放射光歓声（valurtyni）を観測・記録します。私は電磁放射律（valuralin）を観測・記録します。"
+        },
+        {
+          "speaker": "Melodia",
+          "nebulith": "Ve, valurelir el alin to toren. valurtyni el alin to toren. valuralin el alin to toren.",
+          "japanese": "ええ、その放射気流流動（valurelir）は確かな秩序に基づいています。その放射光歓声（valurtyni）は確かな秩序に基づいています。その電磁放射律（valuralin）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SOUND-03",
+      "batch": "Batch 92",
+      "domain": "音響共鳴・星間舞踏",
+      "title": "律動気流響と舞踏法悦",
+      "communicative_need": "電磁放射音響技手と気流共鳴管弦手が律動気流響と舞踏法悦について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Phonos",
+        "role": "電磁放射音響技手"
+      },
+      "agent_b": {
+        "name": "Aura",
+        "role": "気流共鳴管弦手"
+      },
+      "turns": [
+        {
+          "speaker": "Phonos",
+          "nebulith": "Vyreler el mi uo tykvalis to dar. Vyreler el mi uo tykvalur to dar.",
+          "japanese": "私は律動気流響（tykvalis）を観測・記録します。私は舞踏律動歓喜（tykvalur）を観測・記録します。"
+        },
+        {
+          "speaker": "Aura",
+          "nebulith": "Ve, tykvalis el alin to toren. tykvalur el alin to toren.",
+          "japanese": "ええ、その律動気流響（tykvalis）は確かな秩序に基づいています。その舞踏律動歓喜（tykvalur）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SOUND-04",
+      "batch": "Batch 93",
+      "domain": "音響共鳴・星間舞踏",
+      "title": "脈動微風音と気流音響律",
+      "communicative_need": "星間音響音楽家と舞踏律動家が脈動微風音と気流音響律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Orpheon",
+        "role": "星間音響音楽家"
+      },
+      "agent_b": {
+        "name": "Terps",
+        "role": "舞踏律動家"
+      },
+      "turns": [
+        {
+          "speaker": "Orpheon",
+          "nebulith": "Vyreler el mi uo tykwylin to dar. Vyreler el mi uo tyktoren to dar. Tykfalos el dar to miin.",
+          "japanese": "私は律動波動音（tykwylin）を観測・記録します。私は律動電磁波（tyktoren）を観測・記録します。この風の歌の歓喜（tykfalos）道は私たちに光を与えます。"
+        },
+        {
+          "speaker": "Terps",
+          "nebulith": "Ve, tykwylin el alin to toren. tyktoren el alin to toren. Tykfalos el toren to fal.",
+          "japanese": "ええ、その律動波動音（tykwylin）は確かな秩序に基づいています。その律動電磁波（tyktoren）は確かな秩序に基づいています。風の歌の歓喜（tykfalos）秩序は光と調和しています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SOUND-05",
+      "batch": "Batch 93",
+      "domain": "音響共鳴・星間舞踏",
+      "title": "分光光彩気流と色彩法悦",
+      "communicative_need": "音波波動物理士と調和音階調律師が分光光彩気流と色彩法悦について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Harmon",
+        "role": "音波波動物理士"
+      },
+      "agent_b": {
+        "name": "Melodia",
+        "role": "調和音階調律師"
+      },
+      "turns": [
+        {
+          "speaker": "Harmon",
+          "nebulith": "Vyreler el mi uo tyksirin to dar. Vyreler el mi uo tykwylas to dar. Vyreler el mi uo wylinelir to dar.",
+          "japanese": "私は気流音響律（tyksirin）を観測・記録します。私は光彩気流脈（tykwylas）を観測・記録します。私は色彩法悦（wylinelir）を観測・記録します。"
+        },
+        {
+          "speaker": "Melodia",
+          "nebulith": "Ve, tyksirin el alin to toren. tykwylas el alin to toren. wylinelir el alin to toren.",
+          "japanese": "ええ、その気流音響律（tyksirin）は確かな秩序に基づいています。その光彩気流脈（tykwylas）は確かな秩序に基づいています。その色彩法悦（wylinelir）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SOUND-06",
+      "batch": "Batch 93",
+      "domain": "音響共鳴・星間舞踏",
+      "title": "音色波形彩と倍音調和律",
+      "communicative_need": "電磁放射音響技手と気流共鳴管弦手が音色波形彩と倍音調和律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Phonos",
+        "role": "電磁放射音響技手"
+      },
+      "agent_b": {
+        "name": "Aura",
+        "role": "気流共鳴管弦手"
+      },
+      "turns": [
+        {
+          "speaker": "Phonos",
+          "nebulith": "Vyreler el mi uo wylintyni to dar. Vyreler el mi uo wylinalin to dar.",
+          "japanese": "私は分光調和則（wylintyni）を観測・記録します。私は音色波形彩（wylinalin）を観測・記録します。"
+        },
+        {
+          "speaker": "Aura",
+          "nebulith": "Ve, wylintyni el alin to toren. wylinalin el alin to toren.",
+          "japanese": "ええ、その分光調和則（wylintyni）は確かな秩序に基づいています。その音色波形彩（wylinalin）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-FORGE-01",
+      "batch": "Batch 94",
+      "domain": "冶金工芸・合金製錬",
+      "title": "製錬坩堝と冶金相平衡律",
+      "communicative_need": "合金製錬技師長と結晶金属工芸士が製錬坩堝と冶金相平衡律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Hephaes",
+        "role": "合金製錬技師長"
+      },
+      "agent_b": {
+        "name": "Chrysa",
+        "role": "結晶金属工芸士"
+      },
+      "turns": [
+        {
+          "speaker": "Hephaes",
+          "nebulith": "Vyreler el mi uo kymkyrin to dar. Vyreler el mi uo kymtyril to dar. Vyreler el mi uo kymdolas to dar.",
+          "japanese": "私は金属支柱（kymkyrin）を観測・記録します。私は製錬坩堝（kymtyril）を観測・記録します。私は冶金相平衡律（kymdolas）を観測・記録します。"
+        },
+        {
+          "speaker": "Chrysa",
+          "nebulith": "Ve, kymkyrin el alin to toren. kymtyril el alin to toren. kymdolas el alin to toren.",
+          "japanese": "ええ、その金属支柱（kymkyrin）は確かな秩序に基づいています。その製錬坩堝（kymtyril）は確かな秩序に基づいています。その冶金相平衡律（kymdolas）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-FORGE-02",
+      "batch": "Batch 94",
+      "domain": "冶金工芸・合金製錬",
+      "title": "金属微結晶と引張強度限界",
+      "communicative_need": "熱間鍛造職人と冶金材料試験手が金属微結晶と引張強度限界について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Volkan",
+        "role": "熱間鍛造職人"
+      },
+      "agent_b": {
+        "name": "Metalla",
+        "role": "冶金材料試験手"
+      },
+      "turns": [
+        {
+          "speaker": "Volkan",
+          "nebulith": "Vyreler el mi uo kymrenan to dar. Vyreler el mi uo kymtoren to dar. Vyreler el mi uo torkym to dar.",
+          "japanese": "私は鉱石母岩盤（kymrenan）を観測・記録します。私は結晶格子間隔比（kymtoren）を観測・記録します。私は金属微結晶体（torkym）を観測・記録します。"
+        },
+        {
+          "speaker": "Metalla",
+          "nebulith": "Ve, kymrenan el alin to toren. kymtoren el alin to toren. torkym el alin to toren.",
+          "japanese": "ええ、その鉱石母岩盤（kymrenan）は確かな秩序に基づいています。その結晶格子間隔比（kymtoren）は確かな秩序に基づいています。その金属微結晶体（torkym）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-FORGE-03",
+      "batch": "Batch 94",
+      "domain": "冶金工芸・合金製錬",
+      "title": "熱間鍛造成形と柱状晶組織",
+      "communicative_need": "鋳塊鍛金師と焼入熱処理技師が熱間鍛造成形と柱状晶組織について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Ferron",
+        "role": "鋳塊鍛金師"
+      },
+      "agent_b": {
+        "name": "Calyx",
+        "role": "焼入熱処理技師"
+      },
+      "turns": [
+        {
+          "speaker": "Ferron",
+          "nebulith": "Vyreler el mi uo torkyrin to dar. Vyreler el mi uo tortyril to dar.",
+          "japanese": "私は引張強度限界（torkyrin）を観測・記録します。私は製錬石炭熱（tortyril）を観測・記録します。"
+        },
+        {
+          "speaker": "Calyx",
+          "nebulith": "Ve, torkyrin el alin to toren. tortyril el alin to toren.",
+          "japanese": "ええ、その引張強度限界（torkyrin）は確かな秩序に基づいています。その製錬石炭熱（tortyril）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-FORGE-04",
+      "batch": "Batch 95",
+      "domain": "冶金工芸・合金製錬",
+      "title": "晶出カプセルと単結晶成長",
+      "communicative_need": "合金製錬技師長と結晶金属工芸士が晶出カプセルと単結晶成長について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Hephaes",
+        "role": "合金製錬技師長"
+      },
+      "agent_b": {
+        "name": "Chrysa",
+        "role": "結晶金属工芸士"
+      },
+      "turns": [
+        {
+          "speaker": "Hephaes",
+          "nebulith": "Vyreler el mi uo tordolas to dar. Vyreler el mi uo torrenan to dar. Vyreler el mi uo klortor to dar.",
+          "japanese": "私は鍛造打撃成形（tordolas）を観測・記録します。私は柱状晶組織（torrenan）を観測・記録します。私は晶出カプセル（klortor）を観測・記録します。"
+        },
+        {
+          "speaker": "Chrysa",
+          "nebulith": "Ve, tordolas el alin to toren. torrenan el alin to toren. klortor el alin to toren.",
+          "japanese": "ええ、その鍛造打撃成形（tordolas）は確かな秩序に基づいています。その柱状晶組織（torrenan）は確かな秩序に基づいています。その晶出カプセル（klortor）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-FORGE-05",
+      "batch": "Batch 95",
+      "domain": "冶金工芸・合金製錬",
+      "title": "大型鍛造金敷と急冷焼入槽",
+      "communicative_need": "熱間鍛造職人と冶金材料試験手が大型鍛造金敷と急冷焼入槽について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Volkan",
+        "role": "熱間鍛造職人"
+      },
+      "agent_b": {
+        "name": "Metalla",
+        "role": "冶金材料試験手"
+      },
+      "turns": [
+        {
+          "speaker": "Volkan",
+          "nebulith": "Vyreler el mi uo klorterin to dar. Vyreler el mi uo klorkyrin to dar. Vyreler el mi uo klortyril to dar.",
+          "japanese": "私は晶出母材基盤（klorterin）を観測・記録します。私は結晶晶癖律（klorkyrin）を観測・記録します。私は大型鍛造金敷（klortyril）を観測・記録します。"
+        },
+        {
+          "speaker": "Metalla",
+          "nebulith": "Ve, klorterin el alin to toren. klorkyrin el alin to toren. klortyril el alin to toren.",
+          "japanese": "ええ、その晶出母材基盤（klorterin）は確かな秩序に基づいています。その結晶晶癖律（klorkyrin）は確かな秩序に基づいています。その大型鍛造金敷（klortyril）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-FORGE-06",
+      "batch": "Batch 95",
+      "domain": "冶金工芸・合金製錬",
+      "title": "製鉄炉底耐火盤と鍛冶炉床",
+      "communicative_need": "鋳塊鍛金師と焼入熱処理技師が製鉄炉底耐火盤と鍛冶炉床について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Ferron",
+        "role": "鋳塊鍛金師"
+      },
+      "agent_b": {
+        "name": "Calyx",
+        "role": "焼入熱処理技師"
+      },
+      "turns": [
+        {
+          "speaker": "Ferron",
+          "nebulith": "Vyreler el mi uo klorrenan to dar. Vyreler el mi uo klortoren to dar.",
+          "japanese": "私は鍛造焼入槽（klorrenan）を観測・記録します。私は鍛造炉床盤（klortoren）を観測・記録します。"
+        },
+        {
+          "speaker": "Calyx",
+          "nebulith": "Ve, klorrenan el alin to toren. klortoren el alin to toren.",
+          "japanese": "ええ、その鍛造焼入槽（klorrenan）は確かな秩序に基づいています。その鍛造炉床盤（klortoren）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MED-01",
+      "batch": "Batch 96",
+      "domain": "生薬調剤・生体治癒",
+      "title": "生薬チンキ滴と生体恒常性",
+      "communicative_need": "生薬調剤師長と生体治癒医術士が生薬チンキ滴と生体恒常性について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Asklep",
+        "role": "生薬調剤師長"
+      },
+      "agent_b": {
+        "name": "Hygeia",
+        "role": "生体治癒医術士"
+      },
+      "turns": [
+        {
+          "speaker": "Asklep",
+          "nebulith": "Vyreler el mi uo bionneran to dar. Biondaron el dar to miin. Vyreler el mi uo bionalin to dar.",
+          "japanese": "私は薬効生体滴（bionneran）を観測・記録します。この清浄生薬の（biondaron）道は私たちに光を与えます。私は生体滋養補給（bionalin）を観測・記録します。"
+        },
+        {
+          "speaker": "Hygeia",
+          "nebulith": "Ve, bionneran el alin to toren. Biondaron el toren to fal. bionalin el alin to toren.",
+          "japanese": "ええ、その薬効生体滴（bionneran）は確かな秩序に基づいています。清浄生薬の（biondaron）秩序は光と調和しています。その生体滋養補給（bionalin）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MED-02",
+      "batch": "Batch 96",
+      "domain": "生薬調剤・生体治癒",
+      "title": "薬草煎じ薬液と精製生薬エキス",
+      "communicative_need": "植物薬理学者と臨床調剤記録官が薬草煎じ薬液と精製生薬エキスについて討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Galen",
+        "role": "植物薬理学者"
+      },
+      "agent_b": {
+        "name": "Panacea",
+        "role": "臨床調剤記録官"
+      },
+      "turns": [
+        {
+          "speaker": "Galen",
+          "nebulith": "Vyreler el mi uo bionterin to dar. Vyreler el mi uo biontoren to dar. Vyreler el mi uo bionelner to dar.",
+          "japanese": "私は生体恒常性律（bionterin）を観測・記録します。私は生薬自生土壌（biontoren）を観測・記録します。私は生薬浸出煎液（bionelner）を観測・記録します。"
+        },
+        {
+          "speaker": "Panacea",
+          "nebulith": "Ve, bionterin el alin to toren. biontoren el alin to toren. bionelner el alin to toren.",
+          "japanese": "ええ、その生体恒常性律（bionterin）は確かな秩序に基づいています。その生薬自生土壌（biontoren）は確かな秩序に基づいています。その生薬浸出煎液（bionelner）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MED-03",
+      "batch": "Batch 96",
+      "domain": "生薬調剤・生体治癒",
+      "title": "軟膏丸薬壺と生薬栄養配合",
+      "communicative_need": "生薬煎剤技士と無菌衛生管理士が軟膏丸薬壺と生薬栄養配合について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Kiron",
+        "role": "生薬煎剤技士"
+      },
+      "agent_b": {
+        "name": "Salvia",
+        "role": "無菌衛生管理士"
+      },
+      "turns": [
+        {
+          "speaker": "Kiron",
+          "nebulith": "Vyreler el mi uo neranbion to dar. Neranalin el dar to miin.",
+          "japanese": "私は生薬点眼滴（neranbion）を観測・記録します。この精製生薬の（neranalin）道は私たちに光を与えます。"
+        },
+        {
+          "speaker": "Salvia",
+          "nebulith": "Ve, neranbion el alin to toren. Neranalin el toren to fal.",
+          "japanese": "ええ、その生薬点眼滴（neranbion）は確かな秩序に基づいています。精製生薬の（neranalin）秩序は光と調和しています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MED-04",
+      "batch": "Batch 97",
+      "domain": "生薬調剤・生体治癒",
+      "title": "処方調剤律と生薬群落基盤",
+      "communicative_need": "生薬調剤師長と生体治癒医術士が処方調剤律と生薬群落基盤について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Asklep",
+        "role": "生薬調剤師長"
+      },
+      "agent_b": {
+        "name": "Hygeia",
+        "role": "生体治癒医術士"
+      },
+      "turns": [
+        {
+          "speaker": "Asklep",
+          "nebulith": "Vyreler el mi uo neranner to dar. Vyreler el mi uo daronbion to dar. Vyreler el mi uo darisbion to dar.",
+          "japanese": "私は軟膏丸薬壺（neranner）を観測・記録します。私は薬効滋養食（daronbion）を観測・記録します。私は生薬薬理調剤律（darisbion）を観測・記録します。"
+        },
+        {
+          "speaker": "Hygeia",
+          "nebulith": "Ve, neranner el alin to toren. daronbion el alin to toren. darisbion el alin to toren.",
+          "japanese": "ええ、その軟膏丸薬壺（neranner）は確かな秩序に基づいています。その薬効滋養食（daronbion）は確かな秩序に基づいています。その生薬薬理調剤律（darisbion）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MED-05",
+      "batch": "Batch 97",
+      "domain": "生薬調剤・生体治癒",
+      "title": "滅菌蒸留水と無菌検査記録",
+      "communicative_need": "植物薬理学者と臨床調剤記録官が滅菌蒸留水と無菌検査記録について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Galen",
+        "role": "植物薬理学者"
+      },
+      "agent_b": {
+        "name": "Panacea",
+        "role": "臨床調剤記録官"
+      },
+      "turns": [
+        {
+          "speaker": "Galen",
+          "nebulith": "Vyreler el mi uo darisalin to dar. Vyreler el mi uo darisner to dar. Vyreler el mi uo alinbion to dar.",
+          "japanese": "私は生薬自生床（darisalin）を観測・記録します。私は滅菌蒸留水滴（darisner）を観測・記録します。私は清浄無菌床盤（alinbion）を観測・記録します。"
+        },
+        {
+          "speaker": "Panacea",
+          "nebulith": "Ve, darisalin el alin to toren. darisner el alin to toren. alinbion el alin to toren.",
+          "japanese": "ええ、その生薬自生床（darisalin）は確かな秩序に基づいています。その滅菌蒸留水滴（darisner）は確かな秩序に基づいています。その清浄無菌床盤（alinbion）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-MED-06",
+      "batch": "Batch 97",
+      "domain": "生薬調剤・生体治癒",
+      "title": "体液電解質調和と点滴投与律",
+      "communicative_need": "生薬煎剤技士と無菌衛生管理士が体液電解質調和と点滴投与律について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Kiron",
+        "role": "生薬煎剤技士"
+      },
+      "agent_b": {
+        "name": "Salvia",
+        "role": "無菌衛生管理士"
+      },
+      "turns": [
+        {
+          "speaker": "Kiron",
+          "nebulith": "Vyreler el mi uo alinneran to dar. Vyreler el mi uo alindaron to dar.",
+          "japanese": "私は体液電解質調和律（alinneran）を観測・記録します。私は微量点滴投薬律（alindaron）を観測・記録します。"
+        },
+        {
+          "speaker": "Salvia",
+          "nebulith": "Ve, alinneran el alin to toren. alindaron el alin to toren.",
+          "japanese": "ええ、その体液電解質調和律（alinneran）は確かな秩序に基づいています。その微量点滴投薬律（alindaron）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SPEC-01",
+      "batch": "Batch 97",
+      "domain": "専門工学・特殊対話",
+      "title": "天文分光軌道線と人工衛星観測",
+      "communicative_need": "天文工学観測士と衛星軌道技師が天文分光軌道線と人工衛星観測について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Astron",
+        "role": "天文工学観測士"
+      },
+      "agent_b": {
+        "name": "Stellor",
+        "role": "衛星軌道技師"
+      },
+      "turns": [
+        {
+          "speaker": "Astron",
+          "nebulith": "Vyreler el mi uo falosvyri to dar. Vyreler el mi uo falosdar to dar.",
+          "japanese": "私は天文分光軌道線（falosvyri）を観測・記録します。私は人工衛星カプセル（falosdar）を観測・記録します。"
+        },
+        {
+          "speaker": "Stellor",
+          "nebulith": "Ve, falosvyri el alin to toren. falosdar el alin to toren.",
+          "japanese": "ええ、その天文分光軌道線（falosvyri）は確かな秩序に基づいています。その人工衛星カプセル（falosdar）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SPEC-02",
+      "batch": "Batch 97",
+      "domain": "専門工学・特殊対話",
+      "title": "精緻切削石工と玄武岩アーチ力学",
+      "communicative_need": "石工構造学者と石橋架構技師が精緻切削石工と玄武岩アーチ力学について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Lithos",
+        "role": "石工構造学者"
+      },
+      "agent_b": {
+        "name": "Kamas",
+        "role": "石橋架構技師"
+      },
+      "turns": [
+        {
+          "speaker": "Lithos",
+          "nebulith": "Falosvel el dar to miin. Vyreler el mi uo falosalin to dar.",
+          "japanese": "この精緻切削石工の（falosvel）道は私たちに光を与えます。私は玄武岩柱頭（falosalin）を観測・記録します。"
+        },
+        {
+          "speaker": "Kamas",
+          "nebulith": "Ve, Falosvel el toren to fal. falosalin el alin to toren.",
+          "japanese": "ええ、精緻切削石工の（falosvel）秩序は光と調和しています。その玄武岩柱頭（falosalin）は確かな秩序に基づいています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-SPEC-03",
+      "batch": "Batch 97",
+      "domain": "専門工学・特殊対話",
+      "title": "深海潮流動態と潮流巡航艇",
+      "communicative_need": "海洋探査航海長と潮流巡航操船士が深海潮流動態と潮流巡航艇について討議し、専門的知見を共有する。",
+      "agent_a": {
+        "name": "Pelagos",
+        "role": "海洋探査航海長"
+      },
+      "agent_b": {
+        "name": "Nautis",
+        "role": "潮流巡航操船士"
+      },
+      "turns": [
+        {
+          "speaker": "Pelagos",
+          "nebulith": "Vyreler el mi uo falosvyr to dar. Vyreler el mi uo vyritalyr to dar.",
+          "japanese": "私は深海潮流動態（falosvyr）を観測・記録します。私は潮流巡航艇（vyritalyr）を観測・記録します。"
+        },
+        {
+          "speaker": "Nautis",
+          "nebulith": "Ve, falosvyr el alin to toren. vyritalyr el alin to toren.",
+          "japanese": "ええ、その深海潮流動態（falosvyr）は確かな秩序に基づいています。その潮流巡航艇（vyritalyr）は確かな秩序に基づいています。"
         }
       ]
     }
@@ -57196,6 +59807,3920 @@
       "speakers": [
         "Maya",
         "Theron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taltor",
+      "pos": "名",
+      "meaningJa": "礎石円柱、基壇支柱、建築主柱",
+      "meaningEn": "foundation pillar, base column, structural pier",
+      "morphemes": [
+        "tal",
+        "tor"
+      ],
+      "etymology": "tal(大地) + tor(しかし)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo taltor to dar.",
+      "example_ja": "私は礎石円柱を観測・記録します。",
+      "id": 31918,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-01",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40392,
+      "speakers": [
+        "Boran",
+        "Livia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taldoran",
+      "pos": "名",
+      "meaningJa": "基壇トラス群、基礎石造架構、地盤結合骨組",
+      "meaningEn": "foundation truss frame, base masonry framework",
+      "morphemes": [
+        "tal",
+        "doran"
+      ],
+      "etymology": "tal(大地) + doran(惑星)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo taldoran to dar.",
+      "example_ja": "私は基壇トラス群を観測・記録します。",
+      "id": 31919,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-01",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 7,
+          "nrs": "doran",
+          "pos": "名",
+          "meaningJa": "惑星、放浪天体、巡礼星"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40400,
+      "speakers": [
+        "Boran",
+        "Livia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taltulan",
+      "pos": "名",
+      "meaningJa": "構造力学律、石工架構規範、建築構造律",
+      "meaningEn": "structural mechanics law, architectural framing rule",
+      "morphemes": [
+        "tal",
+        "tulan"
+      ],
+      "etymology": "tal(大地) + tulan(遠く)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo taltulan to dar.",
+      "example_ja": "私は構造力学律を観測・記録します。",
+      "id": 31920,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-01",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 931,
+          "nrs": "tulan",
+          "pos": "副/形",
+          "meaningJa": "遠く、彼方に、遠日点に"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40408,
+      "speakers": [
+        "Boran",
+        "Livia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taltoren",
+      "pos": "名",
+      "meaningJa": "基壇石工群、礎石積層群、切石基礎層",
+      "meaningEn": "foundation stone masonry, bedrock ashlar layers",
+      "morphemes": [
+        "tal",
+        "toren"
+      ],
+      "etymology": "tal(大地) + toren(来る)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo taltoren to dar.",
+      "example_ja": "私は基壇石工群を観測・記録します。",
+      "id": 31921,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-02",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40416,
+      "speakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taltaran",
+      "pos": "名",
+      "meaningJa": "尖塔頂点、高塔天頂部、建築尖塔頂",
+      "meaningEn": "spire pinnacle, tower apex, architectural apex",
+      "morphemes": [
+        "tal",
+        "taran"
+      ],
+      "etymology": "tal(大地) + taran(住まう)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo taltaran to dar.",
+      "example_ja": "私は尖塔頂点を観測・記録します。",
+      "id": 31922,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-02",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 628,
+          "nrs": "taran",
+          "pos": "動",
+          "meaningJa": "住まう、暮らす、居住する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40424,
+      "speakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tortal",
+      "pos": "名",
+      "meaningJa": "柱基礎地盤、支柱定着基盤、立柱岩盤",
+      "meaningEn": "pillar base stratum, column foundation bed",
+      "morphemes": [
+        "tor",
+        "tal"
+      ],
+      "etymology": "tor(しかし) + tal(大地)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo tortal to dar.",
+      "example_ja": "私は柱基礎地盤を観測・記録します。",
+      "id": 31923,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-02",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40432,
+      "speakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "torterin",
+      "pos": "名",
+      "meaningJa": "群柱架構、連立支柱群、複列柱トラス",
+      "meaningEn": "clustered pillar truss, multi-column arcade frame",
+      "morphemes": [
+        "tor",
+        "terin"
+      ],
+      "etymology": "tor(しかし) + terin(温かい煎じ茶)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo torterin to dar.",
+      "example_ja": "私は群柱架構を観測・記録します。",
+      "id": 31924,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-03",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 1003,
+          "nrs": "terin",
+          "pos": "名",
+          "meaningJa": "温かい煎じ茶、薬草茶"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40440,
+      "speakers": [
+        "Markos",
+        "Thera"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tordoran",
+      "pos": "名",
+      "meaningJa": "円柱石工組、石造列柱体、円柱ブロック積",
+      "meaningEn": "masonry column assembly, stone pillar structure",
+      "morphemes": [
+        "tor",
+        "doran"
+      ],
+      "etymology": "tor(しかし) + doran(惑星)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo tordoran to dar.",
+      "example_ja": "私は円柱石工組を観測・記録します。",
+      "id": 31925,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-03",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 7,
+          "nrs": "doran",
+          "pos": "名",
+          "meaningJa": "惑星、放浪天体、巡礼星"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40448,
+      "speakers": [
+        "Markos",
+        "Thera"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tortulan",
+      "pos": "名",
+      "meaningJa": "支柱配列律、柱頭比例公理、列柱配置規範",
+      "meaningEn": "column spacing law, capital proportion axiom",
+      "morphemes": [
+        "tor",
+        "tulan"
+      ],
+      "etymology": "tor(しかし) + tulan(遠く)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo tortulan to dar.",
+      "example_ja": "私は支柱配列律を観測・記録します。",
+      "id": 31926,
+      "batch": "Batch 86",
+      "scenario_id": "CANON-ARCH-03",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 931,
+          "nrs": "tulan",
+          "pos": "副/形",
+          "meaningJa": "遠く、彼方に、遠日点に"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40456,
+      "speakers": [
+        "Markos",
+        "Thera"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tortoren",
+      "pos": "名",
+      "meaningJa": "地下円室基盤、石造地下室床、地下穹窿基礎",
+      "meaningEn": "subterranean vault bed, stone crypt floor, crypt foundation",
+      "morphemes": [
+        "tor",
+        "toren"
+      ],
+      "etymology": "tor(しかし) + toren(来る)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo tortoren to dar.",
+      "example_ja": "私は地下円室基盤を観測・記録します。",
+      "id": 31927,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-04",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40464,
+      "speakers": [
+        "Boran",
+        "Livia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tortulos",
+      "pos": "名",
+      "meaningJa": "穹窿構造則、アーチ力学律、ヴォールト架構律",
+      "meaningEn": "vault structural rule, arch mechanics law",
+      "morphemes": [
+        "tor",
+        "tulos"
+      ],
+      "etymology": "tor(しかし) + tulos(天底)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo tortulos to dar.",
+      "example_ja": "私は穹窿構造則を観測・記録します。",
+      "id": 31928,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-04",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 47,
+          "nrs": "tulos",
+          "pos": "名",
+          "meaningJa": "天底、最深点、真下"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40472,
+      "speakers": [
+        "Boran",
+        "Livia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "torvorn",
+      "pos": "名",
+      "meaningJa": "多角柱頭、幾何彫刻柱頭、角柱束石",
+      "meaningEn": "polygonal capital, geometric column head, polygonal pier",
+      "morphemes": [
+        "tor",
+        "vorn"
+      ],
+      "etymology": "tor(しかし) + vorn(部屋)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo torvorn to dar.",
+      "example_ja": "私は多角柱頭を観測・記録します。",
+      "id": 31929,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-04",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40480,
+      "speakers": [
+        "Boran",
+        "Livia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tortaran",
+      "pos": "名",
+      "meaningJa": "幾何敷石地盤、多面体敷石層、敷石舗装層",
+      "meaningEn": "geometric paving stratum, polyhedral flagging bed",
+      "morphemes": [
+        "tor",
+        "taran"
+      ],
+      "etymology": "tor(しかし) + taran(住まう)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo tortaran to dar.",
+      "example_ja": "私は幾何敷石地盤を観測・記録します。",
+      "id": 31930,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-05",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 628,
+          "nrs": "taran",
+          "pos": "動",
+          "meaningJa": "住まう、暮らす、居住する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40488,
+      "speakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "terintal",
+      "pos": "名",
+      "meaningJa": "幾何組積則、切石幾何律、石工接合規範",
+      "meaningEn": "stereotomy rule, stone cutting geometric law",
+      "morphemes": [
+        "terin",
+        "tal"
+      ],
+      "etymology": "terin(温かい煎じ茶) + tal(大地)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo terintal to dar.",
+      "example_ja": "私は幾何組積則を観測・記録します。",
+      "id": 31931,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-05",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 1003,
+          "nrs": "terin",
+          "pos": "名",
+          "meaningJa": "温かい煎じ茶、薬草茶"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40496,
+      "speakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "terintor",
+      "pos": "名",
+      "meaningJa": "架構主柱群、トラス結合柱、骨組交差柱",
+      "meaningEn": "framework main columns, intersecting truss piers",
+      "morphemes": [
+        "terin",
+        "tor"
+      ],
+      "etymology": "terin(温かい煎じ茶) + tor(しかし)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo terintor to dar.",
+      "example_ja": "私は架構主柱群を観測・記録します。",
+      "id": 31932,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-05",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 1003,
+          "nrs": "terin",
+          "pos": "名",
+          "meaningJa": "温かい煎じ茶、薬草茶"
+        },
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40504,
+      "speakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dorantal",
+      "pos": "名",
+      "meaningJa": "骨組定着地盤、架構支持岩床、骨組基礎地盤",
+      "meaningEn": "framework anchorage stratum, superstructure support bed",
+      "morphemes": [
+        "doran",
+        "tal"
+      ],
+      "etymology": "doran(惑星) + tal(大地)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo dorantal to dar.",
+      "example_ja": "私は骨組定着地盤を観測・記録します。",
+      "id": 31933,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-06",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 7,
+          "nrs": "doran",
+          "pos": "名",
+          "meaningJa": "惑星、放浪天体、巡礼星"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40512,
+      "speakers": [
+        "Markos",
+        "Thera"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dorantor",
+      "pos": "名",
+      "meaningJa": "石造楣石梁、門扉上部楣石、石造開口梁",
+      "meaningEn": "stone lintel beam, masonry portal beam, header stone",
+      "morphemes": [
+        "doran",
+        "tor"
+      ],
+      "etymology": "doran(惑星) + tor(しかし)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo dorantor to dar.",
+      "example_ja": "私は石造楣石梁を観測・記録します。",
+      "id": 31934,
+      "batch": "Batch 87",
+      "scenario_id": "CANON-ARCH-06",
+      "domain": "古代建築・石工構造",
+      "constituentEntries": [
+        {
+          "id": 7,
+          "nrs": "doran",
+          "pos": "名",
+          "meaningJa": "惑星、放浪天体、巡礼星"
+        },
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40520,
+      "speakers": [
+        "Markos",
+        "Thera"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zenalin",
+      "pos": "形",
+      "meaningJa": "純粋理性の、澄明な思索の、明晰判明な",
+      "meaningEn": "purely rational, lucidly meditative, clearly reasoned",
+      "morphemes": [
+        "zen",
+        "alin"
+      ],
+      "etymology": "zen(なぜなら) + alin(白い)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Zenalin el dar to miin.",
+      "example_ja": "この純粋理性の道は私たちに光を与えます。",
+      "id": 31935,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-01",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40393,
+      "speakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zenelir",
+      "pos": "名",
+      "meaningJa": "直観的覚知、理性の歓喜、思索の歓び",
+      "meaningEn": "intuitive awakening, joy of pure reason, intellectual bliss",
+      "morphemes": [
+        "zen",
+        "elir"
+      ],
+      "etymology": "zen(なぜなら) + elir(喜び)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo zenelir to dar.",
+      "example_ja": "私は直観的覚知を観測・記録します。",
+      "id": 31936,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-01",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40401,
+      "speakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zencynel",
+      "pos": "名",
+      "meaningJa": "理法秩序、因果論理律、思索の公理系",
+      "meaningEn": "rational cosmic order, causal logic principle, axiomatic law",
+      "morphemes": [
+        "zen",
+        "cynel"
+      ],
+      "etymology": "zen(なぜなら) + cynel(愛)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo zencynel to dar.",
+      "example_ja": "私は理法秩序を観測・記録します。",
+      "id": 31937,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-01",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 695,
+          "nrs": "cynel",
+          "pos": "名/動",
+          "meaningJa": "愛、慈しみ、深い共感、愛する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40409,
+      "speakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zentoren",
+      "pos": "名",
+      "meaningJa": "精神潮流因果、内面思潮原理、思索潮流理",
+      "meaningEn": "mental tidal causality, internal tide philosophy",
+      "morphemes": [
+        "zen",
+        "toren"
+      ],
+      "etymology": "zen(なぜなら) + toren(来る)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo zentoren to dar.",
+      "example_ja": "私は精神潮流因果を観測・記録します。",
+      "id": 31938,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-02",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40417,
+      "speakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zenfevas",
+      "pos": "形",
+      "meaningJa": "清澄な法悦、無垢なる歓喜、澄明の至福",
+      "meaningEn": "lucid ecstasy, serene pure joy, blissful clarity",
+      "morphemes": [
+        "zen",
+        "fevas"
+      ],
+      "etymology": "zen(なぜなら) + fevas(信じる)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Zenfevas el dar to miin.",
+      "example_ja": "この清澄な法悦道は私たちに光を与えます。",
+      "id": 31939,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-02",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 705,
+          "nrs": "fevas",
+          "pos": "動",
+          "meaningJa": "信じる、信頼する、託す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40425,
+      "speakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zencylas",
+      "pos": "形",
+      "meaningJa": "明晰なる公理、純粋論理規律、澄明思考律",
+      "meaningEn": "clear axiomatic rule, pure logical discipline, lucid reason law",
+      "morphemes": [
+        "zen",
+        "cylas"
+      ],
+      "etymology": "zen(なぜなら) + cylas(美)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Zencylas el dar to miin.",
+      "example_ja": "この明晰なる公理道は私たちに光を与えます。",
+      "id": 31940,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-02",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 692,
+          "nrs": "cylas",
+          "pos": "名/形",
+          "meaningJa": "美、崇高、調和美、美しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40433,
+      "speakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alinzen",
+      "pos": "形",
+      "meaningJa": "内面潮流澄明な、澄んだ思潮の、精神波清らかな",
+      "meaningEn": "lucidly mind-tidal, clear thought-currented",
+      "morphemes": [
+        "alin",
+        "zen"
+      ],
+      "etymology": "alin(白い) + zen(なぜなら)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Alinzen el dar to miin.",
+      "example_ja": "この内面潮流澄明な道は私たちに光を与えます。",
+      "id": 31941,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-03",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40441,
+      "speakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alinelir",
+      "pos": "名",
+      "meaningJa": "調和的至福律、法悦の規律、歓喜秩序則",
+      "meaningEn": "harmonic beatitude rule, ecstatic order law",
+      "morphemes": [
+        "alin",
+        "elir"
+      ],
+      "etymology": "alin(白い) + elir(喜び)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo alinelir to dar.",
+      "example_ja": "私は調和的至福律を観測・記録します。",
+      "id": 31942,
+      "batch": "Batch 88",
+      "scenario_id": "CANON-MIND-03",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40449,
+      "speakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alincynel",
+      "pos": "名",
+      "meaningJa": "内面波動歓喜、心の波立ち歓、魂の潮鳴り歓",
+      "meaningEn": "joyous wave of soul, mental surge exhilaration",
+      "morphemes": [
+        "alin",
+        "cynel"
+      ],
+      "etymology": "alin(白い) + cynel(愛)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo alincynel to dar.",
+      "example_ja": "私は内面波動歓喜を観測・記録します。",
+      "id": 31943,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-04",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 695,
+          "nrs": "cynel",
+          "pos": "名/動",
+          "meaningJa": "愛、慈しみ、深い共感、愛する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40457,
+      "speakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alintoren",
+      "pos": "名",
+      "meaningJa": "思潮原理、潮流内省理、精神流因果律",
+      "meaningEn": "thought wave philosophy, mind current causal principle",
+      "morphemes": [
+        "alin",
+        "toren"
+      ],
+      "etymology": "alin(白い) + toren(来る)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo alintoren to dar.",
+      "example_ja": "私は思潮原理を観測・記録します。",
+      "id": 31944,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-04",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40465,
+      "speakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alinsirin",
+      "pos": "名",
+      "meaningJa": "澄明心潮、精神清澄流、清明思潮",
+      "meaningEn": "clear mental tide, tranquil thought stream",
+      "morphemes": [
+        "alin",
+        "sirin"
+      ],
+      "etymology": "alin(白い) + sirin(平穏)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo alinsirin to dar.",
+      "example_ja": "私は澄明心潮を観測・記録します。",
+      "id": 31945,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-04",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 738,
+          "nrs": "sirin",
+          "pos": "名/形",
+          "meaningJa": "平穏、安らぎ、静けさ、穏やか"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40473,
+      "speakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alinfevas",
+      "pos": "形",
+      "meaningJa": "魂の歓声潮、内省歓喜波、精神潮鳴悦",
+      "meaningEn": "soul resonance joy, reflective bliss surge",
+      "morphemes": [
+        "alin",
+        "fevas"
+      ],
+      "etymology": "alin(白い) + fevas(信じる)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Alinfevas el dar to miin.",
+      "example_ja": "この魂の歓声潮道は私たちに光を与えます。",
+      "id": 31946,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-05",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 705,
+          "nrs": "fevas",
+          "pos": "動",
+          "meaningJa": "信じる、信頼する、託す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40481,
+      "speakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alincylas",
+      "pos": "名",
+      "meaningJa": "静止内省原理、沈思黙考理、瞑想静思因果",
+      "meaningEn": "meditative stillness principle, quiescent reflection axiom",
+      "morphemes": [
+        "alin",
+        "cylas"
+      ],
+      "etymology": "alin(白い) + cylas(美)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo alincylas to dar.",
+      "example_ja": "私は静止内省原理を観測・記録します。",
+      "id": 31947,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-05",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 692,
+          "nrs": "cylas",
+          "pos": "名/形",
+          "meaningJa": "美、崇高、調和美、美しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40489,
+      "speakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "elirzen",
+      "pos": "形",
+      "meaningJa": "静止澄明な、沈静清澄の、安穏明晰な",
+      "meaningEn": "quiescently tranquil, serenely clarified",
+      "morphemes": [
+        "elir",
+        "zen"
+      ],
+      "etymology": "elir(喜び) + zen(なぜなら)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Elirzen el dar to miin.",
+      "example_ja": "この静止澄明な道は私たちに光を与えます。",
+      "id": 31948,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-05",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        },
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40497,
+      "speakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "eliralin",
+      "pos": "形",
+      "meaningJa": "心の安堵感、帰港の至福、憩いの安寧歓",
+      "meaningEn": "tranquil relief, bliss of return, haven joy",
+      "morphemes": [
+        "elir",
+        "alin"
+      ],
+      "etymology": "elir(喜び) + alin(白い)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Eliralin el dar to miin.",
+      "example_ja": "この心の安堵感道は私たちに光を与えます。",
+      "id": 31949,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-06",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40505,
+      "speakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "elircynel",
+      "pos": "形",
+      "meaningJa": "内省の静規、沈潜規律、精神定住律",
+      "meaningEn": "inner quietude rule, meditative discipline, settled mind law",
+      "morphemes": [
+        "elir",
+        "cynel"
+      ],
+      "etymology": "elir(喜び) + cynel(愛)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Elircynel el dar to miin.",
+      "example_ja": "この内省の静規道は私たちに光を与えます。",
+      "id": 31950,
+      "batch": "Batch 89",
+      "scenario_id": "CANON-MIND-06",
+      "domain": "精神哲学・内省思索",
+      "constituentEntries": [
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        },
+        {
+          "id": 695,
+          "nrs": "cynel",
+          "pos": "名/動",
+          "meaningJa": "愛、慈しみ、深い共感、愛する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40513,
+      "speakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unorradin",
+      "pos": "名",
+      "meaningJa": "数理公理系、計量規準律、数理規範体系",
+      "meaningEn": "mathematical axiomatic system, metric standard rule",
+      "morphemes": [
+        "unor",
+        "radin"
+      ],
+      "etymology": "unor(整数) + radin(軌道半径)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo unorradin to dar.",
+      "example_ja": "私は数理公理系を観測・記録します。",
+      "id": 31951,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-01",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 43,
+          "nrs": "radin",
+          "pos": "名",
+          "meaningJa": "軌道半径、長半径、天体間距離"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40394,
+      "speakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unortoren",
+      "pos": "名",
+      "meaningJa": "基準間隔尺度、尺度基準比、測度間隔規準",
+      "meaningEn": "reference interval scale, metric ratio benchmark",
+      "morphemes": [
+        "unor",
+        "toren"
+      ],
+      "etymology": "unor(整数) + toren(来る)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo unortoren to dar.",
+      "example_ja": "私は基準間隔尺度を観測・記録します。",
+      "id": 31952,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-01",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40402,
+      "speakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unordelis",
+      "pos": "名",
+      "meaningJa": "量子単位規準、離散素量尺度、最小量子単位標",
+      "meaningEn": "quantum unit metric, discrete element benchmark",
+      "morphemes": [
+        "unor",
+        "delis"
+      ],
+      "etymology": "unor(整数) + delis(小数)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo unordelis to dar.",
+      "example_ja": "私は量子単位規準を観測・記録します。",
+      "id": 31953,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-01",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 82,
+          "nrs": "delis",
+          "pos": "名",
+          "meaningJa": "小数、実数、分割比"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40410,
+      "speakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unorniven",
+      "pos": "名",
+      "meaningJa": "量子論理律、離散調和則、量子秩序公理",
+      "meaningEn": "quantum logic law, discrete harmony rule, quantum axiom",
+      "morphemes": [
+        "unor",
+        "niven"
+      ],
+      "etymology": "unor(整数) + niven(次元)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo unorniven to dar.",
+      "example_ja": "私は量子論理律を観測・記録します。",
+      "id": 31954,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-02",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 107,
+          "nrs": "niven",
+          "pos": "名",
+          "meaningJa": "次元、座標軸、空間度数"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40418,
+      "speakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unorkiril",
+      "pos": "名",
+      "meaningJa": "量子格子間隔、離散格子幅、素量格子周期",
+      "meaningEn": "quantum lattice interval, discrete mesh spacing",
+      "morphemes": [
+        "unor",
+        "kiril"
+      ],
+      "etymology": "unor(整数) + kiril(関数)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo unorkiril to dar.",
+      "example_ja": "私は量子格子間隔を観測・記録します。",
+      "id": 31955,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-02",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 102,
+          "nrs": "kiril",
+          "pos": "名",
+          "meaningJa": "関数、変換式、写像"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40426,
+      "speakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unorjytel",
+      "pos": "名",
+      "meaningJa": "幾何単位胞、結晶単位格子、空間充填単位体",
+      "meaningEn": "geometric unit cell, crystal unit lattice, space-filling unit",
+      "morphemes": [
+        "unor",
+        "jytel"
+      ],
+      "etymology": "unor(整数) + jytel(ノード)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo unorjytel to dar.",
+      "example_ja": "私は幾何単位胞を観測・記録します。",
+      "id": 31956,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-02",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 95,
+          "nrs": "jytel",
+          "pos": "名",
+          "meaningJa": "ノード、結節点、ネットワーク交点"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40434,
+      "speakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unorsevur",
+      "pos": "名",
+      "meaningJa": "幾何素量点、多面体離散点、結晶格点素量",
+      "meaningEn": "geometric quantum node, polyhedral discrete vertex",
+      "morphemes": [
+        "unor",
+        "sevur"
+      ],
+      "etymology": "unor(整数) + sevur(選択肢)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo unorsevur to dar.",
+      "example_ja": "私は幾何素量点を観測・記録します。",
+      "id": 31957,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-03",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 112,
+          "nrs": "sevur",
+          "pos": "名",
+          "meaningJa": "選択肢、オルタナティブ、分岐選出"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40442,
+      "speakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kvanradin",
+      "pos": "名",
+      "meaningJa": "多面体対称則、幾何対称性公理、空間結晶群律",
+      "meaningEn": "polyhedral symmetry rule, geometric symmetry axiom",
+      "morphemes": [
+        "kvan",
+        "radin"
+      ],
+      "etymology": "kvan(量子) + radin(軌道半径)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kvanradin to dar.",
+      "example_ja": "私は多面体対称則を観測・記録します。",
+      "id": 31958,
+      "batch": "Batch 90",
+      "scenario_id": "CANON-MATH-03",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 103,
+          "nrs": "kvan",
+          "pos": "名",
+          "meaningJa": "量子、最小単位、離散値"
+        },
+        {
+          "id": 43,
+          "nrs": "radin",
+          "pos": "名",
+          "meaningJa": "軌道半径、長半径、天体間距離"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40450,
+      "speakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kvantoren",
+      "pos": "名",
+      "meaningJa": "多角形辺長比、幾何面間隔比、多面体稜線比",
+      "meaningEn": "polygon edge ratio, interplanar spacing ratio",
+      "morphemes": [
+        "kvan",
+        "toren"
+      ],
+      "etymology": "kvan(量子) + toren(来る)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kvantoren to dar.",
+      "example_ja": "私は多角形辺長比を観測・記録します。",
+      "id": 31959,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-04",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 103,
+          "nrs": "kvan",
+          "pos": "名",
+          "meaningJa": "量子、最小単位、離散値"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40458,
+      "speakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kvandelis",
+      "pos": "名",
+      "meaningJa": "離散時間素量、クロック量子、時間刻み素量",
+      "meaningEn": "discrete time quantum, clock tick element",
+      "morphemes": [
+        "kvan",
+        "delis"
+      ],
+      "etymology": "kvan(量子) + delis(小数)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kvandelis to dar.",
+      "example_ja": "私は離散時間素量を観測・記録します。",
+      "id": 31960,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-04",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 103,
+          "nrs": "kvan",
+          "pos": "名",
+          "meaningJa": "量子、最小単位、離散値"
+        },
+        {
+          "id": 82,
+          "nrs": "delis",
+          "pos": "名",
+          "meaningJa": "小数、実数、分割比"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40466,
+      "speakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kvanniven",
+      "pos": "名",
+      "meaningJa": "拍動周期律、クロック同期律、時間調和公理",
+      "meaningEn": "pulse periodicity law, clock synchrony principle",
+      "morphemes": [
+        "kvan",
+        "niven"
+      ],
+      "etymology": "kvan(量子) + niven(次元)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kvanniven to dar.",
+      "example_ja": "私は拍動周期律を観測・記録します。",
+      "id": 31961,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-04",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 103,
+          "nrs": "kvan",
+          "pos": "名",
+          "meaningJa": "量子、最小単位、離散値"
+        },
+        {
+          "id": 107,
+          "nrs": "niven",
+          "pos": "名",
+          "meaningJa": "次元、座標軸、空間度数"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40474,
+      "speakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kvankiril",
+      "pos": "名",
+      "meaningJa": "離散拍動間隔、パルス間隔時間、拍動周期長",
+      "meaningEn": "discrete pulse interval, pulse duration space",
+      "morphemes": [
+        "kvan",
+        "kiril"
+      ],
+      "etymology": "kvan(量子) + kiril(関数)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kvankiril to dar.",
+      "example_ja": "私は離散拍動間隔を観測・記録します。",
+      "id": 31962,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-05",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 103,
+          "nrs": "kvan",
+          "pos": "名",
+          "meaningJa": "量子、最小単位、離散値"
+        },
+        {
+          "id": 102,
+          "nrs": "kiril",
+          "pos": "名",
+          "meaningJa": "関数、変換式、写像"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40482,
+      "speakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kvanjytel",
+      "pos": "名",
+      "meaningJa": "位相幾何軌道、幾何学的周期軌道、位相空間多角軌道",
+      "meaningEn": "topological phase orbit, geometric periodic trajectory",
+      "morphemes": [
+        "kvan",
+        "jytel"
+      ],
+      "etymology": "kvan(量子) + jytel(ノード)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kvanjytel to dar.",
+      "example_ja": "私は位相幾何軌道を観測・記録します。",
+      "id": 31963,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-05",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 103,
+          "nrs": "kvan",
+          "pos": "名",
+          "meaningJa": "量子、最小単位、離散値"
+        },
+        {
+          "id": 95,
+          "nrs": "jytel",
+          "pos": "名",
+          "meaningJa": "ノード、結節点、ネットワーク交点"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40490,
+      "speakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kvansevur",
+      "pos": "名",
+      "meaningJa": "球体幾何単位、球殻基準度量、球面計量規準",
+      "meaningEn": "spherical metric unit, dome reference measure",
+      "morphemes": [
+        "kvan",
+        "sevur"
+      ],
+      "etymology": "kvan(量子) + sevur(選択肢)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kvansevur to dar.",
+      "example_ja": "私は球体幾何単位を観測・記録します。",
+      "id": 31964,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-05",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 103,
+          "nrs": "kvan",
+          "pos": "名",
+          "meaningJa": "量子、最小単位、離散値"
+        },
+        {
+          "id": 112,
+          "nrs": "sevur",
+          "pos": "名",
+          "meaningJa": "選択肢、オルタナティブ、分岐選出"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40498,
+      "speakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "radinunor",
+      "pos": "名",
+      "meaningJa": "球半径比率、球面曲率間隔、同心球殻間隔",
+      "meaningEn": "sphere radius ratio, concentric shell spacing",
+      "morphemes": [
+        "radin",
+        "unor"
+      ],
+      "etymology": "radin(軌道半径) + unor(整数)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo radinunor to dar.",
+      "example_ja": "私は球半径比率を観測・記録します。",
+      "id": 31965,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-06",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 43,
+          "nrs": "radin",
+          "pos": "名",
+          "meaningJa": "軌道半径、長半径、天体間距離"
+        },
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40506,
+      "speakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tulikunor",
+      "pos": "名",
+      "meaningJa": "球関数調和則、球面調和級数律、閉曲面幾何則",
+      "meaningEn": "spherical harmonics law, closed surface geometry rule",
+      "morphemes": [
+        "tulik",
+        "unor"
+      ],
+      "etymology": "tulik(多角形) + unor(整数)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo tulikunor to dar.",
+      "example_ja": "私は球関数調和則を観測・記録します。",
+      "id": 31966,
+      "batch": "Batch 91",
+      "scenario_id": "CANON-MATH-06",
+      "domain": "数理論理・幾何調和",
+      "constituentEntries": [
+        {
+          "id": 122,
+          "nrs": "tulik",
+          "pos": "名",
+          "meaningJa": "多角形、星型幾何、立体多面体"
+        },
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40514,
+      "speakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "valiselir",
+      "pos": "名",
+      "meaningJa": "音波気流伝播、波動気流脈、音響気流響",
+      "meaningEn": "acoustic air propagation, sonic breeze wave",
+      "morphemes": [
+        "valis",
+        "elir"
+      ],
+      "etymology": "valis(衣服) + elir(喜び)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo valiselir to dar.",
+      "example_ja": "私は音波気流伝播を観測・記録します。",
+      "id": 31967,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-01",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 669,
+          "nrs": "valis",
+          "pos": "名",
+          "meaningJa": "衣服、装い、布地、衣類"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40395,
+      "speakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "valistyni",
+      "pos": "名",
+      "meaningJa": "共鳴歓喜、音波共振の法悦、響鳴の歓声",
+      "meaningEn": "resonance bliss, ecstatic acoustic surge, harmonic joy",
+      "morphemes": [
+        "valis",
+        "tyni"
+      ],
+      "etymology": "valis(衣服) + tyni(銀色の)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo valistyni to dar.",
+      "example_ja": "私は共鳴歓喜を観測・記録します。",
+      "id": 31968,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-01",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 669,
+          "nrs": "valis",
+          "pos": "名",
+          "meaningJa": "衣服、装い、布地、衣類"
+        },
+        {
+          "id": 825,
+          "nrs": "tyni",
+          "pos": "形",
+          "meaningJa": "銀色の、白銀の、月光の"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40403,
+      "speakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "valisalin",
+      "pos": "名",
+      "meaningJa": "音響調和律、周波数倍音則、波動共鳴規範",
+      "meaningEn": "acoustic harmonic law, overtone harmonic principle",
+      "morphemes": [
+        "valis",
+        "alin"
+      ],
+      "etymology": "valis(衣服) + alin(白い)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo valisalin to dar.",
+      "example_ja": "私は音響調和律を観測・記録します。",
+      "id": 31969,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-01",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 669,
+          "nrs": "valis",
+          "pos": "名",
+          "meaningJa": "衣服、装い、布地、衣類"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40411,
+      "speakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "valurelir",
+      "pos": "名",
+      "meaningJa": "放射気流流動、放射エネルギー風、電磁波気流脈",
+      "meaningEn": "radiant breeze drift, electromagnetic energy stream",
+      "morphemes": [
+        "valur",
+        "elir"
+      ],
+      "etymology": "valur(天体脈動) + elir(喜び)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo valurelir to dar.",
+      "example_ja": "私は放射気流流動を観測・記録します。",
+      "id": 31970,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-02",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 57,
+          "nrs": "valur",
+          "pos": "名",
+          "meaningJa": "天体脈動、電波、宇宙背景放射"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40419,
+      "speakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "valurtyni",
+      "pos": "名",
+      "meaningJa": "放射光歓声、星辰交信の歓喜、受光の歓喜",
+      "meaningEn": "radiance jubilation, cosmic reception joy",
+      "morphemes": [
+        "valur",
+        "tyni"
+      ],
+      "etymology": "valur(天体脈動) + tyni(銀色の)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo valurtyni to dar.",
+      "example_ja": "私は放射光歓声を観測・記録します。",
+      "id": 31971,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-02",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 57,
+          "nrs": "valur",
+          "pos": "名",
+          "meaningJa": "天体脈動、電波、宇宙背景放射"
+        },
+        {
+          "id": 825,
+          "nrs": "tyni",
+          "pos": "形",
+          "meaningJa": "銀色の、白銀の、月光の"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40427,
+      "speakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "valuralin",
+      "pos": "名",
+      "meaningJa": "電磁放射律、放射減衰則、天体放射伝播則",
+      "meaningEn": "electromagnetic emission law, radiation decay rule",
+      "morphemes": [
+        "valur",
+        "alin"
+      ],
+      "etymology": "valur(天体脈動) + alin(白い)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo valuralin to dar.",
+      "example_ja": "私は電磁放射律を観測・記録します。",
+      "id": 31972,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-02",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 57,
+          "nrs": "valur",
+          "pos": "名",
+          "meaningJa": "天体脈動、電波、宇宙背景放射"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40435,
+      "speakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tykvalis",
+      "pos": "名",
+      "meaningJa": "律動気流響、拍動する風、脈動微風音",
+      "meaningEn": "rhythmic breeze whisper, pulsating wind cadence",
+      "morphemes": [
+        "tyk",
+        "valis"
+      ],
+      "etymology": "tyk(クロック) + valis(衣服)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo tykvalis to dar.",
+      "example_ja": "私は律動気流響を観測・記録します。",
+      "id": 31973,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-03",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍"
+        },
+        {
+          "id": 669,
+          "nrs": "valis",
+          "pos": "名",
+          "meaningJa": "衣服、装い、布地、衣類"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40443,
+      "speakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tykvalur",
+      "pos": "名",
+      "meaningJa": "舞踏律動歓喜、拍子に踊る歓び、リズム法悦",
+      "meaningEn": "rhythmic dance euphoria, cadence joy, pulse beat bliss",
+      "morphemes": [
+        "tyk",
+        "valur"
+      ],
+      "etymology": "tyk(クロック) + valur(天体脈動)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo tykvalur to dar.",
+      "example_ja": "私は舞踏律動歓喜を観測・記録します。",
+      "id": 31974,
+      "batch": "Batch 92",
+      "scenario_id": "CANON-SOUND-03",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍"
+        },
+        {
+          "id": 57,
+          "nrs": "valur",
+          "pos": "名",
+          "meaningJa": "天体脈動、電波、宇宙背景放射"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40451,
+      "speakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tykwylin",
+      "pos": "名",
+      "meaningJa": "律動波動音、周期拍動波、拍子音波脈",
+      "meaningEn": "rhythmic wave cadence, periodic pulse wave",
+      "morphemes": [
+        "tyk",
+        "wylin"
+      ],
+      "etymology": "tyk(クロック) + wylin(自由)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo tykwylin to dar.",
+      "example_ja": "私は律動波動音を観測・記録します。",
+      "id": 31975,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-04",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍"
+        },
+        {
+          "id": 759,
+          "nrs": "wylin",
+          "pos": "名/形",
+          "meaningJa": "自由、束縛なき飛翔、自在な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40459,
+      "speakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tyktoren",
+      "pos": "名",
+      "meaningJa": "律動電磁波、拍動放射線、パルス放射波束",
+      "meaningEn": "rhythmic electromagnetic wave, pulsed radiation stream",
+      "morphemes": [
+        "tyk",
+        "toren"
+      ],
+      "etymology": "tyk(クロック) + toren(来る)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo tyktoren to dar.",
+      "example_ja": "私は律動電磁波を観測・記録します。",
+      "id": 31976,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-04",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40467,
+      "speakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tykfalos",
+      "pos": "形",
+      "meaningJa": "風の歌の歓喜、流風共鳴歓声、息吹の歓び",
+      "meaningEn": "breeze chant bliss, resonant wind joy, breath euphoria",
+      "morphemes": [
+        "tyk",
+        "falos"
+      ],
+      "etymology": "tyk(クロック) + falos(分光)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Tykfalos el dar to miin.",
+      "example_ja": "この風の歌の歓喜道は私たちに光を与えます。",
+      "id": 31977,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-04",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍"
+        },
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40475,
+      "speakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tyksirin",
+      "pos": "名",
+      "meaningJa": "気流音響律、流動音響法則、管楽器流速律",
+      "meaningEn": "aeroacoustic law, wind resonance principle, fluid acoustic rule",
+      "morphemes": [
+        "tyk",
+        "sirin"
+      ],
+      "etymology": "tyk(クロック) + sirin(平穏)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo tyksirin to dar.",
+      "example_ja": "私は気流音響律を観測・記録します。",
+      "id": 31978,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-05",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍"
+        },
+        {
+          "id": 738,
+          "nrs": "sirin",
+          "pos": "名/形",
+          "meaningJa": "平穏、安らぎ、静けさ、穏やか"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40483,
+      "speakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tykwylas",
+      "pos": "名",
+      "meaningJa": "光彩気流脈、発光オーロラ風、分光風流",
+      "meaningEn": "auroral spectral breeze, dispersed light wind",
+      "morphemes": [
+        "tyk",
+        "wylas"
+      ],
+      "etymology": "tyk(クロック) + wylas(風)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo tykwylas to dar.",
+      "example_ja": "私は光彩気流脈を観測・記録します。",
+      "id": 31979,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-05",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍"
+        },
+        {
+          "id": 365,
+          "nrs": "wylas",
+          "pos": "名/動",
+          "meaningJa": "風、大気の流れ、そよぐ"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40491,
+      "speakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "wylinelir",
+      "pos": "名",
+      "meaningJa": "色彩法悦、スペクトル美歓喜、虹彩の歓声",
+      "meaningEn": "chromatic ecstasy, spectral visual euphoria",
+      "morphemes": [
+        "wylin",
+        "elir"
+      ],
+      "etymology": "wylin(自由) + elir(喜び)",
+      "category": "4. 心・感情・感覚",
+      "example_sentence": "Vyreler el mi uo wylinelir to dar.",
+      "example_ja": "私は色彩法悦を観測・記録します。",
+      "id": 31980,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-05",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 759,
+          "nrs": "wylin",
+          "pos": "名/形",
+          "meaningJa": "自由、束縛なき飛翔、自在な"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40499,
+      "speakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "wylintyni",
+      "pos": "名",
+      "meaningJa": "分光調和則、スペクトル階調律、光彩波長律",
+      "meaningEn": "spectral harmony principle, chromatic wavelength law",
+      "morphemes": [
+        "wylin",
+        "tyni"
+      ],
+      "etymology": "wylin(自由) + tyni(銀色の)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo wylintyni to dar.",
+      "example_ja": "私は分光調和則を観測・記録します。",
+      "id": 31981,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-06",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 759,
+          "nrs": "wylin",
+          "pos": "名/形",
+          "meaningJa": "自由、束縛なき飛翔、自在な"
+        },
+        {
+          "id": 825,
+          "nrs": "tyni",
+          "pos": "形",
+          "meaningJa": "銀色の、白銀の、月光の"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40507,
+      "speakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "wylinalin",
+      "pos": "名",
+      "meaningJa": "音色波形彩、音色スペクトル波、音色波動",
+      "meaningEn": "timbre waveform color, acoustic timbre oscillation",
+      "morphemes": [
+        "wylin",
+        "alin"
+      ],
+      "etymology": "wylin(自由) + alin(白い)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo wylinalin to dar.",
+      "example_ja": "私は音色波形彩を観測・記録します。",
+      "id": 31982,
+      "batch": "Batch 93",
+      "scenario_id": "CANON-SOUND-06",
+      "domain": "音響共鳴・星間舞踏",
+      "constituentEntries": [
+        {
+          "id": 759,
+          "nrs": "wylin",
+          "pos": "名/形",
+          "meaningJa": "自由、束縛なき飛翔、自在な"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40515,
+      "speakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymkyrin",
+      "pos": "名",
+      "meaningJa": "金属支柱、鋳鉄鍛造柱、金敷主柱",
+      "meaningEn": "metallic pillar, forged anvil pier, iron support post",
+      "morphemes": [
+        "kym",
+        "kyrin"
+      ],
+      "etymology": "kym(夜) + kyrin(黒い)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo kymkyrin to dar.",
+      "example_ja": "私は金属支柱を観測・記録します。",
+      "id": 31983,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-01",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 791,
+          "nrs": "kyrin",
+          "pos": "形",
+          "meaningJa": "黒い、漆黒の、暗い"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40396,
+      "speakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymtyril",
+      "pos": "名",
+      "meaningJa": "製錬坩堝、鋳造るつぼ殻、耐熱金属容器",
+      "meaningEn": "smelting crucible, metal casting vessel, metallurgical crucible",
+      "morphemes": [
+        "kym",
+        "tyril"
+      ],
+      "etymology": "kym(夜) + tyril(潮汐力)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo kymtyril to dar.",
+      "example_ja": "私は製錬坩堝を観測・記録します。",
+      "id": 31984,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-01",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 53,
+          "nrs": "tyril",
+          "pos": "名",
+          "meaningJa": "潮汐力、引力波、重力波"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40404,
+      "speakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymdolas",
+      "pos": "名",
+      "meaningJa": "冶金相平衡律、合金状態図則、金属製錬規範",
+      "meaningEn": "metallurgical phase rule, alloy equilibrium law",
+      "morphemes": [
+        "kym",
+        "dolas"
+      ],
+      "etymology": "kym(夜) + dolas(鋳型)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kymdolas to dar.",
+      "example_ja": "私は冶金相平衡律を観測・記録します。",
+      "id": 31985,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-01",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 543,
+          "nrs": "dolas",
+          "pos": "名",
+          "meaningJa": "鋳型、鋳型枠、金型"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40412,
+      "speakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymrenan",
+      "pos": "名",
+      "meaningJa": "鉱石母岩盤、金属鉱脈層、含金属岩床",
+      "meaningEn": "metalliferous bedrock, ore-bearing vein stratum",
+      "morphemes": [
+        "kym",
+        "renan"
+      ],
+      "etymology": "kym(夜) + renan(交易)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo kymrenan to dar.",
+      "example_ja": "私は鉱石母岩盤を観測・記録します。",
+      "id": 31986,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-02",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 582,
+          "nrs": "renan",
+          "pos": "名/動",
+          "meaningJa": "交易、貿易、物々交換する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40420,
+      "speakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymtoren",
+      "pos": "名",
+      "meaningJa": "結晶格子間隔比、金属原子間隔、結晶格子の歩長",
+      "meaningEn": "crystal lattice spacing, metallic atomic spacing ratio",
+      "morphemes": [
+        "kym",
+        "toren"
+      ],
+      "etymology": "kym(夜) + toren(来る)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo kymtoren to dar.",
+      "example_ja": "私は結晶格子間隔比を観測・記録します。",
+      "id": 31987,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-02",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40428,
+      "speakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "torkym",
+      "pos": "名",
+      "meaningJa": "金属微結晶体、合金晶析体、金属デンドライト",
+      "meaningEn": "metallic microcrystallite, alloy crystallite, metallic crystal dendrite",
+      "morphemes": [
+        "tor",
+        "kym"
+      ],
+      "etymology": "tor(しかし) + kym(夜)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo torkym to dar.",
+      "example_ja": "私は金属微結晶体を観測・記録します。",
+      "id": 31988,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-02",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40436,
+      "speakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "torkyrin",
+      "pos": "名",
+      "meaningJa": "引張強度限界、金属抗張力、合金耐荷重引力",
+      "meaningEn": "tensile strength limit, metallic tensile tenacity",
+      "morphemes": [
+        "tor",
+        "kyrin"
+      ],
+      "etymology": "tor(しかし) + kyrin(黒い)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo torkyrin to dar.",
+      "example_ja": "私は引張強度限界を観測・記録します。",
+      "id": 31989,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-03",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 791,
+          "nrs": "kyrin",
+          "pos": "形",
+          "meaningJa": "黒い、漆黒の、暗い"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40444,
+      "speakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tortyril",
+      "pos": "名",
+      "meaningJa": "製錬石炭熱、鍛冶還元炭火、冶金燃料炭",
+      "meaningEn": "metallurgical reducing charcoal, smelter coal flame",
+      "morphemes": [
+        "tor",
+        "tyril"
+      ],
+      "etymology": "tor(しかし) + tyril(潮汐力)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo tortyril to dar.",
+      "example_ja": "私は製錬石炭熱を観測・記録します。",
+      "id": 31990,
+      "batch": "Batch 94",
+      "scenario_id": "CANON-FORGE-03",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 53,
+          "nrs": "tyril",
+          "pos": "名",
+          "meaningJa": "潮汐力、引力波、重力波"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40452,
+      "speakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tordolas",
+      "pos": "名",
+      "meaningJa": "鍛造打撃成形、打槌鍛金作業、熱間鍛造打伸",
+      "meaningEn": "forge hammering, hammer-wrought smithing, hot forge shaping",
+      "morphemes": [
+        "tor",
+        "dolas"
+      ],
+      "etymology": "tor(しかし) + dolas(鋳型)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo tordolas to dar.",
+      "example_ja": "私は鍛造打撃成形を観測・記録します。",
+      "id": 31991,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-04",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 543,
+          "nrs": "dolas",
+          "pos": "名",
+          "meaningJa": "鋳型、鋳型枠、金型"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40460,
+      "speakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "torrenan",
+      "pos": "名",
+      "meaningJa": "柱状晶組織、結晶柱状組織、結晶支柱",
+      "meaningEn": "columnar crystal structure, directional crystal pillar",
+      "morphemes": [
+        "tor",
+        "renan"
+      ],
+      "etymology": "tor(しかし) + renan(交易)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo torrenan to dar.",
+      "example_ja": "私は柱状晶組織を観測・記録します。",
+      "id": 31992,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-04",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        },
+        {
+          "id": 582,
+          "nrs": "renan",
+          "pos": "名/動",
+          "meaningJa": "交易、貿易、物々交換する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40468,
+      "speakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klortor",
+      "pos": "名",
+      "meaningJa": "晶出カプセル、微細結晶包有殻、晶析容器",
+      "meaningEn": "crystallite capsule, micro-crystal inclusions cell",
+      "morphemes": [
+        "klor",
+        "tor"
+      ],
+      "etymology": "klor(円) + tor(しかし)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo klortor to dar.",
+      "example_ja": "私は晶出カプセルを観測・記録します。",
+      "id": 31993,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-04",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 929,
+          "nrs": "tor",
+          "pos": "接",
+          "meaningJa": "しかし、されど"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40476,
+      "speakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorterin",
+      "pos": "名",
+      "meaningJa": "晶出母材基盤、結晶析出地床、晶出母相盤",
+      "meaningEn": "crystallite substrate matrix, crystal nucleation bed",
+      "morphemes": [
+        "klor",
+        "terin"
+      ],
+      "etymology": "klor(円) + terin(温かい煎じ茶)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo klorterin to dar.",
+      "example_ja": "私は晶出母材基盤を観測・記録します。",
+      "id": 31994,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-05",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 1003,
+          "nrs": "terin",
+          "pos": "名",
+          "meaningJa": "温かい煎じ茶、薬草茶"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40484,
+      "speakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorkyrin",
+      "pos": "名",
+      "meaningJa": "結晶晶癖律、結晶育成則、単結晶成長公理",
+      "meaningEn": "crystal habit rule, crystal growth governing law",
+      "morphemes": [
+        "klor",
+        "kyrin"
+      ],
+      "etymology": "klor(円) + kyrin(黒い)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo klorkyrin to dar.",
+      "example_ja": "私は結晶晶癖律を観測・記録します。",
+      "id": 31995,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-05",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 791,
+          "nrs": "kyrin",
+          "pos": "形",
+          "meaningJa": "黒い、漆黒の、暗い"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40492,
+      "speakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klortyril",
+      "pos": "名",
+      "meaningJa": "大型鍛造金敷、鍛金支持台、打鎚鍛造基台",
+      "meaningEn": "forging anvil pedestal, smithing support pier, forge block",
+      "morphemes": [
+        "klor",
+        "tyril"
+      ],
+      "etymology": "klor(円) + tyril(潮汐力)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo klortyril to dar.",
+      "example_ja": "私は大型鍛造金敷を観測・記録します。",
+      "id": 31996,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-05",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 53,
+          "nrs": "tyril",
+          "pos": "名",
+          "meaningJa": "潮汐力、引力波、重力波"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40500,
+      "speakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorrenan",
+      "pos": "名",
+      "meaningJa": "鍛造焼入槽、急冷油槽殻、鍛造焼入容器",
+      "meaningEn": "quenching bath vat, hardening quench tank shell",
+      "morphemes": [
+        "klor",
+        "renan"
+      ],
+      "etymology": "klor(円) + renan(交易)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo klorrenan to dar.",
+      "example_ja": "私は鍛造焼入槽を観測・記録します。",
+      "id": 31997,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-06",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 582,
+          "nrs": "renan",
+          "pos": "名/動",
+          "meaningJa": "交易、貿易、物々交換する"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40508,
+      "speakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klortoren",
+      "pos": "名",
+      "meaningJa": "鍛造炉床盤、製鉄炉底耐火盤、鍛冶炉床地盤",
+      "meaningEn": "forge hearth bedplate, smelting hearth refractory floor",
+      "morphemes": [
+        "klor",
+        "toren"
+      ],
+      "etymology": "klor(円) + toren(来る)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo klortoren to dar.",
+      "example_ja": "私は鍛造炉床盤を観測・記録します。",
+      "id": 31998,
+      "batch": "Batch 95",
+      "scenario_id": "CANON-FORGE-06",
+      "domain": "冶金工芸・合金製錬",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40516,
+      "speakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "bionneran",
+      "pos": "名",
+      "meaningJa": "薬効生体滴、生薬チンキ滴、薬用露滴",
+      "meaningEn": "medicinal biocatalyst drop, herbal tincture bead, bioactive droplet",
+      "morphemes": [
+        "bion",
+        "neran"
+      ],
+      "etymology": "bion(飲む) + neran(食べる)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo bionneran to dar.",
+      "example_ja": "私は薬効生体滴を観測・記録します。",
+      "id": 31999,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-01",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        },
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40397,
+      "speakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "biondaron",
+      "pos": "形",
+      "meaningJa": "清浄生薬の、無菌賦活の、純薬効の",
+      "meaningEn": "purely antiseptic, sterile bioactive, cleanly therapeutic",
+      "morphemes": [
+        "bion",
+        "daron"
+      ],
+      "etymology": "bion(飲む) + daron(湖)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Biondaron el dar to miin.",
+      "example_ja": "この清浄生薬の道は私たちに光を与えます。",
+      "id": 32000,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-01",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        },
+        {
+          "id": 339,
+          "nrs": "daron",
+          "pos": "名",
+          "meaningJa": "湖、湖沼、静水面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40405,
+      "speakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "bionalin",
+      "pos": "名",
+      "meaningJa": "生体滋養補給、滋養強壮食薬、薬効滋養摂取",
+      "meaningEn": "bio-trophic replenishment, therapeutic nutritional supplement",
+      "morphemes": [
+        "bion",
+        "alin"
+      ],
+      "etymology": "bion(飲む) + alin(白い)",
+      "category": "2. 人・身体・生命",
+      "example_sentence": "Vyreler el mi uo bionalin to dar.",
+      "example_ja": "私は生体滋養補給を観測・記録します。",
+      "id": 32001,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-01",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40413,
+      "speakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "bionterin",
+      "pos": "名",
+      "meaningJa": "生体恒常性律、ホメオスタシス則、生命調和律",
+      "meaningEn": "homeostatic biological law, physiological balance rule",
+      "morphemes": [
+        "bion",
+        "terin"
+      ],
+      "etymology": "bion(飲む) + terin(温かい煎じ茶)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo bionterin to dar.",
+      "example_ja": "私は生体恒常性律を観測・記録します。",
+      "id": 32002,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-02",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        },
+        {
+          "id": 1003,
+          "nrs": "terin",
+          "pos": "名",
+          "meaningJa": "温かい煎じ茶、薬草茶"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40421,
+      "speakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "biontoren",
+      "pos": "名",
+      "meaningJa": "生薬自生土壌、薬草成育地盤、生体植物地床",
+      "meaningEn": "medicinal plant native soil, therapeutic botanical bedrock",
+      "morphemes": [
+        "bion",
+        "toren"
+      ],
+      "etymology": "bion(飲む) + toren(来る)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo biontoren to dar.",
+      "example_ja": "私は生薬自生土壌を観測・記録します。",
+      "id": 32003,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-02",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        },
+        {
+          "id": 930,
+          "nrs": "toren",
+          "pos": "動",
+          "meaningJa": "来る、訪れる、届く、降る"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40429,
+      "speakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "bionelner",
+      "pos": "名",
+      "meaningJa": "生薬浸出煎液、薬草煎じ薬液、生体抽出浸液",
+      "meaningEn": "herbal decoction fluid, medicinal infusion extract",
+      "morphemes": [
+        "bionel",
+        "ner"
+      ],
+      "etymology": "bionel(杯) + ner(滋養)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo bionelner to dar.",
+      "example_ja": "私は生薬浸出煎液を観測・記録します。",
+      "id": 32004,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-02",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 962,
+          "nrs": "bionel",
+          "pos": "名",
+          "meaningJa": "杯、酒杯、グラス、器"
+        },
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40437,
+      "speakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "neranbion",
+      "pos": "名",
+      "meaningJa": "生薬点眼滴、薬効精油滴、抽出エリクサー滴",
+      "meaningEn": "herbal eye-drop bead, concentrated elixir drop",
+      "morphemes": [
+        "neran",
+        "bion"
+      ],
+      "etymology": "neran(食べる) + bion(飲む)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo neranbion to dar.",
+      "example_ja": "私は生薬点眼滴を観測・記録します。",
+      "id": 32005,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-03",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40445,
+      "speakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "neranalin",
+      "pos": "形",
+      "meaningJa": "精製生薬の、清澄薬効成分の、高純度エキスの",
+      "meaningEn": "purified pharmaceutical, clarified bioactive, high-purity extract",
+      "morphemes": [
+        "neran",
+        "alin"
+      ],
+      "etymology": "neran(食べる) + alin(白い)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Neranalin el dar to miin.",
+      "example_ja": "この精製生薬の道は私たちに光を与えます。",
+      "id": 32006,
+      "batch": "Batch 96",
+      "scenario_id": "CANON-MED-03",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40453,
+      "speakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "neranner",
+      "pos": "名",
+      "meaningJa": "軟膏丸薬壺、生薬カプセル殻、薬包密閉壺",
+      "meaningEn": "ointment balm jar, pharmaceutical capsule shell, pill vial",
+      "morphemes": [
+        "neran",
+        "ner"
+      ],
+      "etymology": "neran(食べる) + ner(滋養)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo neranner to dar.",
+      "example_ja": "私は軟膏丸薬壺を観測・記録します。",
+      "id": 32007,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-04",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう"
+        },
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40461,
+      "speakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "daronbion",
+      "pos": "名",
+      "meaningJa": "薬効滋養食、薬膳滋養処方、生薬栄養配合",
+      "meaningEn": "medicinal tonic food, pharmacotherapeutic diet regimen",
+      "morphemes": [
+        "daron",
+        "bion"
+      ],
+      "etymology": "daron(湖) + bion(飲む)",
+      "category": "2. 人・身体・生命",
+      "example_sentence": "Vyreler el mi uo daronbion to dar.",
+      "example_ja": "私は薬効滋養食を観測・記録します。",
+      "id": 32008,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-04",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 339,
+          "nrs": "daron",
+          "pos": "名",
+          "meaningJa": "湖、湖沼、静水面"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40469,
+      "speakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darisbion",
+      "pos": "名",
+      "meaningJa": "生薬薬理調剤律、薬効用量規範、処方用量律",
+      "meaningEn": "pharmacological dosage law, pharmacopoeia compounding rule",
+      "morphemes": [
+        "daris",
+        "bion"
+      ],
+      "etymology": "daris(水) + bion(飲む)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo darisbion to dar.",
+      "example_ja": "私は生薬薬理調剤律を観測・記録します。",
+      "id": 32009,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-04",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 332,
+          "nrs": "daris",
+          "pos": "名",
+          "meaningJa": "水、清流、淡水"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40477,
+      "speakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darisalin",
+      "pos": "名",
+      "meaningJa": "生薬自生床、薬用植物培地層、生薬群落基盤",
+      "meaningEn": "botanical herbarium bed, medicinal vegetative stratum",
+      "morphemes": [
+        "daris",
+        "alin"
+      ],
+      "etymology": "daris(水) + alin(白い)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo darisalin to dar.",
+      "example_ja": "私は生薬自生床を観測・記録します。",
+      "id": 32010,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-05",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 332,
+          "nrs": "daris",
+          "pos": "名",
+          "meaningJa": "水、清流、淡水"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40485,
+      "speakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darisner",
+      "pos": "名",
+      "meaningJa": "滅菌蒸留水滴、清浄点眼水滴、洗眼清澄滴",
+      "meaningEn": "sterile distilled droplet, clarified ophthalmic bead, sterile wash drop",
+      "morphemes": [
+        "daris",
+        "ner"
+      ],
+      "etymology": "daris(水) + ner(滋養)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo darisner to dar.",
+      "example_ja": "私は滅菌蒸留水滴を観測・記録します。",
+      "id": 32011,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-05",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 332,
+          "nrs": "daris",
+          "pos": "名",
+          "meaningJa": "水、清流、淡水"
+        },
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40493,
+      "speakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alinbion",
+      "pos": "名",
+      "meaningJa": "清浄無菌床盤、無菌室床盤、清浄基盤面",
+      "meaningEn": "aseptic clean-room flooring, sterile foundation bedplate",
+      "morphemes": [
+        "alin",
+        "bion"
+      ],
+      "etymology": "alin(白い) + bion(飲む)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo alinbion to dar.",
+      "example_ja": "私は清浄無菌床盤を観測・記録します。",
+      "id": 32012,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-05",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40501,
+      "speakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alinneran",
+      "pos": "名",
+      "meaningJa": "体液電解質調和律、浸透圧平衡則、体液恒常律",
+      "meaningEn": "fluid electrolyte harmony law, osmotic equilibrium rule",
+      "morphemes": [
+        "alin",
+        "neran"
+      ],
+      "etymology": "alin(白い) + neran(食べる)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo alinneran to dar.",
+      "example_ja": "私は体液電解質調和律を観測・記録します。",
+      "id": 32013,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-06",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40509,
+      "speakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alindaron",
+      "pos": "名",
+      "meaningJa": "微量点滴投薬律、点滴速度規範、点滴投与量律",
+      "meaningEn": "micro-infusion dosage rule, intravenous drip rate law",
+      "morphemes": [
+        "alin",
+        "daron"
+      ],
+      "etymology": "alin(白い) + daron(湖)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo alindaron to dar.",
+      "example_ja": "私は微量点滴投薬律を観測・記録します。",
+      "id": 32014,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-MED-06",
+      "domain": "生薬調剤・生体治癒",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 339,
+          "nrs": "daron",
+          "pos": "名",
+          "meaningJa": "湖、湖沼、静水面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40517,
+      "speakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "falosvyri",
+      "pos": "名",
+      "meaningJa": "天文分光軌道線、星辰分光航路、分光観測測線",
+      "meaningEn": "astronomical spectral trajectory line",
+      "morphemes": [
+        "falos",
+        "vyri"
+      ],
+      "etymology": "falos(分光) + vyri(星辰の)",
+      "category": "5. 抽象・概念・科学",
+      "example_sentence": "Vyreler el mi uo falosvyri to dar.",
+      "example_ja": "私は天文分光軌道線を観測・記録します。",
+      "id": 32015,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-SPEC-01",
+      "domain": "専門工学・特殊対話",
+      "constituentEntries": [
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯"
+        },
+        {
+          "id": 67,
+          "nrs": "vyri",
+          "pos": "形",
+          "meaningJa": "星辰の、恒星系の、高貴な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40027,
+      "speakers": [
+        "Astron",
+        "Stellor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "falosdar",
+      "pos": "名",
+      "meaningJa": "人工衛星カプセル、軌道観測球殻器、星辰探査衛星殻",
+      "meaningEn": "artificial satellite capsule, orbital observatory hull",
+      "morphemes": [
+        "falos",
+        "dar"
+      ],
+      "etymology": "falos(分光) + dar(しずく)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo falosdar to dar.",
+      "example_ja": "私は人工衛星カプセルを観測・記録します。",
+      "id": 32016,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-SPEC-01",
+      "domain": "専門工学・特殊対話",
+      "constituentEntries": [
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40028,
+      "speakers": [
+        "Astron",
+        "Stellor"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "falosvel",
+      "pos": "形",
+      "meaningJa": "精緻切削石工の、整美な切石の、美形組石の",
+      "meaningEn": "finely dressed stonework, polished basalt ashlar",
+      "morphemes": [
+        "falos",
+        "vel"
+      ],
+      "etymology": "falos(分光) + vel(木)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Falosvel el dar to miin.",
+      "example_ja": "この精緻切削石工の道は私たちに光を与えます。",
+      "id": 32017,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-SPEC-02",
+      "domain": "専門工学・特殊対話",
+      "constituentEntries": [
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40029,
+      "speakers": [
+        "Kamas",
+        "Lithos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "falosalin",
+      "pos": "名",
+      "meaningJa": "玄武岩柱頭、石工アーチ力学柱、切石組積主柱",
+      "meaningEn": "basalt column pier, masonry arch load-bearing column",
+      "morphemes": [
+        "falos",
+        "alin"
+      ],
+      "etymology": "falos(分光) + alin(白い)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Vyreler el mi uo falosalin to dar.",
+      "example_ja": "私は玄武岩柱頭を観測・記録します。",
+      "id": 32018,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-SPEC-02",
+      "domain": "専門工学・特殊対話",
+      "constituentEntries": [
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40030,
+      "speakers": [
+        "Kamas",
+        "Lithos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "falosvyr",
+      "pos": "名",
+      "meaningJa": "深海潮流動態、海洋潮流脈流、海流大循環脈",
+      "meaningEn": "deep ocean current dynamics, marine tidal current surge",
+      "morphemes": [
+        "falos",
+        "vyr"
+      ],
+      "etymology": "falos(分光) + vyr(星)",
+      "category": "1. 自然・宇宙・地理",
+      "example_sentence": "Vyreler el mi uo falosvyr to dar.",
+      "example_ja": "私は深海潮流動態を観測・記録します。",
+      "id": 32019,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-SPEC-03",
+      "domain": "専門工学・特殊対話",
+      "constituentEntries": [
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯"
+        },
+        {
+          "id": 62,
+          "nrs": "vyr",
+          "pos": "名",
+          "meaningJa": "星、天体、光点"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40031,
+      "speakers": [
+        "Nautis",
+        "Pelagos"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "vyritalyr",
+      "pos": "名",
+      "meaningJa": "潮流巡航艇、海流航行艇、定時航路艇",
+      "meaningEn": "tidal current cruise vessel, scheduled waterway craft",
+      "morphemes": [
+        "vyri",
+        "talyr"
+      ],
+      "etymology": "vyri(星辰の) + talyr(石)",
+      "category": "7. 交通・時間・航行",
+      "example_sentence": "Vyreler el mi uo vyritalyr to dar.",
+      "example_ja": "私は潮流巡航艇を観測・記録します。",
+      "id": 32020,
+      "batch": "Batch 97",
+      "scenario_id": "CANON-SPEC-03",
+      "domain": "専門工学・特殊対話",
+      "constituentEntries": [
+        {
+          "id": 67,
+          "nrs": "vyri",
+          "pos": "形",
+          "meaningJa": "星辰の、恒星系の、高貴な"
+        },
+        {
+          "id": 285,
+          "nrs": "talyr",
+          "pos": "名",
+          "meaningJa": "石、岩、鉱石、結晶"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40032,
+      "speakers": [
+        "Nautis",
+        "Pelagos"
       ],
       "auditFlags": []
     }
