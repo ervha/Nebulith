@@ -1,0 +1,2842 @@
+[
+  {
+    "scenario_id": "CANON-CONV-81",
+    "batch": "Batch 21",
+    "domain": "天文・極光と彩雲・天頂の輝き",
+    "title": "北天の極光と白雲の天蓋",
+    "communicative_need": "北天に揺れる星色の極光、白く輝く高層の雲、澄み渡る天頂の輝きを観測記録に残す。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "観測日誌を記す写字生"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "天頂鏡を合わせる灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia vyrcelar ul alincelis uo celen. Relen el vyrnovar uo celen.",
+        "japanese": "私は空の下で星彩の極光と白銀の彩雲を見渡す。空の下で星辰の天頂がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Soran el miin ia vyrcelar ul alincelis. Falun el vyrnovar al miin.",
+        "japanese": "私たちは星彩の極光と白銀の彩雲を記録する。私たちに星辰の天頂が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrcelar",
+        "pos": "名",
+        "meaningJa": "星彩の極光、星明かりのオーロラ、天の極光帯",
+        "meaningEn": "starlit aurora, astral polar light, shimmering sky curtain",
+        "morphemes": [
+          "vyr",
+          "celar"
+        ],
+        "etymology": "vyr(星) + celar(極光)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia vyrcelar ul alincelis uo celen.",
+        "example_ja": "私は空の下で星彩の極光と白銀の彩雲を見渡す。"
+      },
+      {
+        "nrs": "alincelis",
+        "pos": "名",
+        "meaningJa": "白銀の彩雲、純白の高層雲、白雲の帯",
+        "meaningEn": "pure white cloud, silvery cirrus, luminous cloudbank",
+        "morphemes": [
+          "alin",
+          "celis"
+        ],
+        "etymology": "alin(白い) + celis(雲)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia vyrcelar ul alincelis uo celen.",
+        "example_ja": "私は空の下で星彩の極光と白銀の彩雲を見渡す。"
+      },
+      {
+        "nrs": "vyrnovar",
+        "pos": "名",
+        "meaningJa": "星辰の天頂、星が集う天頂点、天頂の星座",
+        "meaningEn": "astral zenith, starlit celestial crown, zenithal star point",
+        "morphemes": [
+          "vyr",
+          "novar"
+        ],
+        "etymology": "vyr(星) + novar(天頂)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Relen el vyrnovar uo celen.",
+        "example_ja": "空の下で星辰の天頂がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-82",
+    "batch": "Batch 21",
+    "domain": "天文・日食の影と天底の静寂",
+    "title": "金環の食と天底の星座",
+    "communicative_need": "太陽と月が重なる環食、大地の下に巡る天底、海に映る星座の姿を語り合う。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "日食盤を読む灯守"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "水面の星影を見る舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el mi ia klorkymos ul taltulos uo daron. Relen el darvyrom uo daron.",
+        "japanese": "私は湖の上で金環食と大地の天底を観測する。湖の上で水鏡の星座がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Cynel el miin ia klorkymos ul taltulos. Falun el darvyrom al miin.",
+        "japanese": "私たちは金環食と大地の天底を敬愛する。私たちに水鏡の星座が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klorkymos",
+        "pos": "名",
+        "meaningJa": "金環食、環状の日食、円環の食影",
+        "meaningEn": "annular eclipse, ring eclipse, coronal shadow ring",
+        "morphemes": [
+          "klor",
+          "kymos"
+        ],
+        "etymology": "klor(円) + kymos(日食)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia klorkymos ul taltulos uo daron.",
+        "example_ja": "私は湖の上で金環食と大地の天底を観測する。"
+      },
+      {
+        "nrs": "taltulos",
+        "pos": "名",
+        "meaningJa": "大地の天底、地底側の天球点、深き天底",
+        "meaningEn": "terrestrial nadir, subterranean sky pole, deep nadir point",
+        "morphemes": [
+          "tal",
+          "tulos"
+        ],
+        "etymology": "tal(大地) + tulos(天底)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia klorkymos ul taltulos uo daron.",
+        "example_ja": "私は湖の上で金環食と大地の天底を観測する。"
+      },
+      {
+        "nrs": "darvyrom",
+        "pos": "名",
+        "meaningJa": "水鏡の星座、水面に映る星座、湖面の星宿",
+        "meaningEn": "water-reflected constellation, mirrored star pattern, aquatic asterism",
+        "morphemes": [
+          "dar",
+          "vyrom"
+        ],
+        "etymology": "dar(しずく) + vyrom(星座)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Relen el darvyrom uo daron.",
+        "example_ja": "湖の上で水鏡の星座がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-83",
+    "batch": "Batch 21",
+    "domain": "天文・惑星の公転と天体脈動",
+    "title": "水の惑星と銀の公転周期",
+    "communicative_need": "水を湛える惑星、円環を描く公転周期、星々の規則正しい脈動を数理盤で確かめる。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "公転表を引く写字生"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "季節の移ろいを読む採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia dardoran ul klorvoris uo livar. Relen el vyrvalur uo livar.",
+        "japanese": "私は星辰書庫で水の惑星と円環公転を照合する。星辰書庫で恒星脈動がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Soran el miin ia dardoran ul klorvoris. Falun el vyrvalur al miin.",
+        "japanese": "私たちは水の惑星と円環公転を書き留める。私たちに恒星脈動が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "dardoran",
+        "pos": "名",
+        "meaningJa": "水の惑星、海洋を湛える遊星、蒼き水惑星",
+        "meaningEn": "water planet, oceanic world, aquatic celestial body",
+        "morphemes": [
+          "dar",
+          "doran"
+        ],
+        "etymology": "dar(しずく) + doran(惑星)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia dardoran ul klorvoris uo livar.",
+        "example_ja": "私は星辰書庫で水の惑星と円環公転を照合する。"
+      },
+      {
+        "nrs": "klorvoris",
+        "pos": "名",
+        "meaningJa": "円環公転、正円の公転周期、環状の巡り",
+        "meaningEn": "circular revolution, ring orbital cycle, concentric planetary period",
+        "morphemes": [
+          "klor",
+          "voris"
+        ],
+        "etymology": "klor(円) + voris(公転)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia dardoran ul klorvoris uo livar.",
+        "example_ja": "私は星辰書庫で水の惑星と円環公転を照合する。"
+      },
+      {
+        "nrs": "vyrvalur",
+        "pos": "名",
+        "meaningJa": "恒星脈動、星の鼓動周期、天体の明滅律",
+        "meaningEn": "stellar pulsation, starlight heartbeat, astral rhythmic oscillation",
+        "morphemes": [
+          "vyr",
+          "valur"
+        ],
+        "etymology": "vyr(星) + valur(天体脈動)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Relen el vyrvalur uo livar.",
+        "example_ja": "星辰書庫で恒星脈動がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-84",
+    "batch": "Batch 21",
+    "domain": "天文・潮汐力と軌道の引力",
+    "title": "海の潮汐と月軌道の調べ",
+    "communicative_need": "水を動かす潮汐の力、大地が保つ安定した引力、銀色に輝く軌道半径を計算する。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "潮位を測る舟守"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "軌道儀を回す灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vymin el mi ia dartyril ul taltyral uo larar. Relen el tyniradin uo larar.",
+        "japanese": "私は港の観測所で水辺の潮汐力と大地の引力を計測する。港の観測所で白銀の軌道半径がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Soran el miin ia dartyril ul taltyral. Falun el tyniradin al miin.",
+        "japanese": "私たちは水辺の潮汐力と大地の引力を記録する。私たちに白銀の軌道半径が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "dartyril",
+        "pos": "名",
+        "meaningJa": "水辺の潮汐力、海水を引く潮汐、満ち引きの力",
+        "meaningEn": "aquatic tidal force, water-pulling tide, coastal tidal attraction",
+        "morphemes": [
+          "dar",
+          "tyril"
+        ],
+        "etymology": "dar(しずく) + tyril(潮汐力)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vymin el mi ia dartyril ul taltyral uo larar.",
+        "example_ja": "私は港の観測所で水辺の潮汐力と大地の引力を計測する。"
+      },
+      {
+        "nrs": "taltyral",
+        "pos": "名",
+        "meaningJa": "大地の引力、地表の重力場、盤石の引力",
+        "meaningEn": "terrestrial gravity, earthbound attraction, planetary gravitational pull",
+        "morphemes": [
+          "tal",
+          "tyral"
+        ],
+        "etymology": "tal(大地) + tyral(引力)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vymin el mi ia dartyril ul taltyral uo larar.",
+        "example_ja": "私は港の観測所で水辺の潮汐力と大地の引力を計測する。"
+      },
+      {
+        "nrs": "tyniradin",
+        "pos": "名",
+        "meaningJa": "白銀の軌道半径、外周の軌道距離、銀環の半径",
+        "meaningEn": "silver orbital radius, outer ring radius, argent orbital distance",
+        "morphemes": [
+          "tyni",
+          "radin"
+        ],
+        "etymology": "tyni(銀色の) + radin(軌道半径)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Relen el tyniradin uo larar.",
+        "example_ja": "港の観測所で白銀の軌道半径がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-85",
+    "batch": "Batch 22",
+    "domain": "航海・大海の波と季節風の便り",
+    "title": "星映す大海と森を渡る季節風",
+    "communicative_need": "星明かりを映す夜の海、森を揺らす季節風、地平線に浮かぶ暁の光を舟上から見守る。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "舵を握る舟守"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "風向きを読む採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vyrel el mi ia vyrzylar ul velwylor uo daron. Relen el vyrzemin uo daron.",
+        "japanese": "私は水路の上で星映す大海と樹海の季節風を見渡す。水路の上で星際の地平線がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Cynel el miin ia vyrzylar ul velwylor. Falun el vyrzemin al miin.",
+        "japanese": "私たちは星映す大海と樹海の季節風を愛する。私たちに星際の地平線が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrzylar",
+        "pos": "名",
+        "meaningJa": "星映す大海、星明かりの海原、夜の蒼海",
+        "meaningEn": "starlit sea, astral ocean expanse, star-mirroring waters",
+        "morphemes": [
+          "vyr",
+          "zylar"
+        ],
+        "etymology": "vyr(星) + zylar(海)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia vyrzylar ul velwylor uo daron.",
+        "example_ja": "私は水路の上で星映す大海と樹海の季節風を見渡す。"
+      },
+      {
+        "nrs": "velwylor",
+        "pos": "名",
+        "meaningJa": "樹海の季節風、森を渡る順風、緑の季節風",
+        "meaningEn": "woodland monsoon, forest trade wind, sylvan seasonal breeze",
+        "morphemes": [
+          "vel",
+          "wylor"
+        ],
+        "etymology": "vel(木) + wylor(季節風)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia vyrzylar ul velwylor uo daron.",
+        "example_ja": "私は水路の上で星映す大海と樹海の季節風を見渡す。"
+      },
+      {
+        "nrs": "vyrzemin",
+        "pos": "名",
+        "meaningJa": "星際の地平線、星が昇る水平線、天と地の稜線",
+        "meaningEn": "starlit horizon, astral skyline, celestial horizon rim",
+        "morphemes": [
+          "vyr",
+          "zemin"
+        ],
+        "etymology": "vyr(星) + zemin(地平線)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Relen el vyrzemin uo daron.",
+        "example_ja": "水路の上で星際の地平線がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-86",
+    "batch": "Batch 22",
+    "domain": "自然・氷結晶と鍾乳の洞窟",
+    "title": "白銀の氷柱と水滴の洞窟",
+    "communicative_need": "純白の氷の結晶、しずくが響く石灰の洞窟、緑の草原が広がる平原を探索する。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "鉱泉を探す採集師"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "地下川を案内する舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vyrel el mi ia alinkyras ul darvuron uo talom. Relen el dartalom uo talom.",
+        "japanese": "私は平原のほとりで純白の氷晶と水滴の鍾乳洞を観察する。平原のほとりで潤いの平原がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Vymin el miin ia alinkyras ul darvuron. Falun el dartalom al miin.",
+        "japanese": "私たちは純白の氷晶と水滴の鍾乳洞を保全する。私たちに潤いの平原が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinkyras",
+        "pos": "名",
+        "meaningJa": "純白の氷晶、白銀の氷塊、澄んだ白氷",
+        "meaningEn": "pure white ice, clear frost crystal, alabaster glacier ice",
+        "morphemes": [
+          "alin",
+          "kyras"
+        ],
+        "etymology": "alin(白い) + kyras(氷)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia alinkyras ul darvuron uo talom.",
+        "example_ja": "私は平原のほとりで純白の氷晶と水滴の鍾乳洞を観察する。"
+      },
+      {
+        "nrs": "darvuron",
+        "pos": "名",
+        "meaningJa": "水滴の鍾乳洞、湧き水の洞窟、しずくの石窟",
+        "meaningEn": "water cavern, dripping limestone grotto, underground spring cave",
+        "morphemes": [
+          "dar",
+          "vuron"
+        ],
+        "etymology": "dar(しずく) + vuron(洞窟)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia alinkyras ul darvuron uo talom.",
+        "example_ja": "私は平原のほとりで純白の氷晶と水滴の鍾乳洞を観察する。"
+      },
+      {
+        "nrs": "dartalom",
+        "pos": "名",
+        "meaningJa": "潤いの平原、水脈豊かな沃野、水辺の草原",
+        "meaningEn": "watered plain, fertile meadowland, alluvial grassland",
+        "morphemes": [
+          "dar",
+          "talom"
+        ],
+        "etymology": "dar(しずく) + talom(平原)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Relen el dartalom uo talom.",
+        "example_ja": "平原のほとりで潤いの平原がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-87",
+    "batch": "Batch 22",
+    "domain": "自然・翠の森と白い山嶺・環状の島",
+    "title": "白峰の雪と環礁の島影",
+    "communicative_need": "白い雪を頂く山嶺、円環を描く湖中の島、大地の深い森の生態系を見守る。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "山麓を歩く採集師"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "地形図を描く写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vyrel el mi ia alinnovan ul klortalon uo velom. Relen el talvelom uo velom.",
+        "japanese": "私は森の中で白雪の霊峰と環礁の島を見上げる。森の中で大地の原生林がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Soran el miin ia alinnovan ul klortalon. Falun el talvelom al miin.",
+        "japanese": "私たちは白雪の霊峰と環礁の島を図録に記す。私たちに大地の原生林が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinnovan",
+        "pos": "名",
+        "meaningJa": "白雪の霊峰、白い山嶺、純白の頂き",
+        "meaningEn": "snow-capped mountain, white peak, alabaster summit",
+        "morphemes": [
+          "alin",
+          "novan"
+        ],
+        "etymology": "alin(白い) + novan(山)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia alinnovan ul klortalon uo velom.",
+        "example_ja": "私は森の中で白雪の霊峰と環礁の島を見上げる。"
+      },
+      {
+        "nrs": "klortalon",
+        "pos": "名",
+        "meaningJa": "環礁の島、円環状の浮島、輪の島影",
+        "meaningEn": "atoll island, circular isle, ring-shaped island",
+        "morphemes": [
+          "klor",
+          "talon"
+        ],
+        "etymology": "klor(円) + talon(島)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia alinnovan ul klortalon uo velom.",
+        "example_ja": "私は森の中で白雪の霊峰と環礁の島を見上げる。"
+      },
+      {
+        "nrs": "talvelom",
+        "pos": "名",
+        "meaningJa": "大地の原生林、深い樹海、内陸の大森林",
+        "meaningEn": "inland primeval forest, terrestrial woodland, deep earthen timberland",
+        "morphemes": [
+          "tal",
+          "velom"
+        ],
+        "etymology": "tal(大地) + velom(森)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Relen el talvelom uo velom.",
+        "example_ja": "森の中で大地の原生林がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-88",
+    "batch": "Batch 22",
+    "domain": "自然・水鳥の巣と森の生き物",
+    "title": "水辺の営巣と樹林の獣たち",
+    "communicative_need": "水辺の葦原に作られた鳥の巣、森に暮らす穏やかな動物、木の枝の巣箱をそっと観察する。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "野鳥を見守る採集師"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "巣箱を修繕する灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vyrel el mi ia darlyka ul velferas uo velar. Relen el vellyka uo velar.",
+        "japanese": "私は庭の木陰で水辺の営巣と森林の生き物を静かに見守る。庭の木陰で樹上の巣がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Vymin el miin ia darlyka ul velferas. Falun el vellyka al miin.",
+        "japanese": "私たちは水辺の営巣と森林の生き物を保護する。私たちに樹上の巣が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darlyka",
+        "pos": "名",
+        "meaningJa": "水辺の営巣、水鳥の浮き巣、葦原の巣",
+        "meaningEn": "waterside nest, waterfowl reed nest, floating avian cradle",
+        "morphemes": [
+          "dar",
+          "lyka"
+        ],
+        "etymology": "dar(しずく) + lyka(巣)",
+        "category": "5. 生物・生態・環境",
+        "example_sentence": "Vyrel el mi ia darlyka ul velferas uo velar.",
+        "example_ja": "私は庭の木陰で水辺の営巣と森林の生き物を静かに見守る。"
+      },
+      {
+        "nrs": "velferas",
+        "pos": "名",
+        "meaningJa": "森林の生き物、樹林の獣、森の動物たち",
+        "meaningEn": "forest animal, woodland creature, sylvan fauna",
+        "morphemes": [
+          "vel",
+          "feras"
+        ],
+        "etymology": "vel(木) + feras(動物)",
+        "category": "5. 生物・生態・環境",
+        "example_sentence": "Vyrel el mi ia darlyka ul velferas uo velar.",
+        "example_ja": "私は庭の木陰で水辺の営巣と森林の生き物を静かに見守る。"
+      },
+      {
+        "nrs": "vellyka",
+        "pos": "名",
+        "meaningJa": "樹上の巣、枝間の鳥の巣、木立の巣箱",
+        "meaningEn": "treetop nest, arboreal bird nest, branch cradle",
+        "morphemes": [
+          "vel",
+          "lyka"
+        ],
+        "etymology": "vel(木) + lyka(巣)",
+        "category": "5. 生物・生態・環境",
+        "example_sentence": "Relen el vellyka uo velar.",
+        "example_ja": "庭の木陰で樹上の巣がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-89",
+    "batch": "Batch 23",
+    "domain": "工芸・銀の鋳型と大地の石材",
+    "title": "工房の鋳型と白銀の金属器",
+    "communicative_need": "精密な円形の鋳型、星光を宿す合金、樹紋を刻んだ庭石を工房で仕上げる。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "炉を守る灯守"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "石材を運ぶ舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vymin el mi ia klordolas ul vyrtalur uo vorn. Relen el veltalyr uo vorn.",
+        "japanese": "私は工房の部屋で円環の鋳型と星紋の合金を鍛え上げる。工房の部屋で木目石がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Vyrel el miin ia klordolas ul vyrtalur. Falun el veltalyr al miin.",
+        "japanese": "私たちは円環の鋳型と星紋の合金を点検する。私たちに木目石が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klordolas",
+        "pos": "名",
+        "meaningJa": "円環の鋳型、輪形の鋳造枠、精密な丸鋳型",
+        "meaningEn": "circular casting mold, ring foundry die, round metalworking matrix",
+        "morphemes": [
+          "klor",
+          "dolas"
+        ],
+        "etymology": "klor(円) + dolas(鋳型)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Vymin el mi ia klordolas ul vyrtalur uo vorn.",
+        "example_ja": "私は工房の部屋で円環の鋳型と星紋の合金を鍛え上げる。"
+      },
+      {
+        "nrs": "vyrtalur",
+        "pos": "名",
+        "meaningJa": "星紋の合金、星光を映す金属、天鉄の地金",
+        "meaningEn": "star-forged alloy, astral metal, luminous metallurgical ingot",
+        "morphemes": [
+          "vyr",
+          "talur"
+        ],
+        "etymology": "vyr(星) + talur(金属)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Vymin el mi ia klordolas ul vyrtalur uo vorn.",
+        "example_ja": "私は工房の部屋で円環の鋳型と星紋の合金を鍛え上げる。"
+      },
+      {
+        "nrs": "veltalyr",
+        "pos": "名",
+        "meaningJa": "木目石、樹紋の庭石、珪化木の石材",
+        "meaningEn": "wood-grained stone, petrified timber rock, arboreal patterned slate",
+        "morphemes": [
+          "vel",
+          "talyr"
+        ],
+        "etymology": "vel(木) + talyr(石)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Relen el veltalyr uo vorn.",
+        "example_ja": "工房の部屋で木目石がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-90",
+    "batch": "Batch 23",
+    "domain": "工芸・彫刻の小刀と書き手の筆",
+    "title": "白銀の筆と木彫りの小刀",
+    "communicative_need": "滑らかに書ける白軸の筆、薬草や木片を削る小刀、道具を収める収納箱を整える。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "筆を整える写字生"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "採取小刀を研ぐ採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vymin el mi ia alinkirel ul darserel uo vorn. Relen el havkypal uo vorn.",
+        "japanese": "私は作業部屋で白軸の細筆と水研ぎの小刀を手入れする。作業部屋で歳月の収納箱がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Cynel el miin ia alinkirel ul darserel. Falun el havkypal al miin.",
+        "japanese": "私たちは白軸の細筆と水研ぎの小刀を大切にする。私たちに歳月の収納箱が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinkirel",
+        "pos": "名",
+        "meaningJa": "白軸の細筆、純白の写字筆、白羽のペン",
+        "meaningEn": "white-shafted pen, ivory calligraphy brush, pure quill",
+        "morphemes": [
+          "alin",
+          "kirel"
+        ],
+        "etymology": "alin(白い) + kirel(筆)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Vymin el mi ia alinkirel ul darserel uo vorn.",
+        "example_ja": "私は作業部屋で白軸の細筆と水研ぎの小刀を手入れする。"
+      },
+      {
+        "nrs": "darserel",
+        "pos": "名",
+        "meaningJa": "水研ぎの小刀、澄んだ刃のナイフ、細工用の小刀",
+        "meaningEn": "water-honed knife, fine carving blade, polished utility lancet",
+        "morphemes": [
+          "dar",
+          "serel"
+        ],
+        "etymology": "dar(しずく) + serel(小刀)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Vymin el mi ia alinkirel ul darserel uo vorn.",
+        "example_ja": "私は作業部屋で白軸の細筆と水研ぎの小刀を手入れする。"
+      },
+      {
+        "nrs": "havkypal",
+        "pos": "名",
+        "meaningJa": "歳月の収納箱、年代物の保管箱、時の手文庫",
+        "meaningEn": "time-seasoned chest, heirloom storage box, chronicle coffer",
+        "morphemes": [
+          "hav",
+          "kypal"
+        ],
+        "etymology": "hav(時) + kypal(箱)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Relen el havkypal uo vorn.",
+        "example_ja": "作業部屋で歳月の収納箱がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-91",
+    "batch": "Batch 23",
+    "domain": "住空間・休息の寝床と肘掛け椅子",
+    "title": "白布の寝台と円卓の椅子",
+    "communicative_need": "清潔な白布の寝床、円卓を囲む椅子、読書のための肘掛け椅子を客間にしつらえる。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "客間を整える灯守"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "書見台を置く写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vymin el mi ia alinkymel ul klortasel uo govan. Relen el veltasor uo govan.",
+        "japanese": "私は家の中で白布の寝床と円卓の椅子を整える。家の中で木製の肘掛け椅子がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Cynel el miin ia alinkymel ul klortasel. Falun el veltasor al miin.",
+        "japanese": "私たちは白布の寝床と円卓の椅子を好む。私たちに木製の肘掛け椅子が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinkymel",
+        "pos": "名",
+        "meaningJa": "白布の寝床、清潔な白い寝台、安眠の白ベッド",
+        "meaningEn": "white-linened bed, clean resting couch, pure slumber berth",
+        "morphemes": [
+          "alin",
+          "kymel"
+        ],
+        "etymology": "alin(白い) + kymel(寝床)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Vymin el mi ia alinkymel ul klortasel uo govan.",
+        "example_ja": "私は家の中で白布の寝床と円卓の椅子を整える。"
+      },
+      {
+        "nrs": "klortasel",
+        "pos": "名",
+        "meaningJa": "円卓の椅子、輪座の腰掛け、車座の木椅子",
+        "meaningEn": "roundtable chair, circle-seating stool, council seat",
+        "morphemes": [
+          "klor",
+          "tasel"
+        ],
+        "etymology": "klor(円) + tasel(椅子)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Vymin el mi ia alinkymel ul klortasel uo govan.",
+        "example_ja": "私は家の中で白布の寝床と円卓の椅子を整える。"
+      },
+      {
+        "nrs": "veltasor",
+        "pos": "名",
+        "meaningJa": "木製の肘掛け椅子、樹材の安楽椅子、森の読書椅子",
+        "meaningEn": "wooden armchair, timber lounge seat, carved reading chair",
+        "morphemes": [
+          "vel",
+          "tasor"
+        ],
+        "etymology": "vel(木) + tasor(肘掛け椅子)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Relen el veltasor uo govan.",
+        "example_ja": "家の中で木製の肘掛け椅子がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-92",
+    "batch": "Batch 23",
+    "domain": "建築・夜の扉と養生の部屋・ハーブ園",
+    "title": "宵の門扉と香草の庭",
+    "communicative_need": "夜風を防ぐ重厚な扉、滋養と休息のための部屋、薬草が茂る庭を夕暮れに巡回する。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "鍵を確かめる灯守"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "鉢植えを並べる採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el mi ia kymlerel ul nervorn uo velar. Relen el nervelar uo velar.",
+        "japanese": "私は中庭で宵の門扉と養生の部屋を見回る。中庭で薬草の菜園がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Vymin el miin ia kymlerel ul nervorn. Falun el nervelar al miin.",
+        "japanese": "私たちは宵の門扉と養生の部屋を守る。私たちに薬草の菜園が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymlerel",
+        "pos": "名",
+        "meaningJa": "宵の門扉、夜を守る扉、夜間の防風戸",
+        "meaningEn": "night portal, evening gate door, nocturnal shutter",
+        "morphemes": [
+          "kym",
+          "lerel"
+        ],
+        "etymology": "kym(夜) + lerel(扉)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Vyrel el mi ia kymlerel ul nervorn uo velar.",
+        "example_ja": "私は中庭で宵の門扉と養生の部屋を見回る。"
+      },
+      {
+        "nrs": "nervorn",
+        "pos": "名",
+        "meaningJa": "養生の部屋、滋養と休息の室、歓待の食堂間",
+        "meaningEn": "nourishment chamber, recuperation room, hospitality parlor",
+        "morphemes": [
+          "ner",
+          "vorn"
+        ],
+        "etymology": "ner(滋養) + vorn(部屋)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Vyrel el mi ia kymlerel ul nervorn uo velar.",
+        "example_ja": "私は中庭で宵の門扉と養生の部屋を見回る。"
+      },
+      {
+        "nrs": "nervelar",
+        "pos": "名",
+        "meaningJa": "薬草の菜園、滋養草の庭、実りのキッチンガーデン",
+        "meaningEn": "culinary herb garden, nourishing courtyard, kitchen garden plot",
+        "morphemes": [
+          "ner",
+          "velar"
+        ],
+        "etymology": "ner(滋養) + velar(庭)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Relen el nervelar uo velar.",
+        "example_ja": "中庭で薬草の菜園がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-93",
+    "batch": "Batch 24",
+    "domain": "交通・水辺の船着き場と森の乗合馬車",
+    "title": "運河の駅舎と樹林の乗り物",
+    "communicative_need": "水路の舟が発着する水辺の駅、森の道を走る木製の乗り物、広場に掲げる白い旗を準備する。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "桟橋を点検する舟守"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "合図旗を掲げる灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vyrel el mi ia darlarar ul vellaros uo larar. Relen el alinvylar uo larar.",
+        "japanese": "私は駅舎の前で水辺の船着き駅と木製の乗合馬車を確認する。駅舎の前で純白の合図旗がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Vymin el miin ia darlarar ul vellaros. Falun el alinvylar al miin.",
+        "japanese": "私たちは水辺の船着き駅と木製の乗合馬車を整備する。私たちに純白の合図旗が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darlarar",
+        "pos": "名",
+        "meaningJa": "水辺の船着き駅、運河の停留所、水上駅舎",
+        "meaningEn": "waterside station, canal boat depot, aquatic transit stop",
+        "morphemes": [
+          "dar",
+          "larar"
+        ],
+        "etymology": "dar(しずく) + larar(駅)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Vyrel el mi ia darlarar ul vellaros uo larar.",
+        "example_ja": "私は駅舎の前で水辺の船着き駅と木製の乗合馬車を確認する。"
+      },
+      {
+        "nrs": "vellaros",
+        "pos": "名",
+        "meaningJa": "木製の乗合馬車、森林軌道の乗り物、木造の運搬車",
+        "meaningEn": "wooden carriage, timber transit vehicle, forest wagon",
+        "morphemes": [
+          "vel",
+          "laros"
+        ],
+        "etymology": "vel(木) + laros(乗り物)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Vyrel el mi ia darlarar ul vellaros uo larar.",
+        "example_ja": "私は駅舎の前で水辺の船着き駅と木製の乗合馬車を確認する。"
+      },
+      {
+        "nrs": "alinvylar",
+        "pos": "名",
+        "meaningJa": "純白の合図旗、出航の白旗、平和の白い幟",
+        "meaningEn": "pure white flag, clear signal banner, alabaster pennant",
+        "morphemes": [
+          "alin",
+          "vylar"
+        ],
+        "etymology": "alin(白い) + vylar(旗)",
+        "category": "11. 都市・建築・住空間",
+        "example_sentence": "Relen el alinvylar uo larar.",
+        "example_ja": "駅舎の前で純白の合図旗がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-94",
+    "batch": "Batch 24",
+    "domain": "計測・携帯星盤と望遠スコープ",
+    "title": "銀の星盤と水路の測度",
+    "communicative_need": "旅先で方位を知る携帯星盤、遠くの灯台を捉える望遠スコープ、水深を測る測度器を携える。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "航路を測る舟守"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "目盛りを読む写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vymin el mi ia vyrpelel ul alinvylom uo larar. Relen el darryvel uo larar.",
+        "japanese": "私は港の桟橋で恒星の携帯星盤と澄んだ望遠スコープを校正する。港の桟橋で水深の測度がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el miin ia vyrpelel ul alinvylom. Falun el darryvel al miin.",
+        "japanese": "私たちは恒星の携帯星盤と澄んだ望遠スコープを覗き込む。私たちに水深の測度が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrpelel",
+        "pos": "名",
+        "meaningJa": "恒星の携帯星盤、星見のアストロラーベ、天測の懐中盤",
+        "meaningEn": "stellar portable astrolabe, starfinder pocket dial, celestial navigation disc",
+        "morphemes": [
+          "vyr",
+          "pelel"
+        ],
+        "etymology": "vyr(星) + pelel(携帯星盤)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Vymin el mi ia vyrpelel ul alinvylom uo larar.",
+        "example_ja": "私は港の桟橋で恒星の携帯星盤と澄んだ望遠スコープを校正する。"
+      },
+      {
+        "nrs": "alinvylom",
+        "pos": "名",
+        "meaningJa": "澄んだ望遠スコープ、高透過の観測鏡筒、白銀の望遠鏡",
+        "meaningEn": "clear telescope scope, high-clarity sighting tube, bright opticalfinder",
+        "morphemes": [
+          "alin",
+          "vylom"
+        ],
+        "etymology": "alin(白い) + vylom(スコープ)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Vymin el mi ia vyrpelel ul alinvylom uo larar.",
+        "example_ja": "私は港の桟橋で恒星の携帯星盤と澄んだ望遠スコープを校正する。"
+      },
+      {
+        "nrs": "darryvel",
+        "pos": "名",
+        "meaningJa": "水深の測度、水流の計測基準、水路の尺度",
+        "meaningEn": "hydrological metric, water-depth measure, stream gauge standard",
+        "morphemes": [
+          "dar",
+          "ryvel"
+        ],
+        "etymology": "dar(しずく) + ryvel(測度)",
+        "category": "8. 工学・建築・道具",
+        "example_sentence": "Relen el darryvel uo larar.",
+        "example_ja": "港の桟橋で水深の測度がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-95",
+    "batch": "Batch 24",
+    "domain": "数理・星辰演算儀と記憶素の書庫",
+    "title": "大地の演算儀と白銀の記憶素",
+    "communicative_need": "地殻変動や暦を計算する演算儀、清らかな白銀の星石記憶素、双方向につながる交信ノードを点検する。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "記憶素を配列する写字生"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "蓄電器をつなぐ灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vymin el mi ia talmator ul alinsoril uo livar. Relen el klorjytel uo livar.",
+        "japanese": "私は星辰書庫で地勢の星辰演算儀と純白の星石記憶素を保守する。星辰書庫で環状接続ノードがある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Soran el miin ia talmator ul alinsoril. Falun el klorjytel al miin.",
+        "japanese": "私たちは地勢の星辰演算儀と純白の星石記憶素を記録する。私たちに環状接続ノードが輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talmator",
+        "pos": "名",
+        "meaningJa": "地勢の星辰演算儀、大地測量の計算機、基礎演算装置",
+        "meaningEn": "geodetic computation engine, terrestrial calculator, earth-grid processor",
+        "morphemes": [
+          "tal",
+          "mator"
+        ],
+        "etymology": "tal(大地) + mator(星辰演算儀)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Vymin el mi ia talmator ul alinsoril uo livar.",
+        "example_ja": "私は星辰書庫で地勢の星辰演算儀と純白の星石記憶素を保守する。"
+      },
+      {
+        "nrs": "alinsoril",
+        "pos": "名",
+        "meaningJa": "純白の星石記憶素、初期状態の水晶記憶素、清浄なメモリ結晶",
+        "meaningEn": "blank astral memory crystal, pure storage element, unblemished memory cell",
+        "morphemes": [
+          "alin",
+          "soril"
+        ],
+        "etymology": "alin(白い) + soril(星石記憶素)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Vymin el mi ia talmator ul alinsoril uo livar.",
+        "example_ja": "私は星辰書庫で地勢の星辰演算儀と純白の星石記憶素を保守する。"
+      },
+      {
+        "nrs": "klorjytel",
+        "pos": "名",
+        "meaningJa": "環状接続ノード、円環網の交信節点、リング型中継点",
+        "meaningEn": "ring network node, circular hub junction, concentric relay vertex",
+        "morphemes": [
+          "klor",
+          "jytel"
+        ],
+        "etymology": "klor(円) + jytel(ノード)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Relen el klorjytel uo livar.",
+        "example_ja": "星辰書庫で環状接続ノードがある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-96",
+    "batch": "Batch 24",
+    "domain": "通信・全天交信網と光のメッセージ",
+    "title": "星の通信網と白羽の便り",
+    "communicative_need": "空を結ぶ全天交信星網、星光に乗せて届けるメッセージ、水流や風で蓄えるバッテリーを運用する。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "交信灯を操作する灯守"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "離島の便りを受ける舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el mi ia vyrtolom ul alintolas uo domom. Relen el darjynel uo domom.",
+        "japanese": "私は街の通信塔で恒星間の交信網と吉報の白文を受信する。街の通信塔で水力蓄電池がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Soran el miin ia vyrtolom ul alintolas. Falun el darjynel al miin.",
+        "japanese": "私たちは恒星間の交信網と吉報の白文を返信する。私たちに水力蓄電池が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrtolom",
+        "pos": "名",
+        "meaningJa": "恒星間の交信網、星々を結ぶ通信網、天球ネットワーク",
+        "meaningEn": "stellar communication network, starlight relay web, astral telemetry grid",
+        "morphemes": [
+          "vyr",
+          "tolom"
+        ],
+        "etymology": "vyr(星) + tolom(全天交信星網)",
+        "category": "9. 通信・ネットワーク",
+        "example_sentence": "Vyrel el mi ia vyrtolom ul alintolas uo domom.",
+        "example_ja": "私は街の通信塔で恒星間の交信網と吉報の白文を受信する。"
+      },
+      {
+        "nrs": "alintolas",
+        "pos": "名",
+        "meaningJa": "吉報の白文、清らかなメッセージ、平穏を告げる便り",
+        "meaningEn": "clear tidings message, peaceful dispatch, white-sealed letter",
+        "morphemes": [
+          "alin",
+          "tolas"
+        ],
+        "etymology": "alin(白い) + tolas(メッセージ)",
+        "category": "9. 通信・ネットワーク",
+        "example_sentence": "Vyrel el mi ia vyrtolom ul alintolas uo domom.",
+        "example_ja": "私は街の通信塔で恒星間の交信網と吉報の白文を受信する。"
+      },
+      {
+        "nrs": "darjynel",
+        "pos": "名",
+        "meaningJa": "水力蓄電池、水流充電のバッテリー、湿式蓄電槽",
+        "meaningEn": "hydro-charged battery, water-powered cell, liquid electrolyte accumulator",
+        "morphemes": [
+          "dar",
+          "jynel"
+        ],
+        "etymology": "dar(しずく) + jynel(バッテリー)",
+        "category": "9. 通信・ネットワーク",
+        "example_sentence": "Relen el darjynel uo domom.",
+        "example_ja": "街の通信塔で水力蓄電池がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-97",
+    "batch": "Batch 25",
+    "domain": "数理・基本定数と時間の変数・連続関数",
+    "title": "大地の定数と星軌道の関数",
+    "communicative_need": "揺るがない大地の基本定数、時間とともに移ろう変数、滑らかに巡る円関数を黒板に書き出す。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "数式を解説する写字生"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "図形を描く灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Soran el mi ia talfiras ul vyrkelon uo livar. Relen el klorkiril uo livar.",
+        "japanese": "私は講義室で基礎定数と天体変数を記述する。講義室で円関数がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el miin ia talfiras ul vyrkelon. Falun el klorkiril al miin.",
+        "japanese": "私たちは基礎定数と天体変数を検証する。私たちに円関数が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talfiras",
+        "pos": "名",
+        "meaningJa": "基礎定数、大地の不変定数、重力定数値",
+        "meaningEn": "fundamental terrestrial constant, base physical invariant, earth constant",
+        "morphemes": [
+          "tal",
+          "firas"
+        ],
+        "etymology": "tal(大地) + firas(定数)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Soran el mi ia talfiras ul vyrkelon uo livar.",
+        "example_ja": "私は講義室で基礎定数と天体変数を記述する。"
+      },
+      {
+        "nrs": "vyrkelon",
+        "pos": "名",
+        "meaningJa": "天体変数、星位の変動数、軌道パラメータ",
+        "meaningEn": "stellar variable, astronomical parameter, celestial coordinate variable",
+        "morphemes": [
+          "vyr",
+          "kelon"
+        ],
+        "etymology": "vyr(星) + kelon(変数)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Soran el mi ia talfiras ul vyrkelon uo livar.",
+        "example_ja": "私は講義室で基礎定数と天体変数を記述する。"
+      },
+      {
+        "nrs": "klorkiril",
+        "pos": "名",
+        "meaningJa": "円関数、周期の環状関数、回転の写像",
+        "meaningEn": "circular function, trigonometric cycle mapping, periodic ring function",
+        "morphemes": [
+          "klor",
+          "kiril"
+        ],
+        "etymology": "klor(円) + kiril(関数)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Relen el klorkiril uo livar.",
+        "example_ja": "講義室で円関数がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-98",
+    "batch": "Batch 25",
+    "domain": "数理・整数の集合と精密な小数",
+    "title": "円環の集合と細やかな端数",
+    "communicative_need": "完結した円環の集合、基準となる単位整数、微細な変化を表す小数を帳面で検算する。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "帳面を検算する写字生"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "積荷の目方を量る舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia klorjylom ul talunor uo renar. Relen el dardelis uo renar.",
+        "japanese": "私は市場の計量所で閉じた集合と基準整数を検算する。市場の計量所で微細な小数がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Soran el miin ia klorjylom ul talunor. Falun el dardelis al miin.",
+        "japanese": "私たちは閉じた集合と基準整数を明記する。私たちに微細な小数が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klorjylom",
+        "pos": "名",
+        "meaningJa": "閉じた集合、円環の要素群、完全な集合族",
+        "meaningEn": "closed set, circular ensemble, complete group collection",
+        "morphemes": [
+          "klor",
+          "jylom"
+        ],
+        "etymology": "klor(円) + jylom(集合)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Vyrel el mi ia klorjylom ul talunor uo renar.",
+        "example_ja": "私は市場の計量所で閉じた集合と基準整数を検算する。"
+      },
+      {
+        "nrs": "talunor",
+        "pos": "名",
+        "meaningJa": "基準整数、土台となる自然数、基本の整数値",
+        "meaningEn": "base integer, foundational whole number, cardinal ground integer",
+        "morphemes": [
+          "tal",
+          "unor"
+        ],
+        "etymology": "tal(大地) + unor(整数)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Vyrel el mi ia klorjylom ul talunor uo renar.",
+        "example_ja": "私は市場の計量所で閉じた集合と基準整数を検算する。"
+      },
+      {
+        "nrs": "dardelis",
+        "pos": "名",
+        "meaningJa": "微細な小数、しずくのような端数、精密な小数部",
+        "meaningEn": "fine decimal fraction, minute fractional part, droplet-scale precision",
+        "morphemes": [
+          "dar",
+          "delis"
+        ],
+        "etymology": "dar(しずく) + delis(小数)",
+        "category": "3. 数理・情報・計算機",
+        "example_sentence": "Relen el dardelis uo renar.",
+        "example_ja": "市場の計量所で微細な小数がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-99",
+    "batch": "Batch 25",
+    "domain": "学問・自然学者と数理士の探究",
+    "title": "森の学者と天文学の数理士",
+    "communicative_need": "森の植生を調べる自然学者、星の運行を計算する数理士、多次元の空間構造を議論する。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "標本を示す採集師"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "数理モデルを組む写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vyrel el mi ia velsufis ul vyrsufor uo livar. Relen el vyrniven uo livar.",
+        "japanese": "私は星辰書庫の広間で森林学者と天体数理士を討議する。星辰書庫の広間で天球の次元がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Cynel el miin ia velsufis ul vyrsufor. Falun el vyrniven al miin.",
+        "japanese": "私たちは森林学者と天体数理士を尊重する。私たちに天球の次元が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "velsufis",
+        "pos": "名",
+        "meaningJa": "森林学者、植物と生態の学者、自然博物学者",
+        "meaningEn": "botanical scholar, forest naturalist, ecological researcher",
+        "morphemes": [
+          "vel",
+          "sufis"
+        ],
+        "etymology": "vel(木) + sufis(学者)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vyrel el mi ia velsufis ul vyrsufor uo livar.",
+        "example_ja": "私は星辰書庫の広間で森林学者と天体数理士を討議する。"
+      },
+      {
+        "nrs": "vyrsufor",
+        "pos": "名",
+        "meaningJa": "天体数理士、星辰軌道の計算士、天文数学者",
+        "meaningEn": "celestial mathematician, astro-computational scholar, orbital analyst",
+        "morphemes": [
+          "vyr",
+          "sufor"
+        ],
+        "etymology": "vyr(星) + sufor(星辰数理士)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vyrel el mi ia velsufis ul vyrsufor uo livar.",
+        "example_ja": "私は星辰書庫の広間で森林学者と天体数理士を討議する。"
+      },
+      {
+        "nrs": "vyrniven",
+        "pos": "名",
+        "meaningJa": "天球の次元、星空間の次元軸、高次の天体空間",
+        "meaningEn": "celestial dimension, astral spatial axis, cosmic coordinate plane",
+        "morphemes": [
+          "vyr",
+          "niven"
+        ],
+        "etymology": "vyr(星) + niven(次元)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Relen el vyrniven uo livar.",
+        "example_ja": "星辰書庫の広間で天球の次元がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-100",
+    "batch": "Batch 25",
+    "domain": "哲学・真偽の理と同一性の証明",
+    "title": "澄んだ真理と揺るぎない証拠",
+    "communicative_need": "曇りのない真偽の判断律、円環のように完結した同一性、大地の確かな物的証拠を確かめる。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "論考をまとめる写字生"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "記録を照らし合わせる灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia alinvedil ul klorunvis uo klorcalor. Relen el talzydis uo klorcalor.",
+        "japanese": "私は円卓評議の間で明晰な真偽律と円環の同一性を吟味する。円卓評議の間で物的証拠がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Soran el miin ia alinvedil ul klorunvis. Falun el talzydis al miin.",
+        "japanese": "私たちは明晰な真偽律と円環の同一性を証明する。私たちに物的証拠が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinvedil",
+        "pos": "名",
+        "meaningJa": "明晰な真偽律、曇りなき論理基準、純粋な判断律",
+        "meaningEn": "clear truth-value law, transparent logical criterion, unclouded verity rule",
+        "morphemes": [
+          "alin",
+          "vedil"
+        ],
+        "etymology": "alin(白い) + vedil(真偽律)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Vyrel el mi ia alinvedil ul klorunvis uo klorcalor.",
+        "example_ja": "私は円卓評議の間で明晰な真偽律と円環の同一性を吟味する。"
+      },
+      {
+        "nrs": "klorunvis",
+        "pos": "名",
+        "meaningJa": "円環の同一性、完全な一致律、揺るぎない自己同一性",
+        "meaningEn": "complete identity, circular equivalence, unbroken self-sameness",
+        "morphemes": [
+          "klor",
+          "unvis"
+        ],
+        "etymology": "klor(円) + unvis(同一性)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Vyrel el mi ia alinvedil ul klorunvis uo klorcalor.",
+        "example_ja": "私は円卓評議の間で明晰な真偽律と円環の同一性を吟味する。"
+      },
+      {
+        "nrs": "talzydis",
+        "pos": "名",
+        "meaningJa": "物的証拠、大地の確かな証跡、実地の証拠品",
+        "meaningEn": "physical evidence, tangible terrestrial proof, material testimony",
+        "morphemes": [
+          "tal",
+          "zydis"
+        ],
+        "etymology": "tal(大地) + zydis(証拠)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Relen el talzydis uo klorcalor.",
+        "example_ja": "円卓評議の間で物的証拠がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-101",
+    "batch": "Batch 26",
+    "domain": "医療・植物細胞と清らかな血液・骨格",
+    "title": "新芽の細胞と健やかな身体",
+    "communicative_need": "みずみずしい植物の細胞、清らかに巡る血液、大地のように強靭な骨格を医学書で学ぶ。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "薬草学を教える採集師"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "解剖図を写す写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vyrel el mi ia velkivan ul dardavel uo vorn. Relen el talduril uo vorn.",
+        "japanese": "私は医務室で植物細胞と清らかな血流を観察する。医務室で強靭な骨格がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Soran el miin ia velkivan ul dardavel. Falun el talduril al miin.",
+        "japanese": "私たちは植物細胞と清らかな血流を図解する。私たちに強靭な骨格が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "velkivan",
+        "pos": "名",
+        "meaningJa": "植物細胞、木の葉の細胞組織、緑の生体細胞",
+        "meaningEn": "plant cell, botanical tissue cell, leaf cellular structure",
+        "morphemes": [
+          "vel",
+          "kivan"
+        ],
+        "etymology": "vel(木) + kivan(細胞)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vyrel el mi ia velkivan ul dardavel uo vorn.",
+        "example_ja": "私は医務室で植物細胞と清らかな血流を観察する。"
+      },
+      {
+        "nrs": "dardavel",
+        "pos": "名",
+        "meaningJa": "清らかな血流、潤いの血液、健やかな循環血",
+        "meaningEn": "healthy bloodstream, vital circulating blood, pure vascular flow",
+        "morphemes": [
+          "dar",
+          "davel"
+        ],
+        "etymology": "dar(しずく) + davel(血液)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vyrel el mi ia velkivan ul dardavel uo vorn.",
+        "example_ja": "私は医務室で植物細胞と清らかな血流を観察する。"
+      },
+      {
+        "nrs": "talduril",
+        "pos": "名",
+        "meaningJa": "強靭な骨格、盤石の骨組み、体幹の骨",
+        "meaningEn": "sturdy bone structure, skeletal frame, foundational bone",
+        "morphemes": [
+          "tal",
+          "duril"
+        ],
+        "etymology": "tal(大地) + duril(骨)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Relen el talduril uo vorn.",
+        "example_ja": "医務室で強靭な骨格がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-102",
+    "batch": "Batch 26",
+    "domain": "医療・安らかな鼓動と癒やしの霊薬",
+    "title": "穏やかな心臓と森の活力",
+    "communicative_need": "穏やかに打つ心臓の鼓動、星露を集めた癒やしの薬、森の空気から得る活力を確かめる。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "脈を診る採集師"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "湯治から戻った舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vymin el mi ia alinteira ul vyrzyvil uo vorn. Relen el velzyvor uo vorn.",
+        "japanese": "私は養生室で穏やかな心臓と星露の霊薬を養う。養生室で森林の活力がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Cynel el miin ia alinteira ul vyrzyvil. Falun el velzyvor al miin.",
+        "japanese": "私たちは穏やかな心臓と星露の霊薬を感謝する。私たちに森林の活力が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinteira",
+        "pos": "名",
+        "meaningJa": "穏やかな心臓、澄んだ鼓動の胸、平静な心音",
+        "meaningEn": "calm heart, steady heartbeat, serene cardiac rhythm",
+        "morphemes": [
+          "alin",
+          "teira"
+        ],
+        "etymology": "alin(白い) + teira(心臓)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vymin el mi ia alinteira ul vyrzyvil uo vorn.",
+        "example_ja": "私は養生室で穏やかな心臓と星露の霊薬を養う。"
+      },
+      {
+        "nrs": "vyrzyvil",
+        "pos": "名",
+        "meaningJa": "星露の霊薬、夜露で煎じた薬、癒やしの星薬",
+        "meaningEn": "starlight elixir, night-dew medicine, celestial herbal remedy",
+        "morphemes": [
+          "vyr",
+          "zyvil"
+        ],
+        "etymology": "vyr(星) + zyvil(薬)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vymin el mi ia alinteira ul vyrzyvil uo vorn.",
+        "example_ja": "私は養生室で穏やかな心臓と星露の霊薬を養う。"
+      },
+      {
+        "nrs": "velzyvor",
+        "pos": "名",
+        "meaningJa": "森林の活力、樹々の生命力、緑の生気",
+        "meaningEn": "woodland vitality, forest stamina, sylvan life vigor",
+        "morphemes": [
+          "vel",
+          "zyvor"
+        ],
+        "etymology": "vel(木) + zyvor(活力)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Relen el velzyvor uo vorn.",
+        "example_ja": "養生室で森林の活力がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-103",
+    "batch": "Batch 26",
+    "domain": "医療・水あたりと季節の養生・健やかな体",
+    "title": "季節の養生と円満な健康",
+    "communicative_need": "旅先での水あたりや不調を防ぎ、時の巡りに合わせた健康管理と清らかな体力を保つ。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "煎じ薬を配る採集師"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "湯を沸かす灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vymin el mi ia darkylar ul havzyvas uo nerom. Relen el alinzyvor uo nerom.",
+        "japanese": "私は共同厨房で水あたりと季節の養生を整える。共同厨房で清らかな気力がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el miin ia darkylar ul havzyvas. Falun el alinzyvor al miin.",
+        "japanese": "私たちは水あたりと季節の養生を気遣う。私たちに清らかな気力が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darkylar",
+        "pos": "名",
+        "meaningJa": "水あたり、湿気による不調、水辺の病",
+        "meaningEn": "waterborne ailment, dampness sickness, traveler's water chill",
+        "morphemes": [
+          "dar",
+          "kylar"
+        ],
+        "etymology": "dar(しずく) + kylar(病)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vymin el mi ia darkylar ul havzyvas uo nerom.",
+        "example_ja": "私は共同厨房で水あたりと季節の養生を整える。"
+      },
+      {
+        "nrs": "havzyvas",
+        "pos": "名",
+        "meaningJa": "季節の養生、歳月を重ねた健康、日々の健やかさ",
+        "meaningEn": "seasonal wellness, lifelong health, timely physical care",
+        "morphemes": [
+          "hav",
+          "zyvas"
+        ],
+        "etymology": "hav(時) + zyvas(健康)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vymin el mi ia darkylar ul havzyvas uo nerom.",
+        "example_ja": "私は共同厨房で水あたりと季節の養生を整える。"
+      },
+      {
+        "nrs": "alinzyvor",
+        "pos": "名",
+        "meaningJa": "清らかな気力、曇りなき体力、爽快な活力",
+        "meaningEn": "pure stamina, refreshed vigor, unclouded bodily energy",
+        "morphemes": [
+          "alin",
+          "zyvor"
+        ],
+        "etymology": "alin(白い) + zyvor(活力)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Relen el alinzyvor uo nerom.",
+        "example_ja": "共同厨房で清らかな気力がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-104",
+    "batch": "Batch 26",
+    "domain": "身体・確かな足取りと澄んだ頭脳・語り口",
+    "title": "大地を踏む足と明晰な頭脳",
+    "communicative_need": "大地をしっかりと踏みしめる足、澄み切った頭脳、優しい言葉を紡ぐ口元を讃え合う。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "荷を担ぐ舟守"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "朗読を行う写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vyrel el mi ia tallarin ul alinnoven uo domom. Relen el darfenel uo domom.",
+        "japanese": "私は街の広場で大地を踏む足と明晰な頭脳を見守る。街の広場で潤いの口元がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Cynel el miin ia tallarin ul alinnoven. Falun el darfenel al miin.",
+        "japanese": "私たちは大地を踏む足と明晰な頭脳を信頼する。私たちに潤いの口元が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tallarin",
+        "pos": "名",
+        "meaningJa": "大地を踏む足、健脚の足取り、確かな歩み",
+        "meaningEn": "sure-footed step, grounded foot, sturdy stride",
+        "morphemes": [
+          "tal",
+          "larin"
+        ],
+        "etymology": "tal(大地) + larin(足)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vyrel el mi ia tallarin ul alinnoven uo domom.",
+        "example_ja": "私は街の広場で大地を踏む足と明晰な頭脳を見守る。"
+      },
+      {
+        "nrs": "alinnoven",
+        "pos": "名",
+        "meaningJa": "明晰な頭脳、澄み切った頭、冷静な思考力",
+        "meaningEn": "clear head, lucid intellect, unclouded mind",
+        "morphemes": [
+          "alin",
+          "noven"
+        ],
+        "etymology": "alin(白い) + noven(頭)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Vyrel el mi ia tallarin ul alinnoven uo domom.",
+        "example_ja": "私は街の広場で大地を踏む足と明晰な頭脳を見守る。"
+      },
+      {
+        "nrs": "darfenel",
+        "pos": "名",
+        "meaningJa": "潤いの口元、滑らかな語り口、澄んだ発声の口",
+        "meaningEn": "eloquent mouth, fluent speech lips, gentle-spoken mouth",
+        "morphemes": [
+          "dar",
+          "fenel"
+        ],
+        "etymology": "dar(しずく) + fenel(口)",
+        "category": "4. 人体・生理・医療",
+        "example_sentence": "Relen el darfenel uo domom.",
+        "example_ja": "街の広場で潤いの口元がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-105",
+    "batch": "Batch 27",
+    "domain": "食文化・大地の恵み料理と白銀の果実酒",
+    "title": "収穫の食卓と熟成の果実酒",
+    "communicative_need": "根菜と穀物を煮込んだ大地の料理、山ぶどうの白い発酵果実酒、甘く熟した木の実を食卓に並べる。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "大皿を運ぶ灯守"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "果実酒を注ぐ採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Neran el mi ia talnerel ul alinvoril uo nerar. Relen el talvorin uo nerar.",
+        "japanese": "私はカフェの食卓で大地の郷土料理と白の果実酒を味わう。カフェの食卓で大地の木の実がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Cynel el miin ia talnerel ul alinvoril. Falun el talvorin al miin.",
+        "japanese": "私たちは大地の郷土料理と白の果実酒を喜ぶ。私たちに大地の木の実が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talnerel",
+        "pos": "名",
+        "meaningJa": "大地の郷土料理、根菜の滋養膳、収穫の温かい料理",
+        "meaningEn": "earthy harvest meal, countryside stew dish, terrestrial home cooking",
+        "morphemes": [
+          "tal",
+          "nerel"
+        ],
+        "etymology": "tal(大地) + nerel(料理)",
+        "category": "12. 食文化・料理・飲食",
+        "example_sentence": "Neran el mi ia talnerel ul alinvoril uo nerar.",
+        "example_ja": "私はカフェの食卓で大地の郷土料理と白の果実酒を味わう。"
+      },
+      {
+        "nrs": "alinvoril",
+        "pos": "名",
+        "meaningJa": "白の果実酒、澄んだ白ワイン、白ぶどうの発酵酒",
+        "meaningEn": "white fruit wine, clear vintage cider, pale fermented nectar",
+        "morphemes": [
+          "alin",
+          "voril"
+        ],
+        "etymology": "alin(白い) + voril(発酵果実酒)",
+        "category": "12. 食文化・料理・飲食",
+        "example_sentence": "Neran el mi ia talnerel ul alinvoril uo nerar.",
+        "example_ja": "私はカフェの食卓で大地の郷土料理と白の果実酒を味わう。"
+      },
+      {
+        "nrs": "talvorin",
+        "pos": "名",
+        "meaningJa": "大地の木の実、根菜と野の果実、里山の収穫果",
+        "meaningEn": "earth-grown fruit, orchard berry, harvested ground fruit",
+        "morphemes": [
+          "tal",
+          "vorin"
+        ],
+        "etymology": "tal(大地) + vorin(果実)",
+        "category": "12. 食文化・料理・飲食",
+        "example_sentence": "Relen el talvorin uo nerar.",
+        "example_ja": "カフェの食卓で大地の木の実がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-106",
+    "batch": "Batch 27",
+    "domain": "食文化・水辺の厨房と熟練の料理人",
+    "title": "運河の料理人と宵の薬草茶",
+    "communicative_need": "新鮮な魚や水草を扱う水辺の厨房、森の香草を使いこなす料理人、夜に飲む安眠の煎じ茶を楽しむ。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "川魚を届ける舟守"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "竈に火を入れる灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vyrel el mi ia darnerom ul velneror uo nerom. Relen el kymterin uo nerom.",
+        "japanese": "私は厨房の中で水辺の厨房と森の料理人を手伝う。厨房の中で宵の安眠茶がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Bion el miin ia darnerom ul velneror. Falun el kymterin al miin.",
+        "japanese": "私たちは水辺の厨房と森の料理人を味わう。私たちに宵の安眠茶が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darnerom",
+        "pos": "名",
+        "meaningJa": "水辺の厨房、清水を引いた調理室、運河沿いの炊事場",
+        "meaningEn": "waterside kitchen, spring-fed galley, canal culinary room",
+        "morphemes": [
+          "dar",
+          "nerom"
+        ],
+        "etymology": "dar(しずく) + nerom(厨房)",
+        "category": "12. 食文化・料理・飲食",
+        "example_sentence": "Vyrel el mi ia darnerom ul velneror uo nerom.",
+        "example_ja": "私は厨房の中で水辺の厨房と森の料理人を手伝う。"
+      },
+      {
+        "nrs": "velneror",
+        "pos": "名",
+        "meaningJa": "森の料理人、香草と木の実の調理師、山の料理番",
+        "meaningEn": "woodland chef, herbalist cook, forest culinary master",
+        "morphemes": [
+          "vel",
+          "neror"
+        ],
+        "etymology": "vel(木) + neror(料理人)",
+        "category": "12. 食文化・料理・飲食",
+        "example_sentence": "Vyrel el mi ia darnerom ul velneror uo nerom.",
+        "example_ja": "私は厨房の中で水辺の厨房と森の料理人を手伝う。"
+      },
+      {
+        "nrs": "kymterin",
+        "pos": "名",
+        "meaningJa": "宵の安眠茶、夜に飲む温かい煎じ茶、月見の香草茶",
+        "meaningEn": "evening herbal tea, nighttime soothing brew, nocturnal infusion",
+        "morphemes": [
+          "kym",
+          "terin"
+        ],
+        "etymology": "kym(夜) + terin(温かい煎じ茶)",
+        "category": "12. 食文化・料理・飲食",
+        "example_sentence": "Relen el kymterin uo nerom.",
+        "example_ja": "厨房の中で宵の安眠茶がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-107",
+    "batch": "Batch 27",
+    "domain": "日常・木陰のカフェと白い毛皮・旅の衣",
+    "title": "樹下の茶房と冬支度の衣服",
+    "communicative_need": "大樹の下にある木陰のカフェ、暖かな白い毛皮の襟巻き、森を歩くための丈夫な衣服を整える。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "冬支度をする採集師"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "茶房で読書する写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vyrel el mi ia velnerar ul alintenis uo nerar. Relen el velvalis uo nerar.",
+        "japanese": "私は茶房の席で木陰のカフェと純白の冬毛皮を選ぶ。茶房の席で森歩きの衣がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Cynel el miin ia velnerar ul alintenis. Falun el velvalis al miin.",
+        "japanese": "私たちは木陰のカフェと純白の冬毛皮を愛用する。私たちに森歩きの衣が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "velnerar",
+        "pos": "名",
+        "meaningJa": "木陰のカフェ、森の茶房、樹下の憩い茶屋",
+        "meaningEn": "woodland cafe, treeshade teahouse, forest coffeehouse",
+        "morphemes": [
+          "vel",
+          "nerar"
+        ],
+        "etymology": "vel(木) + nerar(カフェ)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia velnerar ul alintenis uo nerar.",
+        "example_ja": "私は茶房の席で木陰のカフェと純白の冬毛皮を選ぶ。"
+      },
+      {
+        "nrs": "alintenis",
+        "pos": "名",
+        "meaningJa": "純白の冬毛皮、白い羊毛布、柔らかな白毛皮",
+        "meaningEn": "pure white fur, soft snowy fleece, alabaster pelt",
+        "morphemes": [
+          "alin",
+          "tenis"
+        ],
+        "etymology": "alin(白い) + tenis(毛皮)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia velnerar ul alintenis uo nerar.",
+        "example_ja": "私は茶房の席で木陰のカフェと純白の冬毛皮を選ぶ。"
+      },
+      {
+        "nrs": "velvalis",
+        "pos": "名",
+        "meaningJa": "森歩きの衣、草木染めの外투、樹皮繊維の衣服",
+        "meaningEn": "forest cloak, botanical-dyed garment, woodland workwear",
+        "morphemes": [
+          "vel",
+          "valis"
+        ],
+        "etymology": "vel(木) + valis(衣服)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Relen el velvalis uo nerar.",
+        "example_ja": "茶房の席で森歩きの衣がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-108",
+    "batch": "Batch 27",
+    "domain": "植物・銀葉の枝と季節の若芽",
+    "title": "月光を返す銀の葉と春の新芽",
+    "communicative_need": "月や星の光を返す銀色の葉、季節の巡りを告げる新芽、白い花咲く中庭を手入れする。",
+    "agent_a": {
+      "name": "Neri",
+      "role": "剪定を行う採集師"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "水やりをする灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Neri",
+        "nebulith": "Vymin el mi ia tynivelas ul havvelil uo velar. Relen el alinvelar uo velar.",
+        "japanese": "私は中庭の花壇で銀色の葉と季節の新芽を育てる。中庭の花壇で白花の庭園がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el miin ia tynivelas ul havvelil. Falun el alinvelar al miin.",
+        "japanese": "私たちは銀色の葉と季節の新芽を愛でる。私たちに白花の庭園が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tynivelas",
+        "pos": "名",
+        "meaningJa": "銀色の葉、月光を返す銀葉、白銀の木の葉",
+        "meaningEn": "silver leaf, moonlit foliage, argent-backed frond",
+        "morphemes": [
+          "tyni",
+          "velas"
+        ],
+        "etymology": "tyni(銀色の) + velas(葉)",
+        "category": "5. 生物・生態・環境",
+        "example_sentence": "Vymin el mi ia tynivelas ul havvelil uo velar.",
+        "example_ja": "私は中庭の花壇で銀色の葉と季節の新芽を育てる。"
+      },
+      {
+        "nrs": "havvelil",
+        "pos": "名",
+        "meaningJa": "季節の新芽、春を告げる若芽、時満ちて芽吹くハーブ",
+        "meaningEn": "seasonal sprout, timely spring shoot, vernal herb bud",
+        "morphemes": [
+          "hav",
+          "velil"
+        ],
+        "etymology": "hav(時) + velil(新芽)",
+        "category": "5. 生物・生態・環境",
+        "example_sentence": "Vymin el mi ia tynivelas ul havvelil uo velar.",
+        "example_ja": "私は中庭の花壇で銀色の葉と季節の新芽を育てる。"
+      },
+      {
+        "nrs": "alinvelar",
+        "pos": "名",
+        "meaningJa": "白花の庭園、白い花が咲く庭、純白の中庭",
+        "meaningEn": "white-blossom garden, alba courtyard, luminous flower garden",
+        "morphemes": [
+          "alin",
+          "velar"
+        ],
+        "etymology": "alin(白い) + velar(庭)",
+        "category": "5. 生物・生態・環境",
+        "example_sentence": "Relen el alinvelar uo velar.",
+        "example_ja": "中庭の花壇で白花の庭園がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-109",
+    "batch": "Batch 28",
+    "domain": "文芸・大地の叙事詩と白銀の鎮魂歌",
+    "title": "古の叙事詩と水辺の書物",
+    "communicative_need": "開拓の歴史を詠んだ大地の叙事詩、静かな森の鎮魂歌、航海と水路を記した本を紐解く。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "古写本を朗読する写字生"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "水路誌を聴く舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia talcivom ul vellyren uo livar. Relen el darpamel uo livar.",
+        "japanese": "私は星辰書庫で大地の叙事詩と樹海の鎮魂歌を読み解く。星辰書庫で水路の航海誌がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Soran el miin ia talcivom ul vellyren. Falun el darpamel al miin.",
+        "japanese": "私たちは大地の叙事詩と樹海の鎮魂歌を筆写する。私たちに水路の航海誌が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talcivom",
+        "pos": "名",
+        "meaningJa": "大地の叙事詩、開拓の年代記詩、国土の英雄詩",
+        "meaningEn": "epic of the land, terrestrial chronicle poem, foundational saga",
+        "morphemes": [
+          "tal",
+          "civom"
+        ],
+        "etymology": "tal(大地) + civom(叙事詩)",
+        "category": "15. 芸術・文化・娯楽",
+        "example_sentence": "Vyrel el mi ia talcivom ul vellyren uo livar.",
+        "example_ja": "私は星辰書庫で大地の叙事詩と樹海の鎮魂歌を読み解く。"
+      },
+      {
+        "nrs": "vellyren",
+        "pos": "名",
+        "meaningJa": "樹海の鎮魂歌、森の挽歌、木漏れ日の祈りの歌",
+        "meaningEn": "forest elegy, woodland requiem, sylvan lament",
+        "morphemes": [
+          "vel",
+          "lyren"
+        ],
+        "etymology": "vel(木) + lyren(鎮魂歌)",
+        "category": "15. 芸術・文化・娯楽",
+        "example_sentence": "Vyrel el mi ia talcivom ul vellyren uo livar.",
+        "example_ja": "私は星辰書庫で大地の叙事詩と樹海の鎮魂歌を読み解く。"
+      },
+      {
+        "nrs": "darpamel",
+        "pos": "名",
+        "meaningJa": "水路の航海誌、水辺の記録本、泉の詩集",
+        "meaningEn": "waterway manual, aquatic logbook, book of streams",
+        "morphemes": [
+          "dar",
+          "pamel"
+        ],
+        "etymology": "dar(しずく) + pamel(本)",
+        "category": "15. 芸術・文化・娯楽",
+        "example_sentence": "Relen el darpamel uo livar.",
+        "example_ja": "星辰書庫で水路の航海誌がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-110",
+    "batch": "Batch 28",
+    "domain": "芸術・星の光画と虹の分光・森の調和",
+    "title": "星空の写真とプリズムの分光",
+    "communicative_need": "長時間露光で写した星空の写真、水滴が作る七色の分光、森と人の美しい共生を語り合う。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "光学鏡を磨く灯守"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "画帖を編む写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el mi ia vyrlyvel ul darfalos uo vorn. Relen el velsilan uo vorn.",
+        "japanese": "私は光学室で星野の写真と水滴の分光を鑑賞する。光学室で緑陰の共鳴がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Cynel el miin ia vyrlyvel ul darfalos. Falun el velsilan al miin.",
+        "japanese": "私たちは星野の写真と水滴の分光を感嘆する。私たちに緑陰の共鳴が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrlyvel",
+        "pos": "名",
+        "meaningJa": "星野の写真、天体光画、星軌跡の写し絵",
+        "meaningEn": "astrophotograph, starlight plate image, celestial photo",
+        "morphemes": [
+          "vyr",
+          "lyvel"
+        ],
+        "etymology": "vyr(星) + lyvel(写真)",
+        "category": "15. 芸術・文化・娯楽",
+        "example_sentence": "Vyrel el mi ia vyrlyvel ul darfalos uo vorn.",
+        "example_ja": "私は光学室で星野の写真と水滴の分光を鑑賞する。"
+      },
+      {
+        "nrs": "darfalos",
+        "pos": "名",
+        "meaningJa": "水滴の分光、虹のスペクトル、朝露の七色光",
+        "meaningEn": "water-droplet spectrum, rainbow dispersion, dew prism light",
+        "morphemes": [
+          "dar",
+          "falos"
+        ],
+        "etymology": "dar(しずく) + falos(分光)",
+        "category": "15. 芸術・文化・娯楽",
+        "example_sentence": "Vyrel el mi ia vyrlyvel ul darfalos uo vorn.",
+        "example_ja": "私は光学室で星野の写真と水滴の分光を鑑賞する。"
+      },
+      {
+        "nrs": "velsilan",
+        "pos": "名",
+        "meaningJa": "緑陰の共鳴、木々と風の共生、緑のハーモニー",
+        "meaningEn": "woodland harmony, ecological balance, sylvan consonance",
+        "morphemes": [
+          "vel",
+          "silan"
+        ],
+        "etymology": "vel(木) + silan(調和)",
+        "category": "15. 芸術・文化・娯楽",
+        "example_sentence": "Relen el velsilan uo vorn.",
+        "example_ja": "光学室で緑陰の共鳴がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-111",
+    "batch": "Batch 28",
+    "domain": "内省・森の夢と水の記憶・聖なる畏敬",
+    "title": "樹下の夢と星空への畏敬",
+    "communicative_need": "木漏れ日の中で見る穏やかな夢、水面に刻まれた遠い日の記憶、星空を見上げたときの畏敬の念を語る。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "随想を綴る写字生"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "静かに耳を傾ける採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia velsonir ul darsoras uo velom. Relen el vyrkefur uo velom.",
+        "japanese": "私は森のほとりで木漏れ日の夢と水面の記憶を思い巡らす。森のほとりで星辰への畏敬がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Soran el miin ia velsonir ul darsoras. Falun el vyrkefur al miin.",
+        "japanese": "私たちは木漏れ日の夢と水面の記憶を書き留める。私たちに星辰への畏敬が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "velsonir",
+        "pos": "名",
+        "meaningJa": "木漏れ日の夢、森で見るまどろみの夢、緑陰の夢路",
+        "meaningEn": "woodland dream, forest reverie, sylvan slumber vision",
+        "morphemes": [
+          "vel",
+          "sonir"
+        ],
+        "etymology": "vel(木) + sonir(夢)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Vyrel el mi ia velsonir ul darsoras uo velom.",
+        "example_ja": "私は森のほとりで木漏れ日の夢と水面の記憶を思い巡らす。"
+      },
+      {
+        "nrs": "darsoras",
+        "pos": "名",
+        "meaningJa": "水面の記憶、流れに宿る思い出、しずくの記憶",
+        "meaningEn": "water-borne memory, recollection of streams, rippling remembrance",
+        "morphemes": [
+          "dar",
+          "soras"
+        ],
+        "etymology": "dar(しずく) + soras(記憶)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Vyrel el mi ia velsonir ul darsoras uo velom.",
+        "example_ja": "私は森のほとりで木漏れ日の夢と水面の記憶を思い巡らす。"
+      },
+      {
+        "nrs": "vyrkefur",
+        "pos": "名",
+        "meaningJa": "星辰への畏敬、天を仰ぐ崇高な思い、星空の畏敬の念",
+        "meaningEn": "astral awe, reverence before the stars, cosmic wonder",
+        "morphemes": [
+          "vyr",
+          "kefur"
+        ],
+        "etymology": "vyr(星) + kefur(畏敬の念)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Relen el vyrkefur uo velom.",
+        "example_ja": "森のほとりで星辰への畏敬がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-112",
+    "batch": "Batch 28",
+    "domain": "精神・直感の閃きと揺るぎない心・真理",
+    "title": "時の直感と大地の不動心",
+    "communicative_need": "時機を見抜く鋭い直感、大地のように落ち着き払った心、清らかに澄み切った真理を探究する。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "夜の灯を守る灯守"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "哲学書を読む写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el mi ia havfelyn ul talsylim uo govan. Relen el alinvyran uo govan.",
+        "japanese": "私は静かな居間で時機の直感と不動の心を見つめる。静かな居間で純粋な真理がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Cynel el miin ia havfelyn ul talsylim. Falun el alinvyran al miin.",
+        "japanese": "私たちは時機の直感と不動の心を尊ぶ。私たちに純粋な真理が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "havfelyn",
+        "pos": "名",
+        "meaningJa": "時機の直感、好機のひらめき、瞬間の予感",
+        "meaningEn": "timely intuition, flash of opportune insight, momentary foresight",
+        "morphemes": [
+          "hav",
+          "felyn"
+        ],
+        "etymology": "hav(時) + felyn(直感)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Vyrel el mi ia havfelyn ul talsylim uo govan.",
+        "example_ja": "私は静かな居間で時機の直感と不動の心を見つめる。"
+      },
+      {
+        "nrs": "talsylim",
+        "pos": "名",
+        "meaningJa": "不動の心、大地のように穏やかな精神、落ち着いた心境",
+        "meaningEn": "grounded mind, steadfast spirit, unshakeable composure",
+        "morphemes": [
+          "tal",
+          "sylim"
+        ],
+        "etymology": "tal(大地) + sylim(心)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Vyrel el mi ia vyrfelyn ul talsylim uo govan.",
+        "example_ja": "私は静かな居間で星光の直感と不動の心を見つめる。"
+      },
+      {
+        "nrs": "alinvyran",
+        "pos": "名",
+        "meaningJa": "純粋な真理、曇りなき真実、白銀の理",
+        "meaningEn": "pure truth, unblemished verity, clear philosophical truth",
+        "morphemes": [
+          "alin",
+          "vyran"
+        ],
+        "etymology": "alin(白い) + vyran(真理)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Relen el alinvyran uo govan.",
+        "example_ja": "静かな居間で純粋な真理がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-113",
+    "batch": "Batch 29",
+    "domain": "社会・森の民と水辺の市民・共同体の指導者",
+    "title": "水辺の市民と円卓の導き手",
+    "communicative_need": "森と共に生きる人々、水路の街に暮らす市民、円卓の合意をまとめる指導者の務めを話し合う。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "市民の声を届ける舟守"
+    },
+    "agent_b": {
+      "name": "Yura",
+      "role": "議事録を執る写字生"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Vyrel el mi ia velmyren ul darpolor uo klorcalor. Relen el klornovor uo klorcalor.",
+        "japanese": "私は評議の間で森の生活者と水辺の市民を尊重する。評議の間で円卓の指導者がある。"
+      },
+      {
+        "speaker": "Yura",
+        "nebulith": "Vymin el miin ia velmyren ul darpolor. Falun el klornovor al miin.",
+        "japanese": "私たちは森の生活者と水辺の市民を支える。私たちに円卓の指導者が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "velmyren",
+        "pos": "名",
+        "meaningJa": "森の生活者、樹林と共生する人間、山の住人",
+        "meaningEn": "forest dweller, woodland human, sylvan inhabitant",
+        "morphemes": [
+          "vel",
+          "myren"
+        ],
+        "etymology": "vel(木) + myren(人間)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vyrel el mi ia velmyren ul darpolor uo klorcalor.",
+        "example_ja": "私は評議の間で森の生活者と水辺の市民を尊重する。"
+      },
+      {
+        "nrs": "darpolor",
+        "pos": "名",
+        "meaningJa": "水辺の市民、運河都市の住民、港町の市民",
+        "meaningEn": "waterside citizen, canal-town burgher, maritime resident",
+        "morphemes": [
+          "dar",
+          "polor"
+        ],
+        "etymology": "dar(しずく) + polor(市民)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vyrel el mi ia velmyren ul darpolor uo klorcalor.",
+        "example_ja": "私は評議の間で森の生活者と水辺の市民を尊重する。"
+      },
+      {
+        "nrs": "klornovor",
+        "pos": "名",
+        "meaningJa": "円卓の指導者、合議を導く議長、輪の調停役",
+        "meaningEn": "roundtable leader, council moderator, guiding convener",
+        "morphemes": [
+          "klor",
+          "novor"
+        ],
+        "etymology": "klor(円) + novor(指導者)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Relen el klornovor uo klorcalor.",
+        "example_ja": "評議の間で円卓の指導者がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-114",
+    "batch": "Batch 29",
+    "domain": "社会・大地の働き手と基本の権利・法典",
+    "title": "耕作の働き手と大地の基本法",
+    "communicative_need": "大地を耕し石を積む労働者、すべての人に保障された基本の権利、水路と大地を守る法を確かめる。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "規約を読み上げる灯守"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "農地の境界を確認する採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vymin el mi ia taldolor ul taltarin uo domom. Relen el dartaros uo domom.",
+        "japanese": "私は街の集会所で大地の働き手と基本の生存権を遵守する。街の集会所で水利の法典がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Soran el miin ia taldolor ul taltarin. Falun el dartaros al miin.",
+        "japanese": "私たちは大地の働き手と基本の生存権を明文化する。私たちに水利の法典が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "taldolor",
+        "pos": "名",
+        "meaningJa": "大地の働き手、農耕と石工の労働者、現場の職人",
+        "meaningEn": "land worker, terrestrial artisan, field laborer",
+        "morphemes": [
+          "tal",
+          "dolor"
+        ],
+        "etymology": "tal(大地) + dolor(労働者)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia taldolor ul taltarin uo domom.",
+        "example_ja": "私は街の集会所で大地の働き手と基本の生存権を遵守する。"
+      },
+      {
+        "nrs": "taltarin",
+        "pos": "名",
+        "meaningJa": "基本の生存権、大地に生きる権利、固有の市民権",
+        "meaningEn": "fundamental right, birthright of the land, inherent civic right",
+        "morphemes": [
+          "tal",
+          "tarin"
+        ],
+        "etymology": "tal(大地) + tarin(権利)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia taldolor ul taltarin uo domom.",
+        "example_ja": "私は街の集会所で大地の働き手と基本の生存権を遵守する。"
+      },
+      {
+        "nrs": "dartaros",
+        "pos": "名",
+        "meaningJa": "水利の法典、水路と水源の法規、水辺の掟",
+        "meaningEn": "water law, maritime and canal code, hydrological statute",
+        "morphemes": [
+          "dar",
+          "taros"
+        ],
+        "etymology": "dar(しずく) + taros(法)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Relen el dartaros uo domom.",
+        "example_ja": "街の集会所で水利の法典がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-115",
+    "batch": "Batch 29",
+    "domain": "人間関係・星の友情と無二の親友・感謝",
+    "title": "星下の友情と白銀の感謝",
+    "communicative_need": "同じ星を見上げて結んだ友情、苦楽を共にする親友、心からの清らかな感謝を言葉にして伝える。",
+    "agent_a": {
+      "name": "Toa",
+      "role": "航海の無事を祝う舟守"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "迎え火を焚いた灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Toa",
+        "nebulith": "Cynel el mi ia vyrcynas ul talcynor uo larar. Relen el alincynur uo larar.",
+        "japanese": "私は港の灯台下で星下の友情と盤石の親友を分かち合う。港の灯台下で白銀の謝意がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Soran el miin ia vyrcynas ul talcynor. Falun el alincynur al miin.",
+        "japanese": "私たちは星下の友情と盤石の親友を手紙に記す。私たちに白銀の謝意が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrcynas",
+        "pos": "名",
+        "meaningJa": "星下の友情、変わらぬ友愛、星に誓う絆",
+        "meaningEn": "starlit friendship, enduring camaraderie, astral bond of amity",
+        "morphemes": [
+          "vyr",
+          "cynas"
+        ],
+        "etymology": "vyr(星) + cynas(友情)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Cynel el mi ia vyrcynas ul talcynor uo larar.",
+        "example_ja": "私は港の灯台下で星下の友情と盤石の親友を分かち合う。"
+      },
+      {
+        "nrs": "talcynor",
+        "pos": "名",
+        "meaningJa": "盤石の親友、生涯の盟友、頼れる無二の友",
+        "meaningEn": "steadfast confidant, lifelong bosom friend, grounded companion",
+        "morphemes": [
+          "tal",
+          "cynor"
+        ],
+        "etymology": "tal(大地) + cynor(親友)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Cynel el mi ia vyrcynas ul talcynor uo larar.",
+        "example_ja": "私は港の灯台下で星下の友情と盤石の親友を分かち合う。"
+      },
+      {
+        "nrs": "alincynur",
+        "pos": "名",
+        "meaningJa": "白銀の謝意、清らかな感謝の念、無垢の礼意",
+        "meaningEn": "pure gratitude, wholehearted thanks, sincere appreciation",
+        "morphemes": [
+          "alin",
+          "cynur"
+        ],
+        "etymology": "alin(白い) + cynur(感謝)",
+        "category": "13. 精神・感情・内省",
+        "example_sentence": "Relen el alincynur uo larar.",
+        "example_ja": "港の灯台下で白銀の謝意がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-116",
+    "batch": "Batch 29",
+    "domain": "時間・移ろう季節と新しい時代・選択肢",
+    "title": "緑の季節と星見の時代",
+    "communicative_need": "若葉が萌える緑の季節、天文学と平和が花開く新しい時代、未来に向けた賢明な選択肢を語り合う。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "年代記を編む写字生"
+    },
+    "agent_b": {
+      "name": "Neri",
+      "role": "種籾を選別する採集師"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia velhavas ul vyrhavel uo livar. Relen el alinsevur uo livar.",
+        "japanese": "私は書庫のテラスで新緑の季節と星見の時代を展望する。書庫のテラスで明快な選択肢がある。"
+      },
+      {
+        "speaker": "Neri",
+        "nebulith": "Soran el miin ia velhavas ul vyrhavel. Falun el alinsevur al miin.",
+        "japanese": "私たちは新緑の季節と星見の時代を記録する。私たちに明快な選択肢が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "velhavas",
+        "pos": "名",
+        "meaningJa": "新緑の季節、草木が茂る時節、森の萌芽期",
+        "meaningEn": "verdant season, woodland growing season, foliage time",
+        "morphemes": [
+          "vel",
+          "havas"
+        ],
+        "etymology": "vel(木) + havas(季節)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia velhavas ul vyrhavel uo livar.",
+        "example_ja": "私は書庫のテラスで新緑の季節と星見の時代を展望する。"
+      },
+      {
+        "nrs": "vyrhavel",
+        "pos": "名",
+        "meaningJa": "星見の時代、天文と航海の時代、星辰の世紀",
+        "meaningEn": "astral era, age of stargazing, celestial epoch",
+        "morphemes": [
+          "vyr",
+          "havel"
+        ],
+        "etymology": "vyr(星) + havel(時代)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia velhavas ul vyrhavel uo livar.",
+        "example_ja": "私は書庫のテラスで新緑の季節と星見の時代を展望する。"
+      },
+      {
+        "nrs": "alinsevur",
+        "pos": "名",
+        "meaningJa": "明快な選択肢、曇りなき善後策、最良の選択",
+        "meaningEn": "clear alternative, transparent option, honorable choice",
+        "morphemes": [
+          "alin",
+          "sevur"
+        ],
+        "etymology": "alin(白い) + sevur(選択肢)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Relen el alinsevur uo livar.",
+        "example_ja": "書庫のテラスで明快な選択肢がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-117",
+    "batch": "Batch 30",
+    "domain": "自然・水辺の朝日と晴天の昼・森の夕暮れ",
+    "title": "朝日の水鏡と木立の夕映え",
+    "communicative_need": "水面に昇る清々しい朝、白く輝く真昼の陽気、木立の間から差す穏やかな夕暮れを一日の巡りとして描く。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "日課表を記す写字生"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "朝舟を出す舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia talvalar ul alinsovil uo daron. Relen el velkylas uo daron.",
+        "japanese": "私は湖畔の桟橋で大地の夜明けと白光の真昼を見渡す。湖畔の桟橋で木立の夕暮れがある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Cynel el miin ia talvalar ul alinsovil. Falun el velkylas al miin.",
+        "japanese": "私たちは大地の夜明けと白光の真昼を愛でる。私たちに木立の夕暮れが輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talvalar",
+        "pos": "名",
+        "meaningJa": "大地の夜明け、野に昇る朝、地平の朝ぼらけ",
+        "meaningEn": "terrestrial morning, dawn over the land, daybreak on the plains",
+        "morphemes": [
+          "tal",
+          "valar"
+        ],
+        "etymology": "tal(大地) + valar(朝)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia talvalar ul alinsovil uo daron.",
+        "example_ja": "私は湖畔の桟橋で大地の夜明けと白光の真昼を見渡す。"
+      },
+      {
+        "nrs": "alinsovil",
+        "pos": "名",
+        "meaningJa": "白光の真昼、晴れ渡る昼下がり、明るい日中",
+        "meaningEn": "bright midday, clear sunlit daytime, radiant noon",
+        "morphemes": [
+          "alin",
+          "sovil"
+        ],
+        "etymology": "alin(白い) + sovil(昼)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia talvalar ul alinsovil uo daron.",
+        "example_ja": "私は湖畔の桟橋で大地の夜明けと白光の真昼を見渡す。"
+      },
+      {
+        "nrs": "velkylas",
+        "pos": "名",
+        "meaningJa": "木立の夕暮れ、森に降りる夕べ、樹影の黄昏",
+        "meaningEn": "forest evening, woodland twilight, sylvan dusk",
+        "morphemes": [
+          "vel",
+          "kylas"
+        ],
+        "etymology": "vel(木) + kylas(夕)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Relen el velkylas uo daron.",
+        "example_ja": "湖畔の桟橋で木立の夕暮れがある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-118",
+    "batch": "Batch 30",
+    "domain": "自然・水面に映る太陽と大地の月・聖火",
+    "title": "水鏡の太陽と地平の満月",
+    "communicative_need": "水面にきらめく太陽の光、地平線から大きく昇る月、炉で赤々と燃える清浄な火を讃える。",
+    "agent_a": {
+      "name": "Sev",
+      "role": "聖火を灯す灯守"
+    },
+    "agent_b": {
+      "name": "Toa",
+      "role": "夕凪の櫂を休める舟守"
+    },
+    "turns": [
+      {
+        "speaker": "Sev",
+        "nebulith": "Vyrel el mi ia darzohar ul taltynes uo govan. Relen el alinpyris uo govan.",
+        "japanese": "私は湖畔の広間で水鏡の太陽と地平の満月を仰ぎ見る。湖畔の広間で清浄な白炎がある。"
+      },
+      {
+        "speaker": "Toa",
+        "nebulith": "Vymin el miin ia darzohar ul taltynes. Falun el alinpyris al miin.",
+        "japanese": "私たちは水鏡の太陽と地平の満月を守り継ぐ。私たちに清浄な白炎が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darzohar",
+        "pos": "名",
+        "meaningJa": "水鏡の太陽、水面に煌めく日輪、湖上の陽光",
+        "meaningEn": "water-mirrored sun, sunlight on the water, reflected solar disc",
+        "morphemes": [
+          "dar",
+          "zohar"
+        ],
+        "etymology": "dar(しずく) + zohar(太陽)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia darzohar ul taltynes uo govan.",
+        "example_ja": "私は湖畔の広間で水鏡の太陽と地平の満月を仰ぎ見る。"
+      },
+      {
+        "nrs": "taltynes",
+        "pos": "名",
+        "meaningJa": "地平の満月、大地を照らす月、野に昇る月輪",
+        "meaningEn": "horizon moon, earth-lighting moon, low harvest moon",
+        "morphemes": [
+          "tal",
+          "tynes"
+        ],
+        "etymology": "tal(大地) + tynes(月)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Vyrel el mi ia darzohar ul taltynes uo govan.",
+        "example_ja": "私は湖畔の広間で水鏡の太陽と地平の満月を仰ぎ見る。"
+      },
+      {
+        "nrs": "alinpyris",
+        "pos": "名",
+        "meaningJa": "清浄な白炎、澄み切った炉火、聖なる白い炎",
+        "meaningEn": "pure white flame, clean hearth fire, clarified blaze",
+        "morphemes": [
+          "alin",
+          "pyris"
+        ],
+        "etymology": "alin(白い) + pyris(火)",
+        "category": "16. 日常・自然・気象",
+        "example_sentence": "Relen el alinpyris uo govan.",
+        "example_ja": "湖畔の広間で清浄な白炎がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-119",
+    "batch": "Batch 30",
+    "domain": "宇宙・深淵の彼方と銀河団・黒孔の観測",
+    "title": "星々の銀河団と深淵の天体図",
+    "communicative_need": "星々が渦巻く銀河団、光さえ吸い込む深淵の黒孔、果てしない宇宙の深淵を天体図に描き込む。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "星図を完成させる写字生"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "大望遠鏡を操る灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vyrel el mi ia vyrkyrom ul klorkyron uo livar. Relen el kymkyrim uo livar.",
+        "japanese": "私は天文台の最上階で恒星の銀河団と降着円盤の黒孔を観測する。天文台の最上階で常夜の深淵がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Soran el miin ia vyrkyrom ul klorkyron. Falun el kymkyrim al miin.",
+        "japanese": "私たちは恒星の銀河団と降着円盤の黒孔を星図に刻む。私たちに常夜の深淵が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrkyrom",
+        "pos": "名",
+        "meaningJa": "恒星の銀河団、星々が集う大星団、輝く銀河の群れ",
+        "meaningEn": "stellar galaxy cluster, luminous galactic group, star-dense supercluster",
+        "morphemes": [
+          "vyr",
+          "kyrom"
+        ],
+        "etymology": "vyr(星) + kyrom(銀河団)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia vyrkyrom ul klorkyron uo livar.",
+        "example_ja": "私は天文台の最上階で恒星の銀河団と降着円盤の黒孔を観測する。"
+      },
+      {
+        "nrs": "klorkyron",
+        "pos": "名",
+        "meaningJa": "降着円盤の黒孔、光環を伴うブラックホール、円環の暗黒星",
+        "meaningEn": "ringed black hole, accretion-ring singularity, annular dark star",
+        "morphemes": [
+          "klor",
+          "kyron"
+        ],
+        "etymology": "klor(円) + kyron(黒孔)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Vyrel el mi ia vyrkyrom ul klorkyron uo livar.",
+        "example_ja": "私は天文台の最上階で恒星の銀河団と降着円盤の黒孔を観測する。"
+      },
+      {
+        "nrs": "kymkyrim",
+        "pos": "名",
+        "meaningJa": "常夜の深淵、外宇宙の暗黒空間、果てなき深宇宙",
+        "meaningEn": "nocturnal deep space, abyssal cosmic void, outer dark expanse",
+        "morphemes": [
+          "kym",
+          "kyrim"
+        ],
+        "etymology": "kym(夜) + kyrim(深淵)",
+        "category": "1. 天文・宇宙・時空",
+        "example_sentence": "Relen el kymkyrim uo livar.",
+        "example_ja": "天文台の最上階で常夜の深淵がある。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-CONV-120",
+    "batch": "Batch 30",
+    "domain": "総括・星辰の書庫と平和の灯・未来への記録",
+    "title": "白銀の書庫と全百二十話の完結",
+    "communicative_need": "白銀に輝く星辰書庫、大地に根ざした恒久の安寧、そして未来へ手渡す星辰の記述文を讃えて全120話を結ぶ。",
+    "agent_a": {
+      "name": "Yura",
+      "role": "全巻の奥付を記す写字生"
+    },
+    "agent_b": {
+      "name": "Sev",
+      "role": "書庫の常夜灯を守る灯守"
+    },
+    "turns": [
+      {
+        "speaker": "Yura",
+        "nebulith": "Vymin el mi ia alinlivar ul talsirar uo livar. Relen el alinzevil uo livar.",
+        "japanese": "私は星辰書庫の中央で白銀の星辰書庫と大地の恒久平和を守り伝える。星辰書庫の中央で清書された記述文がある。"
+      },
+      {
+        "speaker": "Sev",
+        "nebulith": "Soran el miin ia alinlivar ul talsirar. Falun el alinzevil al miin.",
+        "japanese": "私たちは白銀の星辰書庫と大地の恒久平和を完結させる。私たちに清書された記述文が輝く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinlivar",
+        "pos": "名",
+        "meaningJa": "白銀の星辰書庫、純白の大図書館、清らかな典籍殿",
+        "meaningEn": "white astral repository, alabaster grand archive, pure library hall",
+        "morphemes": [
+          "alin",
+          "livar"
+        ],
+        "etymology": "alin(白い) + livar(星辰書庫)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia alinlivar ul talsirar uo livar.",
+        "example_ja": "私は星辰書庫の中央で白銀の星辰書庫と大地の恒久平和を守り伝える。"
+      },
+      {
+        "nrs": "talsirar",
+        "pos": "名",
+        "meaningJa": "大地の恒久平和、揺るぎない国土の安寧、盤石の平和",
+        "meaningEn": "terrestrial peace, enduring peace of the land, grounded tranquility",
+        "morphemes": [
+          "tal",
+          "sirar"
+        ],
+        "etymology": "tal(大地) + sirar(安寧)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Vymin el mi ia alinlivar ul talsirar uo livar.",
+        "example_ja": "私は星辰書庫の中央で白銀の星辰書庫と大地の恒久平和を守り伝える。"
+      },
+      {
+        "nrs": "alinzevil",
+        "pos": "名",
+        "meaningJa": "清書された記述文、一点の曇りなき正本記述、完成された星辰譜",
+        "meaningEn": "fair-copied celestial script, immaculate canonical notation, purely transcribed scroll",
+        "morphemes": [
+          "alin",
+          "zevil"
+        ],
+        "etymology": "alin(白い) + zevil(星辰記述文)",
+        "category": "14. コミュニケーション・言語・社会",
+        "example_sentence": "Relen el alinzevil uo livar.",
+        "example_ja": "星辰書庫の中央で清書された記述文がある。"
+      }
+    ]
+  }
+]

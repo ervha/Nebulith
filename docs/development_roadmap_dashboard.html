@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+    color: var(--foreground, #f8fafc);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background: transparent;
+  }
+
+  .dashboard-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .stat-card {
+    background: var(--card, rgba(30, 41, 59, 0.5));
+    border: 1px solid var(--border, #334155);
+    border-radius: var(--radius, 8px);
+    padding: 12px 14px;
+  }
+  .stat-label { font-size: 11px; color: var(--muted-foreground, #94a3b8); font-weight: 600; text-transform: uppercase; }
+  .stat-val { font-size: 22px; font-weight: 700; color: var(--foreground, #f8fafc); margin: 4px 0 2px; }
+  .stat-note { font-size: 11px; color: var(--success, #34d399); }
+
+  .card-box {
+    background: var(--card, rgba(30, 41, 59, 0.5));
+    border: 1px solid var(--border, #334155);
+    border-radius: var(--radius, 8px);
+    padding: 14px 16px;
+  }
+
+  .section-h {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--foreground, #f8fafc);
+  }
+  .section-h::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 13px;
+    background: var(--primary, #38bdf8);
+    border-radius: 2px;
+  }
+
+  .progress-wrap { margin-bottom: 6px; }
+  .progress-bar-bg {
+    height: 10px;
+    background: var(--border, #334155);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+  }
+  .seg-conv { background: var(--success, #34d399); width: 49.0%; }
+  .seg-colab { background: var(--primary, #38bdf8); width: 2.9%; }
+  .legend-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 8px;
+    font-size: 11px;
+    color: var(--muted-foreground, #94a3b8);
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 12px;
+  }
+  .pillar-card {
+    background: var(--card, rgba(30, 41, 59, 0.5));
+    border: 1px solid var(--border, #334155);
+    border-radius: var(--radius, 8px);
+    padding: 12px;
+  }
+  .pillar-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 6px;
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--primary, #38bdf8);
+  }
+  .pillar-title { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+  .pillar-desc { font-size: 11px; color: var(--muted-foreground, #94a3b8); margin-bottom: 6px; }
+  .pillar-ul { font-size: 11px; padding-left: 14px; margin: 0; }
+  .pillar-ul li { margin-bottom: 3px; }
+
+  .tbl-custom {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  .tbl-custom th {
+    text-align: left;
+    padding: 8px 10px;
+    color: var(--muted-foreground, #94a3b8);
+    font-weight: 600;
+    border-bottom: 1px solid var(--border, #334155);
+  }
+  .tbl-custom td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border, #334155);
+    vertical-align: top;
+  }
+  .tbl-custom tr:last-child td { border-bottom: none; }
+  .badge-p {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .b-high { background: rgba(244, 63, 94, 0.15); color: var(--destructive, #f43f5e); }
+  .b-mid { background: rgba(251, 191, 36, 0.15); color: var(--warning, #fbbf24); }
+</style>
+</head>
+<body>
+<div class="dashboard-wrap">
+  <!-- Key Metrics -->
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-label">正本自立語根</div>
+      <div class="stat-val">1,008<span style="font-size:12px; font-weight:normal; color:var(--muted-foreground, #94a3b8);"> 語</span></div>
+      <div class="stat-note">基準正本辞書（不変保全）</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">救済検証済複合語</div>
+      <div class="stat-val" style="color:var(--primary, #38bdf8);">530<span style="font-size:12px; font-weight:normal; color:var(--muted-foreground, #94a3b8);"> 語</span></div>
+      <div class="stat-note">177対話 / 監査フラグ0件</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">典籍『対話篇』</div>
+      <div class="stat-val" style="color:var(--success, #34d399);">439<span style="font-size:12px; font-weight:normal; color:var(--muted-foreground, #94a3b8);"> 頁</span></div>
+      <div class="stat-note">第6巻決定版 (PDF/HTML/MD)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">昇格シミュレーション</div>
+      <div class="stat-val" style="color:var(--accent, #c084fc);">902<span style="font-size:12px; font-weight:normal; color:var(--muted-foreground, #94a3b8);"> 語</span></div>
+      <div class="stat-note">衝突0件 (372+530語検証済)</div>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="card-box">
+    <div class="section-h">旧保留台帳候補（全1,020件）の正本複合語化進捗</div>
+    <div class="progress-wrap">
+      <div style="display:flex; justify-content:space-between; font-size:11px; margin-bottom:4px; font-weight:600;">
+        <span>救済進捗ステータス</span>
+        <span>52.0% (530 / 1,020 語)</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="seg-conv"></div>
+        <div class="seg-colab"></div>
+      </div>
+    </div>
+    <div class="legend-row">
+      <div class="legend-item"><div class="dot" style="background:var(--success, #34d399);"></div>日常会話完了 (CONV: 500語 / 100%)</div>
+      <div class="legend-item"><div class="dot" style="background:var(--primary, #38bdf8);"></div>協同土木編着手 (COLAB: 30語救済済)</div>
+      <div class="legend-item"><div class="dot" style="background:var(--border, #334155);"></div>残保留 (COLAB 327 + SUPP 131 + 他: 計490語)</div>
+    </div>
+  </div>
+
+  <!-- 4 Pillars Roadmap -->
+  <div class="pillars-grid">
+    <div class="pillar-card">
+      <span class="pillar-badge">Pillar 1: 語彙＆コーパス</span>
+      <div class="pillar-title">残490語の段階的救済</div>
+      <div class="pillar-desc">専門対話シナリオと厳密な2話者監査による正本複合語化。</div>
+      <ul class="pillar-ul">
+        <li><strong>COLAB編（残327語）</strong>: 都市工学・水利・天文学・冶金技術</li>
+        <li><strong>SUPP/UNIV（163語）</strong>: 典籍補完・抽象哲学術語</li>
+      </ul>
+    </div>
+    <div class="pillar-card">
+      <span class="pillar-badge">Pillar 2: 言語処理</span>
+      <div class="pillar-title">双方向構文解析の高度化</div>
+      <div class="pillar-desc">重文（den, sol）に続き、関係節や疑問文、複合相を実装。</div>
+      <ul class="pillar-ul">
+        <li><strong>連体修飾・関係節</strong>: <code>ia [N] en [Clause]</code> 多層構文</li>
+        <li><strong>疑問文体系</strong>: 疑問助詞 <code>ka</code> / 疑問詞の双方向変換</li>
+      </ul>
+    </div>
+    <div class="pillar-card">
+      <span class="pillar-badge">Pillar 3: Web Studio & UX</span>
+      <div class="pillar-title">PWA開発環境の拡充</div>
+      <div class="pillar-desc">ブラウザ上での文法学習と語根参照・構文図解を強化。</div>
+      <ul class="pillar-ul">
+        <li><strong>構文ツリー可視化</strong>: VSO構造と格付与のリアルタイム図解</li>
+        <li><strong>語根逆引きツールチップ</strong>: 複合語の形態素即時インスペクト</li>
+      </ul>
+    </div>
+    <div class="pillar-card">
+      <span class="pillar-badge">Pillar 4: 文芸・組版</span>
+      <div class="pillar-title">典籍出版品質の完成</div>
+      <div class="pillar-desc">『ヴァルネス遺聞』第7巻・総集編と星石文字フォントの洗練。</div>
+      <ul class="pillar-ul">
+        <li><strong>『ヴァルネス遺聞』総集編</strong>: 1,000語網羅の大判PDF/HTML</li>
+        <li><strong>合字・記数法</strong>: OpenType機能と組版自動化</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Improvement Proposals Table -->
+  <div class="card-box">
+    <div class="section-h">現状の課題と具体的な改善提案</div>
+    <table class="tbl-custom">
+      <thead>
+        <tr>
+          <th style="width:22%;">項目 / 領域</th>
+          <th style="width:38%;">現状の課題</th>
+          <th style="width:30%;">改善施策</th>
+          <th style="width:10%;">優先度</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>シナリオ定義の巨大化</strong></td>
+          <td><code>curated_canonical_compounds.py</code> が1.2万行を超え、保守性と読み込み速度に課題。</td>
+          <td>シナリオをバッチ別・カテゴリ別にモジュール分割（<code>scenarios/*.json</code>）。</td>
+          <td><span class="badge-p b-high">高</span></td>
+        </tr>
+        <tr>
+          <td><strong>翻訳エンジンの構文幅</strong></td>
+          <td>関係代名詞節・疑問文・受動態の翻訳ルールが未実装。</td>
+          <td><code>web/bidirectional.js</code> に連体修飾・疑問助詞 <code>ka</code> のパーサーを追加。</td>
+          <td><span class="badge-p b-high">高</span></td>
+        </tr>
+        <tr>
+          <td><strong>残留候補490語の救済</strong></td>
+          <td>専門性の高い語彙（天文学・治水・石工）の対話シナリオ設計が必要。</td>
+          <td>専門ドメインごとに10シナリオ（30語）単位で段階的救済スプリントを実行。</td>
+          <td><span class="badge-p b-high">高</span></td>
+        </tr>
+        <tr>
+          <td><strong>言語評議会昇格運用</strong></td>
+          <td>シミュレータ検証済みの530語の生産辞書マージ運用基準が未制定。</td>
+          <td>第1期（日常会話）または全救済完了時の昇格マージ手順書・基準の公式化。</td>
+          <td><span class="badge-p b-mid">中</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>

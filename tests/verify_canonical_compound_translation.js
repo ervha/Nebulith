@@ -57,7 +57,32 @@ const r8 = bi.translateEnglishToNebulith('I walk to house with you.');
 assert.equal(r8.success, true);
 assert.ok(r8.text.includes('to govan ku ti'), 'Expected to govan ku ti in ' + r8.text);
 
-// 8. Incremental translator check
+// 8. Interrogative Particle 'ro' (Nebulith -> Japanese & English)
+const r9Ja = bi.translateNebulith('Poran el ti to govan ro?', 'ja');
+assert.equal(r9Ja.success, true);
+assert.ok(r9Ja.text.includes('歩くか？'), 'Expected 歩くか？ in ' + r9Ja.text);
+
+const r9En = bi.translateNebulith('Poran el ti to govan ro?', 'en');
+assert.equal(r9En.success, true);
+assert.ok(r9En.text.startsWith('Do you walk'), 'Expected Do you walk in ' + r9En.text);
+assert.ok(r9En.text.endsWith('?'), 'Expected ? in ' + r9En.text);
+
+// 9. English Question -> Nebulith with 'ro?' (No 'ka')
+const r10 = bi.translateEnglishToNebulith('Do you walk to house?');
+assert.equal(r10.success, true);
+assert.ok(r10.text.includes('ro?'), 'Expected ro? in ' + r10.text);
+assert.ok(!r10.text.includes('ka'), 'Expected NO ka in ' + r10.text);
+
+// 10. Relative clause: 'ia govan en vyrel el mi' -> 'house that I observe' / '私が 観測する 家を'
+const r11Ja = bi.translateNebulith('Vymin el ti ia govan en vyrel el mi.', 'ja');
+assert.equal(r11Ja.success, true);
+assert.ok(r11Ja.text.includes('家を'), 'Expected 家を in ' + r11Ja.text);
+
+const r11En = bi.translateNebulith('Vymin el ti ia govan en vyrel el mi.', 'en');
+assert.equal(r11En.success, true);
+assert.ok(r11En.text.includes('that'), 'Expected that in ' + r11En.text);
+
+// 11. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -65,4 +90,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8 }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En }));
