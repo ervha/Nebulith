@@ -1,0 +1,969 @@
+[
+  {
+    "scenario_id": "CANON-FORGE-01",
+    "batch": "Batch 94",
+    "domain": "冶金工芸・合金製錬",
+    "title": "製錬坩堝と冶金相平衡律",
+    "communicative_need": "合金製錬技師長と結晶金属工芸士が製錬坩堝と冶金相平衡律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Hephaes",
+      "role": "合金製錬技師長"
+    },
+    "agent_b": {
+      "name": "Chrysa",
+      "role": "結晶金属工芸士"
+    },
+    "turns": [
+      {
+        "speaker": "Hephaes",
+        "nebulith": "Vyreler el mi uo kymkyrin to dar. Vyreler el mi uo kymtyril to dar. Vyreler el mi uo kymdolas to dar.",
+        "japanese": "私は金属支柱（kymkyrin）を観測・記録します。私は製錬坩堝（kymtyril）を観測・記録します。私は冶金相平衡律（kymdolas）を観測・記録します。"
+      },
+      {
+        "speaker": "Chrysa",
+        "nebulith": "Ve, kymkyrin el alin to toren. kymtyril el alin to toren. kymdolas el alin to toren.",
+        "japanese": "ええ、その金属支柱（kymkyrin）は確かな秩序に基づいています。その製錬坩堝（kymtyril）は確かな秩序に基づいています。その冶金相平衡律（kymdolas）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymkyrin",
+        "pos": "名",
+        "meaningJa": "金属支柱、鋳鉄鍛造柱、金敷主柱",
+        "meaningEn": "metallic pillar, forged anvil pier, iron support post",
+        "morphemes": [
+          "kym",
+          "kyrin"
+        ],
+        "etymology": "kym(夜) + kyrin(黒い)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo kymkyrin to dar.",
+        "example_ja": "私は金属支柱を観測・記録します。"
+      },
+      {
+        "nrs": "kymtyril",
+        "pos": "名",
+        "meaningJa": "製錬坩堝、鋳造るつぼ殻、耐熱金属容器",
+        "meaningEn": "smelting crucible, metal casting vessel, metallurgical crucible",
+        "morphemes": [
+          "kym",
+          "tyril"
+        ],
+        "etymology": "kym(夜) + tyril(潮汐力)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo kymtyril to dar.",
+        "example_ja": "私は製錬坩堝を観測・記録します。"
+      },
+      {
+        "nrs": "kymdolas",
+        "pos": "名",
+        "meaningJa": "冶金相平衡律、合金状態図則、金属製錬規範",
+        "meaningEn": "metallurgical phase rule, alloy equilibrium law",
+        "morphemes": [
+          "kym",
+          "dolas"
+        ],
+        "etymology": "kym(夜) + dolas(鋳型)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kymdolas to dar.",
+        "example_ja": "私は冶金相平衡律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-FORGE-02",
+    "batch": "Batch 94",
+    "domain": "冶金工芸・合金製錬",
+    "title": "金属微結晶と引張強度限界",
+    "communicative_need": "熱間鍛造職人と冶金材料試験手が金属微結晶と引張強度限界について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Volkan",
+      "role": "熱間鍛造職人"
+    },
+    "agent_b": {
+      "name": "Metalla",
+      "role": "冶金材料試験手"
+    },
+    "turns": [
+      {
+        "speaker": "Volkan",
+        "nebulith": "Vyreler el mi uo kymrenan to dar. Vyreler el mi uo kymtoren to dar. Vyreler el mi uo torkym to dar.",
+        "japanese": "私は鉱石母岩盤（kymrenan）を観測・記録します。私は結晶格子間隔比（kymtoren）を観測・記録します。私は金属微結晶体（torkym）を観測・記録します。"
+      },
+      {
+        "speaker": "Metalla",
+        "nebulith": "Ve, kymrenan el alin to toren. kymtoren el alin to toren. torkym el alin to toren.",
+        "japanese": "ええ、その鉱石母岩盤（kymrenan）は確かな秩序に基づいています。その結晶格子間隔比（kymtoren）は確かな秩序に基づいています。その金属微結晶体（torkym）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymrenan",
+        "pos": "名",
+        "meaningJa": "鉱石母岩盤、金属鉱脈層、含金属岩床",
+        "meaningEn": "metalliferous bedrock, ore-bearing vein stratum",
+        "morphemes": [
+          "kym",
+          "renan"
+        ],
+        "etymology": "kym(夜) + renan(交易)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo kymrenan to dar.",
+        "example_ja": "私は鉱石母岩盤を観測・記録します。"
+      },
+      {
+        "nrs": "kymtoren",
+        "pos": "名",
+        "meaningJa": "結晶格子間隔比、金属原子間隔、結晶格子の歩長",
+        "meaningEn": "crystal lattice spacing, metallic atomic spacing ratio",
+        "morphemes": [
+          "kym",
+          "toren"
+        ],
+        "etymology": "kym(夜) + toren(来る)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kymtoren to dar.",
+        "example_ja": "私は結晶格子間隔比を観測・記録します。"
+      },
+      {
+        "nrs": "torkym",
+        "pos": "名",
+        "meaningJa": "金属微結晶体、合金晶析体、金属デンドライト",
+        "meaningEn": "metallic microcrystallite, alloy crystallite, metallic crystal dendrite",
+        "morphemes": [
+          "tor",
+          "kym"
+        ],
+        "etymology": "tor(しかし) + kym(夜)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo torkym to dar.",
+        "example_ja": "私は金属微結晶体を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-FORGE-03",
+    "batch": "Batch 94",
+    "domain": "冶金工芸・合金製錬",
+    "title": "熱間鍛造成形と柱状晶組織",
+    "communicative_need": "鋳塊鍛金師と焼入熱処理技師が熱間鍛造成形と柱状晶組織について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Ferron",
+      "role": "鋳塊鍛金師"
+    },
+    "agent_b": {
+      "name": "Calyx",
+      "role": "焼入熱処理技師"
+    },
+    "turns": [
+      {
+        "speaker": "Ferron",
+        "nebulith": "Vyreler el mi uo torkyrin to dar. Vyreler el mi uo tortyril to dar.",
+        "japanese": "私は引張強度限界（torkyrin）を観測・記録します。私は製錬石炭熱（tortyril）を観測・記録します。"
+      },
+      {
+        "speaker": "Calyx",
+        "nebulith": "Ve, torkyrin el alin to toren. tortyril el alin to toren.",
+        "japanese": "ええ、その引張強度限界（torkyrin）は確かな秩序に基づいています。その製錬石炭熱（tortyril）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "torkyrin",
+        "pos": "名",
+        "meaningJa": "引張強度限界、金属抗張力、合金耐荷重引力",
+        "meaningEn": "tensile strength limit, metallic tensile tenacity",
+        "morphemes": [
+          "tor",
+          "kyrin"
+        ],
+        "etymology": "tor(しかし) + kyrin(黒い)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo torkyrin to dar.",
+        "example_ja": "私は引張強度限界を観測・記録します。"
+      },
+      {
+        "nrs": "tortyril",
+        "pos": "名",
+        "meaningJa": "製錬石炭熱、鍛冶還元炭火、冶金燃料炭",
+        "meaningEn": "metallurgical reducing charcoal, smelter coal flame",
+        "morphemes": [
+          "tor",
+          "tyril"
+        ],
+        "etymology": "tor(しかし) + tyril(潮汐力)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo tortyril to dar.",
+        "example_ja": "私は製錬石炭熱を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-FORGE-04",
+    "batch": "Batch 95",
+    "domain": "冶金工芸・合金製錬",
+    "title": "晶出カプセルと単結晶成長",
+    "communicative_need": "合金製錬技師長と結晶金属工芸士が晶出カプセルと単結晶成長について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Hephaes",
+      "role": "合金製錬技師長"
+    },
+    "agent_b": {
+      "name": "Chrysa",
+      "role": "結晶金属工芸士"
+    },
+    "turns": [
+      {
+        "speaker": "Hephaes",
+        "nebulith": "Vyreler el mi uo tordolas to dar. Vyreler el mi uo torrenan to dar. Vyreler el mi uo klortor to dar.",
+        "japanese": "私は鍛造打撃成形（tordolas）を観測・記録します。私は柱状晶組織（torrenan）を観測・記録します。私は晶出カプセル（klortor）を観測・記録します。"
+      },
+      {
+        "speaker": "Chrysa",
+        "nebulith": "Ve, tordolas el alin to toren. torrenan el alin to toren. klortor el alin to toren.",
+        "japanese": "ええ、その鍛造打撃成形（tordolas）は確かな秩序に基づいています。その柱状晶組織（torrenan）は確かな秩序に基づいています。その晶出カプセル（klortor）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tordolas",
+        "pos": "名",
+        "meaningJa": "鍛造打撃成形、打槌鍛金作業、熱間鍛造打伸",
+        "meaningEn": "forge hammering, hammer-wrought smithing, hot forge shaping",
+        "morphemes": [
+          "tor",
+          "dolas"
+        ],
+        "etymology": "tor(しかし) + dolas(鋳型)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo tordolas to dar.",
+        "example_ja": "私は鍛造打撃成形を観測・記録します。"
+      },
+      {
+        "nrs": "torrenan",
+        "pos": "名",
+        "meaningJa": "柱状晶組織、結晶柱状組織、結晶支柱",
+        "meaningEn": "columnar crystal structure, directional crystal pillar",
+        "morphemes": [
+          "tor",
+          "renan"
+        ],
+        "etymology": "tor(しかし) + renan(交易)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo torrenan to dar.",
+        "example_ja": "私は柱状晶組織を観測・記録します。"
+      },
+      {
+        "nrs": "klortor",
+        "pos": "名",
+        "meaningJa": "晶出カプセル、微細結晶包有殻、晶析容器",
+        "meaningEn": "crystallite capsule, micro-crystal inclusions cell",
+        "morphemes": [
+          "klor",
+          "tor"
+        ],
+        "etymology": "klor(円) + tor(しかし)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo klortor to dar.",
+        "example_ja": "私は晶出カプセルを観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-FORGE-05",
+    "batch": "Batch 95",
+    "domain": "冶金工芸・合金製錬",
+    "title": "大型鍛造金敷と急冷焼入槽",
+    "communicative_need": "熱間鍛造職人と冶金材料試験手が大型鍛造金敷と急冷焼入槽について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Volkan",
+      "role": "熱間鍛造職人"
+    },
+    "agent_b": {
+      "name": "Metalla",
+      "role": "冶金材料試験手"
+    },
+    "turns": [
+      {
+        "speaker": "Volkan",
+        "nebulith": "Vyreler el mi uo klorterin to dar. Vyreler el mi uo klorkyrin to dar. Vyreler el mi uo klortyril to dar.",
+        "japanese": "私は晶出母材基盤（klorterin）を観測・記録します。私は結晶晶癖律（klorkyrin）を観測・記録します。私は大型鍛造金敷（klortyril）を観測・記録します。"
+      },
+      {
+        "speaker": "Metalla",
+        "nebulith": "Ve, klorterin el alin to toren. klorkyrin el alin to toren. klortyril el alin to toren.",
+        "japanese": "ええ、その晶出母材基盤（klorterin）は確かな秩序に基づいています。その結晶晶癖律（klorkyrin）は確かな秩序に基づいています。その大型鍛造金敷（klortyril）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klorterin",
+        "pos": "名",
+        "meaningJa": "晶出母材基盤、結晶析出地床、晶出母相盤",
+        "meaningEn": "crystallite substrate matrix, crystal nucleation bed",
+        "morphemes": [
+          "klor",
+          "terin"
+        ],
+        "etymology": "klor(円) + terin(温かい煎じ茶)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo klorterin to dar.",
+        "example_ja": "私は晶出母材基盤を観測・記録します。"
+      },
+      {
+        "nrs": "klorkyrin",
+        "pos": "名",
+        "meaningJa": "結晶晶癖律、結晶育成則、単結晶成長公理",
+        "meaningEn": "crystal habit rule, crystal growth governing law",
+        "morphemes": [
+          "klor",
+          "kyrin"
+        ],
+        "etymology": "klor(円) + kyrin(黒い)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo klorkyrin to dar.",
+        "example_ja": "私は結晶晶癖律を観測・記録します。"
+      },
+      {
+        "nrs": "klortyril",
+        "pos": "名",
+        "meaningJa": "大型鍛造金敷、鍛金支持台、打鎚鍛造基台",
+        "meaningEn": "forging anvil pedestal, smithing support pier, forge block",
+        "morphemes": [
+          "klor",
+          "tyril"
+        ],
+        "etymology": "klor(円) + tyril(潮汐力)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo klortyril to dar.",
+        "example_ja": "私は大型鍛造金敷を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-FORGE-06",
+    "batch": "Batch 95",
+    "domain": "冶金工芸・合金製錬",
+    "title": "製鉄炉底耐火盤と鍛冶炉床",
+    "communicative_need": "鋳塊鍛金師と焼入熱処理技師が製鉄炉底耐火盤と鍛冶炉床について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Ferron",
+      "role": "鋳塊鍛金師"
+    },
+    "agent_b": {
+      "name": "Calyx",
+      "role": "焼入熱処理技師"
+    },
+    "turns": [
+      {
+        "speaker": "Ferron",
+        "nebulith": "Vyreler el mi uo klorrenan to dar. Vyreler el mi uo klortoren to dar.",
+        "japanese": "私は鍛造焼入槽（klorrenan）を観測・記録します。私は鍛造炉床盤（klortoren）を観測・記録します。"
+      },
+      {
+        "speaker": "Calyx",
+        "nebulith": "Ve, klorrenan el alin to toren. klortoren el alin to toren.",
+        "japanese": "ええ、その鍛造焼入槽（klorrenan）は確かな秩序に基づいています。その鍛造炉床盤（klortoren）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klorrenan",
+        "pos": "名",
+        "meaningJa": "鍛造焼入槽、急冷油槽殻、鍛造焼入容器",
+        "meaningEn": "quenching bath vat, hardening quench tank shell",
+        "morphemes": [
+          "klor",
+          "renan"
+        ],
+        "etymology": "klor(円) + renan(交易)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo klorrenan to dar.",
+        "example_ja": "私は鍛造焼入槽を観測・記録します。"
+      },
+      {
+        "nrs": "klortoren",
+        "pos": "名",
+        "meaningJa": "鍛造炉床盤、製鉄炉底耐火盤、鍛冶炉床地盤",
+        "meaningEn": "forge hearth bedplate, smelting hearth refractory floor",
+        "morphemes": [
+          "klor",
+          "toren"
+        ],
+        "etymology": "klor(円) + toren(来る)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo klortoren to dar.",
+        "example_ja": "私は鍛造炉床盤を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MED-01",
+    "batch": "Batch 96",
+    "domain": "生薬調剤・生体治癒",
+    "title": "生薬チンキ滴と生体恒常性",
+    "communicative_need": "生薬調剤師長と生体治癒医術士が生薬チンキ滴と生体恒常性について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Asklep",
+      "role": "生薬調剤師長"
+    },
+    "agent_b": {
+      "name": "Hygeia",
+      "role": "生体治癒医術士"
+    },
+    "turns": [
+      {
+        "speaker": "Asklep",
+        "nebulith": "Vyreler el mi uo bionneran to dar. Biondaron el dar to miin. Vyreler el mi uo bionalin to dar.",
+        "japanese": "私は薬効生体滴（bionneran）を観測・記録します。この清浄生薬の（biondaron）道は私たちに光を与えます。私は生体滋養補給（bionalin）を観測・記録します。"
+      },
+      {
+        "speaker": "Hygeia",
+        "nebulith": "Ve, bionneran el alin to toren. Biondaron el toren to fal. bionalin el alin to toren.",
+        "japanese": "ええ、その薬効生体滴（bionneran）は確かな秩序に基づいています。清浄生薬の（biondaron）秩序は光と調和しています。その生体滋養補給（bionalin）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "bionneran",
+        "pos": "名",
+        "meaningJa": "薬効生体滴、生薬チンキ滴、薬用露滴",
+        "meaningEn": "medicinal biocatalyst drop, herbal tincture bead, bioactive droplet",
+        "morphemes": [
+          "bion",
+          "neran"
+        ],
+        "etymology": "bion(飲む) + neran(食べる)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo bionneran to dar.",
+        "example_ja": "私は薬効生体滴を観測・記録します。"
+      },
+      {
+        "nrs": "biondaron",
+        "pos": "形",
+        "meaningJa": "清浄生薬の、無菌賦活の、純薬効の",
+        "meaningEn": "purely antiseptic, sterile bioactive, cleanly therapeutic",
+        "morphemes": [
+          "bion",
+          "daron"
+        ],
+        "etymology": "bion(飲む) + daron(湖)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Biondaron el dar to miin.",
+        "example_ja": "この清浄生薬の道は私たちに光を与えます。"
+      },
+      {
+        "nrs": "bionalin",
+        "pos": "名",
+        "meaningJa": "生体滋養補給、滋養強壮食薬、薬効滋養摂取",
+        "meaningEn": "bio-trophic replenishment, therapeutic nutritional supplement",
+        "morphemes": [
+          "bion",
+          "alin"
+        ],
+        "etymology": "bion(飲む) + alin(白い)",
+        "category": "2. 人・身体・生命",
+        "example_sentence": "Vyreler el mi uo bionalin to dar.",
+        "example_ja": "私は生体滋養補給を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MED-02",
+    "batch": "Batch 96",
+    "domain": "生薬調剤・生体治癒",
+    "title": "薬草煎じ薬液と精製生薬エキス",
+    "communicative_need": "植物薬理学者と臨床調剤記録官が薬草煎じ薬液と精製生薬エキスについて討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Galen",
+      "role": "植物薬理学者"
+    },
+    "agent_b": {
+      "name": "Panacea",
+      "role": "臨床調剤記録官"
+    },
+    "turns": [
+      {
+        "speaker": "Galen",
+        "nebulith": "Vyreler el mi uo bionterin to dar. Vyreler el mi uo biontoren to dar. Vyreler el mi uo bionelner to dar.",
+        "japanese": "私は生体恒常性律（bionterin）を観測・記録します。私は生薬自生土壌（biontoren）を観測・記録します。私は生薬浸出煎液（bionelner）を観測・記録します。"
+      },
+      {
+        "speaker": "Panacea",
+        "nebulith": "Ve, bionterin el alin to toren. biontoren el alin to toren. bionelner el alin to toren.",
+        "japanese": "ええ、その生体恒常性律（bionterin）は確かな秩序に基づいています。その生薬自生土壌（biontoren）は確かな秩序に基づいています。その生薬浸出煎液（bionelner）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "bionterin",
+        "pos": "名",
+        "meaningJa": "生体恒常性律、ホメオスタシス則、生命調和律",
+        "meaningEn": "homeostatic biological law, physiological balance rule",
+        "morphemes": [
+          "bion",
+          "terin"
+        ],
+        "etymology": "bion(飲む) + terin(温かい煎じ茶)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo bionterin to dar.",
+        "example_ja": "私は生体恒常性律を観測・記録します。"
+      },
+      {
+        "nrs": "biontoren",
+        "pos": "名",
+        "meaningJa": "生薬自生土壌、薬草成育地盤、生体植物地床",
+        "meaningEn": "medicinal plant native soil, therapeutic botanical bedrock",
+        "morphemes": [
+          "bion",
+          "toren"
+        ],
+        "etymology": "bion(飲む) + toren(来る)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo biontoren to dar.",
+        "example_ja": "私は生薬自生土壌を観測・記録します。"
+      },
+      {
+        "nrs": "bionelner",
+        "pos": "名",
+        "meaningJa": "生薬浸出煎液、薬草煎じ薬液、生体抽出浸液",
+        "meaningEn": "herbal decoction fluid, medicinal infusion extract",
+        "morphemes": [
+          "bionel",
+          "ner"
+        ],
+        "etymology": "bionel(杯) + ner(滋養)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo bionelner to dar.",
+        "example_ja": "私は生薬浸出煎液を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MED-03",
+    "batch": "Batch 96",
+    "domain": "生薬調剤・生体治癒",
+    "title": "軟膏丸薬壺と生薬栄養配合",
+    "communicative_need": "生薬煎剤技士と無菌衛生管理士が軟膏丸薬壺と生薬栄養配合について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Kiron",
+      "role": "生薬煎剤技士"
+    },
+    "agent_b": {
+      "name": "Salvia",
+      "role": "無菌衛生管理士"
+    },
+    "turns": [
+      {
+        "speaker": "Kiron",
+        "nebulith": "Vyreler el mi uo neranbion to dar. Neranalin el dar to miin.",
+        "japanese": "私は生薬点眼滴（neranbion）を観測・記録します。この精製生薬の（neranalin）道は私たちに光を与えます。"
+      },
+      {
+        "speaker": "Salvia",
+        "nebulith": "Ve, neranbion el alin to toren. Neranalin el toren to fal.",
+        "japanese": "ええ、その生薬点眼滴（neranbion）は確かな秩序に基づいています。精製生薬の（neranalin）秩序は光と調和しています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "neranbion",
+        "pos": "名",
+        "meaningJa": "生薬点眼滴、薬効精油滴、抽出エリクサー滴",
+        "meaningEn": "herbal eye-drop bead, concentrated elixir drop",
+        "morphemes": [
+          "neran",
+          "bion"
+        ],
+        "etymology": "neran(食べる) + bion(飲む)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo neranbion to dar.",
+        "example_ja": "私は生薬点眼滴を観測・記録します。"
+      },
+      {
+        "nrs": "neranalin",
+        "pos": "形",
+        "meaningJa": "精製生薬の、清澄薬効成分の、高純度エキスの",
+        "meaningEn": "purified pharmaceutical, clarified bioactive, high-purity extract",
+        "morphemes": [
+          "neran",
+          "alin"
+        ],
+        "etymology": "neran(食べる) + alin(白い)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Neranalin el dar to miin.",
+        "example_ja": "この精製生薬の道は私たちに光を与えます。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MED-04",
+    "batch": "Batch 97",
+    "domain": "生薬調剤・生体治癒",
+    "title": "処方調剤律と生薬群落基盤",
+    "communicative_need": "生薬調剤師長と生体治癒医術士が処方調剤律と生薬群落基盤について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Asklep",
+      "role": "生薬調剤師長"
+    },
+    "agent_b": {
+      "name": "Hygeia",
+      "role": "生体治癒医術士"
+    },
+    "turns": [
+      {
+        "speaker": "Asklep",
+        "nebulith": "Vyreler el mi uo neranner to dar. Vyreler el mi uo daronbion to dar. Vyreler el mi uo darisbion to dar.",
+        "japanese": "私は軟膏丸薬壺（neranner）を観測・記録します。私は薬効滋養食（daronbion）を観測・記録します。私は生薬薬理調剤律（darisbion）を観測・記録します。"
+      },
+      {
+        "speaker": "Hygeia",
+        "nebulith": "Ve, neranner el alin to toren. daronbion el alin to toren. darisbion el alin to toren.",
+        "japanese": "ええ、その軟膏丸薬壺（neranner）は確かな秩序に基づいています。その薬効滋養食（daronbion）は確かな秩序に基づいています。その生薬薬理調剤律（darisbion）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "neranner",
+        "pos": "名",
+        "meaningJa": "軟膏丸薬壺、生薬カプセル殻、薬包密閉壺",
+        "meaningEn": "ointment balm jar, pharmaceutical capsule shell, pill vial",
+        "morphemes": [
+          "neran",
+          "ner"
+        ],
+        "etymology": "neran(食べる) + ner(滋養)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo neranner to dar.",
+        "example_ja": "私は軟膏丸薬壺を観測・記録します。"
+      },
+      {
+        "nrs": "daronbion",
+        "pos": "名",
+        "meaningJa": "薬効滋養食、薬膳滋養処方、生薬栄養配合",
+        "meaningEn": "medicinal tonic food, pharmacotherapeutic diet regimen",
+        "morphemes": [
+          "daron",
+          "bion"
+        ],
+        "etymology": "daron(湖) + bion(飲む)",
+        "category": "2. 人・身体・生命",
+        "example_sentence": "Vyreler el mi uo daronbion to dar.",
+        "example_ja": "私は薬効滋養食を観測・記録します。"
+      },
+      {
+        "nrs": "darisbion",
+        "pos": "名",
+        "meaningJa": "生薬薬理調剤律、薬効用量規範、処方用量律",
+        "meaningEn": "pharmacological dosage law, pharmacopoeia compounding rule",
+        "morphemes": [
+          "daris",
+          "bion"
+        ],
+        "etymology": "daris(水) + bion(飲む)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo darisbion to dar.",
+        "example_ja": "私は生薬薬理調剤律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MED-05",
+    "batch": "Batch 97",
+    "domain": "生薬調剤・生体治癒",
+    "title": "滅菌蒸留水と無菌検査記録",
+    "communicative_need": "植物薬理学者と臨床調剤記録官が滅菌蒸留水と無菌検査記録について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Galen",
+      "role": "植物薬理学者"
+    },
+    "agent_b": {
+      "name": "Panacea",
+      "role": "臨床調剤記録官"
+    },
+    "turns": [
+      {
+        "speaker": "Galen",
+        "nebulith": "Vyreler el mi uo darisalin to dar. Vyreler el mi uo darisner to dar. Vyreler el mi uo alinbion to dar.",
+        "japanese": "私は生薬自生床（darisalin）を観測・記録します。私は滅菌蒸留水滴（darisner）を観測・記録します。私は清浄無菌床盤（alinbion）を観測・記録します。"
+      },
+      {
+        "speaker": "Panacea",
+        "nebulith": "Ve, darisalin el alin to toren. darisner el alin to toren. alinbion el alin to toren.",
+        "japanese": "ええ、その生薬自生床（darisalin）は確かな秩序に基づいています。その滅菌蒸留水滴（darisner）は確かな秩序に基づいています。その清浄無菌床盤（alinbion）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darisalin",
+        "pos": "名",
+        "meaningJa": "生薬自生床、薬用植物培地層、生薬群落基盤",
+        "meaningEn": "botanical herbarium bed, medicinal vegetative stratum",
+        "morphemes": [
+          "daris",
+          "alin"
+        ],
+        "etymology": "daris(水) + alin(白い)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo darisalin to dar.",
+        "example_ja": "私は生薬自生床を観測・記録します。"
+      },
+      {
+        "nrs": "darisner",
+        "pos": "名",
+        "meaningJa": "滅菌蒸留水滴、清浄点眼水滴、洗眼清澄滴",
+        "meaningEn": "sterile distilled droplet, clarified ophthalmic bead, sterile wash drop",
+        "morphemes": [
+          "daris",
+          "ner"
+        ],
+        "etymology": "daris(水) + ner(滋養)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo darisner to dar.",
+        "example_ja": "私は滅菌蒸留水滴を観測・記録します。"
+      },
+      {
+        "nrs": "alinbion",
+        "pos": "名",
+        "meaningJa": "清浄無菌床盤、無菌室床盤、清浄基盤面",
+        "meaningEn": "aseptic clean-room flooring, sterile foundation bedplate",
+        "morphemes": [
+          "alin",
+          "bion"
+        ],
+        "etymology": "alin(白い) + bion(飲む)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo alinbion to dar.",
+        "example_ja": "私は清浄無菌床盤を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MED-06",
+    "batch": "Batch 97",
+    "domain": "生薬調剤・生体治癒",
+    "title": "体液電解質調和と点滴投与律",
+    "communicative_need": "生薬煎剤技士と無菌衛生管理士が体液電解質調和と点滴投与律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Kiron",
+      "role": "生薬煎剤技士"
+    },
+    "agent_b": {
+      "name": "Salvia",
+      "role": "無菌衛生管理士"
+    },
+    "turns": [
+      {
+        "speaker": "Kiron",
+        "nebulith": "Vyreler el mi uo alinneran to dar. Vyreler el mi uo alindaron to dar.",
+        "japanese": "私は体液電解質調和律（alinneran）を観測・記録します。私は微量点滴投薬律（alindaron）を観測・記録します。"
+      },
+      {
+        "speaker": "Salvia",
+        "nebulith": "Ve, alinneran el alin to toren. alindaron el alin to toren.",
+        "japanese": "ええ、その体液電解質調和律（alinneran）は確かな秩序に基づいています。その微量点滴投薬律（alindaron）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "alinneran",
+        "pos": "名",
+        "meaningJa": "体液電解質調和律、浸透圧平衡則、体液恒常律",
+        "meaningEn": "fluid electrolyte harmony law, osmotic equilibrium rule",
+        "morphemes": [
+          "alin",
+          "neran"
+        ],
+        "etymology": "alin(白い) + neran(食べる)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo alinneran to dar.",
+        "example_ja": "私は体液電解質調和律を観測・記録します。"
+      },
+      {
+        "nrs": "alindaron",
+        "pos": "名",
+        "meaningJa": "微量点滴投薬律、点滴速度規範、点滴投与量律",
+        "meaningEn": "micro-infusion dosage rule, intravenous drip rate law",
+        "morphemes": [
+          "alin",
+          "daron"
+        ],
+        "etymology": "alin(白い) + daron(湖)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo alindaron to dar.",
+        "example_ja": "私は微量点滴投薬律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SPEC-01",
+    "batch": "Batch 97",
+    "domain": "専門工学・特殊対話",
+    "title": "天文分光軌道線と人工衛星観測",
+    "communicative_need": "天文工学観測士と衛星軌道技師が天文分光軌道線と人工衛星観測について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Astron",
+      "role": "天文工学観測士"
+    },
+    "agent_b": {
+      "name": "Stellor",
+      "role": "衛星軌道技師"
+    },
+    "turns": [
+      {
+        "speaker": "Astron",
+        "nebulith": "Vyreler el mi uo falosvyri to dar. Vyreler el mi uo falosdar to dar.",
+        "japanese": "私は天文分光軌道線（falosvyri）を観測・記録します。私は人工衛星カプセル（falosdar）を観測・記録します。"
+      },
+      {
+        "speaker": "Stellor",
+        "nebulith": "Ve, falosvyri el alin to toren. falosdar el alin to toren.",
+        "japanese": "ええ、その天文分光軌道線（falosvyri）は確かな秩序に基づいています。その人工衛星カプセル（falosdar）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "falosvyri",
+        "pos": "名",
+        "meaningJa": "天文分光軌道線、星辰分光航路、分光観測測線",
+        "meaningEn": "astronomical spectral trajectory line",
+        "morphemes": [
+          "falos",
+          "vyri"
+        ],
+        "etymology": "falos(分光) + vyri(星辰の)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo falosvyri to dar.",
+        "example_ja": "私は天文分光軌道線を観測・記録します。"
+      },
+      {
+        "nrs": "falosdar",
+        "pos": "名",
+        "meaningJa": "人工衛星カプセル、軌道観測球殻器、星辰探査衛星殻",
+        "meaningEn": "artificial satellite capsule, orbital observatory hull",
+        "morphemes": [
+          "falos",
+          "dar"
+        ],
+        "etymology": "falos(分光) + dar(しずく)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo falosdar to dar.",
+        "example_ja": "私は人工衛星カプセルを観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SPEC-02",
+    "batch": "Batch 97",
+    "domain": "専門工学・特殊対話",
+    "title": "精緻切削石工と玄武岩アーチ力学",
+    "communicative_need": "石工構造学者と石橋架構技師が精緻切削石工と玄武岩アーチ力学について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Lithos",
+      "role": "石工構造学者"
+    },
+    "agent_b": {
+      "name": "Kamas",
+      "role": "石橋架構技師"
+    },
+    "turns": [
+      {
+        "speaker": "Lithos",
+        "nebulith": "Falosvel el dar to miin. Vyreler el mi uo falosalin to dar.",
+        "japanese": "この精緻切削石工の（falosvel）道は私たちに光を与えます。私は玄武岩柱頭（falosalin）を観測・記録します。"
+      },
+      {
+        "speaker": "Kamas",
+        "nebulith": "Ve, Falosvel el toren to fal. falosalin el alin to toren.",
+        "japanese": "ええ、精緻切削石工の（falosvel）秩序は光と調和しています。その玄武岩柱頭（falosalin）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "falosvel",
+        "pos": "形",
+        "meaningJa": "精緻切削石工の、整美な切石の、美形組石の",
+        "meaningEn": "finely dressed stonework, polished basalt ashlar",
+        "morphemes": [
+          "falos",
+          "vel"
+        ],
+        "etymology": "falos(分光) + vel(木)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Falosvel el dar to miin.",
+        "example_ja": "この精緻切削石工の道は私たちに光を与えます。"
+      },
+      {
+        "nrs": "falosalin",
+        "pos": "名",
+        "meaningJa": "玄武岩柱頭、石工アーチ力学柱、切石組積主柱",
+        "meaningEn": "basalt column pier, masonry arch load-bearing column",
+        "morphemes": [
+          "falos",
+          "alin"
+        ],
+        "etymology": "falos(分光) + alin(白い)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Vyreler el mi uo falosalin to dar.",
+        "example_ja": "私は玄武岩柱頭を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SPEC-03",
+    "batch": "Batch 97",
+    "domain": "専門工学・特殊対話",
+    "title": "深海潮流動態と潮流巡航艇",
+    "communicative_need": "海洋探査航海長と潮流巡航操船士が深海潮流動態と潮流巡航艇について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Pelagos",
+      "role": "海洋探査航海長"
+    },
+    "agent_b": {
+      "name": "Nautis",
+      "role": "潮流巡航操船士"
+    },
+    "turns": [
+      {
+        "speaker": "Pelagos",
+        "nebulith": "Vyreler el mi uo falosvyr to dar. Vyreler el mi uo vyritalyr to dar.",
+        "japanese": "私は深海潮流動態（falosvyr）を観測・記録します。私は潮流巡航艇（vyritalyr）を観測・記録します。"
+      },
+      {
+        "speaker": "Nautis",
+        "nebulith": "Ve, falosvyr el alin to toren. vyritalyr el alin to toren.",
+        "japanese": "ええ、その深海潮流動態（falosvyr）は確かな秩序に基づいています。その潮流巡航艇（vyritalyr）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "falosvyr",
+        "pos": "名",
+        "meaningJa": "深海潮流動態、海洋潮流脈流、海流大循環脈",
+        "meaningEn": "deep ocean current dynamics, marine tidal current surge",
+        "morphemes": [
+          "falos",
+          "vyr"
+        ],
+        "etymology": "falos(分光) + vyr(星)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo falosvyr to dar.",
+        "example_ja": "私は深海潮流動態を観測・記録します。"
+      },
+      {
+        "nrs": "vyritalyr",
+        "pos": "名",
+        "meaningJa": "潮流巡航艇、海流航行艇、定時航路艇",
+        "meaningEn": "tidal current cruise vessel, scheduled waterway craft",
+        "morphemes": [
+          "vyri",
+          "talyr"
+        ],
+        "etymology": "vyri(星辰の) + talyr(石)",
+        "category": "7. 交通・時間・航行",
+        "example_sentence": "Vyreler el mi uo vyritalyr to dar.",
+        "example_ja": "私は潮流巡航艇を観測・記録します。"
+      }
+    ]
+  }
+]

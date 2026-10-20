@@ -48,7 +48,7 @@ def build_and_verify_canonical_compounds(write_files: bool = True) -> dict:
     scenarios = load_all_curated_scenarios()
     scenarios_by_id = {s["scenario_id"]: [s] for s in scenarios}
 
-    # Load legacy pending candidates for explicit remediation traceability mapping
+    # Load legacy pending candidates for explicit remediation traceability mapping (1,020 total)
     legacy_ledger = json.loads((ROOT / "data/emergent_lexicon_audit.json").read_text(encoding="utf-8"))
     legacy_candidates = legacy_ledger.get("candidates", [])
     legacy_pool = [c for c in legacy_candidates if str(c.get("scenario_id", "")).startswith("CONV-")] + [
@@ -59,6 +59,20 @@ def build_and_verify_canonical_compounds(write_files: bool = True) -> dict:
         c for c in legacy_candidates if c.get("scenario_id") == "SUPP-星間"
     ] + [
         c for c in legacy_candidates if c.get("scenario_id") == "SUPP-深海"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-構造"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-内省"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-調和"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-共鳴"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-鍛造"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-薬効"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") in ("SPEC-01", "SPEC-02", "LLM-MOCK-SEA")
     ]
 
     existing_ext = inventory["extensions"]

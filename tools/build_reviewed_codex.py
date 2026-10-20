@@ -152,7 +152,7 @@ def render_pdf(html, pdf):
             story.draw(device)
             writer.end_page()
             pages += 1
-            if pages > 800:
+            if pages > 2000:
                 raise ValueError('PDF layout did not converge')
     finally:
         writer.close()

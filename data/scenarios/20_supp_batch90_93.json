@@ -1,0 +1,798 @@
+[
+  {
+    "scenario_id": "CANON-MATH-01",
+    "batch": "Batch 90",
+    "domain": "数理論理・幾何調和",
+    "title": "数理公理系と量子論理律",
+    "communicative_need": "幾何数理学者と公理計量学者が数理公理系と量子論理律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Pythor",
+      "role": "幾何数理学者"
+    },
+    "agent_b": {
+      "name": "Theano",
+      "role": "公理計量学者"
+    },
+    "turns": [
+      {
+        "speaker": "Pythor",
+        "nebulith": "Vyreler el mi uo unorradin to dar. Vyreler el mi uo unortoren to dar. Vyreler el mi uo unordelis to dar.",
+        "japanese": "私は数理公理系（unorradin）を観測・記録します。私は基準間隔尺度（unortoren）を観測・記録します。私は量子単位規準（unordelis）を観測・記録します。"
+      },
+      {
+        "speaker": "Theano",
+        "nebulith": "Ve, unorradin el alin to toren. unortoren el alin to toren. unordelis el alin to toren.",
+        "japanese": "ええ、その数理公理系（unorradin）は確かな秩序に基づいています。その基準間隔尺度（unortoren）は確かな秩序に基づいています。その量子単位規準（unordelis）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "unorradin",
+        "pos": "名",
+        "meaningJa": "数理公理系、計量規準律、数理規範体系",
+        "meaningEn": "mathematical axiomatic system, metric standard rule",
+        "morphemes": [
+          "unor",
+          "radin"
+        ],
+        "etymology": "unor(整数) + radin(軌道半径)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo unorradin to dar.",
+        "example_ja": "私は数理公理系を観測・記録します。"
+      },
+      {
+        "nrs": "unortoren",
+        "pos": "名",
+        "meaningJa": "基準間隔尺度、尺度基準比、測度間隔規準",
+        "meaningEn": "reference interval scale, metric ratio benchmark",
+        "morphemes": [
+          "unor",
+          "toren"
+        ],
+        "etymology": "unor(整数) + toren(来る)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo unortoren to dar.",
+        "example_ja": "私は基準間隔尺度を観測・記録します。"
+      },
+      {
+        "nrs": "unordelis",
+        "pos": "名",
+        "meaningJa": "量子単位規準、離散素量尺度、最小量子単位標",
+        "meaningEn": "quantum unit metric, discrete element benchmark",
+        "morphemes": [
+          "unor",
+          "delis"
+        ],
+        "etymology": "unor(整数) + delis(小数)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo unordelis to dar.",
+        "example_ja": "私は量子単位規準を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MATH-02",
+    "batch": "Batch 90",
+    "domain": "数理論理・幾何調和",
+    "title": "量子格子間隔と空間結晶群律",
+    "communicative_need": "空間群幾何士と離散論理学者が量子格子間隔と空間結晶群律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Euklos",
+      "role": "空間群幾何士"
+    },
+    "agent_b": {
+      "name": "Aletheia",
+      "role": "離散論理学者"
+    },
+    "turns": [
+      {
+        "speaker": "Euklos",
+        "nebulith": "Vyreler el mi uo unorniven to dar. Vyreler el mi uo unorkiril to dar. Vyreler el mi uo unorjytel to dar.",
+        "japanese": "私は量子論理律（unorniven）を観測・記録します。私は量子格子間隔（unorkiril）を観測・記録します。私は幾何単位胞（unorjytel）を観測・記録します。"
+      },
+      {
+        "speaker": "Aletheia",
+        "nebulith": "Ve, unorniven el alin to toren. unorkiril el alin to toren. unorjytel el alin to toren.",
+        "japanese": "ええ、その量子論理律（unorniven）は確かな秩序に基づいています。その量子格子間隔（unorkiril）は確かな秩序に基づいています。その幾何単位胞（unorjytel）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "unorniven",
+        "pos": "名",
+        "meaningJa": "量子論理律、離散調和則、量子秩序公理",
+        "meaningEn": "quantum logic law, discrete harmony rule, quantum axiom",
+        "morphemes": [
+          "unor",
+          "niven"
+        ],
+        "etymology": "unor(整数) + niven(次元)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo unorniven to dar.",
+        "example_ja": "私は量子論理律を観測・記録します。"
+      },
+      {
+        "nrs": "unorkiril",
+        "pos": "名",
+        "meaningJa": "量子格子間隔、離散格子幅、素量格子周期",
+        "meaningEn": "quantum lattice interval, discrete mesh spacing",
+        "morphemes": [
+          "unor",
+          "kiril"
+        ],
+        "etymology": "unor(整数) + kiril(関数)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo unorkiril to dar.",
+        "example_ja": "私は量子格子間隔を観測・記録します。"
+      },
+      {
+        "nrs": "unorjytel",
+        "pos": "名",
+        "meaningJa": "幾何単位胞、結晶単位格子、空間充填単位体",
+        "meaningEn": "geometric unit cell, crystal unit lattice, space-filling unit",
+        "morphemes": [
+          "unor",
+          "jytel"
+        ],
+        "etymology": "unor(整数) + jytel(ノード)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo unorjytel to dar.",
+        "example_ja": "私は幾何単位胞を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MATH-03",
+    "batch": "Batch 90",
+    "domain": "数理論理・幾何調和",
+    "title": "離散時間素量と拍動周期律",
+    "communicative_need": "数理天文学者と位相空間論者が離散時間素量と拍動周期律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Arion",
+      "role": "数理天文学者"
+    },
+    "agent_b": {
+      "name": "Kalliope",
+      "role": "位相空間論者"
+    },
+    "turns": [
+      {
+        "speaker": "Arion",
+        "nebulith": "Vyreler el mi uo unorsevur to dar. Vyreler el mi uo kvanradin to dar.",
+        "japanese": "私は幾何素量点（unorsevur）を観測・記録します。私は多面体対称則（kvanradin）を観測・記録します。"
+      },
+      {
+        "speaker": "Kalliope",
+        "nebulith": "Ve, unorsevur el alin to toren. kvanradin el alin to toren.",
+        "japanese": "ええ、その幾何素量点（unorsevur）は確かな秩序に基づいています。その多面体対称則（kvanradin）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "unorsevur",
+        "pos": "名",
+        "meaningJa": "幾何素量点、多面体離散点、結晶格点素量",
+        "meaningEn": "geometric quantum node, polyhedral discrete vertex",
+        "morphemes": [
+          "unor",
+          "sevur"
+        ],
+        "etymology": "unor(整数) + sevur(選択肢)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo unorsevur to dar.",
+        "example_ja": "私は幾何素量点を観測・記録します。"
+      },
+      {
+        "nrs": "kvanradin",
+        "pos": "名",
+        "meaningJa": "多面体対称則、幾何対称性公理、空間結晶群律",
+        "meaningEn": "polyhedral symmetry rule, geometric symmetry axiom",
+        "morphemes": [
+          "kvan",
+          "radin"
+        ],
+        "etymology": "kvan(量子) + radin(軌道半径)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kvanradin to dar.",
+        "example_ja": "私は多面体対称則を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MATH-04",
+    "batch": "Batch 91",
+    "domain": "数理論理・幾何調和",
+    "title": "幾何単位胞と位相軌道振動",
+    "communicative_need": "幾何数理学者と公理計量学者が幾何単位胞と位相軌道振動について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Pythor",
+      "role": "幾何数理学者"
+    },
+    "agent_b": {
+      "name": "Theano",
+      "role": "公理計量学者"
+    },
+    "turns": [
+      {
+        "speaker": "Pythor",
+        "nebulith": "Vyreler el mi uo kvantoren to dar. Vyreler el mi uo kvandelis to dar. Vyreler el mi uo kvanniven to dar.",
+        "japanese": "私は多角形辺長比（kvantoren）を観測・記録します。私は離散時間素量（kvandelis）を観測・記録します。私は拍動周期律（kvanniven）を観測・記録します。"
+      },
+      {
+        "speaker": "Theano",
+        "nebulith": "Ve, kvantoren el alin to toren. kvandelis el alin to toren. kvanniven el alin to toren.",
+        "japanese": "ええ、その多角形辺長比（kvantoren）は確かな秩序に基づいています。その離散時間素量（kvandelis）は確かな秩序に基づいています。その拍動周期律（kvanniven）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kvantoren",
+        "pos": "名",
+        "meaningJa": "多角形辺長比、幾何面間隔比、多面体稜線比",
+        "meaningEn": "polygon edge ratio, interplanar spacing ratio",
+        "morphemes": [
+          "kvan",
+          "toren"
+        ],
+        "etymology": "kvan(量子) + toren(来る)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kvantoren to dar.",
+        "example_ja": "私は多角形辺長比を観測・記録します。"
+      },
+      {
+        "nrs": "kvandelis",
+        "pos": "名",
+        "meaningJa": "離散時間素量、クロック量子、時間刻み素量",
+        "meaningEn": "discrete time quantum, clock tick element",
+        "morphemes": [
+          "kvan",
+          "delis"
+        ],
+        "etymology": "kvan(量子) + delis(小数)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kvandelis to dar.",
+        "example_ja": "私は離散時間素量を観測・記録します。"
+      },
+      {
+        "nrs": "kvanniven",
+        "pos": "名",
+        "meaningJa": "拍動周期律、クロック同期律、時間調和公理",
+        "meaningEn": "pulse periodicity law, clock synchrony principle",
+        "morphemes": [
+          "kvan",
+          "niven"
+        ],
+        "etymology": "kvan(量子) + niven(次元)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kvanniven to dar.",
+        "example_ja": "私は拍動周期律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MATH-05",
+    "batch": "Batch 91",
+    "domain": "数理論理・幾何調和",
+    "title": "球面調和級数律と同心球殻間隔",
+    "communicative_need": "空間群幾何士と離散論理学者が球面調和級数律と同心球殻間隔について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Euklos",
+      "role": "空間群幾何士"
+    },
+    "agent_b": {
+      "name": "Aletheia",
+      "role": "離散論理学者"
+    },
+    "turns": [
+      {
+        "speaker": "Euklos",
+        "nebulith": "Vyreler el mi uo kvankiril to dar. Vyreler el mi uo kvanjytel to dar. Vyreler el mi uo kvansevur to dar.",
+        "japanese": "私は離散拍動間隔（kvankiril）を観測・記録します。私は位相幾何軌道（kvanjytel）を観測・記録します。私は球体幾何単位（kvansevur）を観測・記録します。"
+      },
+      {
+        "speaker": "Aletheia",
+        "nebulith": "Ve, kvankiril el alin to toren. kvanjytel el alin to toren. kvansevur el alin to toren.",
+        "japanese": "ええ、その離散拍動間隔（kvankiril）は確かな秩序に基づいています。その位相幾何軌道（kvanjytel）は確かな秩序に基づいています。その球体幾何単位（kvansevur）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kvankiril",
+        "pos": "名",
+        "meaningJa": "離散拍動間隔、パルス間隔時間、拍動周期長",
+        "meaningEn": "discrete pulse interval, pulse duration space",
+        "morphemes": [
+          "kvan",
+          "kiril"
+        ],
+        "etymology": "kvan(量子) + kiril(関数)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kvankiril to dar.",
+        "example_ja": "私は離散拍動間隔を観測・記録します。"
+      },
+      {
+        "nrs": "kvanjytel",
+        "pos": "名",
+        "meaningJa": "位相幾何軌道、幾何学的周期軌道、位相空間多角軌道",
+        "meaningEn": "topological phase orbit, geometric periodic trajectory",
+        "morphemes": [
+          "kvan",
+          "jytel"
+        ],
+        "etymology": "kvan(量子) + jytel(ノード)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kvanjytel to dar.",
+        "example_ja": "私は位相幾何軌道を観測・記録します。"
+      },
+      {
+        "nrs": "kvansevur",
+        "pos": "名",
+        "meaningJa": "球体幾何単位、球殻基準度量、球面計量規準",
+        "meaningEn": "spherical metric unit, dome reference measure",
+        "morphemes": [
+          "kvan",
+          "sevur"
+        ],
+        "etymology": "kvan(量子) + sevur(選択肢)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo kvansevur to dar.",
+        "example_ja": "私は球体幾何単位を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-MATH-06",
+    "batch": "Batch 91",
+    "domain": "数理論理・幾何調和",
+    "title": "閉曲面幾何則と計量規準",
+    "communicative_need": "数理天文学者と位相空間論者が閉曲面幾何則と計量規準について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Arion",
+      "role": "数理天文学者"
+    },
+    "agent_b": {
+      "name": "Kalliope",
+      "role": "位相空間論者"
+    },
+    "turns": [
+      {
+        "speaker": "Arion",
+        "nebulith": "Vyreler el mi uo radinunor to dar. Vyreler el mi uo tulikunor to dar.",
+        "japanese": "私は球半径比率（radinunor）を観測・記録します。私は球関数調和則（tulikunor）を観測・記録します。"
+      },
+      {
+        "speaker": "Kalliope",
+        "nebulith": "Ve, radinunor el alin to toren. tulikunor el alin to toren.",
+        "japanese": "ええ、その球半径比率（radinunor）は確かな秩序に基づいています。その球関数調和則（tulikunor）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "radinunor",
+        "pos": "名",
+        "meaningJa": "球半径比率、球面曲率間隔、同心球殻間隔",
+        "meaningEn": "sphere radius ratio, concentric shell spacing",
+        "morphemes": [
+          "radin",
+          "unor"
+        ],
+        "etymology": "radin(軌道半径) + unor(整数)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo radinunor to dar.",
+        "example_ja": "私は球半径比率を観測・記録します。"
+      },
+      {
+        "nrs": "tulikunor",
+        "pos": "名",
+        "meaningJa": "球関数調和則、球面調和級数律、閉曲面幾何則",
+        "meaningEn": "spherical harmonics law, closed surface geometry rule",
+        "morphemes": [
+          "tulik",
+          "unor"
+        ],
+        "etymology": "tulik(多角形) + unor(整数)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo tulikunor to dar.",
+        "example_ja": "私は球関数調和則を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SOUND-01",
+    "batch": "Batch 92",
+    "domain": "音響共鳴・星間舞踏",
+    "title": "音波気流伝播と共鳴歓喜",
+    "communicative_need": "星間音響音楽家と舞踏律動家が音波気流伝播と共鳴歓喜について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Orpheon",
+      "role": "星間音響音楽家"
+    },
+    "agent_b": {
+      "name": "Terps",
+      "role": "舞踏律動家"
+    },
+    "turns": [
+      {
+        "speaker": "Orpheon",
+        "nebulith": "Vyreler el mi uo valiselir to dar. Vyreler el mi uo valistyni to dar. Vyreler el mi uo valisalin to dar.",
+        "japanese": "私は音波気流伝播（valiselir）を観測・記録します。私は共鳴歓喜（valistyni）を観測・記録します。私は音響調和律（valisalin）を観測・記録します。"
+      },
+      {
+        "speaker": "Terps",
+        "nebulith": "Ve, valiselir el alin to toren. valistyni el alin to toren. valisalin el alin to toren.",
+        "japanese": "ええ、その音波気流伝播（valiselir）は確かな秩序に基づいています。その共鳴歓喜（valistyni）は確かな秩序に基づいています。その音響調和律（valisalin）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "valiselir",
+        "pos": "名",
+        "meaningJa": "音波気流伝播、波動気流脈、音響気流響",
+        "meaningEn": "acoustic air propagation, sonic breeze wave",
+        "morphemes": [
+          "valis",
+          "elir"
+        ],
+        "etymology": "valis(衣服) + elir(喜び)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo valiselir to dar.",
+        "example_ja": "私は音波気流伝播を観測・記録します。"
+      },
+      {
+        "nrs": "valistyni",
+        "pos": "名",
+        "meaningJa": "共鳴歓喜、音波共振の法悦、響鳴の歓声",
+        "meaningEn": "resonance bliss, ecstatic acoustic surge, harmonic joy",
+        "morphemes": [
+          "valis",
+          "tyni"
+        ],
+        "etymology": "valis(衣服) + tyni(銀色の)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo valistyni to dar.",
+        "example_ja": "私は共鳴歓喜を観測・記録します。"
+      },
+      {
+        "nrs": "valisalin",
+        "pos": "名",
+        "meaningJa": "音響調和律、周波数倍音則、波動共鳴規範",
+        "meaningEn": "acoustic harmonic law, overtone harmonic principle",
+        "morphemes": [
+          "valis",
+          "alin"
+        ],
+        "etymology": "valis(衣服) + alin(白い)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo valisalin to dar.",
+        "example_ja": "私は音響調和律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SOUND-02",
+    "batch": "Batch 92",
+    "domain": "音響共鳴・星間舞踏",
+    "title": "電磁放射律と放射光歓声",
+    "communicative_need": "音波波動物理士と調和音階調律師が電磁放射律と放射光歓声について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Harmon",
+      "role": "音波波動物理士"
+    },
+    "agent_b": {
+      "name": "Melodia",
+      "role": "調和音階調律師"
+    },
+    "turns": [
+      {
+        "speaker": "Harmon",
+        "nebulith": "Vyreler el mi uo valurelir to dar. Vyreler el mi uo valurtyni to dar. Vyreler el mi uo valuralin to dar.",
+        "japanese": "私は放射気流流動（valurelir）を観測・記録します。私は放射光歓声（valurtyni）を観測・記録します。私は電磁放射律（valuralin）を観測・記録します。"
+      },
+      {
+        "speaker": "Melodia",
+        "nebulith": "Ve, valurelir el alin to toren. valurtyni el alin to toren. valuralin el alin to toren.",
+        "japanese": "ええ、その放射気流流動（valurelir）は確かな秩序に基づいています。その放射光歓声（valurtyni）は確かな秩序に基づいています。その電磁放射律（valuralin）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "valurelir",
+        "pos": "名",
+        "meaningJa": "放射気流流動、放射エネルギー風、電磁波気流脈",
+        "meaningEn": "radiant breeze drift, electromagnetic energy stream",
+        "morphemes": [
+          "valur",
+          "elir"
+        ],
+        "etymology": "valur(天体脈動) + elir(喜び)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo valurelir to dar.",
+        "example_ja": "私は放射気流流動を観測・記録します。"
+      },
+      {
+        "nrs": "valurtyni",
+        "pos": "名",
+        "meaningJa": "放射光歓声、星辰交信の歓喜、受光の歓喜",
+        "meaningEn": "radiance jubilation, cosmic reception joy",
+        "morphemes": [
+          "valur",
+          "tyni"
+        ],
+        "etymology": "valur(天体脈動) + tyni(銀色の)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo valurtyni to dar.",
+        "example_ja": "私は放射光歓声を観測・記録します。"
+      },
+      {
+        "nrs": "valuralin",
+        "pos": "名",
+        "meaningJa": "電磁放射律、放射減衰則、天体放射伝播則",
+        "meaningEn": "electromagnetic emission law, radiation decay rule",
+        "morphemes": [
+          "valur",
+          "alin"
+        ],
+        "etymology": "valur(天体脈動) + alin(白い)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo valuralin to dar.",
+        "example_ja": "私は電磁放射律を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SOUND-03",
+    "batch": "Batch 92",
+    "domain": "音響共鳴・星間舞踏",
+    "title": "律動気流響と舞踏法悦",
+    "communicative_need": "電磁放射音響技手と気流共鳴管弦手が律動気流響と舞踏法悦について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Phonos",
+      "role": "電磁放射音響技手"
+    },
+    "agent_b": {
+      "name": "Aura",
+      "role": "気流共鳴管弦手"
+    },
+    "turns": [
+      {
+        "speaker": "Phonos",
+        "nebulith": "Vyreler el mi uo tykvalis to dar. Vyreler el mi uo tykvalur to dar.",
+        "japanese": "私は律動気流響（tykvalis）を観測・記録します。私は舞踏律動歓喜（tykvalur）を観測・記録します。"
+      },
+      {
+        "speaker": "Aura",
+        "nebulith": "Ve, tykvalis el alin to toren. tykvalur el alin to toren.",
+        "japanese": "ええ、その律動気流響（tykvalis）は確かな秩序に基づいています。その舞踏律動歓喜（tykvalur）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tykvalis",
+        "pos": "名",
+        "meaningJa": "律動気流響、拍動する風、脈動微風音",
+        "meaningEn": "rhythmic breeze whisper, pulsating wind cadence",
+        "morphemes": [
+          "tyk",
+          "valis"
+        ],
+        "etymology": "tyk(クロック) + valis(衣服)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo tykvalis to dar.",
+        "example_ja": "私は律動気流響を観測・記録します。"
+      },
+      {
+        "nrs": "tykvalur",
+        "pos": "名",
+        "meaningJa": "舞踏律動歓喜、拍子に踊る歓び、リズム法悦",
+        "meaningEn": "rhythmic dance euphoria, cadence joy, pulse beat bliss",
+        "morphemes": [
+          "tyk",
+          "valur"
+        ],
+        "etymology": "tyk(クロック) + valur(天体脈動)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo tykvalur to dar.",
+        "example_ja": "私は舞踏律動歓喜を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SOUND-04",
+    "batch": "Batch 93",
+    "domain": "音響共鳴・星間舞踏",
+    "title": "脈動微風音と気流音響律",
+    "communicative_need": "星間音響音楽家と舞踏律動家が脈動微風音と気流音響律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Orpheon",
+      "role": "星間音響音楽家"
+    },
+    "agent_b": {
+      "name": "Terps",
+      "role": "舞踏律動家"
+    },
+    "turns": [
+      {
+        "speaker": "Orpheon",
+        "nebulith": "Vyreler el mi uo tykwylin to dar. Vyreler el mi uo tyktoren to dar. Tykfalos el dar to miin.",
+        "japanese": "私は律動波動音（tykwylin）を観測・記録します。私は律動電磁波（tyktoren）を観測・記録します。この風の歌の歓喜（tykfalos）道は私たちに光を与えます。"
+      },
+      {
+        "speaker": "Terps",
+        "nebulith": "Ve, tykwylin el alin to toren. tyktoren el alin to toren. Tykfalos el toren to fal.",
+        "japanese": "ええ、その律動波動音（tykwylin）は確かな秩序に基づいています。その律動電磁波（tyktoren）は確かな秩序に基づいています。風の歌の歓喜（tykfalos）秩序は光と調和しています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tykwylin",
+        "pos": "名",
+        "meaningJa": "律動波動音、周期拍動波、拍子音波脈",
+        "meaningEn": "rhythmic wave cadence, periodic pulse wave",
+        "morphemes": [
+          "tyk",
+          "wylin"
+        ],
+        "etymology": "tyk(クロック) + wylin(自由)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo tykwylin to dar.",
+        "example_ja": "私は律動波動音を観測・記録します。"
+      },
+      {
+        "nrs": "tyktoren",
+        "pos": "名",
+        "meaningJa": "律動電磁波、拍動放射線、パルス放射波束",
+        "meaningEn": "rhythmic electromagnetic wave, pulsed radiation stream",
+        "morphemes": [
+          "tyk",
+          "toren"
+        ],
+        "etymology": "tyk(クロック) + toren(来る)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo tyktoren to dar.",
+        "example_ja": "私は律動電磁波を観測・記録します。"
+      },
+      {
+        "nrs": "tykfalos",
+        "pos": "形",
+        "meaningJa": "風の歌の歓喜、流風共鳴歓声、息吹の歓び",
+        "meaningEn": "breeze chant bliss, resonant wind joy, breath euphoria",
+        "morphemes": [
+          "tyk",
+          "falos"
+        ],
+        "etymology": "tyk(クロック) + falos(分光)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Tykfalos el dar to miin.",
+        "example_ja": "この風の歌の歓喜道は私たちに光を与えます。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SOUND-05",
+    "batch": "Batch 93",
+    "domain": "音響共鳴・星間舞踏",
+    "title": "分光光彩気流と色彩法悦",
+    "communicative_need": "音波波動物理士と調和音階調律師が分光光彩気流と色彩法悦について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Harmon",
+      "role": "音波波動物理士"
+    },
+    "agent_b": {
+      "name": "Melodia",
+      "role": "調和音階調律師"
+    },
+    "turns": [
+      {
+        "speaker": "Harmon",
+        "nebulith": "Vyreler el mi uo tyksirin to dar. Vyreler el mi uo tykwylas to dar. Vyreler el mi uo wylinelir to dar.",
+        "japanese": "私は気流音響律（tyksirin）を観測・記録します。私は光彩気流脈（tykwylas）を観測・記録します。私は色彩法悦（wylinelir）を観測・記録します。"
+      },
+      {
+        "speaker": "Melodia",
+        "nebulith": "Ve, tyksirin el alin to toren. tykwylas el alin to toren. wylinelir el alin to toren.",
+        "japanese": "ええ、その気流音響律（tyksirin）は確かな秩序に基づいています。その光彩気流脈（tykwylas）は確かな秩序に基づいています。その色彩法悦（wylinelir）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tyksirin",
+        "pos": "名",
+        "meaningJa": "気流音響律、流動音響法則、管楽器流速律",
+        "meaningEn": "aeroacoustic law, wind resonance principle, fluid acoustic rule",
+        "morphemes": [
+          "tyk",
+          "sirin"
+        ],
+        "etymology": "tyk(クロック) + sirin(平穏)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo tyksirin to dar.",
+        "example_ja": "私は気流音響律を観測・記録します。"
+      },
+      {
+        "nrs": "tykwylas",
+        "pos": "名",
+        "meaningJa": "光彩気流脈、発光オーロラ風、分光風流",
+        "meaningEn": "auroral spectral breeze, dispersed light wind",
+        "morphemes": [
+          "tyk",
+          "wylas"
+        ],
+        "etymology": "tyk(クロック) + wylas(風)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo tykwylas to dar.",
+        "example_ja": "私は光彩気流脈を観測・記録します。"
+      },
+      {
+        "nrs": "wylinelir",
+        "pos": "名",
+        "meaningJa": "色彩法悦、スペクトル美歓喜、虹彩の歓声",
+        "meaningEn": "chromatic ecstasy, spectral visual euphoria",
+        "morphemes": [
+          "wylin",
+          "elir"
+        ],
+        "etymology": "wylin(自由) + elir(喜び)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Vyreler el mi uo wylinelir to dar.",
+        "example_ja": "私は色彩法悦を観測・記録します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-SOUND-06",
+    "batch": "Batch 93",
+    "domain": "音響共鳴・星間舞踏",
+    "title": "音色波形彩と倍音調和律",
+    "communicative_need": "電磁放射音響技手と気流共鳴管弦手が音色波形彩と倍音調和律について討議し、専門的知見を共有する。",
+    "agent_a": {
+      "name": "Phonos",
+      "role": "電磁放射音響技手"
+    },
+    "agent_b": {
+      "name": "Aura",
+      "role": "気流共鳴管弦手"
+    },
+    "turns": [
+      {
+        "speaker": "Phonos",
+        "nebulith": "Vyreler el mi uo wylintyni to dar. Vyreler el mi uo wylinalin to dar.",
+        "japanese": "私は分光調和則（wylintyni）を観測・記録します。私は音色波形彩（wylinalin）を観測・記録します。"
+      },
+      {
+        "speaker": "Aura",
+        "nebulith": "Ve, wylintyni el alin to toren. wylinalin el alin to toren.",
+        "japanese": "ええ、その分光調和則（wylintyni）は確かな秩序に基づいています。その音色波形彩（wylinalin）は確かな秩序に基づいています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "wylintyni",
+        "pos": "名",
+        "meaningJa": "分光調和則、スペクトル階調律、光彩波長律",
+        "meaningEn": "spectral harmony principle, chromatic wavelength law",
+        "morphemes": [
+          "wylin",
+          "tyni"
+        ],
+        "etymology": "wylin(自由) + tyni(銀色の)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Vyreler el mi uo wylintyni to dar.",
+        "example_ja": "私は分光調和則を観測・記録します。"
+      },
+      {
+        "nrs": "wylinalin",
+        "pos": "名",
+        "meaningJa": "音色波形彩、音色スペクトル波、音色波動",
+        "meaningEn": "timbre waveform color, acoustic timbre oscillation",
+        "morphemes": [
+          "wylin",
+          "alin"
+        ],
+        "etymology": "wylin(自由) + alin(白い)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo wylinalin to dar.",
+        "example_ja": "私は音色波形彩を観測・記録します。"
+      }
+    ]
+  }
+]

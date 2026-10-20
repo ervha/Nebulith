@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T15:49:47.459252+00:00",
+  "createdAt": "2026-10-20T16:15:19.505381+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 917,
-    "uniqueRoots": 917,
-    "uniqueIds": 917,
-    "scenarios": 307,
+    "rows": 1020,
+    "uniqueRoots": 1020,
+    "uniqueIds": 1020,
+    "scenarios": 346,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -476,7 +476,7 @@
     "<TERM> el sol va laris.": 1,
     "<TERM> el dar va vel.": 1,
     "<TERM> el ner va zyvas.": 1,
-    "Vyreler el mi uo <TERM> to dar.": 1,
+    "Vyreler el mi uo <TERM> to dar.": 92,
     "<TERM> el vyran to kyron.": 1,
     "<TERM> el wylas to vyr.": 1,
     "<TERM> el novar to zelin.": 1,
@@ -509,7 +509,8 @@
     "<TERM> el memar to suf.": 1,
     "<TERM> el valin to falos.": 1,
     "<TERM> el tal to suf.": 1,
-    "<TERM> el ner to falk.": 1
+    "<TERM> el ner to falk.": 1,
+    "<TERM> el dar to miin.": 12
   },
   "entries": [
     {
@@ -18851,6 +18852,2066 @@
         "Theron"
       ],
       "exampleTemplate": "<TERM> el ner to falk."
+    },
+    {
+      "id": 31918,
+      "nrs": "taltor",
+      "meaningJa": "礎石円柱、基壇支柱、建築主柱",
+      "meaningEn": "foundation pillar, base column, structural pier",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "tor"
+      ],
+      "scenario_id": "CANON-ARCH-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Boran",
+        "Livia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31919,
+      "nrs": "taldoran",
+      "meaningJa": "基壇トラス群、基礎石造架構、地盤結合骨組",
+      "meaningEn": "foundation truss frame, base masonry framework",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "doran"
+      ],
+      "scenario_id": "CANON-ARCH-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Boran",
+        "Livia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31920,
+      "nrs": "taltulan",
+      "meaningJa": "構造力学律、石工架構規範、建築構造律",
+      "meaningEn": "structural mechanics law, architectural framing rule",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "tulan"
+      ],
+      "scenario_id": "CANON-ARCH-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Boran",
+        "Livia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31921,
+      "nrs": "taltoren",
+      "meaningJa": "基壇石工群、礎石積層群、切石基礎層",
+      "meaningEn": "foundation stone masonry, bedrock ashlar layers",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "toren"
+      ],
+      "scenario_id": "CANON-ARCH-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31922,
+      "nrs": "taltaran",
+      "meaningJa": "尖塔頂点、高塔天頂部、建築尖塔頂",
+      "meaningEn": "spire pinnacle, tower apex, architectural apex",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "taran"
+      ],
+      "scenario_id": "CANON-ARCH-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31923,
+      "nrs": "tortal",
+      "meaningJa": "柱基礎地盤、支柱定着基盤、立柱岩盤",
+      "meaningEn": "pillar base stratum, column foundation bed",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "tal"
+      ],
+      "scenario_id": "CANON-ARCH-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31924,
+      "nrs": "torterin",
+      "meaningJa": "群柱架構、連立支柱群、複列柱トラス",
+      "meaningEn": "clustered pillar truss, multi-column arcade frame",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "terin"
+      ],
+      "scenario_id": "CANON-ARCH-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Markos",
+        "Thera"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31925,
+      "nrs": "tordoran",
+      "meaningJa": "円柱石工組、石造列柱体、円柱ブロック積",
+      "meaningEn": "masonry column assembly, stone pillar structure",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "doran"
+      ],
+      "scenario_id": "CANON-ARCH-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Markos",
+        "Thera"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31926,
+      "nrs": "tortulan",
+      "meaningJa": "支柱配列律、柱頭比例公理、列柱配置規範",
+      "meaningEn": "column spacing law, capital proportion axiom",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "tulan"
+      ],
+      "scenario_id": "CANON-ARCH-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Markos",
+        "Thera"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31927,
+      "nrs": "tortoren",
+      "meaningJa": "地下円室基盤、石造地下室床、地下穹窿基礎",
+      "meaningEn": "subterranean vault bed, stone crypt floor, crypt foundation",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "toren"
+      ],
+      "scenario_id": "CANON-ARCH-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Boran",
+        "Livia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31928,
+      "nrs": "tortulos",
+      "meaningJa": "穹窿構造則、アーチ力学律、ヴォールト架構律",
+      "meaningEn": "vault structural rule, arch mechanics law",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "tulos"
+      ],
+      "scenario_id": "CANON-ARCH-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Boran",
+        "Livia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31929,
+      "nrs": "torvorn",
+      "meaningJa": "多角柱頭、幾何彫刻柱頭、角柱束石",
+      "meaningEn": "polygonal capital, geometric column head, polygonal pier",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "vorn"
+      ],
+      "scenario_id": "CANON-ARCH-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Boran",
+        "Livia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31930,
+      "nrs": "tortaran",
+      "meaningJa": "幾何敷石地盤、多面体敷石層、敷石舗装層",
+      "meaningEn": "geometric paving stratum, polyhedral flagging bed",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "taran"
+      ],
+      "scenario_id": "CANON-ARCH-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31931,
+      "nrs": "terintal",
+      "meaningJa": "幾何組積則、切石幾何律、石工接合規範",
+      "meaningEn": "stereotomy rule, stone cutting geometric law",
+      "pos": "名",
+      "morphemes": [
+        "terin",
+        "tal"
+      ],
+      "scenario_id": "CANON-ARCH-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31932,
+      "nrs": "terintor",
+      "meaningJa": "架構主柱群、トラス結合柱、骨組交差柱",
+      "meaningEn": "framework main columns, intersecting truss piers",
+      "pos": "名",
+      "morphemes": [
+        "terin",
+        "tor"
+      ],
+      "scenario_id": "CANON-ARCH-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Helene",
+        "Kastor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31933,
+      "nrs": "dorantal",
+      "meaningJa": "骨組定着地盤、架構支持岩床、骨組基礎地盤",
+      "meaningEn": "framework anchorage stratum, superstructure support bed",
+      "pos": "名",
+      "morphemes": [
+        "doran",
+        "tal"
+      ],
+      "scenario_id": "CANON-ARCH-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Markos",
+        "Thera"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31934,
+      "nrs": "dorantor",
+      "meaningJa": "石造楣石梁、門扉上部楣石、石造開口梁",
+      "meaningEn": "stone lintel beam, masonry portal beam, header stone",
+      "pos": "名",
+      "morphemes": [
+        "doran",
+        "tor"
+      ],
+      "scenario_id": "CANON-ARCH-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Markos",
+        "Thera"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31935,
+      "nrs": "zenalin",
+      "meaningJa": "純粋理性の、澄明な思索の、明晰判明な",
+      "meaningEn": "purely rational, lucidly meditative, clearly reasoned",
+      "pos": "形",
+      "morphemes": [
+        "zen",
+        "alin"
+      ],
+      "scenario_id": "CANON-MIND-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31936,
+      "nrs": "zenelir",
+      "meaningJa": "直観的覚知、理性の歓喜、思索の歓び",
+      "meaningEn": "intuitive awakening, joy of pure reason, intellectual bliss",
+      "pos": "名",
+      "morphemes": [
+        "zen",
+        "elir"
+      ],
+      "scenario_id": "CANON-MIND-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31937,
+      "nrs": "zencynel",
+      "meaningJa": "理法秩序、因果論理律、思索の公理系",
+      "meaningEn": "rational cosmic order, causal logic principle, axiomatic law",
+      "pos": "名",
+      "morphemes": [
+        "zen",
+        "cynel"
+      ],
+      "scenario_id": "CANON-MIND-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31938,
+      "nrs": "zentoren",
+      "meaningJa": "精神潮流因果、内面思潮原理、思索潮流理",
+      "meaningEn": "mental tidal causality, internal tide philosophy",
+      "pos": "名",
+      "morphemes": [
+        "zen",
+        "toren"
+      ],
+      "scenario_id": "CANON-MIND-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31939,
+      "nrs": "zenfevas",
+      "meaningJa": "清澄な法悦、無垢なる歓喜、澄明の至福",
+      "meaningEn": "lucid ecstasy, serene pure joy, blissful clarity",
+      "pos": "形",
+      "morphemes": [
+        "zen",
+        "fevas"
+      ],
+      "scenario_id": "CANON-MIND-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31940,
+      "nrs": "zencylas",
+      "meaningJa": "明晰なる公理、純粋論理規律、澄明思考律",
+      "meaningEn": "clear axiomatic rule, pure logical discipline, lucid reason law",
+      "pos": "形",
+      "morphemes": [
+        "zen",
+        "cylas"
+      ],
+      "scenario_id": "CANON-MIND-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31941,
+      "nrs": "alinzen",
+      "meaningJa": "内面潮流澄明な、澄んだ思潮の、精神波清らかな",
+      "meaningEn": "lucidly mind-tidal, clear thought-currented",
+      "pos": "形",
+      "morphemes": [
+        "alin",
+        "zen"
+      ],
+      "scenario_id": "CANON-MIND-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31942,
+      "nrs": "alinelir",
+      "meaningJa": "調和的至福律、法悦の規律、歓喜秩序則",
+      "meaningEn": "harmonic beatitude rule, ecstatic order law",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "elir"
+      ],
+      "scenario_id": "CANON-MIND-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31943,
+      "nrs": "alincynel",
+      "meaningJa": "内面波動歓喜、心の波立ち歓、魂の潮鳴り歓",
+      "meaningEn": "joyous wave of soul, mental surge exhilaration",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "cynel"
+      ],
+      "scenario_id": "CANON-MIND-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31944,
+      "nrs": "alintoren",
+      "meaningJa": "思潮原理、潮流内省理、精神流因果律",
+      "meaningEn": "thought wave philosophy, mind current causal principle",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "toren"
+      ],
+      "scenario_id": "CANON-MIND-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31945,
+      "nrs": "alinsirin",
+      "meaningJa": "澄明心潮、精神清澄流、清明思潮",
+      "meaningEn": "clear mental tide, tranquil thought stream",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "sirin"
+      ],
+      "scenario_id": "CANON-MIND-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Philon",
+        "Sophia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31946,
+      "nrs": "alinfevas",
+      "meaningJa": "魂の歓声潮、内省歓喜波、精神潮鳴悦",
+      "meaningEn": "soul resonance joy, reflective bliss surge",
+      "pos": "形",
+      "morphemes": [
+        "alin",
+        "fevas"
+      ],
+      "scenario_id": "CANON-MIND-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31947,
+      "nrs": "alincylas",
+      "meaningJa": "静止内省原理、沈思黙考理、瞑想静思因果",
+      "meaningEn": "meditative stillness principle, quiescent reflection axiom",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "cylas"
+      ],
+      "scenario_id": "CANON-MIND-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31948,
+      "nrs": "elirzen",
+      "meaningJa": "静止澄明な、沈静清澄の、安穏明晰な",
+      "meaningEn": "quiescently tranquil, serenely clarified",
+      "pos": "形",
+      "morphemes": [
+        "elir",
+        "zen"
+      ],
+      "scenario_id": "CANON-MIND-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Cleon",
+        "Elena"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31949,
+      "nrs": "eliralin",
+      "meaningJa": "心の安堵感、帰港の至福、憩いの安寧歓",
+      "meaningEn": "tranquil relief, bliss of return, haven joy",
+      "pos": "形",
+      "morphemes": [
+        "elir",
+        "alin"
+      ],
+      "scenario_id": "CANON-MIND-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31950,
+      "nrs": "elircynel",
+      "meaningJa": "内省の静規、沈潜規律、精神定住律",
+      "meaningEn": "inner quietude rule, meditative discipline, settled mind law",
+      "pos": "形",
+      "morphemes": [
+        "elir",
+        "cynel"
+      ],
+      "scenario_id": "CANON-MIND-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Iris",
+        "Zenon"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31951,
+      "nrs": "unorradin",
+      "meaningJa": "数理公理系、計量規準律、数理規範体系",
+      "meaningEn": "mathematical axiomatic system, metric standard rule",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "radin"
+      ],
+      "scenario_id": "CANON-MATH-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31952,
+      "nrs": "unortoren",
+      "meaningJa": "基準間隔尺度、尺度基準比、測度間隔規準",
+      "meaningEn": "reference interval scale, metric ratio benchmark",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "toren"
+      ],
+      "scenario_id": "CANON-MATH-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31953,
+      "nrs": "unordelis",
+      "meaningJa": "量子単位規準、離散素量尺度、最小量子単位標",
+      "meaningEn": "quantum unit metric, discrete element benchmark",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "delis"
+      ],
+      "scenario_id": "CANON-MATH-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31954,
+      "nrs": "unorniven",
+      "meaningJa": "量子論理律、離散調和則、量子秩序公理",
+      "meaningEn": "quantum logic law, discrete harmony rule, quantum axiom",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "niven"
+      ],
+      "scenario_id": "CANON-MATH-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31955,
+      "nrs": "unorkiril",
+      "meaningJa": "量子格子間隔、離散格子幅、素量格子周期",
+      "meaningEn": "quantum lattice interval, discrete mesh spacing",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "kiril"
+      ],
+      "scenario_id": "CANON-MATH-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31956,
+      "nrs": "unorjytel",
+      "meaningJa": "幾何単位胞、結晶単位格子、空間充填単位体",
+      "meaningEn": "geometric unit cell, crystal unit lattice, space-filling unit",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "jytel"
+      ],
+      "scenario_id": "CANON-MATH-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31957,
+      "nrs": "unorsevur",
+      "meaningJa": "幾何素量点、多面体離散点、結晶格点素量",
+      "meaningEn": "geometric quantum node, polyhedral discrete vertex",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "sevur"
+      ],
+      "scenario_id": "CANON-MATH-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31958,
+      "nrs": "kvanradin",
+      "meaningJa": "多面体対称則、幾何対称性公理、空間結晶群律",
+      "meaningEn": "polyhedral symmetry rule, geometric symmetry axiom",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "radin"
+      ],
+      "scenario_id": "CANON-MATH-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31959,
+      "nrs": "kvantoren",
+      "meaningJa": "多角形辺長比、幾何面間隔比、多面体稜線比",
+      "meaningEn": "polygon edge ratio, interplanar spacing ratio",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "toren"
+      ],
+      "scenario_id": "CANON-MATH-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31960,
+      "nrs": "kvandelis",
+      "meaningJa": "離散時間素量、クロック量子、時間刻み素量",
+      "meaningEn": "discrete time quantum, clock tick element",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "delis"
+      ],
+      "scenario_id": "CANON-MATH-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31961,
+      "nrs": "kvanniven",
+      "meaningJa": "拍動周期律、クロック同期律、時間調和公理",
+      "meaningEn": "pulse periodicity law, clock synchrony principle",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "niven"
+      ],
+      "scenario_id": "CANON-MATH-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Pythor",
+        "Theano"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31962,
+      "nrs": "kvankiril",
+      "meaningJa": "離散拍動間隔、パルス間隔時間、拍動周期長",
+      "meaningEn": "discrete pulse interval, pulse duration space",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "kiril"
+      ],
+      "scenario_id": "CANON-MATH-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31963,
+      "nrs": "kvanjytel",
+      "meaningJa": "位相幾何軌道、幾何学的周期軌道、位相空間多角軌道",
+      "meaningEn": "topological phase orbit, geometric periodic trajectory",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "jytel"
+      ],
+      "scenario_id": "CANON-MATH-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31964,
+      "nrs": "kvansevur",
+      "meaningJa": "球体幾何単位、球殻基準度量、球面計量規準",
+      "meaningEn": "spherical metric unit, dome reference measure",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "sevur"
+      ],
+      "scenario_id": "CANON-MATH-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aletheia",
+        "Euklos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31965,
+      "nrs": "radinunor",
+      "meaningJa": "球半径比率、球面曲率間隔、同心球殻間隔",
+      "meaningEn": "sphere radius ratio, concentric shell spacing",
+      "pos": "名",
+      "morphemes": [
+        "radin",
+        "unor"
+      ],
+      "scenario_id": "CANON-MATH-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31966,
+      "nrs": "tulikunor",
+      "meaningJa": "球関数調和則、球面調和級数律、閉曲面幾何則",
+      "meaningEn": "spherical harmonics law, closed surface geometry rule",
+      "pos": "名",
+      "morphemes": [
+        "tulik",
+        "unor"
+      ],
+      "scenario_id": "CANON-MATH-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Arion",
+        "Kalliope"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31967,
+      "nrs": "valiselir",
+      "meaningJa": "音波気流伝播、波動気流脈、音響気流響",
+      "meaningEn": "acoustic air propagation, sonic breeze wave",
+      "pos": "名",
+      "morphemes": [
+        "valis",
+        "elir"
+      ],
+      "scenario_id": "CANON-SOUND-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31968,
+      "nrs": "valistyni",
+      "meaningJa": "共鳴歓喜、音波共振の法悦、響鳴の歓声",
+      "meaningEn": "resonance bliss, ecstatic acoustic surge, harmonic joy",
+      "pos": "名",
+      "morphemes": [
+        "valis",
+        "tyni"
+      ],
+      "scenario_id": "CANON-SOUND-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31969,
+      "nrs": "valisalin",
+      "meaningJa": "音響調和律、周波数倍音則、波動共鳴規範",
+      "meaningEn": "acoustic harmonic law, overtone harmonic principle",
+      "pos": "名",
+      "morphemes": [
+        "valis",
+        "alin"
+      ],
+      "scenario_id": "CANON-SOUND-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31970,
+      "nrs": "valurelir",
+      "meaningJa": "放射気流流動、放射エネルギー風、電磁波気流脈",
+      "meaningEn": "radiant breeze drift, electromagnetic energy stream",
+      "pos": "名",
+      "morphemes": [
+        "valur",
+        "elir"
+      ],
+      "scenario_id": "CANON-SOUND-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31971,
+      "nrs": "valurtyni",
+      "meaningJa": "放射光歓声、星辰交信の歓喜、受光の歓喜",
+      "meaningEn": "radiance jubilation, cosmic reception joy",
+      "pos": "名",
+      "morphemes": [
+        "valur",
+        "tyni"
+      ],
+      "scenario_id": "CANON-SOUND-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31972,
+      "nrs": "valuralin",
+      "meaningJa": "電磁放射律、放射減衰則、天体放射伝播則",
+      "meaningEn": "electromagnetic emission law, radiation decay rule",
+      "pos": "名",
+      "morphemes": [
+        "valur",
+        "alin"
+      ],
+      "scenario_id": "CANON-SOUND-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31973,
+      "nrs": "tykvalis",
+      "meaningJa": "律動気流響、拍動する風、脈動微風音",
+      "meaningEn": "rhythmic breeze whisper, pulsating wind cadence",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "valis"
+      ],
+      "scenario_id": "CANON-SOUND-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31974,
+      "nrs": "tykvalur",
+      "meaningJa": "舞踏律動歓喜、拍子に踊る歓び、リズム法悦",
+      "meaningEn": "rhythmic dance euphoria, cadence joy, pulse beat bliss",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "valur"
+      ],
+      "scenario_id": "CANON-SOUND-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31975,
+      "nrs": "tykwylin",
+      "meaningJa": "律動波動音、周期拍動波、拍子音波脈",
+      "meaningEn": "rhythmic wave cadence, periodic pulse wave",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "wylin"
+      ],
+      "scenario_id": "CANON-SOUND-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31976,
+      "nrs": "tyktoren",
+      "meaningJa": "律動電磁波、拍動放射線、パルス放射波束",
+      "meaningEn": "rhythmic electromagnetic wave, pulsed radiation stream",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "toren"
+      ],
+      "scenario_id": "CANON-SOUND-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31977,
+      "nrs": "tykfalos",
+      "meaningJa": "風の歌の歓喜、流風共鳴歓声、息吹の歓び",
+      "meaningEn": "breeze chant bliss, resonant wind joy, breath euphoria",
+      "pos": "形",
+      "morphemes": [
+        "tyk",
+        "falos"
+      ],
+      "scenario_id": "CANON-SOUND-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orpheon",
+        "Terps"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 31978,
+      "nrs": "tyksirin",
+      "meaningJa": "気流音響律、流動音響法則、管楽器流速律",
+      "meaningEn": "aeroacoustic law, wind resonance principle, fluid acoustic rule",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "sirin"
+      ],
+      "scenario_id": "CANON-SOUND-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31979,
+      "nrs": "tykwylas",
+      "meaningJa": "光彩気流脈、発光オーロラ風、分光風流",
+      "meaningEn": "auroral spectral breeze, dispersed light wind",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "wylas"
+      ],
+      "scenario_id": "CANON-SOUND-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31980,
+      "nrs": "wylinelir",
+      "meaningJa": "色彩法悦、スペクトル美歓喜、虹彩の歓声",
+      "meaningEn": "chromatic ecstasy, spectral visual euphoria",
+      "pos": "名",
+      "morphemes": [
+        "wylin",
+        "elir"
+      ],
+      "scenario_id": "CANON-SOUND-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Harmon",
+        "Melodia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31981,
+      "nrs": "wylintyni",
+      "meaningJa": "分光調和則、スペクトル階調律、光彩波長律",
+      "meaningEn": "spectral harmony principle, chromatic wavelength law",
+      "pos": "名",
+      "morphemes": [
+        "wylin",
+        "tyni"
+      ],
+      "scenario_id": "CANON-SOUND-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31982,
+      "nrs": "wylinalin",
+      "meaningJa": "音色波形彩、音色スペクトル波、音色波動",
+      "meaningEn": "timbre waveform color, acoustic timbre oscillation",
+      "pos": "名",
+      "morphemes": [
+        "wylin",
+        "alin"
+      ],
+      "scenario_id": "CANON-SOUND-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Aura",
+        "Phonos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31983,
+      "nrs": "kymkyrin",
+      "meaningJa": "金属支柱、鋳鉄鍛造柱、金敷主柱",
+      "meaningEn": "metallic pillar, forged anvil pier, iron support post",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "kyrin"
+      ],
+      "scenario_id": "CANON-FORGE-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31984,
+      "nrs": "kymtyril",
+      "meaningJa": "製錬坩堝、鋳造るつぼ殻、耐熱金属容器",
+      "meaningEn": "smelting crucible, metal casting vessel, metallurgical crucible",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "tyril"
+      ],
+      "scenario_id": "CANON-FORGE-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31985,
+      "nrs": "kymdolas",
+      "meaningJa": "冶金相平衡律、合金状態図則、金属製錬規範",
+      "meaningEn": "metallurgical phase rule, alloy equilibrium law",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "dolas"
+      ],
+      "scenario_id": "CANON-FORGE-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31986,
+      "nrs": "kymrenan",
+      "meaningJa": "鉱石母岩盤、金属鉱脈層、含金属岩床",
+      "meaningEn": "metalliferous bedrock, ore-bearing vein stratum",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "renan"
+      ],
+      "scenario_id": "CANON-FORGE-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31987,
+      "nrs": "kymtoren",
+      "meaningJa": "結晶格子間隔比、金属原子間隔、結晶格子の歩長",
+      "meaningEn": "crystal lattice spacing, metallic atomic spacing ratio",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "toren"
+      ],
+      "scenario_id": "CANON-FORGE-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31988,
+      "nrs": "torkym",
+      "meaningJa": "金属微結晶体、合金晶析体、金属デンドライト",
+      "meaningEn": "metallic microcrystallite, alloy crystallite, metallic crystal dendrite",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "kym"
+      ],
+      "scenario_id": "CANON-FORGE-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31989,
+      "nrs": "torkyrin",
+      "meaningJa": "引張強度限界、金属抗張力、合金耐荷重引力",
+      "meaningEn": "tensile strength limit, metallic tensile tenacity",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "kyrin"
+      ],
+      "scenario_id": "CANON-FORGE-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31990,
+      "nrs": "tortyril",
+      "meaningJa": "製錬石炭熱、鍛冶還元炭火、冶金燃料炭",
+      "meaningEn": "metallurgical reducing charcoal, smelter coal flame",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "tyril"
+      ],
+      "scenario_id": "CANON-FORGE-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31991,
+      "nrs": "tordolas",
+      "meaningJa": "鍛造打撃成形、打槌鍛金作業、熱間鍛造打伸",
+      "meaningEn": "forge hammering, hammer-wrought smithing, hot forge shaping",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "dolas"
+      ],
+      "scenario_id": "CANON-FORGE-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31992,
+      "nrs": "torrenan",
+      "meaningJa": "柱状晶組織、結晶柱状組織、結晶支柱",
+      "meaningEn": "columnar crystal structure, directional crystal pillar",
+      "pos": "名",
+      "morphemes": [
+        "tor",
+        "renan"
+      ],
+      "scenario_id": "CANON-FORGE-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31993,
+      "nrs": "klortor",
+      "meaningJa": "晶出カプセル、微細結晶包有殻、晶析容器",
+      "meaningEn": "crystallite capsule, micro-crystal inclusions cell",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "tor"
+      ],
+      "scenario_id": "CANON-FORGE-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Chrysa",
+        "Hephaes"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31994,
+      "nrs": "klorterin",
+      "meaningJa": "晶出母材基盤、結晶析出地床、晶出母相盤",
+      "meaningEn": "crystallite substrate matrix, crystal nucleation bed",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "terin"
+      ],
+      "scenario_id": "CANON-FORGE-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31995,
+      "nrs": "klorkyrin",
+      "meaningJa": "結晶晶癖律、結晶育成則、単結晶成長公理",
+      "meaningEn": "crystal habit rule, crystal growth governing law",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "kyrin"
+      ],
+      "scenario_id": "CANON-FORGE-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31996,
+      "nrs": "klortyril",
+      "meaningJa": "大型鍛造金敷、鍛金支持台、打鎚鍛造基台",
+      "meaningEn": "forging anvil pedestal, smithing support pier, forge block",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "tyril"
+      ],
+      "scenario_id": "CANON-FORGE-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Metalla",
+        "Volkan"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31997,
+      "nrs": "klorrenan",
+      "meaningJa": "鍛造焼入槽、急冷油槽殻、鍛造焼入容器",
+      "meaningEn": "quenching bath vat, hardening quench tank shell",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "renan"
+      ],
+      "scenario_id": "CANON-FORGE-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31998,
+      "nrs": "klortoren",
+      "meaningJa": "鍛造炉床盤、製鉄炉底耐火盤、鍛冶炉床地盤",
+      "meaningEn": "forge hearth bedplate, smelting hearth refractory floor",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "toren"
+      ],
+      "scenario_id": "CANON-FORGE-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Calyx",
+        "Ferron"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31999,
+      "nrs": "bionneran",
+      "meaningJa": "薬効生体滴、生薬チンキ滴、薬用露滴",
+      "meaningEn": "medicinal biocatalyst drop, herbal tincture bead, bioactive droplet",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "neran"
+      ],
+      "scenario_id": "CANON-MED-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32000,
+      "nrs": "biondaron",
+      "meaningJa": "清浄生薬の、無菌賦活の、純薬効の",
+      "meaningEn": "purely antiseptic, sterile bioactive, cleanly therapeutic",
+      "pos": "形",
+      "morphemes": [
+        "bion",
+        "daron"
+      ],
+      "scenario_id": "CANON-MED-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 32001,
+      "nrs": "bionalin",
+      "meaningJa": "生体滋養補給、滋養強壮食薬、薬効滋養摂取",
+      "meaningEn": "bio-trophic replenishment, therapeutic nutritional supplement",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "alin"
+      ],
+      "scenario_id": "CANON-MED-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32002,
+      "nrs": "bionterin",
+      "meaningJa": "生体恒常性律、ホメオスタシス則、生命調和律",
+      "meaningEn": "homeostatic biological law, physiological balance rule",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "terin"
+      ],
+      "scenario_id": "CANON-MED-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32003,
+      "nrs": "biontoren",
+      "meaningJa": "生薬自生土壌、薬草成育地盤、生体植物地床",
+      "meaningEn": "medicinal plant native soil, therapeutic botanical bedrock",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "toren"
+      ],
+      "scenario_id": "CANON-MED-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32004,
+      "nrs": "bionelner",
+      "meaningJa": "生薬浸出煎液、薬草煎じ薬液、生体抽出浸液",
+      "meaningEn": "herbal decoction fluid, medicinal infusion extract",
+      "pos": "名",
+      "morphemes": [
+        "bionel",
+        "ner"
+      ],
+      "scenario_id": "CANON-MED-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32005,
+      "nrs": "neranbion",
+      "meaningJa": "生薬点眼滴、薬効精油滴、抽出エリクサー滴",
+      "meaningEn": "herbal eye-drop bead, concentrated elixir drop",
+      "pos": "名",
+      "morphemes": [
+        "neran",
+        "bion"
+      ],
+      "scenario_id": "CANON-MED-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32006,
+      "nrs": "neranalin",
+      "meaningJa": "精製生薬の、清澄薬効成分の、高純度エキスの",
+      "meaningEn": "purified pharmaceutical, clarified bioactive, high-purity extract",
+      "pos": "形",
+      "morphemes": [
+        "neran",
+        "alin"
+      ],
+      "scenario_id": "CANON-MED-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 32007,
+      "nrs": "neranner",
+      "meaningJa": "軟膏丸薬壺、生薬カプセル殻、薬包密閉壺",
+      "meaningEn": "ointment balm jar, pharmaceutical capsule shell, pill vial",
+      "pos": "名",
+      "morphemes": [
+        "neran",
+        "ner"
+      ],
+      "scenario_id": "CANON-MED-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32008,
+      "nrs": "daronbion",
+      "meaningJa": "薬効滋養食、薬膳滋養処方、生薬栄養配合",
+      "meaningEn": "medicinal tonic food, pharmacotherapeutic diet regimen",
+      "pos": "名",
+      "morphemes": [
+        "daron",
+        "bion"
+      ],
+      "scenario_id": "CANON-MED-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32009,
+      "nrs": "darisbion",
+      "meaningJa": "生薬薬理調剤律、薬効用量規範、処方用量律",
+      "meaningEn": "pharmacological dosage law, pharmacopoeia compounding rule",
+      "pos": "名",
+      "morphemes": [
+        "daris",
+        "bion"
+      ],
+      "scenario_id": "CANON-MED-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Asklep",
+        "Hygeia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32010,
+      "nrs": "darisalin",
+      "meaningJa": "生薬自生床、薬用植物培地層、生薬群落基盤",
+      "meaningEn": "botanical herbarium bed, medicinal vegetative stratum",
+      "pos": "名",
+      "morphemes": [
+        "daris",
+        "alin"
+      ],
+      "scenario_id": "CANON-MED-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32011,
+      "nrs": "darisner",
+      "meaningJa": "滅菌蒸留水滴、清浄点眼水滴、洗眼清澄滴",
+      "meaningEn": "sterile distilled droplet, clarified ophthalmic bead, sterile wash drop",
+      "pos": "名",
+      "morphemes": [
+        "daris",
+        "ner"
+      ],
+      "scenario_id": "CANON-MED-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32012,
+      "nrs": "alinbion",
+      "meaningJa": "清浄無菌床盤、無菌室床盤、清浄基盤面",
+      "meaningEn": "aseptic clean-room flooring, sterile foundation bedplate",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "bion"
+      ],
+      "scenario_id": "CANON-MED-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Galen",
+        "Panacea"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32013,
+      "nrs": "alinneran",
+      "meaningJa": "体液電解質調和律、浸透圧平衡則、体液恒常律",
+      "meaningEn": "fluid electrolyte harmony law, osmotic equilibrium rule",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "neran"
+      ],
+      "scenario_id": "CANON-MED-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32014,
+      "nrs": "alindaron",
+      "meaningJa": "微量点滴投薬律、点滴速度規範、点滴投与量律",
+      "meaningEn": "micro-infusion dosage rule, intravenous drip rate law",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "daron"
+      ],
+      "scenario_id": "CANON-MED-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kiron",
+        "Salvia"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32015,
+      "nrs": "falosvyri",
+      "meaningJa": "天文分光軌道線、星辰分光航路、分光観測測線",
+      "meaningEn": "astronomical spectral trajectory line",
+      "pos": "名",
+      "morphemes": [
+        "falos",
+        "vyri"
+      ],
+      "scenario_id": "CANON-SPEC-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Astron",
+        "Stellor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32016,
+      "nrs": "falosdar",
+      "meaningJa": "人工衛星カプセル、軌道観測球殻器、星辰探査衛星殻",
+      "meaningEn": "artificial satellite capsule, orbital observatory hull",
+      "pos": "名",
+      "morphemes": [
+        "falos",
+        "dar"
+      ],
+      "scenario_id": "CANON-SPEC-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Astron",
+        "Stellor"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32017,
+      "nrs": "falosvel",
+      "meaningJa": "精緻切削石工の、整美な切石の、美形組石の",
+      "meaningEn": "finely dressed stonework, polished basalt ashlar",
+      "pos": "形",
+      "morphemes": [
+        "falos",
+        "vel"
+      ],
+      "scenario_id": "CANON-SPEC-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kamas",
+        "Lithos"
+      ],
+      "exampleTemplate": "<TERM> el dar to miin."
+    },
+    {
+      "id": 32018,
+      "nrs": "falosalin",
+      "meaningJa": "玄武岩柱頭、石工アーチ力学柱、切石組積主柱",
+      "meaningEn": "basalt column pier, masonry arch load-bearing column",
+      "pos": "名",
+      "morphemes": [
+        "falos",
+        "alin"
+      ],
+      "scenario_id": "CANON-SPEC-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kamas",
+        "Lithos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32019,
+      "nrs": "falosvyr",
+      "meaningJa": "深海潮流動態、海洋潮流脈流、海流大循環脈",
+      "meaningEn": "deep ocean current dynamics, marine tidal current surge",
+      "pos": "名",
+      "morphemes": [
+        "falos",
+        "vyr"
+      ],
+      "scenario_id": "CANON-SPEC-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Nautis",
+        "Pelagos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 32020,
+      "nrs": "vyritalyr",
+      "meaningJa": "潮流巡航艇、海流航行艇、定時航路艇",
+      "meaningEn": "tidal current cruise vessel, scheduled waterway craft",
+      "pos": "名",
+      "morphemes": [
+        "vyri",
+        "talyr"
+      ],
+      "scenario_id": "CANON-SPEC-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Nautis",
+        "Pelagos"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
     }
   ]
 }

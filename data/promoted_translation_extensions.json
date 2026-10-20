@@ -1,11 +1,11 @@
 {
   "version": 3,
   "status": "正本昇格済み拡張語彙台帳",
-  "generatedAt": "2026-10-20T15:51:52.106772+00:00",
+  "generatedAt": "2026-10-20T16:17:48.317119+00:00",
   "summary": {
     "preservedExistingCount": 372,
-    "promotedCandidateCount": 917,
-    "totalExtensionsCount": 1289
+    "promotedCandidateCount": 1020,
+    "totalExtensionsCount": 1392
   },
   "entries": [
     {
@@ -17480,6 +17480,1551 @@
       "morphemes": [
         "suf",
         "ner"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31918,
+      "category": "3. 道具・生活・日常",
+      "nrs": "taltor",
+      "ipa": "/taltor/",
+      "pos": "名",
+      "meaningJa": "礎石円柱、基壇支柱、建築主柱",
+      "meaningEn": "foundation pillar, base column, structural pier",
+      "notes": "Promoted canonical compound (tal(大地) + tor(しかし))",
+      "morphemes": [
+        "tal",
+        "tor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31919,
+      "category": "3. 道具・生活・日常",
+      "nrs": "taldoran",
+      "ipa": "/taldoran/",
+      "pos": "名",
+      "meaningJa": "基壇トラス群、基礎石造架構、地盤結合骨組",
+      "meaningEn": "foundation truss frame, base masonry framework",
+      "notes": "Promoted canonical compound (tal(大地) + doran(惑星))",
+      "morphemes": [
+        "tal",
+        "doran"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31920,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "taltulan",
+      "ipa": "/taltulan/",
+      "pos": "名",
+      "meaningJa": "構造力学律、石工架構規範、建築構造律",
+      "meaningEn": "structural mechanics law, architectural framing rule",
+      "notes": "Promoted canonical compound (tal(大地) + tulan(遠く))",
+      "morphemes": [
+        "tal",
+        "tulan"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31921,
+      "category": "3. 道具・生活・日常",
+      "nrs": "taltoren",
+      "ipa": "/taltoren/",
+      "pos": "名",
+      "meaningJa": "基壇石工群、礎石積層群、切石基礎層",
+      "meaningEn": "foundation stone masonry, bedrock ashlar layers",
+      "notes": "Promoted canonical compound (tal(大地) + toren(来る))",
+      "morphemes": [
+        "tal",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31922,
+      "category": "3. 道具・生活・日常",
+      "nrs": "taltaran",
+      "ipa": "/taltaran/",
+      "pos": "名",
+      "meaningJa": "尖塔頂点、高塔天頂部、建築尖塔頂",
+      "meaningEn": "spire pinnacle, tower apex, architectural apex",
+      "notes": "Promoted canonical compound (tal(大地) + taran(住まう))",
+      "morphemes": [
+        "tal",
+        "taran"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31923,
+      "category": "3. 道具・生活・日常",
+      "nrs": "tortal",
+      "ipa": "/tortal/",
+      "pos": "名",
+      "meaningJa": "柱基礎地盤、支柱定着基盤、立柱岩盤",
+      "meaningEn": "pillar base stratum, column foundation bed",
+      "notes": "Promoted canonical compound (tor(しかし) + tal(大地))",
+      "morphemes": [
+        "tor",
+        "tal"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31924,
+      "category": "3. 道具・生活・日常",
+      "nrs": "torterin",
+      "ipa": "/torterin/",
+      "pos": "名",
+      "meaningJa": "群柱架構、連立支柱群、複列柱トラス",
+      "meaningEn": "clustered pillar truss, multi-column arcade frame",
+      "notes": "Promoted canonical compound (tor(しかし) + terin(温かい煎じ茶))",
+      "morphemes": [
+        "tor",
+        "terin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31925,
+      "category": "3. 道具・生活・日常",
+      "nrs": "tordoran",
+      "ipa": "/tordoran/",
+      "pos": "名",
+      "meaningJa": "円柱石工組、石造列柱体、円柱ブロック積",
+      "meaningEn": "masonry column assembly, stone pillar structure",
+      "notes": "Promoted canonical compound (tor(しかし) + doran(惑星))",
+      "morphemes": [
+        "tor",
+        "doran"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31926,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "tortulan",
+      "ipa": "/tortulan/",
+      "pos": "名",
+      "meaningJa": "支柱配列律、柱頭比例公理、列柱配置規範",
+      "meaningEn": "column spacing law, capital proportion axiom",
+      "notes": "Promoted canonical compound (tor(しかし) + tulan(遠く))",
+      "morphemes": [
+        "tor",
+        "tulan"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31927,
+      "category": "3. 道具・生活・日常",
+      "nrs": "tortoren",
+      "ipa": "/tortoren/",
+      "pos": "名",
+      "meaningJa": "地下円室基盤、石造地下室床、地下穹窿基礎",
+      "meaningEn": "subterranean vault bed, stone crypt floor, crypt foundation",
+      "notes": "Promoted canonical compound (tor(しかし) + toren(来る))",
+      "morphemes": [
+        "tor",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31928,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "tortulos",
+      "ipa": "/tortulos/",
+      "pos": "名",
+      "meaningJa": "穹窿構造則、アーチ力学律、ヴォールト架構律",
+      "meaningEn": "vault structural rule, arch mechanics law",
+      "notes": "Promoted canonical compound (tor(しかし) + tulos(天底))",
+      "morphemes": [
+        "tor",
+        "tulos"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31929,
+      "category": "3. 道具・生活・日常",
+      "nrs": "torvorn",
+      "ipa": "/torvorn/",
+      "pos": "名",
+      "meaningJa": "多角柱頭、幾何彫刻柱頭、角柱束石",
+      "meaningEn": "polygonal capital, geometric column head, polygonal pier",
+      "notes": "Promoted canonical compound (tor(しかし) + vorn(部屋))",
+      "morphemes": [
+        "tor",
+        "vorn"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31930,
+      "category": "3. 道具・生活・日常",
+      "nrs": "tortaran",
+      "ipa": "/tortaran/",
+      "pos": "名",
+      "meaningJa": "幾何敷石地盤、多面体敷石層、敷石舗装層",
+      "meaningEn": "geometric paving stratum, polyhedral flagging bed",
+      "notes": "Promoted canonical compound (tor(しかし) + taran(住まう))",
+      "morphemes": [
+        "tor",
+        "taran"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31931,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "terintal",
+      "ipa": "/terintal/",
+      "pos": "名",
+      "meaningJa": "幾何組積則、切石幾何律、石工接合規範",
+      "meaningEn": "stereotomy rule, stone cutting geometric law",
+      "notes": "Promoted canonical compound (terin(温かい煎じ茶) + tal(大地))",
+      "morphemes": [
+        "terin",
+        "tal"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31932,
+      "category": "3. 道具・生活・日常",
+      "nrs": "terintor",
+      "ipa": "/terintor/",
+      "pos": "名",
+      "meaningJa": "架構主柱群、トラス結合柱、骨組交差柱",
+      "meaningEn": "framework main columns, intersecting truss piers",
+      "notes": "Promoted canonical compound (terin(温かい煎じ茶) + tor(しかし))",
+      "morphemes": [
+        "terin",
+        "tor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31933,
+      "category": "3. 道具・生活・日常",
+      "nrs": "dorantal",
+      "ipa": "/dorantal/",
+      "pos": "名",
+      "meaningJa": "骨組定着地盤、架構支持岩床、骨組基礎地盤",
+      "meaningEn": "framework anchorage stratum, superstructure support bed",
+      "notes": "Promoted canonical compound (doran(惑星) + tal(大地))",
+      "morphemes": [
+        "doran",
+        "tal"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31934,
+      "category": "3. 道具・生活・日常",
+      "nrs": "dorantor",
+      "ipa": "/dorantor/",
+      "pos": "名",
+      "meaningJa": "石造楣石梁、門扉上部楣石、石造開口梁",
+      "meaningEn": "stone lintel beam, masonry portal beam, header stone",
+      "notes": "Promoted canonical compound (doran(惑星) + tor(しかし))",
+      "morphemes": [
+        "doran",
+        "tor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31935,
+      "category": "4. 心・感情・感覚",
+      "nrs": "zenalin",
+      "ipa": "/zenalin/",
+      "pos": "形",
+      "meaningJa": "純粋理性の、澄明な思索の、明晰判明な",
+      "meaningEn": "purely rational, lucidly meditative, clearly reasoned",
+      "notes": "Promoted canonical compound (zen(なぜなら) + alin(白い))",
+      "morphemes": [
+        "zen",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31936,
+      "category": "4. 心・感情・感覚",
+      "nrs": "zenelir",
+      "ipa": "/zenelir/",
+      "pos": "名",
+      "meaningJa": "直観的覚知、理性の歓喜、思索の歓び",
+      "meaningEn": "intuitive awakening, joy of pure reason, intellectual bliss",
+      "notes": "Promoted canonical compound (zen(なぜなら) + elir(喜び))",
+      "morphemes": [
+        "zen",
+        "elir"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31937,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "zencynel",
+      "ipa": "/zencynel/",
+      "pos": "名",
+      "meaningJa": "理法秩序、因果論理律、思索の公理系",
+      "meaningEn": "rational cosmic order, causal logic principle, axiomatic law",
+      "notes": "Promoted canonical compound (zen(なぜなら) + cynel(愛))",
+      "morphemes": [
+        "zen",
+        "cynel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31938,
+      "category": "4. 心・感情・感覚",
+      "nrs": "zentoren",
+      "ipa": "/zentoren/",
+      "pos": "名",
+      "meaningJa": "精神潮流因果、内面思潮原理、思索潮流理",
+      "meaningEn": "mental tidal causality, internal tide philosophy",
+      "notes": "Promoted canonical compound (zen(なぜなら) + toren(来る))",
+      "morphemes": [
+        "zen",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31939,
+      "category": "4. 心・感情・感覚",
+      "nrs": "zenfevas",
+      "ipa": "/zenfevas/",
+      "pos": "形",
+      "meaningJa": "清澄な法悦、無垢なる歓喜、澄明の至福",
+      "meaningEn": "lucid ecstasy, serene pure joy, blissful clarity",
+      "notes": "Promoted canonical compound (zen(なぜなら) + fevas(信じる))",
+      "morphemes": [
+        "zen",
+        "fevas"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31940,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "zencylas",
+      "ipa": "/zencylas/",
+      "pos": "形",
+      "meaningJa": "明晰なる公理、純粋論理規律、澄明思考律",
+      "meaningEn": "clear axiomatic rule, pure logical discipline, lucid reason law",
+      "notes": "Promoted canonical compound (zen(なぜなら) + cylas(美))",
+      "morphemes": [
+        "zen",
+        "cylas"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31941,
+      "category": "4. 心・感情・感覚",
+      "nrs": "alinzen",
+      "ipa": "/alinzen/",
+      "pos": "形",
+      "meaningJa": "内面潮流澄明な、澄んだ思潮の、精神波清らかな",
+      "meaningEn": "lucidly mind-tidal, clear thought-currented",
+      "notes": "Promoted canonical compound (alin(白い) + zen(なぜなら))",
+      "morphemes": [
+        "alin",
+        "zen"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31942,
+      "category": "4. 心・感情・感覚",
+      "nrs": "alinelir",
+      "ipa": "/alinelir/",
+      "pos": "名",
+      "meaningJa": "調和的至福律、法悦の規律、歓喜秩序則",
+      "meaningEn": "harmonic beatitude rule, ecstatic order law",
+      "notes": "Promoted canonical compound (alin(白い) + elir(喜び))",
+      "morphemes": [
+        "alin",
+        "elir"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31943,
+      "category": "4. 心・感情・感覚",
+      "nrs": "alincynel",
+      "ipa": "/alincynel/",
+      "pos": "名",
+      "meaningJa": "内面波動歓喜、心の波立ち歓、魂の潮鳴り歓",
+      "meaningEn": "joyous wave of soul, mental surge exhilaration",
+      "notes": "Promoted canonical compound (alin(白い) + cynel(愛))",
+      "morphemes": [
+        "alin",
+        "cynel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31944,
+      "category": "4. 心・感情・感覚",
+      "nrs": "alintoren",
+      "ipa": "/alintoren/",
+      "pos": "名",
+      "meaningJa": "思潮原理、潮流内省理、精神流因果律",
+      "meaningEn": "thought wave philosophy, mind current causal principle",
+      "notes": "Promoted canonical compound (alin(白い) + toren(来る))",
+      "morphemes": [
+        "alin",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31945,
+      "category": "4. 心・感情・感覚",
+      "nrs": "alinsirin",
+      "ipa": "/alinsirin/",
+      "pos": "名",
+      "meaningJa": "澄明心潮、精神清澄流、清明思潮",
+      "meaningEn": "clear mental tide, tranquil thought stream",
+      "notes": "Promoted canonical compound (alin(白い) + sirin(平穏))",
+      "morphemes": [
+        "alin",
+        "sirin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31946,
+      "category": "4. 心・感情・感覚",
+      "nrs": "alinfevas",
+      "ipa": "/alinfevas/",
+      "pos": "形",
+      "meaningJa": "魂の歓声潮、内省歓喜波、精神潮鳴悦",
+      "meaningEn": "soul resonance joy, reflective bliss surge",
+      "notes": "Promoted canonical compound (alin(白い) + fevas(信じる))",
+      "morphemes": [
+        "alin",
+        "fevas"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31947,
+      "category": "4. 心・感情・感覚",
+      "nrs": "alincylas",
+      "ipa": "/alincylas/",
+      "pos": "名",
+      "meaningJa": "静止内省原理、沈思黙考理、瞑想静思因果",
+      "meaningEn": "meditative stillness principle, quiescent reflection axiom",
+      "notes": "Promoted canonical compound (alin(白い) + cylas(美))",
+      "morphemes": [
+        "alin",
+        "cylas"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31948,
+      "category": "4. 心・感情・感覚",
+      "nrs": "elirzen",
+      "ipa": "/elirzen/",
+      "pos": "形",
+      "meaningJa": "静止澄明な、沈静清澄の、安穏明晰な",
+      "meaningEn": "quiescently tranquil, serenely clarified",
+      "notes": "Promoted canonical compound (elir(喜び) + zen(なぜなら))",
+      "morphemes": [
+        "elir",
+        "zen"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31949,
+      "category": "4. 心・感情・感覚",
+      "nrs": "eliralin",
+      "ipa": "/eliralin/",
+      "pos": "形",
+      "meaningJa": "心の安堵感、帰港の至福、憩いの安寧歓",
+      "meaningEn": "tranquil relief, bliss of return, haven joy",
+      "notes": "Promoted canonical compound (elir(喜び) + alin(白い))",
+      "morphemes": [
+        "elir",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31950,
+      "category": "4. 心・感情・感覚",
+      "nrs": "elircynel",
+      "ipa": "/elircynel/",
+      "pos": "形",
+      "meaningJa": "内省の静規、沈潜規律、精神定住律",
+      "meaningEn": "inner quietude rule, meditative discipline, settled mind law",
+      "notes": "Promoted canonical compound (elir(喜び) + cynel(愛))",
+      "morphemes": [
+        "elir",
+        "cynel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31951,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "unorradin",
+      "ipa": "/unorradin/",
+      "pos": "名",
+      "meaningJa": "数理公理系、計量規準律、数理規範体系",
+      "meaningEn": "mathematical axiomatic system, metric standard rule",
+      "notes": "Promoted canonical compound (unor(整数) + radin(軌道半径))",
+      "morphemes": [
+        "unor",
+        "radin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31952,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "unortoren",
+      "ipa": "/unortoren/",
+      "pos": "名",
+      "meaningJa": "基準間隔尺度、尺度基準比、測度間隔規準",
+      "meaningEn": "reference interval scale, metric ratio benchmark",
+      "notes": "Promoted canonical compound (unor(整数) + toren(来る))",
+      "morphemes": [
+        "unor",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31953,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "unordelis",
+      "ipa": "/unordelis/",
+      "pos": "名",
+      "meaningJa": "量子単位規準、離散素量尺度、最小量子単位標",
+      "meaningEn": "quantum unit metric, discrete element benchmark",
+      "notes": "Promoted canonical compound (unor(整数) + delis(小数))",
+      "morphemes": [
+        "unor",
+        "delis"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31954,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "unorniven",
+      "ipa": "/unorniven/",
+      "pos": "名",
+      "meaningJa": "量子論理律、離散調和則、量子秩序公理",
+      "meaningEn": "quantum logic law, discrete harmony rule, quantum axiom",
+      "notes": "Promoted canonical compound (unor(整数) + niven(次元))",
+      "morphemes": [
+        "unor",
+        "niven"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31955,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "unorkiril",
+      "ipa": "/unorkiril/",
+      "pos": "名",
+      "meaningJa": "量子格子間隔、離散格子幅、素量格子周期",
+      "meaningEn": "quantum lattice interval, discrete mesh spacing",
+      "notes": "Promoted canonical compound (unor(整数) + kiril(関数))",
+      "morphemes": [
+        "unor",
+        "kiril"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31956,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "unorjytel",
+      "ipa": "/unorjytel/",
+      "pos": "名",
+      "meaningJa": "幾何単位胞、結晶単位格子、空間充填単位体",
+      "meaningEn": "geometric unit cell, crystal unit lattice, space-filling unit",
+      "notes": "Promoted canonical compound (unor(整数) + jytel(ノード))",
+      "morphemes": [
+        "unor",
+        "jytel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31957,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "unorsevur",
+      "ipa": "/unorsevur/",
+      "pos": "名",
+      "meaningJa": "幾何素量点、多面体離散点、結晶格点素量",
+      "meaningEn": "geometric quantum node, polyhedral discrete vertex",
+      "notes": "Promoted canonical compound (unor(整数) + sevur(選択肢))",
+      "morphemes": [
+        "unor",
+        "sevur"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31958,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvanradin",
+      "ipa": "/kvanradin/",
+      "pos": "名",
+      "meaningJa": "多面体対称則、幾何対称性公理、空間結晶群律",
+      "meaningEn": "polyhedral symmetry rule, geometric symmetry axiom",
+      "notes": "Promoted canonical compound (kvan(量子) + radin(軌道半径))",
+      "morphemes": [
+        "kvan",
+        "radin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31959,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvantoren",
+      "ipa": "/kvantoren/",
+      "pos": "名",
+      "meaningJa": "多角形辺長比、幾何面間隔比、多面体稜線比",
+      "meaningEn": "polygon edge ratio, interplanar spacing ratio",
+      "notes": "Promoted canonical compound (kvan(量子) + toren(来る))",
+      "morphemes": [
+        "kvan",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31960,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvandelis",
+      "ipa": "/kvandelis/",
+      "pos": "名",
+      "meaningJa": "離散時間素量、クロック量子、時間刻み素量",
+      "meaningEn": "discrete time quantum, clock tick element",
+      "notes": "Promoted canonical compound (kvan(量子) + delis(小数))",
+      "morphemes": [
+        "kvan",
+        "delis"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31961,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvanniven",
+      "ipa": "/kvanniven/",
+      "pos": "名",
+      "meaningJa": "拍動周期律、クロック同期律、時間調和公理",
+      "meaningEn": "pulse periodicity law, clock synchrony principle",
+      "notes": "Promoted canonical compound (kvan(量子) + niven(次元))",
+      "morphemes": [
+        "kvan",
+        "niven"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31962,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvankiril",
+      "ipa": "/kvankiril/",
+      "pos": "名",
+      "meaningJa": "離散拍動間隔、パルス間隔時間、拍動周期長",
+      "meaningEn": "discrete pulse interval, pulse duration space",
+      "notes": "Promoted canonical compound (kvan(量子) + kiril(関数))",
+      "morphemes": [
+        "kvan",
+        "kiril"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31963,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvanjytel",
+      "ipa": "/kvanjytel/",
+      "pos": "名",
+      "meaningJa": "位相幾何軌道、幾何学的周期軌道、位相空間多角軌道",
+      "meaningEn": "topological phase orbit, geometric periodic trajectory",
+      "notes": "Promoted canonical compound (kvan(量子) + jytel(ノード))",
+      "morphemes": [
+        "kvan",
+        "jytel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31964,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvansevur",
+      "ipa": "/kvansevur/",
+      "pos": "名",
+      "meaningJa": "球体幾何単位、球殻基準度量、球面計量規準",
+      "meaningEn": "spherical metric unit, dome reference measure",
+      "notes": "Promoted canonical compound (kvan(量子) + sevur(選択肢))",
+      "morphemes": [
+        "kvan",
+        "sevur"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31965,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "radinunor",
+      "ipa": "/radinunor/",
+      "pos": "名",
+      "meaningJa": "球半径比率、球面曲率間隔、同心球殻間隔",
+      "meaningEn": "sphere radius ratio, concentric shell spacing",
+      "notes": "Promoted canonical compound (radin(軌道半径) + unor(整数))",
+      "morphemes": [
+        "radin",
+        "unor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31966,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "tulikunor",
+      "ipa": "/tulikunor/",
+      "pos": "名",
+      "meaningJa": "球関数調和則、球面調和級数律、閉曲面幾何則",
+      "meaningEn": "spherical harmonics law, closed surface geometry rule",
+      "notes": "Promoted canonical compound (tulik(多角形) + unor(整数))",
+      "morphemes": [
+        "tulik",
+        "unor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31967,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "valiselir",
+      "ipa": "/valiselir/",
+      "pos": "名",
+      "meaningJa": "音波気流伝播、波動気流脈、音響気流響",
+      "meaningEn": "acoustic air propagation, sonic breeze wave",
+      "notes": "Promoted canonical compound (valis(衣服) + elir(喜び))",
+      "morphemes": [
+        "valis",
+        "elir"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31968,
+      "category": "4. 心・感情・感覚",
+      "nrs": "valistyni",
+      "ipa": "/valistyni/",
+      "pos": "名",
+      "meaningJa": "共鳴歓喜、音波共振の法悦、響鳴の歓声",
+      "meaningEn": "resonance bliss, ecstatic acoustic surge, harmonic joy",
+      "notes": "Promoted canonical compound (valis(衣服) + tyni(銀色の))",
+      "morphemes": [
+        "valis",
+        "tyni"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31969,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "valisalin",
+      "ipa": "/valisalin/",
+      "pos": "名",
+      "meaningJa": "音響調和律、周波数倍音則、波動共鳴規範",
+      "meaningEn": "acoustic harmonic law, overtone harmonic principle",
+      "notes": "Promoted canonical compound (valis(衣服) + alin(白い))",
+      "morphemes": [
+        "valis",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31970,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "valurelir",
+      "ipa": "/valurelir/",
+      "pos": "名",
+      "meaningJa": "放射気流流動、放射エネルギー風、電磁波気流脈",
+      "meaningEn": "radiant breeze drift, electromagnetic energy stream",
+      "notes": "Promoted canonical compound (valur(天体脈動) + elir(喜び))",
+      "morphemes": [
+        "valur",
+        "elir"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31971,
+      "category": "4. 心・感情・感覚",
+      "nrs": "valurtyni",
+      "ipa": "/valurtyni/",
+      "pos": "名",
+      "meaningJa": "放射光歓声、星辰交信の歓喜、受光の歓喜",
+      "meaningEn": "radiance jubilation, cosmic reception joy",
+      "notes": "Promoted canonical compound (valur(天体脈動) + tyni(銀色の))",
+      "morphemes": [
+        "valur",
+        "tyni"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31972,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "valuralin",
+      "ipa": "/valuralin/",
+      "pos": "名",
+      "meaningJa": "電磁放射律、放射減衰則、天体放射伝播則",
+      "meaningEn": "electromagnetic emission law, radiation decay rule",
+      "notes": "Promoted canonical compound (valur(天体脈動) + alin(白い))",
+      "morphemes": [
+        "valur",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31973,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "tykvalis",
+      "ipa": "/tykvalis/",
+      "pos": "名",
+      "meaningJa": "律動気流響、拍動する風、脈動微風音",
+      "meaningEn": "rhythmic breeze whisper, pulsating wind cadence",
+      "notes": "Promoted canonical compound (tyk(クロック) + valis(衣服))",
+      "morphemes": [
+        "tyk",
+        "valis"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31974,
+      "category": "4. 心・感情・感覚",
+      "nrs": "tykvalur",
+      "ipa": "/tykvalur/",
+      "pos": "名",
+      "meaningJa": "舞踏律動歓喜、拍子に踊る歓び、リズム法悦",
+      "meaningEn": "rhythmic dance euphoria, cadence joy, pulse beat bliss",
+      "notes": "Promoted canonical compound (tyk(クロック) + valur(天体脈動))",
+      "morphemes": [
+        "tyk",
+        "valur"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31975,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "tykwylin",
+      "ipa": "/tykwylin/",
+      "pos": "名",
+      "meaningJa": "律動波動音、周期拍動波、拍子音波脈",
+      "meaningEn": "rhythmic wave cadence, periodic pulse wave",
+      "notes": "Promoted canonical compound (tyk(クロック) + wylin(自由))",
+      "morphemes": [
+        "tyk",
+        "wylin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31976,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "tyktoren",
+      "ipa": "/tyktoren/",
+      "pos": "名",
+      "meaningJa": "律動電磁波、拍動放射線、パルス放射波束",
+      "meaningEn": "rhythmic electromagnetic wave, pulsed radiation stream",
+      "notes": "Promoted canonical compound (tyk(クロック) + toren(来る))",
+      "morphemes": [
+        "tyk",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31977,
+      "category": "4. 心・感情・感覚",
+      "nrs": "tykfalos",
+      "ipa": "/tykfalos/",
+      "pos": "形",
+      "meaningJa": "風の歌の歓喜、流風共鳴歓声、息吹の歓び",
+      "meaningEn": "breeze chant bliss, resonant wind joy, breath euphoria",
+      "notes": "Promoted canonical compound (tyk(クロック) + falos(分光))",
+      "morphemes": [
+        "tyk",
+        "falos"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31978,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "tyksirin",
+      "ipa": "/tyksirin/",
+      "pos": "名",
+      "meaningJa": "気流音響律、流動音響法則、管楽器流速律",
+      "meaningEn": "aeroacoustic law, wind resonance principle, fluid acoustic rule",
+      "notes": "Promoted canonical compound (tyk(クロック) + sirin(平穏))",
+      "morphemes": [
+        "tyk",
+        "sirin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31979,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "tykwylas",
+      "ipa": "/tykwylas/",
+      "pos": "名",
+      "meaningJa": "光彩気流脈、発光オーロラ風、分光風流",
+      "meaningEn": "auroral spectral breeze, dispersed light wind",
+      "notes": "Promoted canonical compound (tyk(クロック) + wylas(風))",
+      "morphemes": [
+        "tyk",
+        "wylas"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31980,
+      "category": "4. 心・感情・感覚",
+      "nrs": "wylinelir",
+      "ipa": "/wylinelir/",
+      "pos": "名",
+      "meaningJa": "色彩法悦、スペクトル美歓喜、虹彩の歓声",
+      "meaningEn": "chromatic ecstasy, spectral visual euphoria",
+      "notes": "Promoted canonical compound (wylin(自由) + elir(喜び))",
+      "morphemes": [
+        "wylin",
+        "elir"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31981,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "wylintyni",
+      "ipa": "/wylintyni/",
+      "pos": "名",
+      "meaningJa": "分光調和則、スペクトル階調律、光彩波長律",
+      "meaningEn": "spectral harmony principle, chromatic wavelength law",
+      "notes": "Promoted canonical compound (wylin(自由) + tyni(銀色の))",
+      "morphemes": [
+        "wylin",
+        "tyni"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31982,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "wylinalin",
+      "ipa": "/wylinalin/",
+      "pos": "名",
+      "meaningJa": "音色波形彩、音色スペクトル波、音色波動",
+      "meaningEn": "timbre waveform color, acoustic timbre oscillation",
+      "notes": "Promoted canonical compound (wylin(自由) + alin(白い))",
+      "morphemes": [
+        "wylin",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31983,
+      "category": "3. 道具・生活・日常",
+      "nrs": "kymkyrin",
+      "ipa": "/kymkyrin/",
+      "pos": "名",
+      "meaningJa": "金属支柱、鋳鉄鍛造柱、金敷主柱",
+      "meaningEn": "metallic pillar, forged anvil pier, iron support post",
+      "notes": "Promoted canonical compound (kym(夜) + kyrin(黒い))",
+      "morphemes": [
+        "kym",
+        "kyrin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31984,
+      "category": "3. 道具・生活・日常",
+      "nrs": "kymtyril",
+      "ipa": "/kymtyril/",
+      "pos": "名",
+      "meaningJa": "製錬坩堝、鋳造るつぼ殻、耐熱金属容器",
+      "meaningEn": "smelting crucible, metal casting vessel, metallurgical crucible",
+      "notes": "Promoted canonical compound (kym(夜) + tyril(潮汐力))",
+      "morphemes": [
+        "kym",
+        "tyril"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31985,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kymdolas",
+      "ipa": "/kymdolas/",
+      "pos": "名",
+      "meaningJa": "冶金相平衡律、合金状態図則、金属製錬規範",
+      "meaningEn": "metallurgical phase rule, alloy equilibrium law",
+      "notes": "Promoted canonical compound (kym(夜) + dolas(鋳型))",
+      "morphemes": [
+        "kym",
+        "dolas"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31986,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "kymrenan",
+      "ipa": "/kymrenan/",
+      "pos": "名",
+      "meaningJa": "鉱石母岩盤、金属鉱脈層、含金属岩床",
+      "meaningEn": "metalliferous bedrock, ore-bearing vein stratum",
+      "notes": "Promoted canonical compound (kym(夜) + renan(交易))",
+      "morphemes": [
+        "kym",
+        "renan"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31987,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kymtoren",
+      "ipa": "/kymtoren/",
+      "pos": "名",
+      "meaningJa": "結晶格子間隔比、金属原子間隔、結晶格子の歩長",
+      "meaningEn": "crystal lattice spacing, metallic atomic spacing ratio",
+      "notes": "Promoted canonical compound (kym(夜) + toren(来る))",
+      "morphemes": [
+        "kym",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31988,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "torkym",
+      "ipa": "/torkym/",
+      "pos": "名",
+      "meaningJa": "金属微結晶体、合金晶析体、金属デンドライト",
+      "meaningEn": "metallic microcrystallite, alloy crystallite, metallic crystal dendrite",
+      "notes": "Promoted canonical compound (tor(しかし) + kym(夜))",
+      "morphemes": [
+        "tor",
+        "kym"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31989,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "torkyrin",
+      "ipa": "/torkyrin/",
+      "pos": "名",
+      "meaningJa": "引張強度限界、金属抗張力、合金耐荷重引力",
+      "meaningEn": "tensile strength limit, metallic tensile tenacity",
+      "notes": "Promoted canonical compound (tor(しかし) + kyrin(黒い))",
+      "morphemes": [
+        "tor",
+        "kyrin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31990,
+      "category": "3. 道具・生活・日常",
+      "nrs": "tortyril",
+      "ipa": "/tortyril/",
+      "pos": "名",
+      "meaningJa": "製錬石炭熱、鍛冶還元炭火、冶金燃料炭",
+      "meaningEn": "metallurgical reducing charcoal, smelter coal flame",
+      "notes": "Promoted canonical compound (tor(しかし) + tyril(潮汐力))",
+      "morphemes": [
+        "tor",
+        "tyril"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31991,
+      "category": "3. 道具・生活・日常",
+      "nrs": "tordolas",
+      "ipa": "/tordolas/",
+      "pos": "名",
+      "meaningJa": "鍛造打撃成形、打槌鍛金作業、熱間鍛造打伸",
+      "meaningEn": "forge hammering, hammer-wrought smithing, hot forge shaping",
+      "notes": "Promoted canonical compound (tor(しかし) + dolas(鋳型))",
+      "morphemes": [
+        "tor",
+        "dolas"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31992,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "torrenan",
+      "ipa": "/torrenan/",
+      "pos": "名",
+      "meaningJa": "柱状晶組織、結晶柱状組織、結晶支柱",
+      "meaningEn": "columnar crystal structure, directional crystal pillar",
+      "notes": "Promoted canonical compound (tor(しかし) + renan(交易))",
+      "morphemes": [
+        "tor",
+        "renan"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31993,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "klortor",
+      "ipa": "/klortor/",
+      "pos": "名",
+      "meaningJa": "晶出カプセル、微細結晶包有殻、晶析容器",
+      "meaningEn": "crystallite capsule, micro-crystal inclusions cell",
+      "notes": "Promoted canonical compound (klor(円) + tor(しかし))",
+      "morphemes": [
+        "klor",
+        "tor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31994,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "klorterin",
+      "ipa": "/klorterin/",
+      "pos": "名",
+      "meaningJa": "晶出母材基盤、結晶析出地床、晶出母相盤",
+      "meaningEn": "crystallite substrate matrix, crystal nucleation bed",
+      "notes": "Promoted canonical compound (klor(円) + terin(温かい煎じ茶))",
+      "morphemes": [
+        "klor",
+        "terin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31995,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "klorkyrin",
+      "ipa": "/klorkyrin/",
+      "pos": "名",
+      "meaningJa": "結晶晶癖律、結晶育成則、単結晶成長公理",
+      "meaningEn": "crystal habit rule, crystal growth governing law",
+      "notes": "Promoted canonical compound (klor(円) + kyrin(黒い))",
+      "morphemes": [
+        "klor",
+        "kyrin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31996,
+      "category": "3. 道具・生活・日常",
+      "nrs": "klortyril",
+      "ipa": "/klortyril/",
+      "pos": "名",
+      "meaningJa": "大型鍛造金敷、鍛金支持台、打鎚鍛造基台",
+      "meaningEn": "forging anvil pedestal, smithing support pier, forge block",
+      "notes": "Promoted canonical compound (klor(円) + tyril(潮汐力))",
+      "morphemes": [
+        "klor",
+        "tyril"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31997,
+      "category": "3. 道具・生活・日常",
+      "nrs": "klorrenan",
+      "ipa": "/klorrenan/",
+      "pos": "名",
+      "meaningJa": "鍛造焼入槽、急冷油槽殻、鍛造焼入容器",
+      "meaningEn": "quenching bath vat, hardening quench tank shell",
+      "notes": "Promoted canonical compound (klor(円) + renan(交易))",
+      "morphemes": [
+        "klor",
+        "renan"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31998,
+      "category": "3. 道具・生活・日常",
+      "nrs": "klortoren",
+      "ipa": "/klortoren/",
+      "pos": "名",
+      "meaningJa": "鍛造炉床盤、製鉄炉底耐火盤、鍛冶炉床地盤",
+      "meaningEn": "forge hearth bedplate, smelting hearth refractory floor",
+      "notes": "Promoted canonical compound (klor(円) + toren(来る))",
+      "morphemes": [
+        "klor",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31999,
+      "category": "3. 道具・生活・日常",
+      "nrs": "bionneran",
+      "ipa": "/bionneran/",
+      "pos": "名",
+      "meaningJa": "薬効生体滴、生薬チンキ滴、薬用露滴",
+      "meaningEn": "medicinal biocatalyst drop, herbal tincture bead, bioactive droplet",
+      "notes": "Promoted canonical compound (bion(飲む) + neran(食べる))",
+      "morphemes": [
+        "bion",
+        "neran"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32000,
+      "category": "3. 道具・生活・日常",
+      "nrs": "biondaron",
+      "ipa": "/biondaron/",
+      "pos": "形",
+      "meaningJa": "清浄生薬の、無菌賦活の、純薬効の",
+      "meaningEn": "purely antiseptic, sterile bioactive, cleanly therapeutic",
+      "notes": "Promoted canonical compound (bion(飲む) + daron(湖))",
+      "morphemes": [
+        "bion",
+        "daron"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32001,
+      "category": "2. 人・身体・生命",
+      "nrs": "bionalin",
+      "ipa": "/bionalin/",
+      "pos": "名",
+      "meaningJa": "生体滋養補給、滋養強壮食薬、薬効滋養摂取",
+      "meaningEn": "bio-trophic replenishment, therapeutic nutritional supplement",
+      "notes": "Promoted canonical compound (bion(飲む) + alin(白い))",
+      "morphemes": [
+        "bion",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32002,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "bionterin",
+      "ipa": "/bionterin/",
+      "pos": "名",
+      "meaningJa": "生体恒常性律、ホメオスタシス則、生命調和律",
+      "meaningEn": "homeostatic biological law, physiological balance rule",
+      "notes": "Promoted canonical compound (bion(飲む) + terin(温かい煎じ茶))",
+      "morphemes": [
+        "bion",
+        "terin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32003,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "biontoren",
+      "ipa": "/biontoren/",
+      "pos": "名",
+      "meaningJa": "生薬自生土壌、薬草成育地盤、生体植物地床",
+      "meaningEn": "medicinal plant native soil, therapeutic botanical bedrock",
+      "notes": "Promoted canonical compound (bion(飲む) + toren(来る))",
+      "morphemes": [
+        "bion",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32004,
+      "category": "3. 道具・生活・日常",
+      "nrs": "bionelner",
+      "ipa": "/bionelner/",
+      "pos": "名",
+      "meaningJa": "生薬浸出煎液、薬草煎じ薬液、生体抽出浸液",
+      "meaningEn": "herbal decoction fluid, medicinal infusion extract",
+      "notes": "Promoted canonical compound (bionel(杯) + ner(滋養))",
+      "morphemes": [
+        "bionel",
+        "ner"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32005,
+      "category": "3. 道具・生活・日常",
+      "nrs": "neranbion",
+      "ipa": "/neranbion/",
+      "pos": "名",
+      "meaningJa": "生薬点眼滴、薬効精油滴、抽出エリクサー滴",
+      "meaningEn": "herbal eye-drop bead, concentrated elixir drop",
+      "notes": "Promoted canonical compound (neran(食べる) + bion(飲む))",
+      "morphemes": [
+        "neran",
+        "bion"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32006,
+      "category": "3. 道具・生活・日常",
+      "nrs": "neranalin",
+      "ipa": "/neranalin/",
+      "pos": "形",
+      "meaningJa": "精製生薬の、清澄薬効成分の、高純度エキスの",
+      "meaningEn": "purified pharmaceutical, clarified bioactive, high-purity extract",
+      "notes": "Promoted canonical compound (neran(食べる) + alin(白い))",
+      "morphemes": [
+        "neran",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32007,
+      "category": "3. 道具・生活・日常",
+      "nrs": "neranner",
+      "ipa": "/neranner/",
+      "pos": "名",
+      "meaningJa": "軟膏丸薬壺、生薬カプセル殻、薬包密閉壺",
+      "meaningEn": "ointment balm jar, pharmaceutical capsule shell, pill vial",
+      "notes": "Promoted canonical compound (neran(食べる) + ner(滋養))",
+      "morphemes": [
+        "neran",
+        "ner"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32008,
+      "category": "2. 人・身体・生命",
+      "nrs": "daronbion",
+      "ipa": "/daronbion/",
+      "pos": "名",
+      "meaningJa": "薬効滋養食、薬膳滋養処方、生薬栄養配合",
+      "meaningEn": "medicinal tonic food, pharmacotherapeutic diet regimen",
+      "notes": "Promoted canonical compound (daron(湖) + bion(飲む))",
+      "morphemes": [
+        "daron",
+        "bion"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32009,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "darisbion",
+      "ipa": "/darisbion/",
+      "pos": "名",
+      "meaningJa": "生薬薬理調剤律、薬効用量規範、処方用量律",
+      "meaningEn": "pharmacological dosage law, pharmacopoeia compounding rule",
+      "notes": "Promoted canonical compound (daris(水) + bion(飲む))",
+      "morphemes": [
+        "daris",
+        "bion"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32010,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "darisalin",
+      "ipa": "/darisalin/",
+      "pos": "名",
+      "meaningJa": "生薬自生床、薬用植物培地層、生薬群落基盤",
+      "meaningEn": "botanical herbarium bed, medicinal vegetative stratum",
+      "notes": "Promoted canonical compound (daris(水) + alin(白い))",
+      "morphemes": [
+        "daris",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32011,
+      "category": "3. 道具・生活・日常",
+      "nrs": "darisner",
+      "ipa": "/darisner/",
+      "pos": "名",
+      "meaningJa": "滅菌蒸留水滴、清浄点眼水滴、洗眼清澄滴",
+      "meaningEn": "sterile distilled droplet, clarified ophthalmic bead, sterile wash drop",
+      "notes": "Promoted canonical compound (daris(水) + ner(滋養))",
+      "morphemes": [
+        "daris",
+        "ner"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32012,
+      "category": "3. 道具・生活・日常",
+      "nrs": "alinbion",
+      "ipa": "/alinbion/",
+      "pos": "名",
+      "meaningJa": "清浄無菌床盤、無菌室床盤、清浄基盤面",
+      "meaningEn": "aseptic clean-room flooring, sterile foundation bedplate",
+      "notes": "Promoted canonical compound (alin(白い) + bion(飲む))",
+      "morphemes": [
+        "alin",
+        "bion"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32013,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "alinneran",
+      "ipa": "/alinneran/",
+      "pos": "名",
+      "meaningJa": "体液電解質調和律、浸透圧平衡則、体液恒常律",
+      "meaningEn": "fluid electrolyte harmony law, osmotic equilibrium rule",
+      "notes": "Promoted canonical compound (alin(白い) + neran(食べる))",
+      "morphemes": [
+        "alin",
+        "neran"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32014,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "alindaron",
+      "ipa": "/alindaron/",
+      "pos": "名",
+      "meaningJa": "微量点滴投薬律、点滴速度規範、点滴投与量律",
+      "meaningEn": "micro-infusion dosage rule, intravenous drip rate law",
+      "notes": "Promoted canonical compound (alin(白い) + daron(湖))",
+      "morphemes": [
+        "alin",
+        "daron"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32015,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "falosvyri",
+      "ipa": "/falosvyri/",
+      "pos": "名",
+      "meaningJa": "天文分光軌道線、星辰分光航路、分光観測測線",
+      "meaningEn": "astronomical spectral trajectory line",
+      "notes": "Promoted canonical compound (falos(分光) + vyri(星辰の))",
+      "morphemes": [
+        "falos",
+        "vyri"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32016,
+      "category": "3. 道具・生活・日常",
+      "nrs": "falosdar",
+      "ipa": "/falosdar/",
+      "pos": "名",
+      "meaningJa": "人工衛星カプセル、軌道観測球殻器、星辰探査衛星殻",
+      "meaningEn": "artificial satellite capsule, orbital observatory hull",
+      "notes": "Promoted canonical compound (falos(分光) + dar(しずく))",
+      "morphemes": [
+        "falos",
+        "dar"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32017,
+      "category": "3. 道具・生活・日常",
+      "nrs": "falosvel",
+      "ipa": "/falosvel/",
+      "pos": "形",
+      "meaningJa": "精緻切削石工の、整美な切石の、美形組石の",
+      "meaningEn": "finely dressed stonework, polished basalt ashlar",
+      "notes": "Promoted canonical compound (falos(分光) + vel(木))",
+      "morphemes": [
+        "falos",
+        "vel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32018,
+      "category": "3. 道具・生活・日常",
+      "nrs": "falosalin",
+      "ipa": "/falosalin/",
+      "pos": "名",
+      "meaningJa": "玄武岩柱頭、石工アーチ力学柱、切石組積主柱",
+      "meaningEn": "basalt column pier, masonry arch load-bearing column",
+      "notes": "Promoted canonical compound (falos(分光) + alin(白い))",
+      "morphemes": [
+        "falos",
+        "alin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32019,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "falosvyr",
+      "ipa": "/falosvyr/",
+      "pos": "名",
+      "meaningJa": "深海潮流動態、海洋潮流脈流、海流大循環脈",
+      "meaningEn": "deep ocean current dynamics, marine tidal current surge",
+      "notes": "Promoted canonical compound (falos(分光) + vyr(星))",
+      "morphemes": [
+        "falos",
+        "vyr"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 32020,
+      "category": "7. 交通・時間・航行",
+      "nrs": "vyritalyr",
+      "ipa": "/vyritalyr/",
+      "pos": "名",
+      "meaningJa": "潮流巡航艇、海流航行艇、定時航路艇",
+      "meaningEn": "tidal current cruise vessel, scheduled waterway craft",
+      "notes": "Promoted canonical compound (vyri(星辰の) + talyr(石))",
+      "morphemes": [
+        "vyri",
+        "talyr"
       ],
       "provenance": "verified_canonical_compound"
     }
