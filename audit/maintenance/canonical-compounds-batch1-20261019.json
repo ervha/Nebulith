@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T05:42:26.765743+00:00",
+  "createdAt": "2026-10-20T06:49:51.920773+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 680,
-    "uniqueRoots": 680,
-    "uniqueIds": 680,
-    "scenarios": 227,
+    "rows": 710,
+    "uniqueRoots": 710,
+    "uniqueIds": 710,
+    "scenarios": 237,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -392,14 +392,14 @@
     "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
-    "Vymin el mi ia <TERM>.": 38,
+    "Vymin el mi ia <TERM>.": 44,
     "Soran el mi uo <TERM>.": 2,
     "Kiras el mi ia <TERM> ul kypalvel.": 1,
     "Vymin el <TERM> ia pamel.": 1,
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
-    "Soran el mi ia <TERM>.": 14,
-    "Vyrel el mi ia <TERM>.": 19,
+    "Soran el mi ia <TERM>.": 18,
+    "Vyrel el mi ia <TERM>.": 25,
     "Vyrel el mi ia <TERM> ul dardaron.": 1,
     "Relen el dar uo <TERM>.": 2,
     "Kiras el mi ia talyrvorn to <TERM>.": 1,
@@ -418,22 +418,22 @@
     "Relen el silan to <TERM>.": 1,
     "Poran el mi uo <TERM> to renarvorn.": 1,
     "Vymin el <TERM> ia renardar.": 1,
-    "Kiras el mi ia <TERM>.": 24,
+    "Kiras el mi ia <TERM>.": 29,
     "Muran el mi ia <TERM>.": 1,
-    "Poran el mi uo <TERM>.": 13,
+    "Poran el mi uo <TERM>.": 15,
     "Falun el <TERM> uo klorpelel.": 1,
     "Relen el <TERM> uo velkural.": 1,
-    "Nerel el mi ia <TERM>.": 9,
+    "Nerel el mi ia <TERM>.": 13,
     "Zyvan el mi ia <TERM>.": 2,
     "Poran el <TERM> to kymgovan.": 1,
     "Jylas el miin ia <TERM>.": 1,
     "Relen el <TERM> uo klorgovan.": 1,
-    "Dolar el mi ia <TERM>.": 7,
+    "Dolar el mi ia <TERM>.": 8,
     "Relen el <TERM> uo havunor.": 1,
     "Dolar el mi uo <TERM>.": 7,
     "Jylas el mi ia <TERM>.": 2,
     "Kiras el mi uo <TERM>.": 2,
-    "Vyrel el mi uo <TERM>.": 3,
+    "Vyrel el mi uo <TERM>.": 5,
     "Jylas el mi uo <TERM>.": 1
   },
   "entries": [
@@ -14036,6 +14036,606 @@
         "Toa"
       ],
       "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31681,
+      "nrs": "darfalzon",
+      "meaningJa": "水面偏光、水路散乱光、水鏡反射光",
+      "meaningEn": "water surface polarized light, waterway scattered light, water reflection glow",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "falzon"
+      ],
+      "scenario_id": "CANON-COLAB-61",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31682,
+      "nrs": "kymfirtas",
+      "meaningJa": "夜間基準標、暗夜航路標、夜警規準座",
+      "meaningEn": "nocturnal navigation benchmark, night waterway marker, night watch reference stand",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "firtas"
+      ],
+      "scenario_id": "CANON-COLAB-61",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31683,
+      "nrs": "zylartyku",
+      "meaningJa": "潮汐適時波、海浜速報潮、海事定時波",
+      "meaningEn": "tidal timely surge, coastal prompt surge, maritime timed surge",
+      "pos": "名",
+      "morphemes": [
+        "zylar",
+        "tyku"
+      ],
+      "scenario_id": "CANON-COLAB-61",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31684,
+      "nrs": "nertyni",
+      "meaningJa": "銀色薬草葉、白銀生薬葉、薬用銀葉",
+      "meaningEn": "silvery medicinal herb leaf, white silver tonic foliage, healing silver sprig",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-62",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Nerel el mi ia <TERM>."
+    },
+    {
+      "id": 31685,
+      "nrs": "kiraslyka",
+      "meaningJa": "標本籠整調、薬草収納籠整調、採集籠整備",
+      "meaningEn": "specimen basket adjustment, herb basket tuning, foraging basket alignment",
+      "pos": "名",
+      "morphemes": [
+        "kiras",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-62",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31686,
+      "nrs": "veldaris",
+      "meaningJa": "樹木樹液水、木質抽出液、森林樹液",
+      "meaningEn": "tree sap moisture, wood essence liquid, forest tree water",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "daris"
+      ],
+      "scenario_id": "CANON-COLAB-62",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Nerel el mi ia <TERM>."
+    },
+    {
+      "id": 31687,
+      "nrs": "vyrcelvan",
+      "meaningJa": "星辰天球殻、天体球殻観測、天蓋星界",
+      "meaningEn": "celestial celestial shell, astronomical sphere shell, starlight canopy vault",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "celvan"
+      ],
+      "scenario_id": "CANON-COLAB-63",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi uo <TERM>."
+    },
+    {
+      "id": 31688,
+      "nrs": "vyrcelzyl",
+      "meaningJa": "星光青光、天体青色散乱光、蒼穹星光",
+      "meaningEn": "stellar blue scattering, celestial azure ray, starlight blue radiance",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "celzyl"
+      ],
+      "scenario_id": "CANON-COLAB-63",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31689,
+      "nrs": "falosunor",
+      "meaningJa": "分光測定定数、光輪帯域定数、スペクトル定数",
+      "meaningEn": "spectroscopic measurement constant, halo band gauge, spectrum integer",
+      "pos": "名",
+      "morphemes": [
+        "falos",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-63",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM>."
+    },
+    {
+      "id": 31690,
+      "nrs": "dardaris",
+      "meaningJa": "運河流動水、水路導水流、暗渠通水",
+      "meaningEn": "canal flowing water, aqueduct conduit stream, culvert throughput water",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "daris"
+      ],
+      "scenario_id": "CANON-COLAB-64",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31691,
+      "nrs": "talfalvyn",
+      "meaningJa": "大地薄光、地表微弱光、黄道地表光",
+      "meaningEn": "terrestrial twilight glow, ground zodiacal faint light, earth surface glimmer",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "falvyn"
+      ],
+      "scenario_id": "CANON-COLAB-64",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31692,
+      "nrs": "dolarvel",
+      "meaningJa": "木工設営労務、木枠補修作業、木材工務",
+      "meaningEn": "carpentry rigging labor, wooden frame repair duty, timber construction service",
+      "pos": "名",
+      "morphemes": [
+        "dolar",
+        "vel"
+      ],
+      "scenario_id": "CANON-COLAB-64",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Dolar el mi ia <TERM>."
+    },
+    {
+      "id": 31693,
+      "nrs": "polorelir",
+      "meaningJa": "市民祝祭歓喜、公同交歓、市民親和慶祝",
+      "meaningEn": "civic festival celebration, municipal communal rejoice, citizen fraternal joy",
+      "pos": "名",
+      "morphemes": [
+        "polor",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-65",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31694,
+      "nrs": "soranunor",
+      "meaningJa": "記録計量定数、書記規格定数、公定記載数",
+      "meaningEn": "archival record constant, scribe formatting gauge, registered metric integer",
+      "pos": "名",
+      "morphemes": [
+        "soran",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-65",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM>."
+    },
+    {
+      "id": 31695,
+      "nrs": "soranjyn",
+      "meaningJa": "記録熱意、書記心魂、公文書精神",
+      "meaningEn": "archival scribal devotion, clerical dedication spirit, chronicle zeal",
+      "pos": "名",
+      "morphemes": [
+        "soran",
+        "jyn"
+      ],
+      "scenario_id": "CANON-COLAB-65",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31696,
+      "nrs": "talyrdar",
+      "meaningJa": "石工研磨水、切石冷却液、石材水研滴",
+      "meaningEn": "stonework polishing fluid, stonecutting cooling liquid, lapidary hone water",
+      "pos": "名",
+      "morphemes": [
+        "talyr",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-66",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31697,
+      "nrs": "taldorcon",
+      "meaningJa": "地盤摂動、岩盤微小変位、地層歪み偏位",
+      "meaningEn": "ground perturbation, bedrock micro-displacement, geological strain deviation",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "dorcon"
+      ],
+      "scenario_id": "CANON-COLAB-66",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31698,
+      "nrs": "kirastal",
+      "meaningJa": "作業床整地、敷地水平調整、基盤面平坦化",
+      "meaningEn": "worksite ground leveling, terrace planar alignment, base ground flattening",
+      "pos": "名",
+      "morphemes": [
+        "kiras",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-66",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31699,
+      "nrs": "havcelen",
+      "meaningJa": "時辰天空光、時刻天蓋、標準時青空",
+      "meaningEn": "horological sky vault, temporal overhead sky, standard time firmament",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "celen"
+      ],
+      "scenario_id": "CANON-COLAB-67",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi uo <TERM>."
+    },
+    {
+      "id": 31700,
+      "nrs": "havporan",
+      "meaningJa": "定時巡回歩行、時刻見回り、時辰巡行",
+      "meaningEn": "scheduled circuit patrol, hourly inspection transit, timekeeping patrol walk",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "poran"
+      ],
+      "scenario_id": "CANON-COLAB-67",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Poran el mi uo <TERM>."
+    },
+    {
+      "id": 31701,
+      "nrs": "tykunor",
+      "meaningJa": "刻動周波数定数、脱進周波数、振動周期数",
+      "meaningEn": "escapement tick frequency constant, oscillation rate integer, timing cycle metric",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-67",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM>."
+    },
+    {
+      "id": 31702,
+      "nrs": "velkiras",
+      "meaningJa": "樹林整枝剪定、育木枝打ち、森林整枝",
+      "meaningEn": "forestry pruning adjustment, arbor branch trimming, tree thinning maintenance",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "kiras"
+      ],
+      "scenario_id": "CANON-COLAB-68",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31703,
+      "nrs": "nerfirtas",
+      "meaningJa": "生薬純度規準、薬効評価基準、滋養品質規準",
+      "meaningEn": "herbal purity standard, medicinal potency criterion, nutritive quality benchmark",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "firtas"
+      ],
+      "scenario_id": "CANON-COLAB-68",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31704,
+      "nrs": "bionfalun",
+      "meaningJa": "生体受光光条、樹木育成陽光、葉緑生命光",
+      "meaningEn": "biovital light absorption, botanical nurture beam, chlorophyll sunlight ray",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "falun"
+      ],
+      "scenario_id": "CANON-COLAB-68",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31705,
+      "nrs": "nerdaris",
+      "meaningJa": "生薬煎じ水、滋養薬用水、薬効湯水",
+      "meaningEn": "medicinal herbal decoction water, tonic medicinal water, healing warm liquid",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "daris"
+      ],
+      "scenario_id": "CANON-COLAB-69",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Toa"
+      ],
+      "exampleTemplate": "Nerel el mi ia <TERM>."
+    },
+    {
+      "id": 31706,
+      "nrs": "terinjyn",
+      "meaningJa": "薬湯温熱気力、煎じ茶滋養熱、薬効温気",
+      "meaningEn": "herbal tea thermal vigor, decoction nutritive warmth, medicinal infusion energy",
+      "pos": "名",
+      "morphemes": [
+        "terin",
+        "jyn"
+      ],
+      "scenario_id": "CANON-COLAB-69",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Toa"
+      ],
+      "exampleTemplate": "Nerel el mi ia <TERM>."
+    },
+    {
+      "id": 31707,
+      "nrs": "biontal",
+      "meaningJa": "生体保養地、生気大地盤、健康保養敷地",
+      "meaningEn": "vital recovery grounds, bioclimatic resting terrace, vitality rejuvenation estate",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-69",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Toa"
+      ],
+      "exampleTemplate": "Poran el mi uo <TERM>."
+    },
+    {
+      "id": 31708,
+      "nrs": "jylaselir",
+      "meaningJa": "同盟慶祝歓喜、盟約祝典、連帯交歓祝賀",
+      "meaningEn": "alliance festive celebration, treaty celebratory joy, confederacy concord feast",
+      "pos": "名",
+      "morphemes": [
+        "jylas",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-70",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31709,
+      "nrs": "jylasvyr",
+      "meaningJa": "盟約星辰徽章、同盟星光章、連帯天体標章",
+      "meaningEn": "covenant celestial insignia, alliance starlight emblem, treaty star badge",
+      "pos": "名",
+      "morphemes": [
+        "jylas",
+        "vyr"
+      ],
+      "scenario_id": "CANON-COLAB-70",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31710,
+      "nrs": "polorvyri",
+      "meaningJa": "市民栄誉位、公同気品、高貴市民階位",
+      "meaningEn": "civic honorable rank, municipal nobility dignity, patrician civic prestige",
+      "pos": "名",
+      "morphemes": [
+        "polor",
+        "vyri"
+      ],
+      "scenario_id": "CANON-COLAB-70",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM>."
     }
   ]
 }
