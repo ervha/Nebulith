@@ -1,0 +1,712 @@
+[
+  {
+    "scenario_id": "CANON-COLAB-81",
+    "batch": "Batch 67",
+    "domain": "統治・法規範・社会制度",
+    "title": "工匠座における組合刻印と布告条例の確認",
+    "communicative_need": "工匠頭と法規監が公印を確かめ、条例の告知を行い、議会の定足を確認する。",
+    "agent_a": {
+      "name": "Kivor",
+      "role": "工匠組合の刻印監"
+    },
+    "agent_b": {
+      "name": "Talis",
+      "role": "公報を司る法規官"
+    },
+    "turns": [
+      {
+        "speaker": "Kivor",
+        "nebulith": "Vyrel el mi ia kivpuka ul kivhano. Relen el mi ia kivtyku to valar.",
+        "japanese": "私は組合刻印章と布告条例の巡回告知を観測する。私は評議場へ向けて議会定足数の点検を得る。"
+      },
+      {
+        "speaker": "Talis",
+        "nebulith": "Vymin el mi ia kivhano. Vyrel el mi ia kivtyku. Vymin el miin ia kivpuka ul kivtyku.",
+        "japanese": "私は布告条例の巡回告知を守る。私は議会定足数の点検を確かめる。私たちは組合刻印章と議会定足数の点検を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kivpuka",
+        "pos": "名",
+        "meaningJa": "組合刻印章、ギルド公印、認定標章",
+        "meaningEn": "guild seal imprint, craft association stamp, certified hallmark",
+        "morphemes": [
+          "kiv",
+          "puka"
+        ],
+        "etymology": "kiv(単位/点) + puka(刻印/蹄)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vyrel el mi ia kivpuka.",
+        "example_ja": "私は組合刻印章を観測する。"
+      },
+      {
+        "nrs": "kivhano",
+        "pos": "名",
+        "meaningJa": "布告条例の巡回告知、街頭布告、公的布告文",
+        "meaningEn": "statute proclamation walk, street herald enactment, official ordinance",
+        "morphemes": [
+          "kiv",
+          "hano"
+        ],
+        "etymology": "kiv(条文) + hano(歩む)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vymin el mi ia kivhano.",
+        "example_ja": "私は布告条例の巡回告知を守る。"
+      },
+      {
+        "nrs": "kivtyku",
+        "pos": "名",
+        "meaningJa": "議会定足数の点検、時宜の定足確認、評議定数確認",
+        "meaningEn": "council quorum inspection, assembly attendance verification, parliamentary roll call",
+        "morphemes": [
+          "kiv",
+          "tyku"
+        ],
+        "etymology": "kiv(単位) + tyku(時宜に/適切に)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Relen el mi ia kivtyku to valar.",
+        "example_ja": "私は評議場へ向けて議会定足数の点検を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-82",
+    "batch": "Batch 67",
+    "domain": "統治・権能・和平規範",
+    "title": "執政庁における大笏の親授と休戦の調印",
+    "communicative_need": "執政官と使節が統治権標を確かめ、休戦の印章を交わし、天星の勅令を布告する。",
+    "agent_a": {
+      "name": "Klordan",
+      "role": "執政庁の典礼監"
+    },
+    "agent_b": {
+      "name": "Fenis",
+      "role": "休戦使節の長"
+    },
+    "turns": [
+      {
+        "speaker": "Klordan",
+        "nebulith": "Vyrel el mi ia klorvymin ul klorbion. Relen el mi ia fenovymin to valar.",
+        "japanese": "私は執政官の正笏と休戦の印章を観測する。私は評議場へ向けて天星の勅令を得る。"
+      },
+      {
+        "speaker": "Fenis",
+        "nebulith": "Vymin el mi ia klorbion. Vyrel el mi ia fenovymin. Vymin el miin ia klorvymin ul fenovymin.",
+        "japanese": "私は休戦の印章を守る。私は天星の勅令を確かめる。私たちは執政官の正笏と天星の勅令を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klorvymin",
+        "pos": "名",
+        "meaningJa": "執政官の正笏、統治権標、規律の象徴笏",
+        "meaningEn": "magistrate baton of state, ceremonial sceptre of authority, symbol of civic governance",
+        "morphemes": [
+          "klor",
+          "vymin"
+        ],
+        "etymology": "klor(静止/安寧) + vymin(守る)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vyrel el mi ia klorvymin.",
+        "example_ja": "私は執政官の正笏を観測する。"
+      },
+      {
+        "nrs": "klorbion",
+        "pos": "名",
+        "meaningJa": "休戦の印章、停戦の盟約、和平の萌芽",
+        "meaningEn": "truce token, covenant of armistice, burgeoning peace pact",
+        "morphemes": [
+          "klor",
+          "bion"
+        ],
+        "etymology": "klor(静止/安寧) + bion(生/萌芽)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vymin el mi ia klorbion.",
+        "example_ja": "私は休戦の印章を守る。"
+      },
+      {
+        "nrs": "fenovymin",
+        "pos": "名",
+        "meaningJa": "天星の勅令、至高の法令、布告聖憲",
+        "meaningEn": "celestial edict decree, supreme statutory decree, sovereign proclamation",
+        "morphemes": [
+          "feno",
+          "vymin"
+        ],
+        "etymology": "feno(告げる) + vymin(守る)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Relen el mi ia fenovymin to valar.",
+        "example_ja": "私は評議場へ向けて天星の勅令を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-83",
+    "batch": "Batch 67",
+    "domain": "市民盟約と自治憲章",
+    "title": "市民広場における誓約調印と自治管区の確認",
+    "communicative_need": "市民代表と管区長が信義誓約を取り交わし、行政管区の秩序を定め、自治憲章を宣言する。",
+    "agent_a": {
+      "name": "Silan",
+      "role": "市民連合の総代"
+    },
+    "agent_b": {
+      "name": "Vornas",
+      "role": "管区行政の総務官"
+    },
+    "turns": [
+      {
+        "speaker": "Silan",
+        "nebulith": "Vyrel el mi ia silanpuka ul vornunor. Relen el mi ia silantal to valar.",
+        "japanese": "私は市民の信義誓約と星辰の統治管区を観測する。私は評議場へ向けて都市自治憲章を得る。"
+      },
+      {
+        "speaker": "Vornas",
+        "nebulith": "Vymin el mi ia vornunor. Vyrel el mi ia silantal. Vymin el miin ia silanpuka ul silantal.",
+        "japanese": "私は星辰の統治管区を守る。私は都市自治憲章を確かめる。私たちは市民の信義誓約と都市自治憲章を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "silanpuka",
+        "pos": "名",
+        "meaningJa": "市民の信義誓約、共同体盟約、市民誓詞",
+        "meaningEn": "civic covenant oath, citizen solemn pledge, municipal compact",
+        "morphemes": [
+          "silan",
+          "puka"
+        ],
+        "etymology": "silan(調和/秩序) + puka(刻印)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vyrel el mi ia silanpuka.",
+        "example_ja": "私は市民の信義誓約を観測する。"
+      },
+      {
+        "nrs": "vornunor",
+        "pos": "名",
+        "meaningJa": "星辰の統治管区、行政区域、管轄区画",
+        "meaningEn": "astral administrative district, jurisdictional district, governance zone",
+        "morphemes": [
+          "vorn",
+          "unor"
+        ],
+        "etymology": "vorn(秩序/整調) + unor(始動/展開)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vymin el mi ia vornunor.",
+        "example_ja": "私は星辰の統治管区を守る。"
+      },
+      {
+        "nrs": "silantal",
+        "pos": "名",
+        "meaningJa": "都市自治憲章、大地の基本憲章、都市定款",
+        "meaningEn": "municipal charter code, municipal autonomy organic law, city fundamental statutes",
+        "morphemes": [
+          "silan",
+          "tal"
+        ],
+        "etymology": "silan(秩序/調和) + tal(大地)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Relen el mi ia silantal to valar.",
+        "example_ja": "私は評議場へ向けて都市自治憲章を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-84",
+    "batch": "Batch 67",
+    "domain": "裁判・調停・公判手続",
+    "title": "法廷における仲裁審理と認証印章の検認",
+    "communicative_need": "法官と検認官が清澄なる仲裁審理を行い、工匠印章を照合し、議事規則を確認する。",
+    "agent_a": {
+      "name": "Daris",
+      "role": "仲裁法廷の審理官"
+    },
+    "agent_b": {
+      "name": "Kivan",
+      "role": "印章規格の検認役"
+    },
+    "turns": [
+      {
+        "speaker": "Daris",
+        "nebulith": "Vyrel el mi ia silandar ul kivlyka. Relen el mi ia silanbion to valar.",
+        "japanese": "私は清澄なる仲裁審理と組合刻印の検認票を観測する。私は評議場へ向けて評議会の秩序規約を得る。"
+      },
+      {
+        "speaker": "Kivan",
+        "nebulith": "Vymin el mi ia kivlyka. Vyrel el mi ia silanbion. Vymin el miin ia silandar ul silanbion.",
+        "japanese": "私は組合刻印の検認票を守る。私は評議会の秩序規約を確かめる。私たちは清澄なる仲裁審理と評議会の秩序規約を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "silandar",
+        "pos": "名",
+        "meaningJa": "清澄なる仲裁審理、公平な裁定法廷、調停公判",
+        "meaningEn": "pure arbitral hearing, impartial arbitration bench, amicable adjudication tribunal",
+        "morphemes": [
+          "silan",
+          "dar"
+        ],
+        "etymology": "silan(秩序) + dar(雫/清澄)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vyrel el mi ia silandar.",
+        "example_ja": "私は清澄なる仲裁審理を観測する。"
+      },
+      {
+        "nrs": "kivlyka",
+        "pos": "名",
+        "meaningJa": "組合刻印の検認票、工匠印章、規格認証印",
+        "meaningEn": "guild insignia tag, certified artisan stamp, craft benchmark seal",
+        "morphemes": [
+          "kiv",
+          "lyka"
+        ],
+        "etymology": "kiv(単位/条文) + lyka(籠/節/座)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vymin el mi ia kivlyka.",
+        "example_ja": "私は組合刻印の検認票を守る。"
+      },
+      {
+        "nrs": "silanbion",
+        "pos": "名",
+        "meaningJa": "評議会の秩序規約、議事規則、本会議規律",
+        "meaningEn": "assembly standing order, council procedural rule, parliament decorum code",
+        "morphemes": [
+          "silan",
+          "bion"
+        ],
+        "etymology": "silan(秩序) + bion(生/萌芽)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Relen el mi ia silanbion to valar.",
+        "example_ja": "私は評議場へ向けて評議会の秩序規約を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-85",
+    "batch": "Batch 68",
+    "domain": "公報・布告・和睦条約",
+    "title": "公報所における条令朗読と和睦証書の公布",
+    "communicative_need": "伝達官と記録官が布告条文を朗読し、執政の位階標を掲げ、和睦調印の証書を保管する。",
+    "agent_a": {
+      "name": "Fenor",
+      "role": "公報所の朗読使"
+    },
+    "agent_b": {
+      "name": "Klorin",
+      "role": "条約正本の記録書記"
+    },
+    "turns": [
+      {
+        "speaker": "Fenor",
+        "nebulith": "Vyrel el mi ia kivfeno ul silanvorn. Relen el mi ia klorhano to valar.",
+        "japanese": "私は布告条文の公式朗読と大権の笏座を観測する。私は評議場へ向けて和睦調印の証書を得る。"
+      },
+      {
+        "speaker": "Klorin",
+        "nebulith": "Vymin el mi ia silanvorn. Vyrel el mi ia klorhano. Vymin el miin ia kivfeno ul klorhano.",
+        "japanese": "私は大権の笏座を守る。私は和睦調印の証書を確かめる。私たちは布告条文の公式朗読と和睦調印の証書を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kivfeno",
+        "pos": "名",
+        "meaningJa": "布告条文の公式朗読、公報布告、条令伝達",
+        "meaningEn": "formal ordinance reading, gazette proclamation, statutory address",
+        "morphemes": [
+          "kiv",
+          "feno"
+        ],
+        "etymology": "kiv(条文) + feno(告げる)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vyrel el mi ia kivfeno.",
+        "example_ja": "私は布告条文の公式朗読を観測する。"
+      },
+      {
+        "nrs": "silanvorn",
+        "pos": "名",
+        "meaningJa": "大権の笏座、執政の位階標、主権の標石",
+        "meaningEn": "seat of judicial authority, insignia of administrative rank, stone of supreme magistracy",
+        "morphemes": [
+          "silan",
+          "vorn"
+        ],
+        "etymology": "silan(秩序) + vorn(整調/席座)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vymin el mi ia silanvorn.",
+        "example_ja": "私は大権の笏座を守る。"
+      },
+      {
+        "nrs": "klorhano",
+        "pos": "名",
+        "meaningJa": "和睦調印の証書、休戦規約、静謐の和議",
+        "meaningEn": "accord of armistice covenant, truce pact, ratified quietus treaty",
+        "morphemes": [
+          "klor",
+          "hano"
+        ],
+        "etymology": "klor(安寧) + hano(歩む)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Relen el mi ia klorhano to valar.",
+        "example_ja": "私は評議場へ向けて和睦調印の証書を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-86",
+    "batch": "Batch 68",
+    "domain": "勅命告諭と境界標示",
+    "title": "境域望楼における勅令親告と管区標柱の巡視",
+    "communicative_need": "境域使と巡視官が勅令伝達の親告を行い、市民連名簿を照合し、管区境界標柱を点検する。",
+    "agent_a": {
+      "name": "Fenan",
+      "role": "境域の勅令使"
+    },
+    "agent_b": {
+      "name": "Pukor",
+      "role": "境界界標の巡視役"
+    },
+    "turns": [
+      {
+        "speaker": "Fenan",
+        "nebulith": "Vyrel el mi ia fenopuka ul silanlyka. Relen el mi ia pukatyni to valar.",
+        "japanese": "私は勅令伝達の親告と市民誓約の連名簿を観測する。私は評議場へ向けて行政管区の境界標柱を得る。"
+      },
+      {
+        "speaker": "Pukor",
+        "nebulith": "Vymin el mi ia silanlyka. Vyrel el mi ia pukatyni. Vymin el miin ia fenopuka ul pukatyni.",
+        "japanese": "私は市民誓約の連名簿を守る。私は行政管区の境界標柱を確かめる。私たちは勅令伝達の親告と行政管区の境界標柱を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "fenopuka",
+        "pos": "名",
+        "meaningJa": "勅令伝達の親告、公報布告使、大命告諭",
+        "meaningEn": "heraldic promulgation announcement, mandate transmission, sovereign decree delivery",
+        "morphemes": [
+          "feno",
+          "puka"
+        ],
+        "etymology": "feno(告げる) + puka(刻印)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vyrel el mi ia fenopuka.",
+        "example_ja": "私は勅令伝達の親告を観測する。"
+      },
+      {
+        "nrs": "silanlyka",
+        "pos": "名",
+        "meaningJa": "市民誓約の連名簿、誓詞署名結節、盟約盟主帳",
+        "meaningEn": "civic covenant register, signed alliance roll, fellowship registry binder",
+        "morphemes": [
+          "silan",
+          "lyka"
+        ],
+        "etymology": "silan(秩序) + lyka(節/籠/帳簿)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Vymin el mi ia silanlyka.",
+        "example_ja": "私は市民誓約の連名簿を守る。"
+      },
+      {
+        "nrs": "pukatyni",
+        "pos": "名",
+        "meaningJa": "行政管区の境界標柱、管区境界石、管轄境界界標",
+        "meaningEn": "administrative district boundary marker, territory border signet, jurisdictional boundary post",
+        "morphemes": [
+          "puka",
+          "tyni"
+        ],
+        "etymology": "puka(刻印) + tyni(銀の/光る)",
+        "category": "9. 統治・社会・法・共同体",
+        "example_sentence": "Relen el mi ia pukatyni to valar.",
+        "example_ja": "私は評議場へ向けて行政管区の境界標柱を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-87",
+    "batch": "Batch 68",
+    "domain": "数理・幾何・測量暦算",
+    "title": "算術院における素数比算定と振り子周期の計測",
+    "communicative_need": "算術学徒と計時工匠が素数比を算定し、漸近線の注視軌跡を求め、振り子の振動周期を測る。",
+    "agent_a": {
+      "name": "Sufor",
+      "role": "算術院の数理計算士"
+    },
+    "agent_b": {
+      "name": "Tykon",
+      "role": "時辰計器の調律師"
+    },
+    "turns": [
+      {
+        "speaker": "Sufor",
+        "nebulith": "Vyrel el mi ia sufbion ul unorseno. Relen el mi ia tykbion to govan.",
+        "japanese": "私は素数比の算定法と漸近線の注視軌跡を観測する。私は家へ向けて振り子の振動周期を得る。"
+      },
+      {
+        "speaker": "Tykon",
+        "nebulith": "Vymin el mi ia unorseno. Vyrel el mi ia tykbion. Vymin el miin ia sufbion ul tykbion.",
+        "japanese": "私は漸近線の注視軌跡を守る。私は振り子の振動周期を確かめる。私たちは素数比の算定法と振り子の振動周期を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "sufbion",
+        "pos": "名",
+        "meaningJa": "素数比の算定法、最小単位比率、互いに素な比率",
+        "meaningEn": "prime ratio calculation, atomic proportional fraction, coprime calculus",
+        "morphemes": [
+          "suf",
+          "bion"
+        ],
+        "etymology": "suf(計算) + bion(生/萌芽)",
+        "category": "3. 情報・計算機・通信",
+        "example_sentence": "Vyrel el mi ia sufbion.",
+        "example_ja": "私は素数比の算定法を観測する。"
+      },
+      {
+        "nrs": "unorseno",
+        "pos": "名",
+        "meaningJa": "漸近線の注視軌跡、漸近線観察、極限収束線",
+        "meaningEn": "asymptotic tangent line observation, asymptotic trace, limit convergence boundary",
+        "morphemes": [
+          "unor",
+          "seno"
+        ],
+        "etymology": "unor(始動/展開) + seno(見る/注視)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia unorseno.",
+        "example_ja": "私は漸近線の注視軌跡を守る。"
+      },
+      {
+        "nrs": "tykbion",
+        "pos": "名",
+        "meaningJa": "振り子の振動周期、周期運動の生動、時相周期",
+        "meaningEn": "pendulum oscillation period, rhythmic vibrational pulse, cyclic chronometer swing",
+        "morphemes": [
+          "tyk",
+          "bion"
+        ],
+        "etymology": "tyk(拍/周期) + bion(生/運動)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia tykbion to govan.",
+        "example_ja": "私は家へ向けて振り子の振動周期を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-88",
+    "batch": "Batch 69",
+    "domain": "天体測量と格子座標",
+    "title": "天測台における至点高度と格子座標の精密測点",
+    "communicative_need": "天測士と測量技手が至点天体の高度を測り、接線方向の測角を行い、格子座標を決定する。",
+    "agent_a": {
+      "name": "Vyras",
+      "role": "天測台の仰角測手"
+    },
+    "agent_b": {
+      "name": "Kivan",
+      "role": "地勢格子座標の測量士"
+    },
+    "turns": [
+      {
+        "speaker": "Vyras",
+        "nebulith": "Vyrel el mi ia sufvyr ul tykseno. Relen el mi ia kivseno to govan.",
+        "japanese": "私は至点天体の観測高度と接線方向の測角を観測する。私は家へ向けて格子座標の精密測点を得る。"
+      },
+      {
+        "speaker": "Kivan",
+        "nebulith": "Vymin el mi ia tykseno. Vyrel el mi ia kivseno. Vymin el miin ia sufvyr ul kivseno.",
+        "japanese": "私は接線方向の測角を守る。私は格子座標の精密測点を確かめる。私たちは至点天体の観測高度と格子座標の精密測点を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "sufvyr",
+        "pos": "名",
+        "meaningJa": "至点天体の観測高度、最高仰角観測、天頂照準",
+        "meaningEn": "solstice culmination altitude, highest zenith observation, apex sightline measure",
+        "morphemes": [
+          "suf",
+          "vyr"
+        ],
+        "etymology": "suf(計算) + vyr(星)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia sufvyr.",
+        "example_ja": "私は至点天体の観測高度を観測する。"
+      },
+      {
+        "nrs": "tykseno",
+        "pos": "名",
+        "meaningJa": "接線方向の測角、曲率の接線ベクトル、接点角",
+        "meaningEn": "tangential vector observation, tangent angle determination, contour contact direction",
+        "morphemes": [
+          "tyk",
+          "seno"
+        ],
+        "etymology": "tyk(拍/単位) + seno(見る/注視)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia tykseno.",
+        "example_ja": "私は接線方向の測角を守る。"
+      },
+      {
+        "nrs": "kivseno",
+        "pos": "名",
+        "meaningJa": "格子座標の精密測点、方眼座標基準点、格子基準点",
+        "meaningEn": "grid coordinate measurement point, coordinate grid benchmark, lattice reference knot",
+        "morphemes": [
+          "kiv",
+          "seno"
+        ],
+        "etymology": "kiv(単位点) + seno(注視/照準)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia kivseno to govan.",
+        "example_ja": "私は家へ向けて格子座標の精密測点を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-89",
+    "batch": "Batch 69",
+    "domain": "幾何軌道と旋回半径",
+    "title": "力学実験場における周長算定と放物軌道の追跡",
+    "communicative_need": "力学士と実験助手が幾何周長を算定し、放物軌道を追跡し、回転半径を記録する。",
+    "agent_a": {
+      "name": "Unoran",
+      "role": "軌道力学の主任研究者"
+    },
+    "agent_b": {
+      "name": "Tykis",
+      "role": "実験観測の記録員"
+    },
+    "turns": [
+      {
+        "speaker": "Unoran",
+        "nebulith": "Vyrel el mi ia unorvorn ul unorhano. Relen el mi ia tykuhano to govan.",
+        "japanese": "私は幾何周長の整調算定と放物軌道の巡行路を観測する。私は家へ向けて回転半径の描周路を得る。"
+      },
+      {
+        "speaker": "Tykis",
+        "nebulith": "Vymin el mi ia unorhano. Vyrel el mi ia tykuhano. Vymin el miin ia unorvorn ul tykuhano.",
+        "japanese": "私は放物軌道の巡行路を守る。私は回転半径の描周路を確かめる。私たちは幾何周長の整調算定と回転半径の描周路を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "unorvorn",
+        "pos": "名",
+        "meaningJa": "幾何周長の整調算定、周界計測値、閉曲線外周長",
+        "meaningEn": "perimeter contour measurement, closed circuit boundary length, perimeter calculus",
+        "morphemes": [
+          "unor",
+          "vorn"
+        ],
+        "etymology": "unor(展開) + vorn(秩序/整調)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia unorvorn.",
+        "example_ja": "私は幾何周長の整調算定を観測する。"
+      },
+      {
+        "nrs": "unorhano",
+        "pos": "名",
+        "meaningJa": "放物軌道の巡行路、曲線軌道歩み、自由放物軌跡",
+        "meaningEn": "parabolic trajectory route, curving orbital course, projectile path trace",
+        "morphemes": [
+          "unor",
+          "hano"
+        ],
+        "etymology": "unor(展開) + hano(歩む)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia unorhano.",
+        "example_ja": "私は放物軌道の巡行路を守る。"
+      },
+      {
+        "nrs": "tykuhano",
+        "pos": "名",
+        "meaningJa": "回転半径の描周路、旋回運動半径、円周動線",
+        "meaningEn": "gyration radius traverse, rotation radius orbit, orbital curvature swing",
+        "morphemes": [
+          "tyku",
+          "hano"
+        ],
+        "etymology": "tyku(時宜に/適切に) + hano(歩む)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia tykuhano to govan.",
+        "example_ja": "私は家へ向けて回転半径の描周路を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-90",
+    "batch": "Batch 69",
+    "domain": "光学測量と解析計理",
+    "title": "光学測量所における六分儀測角と漸近解析計数",
+    "communicative_need": "光学技師と解析学徒が六分儀による測角閃光を放ち、素数比率の離散数量を確かめ、漸近解析計数を完遂する。",
+    "agent_a": {
+      "name": "Vyrelon",
+      "role": "光学測量所の主任技師"
+    },
+    "agent_b": {
+      "name": "Sufen",
+      "role": "解析数理の記録士"
+    },
+    "turns": [
+      {
+        "speaker": "Vyrelon",
+        "nebulith": "Vyrel el mi ia tykvyrel ul kivbion. Relen el mi ia suftyni to govan.",
+        "japanese": "私は六分儀による測角閃光と素数比率の離散数量を観測する。私は家へ向けて漸近線の極限計算を得る。"
+      },
+      {
+        "speaker": "Sufen",
+        "nebulith": "Vymin el mi ia kivbion. Vyrel el mi ia suftyni. Vymin el miin ia tykvyrel ul suftyni.",
+        "japanese": "私は素数比率の離散数量を守る。私は漸近線の極限計算を確かめる。私たちは六分儀による測角閃光と漸近線の極限計算を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tykvyrel",
+        "pos": "名",
+        "meaningJa": "六分儀による測角閃光、恒星高度測定光、測地投光",
+        "meaningEn": "sextant alignment flash, celestial angle measurement beam, survey flashpoint",
+        "morphemes": [
+          "tyk",
+          "vyrel"
+        ],
+        "etymology": "tyk(拍/単位) + vyrel(観測する)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia tykvyrel.",
+        "example_ja": "私は六分儀による測角閃光を観測する。"
+      },
+      {
+        "nrs": "kivbion",
+        "pos": "名",
+        "meaningJa": "素数比率の離散数量、単位比率量、整数量論値",
+        "meaningEn": "coprime discrete quantum, elementary ratio measure, modular arithmetic quantity",
+        "morphemes": [
+          "kiv",
+          "bion"
+        ],
+        "etymology": "kiv(単位) + bion(生/萌芽)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia kivbion.",
+        "example_ja": "私は素数比率の離散数量を守る。"
+      },
+      {
+        "nrs": "suftyni",
+        "pos": "名",
+        "meaningJa": "漸近線の極限計算、収束漸近計理、漸近解析計数",
+        "meaningEn": "asymptotic limit analysis, convergence asymptotic calculus, boundary limit appraisal",
+        "morphemes": [
+          "suf",
+          "tyni"
+        ],
+        "etymology": "suf(計算) + tyni(銀の/光る)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia suftyni to govan.",
+        "example_ja": "私は家へ向けて漸近線の極限計算を得る。"
+      }
+    ]
+  }
+]
