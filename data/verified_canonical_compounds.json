@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1.0",
-  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-40)",
-  "generatedAt": "2026-10-20T03:02:30.300046+00:00",
+  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-42)",
+  "generatedAt": "2026-10-20T03:20:41.864122+00:00",
   "source": "data/lexicon.json",
   "validator": "tools/canonical_compound_validator.py",
   "summary": {
-    "totalEntries": 480,
-    "totalScenarios": 160,
+    "totalEntries": 500,
+    "totalScenarios": 167,
     "batches": [
       "Batch 1",
       "Batch 2",
@@ -47,12 +47,14 @@
       "Batch 37",
       "Batch 38",
       "Batch 39",
-      "Batch 40"
+      "Batch 40",
+      "Batch 41",
+      "Batch 42"
     ],
     "auditFlagCount": 0,
     "allConstituentsStandalone": true,
     "twoSpeakerReuseVerified": true,
-    "remediatedLegacyCount": 480
+    "remediatedLegacyCount": 500
   },
   "remappingTable": [
     {
@@ -7254,6 +7256,306 @@
         "van",
         "kor"
       ]
+    },
+    {
+      "canonicalCompoundId": 31481,
+      "canonicalNrs": "wylordar",
+      "canonicalMorphemes": [
+        "wylor",
+        "dar"
+      ],
+      "canonicalMeaningJa": "季節風が運ぶ恵みの雨、モンスーンの降雨、風の潤い雨",
+      "remediatedLegacyId": 41001,
+      "legacyNrs": "vantas",
+      "legacyMorphemes": [
+        "van",
+        "tas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31482,
+      "canonicalNrs": "wylorvel",
+      "canonicalMorphemes": [
+        "wylor",
+        "vel"
+      ],
+      "canonicalMeaningJa": "潮風に耐える防風樹、海風の樹林、風除けの常緑木",
+      "remediatedLegacyId": 41002,
+      "legacyNrs": "vanlin",
+      "legacyMorphemes": [
+        "van",
+        "lin"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31483,
+      "canonicalNrs": "zylartal",
+      "canonicalMorphemes": [
+        "zylar",
+        "tal"
+      ],
+      "canonicalMeaningJa": "海岸段丘、海と大地の境、波打ち際の段丘地",
+      "remediatedLegacyId": 41003,
+      "legacyNrs": "vanlen",
+      "legacyMorphemes": [
+        "van",
+        "len"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31484,
+      "canonicalNrs": "talondar",
+      "canonicalMorphemes": [
+        "talon",
+        "dar"
+      ],
+      "canonicalMeaningJa": "孤島の淡水泉、海島の湧水、島の中央の水源",
+      "remediatedLegacyId": 41004,
+      "legacyNrs": "vankyr",
+      "legacyMorphemes": [
+        "van",
+        "kyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31485,
+      "canonicalNrs": "talonvel",
+      "canonicalMorphemes": [
+        "talon",
+        "vel"
+      ],
+      "canonicalMeaningJa": "島の原生林、孤島に根づく固有樹、島峰の森",
+      "remediatedLegacyId": 41005,
+      "legacyNrs": "vanmin",
+      "legacyMorphemes": [
+        "van",
+        "min"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31486,
+      "canonicalNrs": "dargovan",
+      "canonicalMorphemes": [
+        "dar",
+        "govan"
+      ],
+      "canonicalMeaningJa": "水上の高床住居、波止場の舟小屋、水辺の家",
+      "remediatedLegacyId": 41006,
+      "legacyNrs": "vanfen",
+      "legacyMorphemes": [
+        "van",
+        "fen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31487,
+      "canonicalNrs": "pyrisvorn",
+      "canonicalMorphemes": [
+        "pyris",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "暖炉の間、石炉の憩い室、火床のある温もり部屋",
+      "remediatedLegacyId": 41007,
+      "legacyNrs": "kordar",
+      "legacyMorphemes": [
+        "kor",
+        "dar"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31488,
+      "canonicalNrs": "terinvorn",
+      "canonicalMorphemes": [
+        "terin",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "茶室、煎じ茶の談話室、温茶を愉しむ小間",
+      "remediatedLegacyId": 41008,
+      "legacyNrs": "korsul",
+      "legacyMorphemes": [
+        "kor",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31489,
+      "canonicalNrs": "nergovan",
+      "canonicalMorphemes": [
+        "ner",
+        "govan"
+      ],
+      "canonicalMeaningJa": "糧食の貯蔵家屋、食料庫、収穫物を納める保冷庫",
+      "remediatedLegacyId": 41009,
+      "legacyNrs": "korbion",
+      "legacyMorphemes": [
+        "kor",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31490,
+      "canonicalNrs": "tasorvorn",
+      "canonicalMorphemes": [
+        "tasor",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "安楽椅子の読書室、応接の小間、肘掛け椅子の寛ぎ部屋",
+      "remediatedLegacyId": 41010,
+      "legacyNrs": "korsir",
+      "legacyMorphemes": [
+        "kor",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31491,
+      "canonicalNrs": "pamelvorn",
+      "canonicalMorphemes": [
+        "pamel",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "蔵書室、図書閲覧室、典籍が並ぶ静かな小部屋",
+      "remediatedLegacyId": 41011,
+      "legacyNrs": "kortul",
+      "legacyMorphemes": [
+        "kor",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31492,
+      "canonicalNrs": "dovikvorn",
+      "canonicalMorphemes": [
+        "dovik",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "執務室、文机の仕事部屋、記録を綴る書斎",
+      "remediatedLegacyId": 41012,
+      "legacyNrs": "korpel",
+      "legacyMorphemes": [
+        "kor",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31493,
+      "canonicalNrs": "serelvel",
+      "canonicalMorphemes": [
+        "serel",
+        "vel"
+      ],
+      "canonicalMeaningJa": "木彫りの工芸品、小刀で彫られた銘木細工、木彫刻",
+      "remediatedLegacyId": 41013,
+      "legacyNrs": "kornel",
+      "legacyMorphemes": [
+        "kor",
+        "nel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31494,
+      "canonicalNrs": "kypalvel",
+      "canonicalMorphemes": [
+        "kypal",
+        "vel"
+      ],
+      "canonicalMeaningJa": "木製の収納箱、銘木の小箱、桐箱のような工芸箱",
+      "remediatedLegacyId": 41014,
+      "legacyNrs": "korsel",
+      "legacyMorphemes": [
+        "kor",
+        "sel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31495,
+      "canonicalNrs": "tasorvel",
+      "canonicalMorphemes": [
+        "tasor",
+        "vel"
+      ],
+      "canonicalMeaningJa": "肘掛け椅子の銘木、椅子用の頑丈な木材、家具用材",
+      "remediatedLegacyId": 41015,
+      "legacyNrs": "kortor",
+      "legacyMorphemes": [
+        "kor",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31496,
+      "canonicalNrs": "nervelas",
+      "canonicalMorphemes": [
+        "ner",
+        "velas"
+      ],
+      "canonicalMeaningJa": "滋養の薬草葉、食用薬草の青葉、ビタミン豊富な野草葉",
+      "remediatedLegacyId": 41016,
+      "legacyNrs": "korpal",
+      "legacyMorphemes": [
+        "kor",
+        "pal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31497,
+      "canonicalNrs": "nerzyvas",
+      "canonicalMorphemes": [
+        "ner",
+        "zyvas"
+      ],
+      "canonicalMeaningJa": "食による健全な健康、滋養に満ちた健やかさ、食療養",
+      "remediatedLegacyId": 41017,
+      "legacyNrs": "korvas",
+      "legacyMorphemes": [
+        "kor",
+        "vas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31498,
+      "canonicalNrs": "duriltal",
+      "canonicalMorphemes": [
+        "duril",
+        "tal"
+      ],
+      "canonicalMeaningJa": "太古の骨石層、化石を含む地層、古生物の骨岩層",
+      "remediatedLegacyId": 41018,
+      "legacyNrs": "korzen",
+      "legacyMorphemes": [
+        "kor",
+        "zen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31499,
+      "canonicalNrs": "klorteira",
+      "canonicalMorphemes": [
+        "klor",
+        "teira"
+      ],
+      "canonicalMeaningJa": "心臓の環状脈系、生命の核たる循環脈、胸の円環脈",
+      "remediatedLegacyId": 41019,
+      "legacyNrs": "kormol",
+      "legacyMorphemes": [
+        "kor",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31500,
+      "canonicalNrs": "nerteira",
+      "canonicalMorphemes": [
+        "ner",
+        "teira"
+      ],
+      "canonicalMeaningJa": "生命を養う心臓の滋養、心魂の活力、生命核の滋養",
+      "remediatedLegacyId": 41020,
+      "legacyNrs": "korkel",
+      "legacyMorphemes": [
+        "kor",
+        "kel"
+      ]
     }
   ],
   "scenarios": [
@@ -11609,6 +11911,265 @@
           "speaker": "Sev",
           "nebulith": "Soran el miin ia havlivar ul darsirar. Falun el klorzevil al miin.",
           "japanese": "私たちは歳月の星辰書庫と水辺の平穏を完結させる。私たちに完結した円環記述譜が輝く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-CONV-161",
+      "batch": "Batch 41",
+      "domain": "航路と海辺の風土・季節風の雨と防風樹・海岸段丘",
+      "title": "季節風の恵みと防風樹",
+      "communicative_need": "季節風が運ぶ恵みの雨、海岸段丘の防風樹、海と陸の境界の美しさを語り合う。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "波止場で風を読む舟守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "海辺の植生を愛でる採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Vyrel el mi ia wylordar uo zylartal. Relen el wylorvel uo tal.",
+          "japanese": "私は海岸段丘で季節風の恵みの雨を観測する。大地に防風樹がある。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Ve. Vymin el wylorvel ia zylartal. Relen el wylordar al mi.",
+          "japanese": "はい。防風樹は海岸段丘を守る。私に季節風の恵みの雨がある。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Poran el mi to zylartal ku ti. Vymin el mi ia wylorvel.",
+          "japanese": "私はあなたと海岸段丘へ歩む。私は防風樹を守る。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Cynur el mi to ti. Poran el mi uo wylordar.",
+          "japanese": "私はあなたに感謝する。私は季節風の恵みの雨の中で歩む。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-CONV-162",
+      "batch": "Batch 41",
+      "domain": "島嶼の営みと水脈・孤島の淡水泉・水上の高床住居",
+      "title": "孤島の淡水泉と高床住居",
+      "communicative_need": "孤島の淡水泉、固有樹が茂る原生林、水上の高床住居について語り合う。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "島伝いに漕ぎ出す舟守"
+      },
+      "agent_b": {
+        "name": "Sev",
+        "role": "島の水門を改修する灯守"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Vyrel el mi ia talondar uo talonvel. Relen el dargovan uo dar.",
+          "japanese": "私は孤島の原生林で淡水泉を観測する。水辺に高床住居がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Ve. Relen el talondar to dargovan. Vymin el talonvel ia tal.",
+          "japanese": "はい。高床住居のそばに淡水泉がある。原生林は大地の土を守る。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Bion el mi ia talondar uo dargovan.",
+          "japanese": "私は高床住居で淡水泉の水を飲む。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Poran el mi to talonvel ku ti. Relen el havsirin uo dargovan.",
+          "japanese": "私はあなたと島の原生林へ歩む。高床住居に静かなひとときがある。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-CONV-163",
+      "batch": "Batch 41",
+      "domain": "炉火と冬の住まい・暖炉の間と茶室・糧食庫",
+      "title": "暖炉の間と煎じ茶の談話室",
+      "communicative_need": "暖炉の間の温もり、煎じ茶を供する茶室、糧食を蓄える食料庫について語り合う。",
+      "agent_a": {
+        "name": "Yura",
+        "role": "筆を休めて温まる写字生"
+      },
+      "agent_b": {
+        "name": "Sev",
+        "role": "薪と炉火を整える灯守"
+      },
+      "turns": [
+        {
+          "speaker": "Yura",
+          "nebulith": "Relen el pyrisvorn uo govan. Poran el mi to terinvorn.",
+          "japanese": "家に暖炉の間がある。私は茶室へと歩む。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Ve. Vymin el pyrisvorn ia mi. Relen el nergovan to terinvorn.",
+          "japanese": "はい。暖炉の間は私を守る。茶室のそばに食料庫がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Bion el mi ia terin uo terinvorn. Relen el ner uo nergovan.",
+          "japanese": "私は茶室で温茶を飲む。食料庫に滋養がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Relen el havsirin uo pyrisvorn. Vymin el mi ia nergovan.",
+          "japanese": "暖炉の間に静かなひとときがある。私は食料庫を守る。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-CONV-164",
+      "batch": "Batch 41",
+      "domain": "木工と書斎の調度・安楽椅子の読書室・執務机の間",
+      "title": "安楽椅子の読書室と文机の書斎",
+      "communicative_need": "安楽椅子の読書室、典籍が並ぶ蔵書室、文机のある執務室について語り合う。",
+      "agent_a": {
+        "name": "Yura",
+        "role": "書斎で日誌を整理する写字生"
+      },
+      "agent_b": {
+        "name": "Toa",
+        "role": "航海日誌を届けに来た舟守"
+      },
+      "turns": [
+        {
+          "speaker": "Yura",
+          "nebulith": "Relen el tasorvorn to pamelvorn. Soran el mi uo dovikvorn.",
+          "japanese": "蔵書室の隣に安楽椅子の読書室がある。私は執務室で記録を書き留める。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Ve. Relen el pamel uo pamelvorn. Poran el mi to tasorvorn.",
+          "japanese": "はい。蔵書室に書物がある。私は安楽椅子の読書室へ歩む。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Vymin el mi ia pamelvorn. Relen el dovik uo dovikvorn.",
+          "japanese": "私は蔵書室を守る。執務室に文机がある。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Relen el havsirin uo tasorvorn. Fenor el mi to ti uo dovikvorn.",
+          "japanese": "安楽椅子の読書室に静かなひとときがある。私は執務室であなたに語る。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-CONV-165",
+      "batch": "Batch 42",
+      "domain": "彫刻と収納工芸・木彫細工と銘木の工芸箱・家具木材",
+      "title": "木彫り細工と銘木の工芸箱",
+      "communicative_need": "木彫りの工芸品、銘木の木箱、椅子用の良質な木材について語り合う。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "細工小刀を振るう灯守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "香木と良材を見立てる採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi ia serelvel ul kypalvel. Relen el tasorvel uo vorn.",
+          "japanese": "私は木彫りの工芸品と銘木の工芸箱を創る。部屋に椅子の銘木がある。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Ve. Vymin el kypalvel ia pamel. Relen el silan uo serelvel.",
+          "japanese": "はい。工芸箱は書物を守る。木彫り細工に調和がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi ia tasor to tasorvel.",
+          "japanese": "私は椅子の銘木で安楽椅子を創る。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Relen el havsirin to tasorvel. Cynur el mi to ti ia serelvel ul kypalvel.",
+          "japanese": "椅子の銘木のそばに静かな時間がある。私は木彫りの工芸品と工芸箱についてあなたに感謝する。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-CONV-166",
+      "batch": "Batch 42",
+      "domain": "薬草と地層の記憶・滋養の薬草葉と古生物の骨石層",
+      "title": "滋養の薬草葉と古生物の骨石層",
+      "communicative_need": "滋養に富む薬草葉、健全な健康、太古の化石地層について語り合う。",
+      "agent_a": {
+        "name": "Neri",
+        "role": "崖下の薬草を探す採集師"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "岩肌の化石を写生する写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Neri",
+          "nebulith": "Vyrel el mi ia nervelas to duriltal. Relen el nerzyvas al mi.",
+          "japanese": "私は太古の骨石層のそばで滋養の薬草葉を観測する。私に食による健全な健康がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Ve. Vymin el nervelas ia nerzyvas. Soran el mi ia duriltal.",
+          "japanese": "はい。薬草葉は健全な健康を守る。私は骨石層の記録を書き留める。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Neran el mi ia nervelas to nerzyvas.",
+          "japanese": "私は健全な健康のために薬草葉を食べる。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Relen el eirin havel uo duriltal. Relen el nerzyvas to ti.",
+          "japanese": "骨石層に太古の時代がある。あなたに健全な健康がある。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-CONV-167",
+      "batch": "Batch 42",
+      "domain": "循環と生命の核心・心臓の循環脈と生命核の滋養",
+      "title": "心臓の循環脈と生命核の滋養",
+      "communicative_need": "心臓の環状脈系、生命を養う核心の滋養、命の円環について語り合う。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "脈動と生命律を看取る灯守"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "全五百語の結びを記す写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Vyrel el mi ia klorteira. Relen el nerteira uo sylim.",
+          "japanese": "私は心臓の循環脈系を観測する。心の内に生命核の滋養がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Ve. Vymin el klorteira ia zyvel. Relen el nerteira to mi.",
+          "japanese": "はい。心臓の循環脈は生命を守る。私に生命核の滋養がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Relen el silan uo klorteira.",
+          "japanese": "循環脈に調和がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Cynur el mi to klorteira ul nerteira.",
+          "japanese": "私は心臓の循環脈と生命核の滋養に感謝する。"
         }
       ]
     }
@@ -29848,6 +30409,766 @@
         }
       ],
       "remediatesLegacyCandidateId": 41000,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "wylordar",
+      "pos": "名",
+      "meaningJa": "季節風が運ぶ恵みの雨、モンスーンの降雨、風の潤い雨",
+      "meaningEn": "monsoon rain, wind-carried seasonal rain, nourishing monsoon shower",
+      "morphemes": [
+        "wylor",
+        "dar"
+      ],
+      "etymology": "wylor(季節風) + dar(しずく)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Vyrel el mi ia wylordar uo zylartal.",
+      "example_ja": "私は海岸段丘で季節風の恵みの雨を観測する。",
+      "id": 31481,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-161",
+      "domain": "航路と海辺の風土・季節風の雨と防風樹・海岸段丘",
+      "constituentEntries": [
+        {
+          "id": 368,
+          "nrs": "wylor",
+          "pos": "名",
+          "meaningJa": "季節風、恒常風、偏西風"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41001,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "wylorvel",
+      "pos": "名",
+      "meaningJa": "潮風に耐える防風樹、海風の樹林、風除けの常緑木",
+      "meaningEn": "windbreak tree, coastal shelterbelt timber, wind-resisting evergreen",
+      "morphemes": [
+        "wylor",
+        "vel"
+      ],
+      "etymology": "wylor(季節風) + vel(木)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Relen el wylorvel uo tal.",
+      "example_ja": "大地に防風樹がある。",
+      "id": 31482,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-161",
+      "domain": "航路と海辺の風土・季節風の雨と防風樹・海岸段丘",
+      "constituentEntries": [
+        {
+          "id": 368,
+          "nrs": "wylor",
+          "pos": "名",
+          "meaningJa": "季節風、恒常風、偏西風"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41002,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zylartal",
+      "pos": "名",
+      "meaningJa": "海岸段丘、海と大地の境、波打ち際の段丘地",
+      "meaningEn": "coastal terrace, shoreland plateau, maritime terrace",
+      "morphemes": [
+        "zylar",
+        "tal"
+      ],
+      "etymology": "zylar(海) + tal(大地)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Poran el mi to zylartal ku ti.",
+      "example_ja": "私はあなたと海岸段丘へ歩む。",
+      "id": 31483,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-161",
+      "domain": "航路と海辺の風土・季節風の雨と防風樹・海岸段丘",
+      "constituentEntries": [
+        {
+          "id": 377,
+          "nrs": "zylar",
+          "pos": "名",
+          "meaningJa": "海、海洋、大洋"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41003,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talondar",
+      "pos": "名",
+      "meaningJa": "孤島の淡水泉、海島の湧水、島の中央の水源",
+      "meaningEn": "island freshwater spring, insular freshwater fountain, oceanic isle spring",
+      "morphemes": [
+        "talon",
+        "dar"
+      ],
+      "etymology": "talon(島) + dar(しずく)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Vyrel el mi ia talondar uo talonvel.",
+      "example_ja": "私は孤島の原生林で淡水泉を観測する。",
+      "id": 31484,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-162",
+      "domain": "島嶼の営みと水脈・孤島の淡水泉・水上の高床住居",
+      "constituentEntries": [
+        {
+          "id": 297,
+          "nrs": "talon",
+          "pos": "名",
+          "meaningJa": "島、孤立陸地、環礁"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41004,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talonvel",
+      "pos": "名",
+      "meaningJa": "島の原生林、孤島に根づく固有樹、島峰の森",
+      "meaningEn": "insular native woodland, endemic island timber, isle forest tree",
+      "morphemes": [
+        "talon",
+        "vel"
+      ],
+      "etymology": "talon(島) + vel(木)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Vymin el talonvel ia tal.",
+      "example_ja": "原生林は大地の土を守る。",
+      "id": 31485,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-162",
+      "domain": "島嶼の営みと水脈・孤島の淡水泉・水上の高床住居",
+      "constituentEntries": [
+        {
+          "id": 297,
+          "nrs": "talon",
+          "pos": "名",
+          "meaningJa": "島、孤立陸地、環礁"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41005,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dargovan",
+      "pos": "名",
+      "meaningJa": "水上の高床住居、波止場の舟小屋、水辺の家",
+      "meaningEn": "stilt waterhouse, dockside boat cottage, riparian dwelling",
+      "morphemes": [
+        "dar",
+        "govan"
+      ],
+      "etymology": "dar(しずく) + govan(家)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el dargovan uo dar.",
+      "example_ja": "水辺に高床住居がある。",
+      "id": 31486,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-162",
+      "domain": "島嶼の営みと水脈・孤島の淡水泉・水上の高床住居",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 616,
+          "nrs": "govan",
+          "pos": "名",
+          "meaningJa": "家、住宅、住まい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41006,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "pyrisvorn",
+      "pos": "名",
+      "meaningJa": "暖炉の間、石炉の憩い室、火床のある温もり部屋",
+      "meaningEn": "hearth room, stone-fireplace parlor, fire-warmed family chamber",
+      "morphemes": [
+        "pyris",
+        "vorn"
+      ],
+      "etymology": "pyris(火) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el pyrisvorn uo govan.",
+      "example_ja": "家に暖炉の間がある。",
+      "id": 31487,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-163",
+      "domain": "炉火と冬の住まい・暖炉の間と茶室・糧食庫",
+      "constituentEntries": [
+        {
+          "id": 361,
+          "nrs": "pyris",
+          "pos": "名",
+          "meaningJa": "火、炎、熱源"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41007,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "terinvorn",
+      "pos": "名",
+      "meaningJa": "茶室、煎じ茶の談話室、温茶を愉しむ小間",
+      "meaningEn": "tea chamber, herb-infusion parlor, warm tea tasting room",
+      "morphemes": [
+        "terin",
+        "vorn"
+      ],
+      "etymology": "terin(温かい煎じ茶) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Poran el mi to terinvorn.",
+      "example_ja": "私は茶室へと歩む。",
+      "id": 31488,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-163",
+      "domain": "炉火と冬の住まい・暖炉の間と茶室・糧食庫",
+      "constituentEntries": [
+        {
+          "id": 1003,
+          "nrs": "terin",
+          "pos": "名",
+          "meaningJa": "温かい煎じ茶、薬草茶"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41008,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nergovan",
+      "pos": "名",
+      "meaningJa": "糧食の貯蔵家屋、食料庫、収穫物を納める保冷庫",
+      "meaningEn": "food storage cottage, grain pantry annex, harvest provision house",
+      "morphemes": [
+        "ner",
+        "govan"
+      ],
+      "etymology": "ner(滋養) + govan(家)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el nergovan to terinvorn.",
+      "example_ja": "茶室のそばに食料庫がある。",
+      "id": 31489,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-163",
+      "domain": "炉火と冬の住まい・暖炉の間と茶室・糧食庫",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 616,
+          "nrs": "govan",
+          "pos": "名",
+          "meaningJa": "家、住宅、住まい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41009,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tasorvorn",
+      "pos": "名",
+      "meaningJa": "安楽椅子の読書室、応接の小間、肘掛け椅子の寛ぎ部屋",
+      "meaningEn": "armchair reading room, reception parlor, easy-chair chamber",
+      "morphemes": [
+        "tasor",
+        "vorn"
+      ],
+      "etymology": "tasor(肘掛け椅子) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el tasorvorn to pamelvorn.",
+      "example_ja": "蔵書室の隣に安楽椅子の読書室がある。",
+      "id": 31490,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-164",
+      "domain": "木工と書斎の調度・安楽椅子の読書室・執務机の間",
+      "constituentEntries": [
+        {
+          "id": 664,
+          "nrs": "tasor",
+          "pos": "名",
+          "meaningJa": "肘掛け椅子、玉座、長椅子"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41010,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "pamelvorn",
+      "pos": "名",
+      "meaningJa": "蔵書室、図書閲覧室、典籍が並ぶ静かな小部屋",
+      "meaningEn": "library study room, book archival cabinet, quiet reading chamber",
+      "morphemes": [
+        "pamel",
+        "vorn"
+      ],
+      "etymology": "pamel(本) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el mi ia pamelvorn.",
+      "example_ja": "私は蔵書室を守る。",
+      "id": 31491,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-164",
+      "domain": "木工と書斎の調度・安楽椅子の読書室・執務机の間",
+      "constituentEntries": [
+        {
+          "id": 655,
+          "nrs": "pamel",
+          "pos": "名",
+          "meaningJa": "本、書籍、手記ノート、冊子"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41011,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dovikvorn",
+      "pos": "名",
+      "meaningJa": "執務室、文机の仕事部屋、記録を綴る書斎",
+      "meaningEn": "writing desk study, scribal office chamber, deskwork cabinet",
+      "morphemes": [
+        "dovik",
+        "vorn"
+      ],
+      "etymology": "dovik(机) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Soran el mi uo dovikvorn.",
+      "example_ja": "私は執務室で記録を書き留める。",
+      "id": 31492,
+      "batch": "Batch 41",
+      "scenario_id": "CANON-CONV-164",
+      "domain": "木工と書斎の調度・安楽椅子の読書室・執務机の間",
+      "constituentEntries": [
+        {
+          "id": 635,
+          "nrs": "dovik",
+          "pos": "名",
+          "meaningJa": "机、作業台、テーブル"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41012,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "serelvel",
+      "pos": "名",
+      "meaningJa": "木彫りの工芸品、小刀で彫られた銘木細工、木彫刻",
+      "meaningEn": "woodcarving craftwork, knife-carved timber art, engraved woodcraft",
+      "morphemes": [
+        "serel",
+        "vel"
+      ],
+      "etymology": "serel(小刀) + vel(木)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi ia serelvel ul kypalvel.",
+      "example_ja": "私は木彫りの工芸品と銘木の工芸箱を創る。",
+      "id": 31493,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-165",
+      "domain": "彫刻と収納工芸・木彫細工と銘木の工芸箱・家具木材",
+      "constituentEntries": [
+        {
+          "id": 658,
+          "nrs": "serel",
+          "pos": "名",
+          "meaningJa": "小刀、ナイフ、調理刃"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41013,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kypalvel",
+      "pos": "名",
+      "meaningJa": "木製の収納箱、銘木の小箱、桐箱のような工芸箱",
+      "meaningEn": "wooden storage chest, crafted timber coffer, fine-grain wooden casket",
+      "morphemes": [
+        "kypal",
+        "vel"
+      ],
+      "etymology": "kypal(箱) + vel(木)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el kypalvel ia pamel.",
+      "example_ja": "工芸箱は書物を守る。",
+      "id": 31494,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-165",
+      "domain": "彫刻と収納工芸・木彫細工と銘木の工芸箱・家具木材",
+      "constituentEntries": [
+        {
+          "id": 649,
+          "nrs": "kypal",
+          "pos": "名",
+          "meaningJa": "箱、小箱、収納ケース、匣"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41014,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tasorvel",
+      "pos": "名",
+      "meaningJa": "肘掛け椅子の銘木、椅子用の頑丈な木材、家具用材",
+      "meaningEn": "armchair hardwood, sturdy chair timber, fine furniture wood",
+      "morphemes": [
+        "tasor",
+        "vel"
+      ],
+      "etymology": "tasor(肘掛け椅子) + vel(木)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el tasorvel uo vorn.",
+      "example_ja": "部屋に椅子の銘木がある。",
+      "id": 31495,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-165",
+      "domain": "彫刻と収納工芸・木彫細工と銘木の工芸箱・家具木材",
+      "constituentEntries": [
+        {
+          "id": 664,
+          "nrs": "tasor",
+          "pos": "名",
+          "meaningJa": "肘掛け椅子、玉座、長椅子"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41015,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nervelas",
+      "pos": "名",
+      "meaningJa": "滋養の薬草葉、食用薬草の青葉、ビタミン豊富な野草葉",
+      "meaningEn": "nourishing medicinal leaf, edible herbal foliage, nutrient-rich green leaf",
+      "morphemes": [
+        "ner",
+        "velas"
+      ],
+      "etymology": "ner(滋養) + velas(葉)",
+      "category": "03. 生物・植物・動物",
+      "example_sentence": "Vyrel el mi ia nervelas to duriltal.",
+      "example_ja": "私は太古の骨石層のそばで滋養の薬草葉を観測する。",
+      "id": 31496,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-166",
+      "domain": "薬草と地層の記憶・滋養の薬草葉と古生物の骨石層",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 392,
+          "nrs": "velas",
+          "pos": "名",
+          "meaningJa": "葉、緑、葉擦れ"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41016,
+      "speakers": [
+        "Neri",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nerzyvas",
+      "pos": "名",
+      "meaningJa": "食による健全な健康、滋養に満ちた健やかさ、食療養",
+      "meaningEn": "nutritional wellness, diet-derived sound health, wholesome vitality",
+      "morphemes": [
+        "ner",
+        "zyvas"
+      ],
+      "etymology": "ner(滋養) + zyvas(健康)",
+      "category": "09. 身体・感覚・医療",
+      "example_sentence": "Vymin el nervelas ia nerzyvas.",
+      "example_ja": "薬草葉は健全な健康を守る。",
+      "id": 31497,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-166",
+      "domain": "薬草と地層の記憶・滋養の薬草葉と古生物の骨石層",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 266,
+          "nrs": "zyvas",
+          "pos": "名",
+          "meaningJa": "健康、活力、健全な生命力"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41017,
+      "speakers": [
+        "Neri",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "duriltal",
+      "pos": "名",
+      "meaningJa": "太古の骨石層、化石を含む地層、古生物の骨岩層",
+      "meaningEn": "fossil bone layer, fossiliferous rock stratum, ancient skeletal bedrock",
+      "morphemes": [
+        "duril",
+        "tal"
+      ],
+      "etymology": "duril(骨) + tal(大地)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Soran el mi ia duriltal.",
+      "example_ja": "私は骨石層の記録を書き留める。",
+      "id": 31498,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-166",
+      "domain": "薬草と地層の記憶・滋養の薬草葉と古生物の骨石層",
+      "constituentEntries": [
+        {
+          "id": 205,
+          "nrs": "duril",
+          "pos": "名",
+          "meaningJa": "骨、骨格、堅固な支柱"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41018,
+      "speakers": [
+        "Neri",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorteira",
+      "pos": "名",
+      "meaningJa": "心臓の環状脈系、生命の核たる循環脈、胸の円環脈",
+      "meaningEn": "cardiovascular circle, central core arterial ring, circulatory cycle",
+      "morphemes": [
+        "klor",
+        "teira"
+      ],
+      "etymology": "klor(円) + teira(心臓)",
+      "category": "09. 身体・感覚・医療",
+      "example_sentence": "Vyrel el mi ia klorteira.",
+      "example_ja": "私は心臓の循環脈系を観測する。",
+      "id": 31499,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-167",
+      "domain": "循環と生命の核心・心臓の循環脈と生命核の滋養",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 253,
+          "nrs": "teira",
+          "pos": "名",
+          "meaningJa": "心臓、胸の核、肉体の中心"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41019,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nerteira",
+      "pos": "名",
+      "meaningJa": "生命を養う心臓の滋養、心魂の活力、生命核の滋養",
+      "meaningEn": "heart-nourishing vitality, core sustenance of life, vital cardiac nourishment",
+      "morphemes": [
+        "ner",
+        "teira"
+      ],
+      "etymology": "ner(滋養) + teira(心臓)",
+      "category": "09. 身体・感覚・医療",
+      "example_sentence": "Relen el nerteira uo sylim.",
+      "example_ja": "心の内に生命核の滋養がある。",
+      "id": 31500,
+      "batch": "Batch 42",
+      "scenario_id": "CANON-CONV-167",
+      "domain": "循環と生命の核心・心臓の循環脈と生命核の滋養",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 253,
+          "nrs": "teira",
+          "pos": "名",
+          "meaningJa": "心臓、胸の核、肉体の中心"
+        }
+      ],
+      "remediatesLegacyCandidateId": 41020,
       "speakers": [
         "Sev",
         "Yura"

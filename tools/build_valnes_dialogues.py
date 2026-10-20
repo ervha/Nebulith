@@ -92,7 +92,7 @@ def build_valnes_dialogues() -> dict:
         f'<p class="subtitle">灰環の暮らしと語らいの記録（正本複合語{entry_count}選・{scen_count}対話・分野別＆語根別索引収録）</p>',
         '<p class="glyph">darfalun darterin havsirin talsilan</p>',
         '<p>写字生ユラ・灯守セヴ・採集師ネリ・舟守トアによる日常対話記録</p>',
-        '<p class="muted">正本単独語根100%準拠・監査フラグ0件検証済み派生典籍 / 2026年 第4巻決定版</p>',
+        '<p class="muted">正本単独語根100%準拠・監査フラグ0件検証済み派生典籍 / 2026年 第5巻決定版（全500選・日常会話完全救済）</p>',
         '</section>',
         '<section class="section">',
         '<h2>凡例と編纂方針</h2>',
