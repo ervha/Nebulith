@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T15:02:42.865035+00:00",
+  "createdAt": "2026-10-20T15:49:47.459252+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 883,
-    "uniqueRoots": 883,
-    "uniqueIds": 883,
-    "scenarios": 295,
+    "rows": 917,
+    "uniqueRoots": 917,
+    "uniqueIds": 917,
+    "scenarios": 307,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -475,7 +475,41 @@
     "<TERM> el tasel va tal.": 1,
     "<TERM> el sol va laris.": 1,
     "<TERM> el dar va vel.": 1,
-    "<TERM> el ner va zyvas.": 1
+    "<TERM> el ner va zyvas.": 1,
+    "Vyreler el mi uo <TERM> to dar.": 1,
+    "<TERM> el vyran to kyron.": 1,
+    "<TERM> el wylas to vyr.": 1,
+    "<TERM> el novar to zelin.": 1,
+    "<TERM> el jyn to falos.": 1,
+    "<TERM> el teran to vyr.": 1,
+    "<TERM> el toren to dar.": 1,
+    "<TERM> el falun to tulos.": 1,
+    "<TERM> el mi uo vyr to koren.": 1,
+    "<TERM> el kyrim to vyr.": 1,
+    "<TERM> el wylin to zelin.": 1,
+    "<TERM> el falos to vyri.": 1,
+    "<TERM> el klor to vyr.": 1,
+    "<TERM> el radin to dar.": 1,
+    "<TERM> el valur to vyri.": 1,
+    "<TERM> el voran to dar.": 1,
+    "<TERM> el kvan to vyr.": 1,
+    "<TERM> el toren to suf.": 1,
+    "<TERM> el falun to bion.": 1,
+    "<TERM> el falos to falk.": 1,
+    "<TERM> el novan to terin.": 1,
+    "<TERM> el bion to daris.": 1,
+    "<TERM> el celen to bion.": 1,
+    "<TERM> el vel to klor.": 1,
+    "<TERM> el talyr to suf.": 1,
+    "<TERM> el mi uo falun to terin.": 1,
+    "<TERM> el elir to suf.": 1,
+    "<TERM> el bion to suf.": 1,
+    "<TERM> el jyn to falk.": 1,
+    "<TERM> el tor to suf.": 1,
+    "<TERM> el memar to suf.": 1,
+    "<TERM> el valin to falos.": 1,
+    "<TERM> el tal to suf.": 1,
+    "<TERM> el ner to falk.": 1
   },
   "entries": [
     {
@@ -18137,6 +18171,686 @@
         "Valk"
       ],
       "exampleTemplate": "<TERM> el ner va zyvas."
+    },
+    {
+      "id": 31884,
+      "nrs": "darkyras",
+      "meaningJa": "星間水氷、水和天体氷、星辰氷殻",
+      "meaningEn": "interstellar water ice, hydrated celestial ice",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "kyras"
+      ],
+      "scenario_id": "CANON-ASTRO-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Loris",
+        "Mirna"
+      ],
+      "exampleTemplate": "Vyreler el mi uo <TERM> to dar."
+    },
+    {
+      "id": 31885,
+      "nrs": "darkyron",
+      "meaningJa": "重力降着流、星間潮汐流束、特異点吸入流",
+      "meaningEn": "gravitational accretion stream, interstellar tidal flow",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "kyron"
+      ],
+      "scenario_id": "CANON-ASTRO-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Loris",
+        "Mirna"
+      ],
+      "exampleTemplate": "<TERM> el vyran to kyron."
+    },
+    {
+      "id": 31886,
+      "nrs": "vyrwylor",
+      "meaningJa": "恒星風気流、星辰大気循環、恒星風脈動",
+      "meaningEn": "stellar wind circulation, astral atmospheric flow",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "wylor"
+      ],
+      "scenario_id": "CANON-ASTRO-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Loris",
+        "Mirna"
+      ],
+      "exampleTemplate": "<TERM> el wylas to vyr."
+    },
+    {
+      "id": 31887,
+      "nrs": "vyrnoven",
+      "meaningJa": "新星転換期、星辰変容静穏、新星相転移",
+      "meaningEn": "nova transformation phase, stellar transition epoch",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "noven"
+      ],
+      "scenario_id": "CANON-ASTRO-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Elys",
+        "Toren"
+      ],
+      "exampleTemplate": "<TERM> el novar to zelin."
+    },
+    {
+      "id": 31888,
+      "nrs": "novarjyn",
+      "meaningJa": "新星励起エネルギー、超新星放電電位、新星プラズマ電荷",
+      "meaningEn": "supernova excitation energy, nova discharge potential",
+      "pos": "名",
+      "morphemes": [
+        "novar",
+        "jyn"
+      ],
+      "scenario_id": "CANON-ASTRO-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Elys",
+        "Toren"
+      ],
+      "exampleTemplate": "<TERM> el jyn to falos."
+    },
+    {
+      "id": 31889,
+      "nrs": "bionvyri",
+      "meaningJa": "星辰生命居住性の、ハビタブルな、天体生命適合の",
+      "meaningEn": "habitable, astral-life supporting, planetary biophilic",
+      "pos": "形",
+      "morphemes": [
+        "bion",
+        "vyri"
+      ],
+      "scenario_id": "CANON-ASTRO-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Elys",
+        "Toren"
+      ],
+      "exampleTemplate": "<TERM> el teran to vyr."
+    },
+    {
+      "id": 31890,
+      "nrs": "dartoren",
+      "meaningJa": "天体軌道律、星間運行動態律、軌道力学規範",
+      "meaningEn": "celestial orbital law, orbital dynamic rule",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "toren"
+      ],
+      "scenario_id": "CANON-ASTRO-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Selene"
+      ],
+      "exampleTemplate": "<TERM> el toren to dar."
+    },
+    {
+      "id": 31891,
+      "nrs": "tulosvyr",
+      "meaningJa": "天頂微天体、最遠点星宿、遠日点小星辰",
+      "meaningEn": "zenith minor astral body, aphelion celestial node",
+      "pos": "名",
+      "morphemes": [
+        "tulos",
+        "vyr"
+      ],
+      "scenario_id": "CANON-ASTRO-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Selene"
+      ],
+      "exampleTemplate": "<TERM> el falun to tulos."
+    },
+    {
+      "id": 31892,
+      "nrs": "darvoris",
+      "meaningJa": "恒星周回する、天体公転する、星辰周期を描く",
+      "meaningEn": "to orbit a star, revolve in stellar orbit",
+      "pos": "動",
+      "morphemes": [
+        "dar",
+        "voris"
+      ],
+      "scenario_id": "CANON-ASTRO-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Selene"
+      ],
+      "exampleTemplate": "<TERM> el mi uo vyr to koren."
+    },
+    {
+      "id": 31893,
+      "nrs": "vyrkyrim",
+      "meaningJa": "深宇宙深淵、星辰幽遠領域、外宇宙深処",
+      "meaningEn": "deep cosmos abyss, outer space deep void",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "kyrim"
+      ],
+      "scenario_id": "CANON-ASTRO-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orin",
+        "Vanya"
+      ],
+      "exampleTemplate": "<TERM> el kyrim to vyr."
+    },
+    {
+      "id": 31894,
+      "nrs": "vyrwylin",
+      "meaningJa": "星間希薄流、星辰真空微風、星辰気流脈",
+      "meaningEn": "interstellar rarefied breeze, cosmic vacuum stream",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "wylin"
+      ],
+      "scenario_id": "CANON-ASTRO-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orin",
+        "Vanya"
+      ],
+      "exampleTemplate": "<TERM> el wylin to zelin."
+    },
+    {
+      "id": 31895,
+      "nrs": "vyrifalos",
+      "meaningJa": "星辰光彩、星雲スペクトル彩、天体発光縞",
+      "meaningEn": "astral spectral brilliance, nebular light spectrum",
+      "pos": "名",
+      "morphemes": [
+        "vyri",
+        "falos"
+      ],
+      "scenario_id": "CANON-ASTRO-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Orin",
+        "Vanya"
+      ],
+      "exampleTemplate": "<TERM> el falos to vyri."
+    },
+    {
+      "id": 31896,
+      "nrs": "klorvyr",
+      "meaningJa": "星辰球殻、天体包層殻、星周カプセル層",
+      "meaningEn": "circumstellar envelope shell, astral spherical shell",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "vyr"
+      ],
+      "scenario_id": "CANON-ASTRO-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Liora",
+        "Tiras"
+      ],
+      "exampleTemplate": "<TERM> el klor to vyr."
+    },
+    {
+      "id": 31897,
+      "nrs": "darradin",
+      "meaningJa": "軌道視差規準線、航路基準間隔、軌道視差標",
+      "meaningEn": "orbital parallax baseline, trajectory reference interval",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "radin"
+      ],
+      "scenario_id": "CANON-ASTRO-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Liora",
+        "Tiras"
+      ],
+      "exampleTemplate": "<TERM> el radin to dar."
+    },
+    {
+      "id": 31898,
+      "nrs": "vyrivalur",
+      "meaningJa": "星辰背景放射、恒星電磁放射波、天体放射波束",
+      "meaningEn": "astral background radiation, stellar electromagnetic wave",
+      "pos": "名",
+      "morphemes": [
+        "vyri",
+        "valur"
+      ],
+      "scenario_id": "CANON-ASTRO-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Liora",
+        "Tiras"
+      ],
+      "exampleTemplate": "<TERM> el valur to vyri."
+    },
+    {
+      "id": 31899,
+      "nrs": "darvoran",
+      "meaningJa": "原初天体軌道、初期星間航路、創世周回軌道",
+      "meaningEn": "primordial astral orbit, nascent interstellar trajectory",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "voran"
+      ],
+      "scenario_id": "CANON-ASTRO-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Althea",
+        "Zenor"
+      ],
+      "exampleTemplate": "<TERM> el voran to dar."
+    },
+    {
+      "id": 31900,
+      "nrs": "kvanvyr",
+      "meaningJa": "星辰量子、宇宙素量点、天体最小単位点",
+      "meaningEn": "astral quantum, cosmic discrete element, stellar particle",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "vyr"
+      ],
+      "scenario_id": "CANON-ASTRO-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Althea",
+        "Zenor"
+      ],
+      "exampleTemplate": "<TERM> el kvan to vyr."
+    },
+    {
+      "id": 31901,
+      "nrs": "suftoren",
+      "meaningJa": "深海動態律、深層水流規範、深度流速律",
+      "meaningEn": "deep-sea hydrodynamic law, abyssal current rule",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "toren"
+      ],
+      "scenario_id": "CANON-OCEAN-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daria",
+        "Maris"
+      ],
+      "exampleTemplate": "<TERM> el toren to suf."
+    },
+    {
+      "id": 31902,
+      "nrs": "suffalun",
+      "meaningJa": "深海生物発光、深層水圏燐光、深淵生物光",
+      "meaningEn": "abyssal bioluminescence, deep-water phosphorescence",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "falun"
+      ],
+      "scenario_id": "CANON-OCEAN-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daria",
+        "Maris"
+      ],
+      "exampleTemplate": "<TERM> el falun to bion."
+    },
+    {
+      "id": 31903,
+      "nrs": "suffalos",
+      "meaningJa": "熱水噴気光彩、海底熱泉スペクトル、深海発光スペクトル層",
+      "meaningEn": "hydrothermal vent spectral sheen, abyssal light spectrum",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "falos"
+      ],
+      "scenario_id": "CANON-OCEAN-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daria",
+        "Maris"
+      ],
+      "exampleTemplate": "<TERM> el falos to falk."
+    },
+    {
+      "id": 31904,
+      "nrs": "sufnovan",
+      "meaningJa": "深海新生地塊、海底湧昇新域、深淵新鮮海床",
+      "meaningEn": "nascent abyssal seafloor, deep-sea upwelling newborn zone",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "novan"
+      ],
+      "scenario_id": "CANON-OCEAN-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Corin",
+        "Thalor"
+      ],
+      "exampleTemplate": "<TERM> el novan to terin."
+    },
+    {
+      "id": 31905,
+      "nrs": "biondaris",
+      "meaningJa": "深層水和生物、深海水圏生体、水生極限原生種",
+      "meaningEn": "abyssal aqueous organism, deep aquatic extremophile",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "daris"
+      ],
+      "scenario_id": "CANON-OCEAN-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Corin",
+        "Thalor"
+      ],
+      "exampleTemplate": "<TERM> el bion to daris."
+    },
+    {
+      "id": 31906,
+      "nrs": "bioncelen",
+      "meaningJa": "深海生体群宿、熱水生物宿主系、深淵共生コロニー",
+      "meaningEn": "abyssal symbiotic colony host, hydrothermal biome cluster",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "celen"
+      ],
+      "scenario_id": "CANON-OCEAN-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Corin",
+        "Thalor"
+      ],
+      "exampleTemplate": "<TERM> el celen to bion."
+    },
+    {
+      "id": 31907,
+      "nrs": "klorvel",
+      "meaningJa": "球殻潜水艇、耐圧潜航球殻艇、深海探査カプセル艇",
+      "meaningEn": "spherical dive submersible, abyssal pressure hull vessel",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "vel"
+      ],
+      "scenario_id": "CANON-OCEAN-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Baron",
+        "Lana"
+      ],
+      "exampleTemplate": "<TERM> el vel to klor."
+    },
+    {
+      "id": 31908,
+      "nrs": "suftalyr",
+      "meaningJa": "深海海嶺岩盤、海溝基盤岩、深海底玄武岩層",
+      "meaningEn": "abyssal ridge bedrock, deep trench basalt stratum",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "talyr"
+      ],
+      "scenario_id": "CANON-OCEAN-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Baron",
+        "Lana"
+      ],
+      "exampleTemplate": "<TERM> el talyr to suf."
+    },
+    {
+      "id": 31909,
+      "nrs": "falunvel",
+      "meaningJa": "潜水照査灯火、潜航探査光芒、深海探照投光",
+      "meaningEn": "submersible survey floodlight, dive searchlight beam",
+      "pos": "名",
+      "morphemes": [
+        "falun",
+        "vel"
+      ],
+      "scenario_id": "CANON-OCEAN-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Baron",
+        "Lana"
+      ],
+      "exampleTemplate": "<TERM> el mi uo falun to terin."
+    },
+    {
+      "id": 31910,
+      "nrs": "sufelir",
+      "meaningJa": "深淵歓喜、深海到達歓声、潜航達成の高揚",
+      "meaningEn": "abyssal dive triumph, deep-submergence joy",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "elir"
+      ],
+      "scenario_id": "CANON-OCEAN-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Nesta",
+        "Rolan"
+      ],
+      "exampleTemplate": "<TERM> el elir to suf."
+    },
+    {
+      "id": 31911,
+      "nrs": "sufbionel",
+      "meaningJa": "深海原生生命、深淵胞子生体、深層浮遊原生種",
+      "meaningEn": "abyssal protozoan life, deep benthic spore organism",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "bionel"
+      ],
+      "scenario_id": "CANON-OCEAN-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Nesta",
+        "Rolan"
+      ],
+      "exampleTemplate": "<TERM> el bion to suf."
+    },
+    {
+      "id": 31912,
+      "nrs": "sufjyn",
+      "meaningJa": "深海熱電位、深層熱電エネルギー、海底熱水起電力",
+      "meaningEn": "abyssal hydrothermal potential, deep-sea thermoelectricity",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "jyn"
+      ],
+      "scenario_id": "CANON-OCEAN-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Nesta",
+        "Rolan"
+      ],
+      "exampleTemplate": "<TERM> el jyn to falk."
+    },
+    {
+      "id": 31913,
+      "nrs": "suftor",
+      "meaningJa": "深海海山峰、海底尖塔岩、深海熱水チムニー",
+      "meaningEn": "abyssal seamount spire, deep hydrothermal chimney",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "tor"
+      ],
+      "scenario_id": "CANON-OCEAN-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kirei",
+        "Varos"
+      ],
+      "exampleTemplate": "<TERM> el tor to suf."
+    },
+    {
+      "id": 31914,
+      "nrs": "sufmemar",
+      "meaningJa": "深海測深標、水深音響測深値、深層深度測深録",
+      "meaningEn": "abyssal depth sounding, bathymetric sounding record",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "memar"
+      ],
+      "scenario_id": "CANON-OCEAN-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kirei",
+        "Varos"
+      ],
+      "exampleTemplate": "<TERM> el memar to suf."
+    },
+    {
+      "id": 31915,
+      "nrs": "sufvalin",
+      "meaningJa": "深海多彩光芒、深淵多色層、水深虹色光彩",
+      "meaningEn": "abyssal iridescent radiance, polychromatic benthic glow",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "valin"
+      ],
+      "scenario_id": "CANON-OCEAN-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kirei",
+        "Varos"
+      ],
+      "exampleTemplate": "<TERM> el valin to falos."
+    },
+    {
+      "id": 31916,
+      "nrs": "suftal",
+      "meaningJa": "最深海床、海溝超深海底、深海底盤面",
+      "meaningEn": "hadal ocean floor, trench seabed stratum",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "tal"
+      ],
+      "scenario_id": "CANON-OCEAN-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Maya",
+        "Theron"
+      ],
+      "exampleTemplate": "<TERM> el tal to suf."
+    },
+    {
+      "id": 31917,
+      "nrs": "sufner",
+      "meaningJa": "深海熱水有機栄養、深淵化学合成栄養、深層捕食滋養",
+      "meaningEn": "chemosynthetic nutrient, abyssal trophic resource",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "ner"
+      ],
+      "scenario_id": "CANON-OCEAN-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Maya",
+        "Theron"
+      ],
+      "exampleTemplate": "<TERM> el ner to falk."
     }
   ]
 }

@@ -45,7 +45,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertNotIn("kel", arbiter.known_morphemes)
         self.assertNotIn("pel", arbiter.known_morphemes)
 
-    def test_verified_canonical_compounds_batches_1_to_81_have_zero_audit_flags(self):
+    def test_verified_canonical_compounds_batches_1_to_85_have_zero_audit_flags(self):
         self.assertTrue(VERIFIED_COMPOUNDS_PATH.exists())
         self.assertTrue(BATCH_AUDIT_REPORT_PATH.exists())
         self.assertTrue(REMEDIATION_SUMMARY_PATH.exists())
@@ -56,10 +56,10 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
         self.assertEqual("ZERO_FLAGS_VERIFIED", saved_report["verdict"])
         self.assertEqual({}, saved_report["flagCounts"])
-        self.assertEqual(883, saved_dataset["summary"]["totalEntries"])
-        self.assertEqual(295, saved_dataset["summary"]["totalScenarios"])
+        self.assertEqual(917, saved_dataset["summary"]["totalEntries"])
+        self.assertEqual(307, saved_dataset["summary"]["totalScenarios"])
         self.assertEqual(0, saved_dataset["summary"]["auditFlagCount"])
-        self.assertEqual(883, saved_dataset["summary"]["remediatedLegacyCount"])
+        self.assertEqual(917, saved_dataset["summary"]["remediatedLegacyCount"])
         self.assertEqual(saved_dataset["entries"], live["dataset"]["entries"])
         self.assertEqual(saved_report["entries"], live["auditReport"]["entries"])
 
@@ -102,7 +102,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
     def test_web_studio_and_valnes_dialogues_pdf_integration(self):
         bundle_res = verify_web_bundle()
-        self.assertEqual(883, bundle_res["verifiedCompounds"])
+        self.assertEqual(917, bundle_res["verifiedCompounds"])
         self.assertTrue(bundle_res["sourceInputsMatch"])
 
         html_path = ROOT / "docs/Valnes_dialogues.html"
@@ -225,8 +225,8 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
     def test_promotion_gateway_requires_explicit_council_signoff(self):
         status = evaluate_promotion_readiness()
         self.assertTrue(status["mechanicallyReady"])
-        self.assertEqual(883, status["candidateCount"])
-        self.assertEqual(295, status["scenarioCount"])
+        self.assertEqual(917, status["candidateCount"])
+        self.assertEqual(307, status["scenarioCount"])
         self.assertFalse(status["councilSignoffGranted"])
         self.assertEqual("HOLD_FOR_COUNCIL_SIGNOFF", status["status"])
 
@@ -239,20 +239,20 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
         # Test official promotion application to staging ledger
         applied = evaluate_promotion_readiness(
-            council_signoff="COUNCIL-APPROVE-20261020",
+            council_signoff="COUNCIL-APPROVE-20261021",
             apply_promotion=True,
         )
         self.assertEqual("PROMOTION_APPLIED_SUCCESSFULLY", applied["status"])
-        self.assertEqual(883, applied["promotedCount"])
-        self.assertEqual(1255, applied["totalExtensionsCount"])
+        self.assertEqual(917, applied["promotedCount"])
+        self.assertEqual(1289, applied["totalExtensionsCount"])
         self.assertTrue((ROOT / applied["stagingFile"]).exists())
 
     def test_promotion_simulation_passes_without_disk_mutation(self):
         sim = simulate_promotion()
         self.assertTrue(sim["simulationPassed"])
         self.assertEqual(372, sim["existingExtensionsCount"])
-        self.assertEqual(883, sim["promotedCandidateCount"])
-        self.assertEqual(1255, sim["totalSimulatedExtensionsCount"])
+        self.assertEqual(917, sim["promotedCandidateCount"])
+        self.assertEqual(1289, sim["totalSimulatedExtensionsCount"])
         self.assertEqual(0, sim["idCollisions"])
         self.assertEqual(0, sim["rootCollisions"])
         self.assertEqual("PROMOTION_SIMULATION_SUCCESSFUL", sim["verdict"])
