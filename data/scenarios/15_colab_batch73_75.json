@@ -1,0 +1,712 @@
+[
+  {
+    "scenario_id": "CANON-COLAB-101",
+    "batch": "Batch 73",
+    "domain": "夜光観測と暈光解析",
+    "title": "夜間観測台における脈動陰影とスペクトル光環の記録",
+    "communicative_need": "夜間観測士と天体技手が脈動する陰影の階調、燐光スペクトルの輝き、および天体背後の暈光環について記録を突き合わせる。",
+    "agent_a": {
+      "name": "Kymon",
+      "role": "夜間天体観測士"
+    },
+    "agent_b": {
+      "name": "Falek",
+      "role": "分光光度技手"
+    },
+    "turns": [
+      {
+        "speaker": "Kymon",
+        "nebulith": "Vyrel el mi ia kymvalur ul kymfalos. Relen el mi ia klorkym to govan.",
+        "japanese": "私は夜暗の脈動光による濃淡の陰影と夜光スペクトルの輝きを観測する。私は家へ向けて夜空の天体光環の記録を得る。"
+      },
+      {
+        "speaker": "Falek",
+        "nebulith": "Vymin el mi ia kymfalos. Vyrel el mi ia klorkym. Vymin el miin ia kymvalur ul klorkym.",
+        "japanese": "私は夜光スペクトルの輝きを守る。私は夜空の天体光環を確かめる。私たちは濃淡の陰影と天体光環を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymvalur",
+        "pos": "名",
+        "meaningJa": "夜暗の脈動光、夜光の脈動陰影、階調の夜影",
+        "meaningEn": "subtle gradation shadow, nocturnal pulse luminescence, shading nuance",
+        "morphemes": [
+          "kym",
+          "valur"
+        ],
+        "etymology": "kym(夜/暗) + valur(天体脈動)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vyrel el mi ia kymvalur.",
+        "example_ja": "私は夜暗の脈動光による濃淡の陰影を観測する。"
+      },
+      {
+        "nrs": "kymfalos",
+        "pos": "名",
+        "meaningJa": "夜光スペクトル、夜の燐光光芒、宵闇の分光",
+        "meaningEn": "phosphorescent shimmer, nocturnal glow spectrum, radiant emission",
+        "morphemes": [
+          "kym",
+          "falos"
+        ],
+        "etymology": "kym(夜/暗) + falos(分光)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vymin el mi ia kymfalos.",
+        "example_ja": "私は夜光スペクトルの輝きを守る。"
+      },
+      {
+        "nrs": "klorkym",
+        "pos": "名",
+        "meaningJa": "夜空の天体光環、夜環の暈光、宵闇の円環",
+        "meaningEn": "celestial aura ring, night sky luminescence halo, nocturnal corona",
+        "morphemes": [
+          "klor",
+          "kym"
+        ],
+        "etymology": "klor(円/環) + kym(夜/暗)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia klorkym to govan.",
+        "example_ja": "私は家へ向けて夜空の天体光環の記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-102",
+    "batch": "Batch 73",
+    "domain": "半影と薄暮海洋光",
+    "title": "沿岸展望所における半影雲幕と海面真珠光沢の照合",
+    "communicative_need": "沿岸航法官と気象記録手が夜半の薄雲による半影、海面の真珠光沢、および残照の琥珀光を照合する。",
+    "agent_a": {
+      "name": "Zylar",
+      "role": "沿岸航法観測士"
+    },
+    "agent_b": {
+      "name": "Celis",
+      "role": "気象薄膜記録手"
+    },
+    "turns": [
+      {
+        "speaker": "Zylar",
+        "nebulith": "Vyrel el mi ia kymcelis ul kymzylar. Relen el mi ia kymzohar to valar.",
+        "japanese": "私は夜半の薄雲による半影の帷と海面の真珠光沢を観測する。私は朝へ向けて夕陽の琥珀色の残照を得る。"
+      },
+      {
+        "speaker": "Celis",
+        "nebulith": "Vymin el mi ia kymzylar. Vyrel el mi ia kymzohar. Vymin el miin ia kymcelis ul kymzohar.",
+        "japanese": "私は海面の真珠光沢を守る。私は夕陽の琥珀色の残照を確かめる。私たちは半影の帷と夕陽の残照を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymcelis",
+        "pos": "名",
+        "meaningJa": "夜半の薄雲、半影の帷、薄暮の煙霞",
+        "meaningEn": "penumbral haze, nocturnal veil cloud, partial shadow phase",
+        "morphemes": [
+          "kym",
+          "celis"
+        ],
+        "etymology": "kym(夜/暗) + celis(雲)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vyrel el mi ia kymcelis.",
+        "example_ja": "私は夜半の薄雲による半影の帷を観測する。"
+      },
+      {
+        "nrs": "kymzylar",
+        "pos": "名",
+        "meaningJa": "夜海の煌めき、海光沢、夜の真珠海面",
+        "meaningEn": "pearly sea luster, nocturnal oceanic shimmer, nacreous gleam",
+        "morphemes": [
+          "kym",
+          "zylar"
+        ],
+        "etymology": "kym(夜/暗) + zylar(海)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vymin el mi ia kymzylar.",
+        "example_ja": "私は海面の真珠光沢を守る。"
+      },
+      {
+        "nrs": "kymzohar",
+        "pos": "名",
+        "meaningJa": "夕陽の照映、琥珀色の残照、宵の琥珀光",
+        "meaningEn": "amber twilight glow, sunset afterglow luster, warm solar sheen",
+        "morphemes": [
+          "kym",
+          "zohar"
+        ],
+        "etymology": "kym(夜/暗) + zohar(太陽)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia kymzohar to valar.",
+        "example_ja": "私は朝へ向けて夕陽の琥珀色の残照を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-103",
+    "batch": "Batch 73",
+    "domain": "薄暮帷と幻水光学",
+    "title": "砂漠観測所における薄暮の帳と蜃気楼幻水の検分",
+    "communicative_need": "測量士と光芒解析手が宵闇の帷、夜露の逃げ水、および夜空を走る薄明光線の光芒を検証する。",
+    "agent_a": {
+      "name": "Talom",
+      "role": "砂漠地勢測量士"
+    },
+    "agent_b": {
+      "name": "Falyk",
+      "role": "光芒線解析手"
+    },
+    "turns": [
+      {
+        "speaker": "Talom",
+        "nebulith": "Vyrel el mi ia kymvalis ul kymdaris. Relen el mi ia kymvylom to domom.",
+        "japanese": "私は夕闇の帳と夜露の幻影水を観測する。私は都市へ向けて薄明光線の光芒を得る。"
+      },
+      {
+        "speaker": "Falyk",
+        "nebulith": "Vymin el mi ia kymdaris. Vyrel el mi ia kymvylom. Vymin el miin ia kymvalis ul kymvylom.",
+        "japanese": "私は夜露の幻影水を守る。私は薄明光線の光芒を確かめる。私たちは夕闇の帳と薄明光線の光芒を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymvalis",
+        "pos": "名",
+        "meaningJa": "夕闇の帳、宵闇の帷、夜天の被膜",
+        "meaningEn": "dusk twilight curtain, nocturnal veil drape, twilight canopy",
+        "morphemes": [
+          "kym",
+          "valis"
+        ],
+        "etymology": "kym(夜/暗) + valis(衣服/被膜)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vyrel el mi ia kymvalis.",
+        "example_ja": "私は夕闇の帳を観測する。"
+      },
+      {
+        "nrs": "kymdaris",
+        "pos": "名",
+        "meaningJa": "夜露の幻影水、蜃気楼の泉、幻影の夜泉",
+        "meaningEn": "nocturnal mirage water, shimmering illusory spring, phantom pool",
+        "morphemes": [
+          "kym",
+          "daris"
+        ],
+        "etymology": "kym(夜/暗) + daris(水)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vymin el mi ia kymdaris.",
+        "example_ja": "私は夜露の幻影水を守る。"
+      },
+      {
+        "nrs": "kymvylom",
+        "pos": "名",
+        "meaningJa": "夜暗の薄明光芒、薄明光線の光芒、宵の放射域",
+        "meaningEn": "crepuscular light ray, twilight celestial beam, radiant ray phase",
+        "morphemes": [
+          "kym",
+          "vylom"
+        ],
+        "etymology": "kym(夜/暗) + vylom(スコープ/放射域)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia kymvylom to domom.",
+        "example_ja": "私は都市へ向けて薄明光線の光芒を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-104",
+    "batch": "Batch 74",
+    "domain": "金属光沢と薄雲白光",
+    "title": "冶金天文工房における金属星彩と微小光点階調の測定",
+    "communicative_need": "冶金師と分光技師が金属表面の星彩光沢、二値階調の脈動解析、および薄雲の白燐光を精密測定する。",
+    "agent_a": {
+      "name": "Talur",
+      "role": "冶金結晶分析士"
+    },
+    "agent_b": {
+      "name": "Kivan",
+      "role": "微小点分光技師"
+    },
+    "turns": [
+      {
+        "speaker": "Talur",
+        "nebulith": "Vyrel el mi ia talurvyr ul kivvalur. Relen el mi ia celisalin to calor.",
+        "japanese": "私は金属星彩の光沢と微小光点脈動の陰影を観測する。私は評議会へ向けて薄雲の白燐光の記録を得る。"
+      },
+      {
+        "speaker": "Kivan",
+        "nebulith": "Vymin el mi ia kivvalur. Vyrel el mi ia celisalin. Vymin el miin ia talurvyr ul celisalin.",
+        "japanese": "私は微小光点脈動の陰影を守る。私は薄雲の白燐光を確かめる。私たちは金属星彩の光沢と薄雲の白燐光を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talurvyr",
+        "pos": "名",
+        "meaningJa": "金属星彩、構造色反射光沢、鉱物表面の輝き",
+        "meaningEn": "iridescent metallic starlight, metallic celestial sheen, structural sheen",
+        "morphemes": [
+          "talur",
+          "vyr"
+        ],
+        "etymology": "talur(金属) + vyr(星/光点)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia talurvyr.",
+        "example_ja": "私は金属星彩の光沢を観測する。"
+      },
+      {
+        "nrs": "kivvalur",
+        "pos": "名",
+        "meaningJa": "微小光点脈動、二値階調の陰影、離散脈動点",
+        "meaningEn": "binary shadow modulation, discrete point pulsation, tonal contrast",
+        "morphemes": [
+          "kiv",
+          "valur"
+        ],
+        "etymology": "kiv(二値光点) + valur(脈動)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia kivvalur.",
+        "example_ja": "私は微小光点脈動の陰影を守る。"
+      },
+      {
+        "nrs": "celisalin",
+        "pos": "名",
+        "meaningJa": "薄雲の白燐光、清澄な薄光、白光の雲煙",
+        "meaningEn": "auroral cloud luminescence, pristine cloud sheen, radiant haze glow",
+        "morphemes": [
+          "celis",
+          "alin"
+        ],
+        "etymology": "celis(雲) + alin(白い/清澄な)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia celisalin to calor.",
+        "example_ja": "私は評議会へ向けて薄雲の白燐光の記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-105",
+    "batch": "Batch 74",
+    "domain": "露滴回折と結晶光沢",
+    "title": "光学庭園における露滴回折環と青光沢の検鏡",
+    "communicative_need": "庭園博物士と露滴検鏡官が水滴回折の暈環、真珠露の光沢波、および結晶露の青光沢を検証する。",
+    "agent_a": {
+      "name": "Daron",
+      "role": "庭園水文博物士"
+    },
+    "agent_b": {
+      "name": "Klorin",
+      "role": "回折光検鏡手"
+    },
+    "turns": [
+      {
+        "speaker": "Daron",
+        "nebulith": "Vyrel el mi ia klordar ul darzylar. Relen el mi ia darzylin to velom.",
+        "japanese": "私は水滴の回折環と海露の光沢を観測する。私は森へ向けて雫の青光沢の記録を得る。"
+      },
+      {
+        "speaker": "Klorin",
+        "nebulith": "Vymin el mi ia darzylar. Vyrel el mi ia darzylin. Vymin el miin ia klordar ul darzylin.",
+        "japanese": "私は海露の光沢を守る。私は雫の青光沢を確かめる。私たちは水滴の回折環と雫の青光沢を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klordar",
+        "pos": "名",
+        "meaningJa": "水滴の回折環、雨滴光背、露滴の暈環",
+        "meaningEn": "dewdrop diffraction halo, droplet moisture corona, water ring",
+        "morphemes": [
+          "klor",
+          "dar"
+        ],
+        "etymology": "klor(円/環) + dar(しずく)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vyrel el mi ia klordar.",
+        "example_ja": "私は水滴の回折環を観測する。"
+      },
+      {
+        "nrs": "darzylar",
+        "pos": "名",
+        "meaningJa": "海露の光沢、真珠水滴の波、露の海面反射",
+        "meaningEn": "nacreous marine gleam, oceanic dew shimmer, pearly droplet wave",
+        "morphemes": [
+          "dar",
+          "zylar"
+        ],
+        "etymology": "dar(しずく) + zylar(海)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vymin el mi ia darzylar.",
+        "example_ja": "私は海露の光沢を守る。"
+      },
+      {
+        "nrs": "darzylin",
+        "pos": "名",
+        "meaningJa": "雫の青光沢、結晶露の照り、露滴の青彩",
+        "meaningEn": "azure dewdrop luster, blue droplet sheen, crystal moisture gloss",
+        "morphemes": [
+          "dar",
+          "zylin"
+        ],
+        "etymology": "dar(しずく) + zylin(青い)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia darzylin to velom.",
+        "example_ja": "私は森へ向けて雫の青光沢の記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-106",
+    "batch": "Batch 74",
+    "domain": "薄暮雲幕と刹那暗転",
+    "title": "暮色観測所における黄昏雲幕と内省露の対話",
+    "communicative_need": "思索記録士と暮色観測官が黄昏の薄雲帳、心の内省の露、および夜の拍動による瞬時の暗転を記録する。",
+    "agent_a": {
+      "name": "Memar",
+      "role": "暮色思索記録士"
+    },
+    "agent_b": {
+      "name": "Tykon",
+      "role": "時相拍動観測官"
+    },
+    "turns": [
+      {
+        "speaker": "Memar",
+        "nebulith": "Vyrel el mi ia celiskym ul sylimdar. Relen el mi ia tykkym to govan.",
+        "japanese": "私は黄昏の薄雲と心の内省の露を観測する。私は家へ向けて瞬時の暗転の記録を得る。"
+      },
+      {
+        "speaker": "Tykon",
+        "nebulith": "Vymin el mi ia sylimdar. Vyrel el mi ia tykkym. Vymin el miin ia celiskym ul tykkym.",
+        "japanese": "私は心の内省の露を守る。私は瞬時の暗転を確かめる。私たちは黄昏の薄雲と瞬時の暗転を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "celiskym",
+        "pos": "名",
+        "meaningJa": "黄昏の薄雲、宵闇の雲幕、黄昏の雲帳",
+        "meaningEn": "crepuscular cloud curtain, dusk shadow haze, evening cloud veil",
+        "morphemes": [
+          "celis",
+          "kym"
+        ],
+        "etymology": "celis(雲) + kym(夜/暗)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vyrel el mi ia celiskym.",
+        "example_ja": "私は黄昏の薄雲を観測する。"
+      },
+      {
+        "nrs": "sylimdar",
+        "pos": "名",
+        "meaningJa": "内省の露、幻視の泉、心の内省水",
+        "meaningEn": "mirage of the mind, introspective dewdrop, soul reflection pool",
+        "morphemes": [
+          "sylim",
+          "dar"
+        ],
+        "etymology": "sylim(心) + dar(しずく)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vymin el mi ia sylimdar.",
+        "example_ja": "私は心の内省の露を守る。"
+      },
+      {
+        "nrs": "tykkym",
+        "pos": "名",
+        "meaningJa": "瞬時の暗転、夜の拍動、束の間の暗転時相",
+        "meaningEn": "fleeting moment, nocturnal pulse instant, transient epoch beat",
+        "morphemes": [
+          "tyk",
+          "kym"
+        ],
+        "etymology": "tyk(拍動/周期) + kym(夜)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia tykkym to govan.",
+        "example_ja": "私は家へ向けて瞬時の暗転の記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-107",
+    "batch": "Batch 75",
+    "domain": "太古時代と天涯星霜",
+    "title": "歴史編纂所における大時代年輪と星流風の編述",
+    "communicative_need": "史官と天涯風観測官が先祖の太古大時代、夜明けの清朝露光、および星流の季節風を年代記に刻む。",
+    "agent_a": {
+      "name": "Havran",
+      "role": "太古年代記史官"
+    },
+    "agent_b": {
+      "name": "Wylor",
+      "role": "星流季節風観測官"
+    },
+    "turns": [
+      {
+        "speaker": "Havran",
+        "nebulith": "Vyrel el mi ia havmoran ul valardar. Relen el mi ia havfalun to domom.",
+        "japanese": "私は太古の大時代と夜明けのしずくを観測する。私は都市へ向けて星流の季節風を得る。"
+      },
+      {
+        "speaker": "Wylor",
+        "nebulith": "Vymin el mi ia valardar. Vyrel el mi ia havfalun. Vymin el miin ia havmoran ul havfalun.",
+        "japanese": "私は夜明けのしずくを守る。私は星流の季節風を確かめる。私たちは太古の大時代と星流の季節風を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "havmoran",
+        "pos": "名",
+        "meaningJa": "太古の大時代、悠久の祖代、大いなる古代",
+        "meaningEn": "ancestral epoch, ancient great era, primordial age of ancestors",
+        "morphemes": [
+          "hav",
+          "moran"
+        ],
+        "etymology": "hav(時/時代) + moran(大きい)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vyrel el mi ia havmoran.",
+        "example_ja": "私は太古の大時代を観測する。"
+      },
+      {
+        "nrs": "valardar",
+        "pos": "名",
+        "meaningJa": "夜明けのしずく、清朝の露光、朝まだきの露滴",
+        "meaningEn": "early dawn dew, morning twilight droplet, pristine dawn drop",
+        "morphemes": [
+          "valar",
+          "dar"
+        ],
+        "etymology": "valar(朝) + dar(しずく)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vymin el mi ia valardar.",
+        "example_ja": "私は夜明けのしずくを守る。"
+      },
+      {
+        "nrs": "havfalun",
+        "pos": "名",
+        "meaningJa": "星流の季節風、天涯の星霜光、季節の清光風",
+        "meaningEn": "celestial meteor season, far-shore cosmic breeze, meteor passage",
+        "morphemes": [
+          "hav",
+          "falun"
+        ],
+        "etymology": "hav(時/季節) + falun(光/照射)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia havfalun to domom.",
+        "example_ja": "私は都市へ向けて星流の季節風を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-108",
+    "batch": "Batch 75",
+    "domain": "不滅結束と年代記録",
+    "title": "誓約保管所における久遠連鎖と歴史記録の確認",
+    "communicative_need": "盟約守護官と公録編纂士が真実の不滅結束、古代史の千年の齢、および確定した時代の事実記録を確認する。",
+    "agent_a": {
+      "name": "Zydan",
+      "role": "盟約公録守護官"
+    },
+    "agent_b": {
+      "name": "Eirin",
+      "role": "古代編纂記録士"
+    },
+    "turns": [
+      {
+        "speaker": "Zydan",
+        "nebulith": "Vyrel el mi ia zydjylas ul haveirin. Relen el mi ia zydhavel to calor.",
+        "japanese": "私は不滅の結束の連鎖と悠久の古代史を観測する。私は評議会へ向けて時代の事実記録を得る。"
+      },
+      {
+        "speaker": "Eirin",
+        "nebulith": "Vymin el mi ia haveirin. Vyrel el mi ia zydhavel. Vymin el miin ia zydjylas ul zydhavel.",
+        "japanese": "私は悠久の古代史を守る。私は時代の事実記録を確かめる。私たちは不滅の結束と時代の事実記録を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "zydjylas",
+        "pos": "名",
+        "meaningJa": "不滅の結束、久遠の連鎖、確定した絆",
+        "meaningEn": "eternal continuation, everlasting binding bond, perpetual enduring link",
+        "morphemes": [
+          "zyd",
+          "jylas"
+        ],
+        "etymology": "zyd(事実/真実) + jylas(結ぶ)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vyrel el mi ia zydjylas.",
+        "example_ja": "私は不滅の結束の連鎖を観測する。"
+      },
+      {
+        "nrs": "haveirin",
+        "pos": "名",
+        "meaningJa": "悠久の古代史、古来の年輪、千年の古代紀",
+        "meaningEn": "millennial epoch span, ancient epoch history, antique cycle age",
+        "morphemes": [
+          "hav",
+          "eirin"
+        ],
+        "etymology": "hav(時/時代) + eirin(古い)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vymin el mi ia haveirin.",
+        "example_ja": "私は悠久の古代史を守る。"
+      },
+      {
+        "nrs": "zydhavel",
+        "pos": "名",
+        "meaningJa": "時代の事実記録、歴史の確定編纂、確定公録",
+        "meaningEn": "chronicle epoch record, historical fact chronicle, verified annals",
+        "morphemes": [
+          "zyd",
+          "havel"
+        ],
+        "etymology": "zyd(事実) + havel(時代)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Relen el mi ia zydhavel to calor.",
+        "example_ja": "私は評議会へ向けて時代の事実記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-109",
+    "batch": "Batch 75",
+    "domain": "黄昏境地と四季輪回",
+    "title": "暦法台における薄暮境界と四季循環環の対比",
+    "communicative_need": "暦法士と天球観測官が宵と夕の黄昏境界、永遠の夜の星霜、および四季の循環環を対比測定する。",
+    "agent_a": {
+      "name": "Kylos",
+      "role": "暦法黄昏観測士"
+    },
+    "agent_b": {
+      "name": "Havyn",
+      "role": "四季輪回算定官"
+    },
+    "turns": [
+      {
+        "speaker": "Kylos",
+        "nebulith": "Vyrel el mi ia kymkylas ul eirankym. Relen el mi ia klorhavas to valar.",
+        "japanese": "私は宵と夕の境界と永遠の夜を観測する。私は朝へ向けて四季の循環環を得る。"
+      },
+      {
+        "speaker": "Havyn",
+        "nebulith": "Vymin el mi ia eirankym. Vyrel el mi ia klorhavas. Vymin el miin ia kymkylas ul klorhavas.",
+        "japanese": "私は永遠の夜を守る。私は四季の循環環を確かめる。私たちは宵と夕の境界と四季の循環環を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "kymkylas",
+        "pos": "名",
+        "meaningJa": "宵と夕の境界、薄暮の境地、黄昏の分界",
+        "meaningEn": "twilight horizon boundary, dusk-night threshold, evening margin",
+        "morphemes": [
+          "kym",
+          "kylas"
+        ],
+        "etymology": "kym(夜) + kylas(夕)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vyrel el mi ia kymkylas.",
+        "example_ja": "私は宵と夕の境界を観測する。"
+      },
+      {
+        "nrs": "eirankym",
+        "pos": "名",
+        "meaningJa": "永遠の夜、不変の星霜、久遠の夜天",
+        "meaningEn": "perpetual nightfall, eternal nocturnal span, enduring cosmic night",
+        "morphemes": [
+          "eiran",
+          "kym"
+        ],
+        "etymology": "eiran(永遠の) + kym(夜)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vymin el mi ia eirankym.",
+        "example_ja": "私は永遠の夜を守る。"
+      },
+      {
+        "nrs": "klorhavas",
+        "pos": "名",
+        "meaningJa": "四季の循環環、季節の輪回、循環暦環",
+        "meaningEn": "cycling seasonal turn, perpetual season cycle ring, orbital seasons",
+        "morphemes": [
+          "klor",
+          "havas"
+        ],
+        "etymology": "klor(円/環) + havas(季節)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Relen el mi ia klorhavas to valar.",
+        "example_ja": "私は朝へ向けて四季の循環環を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-110",
+    "batch": "Batch 75",
+    "domain": "時代拍動と黎明清澄",
+    "title": "晨光天文台における刹那時相と黎明白光の記録結び",
+    "communicative_need": "晨光観測官と大紀録官が歴史の一瞬の時代拍動、大地の創代の歴史紀、および黎明の白光を記録する。",
+    "agent_a": {
+      "name": "Tykan",
+      "role": "時相拍動晨光士"
+    },
+    "agent_b": {
+      "name": "Valin",
+      "role": "黎明白光記録官"
+    },
+    "turns": [
+      {
+        "speaker": "Tykan",
+        "nebulith": "Vyrel el mi ia tykhavel ul havtalom. Relen el mi ia valaralin to domom.",
+        "japanese": "私は時代の拍動と大地の創代を観測する。私は都市へ向けて黎明の白光を得る。"
+      },
+      {
+        "speaker": "Valin",
+        "nebulith": "Vymin el mi ia havtalom. Vyrel el mi ia valaralin. Vymin el miin ia tykhavel ul valaralin.",
+        "japanese": "私は大地の創代を守る。私は黎明の白光を確かめる。私たちは時代の拍動と黎明の白光を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tykhavel",
+        "pos": "名",
+        "meaningJa": "時代の拍動、歴史の一瞬、時相の瞬息",
+        "meaningEn": "instantaneous epoch beat, clock phase of era, transient epoch pulse",
+        "morphemes": [
+          "tyk",
+          "havel"
+        ],
+        "etymology": "tyk(拍動) + havel(時代)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vyrel el mi ia tykhavel.",
+        "example_ja": "私は時代の拍動を観測する。"
+      },
+      {
+        "nrs": "havtalom",
+        "pos": "名",
+        "meaningJa": "大地の創代、原初の歴史紀、原野の創代",
+        "meaningEn": "ancestral terrestrial era, primordial expanse epoch, plains history",
+        "morphemes": [
+          "hav",
+          "talom"
+        ],
+        "etymology": "hav(時) + talom(平原/大地)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vymin el mi ia havtalom.",
+        "example_ja": "私は大地の創代を守る。"
+      },
+      {
+        "nrs": "valaralin",
+        "pos": "名",
+        "meaningJa": "黎明の白光、清晨の清澄、朝まだきの微光",
+        "meaningEn": "pristine dawn twilight, white dawn radiance, early morning clarity",
+        "morphemes": [
+          "valar",
+          "alin"
+        ],
+        "etymology": "valar(朝) + alin(白い/清澄な)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia valaralin to domom.",
+        "example_ja": "私は都市へ向けて黎明の白光を得る。"
+      }
+    ]
+  }
+]

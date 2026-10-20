@@ -1,13 +1,13 @@
-# 正本複合語800語・267対話シナリオによる保留候補救済監査レポート (Phase 1〜72 完了記録)
+# 正本複合語830語・277対話シナリオによる保留候補救済監査レポート (Phase 1〜75 完了記録)
 
 - **対象データセット**: `data/verified_canonical_compounds.json`
 - **機械監査レポート**: `audit/maintenance/canonical-compounds-batch1-20261019.json`
 - **派生典籍出力**: `docs/Valnes_dialogues.html` / `docs/Valnes_dialogues.pdf` / `docs/VALNES_DIALOGUES_COMPANION.md`
-- **検証済み正本複合語数**: **800 語**（全72バッチ：`Batch 1` 〜 `Batch 72`）
-- **実証済み2話者対話シナリオ数**: **267 篇**（`CANON-CONV-01` 〜 `CANON-COLAB-100`）
+- **検証済み正本複合語数**: **830 語**（全75バッチ：`Batch 1` 〜 `Batch 75`）
+- **実証済み2話者対話シナリオ数**: **277 篇**（`CANON-CONV-01` 〜 `CANON-COLAB-110`）
 - **監査判定**: **`ZERO_FLAGS_VERIFIED`（監査フラグ 0 件）**
 - **旧保留台帳（`data/emergent_lexicon_audit.json`）総数**: 1020 件（うち日常会話 `CONV-*` 500 件）
-- **正本複合語へのリマッピング（救済対応付け）完了件数**: **800 件**
+- **正本複合語へのリマッピング（救済対応付け）完了件数**: **830 件**
 
 ## 1. バッチ別構成と監査結果
 
@@ -85,10 +85,13 @@
 | **Batch 70** | `CANON-COLAB-91` 〜 `CANON-COLAB-93` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 | **Batch 71** | `CANON-COLAB-94` 〜 `CANON-COLAB-96` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 | **Batch 72** | `CANON-COLAB-97` 〜 `CANON-COLAB-100` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 73** | `CANON-COLAB-101` 〜 `CANON-COLAB-103` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 74** | `CANON-COLAB-104` 〜 `CANON-COLAB-106` | 9 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 75** | `CANON-COLAB-107` 〜 `CANON-COLAB-110` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 
-## 2. 旧保留候補（非自立語根を含む合成語）からのリマッピング対応表（抜粋50件＋全800件要約）
+## 2. 旧保留候補（非自立語根を含む合成語）からのリマッピング対応表（抜粋50件＋全830件要約）
 
-旧生成スクリプト（`CORE_MORPHEMES` の非辞書語根 `kel`, `vas`, `pel` 等や `r[:3]` 切り詰めを使用していたもの）で生成された保留候補に対し、正本辞書（`data/lexicon.json`）の単独語根2つのみを連結した正本複合語800語を1対1で対応付けました。
+旧生成スクリプト（`CORE_MORPHEMES` の非辞書語根 `kel`, `vas`, `pel` 等や `r[:3]` 切り詰めを使用していたもの）で生成された保留候補に対し、正本辞書（`data/lexicon.json`）の単独語根2つのみを連結した正本複合語830語を1対1で対応付けました。
 
 | 正本複合語 ID | 正本複合語 (`nrs`) | 正本語根分解 | 日本語定義 | 代替対象の旧保留 ID | 旧保留語 (`legacyNrs`) | 旧形態素 |
 | :---: | :--- | :--- | :--- | :---: | :--- | :--- |

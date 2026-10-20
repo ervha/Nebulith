@@ -38,10 +38,10 @@ assert.equal(r5.success, true);
 assert.ok(r5.text.toLowerCase().includes('vyrelast'), 'Expected vyrelast in ' + r5.text);
 assert.ok(r5.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + r5.text);
 
-// 5. Advanced feature: Nebulith coordinating conjunction 'den' (mid-sentence)
-const r6 = bi.translateNebulith('Vyrel el mi ia daris, den poran el ti to govan.', 'ja');
+// 5. Advanced feature: Coordinated English sentence -> Coordinated Nebulith sentence
+const r6 = bi.translateEnglishToNebulith('I observe water, and you walk to house.');
 assert.equal(r6.success, true);
-assert.ok(r6.text.includes('、そして'), 'Expected 、そして in ' + r6.text);
+assert.ok(r6.text.includes('den Poran'), 'Expected den Poran in ' + r6.text);
 
 const r6En = bi.translateNebulith('Vyrel el mi ia daris, den poran el ti to govan.', 'en');
 assert.equal(r6En.success, true);
@@ -70,7 +70,7 @@ assert.ok(r9En.text.endsWith('?'), 'Expected ? in ' + r9En.text);
 // 9. English Question -> Nebulith with 'ro?' (No 'ka')
 const r10 = bi.translateEnglishToNebulith('Do you walk to house?');
 assert.equal(r10.success, true);
-assert.ok(r10.text.includes('ro?'), 'Expected ro? in ' + r10.text);
+assert.ok(r10.text.includes('Poran el ti to govan ro?'), 'Expected Poran el ti to govan ro? in ' + r10.text);
 assert.ok(!r10.text.includes('ka'), 'Expected NO ka in ' + r10.text);
 
 // 10. Relative clause: 'ia govan en vyrel el mi' -> 'house that I observe' / '私が 観測する 家を'
@@ -172,7 +172,21 @@ const r18En = bi.translateNebulith('Fenor el mi ia Poran el ti to govan.', 'en')
 assert.equal(r18En.success, true);
 assert.ok(r18En.text.includes('that you walk'), 'Expected that you walk in ' + r18En.text);
 
-// 17. Incremental translator check
+// 17. Indirect question / Wh-clause: 'I know where you walk to house.' -> 'Velsen el mi ia kauo Poran el ti to govan.'
+const r19 = bi.translateEnglishToNebulith('I know where you walk to house.');
+assert.equal(r19.success, true);
+assert.ok(r19.text.includes('Velsen el mi ia kauo Poran el ti to govan'), 'Expected Velsen el mi ia kauo Poran el ti to govan in ' + r19.text);
+
+const r19Ja = bi.translateNebulith('Velsen el mi ia kauo Poran el ti to govan.', 'ja');
+assert.equal(r19Ja.success, true);
+assert.ok(r19Ja.text.includes('どこへ'), 'Expected どこへ in ' + r19Ja.text);
+assert.ok(r19Ja.text.includes('か'), 'Expected か in ' + r19Ja.text);
+
+const r19En = bi.translateNebulith('Velsen el mi ia kauo Poran el ti to govan.', 'en');
+assert.equal(r19En.success, true);
+assert.ok(r19En.text.includes('where you walk'), 'Expected where you walk in ' + r19En.text);
+
+// 18. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -180,4 +194,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En, r15, r15InOrder, r15Ja, r15En, r16Ja, r16En, r16, r17, r18, r18Ja, r18En }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En, r15, r15InOrder, r15Ja, r15En, r16Ja, r16En, r16, r17, r18, r18Ja, r18En, r19, r19Ja, r19En }));

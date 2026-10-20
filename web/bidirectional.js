@@ -185,10 +185,12 @@
         idx++;
         continue;
       }
-      // If currentMarker is 'en' or 'ia' and it introduced a clause (starts with a verb),
+      // If currentMarker is 'en' or 'ia' and it introduced a clause (starts with a verb or interrogative),
       // keep accumulating all internal tokens until sentence ends.
       const isInsideSubClause = (currentMarker === 'en' || currentMarker === 'ia') && currentTokens.length > 0 && (() => {
         const firstW = currentTokens[0].toLowerCase().replace(/[.,!?;:]/g, '');
+        const isInterrogative = ['kauo', 'kate', 'kaas', 'kahav', 'kaku', 'kazen'].includes(firstW);
+        if (isInterrogative) return true;
         const info = lookupWord(firstW);
         return info && (info.p === '動' || info.pos === '動' || info.pos === '動詞');
       })();
@@ -415,18 +417,40 @@
         subjEn = pEn;
       } else if (ph.marker === 'ia') {
         const firstWord = ph.words[0] ? ph.words[0].toLowerCase().replace(/[.,!?;:]/g, '') : '';
+        const whMap = {
+          kauo: { en: 'where', ja: 'どこへ' },
+          kate: { en: 'what', ja: '何を' },
+          kaas: { en: 'who', ja: '誰が' },
+          kahav: { en: 'when', ja: 'いつ' },
+          kaku: { en: 'how', ja: 'どのように' },
+          kazen: { en: 'why', ja: 'なぜ' }
+        };
+        const isWh = Boolean(whMap[firstWord]);
         const firstInfo = lookupWord(firstWord);
-        const isComplementClause = ph.words.length >= 2 && firstInfo && (firstInfo.p === '動' || firstInfo.pos === '動' || firstInfo.pos === '動詞' || /el|ia|uo|to/.test(ph.words[1]));
+        const isComplementClause = isWh || (ph.words.length >= 2 && firstInfo && (firstInfo.p === '動' || firstInfo.pos === '動' || firstInfo.pos === '動詞' || /el|ia|uo|to/.test(ph.words[1])));
         if (isComplementClause) {
-          const compRes = translateSingleClause(ph.words.join(' '), targetLang, false);
-          if (compRes.success) {
-            const verbClean = (parsed.verbToken || '').toLowerCase();
-            const isQuotationVerb = /fenor|minpan|cival|soras|belan/.test(verbClean);
-            let subTextJa = compRes.text.replace(/^(.+?)は/, '$1が');
-            objJa = isQuotationVerb ? `${subTextJa}と` : `${subTextJa}ことを`;
-            objEn = `that ${compRes.text}`;
-            alignments.push(...compRes.alignments);
-            continue;
+          if (isWh) {
+            const subWords = ph.words.slice(1);
+            const compRes = translateSingleClause(subWords.join(' '), targetLang, false);
+            if (compRes.success) {
+              const whInfo = whMap[firstWord];
+              let subTextJa = compRes.text.replace(/^(.+?)は/, '$1が');
+              objJa = `${whInfo.ja} ${subTextJa}か`;
+              objEn = `${whInfo.en} ${compRes.text}`;
+              alignments.push(...compRes.alignments);
+              continue;
+            }
+          } else {
+            const compRes = translateSingleClause(ph.words.join(' '), targetLang, false);
+            if (compRes.success) {
+              const verbClean = (parsed.verbToken || '').toLowerCase();
+              const isQuotationVerb = /fenor|minpan|cival|soras|belan/.test(verbClean);
+              let subTextJa = compRes.text.replace(/^(.+?)は/, '$1が');
+              objJa = isQuotationVerb ? `${subTextJa}と` : `${subTextJa}ことを`;
+              objEn = `that ${compRes.text}`;
+              alignments.push(...compRes.alignments);
+              continue;
+            }
           }
         }
         objJa = `${pJa}を`;
@@ -644,7 +668,7 @@
       const vMap = {
         say: 'Fenor', says: 'Fenor', said: 'Fe fenor',
         think: 'Minpan', thinks: 'Minpan', thought: 'Fe minpan',
-        know: 'Belan', knows: 'Belan', knew: 'Fe belan'
+        know: 'Velsen', knows: 'Velsen', knew: 'Fe velsen'
       };
       const nMap = {
         i: 'mi', you: 'ti', we: 'miin', they: 'riin',
@@ -662,6 +686,45 @@
           alignment: [
             { src: sWord, dst: 'el ' + sNeb, role: 'Subject' },
             { src: vWord, dst: vNeb, role: 'Predicate Verb' },
+            ...subRes.alignments
+          ],
+          success: true
+        };
+      }
+    }
+
+    // Indirect Question / Wh-clause: [Subject] [knows/sees/observes/asks/wonders] [who/what/where/when/why/how] [Clause]
+    const whMatch = englishText.trim().match(/^([a-z]+)\s+(knows?|knew|sees?|saw|observes?|observed|asks?|asked|wonders?|wondered)\s+(who|what|where|when|why|how)\s+(.+)$/i);
+    if (whMatch) {
+      const [, sWord, vWord, whWord, subClause] = whMatch;
+      const vMap = {
+        know: 'Velsen', knows: 'Velsen', knew: 'Fe velsen',
+        see: 'Vyrel', sees: 'Vyrel', saw: 'Fe vyrel',
+        observe: 'Vyrel', observes: 'Vyrel', observed: 'Fe vyrel',
+        ask: 'Fenor', asks: 'Fenor', asked: 'Fe fenor',
+        wonder: 'Minpan', wonders: 'Minpan', wondered: 'Fe minpan'
+      };
+      const nMap = {
+        i: 'mi', you: 'ti', we: 'miin', they: 'riin',
+        he: 'taas', she: 'taas', it: 'tate'
+      };
+      const whNebMap = {
+        who: 'kaas', what: 'kate', where: 'kauo', when: 'kahav', why: 'kazen', how: 'kaku'
+      };
+      const vNeb = vMap[vWord.toLowerCase()];
+      const sNeb = nMap[sWord.toLowerCase()] || sWord.toLowerCase();
+      const whNeb = whNebMap[whWord.toLowerCase()];
+      const subRes = translateSingleEnglishClause(subClause);
+      if (vNeb && whNeb && subRes.success) {
+        const res = `${vNeb} el ${sNeb} ia ${whNeb} ${subRes.text.replace(/\.$/, '')}.`;
+        return {
+          text: res,
+          neb: res,
+          tag: 'Indirect Question / Wh-clause (SVO -> VSO wh-clause)',
+          alignment: [
+            { src: sWord, dst: 'el ' + sNeb, role: 'Subject' },
+            { src: vWord, dst: vNeb, role: 'Predicate Verb' },
+            { src: whWord, dst: 'ia ' + whNeb, role: 'Interrogative Complement' },
             ...subRes.alignments
           ],
           success: true

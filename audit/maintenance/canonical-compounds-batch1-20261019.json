@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T08:53:26.201954+00:00",
+  "createdAt": "2026-10-20T14:03:53.269528+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 800,
-    "uniqueRoots": 800,
-    "uniqueIds": 800,
-    "scenarios": 267,
+    "rows": 830,
+    "uniqueRoots": 830,
+    "uniqueIds": 830,
+    "scenarios": 277,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -392,14 +392,14 @@
     "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
-    "Vymin el mi ia <TERM>.": 65,
+    "Vymin el mi ia <TERM>.": 75,
     "Soran el mi uo <TERM>.": 2,
     "Kiras el mi ia <TERM> ul kypalvel.": 1,
     "Vymin el <TERM> ia pamel.": 1,
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
     "Soran el mi ia <TERM>.": 18,
-    "Vyrel el mi ia <TERM>.": 56,
+    "Vyrel el mi ia <TERM>.": 66,
     "Vyrel el mi ia <TERM> ul dardaron.": 1,
     "Relen el dar uo <TERM>.": 2,
     "Kiras el mi ia talyrvorn to <TERM>.": 1,
@@ -448,8 +448,11 @@
     "Vymin el mi ia <TERM> uo valar.": 1,
     "Vymin el mi ia <TERM> uo darar.": 1,
     "Kiran el mi ia <TERM> uo valar.": 1,
-    "Relen el mi ia <TERM> to valar.": 11,
-    "Relen el mi ia <TERM> to govan.": 9
+    "Relen el mi ia <TERM> to valar.": 13,
+    "Relen el mi ia <TERM> to govan.": 11,
+    "Relen el mi ia <TERM> to domom.": 3,
+    "Relen el mi ia <TERM> to calor.": 2,
+    "Relen el mi ia <TERM> to velom.": 1
   },
   "entries": [
     {
@@ -16451,6 +16454,606 @@
         "Tyniel"
       ],
       "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31801,
+      "nrs": "kymvalur",
+      "meaningJa": "夜暗の脈動光、夜光の脈動陰影、階調の夜影",
+      "meaningEn": "subtle gradation shadow, nocturnal pulse luminescence, shading nuance",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "valur"
+      ],
+      "scenario_id": "CANON-COLAB-101",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falek",
+        "Kymon"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31802,
+      "nrs": "kymfalos",
+      "meaningJa": "夜光スペクトル、夜の燐光光芒、宵闇の分光",
+      "meaningEn": "phosphorescent shimmer, nocturnal glow spectrum, radiant emission",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "falos"
+      ],
+      "scenario_id": "CANON-COLAB-101",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falek",
+        "Kymon"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31803,
+      "nrs": "klorkym",
+      "meaningJa": "夜空の天体光環、夜環の暈光、宵闇の円環",
+      "meaningEn": "celestial aura ring, night sky luminescence halo, nocturnal corona",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "kym"
+      ],
+      "scenario_id": "CANON-COLAB-101",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falek",
+        "Kymon"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31804,
+      "nrs": "kymcelis",
+      "meaningJa": "夜半の薄雲、半影の帷、薄暮の煙霞",
+      "meaningEn": "penumbral haze, nocturnal veil cloud, partial shadow phase",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "celis"
+      ],
+      "scenario_id": "CANON-COLAB-102",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Celis",
+        "Zylar"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31805,
+      "nrs": "kymzylar",
+      "meaningJa": "夜海の煌めき、海光沢、夜の真珠海面",
+      "meaningEn": "pearly sea luster, nocturnal oceanic shimmer, nacreous gleam",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "zylar"
+      ],
+      "scenario_id": "CANON-COLAB-102",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Celis",
+        "Zylar"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31806,
+      "nrs": "kymzohar",
+      "meaningJa": "夕陽の照映、琥珀色の残照、宵の琥珀光",
+      "meaningEn": "amber twilight glow, sunset afterglow luster, warm solar sheen",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "zohar"
+      ],
+      "scenario_id": "CANON-COLAB-102",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Celis",
+        "Zylar"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31807,
+      "nrs": "kymvalis",
+      "meaningJa": "夕闇の帳、宵闇の帷、夜天の被膜",
+      "meaningEn": "dusk twilight curtain, nocturnal veil drape, twilight canopy",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "valis"
+      ],
+      "scenario_id": "CANON-COLAB-103",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falyk",
+        "Talom"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31808,
+      "nrs": "kymdaris",
+      "meaningJa": "夜露の幻影水、蜃気楼の泉、幻影の夜泉",
+      "meaningEn": "nocturnal mirage water, shimmering illusory spring, phantom pool",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "daris"
+      ],
+      "scenario_id": "CANON-COLAB-103",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falyk",
+        "Talom"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31809,
+      "nrs": "kymvylom",
+      "meaningJa": "夜暗の薄明光芒、薄明光線の光芒、宵の放射域",
+      "meaningEn": "crepuscular light ray, twilight celestial beam, radiant ray phase",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "vylom"
+      ],
+      "scenario_id": "CANON-COLAB-103",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falyk",
+        "Talom"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to domom."
+    },
+    {
+      "id": 31810,
+      "nrs": "talurvyr",
+      "meaningJa": "金属星彩、構造色反射光沢、鉱物表面の輝き",
+      "meaningEn": "iridescent metallic starlight, metallic celestial sheen, structural sheen",
+      "pos": "名",
+      "morphemes": [
+        "talur",
+        "vyr"
+      ],
+      "scenario_id": "CANON-COLAB-104",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Talur"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31811,
+      "nrs": "kivvalur",
+      "meaningJa": "微小光点脈動、二値階調の陰影、離散脈動点",
+      "meaningEn": "binary shadow modulation, discrete point pulsation, tonal contrast",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "valur"
+      ],
+      "scenario_id": "CANON-COLAB-104",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Talur"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31812,
+      "nrs": "celisalin",
+      "meaningJa": "薄雲の白燐光、清澄な薄光、白光の雲煙",
+      "meaningEn": "auroral cloud luminescence, pristine cloud sheen, radiant haze glow",
+      "pos": "名",
+      "morphemes": [
+        "celis",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-104",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Talur"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to calor."
+    },
+    {
+      "id": 31813,
+      "nrs": "klordar",
+      "meaningJa": "水滴の回折環、雨滴光背、露滴の暈環",
+      "meaningEn": "dewdrop diffraction halo, droplet moisture corona, water ring",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-105",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daron",
+        "Klorin"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31814,
+      "nrs": "darzylar",
+      "meaningJa": "海露の光沢、真珠水滴の波、露の海面反射",
+      "meaningEn": "nacreous marine gleam, oceanic dew shimmer, pearly droplet wave",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "zylar"
+      ],
+      "scenario_id": "CANON-COLAB-105",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daron",
+        "Klorin"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31815,
+      "nrs": "darzylin",
+      "meaningJa": "雫の青光沢、結晶露の照り、露滴の青彩",
+      "meaningEn": "azure dewdrop luster, blue droplet sheen, crystal moisture gloss",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "zylin"
+      ],
+      "scenario_id": "CANON-COLAB-105",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daron",
+        "Klorin"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to velom."
+    },
+    {
+      "id": 31816,
+      "nrs": "celiskym",
+      "meaningJa": "黄昏の薄雲、宵闇の雲幕、黄昏の雲帳",
+      "meaningEn": "crepuscular cloud curtain, dusk shadow haze, evening cloud veil",
+      "pos": "名",
+      "morphemes": [
+        "celis",
+        "kym"
+      ],
+      "scenario_id": "CANON-COLAB-106",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Memar",
+        "Tykon"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31817,
+      "nrs": "sylimdar",
+      "meaningJa": "内省の露、幻視の泉、心の内省水",
+      "meaningEn": "mirage of the mind, introspective dewdrop, soul reflection pool",
+      "pos": "名",
+      "morphemes": [
+        "sylim",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-106",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Memar",
+        "Tykon"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31818,
+      "nrs": "tykkym",
+      "meaningJa": "瞬時の暗転、夜の拍動、束の間の暗転時相",
+      "meaningEn": "fleeting moment, nocturnal pulse instant, transient epoch beat",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "kym"
+      ],
+      "scenario_id": "CANON-COLAB-106",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Memar",
+        "Tykon"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31819,
+      "nrs": "havmoran",
+      "meaningJa": "太古の大時代、悠久の祖代、大いなる古代",
+      "meaningEn": "ancestral epoch, ancient great era, primordial age of ancestors",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "moran"
+      ],
+      "scenario_id": "CANON-COLAB-107",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Havran",
+        "Wylor"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31820,
+      "nrs": "valardar",
+      "meaningJa": "夜明けのしずく、清朝の露光、朝まだきの露滴",
+      "meaningEn": "early dawn dew, morning twilight droplet, pristine dawn drop",
+      "pos": "名",
+      "morphemes": [
+        "valar",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-107",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Havran",
+        "Wylor"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31821,
+      "nrs": "havfalun",
+      "meaningJa": "星流の季節風、天涯の星霜光、季節の清光風",
+      "meaningEn": "celestial meteor season, far-shore cosmic breeze, meteor passage",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "falun"
+      ],
+      "scenario_id": "CANON-COLAB-107",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Havran",
+        "Wylor"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to domom."
+    },
+    {
+      "id": 31822,
+      "nrs": "zydjylas",
+      "meaningJa": "不滅の結束、久遠の連鎖、確定した絆",
+      "meaningEn": "eternal continuation, everlasting binding bond, perpetual enduring link",
+      "pos": "名",
+      "morphemes": [
+        "zyd",
+        "jylas"
+      ],
+      "scenario_id": "CANON-COLAB-108",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Eirin",
+        "Zydan"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31823,
+      "nrs": "haveirin",
+      "meaningJa": "悠久の古代史、古来の年輪、千年の古代紀",
+      "meaningEn": "millennial epoch span, ancient epoch history, antique cycle age",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "eirin"
+      ],
+      "scenario_id": "CANON-COLAB-108",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Eirin",
+        "Zydan"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31824,
+      "nrs": "zydhavel",
+      "meaningJa": "時代の事実記録、歴史の確定編纂、確定公録",
+      "meaningEn": "chronicle epoch record, historical fact chronicle, verified annals",
+      "pos": "名",
+      "morphemes": [
+        "zyd",
+        "havel"
+      ],
+      "scenario_id": "CANON-COLAB-108",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Eirin",
+        "Zydan"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to calor."
+    },
+    {
+      "id": 31825,
+      "nrs": "kymkylas",
+      "meaningJa": "宵と夕の境界、薄暮の境地、黄昏の分界",
+      "meaningEn": "twilight horizon boundary, dusk-night threshold, evening margin",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "kylas"
+      ],
+      "scenario_id": "CANON-COLAB-109",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Havyn",
+        "Kylos"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31826,
+      "nrs": "eirankym",
+      "meaningJa": "永遠の夜、不変の星霜、久遠の夜天",
+      "meaningEn": "perpetual nightfall, eternal nocturnal span, enduring cosmic night",
+      "pos": "名",
+      "morphemes": [
+        "eiran",
+        "kym"
+      ],
+      "scenario_id": "CANON-COLAB-109",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Havyn",
+        "Kylos"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31827,
+      "nrs": "klorhavas",
+      "meaningJa": "四季の循環環、季節の輪回、循環暦環",
+      "meaningEn": "cycling seasonal turn, perpetual season cycle ring, orbital seasons",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "havas"
+      ],
+      "scenario_id": "CANON-COLAB-109",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Havyn",
+        "Kylos"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31828,
+      "nrs": "tykhavel",
+      "meaningJa": "時代の拍動、歴史の一瞬、時相の瞬息",
+      "meaningEn": "instantaneous epoch beat, clock phase of era, transient epoch pulse",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "havel"
+      ],
+      "scenario_id": "CANON-COLAB-110",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykan",
+        "Valin"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31829,
+      "nrs": "havtalom",
+      "meaningJa": "大地の創代、原初の歴史紀、原野の創代",
+      "meaningEn": "ancestral terrestrial era, primordial expanse epoch, plains history",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "talom"
+      ],
+      "scenario_id": "CANON-COLAB-110",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykan",
+        "Valin"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31830,
+      "nrs": "valaralin",
+      "meaningJa": "黎明の白光、清晨の清澄、朝まだきの微光",
+      "meaningEn": "pristine dawn twilight, white dawn radiance, early morning clarity",
+      "pos": "名",
+      "morphemes": [
+        "valar",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-110",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykan",
+        "Valin"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to domom."
     }
   ]
 }
