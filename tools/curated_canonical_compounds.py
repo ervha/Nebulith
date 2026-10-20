@@ -55,6 +55,10 @@ def build_and_verify_canonical_compounds(write_files: bool = True) -> dict:
         c for c in legacy_candidates if str(c.get("scenario_id", "")).startswith("COLAB-")
     ] + [
         c for c in legacy_candidates if str(c.get("scenario_id", "")).startswith("UNIV-")
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-星間"
+    ] + [
+        c for c in legacy_candidates if c.get("scenario_id") == "SUPP-深海"
     ]
 
     existing_ext = inventory["extensions"]

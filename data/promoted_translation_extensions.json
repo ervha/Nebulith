@@ -1,11 +1,11 @@
 {
   "version": 3,
   "status": "正本昇格済み拡張語彙台帳",
-  "generatedAt": "2026-10-20T15:05:53.522041+00:00",
+  "generatedAt": "2026-10-20T15:51:52.106772+00:00",
   "summary": {
     "preservedExistingCount": 372,
-    "promotedCandidateCount": 883,
-    "totalExtensionsCount": 1255
+    "promotedCandidateCount": 917,
+    "totalExtensionsCount": 1289
   },
   "entries": [
     {
@@ -16970,6 +16970,516 @@
       "morphemes": [
         "ner",
         "sirani"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31884,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "darkyras",
+      "ipa": "/darkyras/",
+      "pos": "名",
+      "meaningJa": "星間水氷、水和天体氷、星辰氷殻",
+      "meaningEn": "interstellar water ice, hydrated celestial ice",
+      "notes": "Promoted canonical compound (dar(道/軌道) + kyras(氷/氷原))",
+      "morphemes": [
+        "dar",
+        "kyras"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31885,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "darkyron",
+      "ipa": "/darkyron/",
+      "pos": "名",
+      "meaningJa": "重力降着流、星間潮汐流束、特異点吸入流",
+      "meaningEn": "gravitational accretion stream, interstellar tidal flow",
+      "notes": "Promoted canonical compound (dar(道/軌道) + kyron(特異点/重力中心))",
+      "morphemes": [
+        "dar",
+        "kyron"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31886,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "vyrwylor",
+      "ipa": "/vyrwylor/",
+      "pos": "名",
+      "meaningJa": "恒星風気流、星辰大気循環、恒星風脈動",
+      "meaningEn": "stellar wind circulation, astral atmospheric flow",
+      "notes": "Promoted canonical compound (vyr(星/星辰) + wylor(風/気流))",
+      "morphemes": [
+        "vyr",
+        "wylor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31887,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "vyrnoven",
+      "ipa": "/vyrnoven/",
+      "pos": "名",
+      "meaningJa": "新星転換期、星辰変容静穏、新星相転移",
+      "meaningEn": "nova transformation phase, stellar transition epoch",
+      "notes": "Promoted canonical compound (vyr(星/星辰) + noven(転換/相転移))",
+      "morphemes": [
+        "vyr",
+        "noven"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31888,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "novarjyn",
+      "ipa": "/novarjyn/",
+      "pos": "名",
+      "meaningJa": "新星励起エネルギー、超新星放電電位、新星プラズマ電荷",
+      "meaningEn": "supernova excitation energy, nova discharge potential",
+      "notes": "Promoted canonical compound (novar(新星) + jyn(電気/エネルギー))",
+      "morphemes": [
+        "novar",
+        "jyn"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31889,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "bionvyri",
+      "ipa": "/bionvyri/",
+      "pos": "形",
+      "meaningJa": "星辰生命居住性の、ハビタブルな、天体生命適合の",
+      "meaningEn": "habitable, astral-life supporting, planetary biophilic",
+      "notes": "Promoted canonical compound (bion(生命) + vyri(星辰の/天体系の))",
+      "morphemes": [
+        "bion",
+        "vyri"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31890,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "dartoren",
+      "ipa": "/dartoren/",
+      "pos": "名",
+      "meaningJa": "天体軌道律、星間運行動態律、軌道力学規範",
+      "meaningEn": "celestial orbital law, orbital dynamic rule",
+      "notes": "Promoted canonical compound (dar(道/軌道) + toren(秩序/規則))",
+      "morphemes": [
+        "dar",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31891,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "tulosvyr",
+      "ipa": "/tulosvyr/",
+      "pos": "名",
+      "meaningJa": "天頂微天体、最遠点星宿、遠日点小星辰",
+      "meaningEn": "zenith minor astral body, aphelion celestial node",
+      "notes": "Promoted canonical compound (tulos(天頂/最遠点) + vyr(星/天体))",
+      "morphemes": [
+        "tulos",
+        "vyr"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31892,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "darvoris",
+      "ipa": "/darvoris/",
+      "pos": "動",
+      "meaningJa": "恒星周回する、天体公転する、星辰周期を描く",
+      "meaningEn": "to orbit a star, revolve in stellar orbit",
+      "notes": "Promoted canonical compound (dar(軌道/道) + voris(自転/公転/周期))",
+      "morphemes": [
+        "dar",
+        "voris"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31893,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "vyrkyrim",
+      "ipa": "/vyrkyrim/",
+      "pos": "名",
+      "meaningJa": "深宇宙深淵、星辰幽遠領域、外宇宙深処",
+      "meaningEn": "deep cosmos abyss, outer space deep void",
+      "notes": "Promoted canonical compound (vyr(星/宇宙) + kyrim(深淵/深宇宙))",
+      "morphemes": [
+        "vyr",
+        "kyrim"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31894,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "vyrwylin",
+      "ipa": "/vyrwylin/",
+      "pos": "名",
+      "meaningJa": "星間希薄流、星辰真空微風、星辰気流脈",
+      "meaningEn": "interstellar rarefied breeze, cosmic vacuum stream",
+      "notes": "Promoted canonical compound (vyr(星/宇宙) + wylin(息吹/気流/流れ))",
+      "morphemes": [
+        "vyr",
+        "wylin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31895,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "vyrifalos",
+      "ipa": "/vyrifalos/",
+      "pos": "名",
+      "meaningJa": "星辰光彩、星雲スペクトル彩、天体発光縞",
+      "meaningEn": "astral spectral brilliance, nebular light spectrum",
+      "notes": "Promoted canonical compound (vyri(星辰の) + falos(スペクトル/光彩))",
+      "morphemes": [
+        "vyri",
+        "falos"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31896,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "klorvyr",
+      "ipa": "/klorvyr/",
+      "pos": "名",
+      "meaningJa": "星辰球殻、天体包層殻、星周カプセル層",
+      "meaningEn": "circumstellar envelope shell, astral spherical shell",
+      "notes": "Promoted canonical compound (klor(容器/球殻) + vyr(星/天体))",
+      "morphemes": [
+        "klor",
+        "vyr"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31897,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "darradin",
+      "ipa": "/darradin/",
+      "pos": "名",
+      "meaningJa": "軌道視差規準線、航路基準間隔、軌道視差標",
+      "meaningEn": "orbital parallax baseline, trajectory reference interval",
+      "notes": "Promoted canonical compound (dar(軌道/道) + radin(視差/星の間隔))",
+      "morphemes": [
+        "dar",
+        "radin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31898,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "vyrivalur",
+      "ipa": "/vyrivalur/",
+      "pos": "名",
+      "meaningJa": "星辰背景放射、恒星電磁放射波、天体放射波束",
+      "meaningEn": "astral background radiation, stellar electromagnetic wave",
+      "notes": "Promoted canonical compound (vyri(星辰の) + valur(背景放射/電磁波))",
+      "morphemes": [
+        "vyri",
+        "valur"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31899,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "darvoran",
+      "ipa": "/darvoran/",
+      "pos": "名",
+      "meaningJa": "原初天体軌道、初期星間航路、創世周回軌道",
+      "meaningEn": "primordial astral orbit, nascent interstellar trajectory",
+      "notes": "Promoted canonical compound (dar(軌道/道) + voran(星の誕生/原初点))",
+      "morphemes": [
+        "dar",
+        "voran"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31900,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "kvanvyr",
+      "ipa": "/kvanvyr/",
+      "pos": "名",
+      "meaningJa": "星辰量子、宇宙素量点、天体最小単位点",
+      "meaningEn": "astral quantum, cosmic discrete element, stellar particle",
+      "notes": "Promoted canonical compound (kvan(量子/最小単位) + vyr(星/宇宙))",
+      "morphemes": [
+        "kvan",
+        "vyr"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31901,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "suftoren",
+      "ipa": "/suftoren/",
+      "pos": "名",
+      "meaningJa": "深海動態律、深層水流規範、深度流速律",
+      "meaningEn": "deep-sea hydrodynamic law, abyssal current rule",
+      "notes": "Promoted canonical compound (suf(深度/深海) + toren(秩序/規則))",
+      "morphemes": [
+        "suf",
+        "toren"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31902,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "suffalun",
+      "ipa": "/suffalun/",
+      "pos": "名",
+      "meaningJa": "深海生物発光、深層水圏燐光、深淵生物光",
+      "meaningEn": "abyssal bioluminescence, deep-water phosphorescence",
+      "notes": "Promoted canonical compound (suf(深度/深海) + falun(光/輝き))",
+      "morphemes": [
+        "suf",
+        "falun"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31903,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "suffalos",
+      "ipa": "/suffalos/",
+      "pos": "名",
+      "meaningJa": "熱水噴気光彩、海底熱泉スペクトル、深海発光スペクトル層",
+      "meaningEn": "hydrothermal vent spectral sheen, abyssal light spectrum",
+      "notes": "Promoted canonical compound (suf(深度/深海) + falos(スペクトル/光彩))",
+      "morphemes": [
+        "suf",
+        "falos"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31904,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "sufnovan",
+      "ipa": "/sufnovan/",
+      "pos": "名",
+      "meaningJa": "深海新生地塊、海底湧昇新域、深淵新鮮海床",
+      "meaningEn": "nascent abyssal seafloor, deep-sea upwelling newborn zone",
+      "notes": "Promoted canonical compound (suf(深度/深海) + novan(新しい/新生的))",
+      "morphemes": [
+        "suf",
+        "novan"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31905,
+      "category": "2. 人・身体・生命",
+      "nrs": "biondaris",
+      "ipa": "/biondaris/",
+      "pos": "名",
+      "meaningJa": "深層水和生物、深海水圏生体、水生極限原生種",
+      "meaningEn": "abyssal aqueous organism, deep aquatic extremophile",
+      "notes": "Promoted canonical compound (bion(生命) + daris(水/しずく))",
+      "morphemes": [
+        "bion",
+        "daris"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31906,
+      "category": "2. 人・身体・生命",
+      "nrs": "bioncelen",
+      "ipa": "/bioncelen/",
+      "pos": "名",
+      "meaningJa": "深海生体群宿、熱水生物宿主系、深淵共生コロニー",
+      "meaningEn": "abyssal symbiotic colony host, hydrothermal biome cluster",
+      "notes": "Promoted canonical compound (bion(生命) + celen(天球/宿り/星座))",
+      "morphemes": [
+        "bion",
+        "celen"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31907,
+      "category": "3. 道具・生活・日常",
+      "nrs": "klorvel",
+      "ipa": "/klorvel/",
+      "pos": "名",
+      "meaningJa": "球殻潜水艇、耐圧潜航球殻艇、深海探査カプセル艇",
+      "meaningEn": "spherical dive submersible, abyssal pressure hull vessel",
+      "notes": "Promoted canonical compound (klor(容器/球殻) + vel(艇/船))",
+      "morphemes": [
+        "klor",
+        "vel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31908,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "suftalyr",
+      "ipa": "/suftalyr/",
+      "pos": "名",
+      "meaningJa": "深海海嶺岩盤、海溝基盤岩、深海底玄武岩層",
+      "meaningEn": "abyssal ridge bedrock, deep trench basalt stratum",
+      "notes": "Promoted canonical compound (suf(深度/深海) + talyr(玄武岩/岩盤))",
+      "morphemes": [
+        "suf",
+        "talyr"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31909,
+      "category": "3. 道具・生活・日常",
+      "nrs": "falunvel",
+      "ipa": "/falunvel/",
+      "pos": "名",
+      "meaningJa": "潜水照査灯火、潜航探査光芒、深海探照投光",
+      "meaningEn": "submersible survey floodlight, dive searchlight beam",
+      "notes": "Promoted canonical compound (falun(光/輝き) + vel(艇/船))",
+      "morphemes": [
+        "falun",
+        "vel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31910,
+      "category": "4. 心・感情・感覚",
+      "nrs": "sufelir",
+      "ipa": "/sufelir/",
+      "pos": "名",
+      "meaningJa": "深淵歓喜、深海到達歓声、潜航達成の高揚",
+      "meaningEn": "abyssal dive triumph, deep-submergence joy",
+      "notes": "Promoted canonical compound (suf(深度/深海) + elir(歓喜/歓声))",
+      "morphemes": [
+        "suf",
+        "elir"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31911,
+      "category": "2. 人・身体・生命",
+      "nrs": "sufbionel",
+      "ipa": "/sufbionel/",
+      "pos": "名",
+      "meaningJa": "深海原生生命、深淵胞子生体、深層浮遊原生種",
+      "meaningEn": "abyssal protozoan life, deep benthic spore organism",
+      "notes": "Promoted canonical compound (suf(深度/深海) + bionel(胞子/原生生物))",
+      "morphemes": [
+        "suf",
+        "bionel"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31912,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "sufjyn",
+      "ipa": "/sufjyn/",
+      "pos": "名",
+      "meaningJa": "深海熱電位、深層熱電エネルギー、海底熱水起電力",
+      "meaningEn": "abyssal hydrothermal potential, deep-sea thermoelectricity",
+      "notes": "Promoted canonical compound (suf(深度/深海) + jyn(電気/エネルギー))",
+      "morphemes": [
+        "suf",
+        "jyn"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31913,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "suftor",
+      "ipa": "/suftor/",
+      "pos": "名",
+      "meaningJa": "深海海山峰、海底尖塔岩、深海熱水チムニー",
+      "meaningEn": "abyssal seamount spire, deep hydrothermal chimney",
+      "notes": "Promoted canonical compound (suf(深度/深海) + tor(柱/塔/高まり))",
+      "morphemes": [
+        "suf",
+        "tor"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31914,
+      "category": "5. 抽象・概念・科学",
+      "nrs": "sufmemar",
+      "ipa": "/sufmemar/",
+      "pos": "名",
+      "meaningJa": "深海測深標、水深音響測深値、深層深度測深録",
+      "meaningEn": "abyssal depth sounding, bathymetric sounding record",
+      "notes": "Promoted canonical compound (suf(深度/深海) + memar(深度測定/測深))",
+      "morphemes": [
+        "suf",
+        "memar"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31915,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "sufvalin",
+      "ipa": "/sufvalin/",
+      "pos": "名",
+      "meaningJa": "深海多彩光芒、深淵多色層、水深虹色光彩",
+      "meaningEn": "abyssal iridescent radiance, polychromatic benthic glow",
+      "notes": "Promoted canonical compound (suf(深度/深海) + valin(虹色の/多彩な))",
+      "morphemes": [
+        "suf",
+        "valin"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31916,
+      "category": "1. 自然・宇宙・地理",
+      "nrs": "suftal",
+      "ipa": "/suftal/",
+      "pos": "名",
+      "meaningJa": "最深海床、海溝超深海底、深海底盤面",
+      "meaningEn": "hadal ocean floor, trench seabed stratum",
+      "notes": "Promoted canonical compound (suf(深度/深海) + tal(地/大地/地層))",
+      "morphemes": [
+        "suf",
+        "tal"
+      ],
+      "provenance": "verified_canonical_compound"
+    },
+    {
+      "id": 31917,
+      "category": "2. 人・身体・生命",
+      "nrs": "sufner",
+      "ipa": "/sufner/",
+      "pos": "名",
+      "meaningJa": "深海熱水有機栄養、深淵化学合成栄養、深層捕食滋養",
+      "meaningEn": "chemosynthetic nutrient, abyssal trophic resource",
+      "notes": "Promoted canonical compound (suf(深度/深海) + ner(食/滋養/有機物))",
+      "morphemes": [
+        "suf",
+        "ner"
       ],
       "provenance": "verified_canonical_compound"
     }

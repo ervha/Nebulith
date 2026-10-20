@@ -1,0 +1,826 @@
+[
+  {
+    "scenario_id": "CANON-ASTRO-01",
+    "batch": "Batch 82",
+    "domain": "天体物理・星間観測",
+    "title": "星間氷殻と重力降着流の分光探査",
+    "communicative_need": "天文学者と軌道観測士が星間空間における氷和小天体、重力降着流束、および恒星風気流の動態を分析する。",
+    "agent_a": {
+      "name": "Loris",
+      "role": "軌道分光観測士"
+    },
+    "agent_b": {
+      "name": "Mirna",
+      "role": "星辰物理学者"
+    },
+    "turns": [
+      {
+        "speaker": "Loris",
+        "nebulith": "Vyreler el mi uo darkyras to dar. Darkyron el vyran to kyron. Vyrwylor el wylas to vyr.",
+        "japanese": "私は軌道上で星間水氷（darkyras）を観測します。重力降着流（darkyron）が特異点へと流れ込んでいます。恒星風気流（vyrwylor）が恒星から脈動しています。"
+      },
+      {
+        "speaker": "Mirna",
+        "nebulith": "Ve, darkyras el daris to vyr. Darkyron el tor to fal, vyrwylor el alin to valur.",
+        "japanese": "ええ、その星間水氷（darkyras）は星の水和成分です。重力降着流（darkyron）は光を集中させ、恒星風気流（vyrwylor）は背景放射の中で澄み渡っています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darkyras",
+        "pos": "名",
+        "meaningJa": "星間水氷、水和天体氷、星辰氷殻",
+        "meaningEn": "interstellar water ice, hydrated celestial ice",
+        "morphemes": [
+          "dar",
+          "kyras"
+        ],
+        "etymology": "dar(道/軌道) + kyras(氷/氷原)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyreler el mi uo darkyras to dar.",
+        "example_ja": "私は軌道上で星間水氷を観測します。"
+      },
+      {
+        "nrs": "darkyron",
+        "pos": "名",
+        "meaningJa": "重力降着流、星間潮汐流束、特異点吸入流",
+        "meaningEn": "gravitational accretion stream, interstellar tidal flow",
+        "morphemes": [
+          "dar",
+          "kyron"
+        ],
+        "etymology": "dar(道/軌道) + kyron(特異点/重力中心)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Darkyron el vyran to kyron.",
+        "example_ja": "重力降着流が特異点へと流れ込んでいます。"
+      },
+      {
+        "nrs": "vyrwylor",
+        "pos": "名",
+        "meaningJa": "恒星風気流、星辰大気循環、恒星風脈動",
+        "meaningEn": "stellar wind circulation, astral atmospheric flow",
+        "morphemes": [
+          "vyr",
+          "wylor"
+        ],
+        "etymology": "vyr(星/星辰) + wylor(風/気流)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyrwylor el wylas to vyr.",
+        "example_ja": "恒星風気流が恒星から脈動しています。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ASTRO-02",
+    "batch": "Batch 82",
+    "domain": "天体物理・星間観測",
+    "title": "新星転換期と居住可能天体の同定",
+    "communicative_need": "系外惑星探査員と宇宙物理学者が新星転換期の静穏化、超新星励起エネルギー、および生命居住可能天体を討議する。",
+    "agent_a": {
+      "name": "Toren",
+      "role": "系外惑星探査員"
+    },
+    "agent_b": {
+      "name": "Elys",
+      "role": "天体生命学者"
+    },
+    "turns": [
+      {
+        "speaker": "Toren",
+        "nebulith": "Vyrnoven el novar to zelin. Novarjyn el jyn to falos. Bionvyri el teran to vyr.",
+        "japanese": "新星転換期（vyrnoven）が静穏期に入りました。新星励起エネルギー（novarjyn）が鮮やかなスペクトルを放ちます。この星辰生命居住性の（bionvyri）天体は生命に適しています。"
+      },
+      {
+        "speaker": "Elys",
+        "nebulith": "Ve, vyrnoven el fal to nov. Novarjyn el kyr to jyn, bionvyri el bion to daris.",
+        "japanese": "ええ、新星転換期（vyrnoven）は新たな光の誕生です。新星励起エネルギー（novarjyn）は電位を高め、生命居住性の（bionvyri）惑星は豊かな水系を湛えています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrnoven",
+        "pos": "名",
+        "meaningJa": "新星転換期、星辰変容静穏、新星相転移",
+        "meaningEn": "nova transformation phase, stellar transition epoch",
+        "morphemes": [
+          "vyr",
+          "noven"
+        ],
+        "etymology": "vyr(星/星辰) + noven(転換/相転移)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyrnoven el novar to zelin.",
+        "example_ja": "新星転換期が静穏期に入りました。"
+      },
+      {
+        "nrs": "novarjyn",
+        "pos": "名",
+        "meaningJa": "新星励起エネルギー、超新星放電電位、新星プラズマ電荷",
+        "meaningEn": "supernova excitation energy, nova discharge potential",
+        "morphemes": [
+          "novar",
+          "jyn"
+        ],
+        "etymology": "novar(新星) + jyn(電気/エネルギー)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Novarjyn el jyn to falos.",
+        "example_ja": "新星励起エネルギーが鮮やかなスペクトルを放ちます。"
+      },
+      {
+        "nrs": "bionvyri",
+        "pos": "形",
+        "meaningJa": "星辰生命居住性の、ハビタブルな、天体生命適合の",
+        "meaningEn": "habitable, astral-life supporting, planetary biophilic",
+        "morphemes": [
+          "bion",
+          "vyri"
+        ],
+        "etymology": "bion(生命) + vyri(星辰の/天体系の)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Bionvyri el teran to vyr.",
+        "example_ja": "この星辰生命居住性の天体は生命に適しています。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ASTRO-03",
+    "batch": "Batch 82",
+    "domain": "天体物理・星間観測",
+    "title": "軌道力学律と天頂小天体の周回周期",
+    "communicative_need": "航法管制士と天体力学者が天体軌道律に基づいて遠日点天頂星を観測し、恒星周回周期を算定する。",
+    "agent_a": {
+      "name": "Kael",
+      "role": "航法管制士"
+    },
+    "agent_b": {
+      "name": "Selene",
+      "role": "軌道力学計算手"
+    },
+    "turns": [
+      {
+        "speaker": "Kael",
+        "nebulith": "Dartoren el toren to dar. Tulosvyr el falun to tulos. Darvoris el mi uo vyr to koren.",
+        "japanese": "天体軌道律（dartoren）は軌道の運行を定めます。天頂微天体（tulosvyr）が遠日点の頂で光を放ちます。私たちは恒星周回する（darvoris）周期軌道を追跡します。"
+      },
+      {
+        "speaker": "Selene",
+        "nebulith": "Ve, dartoren el sir to voris. Tulosvyr el vyr to dar, darvoris el kvan to voran.",
+        "japanese": "ええ、天体軌道律（dartoren）が周回周期を解き明かします。天頂微天体（tulosvyr）は正確に軌道を巡り、恒星周回する（darvoris）動きは原初の調和を描きます。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "dartoren",
+        "pos": "名",
+        "meaningJa": "天体軌道律、星間運行動態律、軌道力学規範",
+        "meaningEn": "celestial orbital law, orbital dynamic rule",
+        "morphemes": [
+          "dar",
+          "toren"
+        ],
+        "etymology": "dar(道/軌道) + toren(秩序/規則)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Dartoren el toren to dar.",
+        "example_ja": "天体軌道律は軌道の運行を定めます。"
+      },
+      {
+        "nrs": "tulosvyr",
+        "pos": "名",
+        "meaningJa": "天頂微天体、最遠点星宿、遠日点小星辰",
+        "meaningEn": "zenith minor astral body, aphelion celestial node",
+        "morphemes": [
+          "tulos",
+          "vyr"
+        ],
+        "etymology": "tulos(天頂/最遠点) + vyr(星/天体)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Tulosvyr el falun to tulos.",
+        "example_ja": "天頂微天体が遠日点の頂で光を放ちます。"
+      },
+      {
+        "nrs": "darvoris",
+        "pos": "動",
+        "meaningJa": "恒星周回する、天体公転する、星辰周期を描く",
+        "meaningEn": "to orbit a star, revolve in stellar orbit",
+        "morphemes": [
+          "dar",
+          "voris"
+        ],
+        "etymology": "dar(軌道/道) + voris(自転/公転/周期)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Darvoris el mi uo vyr to koren.",
+        "example_ja": "私たちは恒星周回する周期軌道を追跡します。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ASTRO-04",
+    "batch": "Batch 83",
+    "domain": "天体物理・星間観測",
+    "title": "深宇宙深淵における真空微風と星辰光彩",
+    "communicative_need": "深宇宙探査船の乗員が銀河外縁の深淵、星間真空微風、および星辰光彩スペクトルを観測する。",
+    "agent_a": {
+      "name": "Orin",
+      "role": "深宇宙探査船長"
+    },
+    "agent_b": {
+      "name": "Vanya",
+      "role": "観測天文学者"
+    },
+    "turns": [
+      {
+        "speaker": "Orin",
+        "nebulith": "Vyrkyrim el kyrim to vyr. Vyrwylin el wylin to zelin. Vyrifalos el falos to vyri.",
+        "japanese": "深宇宙深淵（vyrkyrim）が宇宙の静寂に広がっています。星間希薄流（vyrwylin）が真空の微風として流れます。星辰光彩（vyrifalos）が美しいスペクトルを輝かせています。"
+      },
+      {
+        "speaker": "Vanya",
+        "nebulith": "Ve, vyrkyrim el tor to vas. Vyrwylin el dar to wylas, vyrifalos el falun to nov.",
+        "japanese": "ええ、深宇宙深淵（vyrkyrim）は壮大な広がりです。星間希薄流（vyrwylin）が大気の記憶を運び、星辰光彩（vyrifalos）は新たな輝きを私たちに見せてくれます。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "vyrkyrim",
+        "pos": "名",
+        "meaningJa": "深宇宙深淵、星辰幽遠領域、外宇宙深処",
+        "meaningEn": "deep cosmos abyss, outer space deep void",
+        "morphemes": [
+          "vyr",
+          "kyrim"
+        ],
+        "etymology": "vyr(星/宇宙) + kyrim(深淵/深宇宙)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyrkyrim el kyrim to vyr.",
+        "example_ja": "深宇宙深淵が宇宙の静寂に広がっています。"
+      },
+      {
+        "nrs": "vyrwylin",
+        "pos": "名",
+        "meaningJa": "星間希薄流、星辰真空微風、星辰気流脈",
+        "meaningEn": "interstellar rarefied breeze, cosmic vacuum stream",
+        "morphemes": [
+          "vyr",
+          "wylin"
+        ],
+        "etymology": "vyr(星/宇宙) + wylin(息吹/気流/流れ)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyrwylin el wylin to zelin.",
+        "example_ja": "星間希薄流が真空の微風として流れます。"
+      },
+      {
+        "nrs": "vyrifalos",
+        "pos": "名",
+        "meaningJa": "星辰光彩、星雲スペクトル彩、天体発光縞",
+        "meaningEn": "astral spectral brilliance, nebular light spectrum",
+        "morphemes": [
+          "vyri",
+          "falos"
+        ],
+        "etymology": "vyri(星辰の) + falos(スペクトル/光彩)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyrifalos el falos to vyri.",
+        "example_ja": "星辰光彩が美しいスペクトルを輝かせています。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ASTRO-05",
+    "batch": "Batch 83",
+    "domain": "天体物理・星間観測",
+    "title": "星周球殻と背景放射の三角測量",
+    "communicative_need": "天文測量士たちが星周球殻の広がり、軌道視差規準線、および星辰背景放射を計測する。",
+    "agent_a": {
+      "name": "Tiras",
+      "role": "天文三角測量士"
+    },
+    "agent_b": {
+      "name": "Liora",
+      "role": "星辰電波技師"
+    },
+    "turns": [
+      {
+        "speaker": "Tiras",
+        "nebulith": "Klorvyr el klor to vyr. Darradin el radin to dar. Vyrivalur el valur to vyri.",
+        "japanese": "星辰球殻（klorvyr）が星の周囲を包み込んでいます。軌道視差規準線（darradin）によって距離を測量します。星辰背景放射（vyrivalur）が全天から検知されます。"
+      },
+      {
+        "speaker": "Liora",
+        "nebulith": "Ve, klorvyr el vas to tor. Darradin el unor to sir, vyrivalur el jyn to valis.",
+        "japanese": "ええ、星辰球殻（klorvyr）は星周構造として広がっています。軌道視差規準線（darradin）は確かな基準値を与え、星辰背景放射（vyrivalur）は電磁波エネルギーとして響きます。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klorvyr",
+        "pos": "名",
+        "meaningJa": "星辰球殻、天体包層殻、星周カプセル層",
+        "meaningEn": "circumstellar envelope shell, astral spherical shell",
+        "morphemes": [
+          "klor",
+          "vyr"
+        ],
+        "etymology": "klor(容器/球殻) + vyr(星/天体)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Klorvyr el klor to vyr.",
+        "example_ja": "星辰球殻が星の周囲を包み込んでいます。"
+      },
+      {
+        "nrs": "darradin",
+        "pos": "名",
+        "meaningJa": "軌道視差規準線、航路基準間隔、軌道視差標",
+        "meaningEn": "orbital parallax baseline, trajectory reference interval",
+        "morphemes": [
+          "dar",
+          "radin"
+        ],
+        "etymology": "dar(軌道/道) + radin(視差/星の間隔)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Darradin el radin to dar.",
+        "example_ja": "軌道視差規準線によって距離を測量します。"
+      },
+      {
+        "nrs": "vyrivalur",
+        "pos": "名",
+        "meaningJa": "星辰背景放射、恒星電磁放射波、天体放射波束",
+        "meaningEn": "astral background radiation, stellar electromagnetic wave",
+        "morphemes": [
+          "vyri",
+          "valur"
+        ],
+        "etymology": "vyri(星辰の) + valur(背景放射/電磁波)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Vyrivalur el valur to vyri.",
+        "example_ja": "星辰背景放射が全天から検知されます。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-ASTRO-06",
+    "batch": "Batch 83",
+    "domain": "天体物理・星間観測",
+    "title": "原初軌道と星辰量子の起源解析",
+    "communicative_need": "理論天文学者と宇宙物理学者が原初天体軌道の形成と星辰量子素量点について考察する。",
+    "agent_a": {
+      "name": "Zenor",
+      "role": "宇宙創世理論家"
+    },
+    "agent_b": {
+      "name": "Althea",
+      "role": "素粒子天文学者"
+    },
+    "turns": [
+      {
+        "speaker": "Zenor",
+        "nebulith": "Darvoran el voran to dar. Kvanvyr el kvan to vyr.",
+        "japanese": "原初天体軌道（darvoran）は星の誕生とともに刻まれました。星辰量子（kvanvyr）が宇宙の最小構造を形作っています。"
+      },
+      {
+        "speaker": "Althea",
+        "nebulith": "Ve, darvoran el toren to nov. Kvanvyr el jyn to klor.",
+        "japanese": "ええ、原初天体軌道（darvoran）は新生星系の秩序です。星辰量子（kvanvyr）はエネルギーの基礎としてカプセルに満ちています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "darvoran",
+        "pos": "名",
+        "meaningJa": "原初天体軌道、初期星間航路、創世周回軌道",
+        "meaningEn": "primordial astral orbit, nascent interstellar trajectory",
+        "morphemes": [
+          "dar",
+          "voran"
+        ],
+        "etymology": "dar(軌道/道) + voran(星の誕生/原初点)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Darvoran el voran to dar.",
+        "example_ja": "原初天体軌道は星の誕生とともに刻まれました。"
+      },
+      {
+        "nrs": "kvanvyr",
+        "pos": "名",
+        "meaningJa": "星辰量子、宇宙素量点、天体最小単位点",
+        "meaningEn": "astral quantum, cosmic discrete element, stellar particle",
+        "morphemes": [
+          "kvan",
+          "vyr"
+        ],
+        "etymology": "kvan(量子/最小単位) + vyr(星/宇宙)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Kvanvyr el kvan to vyr.",
+        "example_ja": "星辰量子が宇宙の最小構造を形作っています。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-OCEAN-01",
+    "batch": "Batch 84",
+    "domain": "深海探査・水域生態",
+    "title": "深海動態律と熱水噴気孔の生物発光",
+    "communicative_need": "深海探査艇操縦士と海洋物理学者が深海動態律、深海生物発光、および熱水噴気孔の光彩を記録する。",
+    "agent_a": {
+      "name": "Maris",
+      "role": "深海探査潜航長"
+    },
+    "agent_b": {
+      "name": "Daria",
+      "role": "深海流体物理学者"
+    },
+    "turns": [
+      {
+        "speaker": "Maris",
+        "nebulith": "Suftoren el toren to suf. Suffalun el falun to bion. Suffalos el falos to falk.",
+        "japanese": "深海動態律（suftoren）が深層水流の動きを統御しています。深海生物発光（suffalun）が暗黒の海を青白く照らします。熱水噴気光彩（suffalos）が熱水孔から揺らめいています。"
+      },
+      {
+        "speaker": "Daria",
+        "nebulith": "Ve, suftoren el sir to daris. Suffalun el alin to suf, suffalos el jyn to valis.",
+        "japanese": "ええ、深海動態律（suftoren）は深海水の知識そのものです。深海生物発光（suffalun）は深淵を澄み渡らせ、熱水噴気光彩（suffalos）は熱エネルギーの波動です。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "suftoren",
+        "pos": "名",
+        "meaningJa": "深海動態律、深層水流規範、深度流速律",
+        "meaningEn": "deep-sea hydrodynamic law, abyssal current rule",
+        "morphemes": [
+          "suf",
+          "toren"
+        ],
+        "etymology": "suf(深度/深海) + toren(秩序/規則)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Suftoren el toren to suf.",
+        "example_ja": "深海動態律が深層水流の動きを統御しています。"
+      },
+      {
+        "nrs": "suffalun",
+        "pos": "名",
+        "meaningJa": "深海生物発光、深層水圏燐光、深淵生物光",
+        "meaningEn": "abyssal bioluminescence, deep-water phosphorescence",
+        "morphemes": [
+          "suf",
+          "falun"
+        ],
+        "etymology": "suf(深度/深海) + falun(光/輝き)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Suffalun el falun to bion.",
+        "example_ja": "深海生物発光が暗黒の海を青白く照らします。"
+      },
+      {
+        "nrs": "suffalos",
+        "pos": "名",
+        "meaningJa": "熱水噴気光彩、海底熱泉スペクトル、深海発光スペクトル層",
+        "meaningEn": "hydrothermal vent spectral sheen, abyssal light spectrum",
+        "morphemes": [
+          "suf",
+          "falos"
+        ],
+        "etymology": "suf(深度/深海) + falos(スペクトル/光彩)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Suffalos el falos to falk.",
+        "example_ja": "熱水噴気光彩が熱水孔から揺らめいています。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-OCEAN-02",
+    "batch": "Batch 84",
+    "domain": "深海探査・水域生態",
+    "title": "新生地塊における極限水生生物の群集宿",
+    "communicative_need": "深海生物学者と地質学者が海底の新生地塊、深層水和生物、および共生生物群集を調査する。",
+    "agent_a": {
+      "name": "Corin",
+      "role": "深海極限生物学者"
+    },
+    "agent_b": {
+      "name": "Thalor",
+      "role": "海底火山地質士"
+    },
+    "turns": [
+      {
+        "speaker": "Corin",
+        "nebulith": "Sufnovan el novan to terin. Biondaris el bion to daris. Bioncelen el celen to bion.",
+        "japanese": "深海新生地塊（sufnovan）が海底マグマの冷却から誕生しました。深層水和生物（biondaris）が熱水環境に適応しています。深海生体群宿（bioncelen）がチムニーを取り囲んでいます。"
+      },
+      {
+        "speaker": "Thalor",
+        "nebulith": "Ve, sufnovan el falk to nov. Biondaris el kyran to suf, bioncelen el hav to ner.",
+        "japanese": "ええ、深海新生地塊（sufnovan）は新たな熱の賜物です。深層水和生物（biondaris）は高圧を耐え抜き、深海生体群宿（bioncelen）は滋養の港となっています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "sufnovan",
+        "pos": "名",
+        "meaningJa": "深海新生地塊、海底湧昇新域、深淵新鮮海床",
+        "meaningEn": "nascent abyssal seafloor, deep-sea upwelling newborn zone",
+        "morphemes": [
+          "suf",
+          "novan"
+        ],
+        "etymology": "suf(深度/深海) + novan(新しい/新生的)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Sufnovan el novan to terin.",
+        "example_ja": "深海新生地塊が海底マグマの冷却から誕生しました。"
+      },
+      {
+        "nrs": "biondaris",
+        "pos": "名",
+        "meaningJa": "深層水和生物、深海水圏生体、水生極限原生種",
+        "meaningEn": "abyssal aqueous organism, deep aquatic extremophile",
+        "morphemes": [
+          "bion",
+          "daris"
+        ],
+        "etymology": "bion(生命) + daris(水/しずく)",
+        "category": "2. 人・身体・生命",
+        "example_sentence": "Biondaris el bion to daris.",
+        "example_ja": "深層水和生物が熱水環境に適応しています。"
+      },
+      {
+        "nrs": "bioncelen",
+        "pos": "名",
+        "meaningJa": "深海生体群宿、熱水生物宿主系、深淵共生コロニー",
+        "meaningEn": "abyssal symbiotic colony host, hydrothermal biome cluster",
+        "morphemes": [
+          "bion",
+          "celen"
+        ],
+        "etymology": "bion(生命) + celen(天球/宿り/星座)",
+        "category": "2. 人・身体・生命",
+        "example_sentence": "Bioncelen el celen to bion.",
+        "example_ja": "深海生体群宿がチムニーを取り囲んでいます。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-OCEAN-03",
+    "batch": "Batch 84",
+    "domain": "深海探査・水域生態",
+    "title": "耐圧球殻艇による海嶺岩盤の投光探査",
+    "communicative_need": "潜航技術者と探査員が球殻潜水艇に搭乗し、深海海嶺岩盤を投光器で照らし出して観察する。",
+    "agent_a": {
+      "name": "Baron",
+      "role": "耐圧艇主任技師"
+    },
+    "agent_b": {
+      "name": "Lana",
+      "role": "潜航探査記録員"
+    },
+    "turns": [
+      {
+        "speaker": "Baron",
+        "nebulith": "Klorvel el vel to klor. Suftalyr el talyr to suf. Falunvel el mi uo falun to terin.",
+        "japanese": "球殻潜水艇（klorvel）の耐圧殻は完璧に密閉されています。深海海嶺岩盤（suftalyr）が眼前に迫っています。潜水照査灯火（falunvel）を点灯して海底を照射しましょう。"
+      },
+      {
+        "speaker": "Lana",
+        "nebulith": "Ve, klorvel el tor to kyran. Suftalyr el alin to fal, falunvel el sir to zelv.",
+        "japanese": "ええ、球殻潜水艇（klorvel）は超高水圧をしっかり跳ね返しています。深海海嶺岩盤（suftalyr）が光の中で鮮明に見え、潜水照査灯火（falunvel）が記録台帳を充実させてくれます。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klorvel",
+        "pos": "名",
+        "meaningJa": "球殻潜水艇、耐圧潜航球殻艇、深海探査カプセル艇",
+        "meaningEn": "spherical dive submersible, abyssal pressure hull vessel",
+        "morphemes": [
+          "klor",
+          "vel"
+        ],
+        "etymology": "klor(容器/球殻) + vel(艇/船)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Klorvel el vel to klor.",
+        "example_ja": "球殻潜水艇の耐圧殻は完璧に密閉されています。"
+      },
+      {
+        "nrs": "suftalyr",
+        "pos": "名",
+        "meaningJa": "深海海嶺岩盤、海溝基盤岩、深海底玄武岩層",
+        "meaningEn": "abyssal ridge bedrock, deep trench basalt stratum",
+        "morphemes": [
+          "suf",
+          "talyr"
+        ],
+        "etymology": "suf(深度/深海) + talyr(玄武岩/岩盤)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Suftalyr el talyr to suf.",
+        "example_ja": "深海海嶺岩盤が眼前に迫っています。"
+      },
+      {
+        "nrs": "falunvel",
+        "pos": "名",
+        "meaningJa": "潜水照査灯火、潜航探査光芒、深海探照投光",
+        "meaningEn": "submersible survey floodlight, dive searchlight beam",
+        "morphemes": [
+          "falun",
+          "vel"
+        ],
+        "etymology": "falun(光/輝き) + vel(艇/船)",
+        "category": "3. 道具・生活・日常",
+        "example_sentence": "Falunvel el mi uo falun to terin.",
+        "example_ja": "潜水照査灯火を点灯して海底を照射しましょう。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-OCEAN-04",
+    "batch": "Batch 85",
+    "domain": "深海探査・水域生態",
+    "title": "海溝最深部到達の歓喜と熱電エネルギー",
+    "communicative_need": "探査隊員たちが深海到達の歓喜を分かち合い、深海原生胞子生命および海底熱水起電力を確認する。",
+    "agent_a": {
+      "name": "Nesta",
+      "role": "深海探査隊長"
+    },
+    "agent_b": {
+      "name": "Rolan",
+      "role": "生体物理技師"
+    },
+    "turns": [
+      {
+        "speaker": "Nesta",
+        "nebulith": "Sufelir el elir to suf. Sufbionel el bion to suf. Sufjyn el jyn to falk.",
+        "japanese": "深淵歓喜（sufelir）が潜航乗員たちの間に湧き起こりました。深海原生生命（sufbionel）が堆積物の中で休眠しています。深海熱電位（sufjyn）が熱水勾配から生じています。"
+      },
+      {
+        "speaker": "Rolan",
+        "nebulith": "Ve, sufelir el nel to vas. Sufbionel el bion to nov, sufjyn el kyr to jyn.",
+        "japanese": "ええ、深淵歓喜（sufelir）は心震える達成感です。深海原生生命（sufbionel）は新たな生命の萌芽であり、深海熱電位（sufjyn）は確かな電力を示しています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "sufelir",
+        "pos": "名",
+        "meaningJa": "深淵歓喜、深海到達歓声、潜航達成の高揚",
+        "meaningEn": "abyssal dive triumph, deep-submergence joy",
+        "morphemes": [
+          "suf",
+          "elir"
+        ],
+        "etymology": "suf(深度/深海) + elir(歓喜/歓声)",
+        "category": "4. 心・感情・感覚",
+        "example_sentence": "Sufelir el elir to suf.",
+        "example_ja": "深淵歓喜が潜航乗員たちの間に湧き起こりました。"
+      },
+      {
+        "nrs": "sufbionel",
+        "pos": "名",
+        "meaningJa": "深海原生生命、深淵胞子生体、深層浮遊原生種",
+        "meaningEn": "abyssal protozoan life, deep benthic spore organism",
+        "morphemes": [
+          "suf",
+          "bionel"
+        ],
+        "etymology": "suf(深度/深海) + bionel(胞子/原生生物)",
+        "category": "2. 人・身体・生命",
+        "example_sentence": "Sufbionel el bion to suf.",
+        "example_ja": "深海原生生命が堆積物の中で休眠しています。"
+      },
+      {
+        "nrs": "sufjyn",
+        "pos": "名",
+        "meaningJa": "深海熱電位、深層熱電エネルギー、海底熱水起電力",
+        "meaningEn": "abyssal hydrothermal potential, deep-sea thermoelectricity",
+        "morphemes": [
+          "suf",
+          "jyn"
+        ],
+        "etymology": "suf(深度/深海) + jyn(電気/エネルギー)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Sufjyn el jyn to falk.",
+        "example_ja": "深海熱電位が熱水勾配から生じています。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-OCEAN-05",
+    "batch": "Batch 85",
+    "domain": "深海探査・水域生態",
+    "title": "深海熱水チムニーと音響測深の多色光彩",
+    "communicative_need": "海底測量士と海洋工学者が深海熱水チムニーの高さ、水深音響測深値、および深海多彩光芒を観測する。",
+    "agent_a": {
+      "name": "Varos",
+      "role": "海底音響測深士"
+    },
+    "agent_b": {
+      "name": "Kirei",
+      "role": "深海光学観測士"
+    },
+    "turns": [
+      {
+        "speaker": "Varos",
+        "nebulith": "Suftor el tor to suf. Sufmemar el memar to suf. Sufvalin el valin to falos.",
+        "japanese": "深海海山峰（suftor）がそびえ立つ熱水チムニーを形成しています。深海測深標（sufmemar）が正確な水深値を記録します。深海多彩光芒（sufvalin）が虹色の輝きを放っています。"
+      },
+      {
+        "speaker": "Kirei",
+        "nebulith": "Ve, suftor el falk to tor. Sufmemar el unos to sir, sufvalin el fal to valis.",
+        "japanese": "ええ、深海海山峰（suftor）は熱水の巨大な塔です。深海測深標（sufmemar）は深度を正確に把握させ、深海多彩光芒（sufvalin）は幻想的な光学美です。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "suftor",
+        "pos": "名",
+        "meaningJa": "深海海山峰、海底尖塔岩、深海熱水チムニー",
+        "meaningEn": "abyssal seamount spire, deep hydrothermal chimney",
+        "morphemes": [
+          "suf",
+          "tor"
+        ],
+        "etymology": "suf(深度/深海) + tor(柱/塔/高まり)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Suftor el tor to suf.",
+        "example_ja": "深海海山峰がそびえ立つ熱水チムニーを形成しています。"
+      },
+      {
+        "nrs": "sufmemar",
+        "pos": "名",
+        "meaningJa": "深海測深標、水深音響測深値、深層深度測深録",
+        "meaningEn": "abyssal depth sounding, bathymetric sounding record",
+        "morphemes": [
+          "suf",
+          "memar"
+        ],
+        "etymology": "suf(深度/深海) + memar(深度測定/測深)",
+        "category": "5. 抽象・概念・科学",
+        "example_sentence": "Sufmemar el memar to suf.",
+        "example_ja": "深海測深標が正確な水深値を記録します。"
+      },
+      {
+        "nrs": "sufvalin",
+        "pos": "名",
+        "meaningJa": "深海多彩光芒、深淵多色層、水深虹色光彩",
+        "meaningEn": "abyssal iridescent radiance, polychromatic benthic glow",
+        "morphemes": [
+          "suf",
+          "valin"
+        ],
+        "etymology": "suf(深度/深海) + valin(虹色の/多彩な)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Sufvalin el valin to falos.",
+        "example_ja": "深海多彩光芒が虹色の輝きを放っています。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-OCEAN-06",
+    "batch": "Batch 85",
+    "domain": "深海探査・水域生態",
+    "title": "超深海底盤と化学合成有機栄養",
+    "communicative_need": "海底堆積物学者と生態学者が最深海床の基底面および化学合成有機栄養の循環系を総括する。",
+    "agent_a": {
+      "name": "Theron",
+      "role": "海溝基底地質学者"
+    },
+    "agent_b": {
+      "name": "Maya",
+      "role": "深海生態系解析官"
+    },
+    "turns": [
+      {
+        "speaker": "Theron",
+        "nebulith": "Suftal el tal to suf. Sufner el ner to falk.",
+        "japanese": "最深海床（suftal）が海溝の底で平坦に続いています。深海熱水有機栄養（sufner）が化学合成生物の滋養となります。"
+      },
+      {
+        "speaker": "Maya",
+        "nebulith": "Ve, suftal el terin to zelin. Sufner el bion to neran.",
+        "japanese": "ええ、最深海床（suftal）は静まり返った基盤です。深海熱水有機栄養（sufner）は深海のあらゆる生命を支えています。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "suftal",
+        "pos": "名",
+        "meaningJa": "最深海床、海溝超深海底、深海底盤面",
+        "meaningEn": "hadal ocean floor, trench seabed stratum",
+        "morphemes": [
+          "suf",
+          "tal"
+        ],
+        "etymology": "suf(深度/深海) + tal(地/大地/地層)",
+        "category": "1. 自然・宇宙・地理",
+        "example_sentence": "Suftal el tal to suf.",
+        "example_ja": "最深海床が海溝の底で平坦に続いています。"
+      },
+      {
+        "nrs": "sufner",
+        "pos": "名",
+        "meaningJa": "深海熱水有機栄養、深淵化学合成栄養、深層捕食滋養",
+        "meaningEn": "chemosynthetic nutrient, abyssal trophic resource",
+        "morphemes": [
+          "suf",
+          "ner"
+        ],
+        "etymology": "suf(深度/深海) + ner(食/滋養/有機物)",
+        "category": "2. 人・身体・生命",
+        "example_sentence": "Sufner el ner to falk.",
+        "example_ja": "深海熱水有機栄養が化学合成生物の滋養となります。"
+      }
+    ]
+  }
+]
