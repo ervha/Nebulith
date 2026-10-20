@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1.0",
-  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-42)",
-  "generatedAt": "2026-10-20T03:20:41.864122+00:00",
+  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-45)",
+  "generatedAt": "2026-10-20T03:31:20.860665+00:00",
   "source": "data/lexicon.json",
   "validator": "tools/canonical_compound_validator.py",
   "summary": {
-    "totalEntries": 500,
-    "totalScenarios": 167,
+    "totalEntries": 530,
+    "totalScenarios": 177,
     "batches": [
       "Batch 1",
       "Batch 2",
@@ -49,12 +49,15 @@
       "Batch 39",
       "Batch 40",
       "Batch 41",
-      "Batch 42"
+      "Batch 42",
+      "Batch 43",
+      "Batch 44",
+      "Batch 45"
     ],
     "auditFlagCount": 0,
     "allConstituentsStandalone": true,
     "twoSpeakerReuseVerified": true,
-    "remediatedLegacyCount": 500
+    "remediatedLegacyCount": 530
   },
   "remappingTable": [
     {
@@ -7556,6 +7559,456 @@
         "kor",
         "kel"
       ]
+    },
+    {
+      "canonicalCompoundId": 31501,
+      "canonicalNrs": "darisvorn",
+      "canonicalMorphemes": [
+        "daris",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "公共貯水室、都市の地下貯水槽、水門の管理室",
+      "remediatedLegacyId": 40033,
+      "legacyNrs": "dartul",
+      "legacyMorphemes": [
+        "dar",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31502,
+      "canonicalNrs": "dardaron",
+      "canonicalMorphemes": [
+        "dar",
+        "daron"
+      ],
+      "canonicalMeaningJa": "都市調整池、遊水池、運河の水門溜池",
+      "remediatedLegacyId": 40034,
+      "legacyNrs": "darpel",
+      "legacyMorphemes": [
+        "dar",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31503,
+      "canonicalNrs": "darlivar",
+      "canonicalMorphemes": [
+        "dar",
+        "livar"
+      ],
+      "canonicalMeaningJa": "水利台帳保管庫、水路図誌の記録室、港湾文庫",
+      "remediatedLegacyId": 40035,
+      "legacyNrs": "darnel",
+      "legacyMorphemes": [
+        "dar",
+        "nel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31504,
+      "canonicalNrs": "talyrtal",
+      "canonicalMorphemes": [
+        "talyr",
+        "tal"
+      ],
+      "canonicalMeaningJa": "切石の基盤層、石畳の基礎大地、舗装された地盤",
+      "remediatedLegacyId": 40036,
+      "legacyNrs": "dartor",
+      "legacyMorphemes": [
+        "dar",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31505,
+      "canonicalNrs": "talyrvorn",
+      "canonicalMorphemes": [
+        "talyr",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "石工の作業場、石材加工室、切石の工房",
+      "remediatedLegacyId": 40037,
+      "legacyNrs": "darvas",
+      "legacyMorphemes": [
+        "dar",
+        "vas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31506,
+      "canonicalNrs": "talyrvel",
+      "canonicalMorphemes": [
+        "talyr",
+        "vel"
+      ],
+      "canonicalMeaningJa": "石柱と梁材、石材と木材の複合架構、耐震梁木",
+      "remediatedLegacyId": 40038,
+      "legacyNrs": "darzen",
+      "legacyMorphemes": [
+        "dar",
+        "zen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31507,
+      "canonicalNrs": "talurvorn",
+      "canonicalMorphemes": [
+        "talur",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "鍛冶工房、金属加工の間、鋳造工場の炉室",
+      "remediatedLegacyId": 40039,
+      "legacyNrs": "darmol",
+      "legacyMorphemes": [
+        "dar",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31508,
+      "canonicalNrs": "talurdar",
+      "canonicalMorphemes": [
+        "talur",
+        "dar"
+      ],
+      "canonicalMeaningJa": "銅管送水路、金属製導水管、鋳鉄の配管水",
+      "remediatedLegacyId": 40040,
+      "legacyNrs": "darkel",
+      "legacyMorphemes": [
+        "dar",
+        "kel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31509,
+      "canonicalNrs": "talurtal",
+      "canonicalMorphemes": [
+        "talur",
+        "tal"
+      ],
+      "canonicalMeaningJa": "鉱石含有層、金属脈の大地、岩盤の鉱床層",
+      "remediatedLegacyId": 40041,
+      "legacyNrs": "dartan",
+      "legacyMorphemes": [
+        "dar",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31510,
+      "canonicalNrs": "lereltal",
+      "canonicalMorphemes": [
+        "lerel",
+        "tal"
+      ],
+      "canonicalMeaningJa": "城門の礎石、都市大門の敷居石、防壁の土台石",
+      "remediatedLegacyId": 40042,
+      "legacyNrs": "darmor",
+      "legacyMorphemes": [
+        "dar",
+        "mor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31511,
+      "canonicalNrs": "lerelvorn",
+      "canonicalMorphemes": [
+        "lerel",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "衛兵の詰所、城門守衛の待機室、門番の間",
+      "remediatedLegacyId": 40043,
+      "legacyNrs": "darval",
+      "legacyMorphemes": [
+        "dar",
+        "val"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31512,
+      "canonicalNrs": "lereldar",
+      "canonicalMorphemes": [
+        "lerel",
+        "dar"
+      ],
+      "canonicalMeaningJa": "水門の堰板、水路門の開閉板、運河の門扉",
+      "remediatedLegacyId": 40044,
+      "legacyNrs": "darpar",
+      "legacyMorphemes": [
+        "dar",
+        "par"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31513,
+      "canonicalNrs": "dolasvorn",
+      "canonicalMorphemes": [
+        "dolas",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "鋳型保管室、石膏型・木型の保存室、原型工房",
+      "remediatedLegacyId": 40045,
+      "legacyNrs": "dartas",
+      "legacyMorphemes": [
+        "dar",
+        "tas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31514,
+      "canonicalNrs": "dolastal",
+      "canonicalMorphemes": [
+        "dolas",
+        "tal"
+      ],
+      "canonicalMeaningJa": "土製鋳型、粘土造型の鋳造枠、泥型の鋳床",
+      "remediatedLegacyId": 40046,
+      "legacyNrs": "sulbion",
+      "legacyMorphemes": [
+        "sul",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31515,
+      "canonicalNrs": "dolasvel",
+      "canonicalMorphemes": [
+        "dolas",
+        "vel"
+      ],
+      "canonicalMeaningJa": "木製母型、木彫りの鋳造原型、家具の木製枠型",
+      "remediatedLegacyId": 40047,
+      "legacyNrs": "sulsir",
+      "legacyMorphemes": [
+        "sul",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31516,
+      "canonicalNrs": "domomtal",
+      "canonicalMorphemes": [
+        "domom",
+        "tal"
+      ],
+      "canonicalMeaningJa": "中央広場の舗装大地、都市広場、市民の集う広場",
+      "remediatedLegacyId": 40048,
+      "legacyNrs": "sultul",
+      "legacyMorphemes": [
+        "sul",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31517,
+      "canonicalNrs": "domomvorn",
+      "canonicalMorphemes": [
+        "domom",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "市政庁舎の会議室、都市議会の大広間、市民評議の間",
+      "remediatedLegacyId": 40049,
+      "legacyNrs": "sulpel",
+      "legacyMorphemes": [
+        "sul",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31518,
+      "canonicalNrs": "domomdar",
+      "canonicalMorphemes": [
+        "domom",
+        "dar"
+      ],
+      "canonicalMeaningJa": "都市中央の噴水、公共給水場、広場の給水塔",
+      "remediatedLegacyId": 40050,
+      "legacyNrs": "sulnel",
+      "legacyMorphemes": [
+        "sul",
+        "nel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31519,
+      "canonicalNrs": "larartal",
+      "canonicalMorphemes": [
+        "larar",
+        "tal"
+      ],
+      "canonicalMeaningJa": "発着場の乗降台、駅前広場の大地、荷揚げ場",
+      "remediatedLegacyId": 40051,
+      "legacyNrs": "sulsel",
+      "legacyMorphemes": [
+        "sul",
+        "sel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31520,
+      "canonicalNrs": "lararvorn",
+      "canonicalMorphemes": [
+        "larar",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "駅の待合所、発着場の乗客待機室、荷預かり所",
+      "remediatedLegacyId": 40052,
+      "legacyNrs": "sultor",
+      "legacyMorphemes": [
+        "sul",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31521,
+      "canonicalNrs": "larardar",
+      "canonicalMorphemes": [
+        "larar",
+        "dar"
+      ],
+      "canonicalMeaningJa": "舟着き場の船渠、運河の発着水門、艀の係留池",
+      "remediatedLegacyId": 40053,
+      "legacyNrs": "sulpal",
+      "legacyMorphemes": [
+        "sul",
+        "pal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31522,
+      "canonicalNrs": "govantal",
+      "canonicalMorphemes": [
+        "govan",
+        "tal"
+      ],
+      "canonicalMeaningJa": "長屋の敷地、住宅区の造成大地、共同住宅地",
+      "remediatedLegacyId": 40054,
+      "legacyNrs": "sulvas",
+      "legacyMorphemes": [
+        "sul",
+        "vas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31523,
+      "canonicalNrs": "govanvorn",
+      "canonicalMorphemes": [
+        "govan",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "居室、住居の主室、家族の集う大広間",
+      "remediatedLegacyId": 40055,
+      "legacyNrs": "sulzen",
+      "legacyMorphemes": [
+        "sul",
+        "zen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31524,
+      "canonicalNrs": "govandar",
+      "canonicalMorphemes": [
+        "govan",
+        "dar"
+      ],
+      "canonicalMeaningJa": "屋内の井戸水、台所の引水槽、住居の湧水場",
+      "remediatedLegacyId": 40056,
+      "legacyNrs": "sulmol",
+      "legacyMorphemes": [
+        "sul",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31525,
+      "canonicalNrs": "dolorvorn",
+      "canonicalMorphemes": [
+        "dolor",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "職人組合の詰所、労働者の控えの間、作業詰所",
+      "remediatedLegacyId": 40057,
+      "legacyNrs": "sultan",
+      "legacyMorphemes": [
+        "sul",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31526,
+      "canonicalNrs": "dolortal",
+      "canonicalMorphemes": [
+        "dolor",
+        "tal"
+      ],
+      "canonicalMeaningJa": "公共工事の作業場、造成現場の大地、土木現場",
+      "remediatedLegacyId": 40058,
+      "legacyNrs": "sulfal",
+      "legacyMorphemes": [
+        "sul",
+        "fal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31527,
+      "canonicalNrs": "dolorvel",
+      "canonicalMorphemes": [
+        "dolor",
+        "vel"
+      ],
+      "canonicalMeaningJa": "工事用足場木材、建設の丸太足場、大工材",
+      "remediatedLegacyId": 40059,
+      "legacyNrs": "sulsol",
+      "legacyMorphemes": [
+        "sul",
+        "sol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31528,
+      "canonicalNrs": "renartal",
+      "canonicalMorphemes": [
+        "renar",
+        "tal"
+      ],
+      "canonicalMeaningJa": "市場の露店広場、青空市場の市街地、交易広場",
+      "remediatedLegacyId": 40060,
+      "legacyNrs": "sulvan",
+      "legacyMorphemes": [
+        "sul",
+        "van"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31529,
+      "canonicalNrs": "renarvorn",
+      "canonicalMorphemes": [
+        "renar",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "市場の計量所、商人の取引所、為替所の間",
+      "remediatedLegacyId": 40061,
+      "legacyNrs": "sulkor",
+      "legacyMorphemes": [
+        "sul",
+        "kor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31530,
+      "canonicalNrs": "renardar",
+      "canonicalMorphemes": [
+        "renar",
+        "dar"
+      ],
+      "canonicalMeaningJa": "水上市場の水路、運河の交易舟溜まり、市場水門",
+      "remediatedLegacyId": 40062,
+      "legacyNrs": "sultas",
+      "legacyMorphemes": [
+        "sul",
+        "tas"
+      ]
     }
   ],
   "scenarios": [
@@ -12170,6 +12623,376 @@
           "speaker": "Yura",
           "nebulith": "Cynur el mi to klorteira ul nerteira.",
           "japanese": "私は心臓の循環脈と生命核の滋養に感謝する。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-01",
+      "batch": "Batch 43",
+      "domain": "都市土木・水路網と公共貯水槽・調整池と水利台帳",
+      "title": "公共水路網と地下貯水槽の改修",
+      "communicative_need": "都市の公共貯水槽、運河の調整池、水利台帳保管庫の点検記録を共有する。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "水門と水路網を統御する舟守"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "水利図誌と台帳を管理する写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Vyrel el mi ia darisvorn ul dardaron. Relen el darlivar uo domom.",
+          "japanese": "私は公共貯水槽と調整池を観測する。都市に水利台帳保管庫がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Ve. Vymin el darlivar ia dardaron. Relen el silan uo darisvorn.",
+          "japanese": "はい。水利台帳保管庫は調整池を守る。公共貯水槽に調和がある。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Vymin el mi ia darisvorn to darlivar. Relen el dar uo dardaron.",
+          "japanese": "私は水利台帳保管庫のために公共貯水槽を守る。調整池に水がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Soran el mi ia darisvorn ul dardaron uo darlivar.",
+          "japanese": "私は水利台帳保管庫の中で公共貯水槽と調整池の記録を書き留める。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-02",
+      "batch": "Batch 43",
+      "domain": "石工建築・切石基盤と石材工房・耐震複合梁",
+      "title": "石畳広場の基盤層と切石工房",
+      "communicative_need": "切石の基盤層、石工の作業場、石柱と梁材の複合架構を確かめ合う。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "石工の鑿を研ぐ灯守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "採石場の良材を見定める採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi ia talyrvorn to talyrtal. Relen el talyrvel uo govan.",
+          "japanese": "私は切石基盤層の上に石工工房を創る。住居に耐震梁材がある。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Ve. Vymin el talyrvel ia talyrtal. Relen el havsirin uo talyrvorn.",
+          "japanese": "はい。耐震梁材は切石基盤を守る。石工工房に静かな時がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Vymin el mi ia talyrvel to talyrtal. Poran el mi uo talyrvorn.",
+          "japanese": "私は切石基盤のために耐震梁材を守る。私は石工工房の中を歩む。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Cynur el mi to ti ia talyrtal ul talyrvel uo talyrvorn.",
+          "japanese": "私は石工工房の中で切石基盤と耐震梁材についてあなたに感謝する。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-03",
+      "batch": "Batch 43",
+      "domain": "金属精錬・鋳造工房と銅管配管・鉱石脈",
+      "title": "鍛冶工房と送水銅管の敷設",
+      "communicative_need": "鍛冶工房の炉火、銅管送水路の結合、鉱石含有層の採掘を協議する。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "精錬炉の送風を担う灯守"
+      },
+      "agent_b": {
+        "name": "Toa",
+        "role": "金属配管の敷設を導く舟守"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Pyran el pyris uo talurvorn. Vyrel el mi ia talurdar to talurtal.",
+          "japanese": "鍛冶工房で火が燃える。私は鉱床層のそばで銅管送水路を観測する。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Ve. Kiras el mi ia talurdar uo talurvorn. Relen el talurtal uo tal.",
+          "japanese": "はい。私は鍛冶工房で銅管送水路を創る。大地に鉱床層がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Vymin el mi ia talurvorn ul talurtal. Relen el dar uo talurdar.",
+          "japanese": "私は鍛冶工房と鉱床層を守る。銅管送水路に水がある。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Cynur el mi to ti ia talurvorn to talurdar ul talurtal.",
+          "japanese": "私は銅管送水路と鉱床層のために鍛冶工房についてあなたに感謝する。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-04",
+      "batch": "Batch 43",
+      "domain": "防壁要塞・城門の礎石と守衛詰所・水門堰板",
+      "title": "都市城門の礎石と水門の点検",
+      "communicative_need": "城門の礎石、守衛の詰所、水門の堰板の堅牢さを点検する。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "運河水門を見回る舟守"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "城門の施錠記録を点検する写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Vyrel el mi ia lereldar to lereltal. Relen el lerelvorn uo domom.",
+          "japanese": "私は城門の礎石のそばで水門堰板を観測する。都市に守衛詰所がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Ve. Vymin el lerelvorn ia lereltal. Relen el dar to lereldar.",
+          "japanese": "はい。守衛詰所は城門礎石を守る。水門堰板のそばに水がある。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Vymin el mi ia lereldar to lerelvorn. Poran el mi to lereltal.",
+          "japanese": "私は守衛詰所のために水門堰板を守る。私は城門礎石へ歩む。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Soran el mi ia lereltal ul lerelvorn to lereldar.",
+          "japanese": "私は水門堰板のそばで城門礎石と守衛詰所の記録を書き留める。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-05",
+      "batch": "Batch 44",
+      "domain": "鋳造工芸・原型保管室と土製鋳床・木製母型",
+      "title": "鋳型保管室と木製母型の製作",
+      "communicative_need": "鋳型保管室の原型、土製鋳床の準備、木彫りの木製母型を照合する。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "粘土鋳型を練り上げる灯守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "木型用の乾燥木材を運ぶ採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi ia dolastal to dolasvorn. Relen el dolasvel uo vorn.",
+          "japanese": "私は鋳型保管室のために土製鋳床を創る。部屋に木製母型がある。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Ve. Vymin el dolasvorn ia dolasvel. Relen el silan to dolastal.",
+          "japanese": "はい。鋳型保管室は木製母型を守る。土製鋳床のそばに調和がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Vymin el mi ia dolasvel to dolasvorn. Poran el mi to dolastal.",
+          "japanese": "私は鋳型保管室のために木製母型を守る。私は土製鋳床へ歩む。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Cynur el mi to ti ia dolasvorn ul dolastal to dolasvel.",
+          "japanese": "私は木製母型のそばで鋳型保管室と土製鋳床についてあなたに感謝する。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-06",
+      "batch": "Batch 44",
+      "domain": "市民生活・中央広場と公会堂・公共給水場",
+      "title": "都市中央広場と市民公会堂の集い",
+      "communicative_need": "中央広場の敷石、市民が集う公会堂、広場の公共給水場について語り合う。",
+      "agent_a": {
+        "name": "Yura",
+        "role": "公会堂で条例を告げる写字生"
+      },
+      "agent_b": {
+        "name": "Sev",
+        "role": "広場の常夜灯を点火する灯守"
+      },
+      "turns": [
+        {
+          "speaker": "Yura",
+          "nebulith": "Poran el mi uo domomtal to domomvorn. Relen el domomdar uo domom.",
+          "japanese": "私は市政庁舎の会議室へ向かい中央広場を歩む。都市に公共給水場がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Ve. Vymin el domomvorn ia domomdar. Relen el silan uo domomtal.",
+          "japanese": "はい。市政庁舎の会議室は公共給水場を守る。中央広場に調和がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Fenor el mi to ti uo domomvorn to domomtal ul domomdar.",
+          "japanese": "私は中央広場と公共給水場について市政庁舎の会議室の中であなたに語る。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Bion el mi ia dar uo domomdar to domomtal ul domomvorn.",
+          "japanese": "私は中央広場と市政庁舎の会議室のそばで公共給水場の水を飲む。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-07",
+      "batch": "Batch 44",
+      "domain": "交通インフラ・発着台と待合室・船渠泊地",
+      "title": "舟着き場の乗降台と乗客待合所",
+      "communicative_need": "発着場の乗降台、乗客の待合所、運河の船渠泊地を整備する。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "船渠で艀を係留する舟守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "港の売店に花を並べる採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Poran el mi uo larartal to lararvorn. Relen el larardar uo dar.",
+          "japanese": "私は待合所へ向かい乗降台を歩む。水辺に船渠泊地がある。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Ve. Vymin el lararvorn ia larardar. Relen el havsirin uo larartal.",
+          "japanese": "はい。待合所は船渠泊地を守る。乗降台に静かな時間がある。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Vymin el mi ia larardar to larartal ul lararvorn.",
+          "japanese": "私は乗降台と待合所のために船渠泊地を守る。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Cynur el mi to ti ia larartal ul larardar uo lararvorn.",
+          "japanese": "私は待合所の中で乗降台と船渠泊地についてあなたに感謝する。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-08",
+      "batch": "Batch 44",
+      "domain": "集合住宅・長屋敷地と居室・屋内の井戸水",
+      "title": "共同長屋の造成地と生活井戸",
+      "communicative_need": "長屋の敷地、家族の集う居室、屋内の生活井戸の保全を語る。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "井戸枠を補修する灯守"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "戸籍台帳を整える写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi ia govanvorn to govantal. Relen el govandar uo govan.",
+          "japanese": "私は長屋敷地の上に居室を創る。住居に生活井戸がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Ve. Vymin el govanvorn ia govandar. Relen el silan to govantal.",
+          "japanese": "はい。居室は生活井戸を守る。長屋敷地に調和がある。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Bion el mi ia govandar to govantal ul govanvorn.",
+          "japanese": "私は長屋敷地と居室のために生活井戸の水を飲む。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Soran el mi ia govantal ul govandar uo govanvorn.",
+          "japanese": "私は居室の中で長屋敷地と生活井戸の記録を書き留める。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-09",
+      "batch": "Batch 45",
+      "domain": "土木現場・組合詰所と工事現場・丸太足場",
+      "title": "公共工事現場の足場組みと組合詰所",
+      "communicative_need": "職人組合の詰所、公共工事の現場、丸太足場の安全性を協議する。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "足場丸太を運搬する舟守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "作業員の野草茶を用意する採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Poran el mi uo dolortal to dolorvorn. Relen el dolorvel uo tal.",
+          "japanese": "私は組合詰所へ向かい工事現場を歩む。大地に丸太足場がある。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Ve. Vymin el dolorvorn ia dolorvel. Relen el silan to dolortal.",
+          "japanese": "はい。組合詰所は丸太足場を守る。工事現場に調和がある。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Kiras el mi ia dolorvel to dolortal ul dolorvorn.",
+          "japanese": "私は工事現場と組合詰所のために丸太足場を創る。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Cynur el mi to ti ia dolorvel ul dolortal uo dolorvorn.",
+          "japanese": "私は組合詰所の中で丸太足場と工事現場についてあなたに感謝する。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-10",
+      "batch": "Batch 45",
+      "domain": "市場商業・露店広場と取引所・運河水上市場",
+      "title": "青空市場の露店広場と水上交易路",
+      "communicative_need": "露店広場、商人の取引所、運河の水上市場の賑わいを語り合う。",
+      "agent_a": {
+        "name": "Neri",
+        "role": "採集物を露店に並べる採集師"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "取引所で度量衡を確認する写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Neri",
+          "nebulith": "Poran el mi uo renartal to renarvorn. Relen el renardar uo dar.",
+          "japanese": "私は取引所へ向かい露店広場を歩む。水辺に水上市場がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Ve. Vymin el renarvorn ia renardar. Relen el silan to renartal.",
+          "japanese": "はい。取引所は水上市場を守る。露店広場に調和がある。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Relen el havsirin to renardar ul renartal uo renarvorn.",
+          "japanese": "取引所の中で水上市場と露店広場に静かな時がある。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Soran el mi ia renartal ul renardar to renarvorn.",
+          "japanese": "私は取引所のために露店広場と水上市場の記録を書き留める。"
         }
       ]
     }
@@ -31171,6 +31994,1146 @@
       "remediatesLegacyCandidateId": 41020,
       "speakers": [
         "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darisvorn",
+      "pos": "名",
+      "meaningJa": "公共貯水室、都市の地下貯水槽、水門の管理室",
+      "meaningEn": "public water cistern, municipal reservoir chamber, sluice control room",
+      "morphemes": [
+        "daris",
+        "vorn"
+      ],
+      "etymology": "daris(水) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vyrel el mi ia darisvorn ul dardaron.",
+      "example_ja": "私は公共貯水槽と調整池を観測する。",
+      "id": 31501,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-01",
+      "domain": "都市土木・水路網と公共貯水槽・調整池と水利台帳",
+      "constituentEntries": [
+        {
+          "id": 332,
+          "nrs": "daris",
+          "pos": "名",
+          "meaningJa": "水、清流、淡水"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40033,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dardaron",
+      "pos": "名",
+      "meaningJa": "都市調整池、遊水池、運河の水門溜池",
+      "meaningEn": "urban retention basin, municipal flood reservoir, canal water gate pool",
+      "morphemes": [
+        "dar",
+        "daron"
+      ],
+      "etymology": "dar(しずく) + daron(湖)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Relen el dar uo dardaron.",
+      "example_ja": "調整池に水がある。",
+      "id": 31502,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-01",
+      "domain": "都市土木・水路網と公共貯水槽・調整池と水利台帳",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 339,
+          "nrs": "daron",
+          "pos": "名",
+          "meaningJa": "湖、湖沼、静水面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40034,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darlivar",
+      "pos": "名",
+      "meaningJa": "水利台帳保管庫、水路図誌の記録室、港湾文庫",
+      "meaningEn": "aqueduct archive, waterworks cartography chamber, maritime library",
+      "morphemes": [
+        "dar",
+        "livar"
+      ],
+      "etymology": "dar(しずく) + livar(星辰書庫)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Relen el darlivar uo domom.",
+      "example_ja": "都市に水利台帳保管庫がある。",
+      "id": 31503,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-01",
+      "domain": "都市土木・水路網と公共貯水槽・調整池と水利台帳",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 152,
+          "nrs": "livar",
+          "pos": "名",
+          "meaningJa": "星辰書庫、記録保管座、天測宝庫"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40035,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talyrtal",
+      "pos": "名",
+      "meaningJa": "切石の基盤層、石畳の基礎大地、舗装された地盤",
+      "meaningEn": "dressed-stone foundation, paved ground substratum, stone-ballast bedrock",
+      "morphemes": [
+        "talyr",
+        "tal"
+      ],
+      "etymology": "talyr(石) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi ia talyrvorn to talyrtal.",
+      "example_ja": "私は切石基盤層の上に石工工房を創る。",
+      "id": 31504,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-02",
+      "domain": "石工建築・切石基盤と石材工房・耐震複合梁",
+      "constituentEntries": [
+        {
+          "id": 285,
+          "nrs": "talyr",
+          "pos": "名",
+          "meaningJa": "石、岩、鉱石、結晶"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40036,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talyrvorn",
+      "pos": "名",
+      "meaningJa": "石工の作業場、石材加工室、切石の工房",
+      "meaningEn": "stonecutter workshop, masonry cutting hall, stonemason chamber",
+      "morphemes": [
+        "talyr",
+        "vorn"
+      ],
+      "etymology": "talyr(石) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el havsirin uo talyrvorn.",
+      "example_ja": "石工工房に静かな時がある。",
+      "id": 31505,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-02",
+      "domain": "石工建築・切石基盤と石材工房・耐震複合梁",
+      "constituentEntries": [
+        {
+          "id": 285,
+          "nrs": "talyr",
+          "pos": "名",
+          "meaningJa": "石、岩、鉱石、結晶"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40037,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talyrvel",
+      "pos": "名",
+      "meaningJa": "石柱と梁材、石材と木材の複合架構、耐震梁木",
+      "meaningEn": "stone-and-timber pillar, masonry composite post, seismic tie-beam timber",
+      "morphemes": [
+        "talyr",
+        "vel"
+      ],
+      "etymology": "talyr(石) + vel(木)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el talyrvel uo govan.",
+      "example_ja": "住居に耐震梁材がある。",
+      "id": 31506,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-02",
+      "domain": "石工建築・切石基盤と石材工房・耐震複合梁",
+      "constituentEntries": [
+        {
+          "id": 285,
+          "nrs": "talyr",
+          "pos": "名",
+          "meaningJa": "石、岩、鉱石、結晶"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40038,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talurvorn",
+      "pos": "名",
+      "meaningJa": "鍛冶工房、金属加工の間、鋳造工場の炉室",
+      "meaningEn": "metalsmith workshop, foundry casting parlor, metalwork hearth room",
+      "morphemes": [
+        "talur",
+        "vorn"
+      ],
+      "etymology": "talur(金属) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Pyran el pyris uo talurvorn.",
+      "example_ja": "鍛冶工房で火が燃える。",
+      "id": 31507,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-03",
+      "domain": "金属精錬・鋳造工房と銅管配管・鉱石脈",
+      "constituentEntries": [
+        {
+          "id": 313,
+          "nrs": "talur",
+          "pos": "名",
+          "meaningJa": "金属、合金、鉱物資材"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40039,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talurdar",
+      "pos": "名",
+      "meaningJa": "銅管送水路、金属製導水管、鋳鉄の配管水",
+      "meaningEn": "copper water conduit, metallic aqueduct piping, cast-iron plumbing stream",
+      "morphemes": [
+        "talur",
+        "dar"
+      ],
+      "etymology": "talur(金属) + dar(しずく)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el dar uo talurdar.",
+      "example_ja": "銅管送水路に水がある。",
+      "id": 31508,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-03",
+      "domain": "金属精錬・鋳造工房と銅管配管・鉱石脈",
+      "constituentEntries": [
+        {
+          "id": 313,
+          "nrs": "talur",
+          "pos": "名",
+          "meaningJa": "金属、合金、鉱物資材"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40040,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talurtal",
+      "pos": "名",
+      "meaningJa": "鉱石含有層、金属脈の大地、岩盤の鉱床層",
+      "meaningEn": "ore-bearing rock stratum, metalliferous bedrock ground, mineral lode layer",
+      "morphemes": [
+        "talur",
+        "tal"
+      ],
+      "etymology": "talur(金属) + tal(大地)",
+      "category": "02. 天体・気象・環境",
+      "example_sentence": "Relen el talurtal uo tal.",
+      "example_ja": "大地に鉱床層がある。",
+      "id": 31509,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-03",
+      "domain": "金属精錬・鋳造工房と銅管配管・鉱石脈",
+      "constituentEntries": [
+        {
+          "id": 313,
+          "nrs": "talur",
+          "pos": "名",
+          "meaningJa": "金属、合金、鉱物資材"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40041,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "lereltal",
+      "pos": "名",
+      "meaningJa": "城門の礎石、都市大門の敷居石、防壁の土台石",
+      "meaningEn": "city gate threshold stone, city portal socle, fortress gate footing rock",
+      "morphemes": [
+        "lerel",
+        "tal"
+      ],
+      "etymology": "lerel(扉) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Poran el mi to lereltal.",
+      "example_ja": "私は城門礎石へ歩む。",
+      "id": 31510,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-04",
+      "domain": "防壁要塞・城門の礎石と守衛詰所・水門堰板",
+      "constituentEntries": [
+        {
+          "id": 621,
+          "nrs": "lerel",
+          "pos": "名",
+          "meaningJa": "扉、ドア、出入口、ゲート"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40042,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "lerelvorn",
+      "pos": "名",
+      "meaningJa": "衛兵の詰所、城門守衛の待機室、門番の間",
+      "meaningEn": "gatekeeper guardroom, portal sentry chamber, gatehouse parlor",
+      "morphemes": [
+        "lerel",
+        "vorn"
+      ],
+      "etymology": "lerel(扉) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el lerelvorn uo domom.",
+      "example_ja": "都市に守衛詰所がある。",
+      "id": 31511,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-04",
+      "domain": "防壁要塞・城門の礎石と守衛詰所・水門堰板",
+      "constituentEntries": [
+        {
+          "id": 621,
+          "nrs": "lerel",
+          "pos": "名",
+          "meaningJa": "扉、ドア、出入口、ゲート"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40043,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "lereldar",
+      "pos": "名",
+      "meaningJa": "水門の堰板、水路門の開閉板、運河の門扉",
+      "meaningEn": "sluice gate leaf, canal portal barrier, water-lock sluice plank",
+      "morphemes": [
+        "lerel",
+        "dar"
+      ],
+      "etymology": "lerel(扉) + dar(しずく)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vyrel el mi ia lereldar to lereltal.",
+      "example_ja": "私は城門の礎石のそばで水門堰板を観測する。",
+      "id": 31512,
+      "batch": "Batch 43",
+      "scenario_id": "CANON-COLAB-04",
+      "domain": "防壁要塞・城門の礎石と守衛詰所・水門堰板",
+      "constituentEntries": [
+        {
+          "id": 621,
+          "nrs": "lerel",
+          "pos": "名",
+          "meaningJa": "扉、ドア、出入口、ゲート"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40044,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolasvorn",
+      "pos": "名",
+      "meaningJa": "鋳型保管室、石膏型・木型の保存室、原型工房",
+      "meaningEn": "casting mold storehouse, model pattern archive chamber, master cast room",
+      "morphemes": [
+        "dolas",
+        "vorn"
+      ],
+      "etymology": "dolas(鋳型) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el dolasvorn ia dolasvel.",
+      "example_ja": "鋳型保管室は木製母型を守る。",
+      "id": 31513,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-05",
+      "domain": "鋳造工芸・原型保管室と土製鋳床・木製母型",
+      "constituentEntries": [
+        {
+          "id": 543,
+          "nrs": "dolas",
+          "pos": "名",
+          "meaningJa": "鋳型、鋳型枠、金型"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40045,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolastal",
+      "pos": "名",
+      "meaningJa": "土製鋳型、粘土造型の鋳造枠、泥型の鋳床",
+      "meaningEn": "clay foundry mold, loam casting floor, earthen casting matrix",
+      "morphemes": [
+        "dolas",
+        "tal"
+      ],
+      "etymology": "dolas(鋳型) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi ia dolastal to dolasvorn.",
+      "example_ja": "私は鋳型保管室のために土製鋳床を創る。",
+      "id": 31514,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-05",
+      "domain": "鋳造工芸・原型保管室と土製鋳床・木製母型",
+      "constituentEntries": [
+        {
+          "id": 543,
+          "nrs": "dolas",
+          "pos": "名",
+          "meaningJa": "鋳型、鋳型枠、金型"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40046,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolasvel",
+      "pos": "名",
+      "meaningJa": "木製母型、木彫りの鋳造原型、家具の木製枠型",
+      "meaningEn": "timber pattern prototype, wooden casting matrix, carved master frame",
+      "morphemes": [
+        "dolas",
+        "vel"
+      ],
+      "etymology": "dolas(鋳型) + vel(木)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el dolasvel uo vorn.",
+      "example_ja": "部屋に木製母型がある。",
+      "id": 31515,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-05",
+      "domain": "鋳造工芸・原型保管室と土製鋳床・木製母型",
+      "constituentEntries": [
+        {
+          "id": 543,
+          "nrs": "dolas",
+          "pos": "名",
+          "meaningJa": "鋳型、鋳型枠、金型"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40047,
+      "speakers": [
+        "Neri",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "domomtal",
+      "pos": "名",
+      "meaningJa": "中央広場の舗装大地、都市広場、市民の集う広場",
+      "meaningEn": "central municipal square, civic plaza ground, urban public commons",
+      "morphemes": [
+        "domom",
+        "tal"
+      ],
+      "etymology": "domom(都市) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Poran el mi uo domomtal to domomvorn.",
+      "example_ja": "私は市政庁舎の会議室へ向かい中央広場を歩む。",
+      "id": 31516,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-06",
+      "domain": "市民生活・中央広場と公会堂・公共給水場",
+      "constituentEntries": [
+        {
+          "id": 597,
+          "nrs": "domom",
+          "pos": "名",
+          "meaningJa": "都市、街、街区"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40048,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "domomvorn",
+      "pos": "名",
+      "meaningJa": "市政庁舎の会議室、都市議会の大広間、市民評議の間",
+      "meaningEn": "civic assembly hall, municipal council room, town guild chamber",
+      "morphemes": [
+        "domom",
+        "vorn"
+      ],
+      "etymology": "domom(都市) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Fenor el mi to ti uo domomvorn.",
+      "example_ja": "私は公会堂の中であなたに語る。",
+      "id": 31517,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-06",
+      "domain": "市民生活・中央広場と公会堂・公共給水場",
+      "constituentEntries": [
+        {
+          "id": 597,
+          "nrs": "domom",
+          "pos": "名",
+          "meaningJa": "都市、街、街区"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40049,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "domomdar",
+      "pos": "名",
+      "meaningJa": "都市中央の噴水、公共給水場、広場の給水塔",
+      "meaningEn": "municipal public fountain, civic water station, town plaza cistern",
+      "morphemes": [
+        "domom",
+        "dar"
+      ],
+      "etymology": "domom(都市) + dar(しずく)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el domomdar uo domom.",
+      "example_ja": "都市に公共給水場がある。",
+      "id": 31518,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-06",
+      "domain": "市民生活・中央広場と公会堂・公共給水場",
+      "constituentEntries": [
+        {
+          "id": 597,
+          "nrs": "domom",
+          "pos": "名",
+          "meaningJa": "都市、街、街区"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40050,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "larartal",
+      "pos": "名",
+      "meaningJa": "発着場の乗降台、駅前広場の大地、荷揚げ場",
+      "meaningEn": "station platform ground, carriage staging terrace, wharf apron ground",
+      "morphemes": [
+        "larar",
+        "tal"
+      ],
+      "etymology": "larar(駅) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Poran el mi uo larartal to lararvorn.",
+      "example_ja": "私は待合所へ向かい乗降台を歩む。",
+      "id": 31519,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-07",
+      "domain": "交通インフラ・発着台と待合室・船渠泊地",
+      "constituentEntries": [
+        {
+          "id": 618,
+          "nrs": "larar",
+          "pos": "名",
+          "meaningJa": "駅、ターミナル、空港、停泊地"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40051,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "lararvorn",
+      "pos": "名",
+      "meaningJa": "駅の待合所、発着場の乗客待機室、荷預かり所",
+      "meaningEn": "station waiting hall, passenger staging lobby, transit booking room",
+      "morphemes": [
+        "larar",
+        "vorn"
+      ],
+      "etymology": "larar(駅) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el lararvorn ia larardar.",
+      "example_ja": "待合所は船渠泊地を守る。",
+      "id": 31520,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-07",
+      "domain": "交通インフラ・発着台と待合室・船渠泊地",
+      "constituentEntries": [
+        {
+          "id": 618,
+          "nrs": "larar",
+          "pos": "名",
+          "meaningJa": "駅、ターミナル、空港、停泊地"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40052,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "larardar",
+      "pos": "名",
+      "meaningJa": "舟着き場の船渠、運河の発着水門、艀の係留池",
+      "meaningEn": "dockside boat basin, canal mooring lock, barge landing dockpool",
+      "morphemes": [
+        "larar",
+        "dar"
+      ],
+      "etymology": "larar(駅) + dar(しずく)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el larardar uo dar.",
+      "example_ja": "水辺に船渠泊地がある。",
+      "id": 31521,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-07",
+      "domain": "交通インフラ・発着台と待合室・船渠泊地",
+      "constituentEntries": [
+        {
+          "id": 618,
+          "nrs": "larar",
+          "pos": "名",
+          "meaningJa": "駅、ターミナル、空港、停泊地"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40053,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "govantal",
+      "pos": "名",
+      "meaningJa": "長屋の敷地、住宅区の造成大地、共同住宅地",
+      "meaningEn": "tenement housing plot, residential terrace ground, rowhouse land parcel",
+      "morphemes": [
+        "govan",
+        "tal"
+      ],
+      "etymology": "govan(家) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi ia govanvorn to govantal.",
+      "example_ja": "私は長屋敷地の上に居室を創る。",
+      "id": 31522,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-08",
+      "domain": "集合住宅・長屋敷地と居室・屋内の井戸水",
+      "constituentEntries": [
+        {
+          "id": 616,
+          "nrs": "govan",
+          "pos": "名",
+          "meaningJa": "家、住宅、住まい"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40054,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "govanvorn",
+      "pos": "名",
+      "meaningJa": "居室、住居の主室、家族の集う大広間",
+      "meaningEn": "dwelling parlor, household main chamber, family living room",
+      "morphemes": [
+        "govan",
+        "vorn"
+      ],
+      "etymology": "govan(家) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el govanvorn ia govandar.",
+      "example_ja": "居室は生活井戸を守る。",
+      "id": 31523,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-08",
+      "domain": "集合住宅・長屋敷地と居室・屋内の井戸水",
+      "constituentEntries": [
+        {
+          "id": 616,
+          "nrs": "govan",
+          "pos": "名",
+          "meaningJa": "家、住宅、住まい"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40055,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "govandar",
+      "pos": "名",
+      "meaningJa": "屋内の井戸水、台所の引水槽、住居の湧水場",
+      "meaningEn": "domestic interior well, kitchen water cistern, household fountain",
+      "morphemes": [
+        "govan",
+        "dar"
+      ],
+      "etymology": "govan(家) + dar(しずく)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el govandar uo govan.",
+      "example_ja": "住居に生活井戸がある。",
+      "id": 31524,
+      "batch": "Batch 44",
+      "scenario_id": "CANON-COLAB-08",
+      "domain": "集合住宅・長屋敷地と居室・屋内の井戸水",
+      "constituentEntries": [
+        {
+          "id": 616,
+          "nrs": "govan",
+          "pos": "名",
+          "meaningJa": "家、住宅、住まい"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40056,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolorvorn",
+      "pos": "名",
+      "meaningJa": "職人組合の詰所、労働者の控えの間、作業詰所",
+      "meaningEn": "craftsmen guild lounge, workers mess hall, artisan labor chamber",
+      "morphemes": [
+        "dolor",
+        "vorn"
+      ],
+      "etymology": "dolor(労働者) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Poran el mi uo dolortal to dolorvorn.",
+      "example_ja": "私は組合詰所へ向かい工事現場を歩む。",
+      "id": 31525,
+      "batch": "Batch 45",
+      "scenario_id": "CANON-COLAB-09",
+      "domain": "土木現場・組合詰所と工事現場・丸太足場",
+      "constituentEntries": [
+        {
+          "id": 546,
+          "nrs": "dolor",
+          "pos": "名",
+          "meaningJa": "労働者、職人、働き手"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40057,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolortal",
+      "pos": "名",
+      "meaningJa": "公共工事の作業場、造成現場の大地、土木現場",
+      "meaningEn": "public construction ground, civil works yard, earthwork job site",
+      "morphemes": [
+        "dolor",
+        "tal"
+      ],
+      "etymology": "dolor(労働者) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el silan to dolortal.",
+      "example_ja": "工事現場に調和がある。",
+      "id": 31526,
+      "batch": "Batch 45",
+      "scenario_id": "CANON-COLAB-09",
+      "domain": "土木現場・組合詰所と工事現場・丸太足場",
+      "constituentEntries": [
+        {
+          "id": 546,
+          "nrs": "dolor",
+          "pos": "名",
+          "meaningJa": "労働者、職人、働き手"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40058,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolorvel",
+      "pos": "名",
+      "meaningJa": "工事用足場木材、建設の丸太足場、大工材",
+      "meaningEn": "construction scaffolding timber, timber staging pole, builders timber",
+      "morphemes": [
+        "dolor",
+        "vel"
+      ],
+      "etymology": "dolor(労働者) + vel(木)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el dolorvel uo tal.",
+      "example_ja": "大地に丸太足場がある。",
+      "id": 31527,
+      "batch": "Batch 45",
+      "scenario_id": "CANON-COLAB-09",
+      "domain": "土木現場・組合詰所と工事現場・丸太足場",
+      "constituentEntries": [
+        {
+          "id": 546,
+          "nrs": "dolor",
+          "pos": "名",
+          "meaningJa": "労働者、職人、働き手"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40059,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "renartal",
+      "pos": "名",
+      "meaningJa": "市場の露店広場、青空市場の市街地、交易広場",
+      "meaningEn": "open-air market ground, bazaar square plot, trade fair esplanade",
+      "morphemes": [
+        "renar",
+        "tal"
+      ],
+      "etymology": "renar(市場) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Poran el mi uo renartal to renarvorn.",
+      "example_ja": "私は取引所へ向かい露店広場を歩む。",
+      "id": 31528,
+      "batch": "Batch 45",
+      "scenario_id": "CANON-COLAB-10",
+      "domain": "市場商業・露店広場と取引所・運河水上市場",
+      "constituentEntries": [
+        {
+          "id": 583,
+          "nrs": "renar",
+          "pos": "名",
+          "meaningJa": "市場、店、ショップ、取引所"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40060,
+      "speakers": [
+        "Neri",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "renarvorn",
+      "pos": "名",
+      "meaningJa": "市場の計量所、商人の取引所、為替所の間",
+      "meaningEn": "market weighing hall, mercantile exchange parlor, trade ledger office",
+      "morphemes": [
+        "renar",
+        "vorn"
+      ],
+      "etymology": "renar(市場) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el renarvorn ia renardar.",
+      "example_ja": "取引所は水上市場を守る。",
+      "id": 31529,
+      "batch": "Batch 45",
+      "scenario_id": "CANON-COLAB-10",
+      "domain": "市場商業・露店広場と取引所・運河水上市場",
+      "constituentEntries": [
+        {
+          "id": 583,
+          "nrs": "renar",
+          "pos": "名",
+          "meaningJa": "市場、店、ショップ、取引所"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40061,
+      "speakers": [
+        "Neri",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "renardar",
+      "pos": "名",
+      "meaningJa": "水上市場の水路、運河の交易舟溜まり、市場水門",
+      "meaningEn": "floating market canal, canal trade boat harbor, market water gate",
+      "morphemes": [
+        "renar",
+        "dar"
+      ],
+      "etymology": "renar(市場) + dar(しずく)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Relen el renardar uo dar.",
+      "example_ja": "水辺に水上市場がある。",
+      "id": 31530,
+      "batch": "Batch 45",
+      "scenario_id": "CANON-COLAB-10",
+      "domain": "市場商業・露店広場と取引所・運河水上市場",
+      "constituentEntries": [
+        {
+          "id": 583,
+          "nrs": "renar",
+          "pos": "名",
+          "meaningJa": "市場、店、ショップ、取引所"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40062,
+      "speakers": [
+        "Neri",
         "Yura"
       ],
       "auditFlags": []

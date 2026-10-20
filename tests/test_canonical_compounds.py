@@ -15,6 +15,7 @@ from canonical_compound_validator import (
 from canonical_promotion_gateway import (
     REMEDIATION_SUMMARY_PATH,
     evaluate_promotion_readiness,
+    simulate_promotion,
 )
 from curated_canonical_compounds import (
     BATCH_AUDIT_REPORT_PATH,
@@ -44,7 +45,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertNotIn("kel", arbiter.known_morphemes)
         self.assertNotIn("pel", arbiter.known_morphemes)
 
-    def test_verified_canonical_compounds_batches_1_to_42_have_zero_audit_flags(self):
+    def test_verified_canonical_compounds_batches_1_to_45_have_zero_audit_flags(self):
         self.assertTrue(VERIFIED_COMPOUNDS_PATH.exists())
         self.assertTrue(BATCH_AUDIT_REPORT_PATH.exists())
         self.assertTrue(REMEDIATION_SUMMARY_PATH.exists())
@@ -55,10 +56,10 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
         self.assertEqual("ZERO_FLAGS_VERIFIED", saved_report["verdict"])
         self.assertEqual({}, saved_report["flagCounts"])
-        self.assertEqual(500, saved_dataset["summary"]["totalEntries"])
-        self.assertEqual(167, saved_dataset["summary"]["totalScenarios"])
+        self.assertEqual(530, saved_dataset["summary"]["totalEntries"])
+        self.assertEqual(177, saved_dataset["summary"]["totalScenarios"])
         self.assertEqual(0, saved_dataset["summary"]["auditFlagCount"])
-        self.assertEqual(500, saved_dataset["summary"]["remediatedLegacyCount"])
+        self.assertEqual(530, saved_dataset["summary"]["remediatedLegacyCount"])
         self.assertEqual(saved_dataset["entries"], live["dataset"]["entries"])
         self.assertEqual(saved_report["entries"], live["auditReport"]["entries"])
 
@@ -101,7 +102,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
     def test_web_studio_and_valnes_dialogues_pdf_integration(self):
         bundle_res = verify_web_bundle()
-        self.assertEqual(500, bundle_res["verifiedCompounds"])
+        self.assertEqual(530, bundle_res["verifiedCompounds"])
         self.assertTrue(bundle_res["sourceInputsMatch"])
 
         html_path = ROOT / "docs/Valnes_dialogues.html"
@@ -117,6 +118,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("klorcalor", html_text)
         self.assertIn("alinzevil", html_text)
         self.assertIn("CANON-CONV-167", html_text)
+        self.assertIn("CANON-COLAB-10", html_text)
         self.assertIn("domain-category-index", html_text)
         self.assertIn("constituent-root-index", html_text)
 
@@ -142,12 +144,15 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("vyrcelar", out["r4"]["text"].lower())
         self.assertTrue(out.get("r5", {}).get("success", False))
         self.assertIn("vyrelast", out["r5"]["text"].lower())
+        self.assertTrue(out.get("r6", {}).get("success", False))
+        self.assertTrue(out.get("r7", {}).get("success", False))
+        self.assertTrue(out.get("r8", {}).get("success", False))
 
     def test_promotion_gateway_requires_explicit_council_signoff(self):
         status = evaluate_promotion_readiness()
         self.assertTrue(status["mechanicallyReady"])
-        self.assertEqual(500, status["candidateCount"])
-        self.assertEqual(167, status["scenarioCount"])
+        self.assertEqual(530, status["candidateCount"])
+        self.assertEqual(177, status["scenarioCount"])
         self.assertFalse(status["councilSignoffGranted"])
         self.assertEqual("HOLD_FOR_COUNCIL_SIGNOFF", status["status"])
 
@@ -157,6 +162,16 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         approved = evaluate_promotion_readiness(council_signoff="COUNCIL-APPROVE-20261019")
         self.assertTrue(approved["councilSignoffGranted"])
         self.assertEqual("READY_FOR_PROMOTION", approved["status"])
+
+    def test_promotion_simulation_passes_without_disk_mutation(self):
+        sim = simulate_promotion()
+        self.assertTrue(sim["simulationPassed"])
+        self.assertEqual(372, sim["existingExtensionsCount"])
+        self.assertEqual(530, sim["promotedCandidateCount"])
+        self.assertEqual(902, sim["totalSimulatedExtensionsCount"])
+        self.assertEqual(0, sim["idCollisions"])
+        self.assertEqual(0, sim["rootCollisions"])
+        self.assertEqual("PROMOTION_SIMULATION_SUCCESSFUL", sim["verdict"])
 
 
 if __name__ == "__main__":
