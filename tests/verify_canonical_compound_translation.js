@@ -159,7 +159,20 @@ const r17 = bi.translateEnglishToNebulith('The sun is more bright than a star.')
 assert.equal(r17.success, true);
 assert.ok(r17.text.includes('Falani el zohar va vyr'), 'Expected Falani el zohar va vyr in ' + r17.text);
 
-// 16. Incremental translator check
+// 16. Reported speech: 'I say that you walk to house.' -> 'Fenor el mi ia Poran el ti to govan.'
+const r18 = bi.translateEnglishToNebulith('I say that you walk to house.');
+assert.equal(r18.success, true);
+assert.ok(r18.text.includes('Fenor el mi ia Poran el ti to govan'), 'Expected Fenor el mi ia Poran el ti to govan in ' + r18.text);
+
+const r18Ja = bi.translateNebulith('Fenor el mi ia Poran el ti to govan.', 'ja');
+assert.equal(r18Ja.success, true);
+assert.ok(r18Ja.text.includes('歩くと'), 'Expected 歩くと in ' + r18Ja.text);
+
+const r18En = bi.translateNebulith('Fenor el mi ia Poran el ti to govan.', 'en');
+assert.equal(r18En.success, true);
+assert.ok(r18En.text.includes('that you walk'), 'Expected that you walk in ' + r18En.text);
+
+// 17. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -167,4 +180,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En, r15, r15InOrder, r15Ja, r15En, r16Ja, r16En, r16, r17 }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En, r15, r15InOrder, r15Ja, r15En, r16Ja, r16En, r16, r17, r18, r18Ja, r18En }));

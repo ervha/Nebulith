@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T07:55:30.858351+00:00",
+  "createdAt": "2026-10-20T08:53:26.201954+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 770,
-    "uniqueRoots": 770,
-    "uniqueIds": 770,
-    "scenarios": 257,
+    "rows": 800,
+    "uniqueRoots": 800,
+    "uniqueIds": 800,
+    "scenarios": 267,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -392,14 +392,14 @@
     "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
-    "Vymin el mi ia <TERM>.": 55,
+    "Vymin el mi ia <TERM>.": 65,
     "Soran el mi uo <TERM>.": 2,
     "Kiras el mi ia <TERM> ul kypalvel.": 1,
     "Vymin el <TERM> ia pamel.": 1,
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
     "Soran el mi ia <TERM>.": 18,
-    "Vyrel el mi ia <TERM>.": 46,
+    "Vyrel el mi ia <TERM>.": 56,
     "Vyrel el mi ia <TERM> ul dardaron.": 1,
     "Relen el dar uo <TERM>.": 2,
     "Kiras el mi ia talyrvorn to <TERM>.": 1,
@@ -448,8 +448,8 @@
     "Vymin el mi ia <TERM> uo valar.": 1,
     "Vymin el mi ia <TERM> uo darar.": 1,
     "Kiran el mi ia <TERM> uo valar.": 1,
-    "Relen el mi ia <TERM> to valar.": 6,
-    "Relen el mi ia <TERM> to govan.": 4
+    "Relen el mi ia <TERM> to valar.": 11,
+    "Relen el mi ia <TERM> to govan.": 9
   },
   "entries": [
     {
@@ -15849,6 +15849,606 @@
       "referencedScenarioSpeakers": [
         "Sufen",
         "Vyrelon"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31771,
+      "nrs": "tykelir",
+      "meaningJa": "周期運動の調停祝祭、暦算周期の慶び、時相協和祭",
+      "meaningEn": "cyclic motion reconciliation festival, celebration of ephemeris cycle, phase accord jubilance",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-91",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Suvel",
+        "Tykan"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31772,
+      "nrs": "sufalin",
+      "meaningJa": "至点高度の清澄算定、至点極限計算、至点照準値",
+      "meaningEn": "lucid solstice culmination calculation, pristine zenith analysis, solstice sightline measure",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-91",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Suvel",
+        "Tykan"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31773,
+      "nrs": "unortyku",
+      "meaningJa": "接線ベクトルの数理展開、曲率接線導出、接線展開式",
+      "meaningEn": "tangential vector derivation, curvature tangent expansion, mathematical tangent induction",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "tyku"
+      ],
+      "scenario_id": "CANON-COLAB-91",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Suvel",
+        "Tykan"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31774,
+      "nrs": "tykulyka",
+      "meaningJa": "格子座標の基準節、方眼測定点、座標結節点",
+      "meaningEn": "coordinate grid benchmark node, lattice reference junction, grid survey station",
+      "pos": "名",
+      "morphemes": [
+        "tyku",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-92",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivor",
+        "Sufron"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31775,
+      "nrs": "suflyka",
+      "meaningJa": "周長整調の結節、周界計算環、輪郭計測座",
+      "meaningEn": "perimeter tuning node, contour calculus ring, boundary metric station",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-92",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivor",
+        "Sufron"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31776,
+      "nrs": "sufhano",
+      "meaningJa": "放物軌道の巡行計算、放物線道程解析、軌道行程算定",
+      "meaningEn": "parabolic route trajectory calculation, flight path mathematical trace, projectile traverse metric",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-92",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivor",
+        "Sufron"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31777,
+      "nrs": "sufvorn",
+      "meaningJa": "回転半径の整調計算、旋回半径測定法、軌道半径計理",
+      "meaningEn": "gyration radius calibration metric, turning radius computation, orbital radius calculation",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-93",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Navel",
+        "Tykis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31778,
+      "nrs": "tykvorn",
+      "meaningJa": "六分儀の測角基準、時相観測の定規、測地基準器",
+      "meaningEn": "sextant angular benchmark, phase observation standard, geodetic reference gauge",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-93",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Navel",
+        "Tykis"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31779,
+      "nrs": "tyktyni",
+      "meaningJa": "拍動測定の銀標、銀目盛の時辰器、高精度拍針",
+      "meaningEn": "silver temporal pulse index, silver-graduated chronometer gauge, high-precision rhythm needle",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-93",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Navel",
+        "Tykis"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31780,
+      "nrs": "civalalin",
+      "meaningJa": "和声の清らかな響き、澄明なる合奏調、純正和音の調べ",
+      "meaningEn": "pure harmonic resonance, lucid orchestral cadence, pristine chord consonance",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-94",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Civalon",
+        "Tyrel"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31781,
+      "nrs": "civaltyni",
+      "meaningJa": "澄んだ銀鈴の音色、銀線の旋律響、澄み切った弦音",
+      "meaningEn": "clear silvery timbre, silver chime melodic resonance, pristine string resonance",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-94",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Civalon",
+        "Tyrel"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31782,
+      "nrs": "civallyka",
+      "meaningJa": "手拍子のリズム節、拍節の打音座、律動の結節",
+      "meaningEn": "clapping rhythm cadence, metric pulse cadence node, handclap cadence loop",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-94",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Civalon",
+        "Tyrel"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31783,
+      "nrs": "civalbion",
+      "meaningJa": "詩の生動な調べ、躍動する詠唱、生命讃歌の節",
+      "meaningEn": "living poetic meter, pulsating chanted verse, vital poetic cadence",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-95",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Bionor",
+        "Hanis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31784,
+      "nrs": "civalhano",
+      "meaningJa": "旋回舞踏の足並み、円舞のステップ、舞踊の行進道",
+      "meaningEn": "whirling dance steps, circular dance cadence, choreographic procession step",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-95",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Bionor",
+        "Hanis"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31785,
+      "nrs": "civalfeno",
+      "meaningJa": "対位法の語らい、重唱の対話、多声律の対話歌",
+      "meaningEn": "counterpoint dialogue, polyphonic singing conversation, contrapuntal vocal interplay",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "feno"
+      ],
+      "scenario_id": "CANON-COLAB-95",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Bionor",
+        "Hanis"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31786,
+      "nrs": "civalvorn",
+      "meaningJa": "竪琴共鳴胴の整調、楽器胴体の音響調整、共鳴箱の整調",
+      "meaningEn": "harp soundbox acoustic calibration, instrument body resonance tuning, acoustic chamber alignment",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-96",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykon",
+        "Vornel"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31787,
+      "nrs": "tykucival",
+      "meaningJa": "合唱ハミングの調声、適切な歌声の調音、合唱発声節",
+      "meaningEn": "choral humming vocalization, measured choral vocal tuning, harmonious choral hum cadence",
+      "pos": "名",
+      "morphemes": [
+        "tyku",
+        "cival"
+      ],
+      "scenario_id": "CANON-COLAB-96",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykon",
+        "Vornel"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31788,
+      "nrs": "bioncival",
+      "meaningJa": "倍音共鳴の生動、豊かな倍音の響き、共鳴音の生気",
+      "meaningEn": "harmonic overtone vibrancy, living harmonic overtone resonance, vibrant sympathetic overtone",
+      "pos": "名",
+      "morphemes": [
+        "bion",
+        "cival"
+      ],
+      "scenario_id": "CANON-COLAB-96",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykon",
+        "Vornel"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31789,
+      "nrs": "fenocival",
+      "meaningJa": "幕間狂言の詠唱、演劇語りの歌、道化の吟誦",
+      "meaningEn": "interlude theatrical declamation, comic stage chanting, dramatic chanted interlude",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "cival"
+      ],
+      "scenario_id": "CANON-COLAB-97",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alinor",
+        "Fenis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31790,
+      "nrs": "alincival",
+      "meaningJa": "和声の澄んだ合奏音、清らかな音楽響、澄明なる歌調",
+      "meaningEn": "pure musical ensemble timbre, lucid acoustic harmony resonance, serene musical chord tone",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "cival"
+      ],
+      "scenario_id": "CANON-COLAB-97",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alinor",
+        "Fenis"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31791,
+      "nrs": "tynicival",
+      "meaningJa": "銀鈴の響音、銀笛の澄明な調べ、銀律の奏楽",
+      "meaningEn": "silvery bell chime resonance, silver flute clear melody, luminous silver music",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "cival"
+      ],
+      "scenario_id": "CANON-COLAB-97",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alinor",
+        "Fenis"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31792,
+      "nrs": "lykatyku",
+      "meaningJa": "手拍子の律動座、拍節の円環、リズム同調座",
+      "meaningEn": "clapping rhythm circle bench, rhythmic pulse circular station, metric pulse unison loop",
+      "pos": "名",
+      "morphemes": [
+        "lyka",
+        "tyku"
+      ],
+      "scenario_id": "CANON-COLAB-98",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenin",
+        "Lykas"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31793,
+      "nrs": "fenoalin",
+      "meaningJa": "詩節の清純な調べ、澄んだ詩句の語調、純粋な詠唱",
+      "meaningEn": "pure poetic verse tone, clear poetic recitation cadence, chaste poetic address",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-98",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenin",
+        "Lykas"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31794,
+      "nrs": "hanocival",
+      "meaningJa": "旋回円舞の旋律、舞踏行進曲、ステップの奏楽",
+      "meaningEn": "whirling ring-dance melody, choreographic processional music, stepping rhythm song",
+      "pos": "名",
+      "morphemes": [
+        "hano",
+        "cival"
+      ],
+      "scenario_id": "CANON-COLAB-98",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenin",
+        "Lykas"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31795,
+      "nrs": "civalseno",
+      "meaningJa": "合唱の視線調声、注視による合唱誘導、指揮の視線同調",
+      "meaningEn": "choral gaze modulation, gaze-guided choral coordination, conducting sightline sync",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-99",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kloras",
+        "Senor"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31796,
+      "nrs": "civaltyku",
+      "meaningJa": "倍音の時相周期、音楽の拍節周期、律動周期",
+      "meaningEn": "overtone phase rhythm period, musical cadence meter, periodic rhythm interval",
+      "pos": "名",
+      "morphemes": [
+        "cival",
+        "tyku"
+      ],
+      "scenario_id": "CANON-COLAB-99",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kloras",
+        "Senor"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31797,
+      "nrs": "klorcival",
+      "meaningJa": "幕間劇の静止の間、音楽の静謐な休止、劇的静止間",
+      "meaningEn": "dramatic interlude silence pause, tranquil musical rest, theatrical quietude pause",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "cival"
+      ],
+      "scenario_id": "CANON-COLAB-99",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kloras",
+        "Senor"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31798,
+      "nrs": "falunalin",
+      "meaningJa": "薄明光線の清澄な投光、明澄な放射光芒、大気薄明の輝き",
+      "meaningEn": "lucid crepuscular ray emission, pristine radiance beam, atmospheric crepuscular glow",
+      "pos": "名",
+      "morphemes": [
+        "falun",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-100",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falor",
+        "Tyniel"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31799,
+      "nrs": "faluntyni",
+      "meaningJa": "玉虫色の銀光彩、虹彩の銀色光輝、真珠母の輝き",
+      "meaningEn": "iridescent silvery luster, pearlescent silver radiance, nacreous chromatic glow",
+      "pos": "名",
+      "morphemes": [
+        "falun",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-100",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falor",
+        "Tyniel"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31800,
+      "nrs": "tykalin",
+      "meaningJa": "清らかな拍動測定、澄んだ周期計時、精確な時相標",
+      "meaningEn": "pristine rhythmic pulse timing, lucid chronometric measurement, exact phase indicator",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-100",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Falor",
+        "Tyniel"
       ],
       "exampleTemplate": "Relen el mi ia <TERM> to govan."
     }

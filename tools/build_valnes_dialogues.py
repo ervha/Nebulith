@@ -27,7 +27,7 @@ from canonical_compound_validator import audit_candidate_batch
 from literary_layout import BOOK_CSS
 
 
-def build_valnes_dialogues() -> dict:
+def build_valnes_dialogues(render_pdf_file: bool = True) -> dict:
     data_path = ROOT / "data/verified_canonical_compounds.json"
     dataset = json.loads(data_path.read_text(encoding="utf-8"))
     entries = dataset["entries"]
@@ -250,7 +250,8 @@ def build_valnes_dialogues() -> dict:
 
     html_path.write_text("\n".join(html_out) + "\n", encoding="utf-8")
     md_path.write_text("\n".join(md_out) + "\n", encoding="utf-8")
-    render_pdf(html_path, pdf_path)
+    if render_pdf_file:
+        render_pdf(html_path, pdf_path)
 
     return {
         "html": str(html_path.relative_to(ROOT)).replace("\\", "/"),
@@ -260,10 +261,14 @@ def build_valnes_dialogues() -> dict:
         "scenarios": len(scenarios),
         "indexedCategories": len(category_index),
         "indexedRoots": len(root_index),
-        "pdfBytes": pdf_path.stat().st_size,
+        "pdfBytes": pdf_path.stat().st_size if pdf_path.exists() else 0,
     }
 
 
 if __name__ == "__main__":
-    res = build_valnes_dialogues()
+    import argparse
+    parser = argparse.ArgumentParser(description="Build Valnes Dialogues HTML/Markdown/PDF")
+    parser.add_argument("--no-pdf", action="store_true", help="Skip heavy PDF rendering to conserve git repo size")
+    args = parser.parse_args()
+    res = build_valnes_dialogues(render_pdf_file=not args.no_pdf)
     print(json.dumps(res, ensure_ascii=False, indent=2))
