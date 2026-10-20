@@ -185,15 +185,15 @@
         idx++;
         continue;
       }
-      // If currentMarker is 'en' and it introduced a clause (starts with a verb),
+      // If currentMarker is 'en' or 'ia' and it introduced a clause (starts with a verb),
       // keep accumulating all internal tokens until sentence ends.
-      const isInsideRelativeClause = currentMarker === 'en' && currentTokens.length > 0 && (() => {
+      const isInsideSubClause = (currentMarker === 'en' || currentMarker === 'ia') && currentTokens.length > 0 && (() => {
         const firstW = currentTokens[0].toLowerCase().replace(/[.,!?;:]/g, '');
         const info = lookupWord(firstW);
         return info && (info.p === '動' || info.pos === '動' || info.pos === '動詞');
       })();
 
-      if (CASE_MARKERS[low] && !isInsideRelativeClause) {
+      if (CASE_MARKERS[low] && !isInsideSubClause) {
         if (currentMarker) {
           phrases.push({ marker: currentMarker, words: [...currentTokens] });
         }
@@ -414,6 +414,21 @@
         subjJa = `${pJa}は`;
         subjEn = pEn;
       } else if (ph.marker === 'ia') {
+        const firstWord = ph.words[0] ? ph.words[0].toLowerCase().replace(/[.,!?;:]/g, '') : '';
+        const firstInfo = lookupWord(firstWord);
+        const isComplementClause = ph.words.length >= 2 && firstInfo && (firstInfo.p === '動' || firstInfo.pos === '動' || firstInfo.pos === '動詞' || /el|ia|uo|to/.test(ph.words[1]));
+        if (isComplementClause) {
+          const compRes = translateSingleClause(ph.words.join(' '), targetLang, false);
+          if (compRes.success) {
+            const verbClean = (parsed.verbToken || '').toLowerCase();
+            const isQuotationVerb = /fenor|minpan|cival|soras|belan/.test(verbClean);
+            let subTextJa = compRes.text.replace(/^(.+?)は/, '$1が');
+            objJa = isQuotationVerb ? `${subTextJa}と` : `${subTextJa}ことを`;
+            objEn = `that ${compRes.text}`;
+            alignments.push(...compRes.alignments);
+            continue;
+          }
+        }
         objJa = `${pJa}を`;
         objEn = pEn;
       } else if (ph.marker === 'to') {
@@ -622,6 +637,38 @@
       }
     }
 
+    // Reported Speech / Thought: [Subject] [says/said/thinks/thought/knows/knew] that [Clause]
+    const repMatch = englishText.trim().match(/^([a-z]+)\s+(says?|said|thinks?|thought|knows?|knew)\s+that\s+(.+)$/i);
+    if (repMatch) {
+      const [, sWord, vWord, subClause] = repMatch;
+      const vMap = {
+        say: 'Fenor', says: 'Fenor', said: 'Fe fenor',
+        think: 'Minpan', thinks: 'Minpan', thought: 'Fe minpan',
+        know: 'Belan', knows: 'Belan', knew: 'Fe belan'
+      };
+      const nMap = {
+        i: 'mi', you: 'ti', we: 'miin', they: 'riin',
+        he: 'taas', she: 'taas', it: 'tate'
+      };
+      const vNeb = vMap[vWord.toLowerCase()];
+      const sNeb = nMap[sWord.toLowerCase()] || sWord.toLowerCase();
+      const subRes = translateSingleEnglishClause(subClause);
+      if (vNeb && subRes.success) {
+        const res = `${vNeb} el ${sNeb} ia ${subRes.text.replace(/\.$/, '')}.`;
+        return {
+          text: res,
+          neb: res,
+          tag: 'Reported Speech / Thought (SVO -> VSO that-clause)',
+          alignment: [
+            { src: sWord, dst: 'el ' + sNeb, role: 'Subject' },
+            { src: vWord, dst: vNeb, role: 'Predicate Verb' },
+            ...subRes.alignments
+          ],
+          success: true
+        };
+      }
+    }
+
     // 2. Single English Clause
     const single = translateSingleEnglishClause(englishText);
     if (single.success) {
@@ -676,7 +723,9 @@
       record: 'soran', records: 'soran', recorded: 'fe soran',
       protect: 'vymin', protects: 'vymin', protected: 'fe vymin',
       rest: 'seron', rests: 'seron', rested: 'fe seron',
-      know: 'belan', knows: 'belan', knew: 'fe belan'
+      know: 'belan', knows: 'belan', knew: 'fe belan',
+      say: 'fenor', says: 'fenor', said: 'fe fenor',
+      think: 'minpan', thinks: 'minpan', thought: 'fe minpan'
     };
     const adjectives = {
       beautiful: 'cylani', bright: 'falani', dark: 'valani', warm: 'surani',

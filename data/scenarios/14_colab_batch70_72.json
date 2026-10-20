@@ -1,0 +1,712 @@
+[
+  {
+    "scenario_id": "CANON-COLAB-91",
+    "batch": "Batch 70",
+    "domain": "数理・幾何・測量暦算",
+    "title": "天文暦算所における周期調停と至点高度の算定",
+    "communicative_need": "暦算士と観測官が周期運動の調停、至点高度の精密算定、および接線ベクトルの展開について記録を突き合わせる。",
+    "agent_a": {
+      "name": "Tykan",
+      "role": "暦算所の周期算定士"
+    },
+    "agent_b": {
+      "name": "Suvel",
+      "role": "至点仰角の観測技手"
+    },
+    "turns": [
+      {
+        "speaker": "Tykan",
+        "nebulith": "Vyrel el mi ia tykelir ul sufalin. Relen el mi ia unortyku to valar.",
+        "japanese": "私は周期運動の調停祝祭と至点高度の清澄算定を観測する。私は評議場へ向けて接線ベクトルの数理展開を得る。"
+      },
+      {
+        "speaker": "Suvel",
+        "nebulith": "Vymin el mi ia sufalin. Vyrel el mi ia unortyku. Vymin el miin ia tykelir ul unortyku.",
+        "japanese": "私は至点高度の清澄算定を守る。私は接線ベクトルの数理展開を確かめる。私たちは周期運動の調停祝祭と接線ベクトルの数理展開を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tykelir",
+        "pos": "名",
+        "meaningJa": "周期運動の調停祝祭、暦算周期の慶び、時相協和祭",
+        "meaningEn": "cyclic motion reconciliation festival, celebration of ephemeris cycle, phase accord jubilance",
+        "morphemes": [
+          "tyk",
+          "elir"
+        ],
+        "etymology": "tyk(拍/周期) + elir(歓喜/祝い)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia tykelir.",
+        "example_ja": "私は周期運動の調停祝祭を観測する。"
+      },
+      {
+        "nrs": "sufalin",
+        "pos": "名",
+        "meaningJa": "至点高度の清澄算定、至点極限計算、至点照準値",
+        "meaningEn": "lucid solstice culmination calculation, pristine zenith analysis, solstice sightline measure",
+        "morphemes": [
+          "suf",
+          "alin"
+        ],
+        "etymology": "suf(計算) + alin(清澄な)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia sufalin.",
+        "example_ja": "私は至点高度の清澄算定を守る。"
+      },
+      {
+        "nrs": "unortyku",
+        "pos": "名",
+        "meaningJa": "接線ベクトルの数理展開、曲率接線導出、接線展開式",
+        "meaningEn": "tangential vector derivation, curvature tangent expansion, mathematical tangent induction",
+        "morphemes": [
+          "unor",
+          "tyku"
+        ],
+        "etymology": "unor(展開) + tyku(適切に/時宜に)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia unortyku to valar.",
+        "example_ja": "私は評議場へ向けて接線ベクトルの数理展開を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-92",
+    "batch": "Batch 70",
+    "domain": "幾何測点と軌道解析",
+    "title": "測地院における格子座節と放物巡行計算の検算",
+    "communicative_need": "測地士と軌道計算手が格子座標の基準節、周界整調節、および放物軌道計算を照合する。",
+    "agent_a": {
+      "name": "Kivor",
+      "role": "基準格子網の監理士"
+    },
+    "agent_b": {
+      "name": "Sufron",
+      "role": "放物軌道解析の記録手"
+    },
+    "turns": [
+      {
+        "speaker": "Kivor",
+        "nebulith": "Vyrel el mi ia tykulyka ul suflyka. Relen el mi ia sufhano to govan.",
+        "japanese": "私は格子座標の基準節と周長整調の結節を観測する。私は家へ向けて放物軌道の巡行計算を得る。"
+      },
+      {
+        "speaker": "Sufron",
+        "nebulith": "Vymin el mi ia suflyka. Vyrel el mi ia sufhano. Vymin el miin ia tykulyka ul sufhano.",
+        "japanese": "私は周長整調の結節を守る。私は放物軌道の巡行計算を確かめる。私たちは格子座標の基準節と放物軌道の巡行計算を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "tykulyka",
+        "pos": "名",
+        "meaningJa": "格子座標の基準節、方眼測定点、座標結節点",
+        "meaningEn": "coordinate grid benchmark node, lattice reference junction, grid survey station",
+        "morphemes": [
+          "tyku",
+          "lyka"
+        ],
+        "etymology": "tyku(適切に) + lyka(節/籠)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia tykulyka.",
+        "example_ja": "私は格子座標の基準節を観測する。"
+      },
+      {
+        "nrs": "suflyka",
+        "pos": "名",
+        "meaningJa": "周長整調の結節、周界計算環、輪郭計測座",
+        "meaningEn": "perimeter tuning node, contour calculus ring, boundary metric station",
+        "morphemes": [
+          "suf",
+          "lyka"
+        ],
+        "etymology": "suf(計算) + lyka(節/環)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia suflyka.",
+        "example_ja": "私は周長整調の結節を守る。"
+      },
+      {
+        "nrs": "sufhano",
+        "pos": "名",
+        "meaningJa": "放物軌道の巡行計算、放物線道程解析、軌道行程算定",
+        "meaningEn": "parabolic route trajectory calculation, flight path mathematical trace, projectile traverse metric",
+        "morphemes": [
+          "suf",
+          "hano"
+        ],
+        "etymology": "suf(計算) + hano(歩む/巡行)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia sufhano to govan.",
+        "example_ja": "私は家へ向けて放物軌道の巡行計算を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-93",
+    "batch": "Batch 70",
+    "domain": "旋回半径と六分儀照準",
+    "title": "航測望楼における回転半径算定と測角基準の整備",
+    "communicative_need": "航法士と計器匠が回転半径の整調計算、六分儀の測角基準、および拍動測定銀標を点検する。",
+    "agent_a": {
+      "name": "Navel",
+      "role": "航法望楼の針路主任"
+    },
+    "agent_b": {
+      "name": "Tykis",
+      "role": "測角儀の調律師"
+    },
+    "turns": [
+      {
+        "speaker": "Navel",
+        "nebulith": "Vyrel el mi ia sufvorn ul tykvorn. Relen el mi ia tyktyni to valar.",
+        "japanese": "私は回転半径の整調計算と六分儀の測角基準を観測する。私は評議場へ向けて拍動測定の銀標を得る。"
+      },
+      {
+        "speaker": "Tykis",
+        "nebulith": "Vymin el mi ia tykvorn. Vyrel el mi ia tyktyni. Vymin el miin ia sufvorn ul tyktyni.",
+        "japanese": "私は六分儀の測角基準を守る。私は拍動測定の銀標を確かめる。私たちは回転半径の整調計算と拍動測定の銀標を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "sufvorn",
+        "pos": "名",
+        "meaningJa": "回転半径の整調計算、旋回半径測定法、軌道半径計理",
+        "meaningEn": "gyration radius calibration metric, turning radius computation, orbital radius calculation",
+        "morphemes": [
+          "suf",
+          "vorn"
+        ],
+        "etymology": "suf(計算) + vorn(整調)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia sufvorn.",
+        "example_ja": "私は回転半径の整調計算を観測する。"
+      },
+      {
+        "nrs": "tykvorn",
+        "pos": "名",
+        "meaningJa": "六分儀の測角基準、時相観測の定規、測地基準器",
+        "meaningEn": "sextant angular benchmark, phase observation standard, geodetic reference gauge",
+        "morphemes": [
+          "tyk",
+          "vorn"
+        ],
+        "etymology": "tyk(拍/単位) + vorn(整調/規律)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia tykvorn.",
+        "example_ja": "私は六分儀の測角基準を守る。"
+      },
+      {
+        "nrs": "tyktyni",
+        "pos": "名",
+        "meaningJa": "拍動測定の銀標、銀目盛の時辰器、高精度拍針",
+        "meaningEn": "silver temporal pulse index, silver-graduated chronometer gauge, high-precision rhythm needle",
+        "morphemes": [
+          "tyk",
+          "tyni"
+        ],
+        "etymology": "tyk(拍) + tyni(銀の)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia tyktyni to valar.",
+        "example_ja": "私は評議場へ向けて拍動測定の銀標を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-94",
+    "batch": "Batch 71",
+    "domain": "音楽・音響・和声探究",
+    "title": "音楽院における和声の清澄な響きと音色の調律",
+    "communicative_need": "楽長と調律師が和声の清らかな響き、銀鈴の如き澄んだ音色、および手拍子のリズム節を合わせる。",
+    "agent_a": {
+      "name": "Civalon",
+      "role": "音楽院の楽長"
+    },
+    "agent_b": {
+      "name": "Tyrel",
+      "role": "弦楽器の調律匠"
+    },
+    "turns": [
+      {
+        "speaker": "Civalon",
+        "nebulith": "Vyrel el mi ia civalalin ul civaltyni. Relen el mi ia civallyka to govan.",
+        "japanese": "私は和声の清らかな響きと澄んだ銀鈴の音色を観測する。私は家へ向けて手拍子のリズム節を得る。"
+      },
+      {
+        "speaker": "Tyrel",
+        "nebulith": "Vymin el mi ia civaltyni. Vyrel el mi ia civallyka. Vymin el miin ia civalalin ul civallyka.",
+        "japanese": "私は澄んだ銀鈴の音色を守る。私は手拍子のリズム節を確かめる。私たちは和声の清らかな響きと手拍子のリズム節を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "civalalin",
+        "pos": "名",
+        "meaningJa": "和声の清らかな響き、澄明なる合奏調、純正和音の調べ",
+        "meaningEn": "pure harmonic resonance, lucid orchestral cadence, pristine chord consonance",
+        "morphemes": [
+          "cival",
+          "alin"
+        ],
+        "etymology": "cival(音楽/歌) + alin(清澄な)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vyrel el mi ia civalalin.",
+        "example_ja": "私は和声の清らかな響きを観測する。"
+      },
+      {
+        "nrs": "civaltyni",
+        "pos": "名",
+        "meaningJa": "澄んだ銀鈴の音色、銀線の旋律響、澄み切った弦音",
+        "meaningEn": "clear silvery timbre, silver chime melodic resonance, pristine string resonance",
+        "morphemes": [
+          "cival",
+          "tyni"
+        ],
+        "etymology": "cival(音楽) + tyni(銀の)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vymin el mi ia civaltyni.",
+        "example_ja": "私は澄んだ銀鈴の音色を守る。"
+      },
+      {
+        "nrs": "civallyka",
+        "pos": "名",
+        "meaningJa": "手拍子のリズム節、拍節の打音座、律動の結節",
+        "meaningEn": "clapping rhythm cadence, metric pulse cadence node, handclap cadence loop",
+        "morphemes": [
+          "cival",
+          "lyka"
+        ],
+        "etymology": "cival(音楽) + lyka(節/籠)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Relen el mi ia civallyka to govan.",
+        "example_ja": "私は家へ向けて手拍子のリズム節を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-95",
+    "batch": "Batch 71",
+    "domain": "声楽・詩詠・旋回舞踏",
+    "title": "祝祭劇場における詩の生動な調べと旋回舞踏",
+    "communicative_need": "吟遊詩人と舞踊手が詩の生動な調べ、旋回舞踏の足並み、および対位法の語らいを演じる。",
+    "agent_a": {
+      "name": "Bionor",
+      "role": "詩を吟ずる語り部"
+    },
+    "agent_b": {
+      "name": "Hanis",
+      "role": "祝祭劇の舞踏手"
+    },
+    "turns": [
+      {
+        "speaker": "Bionor",
+        "nebulith": "Vyrel el mi ia civalbion ul civalhano. Relen el mi ia civalfeno to valar.",
+        "japanese": "私は詩の生動な調べと旋回舞踏の足並みを観測する。私は評議場へ向けて対位法の語らいを得る。"
+      },
+      {
+        "speaker": "Hanis",
+        "nebulith": "Vymin el mi ia civalhano. Vyrel el mi ia civalfeno. Vymin el miin ia civalbion ul civalfeno.",
+        "japanese": "私は旋回舞踏の足並みを守る。私は対位法の語らいを確かめる。私たちは詩の生動な調べと対位法の語らいを共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "civalbion",
+        "pos": "名",
+        "meaningJa": "詩の生動な調べ、躍動する詠唱、生命讃歌の節",
+        "meaningEn": "living poetic meter, pulsating chanted verse, vital poetic cadence",
+        "morphemes": [
+          "cival",
+          "bion"
+        ],
+        "etymology": "cival(音楽) + bion(生/萌芽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vyrel el mi ia civalbion.",
+        "example_ja": "私は詩の生動な調べを観測する。"
+      },
+      {
+        "nrs": "civalhano",
+        "pos": "名",
+        "meaningJa": "旋回舞踏の足並み、円舞のステップ、舞踊の行進道",
+        "meaningEn": "whirling dance steps, circular dance cadence, choreographic procession step",
+        "morphemes": [
+          "cival",
+          "hano"
+        ],
+        "etymology": "cival(音楽) + hano(歩む)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vymin el mi ia civalhano.",
+        "example_ja": "私は旋回舞踏の足並みを守る。"
+      },
+      {
+        "nrs": "civalfeno",
+        "pos": "名",
+        "meaningJa": "対位法の語らい、重唱の対話、多声律の対話歌",
+        "meaningEn": "counterpoint dialogue, polyphonic singing conversation, contrapuntal vocal interplay",
+        "morphemes": [
+          "cival",
+          "feno"
+        ],
+        "etymology": "cival(音楽) + feno(告げる/話す)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Relen el mi ia civalfeno to valar.",
+        "example_ja": "私は評議場へ向けて対位法の語らいを得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-96",
+    "batch": "Batch 71",
+    "domain": "楽器製作と合唱調声",
+    "title": "楽器工房における竪琴共鳴胴の整調と合唱練習",
+    "communicative_need": "楽器匠と合唱指揮者が竪琴共鳴胴の整調、合唱ハミングの調声、および倍音共鳴の生動を合わせる。",
+    "agent_a": {
+      "name": "Vornel",
+      "role": "弦楽器の共鳴胴工匠"
+    },
+    "agent_b": {
+      "name": "Tykon",
+      "role": "聖歌隊の調声指揮者"
+    },
+    "turns": [
+      {
+        "speaker": "Vornel",
+        "nebulith": "Vyrel el mi ia civalvorn ul tykucival. Relen el mi ia bioncival to govan.",
+        "japanese": "私は竪琴共鳴胴の整調と合唱ハミングの調声を観測する。私は家へ向けて倍音共鳴の生動を得る。"
+      },
+      {
+        "speaker": "Tykon",
+        "nebulith": "Vymin el mi ia tykucival. Vyrel el mi ia bioncival. Vymin el miin ia civalvorn ul bioncival.",
+        "japanese": "私は合唱ハミングの調音を守る。私は倍音共鳴の生動を確かめる。私たちは竪琴共鳴胴の整調と倍音共鳴の生動を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "civalvorn",
+        "pos": "名",
+        "meaningJa": "竪琴共鳴胴の整調、楽器胴体の音響調整、共鳴箱の整調",
+        "meaningEn": "harp soundbox acoustic calibration, instrument body resonance tuning, acoustic chamber alignment",
+        "morphemes": [
+          "cival",
+          "vorn"
+        ],
+        "etymology": "cival(音楽) + vorn(整調)",
+        "category": "10. 経済・交易・工芸・労働",
+        "example_sentence": "Vyrel el mi ia civalvorn.",
+        "example_ja": "私は竪琴共鳴胴の整調を観測する。"
+      },
+      {
+        "nrs": "tykucival",
+        "pos": "名",
+        "meaningJa": "合唱ハミングの調声、適切な歌声の調音、合唱発声節",
+        "meaningEn": "choral humming vocalization, measured choral vocal tuning, harmonious choral hum cadence",
+        "morphemes": [
+          "tyku",
+          "cival"
+        ],
+        "etymology": "tyku(適切に) + cival(音楽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vymin el mi ia tykucival.",
+        "example_ja": "私は合唱ハミングの調音を守る。"
+      },
+      {
+        "nrs": "bioncival",
+        "pos": "名",
+        "meaningJa": "倍音共鳴の生動、豊かな倍音の響き、共鳴音の生気",
+        "meaningEn": "harmonic overtone vibrancy, living harmonic overtone resonance, vibrant sympathetic overtone",
+        "morphemes": [
+          "bion",
+          "cival"
+        ],
+        "etymology": "bion(生/躍動) + cival(音楽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Relen el mi ia bioncival to govan.",
+        "example_ja": "私は家へ向けて倍音共鳴の生動を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-97",
+    "batch": "Batch 72",
+    "domain": "演劇・狂言・詩曲響律",
+    "title": "回廊劇場における幕間狂言の詠唱と清澄な和声響",
+    "communicative_need": "劇作家と楽士が幕間狂言の詠唱、和声の清らかな響き、および銀鈴の響音を演じる。",
+    "agent_a": {
+      "name": "Fenis",
+      "role": "回廊劇場の座付劇作家"
+    },
+    "agent_b": {
+      "name": "Alinor",
+      "role": "伴奏合奏の首席奏者"
+    },
+    "turns": [
+      {
+        "speaker": "Fenis",
+        "nebulith": "Vyrel el mi ia fenocival ul alincival. Relen el mi ia tynicival to valar.",
+        "japanese": "私は幕間狂言の詠唱と和声の澄んだ合奏音を観測する。私は評議場へ向けて銀鈴の響音を得る。"
+      },
+      {
+        "speaker": "Alinor",
+        "nebulith": "Vymin el mi ia alincival. Vyrel el mi ia tynicival. Vymin el miin ia fenocival ul tynicival.",
+        "japanese": "私は和声の澄んだ合奏音を守る。私は銀鈴の響音を確かめる。私たちは幕間狂言の詠唱と銀鈴の響音を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "fenocival",
+        "pos": "名",
+        "meaningJa": "幕間狂言の詠唱、演劇語りの歌、道化の吟誦",
+        "meaningEn": "interlude theatrical declamation, comic stage chanting, dramatic chanted interlude",
+        "morphemes": [
+          "feno",
+          "cival"
+        ],
+        "etymology": "feno(告げる) + cival(音楽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vyrel el mi ia fenocival.",
+        "example_ja": "私は幕間狂言の詠唱を観測する。"
+      },
+      {
+        "nrs": "alincival",
+        "pos": "名",
+        "meaningJa": "和声の澄んだ合奏音、清らかな音楽響、澄明なる歌調",
+        "meaningEn": "pure musical ensemble timbre, lucid acoustic harmony resonance, serene musical chord tone",
+        "morphemes": [
+          "alin",
+          "cival"
+        ],
+        "etymology": "alin(清澄な) + cival(音楽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vymin el mi ia alincival.",
+        "example_ja": "私は和声の澄んだ合奏音を守る。"
+      },
+      {
+        "nrs": "tynicival",
+        "pos": "名",
+        "meaningJa": "銀鈴の響音、銀笛の澄明な調べ、銀律の奏楽",
+        "meaningEn": "silvery bell chime resonance, silver flute clear melody, luminous silver music",
+        "morphemes": [
+          "tyni",
+          "cival"
+        ],
+        "etymology": "tyni(銀の) + cival(音楽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Relen el mi ia tynicival to valar.",
+        "example_ja": "私は評議場へ向けて銀鈴の響音を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-98",
+    "batch": "Batch 72",
+    "domain": "舞踏演芸と節動輪舞",
+    "title": "円形広場における手拍子舞座と円舞の調和",
+    "communicative_need": "舞踏長と楽士が手拍子の律動座、詩の清純な調べ、および旋回円舞を広場で合わせる。",
+    "agent_a": {
+      "name": "Lykas",
+      "role": "民衆舞踊の先導役"
+    },
+    "agent_b": {
+      "name": "Fenin",
+      "role": "広場の旋律奏者"
+    },
+    "turns": [
+      {
+        "speaker": "Lykas",
+        "nebulith": "Vyrel el mi ia lykatyku ul fenoalin. Relen el mi ia hanocival to govan.",
+        "japanese": "私は手拍子の律動座と詩節の清純な調べを観測する。私は家へ向けて旋回円舞の旋律を得る。"
+      },
+      {
+        "speaker": "Fenin",
+        "nebulith": "Vymin el mi ia fenoalin. Vyrel el mi ia hanocival. Vymin el miin ia lykatyku ul hanocival.",
+        "japanese": "私は詩節の清純な調べを守る。私は旋回円舞の旋律を確かめる。私たちは手拍子の律動座と旋回円舞の旋律を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "lykatyku",
+        "pos": "名",
+        "meaningJa": "手拍子の律動座、拍節の円環、リズム同調座",
+        "meaningEn": "clapping rhythm circle bench, rhythmic pulse circular station, metric pulse unison loop",
+        "morphemes": [
+          "lyka",
+          "tyku"
+        ],
+        "etymology": "lyka(節/籠) + tyku(適切に/時宜に)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vyrel el mi ia lykatyku.",
+        "example_ja": "私は手拍子の律動座を観測する。"
+      },
+      {
+        "nrs": "fenoalin",
+        "pos": "名",
+        "meaningJa": "詩節の清純な調べ、澄んだ詩句の語調、純粋な詠唱",
+        "meaningEn": "pure poetic verse tone, clear poetic recitation cadence, chaste poetic address",
+        "morphemes": [
+          "feno",
+          "alin"
+        ],
+        "etymology": "feno(告げる) + alin(清澄な)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vymin el mi ia fenoalin.",
+        "example_ja": "私は詩節の清純な調べを守る。"
+      },
+      {
+        "nrs": "hanocival",
+        "pos": "名",
+        "meaningJa": "旋回円舞の旋律、舞踏行進曲、ステップの奏楽",
+        "meaningEn": "whirling ring-dance melody, choreographic processional music, stepping rhythm song",
+        "morphemes": [
+          "hano",
+          "cival"
+        ],
+        "etymology": "hano(歩む) + cival(音楽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Relen el mi ia hanocival to govan.",
+        "example_ja": "私は家へ向けて旋回円舞の旋律を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-99",
+    "batch": "Batch 72",
+    "domain": "合唱調声と静謐狂言",
+    "title": "大聖堂における合唱調声と静謐なる狂言の休止",
+    "communicative_need": "聖歌長と狂言師が合唱の視線調声、倍音の時相周期、および幕間劇の静止の間を合わせる。",
+    "agent_a": {
+      "name": "Senor",
+      "role": "聖堂聖歌隊の視線誘導士"
+    },
+    "agent_b": {
+      "name": "Kloras",
+      "role": "劇団の所作指導役"
+    },
+    "turns": [
+      {
+        "speaker": "Senor",
+        "nebulith": "Vyrel el mi ia civalseno ul civaltyku. Relen el mi ia klorcival to valar.",
+        "japanese": "私は合唱の視線調声と倍音の時相周期を観測する。私は評議場へ向けて幕間劇の静止の間を得る。"
+      },
+      {
+        "speaker": "Kloras",
+        "nebulith": "Vymin el mi ia civaltyku. Vyrel el mi ia klorcival. Vymin el miin ia civalseno ul klorcival.",
+        "japanese": "私は倍音の時相周期を守る。私は幕間劇の静止の間を確かめる。私たちは合唱の視線調声と幕間劇の静止の間を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "civalseno",
+        "pos": "名",
+        "meaningJa": "合唱の視線調声、注視による合唱誘導、指揮の視線同調",
+        "meaningEn": "choral gaze modulation, gaze-guided choral coordination, conducting sightline sync",
+        "morphemes": [
+          "cival",
+          "seno"
+        ],
+        "etymology": "cival(音楽) + seno(見る/注視)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vyrel el mi ia civalseno.",
+        "example_ja": "私は合唱の視線調声を観測する。"
+      },
+      {
+        "nrs": "civaltyku",
+        "pos": "名",
+        "meaningJa": "倍音の時相周期、音楽の拍節周期、律動周期",
+        "meaningEn": "overtone phase rhythm period, musical cadence meter, periodic rhythm interval",
+        "morphemes": [
+          "cival",
+          "tyku"
+        ],
+        "etymology": "cival(音楽) + tyku(拍/適切に)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Vymin el mi ia civaltyku.",
+        "example_ja": "私は倍音の時相周期を守る。"
+      },
+      {
+        "nrs": "klorcival",
+        "pos": "名",
+        "meaningJa": "幕間劇の静止の間、音楽の静謐な休止、劇的静止間",
+        "meaningEn": "dramatic interlude silence pause, tranquil musical rest, theatrical quietude pause",
+        "morphemes": [
+          "klor",
+          "cival"
+        ],
+        "etymology": "klor(静止/安寧) + cival(音楽)",
+        "category": "14. 精神・哲学・感情・芸術",
+        "example_sentence": "Relen el mi ia klorcival to valar.",
+        "example_ja": "私は評議場へ向けて幕間劇の静止の間を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-100",
+    "batch": "Batch 72",
+    "domain": "光学・色彩・光彩明暗",
+    "title": "光彩観測所における薄明光線と玉虫色の輝き",
+    "communicative_need": "薄明観測手と色彩学徒が薄明光線の清澄な投光、玉虫色の銀光彩、および清らかな拍動測定を記録する。",
+    "agent_a": {
+      "name": "Falor",
+      "role": "大気光学の薄明観測手"
+    },
+    "agent_b": {
+      "name": "Tyniel",
+      "role": "星彩鉱物の色彩記録士"
+    },
+    "turns": [
+      {
+        "speaker": "Falor",
+        "nebulith": "Vyrel el mi ia falunalin ul faluntyni. Relen el mi ia tykalin to govan.",
+        "japanese": "私は薄明光線の清澄な投光と玉虫色の銀光彩を観測する。私は家へ向けて清らかな拍動測定を得る。"
+      },
+      {
+        "speaker": "Tyniel",
+        "nebulith": "Vymin el mi ia faluntyni. Vyrel el mi ia tykalin. Vymin el miin ia falunalin ul tykalin.",
+        "japanese": "私は玉虫色の銀光彩を守る。私は清らかな拍動測定を確かめる。私たちは薄明光線の清澄な投光と清らかな拍動測定を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "falunalin",
+        "pos": "名",
+        "meaningJa": "薄明光線の清澄な投光、明澄な放射光芒、大気薄明の輝き",
+        "meaningEn": "lucid crepuscular ray emission, pristine radiance beam, atmospheric crepuscular glow",
+        "morphemes": [
+          "falun",
+          "alin"
+        ],
+        "etymology": "falun(光る/照らす) + alin(清澄な)",
+        "category": "2. 自然・気象・地形・鉱物",
+        "example_sentence": "Vyrel el mi ia falunalin.",
+        "example_ja": "私は薄明光線の清澄な投光を観測する。"
+      },
+      {
+        "nrs": "faluntyni",
+        "pos": "名",
+        "meaningJa": "玉虫色の銀光彩、虹彩の銀色光輝、真珠母の輝き",
+        "meaningEn": "iridescent silvery luster, pearlescent silver radiance, nacreous chromatic glow",
+        "morphemes": [
+          "falun",
+          "tyni"
+        ],
+        "etymology": "falun(光る) + tyni(銀の)",
+        "category": "2. 自然・気象・地形・鉱物",
+        "example_sentence": "Vymin el mi ia faluntyni.",
+        "example_ja": "私は玉虫色の銀光彩を守る。"
+      },
+      {
+        "nrs": "tykalin",
+        "pos": "名",
+        "meaningJa": "清らかな拍動測定、澄んだ周期計時、精確な時相標",
+        "meaningEn": "pristine rhythmic pulse timing, lucid chronometric measurement, exact phase indicator",
+        "morphemes": [
+          "tyk",
+          "alin"
+        ],
+        "etymology": "tyk(拍/単位) + alin(清澄な)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia tykalin to govan.",
+        "example_ja": "私は家へ向けて清らかな拍動測定を得る。"
+      }
+    ]
+  }
+]
