@@ -1,4 +1,4 @@
-import json
+﻿import json
 import os
 import hashlib
 import re
@@ -907,6 +907,141 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
       white-space: pre-wrap;
     }}
 
+    /* Dialogues & Compounds Section */
+    .dialogue-search-panel {{
+      background: var(--md-sys-color-surface-container);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      margin-bottom: 24px;
+      border: 1px solid var(--md-sys-color-outline-variant);
+    }}
+    .view-mode-group {{
+      display: flex;
+      gap: 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }}
+    .view-mode-btn {{
+      background: var(--md-sys-color-surface-container-high);
+      border: 1px solid var(--md-sys-color-outline-variant);
+      color: var(--md-sys-color-on-surface-variant);
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      font-size: 0.88rem;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background var(--transition-fast);
+    }}
+    .view-mode-btn.active {{
+      background: var(--md-sys-color-primary-container);
+      color: var(--md-sys-color-on-primary-container);
+      border-color: var(--md-sys-color-primary);
+      font-weight: 600;
+    }}
+    .dialogue-list {{ display: flex; flex-direction: column; gap: 18px; }}
+    .dialogue-card {{
+      background: var(--md-sys-color-surface-container);
+      border: 1px solid var(--md-sys-color-outline-variant);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: border-color var(--transition-fast);
+    }}
+    .dialogue-card:hover {{ border-color: var(--md-sys-color-primary); }}
+    .dialogue-header {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+      gap: 8px;
+      border-bottom: 1px solid var(--md-sys-color-outline-variant);
+      padding-bottom: 10px;
+    }}
+    .dialogue-id {{
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--md-sys-color-primary);
+      font-family: monospace;
+    }}
+    .dialogue-title {{
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--md-sys-color-on-surface);
+    }}
+    .dialogue-speakers {{
+      font-size: 0.8rem;
+      color: var(--md-sys-color-on-surface-variant);
+    }}
+    .dialogue-turn {{
+      background: var(--md-sys-color-surface-container-lowest);
+      border-left: 3px solid var(--md-sys-color-primary);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      margin: 8px 0;
+    }}
+    .turn-speaker {{
+      font-weight: 700;
+      font-size: 0.82rem;
+      color: var(--md-sys-color-primary);
+      margin-bottom: 4px;
+    }}
+    .turn-glyph {{
+      font-family: var(--font-family-nebulith);
+      font-size: 1.35rem;
+      color: var(--md-sys-color-on-surface);
+      line-height: 1.3;
+    }}
+    .turn-nrs {{
+      font-family: Georgia, serif;
+      font-size: 0.92rem;
+      color: var(--md-sys-color-on-surface);
+      margin-top: 2px;
+    }}
+    .turn-ja {{
+      font-size: 0.88rem;
+      color: var(--md-sys-color-on-surface-variant);
+      margin-top: 2px;
+    }}
+    .dialogue-compounds {{
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+      padding-top: 8px;
+    }}
+    .dialogue-actions {{
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+      justify-content: flex-end;
+    }}
+    .compound-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 14px;
+    }}
+    .compound-card {{
+      background: var(--md-sys-color-surface-container);
+      border: 1px solid var(--md-sys-color-outline-variant);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform var(--transition-fast), border-color var(--transition-fast);
+      cursor: pointer;
+    }}
+    .compound-card:hover {{
+      transform: translateY(-2px);
+      border-color: var(--md-sys-color-primary);
+    }}
+    .compound-roots {{
+      font-family: monospace;
+      font-size: 0.78rem;
+      color: var(--md-sys-color-outline);
+      margin: 4px 0 8px 0;
+    }}
+
     /* Corpus Cards */
     .corpus-list {{ display: flex; flex-direction: column; gap: 16px; }}
     .corpus-card {{
@@ -1172,6 +1307,22 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
       </div>
 
       <div class="word-grid" id="wordGrid"></div>
+    </div>
+
+    <!-- TAB: Dialogues & Canonical Compounds -->
+    <div class="tab-content" id="tab-dialogues">
+      <div class="dialogue-search-panel">
+        <div class="view-mode-group">
+          <button type="button" class="view-mode-btn active" id="viewModeScenarios">対話シナリオ一覧 (286篇)</button>
+          <button type="button" class="view-mode-btn" id="viewModeCompounds">正本複合語一覧 (857語)</button>
+        </div>
+        <div class="search-input-wrap">
+          <input type="search" class="search-input" id="dialogueSearchInput" placeholder="対話文、複合語、日本語義、話者名、シナリオID、構成語根で検索...">
+        </div>
+        <div class="filter-chips" id="dialogueCategoryChips"></div>
+      </div>
+      <div id="dialoguesCount" style="margin-bottom: 12px; font-size: 0.88rem; color: var(--md-sys-color-on-surface-variant);" aria-live="polite"></div>
+      <div id="dialoguesList"></div>
     </div>
 
     <!-- TAB 2: Translator -->
