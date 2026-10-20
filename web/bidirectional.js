@@ -161,6 +161,16 @@
       }
     }
 
+    // Check sentence-level question marker: trailing 'ro', 'ro?', or '?'
+    let isQuestion = clauseStr.trim().endsWith('?');
+    const rawTokens = tokens.slice(idx);
+    if (rawTokens.length > 0) {
+      const lastTok = rawTokens[rawTokens.length - 1].toLowerCase().replace(/[.,!?;:]/g, '');
+      if (lastTok === 'ro') {
+        isQuestion = true;
+      }
+    }
+
     // Parse Case Phrases: el S, ia O, uo Loc, de Inst, va Comp, en Gen
     const phrases = [];
     let currentMarker = null;
@@ -169,7 +179,21 @@
     while (idx < tokens.length) {
       const tok = tokens[idx];
       const low = tok.toLowerCase().replace(/[.,!?;:]/g, '');
-      if (CASE_MARKERS[low]) {
+      if (low === 'ro') {
+        // standalone question particle; stop parsing case phrase
+        isQuestion = true;
+        idx++;
+        continue;
+      }
+      // If currentMarker is 'en' and it introduced a clause (starts with a verb),
+      // keep accumulating all internal tokens until sentence ends.
+      const isInsideRelativeClause = currentMarker === 'en' && currentTokens.length > 0 && (() => {
+        const firstW = currentTokens[0].toLowerCase().replace(/[.,!?;:]/g, '');
+        const info = lookupWord(firstW);
+        return info && (info.p === '動' || info.pos === '動' || info.pos === '動詞');
+      })();
+
+      if (CASE_MARKERS[low] && !isInsideRelativeClause) {
         if (currentMarker) {
           phrases.push({ marker: currentMarker, words: [...currentTokens] });
         }
@@ -191,6 +215,7 @@
 
     return {
       isNeg,
+      isQuestion,
       tensePrefix,
       aspectSuffix,
       verbToken,
@@ -284,7 +309,8 @@
 
       const res = translateSingleClause(clean, targetLang, false);
       if (res.success) {
-        translatedSentences.push(res.text + punct);
+        const trailingPunct = /[?？!！.。]$/.test(res.text) ? '' : punct;
+        translatedSentences.push(res.text + trailingPunct);
         allAlignments.push(...res.alignments);
       } else {
         return { text: null, error: `未対応構文: ${sent}`, success: false };
@@ -409,6 +435,26 @@
         instJa = `${pJa}によって`;
         instEn = `with ${pEn}`;
       } else if (ph.marker === 'en') {
+        // Check if en introduces a relative clause (e.g. en [Verb] el [Subject]...)
+        const firstWord = ph.words[0] ? ph.words[0].toLowerCase().replace(/[.,!?;:]/g, '') : '';
+        const firstInfo = lookupWord(firstWord);
+        const isRelativeClause = ph.words.length >= 2 && firstInfo && (firstInfo.p === '動' || firstInfo.pos === '動' || firstInfo.pos === '動詞' || /el|ia|uo|to/.test(ph.words[1]));
+        if (isRelativeClause) {
+          const relRes = translateSingleClause(ph.words.join(' '), targetLang, false);
+          if (relRes.success) {
+            if (objJa) {
+              objJa = `${relRes.text} ` + objJa;
+              objEn = `${objEn} that ${relRes.text}`;
+            } else if (subjJa) {
+              subjJa = `${relRes.text} ` + subjJa;
+              subjEn = `${subjEn} that ${relRes.text}`;
+            } else if (locJa) {
+              locJa = `${relRes.text} ` + locJa;
+              locEn = `${locEn} where ${relRes.text}`;
+            }
+            continue;
+          }
+        }
         if (objJa) {
           objJa = `${pJa}の` + objJa;
           objEn = `${objEn} of ${pEn}`;
@@ -433,12 +479,29 @@
     let clauseOut = '';
     if (isJa) {
       // Natural Japanese SOV order: S + Comp + Loc + To + Al + Ku + Inst + O + V
-      const parts = [subjJa, compJa, locJa, toJa, alJa, kuJa, instJa, objJa, vJa].filter(Boolean);
+      let finalVJa = vJa;
+      if (parsed.isQuestion) {
+        finalVJa = finalVJa.endsWith('か') ? `${finalVJa}？` : `${finalVJa}か？`;
+      }
+      const parts = [subjJa, compJa, locJa, toJa, alJa, kuJa, instJa, objJa, finalVJa].filter(Boolean);
       clauseOut = parts.join(' ');
     } else {
       // Natural English SVO order: S + V + O + To + Al + Loc + Ku + Inst + Comp
-      const parts = [subjEn, vEn, objEn, toEn, alEn, locEn, kuEn, instEn, compEn].filter(Boolean);
-      clauseOut = parts.join(' ');
+      if (parsed.isQuestion) {
+        const isPast = parsed.tensePrefix === 'fe' || (parsed.verbInfo && parsed.verbInfo.tense === 'past');
+        const canModal = parsed.aspectSuffix && parsed.aspectSuffix.suffix === 'ar';
+        const wantModal = parsed.aspectSuffix && parsed.aspectSuffix.suffix === 'ast';
+        const aux = canModal ? 'Can' : (isPast ? 'Did' : 'Do');
+        const s = subjEn || 'you';
+        let mainV = vEn;
+        if (canModal) mainV = mainV.replace(/^can\s+/, '');
+        if (wantModal) mainV = `want to ${mainV}`;
+        const parts = [aux, s, mainV, objEn, toEn, alEn, locEn, kuEn, instEn, compEn].filter(Boolean);
+        clauseOut = parts.join(' ') + '?';
+      } else {
+        const parts = [subjEn, vEn, objEn, toEn, alEn, locEn, kuEn, instEn, compEn].filter(Boolean);
+        clauseOut = parts.join(' ');
+      }
     }
 
     return {
@@ -452,6 +515,44 @@
   function translateEnglishToNebulith(englishText) {
     if (!englishText || !englishText.trim()) {
       return { text: '', alignments: [], success: false };
+    }
+
+    // 0. Interrogative SVO: Do/Does/Did/Can/Could [Subject] [Verb] ... ?
+    const qMatch = englishText.trim().match(/^(do|does|did|can|could)\s+([a-z]+)\s+([a-z]+(?:\s+to\s+[a-z]+)?)(?:\s+(.+?))?\??$/i);
+    if (qMatch) {
+      const [, aux, subj, verbPart, objPart] = qMatch;
+      const auxLow = aux.toLowerCase();
+      const isPast = auxLow === 'did' || auxLow === 'could';
+      const isCan = auxLow === 'can' || auxLow === 'could';
+
+      // Reconstruct declarative clause
+      let declEnglish = `${subj} `;
+      if (isCan) {
+        declEnglish += `can ${verbPart}`;
+      } else if (isPast) {
+        declEnglish += `did ${verbPart}`;
+      } else {
+        declEnglish += `${verbPart}`;
+      }
+      if (objPart) {
+        declEnglish += ` ${objPart}`;
+      }
+
+      const declRes = translateSingleEnglishClause(declEnglish);
+      if (declRes.success) {
+        const cleanNeb = declRes.text.replace(/\.$/, '');
+        const qNeb = `${cleanNeb} ro?`;
+        return {
+          text: qNeb,
+          neb: qNeb,
+          tag: 'English Interrogative -> Nebulith VSO (ro?)',
+          alignment: [
+            ...declRes.alignments,
+            { src: englishText.trim(), dst: 'ro?', role: 'Interrogative Particle (ro)' }
+          ],
+          success: true
+        };
+      }
     }
 
     const norm = englishText.trim().toLowerCase();
