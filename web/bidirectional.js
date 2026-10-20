@@ -485,10 +485,19 @@
       walk: 'poran', walks: 'poran', walked: 'fe poran',
       shine: 'falun', shines: 'falun', shone: 'fe falun',
       see: 'vyrel', sees: 'vyrel', saw: 'fe vyrel',
+      observe: 'vyrel', observes: 'vyrel', observed: 'fe vyrel',
+      drink: 'bion', drinks: 'bion', drank: 'fe bion',
+      eat: 'neran', eats: 'neran', ate: 'fe neran',
+      write: 'soran', writes: 'soran', wrote: 'fe soran',
+      record: 'soran', records: 'soran', recorded: 'fe soran',
+      protect: 'vymin', protects: 'vymin', protected: 'fe vymin',
       rest: 'seron', rests: 'seron', rested: 'fe seron',
       know: 'belan', knows: 'belan', knew: 'fe belan'
     };
-    const adjectives = { beautiful: 'cylani', bright: 'falani', dark: 'valani', warm: 'surani' };
+    const adjectives = {
+      beautiful: 'cylani', bright: 'falani', dark: 'valani', warm: 'surani',
+      white: 'alin', pure: 'alin', silver: 'tyni', red: 'pyrin', astral: 'vyri'
+    };
     const nounPattern = '(?:(?:the|a|an)\\s+)?([a-z]+)';
     const fail = () => ({ success: false });
     const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -514,12 +523,15 @@
       };
     }
 
-    const match = norm.match(new RegExp('^' + nounPattern + "\\s+(?:(do not|does not|did not|don't|doesn't|didn't)\\s+)?([a-z]+)(?:\\s+(.+))?$"));
+    const match = norm.match(new RegExp('^' + nounPattern + "\\s+(?:(do not|does not|did not|don't|doesn't|didn't)\\s+)?(?:(want to|wanted to|can|could|finish|finished|keep|kept)\\s+)?([a-z]+)(?:\\s+(.+))?$"));
     if (!match) return fail();
-    const [, subject, auxiliary, verb, objectText] = match;
+    const [, subject, auxiliary, aspectModal, rawVerb, objectText] = match;
+    const verb = rawVerb.endsWith('ing') && (aspectModal === 'finish' || aspectModal === 'finished' || aspectModal === 'keep' || aspectModal === 'kept')
+      ? (Object.hasOwn(verbs, rawVerb.slice(0, -3)) ? rawVerb.slice(0, -3) : (Object.hasOwn(verbs, rawVerb.slice(0, -3) + 'e') ? rawVerb.slice(0, -3) + 'e' : rawVerb))
+      : rawVerb;
     if (!Object.hasOwn(nouns, subject) || !Object.hasOwn(verbs, verb)) return fail();
     // Only known transitive predicates may take an object; required objects stay required.
-    const transitive = ['cynel', 'vyrel', 'belan'].includes(verbs[verb].replace(/^fe /, ''));
+    const transitive = ['cynel', 'vyrel', 'belan', 'bion', 'neran', 'soran', 'vymin'].includes(verbs[verb].replace(/^fe /, ''));
     if (transitive !== !!objectText) return fail();
     let object = null;
     let adjective = null;
@@ -532,8 +544,11 @@
       adjective = modifier ? adjectives[modifier] : null;
     }
     if (auxiliary && verbs[verb].startsWith('fe ')) return fail();
-    const past = verbs[verb].startsWith('fe ') || auxiliary && auxiliary.startsWith('did');
-    const predicate = (past ? 'fe ' : '') + (auxiliary ? 'ne ' : '') + verbs[verb].replace(/^fe /, '');
+    const modalPast = aspectModal === 'wanted to' || aspectModal === 'could' || aspectModal === 'finished' || aspectModal === 'kept';
+    const aspectSuf = !aspectModal ? '' : (aspectModal.startsWith('want') ? 'ast' : (aspectModal === 'can' || aspectModal === 'could' ? 'ar' : (aspectModal.startsWith('finish') ? 'far' : 'liv')));
+    const past = verbs[verb].startsWith('fe ') || (auxiliary && auxiliary.startsWith('did')) || modalPast;
+    const baseVerb = verbs[verb].replace(/^fe /, '') + aspectSuf;
+    const predicate = (past ? 'fe ' : '') + (auxiliary ? 'ne ' : '') + baseVerb;
     const objectPhrase = object ? ' ia ' + object + (adjective ? ' ' + adjective : '') : '';
     return {
       text: cap(predicate) + ' el ' + nouns[subject] + objectPhrase,

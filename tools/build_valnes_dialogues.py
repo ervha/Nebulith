@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Phase 7, Phase 11, Phase 15, & Phase 19:
+Phase 7, Phase 11, Phase 15, Phase 19, & Phase 23:
 Valnes Dialogues Companion Edition Builder (HTML / PDF / Markdown)
 ==================================================================
-Compiles the 120 two-speaker everyday and craft dialogue scenarios and 360
+Compiles the 160 two-speaker everyday and craft dialogue scenarios and 480
 zero-flag canonical compound words from data/verified_canonical_compounds.json,
 plus a Domain/Category Index and a Constituent Root Cross-Reference Index,
 into a source-backed companion volume of 『ヴァルネス遺聞』:
@@ -92,11 +92,11 @@ def build_valnes_dialogues() -> dict:
         f'<p class="subtitle">灰環の暮らしと語らいの記録（正本複合語{entry_count}選・{scen_count}対話・分野別＆語根別索引収録）</p>',
         '<p class="glyph">darfalun darterin havsirin talsilan</p>',
         '<p>写字生ユラ・灯守セヴ・採集師ネリ・舟守トアによる日常対話記録</p>',
-        '<p class="muted">正本単独語根100%準拠・監査フラグ0件検証済み派生典籍 / 2026年 第3巻決定版</p>',
+        '<p class="muted">正本単独語根100%準拠・監査フラグ0件検証済み派生典籍 / 2026年 第4巻決定版</p>',
         '</section>',
         '<section class="section">',
         '<h2>凡例と編纂方針</h2>',
-        f'<p>本巻『ヴァルネス遺聞・対話篇』は、正本辞書（<code>data/lexicon.json</code>）の自立語根のみを2語連接して構成された検証済み複合語{entry_count}語と、それらを実証する2話者対話シナリオ{scen_count}篇、および分野別索引・構成語根別クロスリファレンス索引を収録した派生典籍である。</p>',
+        f'<p>本巻『ヴァルネス遺聞・対話篇』は、正本辞書（<code>data/lexicon.json</code>）の自立語根のみを2語連結して構成された検証済み複合語{entry_count}語と、それらを実証する2話者対話シナリオ{scen_count}篇、および分野別索引・構成語根別クロスリファレンス索引を収録した派生典籍である。</p>',
         f'<p>収録された全{entry_count}語は、音素配列・無標コーダ・既存語重複ゼロ・構成語根の単独辞書実在性・英語グロスの純粋性・2話者による対話内再利用のすべてにおいて監査フラグ0件（<code>ZERO_FLAGS_VERIFIED</code>）を満たしている。</p>',
         '</section>',
         f'<section class="section"><h2>目次（全{scen_count}対話シナリオ＋双方向索引）</h2>'

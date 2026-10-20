@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Phase 6, Phase 8, Phase 10, Phase 12, Phase 14, Phase 16, Phase 18, & Phase 20:
+Phase 6, Phase 8, Phase 10, Phase 12, Phase 14, Phase 16, Phase 18, Phase 20, & Phase 24:
 Canonical Compound Promotion Gateway & Remediation Reporter
 ===========================================================
 Provides:
@@ -10,7 +10,7 @@ Provides:
    2-speaker dialogue attestation, and explicit human council sign-off before
    any candidate can be promoted to production `data/translation_extensions.json`.
 2. Web Studio preview bundle integration (`ensure_web_studio_integration`) so
-   the 360 verified canonical compounds and 120 dialogue scenarios are bundled in
+   the verified canonical compounds and dialogue scenarios are bundled in
    `web/data.js`, `web/index.html`, and `web/standalone.html` without mutating
    production `VOCAB` invariants.
 3. Remediation summary report generator (`generate_remediation_summary_report`)
@@ -98,9 +98,8 @@ def generate_remediation_summary_report(
 ) -> dict:
     """
     Generate `audit/maintenance/canonical-remediation-summary.md` documenting how
-    the 360 verified canonical compounds (Batches 1-30, 120 scenarios) remediate
-    the legacy pending candidates in `data/emergent_lexicon_audit.json` without
-    altering historical snapshots.
+    the verified canonical compounds remediate the legacy pending candidates
+    in `data/emergent_lexicon_audit.json` without altering historical snapshots.
     """
     dataset = json.loads(compounds_path.read_text(encoding="utf-8"))
     entries = dataset.get("entries", [])
@@ -111,18 +110,29 @@ def generate_remediation_summary_report(
     legacy_conv = len([c for c in legacy_ledger.get("candidates", []) if str(c.get("scenario_id", "")).startswith("CONV-")])
 
     batch_counts = {}
+    batch_nums = []
     for e in entries:
         b = e.get("batch", "Batch 1")
         batch_counts[b] = batch_counts.get(b, 0) + 1
+        if b.startswith("Batch "):
+            try:
+                batch_nums.append(int(b.split()[1]))
+            except ValueError:
+                pass
+    max_batch = max(batch_nums) if batch_nums else 40
+    phase_str = f"Phase 1〜{max_batch // 10 * 6}" if max_batch % 10 == 0 else f"Phase 1〜{max_batch}"
+
+    first_scen = scenarios[0]["scenario_id"] if scenarios else "CANON-CONV-01"
+    last_scen = scenarios[-1]["scenario_id"] if scenarios else f"CANON-CONV-{len(scenarios):02d}"
 
     lines = [
-        f"# 正本複合語{len(entries)}語・{len(scenarios)}対話シナリオによる保留候補救済監査レポート (Phase 1〜20 完了記録)",
+        f"# 正本複合語{len(entries)}語・{len(scenarios)}対話シナリオによる保留候補救済監査レポート ({phase_str} 完了記録)",
         "",
         "- **対象データセット**: `data/verified_canonical_compounds.json`",
         "- **機械監査レポート**: `audit/maintenance/canonical-compounds-batch1-20261019.json`",
         "- **派生典籍出力**: `docs/Valnes_dialogues.html` / `docs/Valnes_dialogues.pdf` / `docs/VALNES_DIALOGUES_COMPANION.md`",
-        f"- **検証済み正本複合語数**: **{len(entries)} 語**（全30バッチ：`Batch 1` 〜 `Batch 30`）",
-        f"- **実証済み2話者対話シナリオ数**: **{len(scenarios)} 篇**（`CANON-CONV-01` 〜 `CANON-CONV-120`）",
+        f"- **検証済み正本複合語数**: **{len(entries)} 語**（全{max_batch}バッチ：`Batch 1` 〜 `Batch {max_batch}`）",
+        f"- **実証済み2話者対話シナリオ数**: **{len(scenarios)} 篇**（`{first_scen}` 〜 `{last_scen}`）",
         "- **監査判定**: **`ZERO_FLAGS_VERIFIED`（監査フラグ 0 件）**",
         f"- **旧保留台帳（`data/emergent_lexicon_audit.json`）総数**: {legacy_total} 件（うち日常会話 `CONV-*` {legacy_conv} 件）",
         f"- **正本複合語へのリマッピング（救済対応付け）完了件数**: **{len(remapping)} 件**",
@@ -138,7 +148,7 @@ def generate_remediation_summary_report(
         b = s.get("batch", "Batch 1")
         scen_by_batch.setdefault(b, []).append(s["scenario_id"])
 
-    for b in [f"Batch {i}" for i in range(1, 31)]:
+    for b in [f"Batch {i}" for i in range(1, max_batch + 1)]:
         sids = scen_by_batch.get(b, [])
         s_range = f"`{sids[0]}` 〜 `{sids[-1]}`" if sids else "—"
         lines.append(f"| **{b}** | {s_range} | {batch_counts.get(b, 0)} 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |")
