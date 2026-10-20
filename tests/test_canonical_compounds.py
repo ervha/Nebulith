@@ -45,7 +45,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertNotIn("kel", arbiter.known_morphemes)
         self.assertNotIn("pel", arbiter.known_morphemes)
 
-    def test_verified_canonical_compounds_batches_1_to_72_have_zero_audit_flags(self):
+    def test_verified_canonical_compounds_batches_1_to_75_have_zero_audit_flags(self):
         self.assertTrue(VERIFIED_COMPOUNDS_PATH.exists())
         self.assertTrue(BATCH_AUDIT_REPORT_PATH.exists())
         self.assertTrue(REMEDIATION_SUMMARY_PATH.exists())
@@ -56,10 +56,10 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
         self.assertEqual("ZERO_FLAGS_VERIFIED", saved_report["verdict"])
         self.assertEqual({}, saved_report["flagCounts"])
-        self.assertEqual(800, saved_dataset["summary"]["totalEntries"])
-        self.assertEqual(267, saved_dataset["summary"]["totalScenarios"])
+        self.assertEqual(830, saved_dataset["summary"]["totalEntries"])
+        self.assertEqual(277, saved_dataset["summary"]["totalScenarios"])
         self.assertEqual(0, saved_dataset["summary"]["auditFlagCount"])
-        self.assertEqual(800, saved_dataset["summary"]["remediatedLegacyCount"])
+        self.assertEqual(830, saved_dataset["summary"]["remediatedLegacyCount"])
         self.assertEqual(saved_dataset["entries"], live["dataset"]["entries"])
         self.assertEqual(saved_report["entries"], live["auditReport"]["entries"])
 
@@ -102,7 +102,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
     def test_web_studio_and_valnes_dialogues_pdf_integration(self):
         bundle_res = verify_web_bundle()
-        self.assertEqual(800, bundle_res["verifiedCompounds"])
+        self.assertEqual(830, bundle_res["verifiedCompounds"])
         self.assertTrue(bundle_res["sourceInputsMatch"])
 
         html_path = ROOT / "docs/Valnes_dialogues.html"
@@ -128,6 +128,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("CANON-COLAB-80", html_text)
         self.assertIn("CANON-COLAB-90", html_text)
         self.assertIn("CANON-COLAB-100", html_text)
+        self.assertIn("CANON-COLAB-110", html_text)
         self.assertIn("domain-category-index", html_text)
         self.assertIn("constituent-root-index", html_text)
 
@@ -210,12 +211,20 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("と", out["r18Ja"]["text"])
         self.assertTrue(out.get("r18En", {}).get("success", False))
         self.assertIn("that", out["r18En"]["text"])
+        # Verify indirect question / Wh-clause 'where ...' / 'ia kauo ...'
+        self.assertTrue(out.get("r19", {}).get("success", False))
+        self.assertIn("ia kauo", out["r19"]["text"])
+        self.assertTrue(out.get("r19Ja", {}).get("success", False))
+        self.assertIn("どこへ", out["r19Ja"]["text"])
+        self.assertIn("か", out["r19Ja"]["text"])
+        self.assertTrue(out.get("r19En", {}).get("success", False))
+        self.assertIn("where", out["r19En"]["text"])
 
     def test_promotion_gateway_requires_explicit_council_signoff(self):
         status = evaluate_promotion_readiness()
         self.assertTrue(status["mechanicallyReady"])
-        self.assertEqual(800, status["candidateCount"])
-        self.assertEqual(267, status["scenarioCount"])
+        self.assertEqual(830, status["candidateCount"])
+        self.assertEqual(277, status["scenarioCount"])
         self.assertFalse(status["councilSignoffGranted"])
         self.assertEqual("HOLD_FOR_COUNCIL_SIGNOFF", status["status"])
 
@@ -230,8 +239,8 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         sim = simulate_promotion()
         self.assertTrue(sim["simulationPassed"])
         self.assertEqual(372, sim["existingExtensionsCount"])
-        self.assertEqual(800, sim["promotedCandidateCount"])
-        self.assertEqual(1172, sim["totalSimulatedExtensionsCount"])
+        self.assertEqual(830, sim["promotedCandidateCount"])
+        self.assertEqual(1202, sim["totalSimulatedExtensionsCount"])
         self.assertEqual(0, sim["idCollisions"])
         self.assertEqual(0, sim["rootCollisions"])
         self.assertEqual("PROMOTION_SIMULATION_SUCCESSFUL", sim["verdict"])
