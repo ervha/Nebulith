@@ -104,7 +104,26 @@ const r13En = bi.translateNebulith('Tor Poran el ti to govan, Vyrel el mi ia dar
 assert.equal(r13En.success, true);
 assert.ok(r13En.text.includes('Although'), 'Expected Although in ' + r13En.text);
 
-// 13. Incremental translator check
+// 13. Temporal clause: 'When you walk to house, I observe water.' / 'While you walk to house, I observe water.' -> 'Hav Poran el ti to govan, Vyrel el mi ia daris.'
+const r14 = bi.translateEnglishToNebulith('When you walk to house, I observe water.');
+assert.equal(r14.success, true);
+assert.ok(r14.text.startsWith('Hav '), 'Expected Hav in ' + r14.text);
+assert.ok(r14.text.includes('Poran el ti to govan'), 'Expected Poran el ti to govan in ' + r14.text);
+assert.ok(r14.text.includes('Vyrel el mi ia daris'), 'Expected Vyrel el mi ia daris in ' + r14.text);
+
+const r14While = bi.translateEnglishToNebulith('While you walk to house, I observe water.');
+assert.equal(r14While.success, true);
+assert.ok(r14While.text.startsWith('Hav '), 'Expected Hav in ' + r14While.text);
+
+const r14Ja = bi.translateNebulith('Hav Poran el ti to govan, Vyrel el mi ia daris.', 'ja');
+assert.equal(r14Ja.success, true);
+assert.ok(r14Ja.text.includes('とき'), 'Expected とき in ' + r14Ja.text);
+
+const r14En = bi.translateNebulith('Hav Poran el ti to govan, Vyrel el mi ia daris.', 'en');
+assert.equal(r14En.success, true);
+assert.ok(r14En.text.includes('When'), 'Expected When in ' + r14En.text);
+
+// 14. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -112,4 +131,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En }));

@@ -559,7 +559,7 @@
     const vocab = getVocabMap();
 
     // 1. Compound Conjunctions: if / because / although / when ... , ...
-    const conjMatch = englishText.trim().match(/^(if|because|although|even if|even though|when)\s+(.+)$/i);
+    const conjMatch = englishText.trim().match(/^(if|because|although|even if|even though|when|while)\s+(.+)$/i);
     if (conjMatch) {
       const conjWord = conjMatch[1].toLowerCase();
       const parts = conjMatch[2].split(/,\s*/);
@@ -571,7 +571,7 @@
         }
         const c2 = translateSingleEnglishClause(secondPart);
         if (c1.success && c2.success) {
-          const nebConj = { if: 'Zen', because: 'Sen', although: 'Tor', 'even if': 'Tor', 'even though': 'Tor', when: 'Hav' }[conjWord];
+          const nebConj = { if: 'Zen', because: 'Sen', although: 'Tor', 'even if': 'Tor', 'even though': 'Tor', when: 'Hav', while: 'Hav' }[conjWord];
           const res = `${nebConj} ${c1.text}, ${c2.text}.`;
           return {
             text: res,
