@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1.0",
-  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-54)",
-  "generatedAt": "2026-10-20T05:04:48.866611+00:00",
+  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-57)",
+  "generatedAt": "2026-10-20T05:29:50.510788+00:00",
   "source": "data/lexicon.json",
   "validator": "tools/canonical_compound_validator.py",
   "summary": {
-    "totalEntries": 620,
-    "totalScenarios": 207,
+    "totalEntries": 650,
+    "totalScenarios": 217,
     "batches": [
       "Batch 1",
       "Batch 2",
@@ -61,12 +61,15 @@
       "Batch 51",
       "Batch 52",
       "Batch 53",
-      "Batch 54"
+      "Batch 54",
+      "Batch 55",
+      "Batch 56",
+      "Batch 57"
     ],
     "auditFlagCount": 0,
     "allConstituentsStandalone": true,
     "twoSpeakerReuseVerified": true,
-    "remediatedLegacyCount": 620
+    "remediatedLegacyCount": 650
   },
   "remappingTable": [
     {
@@ -9368,6 +9371,456 @@
         "tul",
         "fen"
       ]
+    },
+    {
+      "canonicalCompoundId": 31621,
+      "canonicalNrs": "dartal",
+      "canonicalMorphemes": [
+        "dar",
+        "tal"
+      ],
+      "canonicalMeaningJa": "導水路基礎、暗渠基盤、水路土台",
+      "remediatedLegacyId": 40153,
+      "legacyNrs": "peldar",
+      "legacyMorphemes": [
+        "pel",
+        "dar"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31622,
+      "canonicalNrs": "dolarvorn",
+      "canonicalMorphemes": [
+        "dolar",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "労務作業室、現場詰所、作業員控室",
+      "remediatedLegacyId": 40154,
+      "legacyNrs": "pelsul",
+      "legacyMorphemes": [
+        "pel",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31623,
+      "canonicalNrs": "kirasvorn",
+      "canonicalMorphemes": [
+        "kiras",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "修繕作業室、整調工房、整備器具室",
+      "remediatedLegacyId": 40155,
+      "legacyNrs": "pelbion",
+      "legacyMorphemes": [
+        "pel",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31624,
+      "canonicalNrs": "vyrfalun",
+      "canonicalMorphemes": [
+        "vyr",
+        "falun"
+      ],
+      "canonicalMeaningJa": "星辰光条、天体輝線、星光ビーム",
+      "remediatedLegacyId": 40156,
+      "legacyNrs": "pelsir",
+      "legacyMorphemes": [
+        "pel",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31625,
+      "canonicalNrs": "vyralin",
+      "canonicalMorphemes": [
+        "vyr",
+        "alin"
+      ],
+      "canonicalMeaningJa": "純白星光、明輝恒星、白色星辰",
+      "remediatedLegacyId": 40157,
+      "legacyNrs": "peltul",
+      "legacyMorphemes": [
+        "pel",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31626,
+      "canonicalNrs": "vyrfalzon",
+      "canonicalMorphemes": [
+        "vyr",
+        "falzon"
+      ],
+      "canonicalMeaningJa": "星辰偏光、天体散乱光、恒星磁場光",
+      "remediatedLegacyId": 40158,
+      "legacyNrs": "pelpal",
+      "legacyMorphemes": [
+        "pel",
+        "pal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31627,
+      "canonicalNrs": "nerterin",
+      "canonicalMorphemes": [
+        "ner",
+        "terin"
+      ],
+      "canonicalMeaningJa": "生薬煎じ茶、滋養薬湯、薬草温服液",
+      "remediatedLegacyId": 40159,
+      "legacyNrs": "pelvas",
+      "legacyMorphemes": [
+        "pel",
+        "vas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31628,
+      "canonicalNrs": "veltal",
+      "canonicalMorphemes": [
+        "vel",
+        "tal"
+      ],
+      "canonicalMeaningJa": "森林育成地、樹林土壌、樹木苗床",
+      "remediatedLegacyId": 40160,
+      "legacyNrs": "pelmol",
+      "legacyMorphemes": [
+        "pel",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31629,
+      "canonicalNrs": "nerzyvan",
+      "canonicalMorphemes": [
+        "ner",
+        "zyvan"
+      ],
+      "canonicalMeaningJa": "生薬治療、滋養修復、薬効療法",
+      "remediatedLegacyId": 40161,
+      "legacyNrs": "pelkel",
+      "legacyMorphemes": [
+        "pel",
+        "kel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31630,
+      "canonicalNrs": "taldursol",
+      "canonicalMorphemes": [
+        "tal",
+        "dursol"
+      ],
+      "canonicalMeaningJa": "採石場石垣、岩盤擁壁、石積み防護壁",
+      "remediatedLegacyId": 40162,
+      "legacyNrs": "pelmer",
+      "legacyMorphemes": [
+        "pel",
+        "mer"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31631,
+      "canonicalNrs": "taldankar",
+      "canonicalMorphemes": [
+        "tal",
+        "dankar"
+      ],
+      "canonicalMeaningJa": "石工基底礎、岩盤基礎土台、採石場基壇",
+      "remediatedLegacyId": 40163,
+      "legacyNrs": "pelfal",
+      "legacyMorphemes": [
+        "pel",
+        "fal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31632,
+      "canonicalNrs": "taldurtas",
+      "canonicalMorphemes": [
+        "tal",
+        "durtas"
+      ],
+      "canonicalMeaningJa": "大地の剛力、岩盤抗力、切石構造耐力",
+      "remediatedLegacyId": 40164,
+      "legacyNrs": "pelpar",
+      "legacyMorphemes": [
+        "pel",
+        "par"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31633,
+      "canonicalNrs": "dolasdar",
+      "canonicalMorphemes": [
+        "dolas",
+        "dar"
+      ],
+      "canonicalMeaningJa": "鋳型注入液、るつぼ熔湯滴、鋳造溶湯",
+      "remediatedLegacyId": 40165,
+      "legacyNrs": "pelvel",
+      "legacyMorphemes": [
+        "pel",
+        "vel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31634,
+      "canonicalNrs": "dolasunor",
+      "canonicalMorphemes": [
+        "dolas",
+        "unor"
+      ],
+      "canonicalMeaningJa": "鋳型規格定数、鋳造寸法定数、鋳型型番値",
+      "remediatedLegacyId": 40166,
+      "legacyNrs": "pelvan",
+      "legacyMorphemes": [
+        "pel",
+        "van"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31635,
+      "canonicalNrs": "talurunor",
+      "canonicalMorphemes": [
+        "talur",
+        "unor"
+      ],
+      "canonicalMeaningJa": "冶金配合定数、金属規格数、合金比率値",
+      "remediatedLegacyId": 40167,
+      "legacyNrs": "pelkor",
+      "legacyMorphemes": [
+        "pel",
+        "kor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31636,
+      "canonicalNrs": "polorvorn",
+      "canonicalMorphemes": [
+        "polor",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "市民税関室、港湾関所房、交易詰所",
+      "remediatedLegacyId": 40168,
+      "legacyNrs": "peltas",
+      "legacyMorphemes": [
+        "pel",
+        "tas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31637,
+      "canonicalNrs": "polortal",
+      "canonicalMorphemes": [
+        "polor",
+        "tal"
+      ],
+      "canonicalMeaningJa": "市民広場敷地、公共土場、市街テラス",
+      "remediatedLegacyId": 40169,
+      "legacyNrs": "pellin",
+      "legacyMorphemes": [
+        "pel",
+        "lin"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31638,
+      "canonicalNrs": "polorbion",
+      "canonicalMorphemes": [
+        "polor",
+        "bion"
+      ],
+      "canonicalMeaningJa": "市民生計、公衆滋養、都市福祉",
+      "remediatedLegacyId": 40170,
+      "legacyNrs": "pellen",
+      "legacyMorphemes": [
+        "pel",
+        "len"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31639,
+      "canonicalNrs": "kymfalun",
+      "canonicalMorphemes": [
+        "kym",
+        "falun"
+      ],
+      "canonicalMeaningJa": "夜警提灯、巡回灯火、暗夜の標火",
+      "remediatedLegacyId": 40171,
+      "legacyNrs": "pelkyr",
+      "legacyMorphemes": [
+        "pel",
+        "kyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31640,
+      "canonicalNrs": "kymporan",
+      "canonicalMorphemes": [
+        "kym",
+        "poran"
+      ],
+      "canonicalMeaningJa": "夜間巡回、暗夜踏査、夜警見回り",
+      "remediatedLegacyId": 40172,
+      "legacyNrs": "pelmin",
+      "legacyMorphemes": [
+        "pel",
+        "min"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31641,
+      "canonicalNrs": "kymkiras",
+      "canonicalMorphemes": [
+        "kym",
+        "kiras"
+      ],
+      "canonicalMeaningJa": "夜間警備整調、夜番整備、巡回点検",
+      "remediatedLegacyId": 40173,
+      "legacyNrs": "pelfen",
+      "legacyMorphemes": [
+        "pel",
+        "fen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31642,
+      "canonicalNrs": "zylarvorn",
+      "canonicalMorphemes": [
+        "zylar",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "海浜見張所、海岸詰所、波止場監視室",
+      "remediatedLegacyId": 40174,
+      "legacyNrs": "nelsul",
+      "legacyMorphemes": [
+        "nel",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31643,
+      "canonicalNrs": "dardursol",
+      "canonicalMorphemes": [
+        "dar",
+        "dursol"
+      ],
+      "canonicalMeaningJa": "防波堤石垣、海岸潮除け堤、防潮石積み壁",
+      "remediatedLegacyId": 40175,
+      "legacyNrs": "neltul",
+      "legacyMorphemes": [
+        "nel",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31644,
+      "canonicalNrs": "zylaralin",
+      "canonicalMorphemes": [
+        "zylar",
+        "alin"
+      ],
+      "canonicalMeaningJa": "白波海岸線、波打ち白砂、海浜白波",
+      "remediatedLegacyId": 40176,
+      "legacyNrs": "nelpel",
+      "legacyMorphemes": [
+        "nel",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31645,
+      "canonicalNrs": "havvorn",
+      "canonicalMorphemes": [
+        "hav",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "時計塔機械室、時刻測定室、時辰室",
+      "remediatedLegacyId": 40177,
+      "legacyNrs": "nelsel",
+      "legacyMorphemes": [
+        "nel",
+        "sel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31646,
+      "canonicalNrs": "havtal",
+      "canonicalMorphemes": [
+        "hav",
+        "tal"
+      ],
+      "canonicalMeaningJa": "日時計台盤、時刻計測台座、日影大地",
+      "remediatedLegacyId": 40178,
+      "legacyNrs": "neltor",
+      "legacyMorphemes": [
+        "nel",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31647,
+      "canonicalNrs": "havfirtas",
+      "canonicalMorphemes": [
+        "hav",
+        "firtas"
+      ],
+      "canonicalMeaningJa": "標準時規準、時刻標準器、報時規準盤",
+      "remediatedLegacyId": 40179,
+      "legacyNrs": "nelpal",
+      "legacyMorphemes": [
+        "nel",
+        "pal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31648,
+      "canonicalNrs": "jylasvorn",
+      "canonicalMorphemes": [
+        "jylas",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "盟約締結の間、同盟調印室、評議大会堂",
+      "remediatedLegacyId": 40180,
+      "legacyNrs": "nelmer",
+      "legacyMorphemes": [
+        "nel",
+        "mer"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31649,
+      "canonicalNrs": "jylastal",
+      "canonicalMorphemes": [
+        "jylas",
+        "tal"
+      ],
+      "canonicalMeaningJa": "盟約の大地、同盟基盤、連帯の壇",
+      "remediatedLegacyId": 40181,
+      "legacyNrs": "nelfal",
+      "legacyMorphemes": [
+        "nel",
+        "fal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31650,
+      "canonicalNrs": "jylasdar",
+      "canonicalMorphemes": [
+        "jylas",
+        "dar"
+      ],
+      "canonicalMeaningJa": "誓約の杯水、同盟拝領水、盟約清液",
+      "remediatedLegacyId": 40182,
+      "legacyNrs": "neljyl",
+      "legacyMorphemes": [
+        "nel",
+        "jyl"
+      ]
     }
   ],
   "scenarios": [
@@ -15162,6 +15615,276 @@
           "speaker": "Toa",
           "nebulith": "Jylas el mi ia jylasalin. Vymin el miin ia jylasunor ul jylasjyn.",
           "japanese": "私は純白の誓約に調印する。私たちは条約定数と連帯の真情を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-41",
+      "batch": "Batch 55",
+      "domain": "協同作業・水利水門の減圧弁調整と導水トンネル点検",
+      "title": "運河水門室での導水路基礎点検と修繕作業",
+      "communicative_need": "舟守と採集師が運河水門室で導水路基礎の沈下を点検し、修繕作業室で補修の備えを固める。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "導水路の水圧弁を操作する舟守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "暗渠の浸水状況を点検する採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Dolar el mi uo dolarvorn. Vymin el mi ia dartal uo kirasvorn.",
+          "japanese": "私は労務作業室で作業する。私は修繕作業室において導水路基礎を守る。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Kiras el mi uo kirasvorn. Vymin el miin ia dartal ul dolarvorn.",
+          "japanese": "私は修繕作業室で道具を整える。私たちは導水路基礎と労務作業室の安全を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-42",
+      "batch": "Batch 55",
+      "domain": "協同作業・天文台の星辰観測と屈折プリズム調整",
+      "title": "天文台での星辰光条と星辰偏光の屈折観測",
+      "communicative_need": "写字生と灯守が連携し、プリズムを通して星辰光条と星辰偏光の散乱角を測定する。",
+      "agent_a": {
+        "name": "Yura",
+        "role": "分光角を記録する写字生"
+      },
+      "agent_b": {
+        "name": "Sev",
+        "role": "プリズムの角度を微調整する灯守"
+      },
+      "turns": [
+        {
+          "speaker": "Yura",
+          "nebulith": "Soran el mi ia vyrfalzon. Vyrel el mi ia vyralin uo vyrfalun.",
+          "japanese": "私は星辰偏光の数値を清書する。私は星辰光条のもとで純白星光を観測する。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Vyrel el mi ia vyrfalun. Vymin el miin ia vyralin ul vyrfalzon.",
+          "japanese": "私は星辰光条の輝きを観測する。私たちは純白星光と星辰偏光の秩序を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-43",
+      "batch": "Batch 55",
+      "domain": "協同作業・薬草園と森林管理所の生薬調合",
+      "title": "森林育成地での生薬煎じ茶調剤と生薬治療",
+      "communicative_need": "採集師と薬草師が森林育成地で朝露とともに薬草を摘み、生薬煎じ茶を煎じて生薬治療を行う。",
+      "agent_a": {
+        "name": "Neri",
+        "role": "薬草を厳選する採集師"
+      },
+      "agent_b": {
+        "name": "Kael",
+        "role": "煎じ汁の滋養度を測る薬草師"
+      },
+      "turns": [
+        {
+          "speaker": "Neri",
+          "nebulith": "Poran el mi uo veltal. Nerel el mi ia nerterin uo nerzyvan.",
+          "japanese": "私は森林育成地を巡る。私は生薬治療において生薬煎じ茶を煎じる。"
+        },
+        {
+          "speaker": "Kael",
+          "nebulith": "Kiras el mi ia nerzyvan. Nerel el mi ia nerterin. Vymin el miin ia veltal ul nerterin.",
+          "japanese": "私は生薬治療の調剤を整える。私は生薬煎じ茶を服す。私たちは森林育成地と生薬煎じ茶の品質を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-44",
+      "batch": "Batch 56",
+      "domain": "協同作業・石工採石場の巨石切削と搬出路整備",
+      "title": "採石場石垣と石工基底礎の耐力構造整備",
+      "communicative_need": "舟守と灯守が採石場石垣で巨石を切削し、石工基底礎を堅固に築いて大地の剛力を保つ。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "採石索道を動かす舟守"
+      },
+      "agent_b": {
+        "name": "Sev",
+        "role": "切石の水平度を測る灯守"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Dolar el mi uo taldursol. Vymin el mi ia taldurtas uo taldankar.",
+          "japanese": "私は採石場石垣で作業する。私は石工基底礎の構築において大地の剛力を守る。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi ia taldankar. Vymin el mi ia taldurtas. Vymin el miin ia taldursol ul taldankar.",
+          "japanese": "私は石工基底礎の石材を整える。私は大地の剛力を信じる。私たちは採石場石垣と石工基底礎の安全を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-45",
+      "batch": "Batch 56",
+      "domain": "協同作業・金属鋳造所のるつぼ温度管理と鋳型注入",
+      "title": "鋳造所での鋳型注入液流動と鋳型規格定数管理",
+      "communicative_need": "灯守と写字生が冶金配合定数を照合し、鋳型注入液を流し込んで鋳型規格定数を守る。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "るつぼの火勢を保つ灯守"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "配合比率を記録する写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi ia dolasdar. Vymin el mi ia dolasunor uo talurunor.",
+          "japanese": "私は鋳型注入液の流動を整える。私は冶金配合定数の基準のもとで鋳型規格定数を守る。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Soran el mi ia dolasunor. Soran el mi ia talurunor. Vymin el miin ia dolasdar ul talurunor.",
+          "japanese": "私は鋳型規格定数を清書する。私は冶金配合定数を記録する。私たちは鋳型注入液と冶金配合定数の精度を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-46",
+      "batch": "Batch 56",
+      "domain": "協同作業・港湾税関の積荷目録検査と封蝋検閲",
+      "title": "市民税関室での積荷検査と市民広場敷地の保全",
+      "communicative_need": "写字生と舟守が市民税関室で積荷目録を改め、市民広場敷地で市民生計の安定を守る。",
+      "agent_a": {
+        "name": "Yura",
+        "role": "通関目録を照合する写字生"
+      },
+      "agent_b": {
+        "name": "Toa",
+        "role": "荷揚げ搬入を指揮する舟守"
+      },
+      "turns": [
+        {
+          "speaker": "Yura",
+          "nebulith": "Soran el mi uo polorvorn. Vymin el mi ia polorbion uo polortal.",
+          "japanese": "私は市民税関室で記録を改める。私は市民広場敷地において市民生計の安定を守る。"
+        },
+        {
+          "speaker": "Toa",
+          "nebulith": "Poran el mi uo polortal. Vymin el miin ia polorvorn ul polorbion.",
+          "japanese": "私は市民広場敷地を歩く。私たちは市民税関室と市民生計を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-47",
+      "batch": "Batch 57",
+      "domain": "協同作業・夜警詰所の見回り巡回と灯火確認",
+      "title": "夜警詰所での夜間巡回と夜警提灯の灯火点検",
+      "communicative_need": "薬草師と灯守が夜警提灯の灯火を掲げて夜間巡回に就き、夜間警備整調を行う。",
+      "agent_a": {
+        "name": "Kael",
+        "role": "路地の灯火を点検する薬草師"
+      },
+      "agent_b": {
+        "name": "Sev",
+        "role": "防犯の鐘楼を見張る灯守"
+      },
+      "turns": [
+        {
+          "speaker": "Kael",
+          "nebulith": "Poran el mi uo kymporan. Kiras el mi ia kymkiras uo kymfalun.",
+          "japanese": "私は夜間巡回で街路を歩く。私は夜警提灯の灯火のもとで夜間警備整調を行う。"
+        },
+        {
+          "speaker": "Sev",
+          "nebulith": "Vyrel el mi ia kymfalun. Kiras el mi ia kymkiras. Vymin el miin ia kymporan ul kymfalun.",
+          "japanese": "私は夜警提灯の光を見守る。私は夜間警備整調を果たす。私たちは夜間巡回と夜警提灯の秩序を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-48",
+      "batch": "Batch 57",
+      "domain": "協同作業・海岸見張所と海浜テラスでの潮汐観測と生体滋養剤調製",
+      "title": "海浜見張所と防波堤石垣での白波海岸線保全",
+      "communicative_need": "舟守と採集師が海浜見張所で作業し、防波堤石垣を巡って白波海岸線の平穏を守る。",
+      "agent_a": {
+        "name": "Toa",
+        "role": "防波堤を見回る舟守"
+      },
+      "agent_b": {
+        "name": "Neri",
+        "role": "潮の満ち引きを見る採集師"
+      },
+      "turns": [
+        {
+          "speaker": "Toa",
+          "nebulith": "Dolar el mi uo zylarvorn. Dolar el mi uo dardursol. Vyrel el mi ia zylaralin.",
+          "japanese": "私は海浜見張所で作業する。私は防波堤石垣で作業する。私は白波海岸線を見つめる。"
+        },
+        {
+          "speaker": "Neri",
+          "nebulith": "Kiras el mi uo dardursol. Vyrel el mi ia zylaralin. Vymin el miin ia zylarvorn ul zylaralin.",
+          "japanese": "私は防波堤石垣の潮除けを整える。私は白波海岸線の波を観測する。私たちは海浜見張所と白波海岸線の平穏を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-49",
+      "batch": "Batch 57",
+      "domain": "協同作業・時計塔の標準時針照合と日時計台座の補正",
+      "title": "時計塔機械室での標準時規準照合と日時計台盤補正",
+      "communicative_need": "灯守と写字生が時計塔機械室で日時計台盤の影の偏位を観測し、標準時規準を照合する。",
+      "agent_a": {
+        "name": "Sev",
+        "role": "時計塔の錘を調整する灯守"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "標準時針を照合する写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Sev",
+          "nebulith": "Kiras el mi uo havvorn. Vymin el mi ia havfirtas uo havtal.",
+          "japanese": "私は時計塔機械室で歯車を整える。私は日時計台盤のもとで標準時規準の精度を守る。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Vyrel el mi uo havtal. Vymin el miin ia havvorn ul havfirtas.",
+          "japanese": "私は日時計台盤で影を観測する。私たちは時計塔機械室と標準時規準の精度を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-50",
+      "batch": "Batch 57",
+      "domain": "協同作業・都市評議会の同盟調印と誓約台座の聖別",
+      "title": "評議大会堂での盟約締結と同盟台座の誓約",
+      "communicative_need": "写字生と薬草師が評議大会堂で誓約の杯水を分かち合い、同盟基盤の壇上で盟約を交わす。",
+      "agent_a": {
+        "name": "Yura",
+        "role": "同盟条約文書を記す写字生"
+      },
+      "agent_b": {
+        "name": "Kael",
+        "role": "調印式の杯水を捧げる薬草師"
+      },
+      "turns": [
+        {
+          "speaker": "Yura",
+          "nebulith": "Jylas el mi uo jylasvorn. Nerel el mi ia jylasdar uo jylastal.",
+          "japanese": "私は評議大会堂で同盟を結ぶ。私は盟約の大地において誓約の杯水を分かち合う。"
+        },
+        {
+          "speaker": "Kael",
+          "nebulith": "Poran el mi uo jylastal. Vymin el miin ia jylasvorn ul jylasdar.",
+          "japanese": "私は盟約の大地を進む。私たちは評議大会堂と誓約の杯水の信義を守り抜く。"
         }
       ]
     }
@@ -38723,6 +39446,1146 @@
       "remediatesLegacyCandidateId": 40152,
       "speakers": [
         "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dartal",
+      "pos": "名",
+      "meaningJa": "導水路基礎、暗渠基盤、水路土台",
+      "meaningEn": "aqueduct foundation, culvert bedrock, canal waterway base",
+      "morphemes": [
+        "dar",
+        "tal"
+      ],
+      "etymology": "dar(しずく) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el mi ia dartal.",
+      "example_ja": "私は導水路基礎を守る。",
+      "id": 31621,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-41",
+      "domain": "協同作業・水利水門の減圧弁調整と導水トンネル点検",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40153,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolarvorn",
+      "pos": "名",
+      "meaningJa": "労務作業室、現場詰所、作業員控室",
+      "meaningEn": "labor workshop room, field staff station, worker service lodge",
+      "morphemes": [
+        "dolar",
+        "vorn"
+      ],
+      "etymology": "dolar(労働) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Dolar el mi uo dolarvorn.",
+      "example_ja": "私は労務作業室で作業する。",
+      "id": 31622,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-41",
+      "domain": "協同作業・水利水門の減圧弁調整と導水トンネル点検",
+      "constituentEntries": [
+        {
+          "id": 481,
+          "nrs": "dolar",
+          "pos": "動",
+          "meaningJa": "働く、勤労する、奉仕する"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40154,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kirasvorn",
+      "pos": "名",
+      "meaningJa": "修繕作業室、整調工房、整備器具室",
+      "meaningEn": "maintenance workshop chamber, alignment atelier, tool repair lodge",
+      "morphemes": [
+        "kiras",
+        "vorn"
+      ],
+      "etymology": "kiras(整える) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi uo kirasvorn.",
+      "example_ja": "私は修繕作業室で道具を整える。",
+      "id": 31623,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-41",
+      "domain": "協同作業・水利水門の減圧弁調整と導水トンネル点検",
+      "constituentEntries": [
+        {
+          "id": 875,
+          "nrs": "kiras",
+          "pos": "動",
+          "meaningJa": "創る、構築する、工作する、書く"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40155,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "vyrfalun",
+      "pos": "名",
+      "meaningJa": "星辰光条、天体輝線、星光ビーム",
+      "meaningEn": "stellar ray emission, celestial emission line, starlight beam",
+      "morphemes": [
+        "vyr",
+        "falun"
+      ],
+      "etymology": "vyr(星) + falun(光)",
+      "category": "1. 天体・宇宙・天文",
+      "example_sentence": "Vyrel el mi ia vyrfalun.",
+      "example_ja": "私は星辰光条の輝きを観測する。",
+      "id": 31624,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-42",
+      "domain": "協同作業・天文台の星辰観測と屈折プリズム調整",
+      "constituentEntries": [
+        {
+          "id": 62,
+          "nrs": "vyr",
+          "pos": "名",
+          "meaningJa": "星、天体、光点"
+        },
+        {
+          "id": 16,
+          "nrs": "falun",
+          "pos": "名/動",
+          "meaningJa": "光、光条、輝き、照らす"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40156,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "vyralin",
+      "pos": "名",
+      "meaningJa": "純白星光、明輝恒星、白色星辰",
+      "meaningEn": "pure white starlight, brilliant fixed star, white celestial luminary",
+      "morphemes": [
+        "vyr",
+        "alin"
+      ],
+      "etymology": "vyr(星) + alin(白い)",
+      "category": "1. 天体・宇宙・天文",
+      "example_sentence": "Vyrel el mi ia vyralin.",
+      "example_ja": "私は純白星光を観測する。",
+      "id": 31625,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-42",
+      "domain": "協同作業・天文台の星辰観測と屈折プリズム調整",
+      "constituentEntries": [
+        {
+          "id": 62,
+          "nrs": "vyr",
+          "pos": "名",
+          "meaningJa": "星、天体、光点"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40157,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "vyrfalzon",
+      "pos": "名",
+      "meaningJa": "星辰偏光、天体散乱光、恒星磁場光",
+      "meaningEn": "stellar polarization light, celestial scattered radiation, star magnetic field glow",
+      "morphemes": [
+        "vyr",
+        "falzon"
+      ],
+      "etymology": "vyr(星) + falzon(星間偏光)",
+      "category": "1. 天体・宇宙・天文",
+      "example_sentence": "Soran el mi ia vyrfalzon.",
+      "example_ja": "私は星辰偏光の数値を清書する。",
+      "id": 31626,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-42",
+      "domain": "協同作業・天文台の星辰観測と屈折プリズム調整",
+      "constituentEntries": [
+        {
+          "id": 62,
+          "nrs": "vyr",
+          "pos": "名",
+          "meaningJa": "星、天体、光点"
+        },
+        {
+          "id": 19,
+          "nrs": "falzon",
+          "pos": "名",
+          "meaningJa": "星間偏光、磁場散乱光"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40158,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nerterin",
+      "pos": "名",
+      "meaningJa": "生薬煎じ茶、滋養薬湯、薬草温服液",
+      "meaningEn": "nutritive herbal decoction tea, restorative tonic infusion, warm medicinal brew",
+      "morphemes": [
+        "ner",
+        "terin"
+      ],
+      "etymology": "ner(滋養) + terin(煎じ茶)",
+      "category": "4. 人体・生理・医療",
+      "example_sentence": "Nerel el mi ia nerterin.",
+      "example_ja": "私は生薬煎じ茶を煎じる。",
+      "id": 31627,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-43",
+      "domain": "協同作業・薬草園と森林管理所の生薬調合",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 1003,
+          "nrs": "terin",
+          "pos": "名",
+          "meaningJa": "温かい煎じ茶、薬草茶"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40159,
+      "speakers": [
+        "Kael",
+        "Neri"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "veltal",
+      "pos": "名",
+      "meaningJa": "森林育成地、樹林土壌、樹木苗床",
+      "meaningEn": "forest nursery soil, woodland cultivating ground, arbor terrace",
+      "morphemes": [
+        "vel",
+        "tal"
+      ],
+      "etymology": "vel(木) + tal(大地)",
+      "category": "2. 自然・気象・地形・鉱物",
+      "example_sentence": "Poran el mi uo veltal.",
+      "example_ja": "私は森林育成地を巡る。",
+      "id": 31628,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-43",
+      "domain": "協同作業・薬草園と森林管理所の生薬調合",
+      "constituentEntries": [
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40160,
+      "speakers": [
+        "Kael",
+        "Neri"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nerzyvan",
+      "pos": "名",
+      "meaningJa": "生薬治療、滋養修復、薬効療法",
+      "meaningEn": "nutritive medicinal therapy, herbal healing remedy, tonic restoration",
+      "morphemes": [
+        "ner",
+        "zyvan"
+      ],
+      "etymology": "ner(滋養) + zyvan(治療する)",
+      "category": "4. 人体・生理・医療",
+      "example_sentence": "Kiras el mi ia nerzyvan.",
+      "example_ja": "私は生薬治療の調剤を整える。",
+      "id": 31629,
+      "batch": "Batch 55",
+      "scenario_id": "CANON-COLAB-43",
+      "domain": "協同作業・薬草園と森林管理所の生薬調合",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 265,
+          "nrs": "zyvan",
+          "pos": "動",
+          "meaningJa": "治療する、癒す、活力を与える"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40161,
+      "speakers": [
+        "Kael",
+        "Neri"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taldursol",
+      "pos": "名",
+      "meaningJa": "採石場石垣、岩盤擁壁、石積み防護壁",
+      "meaningEn": "quarry stone revetment, rock retaining dry-wall, bedrock embankment wall",
+      "morphemes": [
+        "tal",
+        "dursol"
+      ],
+      "etymology": "tal(大地) + dursol(石垣)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Dolar el mi uo taldursol.",
+      "example_ja": "私は採石場石垣で作業する。",
+      "id": 31630,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-44",
+      "domain": "協同作業・石工採石場の巨石切削と搬出路整備",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 611,
+          "nrs": "dursol",
+          "pos": "名",
+          "meaningJa": "石垣、石積み擁壁、乾式石壁"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40162,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taldankar",
+      "pos": "名",
+      "meaningJa": "石工基底礎、岩盤基礎土台、採石場基壇",
+      "meaningEn": "stonemason foundation plinth, bedrock ground terrace, quarry base platform",
+      "morphemes": [
+        "tal",
+        "dankar"
+      ],
+      "etymology": "tal(大地) + dankar(基礎)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi ia taldankar.",
+      "example_ja": "私は石工基底礎の石材を整える。",
+      "id": 31631,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-44",
+      "domain": "協同作業・石工採石場の巨石切削と搬出路整備",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 592,
+          "nrs": "dankar",
+          "pos": "名",
+          "meaningJa": "基礎、土台、建築石礎"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40163,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "taldurtas",
+      "pos": "名",
+      "meaningJa": "大地の剛力、岩盤抗力、切石構造耐力",
+      "meaningEn": "terrestrial stone tensile strength, bedrock load-bearing force, masonry resistance",
+      "morphemes": [
+        "tal",
+        "durtas"
+      ],
+      "etymology": "tal(大地) + durtas(筋力)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el mi ia taldurtas.",
+      "example_ja": "私は大地の剛力を守る。",
+      "id": 31632,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-44",
+      "domain": "協同作業・石工採石場の巨石切削と搬出路整備",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 206,
+          "nrs": "durtas",
+          "pos": "名",
+          "meaningJa": "筋肉、筋力、運動器官"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40164,
+      "speakers": [
+        "Sev",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolasdar",
+      "pos": "名",
+      "meaningJa": "鋳型注入液、るつぼ熔湯滴、鋳造溶湯",
+      "meaningEn": "mold pouring melt, crucible molten drop, foundry cast liquid",
+      "morphemes": [
+        "dolas",
+        "dar"
+      ],
+      "etymology": "dolas(鋳型) + dar(しずく)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi ia dolasdar.",
+      "example_ja": "私は鋳型注入液の流動を整える。",
+      "id": 31633,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-45",
+      "domain": "協同作業・金属鋳造所のるつぼ温度管理と鋳型注入",
+      "constituentEntries": [
+        {
+          "id": 543,
+          "nrs": "dolas",
+          "pos": "名",
+          "meaningJa": "鋳型、鋳型枠、金型"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40165,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dolasunor",
+      "pos": "名",
+      "meaningJa": "鋳型規格定数、鋳造寸法定数、鋳型型番値",
+      "meaningEn": "casting mold standard constant, foundry gauge integer, mold model index",
+      "morphemes": [
+        "dolas",
+        "unor"
+      ],
+      "etymology": "dolas(鋳型) + unor(整数)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Soran el mi ia dolasunor.",
+      "example_ja": "私は鋳型規格定数を清書する。",
+      "id": 31634,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-45",
+      "domain": "協同作業・金属鋳造所のるつぼ温度管理と鋳型注入",
+      "constituentEntries": [
+        {
+          "id": 543,
+          "nrs": "dolas",
+          "pos": "名",
+          "meaningJa": "鋳型、鋳型枠、金型"
+        },
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40166,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talurunor",
+      "pos": "名",
+      "meaningJa": "冶金配合定数、金属規格数、合金比率値",
+      "meaningEn": "metallurgical alloying constant, metal gauge integer, foundry ratio metric",
+      "morphemes": [
+        "talur",
+        "unor"
+      ],
+      "etymology": "talur(金属) + unor(整数)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Soran el mi ia talurunor.",
+      "example_ja": "私は冶金配合定数を記録する。",
+      "id": 31635,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-45",
+      "domain": "協同作業・金属鋳造所のるつぼ温度管理と鋳型注入",
+      "constituentEntries": [
+        {
+          "id": 313,
+          "nrs": "talur",
+          "pos": "名",
+          "meaningJa": "金属、合金、鉱物資材"
+        },
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40167,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "polorvorn",
+      "pos": "名",
+      "meaningJa": "市民税関室、港湾関所房、交易詰所",
+      "meaningEn": "civic customs chamber, harbor checkpoint lodge, trade toll house",
+      "morphemes": [
+        "polor",
+        "vorn"
+      ],
+      "etymology": "polor(市民) + vorn(部屋)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Soran el mi uo polorvorn.",
+      "example_ja": "私は市民税関室で記録を改める。",
+      "id": 31636,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-46",
+      "domain": "協同作業・港湾税関の積荷目録検査と封蝋検閲",
+      "constituentEntries": [
+        {
+          "id": 507,
+          "nrs": "polor",
+          "pos": "名",
+          "meaningJa": "市民、住人、共同体員"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40168,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "polortal",
+      "pos": "名",
+      "meaningJa": "市民広場敷地、公共土場、市街テラス",
+      "meaningEn": "civic plaza ground, municipal terrace, communal commons earth",
+      "morphemes": [
+        "polor",
+        "tal"
+      ],
+      "etymology": "polor(市民) + tal(大地)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Poran el mi uo polortal.",
+      "example_ja": "私は市民広場敷地を歩く。",
+      "id": 31637,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-46",
+      "domain": "協同作業・港湾税関の積荷目録検査と封蝋検閲",
+      "constituentEntries": [
+        {
+          "id": 507,
+          "nrs": "polor",
+          "pos": "名",
+          "meaningJa": "市民、住人、共同体員"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40169,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "polorbion",
+      "pos": "名",
+      "meaningJa": "市民生計、公衆滋養、都市福祉",
+      "meaningEn": "civic sustenance, municipal wellbeing, communal livelihood support",
+      "morphemes": [
+        "polor",
+        "bion"
+      ],
+      "etymology": "polor(市民) + bion(生命)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Vymin el mi ia polorbion.",
+      "example_ja": "私は市民生計を守る。",
+      "id": 31638,
+      "batch": "Batch 56",
+      "scenario_id": "CANON-COLAB-46",
+      "domain": "協同作業・港湾税関の積荷目録検査と封蝋検閲",
+      "constituentEntries": [
+        {
+          "id": 507,
+          "nrs": "polor",
+          "pos": "名",
+          "meaningJa": "市民、住人、共同体員"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40170,
+      "speakers": [
+        "Toa",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymfalun",
+      "pos": "名",
+      "meaningJa": "夜警提灯、巡回灯火、暗夜の標火",
+      "meaningEn": "night patrol lantern, nightwatch beacon light, nocturnal warning flame",
+      "morphemes": [
+        "kym",
+        "falun"
+      ],
+      "etymology": "kym(夜) + falun(光)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vyrel el mi ia kymfalun.",
+      "example_ja": "私は夜警提灯の光を見守る。",
+      "id": 31639,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-47",
+      "domain": "協同作業・夜警詰所の見回り巡回と灯火確認",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 16,
+          "nrs": "falun",
+          "pos": "名/動",
+          "meaningJa": "光、光条、輝き、照らす"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40171,
+      "speakers": [
+        "Kael",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymporan",
+      "pos": "名",
+      "meaningJa": "夜間巡回、暗夜踏査、夜警見回り",
+      "meaningEn": "nocturnal patrol walk, night inspection transit, dark watch patrol",
+      "morphemes": [
+        "kym",
+        "poran"
+      ],
+      "etymology": "kym(夜) + poran(歩く)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Poran el mi uo kymporan.",
+      "example_ja": "私は夜間巡回で街路を歩く。",
+      "id": 31640,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-47",
+      "domain": "協同作業・夜警詰所の見回り巡回と灯火確認",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 902,
+          "nrs": "poran",
+          "pos": "動",
+          "meaningJa": "歩く、歩む、旅する、進む"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40172,
+      "speakers": [
+        "Kael",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymkiras",
+      "pos": "名",
+      "meaningJa": "夜間警備整調、夜番整備、巡回点検",
+      "meaningEn": "nightwatch readiness alignment, night inspection tune-up, guard post maintenance",
+      "morphemes": [
+        "kym",
+        "kiras"
+      ],
+      "etymology": "kym(夜) + kiras(整える)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Kiras el mi ia kymkiras.",
+      "example_ja": "私は夜間警備整調を果たす。",
+      "id": 31641,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-47",
+      "domain": "協同作業・夜警詰所の見回り巡回と灯火確認",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 875,
+          "nrs": "kiras",
+          "pos": "動",
+          "meaningJa": "創る、構築する、工作する、書く"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40173,
+      "speakers": [
+        "Kael",
+        "Sev"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zylarvorn",
+      "pos": "名",
+      "meaningJa": "海浜見張所、海岸詰所、波止場監視室",
+      "meaningEn": "shoreline watchtower room, coastal guard lodge, seaside observation station",
+      "morphemes": [
+        "zylar",
+        "vorn"
+      ],
+      "etymology": "zylar(海) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Dolar el mi uo zylarvorn.",
+      "example_ja": "私は海浜見張所で作業する。",
+      "id": 31642,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-48",
+      "domain": "協同作業・海岸見張所と海浜テラスでの潮汐観測と生体滋養剤調製",
+      "constituentEntries": [
+        {
+          "id": 377,
+          "nrs": "zylar",
+          "pos": "名",
+          "meaningJa": "海、海洋、大洋"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40174,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dardursol",
+      "pos": "名",
+      "meaningJa": "防波堤石垣、海岸潮除け堤、防潮石積み壁",
+      "meaningEn": "seawall stone revetment, coastal breakwater dyke, tidal stone embankment",
+      "morphemes": [
+        "dar",
+        "dursol"
+      ],
+      "etymology": "dar(しずく) + dursol(石垣)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Dolar el mi uo dardursol.",
+      "example_ja": "私は防波堤石垣で作業する。",
+      "id": 31643,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-48",
+      "domain": "協同作業・海岸見張所と海浜テラスでの潮汐観測と生体滋養剤調製",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 611,
+          "nrs": "dursol",
+          "pos": "名",
+          "meaningJa": "石垣、石積み擁壁、乾式石壁"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40175,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zylaralin",
+      "pos": "名",
+      "meaningJa": "白波海岸線、波打ち白砂、海浜白波",
+      "meaningEn": "whitecap surf shoreline, white foam breakers, littoral cresting spray",
+      "morphemes": [
+        "zylar",
+        "alin"
+      ],
+      "etymology": "zylar(海) + alin(白い)",
+      "category": "2. 自然・気象・地形・鉱物",
+      "example_sentence": "Vyrel el mi ia zylaralin.",
+      "example_ja": "私は白波海岸線の波を観測する。",
+      "id": 31644,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-48",
+      "domain": "協同作業・海岸見張所と海浜テラスでの潮汐観測と生体滋養剤調製",
+      "constituentEntries": [
+        {
+          "id": 377,
+          "nrs": "zylar",
+          "pos": "名",
+          "meaningJa": "海、海洋、大洋"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40176,
+      "speakers": [
+        "Neri",
+        "Toa"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "havvorn",
+      "pos": "名",
+      "meaningJa": "時計塔機械室、時刻測定室、時辰室",
+      "meaningEn": "clock tower mechanism room, horological chamber, timekeeper post",
+      "morphemes": [
+        "hav",
+        "vorn"
+      ],
+      "etymology": "hav(時) + vorn(部屋)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Kiras el mi uo havvorn.",
+      "example_ja": "私は時計塔機械室で歯車を整える。",
+      "id": 31645,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-49",
+      "domain": "協同作業・時計塔の標準時針照合と日時計台座の補正",
+      "constituentEntries": [
+        {
+          "id": 867,
+          "nrs": "hav",
+          "pos": "名",
+          "meaningJa": "時、瞬間、今この瞬間"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40177,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "havtal",
+      "pos": "名",
+      "meaningJa": "日時計台盤、時刻計測台座、日影大地",
+      "meaningEn": "sundial plinth ground, horological stone pedestal, chronological terrace",
+      "morphemes": [
+        "hav",
+        "tal"
+      ],
+      "etymology": "hav(時) + tal(大地)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vyrel el mi uo havtal.",
+      "example_ja": "私は日時計台盤で影を観測する。",
+      "id": 31646,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-49",
+      "domain": "協同作業・時計塔の標準時針照合と日時計台座の補正",
+      "constituentEntries": [
+        {
+          "id": 867,
+          "nrs": "hav",
+          "pos": "名",
+          "meaningJa": "時、瞬間、今この瞬間"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40178,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "havfirtas",
+      "pos": "名",
+      "meaningJa": "標準時規準、時刻標準器、報時規準盤",
+      "meaningEn": "standard time norm, horological benchmark, timekeeping reference dial",
+      "morphemes": [
+        "hav",
+        "firtas"
+      ],
+      "etymology": "hav(時) + firtas(基準)",
+      "category": "10. 道具・住居・工芸・人工物",
+      "example_sentence": "Vymin el mi ia havfirtas.",
+      "example_ja": "私は標準時規準の精度を守る。",
+      "id": 31647,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-49",
+      "domain": "協同作業・時計塔の標準時針照合と日時計台座の補正",
+      "constituentEntries": [
+        {
+          "id": 867,
+          "nrs": "hav",
+          "pos": "名",
+          "meaningJa": "時、瞬間、今この瞬間"
+        },
+        {
+          "id": 90,
+          "nrs": "firtas",
+          "pos": "名",
+          "meaningJa": "基準、標準、物差し、規準"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40179,
+      "speakers": [
+        "Sev",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "jylasvorn",
+      "pos": "名",
+      "meaningJa": "盟約締結の間、同盟調印室、評議大会堂",
+      "meaningEn": "covenant treaty chamber, alliance ratification hall, civic conciliar room",
+      "morphemes": [
+        "jylas",
+        "vorn"
+      ],
+      "etymology": "jylas(結ぶ) + vorn(部屋)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Jylas el mi uo jylasvorn.",
+      "example_ja": "私は評議大会堂で同盟を結ぶ。",
+      "id": 31648,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-50",
+      "domain": "協同作業・都市評議会の同盟調印と誓約台座の聖別",
+      "constituentEntries": [
+        {
+          "id": 873,
+          "nrs": "jylas",
+          "pos": "動",
+          "meaningJa": "結ぶ、繋ぐ、交差する、結合する"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40180,
+      "speakers": [
+        "Kael",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "jylastal",
+      "pos": "名",
+      "meaningJa": "盟約の大地、同盟基盤、連帯の壇",
+      "meaningEn": "covenant foundational terrace, alliance bedrock, treaty ground",
+      "morphemes": [
+        "jylas",
+        "tal"
+      ],
+      "etymology": "jylas(結ぶ) + tal(大地)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Poran el mi uo jylastal.",
+      "example_ja": "私は盟約の大地を進む。",
+      "id": 31649,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-50",
+      "domain": "協同作業・都市評議会の同盟調印と誓約台座の聖別",
+      "constituentEntries": [
+        {
+          "id": 873,
+          "nrs": "jylas",
+          "pos": "動",
+          "meaningJa": "結ぶ、繋ぐ、交差する、結合する"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40181,
+      "speakers": [
+        "Kael",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "jylasdar",
+      "pos": "名",
+      "meaningJa": "誓約の杯水、同盟拝領水、盟約清液",
+      "meaningEn": "covenant pledge water, treaty ceremony drink, alliance sacred droplet",
+      "morphemes": [
+        "jylas",
+        "dar"
+      ],
+      "etymology": "jylas(結ぶ) + dar(しずく)",
+      "category": "14. コミュニケーション・言語・社会",
+      "example_sentence": "Nerel el mi ia jylasdar.",
+      "example_ja": "私は誓約の杯水を分かち合う。",
+      "id": 31650,
+      "batch": "Batch 57",
+      "scenario_id": "CANON-COLAB-50",
+      "domain": "協同作業・都市評議会の同盟調印と誓約台座の聖別",
+      "constituentEntries": [
+        {
+          "id": 873,
+          "nrs": "jylas",
+          "pos": "動",
+          "meaningJa": "結ぶ、繋ぐ、交差する、結合する"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40182,
+      "speakers": [
+        "Kael",
         "Yura"
       ],
       "auditFlags": []
