@@ -44,7 +44,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertNotIn("kel", arbiter.known_morphemes)
         self.assertNotIn("pel", arbiter.known_morphemes)
 
-    def test_verified_canonical_compounds_batches_1_to_30_have_zero_audit_flags(self):
+    def test_verified_canonical_compounds_batches_1_to_40_have_zero_audit_flags(self):
         self.assertTrue(VERIFIED_COMPOUNDS_PATH.exists())
         self.assertTrue(BATCH_AUDIT_REPORT_PATH.exists())
         self.assertTrue(REMEDIATION_SUMMARY_PATH.exists())
@@ -55,10 +55,10 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
         self.assertEqual("ZERO_FLAGS_VERIFIED", saved_report["verdict"])
         self.assertEqual({}, saved_report["flagCounts"])
-        self.assertEqual(360, saved_dataset["summary"]["totalEntries"])
-        self.assertEqual(120, saved_dataset["summary"]["totalScenarios"])
+        self.assertEqual(480, saved_dataset["summary"]["totalEntries"])
+        self.assertEqual(160, saved_dataset["summary"]["totalScenarios"])
         self.assertEqual(0, saved_dataset["summary"]["auditFlagCount"])
-        self.assertEqual(360, saved_dataset["summary"]["remediatedLegacyCount"])
+        self.assertEqual(480, saved_dataset["summary"]["remediatedLegacyCount"])
         self.assertEqual(saved_dataset["entries"], live["dataset"]["entries"])
         self.assertEqual(saved_report["entries"], live["auditReport"]["entries"])
 
@@ -101,7 +101,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
 
     def test_web_studio_and_valnes_dialogues_pdf_integration(self):
         bundle_res = verify_web_bundle()
-        self.assertEqual(360, bundle_res["verifiedCompounds"])
+        self.assertEqual(480, bundle_res["verifiedCompounds"])
         self.assertTrue(bundle_res["sourceInputsMatch"])
 
         html_path = ROOT / "docs/Valnes_dialogues.html"
@@ -116,7 +116,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("darfalun", html_text)
         self.assertIn("klorcalor", html_text)
         self.assertIn("alinzevil", html_text)
-        self.assertIn("CANON-CONV-120", html_text)
+        self.assertIn("CANON-CONV-160", html_text)
         self.assertIn("domain-category-index", html_text)
         self.assertIn("constituent-root-index", html_text)
 
@@ -140,12 +140,14 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("darfalun", out["r3Neb"].lower())
         self.assertTrue(out["r4"]["success"])
         self.assertIn("vyrcelar", out["r4"]["text"].lower())
+        self.assertTrue(out.get("r5", {}).get("success", False))
+        self.assertIn("vyrelast", out["r5"]["text"].lower())
 
     def test_promotion_gateway_requires_explicit_council_signoff(self):
         status = evaluate_promotion_readiness()
         self.assertTrue(status["mechanicallyReady"])
-        self.assertEqual(360, status["candidateCount"])
-        self.assertEqual(120, status["scenarioCount"])
+        self.assertEqual(480, status["candidateCount"])
+        self.assertEqual(160, status["scenarioCount"])
         self.assertFalse(status["councilSignoffGranted"])
         self.assertEqual("HOLD_FOR_COUNCIL_SIGNOFF", status["status"])
 

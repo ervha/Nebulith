@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T02:48:12.528227+00:00",
+  "createdAt": "2026-10-20T03:02:30.299451+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 360,
-    "uniqueRoots": 360,
-    "uniqueIds": 360,
-    "scenarios": 120,
+    "rows": 480,
+    "uniqueRoots": 480,
+    "uniqueIds": 480,
+    "scenarios": 160,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -129,34 +129,34 @@
     "Vymin el miin ia <TERM>.": 1,
     "Vyrel el mi ia <TERM> ul talvalis uo vorn.": 1,
     "Vyrel el mi ia vyrvalis ul <TERM> uo vorn.": 1,
-    "Relen el <TERM> uo vorn.": 9,
+    "Relen el <TERM> uo vorn.": 14,
     "Vyrel el mi ia <TERM> ul darkypal uo govan.": 1,
     "Vyrel el mi ia vyrkypal ul <TERM> uo govan.": 1,
-    "Relen el <TERM> uo govan.": 9,
+    "Relen el <TERM> uo govan.": 12,
     "Vyrel el mi ia <TERM> ul velkirel uo dovik.": 1,
     "Vyrel el mi ia vyrkirel ul <TERM> uo dovik.": 1,
     "Relen el <TERM> uo dovik.": 1,
     "Vymin el mi ia <TERM> ul darlerel uo domom.": 1,
     "Vymin el mi ia vyrlerel ul <TERM> uo domom.": 1,
-    "Relen el <TERM> uo domom.": 10,
+    "Relen el <TERM> uo domom.": 13,
     "Vyrel el mi ia <TERM> ul tynitasel uo velar.": 1,
     "Vyrel el mi ia taltasel ul <TERM> uo velar.": 1,
-    "Relen el <TERM> uo velar.": 7,
+    "Relen el <TERM> uo velar.": 10,
     "Vyrel el mi ia <TERM> ul darnerar uo domom.": 1,
     "Vyrel el mi ia talnerar ul <TERM> uo domom.": 1,
     "Vymin el mi ia <TERM> ul velnerom uo govan.": 1,
     "Vymin el mi ia talnerom ul <TERM> uo govan.": 1,
     "Kiras el mi ia <TERM> ul velnerel uo nerar.": 1,
     "Kiras el mi ia hanonerel ul <TERM> uo nerar.": 1,
-    "Relen el <TERM> uo nerar.": 3,
+    "Relen el <TERM> uo nerar.": 5,
     "Bion el mi ia <TERM> ul hanoterin uo govan.": 1,
     "Bion el mi ia velterin ul <TERM> uo govan.": 1,
     "Vyrel el mi ia <TERM> ul talnovan uo talom.": 1,
     "Vyrel el mi ia vyrnovan ul <TERM> uo talom.": 1,
-    "Relen el <TERM> uo talom.": 3,
+    "Relen el <TERM> uo talom.": 4,
     "Vyrel el mi ia <TERM> ul veltalon uo daron.": 1,
     "Vyrel el mi ia dartalon ul <TERM> uo daron.": 1,
-    "Relen el <TERM> uo daron.": 6,
+    "Relen el <TERM> uo daron.": 9,
     "Vyrel el mi ia <TERM> ul vyrvelom uo talom.": 1,
     "Vyrel el mi ia darvelom ul <TERM> uo talom.": 1,
     "Vyrel el mi ia <TERM> ul talvelil uo velar.": 1,
@@ -170,7 +170,7 @@
     "Vyrel el mi ia talserel ul <TERM> uo govan.": 1,
     "Vyrel el mi ia <TERM> ul kymtynes uo celen.": 1,
     "Vyrel el mi ia vyrtynes ul <TERM> uo celen.": 1,
-    "Relen el <TERM> uo celen.": 3,
+    "Relen el <TERM> uo celen.": 4,
     "Vyrel el mi ia <TERM> ul velvalar uo daron.": 1,
     "Vyrel el mi ia darvalar ul <TERM> uo daron.": 1,
     "Vyrel el mi ia <TERM> ul darkylas uo domom.": 1,
@@ -206,14 +206,14 @@
     "Cynel el mi ia talpolor ul <TERM> uo domom.": 1,
     "Cynel el mi ia <TERM> ul vyrcynor uo klorcalor.": 1,
     "Cynel el mi ia zydcynor ul <TERM> uo klorcalor.": 1,
-    "Relen el <TERM> uo klorcalor.": 4,
+    "Relen el <TERM> uo klorcalor.": 6,
     "Vymin el mi ia <TERM> ul vyrtaros uo pamel.": 1,
     "Vymin el mi ia zydtaros ul <TERM> uo pamel.": 1,
     "Vyrel el mi ia <TERM> ul darrenar uo domom.": 1,
     "Vyrel el mi ia talrenar ul <TERM> uo domom.": 1,
     "Vyrel el mi ia <TERM> ul alinrenis uo renar.": 1,
     "Vyrel el mi ia tynirenis ul <TERM> uo renar.": 1,
-    "Relen el <TERM> uo renar.": 2,
+    "Relen el <TERM> uo renar.": 3,
     "Vymin el mi ia <TERM> ul velrenon uo domom.": 1,
     "Vymin el mi ia talrenon ul <TERM> uo domom.": 1,
     "Vyrel el mi ia <TERM> ul dardomom uo celen.": 1,
@@ -226,17 +226,17 @@
     "Vyrel el mi ia klorkymos ul <TERM> uo daron.": 1,
     "Vyrel el mi ia <TERM> ul klorvoris uo livar.": 1,
     "Vyrel el mi ia dardoran ul <TERM> uo livar.": 1,
-    "Relen el <TERM> uo livar.": 8,
+    "Relen el <TERM> uo livar.": 16,
     "Vymin el mi ia <TERM> ul taltyral uo larar.": 1,
     "Vymin el mi ia dartyril ul <TERM> uo larar.": 1,
-    "Relen el <TERM> uo larar.": 4,
+    "Relen el <TERM> uo larar.": 8,
     "Vyrel el mi ia <TERM> ul velwylor uo daron.": 1,
     "Vyrel el mi ia vyrzylar ul <TERM> uo daron.": 1,
     "Vyrel el mi ia <TERM> ul darvuron uo talom.": 1,
     "Vyrel el mi ia alinkyras ul <TERM> uo talom.": 1,
     "Vyrel el mi ia <TERM> ul klortalon uo velom.": 1,
     "Vyrel el mi ia alinnovan ul <TERM> uo velom.": 1,
-    "Relen el <TERM> uo velom.": 2,
+    "Relen el <TERM> uo velom.": 4,
     "Vyrel el mi ia <TERM> ul velferas uo velar.": 1,
     "Vyrel el mi ia darlyka ul <TERM> uo velar.": 1,
     "Vymin el mi ia <TERM> ul vyrtalur uo vorn.": 1,
@@ -269,7 +269,7 @@
     "Vymin el mi ia alinteira ul <TERM> uo vorn.": 1,
     "Vymin el mi ia <TERM> ul havzyvas uo nerom.": 1,
     "Vymin el mi ia darkylar ul <TERM> uo nerom.": 1,
-    "Relen el <TERM> uo nerom.": 2,
+    "Relen el <TERM> uo nerom.": 4,
     "Vyrel el mi ia <TERM> ul alinnoven uo domom.": 1,
     "Vyrel el mi ia tallarin ul <TERM> uo domom.": 1,
     "Neran el mi ia <TERM> ul alinvoril uo nerar.": 1,
@@ -303,7 +303,87 @@
     "Vyrel el mi ia <TERM> ul klorkyron uo livar.": 1,
     "Vyrel el mi ia vyrkyrom ul <TERM> uo livar.": 1,
     "Vymin el mi ia <TERM> ul talsirar uo livar.": 1,
-    "Vymin el mi ia alinlivar ul <TERM> uo livar.": 1
+    "Vymin el mi ia alinlivar ul <TERM> uo livar.": 1,
+    "Vyrel el mi ia <TERM> ul velcelen uo celen.": 1,
+    "Vyrel el mi ia darcelar ul <TERM> uo celen.": 1,
+    "Vyrel el mi ia <TERM> ul vyrtulos uo daron.": 1,
+    "Vyrel el mi ia darcelis ul <TERM> uo daron.": 1,
+    "Vyrel el mi ia <TERM> ul vyrvoris uo livar.": 1,
+    "Vyrel el mi ia veldoran ul <TERM> uo livar.": 1,
+    "Vymin el mi ia <TERM> ul vyrtyral uo larar.": 1,
+    "Vymin el mi ia taltyril ul <TERM> uo larar.": 1,
+    "Vyrel el mi ia <TERM> ul darwylor uo daron.": 1,
+    "Vyrel el mi ia alinzylar ul <TERM> uo daron.": 1,
+    "Vyrel el mi ia <TERM> ul talvuron uo talom.": 1,
+    "Vyrel el mi ia vyrkyras ul <TERM> uo talom.": 1,
+    "Vyrel el mi ia <TERM> ul alintalon uo velom.": 1,
+    "Vyrel el mi ia velnovan ul <TERM> uo velom.": 1,
+    "Vyrel el mi ia <TERM> ul darferas uo velar.": 1,
+    "Vyrel el mi ia tallyka ul <TERM> uo velar.": 1,
+    "Vymin el mi ia <TERM> ul dartalur uo vorn.": 1,
+    "Vymin el mi ia taldolas ul <TERM> uo vorn.": 1,
+    "Vymin el mi ia <TERM> ul vyrserel uo vorn.": 1,
+    "Vymin el mi ia darkirel ul <TERM> uo vorn.": 1,
+    "Vymin el mi ia <TERM> ul dartasel uo govan.": 1,
+    "Vymin el mi ia vyrkymel ul <TERM> uo govan.": 1,
+    "Vyrel el mi ia <TERM> ul velvorn uo velar.": 1,
+    "Vyrel el mi ia havlerel ul <TERM> uo velar.": 1,
+    "Vyrel el mi ia <TERM> ul tallaros uo larar.": 1,
+    "Vyrel el mi ia tallarar ul <TERM> uo larar.": 1,
+    "Vymin el mi ia <TERM> ul vyrvylom uo larar.": 1,
+    "Vymin el mi ia darpelel ul <TERM> uo larar.": 1,
+    "Vymin el mi ia <TERM> ul talsoril uo livar.": 1,
+    "Vymin el mi ia darmator ul <TERM> uo livar.": 1,
+    "Vyrel el mi ia <TERM> ul dartolas uo domom.": 1,
+    "Vyrel el mi ia klortolom ul <TERM> uo domom.": 1,
+    "Soran el mi ia <TERM> ul talkelon uo livar.": 1,
+    "Soran el mi ia vyrfiras ul <TERM> uo livar.": 1,
+    "Vyrel el mi ia <TERM> ul vyrunor uo renar.": 1,
+    "Vyrel el mi ia vyrjylom ul <TERM> uo renar.": 1,
+    "Vyrel el mi ia <TERM> ul talsufor uo livar.": 1,
+    "Vyrel el mi ia vyrsufis ul <TERM> uo livar.": 1,
+    "Vyrel el mi ia <TERM> ul vyrunvis uo klorcalor.": 1,
+    "Vyrel el mi ia talvedil ul <TERM> uo klorcalor.": 1,
+    "Vyrel el mi ia <TERM> ul taldavel uo vorn.": 1,
+    "Vyrel el mi ia darkivan ul <TERM> uo vorn.": 1,
+    "Vymin el mi ia <TERM> ul havzyvil uo vorn.": 1,
+    "Vymin el mi ia talteira ul <TERM> uo vorn.": 1,
+    "Vymin el mi ia <TERM> ul klorzyvas uo nerom.": 1,
+    "Vymin el mi ia talkylar ul <TERM> uo nerom.": 1,
+    "Vyrel el mi ia <TERM> ul velnoven uo domom.": 1,
+    "Vyrel el mi ia darlarin ul <TERM> uo domom.": 1,
+    "Neran el mi ia <TERM> ul havvoril uo nerar.": 1,
+    "Neran el mi ia vyrnerel ul <TERM> uo nerar.": 1,
+    "Vyrel el mi ia <TERM> ul talneror uo nerom.": 1,
+    "Vyrel el mi ia klornerom ul <TERM> uo nerom.": 1,
+    "Vyrel el mi ia <TERM> ul dartenis uo nerar.": 1,
+    "Vyrel el mi ia klornerar ul <TERM> uo nerar.": 1,
+    "Vymin el mi ia <TERM> ul velvelil uo velar.": 1,
+    "Vymin el mi ia talvelas ul <TERM> uo velar.": 1,
+    "Vyrel el mi ia <TERM> ul alinlyren uo livar.": 1,
+    "Vyrel el mi ia vyrcivom ul <TERM> uo livar.": 1,
+    "Vyrel el mi ia <TERM> ul vyrfalos uo vorn.": 1,
+    "Vyrel el mi ia darlyvel ul <TERM> uo vorn.": 1,
+    "Vyrel el mi ia <TERM> ul velsoras uo velom.": 1,
+    "Vyrel el mi ia talsonir ul <TERM> uo velom.": 1,
+    "Vyrel el mi ia <TERM> ul velsylim uo govan.": 1,
+    "Vyrel el mi ia talfelyn ul <TERM> uo govan.": 1,
+    "Vyrel el mi ia <TERM> ul velpolor uo klorcalor.": 1,
+    "Vyrel el mi ia darmyren ul <TERM> uo klorcalor.": 1,
+    "Vymin el mi ia <TERM> ul veltarin uo domom.": 1,
+    "Vymin el mi ia dardolor ul <TERM> uo domom.": 1,
+    "Cynel el mi ia <TERM> ul darcynor uo larar.": 1,
+    "Cynel el mi ia talcynas ul <TERM> uo larar.": 1,
+    "Vyrel el mi ia <TERM> ul talhavel uo livar.": 1,
+    "Vyrel el mi ia talhavas ul <TERM> uo livar.": 1,
+    "Vyrel el mi ia <TERM> ul talsovil uo daron.": 1,
+    "Vyrel el mi ia vyrvalar ul <TERM> uo daron.": 1,
+    "Vyrel el mi ia <TERM> ul dartynes uo govan.": 1,
+    "Vyrel el mi ia velzohar ul <TERM> uo govan.": 1,
+    "Vyrel el mi ia <TERM> ul vyrkyron uo livar.": 1,
+    "Vyrel el mi ia alinkyrom ul <TERM> uo livar.": 1,
+    "Vymin el mi ia <TERM> ul darsirar uo livar.": 1,
+    "Vymin el mi ia havlivar ul <TERM> uo livar.": 1
   },
   "entries": [
     {
@@ -7497,6 +7577,2406 @@
         "zevil"
       ],
       "scenario_id": "CANON-CONV-120",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31361,
+      "nrs": "darcelar",
+      "meaningJa": "水鏡の極光、湖面に映るオーロラ、水辺の極光影",
+      "meaningEn": "water-mirrored aurora, lake-reflected polar light, aquatic aurora shimmer",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "celar"
+      ],
+      "scenario_id": "CANON-CONV-121",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul velcelen uo celen."
+    },
+    {
+      "id": 31362,
+      "nrs": "velcelen",
+      "meaningJa": "樹上の蒼空、森の上に広がる空、梢の青空",
+      "meaningEn": "canopy sky, sky above the forest, woodland firmament",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "celen"
+      ],
+      "scenario_id": "CANON-CONV-121",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia darcelar ul <TERM> uo celen."
+    },
+    {
+      "id": 31363,
+      "nrs": "tyninovar",
+      "meaningJa": "白銀の天頂、銀光を放つ天頂点、銀の天頂冠",
+      "meaningEn": "silver zenith, argent celestial crown, silvery zenith point",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "novar"
+      ],
+      "scenario_id": "CANON-CONV-121",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo celen."
+    },
+    {
+      "id": 31364,
+      "nrs": "darcelis",
+      "meaningJa": "雨雲の帯、水気を湛える雲、湿潤な水雲",
+      "meaningEn": "rain-bearing cloud, moisture cloudbank, vaporous cloud layer",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "celis"
+      ],
+      "scenario_id": "CANON-CONV-122",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul vyrtulos uo daron."
+    },
+    {
+      "id": 31365,
+      "nrs": "vyrtulos",
+      "meaningJa": "星辰の天底、星が巡る天底点、対蹠の星極",
+      "meaningEn": "astral nadir, starlit antipodal pole, celestial nadir point",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "tulos"
+      ],
+      "scenario_id": "CANON-CONV-122",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia darcelis ul <TERM> uo daron."
+    },
+    {
+      "id": 31366,
+      "nrs": "tynikymos",
+      "meaningJa": "白銀の日食、銀コロナの食、銀環の太陽食",
+      "meaningEn": "silver-crowned eclipse, argent solar eclipse, silvery coronal eclipse",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "kymos"
+      ],
+      "scenario_id": "CANON-CONV-122",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo daron."
+    },
+    {
+      "id": 31367,
+      "nrs": "veldoran",
+      "meaningJa": "緑の惑星、森林に覆われた遊星、樹海の星",
+      "meaningEn": "verdant planet, forest-covered world, sylvan celestial body",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "doran"
+      ],
+      "scenario_id": "CANON-CONV-123",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul vyrvoris uo livar."
+    },
+    {
+      "id": 31368,
+      "nrs": "vyrvoris",
+      "meaningJa": "恒星の公転、連星の公転周期、星々の軌道周回",
+      "meaningEn": "stellar revolution, binary star orbital cycle, astral orbital period",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "voris"
+      ],
+      "scenario_id": "CANON-CONV-123",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia veldoran ul <TERM> uo livar."
+    },
+    {
+      "id": 31369,
+      "nrs": "klorvalur",
+      "meaningJa": "円環脈動、環状に広がる脈動波、周期的な天体振動",
+      "meaningEn": "annular pulsation, concentric stellar oscillation, ring-wave pulse",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "valur"
+      ],
+      "scenario_id": "CANON-CONV-123",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31370,
+      "nrs": "taltyril",
+      "meaningJa": "地殻の潮汐力、大地に働く起潮力、陸地の潮汐歪み",
+      "meaningEn": "earth tide force, crustal tidal pull, terrestrial tidal stress",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "tyril"
+      ],
+      "scenario_id": "CANON-CONV-124",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul vyrtyral uo larar."
+    },
+    {
+      "id": 31371,
+      "nrs": "vyrtyral",
+      "meaningJa": "恒星の引力、星間の重力場、天体の牽引力",
+      "meaningEn": "stellar gravity, interstellar gravitational pull, astral attraction",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "tyral"
+      ],
+      "scenario_id": "CANON-CONV-124",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia taltyril ul <TERM> uo larar."
+    },
+    {
+      "id": 31372,
+      "nrs": "klorradin",
+      "meaningJa": "正円の軌道半径、円環の基準半径、環状軌道の距離",
+      "meaningEn": "circular orbital radius, ring radius metric, concentric orbit distance",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "radin"
+      ],
+      "scenario_id": "CANON-CONV-124",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo larar."
+    },
+    {
+      "id": 31373,
+      "nrs": "alinzylar",
+      "meaningJa": "白波の大海、陽光に輝く白い海、澄み渡る白海",
+      "meaningEn": "white-crested sea, sunlit bright ocean, alabaster marine expanse",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "zylar"
+      ],
+      "scenario_id": "CANON-CONV-125",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul darwylor uo daron."
+    },
+    {
+      "id": 31374,
+      "nrs": "darwylor",
+      "meaningJa": "雨季の季節風、湿りを運ぶ海風、慈雨のモンスーン",
+      "meaningEn": "rain-bearing monsoon, moisture trade wind, oceanic seasonal breeze",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "wylor"
+      ],
+      "scenario_id": "CANON-CONV-125",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia alinzylar ul <TERM> uo daron."
+    },
+    {
+      "id": 31375,
+      "nrs": "talzemin",
+      "meaningJa": "大地の地平線、広野の稜線、陸の地平",
+      "meaningEn": "terrestrial horizon, landward skyline, continental horizon rim",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "zemin"
+      ],
+      "scenario_id": "CANON-CONV-125",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo daron."
+    },
+    {
+      "id": 31376,
+      "nrs": "vyrkyras",
+      "meaningJa": "星影の氷塊、星光を宿す氷晶、夜光氷",
+      "meaningEn": "star-glinting ice, astral frost crystal, starlit glacier ice",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "kyras"
+      ],
+      "scenario_id": "CANON-CONV-126",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul talvuron uo talom."
+    },
+    {
+      "id": 31377,
+      "nrs": "talvuron",
+      "meaningJa": "大地の岩窟、岩山の洞窟、地底の石洞",
+      "meaningEn": "earthen cavern, bedrock grotto, subterranean stone cave",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "vuron"
+      ],
+      "scenario_id": "CANON-CONV-126",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia vyrkyras ul <TERM> uo talom."
+    },
+    {
+      "id": 31378,
+      "nrs": "tynitalom",
+      "meaningJa": "白銀の平原、銀穂が揺れる沃野、霜化粧の草原",
+      "meaningEn": "silver plain, frost-kissed meadowland, argent grassland",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "talom"
+      ],
+      "scenario_id": "CANON-CONV-126",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo talom."
+    },
+    {
+      "id": 31379,
+      "nrs": "velnovan",
+      "meaningJa": "樹林の山嶺、緑に覆われた山、森林の峰",
+      "meaningEn": "forested mountain, timbered peak, woodland summit",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "novan"
+      ],
+      "scenario_id": "CANON-CONV-127",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul alintalon uo velom."
+    },
+    {
+      "id": 31380,
+      "nrs": "alintalon",
+      "meaningJa": "白砂の島、白い珊瑚の浮島、純白の島影",
+      "meaningEn": "white-sand island, ivory coral isle, alabaster island",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "talon"
+      ],
+      "scenario_id": "CANON-CONV-127",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia velnovan ul <TERM> uo velom."
+    },
+    {
+      "id": 31381,
+      "nrs": "tynivelom",
+      "meaningJa": "銀霧の森、白銀の樹海、霜葉の森林",
+      "meaningEn": "silver-misted forest, argent woodland, hoarfrost timberland",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "velom"
+      ],
+      "scenario_id": "CANON-CONV-127",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo velom."
+    },
+    {
+      "id": 31382,
+      "nrs": "tallyka",
+      "meaningJa": "地面の営巣、岩陰の巣穴、大地の獣巣",
+      "meaningEn": "ground burrow nest, earthen den, terrestrial nesting hollow",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "lyka"
+      ],
+      "scenario_id": "CANON-CONV-128",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul darferas uo velar."
+    },
+    {
+      "id": 31383,
+      "nrs": "darferas",
+      "meaningJa": "水辺の動物、水生・半水生の獣、湖畔の生き物",
+      "meaningEn": "waterside animal, aquatic creature, riparian fauna",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "feras"
+      ],
+      "scenario_id": "CANON-CONV-128",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vyrel el mi ia tallyka ul <TERM> uo velar."
+    },
+    {
+      "id": 31384,
+      "nrs": "talpuka",
+      "meaningJa": "大地を駆ける蹄、強靭なひづめ、駿馬の蹄音",
+      "meaningEn": "earth-treading hoof, sturdy equine hoof, galloping hoofbeat",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "puka"
+      ],
+      "scenario_id": "CANON-CONV-128",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo velar."
+    },
+    {
+      "id": 31385,
+      "nrs": "taldolas",
+      "meaningJa": "粘土の鋳型、土製の鋳造枠、耐熱土の型",
+      "meaningEn": "earthenware casting mold, clay foundry die, terracotta matrix",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "dolas"
+      ],
+      "scenario_id": "CANON-CONV-129",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul dartalur uo vorn."
+    },
+    {
+      "id": 31386,
+      "nrs": "dartalur",
+      "meaningJa": "水冷の鍛造金属、焼き入れした鋼、水流精錬の地金",
+      "meaningEn": "water-quenched metal, tempered alloy, hydro-refined ingot",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "talur"
+      ],
+      "scenario_id": "CANON-CONV-129",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia taldolas ul <TERM> uo vorn."
+    },
+    {
+      "id": 31387,
+      "nrs": "tynitalyr",
+      "meaningJa": "銀脈の石材、銀光を帯びた庭石、雲母の石板",
+      "meaningEn": "silver-veined stone, argent mica rock, shimmering slate",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "talyr"
+      ],
+      "scenario_id": "CANON-CONV-129",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo vorn."
+    },
+    {
+      "id": 31388,
+      "nrs": "darkirel",
+      "meaningJa": "水彩の絵筆、潤いを含んだ毛筆、水墨の筆",
+      "meaningEn": "watercolor brush, ink-reservoir pen, fluid calligraphy quill",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "kirel"
+      ],
+      "scenario_id": "CANON-CONV-130",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul vyrserel uo vorn."
+    },
+    {
+      "id": 31389,
+      "nrs": "vyrserel",
+      "meaningJa": "星図の細工刀、天測儀の彫刻小刀、精密な刻線ナイフ",
+      "meaningEn": "star-chart graver, astrolabe carving knife, precision scoring blade",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "serel"
+      ],
+      "scenario_id": "CANON-CONV-130",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia darkirel ul <TERM> uo vorn."
+    },
+    {
+      "id": 31390,
+      "nrs": "zydkypal",
+      "meaningJa": "証書の保管箱、証拠品を納める箱、封印の手文庫",
+      "meaningEn": "evidentiary strongbox, archive seal chest, verity coffer",
+      "pos": "名",
+      "morphemes": [
+        "zyd",
+        "kypal"
+      ],
+      "scenario_id": "CANON-CONV-130",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo vorn."
+    },
+    {
+      "id": 31391,
+      "nrs": "vyrkymel",
+      "meaningJa": "星見の寝床、天窓の下の寝台、星空を仰ぐベッド",
+      "meaningEn": "stargazer's bed, skylight sleeping couch, astral slumber berth",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "kymel"
+      ],
+      "scenario_id": "CANON-CONV-131",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul dartasel uo govan."
+    },
+    {
+      "id": 31392,
+      "nrs": "dartasel",
+      "meaningJa": "水辺の腰掛け、湖畔テラスの椅子、涼み台の椅子",
+      "meaningEn": "waterside chair, lakeside patio seat, riparian bench stool",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "tasel"
+      ],
+      "scenario_id": "CANON-CONV-131",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia vyrkymel ul <TERM> uo govan."
+    },
+    {
+      "id": 31393,
+      "nrs": "taltasor",
+      "meaningJa": "石造りの肘掛け椅子、重厚な大地の座椅子、岩彫りの安楽椅子",
+      "meaningEn": "stone armchair, carved masonry throne, grounded lounge seat",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "tasor"
+      ],
+      "scenario_id": "CANON-CONV-131",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo govan."
+    },
+    {
+      "id": 31394,
+      "nrs": "havlerel",
+      "meaningJa": "歳月の門扉、歴史を刻む古扉、時のゲート",
+      "meaningEn": "time-honored portal, chronicle gate door, historical threshold",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "lerel"
+      ],
+      "scenario_id": "CANON-CONV-132",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul velvorn uo velar."
+    },
+    {
+      "id": 31395,
+      "nrs": "velvorn",
+      "meaningJa": "木組みの居室、木材でしつらえた部屋、森林香る室",
+      "meaningEn": "timbered room, wood-paneled chamber, cedar parlor",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "vorn"
+      ],
+      "scenario_id": "CANON-CONV-132",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vyrel el mi ia havlerel ul <TERM> uo velar."
+    },
+    {
+      "id": 31396,
+      "nrs": "klorvelar",
+      "meaningJa": "円環の中庭、回廊に囲まれた丸庭、輪の花園",
+      "meaningEn": "circular courtyard, cloistered ring garden, rotunda botanical plot",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "velar"
+      ],
+      "scenario_id": "CANON-CONV-132",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo velar."
+    },
+    {
+      "id": 31397,
+      "nrs": "tallarar",
+      "meaningJa": "街道の宿駅、内陸の停留所、陸路の駅舎",
+      "meaningEn": "overland station, inland stagecoach depot, continental transit stop",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "larar"
+      ],
+      "scenario_id": "CANON-CONV-133",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul tallaros uo larar."
+    },
+    {
+      "id": 31398,
+      "nrs": "tallaros",
+      "meaningJa": "陸路の幌馬車、大地を走る運搬車、重厚な地上車両",
+      "meaningEn": "overland wagon, terrestrial transport vehicle, heavy ground carriage",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "laros"
+      ],
+      "scenario_id": "CANON-CONV-133",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia tallarar ul <TERM> uo larar."
+    },
+    {
+      "id": 31399,
+      "nrs": "velvylar",
+      "meaningJa": "森林の紋章旗、緑樹の幟、営林の目印旗",
+      "meaningEn": "woodland banner, forest guild flag, sylvan pennant",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "vylar"
+      ],
+      "scenario_id": "CANON-CONV-133",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo larar."
+    },
+    {
+      "id": 31400,
+      "nrs": "darpelel",
+      "meaningJa": "航海用の携帯星盤、水路のアストロラーベ、船乗り星盤",
+      "meaningEn": "mariner's portable astrolabe, nautical pocket dial, waterway navigation disc",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "pelel"
+      ],
+      "scenario_id": "CANON-CONV-134",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul vyrvylom uo larar."
+    },
+    {
+      "id": 31401,
+      "nrs": "vyrvylom",
+      "meaningJa": "天体望遠スコープ、星座観測の鏡筒、星見のファインダー",
+      "meaningEn": "astronomical scope, star-sighting tube, celestial optical finder",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "vylom"
+      ],
+      "scenario_id": "CANON-CONV-134",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia darpelel ul <TERM> uo larar."
+    },
+    {
+      "id": 31402,
+      "nrs": "talryvel",
+      "meaningJa": "土地測量の測度、大地の基準尺度、地積のメートル原器",
+      "meaningEn": "geodetic metric, land-survey measure, terrestrial gauge standard",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "ryvel"
+      ],
+      "scenario_id": "CANON-CONV-134",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo larar."
+    },
+    {
+      "id": 31403,
+      "nrs": "darmator",
+      "meaningJa": "水流駆動の演算儀、水冷式の星辰計算機、流体演算装置",
+      "meaningEn": "hydro-cooled computation engine, fluidic calculator, water-driven processor",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "mator"
+      ],
+      "scenario_id": "CANON-CONV-135",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul talsoril uo livar."
+    },
+    {
+      "id": 31404,
+      "nrs": "talsoril",
+      "meaningJa": "鉱物結晶の記憶素、大地の石英メモリ、不揮発の石記憶素",
+      "meaningEn": "mineral memory crystal, quartz storage element, terrestrial memory cell",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "soril"
+      ],
+      "scenario_id": "CANON-CONV-135",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia darmator ul <TERM> uo livar."
+    },
+    {
+      "id": 31405,
+      "nrs": "vyrjytel",
+      "meaningJa": "星間中継ノード、天文台の交信節点、星辰ネットワーク点",
+      "meaningEn": "astral relay node, observatory network hub, stellar grid vertex",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "jytel"
+      ],
+      "scenario_id": "CANON-CONV-135",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31406,
+      "nrs": "klortolom",
+      "meaningJa": "環状交信ネットワーク、円環都市の通信網、リング型情報網",
+      "meaningEn": "ring communication network, circular metropolitan grid, concentric relay web",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "tolom"
+      ],
+      "scenario_id": "CANON-CONV-136",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul dartolas uo domom."
+    },
+    {
+      "id": 31407,
+      "nrs": "dartolas",
+      "meaningJa": "水路の連絡便、船便のメッセージ、港からの便り",
+      "meaningEn": "waterway dispatch, canal courier message, maritime letter",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "tolas"
+      ],
+      "scenario_id": "CANON-CONV-136",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia klortolom ul <TERM> uo domom."
+    },
+    {
+      "id": 31408,
+      "nrs": "taljynel",
+      "meaningJa": "据置型の地熱蓄電池、大地の大型バッテリー、基盤蓄電槽",
+      "meaningEn": "grounded stationary battery, terrestrial power cell, earthen accumulator bank",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "jynel"
+      ],
+      "scenario_id": "CANON-CONV-136",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo domom."
+    },
+    {
+      "id": 31409,
+      "nrs": "vyrfiras",
+      "meaningJa": "天体物理定数、恒星の普遍定数、天文基準値",
+      "meaningEn": "astrophysical constant, stellar invariant, cosmic fundamental constant",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "firas"
+      ],
+      "scenario_id": "CANON-CONV-137",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM> ul talkelon uo livar."
+    },
+    {
+      "id": 31410,
+      "nrs": "talkelon",
+      "meaningJa": "地形の変数、土壌と標高のパラメータ、地勢変数",
+      "meaningEn": "topographical variable, terrestrial parameter, elevation coordinate variable",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "kelon"
+      ],
+      "scenario_id": "CANON-CONV-137",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia vyrfiras ul <TERM> uo livar."
+    },
+    {
+      "id": 31411,
+      "nrs": "darkiril",
+      "meaningJa": "流体関数、水流速度の写像、連続的な流れの関数",
+      "meaningEn": "hydrodynamic function, fluid flow mapping, stream continuity function",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "kiril"
+      ],
+      "scenario_id": "CANON-CONV-137",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31412,
+      "nrs": "vyrjylom",
+      "meaningJa": "恒星の集合、星団の要素群、天体カタログ集合",
+      "meaningEn": "stellar set, star cluster ensemble, astronomical group collection",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "jylom"
+      ],
+      "scenario_id": "CANON-CONV-138",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul vyrunor uo renar."
+    },
+    {
+      "id": 31413,
+      "nrs": "vyrunor",
+      "meaningJa": "軌道共鳴の整数、天体周期の整数値、星暦の自然数",
+      "meaningEn": "orbital resonance integer, celestial whole number, astronomical cycle integer",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "unor"
+      ],
+      "scenario_id": "CANON-CONV-138",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia vyrjylom ul <TERM> uo renar."
+    },
+    {
+      "id": 31414,
+      "nrs": "taldelis",
+      "meaningJa": "測量端数の小数、地積計算の小数部、精密な寸分値",
+      "meaningEn": "surveying decimal, geodetic fractional part, land-measure precision",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "delis"
+      ],
+      "scenario_id": "CANON-CONV-138",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo renar."
+    },
+    {
+      "id": 31415,
+      "nrs": "vyrsufis",
+      "meaningJa": "星辰博物学者、天球の碩学、星空の探究者",
+      "meaningEn": "astronomer scholar, celestial researcher, stargazing academic",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "sufis"
+      ],
+      "scenario_id": "CANON-CONV-139",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul talsufor uo livar."
+    },
+    {
+      "id": 31416,
+      "nrs": "talsufor",
+      "meaningJa": "地測の数理士、大地測量の数学者、土木数理の専門家",
+      "meaningEn": "geodetic mathematician, land-survey computational scholar, terrestrial analyst",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "sufor"
+      ],
+      "scenario_id": "CANON-CONV-139",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia vyrsufis ul <TERM> uo livar."
+    },
+    {
+      "id": 31417,
+      "nrs": "klorniven",
+      "meaningJa": "円環のコンパクト次元、閉じた周期次元、環状空間軸",
+      "meaningEn": "compactified ring dimension, periodic spatial axis, circular coordinate plane",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "niven"
+      ],
+      "scenario_id": "CANON-CONV-139",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31418,
+      "nrs": "talvedil",
+      "meaningJa": "実証の真偽律、現実に即した判断基準、経験的真理律",
+      "meaningEn": "empirical truth-value law, grounded logical criterion, practical verity rule",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "vedil"
+      ],
+      "scenario_id": "CANON-CONV-140",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul vyrunvis uo klorcalor."
+    },
+    {
+      "id": 31419,
+      "nrs": "vyrunvis",
+      "meaningJa": "恒星の同一性、同定された天体の一致、星の固有同一性",
+      "meaningEn": "stellar identity, celestial object equivalence, astronomical cross-match",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "unvis"
+      ],
+      "scenario_id": "CANON-CONV-140",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia talvedil ul <TERM> uo klorcalor."
+    },
+    {
+      "id": 31420,
+      "nrs": "vyrzydis",
+      "meaningJa": "天体観測の証拠、星図による実証データ、天文の証跡",
+      "meaningEn": "astronomical evidence, observational proof, star-chart testimony",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "zydis"
+      ],
+      "scenario_id": "CANON-CONV-140",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo klorcalor."
+    },
+    {
+      "id": 31421,
+      "nrs": "darkivan",
+      "meaningJa": "水生細胞、潤いを保つ生体細胞、液胞豊かな細胞",
+      "meaningEn": "hydrated cell, aquatic biological cell, fluid-filled cellular unit",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "kivan"
+      ],
+      "scenario_id": "CANON-CONV-141",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul taldavel uo vorn."
+    },
+    {
+      "id": 31422,
+      "nrs": "taldavel",
+      "meaningJa": "力強い血潮、鉄分豊かな血液、生命の赤き血脈",
+      "meaningEn": "iron-rich bloodstream, vital terrestrial blood, robust arterial flow",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "davel"
+      ],
+      "scenario_id": "CANON-CONV-141",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia darkivan ul <TERM> uo vorn."
+    },
+    {
+      "id": 31423,
+      "nrs": "velduril",
+      "meaningJa": "しなやかな骨格、若木のように弾む骨、柔軟な体幹骨",
+      "meaningEn": "supple bone structure, resilient skeletal frame, lithe bone",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "duril"
+      ],
+      "scenario_id": "CANON-CONV-141",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo vorn."
+    },
+    {
+      "id": 31424,
+      "nrs": "talteira",
+      "meaningJa": "強靭な心臓、力強く脈打つ胸、不動の心音",
+      "meaningEn": "stalwart heart, strong cardiac beat, steadfast heart",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "teira"
+      ],
+      "scenario_id": "CANON-CONV-142",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul havzyvil uo vorn."
+    },
+    {
+      "id": 31425,
+      "nrs": "havzyvil",
+      "meaningJa": "熟成の煎じ薬、歳月を重ねた秘薬、年代物の養生薬",
+      "meaningEn": "time-aged medicine, matured herbal remedy, vintage healing tonic",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "zyvil"
+      ],
+      "scenario_id": "CANON-CONV-142",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia talteira ul <TERM> uo vorn."
+    },
+    {
+      "id": 31426,
+      "nrs": "vyrzyvor",
+      "meaningJa": "星下の活力、夜空から受ける生気、澄み渡る気力",
+      "meaningEn": "astral vitality, starlight stamina, celestial life vigor",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "zyvor"
+      ],
+      "scenario_id": "CANON-CONV-142",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo vorn."
+    },
+    {
+      "id": 31427,
+      "nrs": "talkylar",
+      "meaningJa": "旅路の疲労症、風土による体調不良、陸路の疲れ",
+      "meaningEn": "travel fatigue ailment, land-journey exhaustion, climate sickness",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "kylar"
+      ],
+      "scenario_id": "CANON-CONV-143",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul klorzyvas uo nerom."
+    },
+    {
+      "id": 31428,
+      "nrs": "klorzyvas",
+      "meaningJa": "円満な健康、心身一如の健やかさ、完全な健康状態",
+      "meaningEn": "holistic health, well-rounded wellness, complete physical harmony",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "zyvas"
+      ],
+      "scenario_id": "CANON-CONV-143",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el mi ia talkylar ul <TERM> uo nerom."
+    },
+    {
+      "id": 31429,
+      "nrs": "nerzyvor",
+      "meaningJa": "滋養の活力、食事から漲る体力、栄養による生気",
+      "meaningEn": "nutritional stamina, well-fed vigor, sustenance energy",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "zyvor"
+      ],
+      "scenario_id": "CANON-CONV-143",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo nerom."
+    },
+    {
+      "id": 31430,
+      "nrs": "darlarin",
+      "meaningJa": "浅瀬を渡る足、水辺の軽やかな足取り、舟乗りの足",
+      "meaningEn": "stream-wading foot, agile waterside step, mariner's sure footing",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "larin"
+      ],
+      "scenario_id": "CANON-CONV-144",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul velnoven uo domom."
+    },
+    {
+      "id": 31431,
+      "nrs": "velnoven",
+      "meaningJa": "博物学の頭脳、森の知恵を宿す頭、自然に通じた思考",
+      "meaningEn": "naturalist's head, botanical wisdom mind, ecological intellect",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "noven"
+      ],
+      "scenario_id": "CANON-CONV-144",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia darlarin ul <TERM> uo domom."
+    },
+    {
+      "id": 31432,
+      "nrs": "vyrfenel",
+      "meaningJa": "星詩を詠む口元、澄んだ朗唱の口、詩人の語り口",
+      "meaningEn": "star-chanting mouth, poetic reciting lips, luminous-spoken mouth",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "fenel"
+      ],
+      "scenario_id": "CANON-CONV-144",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo domom."
+    },
+    {
+      "id": 31433,
+      "nrs": "vyrnerel",
+      "meaningJa": "星祭りの祝宴料理、夜空の下の晩餐、星見の特別膳",
+      "meaningEn": "star-festival banquet meal, celestial supper dish, stargazer's feast",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "nerel"
+      ],
+      "scenario_id": "CANON-CONV-145",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Neran el mi ia <TERM> ul havvoril uo nerar."
+    },
+    {
+      "id": 31434,
+      "nrs": "havvoril",
+      "meaningJa": "年代物の果実酒、長期熟成の古酒ワイン、歳月の美酒",
+      "meaningEn": "vintage fruit wine, aged reserve cider, time-matured nectar",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "voril"
+      ],
+      "scenario_id": "CANON-CONV-145",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Neran el mi ia vyrnerel ul <TERM> uo nerar."
+    },
+    {
+      "id": 31435,
+      "nrs": "tynivorin",
+      "meaningJa": "銀皿の果実、白銀の皮を持つ木の実、霜降りの甘果",
+      "meaningEn": "silver-rinded fruit, argent orchard berry, frosted sweet fruit",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "vorin"
+      ],
+      "scenario_id": "CANON-CONV-145",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo nerar."
+    },
+    {
+      "id": 31436,
+      "nrs": "klornerom",
+      "meaningJa": "円環の共同厨房、車座の調理室、中央炉の炊事場",
+      "meaningEn": "rotunda communal kitchen, circular central-hearth galley, round culinary hall",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "nerom"
+      ],
+      "scenario_id": "CANON-CONV-146",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul talneror uo nerom."
+    },
+    {
+      "id": 31437,
+      "nrs": "talneror",
+      "meaningJa": "大地の料理人、根菜と穀物の調理師、郷土料理の達人",
+      "meaningEn": "countryside chef, root-and-grain cook, terrestrial culinary master",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "neror"
+      ],
+      "scenario_id": "CANON-CONV-146",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia klornerom ul <TERM> uo nerom."
+    },
+    {
+      "id": 31438,
+      "nrs": "talterin",
+      "meaningJa": "焙煎穀物の煎じ茶、大地の根菜茶、香ばしい麦と根の茶",
+      "meaningEn": "roasted grain tea, earthy root infusion, parched barley brew",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "terin"
+      ],
+      "scenario_id": "CANON-CONV-146",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo nerom."
+    },
+    {
+      "id": 31439,
+      "nrs": "klornerar",
+      "meaningJa": "円形広場のカフェ、車座の茶房、ロータリーの喫茶店",
+      "meaningEn": "rotunda plaza cafe, circular terrace teahouse, ring-square coffeehouse",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "nerar"
+      ],
+      "scenario_id": "CANON-CONV-147",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul dartenis uo nerar."
+    },
+    {
+      "id": 31440,
+      "nrs": "dartenis",
+      "meaningJa": "撥水の毛皮、水辺の獣の防寒皮、雨を弾く外套毛皮",
+      "meaningEn": "water-repellent fur, otter-like sleek pelt, weatherproof fleece",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "tenis"
+      ],
+      "scenario_id": "CANON-CONV-147",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia klornerar ul <TERM> uo nerar."
+    },
+    {
+      "id": 31441,
+      "nrs": "klorvalis",
+      "meaningJa": "輪舞の祝祭衣、円環紋の礼装、祭りのフレア衣装",
+      "meaningEn": "circle-dance vestment, ring-embroidered garment, festival full-skirted robe",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "valis"
+      ],
+      "scenario_id": "CANON-CONV-147",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo nerar."
+    },
+    {
+      "id": 31442,
+      "nrs": "talvelas",
+      "meaningJa": "大地の敷き葉、土壌を潤す落ち葉、地表の葉層",
+      "meaningEn": "fallen ground leaf, mulch foliage layer, terrestrial leaf litter",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "velas"
+      ],
+      "scenario_id": "CANON-CONV-148",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul velvelil uo velar."
+    },
+    {
+      "id": 31443,
+      "nrs": "velvelil",
+      "meaningJa": "深森の新芽、古木から萌える若芽、樹林の薬草芽",
+      "meaningEn": "deep-forest sprout, woodland herb shoot, sylvan tender bud",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "velil"
+      ],
+      "scenario_id": "CANON-CONV-148",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el mi ia talvelas ul <TERM> uo velar."
+    },
+    {
+      "id": 31444,
+      "nrs": "havvelar",
+      "meaningJa": "歳月の古庭園、歴史ある植物園、四季が巡る庭",
+      "meaningEn": "time-honored garden, historic botanical courtyard, four-season garden plot",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "velar"
+      ],
+      "scenario_id": "CANON-CONV-148",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo velar."
+    },
+    {
+      "id": 31445,
+      "nrs": "vyrcivom",
+      "meaningJa": "星辰の叙事詩、星座神話の長編詩、天の創世詩",
+      "meaningEn": "astral epic poem, star-mythology saga, celestial verse chronicle",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "civom"
+      ],
+      "scenario_id": "CANON-CONV-149",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul alinlyren uo livar."
+    },
+    {
+      "id": 31446,
+      "nrs": "alinlyren",
+      "meaningJa": "純白の鎮魂歌、清らかな祈りの挽歌、安らぎの白き歌",
+      "meaningEn": "pure white elegy, serene requiem hymn, alabaster song of solace",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "lyren"
+      ],
+      "scenario_id": "CANON-CONV-149",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia vyrcivom ul <TERM> uo livar."
+    },
+    {
+      "id": 31447,
+      "nrs": "klorpamel",
+      "meaningJa": "円環の全集本、完結した叢書ブック、輪綴じの冊子",
+      "meaningEn": "complete cycle book, ring-bound compendium, cyclical anthology volume",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "pamel"
+      ],
+      "scenario_id": "CANON-CONV-149",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31448,
+      "nrs": "darlyvel",
+      "meaningJa": "水辺の風景写真、湖面を写した光画、水影の写し絵",
+      "meaningEn": "waterscape photograph, lake-reflection image, aquatic scenic photo",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "lyvel"
+      ],
+      "scenario_id": "CANON-CONV-150",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul vyrfalos uo vorn."
+    },
+    {
+      "id": 31449,
+      "nrs": "vyrfalos",
+      "meaningJa": "恒星の分光、星光のスペクトル線、天体プリズム光",
+      "meaningEn": "stellar spectrum, starlight spectrograph, astral dispersion band",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "falos"
+      ],
+      "scenario_id": "CANON-CONV-150",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia darlyvel ul <TERM> uo vorn."
+    },
+    {
+      "id": 31450,
+      "nrs": "alinsilan",
+      "meaningJa": "純白の静謐美、澄み切った均整、曇りなきシンフォニー",
+      "meaningEn": "pure white consonance, immaculate aesthetic balance, crystal serenity",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "silan"
+      ],
+      "scenario_id": "CANON-CONV-150",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo vorn."
+    },
+    {
+      "id": 31451,
+      "nrs": "talsonir",
+      "meaningJa": "大地の豊穣夢、故郷の野を見る夢、安らかな大地の夢",
+      "meaningEn": "dream of the homeland, terrestrial harvest vision, grounded slumber reverie",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "sonir"
+      ],
+      "scenario_id": "CANON-CONV-151",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul velsoras uo velom."
+    },
+    {
+      "id": 31452,
+      "nrs": "velsoras",
+      "meaningJa": "年輪の記憶、森が伝える古い記憶、樹々の思い出",
+      "meaningEn": "tree-ring memory, woodland historical recollection, arboreal remembrance",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "soras"
+      ],
+      "scenario_id": "CANON-CONV-151",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia talsonir ul <TERM> uo velom."
+    },
+    {
+      "id": 31453,
+      "nrs": "velkefur",
+      "meaningJa": "自然への畏敬、原生林を仰ぐ畏敬の念、巨木への崇敬",
+      "meaningEn": "reverence for nature, sylvan sacred awe, veneration of the ancient woods",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "kefur"
+      ],
+      "scenario_id": "CANON-CONV-151",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo velom."
+    },
+    {
+      "id": 31454,
+      "nrs": "talfelyn",
+      "meaningJa": "現場の直感、大地に根ざした勘、経験から来る直観",
+      "meaningEn": "grounded intuition, earthy practical instinct, field-honed insight",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "felyn"
+      ],
+      "scenario_id": "CANON-CONV-152",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul velsylim uo govan."
+    },
+    {
+      "id": 31455,
+      "nrs": "velsylim",
+      "meaningJa": "緑陰の寛容心、森のように穏やかな心、包容力のある精神",
+      "meaningEn": "woodland serenity of mind, tolerant sylvan spirit, calm nurturing heart",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "sylim"
+      ],
+      "scenario_id": "CANON-CONV-152",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia talfelyn ul <TERM> uo govan."
+    },
+    {
+      "id": 31456,
+      "nrs": "havvyran",
+      "meaningJa": "時代を超える真理、歴史が証明する真実、不朽の理",
+      "meaningEn": "timeless truth, enduring historical verity, perennial wisdom",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "vyran"
+      ],
+      "scenario_id": "CANON-CONV-152",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo govan."
+    },
+    {
+      "id": 31457,
+      "nrs": "darmyren",
+      "meaningJa": "水辺の生活者、川や湖と共に生きる人間、水郷の住人",
+      "meaningEn": "waterside dweller, riverine human, maritime folk",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "myren"
+      ],
+      "scenario_id": "CANON-CONV-153",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul velpolor uo klorcalor."
+    },
+    {
+      "id": 31458,
+      "nrs": "velpolor",
+      "meaningJa": "森林都市の市民、緑地を守る住民、木立の街の市民",
+      "meaningEn": "garden-city citizen, woodland burgher, sylvan town resident",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "polor"
+      ],
+      "scenario_id": "CANON-CONV-153",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia darmyren ul <TERM> uo klorcalor."
+    },
+    {
+      "id": 31459,
+      "nrs": "talnovor",
+      "meaningJa": "現場の指導者、大地に立つリーダー、実務の先導役",
+      "meaningEn": "field leader, grounded civic director, hands-on pioneer chief",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "novor"
+      ],
+      "scenario_id": "CANON-CONV-153",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo klorcalor."
+    },
+    {
+      "id": 31460,
+      "nrs": "dardolor",
+      "meaningJa": "水路の働き手、港と運河の労働者、治水の職人",
+      "meaningEn": "waterway worker, canal and dock artisan, hydraulic laborer",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "dolor"
+      ],
+      "scenario_id": "CANON-CONV-154",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul veltarin uo domom."
+    },
+    {
+      "id": 31461,
+      "nrs": "veltarin",
+      "meaningJa": "入会森の採集権、森林の恵みを受ける権利、緑の共有権",
+      "meaningEn": "woodland commons right, forestry usufruct right, right to green shelter",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "tarin"
+      ],
+      "scenario_id": "CANON-CONV-154",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el mi ia dardolor ul <TERM> uo domom."
+    },
+    {
+      "id": 31462,
+      "nrs": "taltaros",
+      "meaningJa": "土地の基本法、農地と境界の法典、大地の成文法",
+      "meaningEn": "land law, agrarian and boundary code, terrestrial statute",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "taros"
+      ],
+      "scenario_id": "CANON-CONV-154",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo domom."
+    },
+    {
+      "id": 31463,
+      "nrs": "talcynas",
+      "meaningJa": "盤石の友情、大地に根を張る友愛、揺るぎない仲間意識",
+      "meaningEn": "grounded friendship, unshakeable camaraderie, rock-solid amity",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "cynas"
+      ],
+      "scenario_id": "CANON-CONV-155",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Cynel el mi ia <TERM> ul darcynor uo larar."
+    },
+    {
+      "id": 31464,
+      "nrs": "darcynor",
+      "meaningJa": "水魚の親友、水辺で語らう無二の友、心を許す盟友",
+      "meaningEn": "bosom friend of the waters, kindred-spirit confidant, inseparable companion",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "cynor"
+      ],
+      "scenario_id": "CANON-CONV-155",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Cynel el mi ia talcynas ul <TERM> uo larar."
+    },
+    {
+      "id": 31465,
+      "nrs": "velcynur",
+      "meaningJa": "森の恵みへの感謝、自然に対する謝意、収穫の礼意",
+      "meaningEn": "gratitude for the forest, thanksgiving to nature, appreciation of woodland bounty",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "cynur"
+      ],
+      "scenario_id": "CANON-CONV-155",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo larar."
+    },
+    {
+      "id": 31466,
+      "nrs": "talhavas",
+      "meaningJa": "実りの季節、大地の収穫期、農耕の旬",
+      "meaningEn": "harvest season, agricultural time of plenty, terrestrial crop season",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "havas"
+      ],
+      "scenario_id": "CANON-CONV-156",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul talhavel uo livar."
+    },
+    {
+      "id": 31467,
+      "nrs": "talhavel",
+      "meaningJa": "開拓の時代、礎を築いた地上時代、建設の世紀",
+      "meaningEn": "foundational era, age of land stewardship, terrestrial epoch",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "havel"
+      ],
+      "scenario_id": "CANON-CONV-156",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia talhavas ul <TERM> uo livar."
+    },
+    {
+      "id": 31468,
+      "nrs": "klorsevur",
+      "meaningJa": "合議の選択肢、円卓で練られた代替案、全員納得の選択",
+      "meaningEn": "consensus alternative, roundtable option, communally vetted choice",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "sevur"
+      ],
+      "scenario_id": "CANON-CONV-156",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31469,
+      "nrs": "vyrvalar",
+      "meaningJa": "星残る早朝、明けの明星の朝、暁の星明かり",
+      "meaningEn": "starlit early morning, morning-star dawn, astral daybreak",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "valar"
+      ],
+      "scenario_id": "CANON-CONV-157",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul talsovil uo daron."
+    },
+    {
+      "id": 31470,
+      "nrs": "talsovil",
+      "meaningJa": "陽だまりの真昼、大地が温まる日中、野の昼下がり",
+      "meaningEn": "sun-warmed midday, terrestrial noon, daytime over the fields",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "sovil"
+      ],
+      "scenario_id": "CANON-CONV-157",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia vyrvalar ul <TERM> uo daron."
+    },
+    {
+      "id": 31471,
+      "nrs": "tynikylas",
+      "meaningJa": "銀光の夕暮れ、夕星が瞬く黄昏、白銀の薄暮",
+      "meaningEn": "silvery evening, argent twilight, evening-star dusk",
+      "pos": "名",
+      "morphemes": [
+        "tyni",
+        "kylas"
+      ],
+      "scenario_id": "CANON-CONV-157",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo daron."
+    },
+    {
+      "id": 31472,
+      "nrs": "velzohar",
+      "meaningJa": "木漏れ日の太陽、樹間から差す陽光、森を照らす日輪",
+      "meaningEn": "sunlight through trees, canopy-filtered sun, woodland solar rays",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "zohar"
+      ],
+      "scenario_id": "CANON-CONV-158",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul dartynes uo govan."
+    },
+    {
+      "id": 31473,
+      "nrs": "dartynes",
+      "meaningJa": "水鏡の月、湖面に浮かぶ月影、水に映る名月",
+      "meaningEn": "water-mirrored moon, moonlight on the lake, reflected lunar crescent",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "tynes"
+      ],
+      "scenario_id": "CANON-CONV-158",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia velzohar ul <TERM> uo govan."
+    },
+    {
+      "id": 31474,
+      "nrs": "talpyris",
+      "meaningJa": "石炉の種火、大地の温もり火、消えない地炉の炎",
+      "meaningEn": "earthen hearth fire, stone-pit flame, grounded ember blaze",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "pyris"
+      ],
+      "scenario_id": "CANON-CONV-158",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo govan."
+    },
+    {
+      "id": 31475,
+      "nrs": "alinkyrom",
+      "meaningJa": "白銀の銀河団、輝く大星雲群、純白の銀河クラスタ",
+      "meaningEn": "luminous white galaxy cluster, silver-white galactic group, bright supercluster",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "kyrom"
+      ],
+      "scenario_id": "CANON-CONV-159",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul vyrkyron uo livar."
+    },
+    {
+      "id": 31476,
+      "nrs": "vyrkyron",
+      "meaningJa": "恒星質量の黒孔、星の終焉のブラックホール、天体の重力孔",
+      "meaningEn": "stellar-mass black hole, collapsed-star singularity, astral gravity well",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "kyron"
+      ],
+      "scenario_id": "CANON-CONV-159",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia alinkyrom ul <TERM> uo livar."
+    },
+    {
+      "id": 31477,
+      "nrs": "darkyrim",
+      "meaningJa": "水鏡に映る深淵、静水のような深宇宙、蒼き宇宙の深淵",
+      "meaningEn": "mirror-still deep space, abyssal void of waters, tranquil cosmic depth",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "kyrim"
+      ],
+      "scenario_id": "CANON-CONV-159",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo livar."
+    },
+    {
+      "id": 31478,
+      "nrs": "havlivar",
+      "meaningJa": "歳月の星辰書庫、歴史を継ぐ大図書館、年代記の典籍殿",
+      "meaningEn": "chronicle astral repository, time-honored grand archive, perennial library hall",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "livar"
+      ],
+      "scenario_id": "CANON-CONV-160",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> ul darsirar uo livar."
+    },
+    {
+      "id": 31479,
+      "nrs": "darsirar",
+      "meaningJa": "水辺の平穏、潤いと和みの平和、静水のような安寧",
+      "meaningEn": "waterside peace, tranquil riparian accord, serene calm of streams",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "sirar"
+      ],
+      "scenario_id": "CANON-CONV-160",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia havlivar ul <TERM> uo livar."
+    },
+    {
+      "id": 31480,
+      "nrs": "klorzevil",
+      "meaningJa": "完結した円環記述譜、全巻を結ぶ星辰記述文、輪の正本コード",
+      "meaningEn": "complete cyclical script, concentric canonical notation, full-circle scroll",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "zevil"
+      ],
+      "scenario_id": "CANON-CONV-160",
       "flags": [],
       "missingStandaloneConstituents": [],
       "exactGlossOverlaps": {},

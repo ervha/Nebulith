@@ -1,13 +1,13 @@
-# 正本複合語360語・120対話シナリオによる保留候補救済監査レポート (Phase 1〜20 完了記録)
+# 正本複合語480語・160対話シナリオによる保留候補救済監査レポート (Phase 1〜24 完了記録)
 
 - **対象データセット**: `data/verified_canonical_compounds.json`
 - **機械監査レポート**: `audit/maintenance/canonical-compounds-batch1-20261019.json`
 - **派生典籍出力**: `docs/Valnes_dialogues.html` / `docs/Valnes_dialogues.pdf` / `docs/VALNES_DIALOGUES_COMPANION.md`
-- **検証済み正本複合語数**: **360 語**（全30バッチ：`Batch 1` 〜 `Batch 30`）
-- **実証済み2話者対話シナリオ数**: **120 篇**（`CANON-CONV-01` 〜 `CANON-CONV-120`）
+- **検証済み正本複合語数**: **480 語**（全40バッチ：`Batch 1` 〜 `Batch 40`）
+- **実証済み2話者対話シナリオ数**: **160 篇**（`CANON-CONV-01` 〜 `CANON-CONV-160`）
 - **監査判定**: **`ZERO_FLAGS_VERIFIED`（監査フラグ 0 件）**
 - **旧保留台帳（`data/emergent_lexicon_audit.json`）総数**: 1020 件（うち日常会話 `CONV-*` 500 件）
-- **正本複合語へのリマッピング（救済対応付け）完了件数**: **360 件**
+- **正本複合語へのリマッピング（救済対応付け）完了件数**: **480 件**
 
 ## 1. バッチ別構成と監査結果
 
@@ -43,10 +43,20 @@
 | **Batch 28** | `CANON-CONV-109` 〜 `CANON-CONV-112` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 | **Batch 29** | `CANON-CONV-113` 〜 `CANON-CONV-116` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 | **Batch 30** | `CANON-CONV-117` 〜 `CANON-CONV-120` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 31** | `CANON-CONV-121` 〜 `CANON-CONV-124` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 32** | `CANON-CONV-125` 〜 `CANON-CONV-128` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 33** | `CANON-CONV-129` 〜 `CANON-CONV-132` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 34** | `CANON-CONV-133` 〜 `CANON-CONV-136` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 35** | `CANON-CONV-137` 〜 `CANON-CONV-140` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 36** | `CANON-CONV-141` 〜 `CANON-CONV-144` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 37** | `CANON-CONV-145` 〜 `CANON-CONV-148` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 38** | `CANON-CONV-149` 〜 `CANON-CONV-152` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 39** | `CANON-CONV-153` 〜 `CANON-CONV-156` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
+| **Batch 40** | `CANON-CONV-157` 〜 `CANON-CONV-160` | 12 語 | 100% (`data/lexicon.json`) | 100% 実証済み | **0 件** |
 
-## 2. 旧保留候補（非自立語根を含む合成語）からのリマッピング対応表（抜粋50件＋全360件要約）
+## 2. 旧保留候補（非自立語根を含む合成語）からのリマッピング対応表（抜粋50件＋全480件要約）
 
-旧生成スクリプト（`CORE_MORPHEMES` の非辞書語根 `kel`, `vas`, `pel` 等や `r[:3]` 切り詰めを使用していたもの）で生成された保留候補に対し、正本辞書（`data/lexicon.json`）の単独語根2つのみを連結した正本複合語360語を1対1で対応付けました。
+旧生成スクリプト（`CORE_MORPHEMES` の非辞書語根 `kel`, `vas`, `pel` 等や `r[:3]` 切り詰めを使用していたもの）で生成された保留候補に対し、正本辞書（`data/lexicon.json`）の単独語根2つのみを連結した正本複合語480語を1対1で対応付けました。
 
 | 正本複合語 ID | 正本複合語 (`nrs`) | 正本語根分解 | 日本語定義 | 代替対象の旧保留 ID | 旧保留語 (`legacyNrs`) | 旧形態素 |
 | :---: | :--- | :--- | :--- | :---: | :--- | :--- |
@@ -101,7 +111,7 @@
 | `#31049` | **`tyniserel`** | `tyni + serel` | 銀の小刀、白銀の刃物、銀細工ナイフ | `#40569` | `kymfal` | `kym + fal` |
 | `#31050` | **`veldolar`** | `vel + dolar` | 木工仕事、木彫りの勤労、木材加工 | `#40570` | `kymjyl` | `kym + jyl` |
 
-> 全 360 件の完全なリマッピング対応表は `data/verified_canonical_compounds.json` の `remappingTable` フィールドに収録されています。
+> 全 480 件の完全なリマッピング対応表は `data/verified_canonical_compounds.json` の `remappingTable` フィールドに収録されています。
 
 ## 3. 正本・歴史的監査スナップショットの不変性確認
 

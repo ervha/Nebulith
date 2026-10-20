@@ -28,6 +28,11 @@ assert.equal(r4.success, true);
 assert.ok(r4.text.startsWith('Sen '), 'Expected Sen in ' + r4.text);
 assert.ok(r4.text.toLowerCase().includes('vyrcelar'), 'Expected vyrcelar in ' + r4.text);
 
+const r5 = bi.translateEnglishToNebulith('I want to observe darfalun.');
+assert.equal(r5.success, true);
+assert.ok(r5.text.toLowerCase().includes('vyrelast'), 'Expected vyrelast in ' + r5.text);
+assert.ok(r5.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + r5.text);
+
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -35,4 +40,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4 }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5 }));
