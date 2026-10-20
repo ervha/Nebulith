@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1.0",
-  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-63)",
-  "generatedAt": "2026-10-20T06:49:51.921829+00:00",
+  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-66)",
+  "generatedAt": "2026-10-20T07:13:46.347590+00:00",
   "source": "data/lexicon.json",
   "validator": "tools/canonical_compound_validator.py",
   "summary": {
-    "totalEntries": 710,
-    "totalScenarios": 237,
+    "totalEntries": 740,
+    "totalScenarios": 247,
     "batches": [
       "Batch 1",
       "Batch 2",
@@ -70,12 +70,15 @@
       "Batch 60",
       "Batch 61",
       "Batch 62",
-      "Batch 63"
+      "Batch 63",
+      "Batch 64",
+      "Batch 65",
+      "Batch 66"
     ],
     "auditFlagCount": 0,
     "allConstituentsStandalone": true,
     "twoSpeakerReuseVerified": true,
-    "remediatedLegacyCount": 710
+    "remediatedLegacyCount": 740
   },
   "remappingTable": [
     {
@@ -10727,6 +10730,456 @@
         "pal",
         "dar"
       ]
+    },
+    {
+      "canonicalCompoundId": 31711,
+      "canonicalNrs": "jynbion",
+      "canonicalMorphemes": [
+        "jyn",
+        "bion"
+      ],
+      "canonicalMeaningJa": "根源の活力、内なる情熱の萌芽、活動の活力源",
+      "remediatedLegacyId": 40243,
+      "legacyNrs": "palsul",
+      "legacyMorphemes": [
+        "pal",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31712,
+      "canonicalNrs": "kymelir",
+      "canonicalMorphemes": [
+        "kym",
+        "elir"
+      ],
+      "canonicalMeaningJa": "黄昏の安息、静謐の慰め、夕暮れの安らぎ",
+      "remediatedLegacyId": 40244,
+      "legacyNrs": "palbion",
+      "legacyMorphemes": [
+        "pal",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31713,
+      "canonicalNrs": "daralin",
+      "canonicalMorphemes": [
+        "dar",
+        "alin"
+      ],
+      "canonicalMeaningJa": "清澄な追憶、心の雫、澄みわたる愁情",
+      "remediatedLegacyId": 40245,
+      "legacyNrs": "palsir",
+      "legacyMorphemes": [
+        "pal",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31714,
+      "canonicalNrs": "kivunor",
+      "canonicalMorphemes": [
+        "kiv",
+        "unor"
+      ],
+      "canonicalMeaningJa": "直観の閃き、着想の初動点、発想の萌芽",
+      "remediatedLegacyId": 40246,
+      "legacyNrs": "paltul",
+      "legacyMorphemes": [
+        "pal",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31715,
+      "canonicalNrs": "talseno",
+      "canonicalMorphemes": [
+        "tal",
+        "seno"
+      ],
+      "canonicalMeaningJa": "大地の如き確信、不動の直視、揺るがぬ信念",
+      "remediatedLegacyId": 40247,
+      "legacyNrs": "palpel",
+      "legacyMorphemes": [
+        "pal",
+        "pel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31716,
+      "canonicalNrs": "vyrelir",
+      "canonicalMorphemes": [
+        "vyr",
+        "elir"
+      ],
+      "canonicalMeaningJa": "星辰崇敬の歓喜、大いなる天への祝祭感、星辰礼賛心",
+      "remediatedLegacyId": 40248,
+      "legacyNrs": "palnel",
+      "legacyMorphemes": [
+        "pal",
+        "nel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31717,
+      "canonicalNrs": "velhano",
+      "canonicalMorphemes": [
+        "vel",
+        "hano"
+      ],
+      "canonicalMeaningJa": "祈りの風路、切なる祈望、風の巡行",
+      "remediatedLegacyId": 40249,
+      "legacyNrs": "palsel",
+      "legacyMorphemes": [
+        "pal",
+        "sel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31718,
+      "canonicalNrs": "kymfeno",
+      "canonicalMorphemes": [
+        "kym",
+        "feno"
+      ],
+      "canonicalMeaningJa": "黄昏の語らい、夕暮れの沈思告白、静かな独白",
+      "remediatedLegacyId": 40250,
+      "legacyNrs": "paltor",
+      "legacyMorphemes": [
+        "pal",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31719,
+      "canonicalNrs": "jynunor",
+      "canonicalMorphemes": [
+        "jyn",
+        "unor"
+      ],
+      "canonicalMeaningJa": "探究の始動熱、起動エネルギー、熱き前進力",
+      "remediatedLegacyId": 40251,
+      "legacyNrs": "palkel",
+      "legacyMorphemes": [
+        "pal",
+        "kel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31720,
+      "canonicalNrs": "nerfeno",
+      "canonicalMorphemes": [
+        "ner",
+        "feno"
+      ],
+      "canonicalMeaningJa": "盟約の誓詞、信義の誓約言、共食の契り",
+      "remediatedLegacyId": 40252,
+      "legacyNrs": "palvyr",
+      "legacyMorphemes": [
+        "pal",
+        "vyr"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31721,
+      "canonicalNrs": "kymhano",
+      "canonicalMorphemes": [
+        "kym",
+        "hano"
+      ],
+      "canonicalMeaningJa": "黄昏の旅立ち、惜別の見送り、名残惜しき別れ",
+      "remediatedLegacyId": 40253,
+      "legacyNrs": "palsol",
+      "legacyMorphemes": [
+        "pal",
+        "sol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31722,
+      "canonicalNrs": "talelir",
+      "canonicalMorphemes": [
+        "tal",
+        "elir"
+      ],
+      "canonicalMeaningJa": "和解の祝祭、大地の歓喜、融和の慶び",
+      "remediatedLegacyId": 40254,
+      "legacyNrs": "palcel",
+      "legacyMorphemes": [
+        "pal",
+        "cel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31723,
+      "canonicalNrs": "kivvorn",
+      "canonicalMorphemes": [
+        "kiv",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "誓約の条文、信義の定款、規約の明文化",
+      "remediatedLegacyId": 40255,
+      "legacyNrs": "palval",
+      "legacyMorphemes": [
+        "pal",
+        "val"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31724,
+      "canonicalNrs": "talhano",
+      "canonicalMorphemes": [
+        "tal",
+        "hano"
+      ],
+      "canonicalMeaningJa": "礼節の拝礼、敬虔な歩み、大地への礼拝",
+      "remediatedLegacyId": 40256,
+      "legacyNrs": "palhar",
+      "legacyMorphemes": [
+        "pal",
+        "har"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31725,
+      "canonicalNrs": "nerlyka",
+      "canonicalMorphemes": [
+        "ner",
+        "lyka"
+      ],
+      "canonicalMeaningJa": "歓待の饗宴座、共食の宴席、歓喜の食卓",
+      "remediatedLegacyId": 40257,
+      "legacyNrs": "pallun",
+      "legacyMorphemes": [
+        "pal",
+        "lun"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31726,
+      "canonicalNrs": "darseno",
+      "canonicalMorphemes": [
+        "dar",
+        "seno"
+      ],
+      "canonicalMeaningJa": "澄んだまなざしの友、水鏡の観察者、腹心の友",
+      "remediatedLegacyId": 40258,
+      "legacyNrs": "palpar",
+      "legacyMorphemes": [
+        "pal",
+        "par"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31727,
+      "canonicalNrs": "klorfeno",
+      "canonicalMorphemes": [
+        "klor",
+        "feno"
+      ],
+      "canonicalMeaningJa": "沈黙の了解、静けき合意、言葉少なの同意",
+      "remediatedLegacyId": 40259,
+      "legacyNrs": "palvel",
+      "legacyMorphemes": [
+        "pal",
+        "vel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31728,
+      "canonicalNrs": "velseno",
+      "canonicalMorphemes": [
+        "vel",
+        "seno"
+      ],
+      "canonicalMeaningJa": "風の示唆、先見の助言、導きの観察知",
+      "remediatedLegacyId": 40260,
+      "legacyNrs": "palvan",
+      "legacyMorphemes": [
+        "pal",
+        "van"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31729,
+      "canonicalNrs": "klorlyka",
+      "canonicalMorphemes": [
+        "klor",
+        "lyka"
+      ],
+      "canonicalMeaningJa": "座談の円座、憩いの集会座、親交の車座",
+      "remediatedLegacyId": 40261,
+      "legacyNrs": "palkor",
+      "legacyMorphemes": [
+        "pal",
+        "kor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31730,
+      "canonicalNrs": "talbion",
+      "canonicalMorphemes": [
+        "tal",
+        "bion"
+      ],
+      "canonicalMeaningJa": "盟約の礎石、大地の種、信義の培土",
+      "remediatedLegacyId": 40262,
+      "legacyNrs": "paltas",
+      "legacyMorphemes": [
+        "pal",
+        "tas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31731,
+      "canonicalNrs": "jynlyka",
+      "canonicalMorphemes": [
+        "jyn",
+        "lyka"
+      ],
+      "canonicalMeaningJa": "結束の連帯節、絆の結節点、堅き連繋",
+      "remediatedLegacyId": 40263,
+      "legacyNrs": "pallin",
+      "legacyMorphemes": [
+        "pal",
+        "lin"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31732,
+      "canonicalNrs": "velbion",
+      "canonicalMorphemes": [
+        "vel",
+        "bion"
+      ],
+      "canonicalMeaningJa": "風の息吹き、穏やかな融和、萌芽の和合",
+      "remediatedLegacyId": 40264,
+      "legacyNrs": "pallen",
+      "legacyMorphemes": [
+        "pal",
+        "len"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31733,
+      "canonicalNrs": "tykualin",
+      "canonicalMorphemes": [
+        "tyku",
+        "alin"
+      ],
+      "canonicalMeaningJa": "礼に適った敬礼、時宜を得た辞儀、礼節の挨拶",
+      "remediatedLegacyId": 40265,
+      "legacyNrs": "palmin",
+      "legacyMorphemes": [
+        "pal",
+        "min"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31734,
+      "canonicalNrs": "fenoelir",
+      "canonicalMorphemes": [
+        "feno",
+        "elir"
+      ],
+      "canonicalMeaningJa": "歓待の祝歌、歓迎の祝辞、宴の歓声",
+      "remediatedLegacyId": 40266,
+      "legacyNrs": "palfen",
+      "legacyMorphemes": [
+        "pal",
+        "fen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31735,
+      "canonicalNrs": "darhano",
+      "canonicalMorphemes": [
+        "dar",
+        "hano"
+      ],
+      "canonicalMeaningJa": "水脈の道連れ、清らかな同行、深まる親交",
+      "remediatedLegacyId": 40267,
+      "legacyNrs": "vasdar",
+      "legacyMorphemes": [
+        "vas",
+        "dar"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31736,
+      "canonicalNrs": "kymseno",
+      "canonicalMorphemes": [
+        "kym",
+        "seno"
+      ],
+      "canonicalMeaningJa": "黄昏の凝視、深奥の合意、静寂の直視",
+      "remediatedLegacyId": 40268,
+      "legacyNrs": "vassul",
+      "legacyMorphemes": [
+        "vas",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31737,
+      "canonicalNrs": "fenovorn",
+      "canonicalMorphemes": [
+        "feno",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "秩序ある助言、教導の言、整調の教え",
+      "remediatedLegacyId": 40269,
+      "legacyNrs": "vasbion",
+      "legacyMorphemes": [
+        "vas",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31738,
+      "canonicalNrs": "velunor",
+      "canonicalMorphemes": [
+        "vel",
+        "unor"
+      ],
+      "canonicalMeaningJa": "協和の座談、調和の評議展開、風通しの良き会談",
+      "remediatedLegacyId": 40270,
+      "legacyNrs": "vassir",
+      "legacyMorphemes": [
+        "vas",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31739,
+      "canonicalNrs": "kivalin",
+      "canonicalMorphemes": [
+        "kiv",
+        "alin"
+      ],
+      "canonicalMeaningJa": "澄明なる憲章条文、共同体の清浄な基本規約、基本憲章",
+      "remediatedLegacyId": 40271,
+      "legacyNrs": "vaspal",
+      "legacyMorphemes": [
+        "vas",
+        "pal"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31740,
+      "canonicalNrs": "jynvorn",
+      "canonicalMorphemes": [
+        "jyn",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "公正なる仲裁評定、調和ある公判、規律の審判",
+      "remediatedLegacyId": 40272,
+      "legacyNrs": "vaszen",
+      "legacyMorphemes": [
+        "vas",
+        "zen"
+      ]
     }
   ],
   "scenarios": [
@@ -17331,6 +17784,276 @@
           "speaker": "Yura",
           "nebulith": "Soran el mi ia polorvyri. Vymin el mi ia jylasvyr. Vymin el miin ia jylaselir ul polorvyri.",
           "japanese": "私は市民栄誉位の名簿を清書する。私は盟約星辰徽章を称える。私たちは同盟慶祝歓喜と市民栄誉位の格式を守り抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-71",
+      "batch": "Batch 64",
+      "domain": "感情・精神・内省心理",
+      "title": "観測塔における内省と天体思索の夜話",
+      "communicative_need": "観測士と記録士が夜間の天体思索において、根源の活力、夕暮れの安息、澄んだ追憶の雫について語り合う。",
+      "agent_a": {
+        "name": "Solis",
+        "role": "観測塔の天文学徒"
+      },
+      "agent_b": {
+        "name": "Mirel",
+        "role": "星辰の推移を記録する書記"
+      },
+      "turns": [
+        {
+          "speaker": "Solis",
+          "nebulith": "Vyrel el mi ia jynbion ul kymelir. Relen el mi ia daralin to govan.",
+          "japanese": "私は根源の活力と黄昏の安息を観測する。私は家へ向けて清澄な追憶を得る。"
+        },
+        {
+          "speaker": "Mirel",
+          "nebulith": "Vymin el mi ia kymelir. Vyrel el mi ia daralin. Vymin el miin ia jynbion ul daralin.",
+          "japanese": "私は黄昏の安息を守る。私は清澄な追憶を確かめる。私たちは根源の活力と清澄な追憶を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-72",
+      "batch": "Batch 64",
+      "domain": "直観・決意・畏怖の境地",
+      "title": "黎明の望楼における直観の閃きと信念の確認",
+      "communicative_need": "二人の探究者が観測の黎明期において、着想の初動点、揺るがぬ観測の決意、星への畏敬を確かめ合う。",
+      "agent_a": {
+        "name": "Alor",
+        "role": "黎明望楼の当直員"
+      },
+      "agent_b": {
+        "name": "Cyris",
+        "role": "星辰直観を記録する学徒"
+      },
+      "turns": [
+        {
+          "speaker": "Alor",
+          "nebulith": "Vyrel el mi ia kivunor ul talseno. Relen el mi ia vyrelir to govan.",
+          "japanese": "私は直観の閃きと大地の如き確信を観測する。私は家へ向けて星辰への畏敬を得る。"
+        },
+        {
+          "speaker": "Cyris",
+          "nebulith": "Vymin el mi ia talseno. Vyrel el mi ia vyrelir. Vymin el miin ia kivunor ul vyrelir.",
+          "japanese": "私は大地の如き確信を守る。私は星辰への畏敬を確かめる。私たちは直観の閃きと星辰への畏敬を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-73",
+      "batch": "Batch 64",
+      "domain": "風路調律と探究の熱気",
+      "title": "風路計器座における調律と探究熱の点検",
+      "communicative_need": "風導士と機関士が計器座を点検し、風に託す祈望、夕刻の内省語らい、探究の起動熱を点検する。",
+      "agent_a": {
+        "name": "Velan",
+        "role": "風路計器の調律師"
+      },
+      "agent_b": {
+        "name": "Taris",
+        "role": "機関工匠"
+      },
+      "turns": [
+        {
+          "speaker": "Velan",
+          "nebulith": "Vyrel el mi ia velhano ul kymfeno. Relen el mi ia jynunor to govan.",
+          "japanese": "私は祈りの風路と黄昏の語らいを観測する。私は家へ向けて探究の始動熱を得る。"
+        },
+        {
+          "speaker": "Taris",
+          "nebulith": "Vymin el mi ia kymfeno. Vyrel el mi ia jynunor. Vymin el miin ia velhano ul jynunor.",
+          "japanese": "私は黄昏の語らいを守る。私は探究の始動熱を確かめる。私たちは祈りの風路と探究の始動熱を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-74",
+      "batch": "Batch 64",
+      "domain": "儀礼と絆・交友の杯",
+      "title": "誓約の広場における交友と和解の儀式",
+      "communicative_need": "二人の代表者が広場にて誓いの杯を交わし、惜別の旅立ちを見送り、大地の和解を祝う。",
+      "agent_a": {
+        "name": "Neron",
+        "role": "誓約の宴を司る長老"
+      },
+      "agent_b": {
+        "name": "Laris",
+        "role": "旅立ちの友を見送る使節"
+      },
+      "turns": [
+        {
+          "speaker": "Neron",
+          "nebulith": "Vyrel el mi ia nerfeno ul kymhano. Relen el mi ia talelir to govan.",
+          "japanese": "私は盟約の誓詞と黄昏の旅立ちを観測する。私は家へ向けて和解の祝祭を得る。"
+        },
+        {
+          "speaker": "Laris",
+          "nebulith": "Vymin el mi ia kymhano. Vyrel el mi ia talelir. Vymin el miin ia nerfeno ul talelir.",
+          "japanese": "私は黄昏の旅立ちを守る。私は和解の祝祭を確かめる。私たちは盟約の誓詞と和解の祝祭を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-75",
+      "batch": "Batch 65",
+      "domain": "誓詞と礼節の場",
+      "title": "公館における信義の定款と饗宴座の設営",
+      "communicative_need": "官吏と給仕頭が公館において誓約条文を確かめ、礼節の拝礼を行い、饗宴座を設営する。",
+      "agent_a": {
+        "name": "Kivar",
+        "role": "公館の規約記帳官"
+      },
+      "agent_b": {
+        "name": "Beron",
+        "role": "饗宴座を司る典礼役"
+      },
+      "turns": [
+        {
+          "speaker": "Kivar",
+          "nebulith": "Vyrel el mi ia kivvorn ul talhano. Relen el mi ia nerlyka to govan.",
+          "japanese": "私は誓約の条文と礼節の拝礼を観測する。私は家へ向けて歓待の饗宴座を得る。"
+        },
+        {
+          "speaker": "Beron",
+          "nebulith": "Vymin el mi ia talhano. Vyrel el mi ia nerlyka. Vymin el miin ia kivvorn ul nerlyka.",
+          "japanese": "私は礼節の拝礼を守る。私は歓待の饗宴座を確かめる。私たちは誓約の条文と歓待の饗宴座を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-76",
+      "batch": "Batch 65",
+      "domain": "友情と相互了解",
+      "title": "静夜の書庫における腹心の友との語らい",
+      "communicative_need": "二人の学識者が書庫にて、澄んだまなざしの友との絆、沈黙の了解、風の如き示唆を確かめ合う。",
+      "agent_a": {
+        "name": "Doran",
+        "role": "古文書の解読士"
+      },
+      "agent_b": {
+        "name": "Selis",
+        "role": "思索を分かち合う腹心の学徒"
+      },
+      "turns": [
+        {
+          "speaker": "Doran",
+          "nebulith": "Vyrel el mi ia darseno ul klorfeno. Relen el mi ia velseno to govan.",
+          "japanese": "私は澄んだまなざしの友と沈黙の了解を観測する。私は家へ向けて風の示唆を得る。"
+        },
+        {
+          "speaker": "Selis",
+          "nebulith": "Vymin el mi ia klorfeno. Vyrel el mi ia velseno. Vymin el miin ia darseno ul velseno.",
+          "japanese": "私は沈黙の了解を守る。私は風の示唆を確かめる。私たちは澄んだまなざしの友と風の示唆を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-77",
+      "batch": "Batch 65",
+      "domain": "集いの輪と信義",
+      "title": "回廊の集会座における車座の歓談と結束",
+      "communicative_need": "会衆と世話役が回廊の車座に集い、座談の円座を囲み、大地の誓いと連帯の節を固め合う。",
+      "agent_a": {
+        "name": "Kloren",
+        "role": "集会座の進行役"
+      },
+      "agent_b": {
+        "name": "Jynor",
+        "role": "共同体の連携係"
+      },
+      "turns": [
+        {
+          "speaker": "Kloren",
+          "nebulith": "Vyrel el mi ia klorlyka ul talbion. Relen el mi ia jynlyka to govan.",
+          "japanese": "私は座談の円座と盟約の礎石を観測する。私は家へ向けて結束の連帯節を得る。"
+        },
+        {
+          "speaker": "Jynor",
+          "nebulith": "Vymin el mi ia talbion. Vyrel el mi ia jynlyka. Vymin el miin ia klorlyka ul jynlyka.",
+          "japanese": "私は盟約の礎石を守る。私は結束の連帯節を確かめる。私たちは座談の円座と結束の連帯節を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-78",
+      "batch": "Batch 66",
+      "domain": "和合と共鳴の所作",
+      "title": "迎賓館の広間における礼節の挨拶と祝歌",
+      "communicative_need": "使者と迎賓長が広間にて風の如き融和を交わし、礼に適った敬礼を捧げ、歓待の祝歌を響かせる。",
+      "agent_a": {
+        "name": "Velir",
+        "role": "遠方より到着した親善使"
+      },
+      "agent_b": {
+        "name": "Fenon",
+        "role": "迎賓館の儀典長"
+      },
+      "turns": [
+        {
+          "speaker": "Velir",
+          "nebulith": "Vyrel el mi ia velbion ul tykualin. Relen el mi ia fenoelir to govan.",
+          "japanese": "私は風の息吹きと礼に適った敬礼を観測する。私は家へ向けて歓待の祝歌を得る。"
+        },
+        {
+          "speaker": "Fenon",
+          "nebulith": "Vymin el mi ia tykualin. Vyrel el mi ia fenoelir. Vymin el miin ia velbion ul fenoelir.",
+          "japanese": "私は礼に適った敬礼を守る。私は歓待の祝歌を確かめる。私たちは風の息吹きと歓待の祝歌を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-79",
+      "batch": "Batch 66",
+      "domain": "協調と思慮の深まり",
+      "title": "水辺の回廊における深奥の合意と教導",
+      "communicative_need": "導師と徒弟が水辺の回廊を歩み、清らかな同行を喜び、夕暮れの深奥の合意を交わし、秩序ある助言を授ける。",
+      "agent_a": {
+        "name": "Daren",
+        "role": "水路回廊を巡視する導師"
+      },
+      "agent_b": {
+        "name": "Kymis",
+        "role": "教えを受ける若き書記"
+      },
+      "turns": [
+        {
+          "speaker": "Daren",
+          "nebulith": "Vyrel el mi ia darhano ul kymseno. Relen el mi ia fenovorn to govan.",
+          "japanese": "私は水脈の道連れと黄昏の凝視を観測する。私は家へ向けて秩序ある助言を得る。"
+        },
+        {
+          "speaker": "Kymis",
+          "nebulith": "Vymin el mi ia kymseno. Vyrel el mi ia fenovorn. Vymin el miin ia darhano ul fenovorn.",
+          "japanese": "私は黄昏の凝視を守る。私は秩序ある助言を確かめる。私たちは水脈の道連れと秩序ある助言を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-COLAB-80",
+      "batch": "Batch 66",
+      "domain": "共同体憲章と協和",
+      "title": "大評議場における基本憲章の布告と公正なる評定",
+      "communicative_need": "議長と法務官が大評議場にて協和の座談を開き、共同体の清浄なる基本憲章を布告し、公正なる仲裁評定を下す。",
+      "agent_a": {
+        "name": "Velmon",
+        "role": "大評議場の議長"
+      },
+      "agent_b": {
+        "name": "Kivan",
+        "role": "法規を司る法務官"
+      },
+      "turns": [
+        {
+          "speaker": "Velmon",
+          "nebulith": "Vyrel el mi ia velunor ul kivalin. Relen el mi ia jynvorn to govan.",
+          "japanese": "私は協和の座談と澄明なる憲章条文を観測する。私は家へ向けて公正なる仲裁評定を得る。"
+        },
+        {
+          "speaker": "Kivan",
+          "nebulith": "Vymin el mi ia kivalin. Vyrel el mi ia jynvorn. Vymin el miin ia velunor ul jynvorn.",
+          "japanese": "私は澄明なる憲章条文を守る。私は公正なる仲裁評定を確かめる。私たちは協和の座談と公正なる仲裁評定を共に保ち抜く。"
         }
       ]
     }
@@ -44313,6 +45036,1146 @@
       "speakers": [
         "Sev",
         "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "jynbion",
+      "pos": "名",
+      "meaningJa": "根源の活力、内なる情熱の萌芽、活動の活力源",
+      "meaningEn": "inward vital energy, budding passion, source of spiritual vigor",
+      "morphemes": [
+        "jyn",
+        "bion"
+      ],
+      "etymology": "jyn(電荷/活力) + bion(生/萌芽)",
+      "category": "4. 生命・生体・医療",
+      "example_sentence": "Vyrel el mi ia jynbion.",
+      "example_ja": "私は根源の活力を観測する。",
+      "id": 31711,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-71",
+      "domain": "感情・精神・内省心理",
+      "constituentEntries": [
+        {
+          "id": 132,
+          "nrs": "jyn",
+          "pos": "名",
+          "meaningJa": "電気、電力、電荷、エネルギー"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40243,
+      "speakers": [
+        "Mirel",
+        "Solis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymelir",
+      "pos": "名",
+      "meaningJa": "黄昏の安息、静謐の慰め、夕暮れの安らぎ",
+      "meaningEn": "twilight solace, tranquil peace, evening serenity",
+      "morphemes": [
+        "kym",
+        "elir"
+      ],
+      "etymology": "kym(黄昏) + elir(歓喜/祝い)",
+      "category": "14. 精神・哲学・感情・芸術",
+      "example_sentence": "Relen el mi ia kymelir uo vyrelar.",
+      "example_ja": "私は観測塔において夕暮れの安息を得る。",
+      "id": 31712,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-71",
+      "domain": "感情・精神・内省心理",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40244,
+      "speakers": [
+        "Mirel",
+        "Solis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "daralin",
+      "pos": "名",
+      "meaningJa": "清澄な追憶、心の雫、澄みわたる愁情",
+      "meaningEn": "clear reminiscence, pure tear of reflection, lucid nostalgia",
+      "morphemes": [
+        "dar",
+        "alin"
+      ],
+      "etymology": "dar(雫) + alin(清澄な)",
+      "category": "14. 精神・哲学・感情・芸術",
+      "example_sentence": "Vyrel el mi ia daralin.",
+      "example_ja": "私は清澄な追憶を心に留める。",
+      "id": 31713,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-71",
+      "domain": "感情・精神・内省心理",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40245,
+      "speakers": [
+        "Mirel",
+        "Solis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kivunor",
+      "pos": "名",
+      "meaningJa": "直観の閃き、着想の初動点、発想の萌芽",
+      "meaningEn": "flash of intuition, initial inception point, spark of insight",
+      "morphemes": [
+        "kiv",
+        "unor"
+      ],
+      "etymology": "kiv(単位/小点) + unor(始動/展開)",
+      "category": "3. 情報・計算機・通信",
+      "example_sentence": "Vyrel el mi ia kivunor.",
+      "example_ja": "私は直観の閃きを観測する。",
+      "id": 31714,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-72",
+      "domain": "直観・決意・畏怖の境地",
+      "constituentEntries": [
+        {
+          "id": 141,
+          "nrs": "kiv",
+          "pos": "名",
+          "meaningJa": "二値光点、光符単位、最小情報点"
+        },
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40246,
+      "speakers": [
+        "Alor",
+        "Cyris"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talseno",
+      "pos": "名",
+      "meaningJa": "大地の如き確信、不動の直視、揺るがぬ信念",
+      "meaningEn": "earth-grounded conviction, steady unwavering gaze, firm resolve",
+      "morphemes": [
+        "tal",
+        "seno"
+      ],
+      "etymology": "tal(大地) + seno(注視する)",
+      "category": "14. 精神・哲学・感情・芸術",
+      "example_sentence": "Vymin el mi ia talseno to celvan.",
+      "example_ja": "私は天球に向けて揺るがぬ信念を抱く。",
+      "id": 31715,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-72",
+      "domain": "直観・決意・畏怖の境地",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 908,
+          "nrs": "seno",
+          "pos": "副/名",
+          "meaningJa": "明日、来たるべき日"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40247,
+      "speakers": [
+        "Alor",
+        "Cyris"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "vyrelir",
+      "pos": "名",
+      "meaningJa": "星辰崇敬の歓喜、大いなる天への祝祭感、星辰礼賛心",
+      "meaningEn": "celestial star-reverence joy, sublime festive awe, cosmic celebration",
+      "morphemes": [
+        "vyr",
+        "elir"
+      ],
+      "etymology": "vyr(星) + elir(歓喜/祝い)",
+      "category": "14. 精神・哲学・感情・芸術",
+      "example_sentence": "Vyrel el mi ia vyrelir.",
+      "example_ja": "私は星辰への畏敬を観測する。",
+      "id": 31716,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-72",
+      "domain": "直観・決意・畏怖の境地",
+      "constituentEntries": [
+        {
+          "id": 62,
+          "nrs": "vyr",
+          "pos": "名",
+          "meaningJa": "星、天体、光点"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40248,
+      "speakers": [
+        "Alor",
+        "Cyris"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "velhano",
+      "pos": "名",
+      "meaningJa": "祈りの風路、切なる祈望、風の巡行",
+      "meaningEn": "prayerful wind-path, earnest yearning, breeze pilgrim-course",
+      "morphemes": [
+        "vel",
+        "hano"
+      ],
+      "etymology": "vel(風) + hano(歩む)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Poran el mi ia velhano.",
+      "example_ja": "私は祈りの風路を歩む。",
+      "id": 31717,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-73",
+      "domain": "風路調律と探究の熱気",
+      "constituentEntries": [
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        },
+        {
+          "id": 865,
+          "nrs": "hano",
+          "pos": "副/名",
+          "meaningJa": "今日、この日、現在"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40249,
+      "speakers": [
+        "Taris",
+        "Velan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymfeno",
+      "pos": "名",
+      "meaningJa": "黄昏の語らい、夕暮れの沈思告白、静かな独白",
+      "meaningEn": "twilight whispering, quiet dusk monologue, contemplative evening speech",
+      "morphemes": [
+        "kym",
+        "feno"
+      ],
+      "etymology": "kym(黄昏) + feno(話す)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Fenor el mi ia kymfeno uo govan.",
+      "example_ja": "私は家において夕暮れの語らいを交わす。",
+      "id": 31718,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-73",
+      "domain": "風路調律と探究の熱気",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 859,
+          "nrs": "feno",
+          "pos": "副/名",
+          "meaningJa": "昨日、過ぎ去りし日"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40250,
+      "speakers": [
+        "Taris",
+        "Velan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "jynunor",
+      "pos": "名",
+      "meaningJa": "探究の始動熱、起動エネルギー、熱き前進力",
+      "meaningEn": "spark of inquiry, activating drive, launching energetic surge",
+      "morphemes": [
+        "jyn",
+        "unor"
+      ],
+      "etymology": "jyn(電荷/力) + unor(始動/展開)",
+      "category": "3. 情報・計算機・通信",
+      "example_sentence": "Vyrel el mi ia jynunor.",
+      "example_ja": "私は探究の起動熱を観測する。",
+      "id": 31719,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-73",
+      "domain": "風路調律と探究の熱気",
+      "constituentEntries": [
+        {
+          "id": 132,
+          "nrs": "jyn",
+          "pos": "名",
+          "meaningJa": "電気、電力、電荷、エネルギー"
+        },
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40251,
+      "speakers": [
+        "Taris",
+        "Velan"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nerfeno",
+      "pos": "名",
+      "meaningJa": "盟約の誓詞、信義の誓約言、共食の契り",
+      "meaningEn": "pledge of solemn fellowship, covenant proclamation, mealtime alliance word",
+      "morphemes": [
+        "ner",
+        "feno"
+      ],
+      "etymology": "ner(糧/共食) + feno(話す/告げる)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Fenor el mi ia nerfeno.",
+      "example_ja": "私は盟約の誓詞を告げる。",
+      "id": 31720,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-74",
+      "domain": "儀礼と絆・交友の杯",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 859,
+          "nrs": "feno",
+          "pos": "副/名",
+          "meaningJa": "昨日、過ぎ去りし日"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40252,
+      "speakers": [
+        "Laris",
+        "Neron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymhano",
+      "pos": "名",
+      "meaningJa": "黄昏の旅立ち、惜別の見送り、名残惜しき別れ",
+      "meaningEn": "twilight departure, reluctant farewell, gentle evening parting",
+      "morphemes": [
+        "kym",
+        "hano"
+      ],
+      "etymology": "kym(黄昏) + hano(歩む)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Poran el mi ia kymhano to govan.",
+      "example_ja": "私は家へ向けて夕暮れの旅立ちを歩む。",
+      "id": 31721,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-74",
+      "domain": "儀礼と絆・交友の杯",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 865,
+          "nrs": "hano",
+          "pos": "副/名",
+          "meaningJa": "今日、この日、現在"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40253,
+      "speakers": [
+        "Laris",
+        "Neron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talelir",
+      "pos": "名",
+      "meaningJa": "和解の祝祭、大地の歓喜、融和の慶び",
+      "meaningEn": "reconciliation festival, earthy celebration, joyful accord celebration",
+      "morphemes": [
+        "tal",
+        "elir"
+      ],
+      "etymology": "tal(大地) + elir(歓喜/祝い)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Vyrel el mi ia talelir.",
+      "example_ja": "私は大地の和解の祝祭を観測する。",
+      "id": 31722,
+      "batch": "Batch 64",
+      "scenario_id": "CANON-COLAB-74",
+      "domain": "儀礼と絆・交友の杯",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40254,
+      "speakers": [
+        "Laris",
+        "Neron"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kivvorn",
+      "pos": "名",
+      "meaningJa": "誓約の条文、信義の定款、規約の明文化",
+      "meaningEn": "charter article, formalized statute, documented code of compact",
+      "morphemes": [
+        "kiv",
+        "vorn"
+      ],
+      "etymology": "kiv(単位/条文) + vorn(秩序/整調)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Kiran el mi ia kivvorn.",
+      "example_ja": "私は誓約の条文を書き記す。",
+      "id": 31723,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-75",
+      "domain": "誓詞と礼節の場",
+      "constituentEntries": [
+        {
+          "id": 141,
+          "nrs": "kiv",
+          "pos": "名",
+          "meaningJa": "二値光点、光符単位、最小情報点"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40255,
+      "speakers": [
+        "Beron",
+        "Kivar"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talhano",
+      "pos": "名",
+      "meaningJa": "礼節の拝礼、敬虔な歩み、大地への礼拝",
+      "meaningEn": "ceremonial reverence walk, respectful bow, reverent earthly greeting",
+      "morphemes": [
+        "tal",
+        "hano"
+      ],
+      "etymology": "tal(大地) + hano(歩む)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Poran el mi ia talhano to valar.",
+      "example_ja": "私は議場へ向けて礼節の拝礼の歩みを進める。",
+      "id": 31724,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-75",
+      "domain": "誓詞と礼節の場",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 865,
+          "nrs": "hano",
+          "pos": "副/名",
+          "meaningJa": "今日、この日、現在"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40256,
+      "speakers": [
+        "Beron",
+        "Kivar"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nerlyka",
+      "pos": "名",
+      "meaningJa": "歓待の饗宴座、共食の宴席、歓喜の食卓",
+      "meaningEn": "hospitality banquet ring, communal feast seat, joyful dining assembly",
+      "morphemes": [
+        "ner",
+        "lyka"
+      ],
+      "etymology": "ner(糧/食) + lyka(節/籠/座)",
+      "category": "10. 経済・交易・工芸・労働",
+      "example_sentence": "Vymin el mi ia nerlyka.",
+      "example_ja": "私は歓待の饗宴座を整える。",
+      "id": 31725,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-75",
+      "domain": "誓詞と礼節の場",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 450,
+          "nrs": "lyka",
+          "pos": "名",
+          "meaningJa": "巣、塒、鳥獣の棲家"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40257,
+      "speakers": [
+        "Beron",
+        "Kivar"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darseno",
+      "pos": "名",
+      "meaningJa": "澄んだまなざしの友、水鏡の観察者、腹心の友",
+      "meaningEn": "pure-eyed confidant, clear water mirror friend, trusted comrade",
+      "morphemes": [
+        "dar",
+        "seno"
+      ],
+      "etymology": "dar(雫/清澄) + seno(見る/注視)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Vyrel el mi ia darseno.",
+      "example_ja": "私は澄んだまなざしの友を見守る。",
+      "id": 31726,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-76",
+      "domain": "友情と相互了解",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 908,
+          "nrs": "seno",
+          "pos": "副/名",
+          "meaningJa": "明日、来たるべき日"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40258,
+      "speakers": [
+        "Doran",
+        "Selis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorfeno",
+      "pos": "名",
+      "meaningJa": "沈黙の了解、静けき合意、言葉少なの同意",
+      "meaningEn": "silent tacit understanding, quiet consensus, soft agreement without debate",
+      "morphemes": [
+        "klor",
+        "feno"
+      ],
+      "etymology": "klor(静止/憩い) + feno(話す)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Vymin el mi ia klorfeno uo kiranar.",
+      "example_ja": "私は記録院において沈黙の了解を保つ。",
+      "id": 31727,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-76",
+      "domain": "友情と相互了解",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 859,
+          "nrs": "feno",
+          "pos": "副/名",
+          "meaningJa": "昨日、過ぎ去りし日"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40259,
+      "speakers": [
+        "Doran",
+        "Selis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "velseno",
+      "pos": "名",
+      "meaningJa": "風の示唆、先見の助言、導きの観察知",
+      "meaningEn": "windward insight, prescient counsel, guiding observation",
+      "morphemes": [
+        "vel",
+        "seno"
+      ],
+      "etymology": "vel(風) + seno(見る/注視)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Vyrel el mi ia velseno.",
+      "example_ja": "私は風の示唆を観測する。",
+      "id": 31728,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-76",
+      "domain": "友情と相互了解",
+      "constituentEntries": [
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        },
+        {
+          "id": 908,
+          "nrs": "seno",
+          "pos": "副/名",
+          "meaningJa": "明日、来たるべき日"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40260,
+      "speakers": [
+        "Doran",
+        "Selis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorlyka",
+      "pos": "名",
+      "meaningJa": "座談の円座、憩いの集会座、親交の車座",
+      "meaningEn": "round gathering seating, restful colloquium ring, friendly circle bench",
+      "morphemes": [
+        "klor",
+        "lyka"
+      ],
+      "etymology": "klor(憩い/静止) + lyka(籠/節/座)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Relen el mi ia klorlyka.",
+      "example_ja": "私は座談の円座に席を取る。",
+      "id": 31729,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-77",
+      "domain": "集いの輪と信義",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 450,
+          "nrs": "lyka",
+          "pos": "名",
+          "meaningJa": "巣、塒、鳥獣の棲家"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40261,
+      "speakers": [
+        "Jynor",
+        "Kloren"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talbion",
+      "pos": "名",
+      "meaningJa": "盟約の礎石、大地の種、信義の培土",
+      "meaningEn": "grounded pledge cornerstone, earthen root seed, foundation of enduring trust",
+      "morphemes": [
+        "tal",
+        "bion"
+      ],
+      "etymology": "tal(大地) + bion(生/種)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Vymin el mi ia talbion uo valar.",
+      "example_ja": "私は集会所において盟約の礎石を守る。",
+      "id": 31730,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-77",
+      "domain": "集いの輪と信義",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40262,
+      "speakers": [
+        "Jynor",
+        "Kloren"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "jynlyka",
+      "pos": "名",
+      "meaningJa": "結束の連帯節、絆の結節点、堅き連繋",
+      "meaningEn": "solidarity bond node, linkage knot of unity, mutual cohesion clasp",
+      "morphemes": [
+        "jyn",
+        "lyka"
+      ],
+      "etymology": "jyn(電荷/力) + lyka(籠/節/結節)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Vyrel el mi ia jynlyka.",
+      "example_ja": "私は結束の連帯節を観測する。",
+      "id": 31731,
+      "batch": "Batch 65",
+      "scenario_id": "CANON-COLAB-77",
+      "domain": "集いの輪と信義",
+      "constituentEntries": [
+        {
+          "id": 132,
+          "nrs": "jyn",
+          "pos": "名",
+          "meaningJa": "電気、電力、電荷、エネルギー"
+        },
+        {
+          "id": 450,
+          "nrs": "lyka",
+          "pos": "名",
+          "meaningJa": "巣、塒、鳥獣の棲家"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40263,
+      "speakers": [
+        "Jynor",
+        "Kloren"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "velbion",
+      "pos": "名",
+      "meaningJa": "風の息吹き、穏やかな融和、萌芽の和合",
+      "meaningEn": "tempered reconciliation, peaceful greeting breeze, gentle harmony",
+      "morphemes": [
+        "vel",
+        "bion"
+      ],
+      "etymology": "vel(風) + bion(生/萌芽)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Vyrel el mi ia velbion.",
+      "example_ja": "私は穏やかな融和を観測する。",
+      "id": 31732,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-78",
+      "domain": "和合と共鳴の所作",
+      "constituentEntries": [
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        },
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40264,
+      "speakers": [
+        "Fenon",
+        "Velir"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "tykualin",
+      "pos": "名",
+      "meaningJa": "礼に適った敬礼、時宜を得た辞儀、礼節の挨拶",
+      "meaningEn": "timely decorous bow, punctual respectful greeting, courteous salutation",
+      "morphemes": [
+        "tyku",
+        "alin"
+      ],
+      "etymology": "tyku(時宜に) + alin(清澄な)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Poran el mi ia tykualin to govan.",
+      "example_ja": "私は館へ向けて礼に適った敬礼の歩みを運ぶ。",
+      "id": 31733,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-78",
+      "domain": "和合と共鳴の所作",
+      "constituentEntries": [
+        {
+          "id": 936,
+          "nrs": "tyku",
+          "pos": "副",
+          "meaningJa": "直ちに、即座に、一拍のうちに"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40265,
+      "speakers": [
+        "Fenon",
+        "Velir"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "fenoelir",
+      "pos": "名",
+      "meaningJa": "歓待の祝歌、歓迎の祝辞、宴の歓声",
+      "meaningEn": "hymn of hospitality, welcoming proclamation, joyful banquet cheer",
+      "morphemes": [
+        "feno",
+        "elir"
+      ],
+      "etymology": "feno(話す/告げる) + elir(歓喜/祝い)",
+      "category": "14. 精神・哲学・感情・芸術",
+      "example_sentence": "Fenor el mi ia fenoelir.",
+      "example_ja": "私は歓待の祝歌を歌い上げる。",
+      "id": 31734,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-78",
+      "domain": "和合と共鳴の所作",
+      "constituentEntries": [
+        {
+          "id": 859,
+          "nrs": "feno",
+          "pos": "副/名",
+          "meaningJa": "昨日、過ぎ去りし日"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40266,
+      "speakers": [
+        "Fenon",
+        "Velir"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darhano",
+      "pos": "名",
+      "meaningJa": "水脈の道連れ、清らかな同行、深まる親交",
+      "meaningEn": "waterway fellow traveler, pure fellowship walk, deepening amity",
+      "morphemes": [
+        "dar",
+        "hano"
+      ],
+      "etymology": "dar(水/雫) + hano(歩む)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Poran el mi ia darhano.",
+      "example_ja": "私は清らかな同行の道を歩む。",
+      "id": 31735,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-79",
+      "domain": "協調と思慮の深まり",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 865,
+          "nrs": "hano",
+          "pos": "副/名",
+          "meaningJa": "今日、この日、現在"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40267,
+      "speakers": [
+        "Daren",
+        "Kymis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymseno",
+      "pos": "名",
+      "meaningJa": "黄昏の凝視、深奥の合意、静寂の直視",
+      "meaningEn": "twilight contemplation, profound consensus insight, solemn dusk vision",
+      "morphemes": [
+        "kym",
+        "seno"
+      ],
+      "etymology": "kym(黄昏) + seno(見る/注視)",
+      "category": "16. 動作・動態・時空・方向副詞",
+      "example_sentence": "Vymin el mi ia kymseno uo darar.",
+      "example_ja": "私は水辺において夕暮れの深奥の合意を心に留める。",
+      "id": 31736,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-79",
+      "domain": "協調と思慮の深まり",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 908,
+          "nrs": "seno",
+          "pos": "副/名",
+          "meaningJa": "明日、来たるべき日"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40268,
+      "speakers": [
+        "Daren",
+        "Kymis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "fenovorn",
+      "pos": "名",
+      "meaningJa": "秩序ある助言、教導の言、整調の教え",
+      "meaningEn": "measured prudent counsel, instruction of good order, didactic guidance",
+      "morphemes": [
+        "feno",
+        "vorn"
+      ],
+      "etymology": "feno(話す/告げる) + vorn(秩序/整調)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Fenor el mi ia fenovorn.",
+      "example_ja": "私は秩序ある助言を語り伝える。",
+      "id": 31737,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-79",
+      "domain": "協調と思慮の深まり",
+      "constituentEntries": [
+        {
+          "id": 859,
+          "nrs": "feno",
+          "pos": "副/名",
+          "meaningJa": "昨日、過ぎ去りし日"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40269,
+      "speakers": [
+        "Daren",
+        "Kymis"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "velunor",
+      "pos": "名",
+      "meaningJa": "協和の座談、調和の評議展開、風通しの良き会談",
+      "meaningEn": "harmonious civic colloquium, airy council discussion, open concord assembly",
+      "morphemes": [
+        "vel",
+        "unor"
+      ],
+      "etymology": "vel(風) + unor(始動/展開)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Fenor el mi ia velunor.",
+      "example_ja": "私は協和の座談を布告する。",
+      "id": 31738,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-80",
+      "domain": "共同体憲章と協和",
+      "constituentEntries": [
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹"
+        },
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40270,
+      "speakers": [
+        "Kivan",
+        "Velmon"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kivalin",
+      "pos": "名",
+      "meaningJa": "澄明なる憲章条文、共同体の清浄な基本規約、基本憲章",
+      "meaningEn": "clear charter covenant, lucid fundamental statute, civic organic code",
+      "morphemes": [
+        "kiv",
+        "alin"
+      ],
+      "etymology": "kiv(単位/条文) + alin(清澄な)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Kiran el mi ia kivalin uo valar.",
+      "example_ja": "私は評議場において澄明なる基本憲章を書き記す。",
+      "id": 31739,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-80",
+      "domain": "共同体憲章と協和",
+      "constituentEntries": [
+        {
+          "id": 141,
+          "nrs": "kiv",
+          "pos": "名",
+          "meaningJa": "二値光点、光符単位、最小情報点"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40271,
+      "speakers": [
+        "Kivan",
+        "Velmon"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "jynvorn",
+      "pos": "名",
+      "meaningJa": "公正なる仲裁評定、調和ある公判、規律の審判",
+      "meaningEn": "fair arbitral adjudication, civic tribunal calculus, grounded legal appraisal",
+      "morphemes": [
+        "jyn",
+        "vorn"
+      ],
+      "etymology": "jyn(電荷/力) + vorn(秩序/整調)",
+      "category": "9. 統治・社会・法・共同体",
+      "example_sentence": "Vyrel el mi ia jynvorn.",
+      "example_ja": "私は公正なる仲裁評定を観測する。",
+      "id": 31740,
+      "batch": "Batch 66",
+      "scenario_id": "CANON-COLAB-80",
+      "domain": "共同体憲章と協和",
+      "constituentEntries": [
+        {
+          "id": 132,
+          "nrs": "jyn",
+          "pos": "名",
+          "meaningJa": "電気、電力、電荷、エネルギー"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40272,
+      "speakers": [
+        "Kivan",
+        "Velmon"
       ],
       "auditFlags": []
     }

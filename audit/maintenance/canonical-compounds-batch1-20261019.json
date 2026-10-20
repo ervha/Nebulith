@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T06:49:51.920773+00:00",
+  "createdAt": "2026-10-20T07:13:46.346768+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 710,
-    "uniqueRoots": 710,
-    "uniqueIds": 710,
-    "scenarios": 237,
+    "rows": 740,
+    "uniqueRoots": 740,
+    "uniqueIds": 740,
+    "scenarios": 247,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -392,14 +392,14 @@
     "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
-    "Vymin el mi ia <TERM>.": 44,
+    "Vymin el mi ia <TERM>.": 45,
     "Soran el mi uo <TERM>.": 2,
     "Kiras el mi ia <TERM> ul kypalvel.": 1,
     "Vymin el <TERM> ia pamel.": 1,
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
     "Soran el mi ia <TERM>.": 18,
-    "Vyrel el mi ia <TERM>.": 25,
+    "Vyrel el mi ia <TERM>.": 36,
     "Vyrel el mi ia <TERM> ul dardaron.": 1,
     "Relen el dar uo <TERM>.": 2,
     "Kiras el mi ia talyrvorn to <TERM>.": 1,
@@ -434,7 +434,20 @@
     "Jylas el mi ia <TERM>.": 2,
     "Kiras el mi uo <TERM>.": 2,
     "Vyrel el mi uo <TERM>.": 5,
-    "Jylas el mi uo <TERM>.": 1
+    "Jylas el mi uo <TERM>.": 1,
+    "Relen el mi ia <TERM> uo vyrelar.": 1,
+    "Vymin el mi ia <TERM> to celvan.": 1,
+    "Poran el mi ia <TERM>.": 2,
+    "Fenor el mi ia <TERM> uo govan.": 1,
+    "Fenor el mi ia <TERM>.": 4,
+    "Poran el mi ia <TERM> to govan.": 2,
+    "Kiran el mi ia <TERM>.": 1,
+    "Poran el mi ia <TERM> to valar.": 1,
+    "Vymin el mi ia <TERM> uo kiranar.": 1,
+    "Relen el mi ia <TERM>.": 1,
+    "Vymin el mi ia <TERM> uo valar.": 1,
+    "Vymin el mi ia <TERM> uo darar.": 1,
+    "Kiran el mi ia <TERM> uo valar.": 1
   },
   "entries": [
     {
@@ -14636,6 +14649,606 @@
         "Yura"
       ],
       "exampleTemplate": "Soran el mi ia <TERM>."
+    },
+    {
+      "id": 31711,
+      "nrs": "jynbion",
+      "meaningJa": "根源の活力、内なる情熱の萌芽、活動の活力源",
+      "meaningEn": "inward vital energy, budding passion, source of spiritual vigor",
+      "pos": "名",
+      "morphemes": [
+        "jyn",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-71",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Mirel",
+        "Solis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31712,
+      "nrs": "kymelir",
+      "meaningJa": "黄昏の安息、静謐の慰め、夕暮れの安らぎ",
+      "meaningEn": "twilight solace, tranquil peace, evening serenity",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-71",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Mirel",
+        "Solis"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> uo vyrelar."
+    },
+    {
+      "id": 31713,
+      "nrs": "daralin",
+      "meaningJa": "清澄な追憶、心の雫、澄みわたる愁情",
+      "meaningEn": "clear reminiscence, pure tear of reflection, lucid nostalgia",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-71",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Mirel",
+        "Solis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31714,
+      "nrs": "kivunor",
+      "meaningJa": "直観の閃き、着想の初動点、発想の萌芽",
+      "meaningEn": "flash of intuition, initial inception point, spark of insight",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-72",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alor",
+        "Cyris"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31715,
+      "nrs": "talseno",
+      "meaningJa": "大地の如き確信、不動の直視、揺るがぬ信念",
+      "meaningEn": "earth-grounded conviction, steady unwavering gaze, firm resolve",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-72",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alor",
+        "Cyris"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> to celvan."
+    },
+    {
+      "id": 31716,
+      "nrs": "vyrelir",
+      "meaningJa": "星辰崇敬の歓喜、大いなる天への祝祭感、星辰礼賛心",
+      "meaningEn": "celestial star-reverence joy, sublime festive awe, cosmic celebration",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-72",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alor",
+        "Cyris"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31717,
+      "nrs": "velhano",
+      "meaningJa": "祈りの風路、切なる祈望、風の巡行",
+      "meaningEn": "prayerful wind-path, earnest yearning, breeze pilgrim-course",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-73",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Taris",
+        "Velan"
+      ],
+      "exampleTemplate": "Poran el mi ia <TERM>."
+    },
+    {
+      "id": 31718,
+      "nrs": "kymfeno",
+      "meaningJa": "黄昏の語らい、夕暮れの沈思告白、静かな独白",
+      "meaningEn": "twilight whispering, quiet dusk monologue, contemplative evening speech",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "feno"
+      ],
+      "scenario_id": "CANON-COLAB-73",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Taris",
+        "Velan"
+      ],
+      "exampleTemplate": "Fenor el mi ia <TERM> uo govan."
+    },
+    {
+      "id": 31719,
+      "nrs": "jynunor",
+      "meaningJa": "探究の始動熱、起動エネルギー、熱き前進力",
+      "meaningEn": "spark of inquiry, activating drive, launching energetic surge",
+      "pos": "名",
+      "morphemes": [
+        "jyn",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-73",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Taris",
+        "Velan"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31720,
+      "nrs": "nerfeno",
+      "meaningJa": "盟約の誓詞、信義の誓約言、共食の契り",
+      "meaningEn": "pledge of solemn fellowship, covenant proclamation, mealtime alliance word",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "feno"
+      ],
+      "scenario_id": "CANON-COLAB-74",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Laris",
+        "Neron"
+      ],
+      "exampleTemplate": "Fenor el mi ia <TERM>."
+    },
+    {
+      "id": 31721,
+      "nrs": "kymhano",
+      "meaningJa": "黄昏の旅立ち、惜別の見送り、名残惜しき別れ",
+      "meaningEn": "twilight departure, reluctant farewell, gentle evening parting",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-74",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Laris",
+        "Neron"
+      ],
+      "exampleTemplate": "Poran el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31722,
+      "nrs": "talelir",
+      "meaningJa": "和解の祝祭、大地の歓喜、融和の慶び",
+      "meaningEn": "reconciliation festival, earthy celebration, joyful accord celebration",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-74",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Laris",
+        "Neron"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31723,
+      "nrs": "kivvorn",
+      "meaningJa": "誓約の条文、信義の定款、規約の明文化",
+      "meaningEn": "charter article, formalized statute, documented code of compact",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-75",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Beron",
+        "Kivar"
+      ],
+      "exampleTemplate": "Kiran el mi ia <TERM>."
+    },
+    {
+      "id": 31724,
+      "nrs": "talhano",
+      "meaningJa": "礼節の拝礼、敬虔な歩み、大地への礼拝",
+      "meaningEn": "ceremonial reverence walk, respectful bow, reverent earthly greeting",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-75",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Beron",
+        "Kivar"
+      ],
+      "exampleTemplate": "Poran el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31725,
+      "nrs": "nerlyka",
+      "meaningJa": "歓待の饗宴座、共食の宴席、歓喜の食卓",
+      "meaningEn": "hospitality banquet ring, communal feast seat, joyful dining assembly",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-75",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Beron",
+        "Kivar"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31726,
+      "nrs": "darseno",
+      "meaningJa": "澄んだまなざしの友、水鏡の観察者、腹心の友",
+      "meaningEn": "pure-eyed confidant, clear water mirror friend, trusted comrade",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-76",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Doran",
+        "Selis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31727,
+      "nrs": "klorfeno",
+      "meaningJa": "沈黙の了解、静けき合意、言葉少なの同意",
+      "meaningEn": "silent tacit understanding, quiet consensus, soft agreement without debate",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "feno"
+      ],
+      "scenario_id": "CANON-COLAB-76",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Doran",
+        "Selis"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> uo kiranar."
+    },
+    {
+      "id": 31728,
+      "nrs": "velseno",
+      "meaningJa": "風の示唆、先見の助言、導きの観察知",
+      "meaningEn": "windward insight, prescient counsel, guiding observation",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-76",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Doran",
+        "Selis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31729,
+      "nrs": "klorlyka",
+      "meaningJa": "座談の円座、憩いの集会座、親交の車座",
+      "meaningEn": "round gathering seating, restful colloquium ring, friendly circle bench",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-77",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Jynor",
+        "Kloren"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM>."
+    },
+    {
+      "id": 31730,
+      "nrs": "talbion",
+      "meaningJa": "盟約の礎石、大地の種、信義の培土",
+      "meaningEn": "grounded pledge cornerstone, earthen root seed, foundation of enduring trust",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-77",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Jynor",
+        "Kloren"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> uo valar."
+    },
+    {
+      "id": 31731,
+      "nrs": "jynlyka",
+      "meaningJa": "結束の連帯節、絆の結節点、堅き連繋",
+      "meaningEn": "solidarity bond node, linkage knot of unity, mutual cohesion clasp",
+      "pos": "名",
+      "morphemes": [
+        "jyn",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-77",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Jynor",
+        "Kloren"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31732,
+      "nrs": "velbion",
+      "meaningJa": "風の息吹き、穏やかな融和、萌芽の和合",
+      "meaningEn": "tempered reconciliation, peaceful greeting breeze, gentle harmony",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-78",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenon",
+        "Velir"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31733,
+      "nrs": "tykualin",
+      "meaningJa": "礼に適った敬礼、時宜を得た辞儀、礼節の挨拶",
+      "meaningEn": "timely decorous bow, punctual respectful greeting, courteous salutation",
+      "pos": "名",
+      "morphemes": [
+        "tyku",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-78",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenon",
+        "Velir"
+      ],
+      "exampleTemplate": "Poran el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31734,
+      "nrs": "fenoelir",
+      "meaningJa": "歓待の祝歌、歓迎の祝辞、宴の歓声",
+      "meaningEn": "hymn of hospitality, welcoming proclamation, joyful banquet cheer",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-78",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenon",
+        "Velir"
+      ],
+      "exampleTemplate": "Fenor el mi ia <TERM>."
+    },
+    {
+      "id": 31735,
+      "nrs": "darhano",
+      "meaningJa": "水脈の道連れ、清らかな同行、深まる親交",
+      "meaningEn": "waterway fellow traveler, pure fellowship walk, deepening amity",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-79",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daren",
+        "Kymis"
+      ],
+      "exampleTemplate": "Poran el mi ia <TERM>."
+    },
+    {
+      "id": 31736,
+      "nrs": "kymseno",
+      "meaningJa": "黄昏の凝視、深奥の合意、静寂の直視",
+      "meaningEn": "twilight contemplation, profound consensus insight, solemn dusk vision",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-79",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daren",
+        "Kymis"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM> uo darar."
+    },
+    {
+      "id": 31737,
+      "nrs": "fenovorn",
+      "meaningJa": "秩序ある助言、教導の言、整調の教え",
+      "meaningEn": "measured prudent counsel, instruction of good order, didactic guidance",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-79",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daren",
+        "Kymis"
+      ],
+      "exampleTemplate": "Fenor el mi ia <TERM>."
+    },
+    {
+      "id": 31738,
+      "nrs": "velunor",
+      "meaningJa": "協和の座談、調和の評議展開、風通しの良き会談",
+      "meaningEn": "harmonious civic colloquium, airy council discussion, open concord assembly",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-80",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Velmon"
+      ],
+      "exampleTemplate": "Fenor el mi ia <TERM>."
+    },
+    {
+      "id": 31739,
+      "nrs": "kivalin",
+      "meaningJa": "澄明なる憲章条文、共同体の清浄な基本規約、基本憲章",
+      "meaningEn": "clear charter covenant, lucid fundamental statute, civic organic code",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "alin"
+      ],
+      "scenario_id": "CANON-COLAB-80",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Velmon"
+      ],
+      "exampleTemplate": "Kiran el mi ia <TERM> uo valar."
+    },
+    {
+      "id": 31740,
+      "nrs": "jynvorn",
+      "meaningJa": "公正なる仲裁評定、調和ある公判、規律の審判",
+      "meaningEn": "fair arbitral adjudication, civic tribunal calculus, grounded legal appraisal",
+      "pos": "名",
+      "morphemes": [
+        "jyn",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-80",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Velmon"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
     }
   ]
 }

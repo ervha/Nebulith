@@ -123,7 +123,26 @@ const r14En = bi.translateNebulith('Hav Poran el ti to govan, Vyrel el mi ia dar
 assert.equal(r14En.success, true);
 assert.ok(r14En.text.includes('When'), 'Expected When in ' + r14En.text);
 
-// 14. Incremental translator check
+// 14. Purposive clause: 'So that you walk to house, I observe water.' / 'In order that you walk to house, I observe water.' -> 'Sol Poran el ti to govan, Vyrel el mi ia daris.'
+const r15 = bi.translateEnglishToNebulith('So that you walk to house, I observe water.');
+assert.equal(r15.success, true);
+assert.ok(r15.text.startsWith('Sol '), 'Expected Sol in ' + r15.text);
+assert.ok(r15.text.includes('Poran el ti to govan'), 'Expected Poran el ti to govan in ' + r15.text);
+assert.ok(r15.text.includes('Vyrel el mi ia daris'), 'Expected Vyrel el mi ia daris in ' + r15.text);
+
+const r15InOrder = bi.translateEnglishToNebulith('In order that you walk to house, I observe water.');
+assert.equal(r15InOrder.success, true);
+assert.ok(r15InOrder.text.startsWith('Sol '), 'Expected Sol in ' + r15InOrder.text);
+
+const r15Ja = bi.translateNebulith('Sol Poran el ti to govan, Vyrel el mi ia daris.', 'ja');
+assert.equal(r15Ja.success, true);
+assert.ok(r15Ja.text.includes('ために'), 'Expected ために in ' + r15Ja.text);
+
+const r15En = bi.translateNebulith('Sol Poran el ti to govan, Vyrel el mi ia daris.', 'en');
+assert.equal(r15En.success, true);
+assert.ok(r15En.text.includes('So that'), 'Expected So that in ' + r15En.text);
+
+// 15. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -131,4 +150,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En, r15, r15InOrder, r15Ja, r15En }));
