@@ -77,26 +77,19 @@ class StrictArbiterEngine:
 
         self.existing_roots = set()
         self.existing_glosses = set()
-        self.known_morphemes = {
-            "dar", "daris", "sul", "nov", "bion", "sir", "tul", "pel", "nel",
-            "sel", "tor", "pal", "vas", "zen", "mol", "kel", "tan", "mor",
-            "kym", "tym", "tymis", "mer", "fal", "jyl", "vyr", "kels", "or",
-            "as", "ik", "om", "el", "in", "an", "is", "sol", "cel", "val",
-            "hov", "har", "gov", "govan", "lun", "par", "nod", "vel", "van",
-            "kor", "tas", "lin", "len", "kyr", "zoh", "min", "civ", "fen"
-        }
+        self.known_morphemes = set()
 
         for w in self.canon:
             r = w["nrs"].lower()
             self.existing_roots.add(r)
-            self.known_morphemes.add(r[:3])
+            self.known_morphemes.add(r)
             for g in self._split_gloss(w.get("meaningJa", "")):
                 self.existing_glosses.add(g)
 
         for w in self.curated_ext:
             r = w["nrs"].lower()
             self.existing_roots.add(r)
-            self.known_morphemes.add(r[:3])
+            self.known_morphemes.add(r)
             for g in self._split_gloss(w.get("meaningJa", "")):
                 self.existing_glosses.add(g)
 

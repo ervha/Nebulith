@@ -2,7 +2,7 @@
 import hashlib
 from pathlib import Path
 
-TEXT_SUFFIXES = {'.json', '.jsonl', '.md', '.py', '.html', '.csv', '.kt', '.txt', '.log'}
+TEXT_SUFFIXES = {'.json', '.jsonl', '.md', '.py', '.html', '.csv', '.kt', '.txt', '.log', '.js', '.svg', '.css'}
 
 
 def recorded_digest_matches(path, expected):
@@ -16,7 +16,9 @@ def recorded_digest_matches(path, expected):
         raw.decode('utf-8')
     except UnicodeDecodeError:
         return False
-    # The recorded Windows digest can be reconstructed only by changing LF to CRLF.
-    # Whitespace, JSON formatting, Unicode and the trailing newline stay significant.
-    crlf = raw.replace(b'\r\n', b'\n').replace(b'\n', b'\r\n')
+    # Reconstruct LF or CRLF digest without permitting any content, whitespace, or trailing-newline changes.
+    lf = raw.replace(b'\r\n', b'\n')
+    if hashlib.sha256(lf).hexdigest() == expected:
+        return True
+    crlf = lf.replace(b'\n', b'\r\n')
     return hashlib.sha256(crlf).hexdigest() == expected

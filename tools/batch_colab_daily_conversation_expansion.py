@@ -169,19 +169,8 @@ EVERYDAY_DOMAINS = [
     }
 ]
 
-CORE_MORPHEMES = [
-    ("dar", "水"), ("sul", "気"), ("nov", "新"), ("bion", "生"),
-    ("sir", "光"), ("tul", "石"), ("pel", "行"), ("nel", "心"),
-    ("sel", "静"), ("tor", "高"), ("pal", "平"), ("vas", "広"),
-    ("zen", "善"), ("mol", "火"), ("kel", "木"), ("tan", "土"),
-    ("mor", "終"), ("kym", "波"), ("tym", "時"), ("mer", "海"),
-    ("fal", "星"), ("jyl", "風"), ("vyr", "視"), ("sol", "日"),
-    ("cel", "月"), ("val", "夜"), ("hov", "宙"), ("har", "鉄"),
-    ("gov", "響"), ("lun", "輪"), ("par", "創"), ("nod", "結"),
-    ("vel", "感"), ("van", "集"), ("kor", "環"), ("tas", "器"),
-    ("lin", "糸"), ("len", "眼"), ("kyr", "力"), ("zoh", "理"),
-    ("min", "微"), ("civ", "知"), ("fen", "翼")
-]
+from canonical_compound_validator import load_canonical_morphemes
+CORE_MORPHEMES = load_canonical_morphemes()
 
 SYSTEM_PROMPT = """You are an expert conlang lexicographer coining practical everyday conversational words for Nebulith.
 Coin 7-8 highly useful compound words based on Nebulith roots (dar, sul, nov, bion, sir, tul, pel, nel, sel, tor, pal, vas, zen, mol, kel, tan, mor, kym, tym, mer, fal, jyl, vyr, sol, cel, val, hov, har, gov, lun, par, nod, vel, van, kor, tas, lin, len, kyr, zoh, min, civ, fen).

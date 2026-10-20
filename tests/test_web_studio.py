@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
+from evidence_hash import recorded_digest_matches
 from verify_web_bundle import verify
 
 
@@ -64,8 +65,8 @@ class WebStudioChecks(unittest.TestCase):
 
     def test_provisional_review_ledger_is_current_and_does_not_grant_approval(self):
         ledger=json.loads((ROOT/'data/language_review_ledger.json').read_text(encoding='utf-8'))
-        self.assertEqual(ledger['sourceSha256'],hashlib.sha256((ROOT/'data/translation_extensions.json').read_bytes()).hexdigest())
-        self.assertEqual(ledger['frameReview']['sha256'],hashlib.sha256((ROOT/'data/translation_patterns.json').read_bytes()).hexdigest())
+        self.assertTrue(recorded_digest_matches(ROOT/'data/translation_extensions.json', ledger['sourceSha256']))
+        self.assertTrue(recorded_digest_matches(ROOT/'data/translation_patterns.json', ledger['frameReview']['sha256']))
         from nebulith_data import entry_hash
         current=json.loads((ROOT/'data/translation_extensions.json').read_text(encoding='utf-8'))['entries']
         self.assertEqual({r['id'] for r in current},{r['id'] for r in ledger['entries']})

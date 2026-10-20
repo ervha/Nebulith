@@ -1,8 +1,8 @@
 """Verify the distributable Web app against its current source data."""
-import hashlib
 import json
 import re
 from pathlib import Path
+from evidence_hash import recorded_digest_matches
 from studio_dictionary import dictionary_entries
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def verify():
     meta = json.loads((ROOT / 'web/build-manifest.json').read_text(encoding='utf-8'))
     for path, digest in meta['sha256'].items():
-        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, 'Stale Web input/output: ' + path
+        assert recorded_digest_matches(ROOT / path, digest), 'Stale Web input/output: ' + path
     script = (ROOT / 'web/data.js').read_text(encoding='utf-8')
     def value(name):
         return json.loads(re.search(r'^const ' + name + r' = (.+);$', script, re.M)[1])
@@ -22,7 +22,7 @@ def verify():
         row={k: entry[v] for k,v in keys.items()}
         wid=entry['id']
         row.update(o=entry.get('origin') or ('canon' if wid<=1008 else 'curated_ext'),
-                   **{'as':entry.get('auditStatus','canon_verified' if wid<=1008 else 'curated')},
+                   **{'as':entry.get('auditStatus','canon_verified' if wid<=1008 else 'curated')},\
                    sc=entry.get('auditScore',1.0),sid=entry.get('scenarioId',''),et=entry.get('etymology',''))
         expected.append(row)
     assert value('VOCAB') == expected
@@ -33,6 +33,8 @@ def verify():
     assert value('TRANSLATION_EXTENSIONS') == extensions
     usage = json.loads((ROOT / 'data/usage_examples.json').read_text(encoding='utf-8'))['examples']
     assert value('USAGE_EXAMPLES') == usage
+    verified_compounds = json.loads((ROOT / 'data/verified_canonical_compounds.json').read_text(encoding='utf-8'))
+    assert value('VERIFIED_CANONICAL_COMPOUNDS') == verified_compounds
     canon = json.loads((ROOT / 'data/canon_corpus.json').read_text(encoding='utf-8'))['units']
     assert value('CANON') == [dict(id=u['id'], neb=u['nrs'], ja=u['translationJa'], lit=u['title']) for u in canon]
     literary=json.loads((ROOT/'data/literary_sourcebook.json').read_text(encoding='utf-8'))
@@ -47,7 +49,7 @@ def verify():
         assert (ROOT / path).read_text(encoding='utf-8') in standalone, 'Missing embedded script: ' + path
     assert not re.search(r'<script\b[^>]*\bsrc=', standalone), 'Standalone requires external scripts'
     assert (ROOT / 'fonts/font_b64.txt').read_text(encoding='utf-8').strip() in standalone
-    return dict(entries=len(vocab), rootEntries=1008, examples=len(canon), sourceInputsMatch=True, standaloneEmbedded=True)
+    return dict(entries=len(vocab), rootEntries=1008, examples=len(canon), verifiedCompounds=len(verified_compounds['entries']), sourceInputsMatch=True, standaloneEmbedded=True)
 
 
 if __name__ == '__main__':
