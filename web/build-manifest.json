@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sha256": {
-    "tools/build_web_studio.py": "cd0f6c9173414fc21e394d618ee5b744fbde065e957ac60d0f3512b9e218737f",
+    "tools/build_web_studio.py": "7f52f3fe3c13d73336f89d42df8341d8d34f4a568767313f0f5ce4b7d3c49312",
     "tools/studio_dictionary.py": "a35b7d94ac653143fd8ef06399b3d78086d235c96dcf589a5a7e4c9ba4eee79d",
     "tools/extended_corpus.py": "4a25a5af083d314cace797e8792fb1fd9081a9e57df6369d3fb9352d5cf2d528",
     "data/lexicon.json": "08622ffa7c4b6ec2d9fd4fb7f2bb27cdb473a2b990b58edb5457161deb5473bd",
@@ -20,15 +20,15 @@
     "data/translation_input_fixtures.json": "5d7cc8dffe9b3fe3efe4c2260b0edf156bb6d1dcd8215310f9e03673dc1c80fa",
     "data/corpus_rules.json": "c3353dc0cd1b0f22e599aac127921d917ff10b77865b288464476b61ab9d444a",
     "fonts/font_b64.txt": "21c3ef32a2ebba0fc412c454527f86d2ce310a72911967f13fb3ee1741097d4c",
-    "web/app.js": "312361bfbf049d6f834a4307c323035b3d53f0b80ef0118236db0b187c742c50",
+    "web/app.js": "0c1fcaf835466d1e75b2cc705a1b004e6470f227dc0dca3375130ff59ec27fb7",
     "web/workspace.js": "d92b58f24530c96b08c1aeb69dc20dc475087aa533fab6c41ad2b4089b214dd1",
     "web/bidirectional.js": "c7049f8de798e7d04ad8c1d7006da97bd463797cad83037030b38c108904f421",
     "web/incremental.js": "f2eb2b48c51087e7ad77ad9e24556a41b4a783336ae61890cdaa3aa55dba517f",
     "web/data.js": "a161e4052e5a72fb634b915dc5b11964d93200cfdd5efa462915b45265125f34",
-    "web/index.html": "d52684815b4ca23f87e6e769d69182d1be7271ae04b098b8f5653fb10eda820a",
-    "web/standalone.html": "4a20cfb771f3018b4a6668e96ffa5936bfd2c4693d3d88ddf61698a6676c50d4",
+    "web/index.html": "5d5de63946adb7e24fb60949487f8eb9d610c645b1515e6a92f0042d7e0d8454",
+    "web/standalone.html": "b2c25646de2958677d6047ee7f42f585d46a53c6d8a8e3bf539e5574d24e1d83",
     "web/manifest.json": "66584246aa34d738552f66254eb2d155f9231546320ae72b9cca6a3b48b77384",
-    "web/service-worker.js": "bd53c96e349fe883bd85d31f0ed2dd23e063a5943759e12c06864ce594953229",
+    "web/service-worker.js": "43cc3e24a2461e30092a84f367a1b58a9d2688e720c25438c5f615de133dd5f0",
     "web/icon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35",
     "web/favicon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35"
   }

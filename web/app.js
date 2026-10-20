@@ -1198,6 +1198,283 @@ function renderCorpus() {
       ${c.lit?`<div class="corpus-lit">${escapeHtml(c.lit)}</div>`:''}
     </div>`).join(''):'<p>一致する例文がありません。</p>';
 }
+// ==============================================================================
+// Valnes Dialogues & Canonical Compounds Browser (857 Words / 286 Scenarios)
+// ==============================================================================
+const rawCompoundsDataset = (typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined') ? VERIFIED_CANONICAL_COMPOUNDS : { entries: [], scenarios: [] };
+const canonEntries = rawCompoundsDataset.entries || [];
+const canonScenarios = rawCompoundsDataset.scenarios || [];
+
+let dialogueViewMode = 'scenarios'; // 'scenarios' | 'compounds'
+let selectedDialogueCategory = 'ALL';
+
+const dialogueSearchInput = document.getElementById('dialogueSearchInput');
+const dialogueCategoryChips = document.getElementById('dialogueCategoryChips');
+const dialoguesCount = document.getElementById('dialoguesCount');
+const dialoguesList = document.getElementById('dialoguesList');
+const viewModeScenariosBtn = document.getElementById('viewModeScenarios');
+const viewModeCompoundsBtn = document.getElementById('viewModeCompounds');
+
+// Extract unique categories
+const dialogueCategories = Array.from(new Set(canonEntries.map(e => e.category || 'その他'))).filter(Boolean).sort();
+
+function initDialogueCategoryChips() {
+  if (!dialogueCategoryChips) return;
+  const allChips = ['ALL', ...dialogueCategories];
+  dialogueCategoryChips.innerHTML = allChips.map(cat => {
+    const label = cat === 'ALL' ? 'すべて' : cat;
+    const activeClass = (cat === selectedDialogueCategory) ? ' active' : '';
+    return `<button type="button" class="chip-btn${activeClass}" data-cat="${escapeHtml(cat)}">${escapeHtml(label)}</button>`;
+  }).join('');
+
+  const getChipBtns = () => {
+    if (typeof dialogueCategoryChips.querySelectorAll === 'function') return dialogueCategoryChips.querySelectorAll('.chip-btn');
+    if (typeof document.querySelectorAll === 'function') return document.querySelectorAll('#dialogueCategoryChips .chip-btn');
+    return [];
+  };
+  getChipBtns().forEach(btn => {
+    btn.addEventListener('click', () => {
+      selectedDialogueCategory = btn.getAttribute('data-cat');
+      getChipBtns().forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderDialogues();
+    });
+  });
+}
+
+function sendTextToEditor(text) {
+  if (!editorInput) return;
+  editorInput.value = text;
+  editorPreview.textContent = text;
+  updateEditorStats();
+  safeStorage.setItem('neb_editor_draft', text);
+  activateTab('editor');
+}
+
+function sendTextToTranslator(text, lang = 'neb') {
+  if (!transInput) return;
+  srcLang = lang;
+  dstLang = (lang === 'neb') ? 'ja' : 'neb';
+  if (srcLangSelect) srcLangSelect.value = srcLang;
+  if (dstLangSelect) dstLangSelect.value = dstLang;
+  transInput.value = text;
+  activateTab('translator');
+  doTranslate();
+}
+
+function renderDialogues() {
+  if (!dialoguesList) return;
+  const q = (dialogueSearchInput ? dialogueSearchInput.value.trim().toLowerCase() : '');
+
+  if (dialogueViewMode === 'scenarios') {
+    const filtered = canonScenarios.filter(scen => {
+      if (selectedDialogueCategory !== 'ALL') {
+        const scenEntries = canonEntries.filter(e => e.scenario_id === scen.id);
+        const matchesCategory = scenEntries.some(e => e.category === selectedDialogueCategory);
+        if (!matchesCategory) return false;
+      }
+      if (!q) return true;
+      const haystack = [
+        scen.id,
+        scen.title,
+        ...(scen.speakers || []),
+        ...(scen.focus_compounds || []),
+        ...(scen.turns || []).map(t => `${t.speaker} ${t.nrs} ${t.ja} ${t.compound || ''}`)
+      ].join(' ').toLowerCase();
+      return haystack.includes(q);
+    });
+
+    if (dialoguesCount) {
+      dialoguesCount.textContent = `表示中: ${filtered.length} / ${canonScenarios.length} 篇の対話シナリオ`;
+    }
+
+    if (!filtered.length) {
+      dialoguesList.innerHTML = '<div class="empty-state"><p>一致する対話シナリオがありません。</p></div>';
+      return;
+    }
+
+    const displayList = filtered.slice(0, 60);
+
+    dialoguesList.innerHTML = `
+      <div class="dialogue-list">
+        ${displayList.map(scen => {
+          const turnsHtml = (scen.turns || []).map(t => `
+            <div class="dialogue-turn">
+              <div class="turn-speaker">${escapeHtml(t.speaker)}:</div>
+              <div class="turn-glyph">${escapeHtml(t.nrs)}</div>
+              <div class="turn-nrs">${escapeHtml(t.nrs)}</div>
+              <div class="turn-ja">${escapeHtml(t.ja)}</div>
+            </div>
+          `).join('');
+
+          const compoundsHtml = (scen.focus_compounds || []).map(c => `
+            <span class="badge-chip" style="cursor: pointer;" data-compound="${escapeHtml(c)}">${escapeHtml(c)}</span>
+          `).join('');
+
+          const fullDialogueText = (scen.turns || []).map(t => t.nrs).join('\n');
+
+          return `
+            <article class="dialogue-card" id="dialogue-${escapeHtml(scen.id)}">
+              <div class="dialogue-header">
+                <div>
+                  <span class="dialogue-id">${escapeHtml(scen.id)}</span>
+                  <h3 class="dialogue-title" style="margin-top: 4px;">${escapeHtml(scen.title)}</h3>
+                </div>
+                <div class="dialogue-speakers">話者: ${escapeHtml((scen.speakers || []).join(' / '))}</div>
+              </div>
+              <div class="dialogue-turns">
+                ${turnsHtml}
+              </div>
+              <div class="dialogue-compounds">
+                <span style="font-size: 0.8rem; font-weight: 600; color: var(--md-sys-color-primary); margin-right: 4px;">実証複合語:</span>
+                ${compoundsHtml}
+              </div>
+              <div class="dialogue-actions">
+                <button type="button" class="tool-btn" data-action="to-editor" data-text="${escapeHtml(fullDialogueText)}">エディタで開く</button>
+                <button type="button" class="tool-btn" data-action="to-trans" data-text="${escapeHtml(fullDialogueText)}">翻訳へ送る</button>
+              </div>
+            </article>
+          `;
+        }).join('')}
+        ${filtered.length > 60 ? '<p style="text-align: center; color: var(--md-sys-color-outline); padding: 12px;">（検索条件により最初の60件を表示中。絞り込み検索をご活用ください）</p>' : ''}
+      </div>
+    `;
+
+  } else {
+    const filtered = canonEntries.filter(entry => {
+      if (selectedDialogueCategory !== 'ALL' && entry.category !== selectedDialogueCategory) {
+        return false;
+      }
+      if (!q) return true;
+      const haystack = [
+        entry.nrs,
+        entry.meaningJa,
+        entry.meaningEn,
+        entry.category,
+        entry.scenario_id,
+        ...(entry.morphemes || []),
+        entry.example_sentence,
+        entry.example_ja
+      ].join(' ').toLowerCase();
+      return haystack.includes(q);
+    });
+
+    if (dialoguesCount) {
+      dialoguesCount.textContent = `表示中: ${filtered.length} / ${canonEntries.length} 語の正本複合語`;
+    }
+
+    if (!filtered.length) {
+      dialoguesList.innerHTML = '<div class="empty-state"><p>一致する正本複合語がありません。</p></div>';
+      return;
+    }
+
+    const displayList = filtered.slice(0, 100);
+
+    dialoguesList.innerHTML = `
+      <div class="compound-grid">
+        ${displayList.map(entry => {
+          const morphemesStr = (entry.morphemes || []).join(' + ');
+          return `
+            <div class="compound-card" data-nrs="${escapeHtml(entry.nrs)}">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+                  <div>
+                    <span style="font-size: 1.15rem; font-weight: 700; color: var(--md-sys-color-primary);">${escapeHtml(entry.nrs)}</span>
+                    <span class="badge-chip" style="margin-left: 6px;">${escapeHtml(entry.pos || '名')}</span>
+                  </div>
+                  <span class="badge-chip" style="background: var(--md-sys-color-surface-container-highest); color: var(--md-sys-color-on-surface-variant);">${escapeHtml(entry.category || '')}</span>
+                </div>
+                <div class="word-glyph" style="font-size: 2.1rem; margin: 4px 0 8px 0;">${escapeHtml(entry.nrs)}</div>
+                <div class="compound-roots">構成: ${escapeHtml(morphemesStr)}</div>
+                <div style="font-size: 0.95rem; font-weight: 500; margin-bottom: 4px;">${escapeHtml(entry.meaningJa || '')}</div>
+                <div style="font-size: 0.8rem; color: var(--md-sys-color-on-surface-variant);">${escapeHtml(entry.meaningEn || '')}</div>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 12px; border-top: 1px dashed var(--md-sys-color-outline-variant); padding-top: 8px;">
+                <span class="badge-chip" style="cursor: pointer;" data-jump-scenario="${escapeHtml(entry.scenario_id)}">${escapeHtml(entry.scenario_id)}</span>
+                <button type="button" class="tool-btn" data-action="to-trans" data-text="${escapeHtml(entry.example_sentence || entry.nrs)}">例文翻訳</button>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+      ${filtered.length > 100 ? '<p style="text-align: center; color: var(--md-sys-color-outline); padding: 16px;">（検索条件により最初の100件を表示中。検索ボックスで語句を絞り込めます）</p>' : ''}
+    `;
+  }
+
+  // Bind click handlers for dynamic elements
+  const queryList = (sel) => {
+    if (typeof dialoguesList.querySelectorAll === 'function') return dialoguesList.querySelectorAll(sel);
+    if (typeof document.querySelectorAll === 'function') return document.querySelectorAll('#dialoguesList ' + sel);
+    return [];
+  };
+
+  queryList('[data-action="to-editor"]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      sendTextToEditor(btn.getAttribute('data-text') || '');
+    });
+  });
+
+  queryList('[data-action="to-trans"]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      sendTextToTranslator(btn.getAttribute('data-text') || '');
+    });
+  });
+
+  queryList('[data-jump-scenario]').forEach(badge => {
+    badge.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const scenId = badge.getAttribute('data-jump-scenario');
+      dialogueViewMode = 'scenarios';
+      if (viewModeScenariosBtn) viewModeScenariosBtn.classList.add('active');
+      if (viewModeCompoundsBtn) viewModeCompoundsBtn.classList.remove('active');
+      if (dialogueSearchInput) dialogueSearchInput.value = scenId;
+      selectedDialogueCategory = 'ALL';
+      initDialogueCategoryChips();
+      renderDialogues();
+    });
+  });
+
+  queryList('[data-compound]').forEach(badge => {
+    badge.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const comp = badge.getAttribute('data-compound');
+      dialogueViewMode = 'compounds';
+      if (viewModeCompoundsBtn) viewModeCompoundsBtn.classList.add('active');
+      if (viewModeScenariosBtn) viewModeScenariosBtn.classList.remove('active');
+      if (dialogueSearchInput) dialogueSearchInput.value = comp;
+      renderDialogues();
+    });
+  });
+}
+
+if (viewModeScenariosBtn) {
+  viewModeScenariosBtn.addEventListener('click', () => {
+    dialogueViewMode = 'scenarios';
+    viewModeScenariosBtn.classList.add('active');
+    viewModeCompoundsBtn.classList.remove('active');
+    renderDialogues();
+  });
+}
+
+if (viewModeCompoundsBtn) {
+  viewModeCompoundsBtn.addEventListener('click', () => {
+    dialogueViewMode = 'compounds';
+    viewModeCompoundsBtn.classList.add('active');
+    viewModeScenariosBtn.classList.remove('active');
+    renderDialogues();
+  });
+}
+
+if (dialogueSearchInput) {
+  dialogueSearchInput.addEventListener('input', renderDialogues);
+}
+
+// Initial Dialogues Setup
+initDialogueCategoryChips();
+renderDialogues();
+
 corpusSearch.addEventListener('input',renderCorpus);
 renderCorpus();
 
