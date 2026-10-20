@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T14:03:53.269528+00:00",
+  "createdAt": "2026-10-20T14:24:42.255541+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 830,
-    "uniqueRoots": 830,
-    "uniqueIds": 830,
-    "scenarios": 277,
+    "rows": 857,
+    "uniqueRoots": 857,
+    "uniqueIds": 857,
+    "scenarios": 286,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -392,14 +392,14 @@
     "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
-    "Vymin el mi ia <TERM>.": 75,
+    "Vymin el mi ia <TERM>.": 84,
     "Soran el mi uo <TERM>.": 2,
     "Kiras el mi ia <TERM> ul kypalvel.": 1,
     "Vymin el <TERM> ia pamel.": 1,
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
     "Soran el mi ia <TERM>.": 18,
-    "Vyrel el mi ia <TERM>.": 66,
+    "Vyrel el mi ia <TERM>.": 75,
     "Vyrel el mi ia <TERM> ul dardaron.": 1,
     "Relen el dar uo <TERM>.": 2,
     "Kiras el mi ia talyrvorn to <TERM>.": 1,
@@ -449,9 +449,9 @@
     "Vymin el mi ia <TERM> uo darar.": 1,
     "Kiran el mi ia <TERM> uo valar.": 1,
     "Relen el mi ia <TERM> to valar.": 13,
-    "Relen el mi ia <TERM> to govan.": 11,
-    "Relen el mi ia <TERM> to domom.": 3,
-    "Relen el mi ia <TERM> to calor.": 2,
+    "Relen el mi ia <TERM> to govan.": 14,
+    "Relen el mi ia <TERM> to domom.": 6,
+    "Relen el mi ia <TERM> to calor.": 5,
     "Relen el mi ia <TERM> to velom.": 1
   },
   "entries": [
@@ -17052,6 +17052,546 @@
       "referencedScenarioSpeakers": [
         "Tykan",
         "Valin"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to domom."
+    },
+    {
+      "id": 31831,
+      "nrs": "havzylar",
+      "meaningJa": "天涯の海風、彼岸の星霜気流、潮風の季節",
+      "meaningEn": "celestial oceanic wind, far-shore seasonal breeze, tidal wind epoch",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "zylar"
+      ],
+      "scenario_id": "CANON-COLAB-111",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Eiron",
+        "Zylos"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31832,
+      "nrs": "kloreiran",
+      "meaningJa": "永遠の循環環、不変の持続環、久遠の継続環",
+      "meaningEn": "eternal sustaining cycle, perpetual continuity ring, enduring cycle",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "eiran"
+      ],
+      "scenario_id": "CANON-COLAB-111",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Eiron",
+        "Zylos"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31833,
+      "nrs": "havmyren",
+      "meaningJa": "千年の時相、古老の年輪道程、悠久の人生程",
+      "meaningEn": "millennial epoch span, ancient lifetime journey, antique human cycle",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "myren"
+      ],
+      "scenario_id": "CANON-COLAB-111",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Eiron",
+        "Zylos"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31834,
+      "nrs": "unorhavel",
+      "meaningJa": "年代記の記録軌道、歴史の刻銘展開、確定時代記",
+      "meaningEn": "chronicle trajectory record, historical orbital mark, verified path annals",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "havel"
+      ],
+      "scenario_id": "CANON-COLAB-112",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Laron",
+        "Novar"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31835,
+      "nrs": "kymzemin",
+      "meaningJa": "宵の地平境、黄昏の地平線、薄暮の境界壇",
+      "meaningEn": "dusk horizon threshold, evening boundary line, twilight terrace margin",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "zemin"
+      ],
+      "scenario_id": "CANON-COLAB-112",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Laron",
+        "Novar"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31836,
+      "nrs": "kymnovar",
+      "meaningJa": "千古の天頂夜、悠久の星霜頂、不変の天頂夜天",
+      "meaningEn": "perpetual zenith night, eternal apex epoch, timeless celestial summit",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "novar"
+      ],
+      "scenario_id": "CANON-COLAB-112",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Laron",
+        "Novar"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to calor."
+    },
+    {
+      "id": 31837,
+      "nrs": "klordoran",
+      "meaningJa": "巡る惑星季節、年月の周回期、惑星輪回節",
+      "meaningEn": "cycling planetary seasons, orbital epoch return, planetary season turn",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "doran"
+      ],
+      "scenario_id": "CANON-COLAB-113",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Doran",
+        "Sufon"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31838,
+      "nrs": "zydunor",
+      "meaningJa": "不変の定理幾何、公理の真実展開、幾何公理の真実",
+      "meaningEn": "axiomatic geometric truth, polygon theorem verity, invariant truth form",
+      "pos": "名",
+      "morphemes": [
+        "zyd",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-113",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Doran",
+        "Sufon"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31839,
+      "nrs": "kivsilan",
+      "meaningJa": "小宇宙の単位調和、微小点の均整律、単位均衡律",
+      "meaningEn": "microcosmic unit harmony, discrete point balance, harmonic cosmos order",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "silan"
+      ],
+      "scenario_id": "CANON-COLAB-113",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Doran",
+        "Sufon"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to domom."
+    },
+    {
+      "id": 31840,
+      "nrs": "talkyron",
+      "meaningJa": "存在の本質深奥、実在の根底孔、大地根源の深孔",
+      "meaningEn": "essence of existence abyss, cosmic singularity origin, deep ontological core",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "kyron"
+      ],
+      "scenario_id": "CANON-COLAB-114",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenon",
+        "Kyron"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31841,
+      "nrs": "unorsirar",
+      "meaningJa": "至高の安寧目的、究極の静謐帰結、終極の平安標",
+      "meaningEn": "ultimate tranquility objective, supreme serene end, invariant peace goal",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "sirar"
+      ],
+      "scenario_id": "CANON-COLAB-114",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenon",
+        "Kyron"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31842,
+      "nrs": "fenopyran",
+      "meaningJa": "対話の燃焼火花、知性の閃熱、熱弁の火華",
+      "meaningEn": "dialogue ignition spark, intellectual burning flare, discourse passion spark",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "pyran"
+      ],
+      "scenario_id": "CANON-COLAB-114",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenon",
+        "Kyron"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to calor."
+    },
+    {
+      "id": 31843,
+      "nrs": "talmemar",
+      "meaningJa": "虚空の平原瞑想、大地の沈黙思索、無心の観照壇",
+      "meaningEn": "expanse meditation contemplation, silent plains reflection, void serenity",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "memar"
+      ],
+      "scenario_id": "CANON-COLAB-115",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Meman",
+        "Voron"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31844,
+      "nrs": "novarunor",
+      "meaningJa": "無限の天頂展開、天涯の軌道極限、至高の天頂境",
+      "meaningEn": "zenith boundary infinity, extreme radial zenith, celestial apex expanse",
+      "pos": "名",
+      "morphemes": [
+        "novar",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-115",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Meman",
+        "Voron"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31845,
+      "nrs": "zenvoran",
+      "meaningJa": "第一原因の動因、始源の星火動因、発端の生成律",
+      "meaningEn": "first cause conditional origin, prime inception stellar spark, genesis condition",
+      "pos": "名",
+      "morphemes": [
+        "zen",
+        "voran"
+      ],
+      "scenario_id": "CANON-COLAB-115",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Meman",
+        "Voron"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31846,
+      "nrs": "felynunor",
+      "meaningJa": "直観の真理展開、直覚の数理覚知、直観真理知",
+      "meaningEn": "intuitive mathematical insight, direct perception note, immediate knowing mark",
+      "pos": "名",
+      "morphemes": [
+        "felyn",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-116",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Felys",
+        "Kvanor"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31847,
+      "nrs": "kvanunor",
+      "meaningJa": "最小構成基元、単子の量子展開、離散量子構成単位",
+      "meaningEn": "monad primal unit, quantum expansion node, elemental constituent cell",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-116",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Felys",
+        "Kvanor"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31848,
+      "nrs": "vyranunor",
+      "meaningJa": "必然の公理展開、公理の真理展開、確定した公理証",
+      "meaningEn": "axiomatic theorem unfolding, invariant truth unfolding, verified truth evidence",
+      "pos": "名",
+      "morphemes": [
+        "vyran",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-116",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Felys",
+        "Kvanor"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to domom."
+    },
+    {
+      "id": 31849,
+      "nrs": "sufsilan",
+      "meaningJa": "秩序の数理調和、小宇宙の均整度、調和の尺度律",
+      "meaningEn": "metric of harmonic order, microcosmic proportion measure, balance scale",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "silan"
+      ],
+      "scenario_id": "CANON-COLAB-117",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Jylin",
+        "Sufir"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31850,
+      "nrs": "nersirar",
+      "meaningJa": "実質の安寧実相、存在の本質安寧、不変の実相律",
+      "meaningEn": "essence of existence peace, nourishment peace, true form",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "sirar"
+      ],
+      "scenario_id": "CANON-COLAB-117",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Jylin",
+        "Sufir"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31851,
+      "nrs": "jylaszen",
+      "meaningJa": "終極の目的帰結、至高の結合動因、誓約の終極目的",
+      "meaningEn": "ultimate binding cause, supreme purposeful goal, peaceful teleological end",
+      "pos": "名",
+      "morphemes": [
+        "jylas",
+        "zen"
+      ],
+      "scenario_id": "CANON-COLAB-117",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Jylin",
+        "Sufir"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to calor."
+    },
+    {
+      "id": 31852,
+      "nrs": "fenovyr",
+      "meaningJa": "知性の閃光火花、対話の星彩火花、討議の閃き",
+      "meaningEn": "council debate ignition spark, intellectual assembly flare, council flash",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "vyr"
+      ],
+      "scenario_id": "CANON-COLAB-118",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Celon",
+        "Fenor"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31853,
+      "nrs": "vornelir",
+      "meaningJa": "空間の静謐観照、虚空の静寂歓喜、静室想望の瞑想",
+      "meaningEn": "plains meditation vision, contemplative expanse dream, serene space joy",
+      "pos": "名",
+      "morphemes": [
+        "vorn",
+        "elir"
+      ],
+      "scenario_id": "CANON-COLAB-118",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Celon",
+        "Fenor"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31854,
+      "nrs": "celenunor",
+      "meaningJa": "天涯の穹窿展開、遠天の展開極限、天空の展開境",
+      "meaningEn": "vault distance infinity, celestial canopy horizon, skyward boundless range",
+      "pos": "名",
+      "morphemes": [
+        "celen",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-118",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Celon",
+        "Fenor"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31855,
+      "nrs": "zenkyrim",
+      "meaningJa": "始源の深淵動因、原初の深奥動因、深奥の創成動因",
+      "meaningEn": "primordial abyss ignition, genesis inception chasm, origin star genesis",
+      "pos": "名",
+      "morphemes": [
+        "zen",
+        "kyrim"
+      ],
+      "scenario_id": "CANON-COLAB-119",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kvanis",
+        "Zenon"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31856,
+      "nrs": "felynzen",
+      "meaningJa": "叡智の直感動因、直覚の理由覚知、直観理由知",
+      "meaningEn": "intuitive reason insight, direct relational discernment, intuitive logic",
+      "pos": "名",
+      "morphemes": [
+        "felyn",
+        "zen"
+      ],
+      "scenario_id": "CANON-COLAB-119",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kvanis",
+        "Zenon"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31857,
+      "nrs": "kvansilan",
+      "meaningJa": "単子の量子調和、微小構成子の環、基元単位の均整",
+      "meaningEn": "monad harmonic ring, discrete unit cyclic ring, elemental particle circle",
+      "pos": "名",
+      "morphemes": [
+        "kvan",
+        "silan"
+      ],
+      "scenario_id": "CANON-COLAB-119",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kvanis",
+        "Zenon"
       ],
       "exampleTemplate": "Relen el mi ia <TERM> to domom."
     }

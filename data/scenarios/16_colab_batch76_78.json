@@ -1,0 +1,641 @@
+[
+  {
+    "scenario_id": "CANON-COLAB-111",
+    "batch": "Batch 76",
+    "domain": "天涯海風と悠久時相",
+    "title": "沿岸展望台における彼岸海風と持続環の観測",
+    "communicative_need": "海風観測士と時相記録官が彼岸の潮風気流、永遠の持続循環環、および千年の人生時相について記録を突合する。",
+    "agent_a": {
+      "name": "Zylos",
+      "role": "沿岸海風観測士"
+    },
+    "agent_b": {
+      "name": "Eiron",
+      "role": "悠久時相記録官"
+    },
+    "turns": [
+      {
+        "speaker": "Zylos",
+        "nebulith": "Vyrel el mi ia havzylar ul kloreiran. Relen el mi ia havmyren to govan.",
+        "japanese": "私は天涯の海風と永遠の循環環を観測する。私は家へ向けて千年の時相の記録を得る。"
+      },
+      {
+        "speaker": "Eiron",
+        "nebulith": "Vymin el mi ia kloreiran. Vyrel el mi ia havmyren. Vymin el miin ia havzylar ul havmyren.",
+        "japanese": "私は永遠の循環環を守る。私は千年の時相を確かめる。私たちは天涯の海風と千年の時相を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "havzylar",
+        "pos": "名",
+        "meaningJa": "天涯の海風、彼岸の星霜気流、潮風の季節",
+        "meaningEn": "celestial oceanic wind, far-shore seasonal breeze, tidal wind epoch",
+        "morphemes": [
+          "hav",
+          "zylar"
+        ],
+        "etymology": "hav(時/季節) + zylar(海)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vyrel el mi ia havzylar.",
+        "example_ja": "私は天涯の海風を観測する。"
+      },
+      {
+        "nrs": "kloreiran",
+        "pos": "名",
+        "meaningJa": "永遠の循環環、不変の持続環、久遠の継続環",
+        "meaningEn": "eternal sustaining cycle, perpetual continuity ring, enduring cycle",
+        "morphemes": [
+          "klor",
+          "eiran"
+        ],
+        "etymology": "klor(円/環) + eiran(永遠の)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vymin el mi ia kloreiran.",
+        "example_ja": "私は永遠の循環環を守る。"
+      },
+      {
+        "nrs": "havmyren",
+        "pos": "名",
+        "meaningJa": "千年の時相、古老の年輪道程、悠久の人生程",
+        "meaningEn": "millennial epoch span, ancient lifetime journey, antique human cycle",
+        "morphemes": [
+          "hav",
+          "myren"
+        ],
+        "etymology": "hav(時) + myren(人間)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Relen el mi ia havmyren to govan.",
+        "example_ja": "私は家へ向けて千年の時相の記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-112",
+    "batch": "Batch 76",
+    "domain": "歴史軌道と天頂星霜",
+    "title": "天文史庫台における歴史軌道銘と天頂夜天の照合",
+    "communicative_need": "軌道史官と天頂観測官が年代記の軌道記録、黄昏の地平境、および千古の天頂夜天を照合する。",
+    "agent_a": {
+      "name": "Laron",
+      "role": "天文軌道史官"
+    },
+    "agent_b": {
+      "name": "Novar",
+      "role": "天頂夜天観測官"
+    },
+    "turns": [
+      {
+        "speaker": "Laron",
+        "nebulith": "Vyrel el mi ia unorhavel ul kymzemin. Relen el mi ia kymnovar to calor.",
+        "japanese": "私は年代記の記録軌道と宵の地平境を観測する。私は評議会へ向けて千古の天頂夜の記録を得る。"
+      },
+      {
+        "speaker": "Novar",
+        "nebulith": "Vymin el mi ia kymzemin. Vyrel el mi ia kymnovar. Vymin el miin ia unorhavel ul kymnovar.",
+        "japanese": "私は宵の地平境を守る。私は千古の天頂夜を確かめる。私たちは年代記の記録軌道と千古の天頂夜を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "unorhavel",
+        "pos": "名",
+        "meaningJa": "年代記の記録軌道、歴史の刻銘展開、確定時代記",
+        "meaningEn": "chronicle trajectory record, historical orbital mark, verified path annals",
+        "morphemes": [
+          "unor",
+          "havel"
+        ],
+        "etymology": "unor(展開/整数) + havel(時代)",
+        "category": "3. 歴・時間・年代",
+        "example_sentence": "Vyrel el mi ia unorhavel.",
+        "example_ja": "私は年代記の記録軌道を観測する。"
+      },
+      {
+        "nrs": "kymzemin",
+        "pos": "名",
+        "meaningJa": "宵の地平境、黄昏の地平線、薄暮の境界壇",
+        "meaningEn": "dusk horizon threshold, evening boundary line, twilight terrace margin",
+        "morphemes": [
+          "kym",
+          "zemin"
+        ],
+        "etymology": "kym(夜) + zemin(地平線)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vymin el mi ia kymzemin.",
+        "example_ja": "私は宵の地平境を守る。"
+      },
+      {
+        "nrs": "kymnovar",
+        "pos": "名",
+        "meaningJa": "千古の天頂夜、悠久の星霜頂、不変の天頂夜天",
+        "meaningEn": "perpetual zenith night, eternal apex epoch, timeless celestial summit",
+        "morphemes": [
+          "kym",
+          "novar"
+        ],
+        "etymology": "kym(夜) + novar(天頂)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia kymnovar to calor.",
+        "example_ja": "私は評議会へ向けて千古の天頂夜の記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-113",
+    "batch": "Batch 76",
+    "domain": "惑星周回と公理幾何",
+    "title": "数理天文所における惑星季節環と幾何公理の対比",
+    "communicative_need": "幾何学者と惑星暦法官が巡る惑星季節、不変の幾何公理展開、および小宇宙の単位調和を対比検証する。",
+    "agent_a": {
+      "name": "Doran",
+      "role": "惑星暦法算定士"
+    },
+    "agent_b": {
+      "name": "Sufon",
+      "role": "幾何公理分析官"
+    },
+    "turns": [
+      {
+        "speaker": "Doran",
+        "nebulith": "Vyrel el mi ia klordoran ul zydunor. Relen el mi ia kivsilan to domom.",
+        "japanese": "私は巡る惑星季節と不変の幾何公理展開を観測する。私は都市へ向けて小宇宙の単位調和を得る。"
+      },
+      {
+        "speaker": "Sufon",
+        "nebulith": "Vymin el mi ia zydunor. Vyrel el mi ia kivsilan. Vymin el miin ia klordoran ul kivsilan.",
+        "japanese": "私は不変の幾何公理展開を守る。私は小宇宙の単位調和を確かめる。私たちは巡る惑星季節と単位調和を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "klordoran",
+        "pos": "名",
+        "meaningJa": "巡る惑星季節、年月の周回期、惑星輪回節",
+        "meaningEn": "cycling planetary seasons, orbital epoch return, planetary season turn",
+        "morphemes": [
+          "klor",
+          "doran"
+        ],
+        "etymology": "klor(円/環) + doran(惑星)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia klordoran.",
+        "example_ja": "私は巡る惑星季節を観測する。"
+      },
+      {
+        "nrs": "zydunor",
+        "pos": "名",
+        "meaningJa": "不変の定理幾何、公理の真実展開、幾何公理の真実",
+        "meaningEn": "axiomatic geometric truth, polygon theorem verity, invariant truth form",
+        "morphemes": [
+          "zyd",
+          "unor"
+        ],
+        "etymology": "zyd(事実) + unor(展開)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia zydunor.",
+        "example_ja": "私は不変の幾何公理展開を守る。"
+      },
+      {
+        "nrs": "kivsilan",
+        "pos": "名",
+        "meaningJa": "小宇宙の単位調和、微小点の均整律、単位均衡律",
+        "meaningEn": "microcosmic unit harmony, discrete point balance, harmonic cosmos order",
+        "morphemes": [
+          "kiv",
+          "silan"
+        ],
+        "etymology": "kiv(二値点) + silan(調和)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia kivsilan to domom.",
+        "example_ja": "私は都市へ向けて小宇宙の単位調和を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-114",
+    "batch": "Batch 77",
+    "domain": "存在深奥と対話閃熱",
+    "title": "哲学講堂における存在深奥と熱弁閃熱の思索",
+    "communicative_need": "存在論哲学者と対話弁論士が存在の本質深奥孔、究極の安寧目的、および対話の燃焼火花を討議する。",
+    "agent_a": {
+      "name": "Kyron",
+      "role": "存在根源哲学者"
+    },
+    "agent_b": {
+      "name": "Fenon",
+      "role": "対話弁論術士"
+    },
+    "turns": [
+      {
+        "speaker": "Kyron",
+        "nebulith": "Vyrel el mi ia talkyron ul unorsirar. Relen el mi ia fenopyran to calor.",
+        "japanese": "私は存在の本質深奥と至高の安寧目的を観測する。私は評議会へ向けて対話の燃焼火花を得る。"
+      },
+      {
+        "speaker": "Fenon",
+        "nebulith": "Vymin el mi ia unorsirar. Vyrel el mi ia fenopyran. Vymin el miin ia talkyron ul fenopyran.",
+        "japanese": "私は至高の安寧目的を守る。私は対話の燃焼火花を確かめる。私たちは存在の本質深奥と対話の火花を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talkyron",
+        "pos": "名",
+        "meaningJa": "存在の本質深奥、実在の根底孔、大地根源の深孔",
+        "meaningEn": "essence of existence abyss, cosmic singularity origin, deep ontological core",
+        "morphemes": [
+          "tal",
+          "kyron"
+        ],
+        "etymology": "tal(大地) + kyron(黒孔/深孔)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vyrel el mi ia talkyron.",
+        "example_ja": "私は存在の本質深奥を観測する。"
+      },
+      {
+        "nrs": "unorsirar",
+        "pos": "名",
+        "meaningJa": "至高の安寧目的、究極の静謐帰結、終極の平安標",
+        "meaningEn": "ultimate tranquility objective, supreme serene end, invariant peace goal",
+        "morphemes": [
+          "unor",
+          "sirar"
+        ],
+        "etymology": "unor(展開) + sirar(安寧)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vymin el mi ia unorsirar.",
+        "example_ja": "私は至高の安寧目的を守る。"
+      },
+      {
+        "nrs": "fenopyran",
+        "pos": "名",
+        "meaningJa": "対話の燃焼火花、知性の閃熱、熱弁の火華",
+        "meaningEn": "dialogue ignition spark, intellectual burning flare, discourse passion spark",
+        "morphemes": [
+          "feno",
+          "pyran"
+        ],
+        "etymology": "feno(話) + pyran(燃える)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Relen el mi ia fenopyran to calor.",
+        "example_ja": "私は評議会へ向けて対話の燃焼火花を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-115",
+    "batch": "Batch 77",
+    "domain": "平原瞑想と始源星火",
+    "title": "静思平原における虚空瞑想と第一原因の観照",
+    "communicative_need": "観照思索士と宇宙起源学士が平原の虚空瞑想壇、無限の天頂展開、および第一原因の星火動因を観照する。",
+    "agent_a": {
+      "name": "Meman",
+      "role": "平原観照思索士"
+    },
+    "agent_b": {
+      "name": "Voron",
+      "role": "始源星火起源学者"
+    },
+    "turns": [
+      {
+        "speaker": "Meman",
+        "nebulith": "Vyrel el mi ia talmemar ul novarunor. Relen el mi ia zenvoran to govan.",
+        "japanese": "私は虚空の平原瞑想と無限の天頂展開を観測する。私は家へ向けて第一原因の動因記録を得る。"
+      },
+      {
+        "speaker": "Voron",
+        "nebulith": "Vymin el mi ia novarunor. Vyrel el mi ia zenvoran. Vymin el miin ia talmemar ul zenvoran.",
+        "japanese": "私は無限の天頂展開を守る。私は第一原因の動因記録を確かめる。私たちは平原瞑想と第一原因を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "talmemar",
+        "pos": "名",
+        "meaningJa": "虚空の平原瞑想、大地の沈黙思索、無心の観照壇",
+        "meaningEn": "expanse meditation contemplation, silent plains reflection, void serenity",
+        "morphemes": [
+          "tal",
+          "memar"
+        ],
+        "etymology": "tal(大地) + memar(思索する)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vyrel el mi ia talmemar.",
+        "example_ja": "私は虚空の平原瞑想を観測する。"
+      },
+      {
+        "nrs": "novarunor",
+        "pos": "名",
+        "meaningJa": "無限の天頂展開、天涯の軌道極限、至高の天頂境",
+        "meaningEn": "zenith boundary infinity, extreme radial zenith, celestial apex expanse",
+        "morphemes": [
+          "novar",
+          "unor"
+        ],
+        "etymology": "novar(天頂) + unor(展開)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Vymin el mi ia novarunor.",
+        "example_ja": "私は無限の天頂展開を守る。"
+      },
+      {
+        "nrs": "zenvoran",
+        "pos": "名",
+        "meaningJa": "第一原因の動因、始源の星火動因、発端の生成律",
+        "meaningEn": "first cause conditional origin, prime inception stellar spark, genesis condition",
+        "morphemes": [
+          "zen",
+          "voran"
+        ],
+        "etymology": "zen(原因/善) + voran(星の誕生)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Relen el mi ia zenvoran to govan.",
+        "example_ja": "私は家へ向けて第一原因の動因記録を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-116",
+    "batch": "Batch 77",
+    "domain": "直観真理と単子展開",
+    "title": "認識論座における直観数理と最小基元の解明",
+    "communicative_need": "認識論学者と離散単位解析手が直観の真理展開、最小構成基元の単子量子、および公理の真理展開を検証する。",
+    "agent_a": {
+      "name": "Felys",
+      "role": "直観認識論学者"
+    },
+    "agent_b": {
+      "name": "Kvanor",
+      "role": "離散量子解析手"
+    },
+    "turns": [
+      {
+        "speaker": "Felys",
+        "nebulith": "Vyrel el mi ia felynunor ul kvanunor. Relen el mi ia vyranunor to domom.",
+        "japanese": "私は直観の真理展開と最小構成基元の量子展開を観測する。私は都市へ向けて必然の公理展開を得る。"
+      },
+      {
+        "speaker": "Kvanor",
+        "nebulith": "Vymin el mi ia kvanunor. Vyrel el mi ia vyranunor. Vymin el miin ia felynunor ul vyranunor.",
+        "japanese": "私は最小構成基元の量子展開を守る。私は必然の公理展開を確かめる。私たちは直観の真理展開と公理展開を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "felynunor",
+        "pos": "名",
+        "meaningJa": "直観の真理展開、直覚の数理覚知、直観真理知",
+        "meaningEn": "intuitive mathematical insight, direct perception note, immediate knowing mark",
+        "morphemes": [
+          "felyn",
+          "unor"
+        ],
+        "etymology": "felyn(直感) + unor(整数/展開)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia felynunor.",
+        "example_ja": "私は直観の真理展開を観測する。"
+      },
+      {
+        "nrs": "kvanunor",
+        "pos": "名",
+        "meaningJa": "最小構成基元、単子の量子展開、離散量子構成単位",
+        "meaningEn": "monad primal unit, quantum expansion node, elemental constituent cell",
+        "morphemes": [
+          "kvan",
+          "unor"
+        ],
+        "etymology": "kvan(量子) + unor(展開)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vymin el mi ia kvanunor.",
+        "example_ja": "私は最小構成基元の量子展開を守る。"
+      },
+      {
+        "nrs": "vyranunor",
+        "pos": "名",
+        "meaningJa": "必然の公理展開、公理の真理展開、確定した公理証",
+        "meaningEn": "axiomatic theorem unfolding, invariant truth unfolding, verified truth evidence",
+        "morphemes": [
+          "vyran",
+          "unor"
+        ],
+        "etymology": "vyran(真理) + unor(展開)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia vyranunor to domom.",
+        "example_ja": "私は都市へ向けて必然の公理展開を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-117",
+    "batch": "Batch 78",
+    "domain": "数理均整と盟約帰結",
+    "title": "調和審問院における数理尺度と終極目的の宣言",
+    "communicative_need": "調和調律士と盟約宣言官が秩序の数理調和、実質の安寧実相、および終極の目的帰結を公認する。",
+    "agent_a": {
+      "name": "Sufir",
+      "role": "調和数理審問士"
+    },
+    "agent_b": {
+      "name": "Jylin",
+      "role": "盟約終極宣言官"
+    },
+    "turns": [
+      {
+        "speaker": "Sufir",
+        "nebulith": "Vyrel el mi ia sufsilan ul nersirar. Relen el mi ia jylaszen to calor.",
+        "japanese": "私は秩序の数理調和と実質の安寧実相を観測する。私は評議会へ向けて終極の目的帰結を得る。"
+      },
+      {
+        "speaker": "Jylin",
+        "nebulith": "Vymin el mi ia nersirar. Vyrel el mi ia jylaszen. Vymin el miin ia sufsilan ul jylaszen.",
+        "japanese": "私は実質の安寧実相を守る。私は終極の目的帰結を確かめる。私たちは数理調和と終極の目的帰結を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "sufsilan",
+        "pos": "名",
+        "meaningJa": "秩序の数理調和、小宇宙の均整度、調和の尺度律",
+        "meaningEn": "metric of harmonic order, microcosmic proportion measure, balance scale",
+        "morphemes": [
+          "suf",
+          "silan"
+        ],
+        "etymology": "suf(計算) + silan(調和)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Vyrel el mi ia sufsilan.",
+        "example_ja": "私は秩序の数理調和を観測する。"
+      },
+      {
+        "nrs": "nersirar",
+        "pos": "名",
+        "meaningJa": "実質の安寧実相、存在の本質安寧、不変の実相律",
+        "meaningEn": "essence of existence peace, nourishment peace, true form",
+        "morphemes": [
+          "ner",
+          "sirar"
+        ],
+        "etymology": "ner(滋養/実質) + sirar(安寧)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vymin el mi ia nersirar.",
+        "example_ja": "私は実質の安寧実相を守る。"
+      },
+      {
+        "nrs": "jylaszen",
+        "pos": "名",
+        "meaningJa": "終極の目的帰結、至高の結合動因、誓約の終極目的",
+        "meaningEn": "ultimate binding cause, supreme purposeful goal, peaceful teleological end",
+        "morphemes": [
+          "jylas",
+          "zen"
+        ],
+        "etymology": "jylas(結ぶ) + zen(原因/目的)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Relen el mi ia jylaszen to calor.",
+        "example_ja": "私は評議会へ向けて終極の目的帰結を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-118",
+    "batch": "Batch 78",
+    "domain": "閃光火花と穹窿展開",
+    "title": "天涯展望塔における討議閃光と空間静謐の調和",
+    "communicative_need": "知性探究官と天涯穹窿測候手が対話の星彩火花、空間の静謐観照、および天涯の穹窿展開を観測する。",
+    "agent_a": {
+      "name": "Fenor",
+      "role": "知性討議探究官"
+    },
+    "agent_b": {
+      "name": "Celon",
+      "role": "天涯穹窿測候手"
+    },
+    "turns": [
+      {
+        "speaker": "Fenor",
+        "nebulith": "Vyrel el mi ia fenovyr ul vornelir. Relen el mi ia celenunor to govan.",
+        "japanese": "私は知性の閃光火花と空間の静謐観照を観測する。私は家へ向けて天涯の穹窿展開を得る。"
+      },
+      {
+        "speaker": "Celon",
+        "nebulith": "Vymin el mi ia vornelir. Vyrel el mi ia celenunor. Vymin el miin ia fenovyr ul celenunor.",
+        "japanese": "私は空間の静謐観照を守る。私は天涯の穹窿展開を確かめる。私たちは知性の火花と天涯の穹窿展開を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "fenovyr",
+        "pos": "名",
+        "meaningJa": "知性の閃光火花、対話の星彩火花、討議の閃き",
+        "meaningEn": "council debate ignition spark, intellectual assembly flare, council flash",
+        "morphemes": [
+          "feno",
+          "vyr"
+        ],
+        "etymology": "feno(話) + vyr(星/光点)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vyrel el mi ia fenovyr.",
+        "example_ja": "私は知性の閃光火花を観測する。"
+      },
+      {
+        "nrs": "vornelir",
+        "pos": "名",
+        "meaningJa": "空間の静謐観照、虚空の静寂歓喜、静室想望の瞑想",
+        "meaningEn": "plains meditation vision, contemplative expanse dream, serene space joy",
+        "morphemes": [
+          "vorn",
+          "elir"
+        ],
+        "etymology": "vorn(空間/部屋) + elir(歓喜)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vymin el mi ia vornelir.",
+        "example_ja": "私は空間の静謐観照を守る。"
+      },
+      {
+        "nrs": "celenunor",
+        "pos": "名",
+        "meaningJa": "天涯の穹窿展開、遠天の展開極限、天空の展開境",
+        "meaningEn": "vault distance infinity, celestial canopy horizon, skyward boundless range",
+        "morphemes": [
+          "celen",
+          "unor"
+        ],
+        "etymology": "celen(空) + unor(展開)",
+        "category": "1. 自然・天文・気象",
+        "example_sentence": "Relen el mi ia celenunor to govan.",
+        "example_ja": "私は家へ向けて天涯の穹窿展開を得る。"
+      }
+    ]
+  },
+  {
+    "scenario_id": "CANON-COLAB-119",
+    "batch": "Batch 78",
+    "domain": "始源深淵と量子均整",
+    "title": "星辰創成座における始源深淵動因と量子調和の完結",
+    "communicative_need": "創世宇宙哲学者と量子調律官が始源の深淵動因、叡智の直感動因、および単子の量子調和の完結を確定する。",
+    "agent_a": {
+      "name": "Zenon",
+      "role": "創世宇宙哲学者"
+    },
+    "agent_b": {
+      "name": "Kvanis",
+      "role": "量子調律大統括官"
+    },
+    "turns": [
+      {
+        "speaker": "Zenon",
+        "nebulith": "Vyrel el mi ia zenkyrim ul felynzen. Relen el mi ia kvansilan to domom.",
+        "japanese": "私は始源の深淵動因と叡智の直感動因を観測する。私は都市へ向けて単子の量子調和の記録を得る。"
+      },
+      {
+        "speaker": "Kvanis",
+        "nebulith": "Vymin el mi ia felynzen. Vyrel el mi ia kvansilan. Vymin el miin ia zenkyrim ul kvansilan.",
+        "japanese": "私は叡智の直感動因を守る。私は単子の量子調和を確かめる。私たちは始源の深淵動因と単子の量子調和を共に保ち抜く。"
+      }
+    ],
+    "words": [
+      {
+        "nrs": "zenkyrim",
+        "pos": "名",
+        "meaningJa": "始源の深淵動因、原初の深奥動因、深奥の創成動因",
+        "meaningEn": "primordial abyss ignition, genesis inception chasm, origin star genesis",
+        "morphemes": [
+          "zen",
+          "kyrim"
+        ],
+        "etymology": "zen(原因/善) + kyrim(深淵)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vyrel el mi ia zenkyrim.",
+        "example_ja": "私は始源の深淵動因を観測する。"
+      },
+      {
+        "nrs": "felynzen",
+        "pos": "名",
+        "meaningJa": "叡智の直感動因、直覚の理由覚知、直観理由知",
+        "meaningEn": "intuitive reason insight, direct relational discernment, intuitive logic",
+        "morphemes": [
+          "felyn",
+          "zen"
+        ],
+        "etymology": "felyn(直感) + zen(原因/理由)",
+        "category": "4. 心理・思索・哲学",
+        "example_sentence": "Vymin el mi ia felynzen.",
+        "example_ja": "私は叡智の直感動因を守る。"
+      },
+      {
+        "nrs": "kvansilan",
+        "pos": "名",
+        "meaningJa": "単子の量子調和、微小構成子の環、基元単位の均整",
+        "meaningEn": "monad harmonic ring, discrete unit cyclic ring, elemental particle circle",
+        "morphemes": [
+          "kvan",
+          "silan"
+        ],
+        "etymology": "kvan(量子) + silan(調和)",
+        "category": "2. 数理・幾何・計測",
+        "example_sentence": "Relen el mi ia kvansilan to domom.",
+        "example_ja": "私は都市へ向けて単子の量子調和の記録を得る。"
+      }
+    ]
+  }
+]
