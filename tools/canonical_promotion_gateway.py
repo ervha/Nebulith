@@ -90,9 +90,78 @@ def evaluate_promotion_readiness(
             raise PermissionError(
                 "Promotion refused: explicit human council sign-off token (COUNCIL-APPROVE-...) is required."
             )
+        bundle = apply_promotion_to_staging(compounds_path=compounds_path)
+        result["promotedCount"] = bundle["promotedCount"]
+        result["totalExtensionsCount"] = bundle["totalCount"]
+        result["stagingFile"] = bundle["stagingFile"]
+        result["status"] = "PROMOTION_APPLIED_SUCCESSFULLY"
 
     return result
 
+
+
+def apply_promotion_to_staging(
+    compounds_path: Path = ROOT / "data/verified_canonical_compounds.json",
+    extensions_path: Path = ROOT / "data/translation_extensions.json",
+    output_path: Path = ROOT / "data/promoted_translation_extensions.json",
+) -> dict:
+    """
+    Safely export all verified canonical compounds into a production-ready promoted extensions
+    staging ledger, preserving all existing 372 entries and appending the verified canonical compounds.
+    """
+    dataset = json.loads(compounds_path.read_text(encoding="utf-8"))
+    entries = dataset.get("entries", [])
+    ext_data = json.loads(extensions_path.read_text(encoding="utf-8"))
+    existing_entries = ext_data.get("entries", [])
+
+    simulated = list(existing_entries)
+    existing_ids = {e["id"] for e in existing_entries}
+    existing_nrs = {e["nrs"].lower() for e in existing_entries}
+
+    promoted_preview = []
+    for cand in entries:
+        cid = cand["id"]
+        cnrs = cand["nrs"].lower()
+        if cid in existing_ids:
+            raise ValueError(f"Promotion detected ID collision: {cid}")
+        if cnrs in existing_nrs:
+            raise ValueError(f"Promotion detected root collision: {cnrs}")
+        prom_entry = {
+            "id": cid,
+            "category": cand.get("category", "99. 昇格正本複合語"),
+            "nrs": cand["nrs"],
+            "ipa": f"/{cand['nrs']}/",
+            "pos": cand["pos"],
+            "meaningJa": cand["meaningJa"],
+            "meaningEn": cand["meaningEn"],
+            "notes": f"Promoted canonical compound ({cand['etymology']})",
+            "morphemes": cand["morphemes"],
+            "provenance": "verified_canonical_compound",
+        }
+        promoted_preview.append(prom_entry)
+        simulated.append(prom_entry)
+
+    promoted_dataset = {
+        "version": 3,
+        "status": "正本昇格済み拡張語彙台帳",
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "summary": {
+            "preservedExistingCount": len(existing_entries),
+            "promotedCandidateCount": len(promoted_preview),
+            "totalExtensionsCount": len(simulated),
+        },
+        "entries": simulated,
+    }
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(promoted_dataset, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    return {
+        "stagingFile": str(output_path.relative_to(ROOT)).replace("\\", "/"),
+        "promotedCount": len(promoted_preview),
+        "totalCount": len(simulated),
+        "existingCount": len(existing_entries),
+    }
 
 def simulate_promotion(
     compounds_path: Path = ROOT / "data/verified_canonical_compounds.json",

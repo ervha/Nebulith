@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1.0",
-  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-78)",
-  "generatedAt": "2026-10-20T14:24:42.256221+00:00",
+  "title": "Nebulith Verified Canonical Compound Vocabulary (Batches 1-81)",
+  "generatedAt": "2026-10-20T15:02:42.865632+00:00",
   "source": "data/lexicon.json",
   "validator": "tools/canonical_compound_validator.py",
   "summary": {
-    "totalEntries": 857,
-    "totalScenarios": 286,
+    "totalEntries": 883,
+    "totalScenarios": 295,
     "batches": [
       "Batch 1",
       "Batch 2",
@@ -85,12 +85,15 @@
       "Batch 75",
       "Batch 76",
       "Batch 77",
-      "Batch 78"
+      "Batch 78",
+      "Batch 79",
+      "Batch 80",
+      "Batch 81"
     ],
     "auditFlagCount": 0,
     "allConstituentsStandalone": true,
     "twoSpeakerReuseVerified": true,
-    "remediatedLegacyCount": 857
+    "remediatedLegacyCount": 883
   },
   "remappingTable": [
     {
@@ -12947,6 +12950,396 @@
         "tan",
         "lun"
       ]
+    },
+    {
+      "canonicalCompoundId": 31858,
+      "canonicalNrs": "darwylin",
+      "canonicalMorphemes": [
+        "dar",
+        "wylin"
+      ],
+      "canonicalMeaningJa": "湯気、水蒸気、温かい蒸気",
+      "remediatedLegacyId": 40001,
+      "legacyNrs": "darsul",
+      "legacyMorphemes": [
+        "daris",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31859,
+      "canonicalNrs": "hanoneran",
+      "canonicalMorphemes": [
+        "hano",
+        "neran"
+      ],
+      "canonicalMeaningJa": "朝餉、朝食、朝の軽食",
+      "remediatedLegacyId": 40002,
+      "legacyNrs": "novbion",
+      "legacyMorphemes": [
+        "nov",
+        "bion"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31860,
+      "canonicalNrs": "zensirin",
+      "canonicalMorphemes": [
+        "zen",
+        "sirin"
+      ],
+      "canonicalMeaningJa": "くつろぐ、一息つく、休息をとる",
+      "remediatedLegacyId": 40003,
+      "legacyNrs": "sirtul",
+      "legacyMorphemes": [
+        "sir",
+        "tul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31861,
+      "canonicalNrs": "poranzen",
+      "canonicalMorphemes": [
+        "poran",
+        "zen"
+      ],
+      "canonicalMeaningJa": "近道、捷径、抜け道",
+      "remediatedLegacyId": 40004,
+      "legacyNrs": "pelnel",
+      "legacyMorphemes": [
+        "pel",
+        "nel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31862,
+      "canonicalNrs": "alinsoras",
+      "canonicalMorphemes": [
+        "alin",
+        "soras"
+      ],
+      "canonicalMeaningJa": "目印、道標、ランドマーク",
+      "remediatedLegacyId": 40005,
+      "legacyNrs": "pelsel",
+      "legacyMorphemes": [
+        "pel",
+        "sel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31863,
+      "canonicalNrs": "klorlaris",
+      "canonicalMorphemes": [
+        "klor",
+        "laris"
+      ],
+      "canonicalMeaningJa": "曲がり角、街角、辻",
+      "remediatedLegacyId": 40006,
+      "legacyNrs": "peltor",
+      "legacyMorphemes": [
+        "pel",
+        "tor"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31864,
+      "canonicalNrs": "zelvelir",
+      "canonicalMorphemes": [
+        "zelv",
+        "elir"
+      ],
+      "canonicalMeaningJa": "手触り、肌触り、質感",
+      "remediatedLegacyId": 40007,
+      "legacyNrs": "palvas",
+      "legacyMorphemes": [
+        "pal",
+        "vas"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31865,
+      "canonicalNrs": "zendarini",
+      "canonicalMorphemes": [
+        "zen",
+        "darini"
+      ],
+      "canonicalMeaningJa": "肌馴染みの良い、しっとり滑らかな、手触り優しき",
+      "remediatedLegacyId": 40008,
+      "legacyNrs": "zenmol",
+      "legacyMorphemes": [
+        "zen",
+        "mol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31866,
+      "canonicalNrs": "renantal",
+      "canonicalMorphemes": [
+        "renan",
+        "tal"
+      ],
+      "canonicalMeaningJa": "譲る、手頃に商う、分け与える",
+      "remediatedLegacyId": 40009,
+      "legacyNrs": "keltan",
+      "legacyMorphemes": [
+        "kel",
+        "tan"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31867,
+      "canonicalNrs": "talkym",
+      "canonicalMorphemes": [
+        "tal",
+        "kym"
+      ],
+      "canonicalMeaningJa": "身体のこわばり、凝り、疲労感",
+      "remediatedLegacyId": 40010,
+      "legacyNrs": "morkym",
+      "legacyMorphemes": [
+        "mor",
+        "kym"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31868,
+      "canonicalNrs": "kymwylin",
+      "canonicalMorphemes": [
+        "kym",
+        "wylin"
+      ],
+      "canonicalMeaningJa": "眠気、あくび、まどろみの息",
+      "remediatedLegacyId": 40011,
+      "legacyNrs": "tymsul",
+      "legacyMorphemes": [
+        "tymis",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31869,
+      "canonicalNrs": "zensirani",
+      "canonicalMorphemes": [
+        "zen",
+        "sirani"
+      ],
+      "canonicalMeaningJa": "労わる、気遣い包む、優しく案じる",
+      "remediatedLegacyId": 40012,
+      "legacyNrs": "mersul",
+      "legacyMorphemes": [
+        "mer",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31870,
+      "canonicalNrs": "darcelen",
+      "canonicalMorphemes": [
+        "dar",
+        "celen"
+      ],
+      "canonicalMeaningJa": "雨気配、雨前の空模様、雨前の匂い",
+      "remediatedLegacyId": 40013,
+      "legacyNrs": "darsir",
+      "legacyMorphemes": [
+        "dar",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31871,
+      "canonicalNrs": "valisdar",
+      "canonicalMorphemes": [
+        "valis",
+        "dar"
+      ],
+      "canonicalMeaningJa": "干し布、洗い衣、洗濯布",
+      "remediatedLegacyId": 40014,
+      "legacyNrs": "sernod",
+      "legacyMorphemes": [
+        "ser",
+        "nod"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31872,
+      "canonicalNrs": "unorkypal",
+      "canonicalMorphemes": [
+        "unor",
+        "kypal"
+      ],
+      "canonicalMeaningJa": "屋内へ取り込む、軒下へ収める、急ぎ片付ける",
+      "remediatedLegacyId": 40015,
+      "legacyNrs": "govkel",
+      "legacyMorphemes": [
+        "govan",
+        "kel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31873,
+      "canonicalNrs": "havlarar",
+      "canonicalMorphemes": [
+        "hav",
+        "larar"
+      ],
+      "canonicalMeaningJa": "待ち合わせ、合流、落ち合う約束",
+      "remediatedLegacyId": 40016,
+      "legacyNrs": "kelsir",
+      "legacyMorphemes": [
+        "kel",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31874,
+      "canonicalNrs": "fenorelir",
+      "canonicalMorphemes": [
+        "fenor",
+        "elir"
+      ],
+      "canonicalMeaningJa": "世間話、立ち話、気軽な歓談",
+      "remediatedLegacyId": 40017,
+      "legacyNrs": "fensul",
+      "legacyMorphemes": [
+        "fen",
+        "sul"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31875,
+      "canonicalNrs": "dardarel",
+      "canonicalMorphemes": [
+        "dar",
+        "darel"
+      ],
+      "canonicalMeaningJa": "出汁、煮汁、温かいスープ",
+      "remediatedLegacyId": 40018,
+      "legacyNrs": "sursir",
+      "legacyMorphemes": [
+        "sur",
+        "sir"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31876,
+      "canonicalNrs": "neranzen",
+      "canonicalMorphemes": [
+        "neran",
+        "zen"
+      ],
+      "canonicalMeaningJa": "炒める、弱火で火を通す、香ばしく煮る",
+      "remediatedLegacyId": 40019,
+      "legacyNrs": "surzen",
+      "legacyMorphemes": [
+        "sur",
+        "zen"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31877,
+      "canonicalNrs": "nerkirel",
+      "canonicalMorphemes": [
+        "ner",
+        "kirel"
+      ],
+      "canonicalMeaningJa": "味見する、一口吟味する、風味を試す",
+      "remediatedLegacyId": 40020,
+      "legacyNrs": "bionsur",
+      "legacyMorphemes": [
+        "bion",
+        "sur"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31878,
+      "canonicalNrs": "poranvorn",
+      "canonicalMorphemes": [
+        "poran",
+        "vorn"
+      ],
+      "canonicalMeaningJa": "背負い袋、旅鞄、携行荷物",
+      "remediatedLegacyId": 40021,
+      "legacyNrs": "pelvyn",
+      "legacyMorphemes": [
+        "pel",
+        "vyn"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31879,
+      "canonicalNrs": "zenwesan",
+      "canonicalMorphemes": [
+        "zen",
+        "wesan"
+      ],
+      "canonicalMeaningJa": "見送る、手を振る、道中無事を祈る",
+      "remediatedLegacyId": 40022,
+      "legacyNrs": "peltel",
+      "legacyMorphemes": [
+        "pel",
+        "tel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31880,
+      "canonicalNrs": "havgovan",
+      "canonicalMorphemes": [
+        "hav",
+        "govan"
+      ],
+      "canonicalMeaningJa": "宿り場、野営地、街道の休息所",
+      "remediatedLegacyId": 40023,
+      "legacyNrs": "sersol",
+      "legacyMorphemes": [
+        "ser",
+        "sol"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31881,
+      "canonicalNrs": "klorzyvil",
+      "canonicalMorphemes": [
+        "klor",
+        "zyvil"
+      ],
+      "canonicalMeaningJa": "薬草湿布、薬草当て布、浸し湿布",
+      "remediatedLegacyId": 40024,
+      "legacyNrs": "zelpuk",
+      "legacyMorphemes": [
+        "zel",
+        "puk"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31882,
+      "canonicalNrs": "serlitzen",
+      "canonicalMorphemes": [
+        "serlit",
+        "zen"
+      ],
+      "canonicalMeaningJa": "痛みをさする、優しく撫でる、労わり触れる",
+      "remediatedLegacyId": 40025,
+      "legacyNrs": "mervel",
+      "legacyMorphemes": [
+        "mer",
+        "vel"
+      ]
+    },
+    {
+      "canonicalCompoundId": 31883,
+      "canonicalNrs": "nersirani",
+      "canonicalMorphemes": [
+        "ner",
+        "sirani"
+      ],
+      "canonicalMeaningJa": "滋養粥、回復食、身体に優しい養生飯",
+      "remediatedLegacyId": 40026,
+      "legacyNrs": "bionzel",
+      "legacyMorphemes": [
+        "bion",
+        "zel"
+      ]
     }
   ],
   "scenarios": [
@@ -20874,6 +21267,249 @@
           "speaker": "Kvanis",
           "nebulith": "Vymin el mi ia felynzen. Vyrel el mi ia kvansilan. Vymin el miin ia zenkyrim ul kvansilan.",
           "japanese": "私は叡智の直感動因を守る。私は単子の量子調和を確かめる。私たちは始源の深淵動因と単子の量子調和を共に保ち抜く。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-01",
+      "batch": "Batch 79",
+      "domain": "日常生活・朝餉と憩い",
+      "title": "朝の台所における湯気と穏やかな朝餉",
+      "communicative_need": "家事係と見習いが朝の台所で立ちのぼる湯気、温かい朝食、および一息つく休息について語り合う。",
+      "agent_a": {
+        "name": "Selo",
+        "role": "厨房係"
+      },
+      "agent_b": {
+        "name": "Yura",
+        "role": "写字生"
+      },
+      "turns": [
+        {
+          "speaker": "Selo",
+          "nebulith": "Darwylin el darel to klor. Hanoneran el neran va miin. Zensirin el mi va hav.",
+          "japanese": "温かい湯気（darwylin）が鍋から立ちのぼる。私たちの朝餉（hanoneran）をいただきましょう。私は穏やかに一息つき（zensirin）ます。"
+        },
+        {
+          "speaker": "Yura",
+          "nebulith": "Ve, hanoneran el falun to ner. Darwylin el dar, zensirin el ti va sirin.",
+          "japanese": "ええ、この朝餉（hanoneran）は光と滋養です。湯気（darwylin）が立ちのぼり、あなたが静かにくつろぐ（zensirin）姿は心安らぎます。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-02",
+      "batch": "Batch 79",
+      "domain": "街路・歩行と道案内",
+      "title": "石畳の近道と街角の白い道標",
+      "communicative_need": "道行く案内人と旅人が、石畳の抜け道、街角の辻、および白い道標について確認し合う。",
+      "agent_a": {
+        "name": "Arso",
+        "role": "街路案内人"
+      },
+      "agent_b": {
+        "name": "Irina",
+        "role": "巡回巡礼者"
+      },
+      "turns": [
+        {
+          "speaker": "Arso",
+          "nebulith": "Poranzen el laris va tal. Klorlaris de alinsoras el vyr va dalis.",
+          "japanese": "この近道（poranzen）は大地の抜け道です。曲がり角（klorlaris）に立つ白い道標（alinsoras）が近くに見えます。"
+        },
+        {
+          "speaker": "Irina",
+          "nebulith": "Poranzen el mi va poran. Alinsoras el vyr, klorlaris el mi va laris.",
+          "japanese": "私はこの近道（poranzen）を歩みます。白い道標（alinsoras）を頼りに、曲がり角（klorlaris）を曲がっていきましょう。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-03",
+      "batch": "Batch 79",
+      "domain": "手仕事・染織と商い",
+      "title": "染織工房の手触りと公平な譲渡",
+      "communicative_need": "織工と買い手が布地の肌触り、肌馴染みの良さ、および手頃な取引条件について確認し合う。",
+      "agent_a": {
+        "name": "Miren",
+        "role": "染織工"
+      },
+      "agent_b": {
+        "name": "Teo",
+        "role": "物産商"
+      },
+      "turns": [
+        {
+          "speaker": "Miren",
+          "nebulith": "Zelvelir el valis va linen. Zendarini el pal va zen. Renantal el mi ia ti.",
+          "japanese": "この布地の手触り（zelvelir）は心地よいです。肌馴染みが良く（zendarini）優しさに満ちています。私はあなたに適正に譲り商い（renantal）ましょう。"
+        },
+        {
+          "speaker": "Teo",
+          "nebulith": "Zelvelir el elir. Zendarini el valis, renantal el ti va cynas.",
+          "japanese": "その手触り（zelvelir）は素晴らしい喜びです。肌馴染み良き（zendarini）布地を、あなたが誠実に譲って（renantal）くださることに感謝します。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-04",
+      "batch": "Batch 80",
+      "domain": "休息・健康と配慮",
+      "title": "野良仕事の疲労と温かな労わり",
+      "communicative_need": "農作業を終えた作業員と介護人が、身体のこわばり、まどろみの眠気、および温かい労わりについて言葉を交わす。",
+      "agent_a": {
+        "name": "Goran",
+        "role": "石工"
+      },
+      "agent_b": {
+        "name": "Yuna",
+        "role": "養生人"
+      },
+      "turns": [
+        {
+          "speaker": "Goran",
+          "nebulith": "Talkym el tal va mor. Kymwylin el tymis va hav. Zensirani el ti va mi.",
+          "japanese": "重い作業で身体のこわばり（talkym）があります。心地よい眠気（kymwylin）が訪れました。あなたが私を優しく労わって（zensirani）くれます。"
+        },
+        {
+          "speaker": "Yuna",
+          "nebulith": "Zensirani el mi ia ti. Talkym el serlit, kymwylin el sirin va kym.",
+          "japanese": "私はあなたを優しく労わり（zensirani）ましょう。こわばり（talkym）を和らげ、眠気（kymwylin）とともに静かな夜を迎えましょう。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-05",
+      "batch": "Batch 80",
+      "domain": "家事・天候と軒下整理",
+      "title": "雨気配の空と洗濯布の急ぎ片付け",
+      "communicative_need": "家主と家人たちが迫り来る雨気配を察知し、干した洗い衣を急ぎ屋内の収納小箱へ片付ける段取りを決める。",
+      "agent_a": {
+        "name": "Lina",
+        "role": "家長"
+      },
+      "agent_b": {
+        "name": "Sofia",
+        "role": "家人"
+      },
+      "turns": [
+        {
+          "speaker": "Lina",
+          "nebulith": "Darcelen el celen va dar. Valisdar el falun va vel. Unorkypal el miin va valis.",
+          "japanese": "雨気配（darcelen）が空に広がっています。干してある洗い衣（valisdar）を急ぎ屋内に取り込み片付け（unorkypal）ましょう。"
+        },
+        {
+          "speaker": "Sofia",
+          "nebulith": "Ve, unorkypal el mi va valisdar. Darcelen el dar hav govan el sir.",
+          "japanese": "はい、私が洗い衣（valisdar）を急ぎ取り込み片付け（unorkypal）ます。雨気配（darcelen）が来ても家の中は平穏です。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-06",
+      "batch": "Batch 80",
+      "domain": "社交・桟橋の合流と歓談",
+      "title": "港の桟橋における待ち合わせと世間話",
+      "communicative_need": "航海士と物産商が港の桟橋で待ち合わせの約束を果たし、軽やかな世間話に花を咲かせる。",
+      "agent_a": {
+        "name": "Kael",
+        "role": "水先案内人"
+      },
+      "agent_b": {
+        "name": "Rei",
+        "role": "寄港商人"
+      },
+      "turns": [
+        {
+          "speaker": "Kael",
+          "nebulith": "Havlarar el larar de dar. Fenorelir el calun va hav.",
+          "japanese": "水辺の桟橋で待ち合わせ（havlarar）が叶いました。温かい世間話（fenorelir）を交わしましょう。"
+        },
+        {
+          "speaker": "Rei",
+          "nebulith": "Ve, havlarar el cynas to zen. Fenorelir el elir va miin.",
+          "japanese": "ええ、待ち合わせ（havlarar）の約束を果たせて安心しました。世間話（fenorelir）は私たちの喜びです。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-07",
+      "batch": "Batch 81",
+      "domain": "料理・煮炊きと味見",
+      "title": "厨房における出汁取りと香ばしい炒め煮",
+      "communicative_need": "料理長と見習いが旨味の凝縮した出汁、香ばしい炒め煮の調理法、および風味の吟味について確認する。",
+      "agent_a": {
+        "name": "Alban",
+        "role": "料理長"
+      },
+      "agent_b": {
+        "name": "Lio",
+        "role": "調理見習い"
+      },
+      "turns": [
+        {
+          "speaker": "Alban",
+          "nebulith": "Dardarel el darel va ner. Neranzen el nerpas to terin. Nerkirel el ti va darel.",
+          "japanese": "この出汁（dardarel）は滋養の基本です。弱火で香ばしく炒め煮（neranzen）にしましょう。あなたが出汁を味見（nerkirel）しなさい。"
+        },
+        {
+          "speaker": "Lio",
+          "nebulith": "Ve, nerkirel el mi va dardarel. Neranzen el darel va zen.",
+          "japanese": "はい、私が出汁（dardarel）を味見（nerkirel）します。炒め煮（neranzen）が程よく仕上がっています。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-08",
+      "batch": "Batch 81",
+      "domain": "旅・携行荷物と見送り",
+      "title": "街道の旅立ちと休息所での見送り",
+      "communicative_need": "旅人と宿守りが背負い袋の手入れ、街道の野営地、および道中の無事を祈る見送りについて語り合う。",
+      "agent_a": {
+        "name": "Daren",
+        "role": "放浪旅人"
+      },
+      "agent_b": {
+        "name": "Eris",
+        "role": "街道宿守"
+      },
+      "turns": [
+        {
+          "speaker": "Daren",
+          "nebulith": "Poranvorn el tasel va tal. Havgovan el sol va laris. Zenwesan el ti va mi.",
+          "japanese": "背負い袋（poranvorn）を背負って歩みます。次の宿り場（havgovan）を目指します。あなたが私を見送り祈って（zenwesan）くれます。"
+        },
+        {
+          "speaker": "Eris",
+          "nebulith": "Zenwesan el mi ia ti. Poranvorn el valis, havgovan de zensirin el ti.",
+          "japanese": "私はあなたの道中無事を見送り祈り（zenwesan）ます。背負い袋（poranvorn）を整え、次の宿り場（havgovan）でゆっくりお休みください。"
+        }
+      ]
+    },
+    {
+      "scenario_id": "CANON-UNIV-09",
+      "batch": "Batch 81",
+      "domain": "医術・薬草処置と養生食",
+      "title": "診療室における薬草湿布と滋養粥の養生",
+      "communicative_need": "医師と療養中の患者が、浸し薬草湿布の当て布、痛みを撫でさする手当て、および温かな滋養粥の回復効果を確かめる。",
+      "agent_a": {
+        "name": "Valk",
+        "role": "施薬医"
+      },
+      "agent_b": {
+        "name": "Sera",
+        "role": "療養者"
+      },
+      "turns": [
+        {
+          "speaker": "Valk",
+          "nebulith": "Klorzyvil el dar va vel. Serlitzen el mi ia ti. Nersirani el ner va zyvas.",
+          "japanese": "薬草湿布（klorzyvil）を患部に当てましょう。私が痛みを優しく撫でさすり（serlitzen）ます。この滋養粥（nersirani）が生命力を補います。"
+        },
+        {
+          "speaker": "Sera",
+          "nebulith": "Serlitzen el ti va sirin. Klorzyvil el zyvil, nersirani el mi va elir.",
+          "japanese": "あなたが優しく撫でさすって（serlitzen）くださり心安らぎます。薬草湿布（klorzyvil）の薬効と滋養粥（nersirani）で元気が湧きます。"
         }
       ]
     }
@@ -53442,6 +54078,994 @@
       "speakers": [
         "Kvanis",
         "Zenon"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darwylin",
+      "pos": "名",
+      "meaningJa": "湯気、水蒸気、温かい蒸気",
+      "meaningEn": "rising steam, warm vapor, moist warmth",
+      "morphemes": [
+        "dar",
+        "wylin"
+      ],
+      "etymology": "dar(水/しずく) + wylin(息吹/気流)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Darwylin el darel to klor.",
+      "example_ja": "温かい湯気が鍋から立ちのぼる。",
+      "id": 31858,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-01",
+      "domain": "日常生活・朝餉と憩い",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 759,
+          "nrs": "wylin",
+          "pos": "名/形",
+          "meaningJa": "自由、束縛なき飛翔、自在な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40001,
+      "speakers": [
+        "Selo",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "hanoneran",
+      "pos": "名",
+      "meaningJa": "朝餉、朝食、朝の軽食",
+      "meaningEn": "morning meal, breakfast, dawn refreshment",
+      "morphemes": [
+        "hano",
+        "neran"
+      ],
+      "etymology": "hano(今日/朝) + neran(食べる/食)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Hanoneran el neran va miin.",
+      "example_ja": "私たちの朝餉をいただきましょう。",
+      "id": 31859,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-01",
+      "domain": "日常生活・朝餉と憩い",
+      "constituentEntries": [
+        {
+          "id": 865,
+          "nrs": "hano",
+          "pos": "副/名",
+          "meaningJa": "今日、この日、現在"
+        },
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40002,
+      "speakers": [
+        "Selo",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zensirin",
+      "pos": "動",
+      "meaningJa": "くつろぐ、一息つく、休息をとる",
+      "meaningEn": "relax, take a breather, unwind peacefully",
+      "morphemes": [
+        "zen",
+        "sirin"
+      ],
+      "etymology": "zen(調和/良き) + sirin(静寂/安らぎ)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Zensirin el mi va hav.",
+      "example_ja": "私は穏やかに一息つきます。",
+      "id": 31860,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-01",
+      "domain": "日常生活・朝餉と憩い",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 738,
+          "nrs": "sirin",
+          "pos": "名/形",
+          "meaningJa": "平穏、安らぎ、静けさ、穏やか"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40003,
+      "speakers": [
+        "Selo",
+        "Yura"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "poranzen",
+      "pos": "名",
+      "meaningJa": "近道、捷径、抜け道",
+      "meaningEn": "shortcut, direct path, pleasant byway",
+      "morphemes": [
+        "poran",
+        "zen"
+      ],
+      "etymology": "poran(歩む/小道) + zen(調和/良き)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Poranzen el laris va tal.",
+      "example_ja": "この近道は大地の抜け道です。",
+      "id": 31861,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-02",
+      "domain": "街路・歩行と道案内",
+      "constituentEntries": [
+        {
+          "id": 902,
+          "nrs": "poran",
+          "pos": "動",
+          "meaningJa": "歩く、歩む、旅する、進む"
+        },
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40004,
+      "speakers": [
+        "Arso",
+        "Irina"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "alinsoras",
+      "pos": "名",
+      "meaningJa": "目印、道標、ランドマーク",
+      "meaningEn": "landmark, waymark, white signpost",
+      "morphemes": [
+        "alin",
+        "soras"
+      ],
+      "etymology": "alin(白い/明瞭) + soras(記憶/記録/印)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Alinsoras el vyr va dalis.",
+      "example_ja": "白い道標が近くに見えます。",
+      "id": 31862,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-02",
+      "domain": "街路・歩行と道案内",
+      "constituentEntries": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な"
+        },
+        {
+          "id": 745,
+          "nrs": "soras",
+          "pos": "名",
+          "meaningJa": "記憶、想い出、刻印"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40005,
+      "speakers": [
+        "Arso",
+        "Irina"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorlaris",
+      "pos": "名",
+      "meaningJa": "曲がり角、街角、辻",
+      "meaningEn": "street corner, junction, circular bend",
+      "morphemes": [
+        "klor",
+        "laris"
+      ],
+      "etymology": "klor(円/環/曲がり) + laris(道/軌道)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Klorlaris el mi va laris.",
+      "example_ja": "曲がり角を曲がっていきましょう。",
+      "id": 31863,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-02",
+      "domain": "街路・歩行と道案内",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 34,
+          "nrs": "laris",
+          "pos": "名",
+          "meaningJa": "軌道、航路、天体周期"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40006,
+      "speakers": [
+        "Arso",
+        "Irina"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zelvelir",
+      "pos": "名",
+      "meaningJa": "手触り、肌触り、質感",
+      "meaningEn": "tactile feel, pleasant touch texture, cloth handfeel",
+      "morphemes": [
+        "zelv",
+        "elir"
+      ],
+      "etymology": "zelv(手/掌) + elir(喜び/快さ)",
+      "category": "2. 工芸・建築・技術",
+      "example_sentence": "Zelvelir el valis va linen.",
+      "example_ja": "この布地の手触りは心地よいです。",
+      "id": 31864,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-03",
+      "domain": "手仕事・染織と商い",
+      "constituentEntries": [
+        {
+          "id": 245,
+          "nrs": "zelv",
+          "pos": "名",
+          "meaningJa": "手、掌、指"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40007,
+      "speakers": [
+        "Miren",
+        "Teo"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zendarini",
+      "pos": "形",
+      "meaningJa": "肌馴染みの良い、しっとり滑らかな、手触り優しき",
+      "meaningEn": "smooth and gentle to touch, skin-supple, well-softened",
+      "morphemes": [
+        "zen",
+        "darini"
+      ],
+      "etymology": "zen(調和/良き) + darini(柔らかい)",
+      "category": "2. 工芸・建築・技術",
+      "example_sentence": "Zendarini el pal va zen.",
+      "example_ja": "肌馴染みが良く優しさに満ちています。",
+      "id": 31865,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-03",
+      "domain": "手仕事・染織と商い",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 765,
+          "nrs": "darini",
+          "pos": "形",
+          "meaningJa": "柔らかい、柔軟な、しなやかな"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40008,
+      "speakers": [
+        "Miren",
+        "Teo"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "renantal",
+      "pos": "動",
+      "meaningJa": "譲る、手頃に商う、分け与える",
+      "meaningEn": "offer fairly, trade benevolently, hand over amicably",
+      "morphemes": [
+        "renan",
+        "tal"
+      ],
+      "etymology": "renan(商う/取引) + tal(大地/基盤)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Renantal el mi ia ti.",
+      "example_ja": "私はあなたに適正に譲り商いましょう。",
+      "id": 31866,
+      "batch": "Batch 79",
+      "scenario_id": "CANON-UNIV-03",
+      "domain": "手仕事・染織と商い",
+      "constituentEntries": [
+        {
+          "id": 582,
+          "nrs": "renan",
+          "pos": "名/動",
+          "meaningJa": "交易、貿易、物々交換する"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40009,
+      "speakers": [
+        "Miren",
+        "Teo"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "talkym",
+      "pos": "名",
+      "meaningJa": "身体のこわばり、凝り、疲労感",
+      "meaningEn": "bodily stiffness, heavy muscle fatigue, weary tension",
+      "morphemes": [
+        "tal",
+        "kym"
+      ],
+      "etymology": "tal(大地/重み) + kym(夜/陰)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Talkym el tal va mor.",
+      "example_ja": "重い作業で身体のこわばりがあります。",
+      "id": 31867,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-04",
+      "domain": "休息・健康と配慮",
+      "constituentEntries": [
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面"
+        },
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40010,
+      "speakers": [
+        "Goran",
+        "Yuna"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "kymwylin",
+      "pos": "名",
+      "meaningJa": "眠気、あくび、まどろみの息",
+      "meaningEn": "drowsiness, yawn, gentle breath of slumber",
+      "morphemes": [
+        "kym",
+        "wylin"
+      ],
+      "etymology": "kym(夜) + wylin(息吹/気流)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Kymwylin el tymis va hav.",
+      "example_ja": "心地よい眠気が訪れました。",
+      "id": 31868,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-04",
+      "domain": "休息・健康と配慮",
+      "constituentEntries": [
+        {
+          "id": 22,
+          "nrs": "kym",
+          "pos": "名",
+          "meaningJa": "夜、闇、陰"
+        },
+        {
+          "id": 759,
+          "nrs": "wylin",
+          "pos": "名/形",
+          "meaningJa": "自由、束縛なき飛翔、自在な"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40011,
+      "speakers": [
+        "Goran",
+        "Yuna"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zensirani",
+      "pos": "動",
+      "meaningJa": "労わる、気遣い包む、優しく案じる",
+      "meaningEn": "care for, comfort tenderly, soothe with compassion",
+      "morphemes": [
+        "zen",
+        "sirani"
+      ],
+      "etymology": "zen(調和/良き) + sirani(優しい)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Zensirani el mi ia ti.",
+      "example_ja": "私はあなたを優しく労わりましょう。",
+      "id": 31869,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-04",
+      "domain": "休息・健康と配慮",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 809,
+          "nrs": "sirani",
+          "pos": "形",
+          "meaningJa": "優しい、穏やかな、柔らかな"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40012,
+      "speakers": [
+        "Goran",
+        "Yuna"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "darcelen",
+      "pos": "名",
+      "meaningJa": "雨気配、雨前の空模様、雨前の匂い",
+      "meaningEn": "scent of rain, rain-scented sky, humid overcast weather",
+      "morphemes": [
+        "dar",
+        "celen"
+      ],
+      "etymology": "dar(水/雨) + celen(空)",
+      "category": "1. 自然・天文・気象",
+      "example_sentence": "Darcelen el celen va dar.",
+      "example_ja": "雨気配が空に広がっています。",
+      "id": 31870,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-05",
+      "domain": "家事・天候と軒下整理",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 1,
+          "nrs": "celen",
+          "pos": "名",
+          "meaningJa": "空、天蓋、蒼穹、大気"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40013,
+      "speakers": [
+        "Lina",
+        "Sofia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "valisdar",
+      "pos": "名",
+      "meaningJa": "干し布、洗い衣、洗濯布",
+      "meaningEn": "washed linen, drying clothes, laundry fabric",
+      "morphemes": [
+        "valis",
+        "dar"
+      ],
+      "etymology": "valis(衣服) + dar(水/洗い)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Valisdar el falun va vel.",
+      "example_ja": "干してある洗い衣が風に揺れています。",
+      "id": 31871,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-05",
+      "domain": "家事・天候と軒下整理",
+      "constituentEntries": [
+        {
+          "id": 669,
+          "nrs": "valis",
+          "pos": "名",
+          "meaningJa": "衣服、装い、布地、衣類"
+        },
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40014,
+      "speakers": [
+        "Lina",
+        "Sofia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "unorkypal",
+      "pos": "動",
+      "meaningJa": "屋内へ取り込む、軒下へ収める、急ぎ片付ける",
+      "meaningEn": "bring indoors, stow neatly in chest, put away into shelter",
+      "morphemes": [
+        "unor",
+        "kypal"
+      ],
+      "etymology": "unor(整序/整える) + kypal(小箱/収納匣)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Unorkypal el mi va valisdar.",
+      "example_ja": "私が洗い衣を急ぎ取り込み片付けます。",
+      "id": 31872,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-05",
+      "domain": "家事・天候と軒下整理",
+      "constituentEntries": [
+        {
+          "id": 123,
+          "nrs": "unor",
+          "pos": "名",
+          "meaningJa": "整数、完数、離散値"
+        },
+        {
+          "id": 649,
+          "nrs": "kypal",
+          "pos": "名",
+          "meaningJa": "箱、小箱、収納ケース、匣"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40015,
+      "speakers": [
+        "Lina",
+        "Sofia"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "havlarar",
+      "pos": "名",
+      "meaningJa": "待ち合わせ、合流、落ち合う約束",
+      "meaningEn": "rendezvous, appointed meetup, scheduled arrival point",
+      "morphemes": [
+        "hav",
+        "larar"
+      ],
+      "etymology": "hav(時/約束) + larar(停泊所/埠頭)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Havlarar el larar de dar.",
+      "example_ja": "水辺の桟橋で待ち合わせが叶いました。",
+      "id": 31873,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-06",
+      "domain": "社交・桟橋の合流と歓談",
+      "constituentEntries": [
+        {
+          "id": 867,
+          "nrs": "hav",
+          "pos": "名",
+          "meaningJa": "時、瞬間、今この瞬間"
+        },
+        {
+          "id": 618,
+          "nrs": "larar",
+          "pos": "名",
+          "meaningJa": "駅、ターミナル、空港、停泊地"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40016,
+      "speakers": [
+        "Kael",
+        "Rei"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "fenorelir",
+      "pos": "名",
+      "meaningJa": "世間話、立ち話、気軽な歓談",
+      "meaningEn": "casual chat, pleasant small talk, friendly banter",
+      "morphemes": [
+        "fenor",
+        "elir"
+      ],
+      "etymology": "fenor(語らい/話) + elir(喜び/快さ)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Fenorelir el calun va hav.",
+      "example_ja": "温かい世間話を交わしましょう。",
+      "id": 31874,
+      "batch": "Batch 80",
+      "scenario_id": "CANON-UNIV-06",
+      "domain": "社交・桟橋の合流と歓談",
+      "constituentEntries": [
+        {
+          "id": 860,
+          "nrs": "fenor",
+          "pos": "動",
+          "meaningJa": "話す、語る、述べる、名づける"
+        },
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40017,
+      "speakers": [
+        "Kael",
+        "Rei"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "dardarel",
+      "pos": "名",
+      "meaningJa": "出汁、煮汁、温かいスープ",
+      "meaningEn": "broth, savory cooking stock, essence soup",
+      "morphemes": [
+        "dar",
+        "darel"
+      ],
+      "etymology": "dar(しずく/水) + darel(スープ/煮込み)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Dardarel el darel va ner.",
+      "example_ja": "この出汁は滋養の基本です。",
+      "id": 31875,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-07",
+      "domain": "料理・煮炊きと味見",
+      "constituentEntries": [
+        {
+          "id": 329,
+          "nrs": "dar",
+          "pos": "名",
+          "meaningJa": "しずく、水滴、朝露"
+        },
+        {
+          "id": 968,
+          "nrs": "darel",
+          "pos": "名",
+          "meaningJa": "スープ、温煮汁、滋養汁"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40018,
+      "speakers": [
+        "Alban",
+        "Lio"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "neranzen",
+      "pos": "動",
+      "meaningJa": "炒める、弱火で火を通す、香ばしく煮る",
+      "meaningEn": "cook gently on low heat, stir-fry lightly, roast mildly",
+      "morphemes": [
+        "neran",
+        "zen"
+      ],
+      "etymology": "neran(食す/調理) + zen(調和/良き加減)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Neranzen el nerpas to terin.",
+      "example_ja": "弱火で香ばしく炒め煮にしましょう。",
+      "id": 31876,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-07",
+      "domain": "料理・煮炊きと味見",
+      "constituentEntries": [
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう"
+        },
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40019,
+      "speakers": [
+        "Alban",
+        "Lio"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nerkirel",
+      "pos": "動",
+      "meaningJa": "味見する、一口吟味する、風味を試す",
+      "meaningEn": "taste-test, sample flavor, inspect taste with care",
+      "morphemes": [
+        "ner",
+        "kirel"
+      ],
+      "etymology": "ner(滋養/食) + kirel(鉄筆/繊細な記録・吟味)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Nerkirel el ti va darel.",
+      "example_ja": "あなたが出汁を味見しなさい。",
+      "id": 31877,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-07",
+      "domain": "料理・煮炊きと味見",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 642,
+          "nrs": "kirel",
+          "pos": "名",
+          "meaningJa": "筆、ペン、鉄筆、スタイラス"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40020,
+      "speakers": [
+        "Alban",
+        "Lio"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "poranvorn",
+      "pos": "名",
+      "meaningJa": "背負い袋、旅鞄、携行荷物",
+      "meaningEn": "travel knapsack, journey bag, expedition rucksack",
+      "morphemes": [
+        "poran",
+        "vorn"
+      ],
+      "etymology": "poran(歩む/旅) + vorn(部屋/容れ物)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Poranvorn el tasel va tal.",
+      "example_ja": "背負い袋を背負って歩みます。",
+      "id": 31878,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-08",
+      "domain": "旅・携行荷物と見送り",
+      "constituentEntries": [
+        {
+          "id": 902,
+          "nrs": "poran",
+          "pos": "動",
+          "meaningJa": "歩く、歩む、旅する、進む"
+        },
+        {
+          "id": 632,
+          "nrs": "vorn",
+          "pos": "名",
+          "meaningJa": "部屋、私室、空間"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40021,
+      "speakers": [
+        "Daren",
+        "Eris"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "zenwesan",
+      "pos": "動",
+      "meaningJa": "見送る、手を振る、道中無事を祈る",
+      "meaningEn": "see off, wave farewell with blessing, pray for safe travel",
+      "morphemes": [
+        "zen",
+        "wesan"
+      ],
+      "etymology": "zen(調和/良き祈り) + wesan(送信する/送り届ける)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Zenwesan el mi ia ti.",
+      "example_ja": "私はあなたの道中無事を見送り祈ります。",
+      "id": 31879,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-08",
+      "domain": "旅・携行荷物と見送り",
+      "constituentEntries": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        },
+        {
+          "id": 190,
+          "nrs": "wesan",
+          "pos": "動",
+          "meaningJa": "送信する、送る、信号を放つ"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40022,
+      "speakers": [
+        "Daren",
+        "Eris"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "havgovan",
+      "pos": "名",
+      "meaningJa": "宿り場、野営地、街道の休息所",
+      "meaningEn": "roadside rest station, wayfarer lodge, traveler campsite",
+      "morphemes": [
+        "hav",
+        "govan"
+      ],
+      "etymology": "hav(時/一時) + govan(家/住まい)",
+      "category": "3. 道具・生活・日常",
+      "example_sentence": "Havgovan el sol va laris.",
+      "example_ja": "次の宿り場を目指します。",
+      "id": 31880,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-08",
+      "domain": "旅・携行荷物と見送り",
+      "constituentEntries": [
+        {
+          "id": 867,
+          "nrs": "hav",
+          "pos": "名",
+          "meaningJa": "時、瞬間、今この瞬間"
+        },
+        {
+          "id": 616,
+          "nrs": "govan",
+          "pos": "名",
+          "meaningJa": "家、住宅、住まい"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40023,
+      "speakers": [
+        "Daren",
+        "Eris"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "klorzyvil",
+      "pos": "名",
+      "meaningJa": "薬草湿布、薬草当て布、浸し湿布",
+      "meaningEn": "herbal poultice, medicated compress, herbal soaked cloth",
+      "morphemes": [
+        "klor",
+        "zyvil"
+      ],
+      "etymology": "klor(包む/環) + zyvil(薬/薬効)",
+      "category": "4. 身体・医療・生命",
+      "example_sentence": "Klorzyvil el dar va vel.",
+      "example_ja": "薬草湿布を患部に当てましょう。",
+      "id": 31881,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-09",
+      "domain": "医術・薬草処置と養生食",
+      "constituentEntries": [
+        {
+          "id": 110,
+          "nrs": "klor",
+          "pos": "名",
+          "meaningJa": "円、真円、環"
+        },
+        {
+          "id": 269,
+          "nrs": "zyvil",
+          "pos": "名",
+          "meaningJa": "薬、処方生薬、調合薬"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40024,
+      "speakers": [
+        "Sera",
+        "Valk"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "serlitzen",
+      "pos": "動",
+      "meaningJa": "痛みをさする、優しく撫でる、労わり触れる",
+      "meaningEn": "gently soothe pain, stroke with care, rub tenderly",
+      "morphemes": [
+        "serlit",
+        "zen"
+      ],
+      "etymology": "serlit(撫でる) + zen(調和/和らぎ)",
+      "category": "4. 身体・医療・生命",
+      "example_sentence": "Serlitzen el mi ia ti.",
+      "example_ja": "私が痛みを優しく撫でさすります。",
+      "id": 31882,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-09",
+      "domain": "医術・薬草処置と養生食",
+      "constituentEntries": [
+        {
+          "id": 914,
+          "nrs": "serlit",
+          "pos": "動",
+          "meaningJa": "撫でる、優しく触れる、いたわる"
+        },
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40025,
+      "speakers": [
+        "Sera",
+        "Valk"
+      ],
+      "auditFlags": []
+    },
+    {
+      "nrs": "nersirani",
+      "pos": "名",
+      "meaningJa": "滋養粥、回復食、身体に優しい養生飯",
+      "meaningEn": "restorative porridge, convalescent congee, nourishing soft meal",
+      "morphemes": [
+        "ner",
+        "sirani"
+      ],
+      "etymology": "ner(滋養/食) + sirani(優しい/穏やか)",
+      "category": "4. 身体・医療・生命",
+      "example_sentence": "Nersirani el ner va zyvas.",
+      "example_ja": "この滋養粥が生命力を補います。",
+      "id": 31883,
+      "batch": "Batch 81",
+      "scenario_id": "CANON-UNIV-09",
+      "domain": "医術・薬草処置と養生食",
+      "constituentEntries": [
+        {
+          "id": 971,
+          "nrs": "ner",
+          "pos": "名",
+          "meaningJa": "滋養、食材、食物"
+        },
+        {
+          "id": 809,
+          "nrs": "sirani",
+          "pos": "形",
+          "meaningJa": "優しい、穏やかな、柔らかな"
+        }
+      ],
+      "remediatesLegacyCandidateId": 40026,
+      "speakers": [
+        "Sera",
+        "Valk"
       ],
       "auditFlags": []
     }

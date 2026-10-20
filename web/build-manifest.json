@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sha256": {
-    "tools/build_web_studio.py": "7f52f3fe3c13d73336f89d42df8341d8d34f4a568767313f0f5ce4b7d3c49312",
+    "tools/build_web_studio.py": "93025581b759943072f04982d12bdc1a56c23483a83cbf2c33909ebf5b1b7c7f",
     "tools/studio_dictionary.py": "a35b7d94ac653143fd8ef06399b3d78086d235c96dcf589a5a7e4c9ba4eee79d",
     "tools/extended_corpus.py": "4a25a5af083d314cace797e8792fb1fd9081a9e57df6369d3fb9352d5cf2d528",
     "data/lexicon.json": "08622ffa7c4b6ec2d9fd4fb7f2bb27cdb473a2b990b58edb5457161deb5473bd",
@@ -11,7 +11,7 @@
     "web/library.html": "c23009db1a1af378698f558c8f6b4dd770e3ba4e73ac5a6fac6bf18013170fe2",
     "data/grammar_dictionary.json": "b008b1d98a1212353d33367fd153f6beb9eddc7d45aaf9c6d16ad8befef3987d",
     "data/usage_examples.json": "f4cef06f39c128f2a953fd201b4656c751962ae6df983f0ddfac6d5aa42633a8",
-    "data/verified_canonical_compounds.json": "4ec3aa2105ee9dc8c6ace02c9fa8e1456ccb1707f1c304e36fdd32dd138e1f6b",
+    "data/verified_canonical_compounds.json": "374e5f42314673bbbd17cf13d6dc868bd4078daa4a425ee9807860f156f1e1d3",
     "data/translation_extensions.json": "f52b5876690c1f8a42794dbdc4094216d16ba3d3e9372de17980209333b0c833",
     "data/translation_patterns.json": "5cbc5577eaadec7fa5ea597bb3ccb45c67786104850446709c35e6bcd89f9f23",
     "data/canon_corpus.json": "8801299d054f45aa26232658c354e30e04690e6be11bc9332e181769daa1a898",
@@ -24,11 +24,11 @@
     "web/workspace.js": "d92b58f24530c96b08c1aeb69dc20dc475087aa533fab6c41ad2b4089b214dd1",
     "web/bidirectional.js": "c7049f8de798e7d04ad8c1d7006da97bd463797cad83037030b38c108904f421",
     "web/incremental.js": "f2eb2b48c51087e7ad77ad9e24556a41b4a783336ae61890cdaa3aa55dba517f",
-    "web/data.js": "a161e4052e5a72fb634b915dc5b11964d93200cfdd5efa462915b45265125f34",
-    "web/index.html": "5d5de63946adb7e24fb60949487f8eb9d610c645b1515e6a92f0042d7e0d8454",
-    "web/standalone.html": "b2c25646de2958677d6047ee7f42f585d46a53c6d8a8e3bf539e5574d24e1d83",
+    "web/data.js": "a2ca35596038ac1c38da4d723b2c133b865fed3ef10ec3d9803415855d7cb7e5",
+    "web/index.html": "0a5460cd57cf3d6cce8b8dc2017b1931009bb70be5eaffb177e7bf2c17ce3234",
+    "web/standalone.html": "ff5970190c5bf8def3d0a5c0a6a511a302746c5f5753b77dfdca5374e3bc112c",
     "web/manifest.json": "66584246aa34d738552f66254eb2d155f9231546320ae72b9cca6a3b48b77384",
-    "web/service-worker.js": "43cc3e24a2461e30092a84f367a1b58a9d2688e720c25438c5f615de133dd5f0",
+    "web/service-worker.js": "b5cf69a61ea61dbaba9e08de529ba4d47cb471d230a9a07fe7a8ea026cd42f16",
     "web/icon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35",
     "web/favicon.svg": "34bb725f42dcb5074761c12f0802f6a918344086def40c833e0b71b77b78be35"
   }

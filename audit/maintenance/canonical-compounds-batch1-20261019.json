@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T14:24:42.255541+00:00",
+  "createdAt": "2026-10-20T15:02:42.865035+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 857,
-    "uniqueRoots": 857,
-    "uniqueIds": 857,
-    "scenarios": 286,
+    "rows": 883,
+    "uniqueRoots": 883,
+    "uniqueIds": 883,
+    "scenarios": 295,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -452,7 +452,30 @@
     "Relen el mi ia <TERM> to govan.": 14,
     "Relen el mi ia <TERM> to domom.": 6,
     "Relen el mi ia <TERM> to calor.": 5,
-    "Relen el mi ia <TERM> to velom.": 1
+    "Relen el mi ia <TERM> to velom.": 1,
+    "<TERM> el darel to klor.": 1,
+    "<TERM> el neran va miin.": 1,
+    "<TERM> el mi va hav.": 1,
+    "<TERM> el laris va tal.": 1,
+    "<TERM> el vyr va dalis.": 1,
+    "<TERM> el mi va laris.": 1,
+    "<TERM> el valis va linen.": 1,
+    "<TERM> el pal va zen.": 1,
+    "<TERM> el mi ia ti.": 4,
+    "<TERM> el tal va mor.": 1,
+    "<TERM> el tymis va hav.": 1,
+    "<TERM> el celen va dar.": 1,
+    "<TERM> el falun va vel.": 1,
+    "<TERM> el mi va valisdar.": 1,
+    "<TERM> el larar de dar.": 1,
+    "<TERM> el calun va hav.": 1,
+    "<TERM> el darel va ner.": 1,
+    "<TERM> el nerpas to terin.": 1,
+    "<TERM> el ti va darel.": 1,
+    "<TERM> el tasel va tal.": 1,
+    "<TERM> el sol va laris.": 1,
+    "<TERM> el dar va vel.": 1,
+    "<TERM> el ner va zyvas.": 1
   },
   "entries": [
     {
@@ -17594,6 +17617,526 @@
         "Zenon"
       ],
       "exampleTemplate": "Relen el mi ia <TERM> to domom."
+    },
+    {
+      "id": 31858,
+      "nrs": "darwylin",
+      "meaningJa": "湯気、水蒸気、温かい蒸気",
+      "meaningEn": "rising steam, warm vapor, moist warmth",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "wylin"
+      ],
+      "scenario_id": "CANON-UNIV-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Selo",
+        "Yura"
+      ],
+      "exampleTemplate": "<TERM> el darel to klor."
+    },
+    {
+      "id": 31859,
+      "nrs": "hanoneran",
+      "meaningJa": "朝餉、朝食、朝の軽食",
+      "meaningEn": "morning meal, breakfast, dawn refreshment",
+      "pos": "名",
+      "morphemes": [
+        "hano",
+        "neran"
+      ],
+      "scenario_id": "CANON-UNIV-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Selo",
+        "Yura"
+      ],
+      "exampleTemplate": "<TERM> el neran va miin."
+    },
+    {
+      "id": 31860,
+      "nrs": "zensirin",
+      "meaningJa": "くつろぐ、一息つく、休息をとる",
+      "meaningEn": "relax, take a breather, unwind peacefully",
+      "pos": "動",
+      "morphemes": [
+        "zen",
+        "sirin"
+      ],
+      "scenario_id": "CANON-UNIV-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Selo",
+        "Yura"
+      ],
+      "exampleTemplate": "<TERM> el mi va hav."
+    },
+    {
+      "id": 31861,
+      "nrs": "poranzen",
+      "meaningJa": "近道、捷径、抜け道",
+      "meaningEn": "shortcut, direct path, pleasant byway",
+      "pos": "名",
+      "morphemes": [
+        "poran",
+        "zen"
+      ],
+      "scenario_id": "CANON-UNIV-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Arso",
+        "Irina"
+      ],
+      "exampleTemplate": "<TERM> el laris va tal."
+    },
+    {
+      "id": 31862,
+      "nrs": "alinsoras",
+      "meaningJa": "目印、道標、ランドマーク",
+      "meaningEn": "landmark, waymark, white signpost",
+      "pos": "名",
+      "morphemes": [
+        "alin",
+        "soras"
+      ],
+      "scenario_id": "CANON-UNIV-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Arso",
+        "Irina"
+      ],
+      "exampleTemplate": "<TERM> el vyr va dalis."
+    },
+    {
+      "id": 31863,
+      "nrs": "klorlaris",
+      "meaningJa": "曲がり角、街角、辻",
+      "meaningEn": "street corner, junction, circular bend",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "laris"
+      ],
+      "scenario_id": "CANON-UNIV-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Arso",
+        "Irina"
+      ],
+      "exampleTemplate": "<TERM> el mi va laris."
+    },
+    {
+      "id": 31864,
+      "nrs": "zelvelir",
+      "meaningJa": "手触り、肌触り、質感",
+      "meaningEn": "tactile feel, pleasant touch texture, cloth handfeel",
+      "pos": "名",
+      "morphemes": [
+        "zelv",
+        "elir"
+      ],
+      "scenario_id": "CANON-UNIV-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Miren",
+        "Teo"
+      ],
+      "exampleTemplate": "<TERM> el valis va linen."
+    },
+    {
+      "id": 31865,
+      "nrs": "zendarini",
+      "meaningJa": "肌馴染みの良い、しっとり滑らかな、手触り優しき",
+      "meaningEn": "smooth and gentle to touch, skin-supple, well-softened",
+      "pos": "形",
+      "morphemes": [
+        "zen",
+        "darini"
+      ],
+      "scenario_id": "CANON-UNIV-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Miren",
+        "Teo"
+      ],
+      "exampleTemplate": "<TERM> el pal va zen."
+    },
+    {
+      "id": 31866,
+      "nrs": "renantal",
+      "meaningJa": "譲る、手頃に商う、分け与える",
+      "meaningEn": "offer fairly, trade benevolently, hand over amicably",
+      "pos": "動",
+      "morphemes": [
+        "renan",
+        "tal"
+      ],
+      "scenario_id": "CANON-UNIV-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Miren",
+        "Teo"
+      ],
+      "exampleTemplate": "<TERM> el mi ia ti."
+    },
+    {
+      "id": 31867,
+      "nrs": "talkym",
+      "meaningJa": "身体のこわばり、凝り、疲労感",
+      "meaningEn": "bodily stiffness, heavy muscle fatigue, weary tension",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "kym"
+      ],
+      "scenario_id": "CANON-UNIV-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Goran",
+        "Yuna"
+      ],
+      "exampleTemplate": "<TERM> el tal va mor."
+    },
+    {
+      "id": 31868,
+      "nrs": "kymwylin",
+      "meaningJa": "眠気、あくび、まどろみの息",
+      "meaningEn": "drowsiness, yawn, gentle breath of slumber",
+      "pos": "名",
+      "morphemes": [
+        "kym",
+        "wylin"
+      ],
+      "scenario_id": "CANON-UNIV-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Goran",
+        "Yuna"
+      ],
+      "exampleTemplate": "<TERM> el tymis va hav."
+    },
+    {
+      "id": 31869,
+      "nrs": "zensirani",
+      "meaningJa": "労わる、気遣い包む、優しく案じる",
+      "meaningEn": "care for, comfort tenderly, soothe with compassion",
+      "pos": "動",
+      "morphemes": [
+        "zen",
+        "sirani"
+      ],
+      "scenario_id": "CANON-UNIV-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Goran",
+        "Yuna"
+      ],
+      "exampleTemplate": "<TERM> el mi ia ti."
+    },
+    {
+      "id": 31870,
+      "nrs": "darcelen",
+      "meaningJa": "雨気配、雨前の空模様、雨前の匂い",
+      "meaningEn": "scent of rain, rain-scented sky, humid overcast weather",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "celen"
+      ],
+      "scenario_id": "CANON-UNIV-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Lina",
+        "Sofia"
+      ],
+      "exampleTemplate": "<TERM> el celen va dar."
+    },
+    {
+      "id": 31871,
+      "nrs": "valisdar",
+      "meaningJa": "干し布、洗い衣、洗濯布",
+      "meaningEn": "washed linen, drying clothes, laundry fabric",
+      "pos": "名",
+      "morphemes": [
+        "valis",
+        "dar"
+      ],
+      "scenario_id": "CANON-UNIV-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Lina",
+        "Sofia"
+      ],
+      "exampleTemplate": "<TERM> el falun va vel."
+    },
+    {
+      "id": 31872,
+      "nrs": "unorkypal",
+      "meaningJa": "屋内へ取り込む、軒下へ収める、急ぎ片付ける",
+      "meaningEn": "bring indoors, stow neatly in chest, put away into shelter",
+      "pos": "動",
+      "morphemes": [
+        "unor",
+        "kypal"
+      ],
+      "scenario_id": "CANON-UNIV-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Lina",
+        "Sofia"
+      ],
+      "exampleTemplate": "<TERM> el mi va valisdar."
+    },
+    {
+      "id": 31873,
+      "nrs": "havlarar",
+      "meaningJa": "待ち合わせ、合流、落ち合う約束",
+      "meaningEn": "rendezvous, appointed meetup, scheduled arrival point",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "larar"
+      ],
+      "scenario_id": "CANON-UNIV-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Rei"
+      ],
+      "exampleTemplate": "<TERM> el larar de dar."
+    },
+    {
+      "id": 31874,
+      "nrs": "fenorelir",
+      "meaningJa": "世間話、立ち話、気軽な歓談",
+      "meaningEn": "casual chat, pleasant small talk, friendly banter",
+      "pos": "名",
+      "morphemes": [
+        "fenor",
+        "elir"
+      ],
+      "scenario_id": "CANON-UNIV-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Rei"
+      ],
+      "exampleTemplate": "<TERM> el calun va hav."
+    },
+    {
+      "id": 31875,
+      "nrs": "dardarel",
+      "meaningJa": "出汁、煮汁、温かいスープ",
+      "meaningEn": "broth, savory cooking stock, essence soup",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "darel"
+      ],
+      "scenario_id": "CANON-UNIV-07",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alban",
+        "Lio"
+      ],
+      "exampleTemplate": "<TERM> el darel va ner."
+    },
+    {
+      "id": 31876,
+      "nrs": "neranzen",
+      "meaningJa": "炒める、弱火で火を通す、香ばしく煮る",
+      "meaningEn": "cook gently on low heat, stir-fry lightly, roast mildly",
+      "pos": "動",
+      "morphemes": [
+        "neran",
+        "zen"
+      ],
+      "scenario_id": "CANON-UNIV-07",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alban",
+        "Lio"
+      ],
+      "exampleTemplate": "<TERM> el nerpas to terin."
+    },
+    {
+      "id": 31877,
+      "nrs": "nerkirel",
+      "meaningJa": "味見する、一口吟味する、風味を試す",
+      "meaningEn": "taste-test, sample flavor, inspect taste with care",
+      "pos": "動",
+      "morphemes": [
+        "ner",
+        "kirel"
+      ],
+      "scenario_id": "CANON-UNIV-07",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Alban",
+        "Lio"
+      ],
+      "exampleTemplate": "<TERM> el ti va darel."
+    },
+    {
+      "id": 31878,
+      "nrs": "poranvorn",
+      "meaningJa": "背負い袋、旅鞄、携行荷物",
+      "meaningEn": "travel knapsack, journey bag, expedition rucksack",
+      "pos": "名",
+      "morphemes": [
+        "poran",
+        "vorn"
+      ],
+      "scenario_id": "CANON-UNIV-08",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daren",
+        "Eris"
+      ],
+      "exampleTemplate": "<TERM> el tasel va tal."
+    },
+    {
+      "id": 31879,
+      "nrs": "zenwesan",
+      "meaningJa": "見送る、手を振る、道中無事を祈る",
+      "meaningEn": "see off, wave farewell with blessing, pray for safe travel",
+      "pos": "動",
+      "morphemes": [
+        "zen",
+        "wesan"
+      ],
+      "scenario_id": "CANON-UNIV-08",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daren",
+        "Eris"
+      ],
+      "exampleTemplate": "<TERM> el mi ia ti."
+    },
+    {
+      "id": 31880,
+      "nrs": "havgovan",
+      "meaningJa": "宿り場、野営地、街道の休息所",
+      "meaningEn": "roadside rest station, wayfarer lodge, traveler campsite",
+      "pos": "名",
+      "morphemes": [
+        "hav",
+        "govan"
+      ],
+      "scenario_id": "CANON-UNIV-08",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daren",
+        "Eris"
+      ],
+      "exampleTemplate": "<TERM> el sol va laris."
+    },
+    {
+      "id": 31881,
+      "nrs": "klorzyvil",
+      "meaningJa": "薬草湿布、薬草当て布、浸し湿布",
+      "meaningEn": "herbal poultice, medicated compress, herbal soaked cloth",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "zyvil"
+      ],
+      "scenario_id": "CANON-UNIV-09",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sera",
+        "Valk"
+      ],
+      "exampleTemplate": "<TERM> el dar va vel."
+    },
+    {
+      "id": 31882,
+      "nrs": "serlitzen",
+      "meaningJa": "痛みをさする、優しく撫でる、労わり触れる",
+      "meaningEn": "gently soothe pain, stroke with care, rub tenderly",
+      "pos": "動",
+      "morphemes": [
+        "serlit",
+        "zen"
+      ],
+      "scenario_id": "CANON-UNIV-09",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sera",
+        "Valk"
+      ],
+      "exampleTemplate": "<TERM> el mi ia ti."
+    },
+    {
+      "id": 31883,
+      "nrs": "nersirani",
+      "meaningJa": "滋養粥、回復食、身体に優しい養生飯",
+      "meaningEn": "restorative porridge, convalescent congee, nourishing soft meal",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "sirani"
+      ],
+      "scenario_id": "CANON-UNIV-09",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sera",
+        "Valk"
+      ],
+      "exampleTemplate": "<TERM> el ner va zyvas."
     }
   ]
 }
