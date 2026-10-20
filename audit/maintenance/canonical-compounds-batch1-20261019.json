@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T03:20:41.863374+00:00",
+  "createdAt": "2026-10-20T03:31:20.860052+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 500,
-    "uniqueRoots": 500,
-    "uniqueIds": 500,
-    "scenarios": 167,
+    "rows": 530,
+    "uniqueRoots": 530,
+    "uniqueIds": 530,
+    "scenarios": 177,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -58,7 +58,7 @@
     "Soran el mi ia <TERM> de tynikirel.": 1,
     "Vyrel el mi ia vyrpamel ul <TERM>.": 1,
     "Relen el <TERM> uo sylim.": 4,
-    "Poran el mi to <TERM>.": 2,
+    "Poran el mi to <TERM>.": 3,
     "Vyrel el mi ia <TERM> uo velil.": 1,
     "Neranast el mi ia <TERM>.": 1,
     "Falun el <TERM> uo morpal.": 1,
@@ -129,16 +129,16 @@
     "Vymin el miin ia <TERM>.": 1,
     "Vyrel el mi ia <TERM> ul talvalis uo vorn.": 1,
     "Vyrel el mi ia vyrvalis ul <TERM> uo vorn.": 1,
-    "Relen el <TERM> uo vorn.": 15,
+    "Relen el <TERM> uo vorn.": 16,
     "Vyrel el mi ia <TERM> ul darkypal uo govan.": 1,
     "Vyrel el mi ia vyrkypal ul <TERM> uo govan.": 1,
-    "Relen el <TERM> uo govan.": 13,
+    "Relen el <TERM> uo govan.": 15,
     "Vyrel el mi ia <TERM> ul velkirel uo dovik.": 1,
     "Vyrel el mi ia vyrkirel ul <TERM> uo dovik.": 1,
     "Relen el <TERM> uo dovik.": 1,
     "Vymin el mi ia <TERM> ul darlerel uo domom.": 1,
     "Vymin el mi ia vyrlerel ul <TERM> uo domom.": 1,
-    "Relen el <TERM> uo domom.": 13,
+    "Relen el <TERM> uo domom.": 16,
     "Vyrel el mi ia <TERM> ul tynitasel uo velar.": 1,
     "Vyrel el mi ia taltasel ul <TERM> uo velar.": 1,
     "Relen el <TERM> uo velar.": 10,
@@ -385,11 +385,11 @@
     "Vymin el mi ia <TERM> ul darsirar uo livar.": 1,
     "Vymin el mi ia havlivar ul <TERM> uo livar.": 1,
     "Vyrel el mi ia <TERM> uo zylartal.": 1,
-    "Relen el <TERM> uo tal.": 1,
+    "Relen el <TERM> uo tal.": 3,
     "Poran el mi to <TERM> ku ti.": 1,
     "Vyrel el mi ia <TERM> uo talonvel.": 1,
     "Vymin el <TERM> ia tal.": 1,
-    "Relen el <TERM> uo dar.": 1,
+    "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
     "Vymin el mi ia <TERM>.": 1,
@@ -399,7 +399,25 @@
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
     "Soran el mi ia <TERM>.": 1,
-    "Vyrel el mi ia <TERM>.": 1
+    "Vyrel el mi ia <TERM>.": 1,
+    "Vyrel el mi ia <TERM> ul dardaron.": 1,
+    "Relen el dar uo <TERM>.": 2,
+    "Kiras el mi ia talyrvorn to <TERM>.": 1,
+    "Relen el havsirin uo <TERM>.": 1,
+    "Pyran el pyris uo <TERM>.": 1,
+    "Vyrel el mi ia <TERM> to lereltal.": 1,
+    "Vymin el <TERM> ia dolasvel.": 1,
+    "Kiras el mi ia <TERM> to dolasvorn.": 1,
+    "Poran el mi uo <TERM> to domomvorn.": 1,
+    "Fenor el mi to ti uo <TERM>.": 1,
+    "Poran el mi uo <TERM> to lararvorn.": 1,
+    "Vymin el <TERM> ia larardar.": 1,
+    "Kiras el mi ia govanvorn to <TERM>.": 1,
+    "Vymin el <TERM> ia govandar.": 1,
+    "Poran el mi uo dolortal to <TERM>.": 1,
+    "Relen el silan to <TERM>.": 1,
+    "Poran el mi uo <TERM> to renarvorn.": 1,
+    "Vymin el <TERM> ia renardar.": 1
   },
   "entries": [
     {
@@ -10401,6 +10419,606 @@
         "Yura"
       ],
       "exampleTemplate": "Relen el <TERM> uo sylim."
+    },
+    {
+      "id": 31501,
+      "nrs": "darisvorn",
+      "meaningJa": "公共貯水室、都市の地下貯水槽、水門の管理室",
+      "meaningEn": "public water cistern, municipal reservoir chamber, sluice control room",
+      "pos": "名",
+      "morphemes": [
+        "daris",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> ul dardaron."
+    },
+    {
+      "id": 31502,
+      "nrs": "dardaron",
+      "meaningJa": "都市調整池、遊水池、運河の水門溜池",
+      "meaningEn": "urban retention basin, municipal flood reservoir, canal water gate pool",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "daron"
+      ],
+      "scenario_id": "CANON-COLAB-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el dar uo <TERM>."
+    },
+    {
+      "id": 31503,
+      "nrs": "darlivar",
+      "meaningJa": "水利台帳保管庫、水路図誌の記録室、港湾文庫",
+      "meaningEn": "aqueduct archive, waterworks cartography chamber, maritime library",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "livar"
+      ],
+      "scenario_id": "CANON-COLAB-01",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo domom."
+    },
+    {
+      "id": 31504,
+      "nrs": "talyrtal",
+      "meaningJa": "切石の基盤層、石畳の基礎大地、舗装された地盤",
+      "meaningEn": "dressed-stone foundation, paved ground substratum, stone-ballast bedrock",
+      "pos": "名",
+      "morphemes": [
+        "talyr",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Kiras el mi ia talyrvorn to <TERM>."
+    },
+    {
+      "id": 31505,
+      "nrs": "talyrvorn",
+      "meaningJa": "石工の作業場、石材加工室、切石の工房",
+      "meaningEn": "stonecutter workshop, masonry cutting hall, stonemason chamber",
+      "pos": "名",
+      "morphemes": [
+        "talyr",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el havsirin uo <TERM>."
+    },
+    {
+      "id": 31506,
+      "nrs": "talyrvel",
+      "meaningJa": "石柱と梁材、石材と木材の複合架構、耐震梁木",
+      "meaningEn": "stone-and-timber pillar, masonry composite post, seismic tie-beam timber",
+      "pos": "名",
+      "morphemes": [
+        "talyr",
+        "vel"
+      ],
+      "scenario_id": "CANON-COLAB-02",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo govan."
+    },
+    {
+      "id": 31507,
+      "nrs": "talurvorn",
+      "meaningJa": "鍛冶工房、金属加工の間、鋳造工場の炉室",
+      "meaningEn": "metalsmith workshop, foundry casting parlor, metalwork hearth room",
+      "pos": "名",
+      "morphemes": [
+        "talur",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Pyran el pyris uo <TERM>."
+    },
+    {
+      "id": 31508,
+      "nrs": "talurdar",
+      "meaningJa": "銅管送水路、金属製導水管、鋳鉄の配管水",
+      "meaningEn": "copper water conduit, metallic aqueduct piping, cast-iron plumbing stream",
+      "pos": "名",
+      "morphemes": [
+        "talur",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el dar uo <TERM>."
+    },
+    {
+      "id": 31509,
+      "nrs": "talurtal",
+      "meaningJa": "鉱石含有層、金属脈の大地、岩盤の鉱床層",
+      "meaningEn": "ore-bearing rock stratum, metalliferous bedrock ground, mineral lode layer",
+      "pos": "名",
+      "morphemes": [
+        "talur",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-03",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo tal."
+    },
+    {
+      "id": 31510,
+      "nrs": "lereltal",
+      "meaningJa": "城門の礎石、都市大門の敷居石、防壁の土台石",
+      "meaningEn": "city gate threshold stone, city portal socle, fortress gate footing rock",
+      "pos": "名",
+      "morphemes": [
+        "lerel",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Poran el mi to <TERM>."
+    },
+    {
+      "id": 31511,
+      "nrs": "lerelvorn",
+      "meaningJa": "衛兵の詰所、城門守衛の待機室、門番の間",
+      "meaningEn": "gatekeeper guardroom, portal sentry chamber, gatehouse parlor",
+      "pos": "名",
+      "morphemes": [
+        "lerel",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo domom."
+    },
+    {
+      "id": 31512,
+      "nrs": "lereldar",
+      "meaningJa": "水門の堰板、水路門の開閉板、運河の門扉",
+      "meaningEn": "sluice gate leaf, canal portal barrier, water-lock sluice plank",
+      "pos": "名",
+      "morphemes": [
+        "lerel",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-04",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM> to lereltal."
+    },
+    {
+      "id": 31513,
+      "nrs": "dolasvorn",
+      "meaningJa": "鋳型保管室、石膏型・木型の保存室、原型工房",
+      "meaningEn": "casting mold storehouse, model pattern archive chamber, master cast room",
+      "pos": "名",
+      "morphemes": [
+        "dolas",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Vymin el <TERM> ia dolasvel."
+    },
+    {
+      "id": 31514,
+      "nrs": "dolastal",
+      "meaningJa": "土製鋳型、粘土造型の鋳造枠、泥型の鋳床",
+      "meaningEn": "clay foundry mold, loam casting floor, earthen casting matrix",
+      "pos": "名",
+      "morphemes": [
+        "dolas",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM> to dolasvorn."
+    },
+    {
+      "id": 31515,
+      "nrs": "dolasvel",
+      "meaningJa": "木製母型、木彫りの鋳造原型、家具の木製枠型",
+      "meaningEn": "timber pattern prototype, wooden casting matrix, carved master frame",
+      "pos": "名",
+      "morphemes": [
+        "dolas",
+        "vel"
+      ],
+      "scenario_id": "CANON-COLAB-05",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Sev"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo vorn."
+    },
+    {
+      "id": 31516,
+      "nrs": "domomtal",
+      "meaningJa": "中央広場の舗装大地、都市広場、市民の集う広場",
+      "meaningEn": "central municipal square, civic plaza ground, urban public commons",
+      "pos": "名",
+      "morphemes": [
+        "domom",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Poran el mi uo <TERM> to domomvorn."
+    },
+    {
+      "id": 31517,
+      "nrs": "domomvorn",
+      "meaningJa": "市政庁舎の会議室、都市議会の大広間、市民評議の間",
+      "meaningEn": "civic assembly hall, municipal council room, town guild chamber",
+      "pos": "名",
+      "morphemes": [
+        "domom",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Fenor el mi to ti uo <TERM>."
+    },
+    {
+      "id": 31518,
+      "nrs": "domomdar",
+      "meaningJa": "都市中央の噴水、公共給水場、広場の給水塔",
+      "meaningEn": "municipal public fountain, civic water station, town plaza cistern",
+      "pos": "名",
+      "morphemes": [
+        "domom",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-06",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo domom."
+    },
+    {
+      "id": 31519,
+      "nrs": "larartal",
+      "meaningJa": "発着場の乗降台、駅前広場の大地、荷揚げ場",
+      "meaningEn": "station platform ground, carriage staging terrace, wharf apron ground",
+      "pos": "名",
+      "morphemes": [
+        "larar",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-07",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Poran el mi uo <TERM> to lararvorn."
+    },
+    {
+      "id": 31520,
+      "nrs": "lararvorn",
+      "meaningJa": "駅の待合所、発着場の乗客待機室、荷預かり所",
+      "meaningEn": "station waiting hall, passenger staging lobby, transit booking room",
+      "pos": "名",
+      "morphemes": [
+        "larar",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-07",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el <TERM> ia larardar."
+    },
+    {
+      "id": 31521,
+      "nrs": "larardar",
+      "meaningJa": "舟着き場の船渠、運河の発着水門、艀の係留池",
+      "meaningEn": "dockside boat basin, canal mooring lock, barge landing dockpool",
+      "pos": "名",
+      "morphemes": [
+        "larar",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-07",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo dar."
+    },
+    {
+      "id": 31522,
+      "nrs": "govantal",
+      "meaningJa": "長屋の敷地、住宅区の造成大地、共同住宅地",
+      "meaningEn": "tenement housing plot, residential terrace ground, rowhouse land parcel",
+      "pos": "名",
+      "morphemes": [
+        "govan",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-08",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Kiras el mi ia govanvorn to <TERM>."
+    },
+    {
+      "id": 31523,
+      "nrs": "govanvorn",
+      "meaningJa": "居室、住居の主室、家族の集う大広間",
+      "meaningEn": "dwelling parlor, household main chamber, family living room",
+      "pos": "名",
+      "morphemes": [
+        "govan",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-08",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el <TERM> ia govandar."
+    },
+    {
+      "id": 31524,
+      "nrs": "govandar",
+      "meaningJa": "屋内の井戸水、台所の引水槽、住居の湧水場",
+      "meaningEn": "domestic interior well, kitchen water cistern, household fountain",
+      "pos": "名",
+      "morphemes": [
+        "govan",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-08",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo govan."
+    },
+    {
+      "id": 31525,
+      "nrs": "dolorvorn",
+      "meaningJa": "職人組合の詰所、労働者の控えの間、作業詰所",
+      "meaningEn": "craftsmen guild lounge, workers mess hall, artisan labor chamber",
+      "pos": "名",
+      "morphemes": [
+        "dolor",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-09",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Poran el mi uo dolortal to <TERM>."
+    },
+    {
+      "id": 31526,
+      "nrs": "dolortal",
+      "meaningJa": "公共工事の作業場、造成現場の大地、土木現場",
+      "meaningEn": "public construction ground, civil works yard, earthwork job site",
+      "pos": "名",
+      "morphemes": [
+        "dolor",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-09",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el silan to <TERM>."
+    },
+    {
+      "id": 31527,
+      "nrs": "dolorvel",
+      "meaningJa": "工事用足場木材、建設の丸太足場、大工材",
+      "meaningEn": "construction scaffolding timber, timber staging pole, builders timber",
+      "pos": "名",
+      "morphemes": [
+        "dolor",
+        "vel"
+      ],
+      "scenario_id": "CANON-COLAB-09",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo tal."
+    },
+    {
+      "id": 31528,
+      "nrs": "renartal",
+      "meaningJa": "市場の露店広場、青空市場の市街地、交易広場",
+      "meaningEn": "open-air market ground, bazaar square plot, trade fair esplanade",
+      "pos": "名",
+      "morphemes": [
+        "renar",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-10",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Poran el mi uo <TERM> to renarvorn."
+    },
+    {
+      "id": 31529,
+      "nrs": "renarvorn",
+      "meaningJa": "市場の計量所、商人の取引所、為替所の間",
+      "meaningEn": "market weighing hall, mercantile exchange parlor, trade ledger office",
+      "pos": "名",
+      "morphemes": [
+        "renar",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-10",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el <TERM> ia renardar."
+    },
+    {
+      "id": 31530,
+      "nrs": "renardar",
+      "meaningJa": "水上市場の水路、運河の交易舟溜まり、市場水門",
+      "meaningEn": "floating market canal, canal trade boat harbor, market water gate",
+      "pos": "名",
+      "morphemes": [
+        "renar",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-10",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Yura"
+      ],
+      "exampleTemplate": "Relen el <TERM> uo dar."
     }
   ]
 }

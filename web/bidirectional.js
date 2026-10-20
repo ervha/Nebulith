@@ -213,8 +213,8 @@
       const clean = sent.trim().replace(/[.!?]+$/, '');
       const punct = sent.trim().slice(clean.length) || (targetLang === 'ja' ? '。' : '.');
 
-      // Check compound conjunctions: Zen / Sen / Tor / Hav
-      const conjMatch = clean.match(/^(Zen|Sen|Tor|Hav)\s+(.+)$/i);
+      // Check compound & coordinating conjunctions: Zen / Sen / Tor / Hav / Den / Sol
+      const conjMatch = clean.match(/^(Zen|Sen|Tor|Hav|Den|Sol)\s+(.+)$/i);
       if (conjMatch) {
         const conjKey = conjMatch[1].toLowerCase();
         const parts = conjMatch[2].split(/,\s*/);
@@ -226,7 +226,9 @@
               zen: { ja: 'なら、', en: 'If ' },
               sen: { ja: 'ので、', en: 'Because ' },
               tor: { ja: 'けれど、', en: 'Although ' },
-              hav: { ja: 'とき、', en: 'When ' }
+              hav: { ja: 'とき、', en: 'When ' },
+              den: { ja: '、そして', en: 'And ' },
+              sol: { ja: '、したがって', en: 'Therefore ' }
             }[conjKey];
             let combined = '';
             if (targetLang === 'ja') {
@@ -238,6 +240,45 @@
             allAlignments.push(...condRes.alignments, ...consRes.alignments);
             continue;
           }
+        } else if (conjKey === 'den' || conjKey === 'sol') {
+          const singleRes = translateSingleClause(conjMatch[2], targetLang, false);
+          if (singleRes.success) {
+            const prefix = {
+              den: { ja: 'そして、', en: 'And ' },
+              sol: { ja: 'だから、', en: 'So ' }
+            }[conjKey];
+            const combined = targetLang === 'ja'
+              ? `${prefix.ja}${singleRes.text}${punct === '.' ? '。' : punct}`
+              : `${prefix.en}${singleRes.text}${punct === '。' ? '.' : punct}`;
+            translatedSentences.push(combined);
+            allAlignments.push(...singleRes.alignments);
+            continue;
+          }
+        }
+      }
+
+      // Check mid-sentence coordinating conjunctions: Clause1, den Clause2 / Clause1, sol Clause2
+      const midCoordMatch = clean.match(/^(.+?),\s+(den|sol)\s+(.+)$/i);
+      if (midCoordMatch) {
+        const c1Str = midCoordMatch[1];
+        const coordKey = midCoordMatch[2].toLowerCase();
+        const c2Str = midCoordMatch[3];
+        const r1 = translateSingleClause(c1Str, targetLang, false);
+        const r2 = translateSingleClause(c2Str, targetLang, false);
+        if (r1.success && r2.success) {
+          const coordMap = {
+            den: { ja: '、そして', en: ', and ' },
+            sol: { ja: '、だから', en: ', so ' }
+          }[coordKey];
+          let combined = '';
+          if (targetLang === 'ja') {
+            combined = `${r1.text}${coordMap.ja}${r2.text}${punct === '.' ? '。' : punct}`;
+          } else {
+            combined = `${r1.text}${coordMap.en}${r2.text}${punct === '。' ? '.' : punct}`;
+          }
+          translatedSentences.push(combined);
+          allAlignments.push(...r1.alignments, ...r2.alignments);
+          continue;
         }
       }
 
@@ -438,6 +479,43 @@
       }
     }
 
+    // 2. Coordinated clauses: Clause1, and Clause2 / Clause1, so Clause2
+    const coordMatch = englishText.trim().match(/^(.+?),\s+(and|so)\s+(.+)$/i);
+    if (coordMatch) {
+      const c1 = translateSingleEnglishClause(coordMatch[1]);
+      const c2 = translateSingleEnglishClause(coordMatch[3]);
+      if (c1.success && c2.success) {
+        const conjWord = coordMatch[2].toLowerCase();
+        const nebCoord = conjWord === 'and' ? 'den' : 'sol';
+        const res = `${c1.text.replace(/\.$/, '')}, ${nebCoord} ${c2.text.replace(/\.$/, '')}.`;
+        return {
+          text: res,
+          neb: res,
+          tag: `Clause1, ${nebCoord} Clause2 (Coordinated SVO -> VSO)`,
+          alignment: [...c1.alignments, ...c2.alignments],
+          success: true
+        };
+      }
+    }
+
+    // 3. Initial And / So: And Clause / So Clause
+    const initCoordMatch = englishText.trim().match(/^(and|so)\s+(.+)$/i);
+    if (initCoordMatch) {
+      const conjWord = initCoordMatch[1].toLowerCase();
+      const c = translateSingleEnglishClause(initCoordMatch[2]);
+      if (c.success) {
+        const nebCoord = conjWord === 'and' ? 'Den' : 'Sol';
+        const res = `${nebCoord} ${c.text.endsWith('.') ? c.text : c.text + '.'}`;
+        return {
+          text: res,
+          neb: res,
+          tag: `${nebCoord} Clause (Initial Coordination)`,
+          alignment: c.alignments,
+          success: true
+        };
+      }
+    }
+
     // 2. Single English Clause
     const single = translateSingleEnglishClause(englishText);
     if (single.success) {
@@ -496,7 +574,14 @@
     };
     const adjectives = {
       beautiful: 'cylani', bright: 'falani', dark: 'valani', warm: 'surani',
-      white: 'alin', pure: 'alin', silver: 'tyni', red: 'pyrin', astral: 'vyri'
+      white: 'alin', pure: 'alin', silver: 'tyni', red: 'pyrin', astral: 'vyri',
+      blue: 'kyrin', clear: 'kyrin', cyan: 'kyrin',
+      green: 'zylin', verdant: 'zylin',
+      flame: 'pyrin',
+      gold: 'syvan', golden: 'syvan',
+      emerald: 'eirin', fresh: 'eirin',
+      silent: 'moran', calm: 'moran',
+      deep: 'telin', profound: 'telin'
     };
     const nounPattern = '(?:(?:the|a|an)\\s+)?([a-z]+)';
     const fail = () => ({ success: false });
@@ -530,19 +615,56 @@
       ? (Object.hasOwn(verbs, rawVerb.slice(0, -3)) ? rawVerb.slice(0, -3) : (Object.hasOwn(verbs, rawVerb.slice(0, -3) + 'e') ? rawVerb.slice(0, -3) + 'e' : rawVerb))
       : rawVerb;
     if (!Object.hasOwn(nouns, subject) || !Object.hasOwn(verbs, verb)) return fail();
-    // Only known transitive predicates may take an object; required objects stay required.
-    const transitive = ['cynel', 'vyrel', 'belan', 'bion', 'neran', 'soran', 'vymin'].includes(verbs[verb].replace(/^fe /, ''));
-    if (transitive !== !!objectText) return fail();
+    const prepMap = {
+      to: 'to',
+      with: 'ku',
+      in: 'uo',
+      at: 'uo',
+      for: 'al',
+      from: 'va'
+    };
+
+    // Extract trailing prepositional phrases
+    const prepPhrases = [];
+    let currentRemainder = (objectText || '').trim();
+
+    while (currentRemainder) {
+      const ppMatch = currentRemainder.match(/(?:^|\s+)(to|with|in|at|for|from)\s+(?:(the|a|an)\s+)?(?:([a-z]+)\s+)?([a-z]+)$/i);
+      if (ppMatch) {
+        const [full, prep, art, mod, pNoun] = ppMatch;
+        const nNeb = noun(pNoun);
+        if (!nNeb) break;
+        if (mod && !Object.hasOwn(adjectives, mod)) break;
+        const adjNeb = mod ? adjectives[mod] : null;
+        const nebMarker = prepMap[prep.toLowerCase()];
+        prepPhrases.unshift({
+          prep: prep.toLowerCase(),
+          nebMarker,
+          noun: nNeb,
+          adjective: adjNeb,
+          rawText: full.trim()
+        });
+        currentRemainder = currentRemainder.slice(0, currentRemainder.length - full.length).trim();
+      } else {
+        break;
+      }
+    }
+
     let object = null;
     let adjective = null;
-    if (objectText) {
-      const objectMatch = objectText.match(/^(?:(?:the|a|an)\s+)?(?:([a-z]+)\s+)?([a-z]+)$/);
+    if (currentRemainder) {
+      const objectMatch = currentRemainder.match(/^(?:(?:the|a|an)\s+)?(?:([a-z]+)\s+)?([a-z]+)$/);
       if (!objectMatch) return fail();
       const [, modifier, objectNoun] = objectMatch;
       object = noun(objectNoun);
-      if (!object || modifier && !Object.hasOwn(adjectives, modifier)) return fail();
+      if (!object || (modifier && !Object.hasOwn(adjectives, modifier))) return fail();
       adjective = modifier ? adjectives[modifier] : null;
     }
+
+    // Only known transitive predicates may take a direct object; required direct objects stay required.
+    const transitive = ['cynel', 'vyrel', 'belan', 'bion', 'neran', 'soran', 'vymin'].includes(verbs[verb].replace(/^fe /, ''));
+    if (transitive !== !!object) return fail();
+
     if (auxiliary && verbs[verb].startsWith('fe ')) return fail();
     const modalPast = aspectModal === 'wanted to' || aspectModal === 'could' || aspectModal === 'finished' || aspectModal === 'kept';
     const aspectSuf = !aspectModal ? '' : (aspectModal.startsWith('want') ? 'ast' : (aspectModal === 'can' || aspectModal === 'could' ? 'ar' : (aspectModal.startsWith('finish') ? 'far' : 'liv')));
@@ -550,13 +672,23 @@
     const baseVerb = verbs[verb].replace(/^fe /, '') + aspectSuf;
     const predicate = (past ? 'fe ' : '') + (auxiliary ? 'ne ' : '') + baseVerb;
     const objectPhrase = object ? ' ia ' + object + (adjective ? ' ' + adjective : '') : '';
+    let ppNebStr = '';
+    for (const pp of prepPhrases) {
+      ppNebStr += ' ' + pp.nebMarker + ' ' + pp.noun + (pp.adjective ? ' ' + pp.adjective : '');
+    }
+    const fullNeb = cap(predicate) + ' el ' + nouns[subject] + objectPhrase + ppNebStr;
     return {
-      text: cap(predicate) + ' el ' + nouns[subject] + objectPhrase,
+      text: fullNeb,
       tag: 'English SVO -> Nebulith VSO',
       alignments: [
         { src: subject, dst: 'el ' + nouns[subject], role: 'Subject' },
         { src: (auxiliary ? auxiliary + ' ' : '') + verb, dst: cap(predicate), role: 'Predicate' },
-        ...(object ? [{ src: objectText, dst: objectPhrase.trim(), role: 'Object' }] : [])
+        ...(object ? [{ src: currentRemainder, dst: objectPhrase.trim(), role: 'Object' }] : []),
+        ...prepPhrases.map(pp => ({
+          src: pp.rawText,
+          dst: (pp.nebMarker + ' ' + pp.noun + (pp.adjective ? ' ' + pp.adjective : '')).trim(),
+          role: `Prepositional Phrase (${pp.prep})`
+        }))
       ], success: true
     };
   }
