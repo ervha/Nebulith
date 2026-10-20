@@ -18,6 +18,9 @@
   const CASE_MARKERS = {
     el: { roleJa: '主格 (は・が)', roleEn: 'Subject', prepEn: '' },
     ia: { roleJa: '対格 (を)', roleEn: 'Direct Object', prepEn: '' },
+    to: { roleJa: '向格 (へ・に)', roleEn: 'Allative', prepEn: 'to' },
+    al: { roleJa: '与格 (に・へ)', roleEn: 'Dative', prepEn: 'for / to' },
+    ku: { roleJa: '共格 (と・と共に)', roleEn: 'Comitative', prepEn: 'with' },
     uo: { roleJa: '処格 (で・において)', roleEn: 'Locative', prepEn: 'in / at' },
     de: { roleJa: '具格 (で・により)', roleEn: 'Instrumental', prepEn: 'with / by' },
     va: { roleJa: '比較・奪格 (より・から)', roleEn: 'Ablative / Comparison', prepEn: 'than / from' },
@@ -41,15 +44,40 @@
     { suffix: 'iin', ja: 'たち (複数)', en: '-s / plural' }
   ];
 
+  let _externalVocab = null;
+  let _externalVerifiedCompounds = null;
+
+  function configure(vocab, verifiedCompounds) {
+    _externalVocab = vocab;
+    _externalVerifiedCompounds = verifiedCompounds;
+  }
+
   function getVocabMap() {
-    if (typeof VOCAB !== 'undefined' && Array.isArray(VOCAB)) {
-      const map = new Map();
-      for (const w of VOCAB) {
+    const map = new Map();
+    const vocabList = _externalVocab || (typeof VOCAB !== 'undefined' ? VOCAB : (typeof globalThis !== 'undefined' ? globalThis.VOCAB : null));
+    if (Array.isArray(vocabList)) {
+      for (const w of vocabList) {
         if (w.r) map.set(w.r.toLowerCase(), w);
       }
-      return map;
     }
-    return new Map();
+    const compObj = _externalVerifiedCompounds || (typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined' ? VERIFIED_CANONICAL_COMPOUNDS : (typeof globalThis !== 'undefined' ? globalThis.VERIFIED_CANONICAL_COMPOUNDS : null));
+    if (compObj && Array.isArray(compObj.entries)) {
+      for (const c of compObj.entries) {
+        if (c.nrs && !map.has(c.nrs.toLowerCase())) {
+          map.set(c.nrs.toLowerCase(), {
+            id: c.id,
+            r: c.nrs,
+            p: c.pos,
+            m: c.meaningJa,
+            en: c.meaningEn,
+            et: c.etymology,
+            morphemes: c.morphemes,
+            o: 'verified_compound'
+          });
+        }
+      }
+    }
+    return map;
   }
 
   const BUILTIN_VOCAB = {
@@ -185,18 +213,26 @@
       const clean = sent.trim().replace(/[.!?]+$/, '');
       const punct = sent.trim().slice(clean.length) || (targetLang === 'ja' ? '。' : '.');
 
-      // Check conditional Zen
-      if (clean.startsWith('Zen ') || clean.startsWith('zen ')) {
-        const parts = clean.slice(4).split(/,\s*/);
+      // Check compound conjunctions: Zen / Sen / Tor / Hav
+      const conjMatch = clean.match(/^(Zen|Sen|Tor|Hav)\s+(.+)$/i);
+      if (conjMatch) {
+        const conjKey = conjMatch[1].toLowerCase();
+        const parts = conjMatch[2].split(/,\s*/);
         if (parts.length >= 2) {
           const condRes = translateSingleClause(parts[0], targetLang, true);
           const consRes = translateSingleClause(parts.slice(1).join(', '), targetLang, false);
           if (condRes.success && consRes.success) {
+            const conjMap = {
+              zen: { ja: 'なら、', en: 'If ' },
+              sen: { ja: 'ので、', en: 'Because ' },
+              tor: { ja: 'けれど、', en: 'Although ' },
+              hav: { ja: 'とき、', en: 'When ' }
+            }[conjKey];
             let combined = '';
             if (targetLang === 'ja') {
-              combined = `${condRes.text}なら、${consRes.text}${punct === '.' ? '。' : punct}`;
+              combined = `${condRes.text}${conjMap.ja}${consRes.text}${punct === '.' ? '。' : punct}`;
             } else {
-              combined = `If ${condRes.text}, ${consRes.text}${punct === '。' ? '.' : punct}`;
+              combined = `${conjMap.en}${condRes.text}, ${consRes.text}${punct === '。' ? '.' : punct}`;
             }
             translatedSentences.push(combined);
             allAlignments.push(...condRes.alignments, ...consRes.alignments);
@@ -256,30 +292,49 @@
       if (conjugated) vJa = conjugated;
     }
 
-    // 2. Resolve Phrases
-    let subjJa = '', subjEn = '', objJa = '', objEn = '', compJa = '', compEn = '', locJa = '', locEn = '', instJa = '', instEn = '';
+    // 2. Resolve Phrases (including coordinated 'ul' and genitive 'en')
+    let subjJa = '', subjEn = '', objJa = '', objEn = '', compJa = '', compEn = '', locJa = '', locEn = '', instJa = '', instEn = '', toJa = '', toEn = '', alJa = '', alEn = '', kuJa = '', kuEn = '';
+
+    function resolveTokenJaEn(tok) {
+      const clean = tok.toLowerCase().replace(/[.,!?;:]/g, '');
+      const wInfo = lookupWord(clean);
+      const ja = wInfo ? (wInfo.m || wInfo.meaningJa || clean).split(/[、／/]/)[0].trim() : clean;
+      const en = wInfo ? (wInfo.en || wInfo.meaningEn || clean).split(/[,;/]/)[0].trim() : clean;
+      const etym = wInfo && wInfo.morphemes ? ` [${wInfo.morphemes.join('+')}]` : '';
+      return { ja, en, etym };
+    }
+
+    function resolvePhraseTokens(words) {
+      // Handle 'ul' coordination inside a case phrase
+      const ulIdx = words.findIndex(w => w.toLowerCase() === 'ul');
+      if (ulIdx > 0 && ulIdx < words.length - 1) {
+        const left = resolvePhraseTokens(words.slice(0, ulIdx));
+        const right = resolvePhraseTokens(words.slice(ulIdx + 1));
+        return {
+          ja: `${left.ja}と${right.ja}`,
+          en: `${left.en} and ${right.en}`,
+          etym: left.etym || right.etym
+        };
+      }
+      const main = resolveTokenJaEn(words[0]);
+      if (words.length > 1) {
+        const second = words[1].toLowerCase().replace(/[.,!?;:]/g, '');
+        if (second !== 'ka') {
+          const adj = resolveTokenJaEn(second);
+          return { ja: `${adj.ja}${main.ja}`, en: `${adj.en} ${main.en}`, etym: main.etym };
+        }
+      }
+      return main;
+    }
 
     for (const ph of parsed.phrases) {
       const phraseText = ph.words.join(' ');
-      const mainWord = ph.words[0].toLowerCase().replace(/[.,!?;:]/g, '');
-      const postAdjWord = ph.words.length > 1 ? ph.words[1].toLowerCase().replace(/[.,!?;:]/g, '') : null;
-
-      const wInfo = lookupWord(mainWord);
-      let pJa = wInfo ? (wInfo.m || wInfo.meaningJa || mainWord).split(/[、／/]/)[0].trim() : mainWord;
-      let pEn = wInfo ? (wInfo.en || wInfo.meaningEn || mainWord).split(/[,;/]/)[0].trim() : mainWord;
-
-      if (postAdjWord) {
-        const adjInfo = lookupWord(postAdjWord);
-        if (adjInfo) {
-          const adjJa = (adjInfo.m || adjInfo.meaningJa).split(/[、／/]/)[0].trim();
-          const adjEn = (adjInfo.en || adjInfo.meaningEn).split(/[,;/]/)[0].trim();
-          pJa = `${adjJa}${pJa}`;
-          pEn = `${adjEn} ${pEn}`;
-        }
-      }
+      const resolved = resolvePhraseTokens(ph.words);
+      const pJa = resolved.ja;
+      const pEn = resolved.en;
 
       const roleObj = CASE_MARKERS[ph.marker];
-      const roleLabel = roleObj ? (isJa ? roleObj.roleJa : roleObj.roleEn) : '修飾句';
+      const roleLabel = (roleObj ? (isJa ? roleObj.roleJa : roleObj.roleEn) : '修飾句') + (resolved.etym || '');
 
       alignments.push({
         src: phraseText,
@@ -294,6 +349,15 @@
       } else if (ph.marker === 'ia') {
         objJa = `${pJa}を`;
         objEn = pEn;
+      } else if (ph.marker === 'to') {
+        toJa = `${pJa}へ`;
+        toEn = `to ${pEn}`;
+      } else if (ph.marker === 'al') {
+        alJa = `${pJa}に`;
+        alEn = `for ${pEn}`;
+      } else if (ph.marker === 'ku') {
+        kuJa = `${pJa}と共に`;
+        kuEn = `with ${pEn}`;
       } else if (ph.marker === 'va') {
         compJa = `${pJa}より`;
         compEn = `than ${pEn}`;
@@ -303,6 +367,17 @@
       } else if (ph.marker === 'de') {
         instJa = `${pJa}によって`;
         instEn = `with ${pEn}`;
+      } else if (ph.marker === 'en') {
+        if (objJa) {
+          objJa = `${pJa}の` + objJa;
+          objEn = `${objEn} of ${pEn}`;
+        } else if (locJa) {
+          locJa = `${pJa}の` + locJa;
+          locEn = `${locEn} of ${pEn}`;
+        } else if (subjJa) {
+          subjJa = `${pJa}の` + subjJa;
+          subjEn = `${subjEn} of ${pEn}`;
+        }
       }
     }
 
@@ -316,12 +391,12 @@
 
     let clauseOut = '';
     if (isJa) {
-      // Natural Japanese SOV order: S + Comp + Loc + Inst + O + V
-      const parts = [subjJa, compJa, locJa, instJa, objJa, vJa].filter(Boolean);
+      // Natural Japanese SOV order: S + Comp + Loc + To + Al + Ku + Inst + O + V
+      const parts = [subjJa, compJa, locJa, toJa, alJa, kuJa, instJa, objJa, vJa].filter(Boolean);
       clauseOut = parts.join(' ');
     } else {
-      // Natural English SVO order: S + V + O + Loc + Inst + Comp
-      const parts = [subjEn, vEn, objEn, locEn, instEn, compEn].filter(Boolean);
+      // Natural English SVO order: S + V + O + To + Al + Loc + Ku + Inst + Comp
+      const parts = [subjEn, vEn, objEn, toEn, alEn, locEn, kuEn, instEn, compEn].filter(Boolean);
       clauseOut = parts.join(' ');
     }
 
@@ -341,18 +416,21 @@
     const norm = englishText.trim().toLowerCase();
     const vocab = getVocabMap();
 
-    // 1. Conditionals: if ... , ...
-    if (norm.startsWith('if ')) {
-      const parts = englishText.slice(3).split(/,\s*/);
+    // 1. Compound Conjunctions: if / because / although / when ... , ...
+    const conjMatch = englishText.trim().match(/^(if|because|although|when)\s+(.+)$/i);
+    if (conjMatch) {
+      const conjWord = conjMatch[1].toLowerCase();
+      const parts = conjMatch[2].split(/,\s*/);
       if (parts.length >= 2) {
         const c1 = translateSingleEnglishClause(parts[0]);
         const c2 = translateSingleEnglishClause(parts.slice(1).join(', '));
         if (c1.success && c2.success) {
-          const res = `Zen ${c1.text}, ${c2.text}.`;
+          const nebConj = { if: 'Zen', because: 'Sen', although: 'Tor', when: 'Hav' }[conjWord];
+          const res = `${nebConj} ${c1.text}, ${c2.text}.`;
           return {
             text: res,
             neb: res,
-            tag: 'Zen Clause1, Clause2 (Conditional SVO -> VSO)',
+            tag: `${nebConj} Clause1, Clause2 (Compound SVO -> VSO)`,
             alignment: [...c1.alignments, ...c2.alignments],
             success: true
           };
@@ -383,8 +461,24 @@
     const nouns = {
       i: 'mi', me: 'mi', you: 'ti', we: 'miin', us: 'miin',
       they: 'riin', them: 'riin', star: 'vyr', stars: 'vyr',
-      night: 'valar', sun: 'zohar', water: 'daris', light: 'fal'
+      night: 'valar', sun: 'zohar', water: 'daris', light: 'fal',
+      house: 'govan', room: 'vorn', garden: 'velar', city: 'domom',
+      lake: 'daron', forest: 'velom', book: 'pamel', market: 'renar'
     };
+    const compObj = _externalVerifiedCompounds || (typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined' ? VERIFIED_CANONICAL_COMPOUNDS : (typeof globalThis !== 'undefined' ? globalThis.VERIFIED_CANONICAL_COMPOUNDS : null));
+    if (compObj && Array.isArray(compObj.entries)) {
+      for (const c of compObj.entries) {
+        if (c.nrs && !Object.hasOwn(nouns, c.nrs.toLowerCase())) {
+          nouns[c.nrs.toLowerCase()] = c.nrs.toLowerCase();
+        }
+        for (const g of String(c.meaningEn || '').split(/[,;/]/)) {
+          const cleanG = g.trim().toLowerCase().replace(/^(?:the|a|an)\s+/, '');
+          if (cleanG && /^[a-z]+$/.test(cleanG) && !Object.hasOwn(nouns, cleanG)) {
+            nouns[cleanG] = c.nrs.toLowerCase();
+          }
+        }
+      }
+    }
     const verbs = {
       like: 'cynel', likes: 'cynel', liked: 'fe cynel',
       love: 'cynel', loves: 'cynel', loved: 'fe cynel',
@@ -562,6 +656,7 @@
 
   return {
     parseNebulithClause,
+    configure,
     translateNebulith,
     translateEnglishToNebulith
   };

@@ -95,6 +95,37 @@ updateFavCount();
 
 function renderLexicon() {
   const query = searchInput.value.trim().toLowerCase();
+  if (currentFilterPos === 'VERIFIED_COMPOUNDS' && typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined') {
+    const entries = (VERIFIED_CANONICAL_COMPOUNDS.entries || []).filter(w => {
+      if (!query) return true;
+      return (w.nrs && w.nrs.toLowerCase().includes(query)) ||
+             (w.meaningJa && w.meaningJa.toLowerCase().includes(query)) ||
+             (w.meaningEn && w.meaningEn.toLowerCase().includes(query)) ||
+             (w.etymology && w.etymology.toLowerCase().includes(query));
+    });
+    resultCount.textContent = `表示中: ${entries.length} 語 (正本検証済み複合語・監査フラグ0件)`;
+    wordGrid.innerHTML = entries.map(w => `
+      <div class="word-card" onclick="openWordModal('${escapeHtml(w.nrs)}')">
+        <div>
+          <div class="word-card-top" style="flex-wrap:wrap;gap:4px;">
+            <span class="word-roman">${escapeHtml(w.nrs)}</span>
+            <div style="display:flex;gap:4px;align-items:center;">
+              <span class="word-pos" style="opacity:0.9;">正本複合語 (${escapeHtml((w.morphemes||[]).join(' + '))})</span>
+              <span class="word-pos">${escapeHtml(w.pos)}</span>
+            </div>
+          </div>
+          <div class="word-glyph">${escapeHtml(w.nrs)}</div>
+          <div class="word-meaning">${escapeHtml(w.meaningJa)}</div>
+        </div>
+        <div>
+          <div style="font-size: 0.75rem; color: var(--md-sys-color-on-surface-variant); margin-top: 4px;">En: ${escapeHtml(w.meaningEn)}</div>
+          <div style="font-size: 0.75rem; color: var(--md-sys-color-outline); margin-top: 4px;">語源: ${escapeHtml(w.etymology)} | 対話: ${escapeHtml(w.scenario_id)} (${escapeHtml((w.speakers||[]).join(', '))})</div>
+          <div style="font-size: 0.75rem; color: var(--md-sys-color-primary); margin-top: 4px;">例: ${escapeHtml(w.example_sentence)} (${escapeHtml(w.example_ja)})</div>
+        </div>
+      </div>
+    `).join('');
+    return;
+  }
   const rank = w => {
     if (!query) return 0;
     const labels = [w.r, ...(w.m+'、'+w.en).split(/[、／,;]/)].map(s=>s.trim().toLowerCase());
@@ -284,13 +315,42 @@ function getWordCorpusExamples(wordRoot, word) {
   for (const u of (typeof USAGE_EXAMPLES !== 'undefined' ? USAGE_EXAMPLES : [])) {
     if (regex.test(u.nebulith)) matches.push({ neb: u.nebulith, ja: u.japanese, tag: '学習例文' });
   }
+  if (word && word._verifiedCompound) {
+    const vc = word._verifiedCompound;
+    matches.push({ neb: vc.example_sentence, ja: vc.example_ja, tag: `正本複合語例文 (${vc.scenario_id})` });
+    if (word._verifiedScenario && Array.isArray(word._verifiedScenario.turns)) {
+      for (const t of word._verifiedScenario.turns) {
+        if (t.nebulith !== vc.example_sentence && regex.test(t.nebulith)) {
+          matches.push({ neb: t.nebulith, ja: t.japanese, tag: `対話実証 (${t.speaker})` });
+        }
+      }
+    }
+  }
 
   return matches.slice(0, 4);
 }
 
 window.openWordModal = function(roman) {
   const cleanRoman = roman.replace(/^[-+]/, '').replace(/[-+]$/, '').trim();
-  const word = VOCAB.find(w => w.r === roman) || VOCAB.find(w => w.r === cleanRoman);
+  let word = VOCAB.find(w => w.r === roman) || VOCAB.find(w => w.r === cleanRoman);
+  if (!word && typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined') {
+    const comp = (VERIFIED_CANONICAL_COMPOUNDS.entries || []).find(w => w.nrs === roman || w.nrs === cleanRoman);
+    if (comp) {
+      const scen = (VERIFIED_CANONICAL_COMPOUNDS.scenarios || []).find(s => s.scenario_id === comp.scenario_id);
+      const rootDetails = (comp.constituentEntries || []).map(c => `${c.nrs}(#${c.id}:${c.meaningJa.split('、')[0]})`).join(' + ');
+      const turnSummary = scen ? scen.turns.map(t => `${t.speaker}: ${t.nebulith} (${t.japanese})`).join(' / ') : '';
+      word = {
+        r: comp.nrs,
+        p: comp.pos,
+        m: comp.meaningJa,
+        en: comp.meaningEn,
+        i: '',
+        n: `正本複合語 [${comp.batch} / ${comp.scenario_id}] 語源: ${comp.etymology} (${rootDetails})。実証話者: ${(comp.speakers || []).join(', ')}。対話記録: ${turnSummary}`,
+        _verifiedCompound: comp,
+        _verifiedScenario: scen
+      };
+    }
+  }
   if (!word) return;
   activeModalWord = word;
   browsingHistory = [word.r, ...browsingHistory.filter(r => r !== word.r)].slice(0, 100);

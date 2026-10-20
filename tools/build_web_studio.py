@@ -68,6 +68,8 @@ def build_web_studio():
 
     with open(os.path.join(base_dir,'data','usage_examples.json'),encoding='utf-8') as f:
         usage_examples=json.load(f)['examples']
+    with open(os.path.join(base_dir,'data','verified_canonical_compounds.json'),encoding='utf-8') as f:
+        verified_canonical_compounds=json.load(f)
     total_examples=len(canon_examples)+len(ext_examples)+len(usage_examples)
 
 
@@ -128,6 +130,7 @@ const GRAMMAR_FRAMES = {json.dumps(grammar_frames, ensure_ascii=False)};
 const TRANSLATION_EXTENSIONS = {json.dumps(translation_extensions, ensure_ascii=False)};
 const EXT_SENTENCES = {json.dumps(ext_examples, ensure_ascii=False)};
 const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
+const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, ensure_ascii=False)};
 """
     with open(data_js_path, 'w', encoding='utf-8') as f:
         f.write(data_js_content)
@@ -1148,6 +1151,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
           <button class="chip-btn active" data-pos="ALL">すべて ({len(vocab):,})</button>
           <button class="chip-btn" data-pos="CANON">正本 (1,008)</button>
           <button class="chip-btn" data-pos="CURATED_EXT">体系拡張</button>
+          <button class="chip-btn" data-pos="VERIFIED_COMPOUNDS">検証済み複合語 ({len(verified_canonical_compounds.get('entries', []))})</button>
           <button class="chip-btn" data-pos="FAV">お気に入り (<span id="favCount">0</span>)</button>
           <button class="chip-btn" data-pos="HISTORY">閲覧履歴</button>
           <button class="chip-btn" data-pos="名">名詞 (noun)</button>
@@ -1408,7 +1412,7 @@ const USAGE_EXAMPLES = {json.dumps(usage_examples, ensure_ascii=False)};
     update_service_worker(web_dir)
 
     files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'tools/extended_corpus.py', 'data/lexicon.json',
-             'data/literary_sourcebook.json', 'data/lexicon_canonical_loci.json', 'docs/Valnes_Ibun.html', 'web/library.html', 'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
+             'data/literary_sourcebook.json', 'data/lexicon_canonical_loci.json', 'docs/Valnes_Ibun.html', 'web/library.html', 'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/verified_canonical_compounds.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
              'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
              'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/bidirectional.js', 'web/incremental.js', 'web/data.js',
              'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/service-worker.js', 'web/icon.svg', 'web/favicon.svg']

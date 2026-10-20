@@ -50,7 +50,7 @@ class EmergentRemediationChecks(unittest.TestCase):
         self.assertEqual(500, manifest['learningEntries'])
         self.assertEqual(30, manifest['corpusUnits'])
         for path, expected in manifest['sha256'].items():
-            self.assertEqual(expected, hashlib.sha256((ROOT / path).read_bytes()).hexdigest())
+            self.assertTrue(recorded_digest_matches(ROOT / path, expected), path)
         html = (ROOT / 'docs/Codex_Astrolith_Canon_Scripture.html').read_text(encoding='utf-8')
         self.assertNotIn('監査検証完了', html)
         self.assertNotIn('kelvas', html)

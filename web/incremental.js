@@ -221,8 +221,32 @@
     const argSources=new WeakMap();
     const gloss = e => e.m.split(/[、／]/).map(x => x.trim()).filter(Boolean);
     const pronouns = {'私':'mi','あなた':'ti','彼':'ri','彼女':'ri','彼／彼女':'ri',...(productive.pronounAliases||{})};
+    const vccObj = typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined' ? VERIFIED_CANONICAL_COMPOUNDS : (typeof globalThis !== 'undefined' ? globalThis.VERIFIED_CANONICAL_COMPOUNDS : null);
+    const verifiedCompoundEntries = (vccObj && Array.isArray(vccObj.entries))
+      ? vccObj.entries.map(c => ({
+          id: c.id,
+          r: c.nrs,
+          p: c.pos,
+          m: c.meaningJa,
+          en: c.meaningEn,
+          c: c.category || '',
+          o: 'verified_compound',
+          morphemes: c.morphemes
+        }))
+      : [];
+    for (const ce of verifiedCompoundEntries) {
+      if (!byId.has(ce.id)) byId.set(ce.id, ce);
+      if (ce.c.includes('都市') || ce.c.includes('自然') || ce.r.endsWith('velar') || ce.r.endsWith('govan') || ce.r.endsWith('vorn') || ce.r.endsWith('domom') || ce.r.endsWith('nerar') || ce.r.endsWith('nerom') || ce.r.endsWith('renar') || ce.r.endsWith('livar') || ce.r.endsWith('larar') || ce.r.endsWith('calor') || ce.r.endsWith('talon') || ce.r.endsWith('velom') || ce.r.endsWith('daron')) {
+        placeRoots.add(ce.r);
+      }
+    }
     const index = new Map();
     for (const e of vocab) for (const g of gloss(e)) { if (!index.has(g)) index.set(g, []); index.get(g).push(e); }
+    for (const ce of verifiedCompoundEntries) {
+      for (const g of gloss(ce)) {
+        if (!index.has(g)) index.set(g, [ce]);
+      }
+    }
     const adjectives = vocab.filter(e => e.p.includes('形')).flatMap(e => gloss(e).map(g => [g,e]));
     const key = s => s.trim().replace(/\s+/g,'').replace(/？/g,'?').replace(/[。.]$/,'');
     function phrase(text, adj = false, depth = 0) {
