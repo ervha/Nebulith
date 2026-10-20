@@ -82,7 +82,14 @@ const r11En = bi.translateNebulith('Vymin el ti ia govan en vyrel el mi.', 'en')
 assert.equal(r11En.success, true);
 assert.ok(r11En.text.includes('that'), 'Expected that in ' + r11En.text);
 
-// 11. Incremental translator check
+// 11. Conditional clause: 'If you walk to house, then I observe water.' -> 'Zen Poran el ti to govan, Vyrel el mi ia daris.'
+const r12 = bi.translateEnglishToNebulith('If you walk to house, then I observe water.');
+assert.equal(r12.success, true);
+assert.ok(r12.text.startsWith('Zen '), 'Expected Zen in ' + r12.text);
+assert.ok(r12.text.includes('Poran el ti to govan'), 'Expected Poran el ti to govan in ' + r12.text);
+assert.ok(r12.text.includes('Vyrel el mi ia daris'), 'Expected Vyrel el mi ia daris in ' + r12.text);
+
+// 12. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -90,4 +97,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12 }));

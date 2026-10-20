@@ -565,7 +565,11 @@
       const parts = conjMatch[2].split(/,\s*/);
       if (parts.length >= 2) {
         const c1 = translateSingleEnglishClause(parts[0]);
-        const c2 = translateSingleEnglishClause(parts.slice(1).join(', '));
+        let secondPart = parts.slice(1).join(', ').trim();
+        if (conjWord === 'if' && /^then\s+/i.test(secondPart)) {
+          secondPart = secondPart.replace(/^then\s+/i, '');
+        }
+        const c2 = translateSingleEnglishClause(secondPart);
         if (c1.success && c2.success) {
           const nebConj = { if: 'Zen', because: 'Sen', although: 'Tor', when: 'Hav' }[conjWord];
           const res = `${nebConj} ${c1.text}, ${c2.text}.`;
