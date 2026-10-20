@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T07:13:46.346768+00:00",
+  "createdAt": "2026-10-20T07:55:30.858351+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 740,
-    "uniqueRoots": 740,
-    "uniqueIds": 740,
-    "scenarios": 247,
+    "rows": 770,
+    "uniqueRoots": 770,
+    "uniqueIds": 770,
+    "scenarios": 257,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -392,14 +392,14 @@
     "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
-    "Vymin el mi ia <TERM>.": 45,
+    "Vymin el mi ia <TERM>.": 55,
     "Soran el mi uo <TERM>.": 2,
     "Kiras el mi ia <TERM> ul kypalvel.": 1,
     "Vymin el <TERM> ia pamel.": 1,
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
     "Soran el mi ia <TERM>.": 18,
-    "Vyrel el mi ia <TERM>.": 36,
+    "Vyrel el mi ia <TERM>.": 46,
     "Vyrel el mi ia <TERM> ul dardaron.": 1,
     "Relen el dar uo <TERM>.": 2,
     "Kiras el mi ia talyrvorn to <TERM>.": 1,
@@ -447,7 +447,9 @@
     "Relen el mi ia <TERM>.": 1,
     "Vymin el mi ia <TERM> uo valar.": 1,
     "Vymin el mi ia <TERM> uo darar.": 1,
-    "Kiran el mi ia <TERM> uo valar.": 1
+    "Kiran el mi ia <TERM> uo valar.": 1,
+    "Relen el mi ia <TERM> to valar.": 6,
+    "Relen el mi ia <TERM> to govan.": 4
   },
   "entries": [
     {
@@ -15249,6 +15251,606 @@
         "Velmon"
       ],
       "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31741,
+      "nrs": "kivpuka",
+      "meaningJa": "組合刻印章、ギルド公印、認定標章",
+      "meaningEn": "guild seal imprint, craft association stamp, certified hallmark",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "puka"
+      ],
+      "scenario_id": "CANON-COLAB-81",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivor",
+        "Talis"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31742,
+      "nrs": "kivhano",
+      "meaningJa": "布告条例の巡回告知、街頭布告、公的布告文",
+      "meaningEn": "statute proclamation walk, street herald enactment, official ordinance",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-81",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivor",
+        "Talis"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31743,
+      "nrs": "kivtyku",
+      "meaningJa": "議会定足数の点検、時宜の定足確認、評議定数確認",
+      "meaningEn": "council quorum inspection, assembly attendance verification, parliamentary roll call",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "tyku"
+      ],
+      "scenario_id": "CANON-COLAB-81",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivor",
+        "Talis"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31744,
+      "nrs": "klorvymin",
+      "meaningJa": "執政官の正笏、統治権標、規律の象徴笏",
+      "meaningEn": "magistrate baton of state, ceremonial sceptre of authority, symbol of civic governance",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "vymin"
+      ],
+      "scenario_id": "CANON-COLAB-82",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenis",
+        "Klordan"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31745,
+      "nrs": "klorbion",
+      "meaningJa": "休戦の印章、停戦の盟約、和平の萌芽",
+      "meaningEn": "truce token, covenant of armistice, burgeoning peace pact",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-82",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenis",
+        "Klordan"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31746,
+      "nrs": "fenovymin",
+      "meaningJa": "天星の勅令、至高の法令、布告聖憲",
+      "meaningEn": "celestial edict decree, supreme statutory decree, sovereign proclamation",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "vymin"
+      ],
+      "scenario_id": "CANON-COLAB-82",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenis",
+        "Klordan"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31747,
+      "nrs": "silanpuka",
+      "meaningJa": "市民の信義誓約、共同体盟約、市民誓詞",
+      "meaningEn": "civic covenant oath, citizen solemn pledge, municipal compact",
+      "pos": "名",
+      "morphemes": [
+        "silan",
+        "puka"
+      ],
+      "scenario_id": "CANON-COLAB-83",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Silan",
+        "Vornas"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31748,
+      "nrs": "vornunor",
+      "meaningJa": "星辰の統治管区、行政区域、管轄区画",
+      "meaningEn": "astral administrative district, jurisdictional district, governance zone",
+      "pos": "名",
+      "morphemes": [
+        "vorn",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-83",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Silan",
+        "Vornas"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31749,
+      "nrs": "silantal",
+      "meaningJa": "都市自治憲章、大地の基本憲章、都市定款",
+      "meaningEn": "municipal charter code, municipal autonomy organic law, city fundamental statutes",
+      "pos": "名",
+      "morphemes": [
+        "silan",
+        "tal"
+      ],
+      "scenario_id": "CANON-COLAB-83",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Silan",
+        "Vornas"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31750,
+      "nrs": "silandar",
+      "meaningJa": "清澄なる仲裁審理、公平な裁定法廷、調停公判",
+      "meaningEn": "pure arbitral hearing, impartial arbitration bench, amicable adjudication tribunal",
+      "pos": "名",
+      "morphemes": [
+        "silan",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-84",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daris",
+        "Kivan"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31751,
+      "nrs": "kivlyka",
+      "meaningJa": "組合刻印の検認票、工匠印章、規格認証印",
+      "meaningEn": "guild insignia tag, certified artisan stamp, craft benchmark seal",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-84",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daris",
+        "Kivan"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31752,
+      "nrs": "silanbion",
+      "meaningJa": "評議会の秩序規約、議事規則、本会議規律",
+      "meaningEn": "assembly standing order, council procedural rule, parliament decorum code",
+      "pos": "名",
+      "morphemes": [
+        "silan",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-84",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Daris",
+        "Kivan"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31753,
+      "nrs": "kivfeno",
+      "meaningJa": "布告条文の公式朗読、公報布告、条令伝達",
+      "meaningEn": "formal ordinance reading, gazette proclamation, statutory address",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "feno"
+      ],
+      "scenario_id": "CANON-COLAB-85",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenor",
+        "Klorin"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31754,
+      "nrs": "silanvorn",
+      "meaningJa": "大権の笏座、執政の位階標、主権の標石",
+      "meaningEn": "seat of judicial authority, insignia of administrative rank, stone of supreme magistracy",
+      "pos": "名",
+      "morphemes": [
+        "silan",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-85",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenor",
+        "Klorin"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31755,
+      "nrs": "klorhano",
+      "meaningJa": "和睦調印の証書、休戦規約、静謐の和議",
+      "meaningEn": "accord of armistice covenant, truce pact, ratified quietus treaty",
+      "pos": "名",
+      "morphemes": [
+        "klor",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-85",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenor",
+        "Klorin"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31756,
+      "nrs": "fenopuka",
+      "meaningJa": "勅令伝達の親告、公報布告使、大命告諭",
+      "meaningEn": "heraldic promulgation announcement, mandate transmission, sovereign decree delivery",
+      "pos": "名",
+      "morphemes": [
+        "feno",
+        "puka"
+      ],
+      "scenario_id": "CANON-COLAB-86",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenan",
+        "Pukor"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31757,
+      "nrs": "silanlyka",
+      "meaningJa": "市民誓約の連名簿、誓詞署名結節、盟約盟主帳",
+      "meaningEn": "civic covenant register, signed alliance roll, fellowship registry binder",
+      "pos": "名",
+      "morphemes": [
+        "silan",
+        "lyka"
+      ],
+      "scenario_id": "CANON-COLAB-86",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenan",
+        "Pukor"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31758,
+      "nrs": "pukatyni",
+      "meaningJa": "行政管区の境界標柱、管区境界石、管轄境界界標",
+      "meaningEn": "administrative district boundary marker, territory border signet, jurisdictional boundary post",
+      "pos": "名",
+      "morphemes": [
+        "puka",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-86",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Fenan",
+        "Pukor"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to valar."
+    },
+    {
+      "id": 31759,
+      "nrs": "sufbion",
+      "meaningJa": "素数比の算定法、最小単位比率、互いに素な比率",
+      "meaningEn": "prime ratio calculation, atomic proportional fraction, coprime calculus",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-87",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sufor",
+        "Tykon"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31760,
+      "nrs": "unorseno",
+      "meaningJa": "漸近線の注視軌跡、漸近線観察、極限収束線",
+      "meaningEn": "asymptotic tangent line observation, asymptotic trace, limit convergence boundary",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-87",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sufor",
+        "Tykon"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31761,
+      "nrs": "tykbion",
+      "meaningJa": "振り子の振動周期、周期運動の生動、時相周期",
+      "meaningEn": "pendulum oscillation period, rhythmic vibrational pulse, cyclic chronometer swing",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-87",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sufor",
+        "Tykon"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31762,
+      "nrs": "sufvyr",
+      "meaningJa": "至点天体の観測高度、最高仰角観測、天頂照準",
+      "meaningEn": "solstice culmination altitude, highest zenith observation, apex sightline measure",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "vyr"
+      ],
+      "scenario_id": "CANON-COLAB-88",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Vyras"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31763,
+      "nrs": "tykseno",
+      "meaningJa": "接線方向の測角、曲率の接線ベクトル、接点角",
+      "meaningEn": "tangential vector observation, tangent angle determination, contour contact direction",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-88",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Vyras"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31764,
+      "nrs": "kivseno",
+      "meaningJa": "格子座標の精密測点、方眼座標基準点、格子基準点",
+      "meaningEn": "grid coordinate measurement point, coordinate grid benchmark, lattice reference knot",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "seno"
+      ],
+      "scenario_id": "CANON-COLAB-88",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kivan",
+        "Vyras"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31765,
+      "nrs": "unorvorn",
+      "meaningJa": "幾何周長の整調算定、周界計測値、閉曲線外周長",
+      "meaningEn": "perimeter contour measurement, closed circuit boundary length, perimeter calculus",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "vorn"
+      ],
+      "scenario_id": "CANON-COLAB-89",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykis",
+        "Unoran"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31766,
+      "nrs": "unorhano",
+      "meaningJa": "放物軌道の巡行路、曲線軌道歩み、自由放物軌跡",
+      "meaningEn": "parabolic trajectory route, curving orbital course, projectile path trace",
+      "pos": "名",
+      "morphemes": [
+        "unor",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-89",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykis",
+        "Unoran"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31767,
+      "nrs": "tykuhano",
+      "meaningJa": "回転半径の描周路、旋回運動半径、円周動線",
+      "meaningEn": "gyration radius traverse, rotation radius orbit, orbital curvature swing",
+      "pos": "名",
+      "morphemes": [
+        "tyku",
+        "hano"
+      ],
+      "scenario_id": "CANON-COLAB-89",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Tykis",
+        "Unoran"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
+    },
+    {
+      "id": 31768,
+      "nrs": "tykvyrel",
+      "meaningJa": "六分儀による測角閃光、恒星高度測定光、測地投光",
+      "meaningEn": "sextant alignment flash, celestial angle measurement beam, survey flashpoint",
+      "pos": "名",
+      "morphemes": [
+        "tyk",
+        "vyrel"
+      ],
+      "scenario_id": "CANON-COLAB-90",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sufen",
+        "Vyrelon"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31769,
+      "nrs": "kivbion",
+      "meaningJa": "素数比率の離散数量、単位比率量、整数量論値",
+      "meaningEn": "coprime discrete quantum, elementary ratio measure, modular arithmetic quantity",
+      "pos": "名",
+      "morphemes": [
+        "kiv",
+        "bion"
+      ],
+      "scenario_id": "CANON-COLAB-90",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sufen",
+        "Vyrelon"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31770,
+      "nrs": "suftyni",
+      "meaningJa": "漸近線の極限計算、収束漸近計理、漸近解析計数",
+      "meaningEn": "asymptotic limit analysis, convergence asymptotic calculus, boundary limit appraisal",
+      "pos": "名",
+      "morphemes": [
+        "suf",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-90",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sufen",
+        "Vyrelon"
+      ],
+      "exampleTemplate": "Relen el mi ia <TERM> to govan."
     }
   ]
 }

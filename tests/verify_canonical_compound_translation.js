@@ -142,7 +142,24 @@ const r15En = bi.translateNebulith('Sol Poran el ti to govan, Vyrel el mi ia dar
 assert.equal(r15En.success, true);
 assert.ok(r15En.text.includes('So that'), 'Expected So that in ' + r15En.text);
 
-// 15. Incremental translator check
+// 15. Comparative clause: 'Poran el mi va ti.' -> 'I walk more than you.' / '私は あなたより 歩く.'
+const r16Ja = bi.translateNebulith('Poran el mi va ti.', 'ja');
+assert.equal(r16Ja.success, true);
+assert.ok(r16Ja.text.includes('より'), 'Expected より in ' + r16Ja.text);
+
+const r16En = bi.translateNebulith('Poran el mi va ti.', 'en');
+assert.equal(r16En.success, true);
+assert.ok(r16En.text.includes('more than'), 'Expected more than in ' + r16En.text);
+
+const r16 = bi.translateEnglishToNebulith('I walk more than you.');
+assert.equal(r16.success, true);
+assert.ok(r16.text.includes('Poran el mi va ti'), 'Expected Poran el mi va ti in ' + r16.text);
+
+const r17 = bi.translateEnglishToNebulith('The sun is more bright than a star.');
+assert.equal(r17.success, true);
+assert.ok(r17.text.includes('Falani el zohar va vyr'), 'Expected Falani el zohar va vyr in ' + r17.text);
+
+// 16. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -150,4 +167,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En, r15, r15InOrder, r15Ja, r15En }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En, r14, r14While, r14Ja, r14En, r15, r15InOrder, r15Ja, r15En, r16Ja, r16En, r16, r17 }));

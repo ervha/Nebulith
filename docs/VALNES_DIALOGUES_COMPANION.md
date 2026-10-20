@@ -1,6 +1,6 @@
 # ヴァルネス遺聞・対話篇 — 灰環の暮らしと語らいの記録
 
-> **編纂区分**: 正本単独語根100%準拠・検証済み複合語740語＋2話者対話247篇＋分野別＆構成語根クロスリファレンス索引（`ZERO_FLAGS_VERIFIED`）
+> **編纂区分**: 正本単独語根100%準拠・検証済み複合語770語＋2話者対話257篇＋分野別＆構成語根クロスリファレンス索引（`ZERO_FLAGS_VERIFIED`）
 
 ## 目次
 
@@ -251,8 +251,18 @@
 - **第245話（CANON-COLAB-78）**: 迎賓館の広間における礼節の挨拶と祝歌（和合と共鳴の所作）
 - **第246話（CANON-COLAB-79）**: 水辺の回廊における深奥の合意と教導（協調と思慮の深まり）
 - **第247話（CANON-COLAB-80）**: 大評議場における基本憲章の布告と公正なる評定（共同体憲章と協和）
-- **巻末附録一**: 分野（カテゴリー）別正本複合語索引（全 30 分野）
-- **巻末附録二**: 構成語根別クロスリファレンス索引（正本語根 185 項目）
+- **第248話（CANON-COLAB-81）**: 工匠座における組合刻印と布告条例の確認（統治・法規範・社会制度）
+- **第249話（CANON-COLAB-82）**: 執政庁における大笏の親授と休戦の調印（統治・権能・和平規範）
+- **第250話（CANON-COLAB-83）**: 市民広場における誓約調印と自治管区の確認（市民盟約と自治憲章）
+- **第251話（CANON-COLAB-84）**: 法廷における仲裁審理と認証印章の検認（裁判・調停・公判手続）
+- **第252話（CANON-COLAB-85）**: 公報所における条令朗読と和睦証書の公布（公報・布告・和睦条約）
+- **第253話（CANON-COLAB-86）**: 境域望楼における勅令親告と管区標柱の巡視（勅命告諭と境界標示）
+- **第254話（CANON-COLAB-87）**: 算術院における素数比算定と振り子周期の計測（数理・幾何・測量暦算）
+- **第255話（CANON-COLAB-88）**: 天測台における至点高度と格子座標の精密測点（天体測量と格子座標）
+- **第256話（CANON-COLAB-89）**: 力学実験場における周長算定と放物軌道の追跡（幾何軌道と旋回半径）
+- **第257話（CANON-COLAB-90）**: 光学測量所における六分儀測角と漸近解析計数（光学測量と解析計理）
+- **巻末附録一**: 分野（カテゴリー）別正本複合語索引（全 31 分野）
+- **巻末附録二**: 構成語根別クロスリファレンス索引（正本語根 187 項目）
 
 ## 第1話　朝露の窓辺と薬草茶の湯気 (`CANON-CONV-01`)
 - **領域**: 日常・朝の目覚めと茶の支度 (Batch 1)
@@ -6261,7 +6271,247 @@
   - 語構成: `jyn(電荷/力) + vorn(秩序/整調)` (jyn (#132: 電気) ＋ vorn (#632: 部屋))  
   - 例文: `Vyrel el mi ia jynvorn.` （私は公正なる仲裁評定を観測する。）
 
-## 巻末附録一　分野（カテゴリー）別正本複合語索引（全 30 分野）
+## 第248話　工匠座における組合刻印と布告条例の確認 (`CANON-COLAB-81`)
+- **領域**: 統治・法規範・社会制度 (Batch 67)
+- **対話者**: Kivor（工匠組合の刻印監） / Talis（公報を司る法規官）
+- **背景**: 工匠頭と法規監が公印を確かめ、条例の告知を行い、議会の定足を確認する。
+
+### 対話記録
+
+- **Kivor**: *Vyrel el mi ia kivpuka ul kivhano. Relen el mi ia kivtyku to valar.*  
+  「私は組合刻印章と布告条例の巡回告知を観測する。私は評議場へ向けて議会定足数の点検を得る。」
+- **Talis**: *Vymin el mi ia kivhano. Vyrel el mi ia kivtyku. Vymin el miin ia kivpuka ul kivtyku.*  
+  「私は布告条例の巡回告知を守る。私は議会定足数の点検を確かめる。私たちは組合刻印章と議会定足数の点検を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`kivpuka`** (`#31741`, 名): 組合刻印章、ギルド公印、認定標章 / *guild seal imprint, craft association stamp, certified hallmark*  
+  - 語構成: `kiv(単位/点) + puka(刻印/蹄)` (kiv (#141: 二値光点) ＋ puka (#452: ひづめ))  
+  - 例文: `Vyrel el mi ia kivpuka.` （私は組合刻印章を観測する。）
+- **`kivhano`** (`#31742`, 名): 布告条例の巡回告知、街頭布告、公的布告文 / *statute proclamation walk, street herald enactment, official ordinance*  
+  - 語構成: `kiv(条文) + hano(歩む)` (kiv (#141: 二値光点) ＋ hano (#865: 今日))  
+  - 例文: `Vymin el mi ia kivhano.` （私は布告条例の巡回告知を守る。）
+- **`kivtyku`** (`#31743`, 名): 議会定足数の点検、時宜の定足確認、評議定数確認 / *council quorum inspection, assembly attendance verification, parliamentary roll call*  
+  - 語構成: `kiv(単位) + tyku(時宜に/適切に)` (kiv (#141: 二値光点) ＋ tyku (#936: 直ちに))  
+  - 例文: `Relen el mi ia kivtyku to valar.` （私は評議場へ向けて議会定足数の点検を得る。）
+
+## 第249話　執政庁における大笏の親授と休戦の調印 (`CANON-COLAB-82`)
+- **領域**: 統治・権能・和平規範 (Batch 67)
+- **対話者**: Klordan（執政庁の典礼監） / Fenis（休戦使節の長）
+- **背景**: 執政官と使節が統治権標を確かめ、休戦の印章を交わし、天星の勅令を布告する。
+
+### 対話記録
+
+- **Klordan**: *Vyrel el mi ia klorvymin ul klorbion. Relen el mi ia fenovymin to valar.*  
+  「私は執政官の正笏と休戦の印章を観測する。私は評議場へ向けて天星の勅令を得る。」
+- **Fenis**: *Vymin el mi ia klorbion. Vyrel el mi ia fenovymin. Vymin el miin ia klorvymin ul fenovymin.*  
+  「私は休戦の印章を守る。私は天星の勅令を確かめる。私たちは執政官の正笏と天星の勅令を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`klorvymin`** (`#31744`, 名): 執政官の正笏、統治権標、規律の象徴笏 / *magistrate baton of state, ceremonial sceptre of authority, symbol of civic governance*  
+  - 語構成: `klor(静止/安寧) + vymin(守る)` (klor (#110: 円) ＋ vymin (#951: 守る))  
+  - 例文: `Vyrel el mi ia klorvymin.` （私は執政官の正笏を観測する。）
+- **`klorbion`** (`#31745`, 名): 休戦の印章、停戦の盟約、和平の萌芽 / *truce token, covenant of armistice, burgeoning peace pact*  
+  - 語構成: `klor(静止/安寧) + bion(生/萌芽)` (klor (#110: 円) ＋ bion (#959: 飲む))  
+  - 例文: `Vymin el mi ia klorbion.` （私は休戦の印章を守る。）
+- **`fenovymin`** (`#31746`, 名): 天星の勅令、至高の法令、布告聖憲 / *celestial edict decree, supreme statutory decree, sovereign proclamation*  
+  - 語構成: `feno(告げる) + vymin(守る)` (feno (#859: 昨日) ＋ vymin (#951: 守る))  
+  - 例文: `Relen el mi ia fenovymin to valar.` （私は評議場へ向けて天星の勅令を得る。）
+
+## 第250話　市民広場における誓約調印と自治管区の確認 (`CANON-COLAB-83`)
+- **領域**: 市民盟約と自治憲章 (Batch 67)
+- **対話者**: Silan（市民連合の総代） / Vornas（管区行政の総務官）
+- **背景**: 市民代表と管区長が信義誓約を取り交わし、行政管区の秩序を定め、自治憲章を宣言する。
+
+### 対話記録
+
+- **Silan**: *Vyrel el mi ia silanpuka ul vornunor. Relen el mi ia silantal to valar.*  
+  「私は市民の信義誓約と星辰の統治管区を観測する。私は評議場へ向けて都市自治憲章を得る。」
+- **Vornas**: *Vymin el mi ia vornunor. Vyrel el mi ia silantal. Vymin el miin ia silanpuka ul silantal.*  
+  「私は星辰の統治管区を守る。私は都市自治憲章を確かめる。私たちは市民の信義誓約と都市自治憲章を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`silanpuka`** (`#31747`, 名): 市民の信義誓約、共同体盟約、市民誓詞 / *civic covenant oath, citizen solemn pledge, municipal compact*  
+  - 語構成: `silan(調和/秩序) + puka(刻印)` (silan (#516: 調和) ＋ puka (#452: ひづめ))  
+  - 例文: `Vyrel el mi ia silanpuka.` （私は市民の信義誓約を観測する。）
+- **`vornunor`** (`#31748`, 名): 星辰の統治管区、行政区域、管轄区画 / *astral administrative district, jurisdictional district, governance zone*  
+  - 語構成: `vorn(秩序/整調) + unor(始動/展開)` (vorn (#632: 部屋) ＋ unor (#123: 整数))  
+  - 例文: `Vymin el mi ia vornunor.` （私は星辰の統治管区を守る。）
+- **`silantal`** (`#31749`, 名): 都市自治憲章、大地の基本憲章、都市定款 / *municipal charter code, municipal autonomy organic law, city fundamental statutes*  
+  - 語構成: `silan(秩序/調和) + tal(大地)` (silan (#516: 調和) ＋ tal (#277: 大地))  
+  - 例文: `Relen el mi ia silantal to valar.` （私は評議場へ向けて都市自治憲章を得る。）
+
+## 第251話　法廷における仲裁審理と認証印章の検認 (`CANON-COLAB-84`)
+- **領域**: 裁判・調停・公判手続 (Batch 67)
+- **対話者**: Daris（仲裁法廷の審理官） / Kivan（印章規格の検認役）
+- **背景**: 法官と検認官が清澄なる仲裁審理を行い、工匠印章を照合し、議事規則を確認する。
+
+### 対話記録
+
+- **Daris**: *Vyrel el mi ia silandar ul kivlyka. Relen el mi ia silanbion to valar.*  
+  「私は清澄なる仲裁審理と組合刻印の検認票を観測する。私は評議場へ向けて評議会の秩序規約を得る。」
+- **Kivan**: *Vymin el mi ia kivlyka. Vyrel el mi ia silanbion. Vymin el miin ia silandar ul silanbion.*  
+  「私は組合刻印の検認票を守る。私は評議会の秩序規約を確かめる。私たちは清澄なる仲裁審理と評議会の秩序規約を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`silandar`** (`#31750`, 名): 清澄なる仲裁審理、公平な裁定法廷、調停公判 / *pure arbitral hearing, impartial arbitration bench, amicable adjudication tribunal*  
+  - 語構成: `silan(秩序) + dar(雫/清澄)` (silan (#516: 調和) ＋ dar (#329: しずく))  
+  - 例文: `Vyrel el mi ia silandar.` （私は清澄なる仲裁審理を観測する。）
+- **`kivlyka`** (`#31751`, 名): 組合刻印の検認票、工匠印章、規格認証印 / *guild insignia tag, certified artisan stamp, craft benchmark seal*  
+  - 語構成: `kiv(単位/条文) + lyka(籠/節/座)` (kiv (#141: 二値光点) ＋ lyka (#450: 巣))  
+  - 例文: `Vymin el mi ia kivlyka.` （私は組合刻印の検認票を守る。）
+- **`silanbion`** (`#31752`, 名): 評議会の秩序規約、議事規則、本会議規律 / *assembly standing order, council procedural rule, parliament decorum code*  
+  - 語構成: `silan(秩序) + bion(生/萌芽)` (silan (#516: 調和) ＋ bion (#959: 飲む))  
+  - 例文: `Relen el mi ia silanbion to valar.` （私は評議場へ向けて評議会の秩序規約を得る。）
+
+## 第252話　公報所における条令朗読と和睦証書の公布 (`CANON-COLAB-85`)
+- **領域**: 公報・布告・和睦条約 (Batch 68)
+- **対話者**: Fenor（公報所の朗読使） / Klorin（条約正本の記録書記）
+- **背景**: 伝達官と記録官が布告条文を朗読し、執政の位階標を掲げ、和睦調印の証書を保管する。
+
+### 対話記録
+
+- **Fenor**: *Vyrel el mi ia kivfeno ul silanvorn. Relen el mi ia klorhano to valar.*  
+  「私は布告条文の公式朗読と大権の笏座を観測する。私は評議場へ向けて和睦調印の証書を得る。」
+- **Klorin**: *Vymin el mi ia silanvorn. Vyrel el mi ia klorhano. Vymin el miin ia kivfeno ul klorhano.*  
+  「私は大権の笏座を守る。私は和睦調印の証書を確かめる。私たちは布告条文の公式朗読と和睦調印の証書を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`kivfeno`** (`#31753`, 名): 布告条文の公式朗読、公報布告、条令伝達 / *formal ordinance reading, gazette proclamation, statutory address*  
+  - 語構成: `kiv(条文) + feno(告げる)` (kiv (#141: 二値光点) ＋ feno (#859: 昨日))  
+  - 例文: `Vyrel el mi ia kivfeno.` （私は布告条文の公式朗読を観測する。）
+- **`silanvorn`** (`#31754`, 名): 大権の笏座、執政の位階標、主権の標石 / *seat of judicial authority, insignia of administrative rank, stone of supreme magistracy*  
+  - 語構成: `silan(秩序) + vorn(整調/席座)` (silan (#516: 調和) ＋ vorn (#632: 部屋))  
+  - 例文: `Vymin el mi ia silanvorn.` （私は大権の笏座を守る。）
+- **`klorhano`** (`#31755`, 名): 和睦調印の証書、休戦規約、静謐の和議 / *accord of armistice covenant, truce pact, ratified quietus treaty*  
+  - 語構成: `klor(安寧) + hano(歩む)` (klor (#110: 円) ＋ hano (#865: 今日))  
+  - 例文: `Relen el mi ia klorhano to valar.` （私は評議場へ向けて和睦調印の証書を得る。）
+
+## 第253話　境域望楼における勅令親告と管区標柱の巡視 (`CANON-COLAB-86`)
+- **領域**: 勅命告諭と境界標示 (Batch 68)
+- **対話者**: Fenan（境域の勅令使） / Pukor（境界界標の巡視役）
+- **背景**: 境域使と巡視官が勅令伝達の親告を行い、市民連名簿を照合し、管区境界標柱を点検する。
+
+### 対話記録
+
+- **Fenan**: *Vyrel el mi ia fenopuka ul silanlyka. Relen el mi ia pukatyni to valar.*  
+  「私は勅令伝達の親告と市民誓約の連名簿を観測する。私は評議場へ向けて行政管区の境界標柱を得る。」
+- **Pukor**: *Vymin el mi ia silanlyka. Vyrel el mi ia pukatyni. Vymin el miin ia fenopuka ul pukatyni.*  
+  「私は市民誓約の連名簿を守る。私は行政管区の境界標柱を確かめる。私たちは勅令伝達の親告と行政管区の境界標柱を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`fenopuka`** (`#31756`, 名): 勅令伝達の親告、公報布告使、大命告諭 / *heraldic promulgation announcement, mandate transmission, sovereign decree delivery*  
+  - 語構成: `feno(告げる) + puka(刻印)` (feno (#859: 昨日) ＋ puka (#452: ひづめ))  
+  - 例文: `Vyrel el mi ia fenopuka.` （私は勅令伝達の親告を観測する。）
+- **`silanlyka`** (`#31757`, 名): 市民誓約の連名簿、誓詞署名結節、盟約盟主帳 / *civic covenant register, signed alliance roll, fellowship registry binder*  
+  - 語構成: `silan(秩序) + lyka(節/籠/帳簿)` (silan (#516: 調和) ＋ lyka (#450: 巣))  
+  - 例文: `Vymin el mi ia silanlyka.` （私は市民誓約の連名簿を守る。）
+- **`pukatyni`** (`#31758`, 名): 行政管区の境界標柱、管区境界石、管轄境界界標 / *administrative district boundary marker, territory border signet, jurisdictional boundary post*  
+  - 語構成: `puka(刻印) + tyni(銀の/光る)` (puka (#452: ひづめ) ＋ tyni (#825: 銀色の))  
+  - 例文: `Relen el mi ia pukatyni to valar.` （私は評議場へ向けて行政管区の境界標柱を得る。）
+
+## 第254話　算術院における素数比算定と振り子周期の計測 (`CANON-COLAB-87`)
+- **領域**: 数理・幾何・測量暦算 (Batch 68)
+- **対話者**: Sufor（算術院の数理計算士） / Tykon（時辰計器の調律師）
+- **背景**: 算術学徒と計時工匠が素数比を算定し、漸近線の注視軌跡を求め、振り子の振動周期を測る。
+
+### 対話記録
+
+- **Sufor**: *Vyrel el mi ia sufbion ul unorseno. Relen el mi ia tykbion to govan.*  
+  「私は素数比の算定法と漸近線の注視軌跡を観測する。私は家へ向けて振り子の振動周期を得る。」
+- **Tykon**: *Vymin el mi ia unorseno. Vyrel el mi ia tykbion. Vymin el miin ia sufbion ul tykbion.*  
+  「私は漸近線の注視軌跡を守る。私は振り子の振動周期を確かめる。私たちは素数比の算定法と振り子の振動周期を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`sufbion`** (`#31759`, 名): 素数比の算定法、最小単位比率、互いに素な比率 / *prime ratio calculation, atomic proportional fraction, coprime calculus*  
+  - 語構成: `suf(計算) + bion(生/萌芽)` (suf (#166: 数理) ＋ bion (#959: 飲む))  
+  - 例文: `Vyrel el mi ia sufbion.` （私は素数比の算定法を観測する。）
+- **`unorseno`** (`#31760`, 名): 漸近線の注視軌跡、漸近線観察、極限収束線 / *asymptotic tangent line observation, asymptotic trace, limit convergence boundary*  
+  - 語構成: `unor(始動/展開) + seno(見る/注視)` (unor (#123: 整数) ＋ seno (#908: 明日))  
+  - 例文: `Vymin el mi ia unorseno.` （私は漸近線の注視軌跡を守る。）
+- **`tykbion`** (`#31761`, 名): 振り子の振動周期、周期運動の生動、時相周期 / *pendulum oscillation period, rhythmic vibrational pulse, cyclic chronometer swing*  
+  - 語構成: `tyk(拍/周期) + bion(生/運動)` (tyk (#183: クロック) ＋ bion (#959: 飲む))  
+  - 例文: `Relen el mi ia tykbion to govan.` （私は家へ向けて振り子の振動周期を得る。）
+
+## 第255話　天測台における至点高度と格子座標の精密測点 (`CANON-COLAB-88`)
+- **領域**: 天体測量と格子座標 (Batch 69)
+- **対話者**: Vyras（天測台の仰角測手） / Kivan（地勢格子座標の測量士）
+- **背景**: 天測士と測量技手が至点天体の高度を測り、接線方向の測角を行い、格子座標を決定する。
+
+### 対話記録
+
+- **Vyras**: *Vyrel el mi ia sufvyr ul tykseno. Relen el mi ia kivseno to govan.*  
+  「私は至点天体の観測高度と接線方向の測角を観測する。私は家へ向けて格子座標の精密測点を得る。」
+- **Kivan**: *Vymin el mi ia tykseno. Vyrel el mi ia kivseno. Vymin el miin ia sufvyr ul kivseno.*  
+  「私は接線方向の測角を守る。私は格子座標の精密測点を確かめる。私たちは至点天体の観測高度と格子座標の精密測点を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`sufvyr`** (`#31762`, 名): 至点天体の観測高度、最高仰角観測、天頂照準 / *solstice culmination altitude, highest zenith observation, apex sightline measure*  
+  - 語構成: `suf(計算) + vyr(星)` (suf (#166: 数理) ＋ vyr (#62: 星))  
+  - 例文: `Vyrel el mi ia sufvyr.` （私は至点天体の観測高度を観測する。）
+- **`tykseno`** (`#31763`, 名): 接線方向の測角、曲率の接線ベクトル、接点角 / *tangential vector observation, tangent angle determination, contour contact direction*  
+  - 語構成: `tyk(拍/単位) + seno(見る/注視)` (tyk (#183: クロック) ＋ seno (#908: 明日))  
+  - 例文: `Vymin el mi ia tykseno.` （私は接線方向の測角を守る。）
+- **`kivseno`** (`#31764`, 名): 格子座標の精密測点、方眼座標基準点、格子基準点 / *grid coordinate measurement point, coordinate grid benchmark, lattice reference knot*  
+  - 語構成: `kiv(単位点) + seno(注視/照準)` (kiv (#141: 二値光点) ＋ seno (#908: 明日))  
+  - 例文: `Relen el mi ia kivseno to govan.` （私は家へ向けて格子座標の精密測点を得る。）
+
+## 第256話　力学実験場における周長算定と放物軌道の追跡 (`CANON-COLAB-89`)
+- **領域**: 幾何軌道と旋回半径 (Batch 69)
+- **対話者**: Unoran（軌道力学の主任研究者） / Tykis（実験観測の記録員）
+- **背景**: 力学士と実験助手が幾何周長を算定し、放物軌道を追跡し、回転半径を記録する。
+
+### 対話記録
+
+- **Unoran**: *Vyrel el mi ia unorvorn ul unorhano. Relen el mi ia tykuhano to govan.*  
+  「私は幾何周長の整調算定と放物軌道の巡行路を観測する。私は家へ向けて回転半径の描周路を得る。」
+- **Tykis**: *Vymin el mi ia unorhano. Vyrel el mi ia tykuhano. Vymin el miin ia unorvorn ul tykuhano.*  
+  「私は放物軌道の巡行路を守る。私は回転半径の描周路を確かめる。私たちは幾何周長の整調算定と回転半径の描周路を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`unorvorn`** (`#31765`, 名): 幾何周長の整調算定、周界計測値、閉曲線外周長 / *perimeter contour measurement, closed circuit boundary length, perimeter calculus*  
+  - 語構成: `unor(展開) + vorn(秩序/整調)` (unor (#123: 整数) ＋ vorn (#632: 部屋))  
+  - 例文: `Vyrel el mi ia unorvorn.` （私は幾何周長の整調算定を観測する。）
+- **`unorhano`** (`#31766`, 名): 放物軌道の巡行路、曲線軌道歩み、自由放物軌跡 / *parabolic trajectory route, curving orbital course, projectile path trace*  
+  - 語構成: `unor(展開) + hano(歩む)` (unor (#123: 整数) ＋ hano (#865: 今日))  
+  - 例文: `Vymin el mi ia unorhano.` （私は放物軌道の巡行路を守る。）
+- **`tykuhano`** (`#31767`, 名): 回転半径の描周路、旋回運動半径、円周動線 / *gyration radius traverse, rotation radius orbit, orbital curvature swing*  
+  - 語構成: `tyku(時宜に/適切に) + hano(歩む)` (tyku (#936: 直ちに) ＋ hano (#865: 今日))  
+  - 例文: `Relen el mi ia tykuhano to govan.` （私は家へ向けて回転半径の描周路を得る。）
+
+## 第257話　光学測量所における六分儀測角と漸近解析計数 (`CANON-COLAB-90`)
+- **領域**: 光学測量と解析計理 (Batch 69)
+- **対話者**: Vyrelon（光学測量所の主任技師） / Sufen（解析数理の記録士）
+- **背景**: 光学技師と解析学徒が六分儀による測角閃光を放ち、素数比率の離散数量を確かめ、漸近解析計数を完遂する。
+
+### 対話記録
+
+- **Vyrelon**: *Vyrel el mi ia tykvyrel ul kivbion. Relen el mi ia suftyni to govan.*  
+  「私は六分儀による測角閃光と素数比率の離散数量を観測する。私は家へ向けて漸近線の極限計算を得る。」
+- **Sufen**: *Vymin el mi ia kivbion. Vyrel el mi ia suftyni. Vymin el miin ia tykvyrel ul suftyni.*  
+  「私は素数比率の離散数量を守る。私は漸近線の極限計算を確かめる。私たちは六分儀による測角閃光と漸近線の極限計算を共に保ち抜く。」
+
+### 実証された正本複合語
+
+- **`tykvyrel`** (`#31768`, 名): 六分儀による測角閃光、恒星高度測定光、測地投光 / *sextant alignment flash, celestial angle measurement beam, survey flashpoint*  
+  - 語構成: `tyk(拍/単位) + vyrel(観測する)` (tyk (#183: クロック) ＋ vyrel (#953: （精密に）観測する))  
+  - 例文: `Vyrel el mi ia tykvyrel.` （私は六分儀による測角閃光を観測する。）
+- **`kivbion`** (`#31769`, 名): 素数比率の離散数量、単位比率量、整数量論値 / *coprime discrete quantum, elementary ratio measure, modular arithmetic quantity*  
+  - 語構成: `kiv(単位) + bion(生/萌芽)` (kiv (#141: 二値光点) ＋ bion (#959: 飲む))  
+  - 例文: `Vymin el mi ia kivbion.` （私は素数比率の離散数量を守る。）
+- **`suftyni`** (`#31770`, 名): 漸近線の極限計算、収束漸近計理、漸近解析計数 / *asymptotic limit analysis, convergence asymptotic calculus, boundary limit appraisal*  
+  - 語構成: `suf(計算) + tyni(銀の/光る)` (suf (#166: 数理) ＋ tyni (#825: 銀色の))  
+  - 例文: `Relen el mi ia suftyni to govan.` （私は家へ向けて漸近線の極限計算を得る。）
+
+## 巻末附録一　分野（カテゴリー）別正本複合語索引（全 31 分野）
 
 - **02. 天体・気象・環境** (8 語) → wylordar（季節風が運ぶ恵みの雨 : CANON-CONV-161） / wylorvel（潮風に耐える防風樹 : CANON-CONV-161） / zylartal（海岸段丘 : CANON-CONV-161） / talondar（孤島の淡水泉 : CANON-CONV-162） / talonvel（島の原生林 : CANON-CONV-162） / duriltal（太古の骨石層 : CANON-CONV-166） / dardaron（都市調整池 : CANON-COLAB-01） / talurtal（鉱石含有層 : CANON-COLAB-03）
 - **03. 生物・植物・動物** (1 語) → nervelas（滋養の薬草葉 : CANON-CONV-166）
@@ -6280,8 +6530,9 @@
 - **15. 芸術・文化・娯楽** (12 語) → talcivom（大地の叙事詩 : CANON-CONV-109） / vellyren（樹海の鎮魂歌 : CANON-CONV-109） / darpamel（水路の航海誌 : CANON-CONV-109） / vyrlyvel（星野の写真 : CANON-CONV-110） / darfalos（水滴の分光 : CANON-CONV-110） / velsilan（緑陰の共鳴 : CANON-CONV-110） / vyrcivom（星辰の叙事詩 : CANON-CONV-149） / alinlyren（純白の鎮魂歌 : CANON-CONV-149） / klorpamel（円環の全集本 : CANON-CONV-149） / darlyvel（水辺の風景写真 : CANON-CONV-150） / vyrfalos（恒星の分光 : CANON-CONV-150） / alinsilan（純白の静謐美 : CANON-CONV-150）
 - **16. 動作・動態・時空・方向副詞** (8 語) → velhano（祈りの風路 : CANON-COLAB-73） / kymfeno（黄昏の語らい : CANON-COLAB-73） / kymhano（黄昏の旅立ち : CANON-COLAB-74） / talhano（礼節の拝礼 : CANON-COLAB-75） / klorfeno（沈黙の了解 : CANON-COLAB-76） / velseno（風の示唆 : CANON-COLAB-76） / darhano（水脈の道連れ : CANON-COLAB-79） / kymseno（黄昏の凝視 : CANON-COLAB-79）
 - **16. 日常・自然・気象** (37 語) → darfalun（露光 : CANON-CONV-01） / vyrzylar（星映す大海 : CANON-CONV-85） / velwylor（樹海の季節風 : CANON-CONV-85） / vyrzemin（星際の地平線 : CANON-CONV-85） / alinkyras（純白の氷晶 : CANON-CONV-86） / darvuron（水滴の鍾乳洞 : CANON-CONV-86） / dartalom（潤いの平原 : CANON-CONV-86） / alinnovan（白雪の霊峰 : CANON-CONV-87） / klortalon（環礁の島 : CANON-CONV-87） / talvelom（大地の原生林 : CANON-CONV-87） / velnerar（木陰のカフェ : CANON-CONV-107） / alintenis（純白の冬毛皮 : CANON-CONV-107） / velvalis（森歩きの衣 : CANON-CONV-107） / talvalar（大地の夜明け : CANON-CONV-117） / alinsovil（白光の真昼 : CANON-CONV-117） / velkylas（木立の夕暮れ : CANON-CONV-117） / darzohar（水鏡の太陽 : CANON-CONV-118） / taltynes（地平の満月 : CANON-CONV-118） / alinpyris（清浄な白炎 : CANON-CONV-118） / alinzylar（白波の大海 : CANON-CONV-125） / darwylor（雨季の季節風 : CANON-CONV-125） / talzemin（大地の地平線 : CANON-CONV-125） / vyrkyras（星影の氷塊 : CANON-CONV-126） / talvuron（大地の岩窟 : CANON-CONV-126） / tynitalom（白銀の平原 : CANON-CONV-126） / velnovan（樹林の山嶺 : CANON-CONV-127） / alintalon（白砂の島 : CANON-CONV-127） / tynivelom（銀霧の森 : CANON-CONV-127） / klornerar（円形広場のカフェ : CANON-CONV-147） / dartenis（撥水の毛皮 : CANON-CONV-147） / klorvalis（輪舞の祝祭衣 : CANON-CONV-147） / vyrvalar（星残る早朝 : CANON-CONV-157） / talsovil（陽だまりの真昼 : CANON-CONV-157） / tynikylas（銀光の夕暮れ : CANON-CONV-157） / velzohar（木漏れ日の太陽 : CANON-CONV-158） / dartynes（水鏡の月 : CANON-CONV-158） / talpyris（石炉の種火 : CANON-CONV-158）
+- **2. 数理・幾何・計測** (11 語) → unorseno（漸近線の注視軌跡 : CANON-COLAB-87） / tykbion（振り子の振動周期 : CANON-COLAB-87） / sufvyr（至点天体の観測高度 : CANON-COLAB-88） / tykseno（接線方向の測角 : CANON-COLAB-88） / kivseno（格子座標の精密測点 : CANON-COLAB-88） / unorvorn（幾何周長の整調算定 : CANON-COLAB-89） / unorhano（放物軌道の巡行路 : CANON-COLAB-89） / tykuhano（回転半径の描周路 : CANON-COLAB-89） / tykvyrel（六分儀による測角閃光 : CANON-COLAB-90） / kivbion（素数比率の離散数量 : CANON-COLAB-90） / suftyni（漸近線の極限計算 : CANON-COLAB-90）
 - **2. 自然・気象・地形・鉱物** (28 語) → zylarvel（海中林 : CANON-COLAB-12） / velkural（共生林 : CANON-COLAB-14） / velkores（忘却の樹林 : CANON-COLAB-14） / veldar（樹露 : CANON-COLAB-14） / talyrner（鉱物肥料 : CANON-COLAB-16） / bionvel（共生樹木 : CANON-COLAB-22） / velalin（純白樹木 : CANON-COLAB-22） / daronner（湖沼滋養 : CANON-COLAB-24） / daronvel（湖岸林 : CANON-COLAB-24） / zylardar（海水塩滴 : CANON-COLAB-24） / zyvanvel（薬木 : CANON-COLAB-28） / daronalin（澄明運河 : CANON-COLAB-31） / talyrkym（暗黒玄武岩 : CANON-COLAB-33） / zylarkym（夜光海面 : CANON-COLAB-38） / veltal（森林育成地 : CANON-COLAB-43） / zylaralin（白波海岸線 : CANON-COLAB-48） / velfalun（樹冠木漏れ日 : CANON-COLAB-51） / talfalos（大地分光 : CANON-COLAB-55） / talfalun（地表反射光 : CANON-COLAB-55） / velporan（森林樹林踏査 : CANON-COLAB-59） / talfalzon（大地偏光 : CANON-COLAB-60） / darfalzon（水面偏光 : CANON-COLAB-61） / zylartyku（潮汐適時波 : CANON-COLAB-61） / veldaris（樹木樹液水 : CANON-COLAB-62） / talfalvyn（大地薄光 : CANON-COLAB-64） / taldorcon（地盤摂動 : CANON-COLAB-66） / velkiras（樹林整枝剪定 : CANON-COLAB-68） / bionfalun（生体受光光条 : CANON-COLAB-68）
-- **3. 情報・計算機・通信** (2 語) → kivunor（直観の閃き : CANON-COLAB-72） / jynunor（探究の始動熱 : CANON-COLAB-73）
+- **3. 情報・計算機・通信** (3 語) → kivunor（直観の閃き : CANON-COLAB-72） / jynunor（探究の始動熱 : CANON-COLAB-73） / sufbion（素数比の算定法 : CANON-COLAB-87）
 - **3. 数理・情報・計算機** (27 語) → vyrmator（軌道演算儀 : CANON-CONV-62） / tynimator（銀の計算盤 : CANON-CONV-62） / hanomator（今日の算定盤 : CANON-CONV-62） / vyrsoril（天測の記憶素 : CANON-CONV-63） / zydsoril（実証記憶器 : CANON-CONV-63） / tynisoril（銀枠の記憶器 : CANON-CONV-63） / vyrzevil（天体運行譜 : CANON-CONV-64） / zydzevil（実証記述文 : CANON-CONV-64） / hanozevil（今日の観測譜 : CANON-CONV-64） / talmator（地勢の星辰演算儀 : CANON-CONV-95） / alinsoril（純白の星石記憶素 : CANON-CONV-95） / klorjytel（環状接続ノード : CANON-CONV-95） / talfiras（基礎定数 : CANON-CONV-97） / vyrkelon（天体変数 : CANON-CONV-97） / klorkiril（円関数 : CANON-CONV-97） / klorjylom（閉じた集合 : CANON-CONV-98） / talunor（基準整数 : CANON-CONV-98） / dardelis（微細な小数 : CANON-CONV-98） / darmator（水流駆動の演算儀 : CANON-CONV-135） / talsoril（鉱物結晶の記憶素 : CANON-CONV-135） / vyrjytel（星間中継ノード : CANON-CONV-135） / vyrfiras（天体物理定数 : CANON-CONV-137） / talkelon（地形の変数 : CANON-CONV-137） / darkiril（流体関数 : CANON-CONV-137） / vyrjylom（恒星の集合 : CANON-CONV-138） / vyrunor（軌道共鳴の整数 : CANON-CONV-138） / taldelis（測量端数の小数 : CANON-CONV-138）
 - **4. 人体・生理・医療** (65 語) → talzyvas（大地の生気 : CANON-CONV-07） / darzyvil（水薬 : CANON-CONV-07） / kymtymis（夜眠り : CANON-CONV-07） / velzyvil（木皮薬 : CANON-CONV-19） / darzyvas（潤いの活力 : CANON-CONV-19） / havrevir（覚醒の刻 : CANON-CONV-19） / talzyvil（大地の鉱物薬 : CANON-CONV-37） / hanozyvil（今日の処方薬 : CANON-CONV-37） / alinzyvil（純白の軟膏 : CANON-CONV-37） / vyrvylan（星を映す瞳 : CANON-CONV-65） / alinvylan（澄んだ瞳 : CANON-CONV-65） / darvylan（潤んだ瞳 : CANON-CONV-65） / darharel（水音を聴く耳 : CANON-CONV-66） / velharel（森を聴く耳 : CANON-CONV-66） / kymharel（夜を聴く耳 : CANON-CONV-66） / talzyvor（大地の精力 : CANON-CONV-67） / darzyvor（潤いの精力 : CANON-CONV-67） / hanozyvor（今日の気力 : CANON-CONV-67） / velzyvas（森の養生力 : CANON-CONV-68） / vyrzyvas（星夜の健やかさ : CANON-CONV-68） / hanozyvas（今日の体調 : CANON-CONV-68） / velkivan（植物細胞 : CANON-CONV-101） / dardavel（清らかな血流 : CANON-CONV-101） / talduril（強靭な骨格 : CANON-CONV-101） / alinteira（穏やかな心臓 : CANON-CONV-102） / vyrzyvil（星露の霊薬 : CANON-CONV-102） / velzyvor（森林の活力 : CANON-CONV-102） / darkylar（水あたり : CANON-CONV-103） / havzyvas（季節の養生 : CANON-CONV-103） / alinzyvor（清らかな気力 : CANON-CONV-103） / tallarin（大地を踏む足 : CANON-CONV-104） / alinnoven（明晰な頭脳 : CANON-CONV-104） / darfenel（潤いの口元 : CANON-CONV-104） / darkivan（水生細胞 : CANON-CONV-141） / taldavel（力強い血潮 : CANON-CONV-141） / velduril（しなやかな骨格 : CANON-CONV-141） / talteira（強靭な心臓 : CANON-CONV-142） / havzyvil（熟成の煎じ薬 : CANON-CONV-142） / vyrzyvor（星下の活力 : CANON-CONV-142） / talkylar（旅路の疲労症 : CANON-CONV-143） / klorzyvas（円満な健康 : CANON-CONV-143） / nerzyvor（滋養の活力 : CANON-CONV-143） / darlarin（浅瀬を渡る足 : CANON-CONV-144） / velnoven（博物学の頭脳 : CANON-CONV-144） / vyrfenel（星詩を詠む口元 : CANON-CONV-144） / zylarner（海産滋養物 : CANON-COLAB-12） / nervelil（薬用新芽 : CANON-COLAB-15） / nerzyvil（滋養生薬 : CANON-COLAB-15） / nerdar（薬用露水 : CANON-COLAB-15） / bionner（生体滋養 : CANON-COLAB-21） / biondar（生体抽出液 : CANON-COLAB-21） / bionzyvan（生体治癒 : CANON-COLAB-22） / zyvandar（治癒薬液 : CANON-COLAB-28） / neralin（純白薬草粉末 : CANON-COLAB-32） / nerunor（薬量定数 : CANON-COLAB-32） / nerbion（生体滋養剤 : CANON-COLAB-39） / nerkym（夜用滋養薬 : CANON-COLAB-39） / nerterin（生薬煎じ茶 : CANON-COLAB-43） / nerzyvan（生薬治療 : CANON-COLAB-43） / vyrterin（天文夜警茶 : CANON-COLAB-57） / nertyni（銀色薬草葉 : CANON-COLAB-62） / nerfirtas（生薬純度規準 : CANON-COLAB-68） / nerdaris（生薬煎じ水 : CANON-COLAB-69） / terinjyn（薬湯温熱気力 : CANON-COLAB-69） / biontal（生体保養地 : CANON-COLAB-69）
 - **4. 生命・生体・医療** (1 語) → jynbion（根源の活力 : CANON-COLAB-71）
@@ -6291,13 +6542,13 @@
 - **8. 工学・建築・道具** (18 語) → klordolas（円環の鋳型 : CANON-CONV-89） / vyrtalur（星紋の合金 : CANON-CONV-89） / veltalyr（木目石 : CANON-CONV-89） / alinkirel（白軸の細筆 : CANON-CONV-90） / darserel（水研ぎの小刀 : CANON-CONV-90） / havkypal（歳月の収納箱 : CANON-CONV-90） / vyrpelel（恒星の携帯星盤 : CANON-CONV-94） / alinvylom（澄んだ望遠スコープ : CANON-CONV-94） / darryvel（水深の測度 : CANON-CONV-94） / taldolas（粘土の鋳型 : CANON-CONV-129） / dartalur（水冷の鍛造金属 : CANON-CONV-129） / tynitalyr（銀脈の石材 : CANON-CONV-129） / darkirel（水彩の絵筆 : CANON-CONV-130） / vyrserel（星図の細工刀 : CANON-CONV-130） / zydkypal（証書の保管箱 : CANON-CONV-130） / darpelel（航海用の携帯星盤 : CANON-CONV-134） / vyrvylom（天体望遠スコープ : CANON-CONV-134） / talryvel（土地測量の測度 : CANON-CONV-134）
 - **8. 植物・森林・菌類** (11 語) → alinvelin（白花 : CANON-CONV-04） / talvelar（大地の庭園 : CANON-CONV-16） / darvelas（露葉 : CANON-CONV-16） / velsaren（木々の芽吹き : CANON-CONV-22） / velpamel（草木図鑑 : CANON-CONV-33） / darvelom（水辺の森 : CANON-CONV-52） / vyrvelom（星降る森 : CANON-CONV-52） / kymvelom（夜の森 : CANON-CONV-52） / darvelil（朝露の若芽 : CANON-CONV-53） / talvelil（大地の若草 : CANON-CONV-53） / vyrvelil（星見草 : CANON-CONV-53）
 - **9. 学問・科学・技術** (6 語) → talpamel（地理誌 : CANON-CONV-33） / vyrlivar（天測の書庫 : CANON-CONV-61） / tallivar（大地の記録庫 : CANON-CONV-61） / vyrvyran（星辰の理 : CANON-CONV-70） / zydvyran（実証の真理 : CANON-CONV-70） / talvyran（大地の摂理 : CANON-CONV-70）
-- **9. 統治・社会・法・共同体** (13 語) → nerfeno（盟約の誓詞 : CANON-COLAB-74） / talelir（和解の祝祭 : CANON-COLAB-74） / kivvorn（誓約の条文 : CANON-COLAB-75） / darseno（澄んだまなざしの友 : CANON-COLAB-76） / klorlyka（座談の円座 : CANON-COLAB-77） / talbion（盟約の礎石 : CANON-COLAB-77） / jynlyka（結束の連帯節 : CANON-COLAB-77） / velbion（風の息吹き : CANON-COLAB-78） / tykualin（礼に適った敬礼 : CANON-COLAB-78） / fenovorn（秩序ある助言 : CANON-COLAB-79） / velunor（協和の座談 : CANON-COLAB-80） / kivalin（澄明なる憲章条文 : CANON-COLAB-80） / jynvorn（公正なる仲裁評定 : CANON-COLAB-80）
+- **9. 統治・社会・法・共同体** (31 語) → nerfeno（盟約の誓詞 : CANON-COLAB-74） / talelir（和解の祝祭 : CANON-COLAB-74） / kivvorn（誓約の条文 : CANON-COLAB-75） / darseno（澄んだまなざしの友 : CANON-COLAB-76） / klorlyka（座談の円座 : CANON-COLAB-77） / talbion（盟約の礎石 : CANON-COLAB-77） / jynlyka（結束の連帯節 : CANON-COLAB-77） / velbion（風の息吹き : CANON-COLAB-78） / tykualin（礼に適った敬礼 : CANON-COLAB-78） / fenovorn（秩序ある助言 : CANON-COLAB-79） / velunor（協和の座談 : CANON-COLAB-80） / kivalin（澄明なる憲章条文 : CANON-COLAB-80） / jynvorn（公正なる仲裁評定 : CANON-COLAB-80） / kivpuka（組合刻印章 : CANON-COLAB-81） / kivhano（布告条例の巡回告知 : CANON-COLAB-81） / kivtyku（議会定足数の点検 : CANON-COLAB-81） / klorvymin（執政官の正笏 : CANON-COLAB-82） / klorbion（休戦の印章 : CANON-COLAB-82） / fenovymin（天星の勅令 : CANON-COLAB-82） / silanpuka（市民の信義誓約 : CANON-COLAB-83） / vornunor（星辰の統治管区 : CANON-COLAB-83） / silantal（都市自治憲章 : CANON-COLAB-83） / silandar（清澄なる仲裁審理 : CANON-COLAB-84） / kivlyka（組合刻印の検認票 : CANON-COLAB-84） / silanbion（評議会の秩序規約 : CANON-COLAB-84） / kivfeno（布告条文の公式朗読 : CANON-COLAB-85） / silanvorn（大権の笏座 : CANON-COLAB-85） / klorhano（和睦調印の証書 : CANON-COLAB-85） / fenopuka（勅令伝達の親告 : CANON-COLAB-86） / silanlyka（市民誓約の連名簿 : CANON-COLAB-86） / pukatyni（行政管区の境界標柱 : CANON-COLAB-86）
 - **9. 通信・ネットワーク** (6 語) → vyrtolom（恒星間の交信網 : CANON-CONV-96） / alintolas（吉報の白文 : CANON-CONV-96） / darjynel（水力蓄電池 : CANON-CONV-96） / klortolom（環状交信ネットワーク : CANON-CONV-136） / dartolas（水路の連絡便 : CANON-CONV-136） / taljynel（据置型の地熱蓄電池 : CANON-CONV-136）
 
-## 巻末附録二　構成語根別クロスリファレンス索引（全 185 語根）
+## 巻末附録二　構成語根別クロスリファレンス索引（全 187 語根）
 
 - **`alin`** (`#760`, 白い) → alinvelin（白花 : CANON-CONV-04） / alinvalis（白衣 : CANON-CONV-11） / alinkypal（白磁の器箱 : CANON-CONV-26） / alingovan（白壁の住まい : CANON-CONV-29） / alinlerel（白い扉 : CANON-CONV-30） / alinpamel（白紙の帳面 : CANON-CONV-33） / alinzyvil（純白の軟膏 : CANON-CONV-37） / alintasel（白木の椅子 : CANON-CONV-45） / alinnerom（白壁の配膳室 : CANON-CONV-47） / alinterin（白茶 : CANON-CONV-49） / alintalyr（白石 : CANON-CONV-54） / alintalur（白色合金 : CANON-CONV-55） / alinserel（白い細工小刀 : CANON-CONV-56） / alintynes（白月 : CANON-CONV-57） / alinvylan（澄んだ瞳 : CANON-CONV-65） / alinsylim（純白の心 : CANON-CONV-72） / alinrenis（白磁貨 : CANON-CONV-77） / alincelis（白銀の彩雲 : CANON-CONV-81） / alinkyras（純白の氷晶 : CANON-CONV-86） / alinnovan（白雪の霊峰 : CANON-CONV-87） / alinkirel（白軸の細筆 : CANON-CONV-90） / alinkymel（白布の寝床 : CANON-CONV-91） / alinvylar（純白の合図旗 : CANON-CONV-93） / alinvylom（澄んだ望遠スコープ : CANON-CONV-94） / alinsoril（純白の星石記憶素 : CANON-CONV-95） / alintolas（吉報の白文 : CANON-CONV-96） / alinvedil（明晰な真偽律 : CANON-CONV-100） / alinteira（穏やかな心臓 : CANON-CONV-102） / alinzyvor（清らかな気力 : CANON-CONV-103） / alinnoven（明晰な頭脳 : CANON-CONV-104） / alinvoril（白の果実酒 : CANON-CONV-105） / alintenis（純白の冬毛皮 : CANON-CONV-107） / alinvelar（白花の庭園 : CANON-CONV-108） / alinvyran（純粋な真理 : CANON-CONV-112） / alincynur（白銀の謝意 : CANON-CONV-115） / alinsevur（明快な選択肢 : CANON-CONV-116） / alinsovil（白光の真昼 : CANON-CONV-117） / alinpyris（清浄な白炎 : CANON-CONV-118） / alinlivar（白銀の星辰書庫 : CANON-CONV-120） / alinzevil（清書された記述文 : CANON-CONV-120） / alinzylar（白波の大海 : CANON-CONV-125） / alintalon（白砂の島 : CANON-CONV-127） / alinlyren（純白の鎮魂歌 : CANON-CONV-149） / alinsilan（純白の静謐美 : CANON-CONV-150） / alinkyrom（白銀の銀河団 : CANON-CONV-159） / talalin（白亜地盤 : CANON-COLAB-16） / velalin（純白樹木 : CANON-COLAB-22） / talyralin（純白切石 : CANON-COLAB-25） / taluralin（純白精錬金属 : CANON-COLAB-26） / daronalin（澄明運河 : CANON-COLAB-31） / neralin（純白薬草粉末 : CANON-COLAB-32） / kloralin（純白鏡面 : CANON-COLAB-34） / poloralin（公正無私 : CANON-COLAB-37） / jylasalin（純白の誓約 : CANON-COLAB-40） / vyralin（純白星光 : CANON-COLAB-42） / zylaralin（白波海岸線 : CANON-COLAB-48） / daralin（清澄な追憶 : CANON-COLAB-71） / tykualin（礼に適った敬礼 : CANON-COLAB-78） / kivalin（澄明なる憲章条文 : CANON-COLAB-80）
-- **`bion`** (`#959`, 飲む) → bionner（生体滋養 : CANON-COLAB-21） / biondar（生体抽出液 : CANON-COLAB-21） / bionvymin（生体保全 : CANON-COLAB-21） / bionvel（共生樹木 : CANON-COLAB-22） / bionzyvan（生体治癒 : CANON-COLAB-22） / vyrbion（星辰生体 : CANON-COLAB-23） / talurbion（活性感応金属 : CANON-COLAB-26） / nerbion（生体滋養剤 : CANON-COLAB-39） / polorbion（市民生計 : CANON-COLAB-46） / bionfalun（生体受光光条 : CANON-COLAB-68） / biontal（生体保養地 : CANON-COLAB-69） / jynbion（根源の活力 : CANON-COLAB-71） / talbion（盟約の礎石 : CANON-COLAB-77） / velbion（風の息吹き : CANON-COLAB-78）
+- **`bion`** (`#959`, 飲む) → bionner（生体滋養 : CANON-COLAB-21） / biondar（生体抽出液 : CANON-COLAB-21） / bionvymin（生体保全 : CANON-COLAB-21） / bionvel（共生樹木 : CANON-COLAB-22） / bionzyvan（生体治癒 : CANON-COLAB-22） / vyrbion（星辰生体 : CANON-COLAB-23） / talurbion（活性感応金属 : CANON-COLAB-26） / nerbion（生体滋養剤 : CANON-COLAB-39） / polorbion（市民生計 : CANON-COLAB-46） / bionfalun（生体受光光条 : CANON-COLAB-68） / biontal（生体保養地 : CANON-COLAB-69） / jynbion（根源の活力 : CANON-COLAB-71） / talbion（盟約の礎石 : CANON-COLAB-77） / velbion（風の息吹き : CANON-COLAB-78） / klorbion（休戦の印章 : CANON-COLAB-82） / silanbion（評議会の秩序規約 : CANON-COLAB-84） / sufbion（素数比の算定法 : CANON-COLAB-87） / tykbion（振り子の振動周期 : CANON-COLAB-87） / kivbion（素数比率の離散数量 : CANON-COLAB-90）
 - **`calor`** (`#473`, 評議会) → klorcalor（円卓評議 : CANON-CONV-20）
 - **`calun`** (`#840`, 対話する) → hanocalun（今日の相談 : CANON-CONV-08）
 - **`celar`** (`#321`, 極光) → vyrcelar（星彩の極光 : CANON-CONV-81） / darcelar（水鏡の極光 : CANON-CONV-121）
@@ -6311,7 +6562,7 @@
 - **`cynor`** (`#477`, 親友) → zydcynor（真の親友 : CANON-CONV-74） / vyrcynor（星見の盟友 : CANON-CONV-74） / klorcynor（車座の同志 : CANON-CONV-74） / talcynor（盤石の親友 : CANON-CONV-115） / darcynor（水魚の親友 : CANON-CONV-155）
 - **`cynur`** (`#696`, 感謝) → zydcynur（心からの感謝 : CANON-CONV-13） / alincynur（白銀の謝意 : CANON-CONV-115） / velcynur（森の恵みへの感謝 : CANON-CONV-155）
 - **`dankar`** (`#592`, 基礎) → taldankar（石工基底礎 : CANON-COLAB-44） / veldankar（船台木枠基礎 : CANON-COLAB-52） / vyrdankar（星辰観測石礎 : CANON-COLAB-54） / dardankar（排水溝基礎 : CANON-COLAB-56） / nerdankar（薬棚石礎基礎 : CANON-COLAB-59）
-- **`dar`** (`#329`, しずく) → darfalun（露光 : CANON-CONV-01） / darterin（雫茶 : CANON-CONV-01） / darzyvil（水薬 : CANON-CONV-07） / darlaros（水上舟 : CANON-CONV-12） / darlyren（水辺の歌 : CANON-CONV-14） / darvelas（露葉 : CANON-CONV-16） / darzyvas（潤いの活力 : CANON-CONV-19） / darwylas（湿り風 : CANON-CONV-21） / darsaren（水面のきらめき : CANON-CONV-22） / darvorin（水辺の果実 : CANON-CONV-25） / darvoril（清水の発酵飲料 : CANON-CONV-27） / darvelar（水庭 : CANON-CONV-31） / darcival（水辺の奏楽 : CANON-CONV-36） / darrenan（水上交易 : CANON-CONV-39） / darvalis（水辺の外套 : CANON-CONV-41） / darkypal（水辺の採取箱 : CANON-CONV-42） / darlerel（水門の扉 : CANON-CONV-44） / darnerar（水辺の茶屋 : CANON-CONV-46） / darnerel（水辺の料理 : CANON-CONV-48） / dartalon（水辺の浮島 : CANON-CONV-51） / darvelom（水辺の森 : CANON-CONV-52） / darvelil（朝露の若芽 : CANON-CONV-53） / dartalyr（水辺の丸石 : CANON-CONV-54） / darvalar（朝露の夜明け : CANON-CONV-58） / darkylas（水辺の黄昏 : CANON-CONV-59） / darsovil（水辺の昼 : CANON-CONV-60） / darvylan（潤んだ瞳 : CANON-CONV-65） / darharel（水音を聴く耳 : CANON-CONV-66） / darzyvor（潤いの精力 : CANON-CONV-67） / darsonir（水面の夢 : CANON-CONV-69） / darfelyn（湧き出る着想 : CANON-CONV-71） / darsylim（水鏡の心 : CANON-CONV-72） / darrenar（水上市場 : CANON-CONV-76） / dardomom（水辺の都市 : CANON-CONV-79） / darvyrom（水鏡の星座 : CANON-CONV-82） / dardoran（水の惑星 : CANON-CONV-83） / dartyril（水辺の潮汐力 : CANON-CONV-84） / darvuron（水滴の鍾乳洞 : CANON-CONV-86） / dartalom（潤いの平原 : CANON-CONV-86） / darlyka（水辺の営巣 : CANON-CONV-88） / darserel（水研ぎの小刀 : CANON-CONV-90） / darlarar（水辺の船着き駅 : CANON-CONV-93） / darryvel（水深の測度 : CANON-CONV-94） / darjynel（水力蓄電池 : CANON-CONV-96） / dardelis（微細な小数 : CANON-CONV-98） / dardavel（清らかな血流 : CANON-CONV-101） / darkylar（水あたり : CANON-CONV-103） / darfenel（潤いの口元 : CANON-CONV-104） / darnerom（水辺の厨房 : CANON-CONV-106） / darpamel（水路の航海誌 : CANON-CONV-109） / darfalos（水滴の分光 : CANON-CONV-110） / darsoras（水面の記憶 : CANON-CONV-111） / darpolor（水辺の市民 : CANON-CONV-113） / dartaros（水利の法典 : CANON-CONV-114） / darzohar（水鏡の太陽 : CANON-CONV-118） / darcelar（水鏡の極光 : CANON-CONV-121） / darcelis（雨雲の帯 : CANON-CONV-122） / darwylor（雨季の季節風 : CANON-CONV-125） / darferas（水辺の動物 : CANON-CONV-128） / dartalur（水冷の鍛造金属 : CANON-CONV-129） / darkirel（水彩の絵筆 : CANON-CONV-130） / dartasel（水辺の腰掛け : CANON-CONV-131） / darpelel（航海用の携帯星盤 : CANON-CONV-134） / darmator（水流駆動の演算儀 : CANON-CONV-135） / dartolas（水路の連絡便 : CANON-CONV-136） / darkiril（流体関数 : CANON-CONV-137） / darkivan（水生細胞 : CANON-CONV-141） / darlarin（浅瀬を渡る足 : CANON-CONV-144） / dartenis（撥水の毛皮 : CANON-CONV-147） / darlyvel（水辺の風景写真 : CANON-CONV-150） / darmyren（水辺の生活者 : CANON-CONV-153） / dardolor（水路の働き手 : CANON-CONV-154） / darcynor（水魚の親友 : CANON-CONV-155） / dartynes（水鏡の月 : CANON-CONV-158） / darkyrim（水鏡に映る深淵 : CANON-CONV-159） / darsirar（水辺の平穏 : CANON-CONV-160） / wylordar（季節風が運ぶ恵みの雨 : CANON-CONV-161） / talondar（孤島の淡水泉 : CANON-CONV-162） / dargovan（水上の高床住居 : CANON-CONV-162） / dardaron（都市調整池 : CANON-COLAB-01） / darlivar（水利台帳保管庫 : CANON-COLAB-01） / talurdar（銅管送水路 : CANON-COLAB-03） / lereldar（水門の堰板 : CANON-COLAB-04） / domomdar（都市中央の噴水 : CANON-COLAB-06） / larardar（舟着き場の船渠 : CANON-COLAB-07） / govandar（屋内の井戸水 : CANON-COLAB-08） / renardar（水上市場の水路 : CANON-COLAB-10） / darvymin（水利保全 : CANON-COLAB-11） / darzyvan（水質浄化 : CANON-COLAB-11） / darmuran（水利構想 : CANON-COLAB-11） / veldar（樹露 : CANON-COLAB-14） / nerdar（薬用露水 : CANON-COLAB-15） / biondar（生体抽出液 : CANON-COLAB-21） / vyrdar（星辰露水 : CANON-COLAB-23） / zylardar（海水塩滴 : CANON-COLAB-24） / zyvandar（治癒薬液 : CANON-COLAB-28） / darjylas（水門開閉協定 : CANON-COLAB-30） / darunor（通水量定数 : CANON-COLAB-30） / dardolar（水利労務 : CANON-COLAB-30） / polordar（公共給水 : CANON-COLAB-37） / dartal（導水路基礎 : CANON-COLAB-41） / dolasdar（鋳型注入液 : CANON-COLAB-45） / dardursol（防波堤石垣 : CANON-COLAB-48） / jylasdar（誓約の杯水 : CANON-COLAB-50） / kirasdar（調合清液 : CANON-COLAB-51） / darcelvan（水路アーチ水門 : CANON-COLAB-52） / darporan（水流導水巡回 : CANON-COLAB-53） / dardolas（排水溝型枠 : CANON-COLAB-56） / dardankar（排水溝基礎 : CANON-COLAB-56） / darfalzon（水面偏光 : CANON-COLAB-61） / dardaris（運河流動水 : CANON-COLAB-64） / talyrdar（石工研磨水 : CANON-COLAB-66） / daralin（清澄な追憶 : CANON-COLAB-71） / darseno（澄んだまなざしの友 : CANON-COLAB-76） / darhano（水脈の道連れ : CANON-COLAB-79）
+- **`dar`** (`#329`, しずく) → darfalun（露光 : CANON-CONV-01） / darterin（雫茶 : CANON-CONV-01） / darzyvil（水薬 : CANON-CONV-07） / darlaros（水上舟 : CANON-CONV-12） / darlyren（水辺の歌 : CANON-CONV-14） / darvelas（露葉 : CANON-CONV-16） / darzyvas（潤いの活力 : CANON-CONV-19） / darwylas（湿り風 : CANON-CONV-21） / darsaren（水面のきらめき : CANON-CONV-22） / darvorin（水辺の果実 : CANON-CONV-25） / darvoril（清水の発酵飲料 : CANON-CONV-27） / darvelar（水庭 : CANON-CONV-31） / darcival（水辺の奏楽 : CANON-CONV-36） / darrenan（水上交易 : CANON-CONV-39） / darvalis（水辺の外套 : CANON-CONV-41） / darkypal（水辺の採取箱 : CANON-CONV-42） / darlerel（水門の扉 : CANON-CONV-44） / darnerar（水辺の茶屋 : CANON-CONV-46） / darnerel（水辺の料理 : CANON-CONV-48） / dartalon（水辺の浮島 : CANON-CONV-51） / darvelom（水辺の森 : CANON-CONV-52） / darvelil（朝露の若芽 : CANON-CONV-53） / dartalyr（水辺の丸石 : CANON-CONV-54） / darvalar（朝露の夜明け : CANON-CONV-58） / darkylas（水辺の黄昏 : CANON-CONV-59） / darsovil（水辺の昼 : CANON-CONV-60） / darvylan（潤んだ瞳 : CANON-CONV-65） / darharel（水音を聴く耳 : CANON-CONV-66） / darzyvor（潤いの精力 : CANON-CONV-67） / darsonir（水面の夢 : CANON-CONV-69） / darfelyn（湧き出る着想 : CANON-CONV-71） / darsylim（水鏡の心 : CANON-CONV-72） / darrenar（水上市場 : CANON-CONV-76） / dardomom（水辺の都市 : CANON-CONV-79） / darvyrom（水鏡の星座 : CANON-CONV-82） / dardoran（水の惑星 : CANON-CONV-83） / dartyril（水辺の潮汐力 : CANON-CONV-84） / darvuron（水滴の鍾乳洞 : CANON-CONV-86） / dartalom（潤いの平原 : CANON-CONV-86） / darlyka（水辺の営巣 : CANON-CONV-88） / darserel（水研ぎの小刀 : CANON-CONV-90） / darlarar（水辺の船着き駅 : CANON-CONV-93） / darryvel（水深の測度 : CANON-CONV-94） / darjynel（水力蓄電池 : CANON-CONV-96） / dardelis（微細な小数 : CANON-CONV-98） / dardavel（清らかな血流 : CANON-CONV-101） / darkylar（水あたり : CANON-CONV-103） / darfenel（潤いの口元 : CANON-CONV-104） / darnerom（水辺の厨房 : CANON-CONV-106） / darpamel（水路の航海誌 : CANON-CONV-109） / darfalos（水滴の分光 : CANON-CONV-110） / darsoras（水面の記憶 : CANON-CONV-111） / darpolor（水辺の市民 : CANON-CONV-113） / dartaros（水利の法典 : CANON-CONV-114） / darzohar（水鏡の太陽 : CANON-CONV-118） / darcelar（水鏡の極光 : CANON-CONV-121） / darcelis（雨雲の帯 : CANON-CONV-122） / darwylor（雨季の季節風 : CANON-CONV-125） / darferas（水辺の動物 : CANON-CONV-128） / dartalur（水冷の鍛造金属 : CANON-CONV-129） / darkirel（水彩の絵筆 : CANON-CONV-130） / dartasel（水辺の腰掛け : CANON-CONV-131） / darpelel（航海用の携帯星盤 : CANON-CONV-134） / darmator（水流駆動の演算儀 : CANON-CONV-135） / dartolas（水路の連絡便 : CANON-CONV-136） / darkiril（流体関数 : CANON-CONV-137） / darkivan（水生細胞 : CANON-CONV-141） / darlarin（浅瀬を渡る足 : CANON-CONV-144） / dartenis（撥水の毛皮 : CANON-CONV-147） / darlyvel（水辺の風景写真 : CANON-CONV-150） / darmyren（水辺の生活者 : CANON-CONV-153） / dardolor（水路の働き手 : CANON-CONV-154） / darcynor（水魚の親友 : CANON-CONV-155） / dartynes（水鏡の月 : CANON-CONV-158） / darkyrim（水鏡に映る深淵 : CANON-CONV-159） / darsirar（水辺の平穏 : CANON-CONV-160） / wylordar（季節風が運ぶ恵みの雨 : CANON-CONV-161） / talondar（孤島の淡水泉 : CANON-CONV-162） / dargovan（水上の高床住居 : CANON-CONV-162） / dardaron（都市調整池 : CANON-COLAB-01） / darlivar（水利台帳保管庫 : CANON-COLAB-01） / talurdar（銅管送水路 : CANON-COLAB-03） / lereldar（水門の堰板 : CANON-COLAB-04） / domomdar（都市中央の噴水 : CANON-COLAB-06） / larardar（舟着き場の船渠 : CANON-COLAB-07） / govandar（屋内の井戸水 : CANON-COLAB-08） / renardar（水上市場の水路 : CANON-COLAB-10） / darvymin（水利保全 : CANON-COLAB-11） / darzyvan（水質浄化 : CANON-COLAB-11） / darmuran（水利構想 : CANON-COLAB-11） / veldar（樹露 : CANON-COLAB-14） / nerdar（薬用露水 : CANON-COLAB-15） / biondar（生体抽出液 : CANON-COLAB-21） / vyrdar（星辰露水 : CANON-COLAB-23） / zylardar（海水塩滴 : CANON-COLAB-24） / zyvandar（治癒薬液 : CANON-COLAB-28） / darjylas（水門開閉協定 : CANON-COLAB-30） / darunor（通水量定数 : CANON-COLAB-30） / dardolar（水利労務 : CANON-COLAB-30） / polordar（公共給水 : CANON-COLAB-37） / dartal（導水路基礎 : CANON-COLAB-41） / dolasdar（鋳型注入液 : CANON-COLAB-45） / dardursol（防波堤石垣 : CANON-COLAB-48） / jylasdar（誓約の杯水 : CANON-COLAB-50） / kirasdar（調合清液 : CANON-COLAB-51） / darcelvan（水路アーチ水門 : CANON-COLAB-52） / darporan（水流導水巡回 : CANON-COLAB-53） / dardolas（排水溝型枠 : CANON-COLAB-56） / dardankar（排水溝基礎 : CANON-COLAB-56） / darfalzon（水面偏光 : CANON-COLAB-61） / dardaris（運河流動水 : CANON-COLAB-64） / talyrdar（石工研磨水 : CANON-COLAB-66） / daralin（清澄な追憶 : CANON-COLAB-71） / darseno（澄んだまなざしの友 : CANON-COLAB-76） / darhano（水脈の道連れ : CANON-COLAB-79） / silandar（清澄なる仲裁審理 : CANON-COLAB-84）
 - **`darel`** (`#968`, スープ) → nerdarel（滋養スープ : CANON-CONV-02） / hanodarel（本日の滋養汁 : CANON-CONV-28） / veldarel（木の実の煮込み : CANON-CONV-28） / taldarel（根菜の大地汁 : CANON-CONV-28）
 - **`daris`** (`#332`, 水) → taldaris（湧き水 : CANON-CONV-09） / darisvorn（公共貯水室 : CANON-COLAB-01） / veldaris（樹木樹液水 : CANON-COLAB-62） / dardaris（運河流動水 : CANON-COLAB-64） / nerdaris（生薬煎じ水 : CANON-COLAB-69）
 - **`daron`** (`#339`, 湖) → vyrdaron（星を映す湖 : CANON-CONV-09） / dardaron（都市調整池 : CANON-COLAB-01） / darontal（湖岸敷地 : CANON-COLAB-12） / daronner（湖沼滋養 : CANON-COLAB-24） / daronvel（湖岸林 : CANON-COLAB-24） / daronjyn（水路保全の志 : CANON-COLAB-31） / daronunor（運河水深基準数 : CANON-COLAB-31） / daronalin（澄明運河 : CANON-COLAB-31）
@@ -6334,13 +6585,13 @@
 - **`falzon`** (`#19`, 星間偏光) → vyrfalzon（星辰偏光 : CANON-COLAB-42） / talfalzon（大地偏光 : CANON-COLAB-60） / darfalzon（水面偏光 : CANON-COLAB-61）
 - **`felyn`** (`#704`, 直感) → vyrfelyn（星の閃き : CANON-CONV-71） / darfelyn（湧き出る着想 : CANON-CONV-71） / hanofelyn（今日の直感 : CANON-CONV-71） / havfelyn（時機の直感 : CANON-CONV-112） / talfelyn（現場の直感 : CANON-CONV-152）
 - **`fenel`** (`#211`, 口) → darfenel（潤いの口元 : CANON-CONV-104） / vyrfenel（星詩を詠む口元 : CANON-CONV-144）
-- **`feno`** (`#859`, 昨日) → kymfeno（黄昏の語らい : CANON-COLAB-73） / nerfeno（盟約の誓詞 : CANON-COLAB-74） / klorfeno（沈黙の了解 : CANON-COLAB-76） / fenoelir（歓待の祝歌 : CANON-COLAB-78） / fenovorn（秩序ある助言 : CANON-COLAB-79）
+- **`feno`** (`#859`, 昨日) → kymfeno（黄昏の語らい : CANON-COLAB-73） / nerfeno（盟約の誓詞 : CANON-COLAB-74） / klorfeno（沈黙の了解 : CANON-COLAB-76） / fenoelir（歓待の祝歌 : CANON-COLAB-78） / fenovorn（秩序ある助言 : CANON-COLAB-79） / fenovymin（天星の勅令 : CANON-COLAB-82） / kivfeno（布告条文の公式朗読 : CANON-COLAB-85） / fenopuka（勅令伝達の親告 : CANON-COLAB-86）
 - **`fenor`** (`#860`, 話す) → kymfenor（夜語り : CANON-CONV-06）
 - **`feras`** (`#428`, 動物) → velferas（森林の生き物 : CANON-CONV-88） / darferas（水辺の動物 : CANON-CONV-128）
 - **`firas`** (`#87`, 定数) → talfiras（基礎定数 : CANON-CONV-97） / vyrfiras（天体物理定数 : CANON-CONV-137）
 - **`firtas`** (`#90`, 基準) → havfirtas（標準時規準 : CANON-COLAB-49） / kymfirtas（夜間基準標 : CANON-COLAB-61） / nerfirtas（生薬純度規準 : CANON-COLAB-68）
 - **`govan`** (`#616`, 家) → velgovan（木造の住まい : CANON-CONV-03） / talgovan（土壁の家 : CANON-CONV-29） / vyrgovan（星見の館 : CANON-CONV-29） / alingovan（白壁の住まい : CANON-CONV-29） / dargovan（水上の高床住居 : CANON-CONV-162） / nergovan（糧食の貯蔵家屋 : CANON-CONV-163） / govantal（長屋の敷地 : CANON-COLAB-08） / govanvorn（居室 : CANON-COLAB-08） / govandar（屋内の井戸水 : CANON-COLAB-08） / kymgovan（夜警詰所 : CANON-COLAB-19） / klorgovan（円卓評議堂 : CANON-COLAB-20） / unorgovan（計量検定所 : CANON-COLAB-29） / govanvel（家屋梁木 : CANON-COLAB-36） / govanunor（建築基準寸法 : CANON-COLAB-36） / govanjyn（家族愛 : CANON-COLAB-36）
-- **`hano`** (`#865`, 今日) → hanopamel（今日の手記帳 : CANON-CONV-05） / hanorenan（今日の商い : CANON-CONV-08） / hanocalun（今日の相談 : CANON-CONV-08） / hanolaris（今日の航路 : CANON-CONV-12） / hanotolas（今日の便り : CANON-CONV-18） / hanocelen（今日の空 : CANON-CONV-23） / hanovorin（今日採れた果実 : CANON-CONV-25） / hanodarel（本日の滋養汁 : CANON-CONV-28） / hanosoras（今日の思い出 : CANON-CONV-34） / hanolyren（今日の詩 : CANON-CONV-35） / hanozyvil（今日の処方薬 : CANON-CONV-37） / hanosilan（今日の平穏 : CANON-CONV-40） / hanonerel（今日の料理 : CANON-CONV-48） / hanoterin（今日の煎じ茶 : CANON-CONV-49） / hanovalar（今日の朝 : CANON-CONV-58） / hanokylas（今日の夕暮れ : CANON-CONV-59） / hanosovil（今日の昼 : CANON-CONV-60） / hanomator（今日の算定盤 : CANON-CONV-62） / hanozevil（今日の観測譜 : CANON-CONV-64） / hanozyvor（今日の気力 : CANON-CONV-67） / hanozyvas（今日の体調 : CANON-CONV-68） / hanofelyn（今日の直感 : CANON-CONV-71） / velhano（祈りの風路 : CANON-COLAB-73） / kymhano（黄昏の旅立ち : CANON-COLAB-74） / talhano（礼節の拝礼 : CANON-COLAB-75） / darhano（水脈の道連れ : CANON-COLAB-79）
+- **`hano`** (`#865`, 今日) → hanopamel（今日の手記帳 : CANON-CONV-05） / hanorenan（今日の商い : CANON-CONV-08） / hanocalun（今日の相談 : CANON-CONV-08） / hanolaris（今日の航路 : CANON-CONV-12） / hanotolas（今日の便り : CANON-CONV-18） / hanocelen（今日の空 : CANON-CONV-23） / hanovorin（今日採れた果実 : CANON-CONV-25） / hanodarel（本日の滋養汁 : CANON-CONV-28） / hanosoras（今日の思い出 : CANON-CONV-34） / hanolyren（今日の詩 : CANON-CONV-35） / hanozyvil（今日の処方薬 : CANON-CONV-37） / hanosilan（今日の平穏 : CANON-CONV-40） / hanonerel（今日の料理 : CANON-CONV-48） / hanoterin（今日の煎じ茶 : CANON-CONV-49） / hanovalar（今日の朝 : CANON-CONV-58） / hanokylas（今日の夕暮れ : CANON-CONV-59） / hanosovil（今日の昼 : CANON-CONV-60） / hanomator（今日の算定盤 : CANON-CONV-62） / hanozevil（今日の観測譜 : CANON-CONV-64） / hanozyvor（今日の気力 : CANON-CONV-67） / hanozyvas（今日の体調 : CANON-CONV-68） / hanofelyn（今日の直感 : CANON-CONV-71） / velhano（祈りの風路 : CANON-COLAB-73） / kymhano（黄昏の旅立ち : CANON-COLAB-74） / talhano（礼節の拝礼 : CANON-COLAB-75） / darhano（水脈の道連れ : CANON-COLAB-79） / kivhano（布告条例の巡回告知 : CANON-COLAB-81） / klorhano（和睦調印の証書 : CANON-COLAB-85） / unorhano（放物軌道の巡行路 : CANON-COLAB-89） / tykuhano（回転半径の描周路 : CANON-COLAB-89）
 - **`harel`** (`#214`, 耳) → darharel（水音を聴く耳 : CANON-CONV-66） / velharel（森を聴く耳 : CANON-CONV-66） / kymharel（夜を聴く耳 : CANON-CONV-66）
 - **`hav`** (`#867`, 時) → havsirin（静かなひととき : CANON-CONV-01） / havsaren（微笑みの瞬間 : CANON-CONV-13） / havrevir（覚醒の刻 : CANON-CONV-19） / havkypal（歳月の収納箱 : CANON-CONV-90） / havzyvas（季節の養生 : CANON-CONV-103） / havvelil（季節の新芽 : CANON-CONV-108） / havfelyn（時機の直感 : CANON-CONV-112） / havlerel（歳月の門扉 : CANON-CONV-132） / havzyvil（熟成の煎じ薬 : CANON-CONV-142） / havvoril（年代物の果実酒 : CANON-CONV-145） / havvelar（歳月の古庭園 : CANON-CONV-148） / havvyran（時代を超える真理 : CANON-CONV-152） / havlivar（歳月の星辰書庫 : CANON-CONV-160） / havpelel（時辰儀 : CANON-COLAB-13） / havvymin（刻限監視 : CANON-COLAB-23） / havunor（紀年整数 : CANON-COLAB-27） / havdolar（刻限勤労 : CANON-COLAB-27） / havjyn（時代の気概 : CANON-COLAB-27） / havvorn（時計塔機械室 : CANON-COLAB-49） / havtal（日時計台盤 : CANON-COLAB-49） / havfirtas（標準時規準 : CANON-COLAB-49） / havcelen（時辰天空光 : CANON-COLAB-67） / havporan（定時巡回歩行 : CANON-COLAB-67）
 - **`havas`** (`#351`, 季節) → velhavas（新緑の季節 : CANON-CONV-116） / talhavas（実りの季節 : CANON-CONV-156）
@@ -6355,9 +6606,9 @@
 - **`kiras`** (`#875`, 創る) → kirasvorn（修繕作業室 : CANON-COLAB-41） / kymkiras（夜間警備整調 : CANON-COLAB-47） / kirasdar（調合清液 : CANON-COLAB-51） / kirasjyn（電力整調 : CANON-COLAB-55） / kirasunor（水準調整定数 : CANON-COLAB-57） / kirasvel（木枠整調 : CANON-COLAB-58） / kiraslyka（標本籠整調 : CANON-COLAB-62） / kirastal（作業床整地 : CANON-COLAB-66） / velkiras（樹林整枝剪定 : CANON-COLAB-68）
 - **`kirel`** (`#642`, 筆) → tynikirel（銀筆 : CANON-CONV-15） / vyrkirel（天測の鉄筆 : CANON-CONV-43） / velkirel（木軸のペン : CANON-CONV-43） / talkirel（石筆 : CANON-CONV-43） / alinkirel（白軸の細筆 : CANON-CONV-90） / darkirel（水彩の絵筆 : CANON-CONV-130）
 - **`kiril`** (`#102`, 関数) → klorkiril（円関数 : CANON-CONV-97） / darkiril（流体関数 : CANON-CONV-137）
-- **`kiv`** (`#141`, 二値光点) → kivunor（直観の閃き : CANON-COLAB-72） / kivvorn（誓約の条文 : CANON-COLAB-75） / kivalin（澄明なる憲章条文 : CANON-COLAB-80）
+- **`kiv`** (`#141`, 二値光点) → kivunor（直観の閃き : CANON-COLAB-72） / kivvorn（誓約の条文 : CANON-COLAB-75） / kivalin（澄明なる憲章条文 : CANON-COLAB-80） / kivpuka（組合刻印章 : CANON-COLAB-81） / kivhano（布告条例の巡回告知 : CANON-COLAB-81） / kivtyku（議会定足数の点検 : CANON-COLAB-81） / kivlyka（組合刻印の検認票 : CANON-COLAB-84） / kivfeno（布告条文の公式朗読 : CANON-COLAB-85） / kivseno（格子座標の精密測点 : CANON-COLAB-88） / kivbion（素数比率の離散数量 : CANON-COLAB-90）
 - **`kivan`** (`#218`, 細胞) → velkivan（植物細胞 : CANON-CONV-101） / darkivan（水生細胞 : CANON-CONV-141）
-- **`klor`** (`#110`, 円) → klorsylim（心の輪 : CANON-CONV-10） / klorsilan（和の輪 : CANON-CONV-20） / klorcalor（円卓評議 : CANON-CONV-20） / klorvorn（円形広間 : CANON-CONV-32） / klorwelin（共同体の希望 : CANON-CONV-38） / klorkypal（円形の小匣 : CANON-CONV-42） / klorlerel（円拱の門 : CANON-CONV-44） / klorlivar（円環書庫 : CANON-CONV-61） / klorpolor（円環共同体の住人 : CANON-CONV-73） / klorcynor（車座の同志 : CANON-CONV-74） / klortaros（円卓の規約 : CANON-CONV-75） / klorrenar（円形広場の市 : CANON-CONV-76） / klorrenon（共有財産 : CANON-CONV-78） / klordomom（環状都市 : CANON-CONV-79） / klorsirar（円卓の講和 : CANON-CONV-80） / klorkymos（金環食 : CANON-CONV-82） / klorvoris（円環公転 : CANON-CONV-83） / klortalon（環礁の島 : CANON-CONV-87） / klordolas（円環の鋳型 : CANON-CONV-89） / klortasel（円卓の椅子 : CANON-CONV-91） / klorjytel（環状接続ノード : CANON-CONV-95） / klorkiril（円関数 : CANON-CONV-97） / klorjylom（閉じた集合 : CANON-CONV-98） / klorunvis（円環の同一性 : CANON-CONV-100） / klornovor（円卓の指導者 : CANON-CONV-113） / klorkyron（降着円盤の黒孔 : CANON-CONV-119） / klorvalur（円環脈動 : CANON-CONV-123） / klorradin（正円の軌道半径 : CANON-CONV-124） / klorvelar（円環の中庭 : CANON-CONV-132） / klortolom（環状交信ネットワーク : CANON-CONV-136） / klorniven（円環のコンパクト次元 : CANON-CONV-139） / klorzyvas（円満な健康 : CANON-CONV-143） / klornerom（円環の共同厨房 : CANON-CONV-146） / klornerar（円形広場のカフェ : CANON-CONV-147） / klorvalis（輪舞の祝祭衣 : CANON-CONV-147） / klorpamel（円環の全集本 : CANON-CONV-149） / klorsevur（合議の選択肢 : CANON-CONV-156） / klorzevil（完結した円環記述譜 : CANON-CONV-160） / klorteira（心臓の環状脈系 : CANON-CONV-167） / klorpelel（円形携帯星盤 : CANON-COLAB-13） / klorjylas（円卓同盟締結 : CANON-COLAB-20） / klorcynas（円座の友情 : CANON-COLAB-20） / klorgovan（円卓評議堂 : CANON-COLAB-20） / kloralin（純白鏡面 : CANON-COLAB-34） / klorunor（円環幾何定数 : CANON-COLAB-34） / klorjyn（円卓の精神 : CANON-COLAB-34） / klorfeno（沈黙の了解 : CANON-COLAB-76） / klorlyka（座談の円座 : CANON-COLAB-77）
+- **`klor`** (`#110`, 円) → klorsylim（心の輪 : CANON-CONV-10） / klorsilan（和の輪 : CANON-CONV-20） / klorcalor（円卓評議 : CANON-CONV-20） / klorvorn（円形広間 : CANON-CONV-32） / klorwelin（共同体の希望 : CANON-CONV-38） / klorkypal（円形の小匣 : CANON-CONV-42） / klorlerel（円拱の門 : CANON-CONV-44） / klorlivar（円環書庫 : CANON-CONV-61） / klorpolor（円環共同体の住人 : CANON-CONV-73） / klorcynor（車座の同志 : CANON-CONV-74） / klortaros（円卓の規約 : CANON-CONV-75） / klorrenar（円形広場の市 : CANON-CONV-76） / klorrenon（共有財産 : CANON-CONV-78） / klordomom（環状都市 : CANON-CONV-79） / klorsirar（円卓の講和 : CANON-CONV-80） / klorkymos（金環食 : CANON-CONV-82） / klorvoris（円環公転 : CANON-CONV-83） / klortalon（環礁の島 : CANON-CONV-87） / klordolas（円環の鋳型 : CANON-CONV-89） / klortasel（円卓の椅子 : CANON-CONV-91） / klorjytel（環状接続ノード : CANON-CONV-95） / klorkiril（円関数 : CANON-CONV-97） / klorjylom（閉じた集合 : CANON-CONV-98） / klorunvis（円環の同一性 : CANON-CONV-100） / klornovor（円卓の指導者 : CANON-CONV-113） / klorkyron（降着円盤の黒孔 : CANON-CONV-119） / klorvalur（円環脈動 : CANON-CONV-123） / klorradin（正円の軌道半径 : CANON-CONV-124） / klorvelar（円環の中庭 : CANON-CONV-132） / klortolom（環状交信ネットワーク : CANON-CONV-136） / klorniven（円環のコンパクト次元 : CANON-CONV-139） / klorzyvas（円満な健康 : CANON-CONV-143） / klornerom（円環の共同厨房 : CANON-CONV-146） / klornerar（円形広場のカフェ : CANON-CONV-147） / klorvalis（輪舞の祝祭衣 : CANON-CONV-147） / klorpamel（円環の全集本 : CANON-CONV-149） / klorsevur（合議の選択肢 : CANON-CONV-156） / klorzevil（完結した円環記述譜 : CANON-CONV-160） / klorteira（心臓の環状脈系 : CANON-CONV-167） / klorpelel（円形携帯星盤 : CANON-COLAB-13） / klorjylas（円卓同盟締結 : CANON-COLAB-20） / klorcynas（円座の友情 : CANON-COLAB-20） / klorgovan（円卓評議堂 : CANON-COLAB-20） / kloralin（純白鏡面 : CANON-COLAB-34） / klorunor（円環幾何定数 : CANON-COLAB-34） / klorjyn（円卓の精神 : CANON-COLAB-34） / klorfeno（沈黙の了解 : CANON-COLAB-76） / klorlyka（座談の円座 : CANON-COLAB-77） / klorvymin（執政官の正笏 : CANON-COLAB-82） / klorbion（休戦の印章 : CANON-COLAB-82） / klorhano（和睦調印の証書 : CANON-COLAB-85）
 - **`kores`** (`#712`, 忘れる) → velkores（忘却の樹林 : CANON-COLAB-14）
 - **`kural`** (`#880`, 互いに) → velkural（共生林 : CANON-COLAB-14）
 - **`kylar`** (`#220`, 病) → darkylar（水あたり : CANON-CONV-103） / talkylar（旅路の疲労症 : CANON-CONV-143）
@@ -6376,7 +6627,7 @@
 - **`laros`** (`#619`, 乗り物) → darlaros（水上舟 : CANON-CONV-12） / vellaros（木製の乗合馬車 : CANON-CONV-93） / tallaros（陸路の幌馬車 : CANON-CONV-133） / kymlaros（夜間巡回車 : CANON-COLAB-19）
 - **`lerel`** (`#621`, 扉) → vellerel（木の扉 : CANON-CONV-05） / tynilerel（銀飾りの扉 : CANON-CONV-30） / tallerel（石造りの門 : CANON-CONV-30） / alinlerel（白い扉 : CANON-CONV-30） / vyrlerel（星見台の扉 : CANON-CONV-44） / darlerel（水門の扉 : CANON-CONV-44） / klorlerel（円拱の門 : CANON-CONV-44） / kymlerel（宵の門扉 : CANON-CONV-92） / havlerel（歳月の門扉 : CANON-CONV-132） / lereltal（城門の礎石 : CANON-COLAB-04） / lerelvorn（衛兵の詰所 : CANON-COLAB-04） / lereldar（水門の堰板 : CANON-COLAB-04）
 - **`livar`** (`#152`, 星辰書庫) → vyrlivar（天測の書庫 : CANON-CONV-61） / tallivar（大地の記録庫 : CANON-CONV-61） / klorlivar（円環書庫 : CANON-CONV-61） / alinlivar（白銀の星辰書庫 : CANON-CONV-120） / havlivar（歳月の星辰書庫 : CANON-CONV-160） / darlivar（水利台帳保管庫 : CANON-COLAB-01）
-- **`lyka`** (`#450`, 巣) → darlyka（水辺の営巣 : CANON-CONV-88） / vellyka（樹上の巣 : CANON-CONV-88） / tallyka（地面の営巣 : CANON-CONV-128） / kiraslyka（標本籠整調 : CANON-COLAB-62） / nerlyka（歓待の饗宴座 : CANON-COLAB-75） / klorlyka（座談の円座 : CANON-COLAB-77） / jynlyka（結束の連帯節 : CANON-COLAB-77）
+- **`lyka`** (`#450`, 巣) → darlyka（水辺の営巣 : CANON-CONV-88） / vellyka（樹上の巣 : CANON-CONV-88） / tallyka（地面の営巣 : CANON-CONV-128） / kiraslyka（標本籠整調 : CANON-COLAB-62） / nerlyka（歓待の饗宴座 : CANON-COLAB-75） / klorlyka（座談の円座 : CANON-COLAB-77） / jynlyka（結束の連帯節 : CANON-COLAB-77） / kivlyka（組合刻印の検認票 : CANON-COLAB-84） / silanlyka（市民誓約の連名簿 : CANON-COLAB-86）
 - **`lyren`** (`#718`, 鎮魂歌) → kymlyren（夜想歌 : CANON-CONV-14） / darlyren（水辺の歌 : CANON-CONV-14） / vyrlyren（星の讃歌 : CANON-CONV-35） / tallyren（大地の民謡 : CANON-CONV-35） / hanolyren（今日の詩 : CANON-CONV-35） / vellyren（樹海の鎮魂歌 : CANON-CONV-109） / alinlyren（純白の鎮魂歌 : CANON-CONV-149）
 - **`lyvel`** (`#156`, 写真) → vyrlyvel（星野の写真 : CANON-CONV-110） / darlyvel（水辺の風景写真 : CANON-CONV-150）
 - **`mator`** (`#158`, 星辰演算儀) → vyrmator（軌道演算儀 : CANON-CONV-62） / tynimator（銀の計算盤 : CANON-CONV-62） / hanomator（今日の算定盤 : CANON-CONV-62） / talmator（地勢の星辰演算儀 : CANON-CONV-95） / darmator（水流駆動の演算儀 : CANON-CONV-135）
@@ -6397,7 +6648,7 @@
 - **`pelel`** (`#161`, 携帯星盤) → vyrpelel（恒星の携帯星盤 : CANON-CONV-94） / darpelel（航海用の携帯星盤 : CANON-CONV-134） / klorpelel（円形携帯星盤 : CANON-COLAB-13） / havpelel（時辰儀 : CANON-COLAB-13） / tykpelel（刻限定測儀 : CANON-COLAB-13）
 - **`polor`** (`#507`, 市民) → talpolor（里の住人 : CANON-CONV-73） / vyrpolor（星見街の住人 : CANON-CONV-73） / klorpolor（円環共同体の住人 : CANON-CONV-73） / darpolor（水辺の市民 : CANON-CONV-113） / velpolor（森林都市の市民 : CANON-CONV-153） / polorjyn（市民精神 : CANON-COLAB-18） / polorner（市民滋養給付 : CANON-COLAB-18） / polorunor（市民台帳定数 : CANON-COLAB-18） / polorvel（公共木製配給台 : CANON-COLAB-37） / poloralin（公正無私 : CANON-COLAB-37） / polordar（公共給水 : CANON-COLAB-37） / polorvorn（市民税関室 : CANON-COLAB-46） / polortal（市民広場敷地 : CANON-COLAB-46） / polorbion（市民生計 : CANON-COLAB-46） / polortyni（市民銀貨 : CANON-COLAB-58） / polorkym（市民夜間警備 : CANON-COLAB-58） / polorelir（市民祝祭歓喜 : CANON-COLAB-65） / polorvyri（市民栄誉位 : CANON-COLAB-70）
 - **`poran`** (`#902`, 歩く) → talporan（土の歩道 : CANON-CONV-04） / kymporan（夜間巡回 : CANON-COLAB-47） / darporan（水流導水巡回 : CANON-COLAB-53） / vyrporan（星辰巡行観測 : CANON-COLAB-54） / velporan（森林樹林踏査 : CANON-COLAB-59） / havporan（定時巡回歩行 : CANON-COLAB-67）
-- **`puka`** (`#452`, ひづめ) → talpuka（大地を駆ける蹄 : CANON-CONV-128）
+- **`puka`** (`#452`, ひづめ) → talpuka（大地を駆ける蹄 : CANON-CONV-128） / kivpuka（組合刻印章 : CANON-COLAB-81） / silanpuka（市民の信義誓約 : CANON-COLAB-83） / fenopuka（勅令伝達の親告 : CANON-COLAB-86） / pukatyni（行政管区の境界標柱 : CANON-COLAB-86）
 - **`pyris`** (`#361`, 火) → alinpyris（清浄な白炎 : CANON-CONV-118） / talpyris（石炉の種火 : CANON-CONV-158） / pyrisvorn（暖炉の間 : CANON-CONV-163）
 - **`radin`** (`#43`, 軌道半径) → tyniradin（白銀の軌道半径 : CANON-CONV-84） / klorradin（正円の軌道半径 : CANON-CONV-124）
 - **`renan`** (`#582`, 交易) → hanorenan（今日の商い : CANON-CONV-08） / talrenan（農産物交易 : CANON-CONV-39） / darrenan（水上交易 : CANON-CONV-39） / velrenan（林産物取引 : CANON-CONV-39）
@@ -6407,10 +6658,10 @@
 - **`revir`** (`#237`, 目覚める) → havrevir（覚醒の刻 : CANON-CONV-19）
 - **`ryvel`** (`#111`, 測度) → darryvel（水深の測度 : CANON-CONV-94） / talryvel（土地測量の測度 : CANON-CONV-134）
 - **`saren`** (`#907`, 笑う) → havsaren（微笑みの瞬間 : CANON-CONV-13） / talsaren（大地のほころび : CANON-CONV-22） / velsaren（木々の芽吹き : CANON-CONV-22） / darsaren（水面のきらめき : CANON-CONV-22）
-- **`seno`** (`#908`, 明日) → senowelin（明日の希望 : CANON-CONV-10） / talseno（大地の如き確信 : CANON-COLAB-72） / darseno（澄んだまなざしの友 : CANON-COLAB-76） / velseno（風の示唆 : CANON-COLAB-76） / kymseno（黄昏の凝視 : CANON-COLAB-79）
+- **`seno`** (`#908`, 明日) → senowelin（明日の希望 : CANON-CONV-10） / talseno（大地の如き確信 : CANON-COLAB-72） / darseno（澄んだまなざしの友 : CANON-COLAB-76） / velseno（風の示唆 : CANON-COLAB-76） / kymseno（黄昏の凝視 : CANON-COLAB-79） / unorseno（漸近線の注視軌跡 : CANON-COLAB-87） / tykseno（接線方向の測角 : CANON-COLAB-88） / kivseno（格子座標の精密測点 : CANON-COLAB-88）
 - **`serel`** (`#658`, 小刀) → tyniserel（銀の小刀 : CANON-CONV-17） / talserel（石刃の小刀 : CANON-CONV-56） / velserel（木柄の小刀 : CANON-CONV-56） / alinserel（白い細工小刀 : CANON-CONV-56） / darserel（水研ぎの小刀 : CANON-CONV-90） / vyrserel（星図の細工刀 : CANON-CONV-130） / serelvel（木彫りの工芸品 : CANON-CONV-165）
 - **`sevur`** (`#112`, 選択肢) → alinsevur（明快な選択肢 : CANON-CONV-116） / klorsevur（合議の選択肢 : CANON-CONV-156）
-- **`silan`** (`#516`, 調和) → klorsilan（和の輪 : CANON-CONV-20） / zydsilan（真の平和 : CANON-CONV-20） / hanosilan（今日の平穏 : CANON-CONV-40） / vyrsilan（星夜の平和 : CANON-CONV-40） / talsilan（大地の安寧 : CANON-CONV-40） / velsilan（緑陰の共鳴 : CANON-CONV-110） / alinsilan（純白の静謐美 : CANON-CONV-150）
+- **`silan`** (`#516`, 調和) → klorsilan（和の輪 : CANON-CONV-20） / zydsilan（真の平和 : CANON-CONV-20） / hanosilan（今日の平穏 : CANON-CONV-40） / vyrsilan（星夜の平和 : CANON-CONV-40） / talsilan（大地の安寧 : CANON-CONV-40） / velsilan（緑陰の共鳴 : CANON-CONV-110） / alinsilan（純白の静謐美 : CANON-CONV-150） / silanpuka（市民の信義誓約 : CANON-COLAB-83） / silantal（都市自治憲章 : CANON-COLAB-83） / silandar（清澄なる仲裁審理 : CANON-COLAB-84） / silanbion（評議会の秩序規約 : CANON-COLAB-84） / silanvorn（大権の笏座 : CANON-COLAB-85） / silanlyka（市民誓約の連名簿 : CANON-COLAB-86）
 - **`sirar`** (`#517`, 安寧) → zydsirar（真の講和 : CANON-CONV-80） / vyrsirar（星下の講和 : CANON-CONV-80） / klorsirar（円卓の講和 : CANON-CONV-80） / talsirar（大地の恒久平和 : CANON-CONV-120） / darsirar（水辺の平穏 : CANON-CONV-160）
 - **`sirin`** (`#738`, 平穏) → havsirin（静かなひととき : CANON-CONV-01）
 - **`sonir`** (`#744`, 夢) → vyrsonir（星の夢 : CANON-CONV-69） / kymsonir（夜の夢 : CANON-CONV-69） / darsonir（水面の夢 : CANON-CONV-69） / velsonir（木漏れ日の夢 : CANON-CONV-111） / talsonir（大地の豊穣夢 : CANON-CONV-151）
@@ -6418,10 +6669,11 @@
 - **`soras`** (`#745`, 記憶) → zydsoras（事実記録 : CANON-CONV-08） / vyrsoras（星の記憶 : CANON-CONV-34） / talsoras（土地の伝承 : CANON-CONV-34） / hanosoras（今日の思い出 : CANON-CONV-34） / darsoras（水面の記憶 : CANON-CONV-111） / velsoras（年輪の記憶 : CANON-CONV-151）
 - **`soril`** (`#164`, 星石記憶素) → vyrsoril（天測の記憶素 : CANON-CONV-63） / zydsoril（実証記憶器 : CANON-CONV-63） / tynisoril（銀枠の記憶器 : CANON-CONV-63） / alinsoril（純白の星石記憶素 : CANON-CONV-95） / talsoril（鉱物結晶の記憶素 : CANON-CONV-135）
 - **`sovil`** (`#920`, 昼) → darsovil（水辺の昼 : CANON-CONV-60） / velsovil（木陰の昼 : CANON-CONV-60） / hanosovil（今日の昼 : CANON-CONV-60） / alinsovil（白光の真昼 : CANON-CONV-117） / talsovil（陽だまりの真昼 : CANON-CONV-157）
+- **`suf`** (`#166`, 数理) → sufbion（素数比の算定法 : CANON-COLAB-87） / sufvyr（至点天体の観測高度 : CANON-COLAB-88） / suftyni（漸近線の極限計算 : CANON-COLAB-90）
 - **`sufis`** (`#518`, 学者) → velsufis（森林学者 : CANON-CONV-99） / vyrsufis（星辰博物学者 : CANON-CONV-139）
 - **`sufor`** (`#170`, 星辰数理士) → vyrsufor（天体数理士 : CANON-CONV-99） / talsufor（地測の数理士 : CANON-CONV-139）
 - **`sylim`** (`#750`, 心) → klorsylim（心の輪 : CANON-CONV-10） / vyrsylim（星見の心 : CANON-CONV-72） / darsylim（水鏡の心 : CANON-CONV-72） / alinsylim（純白の心 : CANON-CONV-72） / talsylim（不動の心 : CANON-CONV-112） / velsylim（緑陰の寛容心 : CANON-CONV-152）
-- **`tal`** (`#277`, 大地) → talporan（土の歩道 : CANON-CONV-04） / talzyvas（大地の生気 : CANON-CONV-07） / taldaris（湧き水 : CANON-CONV-09） / talvelar（大地の庭園 : CANON-CONV-16） / taldolar（土仕事 : CANON-CONV-17） / talsaren（大地のほころび : CANON-CONV-22） / talcelen（地平の空 : CANON-CONV-23） / tallaris（陸の街道 : CANON-CONV-24） / talkypal（土器の保存箱 : CANON-CONV-26） / talvoril（土蔵の熟成食 : CANON-CONV-27） / taldarel（根菜の大地汁 : CANON-CONV-28） / talgovan（土壁の家 : CANON-CONV-29） / tallerel（石造りの門 : CANON-CONV-30） / talvorn（地階室 : CANON-CONV-32） / talpamel（地理誌 : CANON-CONV-33） / talsoras（土地の伝承 : CANON-CONV-34） / tallyren（大地の民謡 : CANON-CONV-35） / talzyvil（大地の鉱物薬 : CANON-CONV-37） / talrenan（農産物交易 : CANON-CONV-39） / talsilan（大地の安寧 : CANON-CONV-40） / talvalis（大地の作業衣 : CANON-CONV-41） / talkirel（石筆 : CANON-CONV-43） / taltasel（石の腰掛け : CANON-CONV-45） / talnerar（里の食堂 : CANON-CONV-46） / talnerom（土竈の調理場 : CANON-CONV-47） / talnovan（大地の連峰 : CANON-CONV-50） / talvelil（大地の若草 : CANON-CONV-53） / taltalur（大地の地金 : CANON-CONV-55） / talserel（石刃の小刀 : CANON-CONV-56） / tallivar（大地の記録庫 : CANON-CONV-61） / talzyvor（大地の精力 : CANON-CONV-67） / talvyran（大地の摂理 : CANON-CONV-70） / talpolor（里の住人 : CANON-CONV-73） / talrenar（陸の市場 : CANON-CONV-76） / talrenis（鉱石貨幣 : CANON-CONV-77） / talrenon（土地資産 : CANON-CONV-78） / taldomom（内陸の街 : CANON-CONV-79） / taltulos（大地の天底 : CANON-CONV-82） / taltyral（大地の引力 : CANON-CONV-84） / talvelom（大地の原生林 : CANON-CONV-87） / talmator（地勢の星辰演算儀 : CANON-CONV-95） / talfiras（基礎定数 : CANON-CONV-97） / talunor（基準整数 : CANON-CONV-98） / talzydis（物的証拠 : CANON-CONV-100） / talduril（強靭な骨格 : CANON-CONV-101） / tallarin（大地を踏む足 : CANON-CONV-104） / talnerel（大地の郷土料理 : CANON-CONV-105） / talvorin（大地の木の実 : CANON-CONV-105） / talcivom（大地の叙事詩 : CANON-CONV-109） / talsylim（不動の心 : CANON-CONV-112） / taldolor（大地の働き手 : CANON-CONV-114） / taltarin（基本の生存権 : CANON-CONV-114） / talcynor（盤石の親友 : CANON-CONV-115） / talvalar（大地の夜明け : CANON-CONV-117） / taltynes（地平の満月 : CANON-CONV-118） / talsirar（大地の恒久平和 : CANON-CONV-120） / taltyril（地殻の潮汐力 : CANON-CONV-124） / talzemin（大地の地平線 : CANON-CONV-125） / talvuron（大地の岩窟 : CANON-CONV-126） / tallyka（地面の営巣 : CANON-CONV-128） / talpuka（大地を駆ける蹄 : CANON-CONV-128） / taldolas（粘土の鋳型 : CANON-CONV-129） / taltasor（石造りの肘掛け椅子 : CANON-CONV-131） / tallarar（街道の宿駅 : CANON-CONV-133） / tallaros（陸路の幌馬車 : CANON-CONV-133） / talryvel（土地測量の測度 : CANON-CONV-134） / talsoril（鉱物結晶の記憶素 : CANON-CONV-135） / taljynel（据置型の地熱蓄電池 : CANON-CONV-136） / talkelon（地形の変数 : CANON-CONV-137） / taldelis（測量端数の小数 : CANON-CONV-138） / talsufor（地測の数理士 : CANON-CONV-139） / talvedil（実証の真偽律 : CANON-CONV-140） / taldavel（力強い血潮 : CANON-CONV-141） / talteira（強靭な心臓 : CANON-CONV-142） / talkylar（旅路の疲労症 : CANON-CONV-143） / talneror（大地の料理人 : CANON-CONV-146） / talterin（焙煎穀物の煎じ茶 : CANON-CONV-146） / talvelas（大地の敷き葉 : CANON-CONV-148） / talsonir（大地の豊穣夢 : CANON-CONV-151） / talfelyn（現場の直感 : CANON-CONV-152） / talnovor（現場の指導者 : CANON-CONV-153） / taltaros（土地の基本法 : CANON-CONV-154） / talcynas（盤石の友情 : CANON-CONV-155） / talhavas（実りの季節 : CANON-CONV-156） / talhavel（開拓の時代 : CANON-CONV-156） / talsovil（陽だまりの真昼 : CANON-CONV-157） / talpyris（石炉の種火 : CANON-CONV-158） / zylartal（海岸段丘 : CANON-CONV-161） / duriltal（太古の骨石層 : CANON-CONV-166） / talyrtal（切石の基盤層 : CANON-COLAB-02） / talurtal（鉱石含有層 : CANON-COLAB-03） / lereltal（城門の礎石 : CANON-COLAB-04） / dolastal（土製鋳型 : CANON-COLAB-05） / domomtal（中央広場の舗装大地 : CANON-COLAB-06） / larartal（発着場の乗降台 : CANON-COLAB-07） / govantal（長屋の敷地 : CANON-COLAB-08） / dolortal（公共工事の作業場 : CANON-COLAB-09） / renartal（市場の露店広場 : CANON-COLAB-10） / darontal（湖岸敷地 : CANON-COLAB-12） / talzyvan（地盤修復 : CANON-COLAB-16） / talalin（白亜地盤 : CANON-COLAB-16） / talvymin（大地防衛 : CANON-COLAB-25） / talsoran（石碑刻銘 : CANON-COLAB-33） / dartal（導水路基礎 : CANON-COLAB-41） / veltal（森林育成地 : CANON-COLAB-43） / taldursol（採石場石垣 : CANON-COLAB-44） / taldankar（石工基底礎 : CANON-COLAB-44） / taldurtas（大地の剛力 : CANON-COLAB-44） / polortal（市民広場敷地 : CANON-COLAB-46） / havtal（日時計台盤 : CANON-COLAB-49） / jylastal（盟約の大地 : CANON-COLAB-50） / talfalos（大地分光 : CANON-COLAB-55） / talfalun（地表反射光 : CANON-COLAB-55） / talcelvan（地下空洞天蓋 : CANON-COLAB-56） / talfalzon（大地偏光 : CANON-COLAB-60） / talfalvyn（大地薄光 : CANON-COLAB-64） / taldorcon（地盤摂動 : CANON-COLAB-66） / kirastal（作業床整地 : CANON-COLAB-66） / biontal（生体保養地 : CANON-COLAB-69） / talseno（大地の如き確信 : CANON-COLAB-72） / talelir（和解の祝祭 : CANON-COLAB-74） / talhano（礼節の拝礼 : CANON-COLAB-75） / talbion（盟約の礎石 : CANON-COLAB-77）
+- **`tal`** (`#277`, 大地) → talporan（土の歩道 : CANON-CONV-04） / talzyvas（大地の生気 : CANON-CONV-07） / taldaris（湧き水 : CANON-CONV-09） / talvelar（大地の庭園 : CANON-CONV-16） / taldolar（土仕事 : CANON-CONV-17） / talsaren（大地のほころび : CANON-CONV-22） / talcelen（地平の空 : CANON-CONV-23） / tallaris（陸の街道 : CANON-CONV-24） / talkypal（土器の保存箱 : CANON-CONV-26） / talvoril（土蔵の熟成食 : CANON-CONV-27） / taldarel（根菜の大地汁 : CANON-CONV-28） / talgovan（土壁の家 : CANON-CONV-29） / tallerel（石造りの門 : CANON-CONV-30） / talvorn（地階室 : CANON-CONV-32） / talpamel（地理誌 : CANON-CONV-33） / talsoras（土地の伝承 : CANON-CONV-34） / tallyren（大地の民謡 : CANON-CONV-35） / talzyvil（大地の鉱物薬 : CANON-CONV-37） / talrenan（農産物交易 : CANON-CONV-39） / talsilan（大地の安寧 : CANON-CONV-40） / talvalis（大地の作業衣 : CANON-CONV-41） / talkirel（石筆 : CANON-CONV-43） / taltasel（石の腰掛け : CANON-CONV-45） / talnerar（里の食堂 : CANON-CONV-46） / talnerom（土竈の調理場 : CANON-CONV-47） / talnovan（大地の連峰 : CANON-CONV-50） / talvelil（大地の若草 : CANON-CONV-53） / taltalur（大地の地金 : CANON-CONV-55） / talserel（石刃の小刀 : CANON-CONV-56） / tallivar（大地の記録庫 : CANON-CONV-61） / talzyvor（大地の精力 : CANON-CONV-67） / talvyran（大地の摂理 : CANON-CONV-70） / talpolor（里の住人 : CANON-CONV-73） / talrenar（陸の市場 : CANON-CONV-76） / talrenis（鉱石貨幣 : CANON-CONV-77） / talrenon（土地資産 : CANON-CONV-78） / taldomom（内陸の街 : CANON-CONV-79） / taltulos（大地の天底 : CANON-CONV-82） / taltyral（大地の引力 : CANON-CONV-84） / talvelom（大地の原生林 : CANON-CONV-87） / talmator（地勢の星辰演算儀 : CANON-CONV-95） / talfiras（基礎定数 : CANON-CONV-97） / talunor（基準整数 : CANON-CONV-98） / talzydis（物的証拠 : CANON-CONV-100） / talduril（強靭な骨格 : CANON-CONV-101） / tallarin（大地を踏む足 : CANON-CONV-104） / talnerel（大地の郷土料理 : CANON-CONV-105） / talvorin（大地の木の実 : CANON-CONV-105） / talcivom（大地の叙事詩 : CANON-CONV-109） / talsylim（不動の心 : CANON-CONV-112） / taldolor（大地の働き手 : CANON-CONV-114） / taltarin（基本の生存権 : CANON-CONV-114） / talcynor（盤石の親友 : CANON-CONV-115） / talvalar（大地の夜明け : CANON-CONV-117） / taltynes（地平の満月 : CANON-CONV-118） / talsirar（大地の恒久平和 : CANON-CONV-120） / taltyril（地殻の潮汐力 : CANON-CONV-124） / talzemin（大地の地平線 : CANON-CONV-125） / talvuron（大地の岩窟 : CANON-CONV-126） / tallyka（地面の営巣 : CANON-CONV-128） / talpuka（大地を駆ける蹄 : CANON-CONV-128） / taldolas（粘土の鋳型 : CANON-CONV-129） / taltasor（石造りの肘掛け椅子 : CANON-CONV-131） / tallarar（街道の宿駅 : CANON-CONV-133） / tallaros（陸路の幌馬車 : CANON-CONV-133） / talryvel（土地測量の測度 : CANON-CONV-134） / talsoril（鉱物結晶の記憶素 : CANON-CONV-135） / taljynel（据置型の地熱蓄電池 : CANON-CONV-136） / talkelon（地形の変数 : CANON-CONV-137） / taldelis（測量端数の小数 : CANON-CONV-138） / talsufor（地測の数理士 : CANON-CONV-139） / talvedil（実証の真偽律 : CANON-CONV-140） / taldavel（力強い血潮 : CANON-CONV-141） / talteira（強靭な心臓 : CANON-CONV-142） / talkylar（旅路の疲労症 : CANON-CONV-143） / talneror（大地の料理人 : CANON-CONV-146） / talterin（焙煎穀物の煎じ茶 : CANON-CONV-146） / talvelas（大地の敷き葉 : CANON-CONV-148） / talsonir（大地の豊穣夢 : CANON-CONV-151） / talfelyn（現場の直感 : CANON-CONV-152） / talnovor（現場の指導者 : CANON-CONV-153） / taltaros（土地の基本法 : CANON-CONV-154） / talcynas（盤石の友情 : CANON-CONV-155） / talhavas（実りの季節 : CANON-CONV-156） / talhavel（開拓の時代 : CANON-CONV-156） / talsovil（陽だまりの真昼 : CANON-CONV-157） / talpyris（石炉の種火 : CANON-CONV-158） / zylartal（海岸段丘 : CANON-CONV-161） / duriltal（太古の骨石層 : CANON-CONV-166） / talyrtal（切石の基盤層 : CANON-COLAB-02） / talurtal（鉱石含有層 : CANON-COLAB-03） / lereltal（城門の礎石 : CANON-COLAB-04） / dolastal（土製鋳型 : CANON-COLAB-05） / domomtal（中央広場の舗装大地 : CANON-COLAB-06） / larartal（発着場の乗降台 : CANON-COLAB-07） / govantal（長屋の敷地 : CANON-COLAB-08） / dolortal（公共工事の作業場 : CANON-COLAB-09） / renartal（市場の露店広場 : CANON-COLAB-10） / darontal（湖岸敷地 : CANON-COLAB-12） / talzyvan（地盤修復 : CANON-COLAB-16） / talalin（白亜地盤 : CANON-COLAB-16） / talvymin（大地防衛 : CANON-COLAB-25） / talsoran（石碑刻銘 : CANON-COLAB-33） / dartal（導水路基礎 : CANON-COLAB-41） / veltal（森林育成地 : CANON-COLAB-43） / taldursol（採石場石垣 : CANON-COLAB-44） / taldankar（石工基底礎 : CANON-COLAB-44） / taldurtas（大地の剛力 : CANON-COLAB-44） / polortal（市民広場敷地 : CANON-COLAB-46） / havtal（日時計台盤 : CANON-COLAB-49） / jylastal（盟約の大地 : CANON-COLAB-50） / talfalos（大地分光 : CANON-COLAB-55） / talfalun（地表反射光 : CANON-COLAB-55） / talcelvan（地下空洞天蓋 : CANON-COLAB-56） / talfalzon（大地偏光 : CANON-COLAB-60） / talfalvyn（大地薄光 : CANON-COLAB-64） / taldorcon（地盤摂動 : CANON-COLAB-66） / kirastal（作業床整地 : CANON-COLAB-66） / biontal（生体保養地 : CANON-COLAB-69） / talseno（大地の如き確信 : CANON-COLAB-72） / talelir（和解の祝祭 : CANON-COLAB-74） / talhano（礼節の拝礼 : CANON-COLAB-75） / talbion（盟約の礎石 : CANON-COLAB-77） / silantal（都市自治憲章 : CANON-COLAB-83）
 - **`talom`** (`#296`, 平原) → veltalom（木立の広場 : CANON-CONV-04） / dartalom（潤いの平原 : CANON-CONV-86） / tynitalom（白銀の平原 : CANON-CONV-126）
 - **`talon`** (`#297`, 島) → dartalon（水辺の浮島 : CANON-CONV-51） / veltalon（木々の茂る島 : CANON-CONV-51） / vyrtalon（星見の孤島 : CANON-CONV-51） / klortalon（環礁の島 : CANON-CONV-87） / alintalon（白砂の島 : CANON-CONV-127） / talondar（孤島の淡水泉 : CANON-CONV-162） / talonvel（島の原生林 : CANON-CONV-162）
 - **`talur`** (`#313`, 金属) → tynitalur（白銀の合金 : CANON-CONV-55） / alintalur（白色合金 : CANON-CONV-55） / taltalur（大地の地金 : CANON-CONV-55） / vyrtalur（星紋の合金 : CANON-CONV-89） / dartalur（水冷の鍛造金属 : CANON-CONV-129） / talurvorn（鍛冶工房 : CANON-COLAB-03） / talurdar（銅管送水路 : CANON-COLAB-03） / talurtal（鉱石含有層 : CANON-COLAB-03） / talurner（鉱物媒材 : CANON-COLAB-17） / talurjyn（鍛冶の気概 : CANON-COLAB-17） / talurvel（金石木工 : CANON-COLAB-17） / taluralin（純白精錬金属 : CANON-COLAB-26） / talurbion（活性感応金属 : CANON-COLAB-26） / talurkym（夜光金属 : CANON-COLAB-26） / talurunor（冶金配合定数 : CANON-COLAB-45）
@@ -6436,14 +6688,14 @@
 - **`tolas`** (`#175`, メッセージ) → vyrtolas（星便り : CANON-CONV-18） / hanotolas（今日の便り : CANON-CONV-18） / zydtolas（確報 : CANON-CONV-18） / alintolas（吉報の白文 : CANON-CONV-96） / dartolas（水路の連絡便 : CANON-CONV-136）
 - **`tolom`** (`#178`, 全天交信星網) → vyrtolom（恒星間の交信網 : CANON-CONV-96） / klortolom（環状交信ネットワーク : CANON-CONV-136）
 - **`tulos`** (`#47`, 天底) → taltulos（大地の天底 : CANON-CONV-82） / vyrtulos（星辰の天底 : CANON-CONV-122）
-- **`tyk`** (`#183`, クロック) → tykpelel（刻限定測儀 : CANON-COLAB-13） / tykunor（刻動周波数定数 : CANON-COLAB-67）
-- **`tyku`** (`#936`, 直ちに) → zylartyku（潮汐適時波 : CANON-COLAB-61） / tykualin（礼に適った敬礼 : CANON-COLAB-78）
+- **`tyk`** (`#183`, クロック) → tykpelel（刻限定測儀 : CANON-COLAB-13） / tykunor（刻動周波数定数 : CANON-COLAB-67） / tykbion（振り子の振動周期 : CANON-COLAB-87） / tykseno（接線方向の測角 : CANON-COLAB-88） / tykvyrel（六分儀による測角閃光 : CANON-COLAB-90）
+- **`tyku`** (`#936`, 直ちに) → zylartyku（潮汐適時波 : CANON-COLAB-61） / tykualin（礼に適った敬礼 : CANON-COLAB-78） / kivtyku（議会定足数の点検 : CANON-COLAB-81） / tykuhano（回転半径の描周路 : CANON-COLAB-89）
 - **`tymis`** (`#222`, 眠り) → kymtymis（夜眠り : CANON-CONV-07）
 - **`tynes`** (`#49`, 月) → vyrtynes（星伴う月 : CANON-CONV-57） / kymtynes（宵闇の月 : CANON-CONV-57） / alintynes（白月 : CANON-CONV-57） / taltynes（地平の満月 : CANON-CONV-118） / dartynes（水鏡の月 : CANON-CONV-158）
-- **`tyni`** (`#825`, 銀色の) → tynivyr（銀星 : CANON-CONV-06） / tynivalis（銀衣 : CANON-CONV-11） / tynikirel（銀筆 : CANON-CONV-15） / tyniserel（銀の小刀 : CANON-CONV-17） / tynikypal（銀の小箱 : CANON-CONV-26） / tynilerel（銀飾りの扉 : CANON-CONV-30） / tynitasel（銀飾りの椅子 : CANON-CONV-45） / tynitalur（白銀の合金 : CANON-CONV-55） / tynimator（銀の計算盤 : CANON-CONV-62） / tynisoril（銀枠の記憶器 : CANON-CONV-63） / tynirenis（銀貨 : CANON-CONV-77） / tyniradin（白銀の軌道半径 : CANON-CONV-84） / tynivelas（銀色の葉 : CANON-CONV-108） / tyninovar（白銀の天頂 : CANON-CONV-121） / tynikymos（白銀の日食 : CANON-CONV-122） / tynitalom（白銀の平原 : CANON-CONV-126） / tynivelom（銀霧の森 : CANON-CONV-127） / tynitalyr（銀脈の石材 : CANON-CONV-129） / tynivorin（銀皿の果実 : CANON-CONV-145） / tynikylas（銀光の夕暮れ : CANON-CONV-157） / polortyni（市民銀貨 : CANON-COLAB-58） / jylastyni（同盟記念銀符 : CANON-COLAB-60） / nertyni（銀色薬草葉 : CANON-COLAB-62）
+- **`tyni`** (`#825`, 銀色の) → tynivyr（銀星 : CANON-CONV-06） / tynivalis（銀衣 : CANON-CONV-11） / tynikirel（銀筆 : CANON-CONV-15） / tyniserel（銀の小刀 : CANON-CONV-17） / tynikypal（銀の小箱 : CANON-CONV-26） / tynilerel（銀飾りの扉 : CANON-CONV-30） / tynitasel（銀飾りの椅子 : CANON-CONV-45） / tynitalur（白銀の合金 : CANON-CONV-55） / tynimator（銀の計算盤 : CANON-CONV-62） / tynisoril（銀枠の記憶器 : CANON-CONV-63） / tynirenis（銀貨 : CANON-CONV-77） / tyniradin（白銀の軌道半径 : CANON-CONV-84） / tynivelas（銀色の葉 : CANON-CONV-108） / tyninovar（白銀の天頂 : CANON-CONV-121） / tynikymos（白銀の日食 : CANON-CONV-122） / tynitalom（白銀の平原 : CANON-CONV-126） / tynivelom（銀霧の森 : CANON-CONV-127） / tynitalyr（銀脈の石材 : CANON-CONV-129） / tynivorin（銀皿の果実 : CANON-CONV-145） / tynikylas（銀光の夕暮れ : CANON-CONV-157） / polortyni（市民銀貨 : CANON-COLAB-58） / jylastyni（同盟記念銀符 : CANON-COLAB-60） / nertyni（銀色薬草葉 : CANON-COLAB-62） / pukatyni（行政管区の境界標柱 : CANON-COLAB-86） / suftyni（漸近線の極限計算 : CANON-COLAB-90）
 - **`tyral`** (`#50`, 引力) → taltyral（大地の引力 : CANON-CONV-84） / vyrtyral（恒星の引力 : CANON-CONV-124）
 - **`tyril`** (`#53`, 潮汐力) → dartyril（水辺の潮汐力 : CANON-CONV-84） / taltyril（地殻の潮汐力 : CANON-CONV-124）
-- **`unor`** (`#123`, 整数) → talunor（基準整数 : CANON-CONV-98） / vyrunor（軌道共鳴の整数 : CANON-CONV-138） / polorunor（市民台帳定数 : CANON-COLAB-18） / talyrunor（石材規格数 : CANON-COLAB-25） / havunor（紀年整数 : CANON-COLAB-27） / unordolar（規格労務 : CANON-COLAB-29） / unorvel（規準木尺 : CANON-COLAB-29） / unorgovan（計量検定所 : CANON-COLAB-29） / darunor（通水量定数 : CANON-COLAB-30） / daronunor（運河水深基準数 : CANON-COLAB-31） / nerunor（薬量定数 : CANON-COLAB-32） / klorunor（円環幾何定数 : CANON-COLAB-34） / kymunor（夜間当番定数 : CANON-COLAB-35） / govanunor（建築基準寸法 : CANON-COLAB-36） / zylarunor（海図水深定数 : CANON-COLAB-38） / jylasunor（条約定数 : CANON-COLAB-40） / dolasunor（鋳型規格定数 : CANON-COLAB-45） / talurunor（冶金配合定数 : CANON-COLAB-45） / kirasunor（水準調整定数 : CANON-COLAB-57） / falosunor（分光測定定数 : CANON-COLAB-63） / soranunor（記録計量定数 : CANON-COLAB-65） / tykunor（刻動周波数定数 : CANON-COLAB-67） / kivunor（直観の閃き : CANON-COLAB-72） / jynunor（探究の始動熱 : CANON-COLAB-73） / velunor（協和の座談 : CANON-COLAB-80）
+- **`unor`** (`#123`, 整数) → talunor（基準整数 : CANON-CONV-98） / vyrunor（軌道共鳴の整数 : CANON-CONV-138） / polorunor（市民台帳定数 : CANON-COLAB-18） / talyrunor（石材規格数 : CANON-COLAB-25） / havunor（紀年整数 : CANON-COLAB-27） / unordolar（規格労務 : CANON-COLAB-29） / unorvel（規準木尺 : CANON-COLAB-29） / unorgovan（計量検定所 : CANON-COLAB-29） / darunor（通水量定数 : CANON-COLAB-30） / daronunor（運河水深基準数 : CANON-COLAB-31） / nerunor（薬量定数 : CANON-COLAB-32） / klorunor（円環幾何定数 : CANON-COLAB-34） / kymunor（夜間当番定数 : CANON-COLAB-35） / govanunor（建築基準寸法 : CANON-COLAB-36） / zylarunor（海図水深定数 : CANON-COLAB-38） / jylasunor（条約定数 : CANON-COLAB-40） / dolasunor（鋳型規格定数 : CANON-COLAB-45） / talurunor（冶金配合定数 : CANON-COLAB-45） / kirasunor（水準調整定数 : CANON-COLAB-57） / falosunor（分光測定定数 : CANON-COLAB-63） / soranunor（記録計量定数 : CANON-COLAB-65） / tykunor（刻動周波数定数 : CANON-COLAB-67） / kivunor（直観の閃き : CANON-COLAB-72） / jynunor（探究の始動熱 : CANON-COLAB-73） / velunor（協和の座談 : CANON-COLAB-80） / vornunor（星辰の統治管区 : CANON-COLAB-83） / unorseno（漸近線の注視軌跡 : CANON-COLAB-87） / unorvorn（幾何周長の整調算定 : CANON-COLAB-89） / unorhano（放物軌道の巡行路 : CANON-COLAB-89）
 - **`unvis`** (`#124`, 同一性) → klorunvis（円環の同一性 : CANON-CONV-100） / vyrunvis（恒星の同一性 : CANON-CONV-140）
 - **`valar`** (`#939`, 朝) → darvalar（朝露の夜明け : CANON-CONV-58） / velvalar（森の朝 : CANON-CONV-58） / hanovalar（今日の朝 : CANON-CONV-58） / talvalar（大地の夜明け : CANON-CONV-117） / vyrvalar（星残る早朝 : CANON-CONV-157）
 - **`valis`** (`#669`, 衣服) → alinvalis（白衣 : CANON-CONV-11） / tynivalis（銀衣 : CANON-CONV-11） / vyrvalis（星紋の礼装 : CANON-CONV-41） / talvalis（大地の作業衣 : CANON-CONV-41） / darvalis（水辺の外套 : CANON-CONV-41） / velvalis（森歩きの衣 : CANON-CONV-107） / klorvalis（輪舞の祝祭衣 : CANON-CONV-147）
@@ -6458,14 +6710,15 @@
 - **`voril`** (`#1006`, 発酵果実酒) → nervoril（滋養発酵食 : CANON-CONV-16） / talvoril（土蔵の熟成食 : CANON-CONV-27） / darvoril（清水の発酵飲料 : CANON-CONV-27） / velvoril（木樽の果実酒 : CANON-CONV-27） / alinvoril（白の果実酒 : CANON-CONV-105） / havvoril（年代物の果実酒 : CANON-CONV-145）
 - **`vorin`** (`#422`, 果実) → nervorin（滋養果実 : CANON-CONV-02） / darvorin（水辺の果実 : CANON-CONV-25） / velvorin（森の木の実 : CANON-CONV-25） / hanovorin（今日採れた果実 : CANON-CONV-25） / talvorin（大地の木の実 : CANON-CONV-105） / tynivorin（銀皿の果実 : CANON-CONV-145）
 - **`voris`** (`#59`, 公転) → klorvoris（円環公転 : CANON-CONV-83） / vyrvoris（恒星の公転 : CANON-CONV-123）
-- **`vorn`** (`#632`, 部屋) → kymvorn（寝室 : CANON-CONV-03） / talvorn（地階室 : CANON-CONV-32） / vyrvorn（天窓の部屋 : CANON-CONV-32） / klorvorn（円形広間 : CANON-CONV-32） / nervorn（養生の部屋 : CANON-CONV-92） / velvorn（木組みの居室 : CANON-CONV-132） / pyrisvorn（暖炉の間 : CANON-CONV-163） / terinvorn（茶室 : CANON-CONV-163） / tasorvorn（安楽椅子の読書室 : CANON-CONV-164） / pamelvorn（蔵書室 : CANON-CONV-164） / dovikvorn（執務室 : CANON-CONV-164） / darisvorn（公共貯水室 : CANON-COLAB-01） / talyrvorn（石工の作業場 : CANON-COLAB-02） / talurvorn（鍛冶工房 : CANON-COLAB-03） / lerelvorn（衛兵の詰所 : CANON-COLAB-04） / dolasvorn（鋳型保管室 : CANON-COLAB-05） / domomvorn（市政庁舎の会議室 : CANON-COLAB-06） / lararvorn（駅の待合所 : CANON-COLAB-07） / govanvorn（居室 : CANON-COLAB-08） / dolorvorn（職人組合の詰所 : CANON-COLAB-09） / renarvorn（市場の計量所 : CANON-COLAB-10） / dolarvorn（労務作業室 : CANON-COLAB-41） / kirasvorn（修繕作業室 : CANON-COLAB-41） / polorvorn（市民税関室 : CANON-COLAB-46） / zylarvorn（海浜見張所 : CANON-COLAB-48） / havvorn（時計塔機械室 : CANON-COLAB-49） / jylasvorn（盟約締結の間 : CANON-COLAB-50） / kivvorn（誓約の条文 : CANON-COLAB-75） / fenovorn（秩序ある助言 : CANON-COLAB-79） / jynvorn（公正なる仲裁評定 : CANON-COLAB-80）
+- **`vorn`** (`#632`, 部屋) → kymvorn（寝室 : CANON-CONV-03） / talvorn（地階室 : CANON-CONV-32） / vyrvorn（天窓の部屋 : CANON-CONV-32） / klorvorn（円形広間 : CANON-CONV-32） / nervorn（養生の部屋 : CANON-CONV-92） / velvorn（木組みの居室 : CANON-CONV-132） / pyrisvorn（暖炉の間 : CANON-CONV-163） / terinvorn（茶室 : CANON-CONV-163） / tasorvorn（安楽椅子の読書室 : CANON-CONV-164） / pamelvorn（蔵書室 : CANON-CONV-164） / dovikvorn（執務室 : CANON-CONV-164） / darisvorn（公共貯水室 : CANON-COLAB-01） / talyrvorn（石工の作業場 : CANON-COLAB-02） / talurvorn（鍛冶工房 : CANON-COLAB-03） / lerelvorn（衛兵の詰所 : CANON-COLAB-04） / dolasvorn（鋳型保管室 : CANON-COLAB-05） / domomvorn（市政庁舎の会議室 : CANON-COLAB-06） / lararvorn（駅の待合所 : CANON-COLAB-07） / govanvorn（居室 : CANON-COLAB-08） / dolorvorn（職人組合の詰所 : CANON-COLAB-09） / renarvorn（市場の計量所 : CANON-COLAB-10） / dolarvorn（労務作業室 : CANON-COLAB-41） / kirasvorn（修繕作業室 : CANON-COLAB-41） / polorvorn（市民税関室 : CANON-COLAB-46） / zylarvorn（海浜見張所 : CANON-COLAB-48） / havvorn（時計塔機械室 : CANON-COLAB-49） / jylasvorn（盟約締結の間 : CANON-COLAB-50） / kivvorn（誓約の条文 : CANON-COLAB-75） / fenovorn（秩序ある助言 : CANON-COLAB-79） / jynvorn（公正なる仲裁評定 : CANON-COLAB-80） / vornunor（星辰の統治管区 : CANON-COLAB-83） / silanvorn（大権の笏座 : CANON-COLAB-85） / unorvorn（幾何周長の整調算定 : CANON-COLAB-89）
 - **`vuron`** (`#320`, 洞窟) → darvuron（水滴の鍾乳洞 : CANON-CONV-86） / talvuron（大地の岩窟 : CANON-CONV-126）
 - **`vylan`** (`#261`, 目) → vyrvylan（星を映す瞳 : CANON-CONV-65） / alinvylan（澄んだ瞳 : CANON-CONV-65） / darvylan（潤んだ瞳 : CANON-CONV-65）
 - **`vylar`** (`#536`, 旗) → alinvylar（純白の合図旗 : CANON-CONV-93） / velvylar（森林の紋章旗 : CANON-CONV-133）
 - **`vylom`** (`#189`, スコープ) → alinvylom（澄んだ望遠スコープ : CANON-CONV-94） / vyrvylom（天体望遠スコープ : CANON-CONV-134）
-- **`vymin`** (`#951`, 守る) → darvymin（水利保全 : CANON-COLAB-11） / kymvymin（夜警当番 : CANON-COLAB-19） / bionvymin（生体保全 : CANON-COLAB-21） / havvymin（刻限監視 : CANON-COLAB-23） / talvymin（大地防衛 : CANON-COLAB-25）
-- **`vyr`** (`#62`, 星) → tynivyr（銀星 : CANON-CONV-06） / vyrdaron（星を映す湖 : CANON-CONV-09） / vyrlaris（星の道しるべ : CANON-CONV-10） / vyrlarar（星見港 : CANON-CONV-12） / vyrpamel（星見帳 : CANON-CONV-15） / vyrtolas（星便り : CANON-CONV-18） / vyrwylas（星見の風 : CANON-CONV-21） / vyrcelen（星天 : CANON-CONV-23） / vyrgovan（星見の館 : CANON-CONV-29） / vyrvelar（星見の庭 : CANON-CONV-31） / vyrvorn（天窓の部屋 : CANON-CONV-32） / vyrsoras（星の記憶 : CANON-CONV-34） / vyrlyren（星の讃歌 : CANON-CONV-35） / vyrcival（星夜の合奏 : CANON-CONV-36） / vyrwelin（星への願い : CANON-CONV-38） / vyrsilan（星夜の平和 : CANON-CONV-40） / vyrvalis（星紋の礼装 : CANON-CONV-41） / vyrkypal（星石の小箱 : CANON-CONV-42） / vyrkirel（天測の鉄筆 : CANON-CONV-43） / vyrlerel（星見台の扉 : CANON-CONV-44） / vyrnerar（星見の食堂 : CANON-CONV-46） / vyrnovan（星見の高嶺 : CANON-CONV-50） / vyrtalon（星見の孤島 : CANON-CONV-51） / vyrvelom（星降る森 : CANON-CONV-52） / vyrvelil（星見草 : CANON-CONV-53） / vyrtalyr（星石の結晶 : CANON-CONV-54） / vyrtynes（星伴う月 : CANON-CONV-57） / vyrkylas（一番星の夕暮れ : CANON-CONV-59） / vyrlivar（天測の書庫 : CANON-CONV-61） / vyrmator（軌道演算儀 : CANON-CONV-62） / vyrsoril（天測の記憶素 : CANON-CONV-63） / vyrzevil（天体運行譜 : CANON-CONV-64） / vyrvylan（星を映す瞳 : CANON-CONV-65） / vyrzyvas（星夜の健やかさ : CANON-CONV-68） / vyrsonir（星の夢 : CANON-CONV-69） / vyrvyran（星辰の理 : CANON-CONV-70） / vyrfelyn（星の閃き : CANON-CONV-71） / vyrsylim（星見の心 : CANON-CONV-72） / vyrpolor（星見街の住人 : CANON-CONV-73） / vyrcynor（星見の盟友 : CANON-CONV-74） / vyrtaros（軌道規律 : CANON-CONV-75） / vyrsirar（星下の講和 : CANON-CONV-80） / vyrcelar（星彩の極光 : CANON-CONV-81） / vyrnovar（星辰の天頂 : CANON-CONV-81） / vyrvalur（恒星脈動 : CANON-CONV-83） / vyrzylar（星映す大海 : CANON-CONV-85） / vyrzemin（星際の地平線 : CANON-CONV-85） / vyrtalur（星紋の合金 : CANON-CONV-89） / vyrpelel（恒星の携帯星盤 : CANON-CONV-94） / vyrtolom（恒星間の交信網 : CANON-CONV-96） / vyrkelon（天体変数 : CANON-CONV-97） / vyrsufor（天体数理士 : CANON-CONV-99） / vyrniven（天球の次元 : CANON-CONV-99） / vyrzyvil（星露の霊薬 : CANON-CONV-102） / vyrlyvel（星野の写真 : CANON-CONV-110） / vyrkefur（星辰への畏敬 : CANON-CONV-111） / vyrcynas（星下の友情 : CANON-CONV-115） / vyrhavel（星見の時代 : CANON-CONV-116） / vyrkyrom（恒星の銀河団 : CANON-CONV-119） / vyrtulos（星辰の天底 : CANON-CONV-122） / vyrvoris（恒星の公転 : CANON-CONV-123） / vyrtyral（恒星の引力 : CANON-CONV-124） / vyrkyras（星影の氷塊 : CANON-CONV-126） / vyrserel（星図の細工刀 : CANON-CONV-130） / vyrkymel（星見の寝床 : CANON-CONV-131） / vyrvylom（天体望遠スコープ : CANON-CONV-134） / vyrjytel（星間中継ノード : CANON-CONV-135） / vyrfiras（天体物理定数 : CANON-CONV-137） / vyrjylom（恒星の集合 : CANON-CONV-138） / vyrunor（軌道共鳴の整数 : CANON-CONV-138） / vyrsufis（星辰博物学者 : CANON-CONV-139） / vyrunvis（恒星の同一性 : CANON-CONV-140） / vyrzydis（天体観測の証拠 : CANON-CONV-140） / vyrzyvor（星下の活力 : CANON-CONV-142） / vyrfenel（星詩を詠む口元 : CANON-CONV-144） / vyrnerel（星祭りの祝宴料理 : CANON-CONV-145） / vyrcivom（星辰の叙事詩 : CANON-CONV-149） / vyrfalos（恒星の分光 : CANON-CONV-150） / vyrvalar（星残る早朝 : CANON-CONV-157） / vyrkyron（恒星質量の黒孔 : CANON-CONV-159） / vyrbion（星辰生体 : CANON-COLAB-23） / vyrdar（星辰露水 : CANON-COLAB-23） / vyrfalun（星辰光条 : CANON-COLAB-42） / vyralin（純白星光 : CANON-COLAB-42） / vyrfalzon（星辰偏光 : CANON-COLAB-42） / vyrdankar（星辰観測石礎 : CANON-COLAB-54） / vyrporan（星辰巡行観測 : CANON-COLAB-54） / vyrdolar（天文台観測労務 : CANON-COLAB-57） / vyrterin（天文夜警茶 : CANON-COLAB-57） / vyrcelvan（星辰天球殻 : CANON-COLAB-63） / vyrcelzyl（星光青光 : CANON-COLAB-63） / jylasvyr（盟約星辰徽章 : CANON-COLAB-70） / vyrelir（星辰崇敬の歓喜 : CANON-COLAB-72）
+- **`vymin`** (`#951`, 守る) → darvymin（水利保全 : CANON-COLAB-11） / kymvymin（夜警当番 : CANON-COLAB-19） / bionvymin（生体保全 : CANON-COLAB-21） / havvymin（刻限監視 : CANON-COLAB-23） / talvymin（大地防衛 : CANON-COLAB-25） / klorvymin（執政官の正笏 : CANON-COLAB-82） / fenovymin（天星の勅令 : CANON-COLAB-82）
+- **`vyr`** (`#62`, 星) → tynivyr（銀星 : CANON-CONV-06） / vyrdaron（星を映す湖 : CANON-CONV-09） / vyrlaris（星の道しるべ : CANON-CONV-10） / vyrlarar（星見港 : CANON-CONV-12） / vyrpamel（星見帳 : CANON-CONV-15） / vyrtolas（星便り : CANON-CONV-18） / vyrwylas（星見の風 : CANON-CONV-21） / vyrcelen（星天 : CANON-CONV-23） / vyrgovan（星見の館 : CANON-CONV-29） / vyrvelar（星見の庭 : CANON-CONV-31） / vyrvorn（天窓の部屋 : CANON-CONV-32） / vyrsoras（星の記憶 : CANON-CONV-34） / vyrlyren（星の讃歌 : CANON-CONV-35） / vyrcival（星夜の合奏 : CANON-CONV-36） / vyrwelin（星への願い : CANON-CONV-38） / vyrsilan（星夜の平和 : CANON-CONV-40） / vyrvalis（星紋の礼装 : CANON-CONV-41） / vyrkypal（星石の小箱 : CANON-CONV-42） / vyrkirel（天測の鉄筆 : CANON-CONV-43） / vyrlerel（星見台の扉 : CANON-CONV-44） / vyrnerar（星見の食堂 : CANON-CONV-46） / vyrnovan（星見の高嶺 : CANON-CONV-50） / vyrtalon（星見の孤島 : CANON-CONV-51） / vyrvelom（星降る森 : CANON-CONV-52） / vyrvelil（星見草 : CANON-CONV-53） / vyrtalyr（星石の結晶 : CANON-CONV-54） / vyrtynes（星伴う月 : CANON-CONV-57） / vyrkylas（一番星の夕暮れ : CANON-CONV-59） / vyrlivar（天測の書庫 : CANON-CONV-61） / vyrmator（軌道演算儀 : CANON-CONV-62） / vyrsoril（天測の記憶素 : CANON-CONV-63） / vyrzevil（天体運行譜 : CANON-CONV-64） / vyrvylan（星を映す瞳 : CANON-CONV-65） / vyrzyvas（星夜の健やかさ : CANON-CONV-68） / vyrsonir（星の夢 : CANON-CONV-69） / vyrvyran（星辰の理 : CANON-CONV-70） / vyrfelyn（星の閃き : CANON-CONV-71） / vyrsylim（星見の心 : CANON-CONV-72） / vyrpolor（星見街の住人 : CANON-CONV-73） / vyrcynor（星見の盟友 : CANON-CONV-74） / vyrtaros（軌道規律 : CANON-CONV-75） / vyrsirar（星下の講和 : CANON-CONV-80） / vyrcelar（星彩の極光 : CANON-CONV-81） / vyrnovar（星辰の天頂 : CANON-CONV-81） / vyrvalur（恒星脈動 : CANON-CONV-83） / vyrzylar（星映す大海 : CANON-CONV-85） / vyrzemin（星際の地平線 : CANON-CONV-85） / vyrtalur（星紋の合金 : CANON-CONV-89） / vyrpelel（恒星の携帯星盤 : CANON-CONV-94） / vyrtolom（恒星間の交信網 : CANON-CONV-96） / vyrkelon（天体変数 : CANON-CONV-97） / vyrsufor（天体数理士 : CANON-CONV-99） / vyrniven（天球の次元 : CANON-CONV-99） / vyrzyvil（星露の霊薬 : CANON-CONV-102） / vyrlyvel（星野の写真 : CANON-CONV-110） / vyrkefur（星辰への畏敬 : CANON-CONV-111） / vyrcynas（星下の友情 : CANON-CONV-115） / vyrhavel（星見の時代 : CANON-CONV-116） / vyrkyrom（恒星の銀河団 : CANON-CONV-119） / vyrtulos（星辰の天底 : CANON-CONV-122） / vyrvoris（恒星の公転 : CANON-CONV-123） / vyrtyral（恒星の引力 : CANON-CONV-124） / vyrkyras（星影の氷塊 : CANON-CONV-126） / vyrserel（星図の細工刀 : CANON-CONV-130） / vyrkymel（星見の寝床 : CANON-CONV-131） / vyrvylom（天体望遠スコープ : CANON-CONV-134） / vyrjytel（星間中継ノード : CANON-CONV-135） / vyrfiras（天体物理定数 : CANON-CONV-137） / vyrjylom（恒星の集合 : CANON-CONV-138） / vyrunor（軌道共鳴の整数 : CANON-CONV-138） / vyrsufis（星辰博物学者 : CANON-CONV-139） / vyrunvis（恒星の同一性 : CANON-CONV-140） / vyrzydis（天体観測の証拠 : CANON-CONV-140） / vyrzyvor（星下の活力 : CANON-CONV-142） / vyrfenel（星詩を詠む口元 : CANON-CONV-144） / vyrnerel（星祭りの祝宴料理 : CANON-CONV-145） / vyrcivom（星辰の叙事詩 : CANON-CONV-149） / vyrfalos（恒星の分光 : CANON-CONV-150） / vyrvalar（星残る早朝 : CANON-CONV-157） / vyrkyron（恒星質量の黒孔 : CANON-CONV-159） / vyrbion（星辰生体 : CANON-COLAB-23） / vyrdar（星辰露水 : CANON-COLAB-23） / vyrfalun（星辰光条 : CANON-COLAB-42） / vyralin（純白星光 : CANON-COLAB-42） / vyrfalzon（星辰偏光 : CANON-COLAB-42） / vyrdankar（星辰観測石礎 : CANON-COLAB-54） / vyrporan（星辰巡行観測 : CANON-COLAB-54） / vyrdolar（天文台観測労務 : CANON-COLAB-57） / vyrterin（天文夜警茶 : CANON-COLAB-57） / vyrcelvan（星辰天球殻 : CANON-COLAB-63） / vyrcelzyl（星光青光 : CANON-COLAB-63） / jylasvyr（盟約星辰徽章 : CANON-COLAB-70） / vyrelir（星辰崇敬の歓喜 : CANON-COLAB-72） / sufvyr（至点天体の観測高度 : CANON-COLAB-88）
 - **`vyran`** (`#754`, 真理) → vyrvyran（星辰の理 : CANON-CONV-70） / zydvyran（実証の真理 : CANON-CONV-70） / talvyran（大地の摂理 : CANON-CONV-70） / alinvyran（純粋な真理 : CANON-CONV-112） / havvyran（時代を超える真理 : CANON-CONV-152）
+- **`vyrel`** (`#953`, （精密に）観測する) → tykvyrel（六分儀による測角閃光 : CANON-COLAB-90）
 - **`vyri`** (`#67`, 星辰の) → polorvyri（市民栄誉位 : CANON-COLAB-70）
 - **`vyrom`** (`#70`, 星座) → darvyrom（水鏡の星座 : CANON-CONV-82）
 - **`welin`** (`#757`, 希望) → senowelin（明日の希望 : CANON-CONV-10） / vyrwelin（星への願い : CANON-CONV-38） / zydwelin（切なる願い : CANON-CONV-38） / klorwelin（共同体の希望 : CANON-CONV-38）

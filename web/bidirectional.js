@@ -427,7 +427,8 @@
         kuEn = `with ${pEn}`;
       } else if (ph.marker === 'va') {
         compJa = `${pJa}より`;
-        compEn = `than ${pEn}`;
+        const isVerbal = parsed.verbInfo && (parsed.verbInfo.p === '動' || parsed.verbInfo.pos === '動' || parsed.verbInfo.pos === '動詞');
+        compEn = isVerbal ? `more than ${pEn}` : `than ${pEn}`;
       } else if (ph.marker === 'uo') {
         locJa = `${pJa}で`;
         locEn = `in ${pEn}`;
@@ -726,7 +727,8 @@
       in: 'uo',
       at: 'uo',
       for: 'al',
-      from: 'va'
+      from: 'va',
+      than: 'va'
     };
 
     // Extract trailing prepositional phrases
@@ -734,14 +736,15 @@
     let currentRemainder = (objectText || '').trim();
 
     while (currentRemainder) {
-      const ppMatch = currentRemainder.match(/(?:^|\s+)(to|with|in|at|for|from)\s+(?:(the|a|an)\s+)?(?:([a-z]+)\s+)?([a-z]+)$/i);
+      const ppMatch = currentRemainder.match(/(?:^|\s+)(more\s+than|than|to|with|in|at|for|from)\s+(?:(the|a|an)\s+)?(?:([a-z]+)\s+)?([a-z]+)$/i);
       if (ppMatch) {
         const [full, prep, art, mod, pNoun] = ppMatch;
         const nNeb = noun(pNoun);
         if (!nNeb) break;
         if (mod && !Object.hasOwn(adjectives, mod)) break;
         const adjNeb = mod ? adjectives[mod] : null;
-        const nebMarker = prepMap[prep.toLowerCase()];
+        const normPrep = prep.toLowerCase().replace(/^more\s+/, '');
+        const nebMarker = prepMap[normPrep];
         prepPhrases.unshift({
           prep: prep.toLowerCase(),
           nebMarker,
