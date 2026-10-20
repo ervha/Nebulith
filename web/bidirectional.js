@@ -253,7 +253,7 @@
               tor: { ja: 'けれど、', en: 'Although ' },
               hav: { ja: 'とき、', en: 'When ' },
               den: { ja: '、そして', en: 'And ' },
-              sol: { ja: '、したがって', en: 'Therefore ' }
+              sol: { ja: 'ために、', en: 'So that ' }
             }[conjKey];
             let combined = '';
             if (targetLang === 'ja') {
@@ -559,7 +559,7 @@
     const vocab = getVocabMap();
 
     // 1. Compound Conjunctions: if / because / although / when ... , ...
-    const conjMatch = englishText.trim().match(/^(if|because|although|even if|even though|when|while)\s+(.+)$/i);
+    const conjMatch = englishText.trim().match(/^(if|because|although|even if|even though|when|while|so that|in order that)\s+(.+)$/i);
     if (conjMatch) {
       const conjWord = conjMatch[1].toLowerCase();
       const parts = conjMatch[2].split(/,\s*/);
@@ -571,7 +571,7 @@
         }
         const c2 = translateSingleEnglishClause(secondPart);
         if (c1.success && c2.success) {
-          const nebConj = { if: 'Zen', because: 'Sen', although: 'Tor', 'even if': 'Tor', 'even though': 'Tor', when: 'Hav', while: 'Hav' }[conjWord];
+          const nebConj = { if: 'Zen', because: 'Sen', although: 'Tor', 'even if': 'Tor', 'even though': 'Tor', when: 'Hav', while: 'Hav', 'so that': 'Sol', 'in order that': 'Sol' }[conjWord];
           const res = `${nebConj} ${c1.text}, ${c2.text}.`;
           return {
             text: res,
