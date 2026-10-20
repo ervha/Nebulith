@@ -89,7 +89,22 @@ assert.ok(r12.text.startsWith('Zen '), 'Expected Zen in ' + r12.text);
 assert.ok(r12.text.includes('Poran el ti to govan'), 'Expected Poran el ti to govan in ' + r12.text);
 assert.ok(r12.text.includes('Vyrel el mi ia daris'), 'Expected Vyrel el mi ia daris in ' + r12.text);
 
-// 12. Incremental translator check
+// 12. Concessive clause: 'Even if you walk to house, I observe water.' -> 'Tor Poran el ti to govan, Vyrel el mi ia daris.'
+const r13 = bi.translateEnglishToNebulith('Even if you walk to house, I observe water.');
+assert.equal(r13.success, true);
+assert.ok(r13.text.startsWith('Tor '), 'Expected Tor in ' + r13.text);
+assert.ok(r13.text.includes('Poran el ti to govan'), 'Expected Poran el ti to govan in ' + r13.text);
+assert.ok(r13.text.includes('Vyrel el mi ia daris'), 'Expected Vyrel el mi ia daris in ' + r13.text);
+
+const r13Ja = bi.translateNebulith('Tor Poran el ti to govan, Vyrel el mi ia daris.', 'ja');
+assert.equal(r13Ja.success, true);
+assert.ok(r13Ja.text.includes('けれど'), 'Expected けれど in ' + r13Ja.text);
+
+const r13En = bi.translateNebulith('Tor Poran el ti to govan, Vyrel el mi ia daris.', 'en');
+assert.equal(r13En.success, true);
+assert.ok(r13En.text.includes('Although'), 'Expected Although in ' + r13En.text);
+
+// 13. Incremental translator check
 const inc = vm.runInContext(
   'createIncrementalTranslator(VOCAB, GRAMMAR_FRAMES, INPUT_RULES.aliases, [], TRANSLATION_EXTENSIONS)',
   ctx
@@ -97,4 +112,4 @@ const inc = vm.runInContext(
 const r3 = inc.analyze('私は露光を観測します。', {});
 assert.ok(r3.text.toLowerCase().includes('darfalun'), 'Expected darfalun in ' + JSON.stringify(r3));
 
-console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12 }));
+console.log(JSON.stringify({ r1, r2, r3Neb: r3.text, r3Complete: r3.complete, r4, r5, r6, r6En, r7, r8, r9Ja, r9En, r10, r11Ja, r11En, r12, r13, r13Ja, r13En }));
