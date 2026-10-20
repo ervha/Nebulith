@@ -1,12 +1,12 @@
 {
   "auditVersion": 2,
-  "createdAt": "2026-10-20T05:29:50.510275+00:00",
+  "createdAt": "2026-10-20T05:42:26.765743+00:00",
   "verdict": "ZERO_FLAGS_VERIFIED",
   "counts": {
-    "rows": 650,
-    "uniqueRoots": 650,
-    "uniqueIds": 650,
-    "scenarios": 217,
+    "rows": 680,
+    "uniqueRoots": 680,
+    "uniqueIds": 680,
+    "scenarios": 227,
     "flaggedEntries": 0
   },
   "flagCounts": {},
@@ -392,14 +392,14 @@
     "Relen el <TERM> uo dar.": 3,
     "Relen el <TERM> to terinvorn.": 1,
     "Relen el <TERM> to pamelvorn.": 1,
-    "Vymin el mi ia <TERM>.": 30,
+    "Vymin el mi ia <TERM>.": 38,
     "Soran el mi uo <TERM>.": 2,
     "Kiras el mi ia <TERM> ul kypalvel.": 1,
     "Vymin el <TERM> ia pamel.": 1,
     "Vyrel el mi ia <TERM> to duriltal.": 1,
     "Vymin el nervelas ia <TERM>.": 1,
-    "Soran el mi ia <TERM>.": 12,
-    "Vyrel el mi ia <TERM>.": 14,
+    "Soran el mi ia <TERM>.": 14,
+    "Vyrel el mi ia <TERM>.": 19,
     "Vyrel el mi ia <TERM> ul dardaron.": 1,
     "Relen el dar uo <TERM>.": 2,
     "Kiras el mi ia talyrvorn to <TERM>.": 1,
@@ -418,22 +418,22 @@
     "Relen el silan to <TERM>.": 1,
     "Poran el mi uo <TERM> to renarvorn.": 1,
     "Vymin el <TERM> ia renardar.": 1,
-    "Kiras el mi ia <TERM>.": 20,
+    "Kiras el mi ia <TERM>.": 24,
     "Muran el mi ia <TERM>.": 1,
-    "Poran el mi uo <TERM>.": 11,
+    "Poran el mi uo <TERM>.": 13,
     "Falun el <TERM> uo klorpelel.": 1,
     "Relen el <TERM> uo velkural.": 1,
-    "Nerel el mi ia <TERM>.": 7,
+    "Nerel el mi ia <TERM>.": 9,
     "Zyvan el mi ia <TERM>.": 2,
     "Poran el <TERM> to kymgovan.": 1,
     "Jylas el miin ia <TERM>.": 1,
     "Relen el <TERM> uo klorgovan.": 1,
-    "Dolar el mi ia <TERM>.": 4,
+    "Dolar el mi ia <TERM>.": 7,
     "Relen el <TERM> uo havunor.": 1,
-    "Dolar el mi uo <TERM>.": 5,
+    "Dolar el mi uo <TERM>.": 7,
     "Jylas el mi ia <TERM>.": 2,
     "Kiras el mi uo <TERM>.": 2,
-    "Vyrel el mi uo <TERM>.": 1,
+    "Vyrel el mi uo <TERM>.": 3,
     "Jylas el mi uo <TERM>.": 1
   },
   "entries": [
@@ -13436,6 +13436,606 @@
         "Yura"
       ],
       "exampleTemplate": "Nerel el mi ia <TERM>."
+    },
+    {
+      "id": 31651,
+      "nrs": "veldolas",
+      "meaningJa": "木枠型板、木製鋳型枠、木製成形型",
+      "meaningEn": "wooden casting frame, timber mold plank, timber molding form",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "dolas"
+      ],
+      "scenario_id": "CANON-COLAB-51",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Yura"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31652,
+      "nrs": "velfalun",
+      "meaningJa": "樹冠木漏れ日、木漏れ光条、樹林採光",
+      "meaningEn": "treetop canopy dappled light, sunbeam filtering, forest daylighting",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "falun"
+      ],
+      "scenario_id": "CANON-COLAB-51",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31653,
+      "nrs": "kirasdar",
+      "meaningJa": "調合清液、整調洗液、精製水滴",
+      "meaningEn": "formulated rinse fluid, alignment wash droplet, refined cleansing drop",
+      "pos": "名",
+      "morphemes": [
+        "kiras",
+        "dar"
+      ],
+      "scenario_id": "CANON-COLAB-51",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Yura"
+      ],
+      "exampleTemplate": "Nerel el mi ia <TERM>."
+    },
+    {
+      "id": 31654,
+      "nrs": "darcelvan",
+      "meaningJa": "水路アーチ水門、導水天井、運河穹窿",
+      "meaningEn": "canal arch sluice, aqueduct vaulted ceiling, waterway masonry dome",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "celvan"
+      ],
+      "scenario_id": "CANON-COLAB-52",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi uo <TERM>."
+    },
+    {
+      "id": 31655,
+      "nrs": "veldankar",
+      "meaningJa": "船台木枠基礎、船渠木製礎、造船木台",
+      "meaningEn": "slipway timber foundation, dock wood plinth, shipbuilding timber cradle",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "dankar"
+      ],
+      "scenario_id": "CANON-COLAB-52",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31656,
+      "nrs": "veldursol",
+      "meaningJa": "木柵防護擁壁、防波木垣、木枠土留め壁",
+      "meaningEn": "timber palisade revetment, wooden breakwater bulkhead, timber crib retaining wall",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "dursol"
+      ],
+      "scenario_id": "CANON-COLAB-52",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Dolar el mi uo <TERM>."
+    },
+    {
+      "id": 31657,
+      "nrs": "nerfalun",
+      "meaningJa": "温室育成光条、薬草受光光輝、滋養照射光",
+      "meaningEn": "greenhouse growth ray, herbal nursery illumination, nutritive sunlight beam",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "falun"
+      ],
+      "scenario_id": "CANON-COLAB-53",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Sev"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31658,
+      "nrs": "nerdolar",
+      "meaningJa": "薬草温室労務、生薬栽培作業、薬剤管理務",
+      "meaningEn": "herbal conservatory labor, medicinal nursery cultivation, pharmacy duty",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "dolar"
+      ],
+      "scenario_id": "CANON-COLAB-53",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Sev"
+      ],
+      "exampleTemplate": "Dolar el mi ia <TERM>."
+    },
+    {
+      "id": 31659,
+      "nrs": "darporan",
+      "meaningJa": "水流導水巡回、水路通水路、導水路巡行",
+      "meaningEn": "canal waterway patrol walk, aqueduct flow inspection, sluice conduit transit",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "poran"
+      ],
+      "scenario_id": "CANON-COLAB-53",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Sev"
+      ],
+      "exampleTemplate": "Poran el mi uo <TERM>."
+    },
+    {
+      "id": 31660,
+      "nrs": "vyrdankar",
+      "meaningJa": "星辰観測石礎、天体望楼基壇、星光台座基礎",
+      "meaningEn": "celestial observation footing, astronomical turret plinth, starlight stone foundation",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "dankar"
+      ],
+      "scenario_id": "CANON-COLAB-54",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31661,
+      "nrs": "vyrporan",
+      "meaningJa": "星辰巡行観測、天体踏査、星行軌跡巡回",
+      "meaningEn": "stellar transit pacing, celestial transit observation, starlight patrol",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "poran"
+      ],
+      "scenario_id": "CANON-COLAB-54",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31662,
+      "nrs": "jynfalun",
+      "meaningJa": "放電光条、閃光信号灯、電気輝光",
+      "meaningEn": "electric discharge ray, flashing spark beacon, electrostatic glow",
+      "pos": "名",
+      "morphemes": [
+        "jyn",
+        "falun"
+      ],
+      "scenario_id": "CANON-COLAB-54",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31663,
+      "nrs": "talfalos",
+      "meaningJa": "大地分光、地盤地質帯、土壌地層スペクトル",
+      "meaningEn": "terrestrial spectrum, ground geological strata band, soil spectral zone",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "falos"
+      ],
+      "scenario_id": "CANON-COLAB-55",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM>."
+    },
+    {
+      "id": 31664,
+      "nrs": "talfalun",
+      "meaningJa": "地表反射光、地面受光、大地光輝",
+      "meaningEn": "ground reflectance light, terrestrial sunlight radiance, earth surface glow",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "falun"
+      ],
+      "scenario_id": "CANON-COLAB-55",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
+    },
+    {
+      "id": 31665,
+      "nrs": "kirasjyn",
+      "meaningJa": "電力整調、電気回路調整、通電安定化",
+      "meaningEn": "electric circuit tuning, power alignment, current stabilization",
+      "pos": "名",
+      "morphemes": [
+        "kiras",
+        "jyn"
+      ],
+      "scenario_id": "CANON-COLAB-55",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Neri",
+        "Toa"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31666,
+      "nrs": "talcelvan",
+      "meaningJa": "地下空洞天蓋、坑道天蓋、地中岩盤ドーム",
+      "meaningEn": "subterranean vault ceiling, adit overhead canopy, underground rock dome",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "celvan"
+      ],
+      "scenario_id": "CANON-COLAB-56",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi uo <TERM>."
+    },
+    {
+      "id": 31667,
+      "nrs": "dardolas",
+      "meaningJa": "排水溝型枠、導水管鋳型、注水成形型",
+      "meaningEn": "drainage ditch casting mold, conduit pipe former, water sluice mold",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "dolas"
+      ],
+      "scenario_id": "CANON-COLAB-56",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31668,
+      "nrs": "dardankar",
+      "meaningJa": "排水溝基礎、水樋石礎、排水路基壇",
+      "meaningEn": "drain gutter stone base, flume foundation footing, drainage ditch plinth",
+      "pos": "名",
+      "morphemes": [
+        "dar",
+        "dankar"
+      ],
+      "scenario_id": "CANON-COLAB-56",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31669,
+      "nrs": "vyrdolar",
+      "meaningJa": "天文台観測労務、星辰観測作業、星辰当直務",
+      "meaningEn": "astronomical observatory labor, celestial sighting task, starlight watch duty",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "dolar"
+      ],
+      "scenario_id": "CANON-COLAB-57",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Dolar el mi ia <TERM>."
+    },
+    {
+      "id": 31670,
+      "nrs": "kirasunor",
+      "meaningJa": "水準調整定数、器具較正値、整調基準数",
+      "meaningEn": "alignment gauge constant, instrument calibration metric, tuning reference number",
+      "pos": "名",
+      "morphemes": [
+        "kiras",
+        "unor"
+      ],
+      "scenario_id": "CANON-COLAB-57",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Soran el mi ia <TERM>."
+    },
+    {
+      "id": 31671,
+      "nrs": "vyrterin",
+      "meaningJa": "天文夜警茶、天測夜勤湯、観測温服茶",
+      "meaningEn": "starlight nightwatch tea, observatory night shift brew, celestial watch hot infusion",
+      "pos": "名",
+      "morphemes": [
+        "vyr",
+        "terin"
+      ],
+      "scenario_id": "CANON-COLAB-57",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Yura"
+      ],
+      "exampleTemplate": "Nerel el mi ia <TERM>."
+    },
+    {
+      "id": 31672,
+      "nrs": "polortyni",
+      "meaningJa": "市民銀貨、公定銀貨幣、通関銀貨",
+      "meaningEn": "civic silver coin, municipal standard silver specie, customs tariff silver",
+      "pos": "名",
+      "morphemes": [
+        "polor",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-58",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31673,
+      "nrs": "polorkym",
+      "meaningJa": "市民夜間警備、公衆夜警、市街夜番",
+      "meaningEn": "civic nocturnal security, municipal nightwatch patrol, citizen evening guard",
+      "pos": "名",
+      "morphemes": [
+        "polor",
+        "kym"
+      ],
+      "scenario_id": "CANON-COLAB-58",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Dolar el mi ia <TERM>."
+    },
+    {
+      "id": 31674,
+      "nrs": "kirasvel",
+      "meaningJa": "木枠整調、木工構造補正、木製器具修繕",
+      "meaningEn": "woodwork alignment, timber framing correction, wooden implement tuning",
+      "pos": "名",
+      "morphemes": [
+        "kiras",
+        "vel"
+      ],
+      "scenario_id": "CANON-COLAB-58",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Toa",
+        "Yura"
+      ],
+      "exampleTemplate": "Kiras el mi ia <TERM>."
+    },
+    {
+      "id": 31675,
+      "nrs": "nerdursol",
+      "meaningJa": "薬草倉石壁、生薬保管石垣、薬剤室防護壁",
+      "meaningEn": "herbal pantry stone dry-wall, pharmacy storage masonry revetment, medicinal chamber rampart",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "dursol"
+      ],
+      "scenario_id": "CANON-COLAB-59",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Dolar el mi uo <TERM>."
+    },
+    {
+      "id": 31676,
+      "nrs": "nerdankar",
+      "meaningJa": "薬棚石礎基礎、生薬棚基壇、貯蔵台座土台",
+      "meaningEn": "herbal cabinet plinth base, apothecary shelving bedrock, storehouse stone footing",
+      "pos": "名",
+      "morphemes": [
+        "ner",
+        "dankar"
+      ],
+      "scenario_id": "CANON-COLAB-59",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31677,
+      "nrs": "velporan",
+      "meaningJa": "森林樹林踏査、樹木採集巡回、森林巡視",
+      "meaningEn": "woodland forestry trail walk, timber foraging transit, forest inspection patrol",
+      "pos": "名",
+      "morphemes": [
+        "vel",
+        "poran"
+      ],
+      "scenario_id": "CANON-COLAB-59",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Kael",
+        "Neri"
+      ],
+      "exampleTemplate": "Poran el mi uo <TERM>."
+    },
+    {
+      "id": 31678,
+      "nrs": "jylastyni",
+      "meaningJa": "同盟記念銀符、盟約銀章、連帯銀牌",
+      "meaningEn": "covenant silver medal, alliance silver insignia, confederacy treaty medallion",
+      "pos": "名",
+      "morphemes": [
+        "jylas",
+        "tyni"
+      ],
+      "scenario_id": "CANON-COLAB-60",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31679,
+      "nrs": "jylasvel",
+      "meaningJa": "同盟記念樹、盟約の木、連帯象徴樹",
+      "meaningEn": "covenant memorial tree, alliance sacred arbor, confederacy symbol tree",
+      "pos": "名",
+      "morphemes": [
+        "jylas",
+        "vel"
+      ],
+      "scenario_id": "CANON-COLAB-60",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vymin el mi ia <TERM>."
+    },
+    {
+      "id": 31680,
+      "nrs": "talfalzon",
+      "meaningJa": "大地偏光、地表散乱光、地質反射光",
+      "meaningEn": "terrestrial polarization light, ground scattered glow, geological reflectance",
+      "pos": "名",
+      "morphemes": [
+        "tal",
+        "falzon"
+      ],
+      "scenario_id": "CANON-COLAB-60",
+      "flags": [],
+      "missingStandaloneConstituents": [],
+      "exactGlossOverlaps": {},
+      "referencedScenarioSpeakers": [
+        "Sev",
+        "Toa"
+      ],
+      "exampleTemplate": "Vyrel el mi ia <TERM>."
     }
   ]
 }
