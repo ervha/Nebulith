@@ -53,6 +53,8 @@ def build_and_verify_canonical_compounds(write_files: bool = True) -> dict:
     legacy_candidates = legacy_ledger.get("candidates", [])
     legacy_pool = [c for c in legacy_candidates if str(c.get("scenario_id", "")).startswith("CONV-")] + [
         c for c in legacy_candidates if str(c.get("scenario_id", "")).startswith("COLAB-")
+    ] + [
+        c for c in legacy_candidates if str(c.get("scenario_id", "")).startswith("UNIV-")
     ]
 
     existing_ext = inventory["extensions"]
