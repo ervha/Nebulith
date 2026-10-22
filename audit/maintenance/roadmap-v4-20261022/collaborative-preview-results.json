@@ -1,0 +1,32 @@
+{
+  "observations": {
+    "at": "2026-10-22T08:38:49.399Z",
+    "categories": {
+      "display": 72,
+      "source": 97
+    },
+    "composition": {
+      "eventsOnly": true,
+      "text": "Jylfen el mi ku ti."
+    },
+    "confirmed": "Vyrel el mi ia dariscon.",
+    "nounChoices": [
+      {
+        "id": "197",
+        "label": "dariscon：包帯、固定具、創傷被覆材"
+      },
+      {
+        "id": "260",
+        "label": "valmik：包帯、防護布、被覆保護材"
+      }
+    ],
+    "selectedText": "Vyrel el mi ia valmik.",
+    "wordCount": 2483
+  },
+  "limitations": {
+    "nativeKeyEventsDelivered": false,
+    "requestedViewportWidth": 390,
+    "observedViewportWidth": 1280,
+    "followup": "Real keyboard and viewport checks were run in tools/verify_roadmap_browser.cjs"
+  }
+}

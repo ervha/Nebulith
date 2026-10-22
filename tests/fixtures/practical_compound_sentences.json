@@ -1,0 +1,36 @@
+{
+  "scope": "独立した期待訳と意味役割。翻訳エンジン自身の出力から期待値を作らない。新文型はアプリ用案。",
+  "complete": [
+    {"source":"私は一息つく。","target":"Zensirin el mi.","root":"zensirin","args":{"el":"mi"}},
+    {"source":"私は家でくつろいだ。","target":"Fe zensirin el mi uo govan.","root":"zensirin","tense":"past","args":{"el":"mi","uo":"govan"}},
+    {"source":"私はあなたに本を譲る。","target":"Renantal el mi ia pamel al ti.","root":"renantal","args":{"el":"mi","ia":"pamel","al":"ti"}},
+    {"source":"あなたは私に本を譲らなかった。","target":"Fe ne renantal el ti ia pamel al mi.","root":"renantal","tense":"past","negative":true,"args":{"el":"ti","ia":"pamel","al":"mi"}},
+    {"source":"私はあなたを労わる。","target":"Zensirani el mi ia ti.","root":"zensirani","args":{"el":"mi","ia":"ti"}},
+    {"source":"私は本を屋内へ取り込む。","target":"Unorkypal el mi ia pamel.","root":"unorkypal","args":{"el":"mi","ia":"pamel"}},
+    {"source":"私は本を屋内へ取り込まなかった。","target":"Fe ne unorkypal el mi ia pamel.","root":"unorkypal","negative":true,"tense":"past","args":{"el":"mi","ia":"pamel"}},
+    {"source":"私は食材を炒める。","target":"Neranzen el mi ia ner.","root":"neranzen","args":{"el":"mi","ia":"ner"}},
+    {"source":"私は食材を炒めない。","target":"Ne neranzen el mi ia ner.","root":"neranzen","negative":true,"args":{"el":"mi","ia":"ner"}},
+    {"source":"私はスープを味見する。","target":"Nerkirel el mi ia darel.","root":"nerkirel","args":{"el":"mi","ia":"darel"}},
+    {"source":"私は家で雫茶を味見しました。","target":"Fe nerkirel el mi ia darterin uo govan.","root":"nerkirel","tense":"past","args":{"el":"mi","ia":"darterin","uo":"govan"}},
+    {"source":"私はスープを味見している。","target":"Di nerkirel el mi ia darel.","root":"nerkirel","aspect":"progressive","args":{"el":"mi","ia":"darel"}},
+    {"source":"私はあなたを見送った。","target":"Fe zenwesan el mi ia ti.","root":"zenwesan","tense":"past","args":{"el":"mi","ia":"ti"}}
+  ],
+  "notComplete": [
+    {"source":"私は味見する。","reason":"必須の対象iaがない","state":"blocked","note":"項構造"},
+    {"source":"私はあなたに譲る。","reason":"受け手alを物iaの代わりにしてはいけない","state":"blocked","note":"項構造"},
+    {"source":"私は本をくつろぐ。","reason":"自動詞に対格を与えてはいけない","state":"blocked","note":"項構造"},
+    {"source":"私は未知の食材を味見する。","reason":"未知語を落として完成扱いしない","state":"blocked","note":"語句・助詞"},
+    {"source":"私は雫茶を見る。","reason":"見るの動作候補が未選択","state":"draft","note":"動作候補"},
+    {"source":"私は水を飲む必要がある。","reason":"未対応の必要性を省略しない","state":"blocked","note":"必要の表現は未対応"},
+    {"source":"私は本を見送る。","reason":"人物の見送りを、物や計画の延期へ拡張しない","state":"blocked","note":"人を見送る用法"},
+    {"source":"私はあなたを見送るので、","reason":"後続の主節が未完成","state":"blocked","note":"原文全体を保持"}
+  ],
+  "invalidNebulith": [
+    "Nonsense el mi.",
+    "Darterin el mi.",
+    "Poran ia darterin.",
+    "Vyrel el mi ia.",
+    "Vyrel el mi el ti.",
+    "Poran nonsense el mi."
+  ]
+}

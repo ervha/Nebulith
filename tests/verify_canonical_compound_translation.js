@@ -13,23 +13,24 @@ vm.runInContext(
 );
 
 const bi = ctx.NebulithBidirectionalEngine;
+assert.equal(bi.translateNebulith('Relen el havsirin al mi.','ja').success,false,'missing ia and invalid al must not be accepted');
 
 // 1. Nebulith -> Japanese compound sentence with 'Sen'
-const r1 = bi.translateNebulith('Sen vyrel el mi ia darfalun ul darterin uo vorn, relen el havsirin al mi.', 'ja');
+const r1 = bi.translateNebulith('Zen vyrel el mi ia darfalun ul darterin uo vorn, zensirin el mi.', 'ja');
 assert.equal(r1.success, true);
 assert.ok(r1.text.includes('露光'), 'Expected 露光 in ' + r1.text);
 assert.ok(r1.text.includes('雫茶'), 'Expected 雫茶 in ' + r1.text);
 assert.ok(r1.text.includes('ので'), 'Expected ので in ' + r1.text);
 
 // 2. Nebulith -> English with prepositional phrases
-const r2 = bi.translateNebulith('Poran el mi to govan ku ti.', 'en');
+const r2 = bi.translateNebulith('Cival el mi ku ti.', 'en');
 assert.equal(r2.success, true);
 assert.ok(r2.text.includes('with you'), 'Expected with you in ' + r2.text);
 
 // 3. English -> Nebulith with 'Because'
 const r4 = bi.translateEnglishToNebulith('Because stars shine, I see vyrcelar.');
 assert.equal(r4.success, true);
-assert.ok(r4.text.startsWith('Sen '), 'Expected Sen in ' + r4.text);
+assert.ok(r4.text.startsWith('Zen '), 'Expected Zen in ' + r4.text);
 assert.ok(r4.text.toLowerCase().includes('vyrcelar'), 'Expected vyrcelar in ' + r4.text);
 
 // 4. English -> Nebulith with aspect modal 'want to'
@@ -54,8 +55,8 @@ assert.ok(r7.text.includes('den Poran'), 'Expected den Poran in ' + r7.text);
 
 // 7. Advanced feature: English prepositional phrases parsing -> Nebulith case markers
 const r8 = bi.translateEnglishToNebulith('I walk to house with you.');
-assert.equal(r8.success, true);
-assert.ok(r8.text.includes('to govan ku ti'), 'Expected to govan ku ti in ' + r8.text);
+assert.equal(r8.success, false);
+assert.match(r8.error,/許容格/); // Core ID902 does not allow ku; do not relax the source frame to fit an old test.
 
 // 8. Interrogative Particle 'ro' (Nebulith -> Japanese & English)
 const r9Ja = bi.translateNebulith('Poran el ti to govan ro?', 'ja');
@@ -85,7 +86,7 @@ assert.ok(r11En.text.includes('that'), 'Expected that in ' + r11En.text);
 // 11. Conditional clause: 'If you walk to house, then I observe water.' -> 'Zen Poran el ti to govan, Vyrel el mi ia daris.'
 const r12 = bi.translateEnglishToNebulith('If you walk to house, then I observe water.');
 assert.equal(r12.success, true);
-assert.ok(r12.text.startsWith('Zen '), 'Expected Zen in ' + r12.text);
+assert.ok(r12.text.startsWith('Sen '), 'Expected Sen in ' + r12.text);
 assert.ok(r12.text.includes('Poran el ti to govan'), 'Expected Poran el ti to govan in ' + r12.text);
 assert.ok(r12.text.includes('Vyrel el mi ia daris'), 'Expected Vyrel el mi ia daris in ' + r12.text);
 
@@ -144,20 +145,20 @@ assert.ok(r15En.text.includes('So that'), 'Expected So that in ' + r15En.text);
 
 // 15. Comparative clause: 'Poran el mi va ti.' -> 'I walk more than you.' / '私は あなたより 歩く.'
 const r16Ja = bi.translateNebulith('Poran el mi va ti.', 'ja');
-assert.equal(r16Ja.success, true);
-assert.ok(r16Ja.text.includes('より'), 'Expected より in ' + r16Ja.text);
+assert.equal(r16Ja.success, false);
+assert.match(r16Ja.error,/許容格/);
 
 const r16En = bi.translateNebulith('Poran el mi va ti.', 'en');
-assert.equal(r16En.success, true);
-assert.ok(r16En.text.includes('more than'), 'Expected more than in ' + r16En.text);
+assert.equal(r16En.success, false);
+assert.match(r16En.error,/許容格/);
 
 const r16 = bi.translateEnglishToNebulith('I walk more than you.');
-assert.equal(r16.success, true);
-assert.ok(r16.text.includes('Poran el mi va ti'), 'Expected Poran el mi va ti in ' + r16.text);
+assert.equal(r16.success, false);
+assert.match(r16.error,/許容格/);
 
 const r17 = bi.translateEnglishToNebulith('The sun is more bright than a star.');
 assert.equal(r17.success, true);
-assert.ok(r17.text.includes('Falani el zohar va vyr'), 'Expected Falani el zohar va vyr in ' + r17.text);
+assert.ok(r17.text.includes('Faluni el zohar va vyr'), 'Expected Faluni el zohar va vyr in ' + r17.text);
 
 // 16. Reported speech: 'I say that you walk to house.' -> 'Fenor el mi ia Poran el ti to govan.'
 const r18 = bi.translateEnglishToNebulith('I say that you walk to house.');

@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-22T08:10:37.682Z",
+  "combinedFilters": true,
+  "good": {
+    "alignment": "原文とNebulithの語句対応\n\n語順が変わるため、対応する語句を並べて表示します。活用・文法標識は複数語に対応することがあります。\n\n私\nmi\n確定訳・主体\nは\nel\n確定訳・格標識\n本\npamel\n確定訳・対象・補語\nを\nia\n確定訳・格標識\nあなた\nti\n確定訳・受け手\nに\nal\n確定訳・格標識\n譲る\nrenantal\n確定訳・述語",
+    "copyDisabled": false,
+    "text": "Renantal el mi ia pamel al ti."
+  },
+  "horizontalOverflow": false,
+  "missing": {
+    "copyDisabled": true,
+    "text": "〔要対応〕 el mi"
+  },
+  "ordinaryCompoundSearch": true,
+  "paging": {
+    "first": "1 / 42ページ",
+    "second": "2 / 42ページ"
+  },
+  "reverse": {
+    "copyDisabled": true,
+    "text": "【構文未確定】"
+  },
+  "url": "http://127.0.0.1:8876/web/index.html?checkpoint=20261022",
+  "viewport": {
+    "height": 800,
+    "width": 1280
+  }
+}

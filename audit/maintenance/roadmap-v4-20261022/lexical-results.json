@@ -1,0 +1,15 @@
+{
+  "lexicalGoldenSentences": 157,
+  "additionalVerbRoots": 43,
+  "verbArgumentRejections": 43,
+  "verbPastReverseWitnesses": 43,
+  "adjectiveRules": 8,
+  "heldAdjectives": 6,
+  "attributiveOnly": 3,
+  "reverseRejectedCases": 18,
+  "reverseMorphologyGoldens": 12,
+  "recipientAmbiguityRejected": true,
+  "nounChoices": 2,
+  "contextRequiresConfirmation": true,
+  "fragmentSourceReconstruction": true
+}

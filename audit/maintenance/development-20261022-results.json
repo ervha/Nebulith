@@ -1,0 +1,11 @@
+{
+  "catalogEntries": 2483,
+  "uniquePagedEntries": 2483,
+  "pages": 42,
+  "completeGoldenSentences": 13,
+  "rejectedJapaneseCases": 8,
+  "rejectedNebulithCases": 12,
+  "autoSubjectNeedsConfirmation": true,
+  "ambiguousImportedGlossBlocked": true,
+  "wordLookupIsNotSentenceSuccess": true
+}

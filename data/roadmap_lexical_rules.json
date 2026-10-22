@@ -1,0 +1,1928 @@
+{
+  "schemaVersion": 1,
+  "status": "アプリ用の語義限定・項構造案。独立した言語審査の承認ではない。",
+  "sources": [
+    "data/translation_extensions.json",
+    "data/verified_canonical_compounds.json"
+  ],
+  "verbs": [
+    {
+      "id": 30151,
+      "lemma": "完成する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「完成する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30152,
+      "lemma": "維持する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「維持する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30154,
+      "lemma": "緑づく",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「緑づく」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30155,
+      "lemma": "透き通る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「透き通る」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30156,
+      "lemma": "踏破する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「踏破する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30157,
+      "lemma": "静まる",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「静まる」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30158,
+      "lemma": "仲直りする",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「仲直りする」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30159,
+      "lemma": "回想する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「回想する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30160,
+      "lemma": "道案内する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「道案内する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30193,
+      "lemma": "渡り歩く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「渡り歩く」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30195,
+      "lemma": "談笑する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「談笑する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30196,
+      "lemma": "書き継ぐ",
+      "conjugation": "ぐ",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「書き継ぐ」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30197,
+      "lemma": "理解し尽くす",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「理解し尽くす」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30198,
+      "lemma": "夜明けに出立する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「夜明けに出立する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30199,
+      "lemma": "絆を結ぶ",
+      "conjugation": "ぶ",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「絆を結ぶ」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30200,
+      "lemma": "夜に籠もる",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「夜に籠もる」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30359,
+      "lemma": "染み渡る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「染み渡る」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30360,
+      "lemma": "微調整する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「微調整する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30361,
+      "lemma": "凝縮する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「凝縮する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30362,
+      "lemma": "超越する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「超越する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30363,
+      "lemma": "反響する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「反響する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30364,
+      "lemma": "昇華する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「昇華する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30365,
+      "lemma": "刻印する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「刻印する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30366,
+      "lemma": "踏査する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「踏査する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30367,
+      "lemma": "集約する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「集約する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30368,
+      "lemma": "共振する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「共振する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30369,
+      "lemma": "解き放つ",
+      "conjugation": "つ",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「解き放つ」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30370,
+      "lemma": "断ち切る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「断ち切る」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30371,
+      "lemma": "煎じる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「煎じる」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30372,
+      "lemma": "瞑想する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「瞑想する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30373,
+      "lemma": "凍結させる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「凍結させる」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30374,
+      "lemma": "芽吹く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「芽吹く」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30375,
+      "lemma": "仰ぎ見る",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「仰ぎ見る」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30376,
+      "lemma": "根付く",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「根付く」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30377,
+      "lemma": "研ぎ澄ます",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「研ぎ澄ます」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30378,
+      "lemma": "遮蔽する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「遮蔽する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30379,
+      "lemma": "熱望する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「熱望する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30380,
+      "lemma": "沈殿する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「沈殿する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30381,
+      "lemma": "風化する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「風化する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30382,
+      "lemma": "統御する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「統御する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 30383,
+      "lemma": "紡ぎ出す",
+      "conjugation": "す",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「紡ぎ出す」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 31882,
+      "lemma": "優しく撫でる",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「優しく撫でる」の用法に限定。他の辞書語義・自他交替は未確認。"
+    },
+    {
+      "id": 31892,
+      "lemma": "恒星周回する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "「恒星周回する」の用法に限定。他の辞書語義・自他交替は未確認。"
+    }
+  ],
+  "adjectives": [
+    {
+      "id": 31865,
+      "lemma": "肌馴染みの良い",
+      "kind": "i",
+      "predicative": true,
+      "note": "原義に限定した修飾用法。叙述も対応。",
+      "predicateLemma": "肌馴染みが良い"
+    },
+    {
+      "id": 31889,
+      "lemma": "ハビタブルな",
+      "kind": "na",
+      "predicative": true,
+      "note": "原義に限定した修飾用法。叙述も対応。"
+    },
+    {
+      "id": 31935,
+      "lemma": "明晰判明な",
+      "kind": "na",
+      "predicative": true,
+      "note": "原義に限定した修飾用法。叙述も対応。"
+    },
+    {
+      "id": 31941,
+      "lemma": "内面潮流澄明な",
+      "kind": "na",
+      "predicative": true,
+      "note": "原義に限定した修飾用法。叙述も対応。"
+    },
+    {
+      "id": 31948,
+      "lemma": "静止澄明な",
+      "kind": "na",
+      "predicative": true,
+      "note": "原義に限定した修飾用法。叙述も対応。"
+    },
+    {
+      "id": 32000,
+      "lemma": "清浄生薬の",
+      "kind": "no",
+      "predicative": false,
+      "note": "原義に限定した修飾用法。「の」修飾のみ対応。叙述は未確定のため保留。"
+    },
+    {
+      "id": 32006,
+      "lemma": "精製生薬の",
+      "kind": "no",
+      "predicative": false,
+      "note": "原義に限定した修飾用法。「の」修飾のみ対応。叙述は未確定のため保留。"
+    },
+    {
+      "id": 32017,
+      "lemma": "精緻切削石工の",
+      "kind": "no",
+      "predicative": false,
+      "note": "原義に限定した修飾用法。「の」修飾のみ対応。叙述は未確定のため保留。"
+    }
+  ],
+  "held": [
+    {
+      "id": 31939,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31940,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31946,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31949,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31950,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31977,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    }
+  ],
+  "examples": [
+    {
+      "id": "RD-30151-0",
+      "root": "farven",
+      "ja": "本は完成する。",
+      "neb": "Farven el pamel.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30151-1",
+      "root": "farven",
+      "ja": "本は完成した。",
+      "neb": "Fe farven el pamel.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30151-2",
+      "root": "farven",
+      "ja": "本は完成しない。",
+      "neb": "Ne farven el pamel.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30152-3",
+      "root": "livtas",
+      "ja": "私は家を維持する。",
+      "neb": "Livtas el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30152-4",
+      "root": "livtas",
+      "ja": "私は家を維持した。",
+      "neb": "Fe livtas el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30152-5",
+      "root": "livtas",
+      "ja": "私は家を維持しない。",
+      "neb": "Ne livtas el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30154-6",
+      "root": "velfal",
+      "ja": "森は緑づく。",
+      "neb": "Velfal el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30154-7",
+      "root": "velfal",
+      "ja": "森は緑づいた。",
+      "neb": "Fe velfal el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30154-8",
+      "root": "velfal",
+      "ja": "森は緑づかない。",
+      "neb": "Ne velfal el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30155-9",
+      "root": "korfal",
+      "ja": "水は透き通る。",
+      "neb": "Korfal el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30155-10",
+      "root": "korfal",
+      "ja": "水は透き通った。",
+      "neb": "Fe korfal el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30155-11",
+      "root": "korfal",
+      "ja": "水は透き通らない。",
+      "neb": "Ne korfal el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30156-12",
+      "root": "talpor",
+      "ja": "私は森を踏破する。",
+      "neb": "Talpor el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30156-13",
+      "root": "talpor",
+      "ja": "私は森を踏破した。",
+      "neb": "Fe talpor el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30156-14",
+      "root": "talpor",
+      "ja": "私は森を踏破しない。",
+      "neb": "Ne talpor el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30157-15",
+      "root": "sirvan",
+      "ja": "私は静まる。",
+      "neb": "Sirvan el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30157-16",
+      "root": "sirvan",
+      "ja": "私は静まった。",
+      "neb": "Fe sirvan el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30157-17",
+      "root": "sirvan",
+      "ja": "私は静まらない。",
+      "neb": "Ne sirvan el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30158-18",
+      "root": "jylfen",
+      "ja": "私はあなたと仲直りする。",
+      "neb": "Jylfen el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30158-19",
+      "root": "jylfen",
+      "ja": "私はあなたと仲直りした。",
+      "neb": "Fe jylfen el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30158-20",
+      "root": "jylfen",
+      "ja": "私はあなたと仲直りしない。",
+      "neb": "Ne jylfen el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30159-21",
+      "root": "revcal",
+      "ja": "私は物語を回想する。",
+      "neb": "Revcal el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30159-22",
+      "root": "revcal",
+      "ja": "私は物語を回想した。",
+      "neb": "Fe revcal el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30159-23",
+      "root": "revcal",
+      "ja": "私は物語を回想しない。",
+      "neb": "Ne revcal el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30160-24",
+      "root": "zoldar",
+      "ja": "私はあなたを道案内する。",
+      "neb": "Zoldar el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30160-25",
+      "root": "zoldar",
+      "ja": "私はあなたを道案内した。",
+      "neb": "Fe zoldar el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30160-26",
+      "root": "zoldar",
+      "ja": "私はあなたを道案内しない。",
+      "neb": "Ne zoldar el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30193-27",
+      "root": "porven",
+      "ja": "私は森を渡り歩く。",
+      "neb": "Porven el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30193-28",
+      "root": "porven",
+      "ja": "私は森を渡り歩いた。",
+      "neb": "Fe porven el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30193-29",
+      "root": "porven",
+      "ja": "私は森を渡り歩かない。",
+      "neb": "Ne porven el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30195-30",
+      "root": "silfen",
+      "ja": "私はあなたと談笑する。",
+      "neb": "Silfen el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30195-31",
+      "root": "silfen",
+      "ja": "私はあなたと談笑した。",
+      "neb": "Fe silfen el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30195-32",
+      "root": "silfen",
+      "ja": "私はあなたと談笑しない。",
+      "neb": "Ne silfen el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30196-33",
+      "root": "kiranliv",
+      "ja": "私は物語を書き継ぐ。",
+      "neb": "Kiranliv el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30196-34",
+      "root": "kiranliv",
+      "ja": "私は物語を書き継いだ。",
+      "neb": "Fe kiranliv el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30196-35",
+      "root": "kiranliv",
+      "ja": "私は物語を書き継がない。",
+      "neb": "Ne kiranliv el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30197-36",
+      "root": "novfar",
+      "ja": "私は物語を理解し尽くす。",
+      "neb": "Novfar el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30197-37",
+      "root": "novfar",
+      "ja": "私は物語を理解し尽くした。",
+      "neb": "Fe novfar el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30197-38",
+      "root": "novfar",
+      "ja": "私は物語を理解し尽くさない。",
+      "neb": "Ne novfar el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30198-39",
+      "root": "falpor",
+      "ja": "私は夜明けに出立する。",
+      "neb": "Falpor el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30198-40",
+      "root": "falpor",
+      "ja": "私は夜明けに出立した。",
+      "neb": "Fe falpor el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30198-41",
+      "root": "falpor",
+      "ja": "私は夜明けに出立しない。",
+      "neb": "Ne falpor el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30199-42",
+      "root": "cynjylas",
+      "ja": "私はあなたと絆を結ぶ。",
+      "neb": "Cynjylas el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30199-43",
+      "root": "cynjylas",
+      "ja": "私はあなたと絆を結んだ。",
+      "neb": "Fe cynjylas el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30199-44",
+      "root": "cynjylas",
+      "ja": "私はあなたと絆を結ばない。",
+      "neb": "Ne cynjylas el mi ku ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30200-45",
+      "root": "kymmor",
+      "ja": "私は夜に籠もる。",
+      "neb": "Kymmor el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30200-46",
+      "root": "kymmor",
+      "ja": "私は夜に籠もった。",
+      "neb": "Fe kymmor el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30200-47",
+      "root": "kymmor",
+      "ja": "私は夜に籠もらない。",
+      "neb": "Ne kymmor el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30359-48",
+      "root": "valmir",
+      "ja": "水は染み渡る。",
+      "neb": "Valmir el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30359-49",
+      "root": "valmir",
+      "ja": "水は染み渡った。",
+      "neb": "Fe valmir el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30359-50",
+      "root": "valmir",
+      "ja": "水は染み渡らない。",
+      "neb": "Ne valmir el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30360-51",
+      "root": "jyltan",
+      "ja": "私は家を微調整する。",
+      "neb": "Jyltan el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30360-52",
+      "root": "jyltan",
+      "ja": "私は家を微調整した。",
+      "neb": "Fe jyltan el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30360-53",
+      "root": "jyltan",
+      "ja": "私は家を微調整しない。",
+      "neb": "Ne jyltan el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30361-54",
+      "root": "vorpad",
+      "ja": "水は凝縮する。",
+      "neb": "Vorpad el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30361-55",
+      "root": "vorpad",
+      "ja": "水は凝縮した。",
+      "neb": "Fe vorpad el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30361-56",
+      "root": "vorpad",
+      "ja": "水は凝縮しない。",
+      "neb": "Ne vorpad el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30362-57",
+      "root": "tarzon",
+      "ja": "私は超越する。",
+      "neb": "Tarzon el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30362-58",
+      "root": "tarzon",
+      "ja": "私は超越した。",
+      "neb": "Fe tarzon el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30362-59",
+      "root": "tarzon",
+      "ja": "私は超越しない。",
+      "neb": "Ne tarzon el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30363-60",
+      "root": "nyrmel",
+      "ja": "声は反響する。",
+      "neb": "Nyrmel el vylen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30363-61",
+      "root": "nyrmel",
+      "ja": "声は反響した。",
+      "neb": "Fe nyrmel el vylen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30363-62",
+      "root": "nyrmel",
+      "ja": "声は反響しない。",
+      "neb": "Ne nyrmel el vylen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30364-63",
+      "root": "falvor",
+      "ja": "水は昇華する。",
+      "neb": "Falvor el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30364-64",
+      "root": "falvor",
+      "ja": "水は昇華した。",
+      "neb": "Fe falvor el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30364-65",
+      "root": "falvor",
+      "ja": "水は昇華しない。",
+      "neb": "Ne falvor el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30365-66",
+      "root": "dalken",
+      "ja": "私は石を刻印する。",
+      "neb": "Dalken el mi ia talyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30365-67",
+      "root": "dalken",
+      "ja": "私は石を刻印した。",
+      "neb": "Fe dalken el mi ia talyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30365-68",
+      "root": "dalken",
+      "ja": "私は石を刻印しない。",
+      "neb": "Ne dalken el mi ia talyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30366-69",
+      "root": "peldor",
+      "ja": "私は森を踏査する。",
+      "neb": "Peldor el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30366-70",
+      "root": "peldor",
+      "ja": "私は森を踏査した。",
+      "neb": "Fe peldor el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30366-71",
+      "root": "peldor",
+      "ja": "私は森を踏査しない。",
+      "neb": "Ne peldor el mi ia velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30367-72",
+      "root": "kelsur",
+      "ja": "私は物語を集約する。",
+      "neb": "Kelsur el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30367-73",
+      "root": "kelsur",
+      "ja": "私は物語を集約した。",
+      "neb": "Fe kelsur el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30367-74",
+      "root": "kelsur",
+      "ja": "私は物語を集約しない。",
+      "neb": "Ne kelsur el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30368-75",
+      "root": "zenpar",
+      "ja": "声は共振する。",
+      "neb": "Zenpar el vylen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30368-76",
+      "root": "zenpar",
+      "ja": "声は共振した。",
+      "neb": "Fe zenpar el vylen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30368-77",
+      "root": "zenpar",
+      "ja": "声は共振しない。",
+      "neb": "Ne zenpar el vylen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30369-78",
+      "root": "marvyl",
+      "ja": "私はあなたを解き放つ。",
+      "neb": "Marvyl el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30369-79",
+      "root": "marvyl",
+      "ja": "私はあなたを解き放った。",
+      "neb": "Fe marvyl el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30369-80",
+      "root": "marvyl",
+      "ja": "私はあなたを解き放たない。",
+      "neb": "Ne marvyl el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30370-81",
+      "root": "tornen",
+      "ja": "私は物語を断ち切る。",
+      "neb": "Tornen el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30370-82",
+      "root": "tornen",
+      "ja": "私は物語を断ち切った。",
+      "neb": "Fe tornen el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30370-83",
+      "root": "tornen",
+      "ja": "私は物語を断ち切らない。",
+      "neb": "Ne tornen el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30371-84",
+      "root": "surlon",
+      "ja": "私は薬を煎じる。",
+      "neb": "Surlon el mi ia zyvil.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30371-85",
+      "root": "surlon",
+      "ja": "私は薬を煎じた。",
+      "neb": "Fe surlon el mi ia zyvil.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30371-86",
+      "root": "surlon",
+      "ja": "私は薬を煎じない。",
+      "neb": "Ne surlon el mi ia zyvil.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30372-87",
+      "root": "lyrzen",
+      "ja": "私は瞑想する。",
+      "neb": "Lyrzen el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30372-88",
+      "root": "lyrzen",
+      "ja": "私は瞑想した。",
+      "neb": "Fe lyrzen el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30372-89",
+      "root": "lyrzen",
+      "ja": "私は瞑想しない。",
+      "neb": "Ne lyrzen el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30373-90",
+      "root": "kymtor",
+      "ja": "私は水を凍結させる。",
+      "neb": "Kymtor el mi ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30373-91",
+      "root": "kymtor",
+      "ja": "私は水を凍結させた。",
+      "neb": "Fe kymtor el mi ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30373-92",
+      "root": "kymtor",
+      "ja": "私は水を凍結させない。",
+      "neb": "Ne kymtor el mi ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30374-93",
+      "root": "novpan",
+      "ja": "森は芽吹く。",
+      "neb": "Novpan el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30374-94",
+      "root": "novpan",
+      "ja": "森は芽吹いた。",
+      "neb": "Fe novpan el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30374-95",
+      "root": "novpan",
+      "ja": "森は芽吹かない。",
+      "neb": "Ne novpan el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30375-96",
+      "root": "celmar",
+      "ja": "私は星を仰ぎ見る。",
+      "neb": "Celmar el mi ia vyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30375-97",
+      "root": "celmar",
+      "ja": "私は星を仰ぎ見た。",
+      "neb": "Fe celmar el mi ia vyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30375-98",
+      "root": "celmar",
+      "ja": "私は星を仰ぎ見ない。",
+      "neb": "Ne celmar el mi ia vyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30376-99",
+      "root": "tulpar",
+      "ja": "森は根付く。",
+      "neb": "Tulpar el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30376-100",
+      "root": "tulpar",
+      "ja": "森は根付いた。",
+      "neb": "Fe tulpar el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30376-101",
+      "root": "tulpar",
+      "ja": "森は根付かない。",
+      "neb": "Ne tulpar el velom.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30377-102",
+      "root": "durfal",
+      "ja": "私は心を研ぎ澄ます。",
+      "neb": "Durfal el mi ia sylim.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30377-103",
+      "root": "durfal",
+      "ja": "私は心を研ぎ澄ました。",
+      "neb": "Fe durfal el mi ia sylim.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30377-104",
+      "root": "durfal",
+      "ja": "私は心を研ぎ澄まさない。",
+      "neb": "Ne durfal el mi ia sylim.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30378-105",
+      "root": "morken",
+      "ja": "私は家を遮蔽する。",
+      "neb": "Morken el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30378-106",
+      "root": "morken",
+      "ja": "私は家を遮蔽した。",
+      "neb": "Fe morken el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30378-107",
+      "root": "morken",
+      "ja": "私は家を遮蔽しない。",
+      "neb": "Ne morken el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30379-108",
+      "root": "fanvor",
+      "ja": "私は水を熱望する。",
+      "neb": "Fanvor el mi ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30379-109",
+      "root": "fanvor",
+      "ja": "私は水を熱望した。",
+      "neb": "Fe fanvor el mi ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30379-110",
+      "root": "fanvor",
+      "ja": "私は水を熱望しない。",
+      "neb": "Ne fanvor el mi ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30380-111",
+      "root": "solmer",
+      "ja": "水は沈殿する。",
+      "neb": "Solmer el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30380-112",
+      "root": "solmer",
+      "ja": "水は沈殿した。",
+      "neb": "Fe solmer el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30380-113",
+      "root": "solmer",
+      "ja": "水は沈殿しない。",
+      "neb": "Ne solmer el daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30381-114",
+      "root": "zelmar",
+      "ja": "石は風化する。",
+      "neb": "Zelmar el talyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30381-115",
+      "root": "zelmar",
+      "ja": "石は風化した。",
+      "neb": "Fe zelmar el talyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30381-116",
+      "root": "zelmar",
+      "ja": "石は風化しない。",
+      "neb": "Ne zelmar el talyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30382-117",
+      "root": "kirlan",
+      "ja": "私は家を統御する。",
+      "neb": "Kirlan el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30382-118",
+      "root": "kirlan",
+      "ja": "私は家を統御した。",
+      "neb": "Fe kirlan el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30382-119",
+      "root": "kirlan",
+      "ja": "私は家を統御しない。",
+      "neb": "Ne kirlan el mi ia govan.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30383-120",
+      "root": "velpar",
+      "ja": "私は物語を紡ぎ出す。",
+      "neb": "Velpar el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30383-121",
+      "root": "velpar",
+      "ja": "私は物語を紡ぎ出した。",
+      "neb": "Fe velpar el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-30383-122",
+      "root": "velpar",
+      "ja": "私は物語を紡ぎ出さない。",
+      "neb": "Ne velpar el mi ia soralen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31882-123",
+      "root": "serlitzen",
+      "ja": "私はあなたを優しく撫でる。",
+      "neb": "Serlitzen el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31882-124",
+      "root": "serlitzen",
+      "ja": "私はあなたを優しく撫でた。",
+      "neb": "Fe serlitzen el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31882-125",
+      "root": "serlitzen",
+      "ja": "私はあなたを優しく撫でない。",
+      "neb": "Ne serlitzen el mi ia ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31892-126",
+      "root": "darvoris",
+      "ja": "惑星は恒星周回する。",
+      "neb": "Darvoris el doran.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31892-127",
+      "root": "darvoris",
+      "ja": "惑星は恒星周回した。",
+      "neb": "Fe darvoris el doran.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31892-128",
+      "root": "darvoris",
+      "ja": "惑星は恒星周回しない。",
+      "neb": "Ne darvoris el doran.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31865-129",
+      "root": "zendarini",
+      "ja": "私は肌馴染みの良い衣服を観測する。",
+      "neb": "Vyrel el mi ia valis zendarini.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31865-130",
+      "root": "zendarini",
+      "ja": "衣服は肌馴染みが良い。",
+      "neb": "Relen el valis ia zendarini.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31865-131",
+      "root": "zendarini",
+      "ja": "衣服は肌馴染みが良かった。",
+      "neb": "Fe relen el valis ia zendarini.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31865-132",
+      "root": "zendarini",
+      "ja": "衣服は肌馴染みが良くない。",
+      "neb": "Ne relen el valis ia zendarini.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31865-133",
+      "root": "zendarini",
+      "ja": "衣服は肌馴染みが良くなかった。",
+      "neb": "Fe ne relen el valis ia zendarini.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31889-134",
+      "root": "bionvyri",
+      "ja": "私はハビタブルな惑星を観測する。",
+      "neb": "Vyrel el mi ia doran bionvyri.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31889-135",
+      "root": "bionvyri",
+      "ja": "惑星はハビタブルだ。",
+      "neb": "Relen el doran ia bionvyri.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31889-136",
+      "root": "bionvyri",
+      "ja": "惑星はハビタブルだった。",
+      "neb": "Fe relen el doran ia bionvyri.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31889-137",
+      "root": "bionvyri",
+      "ja": "惑星はハビタブルではない。",
+      "neb": "Ne relen el doran ia bionvyri.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31889-138",
+      "root": "bionvyri",
+      "ja": "惑星はハビタブルではなかった。",
+      "neb": "Fe ne relen el doran ia bionvyri.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31935-139",
+      "root": "zenalin",
+      "ja": "私は明晰判明な心を観測する。",
+      "neb": "Vyrel el mi ia sylim zenalin.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31935-140",
+      "root": "zenalin",
+      "ja": "心は明晰判明だ。",
+      "neb": "Relen el sylim ia zenalin.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31935-141",
+      "root": "zenalin",
+      "ja": "心は明晰判明だった。",
+      "neb": "Fe relen el sylim ia zenalin.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31935-142",
+      "root": "zenalin",
+      "ja": "心は明晰判明ではない。",
+      "neb": "Ne relen el sylim ia zenalin.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31935-143",
+      "root": "zenalin",
+      "ja": "心は明晰判明ではなかった。",
+      "neb": "Fe ne relen el sylim ia zenalin.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31941-144",
+      "root": "alinzen",
+      "ja": "私は内面潮流澄明な心を観測する。",
+      "neb": "Vyrel el mi ia sylim alinzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31941-145",
+      "root": "alinzen",
+      "ja": "心は内面潮流澄明だ。",
+      "neb": "Relen el sylim ia alinzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31941-146",
+      "root": "alinzen",
+      "ja": "心は内面潮流澄明だった。",
+      "neb": "Fe relen el sylim ia alinzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31941-147",
+      "root": "alinzen",
+      "ja": "心は内面潮流澄明ではない。",
+      "neb": "Ne relen el sylim ia alinzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31941-148",
+      "root": "alinzen",
+      "ja": "心は内面潮流澄明ではなかった。",
+      "neb": "Fe ne relen el sylim ia alinzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31948-149",
+      "root": "elirzen",
+      "ja": "私は静止澄明な心を観測する。",
+      "neb": "Vyrel el mi ia sylim elirzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31948-150",
+      "root": "elirzen",
+      "ja": "心は静止澄明だ。",
+      "neb": "Relen el sylim ia elirzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31948-151",
+      "root": "elirzen",
+      "ja": "心は静止澄明だった。",
+      "neb": "Fe relen el sylim ia elirzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31948-152",
+      "root": "elirzen",
+      "ja": "心は静止澄明ではない。",
+      "neb": "Ne relen el sylim ia elirzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-31948-153",
+      "root": "elirzen",
+      "ja": "心は静止澄明ではなかった。",
+      "neb": "Fe ne relen el sylim ia elirzen.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-32000-154",
+      "root": "biondaron",
+      "ja": "私は清浄生薬の水を観測する。",
+      "neb": "Vyrel el mi ia daris biondaron.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-32006-155",
+      "root": "neranalin",
+      "ja": "私は精製生薬の水を観測する。",
+      "neb": "Vyrel el mi ia daris neranalin.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "RD-32017-156",
+      "root": "falosvel",
+      "ja": "私は精緻切削石工の石を観測する。",
+      "neb": "Vyrel el mi ia talyr falosvel.",
+      "tag": "文型整備用例（アプリ用案）"
+    }
+  ]
+}

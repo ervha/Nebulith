@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-22",
+  "baseCommit": "f985971c3c816a7dfcd83603a5dc0f8029b4e66d",
+  "scope": "Roadmap v4 development acceptance; not independent linguistic certification",
+  "counts": {
+    "pythonPassed": 78,
+    "nodeSuitesPassed": 25,
+    "overlap": true
+  },
+  "lexical": {
+    "lexicalGoldenSentences": 157,
+    "additionalVerbRoots": 43,
+    "verbArgumentRejections": 43,
+    "verbPastReverseWitnesses": 43,
+    "adjectiveRules": 8,
+    "heldAdjectives": 6,
+    "attributiveOnly": 3,
+    "reverseRejectedCases": 18,
+    "reverseMorphologyGoldens": 12,
+    "recipientAmbiguityRejected": true,
+    "nounChoices": 2,
+    "contextRequiresConfirmation": true,
+    "fragmentSourceReconstruction": true
+  },
+  "browser": {
+    "results": "browser-results.json",
+    "realKeyboard": true,
+    "offlineWorkerUpdate": true,
+    "standaloneOffline": true,
+    "nativeMicrosoftIme": false,
+    "physicalMobile": false,
+    "androidEmulator": "DEVICE_IN_USE",
+    "iOS": "Unavailable: macOS/Xcode required"
+  },
+  "held": [
+    {
+      "id": 31939,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31940,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31946,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31949,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31950,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 31977,
+      "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    }
+  ],
+  "publication": {
+    "webRegenerated": true,
+    "githubPush": false,
+    "pdfChanged": false
+  },
+  "sha256": {
+    "audit/maintenance/roadmap-v4-20261022/browser-backup.json": "d39e0f5e7739205c0ffe3d73522f89389877f6e9f19f5755857fd4d21efe0dce",
+    "audit/maintenance/roadmap-v4-20261022/browser-failure.json": "b52af08cd94348aa3c3900e948f283751fea183ee6a23e3699ea181d1aeb0926",
+    "audit/maintenance/roadmap-v4-20261022/browser-results.json": "3352d24cb6a3adbc9c3f6b316e8d2f4c8d64aecd5519454ba1402f03b0a711d7",
+    "audit/maintenance/roadmap-v4-20261022/collaborative-preview-results.json": "34a86541086e9903e0d6e4a010ea767bc1e727ada4d7ebedca2e50df20e12261",
+    "audit/maintenance/roadmap-v4-20261022/lexical-results.json": "f78299290cef265f17e643c855519cc5c21164be917348fc16d3fbae7419b613",
+    "audit/maintenance/roadmap-v4-20261022/mobile-layout.png": "d790e265a435ae6bd012b75512dc0457fcf86c7487bb79231db8e207ac1133f4",
+    "audit/maintenance/roadmap-v4-20261022/node-final.txt": "9632b43000b2e48f67281569ea64b64ced236f508d577ba9aa48cf8562cefdda",
+    "audit/maintenance/roadmap-v4-20261022/node-initial.txt": "b16c7b0f1b5c389462369fbed3afc8b475ad6fce70bf5fa456f6f1220fbdff57",
+    "audit/maintenance/roadmap-v4-20261022/python-final.txt": "4749159ac056423246d108a4273cdd57770b435dcf752dc982df42b7489e4d26",
+    "audit/maintenance/roadmap-v4-20261022/python-initial.txt": "7df20272ca48205e955b4f7a03cd46cc92ccfc3db2d0ca7d4bf226fd2cf5f108",
+    "audit/maintenance/roadmap-v4-20261022/python-intermediate.txt": "ab63460226f8f7e18a3eef7060930927c4656e8543670635a5eb98e5b0bcf57f",
+    "audit/maintenance/roadmap-v4-20261022/report.md": "ab9d4b0c0da220284fcc8f15cfe7339840b7594482a14c6eac77167800871e01",
+    "data/compound_translation_patterns.json": "14b70b00080417b177f87e1cbcc70bf814a2ec5476892e365a60ee16170811e6",
+    "data/roadmap_lexical_rules.json": "2fae2cefee9953374093749dbd6fdc6a13469b2d9a3c371782ea765067c5aa6f",
+    "data/studio_categories.json": "df39823adb4a8579e2ff8dc7a5c7ecd757e7c6a1e60bb734b0cc9985df3c00cb",
+    "docs/NEXT_DEVELOPMENT_PLAN.md": "2d543a37fe162992562d8c06f0aca251da5f94a3e0f1c3b4c6898b7ed3744682",
+    "docs/TRANSLATION_COVERAGE.md": "e79dbb070ec83c159fadb74bfc45331e7ab9d70a9d6b7e48395b6278ead7ad77",
+    "tests/fixtures/roadmap_lexical_goldens.json": "b5c61b739dd0ed7b636c1ec9e76b11d43ca96882822bc7f48a12a024ffcc69bf",
+    "tests/test_canonical_compounds.py": "9cfb1098ead6ccd92273714c8c6f141114174780bd27a232ad059b3444506d40",
+    "tests/test_roadmap_v4.py": "74a9ae62e77978699632564b10520adbd8e1c542d10cd91b61f312274037913e",
+    "tests/verify_bidirectional_engine.js": "ce710693a5b8bb0a998b4b2095cf708eae0e722562218891c91c262841d1fe74",
+    "tests/verify_canonical_compound_translation.js": "2f3ec404dd9f59d470b391fab1e74c034c8a5ada08ae00730a19933aaa975f0f",
+    "tests/verify_roadmap_v4.js": "52d0f06a239d024e281bf6c8ef0a8333562534c865b17a83b786817ae9fe8134",
+    "tests/verify_studio.js": "53180a6a96ef5173684e0df2ccba6f318b773129d6c87b9df65bb7f1f706a1cb",
+    "tools/build_web_studio.py": "f46c83ffaf9b582d57933a6279d6a937e9b86c9ad1a7d935652eecf3f89e42bf",
+    "tools/report_translation_coverage.js": "a2e12eb5afb4a2a1391e611b04973e8cf88f916ba182f84ab7c7f0b448368877",
+    "tools/verify_roadmap_browser.cjs": "0b5ae19ac881b75a4d78050b04cccf5eb00116df92e8e28a209e90d496b34f3d",
+    "tools/verify_web_bundle.py": "47cd16a2ac182b62b4819bf667b7c66b5c56aa14e5418be15e151158eb32e58c",
+    "web/README.md": "092e46f617a58c6009ce53e88910b68dd69f7b7a8f1721047e684e5139054978",
+    "web/app.js": "10df9fea7dbca3431fb26833b7032eba44299a059d728348a2a883ba3bfad76a",
+    "web/bidirectional.js": "3851819f425da310fe82e463d692eb965cc49b03aaf4e320bb42d7609cc96e28",
+    "web/build-manifest.json": "55066c04fcc8ee636697c756da8140388b88bc3d2045db77b38e570376c3aae8",
+    "web/data.js": "c7a3f6316ac6e42619fc8d55129fb7e9f35a3a8af708af4ce03d15d38fde2122",
+    "web/incremental.js": "ad76763d647b0c3cbad4a574489ce1d54267c84bac412b498f8cef9bfc2a91b9",
+    "web/index.html": "e142f0387fc3fe922d31c0f1ad451a9ba260e4557bed765c8bb1766efabcda7d",
+    "web/service-worker.js": "9fdb016d1b9b554a4b6f1103ef87f5f9d043113b3ff5b7e0062f07aff1a9e032",
+    "web/standalone.html": "43431021be60564b571d484a73d11bae6cec7a82c50e6b509f8bcd6c66317d26",
+    "web/workspace.js": "4d291d346f960efedd74d96c99993f814803fe96299abaf8d9f3267485015381"
+  },
+  "releaseReadiness": {
+    "localAcceptance": true,
+    "deploymentPerformed": false,
+    "pending": [
+      "Six adjective definitions/parts of speech",
+      "Three attributive-only predicates",
+      "renantal source argument-role review",
+      "Microsoft IME native input",
+      "physical mobile"
+    ]
+  }
+}

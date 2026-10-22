@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "status": "アプリ用の項構造案。語彙・文法の独立承認を付与しない。",
+  "source": "data/verified_canonical_compounds.json",
+  "verbs": [
+    {
+      "id": 31860,
+      "lemma": "くつろぐ",
+      "conjugation": "ぐ",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "主体の休息。対象を勝手に補わない。"
+    },
+    {
+      "id": 31860,
+      "lemma": "一息つく",
+      "conjugation": "く",
+      "frame": {
+        "required": [
+          "el"
+        ],
+        "allowed": [
+          "el",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "休息する意味の見出しに限定。"
+    },
+    {
+      "id": 31866,
+      "lemma": "譲る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "al",
+          "uo",
+          "ku"
+        ],
+        "recipientAmbiguity": {
+          "roots": ["mi", "ti", "ri", "miin", "tiin", "riin"],
+          "reason": "取引の相手と譲渡物の区別が未確定です。既存用例と新文型の格対応を審査するまで、自動で確定しません。"
+        }
+      },
+      "note": "主体el、譲る物ia、任意の受け手al。受け手と物を入れ替えない。"
+    },
+    {
+      "id": 31869,
+      "lemma": "労わる",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "主体と労わる相手を明示。"
+    },
+    {
+      "id": 31872,
+      "lemma": "屋内へ取り込む",
+      "conjugation": "む",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "to",
+          "va",
+          "uo",
+          "de",
+          "ku"
+        ]
+      },
+      "note": "屋内へ運ぶ物が必須。向かう先toと起点vaは任意。"
+    },
+    {
+      "id": 31876,
+      "lemma": "炒める",
+      "conjugation": "ichidan",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "de",
+          "ku"
+        ]
+      },
+      "note": "調理の対象が必須。具格と場所を区別する。"
+    },
+    {
+      "id": 31877,
+      "lemma": "味見する",
+      "conjugation": "suru",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ]
+      },
+      "note": "主体と味見する飲食物。未知の対象を省略しない。"
+    },
+    {
+      "id": 31879,
+      "lemma": "見送る",
+      "conjugation": "る",
+      "frame": {
+        "required": [
+          "el",
+          "ia"
+        ],
+        "allowed": [
+          "el",
+          "ia",
+          "uo",
+          "ku"
+        ],
+        "literalArguments": {
+          "ia": {
+            "roots": [
+              "mi",
+              "ti",
+              "ri",
+              "miin",
+              "tiin",
+              "riin",
+              "cynor"
+            ],
+            "reason": "人を見送る用法に限定しています。計画や提案の延期には読み替えません。"
+          }
+        }
+      },
+      "note": "人を見送る語義に限定。提案を見送る意味には対応しない。"
+    }
+  ]
+}
