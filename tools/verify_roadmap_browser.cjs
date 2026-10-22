@@ -22,7 +22,7 @@ const executablePath=process.env.NEBULITH_BROWSER_EXE||'C:/Program Files (x86)/M
     assert.equal(await page.evaluate(()=>document.activeElement.classList.contains('word-open')),true);report.checks.keyboardModalAndFocus=true;
     await page.locator('[data-tab="translator"]').click();await page.locator('#transInput').fill('私は包帯を観測する。');
     await page.locator('#inputNounChoices select').waitFor();const selector=page.locator('#inputNounChoices select');const options=await selector.locator('option').allTextContents();assert.equal(options.length,3);
-    await selector.selectOption('260');await page.locator('#confirmInputCandidate').click();await page.waitForFunction(()=>!document.getElementById('copyDstBtn').disabled);
+    await selector.selectOption('260');await page.waitForFunction(()=>document.querySelector('#inputNounChoices select')?.value==='260');assert.equal(await selector.locator('option').count(),3);await selector.selectOption('197');await page.waitForFunction(()=>document.getElementById('transOutputText').textContent.includes('dariscon'));assert.equal(await page.locator('#copyDstBtn').isDisabled(),true);await selector.selectOption('260');await page.locator('#confirmInputCandidate').click();await page.waitForFunction(()=>!document.getElementById('copyDstBtn').disabled);
     assert.equal(await page.locator('#transOutputText').textContent(),'Vyrel el mi ia valmik.');report.checks.nounSelection={options,text:'Vyrel el mi ia valmik.'};
     await page.reload();assert.equal(await page.locator('#transInput').inputValue(),'私は包帯を観測する。');assert.equal(await page.locator('#copyDstBtn').isDisabled(),true);report.checks.restoreRequiresConfirmation=true;
     await page.locator('[data-tab="translator"]').click();await page.locator('#confirmInputCandidate').click();
@@ -34,6 +34,7 @@ const executablePath=process.env.NEBULITH_BROWSER_EXE||'C:/Program Files (x86)/M
     assert.equal(ime.held,true);assert.equal(ime.text,'Jylfen el mi ku ti.');report.checks.compositionEvents=ime;
     await page.locator('#srcLangSelect').selectOption('neb');await page.locator('#dstLangSelect').selectOption('ja');await page.locator('#transInput').fill('Renantal el mi ia ti.');
     await page.waitForFunction(()=>document.getElementById('inputInterpretation').textContent.includes('取引'));assert.equal(await page.locator('#copyDstBtn').isDisabled(),true);report.checks.ambiguousReverseReasonVisible=true;
+    await page.locator('#transInput').fill('Poran el mi.');await page.waitForFunction(()=>!document.getElementById('copyDstBtn').disabled);assert.equal(await page.locator('#inputInterpretation').textContent(),'');await page.locator('#transInput').fill('');await page.waitForFunction(()=>document.getElementById('inputInterpretation').textContent==='');report.checks.parseFailureCleared=true;
     await page.locator('#srcLangSelect').selectOption('ja');await page.locator('#dstLangSelect').selectOption('neb');await page.locator('#transInput').fill('私はあなたと仲直りする。');
     await page.waitForFunction(()=>document.getElementById('transOutputText').textContent==='Jylfen el mi ku ti.');
     await page.locator('summary').filter({hasText:'保存・バックアップ'}).click();

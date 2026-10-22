@@ -723,7 +723,8 @@ function translateSingleSentence(sent, fromLang, toLang) {
 function doTranslate() {
   saveTranslationSession();
   copyDstBtn.disabled = true;
-  document.getElementById('inputInterpretation').innerHTML = '';
+  document.getElementById('inputInterpretation').textContent = '';
+  document.getElementById('inputFragments').innerHTML = '';
   document.getElementById('inputChoices').style.display = 'none';
   document.getElementById('copyConfirmedParts').style.display = 'none';
   if (composingInput) return;
@@ -871,7 +872,7 @@ function renderIncrementalInput() {
   const selectedChoices=currentSegmentChoices();
   const nounGroups=selected?.nounOptions||[];
   const nounBox=document.getElementById('inputNounChoices');
-  nounBox.innerHTML=nounGroups.map((group,i)=>`<label>「${escapeHtml(group.term)}」の意味 <select data-noun-index="${i}"><option value="">未選択</option>${group.options.map(o=>`<option value="${o.id}">${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('')}</select></label>`).join('');
+  nounBox.innerHTML=nounGroups.map((group,i)=>`<label>「${escapeHtml(group.term)}」の意味 <select data-noun-index="${i}"><option value="">未選択</option>${group.options.map(o=>`<option value="${o.id}"${selectedChoices.nounSenses?.[group.term]===o.id?' selected':''}>${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('')}</select></label>`).join('');
   for(const control of nounBox.querySelectorAll?.('select')||[])control.addEventListener('change',()=>{
     const group=nounGroups[Number(control.dataset.nounIndex)];
     const nounSenses={...(currentSegmentChoices().nounSenses||{})};

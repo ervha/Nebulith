@@ -250,7 +250,7 @@
     }
     const adjectives = [...vocab.filter(e => e.p.includes('形')).flatMap(e => gloss(e).map(g => [g,e])),...(extensions.roadmapProductive?.adjectives||[]).map(a=>[a.lemma,byId.get(a.id)])];
     const key = s => s.trim().replace(/\s+/g,'').replace(/？/g,'?').replace(/[。.]$/,'');
-    let activeNounSenses={};
+    let activeNounSenses={},activeNounOptions=new Map();
     const nounFailure=(e,source,notes=[])=>({source,text:'',state:'draft',nounOptions:[e.nounOptions],notes:[...notes,e.message]});
     function phrase(text, adj = false, depth = 0) {
       if (!text || depth > 2) throw Error('名詞句が未完成、または修飾が複雑です。');
@@ -258,6 +258,7 @@
       const found = [...new Map([...(index.get(text)||[]), ...(adj ? (index.get(text+'な')||[]) : [])].filter(e=>e.p.includes('名') || adj && e.p.includes('形')).map(e=>[e.id,e])).values()];
       if (found.length === 1) return found[0].r;
       if (found.length > 1) {
+        activeNounOptions.set(text,{term:text,options:found.map(e=>({id:e.id,root:e.r,meaning:e.m}))});
         const selected=found.find(e=>e.id===activeNounSenses[text]);
         if(selected)return selected.r;
         throw Object.assign(Error(`「${text}」の語義候補が複数：`+found.slice(0,5).map(e=>e.r).join(' / ')),{code:'ambiguous_noun',nounOptions:{term:text,options:found.map(e=>({id:e.id,root:e.r,meaning:e.m}))}});
@@ -509,7 +510,7 @@
       if(frame.recipientAmbiguity&&!meaning.arguments.al&&frame.recipientAmbiguity.roots.includes(meaning.arguments.ia?.nrs))throw Error(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
         const argument=meaning.arguments[role];
-        if(argument&&!rule.roots.includes(argument.nrs.split(' ')[0]))throw Error(rule.reason);
+        if(argument&&!argument.nrs.split(/\s+ul\s+/).every(group=>rule.roots.includes(group.split(' ')[0])))throw Error(rule.reason);
       }
       const words=[...p.prefixes,(p.passive?'re':'')+p.root+p.suffix];
       for(const c of caseOrder)if(meaning.arguments[c])words.push(c,meaning.arguments[c].nrs);
@@ -603,12 +604,16 @@
       return text;
     }
     function part(source,choices={},depth=0) {
-      const prior=activeNounSenses;activeNounSenses=choices.nounSenses||{};
+      const prior=activeNounSenses,priorOptions=activeNounOptions;activeNounSenses=choices.nounSenses||{};activeNounOptions=new Map();
       try {
-        const result=partImpl(source,choices,depth);
+        let result=partImpl(source,choices,depth);
+        if(!choices.confirmed) {
+          const groups=new Map([...(result.nounOptions||[]).map(g=>[g.term,g]),...activeNounOptions]);
+          if(groups.size)result={...result,nounOptions:[...groups.values()]};
+        }
         if(Object.keys(activeNounSenses).length&&['complete','phrase'].includes(result.state)&&!choices.confirmed)return {...result,state:'candidate',candidate:result.text,notes:[...result.notes,'名詞の語義を確認して確定してください。']};
         return result;
-      } finally {activeNounSenses=prior;}
+      } finally {activeNounSenses=prior;activeNounOptions=priorOptions;}
     }
     function partImpl(source,choices,depth=0) {
       let cleanSource = source.trim();

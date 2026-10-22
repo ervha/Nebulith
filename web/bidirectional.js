@@ -399,7 +399,7 @@
       if(frame.recipientAmbiguity&&!markers.includes('al')&&target?.words.length===1&&frame.recipientAmbiguity.roots.includes(target.words[0]?.toLowerCase()))return fail(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
         const ph=parsed.phrases.find(p=>p.marker===role);
-        if(ph&&!rule.roots.includes(ph.words[0]?.toLowerCase()))return fail(rule.reason);
+        if(ph&&!ph.words.join(' ').split(/\s+ul\s+/i).every(group=>rule.roots.includes(group.split(' ')[0]?.toLowerCase())))return fail(rule.reason);
       }
     }
     for(const ph of parsed.phrases) {
@@ -611,8 +611,8 @@
       const object=parsed.phrases.find(p=>p.marker==='ia');
       if(object?.words.length===1)adjectiveInfo=lookupWord(object.words[0]);
       if(!adjectiveInfo)return fail('コピュラの補語を確定できません。');
-      if(rules.held?.some(a=>a.id===adjectiveInfo.id))return fail('補語の語義・品詞は再整理待ちです。');
     }
+    if(adjectiveInfo&&rules.held?.some(a=>a.id===adjectiveInfo.id))return fail('補語の語義・品詞は再整理待ちです。');
     if(adjectiveInfo&&(/形/.test(adjectiveInfo.p||'')||copular)) {
       if(parsed.prefixes.includes('di')||parsed.aspectSuffix)return fail('この形容詞叙述の相・モダリティは未対応です。');
       const row=rules.adjectives?.find(a=>a.id===adjectiveInfo.id);
@@ -625,11 +625,11 @@
       } else {
         lemma=lemma.replace(/[なの]$/,'');vJa=lemma+(negative?(past?'ではなかった':'ではない'):(past?'だった':'だ'));
       }
-      if(parsed.prefixes.includes('se'))vJa+='かもしれない';
+      if(parsed.prefixes.includes('se'))vJa=vJa.replace(/だ$/,'')+'かもしれない';
       const plural=/^(you|we|they)$/i.test(subjEn),first=/^i$/i.test(subjEn);
       const be=past?(plural?'were':'was'):(plural?'are':first?'am':'is');
       const adjectiveEn=(adjectiveInfo.en||'').split(/[,;/]/)[0].trim();
-      vEn=be+(negative?' not ':' ')+adjectiveEn;
+      vEn=(parsed.prefixes.includes('se')?'perhaps ':'')+be+(negative?' not ':' ')+adjectiveEn;
       englishCopula={be,complement:(negative?'not ':'')+adjectiveEn};
       if(copular){objJa='';objEn='';}
     }

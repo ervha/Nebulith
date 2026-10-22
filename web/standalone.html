@@ -1828,7 +1828,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {"schemaVersion": "1.1.0", "title": "Nebuli
       if(frame.recipientAmbiguity&&!markers.includes('al')&&target?.words.length===1&&frame.recipientAmbiguity.roots.includes(target.words[0]?.toLowerCase()))return fail(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
         const ph=parsed.phrases.find(p=>p.marker===role);
-        if(ph&&!rule.roots.includes(ph.words[0]?.toLowerCase()))return fail(rule.reason);
+        if(ph&&!ph.words.join(' ').split(/\s+ul\s+/i).every(group=>rule.roots.includes(group.split(' ')[0]?.toLowerCase())))return fail(rule.reason);
       }
     }
     for(const ph of parsed.phrases) {
@@ -2040,8 +2040,8 @@ const VERIFIED_CANONICAL_COMPOUNDS = {"schemaVersion": "1.1.0", "title": "Nebuli
       const object=parsed.phrases.find(p=>p.marker==='ia');
       if(object?.words.length===1)adjectiveInfo=lookupWord(object.words[0]);
       if(!adjectiveInfo)return fail('コピュラの補語を確定できません。');
-      if(rules.held?.some(a=>a.id===adjectiveInfo.id))return fail('補語の語義・品詞は再整理待ちです。');
     }
+    if(adjectiveInfo&&rules.held?.some(a=>a.id===adjectiveInfo.id))return fail('補語の語義・品詞は再整理待ちです。');
     if(adjectiveInfo&&(/形/.test(adjectiveInfo.p||'')||copular)) {
       if(parsed.prefixes.includes('di')||parsed.aspectSuffix)return fail('この形容詞叙述の相・モダリティは未対応です。');
       const row=rules.adjectives?.find(a=>a.id===adjectiveInfo.id);
@@ -2054,11 +2054,11 @@ const VERIFIED_CANONICAL_COMPOUNDS = {"schemaVersion": "1.1.0", "title": "Nebuli
       } else {
         lemma=lemma.replace(/[なの]$/,'');vJa=lemma+(negative?(past?'ではなかった':'ではない'):(past?'だった':'だ'));
       }
-      if(parsed.prefixes.includes('se'))vJa+='かもしれない';
+      if(parsed.prefixes.includes('se'))vJa=vJa.replace(/だ$/,'')+'かもしれない';
       const plural=/^(you|we|they)$/i.test(subjEn),first=/^i$/i.test(subjEn);
       const be=past?(plural?'were':'was'):(plural?'are':first?'am':'is');
       const adjectiveEn=(adjectiveInfo.en||'').split(/[,;/]/)[0].trim();
-      vEn=be+(negative?' not ':' ')+adjectiveEn;
+      vEn=(parsed.prefixes.includes('se')?'perhaps ':'')+be+(negative?' not ':' ')+adjectiveEn;
       englishCopula={be,complement:(negative?'not ':'')+adjectiveEn};
       if(copular){objJa='';objEn='';}
     }
@@ -2852,7 +2852,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {"schemaVersion": "1.1.0", "title": "Nebuli
     }
     const adjectives = [...vocab.filter(e => e.p.includes('形')).flatMap(e => gloss(e).map(g => [g,e])),...(extensions.roadmapProductive?.adjectives||[]).map(a=>[a.lemma,byId.get(a.id)])];
     const key = s => s.trim().replace(/\s+/g,'').replace(/？/g,'?').replace(/[。.]$/,'');
-    let activeNounSenses={};
+    let activeNounSenses={},activeNounOptions=new Map();
     const nounFailure=(e,source,notes=[])=>({source,text:'',state:'draft',nounOptions:[e.nounOptions],notes:[...notes,e.message]});
     function phrase(text, adj = false, depth = 0) {
       if (!text || depth > 2) throw Error('名詞句が未完成、または修飾が複雑です。');
@@ -2860,6 +2860,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {"schemaVersion": "1.1.0", "title": "Nebuli
       const found = [...new Map([...(index.get(text)||[]), ...(adj ? (index.get(text+'な')||[]) : [])].filter(e=>e.p.includes('名') || adj && e.p.includes('形')).map(e=>[e.id,e])).values()];
       if (found.length === 1) return found[0].r;
       if (found.length > 1) {
+        activeNounOptions.set(text,{term:text,options:found.map(e=>({id:e.id,root:e.r,meaning:e.m}))});
         const selected=found.find(e=>e.id===activeNounSenses[text]);
         if(selected)return selected.r;
         throw Object.assign(Error(`「${text}」の語義候補が複数：`+found.slice(0,5).map(e=>e.r).join(' / ')),{code:'ambiguous_noun',nounOptions:{term:text,options:found.map(e=>({id:e.id,root:e.r,meaning:e.m}))}});
@@ -3111,7 +3112,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {"schemaVersion": "1.1.0", "title": "Nebuli
       if(frame.recipientAmbiguity&&!meaning.arguments.al&&frame.recipientAmbiguity.roots.includes(meaning.arguments.ia?.nrs))throw Error(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
         const argument=meaning.arguments[role];
-        if(argument&&!rule.roots.includes(argument.nrs.split(' ')[0]))throw Error(rule.reason);
+        if(argument&&!argument.nrs.split(/\s+ul\s+/).every(group=>rule.roots.includes(group.split(' ')[0])))throw Error(rule.reason);
       }
       const words=[...p.prefixes,(p.passive?'re':'')+p.root+p.suffix];
       for(const c of caseOrder)if(meaning.arguments[c])words.push(c,meaning.arguments[c].nrs);
@@ -3205,12 +3206,16 @@ const VERIFIED_CANONICAL_COMPOUNDS = {"schemaVersion": "1.1.0", "title": "Nebuli
       return text;
     }
     function part(source,choices={},depth=0) {
-      const prior=activeNounSenses;activeNounSenses=choices.nounSenses||{};
+      const prior=activeNounSenses,priorOptions=activeNounOptions;activeNounSenses=choices.nounSenses||{};activeNounOptions=new Map();
       try {
-        const result=partImpl(source,choices,depth);
+        let result=partImpl(source,choices,depth);
+        if(!choices.confirmed) {
+          const groups=new Map([...(result.nounOptions||[]).map(g=>[g.term,g]),...activeNounOptions]);
+          if(groups.size)result={...result,nounOptions:[...groups.values()]};
+        }
         if(Object.keys(activeNounSenses).length&&['complete','phrase'].includes(result.state)&&!choices.confirmed)return {...result,state:'candidate',candidate:result.text,notes:[...result.notes,'名詞の語義を確認して確定してください。']};
         return result;
-      } finally {activeNounSenses=prior;}
+      } finally {activeNounSenses=prior;activeNounOptions=priorOptions;}
     }
     function partImpl(source,choices,depth=0) {
       let cleanSource = source.trim();
@@ -4546,7 +4551,8 @@ function translateSingleSentence(sent, fromLang, toLang) {
 function doTranslate() {
   saveTranslationSession();
   copyDstBtn.disabled = true;
-  document.getElementById('inputInterpretation').innerHTML = '';
+  document.getElementById('inputInterpretation').textContent = '';
+  document.getElementById('inputFragments').innerHTML = '';
   document.getElementById('inputChoices').style.display = 'none';
   document.getElementById('copyConfirmedParts').style.display = 'none';
   if (composingInput) return;
@@ -4694,7 +4700,7 @@ function renderIncrementalInput() {
   const selectedChoices=currentSegmentChoices();
   const nounGroups=selected?.nounOptions||[];
   const nounBox=document.getElementById('inputNounChoices');
-  nounBox.innerHTML=nounGroups.map((group,i)=>`<label>「${escapeHtml(group.term)}」の意味 <select data-noun-index="${i}"><option value="">未選択</option>${group.options.map(o=>`<option value="${o.id}">${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('')}</select></label>`).join('');
+  nounBox.innerHTML=nounGroups.map((group,i)=>`<label>「${escapeHtml(group.term)}」の意味 <select data-noun-index="${i}"><option value="">未選択</option>${group.options.map(o=>`<option value="${o.id}"${selectedChoices.nounSenses?.[group.term]===o.id?' selected':''}>${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('')}</select></label>`).join('');
   for(const control of nounBox.querySelectorAll?.('select')||[])control.addEventListener('change',()=>{
     const group=nounGroups[Number(control.dataset.nounIndex)];
     const nounSenses={...(currentSegmentChoices().nounSenses||{})};

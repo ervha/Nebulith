@@ -80,6 +80,40 @@ const catalog=run('dictionaryCatalog');assert.equal(catalog.length,2483);assert.
 assert.ok(run('new Set(dictionaryCatalog.map(w=>w.displayCategory)).size')<run('new Set(dictionaryCatalog.map(w=>w.c)).size'));
 assert.ok(dom.wordGrid.innerHTML.includes('class="word-roman word-open"'));
 run("renderAlignments([{src:'雫茶',dst:'darterin',role:'対象'}])");assert.ok(dom.transAlignmentBox.innerHTML.includes('<button type="button" class="align-dst has-word"'));
+// PR #21 review regressions: preserve editable choices and semantic restrictions.
+const pendingNoun=analyze('私は包帯を観測する。',{nounSenses:{'包帯':260}});
+assert.equal(pendingNoun.segments[0].state,'candidate');
+assert.equal(pendingNoun.segments[0].nounOptions[0].options.length,2);
+run("srcLang='ja';dstLang='neb';transInput.value='私は包帯を観測する。';resetInputChoices();inputChoicesState={nounSenses:{'包帯':260},confirmed:false};doTranslate()");
+assert.ok(dom.inputNounChoices.innerHTML.includes('value="260" selected'));
+assert.ok(dom.inputNounChoices.innerHTML.includes('value="197"'));
+run("inputChoicesState={nounSenses:{'包帯':197},confirmed:false};doTranslate()");
+assert.ok(dom.transOutputText.textContent.includes('dariscon'));
+assert.equal(dom.copyDstBtn.disabled,true);
+for(const row of rules.held.map(row=>({...row,root:catalog.find(w=>w.id===row.id).r})))for(const source of [row.root+' el vyr.','Relen el vyr ia '+row.root+'.'])for(const lang of ['ja','en']){
+  const result=ctx.NebulithBidirectionalEngine.translateNebulith(source,lang);
+  assert.equal(result.success,false,source+' '+lang);assert.ok(result.error.includes('再整理'));
+}
+for(const [source,lang,target] of [
+ ['Se faluni el vyr.','en','star perhaps is bright.'],
+ ['Se faluni el vyr.','ja','星は 明るいかもしれない.'],
+ ['Se relen el doran ia bionvyri.','ja','惑星は ハビタブルかもしれない.'],
+ ['Se relen el doran ia bionvyri.','en','planet perhaps is habitable.'],
+ ['Se fe relen el doran ia bionvyri.','ja','惑星は ハビタブルだったかもしれない.'],
+ ['Se ne relen el doran ia bionvyri.','ja','惑星は ハビタブルではないかもしれない.']
+]){const r=ctx.NebulithBidirectionalEngine.translateNebulith(source,lang);assert.equal(r.success,true,JSON.stringify(r));assert.equal(r.text,target);}
+for(const source of ['Zenwesan el mi ia ti ul pamel.','Zenwesan el mi ia pamel ul ti.'])for(const lang of ['ja','en']){
+  const r=ctx.NebulithBidirectionalEngine.translateNebulith(source,lang);assert.equal(r.success,false,source);assert.ok(r.error.includes('人'));
+}
+for(const lang of ['ja','en'])assert.equal(ctx.NebulithBidirectionalEngine.translateNebulith('Zenwesan el mi ia ti ul ri.',lang).success,true);
+for(const source of ['私はあなたと本を見送る。','私は本とあなたを見送る。'])assert.equal(analyze(source,{confirmed:true}).complete,false,source);
+for(const [lang,target] of [['neb','en'],['en','neb']]){
+  run(`srcLang='${lang}';dstLang='${target}';transInput.value='Nonsense el mi.';doTranslate()`);
+  assert.ok(dom.inputInterpretation.textContent);
+  run(`transInput.value=${JSON.stringify(lang==='neb'?'Poran el mi.':'I walk.')};doTranslate()`);
+  assert.equal(dom.copyDstBtn.disabled,false);assert.equal(dom.inputInterpretation.textContent,'');
+  run("transInput.value='Nonsense el mi.';doTranslate();transInput.value='';doTranslate()");assert.equal(dom.inputInterpretation.textContent,'');
+}
 const report={lexicalGoldenSentences:goldens,additionalVerbRoots:43,verbArgumentRejections:43,verbPastReverseWitnesses:43,adjectiveRules:8,heldAdjectives:6,attributiveOnly:3,reverseRejectedCases:invalid.length*2,reverseMorphologyGoldens:morphology.length,recipientAmbiguityRejected:true,nounChoices:group.options.length,contextRequiresConfirmation:true,fragmentSourceReconstruction:true};
 if(process.argv[2])fs.writeFileSync(process.argv[2],JSON.stringify(report,null,2)+'\n');
 console.log('PASS: roadmap v4 '+JSON.stringify(report));
