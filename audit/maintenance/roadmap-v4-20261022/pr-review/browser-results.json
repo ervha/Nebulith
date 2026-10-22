@@ -1,0 +1,132 @@
+{
+  "startedAt": "2026-10-22T09:36:31.122Z",
+  "base": "http://127.0.0.1:8878/web/",
+  "checks": {
+    "keyboardModalAndFocus": true,
+    "nounSelection": {
+      "options": [
+        "未選択",
+        "dariscon：包帯、固定具、創傷被覆材",
+        "valmik：包帯、防護布、被覆保護材"
+      ],
+      "text": "Vyrel el mi ia valmik."
+    },
+    "restoreRequiresConfirmation": true,
+    "explicitContextSelection": true,
+    "compositionEvents": {
+      "held": true,
+      "text": "Jylfen el mi ku ti."
+    },
+    "ambiguousReverseReasonVisible": true,
+    "parseFailureCleared": true,
+    "backupRoundTrip": true,
+    "layouts": [
+      {
+        "theme": "dark",
+        "tab": "lexicon",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "theme": "dark",
+        "tab": "translator",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "theme": "light",
+        "tab": "lexicon",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "theme": "light",
+        "tab": "translator",
+        "width": 1280,
+        "scrollWidth": 1280
+      },
+      {
+        "theme": "dark",
+        "tab": "lexicon",
+        "width": 390,
+        "scrollWidth": 390
+      },
+      {
+        "theme": "dark",
+        "tab": "translator",
+        "width": 390,
+        "scrollWidth": 390
+      },
+      {
+        "theme": "light",
+        "tab": "lexicon",
+        "width": 390,
+        "scrollWidth": 390
+      },
+      {
+        "theme": "light",
+        "tab": "translator",
+        "width": 390,
+        "scrollWidth": 390
+      },
+      {
+        "theme": "dark",
+        "tab": "lexicon",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "theme": "dark",
+        "tab": "translator",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "theme": "light",
+        "tab": "lexicon",
+        "width": 360,
+        "scrollWidth": 360
+      },
+      {
+        "theme": "light",
+        "tab": "translator",
+        "width": 360,
+        "scrollWidth": 360
+      }
+    ],
+    "serviceWorkerUpdateAndOfflineRestart": {
+      "generation": 1,
+      "draftPreserved": true,
+      "cacheKeys": [
+        "nebulith-studio-bc5ce2798bdc92cf5602-qa-1"
+      ]
+    },
+    "standaloneFileOffline": true
+  },
+  "limitations": [
+    "Composition events are synthetic; Microsoft IME input was not tested.",
+    "Viewport tests use desktop Chromium, not a physical mobile device."
+  ],
+  "beforeOffline": {
+    "url": "http://127.0.0.1:49404/",
+    "keys": [
+      "nebulith-studio-bc5ce2798bdc92cf5602-qa-0",
+      "nebulith-studio-bc5ce2798bdc92cf5602-qa-1"
+    ],
+    "tail": "\n  });\n}\n\n\n// roadmap cache generation 1"
+  },
+  "updateProbe": {
+    "status": 200,
+    "tail": "Nebulith Service Worker registration failed:', err);\n    });\n  });\n}\n\n\n// roadmap cache generation 1",
+    "cachesInfo": [
+      {
+        "key": "nebulith-studio-bc5ce2798bdc92cf5602-qa-1",
+        "tail": "Nebulith Service Worker registration failed:', err);\n    });\n  });\n}\n\n\n// roadmap cache generation 1"
+      }
+    ]
+  },
+  "pageErrors": [],
+  "finishedAt": "2026-10-22T09:36:44.305Z",
+  "browserVersion": "155.0.4283.62",
+  "playwrightVersion": "1.64.1"
+}

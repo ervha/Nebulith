@@ -1,0 +1,10 @@
+{
+  "startedAt": "2026-10-22T09:35:26.811Z",
+  "base": "http://127.0.0.1:8877/web/",
+  "checks": {},
+  "limitations": [
+    "Composition events are synthetic; Microsoft IME input was not tested.",
+    "Viewport tests use desktop Chromium, not a physical mobile device."
+  ],
+  "failure": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#wordGrid .word-open').first() to be visible\u001b[22m\n\n    at C:\\Users\\danun\\Desktop\\Project\\Nebulith\\tools\\verify_roadmap_browser.cjs:15:91"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-22",
+  "baseCommit": "f985971c3c816a7dfcd83603a5dc0f8029b4e66d",
+  "scope": "Development checkpoint; not independent linguistic certification",
+  "pythonTests": {
+    "baselinePassed": 76,
+    "finalPassed": 77,
+    "finalLog": "development-20261022-tests.txt"
+  },
+  "nodeSuites": {
+    "passed": 24,
+    "failed": 0,
+    "overlapsPythonWrappers": true
+  },
+  "bundle": {
+    "sourceInputsMatch": true,
+    "standaloneEmbedded": true
+  },
+  "sha256": {
+    "data/compound_translation_patterns.json": "668eaf6f7bb8523b29939e502d7ff67a71a08521c06688b09408eb65c9442950",
+    "tests/fixtures/practical_compound_sentences.json": "2edfec53243055ac430ebde5930bf851108f65154f4d6e0530f421711f9b29df",
+    "tests/verify_practical_development.js": "6c1f745ec0321536e111e259f8ed4f9177dfa07b9b532e10e0eac8da1a8bc791",
+    "tests/test_practical_development.py": "a38407f0fba8f190973f73de587c3e3d6352afaf8576266c90b3dfff632df9a8",
+    "tests/verify_studio.js": "7af9c9e47ea1bd40abb58911f2ff5092067b1ce969939d1a1ac29cc93f293907",
+    "web/app.js": "87f6ebdadc7e98e96694c7d02241f5a4f2d9122e39698c6fe921099b5a8932b8",
+    "web/incremental.js": "fb9464be6f9a4f21c03fda1a1484ba1306529e384f245abc2cccdc1236dde3c8",
+    "web/bidirectional.js": "34e22a744525db3182064d55f5d3b3f3d2cbb852abb20980f047baa9efa2cd5d",
+    "tools/build_web_studio.py": "9a391fa7c8ae27229da055bc68a536ff44274650d1787fe80fd0b2d908893bd9",
+    "tools/verify_web_bundle.py": "96d0529199f147aefa7a2e8f0289f27c07b3d73fd8c5c986f963747efcf17701",
+    "web/build-manifest.json": "aac2b6a452aea45acfc72410023e7fda3f66045ebdab7ee55c8ab2a221779e7a",
+    "web/data.js": "844f41b6e16fa6ad89001e7ae84d78c3b71dc21b2cee8c41264a0b8c16177174",
+    "web/index.html": "dc34efa3aa13ca5ac1517f5f4e07e4773e100efd5c6146249acaee06ff9df583",
+    "web/standalone.html": "04d65d6ec19eb4ac62436d74b2ea3137163807cdeb695786a92522ee6cd0b81f",
+    "web/service-worker.js": "6fbf93582cf189b7e305de3c7374d3a4f22c2083494a6aa8ee552b31deeeb113",
+    "audit/maintenance/development-20261022-results.json": "30ec41b25884b29f72c65b7a393aa2b1afdc48199d286b0ece154d4472fc3c7e",
+    "audit/maintenance/development-20261022-browser.json": "fcfe986f0c47b9883ef8a1007c4901066819b31be08fe90b1fb1c8e41481abf1",
+    "audit/maintenance/development-20261022-tests.txt": "debd9716ce0be7baeb3a2e90b4cf4950cb127c503e40ad737a555c44cc258d92"
+  }
+}

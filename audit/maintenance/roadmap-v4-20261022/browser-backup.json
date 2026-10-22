@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": "Nebulith Studio Backup",
+  "values": {
+    "neb_history": "[\"nerkirel\"]",
+    "neb_session_v1": "{\"schemaVersion\":1,\"text\":\"私はあなたと仲直りする。\",\"srcLang\":\"ja\",\"dstLang\":\"neb\",\"choices\":{}}",
+    "neb_font_size": "36",
+    "neb_theme": "dark",
+    "neb_favorites": "[]",
+    "neb_feedback_queue": "[]",
+    "neb_editor_draft": ""
+  },
+  "recovery": {},
+  "exportedAt": "2026-10-22T09:07:57.158Z"
+}

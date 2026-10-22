@@ -158,7 +158,8 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("vyrelast", out["r5"]["text"].lower())
         self.assertTrue(out.get("r6", {}).get("success", False))
         self.assertTrue(out.get("r7", {}).get("success", False))
-        self.assertTrue(out.get("r8", {}).get("success", False))
+        self.assertFalse(out["r8"]["success"])
+        self.assertIn("許容格", out["r8"]["error"])
         # Verify interrogative 'ro' and relative clause 'that'
         self.assertTrue(out.get("r9Ja", {}).get("success", False))
         self.assertIn("か？", out["r9Ja"]["text"])
@@ -171,7 +172,7 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertIn("that", out["r11En"]["text"])
         # Verify conditional clause 'if ... then ...'
         self.assertTrue(out.get("r12", {}).get("success", False))
-        self.assertIn("Zen", out["r12"]["text"])
+        self.assertIn("Sen", out["r12"]["text"])
         # Verify concessive clause 'even if ...'
         self.assertTrue(out.get("r13", {}).get("success", False))
         self.assertIn("Tor", out["r13"]["text"])
@@ -198,12 +199,9 @@ class CanonicalCompoundValidatorTests(unittest.TestCase):
         self.assertTrue(out.get("r15En", {}).get("success", False))
         self.assertIn("So that", out["r15En"]["text"])
         # Verify comparative clause 'Poran el mi va ti' / 'Falani el zohar va vyr'
-        self.assertTrue(out.get("r16Ja", {}).get("success", False))
-        self.assertIn("より", out["r16Ja"]["text"])
-        self.assertTrue(out.get("r16En", {}).get("success", False))
-        self.assertIn("more than", out["r16En"]["text"])
-        self.assertTrue(out.get("r16", {}).get("success", False))
-        self.assertIn("va ti", out["r16"]["text"])
+        for key in ["r16Ja", "r16En", "r16"]:
+            self.assertFalse(out[key]["success"])
+            self.assertIn("許容格", out[key]["error"])
         self.assertTrue(out.get("r17", {}).get("success", False))
         self.assertIn("va vyr", out["r17"]["text"])
         # Verify reported speech / thought clause 'that ...' / 'ia ...'

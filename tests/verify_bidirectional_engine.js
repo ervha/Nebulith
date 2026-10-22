@@ -39,7 +39,7 @@ console.log('PASS [EN -> NEB Basic]: I like you ->', enToNeb1.text);
 
 const enToNeb2 = bi.translateEnglishToNebulith('If stars shine, I walk');
 assert.equal(enToNeb2.success, true);
-assert.equal(enToNeb2.text, 'Zen Falun el vyr, Poran el mi.');
+assert.equal(enToNeb2.text, 'Sen Falun el vyr, Poran el mi.');
 console.log('PASS [EN -> NEB Conditional]: If stars shine, I walk ->', enToNeb2.text);
 
 const enToNeb3 = bi.translateEnglishToNebulith('The star is more beautiful than the night');

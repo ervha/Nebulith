@@ -46,10 +46,50 @@
 
   let _externalVocab = null;
   let _externalVerifiedCompounds = null;
+  let _externalRules = null;
 
-  function configure(vocab, verifiedCompounds) {
+  function configure(vocab, verifiedCompounds, rules = null) {
     _externalVocab = vocab;
     _externalVerifiedCompounds = verifiedCompounds;
+    _externalRules = rules;
+  }
+
+  function translationRules() {
+    if (_externalRules) return _externalRules;
+    const extensions = typeof TRANSLATION_EXTENSIONS !== 'undefined' ? TRANSLATION_EXTENSIONS : {};
+    const frames = typeof GRAMMAR_FRAMES !== 'undefined' ? GRAMMAR_FRAMES : {};
+    const verbs = [...(extensions.productive?.verbs||[]),...(extensions.compoundProductive?.verbs||[]),...(extensions.roadmapProductive?.verbs||[])];
+    return {frames:{...Object.fromEntries(verbs.map(v=>[v.id,v.frame])),...(extensions.frames||{}),...frames},verbs,adjectives:extensions.roadmapProductive?.adjectives||[],held:extensions.roadmapProductive?.held||[]};
+  }
+
+  function englishForm(phrase,kind) {
+    const [head,...tail]=phrase.split(' '),rest=tail.length?' '+tail.join(' '):'';
+    const irregular={be:'was',have:'had',do:'did',go:'went',come:'came',drink:'drank',eat:'ate',write:'wrote',sing:'sang',say:'said',take:'took',give:'gave',see:'saw',think:'thought',know:'knew',make:'made',feel:'felt',leave:'left',run:'ran',stand:'stood',sleep:'slept',build:'built',teach:'taught',find:'found',speak:'spoke',tell:'told',understand:'understood',shine:'shone',bring:'brought'};
+    let word=head;
+    if(kind==='past')word=irregular[head]||(head.endsWith('e')?head+'d':/[^aeiou]y$/.test(head)?head.slice(0,-1)+'ied':head+'ed');
+    if(kind==='third')word=head==='have'?'has':/[^aeiou]y$/.test(head)?head.slice(0,-1)+'ies':/(s|sh|ch|x|z|o)$/.test(head)?head+'es':head+'s';
+    if(kind==='ing')word=head.endsWith('ie')?head.slice(0,-2)+'ying':head.endsWith('e')&&!/ee$/.test(head)?head.slice(0,-1)+'ing':['run','sit','swim','begin','stop','plan'].includes(head)?head+head.at(-1)+'ing':head+'ing';
+    return word+rest;
+  }
+
+  function englishPredicate(base,parsed,subject) {
+    const past=parsed.prefixes.includes('fe'),progress=parsed.prefixes.includes('di'),neg=parsed.isNeg;
+    const plural=/^(you|we|they)$/i.test(subject)||/ and /.test(subject),first=/^i$/i.test(subject),third=!plural&&!first;
+    const be=past?(plural?'were':'was'):(plural?'are':first?'am':'is');
+    const aspect=parsed.aspectSuffix?.suffix;
+    let verb=base,aux=past?'Did':third?'Does':'Do',main=base;
+    if(aspect==='ar'){aux=past?'Could':'Can';main=base;verb=aux.toLowerCase()+(neg?' not ':' ')+base;}
+    else if(progress){aux=be;main=englishForm(base,'ing');verb=be+(neg?' not ':' ')+main;}
+    else {
+      if(aspect==='ast')verb='want to '+base;
+      if(aspect==='far')verb='finish '+englishForm(base,'ing');
+      if(aspect==='liv')verb='keep '+englishForm(base,'ing');
+      main=verb;
+      verb=neg?(past?'did not ':'do'+(third?'es':'')+' not ')+verb:past?englishForm(verb,'past'):third?englishForm(verb,'third'):verb;
+      if(aspect==='cor'){verb='repeatedly '+verb;main='repeatedly '+main;}
+    }
+    if(parsed.prefixes.includes('se'))verb='perhaps '+verb;
+    return {verb,aux:aux[0].toUpperCase()+aux.slice(1),main:(neg?'not ':'')+main};
   }
 
   function getVocabMap() {
@@ -83,8 +123,9 @@
   const BUILTIN_VOCAB = {
     mi: { m: '私', en: 'I / me' },
     ti: { m: 'あなた', en: 'you' },
-    solan: { m: '私たち', en: 'we / us' },
-    valin: { m: '彼ら', en: 'they / them' },
+    ri: {m:'彼／彼女',en:'he / she'},
+    miin: { m: '私たち', en: 'we / us' },
+    riin: { m: '彼ら', en: 'they / them' },
     vyr: { m: '星', en: 'star' },
     valar: { m: '夜', en: 'night' },
     zohar: { m: '太陽', en: 'sun' },
@@ -104,7 +145,7 @@
     const clean = token.toLowerCase().replace(/^[^\w]+|[^\w]+$/g, '');
     const vocab = getVocabMap();
     if (vocab.has(clean)) return vocab.get(clean);
-    if (BUILTIN_VOCAB[clean]) return { r: clean, ...BUILTIN_VOCAB[clean] };
+    if (!vocab.size && BUILTIN_VOCAB[clean]) return { r: clean,p:['cylani','surani','valani'].includes(clean)?'形':['cynel','poran','falun','vyrel','seron'].includes(clean)?'動':'名', ...BUILTIN_VOCAB[clean] };
 
     // Try stripping suffixes
     for (const asp of ASPECT_SUFFIXES) {
@@ -127,14 +168,17 @@
     let idx = 0;
     let isNeg = false;
     let tensePrefix = null;
+    const prefixes = [];
 
     // Check pre-verbal particles
     while (idx < tokens.length) {
       const low = tokens[idx].toLowerCase();
       if (low === 'ne') {
+        prefixes.push(low);
         isNeg = true;
         idx++;
       } else if (low === 'fe' || low === 'di' || low === 'se') {
+        prefixes.push(low);
         tensePrefix = low;
         idx++;
       } else {
@@ -152,13 +196,6 @@
 
     if (verbInfo && verbInfo.strippedSuffix) {
       aspectSuffix = verbInfo.strippedSuffix;
-    } else {
-      for (const asp of ASPECT_SUFFIXES) {
-        if (verbClean.length > asp.suffix.length + 3 && verbClean.endsWith(asp.suffix)) {
-          aspectSuffix = asp;
-          break;
-        }
-      }
     }
 
     // Check sentence-level question marker: trailing 'ro', 'ro?', or '?'
@@ -166,20 +203,21 @@
     const rawTokens = tokens.slice(idx);
     if (rawTokens.length > 0) {
       const lastTok = rawTokens[rawTokens.length - 1].toLowerCase().replace(/[.,!?;:]/g, '');
-      if (lastTok === 'ro') {
+      if (lastTok === 'ro' || lastTok === 'ka') {
         isQuestion = true;
       }
     }
 
     // Parse Case Phrases: el S, ia O, uo Loc, de Inst, va Comp, en Gen
     const phrases = [];
+    const unmarkedTokens = [];
     let currentMarker = null;
     let currentTokens = [];
 
     while (idx < tokens.length) {
       const tok = tokens[idx];
       const low = tok.toLowerCase().replace(/[.,!?;:]/g, '');
-      if (low === 'ro') {
+      if ((low === 'ro' || low === 'ka') && idx===tokens.length-1) {
         // standalone question particle; stop parsing case phrase
         isQuestion = true;
         idx++;
@@ -205,7 +243,8 @@
         if (currentMarker) {
           currentTokens.push(tok);
         } else {
-          // Unmarked initial or modifier
+          // Unmarked words cannot be silently discarded before a case phrase.
+          unmarkedTokens.push(tok);
           currentTokens.push(tok);
         }
       }
@@ -219,9 +258,12 @@
       isNeg,
       isQuestion,
       tensePrefix,
+      prefixes,
       aspectSuffix,
       verbToken,
       verbInfo,
+      incompleteCase: !!currentMarker && !currentTokens.length,
+      unmarkedTokens,
       phrases
     };
   }
@@ -250,8 +292,8 @@
           const consRes = translateSingleClause(parts.slice(1).join(', '), targetLang, false);
           if (condRes.success && consRes.success) {
             const conjMap = {
-              zen: { ja: 'なら、', en: 'If ' },
-              sen: { ja: 'ので、', en: 'Because ' },
+              sen: { ja: 'なら、', en: 'If ' },
+              zen: { ja: 'ので、', en: 'Because ' },
               tor: { ja: 'けれど、', en: 'Although ' },
               hav: { ja: 'とき、', en: 'When ' },
               den: { ja: '、そして', en: 'And ' },
@@ -315,7 +357,7 @@
         translatedSentences.push(res.text + trailingPunct);
         allAlignments.push(...res.alignments);
       } else {
-        return { text: null, error: `未対応構文: ${sent}`, success: false };
+        return { text: null, error: res.error || `未対応構文: ${sent}`, success: false };
       }
     }
 
@@ -337,11 +379,51 @@
     // 1. Resolve Verb / Predicate
     const verbClean = parsed.verbToken.toLowerCase().replace(/[.,!?;:]/g, '');
     const vInfo = parsed.verbInfo || lookupWord(verbClean);
+    if(!vInfo)return {text:'',alignments:[],success:false,error:'未知の述語: '+verbClean};
+    const position=vInfo.p||vInfo.pos||'';
+    if(parsed.prefixes.length&&position&&!/動|形/.test(position))return {success:false,error:'名詞・機能語に動詞の活用を付けることはできません。'};
+    if(parsed.phrases.length && position && !/動|形/.test(position))return {text:'',alignments:[],success:false,error:'名詞や機能語は動詞として確定できません。'};
+    if(parsed.incompleteCase || parsed.unmarkedTokens.length)return {text:'',alignments:[],success:false,error:'未解析の語、または未完成の格句があります。'};
+    if(parsed.phrases.length && !parsed.phrases.some(p=>p.marker==='el'))return {text:'',alignments:[],success:false,error:'主体のel句が必要です。'};
+    if(new Set(parsed.phrases.map(p=>p.marker)).size!==parsed.phrases.length)return {text:'',alignments:[],success:false,error:'同じ格句が重複しています。'};
+    if(new Set(parsed.prefixes).size!==parsed.prefixes.length)return {success:false,error:'時制・相の標識が重複しています。'};
+    if(parsed.aspectSuffix?.suffix==='iin')return {success:false,error:'複数接尾辞を述語としては確定できません。'};
+    if(parsed.isQuestion&&parsed.prefixes.includes('se'))return {success:false,error:'推量と疑問の組み合わせは未対応です。'};
+    const rules=translationRules(),frame=rules.frames?.[vInfo.id];
+    const fail=error=>({text:null,alignments:[],success:false,error,source:clauseStr});
+    if(parsed.phrases.length && frame) {
+      const markers=parsed.phrases.map(p=>p.marker);
+      if(!frame.required.every(c=>markers.includes(c)))return fail('述語に必須の格句が不足しています。');
+      if(markers.some(c=>c!=='en'&&!frame.allowed.includes(c)))return fail('述語の許容格に合わない格句があります。');
+      const target=parsed.phrases.find(p=>p.marker==='ia');
+      if(frame.recipientAmbiguity&&!markers.includes('al')&&target?.words.length===1&&frame.recipientAmbiguity.roots.includes(target.words[0]?.toLowerCase()))return fail(frame.recipientAmbiguity.reason);
+      for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
+        const ph=parsed.phrases.find(p=>p.marker===role);
+        if(ph&&!ph.words.join(' ').split(/\s+ul\s+/i).every(group=>rule.roots.includes(group.split(' ')[0]?.toLowerCase())))return fail(rule.reason);
+      }
+    }
+    for(const ph of parsed.phrases) {
+      if(!ph.words.length)return fail('空の格句があります。');
+      for(const word of ph.words)if(!lookupWord(word)&&!['ul','en'].includes(word.toLowerCase()))return fail('未知の引数: '+word);
+      const first=lookupWord(ph.words[0]);
+      const nested=/動/.test(first?.p||first?.pos||'')||['kauo','kate','kaas','kahav','kaku','kazen'].includes(ph.words[0]?.toLowerCase());
+      if(nested) {
+        const words=/動/.test(first?.p||first?.pos||'')?ph.words:ph.words.slice(1);
+        const result=translateSingleClause(words.join(' '),targetLang);
+        if(!result.success)return fail(result.error||'従属節が未確定です。');
+      } else {
+        const groups=ph.words.join(' ').split(/\s+ul\s+/);
+        for(const group of groups){const words=group.split(' ');if(words.length>2)return fail('未対応の複雑な名詞句です。語を省略せず保持します。');if(words.length===2&&!/形/.test(lookupWord(words[1])?.p||''))return fail('名詞句の修飾を確定できません。');}
+      }
+    }
+
     let vJa = vInfo ? (vInfo.m || vInfo.meaningJa || verbClean).split(/[、／/]/)[0].trim() : verbClean;
     let vEn = vInfo ? (vInfo.en || vInfo.meaningEn || verbClean).split(/[,;/]/)[0].trim() : verbClean;
 
     // Apply suffixes. Japanese uses the shared conjugation table so endings are not appended twice.
-    const meaningJa = vInfo ? (vInfo.m || vInfo.meaningJa || verbClean) : verbClean;
+    const verbRule=rules.verbs?.find(v=>v.id===vInfo.id);
+    const meaningJa = verbRule?.lemma || (vInfo.m || vInfo.meaningJa || verbClean);
+    if(isJa&&verbRule)vJa=verbRule.lemma;
     if (parsed.aspectSuffix) {
       if (!isJa) {
         if (parsed.aspectSuffix.suffix === 'ast') vEn = `want to ${vEn}`;
@@ -354,11 +436,19 @@
     if (parsed.isNeg && !isJa) vEn = `do not ${vEn}`;
 
     if (!isJa) {
-      if (parsed.tensePrefix === 'fe') vEn = vEn.endsWith('e') ? `${vEn}d` : `${vEn}ed`;
-      else if (parsed.tensePrefix === 'di') vEn = `is ${vEn}-ing`;
+      if(parsed.prefixes.includes('fe')&&parsed.isNeg)vEn=vEn.replace(/^do not /,'did not ');
+      else if (parsed.prefixes.includes('fe')) vEn = vEn.endsWith('e') ? `${vEn}d` : `${vEn}ed`;
+      if(parsed.prefixes.includes('di')) {
+        const base=(vInfo.en||vInfo.meaningEn||verbClean).split(/[,;/]/)[0].trim();
+        const ing=base.endsWith('e')?base.slice(0,-1)+'ing':base+'ing';
+        vEn=(parsed.prefixes.includes('fe')?'was ':'is ')+(parsed.isNeg?'not ':'')+ing;
+      }
+      if(parsed.prefixes.includes('se'))vEn='perhaps '+vEn.replace(/^perhaps /,'');
     } else {
-      const conjugated = conjugateJapaneseVerb(meaningJa, parsed);
+      const conjugated = conjugateJapaneseVerb(meaningJa, parsed, verbRule?.conjugation);
       if (conjugated) vJa = conjugated;
+      if(parsed.aspectSuffix?.suffix==='cor')vJa='繰り返し'+vJa;
+      if(parsed.prefixes.includes('se'))vJa+='かもしれない';
     }
 
     // 2. Resolve Phrases (including coordinated 'ul' and genitive 'en')
@@ -400,11 +490,12 @@
       const phraseText = ph.words.join(' ');
       const resolved = resolvePhraseTokens(ph.words);
       const pJa = resolved.ja;
-      const pEn = resolved.en;
+      const pEn = ph.words.length===1&&ph.marker!=='el'?({mi:'me',miin:'us',riin:'them'}[ph.words[0].toLowerCase()]||resolved.en):resolved.en;
 
       const roleObj = CASE_MARKERS[ph.marker];
       const roleLabel = (roleObj ? (isJa ? roleObj.roleJa : roleObj.roleEn) : '修飾句') + (resolved.etym || '');
 
+      const phraseAlignmentIndex=alignments.length;
       alignments.push({
         src: phraseText,
         src_en: phraseText,
@@ -437,6 +528,8 @@
               let subTextJa = compRes.text.replace(/^(.+?)は/, '$1が');
               objJa = `${whInfo.ja} ${subTextJa}か`;
               objEn = `${whInfo.en} ${compRes.text}`;
+              alignments[phraseAlignmentIndex].dst=isJa?objJa:objEn;
+              alignments[phraseAlignmentIndex].role='従属節（文単位）';
               alignments.push(...compRes.alignments);
               continue;
             }
@@ -448,6 +541,8 @@
               let subTextJa = compRes.text.replace(/^(.+?)は/, '$1が');
               objJa = isQuotationVerb ? `${subTextJa}と` : `${subTextJa}ことを`;
               objEn = `that ${compRes.text}`;
+              alignments[phraseAlignmentIndex].dst=isJa?objJa:objEn;
+              alignments[phraseAlignmentIndex].role='従属節（文単位）';
               alignments.push(...compRes.alignments);
               continue;
             }
@@ -460,14 +555,14 @@
         toEn = `to ${pEn}`;
       } else if (ph.marker === 'al') {
         alJa = `${pJa}に`;
-        alEn = `for ${pEn}`;
+        alEn = `to ${pEn}`;
       } else if (ph.marker === 'ku') {
         kuJa = `${pJa}と共に`;
         kuEn = `with ${pEn}`;
       } else if (ph.marker === 'va') {
-        compJa = `${pJa}より`;
-        const isVerbal = parsed.verbInfo && (parsed.verbInfo.p === '動' || parsed.verbInfo.pos === '動' || parsed.verbInfo.pos === '動詞');
-        compEn = isVerbal ? `more than ${pEn}` : `than ${pEn}`;
+        if(/動/.test(position)&&frame?.allowed.includes('va')){compJa=`${pJa}から`;compEn=`from ${pEn}`;}
+        else if(/形/.test(position)){compJa=`${pJa}より`;compEn=`than ${pEn}`;}
+        else return fail('起点と比較の区別を確定できません。');
       } else if (ph.marker === 'uo') {
         locJa = `${pJa}で`;
         locEn = `in ${pEn}`;
@@ -508,6 +603,39 @@
       }
     }
 
+    // Realize copular adjectives as predicates rather than noun objects.
+    const copular=vInfo.r==='relen';
+    let englishCopula=null;
+    let adjectiveInfo=/形/.test(position)?vInfo:null;
+    if(copular) {
+      const object=parsed.phrases.find(p=>p.marker==='ia');
+      if(object?.words.length===1)adjectiveInfo=lookupWord(object.words[0]);
+      if(!adjectiveInfo)return fail('コピュラの補語を確定できません。');
+    }
+    if(adjectiveInfo&&rules.held?.some(a=>a.id===adjectiveInfo.id))return fail('補語の語義・品詞は再整理待ちです。');
+    if(adjectiveInfo&&(/形/.test(adjectiveInfo.p||'')||copular)) {
+      if(parsed.prefixes.includes('di')||parsed.aspectSuffix)return fail('この形容詞叙述の相・モダリティは未対応です。');
+      const row=rules.adjectives?.find(a=>a.id===adjectiveInfo.id);
+      if(row&&!row.predicative)return fail('この形容詞は修飾のみ対応し、叙述は保留しています。');
+      let lemma=row?.predicateLemma||row?.lemma||(adjectiveInfo.m||'').split(/[、／]/)[0];
+      const past=parsed.prefixes.includes('fe'),negative=parsed.isNeg;
+      if((row?.kind==='i'||!row&&lemma.endsWith('い'))&&/形/.test(adjectiveInfo.p||'')) {
+        const stem=lemma.endsWith('良い')?lemma.slice(0,-2)+'良':lemma.slice(0,-1);
+        vJa=negative?stem+(past?'くなかった':'くない'):past?stem+'かった':lemma;
+      } else {
+        lemma=lemma.replace(/[なの]$/,'');vJa=lemma+(negative?(past?'ではなかった':'ではない'):(past?'だった':'だ'));
+      }
+      if(parsed.prefixes.includes('se'))vJa=vJa.replace(/だ$/,'')+'かもしれない';
+      const plural=/^(you|we|they)$/i.test(subjEn),first=/^i$/i.test(subjEn);
+      const be=past?(plural?'were':'was'):(plural?'are':first?'am':'is');
+      const adjectiveEn=(adjectiveInfo.en||'').split(/[,;/]/)[0].trim();
+      vEn=(parsed.prefixes.includes('se')?'perhaps ':'')+be+(negative?' not ':' ')+adjectiveEn;
+      englishCopula={be,complement:(negative?'not ':'')+adjectiveEn};
+      if(copular){objJa='';objEn='';}
+    }
+
+    const englishVerb=!englishCopula?englishPredicate((vInfo.en||vInfo.meaningEn||verbClean).split(/[,;/]/)[0].trim(),parsed,subjEn):null;
+    if(!isJa&&englishVerb)vEn=englishVerb.verb;
     // Add predicate alignment
     alignments.push({
       src: parsed.verbToken,
@@ -528,14 +656,9 @@
     } else {
       // Natural English SVO order: S + V + O + To + Al + Loc + Ku + Inst + Comp
       if (parsed.isQuestion) {
-        const isPast = parsed.tensePrefix === 'fe' || (parsed.verbInfo && parsed.verbInfo.tense === 'past');
-        const canModal = parsed.aspectSuffix && parsed.aspectSuffix.suffix === 'ar';
-        const wantModal = parsed.aspectSuffix && parsed.aspectSuffix.suffix === 'ast';
-        const aux = canModal ? 'Can' : (isPast ? 'Did' : 'Do');
         const s = subjEn || 'you';
-        let mainV = vEn;
-        if (canModal) mainV = mainV.replace(/^can\s+/, '');
-        if (wantModal) mainV = `want to ${mainV}`;
+        const aux=englishCopula?englishCopula.be[0].toUpperCase()+englishCopula.be.slice(1):englishVerb.aux;
+        const mainV=englishCopula?englishCopula.complement:englishVerb.main;
         const parts = [aux, s, mainV, objEn, toEn, alEn, locEn, kuEn, instEn, compEn].filter(Boolean);
         clauseOut = parts.join(' ') + '?';
       } else {
@@ -553,6 +676,12 @@
 
   // English -> Nebulith Translation (SVO -> VSO)
   function translateEnglishToNebulith(englishText) {
+    const result=translateEnglishUnchecked(englishText);
+    if(!result.success)return result;
+    const checked=translateNebulith(result.neb||result.text,'ja');
+    return checked.success?result:{text:null,source:englishText,success:false,error:checked.error||'生成先の項構造を検証できません。'};
+  }
+  function translateEnglishUnchecked(englishText) {
     if (!englishText || !englishText.trim()) {
       return { text: '', alignments: [], success: false };
     }
@@ -611,7 +740,7 @@
         }
         const c2 = translateSingleEnglishClause(secondPart);
         if (c1.success && c2.success) {
-          const nebConj = { if: 'Zen', because: 'Sen', although: 'Tor', 'even if': 'Tor', 'even though': 'Tor', when: 'Hav', while: 'Hav', 'so that': 'Sol', 'in order that': 'Sol' }[conjWord];
+          const nebConj = { if: 'Sen', because: 'Zen', although: 'Tor', 'even if': 'Tor', 'even though': 'Tor', when: 'Hav', while: 'Hav', 'so that': 'Sol', 'in order that': 'Sol' }[conjWord];
           const res = `${nebConj} ${c1.text}, ${c2.text}.`;
           return {
             text: res,
@@ -762,6 +891,7 @@
     const compObj = _externalVerifiedCompounds || (typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined' ? VERIFIED_CANONICAL_COMPOUNDS : (typeof globalThis !== 'undefined' ? globalThis.VERIFIED_CANONICAL_COMPOUNDS : null));
     if (compObj && Array.isArray(compObj.entries)) {
       for (const c of compObj.entries) {
+        if(!/名/.test(c.pos||''))continue;
         if (c.nrs && !Object.hasOwn(nouns, c.nrs.toLowerCase())) {
           nouns[c.nrs.toLowerCase()] = c.nrs.toLowerCase();
         }
@@ -791,7 +921,7 @@
       think: 'minpan', thinks: 'minpan', thought: 'fe minpan'
     };
     const adjectives = {
-      beautiful: 'cylani', bright: 'falani', dark: 'valani', warm: 'surani',
+      beautiful: 'cylani', bright: 'faluni', dark: 'kyrin', warm: 'teirini',
       white: 'alin', pure: 'alin', silver: 'tyni', red: 'pyrin', astral: 'vyri',
       blue: 'kyrin', clear: 'kyrin', cyan: 'kyrin',
       green: 'zylin', verdant: 'zylin',
@@ -801,6 +931,18 @@
       silent: 'moran', calm: 'moran',
       deep: 'telin', profound: 'telin'
     };
+    // Resolve adjective labels against the loaded dictionary. Historical fallback
+    // tables contained color/size substitutions; ambiguity must not pick a root.
+    const currentVocab=getVocabMap();
+    if(currentVocab.size) {
+      nouns.light='falun';
+      for(const term of Object.keys(adjectives)) {
+        const matches=[...currentVocab.values()].filter(w=>/形/.test(w.p||'')&&(w.en||'').toLowerCase().split(/[,;/]/).map(x=>x.trim()).includes(term));
+        if(matches.length===1)adjectives[term]=matches[0].r;else delete adjectives[term];
+      }
+      Object.assign(verbs,{know:'velsen',knows:'velsen',knew:'fe velsen',write:'kiras',writes:'kiras',wrote:'fe kiras'});
+      for(const term of ['think','thinks','thought','rest','rests','rested'])delete verbs[term];
+    }
     const nounPattern = '(?:(?:the|a|an)\\s+)?([a-z]+)';
     const fail = () => ({ success: false });
     const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -1006,14 +1148,13 @@
     return rows[0] || null;
   }
 
-  function conjugateJapaneseVerb(meaning, parsed) {
+  function conjugateJapaneseVerb(meaning, parsed, configuredKind) {
     const suffix = parsed.aspectSuffix && ['ast', 'ar', 'far', 'liv'].includes(parsed.aspectSuffix.suffix) ? parsed.aspectSuffix.suffix : '';
     const prefixes = [];
-    if (parsed.isNeg) prefixes.push('ne');
-    if (parsed.tensePrefix === 'fe' || parsed.tensePrefix === 'di') prefixes.push(parsed.tensePrefix);
+    prefixes.push(...parsed.prefixes.filter(p=>['fe','ne','di'].includes(p)));
     if (!suffix && !prefixes.length) return null;
     for (const lemma of glossList(meaning)) {
-      const kind = dictionaryVerbKind(lemma);
+      const kind = configuredKind || dictionaryVerbKind(lemma);
       if (!kind) continue;
       const chosen = selectJapaneseForm(formsFor(lemma, kind), prefixes, suffix);
       if (chosen) return chosen.ending;

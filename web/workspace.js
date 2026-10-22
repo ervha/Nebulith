@@ -11,6 +11,11 @@
     if(!raw||typeof raw!=='object'||Array.isArray(raw))throw Error('解釈情報が不正です。');
     const result={};
     for(const k of ['subject','verb','possession','sense'])if(typeof raw[k]==='string'&&raw[k].length<=200)result[k]=raw[k];
+    if(raw.nounSenses&&typeof raw.nounSenses==='object'&&!Array.isArray(raw.nounSenses)) {
+      const rows=Object.entries(raw.nounSenses);
+      if(rows.length>30)throw Error('名詞の語義選択が多すぎます。');
+      result.nounSenses=Object.fromEntries(rows.filter(([term,id])=>term.length<=200&&!['__proto__','constructor','prototype'].includes(term)&&Number.isSafeInteger(id)&&id>0));
+    }
     if(allowSegments&&raw.bySegment&&typeof raw.bySegment==='object'&&!Array.isArray(raw.bySegment)){
       const entries=Object.entries(raw.bySegment);if(entries.length>100)throw Error('保存する文の選択が多すぎます。');
       result.bySegment=Object.fromEntries(entries.filter(([k])=>k.length<=5000&&!['__proto__','constructor','prototype'].includes(k)).map(([k,v])=>[k,choices(v,false)]));

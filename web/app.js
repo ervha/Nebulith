@@ -14,10 +14,11 @@ let browsingHistory=storedArray('neb_history').slice(0,100);
 let feedbackQueue=[];
 try{feedbackQueue=NebulithWorkspace.normalizeQueue(safeStorage.json('neb_feedback_queue',[]),{name:'既存記録'});}catch(e){reportStorageError('記録の読込に問題があります：'+e.message);}
 let activeModalWord = null;
+let modalReturnFocus=null;
 
 function escapeHtml(str) {
   if (!str) return '';
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g,'&#39;');
 }
 
 // Initialize Theme
@@ -93,115 +94,75 @@ function updateFavCount() {
 }
 updateFavCount();
 
+// Build the searchable catalog once. Compounds participate in ordinary search,
+// favorites, history and part-of-speech filters rather than a separate hidden list.
+const catalogByRoot=new Map(VOCAB.map(w=>[w.r,{...w,b:''}]));
+for(const row of (typeof VERIFIED_CANONICAL_COMPOUNDS!=='undefined'?VERIFIED_CANONICAL_COMPOUNDS.entries:[])) {
+  if(!catalogByRoot.has(row.nrs))catalogByRoot.set(row.nrs,{id:row.id,r:row.nrs,p:row.pos,m:row.meaningJa,en:row.meaningEn,i:'',c:row.category||'',b:row.batch||'',o:'verified_compound',n:[row.etymology,...(row.morphemes||[]),row.scenario_id,...(row.speakers||[])].join(' ')});
+}
+const normalizeCatalogText=text=>String(text||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
+const dictionaryCatalog=[...catalogByRoot.values()].map(w=>({...w,
+  displayCategory:TRANSLATION_EXTENSIONS.catalogCategories?.categories?.[w.c]||w.c,
+  searchText:normalizeCatalogText([w.r,w.m,w.en,w.n,w.c,w.b].join(' ')),
+  searchLabels:[w.r,...(w.m+'、'+w.en).split(/[、／,;]/)].map(normalizeCatalogText)}));
+const lexCategoryFilter=document.getElementById('lexCategoryFilter');
+const lexBatchFilter=document.getElementById('lexBatchFilter');
+for(const [control,values,label] of [
+  [lexCategoryFilter,[...new Set(dictionaryCatalog.map(w=>w.displayCategory).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ja',{numeric:true})),'すべてのカテゴリ'],
+  [lexBatchFilter,[...new Set(dictionaryCatalog.map(w=>w.b).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'en',{numeric:true})),'すべてのバッチ']]) {
+  control.innerHTML='<option value="">'+label+'</option>'+values.map(value=>`<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join('');
+  control.addEventListener('change',()=>renderLexicon());
+}
+let lexPage=0,lexFingerprint='';
+const lexPageSize=60;
+function catalogMatches(query,mode,category,batch) {
+  const tokens=normalizeCatalogText(query).split(' ').filter(Boolean);
+  const exact=normalizeCatalogText(query);
+  const score=w=>!exact?0:w.searchLabels.includes(exact)?0:w.searchLabels.some(label=>label.startsWith(exact))?1:2;
+  const matches=dictionaryCatalog.filter(w=>{
+    if(mode==='FAV'&&!favorites.has(w.r))return false;
+    if(mode==='HISTORY'&&!browsingHistory.includes(w.r))return false;
+    if(mode==='CANON'&&w.o!=='canon')return false;
+    if(mode==='CURATED_EXT'&&w.o!=='curated_ext')return false;
+    if(mode==='VERIFIED_COMPOUNDS'&&w.o!=='verified_compound')return false;
+    if(!['ALL','FAV','HISTORY','CANON','CURATED_EXT','VERIFIED_COMPOUNDS'].includes(mode)&&!w.p.includes(mode))return false;
+    return (!category||w.c===category||w.displayCategory===category)&&(!batch||w.b===batch)&&tokens.every(t=>w.searchText.includes(t));
+  });
+  return matches.sort((a,b)=>score(a)-score(b)||(mode==='HISTORY'?browsingHistory.indexOf(a.r)-browsingHistory.indexOf(b.r):0));
+}
 function renderLexicon() {
-  const query = searchInput.value.trim().toLowerCase();
-  if (currentFilterPos === 'VERIFIED_COMPOUNDS' && typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined') {
-    const entries = (VERIFIED_CANONICAL_COMPOUNDS.entries || []).filter(w => {
-      if (!query) return true;
-      return (w.nrs && w.nrs.toLowerCase().includes(query)) ||
-             (w.meaningJa && w.meaningJa.toLowerCase().includes(query)) ||
-             (w.meaningEn && w.meaningEn.toLowerCase().includes(query)) ||
-             (w.etymology && w.etymology.toLowerCase().includes(query));
-    });
-    resultCount.textContent = `表示中: ${entries.length} 語 (正本検証済み複合語・監査フラグ0件)`;
-    wordGrid.innerHTML = entries.map(w => `
-      <div class="word-card" onclick="openWordModal('${escapeHtml(w.nrs)}')">
-        <div>
-          <div class="word-card-top" style="flex-wrap:wrap;gap:4px;">
-            <span class="word-roman">${escapeHtml(w.nrs)}</span>
-            <div style="display:flex;gap:4px;align-items:center;">
-              <span class="word-pos" style="opacity:0.9;">正本複合語 (${escapeHtml((w.morphemes||[]).join(' + '))})</span>
-              <span class="word-pos">${escapeHtml(w.pos)}</span>
-            </div>
-          </div>
-          <div class="word-glyph">${escapeHtml(w.nrs)}</div>
-          <div class="word-meaning">${escapeHtml(w.meaningJa)}</div>
-        </div>
-        <div>
-          <div style="font-size: 0.75rem; color: var(--md-sys-color-on-surface-variant); margin-top: 4px;">En: ${escapeHtml(w.meaningEn)}</div>
-          <div style="font-size: 0.75rem; color: var(--md-sys-color-outline); margin-top: 4px;">語源: ${escapeHtml(w.etymology)} | 対話: ${escapeHtml(w.scenario_id)} (${escapeHtml((w.speakers||[]).join(', '))})</div>
-          <div style="font-size: 0.75rem; color: var(--md-sys-color-primary); margin-top: 4px;">例: ${escapeHtml(w.example_sentence)} (${escapeHtml(w.example_ja)})</div>
-        </div>
-      </div>
-    `).join('');
+  const query=searchInput.value.trim();
+  const category=lexCategoryFilter.value||'',batch=lexBatchFilter.value||'';
+  const fingerprint=JSON.stringify([query,currentFilterPos,category,batch]);
+  if(fingerprint!==lexFingerprint){lexPage=0;lexFingerprint=fingerprint;}
+  const filtered=catalogMatches(query,currentFilterPos,category,batch);
+  const pages=Math.max(1,Math.ceil(filtered.length/lexPageSize));lexPage=Math.min(lexPage,pages-1);
+  const start=lexPage*lexPageSize,displayList=filtered.slice(start,start+lexPageSize);
+  document.getElementById('lexPrevPage').disabled=lexPage===0;
+  document.getElementById('lexNextPage').disabled=lexPage===pages-1;
+  document.getElementById('lexPageInfo').textContent=`${lexPage+1} / ${pages}ページ`;
+  resultCount.textContent=filtered.length?`表示中: ${start+1}〜${start+displayList.length} / ${filtered.length.toLocaleString()} 語（全${dictionaryCatalog.length.toLocaleString()}語）`:'表示中: 0 語 (一致なし)';
+  if(!filtered.length) {
+    const existsElsewhere=query&&catalogMatches(query,'ALL','','').length>0;
+    const alreadyInQueue=feedbackQueue.some(item=>item.type==='word'&&normalizeCatalogText(item.text)===normalizeCatalogText(query));
+    wordGrid.innerHTML=`<div class="empty-state"><div style="font-size:1.1rem;font-weight:600;">${query?`「${escapeHtml(query)}」に一致する単語が見つかりませんでした`:'この条件に一致する単語はありません'}</div><p>${existsElsewhere?'別のカテゴリ・区分には見つかります。条件をリセットすると表示できます。':'条件を変えて検索できます。未収録の語は記録して後で対応できます。'}</p>${query&&!existsElsewhere?`<button class="record-btn" id="recordMissingWordBtn" ${alreadyInQueue?'disabled':''}>${alreadyInQueue?'キューに記録済み':'この未対応語を記録する'}</button>`:''}</div>`;
+    const recBtn=query&&!existsElsewhere?document.getElementById('recordMissingWordBtn'):null;
+    if(recBtn&&!alreadyInQueue)recBtn.addEventListener('click',()=>{if(!addFeedbackItem('word','search',query,'辞書検索0件ヒット'))return;recBtn.textContent='キューに記録しました';recBtn.disabled=true;});
     return;
   }
-  const rank = w => {
-    if (!query) return 0;
-    const labels = [w.r, ...(w.m+'、'+w.en).split(/[、／,;]/)].map(s=>s.trim().toLowerCase());
-    return labels.includes(query) ? 0 : labels.some(s=>s.startsWith(query)) ? 1 : 2;
-  };
-  const filtered = VOCAB.filter(w => {
-    if (currentFilterPos === 'FAV') {
-      if (!favorites.has(w.r)) return false;
-    } else if (currentFilterPos === 'HISTORY') {
-      if(!browsingHistory.includes(w.r))return false;
-    } else if (currentFilterPos === 'CANON') {
-      if ((w.o || 'canon') !== 'canon') return false;
-    } else if (currentFilterPos === 'CURATED_EXT') {
-      if (w.o !== 'curated_ext') return false;
-    } else if (currentFilterPos !== 'ALL' && !w.p.includes(currentFilterPos)) {
-      return false;
-    }
-    if (!query) return true;
-    return (w.r && w.r.toLowerCase().includes(query)) ||
-           (w.m && w.m.toLowerCase().includes(query)) ||
-           (w.en && w.en.toLowerCase().includes(query)) ||
-           (w.n && w.n.toLowerCase().includes(query));
-  }).sort((a,b)=>rank(a)-rank(b));
-
-  if (filtered.length === 0 && query) {
-    resultCount.textContent = `表示中: 0 語 (一致なし)`;
-    const alreadyInQueue = feedbackQueue.some(item => item.type === 'word' && item.text.toLowerCase() === query);
-    wordGrid.innerHTML = `
-      <div class="empty-state">
-        
-        <div style="font-size: 1.1rem; font-weight: 600;">「${escapeHtml(query)}」に一致する単語が見つかりませんでした</div>
-        <p style="font-size: 0.85rem; color: var(--md-sys-color-on-surface-variant); max-width: 480px;">
-          日本語・英語・星石文字での検索に対応していなかった語彙を内部キューに記録し、今後の辞書アップデートで回収・追加できます。
-        </p>
-        <button class="record-btn" id="recordMissingWordBtn" ${alreadyInQueue ? 'disabled style="opacity:0.7;"' : ''}>
-          <span>${alreadyInQueue ? 'キューに記録済み' : 'この未対応語を記録する'}</span>
-        </button>
-      </div>
-    `;
-    const recBtn = document.getElementById('recordMissingWordBtn');
-    if (recBtn && !alreadyInQueue) {
-      recBtn.addEventListener('click', () => {
-        if(!addFeedbackItem('word', 'search', query, '辞書検索0件ヒット'))return;
-        recBtn.innerHTML = '<span>キューに記録しました</span>';
-        recBtn.disabled = true;
-        recBtn.style.opacity = '0.7';
-      });
-    }
-    return;
-  }
-
-  resultCount.textContent = `表示中: ${filtered.length.toLocaleString()} 語 (全${VOCAB.length.toLocaleString()}語)`;
-  if(currentFilterPos==='HISTORY')filtered.sort((a,b)=>browsingHistory.indexOf(a.r)-browsingHistory.indexOf(b.r));
-  const displayList = filtered.slice(0, 150);
-  wordGrid.innerHTML = displayList.map(w => {
-    const isFav = favorites.has(w.r);
-    const originBadge = w.o === 'curated_ext' ? '<span class="word-pos" style="opacity:0.85;">拡張語彙</span>' : '';
-    return `
-      <div class="word-card" onclick="openWordModal('${w.r}')">
-        <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" onclick="toggleFav(event, '${w.r}')" aria-label="${isFav ? 'お気に入りを解除' : 'お気に入りに追加'}" aria-pressed="${isFav ? 'true' : 'false'}">${isFav ? '★' : '☆'}</button>
-        <div>
-          <div class="word-card-top" style="flex-wrap:wrap;gap:4px;">
-            <span class="word-roman">${w.r}</span>
-            <div style="display:flex;gap:4px;align-items:center;">${originBadge}<span class="word-pos">${w.p}</span></div>
-          </div>
-          <div class="word-glyph">${w.r}</div>
-          <div class="word-meaning">${w.m}</div>
-        </div>
-        <div>
-          ${w.en ? `<div style="font-size: 0.75rem; color: var(--md-sys-color-on-surface-variant); margin-top: 4px;">En: ${w.en}</div>` : ''}
-          <div class="word-ipa">${w.i ? `/${w.i}/` : ''}</div>
-        </div>
-      </div>
-    `;
+  wordGrid.innerHTML=displayList.map(w=>{
+    const isFav=favorites.has(w.r);
+    const badge=w.o==='verified_compound'?'複合語':w.o==='curated_ext'?'拡張語彙':'';
+    return `<div class="word-card" onclick="openWordModal('${escapeHtml(w.r)}')"><button type="button" class="card-fav-btn ${isFav?'active':''}" onclick="toggleFav(event, '${escapeHtml(w.r)}')" aria-label="${isFav?'お気に入りを解除':'お気に入りに追加'}" aria-pressed="${isFav}">${isFav?'★':'☆'}</button><div><div class="word-card-top"><button type="button" class="word-roman word-open" data-root="${escapeHtml(w.r)}" style="background:none;border:0;color:inherit;font:inherit;padding:0;text-align:left;cursor:pointer" onclick="event.stopPropagation();openWordModal('${escapeHtml(w.r)}')" aria-label="${escapeHtml(w.m)}（${escapeHtml(w.r)}）の詳細">${escapeHtml(w.r)}</button><span class="word-pos">${escapeHtml(w.p)}</span></div><div class="word-glyph">${escapeHtml(w.r)}</div><div class="word-meaning">${escapeHtml(w.m)}</div></div><div>${w.en?`<div style="font-size:0.75rem;">En: ${escapeHtml(w.en)}</div>`:''}<div class="word-ipa">${escapeHtml([badge,w.b].filter(Boolean).join(' / '))}${w.i?' /'+escapeHtml(w.i)+'/':''}</div></div></div>`;
   }).join('');
 }
+document.getElementById('lexPrevPage').addEventListener('click',()=>{if(lexPage>0){lexPage--;renderLexicon();}});
+document.getElementById('lexNextPage').addEventListener('click',()=>{lexPage++;renderLexicon();});
+document.getElementById('lexResetFilters').addEventListener('click',()=>{
+  searchInput.value='';lexCategoryFilter.value='';lexBatchFilter.value='';currentFilterPos='ALL';
+  document.querySelectorAll('.chip-btn').forEach(chip=>chip.classList.toggle('active',chip.getAttribute('data-pos')==='ALL'));
+  renderLexicon();
+});
 
 window.toggleFav = function(e, roman) {
   if (e && e.stopPropagation) e.stopPropagation();
@@ -305,6 +266,7 @@ function getWordForms(word) {
 
 function getWordCorpusExamples(wordRoot, word) {
   const matches = [];
+  for(const e of TRANSLATION_EXTENSIONS.roadmapProductive?.examples||[])if(e.root===wordRoot)matches.push({neb:e.neb,ja:e.ja,tag:e.tag});
   const regex = new RegExp('\\b' + wordRoot + '\\b', 'i');
   for (const c of (typeof CANON !== 'undefined' ? CANON : [])) {
     if (regex.test(c.neb)) matches.push({ neb: c.neb, ja: c.ja, tag: '正本カノン' });
@@ -331,6 +293,7 @@ function getWordCorpusExamples(wordRoot, word) {
 }
 
 window.openWordModal = function(roman) {
+  modalReturnFocus=document.activeElement||null;
   const cleanRoman = roman.replace(/^[-+]/, '').replace(/[-+]$/, '').trim();
   let word = VOCAB.find(w => w.r === roman) || VOCAB.find(w => w.r === cleanRoman);
   if (!word && typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined') {
@@ -381,7 +344,8 @@ window.openWordModal = function(roman) {
   const noteEl = document.getElementById('modalNotes');
   if (noteEl) {
     // Keep usage warnings and definitions; omit internal classification and book-location metadata.
-    const notes=(word.n||'').replace(/【聖典原典】[^。]*。/g,'').replace(/【[^】]*(?:監査|語根|文明)[^】]*】/g,'').trim();
+    const held=TRANSLATION_EXTENSIONS.roadmapProductive?.held?.find(e=>e.id===(word.id||word._verifiedCompound?.id));
+    const notes=[(word.n||'').replace(/【聖典原典】[^。]*。/g,'').replace(/【[^】]*(?:監査|語根|文明)[^】]*】/g,'').trim(),held?.reason||''].filter(Boolean).join(' ');
     noteEl.textContent=notes;
     document.getElementById('modalNotesField').style.display=notes?'block':'none';
   }
@@ -435,11 +399,29 @@ window.openWordModal = function(roman) {
 
   updateModalFavButton();
   wordModal.classList.add('active');
+  document.getElementById('modalCloseBtn').focus?.();
 };
+
+function closeWordModal() {
+  wordModal.classList.remove('active');
+  if(modalReturnFocus?.isConnected!==false)modalReturnFocus?.focus?.();
+  else document.querySelector?.(`.word-open[data-root="${activeModalWord?.r}"]`)?.focus();
+}
+document.addEventListener?.('keydown',e=>{
+  if(!wordModal.classList.contains('active'))return;
+  if(e.key==='Escape'){e.preventDefault();closeWordModal();return;}
+  if(e.key==='Tab') {
+    const controls=[...wordModal.querySelectorAll('button,a[href],select,input,[tabindex="0"]')].filter(x=>x.getClientRects().length&&!x.disabled);
+    const first=controls[0],last=controls.at(-1);
+    if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus();}
+    else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus();}
+  }
+});
 
 window.loadExampleToTranslator = function(jaText) {
   if (transInput) {
     transInput.value = jaText;
+    resetInputChoices();
     activateTab('translator');
     if (typeof doTranslate === 'function') doTranslate();
   }
@@ -464,10 +446,10 @@ document.getElementById('modalFavToggle').addEventListener('click', () => {
 });
 
 document.getElementById('modalCloseBtn').addEventListener('click', () => {
-  wordModal.classList.remove('active');
+  closeWordModal();
 });
 wordModal.addEventListener('click', (e) => {
-  if (e.target === wordModal) wordModal.classList.remove('active');
+  if (e.target === wordModal) closeWordModal();
 });
 
 document.getElementById('copyModalRoman').addEventListener('click', () => {
@@ -719,11 +701,12 @@ function translateSingleSentence(sent, fromLang, toLang) {
         return {
           text: biRes.text,
           neb: sent,
-          tag: 'VSO (Nebulith -> ' + toLang.toUpperCase() + ' Productive NLG)',
+          tag: '辞書・対応文型による逆変換（'+toLang.toUpperCase()+'）',
           alignment: biRes.alignments || [],
           success: true
         };
       }
+      return {text:null,success:false,error:biRes?.error||'逆変換が未確定です。'};
     }
     if (fromLang === 'en' && toLang === 'neb') {
       const biRes = NebulithBidirectionalEngine.translateEnglishToNebulith(sent);
@@ -740,7 +723,8 @@ function translateSingleSentence(sent, fromLang, toLang) {
 function doTranslate() {
   saveTranslationSession();
   copyDstBtn.disabled = true;
-  document.getElementById('inputInterpretation').innerHTML = '';
+  document.getElementById('inputInterpretation').textContent = '';
+  document.getElementById('inputFragments').innerHTML = '';
   document.getElementById('inputChoices').style.display = 'none';
   document.getElementById('copyConfirmedParts').style.display = 'none';
   if (composingInput) return;
@@ -789,6 +773,7 @@ function doTranslate() {
   const results = [];
   const tags = [];
   const combinedAlignments = [];
+  const parseFailures = [];
   let allSuccess = true;
 
   for (const sent of rawSentences) {
@@ -801,6 +786,7 @@ function doTranslate() {
       }
     } else {
       allSuccess = false;
+      parseFailures.push(res?.error||'文型を確定できません。');
       results.push('【構文未確定】');
     }
   }
@@ -816,6 +802,7 @@ function doTranslate() {
     transNotice.innerHTML = `長文・構文解析完了 (${results.length}文 確定翻訳)`;
   } else {
     transOutputText.textContent = results.join(' ');
+    document.getElementById('inputInterpretation').textContent=parseFailures.join(' / ');
     transOutputGlyph.textContent = '';
     transTagsList.innerHTML = tags.map(t => `<span class="trans-structure-tag">${t}</span>`).join('');
     if (transAlignmentBox) transAlignmentBox.innerHTML = '';
@@ -852,13 +839,13 @@ function renderAlignments(alignments) {
   const chipsHtml = alignments.map(a => {
     const srcWord = isEn ? (a.src_en || a.src) : a.src;
     const cleanDst = (a.dst || '').replace(/^[-+]/, '').replace(/[-+]$/, '').trim();
-    const hasWord = typeof VOCAB !== 'undefined' && VOCAB.some(w => w.r === cleanDst);
-    const clickAttr = hasWord ? `class="align-dst has-word" title="辞書で『${escapeHtml(cleanDst)}』の詳細を見る" onclick="openWordModal('${escapeHtml(cleanDst)}')"` : 'class="align-dst"';
+    const hasWord = catalogByRoot.has(cleanDst);
+    const clickAttr = hasWord ? `type="button" class="align-dst has-word" title="辞書で『${escapeHtml(cleanDst)}』の詳細を見る" onclick="openWordModal('${escapeHtml(cleanDst)}')"` : 'class="align-dst"';
     return `
       <div class="align-chip">
         <span class="align-src">${escapeHtml(srcWord)}</span>
         <span class="align-arrow"></span>
-        <span ${clickAttr}>${escapeHtml(a.dst)}</span>
+        <${hasWord?'button':'span'} ${clickAttr}>${escapeHtml(a.dst)}</${hasWord?'button':'span'}>
         <span class="align-role">${escapeHtml(a.role)}</span>
       </div>
     `;
@@ -883,6 +870,18 @@ function renderIncrementalInput() {
   if(!result.segments.some(s=>s.key===activeSentenceKey))activeSentenceKey=(result.segments.find(s=>!['complete','phrase'].includes(s.state))||result.segments[0])?.key||'';
   const selected=result.segments.find(s=>s.key===activeSentenceKey)||result.segments[0];
   const selectedChoices=currentSegmentChoices();
+  const nounGroups=selected?.nounOptions||[];
+  const nounBox=document.getElementById('inputNounChoices');
+  nounBox.innerHTML=nounGroups.map((group,i)=>`<label>「${escapeHtml(group.term)}」の意味 <select data-noun-index="${i}"><option value="">未選択</option>${group.options.map(o=>`<option value="${o.id}"${selectedChoices.nounSenses?.[group.term]===o.id?' selected':''}>${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('')}</select></label>`).join('');
+  for(const control of nounBox.querySelectorAll?.('select')||[])control.addEventListener('change',()=>{
+    const group=nounGroups[Number(control.dataset.nounIndex)];
+    const nounSenses={...(currentSegmentChoices().nounSenses||{})};
+    if(control.value)nounSenses[group.term]=Number(control.value);else delete nounSenses[group.term];
+    changeSegmentChoices({nounSenses,confirmed:false});doTranslate();
+  });
+  const subjectControl=document.getElementById('inputSubject');
+  subjectControl.innerHTML='<option value="">原文のまま</option><option>私</option><option>あなた</option><option>彼／彼女</option>'+(selected?.contextSubject?`<option value="${escapeHtml(selected.contextSubject.source)}">前文の主体：${escapeHtml(selected.contextSubject.source)}（確認が必要）</option>`:'');
+  document.getElementById('inputFragments').innerHTML=result.complete?'':`<small>入力の辞書照合（文法解析とは別）</small><div>${(selected?.fragments||[]).map(f=>`<span class="input-fragment" title="${f.known?'辞書に見つかった語':'未照合部分'}" style="display:inline-block;padding:3px 6px;margin:2px;border:1px ${f.known?'solid':'dashed'} var(--md-sys-color-outline-variant)">${escapeHtml(f.source)}</span>`).join('')}</div>`;
   document.getElementById('inputChoices').style.display=text.trim()&&(!result.complete||result.segments.length>1)?'flex':'none';
   document.getElementById('inputSentenceLabel').style.display=result.segments.length>1?'inline-block':'none';
   document.getElementById('inputSentence').innerHTML=result.segments.map((s,i)=>`<option value="${escapeHtml(s.key)}">${i+1}文目・${labels[s.state]}：${escapeHtml(s.source.slice(0,55))}</option>`).join('');
@@ -1482,7 +1481,7 @@ renderCorpus();
 renderLexicon();
 
 function saveTranslationSession(){
-  safeStorage.setItem('neb_session_v1',JSON.stringify({schemaVersion:1,text:transInput.value,srcLang,dstLang,choices:inputChoicesState,updatedAt:new Date().toISOString()}));
+  return safeStorage.setItem('neb_session_v1',JSON.stringify({schemaVersion:1,text:transInput.value,srcLang,dstLang,choices:inputChoicesState,updatedAt:new Date().toISOString()}));
 }
 function downloadJson(value,name){
   const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));
@@ -1538,6 +1537,15 @@ document.getElementById('backupApply').addEventListener('click',()=>{if(pendingB
 // Service Worker Registration for Offline PWA
 // ==============================================================================
 if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && typeof window !== 'undefined' && window.location && (window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+  let hadController=!!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(hadController){document.getElementById('pwaUpdateStatus').textContent='更新を反映できます。下書きを保存して再読み込みしてください。';document.getElementById('pwaReload').hidden=false;}
+    hadController=true;
+  });
+  document.getElementById('pwaReload').addEventListener('click',()=>{
+    if(composingInput){document.getElementById('pwaUpdateStatus').textContent='日本語の変換を確定してから更新してください。';return;}
+    if(saveTranslationSession())window.location.reload();
+  });
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./service-worker.js').then((reg) => {
       console.log('Nebulith PWA Service Worker registered:', reg.scope);

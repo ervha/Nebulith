@@ -82,6 +82,12 @@ def build_web_studio():
         translation_extensions=json.load(f)
     with open(os.path.join(base_dir,'data','translation_patterns.json'),encoding='utf-8') as f:
         translation_extensions['productive']=json.load(f)
+    with open(os.path.join(base_dir,'data','compound_translation_patterns.json'),encoding='utf-8') as f:
+        translation_extensions['compoundProductive']=json.load(f)
+    with open(os.path.join(base_dir,'data','roadmap_lexical_rules.json'),encoding='utf-8') as f:
+        translation_extensions['roadmapProductive']=json.load(f)
+    with open(os.path.join(base_dir,'data','studio_categories.json'),encoding='utf-8') as f:
+        translation_extensions['catalogCategories']=json.load(f)
     with open(os.path.join(web_dir,'workspace.js'),encoding='utf-8') as f:
         workspace_js=f.read()
     with open(os.path.join(web_dir,'bidirectional.js'),encoding='utf-8') as f:
@@ -210,6 +216,8 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
     }}
 
     * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+    [hidden] {{ display: none !important; }}
+    button:focus-visible, select:focus-visible, input:focus-visible {{ outline: 2px solid var(--md-sys-color-primary); outline-offset: 3px; }}
 
     body {{
       font-family: var(--font-family-sans);
@@ -1250,7 +1258,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
   <!-- Navigation Tabs -->
   <nav class="tab-nav">
     <button class="tab-btn active" data-tab="lexicon">
-      辞書・語根・文法 ({len(vocab):,}項目)
+      辞書・語根・文法 ({len(vocab)+len(verified_canonical_compounds.get('entries', [])):,}項目)
     </button>
     <button class="tab-btn" data-tab="translator">
       相互変換・多言語アライメント (JA / EN / NEB)
@@ -1265,6 +1273,8 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
 
   <div style="padding:8px 24px">
     <div id="storageStatus" role="status" aria-live="polite" style="color:var(--md-sys-color-error)"></div>
+    <div id="pwaUpdateStatus" role="status" aria-live="polite"></div>
+    <button class="tool-btn" id="pwaReload" type="button" hidden>下書きを保存して更新を反映</button>
     <details><summary>保存・バックアップ</summary>
       <p>このブラウザーの設定・下書き・記録を保存します。別ブラウザーや別URLでは保存領域が異なります。</p>
       <button class="tool-btn" id="backupExport">全データをバックアップ</button>
@@ -1282,8 +1292,13 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
           <span class="search-icon"></span>
           <input type="text" class="search-input" id="lexSearchInput" placeholder="ローマ字、日本語、星石文字、英語で検索... (クリックで詳細モーダル)">
         </div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0;">
+          <label>カテゴリ <select class="tool-btn" id="lexCategoryFilter" aria-label="辞書のカテゴリ" style="max-width:100%;"></select></label>
+          <label>バッチ <select class="tool-btn" id="lexBatchFilter" aria-label="複合語のバッチ"></select></label>
+          <button class="tool-btn" id="lexResetFilters" type="button">条件をリセット</button>
+        </div>
         <div class="filter-chips" id="filterChips">
-          <button class="chip-btn active" data-pos="ALL">すべて ({len(vocab):,})</button>
+          <button class="chip-btn active" data-pos="ALL">すべて ({len(vocab)+len(verified_canonical_compounds.get("entries",[])):,})</button>
           <button class="chip-btn" data-pos="CANON">正本 (1,008)</button>
           <button class="chip-btn" data-pos="CURATED_EXT">体系拡張</button>
           <button class="chip-btn" data-pos="VERIFIED_COMPOUNDS">検証済み複合語 ({len(verified_canonical_compounds.get('entries', []))})</button>
@@ -1302,19 +1317,24 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
       </div>
 
       <div class="lexicon-summary">
-        <span id="resultCount">表示中: {len(vocab):,} 項目</span>
+        <span id="resultCount" aria-live="polite">表示中: {len(vocab)+len(verified_canonical_compounds.get('entries', [])):,} 項目</span>
         <span style="font-size: 0.8rem; color: var(--md-sys-color-outline);">カードクリックで詳細・語源・お気に入り登録</span>
       </div>
 
       <div class="word-grid" id="wordGrid"></div>
+      <nav aria-label="辞書のページ" style="display:flex;justify-content:center;align-items:center;gap:14px;margin:20px 0;">
+        <button class="tool-btn" id="lexPrevPage" type="button">前へ</button>
+        <span id="lexPageInfo" aria-live="polite"></span>
+        <button class="tool-btn" id="lexNextPage" type="button">次へ</button>
+      </nav>
     </div>
 
     <!-- TAB: Dialogues & Canonical Compounds -->
     <div class="tab-content" id="tab-dialogues">
       <div class="dialogue-search-panel">
         <div class="view-mode-group">
-          <button type="button" class="view-mode-btn active" id="viewModeScenarios">対話シナリオ一覧 (286篇)</button>
-          <button type="button" class="view-mode-btn" id="viewModeCompounds">正本複合語一覧 (857語)</button>
+          <button type="button" class="view-mode-btn active" id="viewModeScenarios">対話シナリオ一覧 ({len(verified_canonical_compounds.get('scenarios', []))}篇)</button>
+          <button type="button" class="view-mode-btn" id="viewModeCompounds">複合語一覧 ({len(verified_canonical_compounds.get('entries', []))}語)</button>
         </div>
         <div class="search-input-wrap">
           <input type="search" class="search-input" id="dialogueSearchInput" placeholder="対話文、複合語、日本語義、話者名、シナリオID、構成語根で検索...">
@@ -1374,12 +1394,14 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
               <div class="trans-result-text" id="transOutputText">ここに訳文が表示されます</div>
               <div class="trans-result-glyph" id="transOutputGlyph"></div>
               <div id="inputInterpretation" style="margin:12px 0" aria-live="polite"></div>
+              <div id="inputFragments" style="margin:12px 0"></div>
               <div id="inputChoices" style="display:none;gap:8px;flex-wrap:wrap;margin:12px 0">
                 <label id="inputSentenceLabel" style="display:none">編集する文 <select id="inputSentence"></select></label>
                 <label id="inputSubjectLabel">主体の補完 <select id="inputSubject"><option value="">原文のまま</option><option>私</option><option>あなた</option><option>彼／彼女</option></select></label>
                 <label id="inputVerbLabel">動作の解釈 <select id="inputVerb"><option value="">未選択</option><option>観測する</option><option>仰ぎ見る</option><option>見上げる</option><option>展望する</option><option>予見する</option><option>話す</option><option>語り合う</option><option>告げる</option><option>ささやく</option><option>問う</option><option>歩く</option><option>走る</option><option>行進する</option><option>滑空する</option><option>信じる</option><option>思索する</option><option>決断する</option><option>尊ぶ</option></select></label>
                 <label id="inputPossessionLabel" style="display:none">所有範囲 <select id="inputPossession"><option value="">未選択</option><option value="shared">（AとB）のC・共有所有</option><option value="separate">Aと（BのC）・別々の並列項</option></select></label>
                 <label id="inputSenseLabel" style="display:none">語義 <select id="inputSense"><option value="">未選択</option></select></label>
+                <div id="inputNounChoices"></div>
                 <button class="tool-btn" id="confirmInputCandidate">この解釈で確定</button>
               </div>
               <button class="tool-btn" id="copyConfirmedParts" style="display:none">確定した文だけコピー</button>
@@ -1439,7 +1461,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
     </div></main>
 
   <!-- Word Detail Modal -->
-  <div class="modal-backdrop" id="wordModal">
+  <div class="modal-backdrop" id="wordModal" role="dialog" aria-modal="true" aria-labelledby="modalRoman">
     <div class="modal-box">
       <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="閉じる">×</button>
       <div class="modal-glyph-large" id="modalGlyph">celen</div>
@@ -1564,7 +1586,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
 
     files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'tools/extended_corpus.py', 'data/lexicon.json',
              'data/literary_sourcebook.json', 'data/lexicon_canonical_loci.json', 'docs/Valnes_Ibun.html', 'web/library.html', 'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/verified_canonical_compounds.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
-             'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json',
+             'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json', 'data/compound_translation_patterns.json', 'data/roadmap_lexical_rules.json', 'data/studio_categories.json',
              'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/bidirectional.js', 'web/incremental.js', 'web/data.js',
              'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/service-worker.js', 'web/icon.svg', 'web/favicon.svg']
     hashes = {p: hashlib.sha256((Path(base_dir)/p).read_bytes()).hexdigest() for p in files}

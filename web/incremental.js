@@ -215,7 +215,7 @@
       {ending:'愛好する',replacement:'愛する',complete:true}
     ];
     aliases = [...(aliases||[]).map(a => a.chooseVerb ? {...a, chooseGroup: '見る'} : a), ...defaultAliases];
-    const productive=extensions.productive||{};
+    const productive={...(extensions.productive||{}),verbs:[...(extensions.productive?.verbs||[]),...(extensions.compoundProductive?.verbs||[]),...(extensions.roadmapProductive?.verbs||[])]};
     for(const verb of productive.verbs||[])if(!frames[verb.id])frames[verb.id]=verb.frame;
     const placeRoots=new Set(['govan','vyrelar','nerar','celvan',...(productive.placeIds||[]).map(id=>byId.get(id)?.r).filter(Boolean)]);
     const argSources=new WeakMap();
@@ -244,36 +244,44 @@
     for (const e of vocab) for (const g of gloss(e)) { if (!index.has(g)) index.set(g, []); index.get(g).push(e); }
     for (const ce of verifiedCompoundEntries) {
       for (const g of gloss(ce)) {
-        if (!index.has(g)) index.set(g, [ce]);
+        if (!index.has(g)) index.set(g, []);
+        if(!index.get(g).some(e=>e.id===ce.id))index.get(g).push(ce);
       }
     }
-    const adjectives = vocab.filter(e => e.p.includes('形')).flatMap(e => gloss(e).map(g => [g,e]));
+    const adjectives = [...vocab.filter(e => e.p.includes('形')).flatMap(e => gloss(e).map(g => [g,e])),...(extensions.roadmapProductive?.adjectives||[]).map(a=>[a.lemma,byId.get(a.id)])];
     const key = s => s.trim().replace(/\s+/g,'').replace(/？/g,'?').replace(/[。.]$/,'');
+    let activeNounSenses={},activeNounOptions=new Map();
+    const nounFailure=(e,source,notes=[])=>({source,text:'',state:'draft',nounOptions:[e.nounOptions],notes:[...notes,e.message]});
     function phrase(text, adj = false, depth = 0) {
       if (!text || depth > 2) throw Error('名詞句が未完成、または修飾が複雑です。');
       if (pronouns[text]) return pronouns[text];
       const found = [...new Map([...(index.get(text)||[]), ...(adj ? (index.get(text+'な')||[]) : [])].filter(e=>e.p.includes('名') || adj && e.p.includes('形')).map(e=>[e.id,e])).values()];
       if (found.length === 1) return found[0].r;
-      if (found.length > 1) throw Error(`「${text}」の語義候補が複数：`+found.slice(0,5).map(e=>e.r).join(' / '));
+      if (found.length > 1) {
+        activeNounOptions.set(text,{term:text,options:found.map(e=>({id:e.id,root:e.r,meaning:e.m}))});
+        const selected=found.find(e=>e.id===activeNounSenses[text]);
+        if(selected)return selected.r;
+        throw Object.assign(Error(`「${text}」の語義候補が複数：`+found.slice(0,5).map(e=>e.r).join(' / ')),{code:'ambiguous_noun',nounOptions:{term:text,options:found.map(e=>({id:e.id,root:e.r,meaning:e.m}))}});
+      }
       if(text.endsWith('こと')) {
         const v = text.slice(0, -2);
         const verbEntry = vocab.find(e => e.p.includes('動') && gloss(e).includes(v));
         if(verbEntry) return verbEntry.r;
-      }
-      if ((text.match(/の/g)||[]).length === 1) { const [a,b] = text.split('の'); return phrase(b,adj,depth+1)+' en '+phrase(a,false,depth+1); }
-      if(!text.includes('の') && (text.match(/と/g)||[]).length===1) {
-        const [a,b]=text.split('と');return phrase(a,false,depth+1)+' ul '+phrase(b,false,depth+1);
       }
       const results = new Set();
       for (const [g,e] of adjectives) if(g.length>=2 && text.startsWith(g) && text.length>g.length) {
         try { results.add(phrase(text.slice(g.length),false,depth+1)+' '+e.r); } catch (_) {}
       }
       if(results.size===1) return [...results][0];
+      if ((text.match(/の/g)||[]).length === 1) { const [a,b] = text.split('の'); return phrase(b,adj,depth+1)+' en '+phrase(a,false,depth+1); }
+      if(!text.includes('の') && (text.match(/と/g)||[]).length===1) {
+        const [a,b]=text.split('と');return phrase(a,false,depth+1)+' ul '+phrase(b,false,depth+1);
+      }
       throw Error(`「${text}」の名詞・修飾語を確定できません。`);
     }
     const particles = [['によって','de'],['を使って','de'],['とともに','ku'],['と共に','ku'],['と一緒に','ku'],['よりも','va'],['より','va'],['から','va'],['が','el'],['は','el'],['を','ia'],['へ','to'],['に','to'],['で','uo'],['と','ku']];
     function argsOf(text,frame=null) {
-      const found=[]; let budget=500;
+      const found=[]; let budget=500,ambiguity=null;
       function parse(rest,args,sources={}) {
         if(!rest) {found.push({args,sources});return;}
         if(found.length>10)return;
@@ -289,7 +297,7 @@
               if(Object.hasOwn(args,c))throw Error('格の重複');
               if(c==='uo' && !placeRoots.has(value.split(' ')[0]))throw Error('場所と道具を区別できません。');
               parse(rest.slice(at+p.length),{...args,[c]:value},{...sources,[c]:{text:rest.slice(0,at),particle:p}});
-            } catch (_) {}
+            } catch (e) {if(e.code==='ambiguous_noun')ambiguity=e;}
             at=rest.indexOf(p,at+p.length);
           }
         }
@@ -297,6 +305,7 @@
       parse(text,{});
       const unique = new Map(found.map(a=>[JSON.stringify(Object.entries(a.args).sort()),a]));
       const coordinated=[...unique.values()].filter(r=>r.args.el?.includes(' ul ') && /と.+[はが]/.test(text));
+      if(unique.size===0 && ambiguity)throw ambiguity;
       if(unique.size!==1 && coordinated.length!==1) throw Error('語句や助詞の解釈が未確定です。');
       const result=coordinated.length===1?coordinated[0]:[...unique.values()][0];argSources.set(result.args,result.sources);return result.args;
     }
@@ -329,6 +338,12 @@
       const base=g.endsWith('な')?g.slice(0,-1):g;
       const variants=g.endsWith('な')?[[base,[]]]:[[base,[]],[base.slice(0,-1)+'かった',['fe']],[base.slice(0,-1)+'くない',['ne']],[base.slice(0,-1)+'くなかった',['fe','ne']],[base+'です',[]],[base.slice(0,-1)+'かったです',['fe']]];
       for(const [ending,prefixes] of variants)forms.push({id:906,ending,prefixes,suffix:'',passive:false,adjective:e.id,adjectiveSource:base,bareAdjective:true,extension:true});
+    }
+    for(const row of extensions.roadmapProductive?.adjectives||[])if(row.predicative) {
+      const base=row.predicateLemma||(row.kind==='na'?row.lemma.slice(0,-1):row.lemma);
+      const stem=base.endsWith('良い')?base.slice(0,-2)+'良':base.slice(0,-1);
+      const variants=row.kind==='na'?[[base+'だ',[]],[base+'です',[]],[base+'だった',['fe']],[base+'ではない',['ne']],[base+'ではなかった',['fe','ne']]]:[[base,[]],[stem+'かった',['fe']],[stem+'くない',['ne']],[stem+'くなかった',['fe','ne']]];
+      for(const [ending,prefixes] of variants)forms.push({id:906,ending,prefixes,suffix:'',passive:false,adjective:row.id,adjectiveSource:base,bareAdjective:true,extension:true});
     }
     const seenForms=new Set();
     const uniqueForms=forms.filter(f=>{const signature=JSON.stringify([f.id,f.ending,f.prefixes,f.suffix,f.adjective||0,f.feature||'']);if(seenForms.has(signature))return false;seenForms.add(signature);return true;});
@@ -492,6 +507,11 @@
       const allowed=p.passive?frame.passiveAllowed||[]:frame.allowed;
       const isComparative = !!meaning.arguments.va;
       if(!frame.required.every(c=>meaning.arguments[c])||Object.keys(meaning.arguments).some(c=>!allowed.includes(c) && !(c==='va' && isComparative)))throw Error('主語・補語の不足、または動詞の項構造に合わない格があります。');
+      if(frame.recipientAmbiguity&&!meaning.arguments.al&&frame.recipientAmbiguity.roots.includes(meaning.arguments.ia?.nrs))throw Error(frame.recipientAmbiguity.reason);
+      for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
+        const argument=meaning.arguments[role];
+        if(argument&&!argument.nrs.split(/\s+ul\s+/).every(group=>rule.roots.includes(group.split(' ')[0])))throw Error(rule.reason);
+      }
       const words=[...p.prefixes,(p.passive?'re':'')+p.root+p.suffix];
       for(const c of caseOrder)if(meaning.arguments[c])words.push(c,meaning.arguments[c].nrs);
       if(meaning.question)words.push('ka');const out=words.join(' ');
@@ -583,7 +603,19 @@
       }
       return text;
     }
-    function part(source,choices,depth=0) {
+    function part(source,choices={},depth=0) {
+      const prior=activeNounSenses,priorOptions=activeNounOptions;activeNounSenses=choices.nounSenses||{};activeNounOptions=new Map();
+      try {
+        let result=partImpl(source,choices,depth);
+        if(!choices.confirmed) {
+          const groups=new Map([...(result.nounOptions||[]).map(g=>[g.term,g]),...activeNounOptions]);
+          if(groups.size)result={...result,nounOptions:[...groups.values()]};
+        }
+        if(Object.keys(activeNounSenses).length&&['complete','phrase'].includes(result.state)&&!choices.confirmed)return {...result,state:'candidate',candidate:result.text,notes:[...result.notes,'名詞の語義を確認して確定してください。']};
+        return result;
+      } finally {activeNounSenses=prior;activeNounOptions=priorOptions;}
+    }
+    function partImpl(source,choices,depth=0) {
       let cleanSource = source.trim();
 
       // --- Quote & Reported Speech / Thought Handling ---
@@ -789,7 +821,8 @@
       let text=key(cleanSource), question=text.endsWith('?');text=text.replace(/\?$/,'');if(text.endsWith('か')){question=true;text=text.slice(0,-1);}
       const notes=[];let feature='';
       for(const [tail,label] of [['ことができなかった','過去の可能の否定'],['ことである','指針'],['ことです','指針'],['ことだ','指針'],['こと','行為'],['ことができない','可能の否定'],['ことができる','可能'],['必要がある','必要'],['つもりだ','意図'],['かもしれない','推量'],['と思う','思考'],['かも','推量']])if(text.endsWith(tail)){text=text.slice(0,-tail.length);feature=label;break;}
-      const alias=[...aliases].sort((a,b)=>b.ending.length-a.ending.length).find(a=>text.endsWith(a.ending));
+      let alias=[...aliases].sort((a,b)=>b.ending.length-a.ending.length).find(a=>text.endsWith(a.ending));
+      if(alias&&(matchingForms(text)[0]?.ending.length||0)>alias.ending.length)alias=null;
       let form=alias ? formsByEnding.get(alias.replacement)?.[0] : matchingForms(text)[0];
       const ending=alias?.ending || form?.ending;
       let senseOptions=[];
@@ -803,8 +836,8 @@
         }
       }
       if(!ending) {
-        try {const args=argsOf(text);return {source,text:caseOrder.filter(c=>args[c]).map(c=>c+' '+args[c]).join(' '),state:'draft',notes:['動詞の入力待ち'],alignment:argumentRows(args)};}catch(_){}
-        try{return {source,text:phrase(text),state:'phrase',notes:['語句として変換']};}catch(_){}
+        try {const args=argsOf(text);return {source,text:caseOrder.filter(c=>args[c]).map(c=>c+' '+args[c]).join(' '),state:'draft',notes:['動詞の入力待ち'],alignment:argumentRows(args)};}catch(e){if(e.code==='ambiguous_noun')return nounFailure(e,source);}
+        try{return {source,text:phrase(text),state:'phrase',notes:['語句として変換']};}catch(e){if(e.code==='ambiguous_noun')return nounFailure(e,source);}
         const prefix=text && vocab.some(e=>gloss(e).some(g=>g.startsWith(text)));
         return {source,text:'',state:prefix?'draft':'blocked',notes:[prefix?'語の入力待ち':'語句・構文を確定できません。原文全体を保持しています。']};
       }
@@ -824,7 +857,7 @@
       if(verbGroup && verbChoiceMap[verbGroup] && choices.verb) {
         const selectedOpt = verbChoiceMap[verbGroup].find(o => o.label === choices.verb);
         if(!selectedOpt) {
-          return {source,text:fragments,state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
+          return {source,text:'',state:'blocked',notes:[...notes,'未対応の動作の解釈です。']};
         }
         const selectedForm = forms.find(f => f.id === selectedOpt.id && !f.feature && f.suffix === (form?.suffix || '') && JSON.stringify(f.prefixes) === JSON.stringify(form?.prefixes || []));
         if(selectedForm) {
@@ -833,6 +866,7 @@
         }
       }
       try {args=parsedArgs(body,form||{});}catch(_) {
+        if(_.code==='ambiguous_noun')return nounFailure(_,source,notes);
         try {
           const split=body.match(/^(.+?)[はが、,](.+)$/);
           if(split) {try{args=argsOf(split[2]);}catch(_){args={ia:phrase(split[2])};argSources.set(args,{ia:{text:split[2],inferred:true}});}}
@@ -1026,11 +1060,28 @@
       }catch(e){return {source,text:fragments,state:'blocked',notes:[...notes,e.message]};}
     }
     const coveredIds=new Set(forms.filter(f=>!f.adjective).map(f=>f.id));
+    const fragmentTerms=new Map();
+    for(const term of [...index.keys()].filter(t=>t.length>=2).sort((a,b)=>b.length-a.length)) {
+      if(!fragmentTerms.has(term[0]))fragmentTerms.set(term[0],[]);
+      fragmentTerms.get(term[0]).push(term);
+    }
+    function fragmentsOf(source) {
+      const fragments=[];let at=0,start=0;
+      while(at<source.length) {
+        const term=(fragmentTerms.get(source[at])||[]).find(t=>source.startsWith(t,at));
+        if(!term){at++;continue;}
+        if(start<at)fragments.push({source:source.slice(start,at),start,end:at,known:false});
+        fragments.push({source:term,start:at,end:at+term.length,known:true,roots:[...new Set(index.get(term).map(e=>e.r))]});
+        at+=term.length;start=at;
+      }
+      if(start<source.length)fragments.push({source:source.slice(start),start,end:source.length,known:false});
+      return fragments;
+    }
     return { splitSentences, coverage() {
       return {predicates:coveredIds.size,productiveLemmas:(productive.verbs||[]).length,verbForms:forms.filter(f=>!f.adjective && !f.feature).length,
         adjectiveForms:forms.filter(f=>f.adjective).length,places:placeRoots.size,
         verbs:(productive.verbs||[]).map(v=>({id:v.id,lemma:v.lemma,root:byId.get(v.id).r})),
-        unsupportedVerbs:vocab.filter(e=>e.p.includes('動')&&!coveredIds.has(e.id)).map(e=>({id:e.id,root:e.r,meaning:e.m,reason:'項構造・日本語活用の未整備。自動で意味を推測しません。'}))};
+        unsupportedVerbs:[...vocab,...verifiedCompoundEntries].filter(e=>e.p.includes('動')&&!coveredIds.has(e.id)).map(e=>({id:e.id,root:e.r,meaning:e.m,reason:'項構造・日本語活用の未整備。自動で意味を推測しません。'}))};
     }, analyze(input,choices={}) {
       if(!input.trim())return {segments:[],complete:false,text:'',notes:[],recordable:false};
       if(input.length>4000)return {segments:[],complete:false,text:'',notes:['4,000文字以内で入力してください。'],recordable:true};
@@ -1042,6 +1093,13 @@
         const selected=parts.length===1?choices:choices.bySegment?.[segmentKey]||{};
         return {...(p.length>240?{source:p,text:'',state:'blocked',notes:['1文240文字以内で入力してください。']}:part(p,selected)),key:segmentKey};
       });
+      let contextSubject=null;
+      for(const segment of segments) {
+        segment.fragments=['complete','phrase'].includes(segment.state)?[]:fragmentsOf(segment.source);
+        const subject=segment.meaning?.arguments?.el;
+        if(contextSubject&&(!subject||subject.inferred))segment.contextSubject=contextSubject;
+        if(subject&&!subject.inferred)contextSubject={source:subject.source,nrs:subject.nrs};
+      }
       return {segments,complete:segments.length>0 && segments.every(s=>s.state==='complete'),
         text:segments.map(s=>(['complete','phrase'].includes(s.state)?'':s.state==='blocked'?'〔要対応〕 ':'〔途中案〕 ')+s.text).join('\n'),
         notes:[...new Set(segments.flatMap(s=>s.notes))],recordable:segments.some(s=>s.state==='blocked'),candidate:segments.length===1?segments[0].candidate||'':''};

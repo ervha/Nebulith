@@ -164,7 +164,11 @@ vm.runInContext(`inputChoicesState.sense=lastInputAnalysis.segments[0].senseOpti
 assert.equal(dom.confirmInputCandidate.disabled,false);
 vm.runInContext(`inputChoicesState.confirmed=true;doTranslate()`,context);
 assert.equal(dom.copyDstBtn.disabled,false);
-assert.ok(dom.translationCoverage.textContent.includes('189'));
+const expectedVerbLemmas = JSON.parse(fs.readFileSync('data/translation_patterns.json','utf8')).verbs.length
+  + JSON.parse(fs.readFileSync('data/compound_translation_patterns.json','utf8')).verbs.length
+  + JSON.parse(fs.readFileSync('data/roadmap_lexical_rules.json','utf8')).verbs.length;
+assert.equal(expectedVerbLemmas,238);
+assert.ok(dom.translationCoverage.textContent.includes(`${expectedVerbLemmas}動詞見出し`));
 assert.ok(dom.corpusList.innerHTML.includes('USE-24'));
 assert.match(dom.corpusCount.textContent, /^(\d+) \/ \1例$/);
 vm.runInContext(`corpusSearch.value='過去・進行';renderCorpus()`,context);

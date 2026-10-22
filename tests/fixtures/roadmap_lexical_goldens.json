@@ -1,0 +1,837 @@
+{
+  "scope": "手で指定した語形・格句・過去形の証人。期待値の生成に翻訳器の活用関数を使わない。",
+  "verbs": [
+    {
+      "id": 30151,
+      "root": "farven",
+      "source": "本は完成する。",
+      "target": "Farven el pamel.",
+      "pastSource": "本は完成した。",
+      "pastLemma": "完成した",
+      "pastTarget": "Fe farven el pamel.",
+      "args": {
+        "el": "pamel"
+      },
+      "negativeSource": "本は完成しない。",
+      "negativeTarget": "Ne farven el pamel.",
+      "invalidSource": "本は本を完成する。"
+    },
+    {
+      "id": 30152,
+      "root": "livtas",
+      "source": "私は家を維持する。",
+      "target": "Livtas el mi ia govan.",
+      "pastSource": "私は家を維持した。",
+      "pastLemma": "維持した",
+      "pastTarget": "Fe livtas el mi ia govan.",
+      "args": {
+        "el": "mi",
+        "ia": "govan"
+      },
+      "negativeSource": "私は家を維持しない。",
+      "negativeTarget": "Ne livtas el mi ia govan.",
+      "invalidSource": "私は維持する。"
+    },
+    {
+      "id": 30154,
+      "root": "velfal",
+      "source": "森は緑づく。",
+      "target": "Velfal el velom.",
+      "pastSource": "森は緑づいた。",
+      "pastLemma": "緑づいた",
+      "pastTarget": "Fe velfal el velom.",
+      "args": {
+        "el": "velom"
+      },
+      "negativeSource": "森は緑づかない。",
+      "negativeTarget": "Ne velfal el velom.",
+      "invalidSource": "森は本を緑づく。"
+    },
+    {
+      "id": 30155,
+      "root": "korfal",
+      "source": "水は透き通る。",
+      "target": "Korfal el daris.",
+      "pastSource": "水は透き通った。",
+      "pastLemma": "透き通った",
+      "pastTarget": "Fe korfal el daris.",
+      "args": {
+        "el": "daris"
+      },
+      "negativeSource": "水は透き通らない。",
+      "negativeTarget": "Ne korfal el daris.",
+      "invalidSource": "水は本を透き通る。"
+    },
+    {
+      "id": 30156,
+      "root": "talpor",
+      "source": "私は森を踏破する。",
+      "target": "Talpor el mi ia velom.",
+      "pastSource": "私は森を踏破した。",
+      "pastLemma": "踏破した",
+      "pastTarget": "Fe talpor el mi ia velom.",
+      "args": {
+        "el": "mi",
+        "ia": "velom"
+      },
+      "negativeSource": "私は森を踏破しない。",
+      "negativeTarget": "Ne talpor el mi ia velom.",
+      "invalidSource": "私は踏破する。"
+    },
+    {
+      "id": 30157,
+      "root": "sirvan",
+      "source": "私は静まる。",
+      "target": "Sirvan el mi.",
+      "pastSource": "私は静まった。",
+      "pastLemma": "静まった",
+      "pastTarget": "Fe sirvan el mi.",
+      "args": {
+        "el": "mi"
+      },
+      "negativeSource": "私は静まらない。",
+      "negativeTarget": "Ne sirvan el mi.",
+      "invalidSource": "私は本を静まる。"
+    },
+    {
+      "id": 30158,
+      "root": "jylfen",
+      "source": "私はあなたと仲直りする。",
+      "target": "Jylfen el mi ku ti.",
+      "pastSource": "私はあなたと仲直りした。",
+      "pastLemma": "仲直りした",
+      "pastTarget": "Fe jylfen el mi ku ti.",
+      "args": {
+        "el": "mi",
+        "ku": "ti"
+      },
+      "negativeSource": "私はあなたと仲直りしない。",
+      "negativeTarget": "Ne jylfen el mi ku ti.",
+      "invalidSource": "私は本を仲直りする。"
+    },
+    {
+      "id": 30159,
+      "root": "revcal",
+      "source": "私は物語を回想する。",
+      "target": "Revcal el mi ia soralen.",
+      "pastSource": "私は物語を回想した。",
+      "pastLemma": "回想した",
+      "pastTarget": "Fe revcal el mi ia soralen.",
+      "args": {
+        "el": "mi",
+        "ia": "soralen"
+      },
+      "negativeSource": "私は物語を回想しない。",
+      "negativeTarget": "Ne revcal el mi ia soralen.",
+      "invalidSource": "私は回想する。"
+    },
+    {
+      "id": 30160,
+      "root": "zoldar",
+      "source": "私はあなたを道案内する。",
+      "target": "Zoldar el mi ia ti.",
+      "pastSource": "私はあなたを道案内した。",
+      "pastLemma": "道案内した",
+      "pastTarget": "Fe zoldar el mi ia ti.",
+      "args": {
+        "el": "mi",
+        "ia": "ti"
+      },
+      "negativeSource": "私はあなたを道案内しない。",
+      "negativeTarget": "Ne zoldar el mi ia ti.",
+      "invalidSource": "私は道案内する。"
+    },
+    {
+      "id": 30193,
+      "root": "porven",
+      "source": "私は森を渡り歩く。",
+      "target": "Porven el mi ia velom.",
+      "pastSource": "私は森を渡り歩いた。",
+      "pastLemma": "渡り歩いた",
+      "pastTarget": "Fe porven el mi ia velom.",
+      "args": {
+        "el": "mi",
+        "ia": "velom"
+      },
+      "negativeSource": "私は森を渡り歩かない。",
+      "negativeTarget": "Ne porven el mi ia velom.",
+      "invalidSource": "私は渡り歩く。"
+    },
+    {
+      "id": 30195,
+      "root": "silfen",
+      "source": "私はあなたと談笑する。",
+      "target": "Silfen el mi ku ti.",
+      "pastSource": "私はあなたと談笑した。",
+      "pastLemma": "談笑した",
+      "pastTarget": "Fe silfen el mi ku ti.",
+      "args": {
+        "el": "mi",
+        "ku": "ti"
+      },
+      "negativeSource": "私はあなたと談笑しない。",
+      "negativeTarget": "Ne silfen el mi ku ti.",
+      "invalidSource": "私は本を談笑する。"
+    },
+    {
+      "id": 30196,
+      "root": "kiranliv",
+      "source": "私は物語を書き継ぐ。",
+      "target": "Kiranliv el mi ia soralen.",
+      "pastSource": "私は物語を書き継いだ。",
+      "pastLemma": "書き継いだ",
+      "pastTarget": "Fe kiranliv el mi ia soralen.",
+      "args": {
+        "el": "mi",
+        "ia": "soralen"
+      },
+      "negativeSource": "私は物語を書き継がない。",
+      "negativeTarget": "Ne kiranliv el mi ia soralen.",
+      "invalidSource": "私は書き継ぐ。"
+    },
+    {
+      "id": 30197,
+      "root": "novfar",
+      "source": "私は物語を理解し尽くす。",
+      "target": "Novfar el mi ia soralen.",
+      "pastSource": "私は物語を理解し尽くした。",
+      "pastLemma": "理解し尽くした",
+      "pastTarget": "Fe novfar el mi ia soralen.",
+      "args": {
+        "el": "mi",
+        "ia": "soralen"
+      },
+      "negativeSource": "私は物語を理解し尽くさない。",
+      "negativeTarget": "Ne novfar el mi ia soralen.",
+      "invalidSource": "私は理解し尽くす。"
+    },
+    {
+      "id": 30198,
+      "root": "falpor",
+      "source": "私は夜明けに出立する。",
+      "target": "Falpor el mi.",
+      "pastSource": "私は夜明けに出立した。",
+      "pastLemma": "夜明けに出立した",
+      "pastTarget": "Fe falpor el mi.",
+      "args": {
+        "el": "mi"
+      },
+      "negativeSource": "私は夜明けに出立しない。",
+      "negativeTarget": "Ne falpor el mi.",
+      "invalidSource": "私は本を夜明けに出立する。"
+    },
+    {
+      "id": 30199,
+      "root": "cynjylas",
+      "source": "私はあなたと絆を結ぶ。",
+      "target": "Cynjylas el mi ku ti.",
+      "pastSource": "私はあなたと絆を結んだ。",
+      "pastLemma": "絆を結んだ",
+      "pastTarget": "Fe cynjylas el mi ku ti.",
+      "args": {
+        "el": "mi",
+        "ku": "ti"
+      },
+      "negativeSource": "私はあなたと絆を結ばない。",
+      "negativeTarget": "Ne cynjylas el mi ku ti.",
+      "invalidSource": "私は本を絆を結ぶ。"
+    },
+    {
+      "id": 30200,
+      "root": "kymmor",
+      "source": "私は夜に籠もる。",
+      "target": "Kymmor el mi.",
+      "pastSource": "私は夜に籠もった。",
+      "pastLemma": "夜に籠もった",
+      "pastTarget": "Fe kymmor el mi.",
+      "args": {
+        "el": "mi"
+      },
+      "negativeSource": "私は夜に籠もらない。",
+      "negativeTarget": "Ne kymmor el mi.",
+      "invalidSource": "私は本を夜に籠もる。"
+    },
+    {
+      "id": 30359,
+      "root": "valmir",
+      "source": "水は染み渡る。",
+      "target": "Valmir el daris.",
+      "pastSource": "水は染み渡った。",
+      "pastLemma": "染み渡った",
+      "pastTarget": "Fe valmir el daris.",
+      "args": {
+        "el": "daris"
+      },
+      "negativeSource": "水は染み渡らない。",
+      "negativeTarget": "Ne valmir el daris.",
+      "invalidSource": "水は本を染み渡る。"
+    },
+    {
+      "id": 30360,
+      "root": "jyltan",
+      "source": "私は家を微調整する。",
+      "target": "Jyltan el mi ia govan.",
+      "pastSource": "私は家を微調整した。",
+      "pastLemma": "微調整した",
+      "pastTarget": "Fe jyltan el mi ia govan.",
+      "args": {
+        "el": "mi",
+        "ia": "govan"
+      },
+      "negativeSource": "私は家を微調整しない。",
+      "negativeTarget": "Ne jyltan el mi ia govan.",
+      "invalidSource": "私は微調整する。"
+    },
+    {
+      "id": 30361,
+      "root": "vorpad",
+      "source": "水は凝縮する。",
+      "target": "Vorpad el daris.",
+      "pastSource": "水は凝縮した。",
+      "pastLemma": "凝縮した",
+      "pastTarget": "Fe vorpad el daris.",
+      "args": {
+        "el": "daris"
+      },
+      "negativeSource": "水は凝縮しない。",
+      "negativeTarget": "Ne vorpad el daris.",
+      "invalidSource": "水は本を凝縮する。"
+    },
+    {
+      "id": 30362,
+      "root": "tarzon",
+      "source": "私は超越する。",
+      "target": "Tarzon el mi.",
+      "pastSource": "私は超越した。",
+      "pastLemma": "超越した",
+      "pastTarget": "Fe tarzon el mi.",
+      "args": {
+        "el": "mi"
+      },
+      "negativeSource": "私は超越しない。",
+      "negativeTarget": "Ne tarzon el mi.",
+      "invalidSource": "私は本を超越する。"
+    },
+    {
+      "id": 30363,
+      "root": "nyrmel",
+      "source": "声は反響する。",
+      "target": "Nyrmel el vylen.",
+      "pastSource": "声は反響した。",
+      "pastLemma": "反響した",
+      "pastTarget": "Fe nyrmel el vylen.",
+      "args": {
+        "el": "vylen"
+      },
+      "negativeSource": "声は反響しない。",
+      "negativeTarget": "Ne nyrmel el vylen.",
+      "invalidSource": "声は本を反響する。"
+    },
+    {
+      "id": 30364,
+      "root": "falvor",
+      "source": "水は昇華する。",
+      "target": "Falvor el daris.",
+      "pastSource": "水は昇華した。",
+      "pastLemma": "昇華した",
+      "pastTarget": "Fe falvor el daris.",
+      "args": {
+        "el": "daris"
+      },
+      "negativeSource": "水は昇華しない。",
+      "negativeTarget": "Ne falvor el daris.",
+      "invalidSource": "水は本を昇華する。"
+    },
+    {
+      "id": 30365,
+      "root": "dalken",
+      "source": "私は石を刻印する。",
+      "target": "Dalken el mi ia talyr.",
+      "pastSource": "私は石を刻印した。",
+      "pastLemma": "刻印した",
+      "pastTarget": "Fe dalken el mi ia talyr.",
+      "args": {
+        "el": "mi",
+        "ia": "talyr"
+      },
+      "negativeSource": "私は石を刻印しない。",
+      "negativeTarget": "Ne dalken el mi ia talyr.",
+      "invalidSource": "私は刻印する。"
+    },
+    {
+      "id": 30366,
+      "root": "peldor",
+      "source": "私は森を踏査する。",
+      "target": "Peldor el mi ia velom.",
+      "pastSource": "私は森を踏査した。",
+      "pastLemma": "踏査した",
+      "pastTarget": "Fe peldor el mi ia velom.",
+      "args": {
+        "el": "mi",
+        "ia": "velom"
+      },
+      "negativeSource": "私は森を踏査しない。",
+      "negativeTarget": "Ne peldor el mi ia velom.",
+      "invalidSource": "私は踏査する。"
+    },
+    {
+      "id": 30367,
+      "root": "kelsur",
+      "source": "私は物語を集約する。",
+      "target": "Kelsur el mi ia soralen.",
+      "pastSource": "私は物語を集約した。",
+      "pastLemma": "集約した",
+      "pastTarget": "Fe kelsur el mi ia soralen.",
+      "args": {
+        "el": "mi",
+        "ia": "soralen"
+      },
+      "negativeSource": "私は物語を集約しない。",
+      "negativeTarget": "Ne kelsur el mi ia soralen.",
+      "invalidSource": "私は集約する。"
+    },
+    {
+      "id": 30368,
+      "root": "zenpar",
+      "source": "声は共振する。",
+      "target": "Zenpar el vylen.",
+      "pastSource": "声は共振した。",
+      "pastLemma": "共振した",
+      "pastTarget": "Fe zenpar el vylen.",
+      "args": {
+        "el": "vylen"
+      },
+      "negativeSource": "声は共振しない。",
+      "negativeTarget": "Ne zenpar el vylen.",
+      "invalidSource": "声は本を共振する。"
+    },
+    {
+      "id": 30369,
+      "root": "marvyl",
+      "source": "私はあなたを解き放つ。",
+      "target": "Marvyl el mi ia ti.",
+      "pastSource": "私はあなたを解き放った。",
+      "pastLemma": "解き放った",
+      "pastTarget": "Fe marvyl el mi ia ti.",
+      "args": {
+        "el": "mi",
+        "ia": "ti"
+      },
+      "negativeSource": "私はあなたを解き放たない。",
+      "negativeTarget": "Ne marvyl el mi ia ti.",
+      "invalidSource": "私は解き放つ。"
+    },
+    {
+      "id": 30370,
+      "root": "tornen",
+      "source": "私は物語を断ち切る。",
+      "target": "Tornen el mi ia soralen.",
+      "pastSource": "私は物語を断ち切った。",
+      "pastLemma": "断ち切った",
+      "pastTarget": "Fe tornen el mi ia soralen.",
+      "args": {
+        "el": "mi",
+        "ia": "soralen"
+      },
+      "negativeSource": "私は物語を断ち切らない。",
+      "negativeTarget": "Ne tornen el mi ia soralen.",
+      "invalidSource": "私は断ち切る。"
+    },
+    {
+      "id": 30371,
+      "root": "surlon",
+      "source": "私は薬を煎じる。",
+      "target": "Surlon el mi ia zyvil.",
+      "pastSource": "私は薬を煎じた。",
+      "pastLemma": "煎じた",
+      "pastTarget": "Fe surlon el mi ia zyvil.",
+      "args": {
+        "el": "mi",
+        "ia": "zyvil"
+      },
+      "negativeSource": "私は薬を煎じない。",
+      "negativeTarget": "Ne surlon el mi ia zyvil.",
+      "invalidSource": "私は煎じる。"
+    },
+    {
+      "id": 30372,
+      "root": "lyrzen",
+      "source": "私は瞑想する。",
+      "target": "Lyrzen el mi.",
+      "pastSource": "私は瞑想した。",
+      "pastLemma": "瞑想した",
+      "pastTarget": "Fe lyrzen el mi.",
+      "args": {
+        "el": "mi"
+      },
+      "negativeSource": "私は瞑想しない。",
+      "negativeTarget": "Ne lyrzen el mi.",
+      "invalidSource": "私は本を瞑想する。"
+    },
+    {
+      "id": 30373,
+      "root": "kymtor",
+      "source": "私は水を凍結させる。",
+      "target": "Kymtor el mi ia daris.",
+      "pastSource": "私は水を凍結させた。",
+      "pastLemma": "凍結させた",
+      "pastTarget": "Fe kymtor el mi ia daris.",
+      "args": {
+        "el": "mi",
+        "ia": "daris"
+      },
+      "negativeSource": "私は水を凍結させない。",
+      "negativeTarget": "Ne kymtor el mi ia daris.",
+      "invalidSource": "私は凍結させる。"
+    },
+    {
+      "id": 30374,
+      "root": "novpan",
+      "source": "森は芽吹く。",
+      "target": "Novpan el velom.",
+      "pastSource": "森は芽吹いた。",
+      "pastLemma": "芽吹いた",
+      "pastTarget": "Fe novpan el velom.",
+      "args": {
+        "el": "velom"
+      },
+      "negativeSource": "森は芽吹かない。",
+      "negativeTarget": "Ne novpan el velom.",
+      "invalidSource": "森は本を芽吹く。"
+    },
+    {
+      "id": 30375,
+      "root": "celmar",
+      "source": "私は星を仰ぎ見る。",
+      "target": "Celmar el mi ia vyr.",
+      "pastSource": "私は星を仰ぎ見た。",
+      "pastLemma": "仰ぎ見た",
+      "pastTarget": "Fe celmar el mi ia vyr.",
+      "args": {
+        "el": "mi",
+        "ia": "vyr"
+      },
+      "negativeSource": "私は星を仰ぎ見ない。",
+      "negativeTarget": "Ne celmar el mi ia vyr.",
+      "invalidSource": "私は仰ぎ見る。"
+    },
+    {
+      "id": 30376,
+      "root": "tulpar",
+      "source": "森は根付く。",
+      "target": "Tulpar el velom.",
+      "pastSource": "森は根付いた。",
+      "pastLemma": "根付いた",
+      "pastTarget": "Fe tulpar el velom.",
+      "args": {
+        "el": "velom"
+      },
+      "negativeSource": "森は根付かない。",
+      "negativeTarget": "Ne tulpar el velom.",
+      "invalidSource": "森は本を根付く。"
+    },
+    {
+      "id": 30377,
+      "root": "durfal",
+      "source": "私は心を研ぎ澄ます。",
+      "target": "Durfal el mi ia sylim.",
+      "pastSource": "私は心を研ぎ澄ました。",
+      "pastLemma": "研ぎ澄ました",
+      "pastTarget": "Fe durfal el mi ia sylim.",
+      "args": {
+        "el": "mi",
+        "ia": "sylim"
+      },
+      "negativeSource": "私は心を研ぎ澄まさない。",
+      "negativeTarget": "Ne durfal el mi ia sylim.",
+      "invalidSource": "私は研ぎ澄ます。"
+    },
+    {
+      "id": 30378,
+      "root": "morken",
+      "source": "私は家を遮蔽する。",
+      "target": "Morken el mi ia govan.",
+      "pastSource": "私は家を遮蔽した。",
+      "pastLemma": "遮蔽した",
+      "pastTarget": "Fe morken el mi ia govan.",
+      "args": {
+        "el": "mi",
+        "ia": "govan"
+      },
+      "negativeSource": "私は家を遮蔽しない。",
+      "negativeTarget": "Ne morken el mi ia govan.",
+      "invalidSource": "私は遮蔽する。"
+    },
+    {
+      "id": 30379,
+      "root": "fanvor",
+      "source": "私は水を熱望する。",
+      "target": "Fanvor el mi ia daris.",
+      "pastSource": "私は水を熱望した。",
+      "pastLemma": "熱望した",
+      "pastTarget": "Fe fanvor el mi ia daris.",
+      "args": {
+        "el": "mi",
+        "ia": "daris"
+      },
+      "negativeSource": "私は水を熱望しない。",
+      "negativeTarget": "Ne fanvor el mi ia daris.",
+      "invalidSource": "私は熱望する。"
+    },
+    {
+      "id": 30380,
+      "root": "solmer",
+      "source": "水は沈殿する。",
+      "target": "Solmer el daris.",
+      "pastSource": "水は沈殿した。",
+      "pastLemma": "沈殿した",
+      "pastTarget": "Fe solmer el daris.",
+      "args": {
+        "el": "daris"
+      },
+      "negativeSource": "水は沈殿しない。",
+      "negativeTarget": "Ne solmer el daris.",
+      "invalidSource": "水は本を沈殿する。"
+    },
+    {
+      "id": 30381,
+      "root": "zelmar",
+      "source": "石は風化する。",
+      "target": "Zelmar el talyr.",
+      "pastSource": "石は風化した。",
+      "pastLemma": "風化した",
+      "pastTarget": "Fe zelmar el talyr.",
+      "args": {
+        "el": "talyr"
+      },
+      "negativeSource": "石は風化しない。",
+      "negativeTarget": "Ne zelmar el talyr.",
+      "invalidSource": "石は本を風化する。"
+    },
+    {
+      "id": 30382,
+      "root": "kirlan",
+      "source": "私は家を統御する。",
+      "target": "Kirlan el mi ia govan.",
+      "pastSource": "私は家を統御した。",
+      "pastLemma": "統御した",
+      "pastTarget": "Fe kirlan el mi ia govan.",
+      "args": {
+        "el": "mi",
+        "ia": "govan"
+      },
+      "negativeSource": "私は家を統御しない。",
+      "negativeTarget": "Ne kirlan el mi ia govan.",
+      "invalidSource": "私は統御する。"
+    },
+    {
+      "id": 30383,
+      "root": "velpar",
+      "source": "私は物語を紡ぎ出す。",
+      "target": "Velpar el mi ia soralen.",
+      "pastSource": "私は物語を紡ぎ出した。",
+      "pastLemma": "紡ぎ出した",
+      "pastTarget": "Fe velpar el mi ia soralen.",
+      "args": {
+        "el": "mi",
+        "ia": "soralen"
+      },
+      "negativeSource": "私は物語を紡ぎ出さない。",
+      "negativeTarget": "Ne velpar el mi ia soralen.",
+      "invalidSource": "私は紡ぎ出す。"
+    },
+    {
+      "id": 31882,
+      "root": "serlitzen",
+      "source": "私はあなたを優しく撫でる。",
+      "target": "Serlitzen el mi ia ti.",
+      "pastSource": "私はあなたを優しく撫でた。",
+      "pastLemma": "優しく撫でた",
+      "pastTarget": "Fe serlitzen el mi ia ti.",
+      "args": {
+        "el": "mi",
+        "ia": "ti"
+      },
+      "negativeSource": "私はあなたを優しく撫でない。",
+      "negativeTarget": "Ne serlitzen el mi ia ti.",
+      "invalidSource": "私は優しく撫でる。"
+    },
+    {
+      "id": 31892,
+      "root": "darvoris",
+      "source": "惑星は恒星周回する。",
+      "target": "Darvoris el doran.",
+      "pastSource": "惑星は恒星周回した。",
+      "pastLemma": "恒星周回した",
+      "pastTarget": "Fe darvoris el doran.",
+      "args": {
+        "el": "doran"
+      },
+      "negativeSource": "惑星は恒星周回しない。",
+      "negativeTarget": "Ne darvoris el doran.",
+      "invalidSource": "惑星は本を恒星周回する。"
+    }
+  ],
+  "adjectives": [
+    {
+      "id": 31865,
+      "root": "zendarini",
+      "examples": [
+        {
+          "source": "私は肌馴染みの良い衣服を観測する。",
+          "target": "Vyrel el mi ia valis zendarini."
+        },
+        {
+          "source": "衣服は肌馴染みが良い。",
+          "target": "Relen el valis ia zendarini."
+        },
+        {
+          "source": "衣服は肌馴染みが良かった。",
+          "target": "Fe relen el valis ia zendarini."
+        },
+        {
+          "source": "衣服は肌馴染みが良くない。",
+          "target": "Ne relen el valis ia zendarini."
+        },
+        {
+          "source": "衣服は肌馴染みが良くなかった。",
+          "target": "Fe ne relen el valis ia zendarini."
+        }
+      ]
+    },
+    {
+      "id": 31889,
+      "root": "bionvyri",
+      "examples": [
+        {
+          "source": "私はハビタブルな惑星を観測する。",
+          "target": "Vyrel el mi ia doran bionvyri."
+        },
+        {
+          "source": "惑星はハビタブルだ。",
+          "target": "Relen el doran ia bionvyri."
+        },
+        {
+          "source": "惑星はハビタブルだった。",
+          "target": "Fe relen el doran ia bionvyri."
+        },
+        {
+          "source": "惑星はハビタブルではない。",
+          "target": "Ne relen el doran ia bionvyri."
+        },
+        {
+          "source": "惑星はハビタブルではなかった。",
+          "target": "Fe ne relen el doran ia bionvyri."
+        }
+      ]
+    },
+    {
+      "id": 31935,
+      "root": "zenalin",
+      "examples": [
+        {
+          "source": "私は明晰判明な心を観測する。",
+          "target": "Vyrel el mi ia sylim zenalin."
+        },
+        {
+          "source": "心は明晰判明だ。",
+          "target": "Relen el sylim ia zenalin."
+        },
+        {
+          "source": "心は明晰判明だった。",
+          "target": "Fe relen el sylim ia zenalin."
+        },
+        {
+          "source": "心は明晰判明ではない。",
+          "target": "Ne relen el sylim ia zenalin."
+        },
+        {
+          "source": "心は明晰判明ではなかった。",
+          "target": "Fe ne relen el sylim ia zenalin."
+        }
+      ]
+    },
+    {
+      "id": 31941,
+      "root": "alinzen",
+      "examples": [
+        {
+          "source": "私は内面潮流澄明な心を観測する。",
+          "target": "Vyrel el mi ia sylim alinzen."
+        },
+        {
+          "source": "心は内面潮流澄明だ。",
+          "target": "Relen el sylim ia alinzen."
+        },
+        {
+          "source": "心は内面潮流澄明だった。",
+          "target": "Fe relen el sylim ia alinzen."
+        },
+        {
+          "source": "心は内面潮流澄明ではない。",
+          "target": "Ne relen el sylim ia alinzen."
+        },
+        {
+          "source": "心は内面潮流澄明ではなかった。",
+          "target": "Fe ne relen el sylim ia alinzen."
+        }
+      ]
+    },
+    {
+      "id": 31948,
+      "root": "elirzen",
+      "examples": [
+        {
+          "source": "私は静止澄明な心を観測する。",
+          "target": "Vyrel el mi ia sylim elirzen."
+        },
+        {
+          "source": "心は静止澄明だ。",
+          "target": "Relen el sylim ia elirzen."
+        },
+        {
+          "source": "心は静止澄明だった。",
+          "target": "Fe relen el sylim ia elirzen."
+        },
+        {
+          "source": "心は静止澄明ではない。",
+          "target": "Ne relen el sylim ia elirzen."
+        },
+        {
+          "source": "心は静止澄明ではなかった。",
+          "target": "Fe ne relen el sylim ia elirzen."
+        }
+      ]
+    },
+    {
+      "id": 32000,
+      "root": "biondaron",
+      "examples": [
+        {
+          "source": "私は清浄生薬の水を観測する。",
+          "target": "Vyrel el mi ia daris biondaron."
+        }
+      ]
+    },
+    {
+      "id": 32006,
+      "root": "neranalin",
+      "examples": [
+        {
+          "source": "私は精製生薬の水を観測する。",
+          "target": "Vyrel el mi ia daris neranalin."
+        }
+      ]
+    },
+    {
+      "id": 32017,
+      "root": "falosvel",
+      "examples": [
+        {
+          "source": "私は精緻切削石工の石を観測する。",
+          "target": "Vyrel el mi ia talyr falosvel."
+        }
+      ]
+    }
+  ]
+}
