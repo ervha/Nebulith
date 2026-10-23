@@ -1,5 +1,5 @@
 // Nebulith Studio Web - Complete Offline Service Worker (v2.8)
-const CACHE_NAME = 'nebulith-studio-551ecec9581041d1cc63';
+const CACHE_NAME = 'nebulith-studio-eb21c6fc979f363d6df8';
 const PRECACHE_ASSETS = [
   './',
   './index.html',

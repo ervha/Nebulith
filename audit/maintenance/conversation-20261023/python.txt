@@ -47,6 +47,8 @@ test_dialogue_cli_refuses_missing_endpoint (test_llm_endpoint.LlmEndpointTests.t
 test_openai_key_stays_on_openai_host (test_llm_endpoint.LlmEndpointTests.test_openai_key_stays_on_openai_host) ... ok
 test_self_hosted_endpoint_is_required (test_llm_endpoint.LlmEndpointTests.test_self_hosted_endpoint_is_required) ... ok
 test_sources_have_no_hardcoded_tunnel (test_llm_endpoint.LlmEndpointTests.test_sources_have_no_hardcoded_tunnel) ... ok
+test_nonzero_child_is_recorded_and_later_checks_still_run (test_node_runner.NodeRunnerChecks.test_nonzero_child_is_recorded_and_later_checks_still_run) ... ok
+test_successful_child_does_not_report_failure (test_node_runner.NodeRunnerChecks.test_successful_child_does_not_report_failure) ... ok
 test_catalog_roles_negatives_and_confirmation (test_practical_development.PracticalDevelopmentChecks.test_catalog_roles_negatives_and_confirmation) ... ok
 test_all_ipa_matches_declared_sound_rules (test_remediation.RemediationChecks.test_all_ipa_matches_declared_sound_rules) ... ok
 test_cli_refuses_existing_evidence_directory (test_remediation.RemediationChecks.test_cli_refuses_existing_evidence_directory) ... ok
@@ -83,6 +85,6 @@ test_storage_and_feedback_import_are_safe_and_repeatable (test_web_studio.WebStu
 test_workspace_ui_restart_and_import_workflow (test_web_studio.WebStudioChecks.test_workspace_ui_restart_and_import_workflow) ... ok
 
 ----------------------------------------------------------------------
-Ran 83 tests in 11.050s
+Ran 85 tests in 11.185s
 
 OK

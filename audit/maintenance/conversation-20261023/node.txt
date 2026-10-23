@@ -1,3 +1,4 @@
+RUN: verify_all_words_modal.js
 === Verifying Simple Dictionary Details and Sourced Examples ===
 
 Checking modal enrichment for ALL 1463 words in dictionary...
@@ -9,6 +10,7 @@ Audit Results across 1463 words:
 - Missing Conjugations / Forms: 0 (Target: 0)
 - Missing Exemplary Usages: 1338 (expected for words without sourced examples)
 PASS: all word modals open; source-backed examples only; audit/provenance badges removed
+RUN: verify_auto_subject.js
 === Verifying Auto Subject (私) Insertion ===
 PASS: 「歩く」 -> Poran el mi. (自動補完)
 PASS: 「家で眠る」 -> Tymis el mi uo govan. (自動補完)
@@ -17,6 +19,7 @@ PASS: 「あなたが嫌い」 -> Nyrcan el mi ia ti. (自動補完)
 PASS: 「働いたから、眠る。」 -> Zen fe dolar el mi, tymis el mi. (両節自動補完)
 PASS: 「歩く」 + choices.subject="あなた" -> Poran el ti. (明示指定を優先)
 ALL AUTO SUBJECT TESTS PASSED SUCCESSFULLY!
+RUN: verify_bidirectional_engine.js
 === Verifying Nebulith Bidirectional Translation Engine (Sprint 6) ===
 
 --- 1. Nebulith (VSO) -> Japanese (SOV) ---
@@ -36,10 +39,15 @@ PASS [EN -> NEB Adjective Predicate]: The night is beautiful -> Cylani el valar.
 ===============================================================
 ALL BIDIRECTIONAL ENGINE TESTS PASSED! (100% GREEN)
 ===============================================================
-{"r1":{"text":"私は 部屋で 露光と雫茶を 観測するので、私は くつろぐ。","alignments":[{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"darfalun ul darterin","src_en":"darfalun ul darterin","dst":"露光と雫茶","role":"対格 (を) [dar+falun]"},{"src":"vorn","src_en":"vorn","dst":"部屋","role":"処格 (で・において)"},{"src":"vyrel","src_en":"vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"zensirin","src_en":"zensirin","dst":"くつろぐ","role":"述語 (動詞/形容詞)"}],"success":true},"r2":{"text":"I sing with you.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"ti","src_en":"ti","dst":"you","role":"Comitative"},{"src":"Cival","src_en":"Cival","dst":"sing","role":"Predicate Verb"}],"success":true},"r3Neb":"Vyrel el mi ia darfalun.","r3Complete":true,"r4":{"text":"Zen Falun el vyr, Vyrel el mi ia vyrcelar.","neb":"Zen Falun el vyr, Vyrel el mi ia vyrcelar.","tag":"Zen Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"stars","dst":"el vyr","role":"Subject"},{"src":"shine","dst":"Falun","role":"Predicate"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"see","dst":"Vyrel","role":"Predicate"},{"src":"vyrcelar","dst":"ia vyrcelar","role":"Object"}],"success":true},"r5":{"text":"Vyrelast el mi ia darfalun.","neb":"Vyrelast el mi ia darfalun.","tag":"English SVO -> Nebulith VSO","alignment":[{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrelast","role":"Predicate"},{"src":"darfalun","dst":"ia darfalun","role":"Object"}],"success":true},"r6":{"text":"Vyrel el mi ia daris, den Poran el ti to govan.","neb":"Vyrel el mi ia daris, den Poran el ti to govan.","tag":"Clause1, den Clause2 (Coordinated SVO -> VSO)","alignment":[{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r6En":{"text":"I observe water, and you walk to house.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"},{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"poran","src_en":"poran","dst":"walk","role":"Predicate Verb"}],"success":true},"r7":{"text":"Vyrel el mi ia daris, den Poran el ti to govan.","neb":"Vyrel el mi ia daris, den Poran el ti to govan.","tag":"Clause1, den Clause2 (Coordinated SVO -> VSO)","alignment":[{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r8":{"text":null,"source":"I walk to house with you.","success":false,"error":"述語の許容格に合わない格句があります。"},"r9Ja":{"text":"あなたは 家へ 歩くか？","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"}],"success":true},"r9En":{"text":"Do you walk to house?","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"}],"success":true},"r10":{"text":"Poran el ti to govan ro?","neb":"Poran el ti to govan ro?","tag":"English Interrogative -> Nebulith VSO (ro?)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"Do you walk to house?","dst":"ro?","role":"Interrogative Particle (ro)"}],"success":true},"r11Ja":{"text":"あなたは 私は 観測する 家を 守る.","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"対格 (を)"},{"src":"vyrel el mi","src_en":"vyrel el mi","dst":"主格（精密に）観測する","role":"属格 (の)"},{"src":"Vymin","src_en":"Vymin","dst":"守る","role":"述語 (動詞/形容詞)"}],"success":true},"r11En":{"text":"you protect house that I observe.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Direct Object"},{"src":"vyrel el mi","src_en":"vyrel el mi","dst":"subject marker observe","role":"Genitive"},{"src":"Vymin","src_en":"Vymin","dst":"protect","role":"Predicate Verb"}],"success":true},"r12":{"text":"Sen Poran el ti to govan, Vyrel el mi ia daris.","neb":"Sen Poran el ti to govan, Vyrel el mi ia daris.","tag":"Sen Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r13":{"text":"Tor Poran el ti to govan, Vyrel el mi ia daris.","neb":"Tor Poran el ti to govan, Vyrel el mi ia daris.","tag":"Tor Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r13Ja":{"text":"あなたは 家へ 歩くけれど、私は 水を 観測する。","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"daris","src_en":"daris","dst":"水","role":"対格 (を)"},{"src":"Vyrel","src_en":"Vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"}],"success":true},"r13En":{"text":"Although you walk to house, I observe water.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"}],"success":true},"r14":{"text":"Hav Poran el ti to govan, Vyrel el mi ia daris.","neb":"Hav Poran el ti to govan, Vyrel el mi ia daris.","tag":"Hav Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r14While":{"text":"Hav Poran el ti to govan, Vyrel el mi ia daris.","neb":"Hav Poran el ti to govan, Vyrel el mi ia daris.","tag":"Hav Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r14Ja":{"text":"あなたは 家へ 歩くとき、私は 水を 観測する。","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"daris","src_en":"daris","dst":"水","role":"対格 (を)"},{"src":"Vyrel","src_en":"Vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"}],"success":true},"r14En":{"text":"When you walk to house, I observe water.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"}],"success":true},"r15":{"text":"Sol Poran el ti to govan, Vyrel el mi ia daris.","neb":"Sol Poran el ti to govan, Vyrel el mi ia daris.","tag":"Sol Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r15InOrder":{"text":"Sol Poran el ti to govan, Vyrel el mi ia daris.","neb":"Sol Poran el ti to govan, Vyrel el mi ia daris.","tag":"Sol Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r15Ja":{"text":"あなたは 家へ 歩くために、私は 水を 観測する。","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"daris","src_en":"daris","dst":"水","role":"対格 (を)"},{"src":"Vyrel","src_en":"Vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"}],"success":true},"r15En":{"text":"So that you walk to house, I observe water.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"}],"success":true},"r16Ja":{"text":null,"error":"述語の許容格に合わない格句があります。","success":false},"r16En":{"text":null,"error":"述語の許容格に合わない格句があります。","success":false},"r16":{"text":null,"source":"I walk more than you.","success":false,"error":"述語の許容格に合わない格句があります。"},"r17":{"text":"Faluni el zohar va vyr.","neb":"Faluni el zohar va vyr.","tag":"Comparative","alignment":[{"src":"sun","dst":"el zohar","role":"Subject"},{"src":"bright","dst":"Faluni","role":"Predicate"},{"src":"star","dst":"va vyr","role":"Comparison"}],"success":true},"r18":{"text":"Fenor el mi ia Poran el ti to govan.","neb":"Fenor el mi ia Poran el ti to govan.","tag":"Reported Speech / Thought (SVO -> VSO that-clause)","alignment":[{"src":"I","dst":"el mi","role":"Subject"},{"src":"say","dst":"Fenor","role":"Predicate Verb"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r18Ja":{"text":"私は あなたが 家へ 歩くと 話す.","alignments":[{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"Poran el ti to govan","src_en":"Poran el ti to govan","dst":"あなたが 家へ 歩くと","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"Fenor","src_en":"Fenor","dst":"話す","role":"述語 (動詞/形容詞)"}],"success":true},"r18En":{"text":"I speak that you walk to house.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"Poran el ti to govan","src_en":"Poran el ti to govan","dst":"that you walk to house","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"Fenor","src_en":"Fenor","dst":"speak","role":"Predicate Verb"}],"success":true},"r19":{"text":"Velsen el mi ia kauo Poran el ti to govan.","neb":"Velsen el mi ia kauo Poran el ti to govan.","tag":"Indirect Question / Wh-clause (SVO -> VSO wh-clause)","alignment":[{"src":"I","dst":"el mi","role":"Subject"},{"src":"know","dst":"Velsen","role":"Predicate Verb"},{"src":"where","dst":"ia kauo","role":"Interrogative Complement"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r19Ja":{"text":"私は どこへ あなたが 家へ 歩くか 知る.","alignments":[{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"kauo Poran el ti to govan","src_en":"kauo Poran el ti to govan","dst":"どこへ あなたが 家へ 歩くか","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"Velsen","src_en":"Velsen","dst":"知る","role":"述語 (動詞/形容詞)"}],"success":true},"r19En":{"text":"I know where you walk to house.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"kauo Poran el ti to govan","src_en":"kauo Poran el ti to govan","dst":"where you walk to house","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"Velsen","src_en":"Velsen","dst":"know","role":"Predicate Verb"}],"success":true}}
+RUN: verify_canonical_compound_translation.js
+{"r1":{"text":"私は 部屋で 露光と雫茶を 観測するので、私は くつろぐ。","alignments":[{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"darfalun ul darterin","src_en":"darfalun ul darterin","dst":"露光と雫茶","role":"対格 (を) [dar+falun]"},{"src":"vorn","src_en":"vorn","dst":"部屋","role":"処格 (で・において)"},{"src":"vyrel","src_en":"vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"zensirin","src_en":"zensirin","dst":"くつろぐ","role":"述語 (動詞/形容詞)"}],"success":true},"r2":{"text":"I sing with you.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"ti","src_en":"ti","dst":"you","role":"Comitative"},{"src":"Cival","src_en":"Cival","dst":"sing","role":"Predicate Verb"}],"success":true},"r3Neb":"Vyrel el mi ia darfalun.","r3Complete":true,"r4":{"text":"Zen Falun el vyr, Vyrel el mi ia vyrcelar.","neb":"Zen Falun el vyr, Vyrel el mi ia vyrcelar.","tag":"Zen Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"stars","dst":"el vyr","role":"Subject"},{"src":"shine","dst":"Falun","role":"Predicate"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"see","dst":"Vyrel","role":"Predicate"},{"src":"vyrcelar","dst":"ia vyrcelar","role":"Object"}],"success":true},"r5":{"text":"Vyrelast el mi ia darfalun.","neb":"Vyrelast el mi ia darfalun.","tag":"English SVO -> Nebulith VSO","alignment":[{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrelast","role":"Predicate"},{"src":"darfalun","dst":"ia darfalun","role":"Object"}],"success":true},"r6":{"text":"Vyrel el mi ia daris, den Poran el ti to govan.","neb":"Vyrel el mi ia daris, den Poran el ti to govan.","tag":"Clause1, den Clause2 (Coordinated SVO -> VSO)","alignment":[{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r6En":{"text":"I observe water, and you walk to house.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"},{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"poran","src_en":"poran","dst":"walk","role":"Predicate Verb"}],"success":true},"r7":{"text":"Vyrel el mi ia daris, den Poran el ti to govan.","neb":"Vyrel el mi ia daris, den Poran el ti to govan.","tag":"Clause1, den Clause2 (Coordinated SVO -> VSO)","alignment":[{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r8":{"text":null,"source":"I walk to house with you.","success":false,"error":"述語の許容格に合わない格句があります。"},"r9Ja":{"text":"あなたは 家へ 歩くか？","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"}],"success":true},"r9En":{"text":"Do you walk to house?","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"}],"success":true},"r10":{"text":"Poran el ti to govan ro?","neb":"Poran el ti to govan ro?","tag":"English Interrogative -> Nebulith VSO (ro?)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"Do you walk to house?","dst":"ro?","role":"Interrogative Particle (ro)"}],"success":true},"r11Ja":{"text":"あなたは 私は 観測する 家を 守る.","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"対格 (を)"},{"src":"vyrel el mi","src_en":"vyrel el mi","dst":"主格（精密に）観測する","role":"属格 (の)"},{"src":"Vymin","src_en":"Vymin","dst":"守る","role":"述語 (動詞/形容詞)"}],"success":true},"r11En":{"text":"you protect house that I observe.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Direct Object"},{"src":"vyrel el mi","src_en":"vyrel el mi","dst":"subject marker observe","role":"Genitive"},{"src":"Vymin","src_en":"Vymin","dst":"protect","role":"Predicate Verb"}],"success":true},"r12":{"text":"Sen Poran el ti to govan, Vyrel el mi ia daris.","neb":"Sen Poran el ti to govan, Vyrel el mi ia daris.","tag":"Sen Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r13":{"text":"Tor Poran el ti to govan, Vyrel el mi ia daris.","neb":"Tor Poran el ti to govan, Vyrel el mi ia daris.","tag":"Tor Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r13Ja":{"text":"あなたは 家へ 歩くけれど、私は 水を 観測する。","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"daris","src_en":"daris","dst":"水","role":"対格 (を)"},{"src":"Vyrel","src_en":"Vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"}],"success":true},"r13En":{"text":"Although you walk to house, I observe water.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"}],"success":true},"r14":{"text":"Hav Poran el ti to govan, Vyrel el mi ia daris.","neb":"Hav Poran el ti to govan, Vyrel el mi ia daris.","tag":"Hav Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r14While":{"text":"Hav Poran el ti to govan, Vyrel el mi ia daris.","neb":"Hav Poran el ti to govan, Vyrel el mi ia daris.","tag":"Hav Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r14Ja":{"text":"あなたは 家へ 歩くとき、私は 水を 観測する。","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"daris","src_en":"daris","dst":"水","role":"対格 (を)"},{"src":"Vyrel","src_en":"Vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"}],"success":true},"r14En":{"text":"When you walk to house, I observe water.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"}],"success":true},"r15":{"text":"Sol Poran el ti to govan, Vyrel el mi ia daris.","neb":"Sol Poran el ti to govan, Vyrel el mi ia daris.","tag":"Sol Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r15InOrder":{"text":"Sol Poran el ti to govan, Vyrel el mi ia daris.","neb":"Sol Poran el ti to govan, Vyrel el mi ia daris.","tag":"Sol Clause1, Clause2 (Compound SVO -> VSO)","alignment":[{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"},{"src":"i","dst":"el mi","role":"Subject"},{"src":"observe","dst":"Vyrel","role":"Predicate"},{"src":"water","dst":"ia daris","role":"Object"}],"success":true},"r15Ja":{"text":"あなたは 家へ 歩くために、私は 水を 観測する。","alignments":[{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"daris","src_en":"daris","dst":"水","role":"対格 (を)"},{"src":"Vyrel","src_en":"Vyrel","dst":"観測する","role":"述語 (動詞/形容詞)"}],"success":true},"r15En":{"text":"So that you walk to house, I observe water.","alignments":[{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"daris","src_en":"daris","dst":"water","role":"Direct Object"},{"src":"Vyrel","src_en":"Vyrel","dst":"observe","role":"Predicate Verb"}],"success":true},"r16Ja":{"text":null,"error":"述語の許容格に合わない格句があります。","success":false},"r16En":{"text":null,"error":"述語の許容格に合わない格句があります。","success":false},"r16":{"text":null,"error":"述語の許容格に合わない起点・比較の表現です。","success":false},"r17":{"text":"Faluni el zohar va vyr.","neb":"Faluni el zohar va vyr.","tag":"Comparative","alignment":[{"src":"sun","dst":"el zohar","role":"Subject"},{"src":"bright","dst":"Faluni","role":"Predicate"},{"src":"star","dst":"va vyr","role":"Comparison"}],"success":true},"r18":{"text":"Fenor el mi ia Poran el ti to govan.","neb":"Fenor el mi ia Poran el ti to govan.","tag":"Reported Speech / Thought (SVO -> VSO that-clause)","alignment":[{"src":"I","dst":"el mi","role":"Subject"},{"src":"say","dst":"Fenor","role":"Predicate Verb"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r18Ja":{"text":"私は あなたが 家へ 歩くと 話す.","alignments":[{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"Poran el ti to govan","src_en":"Poran el ti to govan","dst":"あなたが 家へ 歩くと","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"Fenor","src_en":"Fenor","dst":"話す","role":"述語 (動詞/形容詞)"}],"success":true},"r18En":{"text":"I speak that you walk to house.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"Poran el ti to govan","src_en":"Poran el ti to govan","dst":"that you walk to house","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"Fenor","src_en":"Fenor","dst":"speak","role":"Predicate Verb"}],"success":true},"r19":{"text":"Velsen el mi ia kauo Poran el ti to govan.","neb":"Velsen el mi ia kauo Poran el ti to govan.","tag":"Indirect Question / Wh-clause (SVO -> VSO wh-clause)","alignment":[{"src":"I","dst":"el mi","role":"Subject"},{"src":"know","dst":"Velsen","role":"Predicate Verb"},{"src":"where","dst":"ia kauo","role":"Interrogative Complement"},{"src":"you","dst":"el ti","role":"Subject"},{"src":"walk","dst":"Poran","role":"Predicate"},{"src":"to house","dst":"to govan","role":"Prepositional Phrase (to)"}],"success":true},"r19Ja":{"text":"私は どこへ あなたが 家へ 歩くか 知る.","alignments":[{"src":"mi","src_en":"mi","dst":"私","role":"主格 (は・が)"},{"src":"kauo Poran el ti to govan","src_en":"kauo Poran el ti to govan","dst":"どこへ あなたが 家へ 歩くか","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"あなた","role":"主格 (は・が)"},{"src":"govan","src_en":"govan","dst":"家","role":"向格 (へ・に)"},{"src":"Poran","src_en":"Poran","dst":"歩く","role":"述語 (動詞/形容詞)"},{"src":"Velsen","src_en":"Velsen","dst":"知る","role":"述語 (動詞/形容詞)"}],"success":true},"r19En":{"text":"I know where you walk to house.","alignments":[{"src":"mi","src_en":"mi","dst":"I","role":"Subject"},{"src":"kauo Poran el ti to govan","src_en":"kauo Poran el ti to govan","dst":"where you walk to house","role":"従属節（文単位）"},{"src":"ti","src_en":"ti","dst":"you","role":"Subject"},{"src":"govan","src_en":"govan","dst":"house","role":"Allative"},{"src":"Poran","src_en":"Poran","dst":"walk","role":"Predicate Verb"},{"src":"Velsen","src_en":"Velsen","dst":"know","role":"Predicate Verb"}],"success":true}}
+RUN: verify_conversation_usage.js
 PASS: 16 literal conversation goldens, pending/confirmed states, request retention, recipient-role swaps, uncertainty tense, partial input and stale-choice checks.
+RUN: verify_emergent_dialogue.js
 PASS: unsupported approvals withdrawn; all 1020 candidates held with original evidence; no automatic promotion
+RUN: verify_incremental.js
 PASS: 24 shared incremental fixtures, negation, hope and draft queue policy
+RUN: verify_nominal_and_reason.js
 === Verifying Nominal and Reason Clause Extensions ===
 PASS: 「歩くこと」 -> poran
 PASS: 「星を観測すること」 -> vyrel ia vyr
@@ -49,19 +57,20 @@ PASS: 複文「私は働いたから、私は家で眠る。」 -> Zen fe dolar 
 PASS: 複文「星が輝くから、私は歩く。」 -> Zen falun el vyr, poran el mi.
 PASS: 主語未指定の複文「夜だから、私は眠る。」 -> 自動で「私」を補完して候補生成
 ALL NOMINAL AND REASON VERIFICATIONS PASSED SUCCESSFULLY!
+RUN: verify_practical_development.js
 PASS: practical development checks {"catalogEntries":2483,"uniquePagedEntries":2483,"pages":42,"completeGoldenSentences":13,"rejectedJapaneseCases":8,"rejectedNebulithCases":12,"autoSubjectNeedsConfirmation":true,"ambiguousImportedGlossBlocked":true,"wordLookupIsNotSentenceSuccess":true}
+RUN: verify_review_fixes.js
 PASS: English negation, subjects and full consumption; unknown speakers, blocked quotes and UI confirmation
+RUN: verify_roadmap_v4.js
 PASS: 72 held argument/modifier rejections, nine held source displays, withdrawn modifiers rejected in both directions.
 PASS: roadmap v4 {"lexicalGoldenSentences":154,"additionalVerbRoots":43,"verbArgumentRejections":43,"verbPastReverseWitnesses":43,"adjectiveRules":5,"heldAdjectives":9,"attributiveOnly":0,"reverseRejectedCases":18,"reverseMorphologyGoldens":12,"recipientAmbiguityRejected":true,"nounChoices":2,"contextRequiresConfirmation":true,"fragmentSourceReconstruction":true}
+RUN: verify_semantic_translation.js
 PASS: shared meaning representation, modality/negation scope, four compositional conjunctions, no tense inheritance, per-sentence choices
+RUN: verify_service_worker.js
+PASS: offline cache replacement, isolation, fallback and external requests
+RUN: verify_service_worker_update.js
 PASS: all precache requests bypass an old HTTP cache, including data and translation scripts.
-ReferenceError: Request is not defined
-    at evalmachine.<anonymous>:22:54
-    at Array.map (<anonymous>)
-    at evalmachine.<anonymous>:22:43
-    at async Promise.all (index 0)
-    at async lifecycle (C:\Users\danun\Desktop\Project\Nebulith\tests\verify_service_worker.js:32:75)
-    at async C:\Users\danun\Desktop\Project\Nebulith\tests\verify_service_worker.js:42:17
+RUN: verify_sprint1_modals_and_conditions.js
 === Verifying Milestone 1 / Sprint 1: Modals & Conditional Clauses ===
 
 --- 1. Conditional Clauses (Sen) ---
@@ -94,35 +103,32 @@ PASS: 否定推量「星は輝かないだろう」 -> Se ne falun el vyr. (se n
 PASS: 認識推量「星が輝くかもしれない」 -> Se falun el vyr.
 
 === ALL SPRINT 1 MODAL & CONDITIONAL CLAUSE TESTS PASSED! ===
+RUN: verify_sprint2_comparison_and_quotes.js
 === Verifying Milestone 1 / Sprint 2: Comparison & Reported Clauses ===
 
 --- 1. Comparative Clauses (va) ---
 PASS: 「星は夜より美しい。」 -> Cylani el vyr va valar. (EXT-15 カノン文型)
-node:internal/assert/utils:146
-  throw error;
-  ^
+PASS: 「太陽は星より輝く。」 -> Falun el zohar va vyr. (EXT-16 カノン文型)
+PASS: 「私はあなたより歩く。」は量・頻度・距離の比較軸が未定義のため保留
+PASS: 「太陽は星より輝いた。」 -> Fe falun el zohar va vyr. (過去比較構文)
+PASS: 「太陽は星より輝かない。」 -> Ne falun el zohar va vyr. (否定比較構文)
 
-AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+--- 2. Superlative Expressions (cel-) ---
+PASS: 「太陽は最も輝く。」 -> Celfalun el zohar. (動詞最上級 celfalun)
+PASS: 「星は最も美しい。」 -> Relen el vyr ia celcylani. (形容詞最上級 celcylani)
+PASS: 「太陽は最も輝いた。」 -> Fe celfalun el zohar. (過去最上級)
+PASS: 「太陽は最も輝かない。」 -> Ne celfalun el zohar. (否定最上級)
 
-false !== true
+--- 3. Reported Speech & Thought Clauses ---
+PASS: 「私は「星が輝く」と言った。」 -> Fe fenor el mi ia "Falun el vyr."
+PASS: 「私は「星が輝く」と思った。」 -> Fe memar el mi ia "Falun el vyr."
+PASS: 「彼が「星が輝く」と言った。」 -> Fe fenor el ri ia "Falun el vyr." (三人称主語 ri)
+PASS: 「星が輝くと言った。」 -> Fe fenor el mi ia "Falun el vyr." (間接引用・主語自動補完)
+PASS: 「星が輝くと私は言う。」 -> Fenor el mi ia "Falun el vyr." (現在発話間接引用)
 
-    at Object.<anonymous> (C:\Users\danun\Desktop\Project\Nebulith\tests\verify_sprint2_comparison_and_quotes.js:30:10)
-    at Module._compile (node:internal/modules/cjs/loader:1856:14)
-    at Object..js (node:internal/modules/cjs/loader:1996:10)
-    at Module.load (node:internal/modules/cjs/loader:1579:32)
-    at Module._load (node:internal/modules/cjs/loader:1381:12)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
-    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
-    at node:internal/main/run_main_module:33:47 {
-  generatedMessage: true,
-  code: 'ERR_ASSERTION',
-  actual: false,
-  expected: true,
-  operator: 'strictEqual',
-  diff: 'simple'
-}
+=== ALL SPRINT 2 COMPARISON & QUOTE TESTS PASSED! ===
 
-Node.js v26.1.0
+RUN: verify_sprint3_lexicon_and_adverbs.js
 === Verifying Milestone 2 / Sprint 3: Lexicon & Adverbs Expansion ===
 
 --- 1. Adverbial Modification (Frequency, Degree, Manner, Time) ---
@@ -154,6 +160,7 @@ PASS: Total collisions between canon roots and extended lexicon = 0
 
 === ALL SPRINT 3 LEXICON & ADVERBS TESTS PASSED! ===
 
+RUN: verify_sprint4_word_inspector.js
 === Verifying Milestone 4 / Sprint 4: Dictionary Inspector & Astral Script ===
 
 --- 1. Verb Word Detail Modal & Conjugation Generator ---
@@ -179,6 +186,7 @@ PASS: renderAlignments - アライメントチップから単語詳細モーダ�
 
 === ALL SPRINT 4 DICTIONARY INSPECTOR & ASTRAL SCRIPT TESTS PASSED! ===
 
+RUN: verify_sprint5_derivation_and_aspects.js
 === Verifying Milestone 5 / Sprint 5: Derivations, Aspects & Expanded Civilization Lexicon ===
 
 --- 1. Aspect Engine (-far / -liv) ---
@@ -197,6 +205,7 @@ PASS: 総語彙数 1463 語（1,350語以上の文明・生活・精神語彙拡
 
 === ALL SPRINT 5 DERIVATIONS, ASPECTS & EXPANDED LEXICON TESTS PASSED! ===
 
+RUN: verify_sprint7_llm_and_pwa.js
 === Verifying Sprint 7: LLM Emergent Dialogue, Feedback Auto-Triage & PWA Offline Optimization ===
 
 --- 1. LLM Multi-Agent Dialogue Engine Verification ---
@@ -214,6 +223,7 @@ PASS: Web Studio cleanly freed from audit dashboard in index.html & standalone.h
 ===============================================================
 ALL SPRINT 7 & DYNAMIC LLM EMERGENCE TESTS PASSED! (100% GREEN)
 ===============================================================
+RUN: verify_studio.js
 === Studio Logic & Translation Verification ===
 Vocab count: 1463
 Translation pairs count: 53
@@ -226,7 +236,7 @@ Test 4 (EN -> NEB): Zen falun el vyr, poran el mi. | Alignment count: 3
 WordGrid innerHTML contains empty-state: true
 WordGrid innerHTML contains record button: true
 Feedback queue length after adding word: 1
-First item: {"id":"req_c1426f5a_52aa28f2","type":"word","lang":"ja","text":"量子力学コンピュータ","context":"辞書検索0件ヒット","origins":[{"key":"[\"word\",\"ja\",\"fb_1792739129987_3j4e0pb9vku\"]","count":1,"requestId":"fb_1792739129987_3j4e0pb9vku","source":{"name":"このブラウザー"}}],"count":1,"createdAt":"2026-10-23T07:05:29.987Z","status":"untriaged","cause":"vocabulary"}
+First item: {"id":"req_c1426f5a_52aa28f2","type":"word","lang":"ja","text":"量子力学コンピュータ","context":"辞書検索0件ヒット","origins":[{"key":"[\"word\",\"ja\",\"fb_1792739911676_svgjcxp7z2\"]","count":1,"requestId":"fb_1792739911676_svgjcxp7z2","source":{"name":"このブラウザー"}}],"count":1,"createdAt":"2026-10-23T07:18:31.676Z","status":"untriaged","cause":"vocabulary"}
 
 === Missing Sentence Translation Test ===
 Output text: 〔要対応〕 
@@ -237,7 +247,7 @@ Feedback queue length after adding sentence: 2
 Total queued items: 4
 Queue list rendered cards count: 4
 Export JSON preview (first 200 chars): {
-  "exportedAt": "2026-10-23T07:05:29.998Z",
+  "exportedAt": "2026-10-23T07:18:31.689Z",
   "source": "Nebulith Studio Feedback Queue",
   "totalItems": 4,
   "queue": [
@@ -248,7 +258,9 @@ Export JSON preview (first 200 chars): {
 Queue count after deleting 1 item: 3
 ALL VERIFICATIONS PASSED SUCCESSFULLY!
 PASS: grammar dictionary search, particle introductions and pronoun filter
+RUN: verify_translation_regressions.js
 PASS: Japanese conjugation, English objects, tab id, and icon labels
+RUN: verify_verb_interpretation.js
 === Verifying Expanded Verb Interpretation ===
 PASS: 私は星を見る (観測する) -> Vyrel el mi ia vyr.
 PASS: 私は星を見る (仰ぎ見る) -> Celan el mi ia vyr.
@@ -259,8 +271,12 @@ PASS: 私は行く (歩く) -> Poran el mi.
 PASS: 私は思う (信じる) -> Fevas el mi.
 PASS: 私は思う (決断する) -> Minpan el mi.
 ALL VERB INTERPRETATION TESTS PASSED!
+RUN: verify_web_translation.js
 PASS: Web grammar generation, pronouns, negation, question, frames and safe rejection
 PASS: recovered requests, provisional vocabulary, morphology and word/phrase alignment
 PASS: second feedback batch, explicit scope/subject/meaning choices and preserved tense/negation
-PASS: UI restart preserves source/choices/settings/history, confirmation is reset, JSON preview/merge/status/backup and quota failure
+RUN: verify_workspace.js
 PASS: atomic storage, restart, confirmation reset, quota/conflict/corruption preservation, queue provenance and idempotent import
+RUN: verify_workspace_ui.js
+PASS: UI restart preserves source/choices/settings/history, confirmation is reset, JSON preview/merge/status/backup and quota failure
+JavaScript suites: 26/26 passed

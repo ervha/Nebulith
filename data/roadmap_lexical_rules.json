@@ -1992,5 +1992,9 @@
       "neb": "Fe ne renantalast el ti ia pamel al mi.",
       "tag": "文型整備用例（アプリ用案）"
     }
-  ]
+  ],
+  "comparativePredicateIds": [
+    16
+  ],
+  "comparisonNote": "falunの発光の比較はEXT-16に基づく。poranの量・距離・頻度の比較は未定義。他動詞や起点からの読み替えは行わない。"
 }

@@ -59,7 +59,7 @@
     const extensions = typeof TRANSLATION_EXTENSIONS !== 'undefined' ? TRANSLATION_EXTENSIONS : {};
     const frames = typeof GRAMMAR_FRAMES !== 'undefined' ? GRAMMAR_FRAMES : {};
     const verbs = [...(extensions.productive?.verbs||[]),...(extensions.compoundProductive?.verbs||[]),...(extensions.roadmapProductive?.verbs||[])];
-    return {frames:{...Object.fromEntries(verbs.map(v=>[v.id,v.frame])),...(extensions.frames||{}),...frames},verbs,adjectives:extensions.roadmapProductive?.adjectives||[],held:extensions.roadmapProductive?.held||[]};
+    return {frames:{...Object.fromEntries(verbs.map(v=>[v.id,v.frame])),...(extensions.frames||{}),...frames},verbs,adjectives:extensions.roadmapProductive?.adjectives||[],held:extensions.roadmapProductive?.held||[],comparativePredicateIds:extensions.roadmapProductive?.comparativePredicateIds||[]};
   }
 
   function englishForm(phrase,kind) {
@@ -392,11 +392,12 @@
     const rules=translationRules(),frame=rules.frames?.[vInfo.id];
     const complement=parsed.phrases.find(p=>p.marker==='ia');
     const copularAdjective=vInfo.r==='relen'&&complement?.words.length===1&&/形/.test(lookupWord(complement.words[0])?.p||'');
+    const verbComparison=(rules.comparativePredicateIds||[]).includes(vInfo.id)&&!frame?.allowed.includes('va');
     const fail=error=>({text:null,alignments:[],success:false,error,source:clauseStr});
     if(parsed.phrases.length && frame) {
       const markers=parsed.phrases.map(p=>p.marker);
       if(!frame.required.every(c=>markers.includes(c)))return fail('述語に必須の格句が不足しています。');
-      if(markers.some(c=>c!=='en'&&!frame.allowed.includes(c)&&!(c==='va'&&copularAdjective)))return fail('述語の許容格に合わない格句があります。');
+      if(markers.some(c=>c!=='en'&&!frame.allowed.includes(c)&&!(c==='va'&&(copularAdjective||verbComparison))))return fail('述語の許容格に合わない格句があります。');
       const target=parsed.phrases.find(p=>p.marker==='ia');
       if(frame.recipientAmbiguity&&target?.words.join(' ').toLowerCase().split(/\s+ul\s+/).some(group=>frame.recipientAmbiguity.roots.includes(group.split(' ')[0])))return fail(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
@@ -564,7 +565,7 @@
         kuEn = `with ${pEn}`;
       } else if (ph.marker === 'va') {
         if(/動/.test(position)&&frame?.allowed.includes('va')){compJa=`${pJa}から`;compEn=`from ${pEn}`;}
-        else if(/形/.test(position)||copularAdjective){compJa=`${pJa}より`;compEn=`than ${pEn}`;}
+        else if(/形/.test(position)||copularAdjective||verbComparison){compJa=`${pJa}より`;compEn=`${verbComparison?'more ':''}than ${pEn}`;}
         else return fail('起点と比較の区別を確定できません。');
       } else if (ph.marker === 'uo') {
         locJa = `${pJa}で`;
@@ -877,7 +878,7 @@
       };
     }
 
-    return { text: null, error: `未対応の英語構文: ${englishText}`, success: false };
+    return { text: null, error: single.error || `未対応の英語構文: ${englishText}`, success: false };
   }
 
   function translateSingleEnglishClause(clause) {
@@ -947,7 +948,7 @@
       for(const term of ['think','thinks','thought','rest','rests','rested'])delete verbs[term];
     }
     const nounPattern = '(?:(?:the|a|an)\\s+)?([a-z]+)';
-    const fail = () => ({ success: false });
+    const fail = error => ({success:false,...(error?{error}:{})});
     const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
     const noun = text => {
       const match = text.match(new RegExp('^' + nounPattern + '$'));
@@ -1036,6 +1037,9 @@
     const past = verbs[verb].startsWith('fe ') || (auxiliary && auxiliary.startsWith('did')) || modalPast;
     const baseVerb = verbs[verb].replace(/^fe /, '') + aspectSuf;
     const predicate = (past ? 'fe ' : '') + (auxiliary ? 'ne ' : '') + baseVerb;
+    const rules=translationRules(),verbId=lookupWord(verbs[verb].replace(/^fe /,''))?.id;
+    if(prepPhrases.some(pp=>pp.prep==='from'&&!rules.frames?.[verbId]?.allowed.includes('va')||
+        /than$/.test(pp.prep)&&!(rules.comparativePredicateIds||[]).includes(verbId)))return fail('述語の許容格に合わない起点・比較の表現です。');
     const objectPhrase = object ? ' ia ' + object + (adjective ? ' ' + adjective : '') : '';
     let ppNebStr = '';
     for (const pp of prepPhrases) {

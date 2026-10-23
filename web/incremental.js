@@ -513,8 +513,9 @@
       if(meaning.modalities.some(m => m.realization === 'not-defined'))throw Error('ニュアンスの出力規則が未定義です。');
       const p=meaning.predicate,frame=frames[p.entryId];if(!frame)throw Error('動詞の項構造が未対応です。');
       const allowed=p.passive?frame.passiveAllowed||[]:frame.allowed;
-      const adjectiveComparison = p.entryId===906 && [...byId.values()].some(e=>e.r===meaning.arguments.ia?.nrs&&e.p.includes('形')&&!heldIds.has(e.id));
-      if(!frame.required.every(c=>meaning.arguments[c])||Object.keys(meaning.arguments).some(c=>!allowed.includes(c) && !(c==='va' && adjectiveComparison)))throw Error('主語・補語の不足、または動詞の項構造に合わない格があります。');
+      const adjectiveComparison = p.entryId===906 && ['より','よりも'].includes(meaning.arguments.va?.particle)&&[...byId.values()].some(e=>e.r===meaning.arguments.ia?.nrs&&e.p.includes('形')&&!heldIds.has(e.id));
+      const verbComparison = (extensions.roadmapProductive?.comparativePredicateIds||[]).includes(p.entryId)&&['より','よりも'].includes(meaning.arguments.va?.particle);
+      if(!frame.required.every(c=>meaning.arguments[c])||Object.keys(meaning.arguments).some(c=>!allowed.includes(c) && !(c==='va' && (adjectiveComparison||verbComparison))))throw Error('主語・補語の不足、または動詞の項構造に合わない格があります。');
       if(frame.recipientAmbiguity&&meaning.arguments.ia?.nrs.split(/\s+ul\s+/).some(group=>frame.recipientAmbiguity.roots.includes(group.split(' ')[0])))throw Error(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
         const argument=meaning.arguments[role];

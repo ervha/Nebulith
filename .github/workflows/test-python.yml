@@ -26,9 +26,5 @@ jobs:
       - name: Verify all tests
         run: |
           python -m unittest discover -s tests -v -f
-          for test in tests/verify*.js; do
-            if [ "$test" != "tests/verify_productive_translation.js" ]; then
-              node "$test"
-            fi
-          done
+          python tools/run_node_checks.py
           python tools/verify_web_bundle.py

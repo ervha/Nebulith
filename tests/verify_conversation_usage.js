@@ -60,7 +60,7 @@ for(const source of ['Renantal el mi ia ti al ri.','Renantal el mi ia pamel ul t
  const r=ctx.NebulithBidirectionalEngine.translateNebulith(source,lang);assert.equal(r.success,false,source);assert.ok(r.error.includes('取引'));
 }
 for(const source of ['私は彼にあなたを譲る。','私は彼に本とあなたを譲る。','私は彼にあなたと本を譲る。'])assert.equal(ctx.engine.analyze(source,{confirmed:true}).complete,false,source);
-for(const source of ['私はあなたから水を飲む。','私はあなたより水を飲む。']){
+for(const source of ['私はあなたから水を飲む。','私はあなたより水を飲む。','水はスープから冷たい。','私はあなたから歩く。','私はあなたより歩く。','太陽は星から輝く。']){
  const r=ctx.engine.analyze(source,{confirmed:true});assert.equal(r.complete,false,source);
  assert.ok(r.notes.some(note=>note.includes('項構造')),JSON.stringify(r));
 }
@@ -68,6 +68,16 @@ const comparison=ctx.engine.analyze('水はスープより冷たい。',{confirm
 assert.equal(comparison.complete,true,JSON.stringify(comparison));assert.equal(comparison.text,'Relen el daris ia kyrani va darel.');
 const comparisonReverse=ctx.NebulithBidirectionalEngine.translateNebulith(comparison.text,'ja');
 assert.equal(comparisonReverse.success,true,JSON.stringify(comparisonReverse));assert.equal(comparisonReverse.text,'水は スープより 冷たい.');
+for(const [source,target] of [
+ ['太陽は星より輝く。','Falun el zohar va vyr.'],
+ ['太陽は星より輝いた。','Fe falun el zohar va vyr.'],
+ ['太陽は星より輝かない。','Ne falun el zohar va vyr.']
+]){
+ const r=ctx.engine.analyze(source,{confirmed:true});assert.equal(r.complete,true,source);assert.equal(r.text,target);
+ for(const lang of ['ja','en'])assert.equal(ctx.NebulithBidirectionalEngine.translateNebulith(target,lang).success,true,target);
+}
+assert.equal(ctx.NebulithBidirectionalEngine.translateEnglishToNebulith('The sun shines more than the star.').text,'Falun el zohar va vyr.');
+for(const source of ['I walk more than you.','I walk from house.','The sun shines from the star.','I drink water more than you.'])assert.equal(ctx.NebulithBidirectionalEngine.translateEnglishToNebulith(source).success,false,source);
 for(const [source,expected] of [
  ['私は水を飲むかもしれない。','Se bion el mi ia daris.'],
  ['私は水を飲んだかもしれない。','Se fe bion el mi ia daris.'],
