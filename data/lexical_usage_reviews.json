@@ -118,6 +118,36 @@
         "independentApproval": false,
         "reason": "理由＋信じるから法悦や至福への意味移行を示す資料がない。名詞への変更だけでは意味の根拠を補えない。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "法悦・至福を表す中心義は既存語sarzarを使う案。清澄さを独立した修飾として定義してから、複合語が必要か再検討する。",
+        "unresolved": "清澄さと法悦の結び付き・形容用法",
+        "related": [
+          {
+            "root": "sarzar",
+            "source": {
+              "id": 737,
+              "nrs": "sarzar",
+              "pos": "名",
+              "meaningJa": "至福、法悦、エクスタシー",
+              "meaningEn": "bliss, rapture, transcendent ecstasy"
+            },
+            "difference": "法悦・至福は表せます。清澄さや無垢さまでは指定しません。"
+          },
+          {
+            "root": "falini",
+            "source": {
+              "id": 777,
+              "nrs": "falini",
+              "pos": "形",
+              "meaningJa": "澄んだ、明瞭な、透き通った",
+              "meaningEn": "clear, transparent, lucid"
+            },
+            "difference": "明瞭・澄んだ性質の語です。法悦との組合せは未審査です。"
+          }
+        ]
       }
     },
     {
@@ -177,6 +207,36 @@
         "independentApproval": false,
         "reason": "理由＋美は、公理・規律・論理法則のいずれを表すか決められない。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "公理を指すのか論理体系を指すのか分離する。既存名詞を参照し、規律・美を一つの意味へまとめない。",
+        "unresolved": "公理と定理の区別、澄明という評価",
+        "related": [
+          {
+            "root": "talisum",
+            "source": {
+              "id": 119,
+              "nrs": "talisum",
+              "pos": "名",
+              "meaningJa": "定理、証明された法則、公理",
+              "meaningEn": "theorem, axiom"
+            },
+            "difference": "定理・公理を含む既存語です。公理だけの専用語ではありません。"
+          },
+          {
+            "root": "suflom",
+            "source": {
+              "id": 747,
+              "nrs": "suflom",
+              "pos": "名",
+              "meaningJa": "論理体系、公理系、推論規則系",
+              "meaningEn": "logical system, axiomatic framework"
+            },
+            "difference": "論理体系・公理系を表します。個々の公理とは区別します。"
+          }
+        ]
       }
     },
     {
@@ -236,6 +296,36 @@
         "independentApproval": false,
         "reason": "白い＋信じるから魂の歓声や感情の高まりへの意味移行を説明する出典がない。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "喜びはelir、心はsylimで確認し、潮や共鳴の比喩が必要な場合だけ別途定義する。",
+        "unresolved": "感情の高まり・共鳴・潮という比喩",
+        "related": [
+          {
+            "root": "elir",
+            "source": {
+              "id": 700,
+              "nrs": "elir",
+              "pos": "名/形",
+              "meaningJa": "喜び、多幸感、嬉しい",
+              "meaningEn": "joy, delight, gladness"
+            },
+            "difference": "喜びを表します。魂の歓声や潮のような高まりは含みません。"
+          },
+          {
+            "root": "sylim",
+            "source": {
+              "id": 750,
+              "nrs": "sylim",
+              "pos": "名",
+              "meaningJa": "心、魂、精神、内なる核",
+              "meaningEn": "mind, soul, spirit"
+            },
+            "difference": "心・魂の名詞です。感情の強さは指定しません。"
+          }
+        ]
       }
     },
     {
@@ -295,6 +385,36 @@
         "independentApproval": false,
         "reason": "喜び＋白いだけでは、安堵・帰港・休息の区別を説明できない。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "平穏と、緊張が解ける安堵とを分離する。前者は既存語を使い、後者には状況を明記した用例が必要。",
+        "unresolved": "緊張解消・帰港に伴う安堵",
+        "related": [
+          {
+            "root": "minpalv",
+            "source": {
+              "id": 725,
+              "nrs": "minpalv",
+              "pos": "名",
+              "meaningJa": "安らぎ、静寂、心の平穏",
+              "meaningEn": "serenity, tranquil peace, quietude of mind"
+            },
+            "difference": "心の平穏を表します。直前の緊張が解けたことまでは表しません。"
+          },
+          {
+            "root": "sirin",
+            "source": {
+              "id": 738,
+              "nrs": "sirin",
+              "pos": "名/形",
+              "meaningJa": "平穏、安らぎ、静けさ、穏やか",
+              "meaningEn": "serenity, peace, tranquility"
+            },
+            "difference": "穏やかさ・安らぎを表します。帰港の意味は含みません。"
+          }
+        ]
       }
     },
     {
@@ -354,6 +474,36 @@
         "independentApproval": false,
         "reason": "喜び＋愛から内省の規律や精神の定住を導く規則・慣用例がない。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "内省の行為と規律を分ける。瞑想はsirvonを参照し、規律の対象・義務の強さを定義するまで新しい一語にしない。",
+        "unresolved": "内省に固有の実践規範・義務の強さ",
+        "related": [
+          {
+            "root": "sirvon",
+            "source": {
+              "id": 741,
+              "nrs": "sirvon",
+              "pos": "名/形",
+              "meaningJa": "瞑想、深い静思、観照する",
+              "meaningEn": "meditation, tranquil mindfulness"
+            },
+            "difference": "瞑想・深い静思を表します。規律や義務は含みません。"
+          },
+          {
+            "root": "taros",
+            "source": {
+              "id": 522,
+              "nrs": "taros",
+              "pos": "名",
+              "meaningJa": "法、法律、軌道規則、掟",
+              "meaningEn": "law, statute, canon"
+            },
+            "difference": "法・掟の名詞です。内省の個人的な習慣とは同一ではありません。"
+          }
+        ]
       }
     },
     {
@@ -413,6 +563,47 @@
         "independentApproval": false,
         "reason": "クロック＋分光は風・歌・歓喜の構成要素ではない。名詞案では意味の隔たりを解消しない。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "風・歌う行為・喜びを別々に記述する。時計信号と分光から風の歓喜を作る案は採用しない。",
+        "unresolved": "風の歌の名詞表現、感情との因果関係",
+        "related": [
+          {
+            "root": "wylas",
+            "source": {
+              "id": 365,
+              "nrs": "wylas",
+              "pos": "名/動",
+              "meaningJa": "風、大気の流れ、そよぐ",
+              "meaningEn": "wind, breeze"
+            },
+            "difference": "風・そよぎの語です。歌や喜びは含みません。"
+          },
+          {
+            "root": "cival",
+            "source": {
+              "id": 845,
+              "nrs": "cival",
+              "pos": "動",
+              "meaningJa": "歌う、奏でる、旋律を紡ぐ",
+              "meaningEn": "sing, play music, harmonize"
+            },
+            "difference": "歌う・奏でる動詞です。歌という名詞としては扱いません。"
+          },
+          {
+            "root": "elir",
+            "source": {
+              "id": 700,
+              "nrs": "elir",
+              "pos": "名/形",
+              "meaningJa": "喜び、多幸感、嬉しい",
+              "meaningEn": "joy, delight, gladness"
+            },
+            "difference": "喜びを表します。風や音による原因は指定しません。"
+          }
+        ]
       }
     },
     {
@@ -472,6 +663,36 @@
         "independentApproval": false,
         "reason": "飲む＋湖から清浄生薬・無菌・薬効は導けない。関係形容詞に限定しても根拠不足が残る。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "処方薬と薬草を区別し、清浄・殺菌性・薬効を付加しない基本語から用例を作る。",
+        "unresolved": "清浄度・殺菌性・生体活性の定義",
+        "related": [
+          {
+            "root": "zyvil",
+            "source": {
+              "id": 269,
+              "nrs": "zyvil",
+              "pos": "名",
+              "meaningJa": "薬、処方生薬、調合薬",
+              "meaningEn": "medicine, remedy, potion"
+            },
+            "difference": "薬・処方生薬を表します。殺菌性や無菌性は保証しません。"
+          },
+          {
+            "root": "velil",
+            "source": {
+              "id": 397,
+              "nrs": "velil",
+              "pos": "名",
+              "meaningJa": "新芽、若木、薬草、草",
+              "meaningEn": "herb, sprout, grass"
+            },
+            "difference": "薬草・草を含む語です。薬効があるという断定は含みません。"
+          }
+        ]
       }
     },
     {
@@ -531,6 +752,36 @@
         "independentApproval": false,
         "reason": "食べる＋白いから精製・生薬・高純度は導けない。修飾だけの使用も一旦停止する。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "薬という対象は既存語で表し、精製工程・抽出物・純度基準を個別に定義してから修飾語を再設計する。",
+        "unresolved": "精製・抽出の工程、純度の基準",
+        "related": [
+          {
+            "root": "zyvil",
+            "source": {
+              "id": 269,
+              "nrs": "zyvil",
+              "pos": "名",
+              "meaningJa": "薬、処方生薬、調合薬",
+              "meaningEn": "medicine, remedy, potion"
+            },
+            "difference": "薬・調合薬の名詞です。精製・抽出・高純度は指定しません。"
+          },
+          {
+            "root": "nerdorn",
+            "source": {
+              "id": 976,
+              "nrs": "nerdorn",
+              "pos": "名",
+              "meaningJa": "濾し器、篩い、裏ごし布",
+              "meaningEn": "sieve, colander, straining cheesecloth"
+            },
+            "difference": "濾し器の名詞です。濾過と精製や殺菌を同一視しません。"
+          }
+        ]
       }
     },
     {
@@ -590,6 +841,36 @@
         "independentApproval": false,
         "reason": "分光＋木から切石積み・石工・玄武岩は導けない。材質の訳語修正だけでは不足する。",
         "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      },
+      "reformation": {
+        "status": "proposal",
+        "automaticReplacement": false,
+        "plan": "石と石積み構造を区別し、切削の仕上げや材質が必要なら追加の定義を用意する。",
+        "unresolved": "切石の加工精度・積み方・材質",
+        "related": [
+          {
+            "root": "talyr",
+            "source": {
+              "id": 285,
+              "nrs": "talyr",
+              "pos": "名",
+              "meaningJa": "石、岩、鉱石、結晶",
+              "meaningEn": "stone, rock, mineral"
+            },
+            "difference": "石・岩の名詞です。加工法や材質は限定しません。"
+          },
+          {
+            "root": "dursol",
+            "source": {
+              "id": 611,
+              "nrs": "dursol",
+              "pos": "名",
+              "meaningJa": "石垣、石積み擁壁、乾式石壁",
+              "meaningEn": "drystone masonry, drystone retaining revetment"
+            },
+            "difference": "石垣・乾式石積みを表します。精緻な切石積みや玄武岩とは同一ではありません。"
+          }
+        ]
       }
     }
   ]

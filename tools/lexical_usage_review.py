@@ -34,12 +34,24 @@ def validate_usage_reviews(document, compounds, constituents=None, rules=None):
         expected_usage = 'held' if decision['outcome'] == 'held-for-reformation' else 'frame_proposal'
         if row['usage'] != expected_usage:
             raise ValueError(f'Decision and usage boundary disagree: {ident}')
+        if row['usage'] == 'held':
+            reform = row.get('reformation', {})
+            if (reform.get('status') != 'proposal' or reform.get('automaticReplacement') is not False
+                    or not all(reform.get(key) for key in ('plan', 'unresolved', 'related'))):
+                raise ValueError(f'Incomplete reformation proposal: {ident}')
+            related = reform['related']
+            if len({entry['root'] for entry in related}) != len(related) or any(not entry.get('difference') for entry in related):
+                raise ValueError(f'Invalid related meaning boundaries: {ident}')
         if constituents is not None:
             by_root = {entry['nrs']: entry for entry in constituents}
             fields = ('id', 'nrs', 'pos', 'meaningJa', 'meaningEn')
             expected = [{key: by_root[m][key] for key in fields} for m in source['morphemes']]
             if row.get('constituents') != expected:
                 raise ValueError(f'Constituent source changed; re-review required: {ident}')
+            for entry in row.get('reformation', {}).get('related', []):
+                current = by_root.get(entry['root'])
+                if current is None or entry['source'] != {key: current[key] for key in fields}:
+                    raise ValueError(f'Related word source changed; re-review required: {ident}')
     if rules is not None:
         held = {row['id'] for row in document['entries'] if row['usage'] == 'held'}
         if held != {row['id'] for row in rules['held']}:

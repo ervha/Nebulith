@@ -44,11 +44,17 @@ const executablePath=process.env.NEBULITH_BROWSER_EXE||'C:/Program Files (x86)/M
     await page.locator('#backupImport').setInputFiles(backup);await page.locator('#backupApply').click();await page.waitForLoadState('load');
     await page.waitForFunction(()=>document.getElementById('transInput').value==='私はあなたと仲直りする。');report.checks.backupRoundTrip=true;
     const layouts=[];
+    await page.locator('[data-tab="translator"]').click();await page.locator('#transInput').fill('私は水を飲んでない。');
+    await page.locator('#inputReading').selectOption('unrealized-negative');
     for(const width of [1280,390,360])for(const theme of ['dark','light']){
       await page.setViewportSize({width,height:844});await page.evaluate(t=>{document.documentElement.setAttribute('data-theme',t);},theme);
       for(const tab of ['lexicon','translator']){
         await page.locator(`[data-tab="${tab}"]`).click();const state=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
         assert.ok(state.scrollWidth<=state.width,JSON.stringify({theme,tab,...state}));layouts.push({theme,tab,...state});
+        if(tab==='translator'){
+          const bounds=await page.evaluate(()=>{const area=document.querySelector('.trans-result-area'),a=area.getBoundingClientRect(),c=document.getElementById('inputChoices').getBoundingClientRect(),f=document.querySelector('footer').getBoundingClientRect();return {areaBottom:a.bottom,choicesBottom:c.bottom,footerTop:f.top};});
+          assert.ok(bounds.choicesBottom<=bounds.areaBottom&&bounds.areaBottom<=bounds.footerTop,JSON.stringify({width,theme,...bounds}));
+        }
       }
     }
     report.checks.layouts=layouts;await page.screenshot({path:path.join(out,'mobile-layout.png'),fullPage:false,animations:'disabled'});

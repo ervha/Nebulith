@@ -24,6 +24,14 @@ const session={schemaVersion:1,text:'あなたが嫌い',srcLang:'ja',dstLang:'n
 assert.equal(store.setItem('neb_session_v1',JSON.stringify(session)),true);
 const restart=W.createStore(()=>storage,e=>errors.push(e));assert.equal(restart.getItem('neb_font_size'),'48');
 assert.equal(W.session(restart.json('neb_session_v1',null)).choices.confirmed,false,'restore never silently confirms inferred meaning');
+const negativeSession={...session,choices:{reading:'progressive-negative',confirmed:true,bySegment:{one:{reading:'unrealized-negative',confirmed:true},two:{reading:'invented',confirmed:true}}}};
+const negativeRestored=copy(W.session(negativeSession));
+assert.equal(negativeRestored.choices.reading,'progressive-negative');assert.equal(negativeRestored.choices.confirmed,false);
+assert.equal(negativeRestored.choices.bySegment.one.reading,'unrealized-negative');assert.equal(negativeRestored.choices.bySegment.one.confirmed,false);
+assert.equal(negativeRestored.choices.bySegment.two.reading,undefined,'invalid readings are not restored');
+const negativeBackup=copy(W.backup({schemaVersion:1,source:'Nebulith Studio Backup',values:{neb_session_v1:JSON.stringify(negativeSession)}}));
+assert.equal(JSON.parse(negativeBackup.neb_session_v1).choices.reading,'progressive-negative');
+assert.notEqual(W.feedbackKey({...record('neg'),interpretation:{choices:{reading:'progressive-negative'}}}),W.feedbackKey({...record('neg'),interpretation:{choices:{reading:'unrealized-negative'}}}),'different negative meanings remain separate in the request queue');
 const snapshot=copy(store.snapshot());assert.equal(W.backup(snapshot).neb_font_size,'48');
 const saved=storage.data.neb_profile_v1;
 assert.throws(()=>store.restore({...snapshot.values,neb_font_size:'999'}));assert.equal(storage.data.neb_profile_v1,saved);

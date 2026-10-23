@@ -1,0 +1,21 @@
+{
+  "baseCommit": "fbec11bf7fdd51c01d845e27b61d328e056d26f2",
+  "python": "3.14.3",
+  "node": "v26.1.0",
+  "hashType": "SHA256 of verified Windows working-copy bytes; LF Git blobs may differ",
+  "inputs": {
+    "data/lexical_usage_reviews.json": "67e6444bbd8705b937189073dc13c4fa3f35681a0ad0c3a420ef2092f129c417",
+    "data/lexicon.json": "08622ffa7c4b6ec2d9fd4fb7f2bb27cdb473a2b990b58edb5457161deb5473bd",
+    "data/verified_canonical_compounds.json": "19c5bb2aa4d3bd93f6285b3264c52563636e30d36276a9558661f326f62f815a",
+    "web/incremental.js": "2fc4109c2e77e2820ec6aa6143f49a4359b3c98b2668a4621e1b357dae31f6c7",
+    "web/app.js": "dd631e144e83b669ef0db0c1dd6f6d053473f3374d6d4f407d5611f07271b86a",
+    "web/workspace.js": "5b9fd527208ace225c5f9cc228bc9566528343274465e5cf2b30db145e6036f4",
+    "tools/build_web_studio.py": "d3ecd0ced0f5382467491d22cb2c0b17574316d3cc07a4eb1f62fa54cc8cad7e",
+    "tools/lexical_usage_review.py": "0fa66653d778e7b1e6b33595a7c907d1bc87abe0a33d1a8794d21f69244c73d1",
+    "tests/verify_negative_readings.js": "30108f72853056c772567aebdf9ed98ed7e2ed9a689edd78cde33033b0a0f154",
+    "tests/verify_workspace.js": "86b9f3750b3f63feadb32895276bfea0b8516f866cb23430fa9d123c36701c59",
+    "tests/verify_workspace_ui.js": "857b395fa68b33cc739a6b0f8a46d3f7d75aba6a290200a12a25a7132261aeb1",
+    "tests/test_lexical_usage_review.py": "c51fec045dcee3d1f8ab6f19d851781b69946a71e8adec247b3f6daf82918a59",
+    "tools/verify_roadmap_browser.cjs": "53f8cb0e278426f1f8017799a00a4bb8308a5e31000f582d68ad61e467161434"
+  }
+}

@@ -302,7 +302,7 @@ function getWordCorpusExamples(wordRoot, word) {
 }
 
 window.openWordModal = function(roman) {
-  modalReturnFocus=document.activeElement||null;
+  if(!wordModal.classList.contains('active'))modalReturnFocus=document.activeElement||null;
   const cleanRoman = roman.replace(/^[-+]/, '').replace(/[-+]$/, '').trim();
   let word = VOCAB.find(w => w.r === roman) || VOCAB.find(w => w.r === cleanRoman);
   if (!word && typeof VERIFIED_CANONICAL_COMPOUNDS !== 'undefined') {
@@ -357,6 +357,12 @@ window.openWordModal = function(roman) {
     noteEl.textContent=notes;
     document.getElementById('modalNotesField').style.display=notes?'block':'none';
   }
+
+  // Related entries explain partial overlap; they are not automatic replacements.
+  const related=TRANSLATION_EXTENSIONS.usageReviews?.entries?.find(row=>row.root===word.r)?.reformation?.related||[];
+  document.getElementById('modalRelatedField').style.display=related.length?'block':'none';
+  document.getElementById('modalRelatedWords').innerHTML=related.map(entry=>
+    `<p><button type="button" class="chip-btn" onclick="openWordModal('${escapeHtml(entry.root)}')">${escapeHtml(entry.root+'：'+entry.source.meaningJa.split('、')[0])}</button> ${escapeHtml(entry.difference)}</p>`).join('');
 
   // Render Forms List (100% of words covered)
   const formsField = document.getElementById('modalFormsField');
@@ -891,7 +897,7 @@ function renderIncrementalInput() {
   const subjectControl=document.getElementById('inputSubject');
   subjectControl.innerHTML='<option value="">原文のまま</option><option>私</option><option>あなた</option><option>彼／彼女</option>'+(selected?.contextSubject?`<option value="${escapeHtml(selected.contextSubject.source)}">前文の主体：${escapeHtml(selected.contextSubject.source)}（確認が必要）</option>`:'');
   document.getElementById('inputFragments').innerHTML=result.complete?'':`<small>入力の辞書照合（文法解析とは別）</small><div>${(selected?.fragments||[]).map(f=>`<span class="input-fragment" title="${f.known?'辞書に見つかった語':'未照合部分'}" style="display:inline-block;padding:3px 6px;margin:2px;border:1px ${f.known?'solid':'dashed'} var(--md-sys-color-outline-variant)">${escapeHtml(f.source)}</span>`).join('')}</div>`;
-  document.getElementById('inputChoices').style.display=text.trim()&&(!result.complete||result.segments.length>1)?'flex':'none';
+  document.getElementById('inputChoices').style.display=text.trim()&&(!result.complete||result.segments.length>1||selected?.readingOptions?.length)?'flex':'none';
   document.getElementById('inputSentenceLabel').style.display=result.segments.length>1?'inline-block':'none';
   document.getElementById('inputSentence').innerHTML=result.segments.map((s,i)=>`<option value="${escapeHtml(s.key)}">${i+1}文目・${labels[s.state]}：${escapeHtml(s.source.slice(0,55))}</option>`).join('');
   document.getElementById('inputSentence').value=activeSentenceKey;
@@ -899,10 +905,13 @@ function renderIncrementalInput() {
   const senseOptions=selected?.senseOptions||[];
   document.getElementById('inputSenseLabel').style.display=senseOptions.length?'inline-block':'none';
   document.getElementById('inputSense').innerHTML='<option value="">未選択</option>'+senseOptions.map(o=>`<option value="${escapeHtml(o.value)}">${escapeHtml(o.root+'：'+o.meaning)}</option>`).join('');
+  const readingOptions=selected?.readingOptions||[];
+  document.getElementById('inputReadingLabel').style.display=readingOptions.length?'inline-block':'none';
+  document.getElementById('inputReading').innerHTML='<option value="">未選択</option>'+readingOptions.map(option=>`<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)}</option>`).join('');
   const defaultVerbOptions = ['観測する','仰ぎ見る','見上げる','展望する','予見する','話す','語り合う','告げる','ささやく','問う','歩く','走る','行進する','滑空する','信じる','思索する','決断する','尊ぶ'];
   const verbOptions = selected?.verbOptions && selected.verbOptions.length ? selected.verbOptions : defaultVerbOptions;
   document.getElementById('inputVerb').innerHTML = '<option value="">未選択</option>' + verbOptions.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
-  for(const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense']])document.getElementById(id).value=selectedChoices[key]||'';
+  for(const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense'],['inputReading','reading']])document.getElementById(id).value=selectedChoices[key]||'';
   for(const id of ['inputSubjectLabel','inputVerbLabel'])document.getElementById(id).style.display=selected?.scopeAmbiguous?'none':'inline-block';
   document.getElementById('confirmInputCandidate').disabled=selected?.state!=='candidate';
   const copyablePhrase = result.segments.length===1 && result.segments[0].state==='phrase';
@@ -933,7 +942,7 @@ function changeSegmentChoices(patch){
   if(lastInputAnalysis?.segments.length>1)inputChoicesState={...inputChoicesState,bySegment:{...(inputChoicesState.bySegment||{}),[activeSentenceKey]:{...currentSegmentChoices(),...patch}}};
   else inputChoicesState={...inputChoicesState,...patch};
 }
-for (const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense']]) document.getElementById(id).addEventListener('change',e=>{changeSegmentChoices({[key]:e.target.value,confirmed:false});doTranslate();});
+for (const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense'],['inputReading','reading']]) document.getElementById(id).addEventListener('change',e=>{changeSegmentChoices({[key]:e.target.value,confirmed:false});doTranslate();});
 document.getElementById('inputSentence').addEventListener('change',e=>{activeSentenceKey=e.target.value;doTranslate();});
 document.getElementById('confirmInputCandidate').addEventListener('click',()=>{
   const selected=lastInputAnalysis?.segments.find(s=>s.key===activeSentenceKey);
@@ -950,7 +959,7 @@ function resetInputChoices(preserve=false) {
     retained=sources.length===1?bySegment[JSON.stringify([sources[0],0])]||{}:{bySegment};
   }
   inputChoicesState=retained;lastInputAnalysis=null;
-  for(const id of ['inputSubject','inputVerb','inputPossession','inputSense'])document.getElementById(id).value='';
+  for(const id of ['inputSubject','inputVerb','inputPossession','inputSense','inputReading'])document.getElementById(id).value='';
   if(!preserve)activeSentenceKey='';
 }
 let transTimer = null;
@@ -1500,7 +1509,7 @@ const sessionRaw=safeStorage.json('neb_session_v1',null);
 if(sessionRaw)try{
   const saved=NebulithWorkspace.session(sessionRaw);transInput.value=saved.text;srcLang=saved.srcLang;dstLang=saved.dstLang;inputChoicesState=saved.choices;
   srcLangSelect.value=srcLang;dstLangSelect.value=dstLang;
-  for(const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense']])document.getElementById(id).value=inputChoicesState[key]||'';
+  for(const [id,key] of [['inputSubject','subject'],['inputVerb','verb'],['inputPossession','possession'],['inputSense','sense'],['inputReading','reading']])document.getElementById(id).value=inputChoicesState[key]||'';
   doTranslate();document.getElementById('sessionStatus').textContent='翻訳下書きを復元しました。補完・解釈候補は確認して確定してください。';
 }catch(e){reportStorageError(e.message);}
 const restoredFont=Number(safeStorage.getItem('neb_font_size')||36);

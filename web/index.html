@@ -559,6 +559,17 @@
     }
 
     .trans-result-text { font-size: 1.15rem; color: var(--md-sys-color-on-surface); margin-bottom: 8px; white-space: pre-wrap; }
+    #inputChoices label { max-width: 100%; }
+    #inputChoices select {
+      max-width: 100%;
+      min-height: 32px;
+      padding: 4px 6px;
+      color: var(--md-sys-color-on-surface);
+      background: var(--md-sys-color-surface-container-lowest);
+      border: 1px solid var(--md-sys-color-outline);
+      border-radius: var(--radius-sm);
+      font: inherit;
+    }
     .trans-result-glyph {
       font-family: var(--font-family-nebulith);
       font-size: 1.8rem;
@@ -1019,10 +1030,11 @@
       }
       .trans-textarea, .trans-result-area {
         min-height: 140px;
-        height: 150px;
         font-size: 16px;
         padding: 10px;
       }
+      .trans-textarea { height: 150px; }
+      .trans-result-area { height: auto; }
       .trans-result-glyph {
         font-size: 1.45rem;
       }
@@ -1254,6 +1266,7 @@
                 <label id="inputVerbLabel">動作の解釈 <select id="inputVerb"><option value="">未選択</option><option>観測する</option><option>仰ぎ見る</option><option>見上げる</option><option>展望する</option><option>予見する</option><option>話す</option><option>語り合う</option><option>告げる</option><option>ささやく</option><option>問う</option><option>歩く</option><option>走る</option><option>行進する</option><option>滑空する</option><option>信じる</option><option>思索する</option><option>決断する</option><option>尊ぶ</option></select></label>
                 <label id="inputPossessionLabel" style="display:none">所有範囲 <select id="inputPossession"><option value="">未選択</option><option value="shared">（AとB）のC・共有所有</option><option value="separate">Aと（BのC）・別々の並列項</option></select></label>
                 <label id="inputSenseLabel" style="display:none">語義 <select id="inputSense"><option value="">未選択</option></select></label>
+                <label id="inputReadingLabel" style="display:none">否定の意味 <select id="inputReading"><option value="">未選択</option></select></label>
                 <div id="inputNounChoices"></div>
                 <button class="tool-btn" id="confirmInputCandidate">この解釈で確定</button>
               </div>
@@ -1352,6 +1365,12 @@
       <div class="modal-field" id="modalNotesField" style="margin-bottom: 14px;">
         <div class="modal-label">使い方・補足</div>
         <div class="modal-val" id="modalNotes" style="font-size: 0.88rem; line-height: 1.5; color: var(--md-sys-color-on-surface-variant);"></div>
+      </div>
+
+      <!-- Related meanings, with explicit limits -->
+      <div class="modal-field" id="modalRelatedField" style="display:none;">
+        <div class="modal-label">意味を確認できる既存語</div>
+        <div class="modal-val" id="modalRelatedWords"></div>
       </div>
 
       <!-- Enhanced: Forms Section -->

@@ -1,6 +1,6 @@
 const fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('node:assert/strict');
 const dom={};
-function element(id){return dom[id]||=( {value:'',textContent:'',innerHTML:'',disabled:false,handlers:{},style:{setProperty(k,v){this[k]=v;}},classList:{add(){},remove(){},toggle(){}},setAttribute(){},addEventListener(k,f){this.handlers[k]=f;}} );}
+function element(id){return dom[id]||=( {value:'',textContent:'',innerHTML:'',disabled:false,handlers:{},style:{setProperty(k,v){this[k]=v;}},classList:{values:new Set(),add(v){this.values.add(v);},remove(v){this.values.delete(v);},contains(v){return this.values.has(v);},toggle(v){this.values.has(v)?this.values.delete(v):this.values.add(v);}},setAttribute(){},addEventListener(k,f){this.handlers[k]=f;}} );}
 const ctx={console,document:{documentElement:element('html'),getElementById:element,querySelectorAll:()=>[],createElement:()=>({click(){}})},window:{},localStorage:{getItem:()=>null,setItem(){}},navigator:{clipboard:{writeText:()=>Promise.resolve()}},setTimeout:()=>0,clearTimeout(){},alert(){},confirm:()=>true};
 vm.createContext(ctx);
 for(const file of ['data','bidirectional','incremental','workspace','app'])vm.runInContext(fs.readFileSync('web/'+file+'.js','utf8'),ctx);
