@@ -19,9 +19,11 @@
       // 進行相
       [te+'いる',['di']],[te+'います',['di']],[te+'いた',['fe','di']],[te+'いました',['fe','di']],
       [te+'いない',['ne','di']],[te+'いません',['ne','di']],[te+'いなかった',['fe','ne','di']],[te+'いませんでした',['fe','ne','di']],
-      // 口語の「い」省略。否定形は完了否定とも読めるため、この追加には含めない。
+      // 口語の「い」省略。否定形は意味選択まで出力しない。
       [te+'る',['di'],'','進行相（口語）'],[te+'た',['fe','di'],'','過去の進行相（口語）'],
       [te+'ます',['di'],'','進行相（口語）'],[te+'ました',['fe','di'],'','過去の進行相（口語）'],
+      [te+'ない',[],'','口語否定'],[te+'なかった',['fe'],'','口語否定'],
+      [te+'ないです',[],'','口語否定'],[te+'なかったです',['fe'],'','口語否定'],
       // 依頼の意味を認識して保持する。未定義の命令・依頼小詞は生成しない。
       [te+'ください',[],'','依頼'],
       // 始相。接辞はここでは埋めない。エンジンが言語データの始動相接辞を当て、無いときは未確認候補のままにする。
@@ -668,7 +670,7 @@
         const innerResult = part(innerText, choices, depth + 1);
         if (!['complete', 'candidate'].includes(innerResult.state)) {
           return {source,text:'',state:innerResult.state === 'draft' ? 'draft' : 'blocked',
-            verbOptions:innerResult.verbOptions,senseOptions:innerResult.senseOptions,scopeAmbiguous:innerResult.scopeAmbiguous,
+            verbOptions:innerResult.verbOptions,senseOptions:innerResult.senseOptions,readingOptions:innerResult.readingOptions,scopeAmbiguous:innerResult.scopeAmbiguous,
             notes:['引用内の文を確定してください。',...(innerResult.notes || [])]};
         }
         let innerNeb = innerResult.text ? innerResult.text.replace(/^[〔\[].*?[〕\]]\s*/, '').trim() : '';
@@ -698,6 +700,7 @@
           state: allConfirmed ? 'complete' : 'candidate',
           candidate: fullNeb,
           verbOptions: innerResult.verbOptions,
+          readingOptions: innerResult.readingOptions,
           senseOptions: innerResult.senseOptions,
           scopeAmbiguous: innerResult.scopeAmbiguous,
           meaning,
@@ -818,6 +821,31 @@
           alignment: [...(subClause.alignment || []).map(a => ({...a, role: '従属節・' + a.role})), {src: (moshi ? 'もし... ' : '') + trailingCompound[2], dst: relation[0], role: relation[1] + '接続'}]
         };
       }
+      const negativeText=key(cleanSource).replace(/\?$/,'').replace(/か$/,'');
+      const negativeMatches=matchingForms(negativeText);
+      const negativeForm=negativeMatches.find(form=>form.feature==='口語否定'&&form.ending.length===negativeMatches[0]?.ending.length);
+      if(negativeForm) {
+        const readingOptions=[{value:'progressive-negative',label:'その時は〜ていない（進行の否定）'},
+          {value:'unrealized-negative',label:'まだしていない・未完了（未対応）'}];
+        const notes=['口語否定は進行の否定と未実施・未完了の両方に読めます。意味を選択してください。'];
+        if(!readingOptions.some(option=>option.value===choices.reading))return {source,text:'',state:'draft',readingOptions,notes};
+        if(choices.reading==='unrealized-negative')return {source,text:'',state:'blocked',readingOptions,
+          meaning:{schemaVersion:1,kind:'unresolved',modalities:[{kind:'noncompletion',sourceFeature:negativeForm.ending,realization:'not-defined'}]},
+          notes:[...notes,'未実施・未完了の出力規則は未定義です。進行や過去の否定へ置き換えません。']};
+        const originalEnding=negativeForm.ending;
+        const normalizedEnding=originalEnding.replace(/です$/,'').replace(/(なかった|ない)$/,'い$1');
+        const at=cleanSource.lastIndexOf(originalEnding);
+        const normalized=cleanSource.slice(0,at)+normalizedEnding+cleanSource.slice(at+originalEnding.length);
+        const result=part(normalized,{...choices,reading:undefined},depth);
+        const mapAlignment=rows=>(rows||[]).map(row=>({...row,src:row.src?.replace(normalizedEnding,originalEnding)}));
+        const meaning=result.meaning?.kind==='clause'?{...result.meaning,
+          predicate:{...result.meaning.predicate,source:originalEnding},alignment:mapAlignment(result.meaning.alignment),
+          interpretation:{kind:'progressive-negative',source:originalEnding,normalized:normalizedEnding}}:result.meaning;
+        const resolved={...result,source,readingOptions,meaning,alignment:mapAlignment(result.alignment),
+          state:['complete','candidate'].includes(result.state)?choices.confirmed?'complete':'candidate':result.state,
+          candidate:result.candidate||result.text,notes:[...result.notes,'口語否定を進行の否定として選択。原文の意味を確認して確定してください。']};
+        return ['complete','candidate'].includes(resolved.state)?withModalAdverb(resolved):resolved;
+      }
       const direct=full(cleanSource);if(direct) {
         let dText = direct.text;
         let dAlign = direct.alignment || [];
@@ -841,6 +869,12 @@
       let alias=[...aliases].sort((a,b)=>b.ending.length-a.ending.length).find(a=>text.endsWith(a.ending));
       if(alias&&(matchingForms(text)[0]?.ending.length||0)>alias.ending.length)alias=null;
       let form=alias ? formsByEnding.get(alias.replacement)?.[0] : matchingForms(text)[0];
+      // A trailing modality can expose a contraction after the top-level reading check.
+      // Do not realize its affirmative base and accidentally discard the negative meaning.
+      if(form?.feature==='口語否定')return {source,text:'',state:'blocked',
+        meaning:{schemaVersion:1,kind:'unresolved',modalities:[{kind:'ambiguous-negative',sourceFeature:form.ending,realization:'not-defined'},
+          ...(feature?[{kind:'unresolved',sourceFeature:feature,realization:'not-defined'}]:[])]},
+        notes:['口語否定と'+(feature||'他の表現')+'の組合せは未対応です。否定の意味を省略せず保持します。']};
       const ending=alias?.ending || form?.ending;
       let senseOptions=[];
       if(!alias && form) {

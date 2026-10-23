@@ -55,6 +55,26 @@ class LexicalUsageReviewChecks(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 're-review required'):
                     validate_usage_reviews(self.reviews, changed)
 
+    def test_related_source_drift_requires_review(self):
+        for field in ('pos', 'meaningJa', 'meaningEn'):
+            with self.subTest(field=field):
+                changed = copy.deepcopy(self.constituents)
+                next(row for row in changed if row['nrs'] == 'zyvil')[field] = 'changed'
+                with self.assertRaisesRegex(ValueError, 'Related word source changed'):
+                    validate_usage_reviews(self.reviews, self.compounds, changed, self.rules)
+
+    def test_reformation_cannot_be_automatic_or_omit_meaning_boundary(self):
+        for mutation, error in (
+            (lambda r: r.update(automaticReplacement=True), 'Incomplete reformation'),
+            (lambda r: r.update(unresolved=''), 'Incomplete reformation'),
+            (lambda r: r['related'][0].update(difference=''), 'Invalid related meaning'),
+            (lambda r: r['related'].append(copy.deepcopy(r['related'][0])), 'Invalid related meaning'),
+        ):
+            changed = copy.deepcopy(self.reviews)
+            mutation(next(row for row in changed['entries'] if row['usage'] == 'held')['reformation'])
+            with self.assertRaisesRegex(ValueError, error):
+                validate_usage_reviews(changed, self.compounds, self.constituents, self.rules)
+
     def test_duplicate_or_approved_proposal_is_rejected(self):
         duplicate = copy.deepcopy(self.reviews)
         duplicate['entries'].append(duplicate['entries'][0])

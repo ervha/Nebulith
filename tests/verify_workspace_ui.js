@@ -1,7 +1,7 @@
 const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
 function start(storage){
   const dom={},downloads=[];let reloaded=false;
-  function element(id){return dom[id]||=( {id,value:'',textContent:'',innerHTML:'',disabled:false,handlers:{},style:{setProperty(k,v){this[k]=v;}},classList:{add(){},remove(){}},setAttribute(){},addEventListener(name,fn){this.handlers[name]=fn;},click(){downloads.push(this);}} );}
+  function element(id){return dom[id]||=( {id,value:'',textContent:'',innerHTML:'',disabled:false,handlers:{},style:{setProperty(k,v){this[k]=v;}},classList:{values:new Set(),add(v){this.values.add(v);},remove(v){this.values.delete(v);},contains(v){return this.values.has(v);}},setAttribute(){},addEventListener(name,fn){this.handlers[name]=fn;},click(){downloads.push(this);}} );}
   const ctx={localStorage:storage,document:{documentElement:element('html'),getElementById:element,querySelectorAll:()=>[],createElement:tag=>({tag,click(){downloads.push(this);}})},window:{location:{reload(){reloaded=true;}}},navigator:{clipboard:{writeText:()=>Promise.resolve()}},setTimeout:()=>0,clearTimeout(){},console,alert(){},confirm:()=>true,Blob,URL,TextEncoder,crypto:require('node:crypto').webcrypto};
   vm.createContext(ctx);for(const file of ['web/data.js','web/incremental.js','web/workspace.js','web/app.js'])vm.runInContext(fs.readFileSync(file,'utf8'),ctx);
   return {ctx,dom,eval:s=>vm.runInContext(s,ctx),event:(id,type)=>dom[id].handlers[type]?.({target:dom[id]}),reloaded:()=>reloaded};
@@ -21,6 +21,24 @@ function start(storage){
   assert.ok(app.dom.transOutputText.textContent.includes('Nyrcan'));assert.ok(app.dom.sessionStatus.textContent.includes('復元'));
   assert.equal(app.dom.fontSizeSlider.value,'48');assert.equal(app.dom.editorInput.value,'書きかけの筆記');
   assert.equal(app.eval('browsingHistory[0]'),'mi');
+  app.dom.transInput.value='私は水を飲んでない。';app.event('transInput','input');app.eval('doTranslate()');
+  assert.equal(app.dom.inputReadingLabel.style.display,'inline-block');assert.equal(app.dom.copyDstBtn.disabled,true);
+  app.dom.inputReading.value='progressive-negative';app.event('inputReading','change');
+  assert.equal(app.dom.confirmInputCandidate.disabled,false);assert.equal(app.dom.copyDstBtn.disabled,true);
+  app.event('confirmInputCandidate','click');assert.equal(app.dom.copyDstBtn.disabled,false);
+  assert.equal(app.dom.inputChoices.style.display,'flex','the reading can be changed after confirmation');
+  app=start(storage);assert.equal(app.dom.inputReading.value,'progressive-negative');
+  assert.equal(app.dom.copyDstBtn.disabled,true,'restored reading must be reconfirmed');
+  app.dom.inputReading.value='unrealized-negative';app.event('inputReading','change');
+  assert.equal(app.dom.confirmInputCandidate.disabled,true);assert.equal(app.dom.copyDstBtn.disabled,true);
+  assert.equal(app.eval('lastInputAnalysis.segments[0].state'),'blocked');
+  app=start(storage);assert.equal(app.dom.inputReading.value,'unrealized-negative');assert.equal(app.dom.copyDstBtn.disabled,true);
+  app.dom.transInput.value='あなたは歩いてない。';app.event('transInput','input');app.eval('doTranslate()');
+  assert.equal(app.dom.inputReading.value,'','edited text loses prior reading');
+  app.ctx.window.openWordModal('biondaron');assert.equal(app.dom.modalRelatedField.style.display,'block');
+  assert.ok(app.dom.modalRelatedWords.innerHTML.includes('zyvil'));assert.ok(app.dom.modalRelatedWords.innerHTML.includes('保証'));
+  app.ctx.window.openWordModal('zyvil');assert.equal(app.dom.modalRelatedField.style.display,'none');
+  assert.equal(app.dom.modalRelatedWords.innerHTML,'','ordinary words must not inherit held-word alternatives');
   app.dom.transInput.value='あなたが嫌い。未来を見る。';app.event('transInput','input');app.eval('doTranslate()');
   const selectSentence=index=>{app.dom.inputSentence.value=app.eval(`lastInputAnalysis.segments[${index}].key`);app.event('inputSentence','change');};
   selectSentence(0);app.dom.inputSubject.value='私';app.event('inputSubject','change');app.event('confirmInputCandidate','click');
