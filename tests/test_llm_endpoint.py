@@ -56,11 +56,12 @@ class LlmEndpointTests(unittest.TestCase):
 
     def test_dialogue_cli_refuses_missing_endpoint(self):
         env = os.environ.copy()
+        env['PYTHONIOENCODING'] = 'utf-8'
         for name in ("OPENAI_API_KEY", "NEBULITH_LLM_API_KEY", "NEBULITH_LLM_ENDPOINT", "COLAB_LLM_ENDPOINT", "OPENAI_BASE_URL"):
             env.pop(name, None)
         result = subprocess.run(
             [sys.executable, "tools/llm_agent_dialogue.py", "--health-check"],
-            cwd=ROOT, capture_output=True, text=True, env=env, timeout=20,
+            cwd=ROOT, capture_output=True, text=True, encoding='utf-8', env=env, timeout=20,
         )
         self.assertNotEqual(0, result.returncode)
         self.assertNotIn("sk-", result.stdout + result.stderr)

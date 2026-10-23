@@ -1,0 +1,43 @@
+Page: com.android.chrome
+App: com.android.chrome
+Snapshot: 39 visible nodes (51 total)
+Collapsed 12 Android helper nodes from the agent-facing text snapshot; use --raw or --json for the full hierarchy.
+@e1 [webview] "Nebulith Studio, カテゴリ, バッチ, 表示中: 1〜60 / 2,483 語（全2,483語）, カードクリックで詳細・語源・お気に入り登録, 名, celen, 空、天蓋、蒼穹、大気, En: sky, firmament, /[ʃe.len]/" [focused]
+@e3 [button] "未対応キュー"
+@e4 [button] "ライトテーマに切り替え"
+@e5 [button] "辞書・語根・文法 (2,483項目)"
+@e6 [button] "相互変換・多言語アライメント (JA / EN / NEB)"
+@e7 [group] "保存・バックアップ"
+@e8 [group] "tab-lexicon"
+@e9 [text-field] "lexSearchInput" [editable]
+@e11 [group] "すべてのカテゴリ"
+@e13 [group] "すべてのバッチ"
+@e14 [button] "条件をリセット"
+@e15 [group] "filterChips"
+@e16 [button] "すべて (2,483)"
+@e17 [button] "正本 (1,008)"
+@e18 [button] "体系拡張"
+@e19 [button] "検証済み複合語 (1020)"
+@e20 [button] "お気に入り ( 0 )"
+@e21 [button] "閲覧履歴"
+@e22 [button] "名詞 (noun)"
+@e23 [button] "動詞 (verb)"
+@e24 [button] "形容詞 (adj)"
+@e25 [button] "副詞 (adverb)"
+@e26 [button] "代名詞"
+@e27 [button] "相関詞"
+@e28 [button] "格標識"
+@e29 [button] "機能語"
+@e30 [button] "接辞"
+@e33 [group] "wordGrid"
+@e34 [togglebutton] "☆"
+@e35 [button] "空、天蓋、蒼穹、大気（celen）の詳細"
+@e41 [togglebutton] "☆"
+@e42 [button] "頂、てっぺん、最上部、頂嶺（celkop）の詳細"
+@e44 [button] "Open the home page"
+@e45 [group] "Your connection to this site is not secure"
+@e47 [group]
+@e48 [text-field] "localhost:8879/web/?development=conversation" [selected] [editable]
+@e49 [button] "Ask Gemini"
+@e50 [button] "See 4 tabs"
+@e51 [button] "Customize and control Google Chrome"

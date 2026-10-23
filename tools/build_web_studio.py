@@ -89,7 +89,8 @@ def build_web_studio():
     from lexical_usage_review import validate_usage_reviews
     with open(os.path.join(base_dir,'data','lexical_usage_reviews.json'),encoding='utf-8') as f:
         translation_extensions['usageReviews']=json.load(f)
-    validate_usage_reviews(translation_extensions['usageReviews'], verified_canonical_compounds)
+    validate_usage_reviews(translation_extensions['usageReviews'], verified_canonical_compounds,
+                          lex_data['vocabulary'], translation_extensions['roadmapProductive'])
     with open(os.path.join(base_dir,'data','studio_categories.json'),encoding='utf-8') as f:
         translation_extensions['catalogCategories']=json.load(f)
     with open(os.path.join(web_dir,'workspace.js'),encoding='utf-8') as f:

@@ -1,5 +1,5 @@
 // Nebulith Studio Web - Complete Offline Service Worker (v2.8)
-const CACHE_NAME = 'nebulith-studio-024b6d50b1965a22401f';
+const CACHE_NAME = 'nebulith-studio-551ecec9581041d1cc63';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -18,7 +18,8 @@ const PRECACHE_ASSETS = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(PRECACHE_ASSETS);
+      // A new generation must not inherit scripts from the browser's HTTP cache.
+      return cache.addAll(PRECACHE_ASSETS.map(url => new Request(url, {cache: 'reload'})));
     }).then(() => self.skipWaiting())
   );
 });

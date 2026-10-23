@@ -390,13 +390,15 @@
     if(parsed.aspectSuffix?.suffix==='iin')return {success:false,error:'複数接尾辞を述語としては確定できません。'};
     if(parsed.isQuestion&&parsed.prefixes.includes('se'))return {success:false,error:'推量と疑問の組み合わせは未対応です。'};
     const rules=translationRules(),frame=rules.frames?.[vInfo.id];
+    const complement=parsed.phrases.find(p=>p.marker==='ia');
+    const copularAdjective=vInfo.r==='relen'&&complement?.words.length===1&&/形/.test(lookupWord(complement.words[0])?.p||'');
     const fail=error=>({text:null,alignments:[],success:false,error,source:clauseStr});
     if(parsed.phrases.length && frame) {
       const markers=parsed.phrases.map(p=>p.marker);
       if(!frame.required.every(c=>markers.includes(c)))return fail('述語に必須の格句が不足しています。');
-      if(markers.some(c=>c!=='en'&&!frame.allowed.includes(c)))return fail('述語の許容格に合わない格句があります。');
+      if(markers.some(c=>c!=='en'&&!frame.allowed.includes(c)&&!(c==='va'&&copularAdjective)))return fail('述語の許容格に合わない格句があります。');
       const target=parsed.phrases.find(p=>p.marker==='ia');
-      if(frame.recipientAmbiguity&&!markers.includes('al')&&target?.words.length===1&&frame.recipientAmbiguity.roots.includes(target.words[0]?.toLowerCase()))return fail(frame.recipientAmbiguity.reason);
+      if(frame.recipientAmbiguity&&target?.words.join(' ').toLowerCase().split(/\s+ul\s+/).some(group=>frame.recipientAmbiguity.roots.includes(group.split(' ')[0])))return fail(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
         const ph=parsed.phrases.find(p=>p.marker===role);
         if(ph&&!ph.words.join(' ').split(/\s+ul\s+/i).every(group=>rule.roots.includes(group.split(' ')[0]?.toLowerCase())))return fail(rule.reason);
@@ -562,7 +564,7 @@
         kuEn = `with ${pEn}`;
       } else if (ph.marker === 'va') {
         if(/動/.test(position)&&frame?.allowed.includes('va')){compJa=`${pJa}から`;compEn=`from ${pEn}`;}
-        else if(/形/.test(position)){compJa=`${pJa}より`;compEn=`than ${pEn}`;}
+        else if(/形/.test(position)||copularAdjective){compJa=`${pJa}より`;compEn=`than ${pEn}`;}
         else return fail('起点と比較の区別を確定できません。');
       } else if (ph.marker === 'uo') {
         locJa = `${pJa}で`;

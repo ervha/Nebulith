@@ -1,0 +1,20 @@
+Page: com.android.chrome
+App: com.android.chrome
+Snapshot: 16 visible nodes (38 total)
+Collapsed 22 Android helper nodes from the agent-facing text snapshot; use --raw or --json for the full hierarchy.
+@e1 [webview] "biondaron, 日本語義 (MEANING JA), 清浄生薬の、無菌賦活の、純薬効の, 英語義 (MEANING EN), purely antiseptic, sterile bioactive, cleanly therapeutic, 発音ガイド & 音声表記 (PHONETICS & IPA), —, rは舌先を軽く弾く歯茎弾き音[ɾ]。, 例文・用例, 用法確認中：biondaron。原資料の文をそのまま表示しています。, Biondaron el dar to miin., この清浄生薬の道は私たちに光を与えます。, 出典: 原資料の例, Vyreler el mi uo bionneran to dar. Biondaron el dar to miin. Vyreler el mi uo bionalin to dar., 私は薬効生体滴（bionneran）を観測・記録します。この清浄生薬の（biondaron）道は私たちに光を与えます。私は生体滋養補給（bionalin）を観測・記録します。, 主な形 (クリックでコピー), 基本形 biondaron, 使い方・補足, 語源: bion(飲む) + daron(湖) 構成語と意味の対応を再設計中です。翻訳への使用は保留しています。"
+@e2 [alertdialog] "wordModal"
+@e3 [button] "閉じる" [focused]
+@e6 [button] "お気に入りに追加"
+@e14 [group] "modalNotesField"
+@e17 [group] "modalFormsField"
+@e19 [group] "modalFormsList"
+@e21 [group] "modalExamplesField"
+@e23 [group] "modalExamplesList"
+@e31 [button] "Open the home page"
+@e32 [group] "Your connection to this site is not secure"
+@e34 [group]
+@e35 [text-field] "localhost:8879/web/?development=conversation" [selected] [editable]
+@e36 [button] "Ask Gemini"
+@e37 [button] "See 4 tabs"
+@e38 [button] "Customize and control Google Chrome"
