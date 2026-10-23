@@ -1,0 +1,27 @@
+Page: com.android.chrome
+App: com.android.chrome
+Snapshot: 23 visible nodes (34 total)
+Collapsed 11 Android helper nodes from the agent-facing text snapshot; use --raw or --json for the full hierarchy.
+@e1 [webview] "Nebulith Studio, 入力:, 出力:, 原文入力 (日本語 / English / 星石語), 訳文・解析結果, 【構文未確定】, transOutputGlyph, 引数・修飾語の語義と品詞は再整理待ちです。, transAlignmentBox, この文章の文型は現在未対応です"
+@e3 [button] "未対応キュー"
+@e4 [button] "ライトテーマに切り替え"
+@e5 [button] "辞書・語根・文法 (2,483項目)"
+@e6 [button] "相互変換・多言語アライメント (JA / EN / NEB)"
+@e7 [group] "保存・バックアップ"
+@e8 [group] "tab-translator"
+@e10 [group] "星石語 (NEB)"
+@e11 [button] "⇄ 切替"
+@e13 [group] "日本語 (JA)"
+@e15 [button] "消去"
+@e16 [text-field] "Vyrel el mi ia vyr zenfevas." [focused] [editable]
+@e18 [button] "完成訳をコピー" [disabled]
+@e23 [group] "対応する動詞・表現の範囲"
+@e24 [group] "transMissingBox"
+@e26 [button] "未対応文章として記録する"
+@e27 [button] "Open the home page"
+@e28 [group] "Your connection to this site is not secure"
+@e30 [group]
+@e31 [text-field] "10.0.2.2:8879/web/?review=20261023" [selected] [editable]
+@e32 [button] "Ask Gemini"
+@e33 [button] "See 2 tabs"
+@e34 [button] "Customize and control Google Chrome"

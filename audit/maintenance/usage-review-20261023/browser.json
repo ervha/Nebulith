@@ -1,0 +1,17 @@
+{
+  "modal": {
+    "notes": "語源: zen(なぜなら) + fevas(信じる) 品詞と意味を確認中です。翻訳への使用は保留しています。",
+    "sourceCards": 3,
+    "allHeldCardsNonClickable": true,
+    "version": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+  },
+  "translation": {
+    "blocked": {
+      "reason": "引数・修飾語の語義と品詞は再整理待ちです。",
+      "copyDisabled": true
+    },
+    "validText": "I observe bright star.",
+    "validCopyEnabled": true
+  },
+  "method": "T3 collaborative browser DOM assertions; not native IME or physical mobile testing"
+}

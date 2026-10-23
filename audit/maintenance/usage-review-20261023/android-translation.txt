@@ -1,0 +1,24 @@
+Page: com.android.chrome
+App: com.android.chrome
+Snapshot: 20 visible nodes (30 total)
+Collapsed 10 Android helper nodes from the agent-facing text snapshot; use --raw or --json for the full hierarchy.
+@e1 [webview] "Nebulith Studio, 入力:, 出力:, 原文入力 (日本語 / English / 星石語), 訳文・解析結果, 確定訳, Renantal el mi ia pamel al ti., Nebulithの格・項構造を検証 / 追加文型案（未監査）を使用"
+@e3 [button] "未対応キュー"
+@e4 [button] "ライトテーマに切り替え"
+@e5 [button] "辞書・語根・文法 (2,483項目)"
+@e6 [button] "相互変換・多言語アライメント (JA / EN / NEB)"
+@e7 [group] "保存・バックアップ"
+@e8 [group] "tab-translator"
+@e10 [group] "日本語 (JA)"
+@e11 [button] "⇄ 切替"
+@e13 [group] "星石語 (NEB)"
+@e15 [button] "消去"
+@e16 [text-field] "私はあなたに本を譲る。" [focused] [editable]
+@e18 [button] "完成訳をコピー"
+@e23 [button] "Open the home page"
+@e24 [group] "Your connection to this site is not secure"
+@e26 [group]
+@e27 [text-field] "10.0.2.2:8879/web/?review=20261023" [selected] [editable]
+@e28 [button] "Ask Gemini"
+@e29 [button] "See 2 tabs"
+@e30 [button] "Customize and control Google Chrome"

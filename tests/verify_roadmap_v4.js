@@ -114,6 +114,29 @@ for(const [lang,target] of [['neb','en'],['en','neb']]){
   assert.equal(dom.copyDstBtn.disabled,false);assert.equal(dom.inputInterpretation.textContent,'');
   run("transInput.value='Nonsense el mi.';doTranslate();transInput.value='';doTranslate()");assert.equal(dom.inputInterpretation.textContent,'');
 }
+// Source-bound usage reviews must also protect arguments and modifiers.
+let heldArgumentCases=0;
+for(const held of rules.held){
+  const root=catalog.find(w=>w.id===held.id).r;
+  for(const source of [`Vyrel el mi ia vyr ${root}.`,`Vyrel el mi ia ${root}.`,`Vyrel el mi ia vyr ul ${root}.`,`Vyrel el mi ia vyr ul pamel ${root}.`])for(const lang of ['ja','en']){
+    const r=ctx.NebulithBidirectionalEngine.translateNebulith(source,lang);
+    assert.equal(r.success,false,source);assert.ok(r.error.includes('再整理'),JSON.stringify(r));heldArgumentCases++;
+  }
+  run(`window.openWordModal('${root}')`);
+  assert.ok(dom.modalNotes.textContent.includes('翻訳への使用は保留'));
+  assert.ok(dom.modalExamplesList.innerHTML.includes('用法確認中'));
+  assert.ok(!dom.modalExamplesList.innerHTML.includes('loadExampleToTranslator'));
+}
+for(const source of ['Vyrel el mi ia vyr faluni.','Vyrel el mi ia daris biondaron.']){
+  assert.equal(ctx.NebulithBidirectionalEngine.translateNebulith(source,'ja').success,true,source);
+}
+run("window.openWordModal('renantal')");
+assert.ok(dom.modalNotes.textContent.includes('譲る物と受け手'));
+assert.ok(dom.modalExamplesList.innerHTML.includes('Renantal el mi ia ti.'));
+assert.ok(dom.modalExamplesList.innerHTML.includes('用法確認中'));
+assert.ok(dom.modalExamplesList.innerHTML.includes('文型整備用例（アプリ用案）'));
+assert.equal(run('TRANSLATION_EXTENSIONS.usageReviews.entries.length'),10);
+console.log('PASS: 48 held argument/modifier rejections, six held source displays, valid modifier controls and renantal source/proposal distinction.');
 const report={lexicalGoldenSentences:goldens,additionalVerbRoots:43,verbArgumentRejections:43,verbPastReverseWitnesses:43,adjectiveRules:8,heldAdjectives:6,attributiveOnly:3,reverseRejectedCases:invalid.length*2,reverseMorphologyGoldens:morphology.length,recipientAmbiguityRejected:true,nounChoices:group.options.length,contextRequiresConfirmation:true,fragmentSourceReconstruction:true};
 if(process.argv[2])fs.writeFileSync(process.argv[2],JSON.stringify(report,null,2)+'\n');
 console.log('PASS: roadmap v4 '+JSON.stringify(report));

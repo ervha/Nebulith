@@ -33,6 +33,7 @@ def verify():
     extensions['compoundProductive'] = json.loads((ROOT/'data/compound_translation_patterns.json').read_text(encoding='utf-8'))
     extensions['roadmapProductive'] = json.loads((ROOT/'data/roadmap_lexical_rules.json').read_text(encoding='utf-8'))
     extensions['catalogCategories'] = json.loads((ROOT/'data/studio_categories.json').read_text(encoding='utf-8'))
+    extensions['usageReviews'] = json.loads((ROOT/'data/lexical_usage_reviews.json').read_text(encoding='utf-8'))
     assert value('TRANSLATION_EXTENSIONS') == extensions
     usage = json.loads((ROOT / 'data/usage_examples.json').read_text(encoding='utf-8'))['examples']
     assert value('USAGE_EXAMPLES') == usage
