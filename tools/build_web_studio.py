@@ -86,6 +86,10 @@ def build_web_studio():
         translation_extensions['compoundProductive']=json.load(f)
     with open(os.path.join(base_dir,'data','roadmap_lexical_rules.json'),encoding='utf-8') as f:
         translation_extensions['roadmapProductive']=json.load(f)
+    from lexical_usage_review import validate_usage_reviews
+    with open(os.path.join(base_dir,'data','lexical_usage_reviews.json'),encoding='utf-8') as f:
+        translation_extensions['usageReviews']=json.load(f)
+    validate_usage_reviews(translation_extensions['usageReviews'], verified_canonical_compounds)
     with open(os.path.join(base_dir,'data','studio_categories.json'),encoding='utf-8') as f:
         translation_extensions['catalogCategories']=json.load(f)
     with open(os.path.join(web_dir,'workspace.js'),encoding='utf-8') as f:
@@ -1509,7 +1513,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
 
       <!-- Enhanced: Contextual Examples Section -->
       <div class="modal-field" id="modalExamplesField" style="display: none;">
-        <div class="modal-label">例文 <span style="font-size:0.75rem; font-weight:normal; color:var(--md-sys-color-outline);">(クリックで翻訳ボックスへ入力)</span></div>
+        <div class="modal-label">例文・用例</div>
         <div class="modal-val" id="modalExamplesList" style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;"></div>
       </div>
 
@@ -1586,7 +1590,7 @@ const VERIFIED_CANONICAL_COMPOUNDS = {json.dumps(verified_canonical_compounds, e
 
     files = ['tools/build_web_studio.py', 'tools/studio_dictionary.py', 'tools/extended_corpus.py', 'data/lexicon.json',
              'data/literary_sourcebook.json', 'data/lexicon_canonical_loci.json', 'docs/Valnes_Ibun.html', 'web/library.html', 'data/grammar_dictionary.json', 'data/usage_examples.json', 'data/verified_canonical_compounds.json', 'data/translation_extensions.json', 'data/translation_patterns.json', 'data/canon_corpus.json', 'data/extended_corpus_v2.json',
-             'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json', 'data/compound_translation_patterns.json', 'data/roadmap_lexical_rules.json', 'data/studio_categories.json',
+             'data/translation_input_rules.json', 'data/translation_input_fixtures.json', 'data/corpus_rules.json', 'data/compound_translation_patterns.json', 'data/roadmap_lexical_rules.json', 'data/studio_categories.json', 'data/lexical_usage_reviews.json', 'tools/lexical_usage_review.py',
              'fonts/font_b64.txt', 'web/app.js', 'web/workspace.js', 'web/bidirectional.js', 'web/incremental.js', 'web/data.js',
              'web/index.html', 'web/standalone.html', 'web/manifest.json', 'web/service-worker.js', 'web/icon.svg', 'web/favicon.svg']
     hashes = {p: hashlib.sha256((Path(base_dir)/p).read_bytes()).hexdigest() for p in files}

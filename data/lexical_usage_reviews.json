@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "status": "Source-bound proposals; not canon amendments or independent approval",
+  "entries": [
+    {
+      "id": 31866,
+      "root": "renantal",
+      "status": "proposal",
+      "approved": false,
+      "usage": "frame_proposal",
+      "source": {
+        "id": 31866,
+        "nrs": "renantal",
+        "pos": "動",
+        "meaningJa": "譲る、手頃に商う、分け与える",
+        "meaningEn": "offer fairly, trade benevolently, hand over amicably",
+        "morphemes": [
+          "renan",
+          "tal"
+        ],
+        "etymology": "renan(商う/取引) + tal(大地/基盤)",
+        "example_sentence": "Renantal el mi ia ti.",
+        "example_ja": "私はあなたに適正に譲り商いましょう。",
+        "scenario_id": "CANON-UNIV-03"
+      },
+      "issue": "既存例のia tiを受け手と読む対訳と、譲渡物ia・受け手alのアプリ案が一致しない。",
+      "proposal": {
+        "pos": "動",
+        "meaningJa": "物を相手へ譲る",
+        "meaningEn": "hand an item over to someone",
+        "rationale": "譲渡物ia・受け手alを区別するアプリ案を第一候補とする。既存例のia tiが取引相手を表すなら、交易の別語義として分ける。価格・公正さ・勧誘の意味は格だけから補わない。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "譲る物と受け手を分ける文型に対応しています。原資料の例文は格の対応を確認中です。"
+    },
+    {
+      "id": 31939,
+      "root": "zenfevas",
+      "status": "proposal",
+      "approved": false,
+      "usage": "held",
+      "source": {
+        "id": 31939,
+        "nrs": "zenfevas",
+        "pos": "形",
+        "meaningJa": "清澄な法悦、無垢なる歓喜、澄明の至福",
+        "meaningEn": "lucid ecstasy, serene pure joy, blissful clarity",
+        "morphemes": [
+          "zen",
+          "fevas"
+        ],
+        "etymology": "zen(なぜなら) + fevas(信じる)",
+        "example_sentence": "Zenfevas el dar to miin.",
+        "example_ja": "この清澄な法悦道は私たちに光を与えます。",
+        "scenario_id": "CANON-MIND-02"
+      },
+      "issue": "品詞は形容詞だが日英の語義は名詞句で、既存例は光を与えるという動詞の意味を補っている。",
+      "proposal": {
+        "pos": "名",
+        "meaningJa": "清澄な法悦",
+        "meaningEn": "lucid ecstasy",
+        "rationale": "感情・状態を表す名詞として整理する案。形容用法を残すなら「法悦に満ちた」のように別の語義・修飾対象を定義する。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+    },
+    {
+      "id": 31940,
+      "root": "zencylas",
+      "status": "proposal",
+      "approved": false,
+      "usage": "held",
+      "source": {
+        "id": 31940,
+        "nrs": "zencylas",
+        "pos": "形",
+        "meaningJa": "明晰なる公理、純粋論理規律、澄明思考律",
+        "meaningEn": "clear axiomatic rule, pure logical discipline, lucid reason law",
+        "morphemes": [
+          "zen",
+          "cylas"
+        ],
+        "etymology": "zen(なぜなら) + cylas(美)",
+        "example_sentence": "Zencylas el dar to miin.",
+        "example_ja": "この明晰なる公理道は私たちに光を与えます。",
+        "scenario_id": "CANON-MIND-02"
+      },
+      "issue": "品詞は形容詞だが日英の語義は名詞句で、既存例は光を与えるという動詞の意味を補っている。",
+      "proposal": {
+        "pos": "名",
+        "meaningJa": "明晰なる公理",
+        "meaningEn": "clear axiom",
+        "rationale": "命題としての公理と実践としての規律を分ける。公理を第一義とする名詞案。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+    },
+    {
+      "id": 31946,
+      "root": "alinfevas",
+      "status": "proposal",
+      "approved": false,
+      "usage": "held",
+      "source": {
+        "id": 31946,
+        "nrs": "alinfevas",
+        "pos": "形",
+        "meaningJa": "魂の歓声潮、内省歓喜波、精神潮鳴悦",
+        "meaningEn": "soul resonance joy, reflective bliss surge",
+        "morphemes": [
+          "alin",
+          "fevas"
+        ],
+        "etymology": "alin(白い) + fevas(信じる)",
+        "example_sentence": "Alinfevas el dar to miin.",
+        "example_ja": "この魂の歓声潮道は私たちに光を与えます。",
+        "scenario_id": "CANON-MIND-05"
+      },
+      "issue": "品詞は形容詞だが日英の語義は名詞句で、既存例は光を与えるという動詞の意味を補っている。",
+      "proposal": {
+        "pos": "名",
+        "meaningJa": "魂の歓声潮",
+        "meaningEn": "surge of inner joy",
+        "rationale": "比喩的な感情の高まりを表す名詞案。「嬉しい」一般との違いを用例で示す。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+    },
+    {
+      "id": 31949,
+      "root": "eliralin",
+      "status": "proposal",
+      "approved": false,
+      "usage": "held",
+      "source": {
+        "id": 31949,
+        "nrs": "eliralin",
+        "pos": "形",
+        "meaningJa": "心の安堵感、帰港の至福、憩いの安寧歓",
+        "meaningEn": "tranquil relief, bliss of return, haven joy",
+        "morphemes": [
+          "elir",
+          "alin"
+        ],
+        "etymology": "elir(喜び) + alin(白い)",
+        "example_sentence": "Eliralin el dar to miin.",
+        "example_ja": "この心の安堵感道は私たちに光を与えます。",
+        "scenario_id": "CANON-MIND-06"
+      },
+      "issue": "品詞は形容詞だが日英の語義は名詞句で、既存例は光を与えるという動詞の意味を補っている。",
+      "proposal": {
+        "pos": "名",
+        "meaningJa": "心の安堵感",
+        "meaningEn": "sense of relief",
+        "rationale": "緊張の解消としての安堵を第一義とする名詞案。帰港の比喩は背景用例として区別する。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+    },
+    {
+      "id": 31950,
+      "root": "elircynel",
+      "status": "proposal",
+      "approved": false,
+      "usage": "held",
+      "source": {
+        "id": 31950,
+        "nrs": "elircynel",
+        "pos": "形",
+        "meaningJa": "内省の静規、沈潜規律、精神定住律",
+        "meaningEn": "inner quietude rule, meditative discipline, settled mind law",
+        "morphemes": [
+          "elir",
+          "cynel"
+        ],
+        "etymology": "elir(喜び) + cynel(愛)",
+        "example_sentence": "Elircynel el dar to miin.",
+        "example_ja": "この内省の静規道は私たちに光を与えます。",
+        "scenario_id": "CANON-MIND-06"
+      },
+      "issue": "品詞は形容詞だが日英の語義は名詞句で、既存例は光を与えるという動詞の意味を補っている。",
+      "proposal": {
+        "pos": "名",
+        "meaningJa": "内省の規律",
+        "meaningEn": "discipline of introspection",
+        "rationale": "状態である静けさと実践規範である規律を分け、規律を第一義とする名詞案。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+    },
+    {
+      "id": 31977,
+      "root": "tykfalos",
+      "status": "proposal",
+      "approved": false,
+      "usage": "held",
+      "source": {
+        "id": 31977,
+        "nrs": "tykfalos",
+        "pos": "形",
+        "meaningJa": "風の歌の歓喜、流風共鳴歓声、息吹の歓び",
+        "meaningEn": "breeze chant bliss, resonant wind joy, breath euphoria",
+        "morphemes": [
+          "tyk",
+          "falos"
+        ],
+        "etymology": "tyk(クロック) + falos(分光)",
+        "example_sentence": "Tykfalos el dar to miin.",
+        "example_ja": "この風の歌の歓喜道は私たちに光を与えます。",
+        "scenario_id": "CANON-SOUND-04"
+      },
+      "issue": "品詞は形容詞だが日英の語義は名詞句で、既存例は光を与えるという動詞の意味を補っている。",
+      "proposal": {
+        "pos": "名",
+        "meaningJa": "風の歌の歓喜",
+        "meaningEn": "joy in the song of the wind",
+        "rationale": "風・音に感じる歓喜を表す名詞案。構成語の時計信号・分光からの比喩の由来を別途説明する。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+    },
+    {
+      "id": 32000,
+      "root": "biondaron",
+      "status": "proposal",
+      "approved": false,
+      "usage": "attributive_only",
+      "source": {
+        "id": 32000,
+        "nrs": "biondaron",
+        "pos": "形",
+        "meaningJa": "清浄生薬の、無菌賦活の、純薬効の",
+        "meaningEn": "purely antiseptic, sterile bioactive, cleanly therapeutic",
+        "morphemes": [
+          "bion",
+          "daron"
+        ],
+        "etymology": "bion(飲む) + daron(湖)",
+        "example_sentence": "Biondaron el dar to miin.",
+        "example_ja": "この清浄生薬の道は私たちに光を与えます。",
+        "scenario_id": "CANON-MED-01"
+      },
+      "issue": "既存の直接述語例と「光を与える」という対訳は、現在の修飾語義・項構造から導けない。",
+      "proposal": {
+        "pos": "形",
+        "meaningJa": "清浄生薬に関する",
+        "meaningEn": "relating to clean herbal preparations",
+        "rationale": "「生薬に関する」と「無菌・殺菌性・薬効がある」は同義ではない。修飾対象を定め、医療的効能を推定させない語義へ絞る案。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "名詞を修飾する用法のみ対応しています。述語としての用法と原資料の例文は確認中です。"
+    },
+    {
+      "id": 32006,
+      "root": "neranalin",
+      "status": "proposal",
+      "approved": false,
+      "usage": "attributive_only",
+      "source": {
+        "id": 32006,
+        "nrs": "neranalin",
+        "pos": "形",
+        "meaningJa": "精製生薬の、清澄薬効成分の、高純度エキスの",
+        "meaningEn": "purified pharmaceutical, clarified bioactive, high-purity extract",
+        "morphemes": [
+          "neran",
+          "alin"
+        ],
+        "etymology": "neran(食べる) + alin(白い)",
+        "example_sentence": "Neranalin el dar to miin.",
+        "example_ja": "この精製生薬の道は私たちに光を与えます。",
+        "scenario_id": "CANON-MED-03"
+      },
+      "issue": "既存の直接述語例と「光を与える」という対訳は、現在の修飾語義・項構造から導けない。",
+      "proposal": {
+        "pos": "形",
+        "meaningJa": "精製した生薬成分の",
+        "meaningEn": "of purified herbal ingredients",
+        "rationale": "精製・成分・抽出物の関係を整理する案。「高純度」は程度基準が必要なので自動的に同義としない。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "名詞を修飾する用法のみ対応しています。述語としての用法と原資料の例文は確認中です。"
+    },
+    {
+      "id": 32017,
+      "root": "falosvel",
+      "status": "proposal",
+      "approved": false,
+      "usage": "attributive_only",
+      "source": {
+        "id": 32017,
+        "nrs": "falosvel",
+        "pos": "形",
+        "meaningJa": "精緻切削石工の、整美な切石の、美形組石の",
+        "meaningEn": "finely dressed stonework, polished basalt ashlar",
+        "morphemes": [
+          "falos",
+          "vel"
+        ],
+        "etymology": "falos(分光) + vel(木)",
+        "example_sentence": "Falosvel el dar to miin.",
+        "example_ja": "この精緻切削石工の道は私たちに光を与えます。",
+        "scenario_id": "CANON-SPEC-02"
+      },
+      "issue": "既存の直接述語例と「光を与える」という対訳は、現在の修飾語義・項構造から導けない。",
+      "proposal": {
+        "pos": "形",
+        "meaningJa": "精緻な切石積みの",
+        "meaningEn": "of finely dressed stonework",
+        "rationale": "切石・石積みを第一義とする修飾案。英語のbasaltは日本語に材質指定がないため対応を審査する。"
+      },
+      "acceptance": [
+        "日英の第一義と品詞を対応付け、既存語との意味の差を説明する。",
+        "構成語からの字義と比喩・慣用義を区別し、由来を記録する。",
+        "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
+        "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
+      ],
+      "userNote": "名詞を修飾する用法のみ対応しています。述語としての用法と原資料の例文は確認中です。"
+    }
+  ]
+}

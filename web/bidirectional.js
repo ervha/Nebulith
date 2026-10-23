@@ -405,6 +405,7 @@
     for(const ph of parsed.phrases) {
       if(!ph.words.length)return fail('空の格句があります。');
       for(const word of ph.words)if(!lookupWord(word)&&!['ul','en'].includes(word.toLowerCase()))return fail('未知の引数: '+word);
+      if(ph.words.some(word=>rules.held?.some(row=>row.id===lookupWord(word)?.id)))return fail('引数・修飾語の語義と品詞は再整理待ちです。');
       const first=lookupWord(ph.words[0]);
       const nested=/動/.test(first?.p||first?.pos||'')||['kauo','kate','kaas','kahav','kaku','kazen'].includes(ph.words[0]?.toLowerCase());
       if(nested) {

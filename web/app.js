@@ -266,7 +266,7 @@ function getWordForms(word) {
 
 function getWordCorpusExamples(wordRoot, word) {
   const matches = [];
-  for(const e of TRANSLATION_EXTENSIONS.roadmapProductive?.examples||[])if(e.root===wordRoot)matches.push({neb:e.neb,ja:e.ja,tag:e.tag});
+  for(const e of [...(TRANSLATION_EXTENSIONS.roadmapProductive?.examples||[]),...(TRANSLATION_EXTENSIONS.compoundProductive?.examples||[])])if(e.root===wordRoot)matches.push({neb:e.neb,ja:e.ja,tag:e.tag});
   const regex = new RegExp('\\b' + wordRoot + '\\b', 'i');
   for (const c of (typeof CANON !== 'undefined' ? CANON : [])) {
     if (regex.test(c.neb)) matches.push({ neb: c.neb, ja: c.ja, tag: '正本カノン' });
@@ -279,17 +279,22 @@ function getWordCorpusExamples(wordRoot, word) {
   }
   if (word && word._verifiedCompound) {
     const vc = word._verifiedCompound;
-    matches.push({ neb: vc.example_sentence, ja: vc.example_ja, tag: `正本複合語例文 (${vc.scenario_id})` });
+    matches.push({ neb: vc.example_sentence, ja: vc.example_ja, tag: '原資料の例' });
     if (word._verifiedScenario && Array.isArray(word._verifiedScenario.turns)) {
       for (const t of word._verifiedScenario.turns) {
         if (t.nebulith !== vc.example_sentence && regex.test(t.nebulith)) {
-          matches.push({ neb: t.nebulith, ja: t.japanese, tag: `対話実証 (${t.speaker})` });
+          matches.push({ neb: t.nebulith, ja: t.japanese, tag: `対話文 (${t.speaker})` });
         }
       }
     }
   }
 
-  return matches.slice(0, 4);
+  return matches.slice(0, 4).map(example=>{
+    if(example.tag==='文型整備用例（アプリ用案）')return example;
+    const roots=new Set((example.neb.toLowerCase().match(/[a-z]+/g)||[]));
+    const reviews=(TRANSLATION_EXTENSIONS.usageReviews?.entries||[]).filter(row=>roots.has(row.root));
+    return reviews.length?{...example,reviewNote:'用法確認中：'+reviews.map(row=>row.root).join('・')+'。原資料の文をそのまま表示しています。'}:example;
+  });
 }
 
 window.openWordModal = function(roman) {
@@ -300,15 +305,13 @@ window.openWordModal = function(roman) {
     const comp = (VERIFIED_CANONICAL_COMPOUNDS.entries || []).find(w => w.nrs === roman || w.nrs === cleanRoman);
     if (comp) {
       const scen = (VERIFIED_CANONICAL_COMPOUNDS.scenarios || []).find(s => s.scenario_id === comp.scenario_id);
-      const rootDetails = (comp.constituentEntries || []).map(c => `${c.nrs}(#${c.id}:${c.meaningJa.split('、')[0]})`).join(' + ');
-      const turnSummary = scen ? scen.turns.map(t => `${t.speaker}: ${t.nebulith} (${t.japanese})`).join(' / ') : '';
       word = {
         r: comp.nrs,
         p: comp.pos,
         m: comp.meaningJa,
         en: comp.meaningEn,
         i: '',
-        n: `正本複合語 [${comp.batch} / ${comp.scenario_id}] 語源: ${comp.etymology} (${rootDetails})。実証話者: ${(comp.speakers || []).join(', ')}。対話記録: ${turnSummary}`,
+        n: comp.etymology ? '語源: '+comp.etymology : '',
         _verifiedCompound: comp,
         _verifiedScenario: scen
       };
@@ -344,8 +347,9 @@ window.openWordModal = function(roman) {
   const noteEl = document.getElementById('modalNotes');
   if (noteEl) {
     // Keep usage warnings and definitions; omit internal classification and book-location metadata.
+    const usageReview=TRANSLATION_EXTENSIONS.usageReviews?.entries?.find(e=>e.root===word.r);
     const held=TRANSLATION_EXTENSIONS.roadmapProductive?.held?.find(e=>e.id===(word.id||word._verifiedCompound?.id));
-    const notes=[(word.n||'').replace(/【聖典原典】[^。]*。/g,'').replace(/【[^】]*(?:監査|語根|文明)[^】]*】/g,'').trim(),held?.reason||''].filter(Boolean).join(' ');
+    const notes=[(word.n||'').replace(/【聖典原典】[^。]*。/g,'').replace(/【[^】]*(?:監査|語根|文明)[^】]*】/g,'').trim(),usageReview?.userNote||held?.reason||''].filter(Boolean).join(' ');
     noteEl.textContent=notes;
     document.getElementById('modalNotesField').style.display=notes?'block':'none';
   }
@@ -375,7 +379,8 @@ window.openWordModal = function(roman) {
     const examples = getWordCorpusExamples(word.r, word);
     if (examples.length > 0) {
       exList.innerHTML = examples.map(ex => `
-        <div class="modal-example-card" onclick="loadExampleToTranslator('${escapeHtml(ex.ja)}')">
+        <div class="modal-example-card"${ex.reviewNote?'':` onclick="loadExampleToTranslator('${escapeHtml(ex.ja)}')"`}>
+          ${ex.reviewNote?`<p class="ex-review-note">${escapeHtml(ex.reviewNote)}</p>`:''}
           <div class="ex-neb">${escapeHtml(ex.neb)}</div>
           <div class="ex-ja">${escapeHtml(ex.ja)}${ex.en ? ` <span style="font-size:0.75rem; color:var(--md-sys-color-outline);">(${escapeHtml(ex.en)})</span>` : ''}</div>
           <div class="ex-tag">出典: ${escapeHtml(ex.tag)}</div>

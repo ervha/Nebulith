@@ -52,7 +52,14 @@
           "ku"
         ],
         "recipientAmbiguity": {
-          "roots": ["mi", "ti", "ri", "miin", "tiin", "riin"],
+          "roots": [
+            "mi",
+            "ti",
+            "ri",
+            "miin",
+            "tiin",
+            "riin"
+          ],
           "reason": "取引の相手と譲渡物の区別が未確定です。既存用例と新文型の格対応を審査するまで、自動で確定しません。"
         }
       },
@@ -165,6 +172,22 @@
         }
       },
       "note": "人を見送る語義に限定。提案を見送る意味には対応しない。"
+    }
+  ],
+  "examples": [
+    {
+      "id": "CP-31866-1",
+      "root": "renantal",
+      "ja": "私はあなたに本を譲る。",
+      "neb": "Renantal el mi ia pamel al ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CP-31866-2",
+      "root": "renantal",
+      "ja": "あなたは私に本を譲らなかった。",
+      "neb": "Fe ne renantal el ti ia pamel al mi.",
+      "tag": "文型整備用例（アプリ用案）"
     }
   ]
 }
