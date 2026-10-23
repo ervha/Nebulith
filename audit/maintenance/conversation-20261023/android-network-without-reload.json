@@ -1,0 +1,35 @@
+{
+  "before": {
+    "secure": true,
+    "url": "http://localhost:8879/web/?development=conversation",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36",
+    "controller": "http://localhost:8879/web/service-worker.js",
+    "caches": [
+      "nebulith-studio-c5c8176d7b617e8a1c8c"
+    ],
+    "held": 9,
+    "forms": true,
+    "source": "私は水を飲んでる。",
+    "output": "Di bion el mi ia daris.",
+    "copyDisabled": false,
+    "draft": null,
+    "font": "loaded"
+  },
+  "afterOfflineReload": {
+    "secure": true,
+    "url": "http://localhost:8879/web/?development=conversation",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36",
+    "controller": "http://localhost:8879/web/service-worker.js",
+    "caches": [
+      "nebulith-studio-c5c8176d7b617e8a1c8c"
+    ],
+    "held": 9,
+    "forms": true,
+    "source": "私は水を飲んでる。",
+    "output": "Di bion el mi ia daris.",
+    "copyDisabled": false,
+    "draft": null,
+    "font": "loaded"
+  },
+  "offlineMechanism": "Chrome DevTools Network.emulateNetworkConditions, offline=true; UI driven through agent-device"
+}

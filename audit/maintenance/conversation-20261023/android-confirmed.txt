@@ -1,0 +1,23 @@
+Page: com.android.chrome
+App: com.android.chrome
+Snapshot: 19 visible nodes (41 total)
+Collapsed 22 Android helper nodes from the agent-facing text snapshot; use --raw or --json for the full hierarchy.
+@e1 [webview] "Nebulith Studio, Nebulith Project • Language Version 23.5 • TrueType Font Version 2.5 • Standalone PWA, 訳文・解析結果, 確定訳, Di bion el mi ia daris., 進行相（口語）のモダリティ表現を適用。Nebulithの格・項構造を検証。 / 追加文型案（未監査）を使用, Nebulithの文法を検証した完成訳です。, 原文とNebulithの語句対応, 語順が変わるため、対応する語句を並べて表示します。活用・文法標識は複数語に対応することがあります。, 私, 確定訳・主体, は, 確定訳・格標識, 水, 確定訳・対象・補語, を, 飲んでる, di bion, 確定訳・述語" [focused]
+@e3 [button] "未対応キュー"
+@e4 [button] "ライトテーマに切り替え"
+@e5 [group] "tab-translator"
+@e6 [text-field] "私は水を飲んでる。" [editable]
+@e8 [button] "完成訳をコピー"
+@e13 [group] "transAlignmentBox"
+@e17 [button] "mi"
+@e20 [button] "el"
+@e23 [button] "daris"
+@e26 [button] "ia"
+@e31 [group] "対応する動詞・表現の範囲"
+@e34 [button] "Open the home page"
+@e35 [group] "Your connection to this site is not secure"
+@e37 [group]
+@e38 [text-field] "localhost:8879/web/?development=conversation" [selected] [editable]
+@e39 [button] "Ask Gemini"
+@e40 [button] "See 4 tabs"
+@e41 [button] "Customize and control Google Chrome"

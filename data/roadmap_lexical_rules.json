@@ -775,27 +775,6 @@
       "kind": "na",
       "predicative": true,
       "note": "原義に限定した修飾用法。叙述も対応。"
-    },
-    {
-      "id": 32000,
-      "lemma": "清浄生薬の",
-      "kind": "no",
-      "predicative": false,
-      "note": "原義に限定した修飾用法。「の」修飾のみ対応。叙述は未確定のため保留。"
-    },
-    {
-      "id": 32006,
-      "lemma": "精製生薬の",
-      "kind": "no",
-      "predicative": false,
-      "note": "原義に限定した修飾用法。「の」修飾のみ対応。叙述は未確定のため保留。"
-    },
-    {
-      "id": 32017,
-      "lemma": "精緻切削石工の",
-      "kind": "no",
-      "predicative": false,
-      "note": "原義に限定した修飾用法。「の」修飾のみ対応。叙述は未確定のため保留。"
     }
   ],
   "held": [
@@ -822,6 +801,18 @@
     {
       "id": 31977,
       "reason": "品詞は形容詞だが、日本語・英語の定義が名詞的。形容詞への読み替えを行わず、語義・品詞の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 32000,
+      "reason": "飲む＋湖から清浄生薬・無菌・薬効は導けない。関係形容詞に限定しても根拠不足が残る。 語義・構成語の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 32006,
+      "reason": "食べる＋白いから精製・生薬・高純度は導けない。修飾だけの使用も一旦停止する。 語義・構成語の再整理まで生産的変換を保留。"
+    },
+    {
+      "id": 32017,
+      "reason": "分光＋木から切石積み・石工・玄武岩は導けない。材質の訳語修正だけでは不足する。 語義・構成語の再整理まで生産的変換を保留。"
     }
   ],
   "examples": [
@@ -1904,25 +1895,106 @@
       "tag": "文型整備用例（アプリ用案）"
     },
     {
-      "id": "RD-32000-154",
-      "root": "biondaron",
-      "ja": "私は清浄生薬の水を観測する。",
-      "neb": "Vyrel el mi ia daris biondaron.",
+      "id": "CV-01",
+      "root": "bion",
+      "ja": "私は水を飲んでる。",
+      "neb": "Di bion el mi ia daris.",
       "tag": "文型整備用例（アプリ用案）"
     },
     {
-      "id": "RD-32006-155",
-      "root": "neranalin",
-      "ja": "私は精製生薬の水を観測する。",
-      "neb": "Vyrel el mi ia daris neranalin.",
+      "id": "CV-02",
+      "root": "bion",
+      "ja": "あなたは水を飲んでた。",
+      "neb": "Fe di bion el ti ia daris.",
       "tag": "文型整備用例（アプリ用案）"
     },
     {
-      "id": "RD-32017-156",
-      "root": "falosvel",
-      "ja": "私は精緻切削石工の石を観測する。",
-      "neb": "Vyrel el mi ia talyr falosvel.",
+      "id": "CV-03",
+      "root": "bion",
+      "ja": "私は水を飲みたくないです。",
+      "neb": "Ne bionast el mi ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-04",
+      "root": "bion",
+      "ja": "あなたは水を飲みたくなかったです。",
+      "neb": "Fe ne bionast el ti ia daris.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-05",
+      "root": "neran",
+      "ja": "私はスープを食べてる。",
+      "neb": "Di neran el mi ia darel.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-06",
+      "root": "neran",
+      "ja": "あなたはスープを食べてた。",
+      "neb": "Fe di neran el ti ia darel.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-07",
+      "root": "poran",
+      "ja": "私は歩いてる。",
+      "neb": "Di poran el mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-08",
+      "root": "poran",
+      "ja": "あなたは歩いてた。",
+      "neb": "Fe di poran el ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-09",
+      "root": "vyrel",
+      "ja": "私は星を観測してる。",
+      "neb": "Di vyrel el mi ia vyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-10",
+      "root": "vyrel",
+      "ja": "あなたは星を観測してた。",
+      "neb": "Fe di vyrel el ti ia vyr.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-11",
+      "root": "renantal",
+      "ja": "私はあなたに本を譲ってる。",
+      "neb": "Di renantal el mi ia pamel al ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-12",
+      "root": "renantal",
+      "ja": "あなたは私に本を譲ってた。",
+      "neb": "Fe di renantal el ti ia pamel al mi.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-13",
+      "root": "renantal",
+      "ja": "私はあなたに本を譲りたくないです。",
+      "neb": "Ne renantalast el mi ia pamel al ti.",
+      "tag": "文型整備用例（アプリ用案）"
+    },
+    {
+      "id": "CV-14",
+      "root": "renantal",
+      "ja": "あなたは私に本を譲りたくなかったです。",
+      "neb": "Fe ne renantalast el ti ia pamel al mi.",
       "tag": "文型整備用例（アプリ用案）"
     }
-  ]
+  ],
+  "comparativePredicateIds": [
+    16
+  ],
+  "comparisonNote": "falunの発光の比較はEXT-16に基づく。poranの量・距離・頻度の比較は未定義。他動詞や起点からの読み替えは行わない。"
 }

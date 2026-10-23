@@ -1,0 +1,130 @@
+{
+  "initial": {
+    "at": "2026-10-23T07:00:36.616Z",
+    "held": 9,
+    "examples": 168,
+    "newForm": true,
+    "pending": {
+      "text": "〔途中案〕 Di bion el mi ia daris.",
+      "disabled": true
+    },
+    "confirmed": {
+      "text": "Di bion el mi ia daris.",
+      "disabled": false
+    },
+    "composing": {
+      "copyDisabled": true,
+      "swapDisabled": true,
+      "notice": "日本語を変換中です。確定後に解析します。"
+    },
+    "compositionEnded": {
+      "text": "〔途中案〕 Fe di bion el ti ia daris.",
+      "disabled": true
+    },
+    "compositionIsSynthetic": true,
+    "heldNote": "語源: bion(飲む) + daron(湖) 構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+    "heldClickCount": 0,
+    "dictionaryExamples": [
+      "私は水を飲んでる。",
+      "あなたは水を飲んでた。",
+      "私は水を飲みたくないです。",
+      "あなたは水を飲みたくなかったです。"
+    ],
+    "request": {
+      "text": "〔要対応〕 el ti ia daris",
+      "disabled": true,
+      "meaning": {
+        "schemaVersion": 1,
+        "kind": "clause",
+        "predicate": {
+          "entryId": 959,
+          "root": "bion",
+          "source": "飲んでください",
+          "prefixes": [],
+          "suffix": "",
+          "passive": false
+        },
+        "arguments": {
+          "el": {
+            "nrs": "ti",
+            "role": "主体",
+            "source": "あなた",
+            "particle": "は",
+            "inferred": false
+          },
+          "ia": {
+            "nrs": "daris",
+            "role": "対象・補語",
+            "source": "水",
+            "particle": "を",
+            "inferred": false
+          }
+        },
+        "tense": "unmarked",
+        "negative": false,
+        "aspect": "unmarked",
+        "question": false,
+        "modalities": [
+          {
+            "kind": "request",
+            "sourceFeature": "依頼",
+            "negated": false,
+            "past": false,
+            "scope": "clause",
+            "realization": "not-defined"
+          }
+        ],
+        "alignment": [
+          {
+            "src": "あなた",
+            "dst": "ti",
+            "role": "主体"
+          },
+          {
+            "src": "は",
+            "dst": "el",
+            "role": "格標識"
+          },
+          {
+            "src": "水",
+            "dst": "daris",
+            "role": "対象・補語"
+          },
+          {
+            "src": "を",
+            "dst": "ia",
+            "role": "格標識"
+          },
+          {
+            "src": "飲んでください",
+            "dst": "bion",
+            "role": "述語"
+          }
+        ]
+      }
+    }
+  },
+  "finalBuild": {
+    "at": "2026-10-23T07:06:17.387Z",
+    "held": 9,
+    "examples": 168,
+    "cacheKeys": [
+      "nebulith-studio-551ecec9581041d1cc63"
+    ],
+    "cachedNewForm": true,
+    "pending": {
+      "text": "〔途中案〕 Moril di bion el mi ia daris.",
+      "disabled": true
+    },
+    "confirmed": {
+      "text": "Moril di bion el mi ia daris.",
+      "disabled": false
+    },
+    "invalidCase": {
+      "text": "〔要対応〕 el mi ia daris va ti",
+      "disabled": true
+    },
+    "sourceVisible": true,
+    "reviewNoteVisible": true
+  }
+}

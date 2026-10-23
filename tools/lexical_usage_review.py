@@ -6,7 +6,7 @@ SOURCE_FIELDS = ('id', 'nrs', 'pos', 'meaningJa', 'meaningEn', 'morphemes',
                  'etymology', 'example_sentence', 'example_ja', 'scenario_id')
 
 
-def validate_usage_reviews(document, compounds):
+def validate_usage_reviews(document, compounds, constituents=None, rules=None):
     if document.get('schemaVersion') != 1:
         raise ValueError('Unsupported lexical usage review schema')
     by_id = {entry['id']: entry for entry in compounds['entries']}
@@ -25,11 +25,33 @@ def validate_usage_reviews(document, compounds):
             raise ValueError(f'Unknown usage boundary: {ident}')
         if not all(row.get(key) for key in ('issue', 'proposal', 'acceptance', 'userNote')):
             raise ValueError(f'Incomplete usage review: {ident}')
+        decision = row.get('decision', {})
+        if (decision.get('outcome') not in ('held-for-reformation', 'app-frame-only')
+                or decision.get('canonicalChange') is not False
+                or decision.get('independentApproval') is not False
+                or not decision.get('reason') or not decision.get('nextAction')):
+            raise ValueError(f'Invalid application decision: {ident}')
+        expected_usage = 'held' if decision['outcome'] == 'held-for-reformation' else 'frame_proposal'
+        if row['usage'] != expected_usage:
+            raise ValueError(f'Decision and usage boundary disagree: {ident}')
+        if constituents is not None:
+            by_root = {entry['nrs']: entry for entry in constituents}
+            fields = ('id', 'nrs', 'pos', 'meaningJa', 'meaningEn')
+            expected = [{key: by_root[m][key] for key in fields} for m in source['morphemes']]
+            if row.get('constituents') != expected:
+                raise ValueError(f'Constituent source changed; re-review required: {ident}')
+    if rules is not None:
+        held = {row['id'] for row in document['entries'] if row['usage'] == 'held'}
+        if held != {row['id'] for row in rules['held']}:
+            raise ValueError('Usage decisions and held translation rules disagree')
+        if held.intersection(row['id'] for row in rules['adjectives']):
+            raise ValueError('Held decisions cannot remain active adjective rules')
     return len(seen)
 
 
 if __name__ == '__main__':
     root = Path(__file__).resolve().parents[1]
     read = lambda name: json.loads((root / 'data' / name).read_text(encoding='utf-8'))
-    count = validate_usage_reviews(read('lexical_usage_reviews.json'), read('verified_canonical_compounds.json'))
-    print(f'{count} source-bound usage proposals validated; no approval granted')
+    count = validate_usage_reviews(read('lexical_usage_reviews.json'), read('verified_canonical_compounds.json'),
+                                  read('lexicon.json')['vocabulary'], read('roadmap_lexical_rules.json'))
+    print(f'{count} source-bound application decisions validated; no approval granted')

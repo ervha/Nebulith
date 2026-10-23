@@ -246,6 +246,7 @@ function getWordPhoneticsGuide(word) {
 }
 
 function getWordSyntaxRole(word) {
+  if(TRANSLATION_EXTENSIONS.roadmapProductive?.held?.some(row=>row.id===(word.id||word._verifiedCompound?.id)))return '用法再設計中（翻訳は保留）';
   const p = word.p || '';
   if (p.includes('動')) return '述語（文頭配置・動作規定）';
   if (p.includes('形')) return '限定修飾（名詞後置）/ 述語';
@@ -289,7 +290,10 @@ function getWordCorpusExamples(wordRoot, word) {
     }
   }
 
-  return matches.slice(0, 4).map(example=>{
+  const displayed=matches.slice(0,4);
+  const sourceExample=matches.find(example=>example.tag==='原資料の例');
+  if(sourceExample&&TRANSLATION_EXTENSIONS.usageReviews?.entries?.some(row=>row.root===wordRoot)&&!displayed.includes(sourceExample))displayed.splice(3,1,sourceExample);
+  return displayed.map(example=>{
     if(example.tag==='文型整備用例（アプリ用案）')return example;
     const roots=new Set((example.neb.toLowerCase().match(/[a-z]+/g)||[]));
     const reviews=(TRANSLATION_EXTENSIONS.usageReviews?.entries||[]).filter(row=>roots.has(row.root));

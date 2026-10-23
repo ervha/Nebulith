@@ -34,9 +34,9 @@ console.log('--- 1. Comparative Clauses (va) ---');
 
 {
   const res = engine.analyze('私はあなたより歩く。');
-  assert.equal(res.complete, true);
-  assert.equal(res.text, 'Poran el mi va ti.');
-  console.log('PASS: 「私はあなたより歩く。」 -> ' + res.text + ' (任意動詞比較構文)');
+  assert.equal(res.complete, false);
+  assert.ok(res.notes.some(note=>note.includes('項構造')));
+  console.log('PASS: 「私はあなたより歩く。」は量・頻度・距離の比較軸が未定義のため保留');
 }
 
 {

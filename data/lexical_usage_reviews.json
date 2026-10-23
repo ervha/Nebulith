@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "Source-bound proposals; not canon amendments or independent approval",
+  "status": "Application decisions with source evidence; no canon amendments or independent approval",
   "entries": [
     {
       "id": 31866,
@@ -36,7 +36,30 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "譲る物と受け手を分ける文型に対応しています。原資料の例文は格の対応を確認中です。"
+      "userNote": "物を譲る用法に対応：譲る物はia、受け手はal。価格や取引相手を表す用法は保留しています。",
+      "constituents": [
+        {
+          "id": 582,
+          "nrs": "renan",
+          "pos": "名/動",
+          "meaningJa": "交易、貿易、物々交換する",
+          "meaningEn": "trade, commerce, barter"
+        },
+        {
+          "id": 277,
+          "nrs": "tal",
+          "pos": "名",
+          "meaningJa": "大地、土壌、足元、地面",
+          "meaningEn": "earth, soil, ground"
+        }
+      ],
+      "decision": {
+        "outcome": "app-frame-only",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "原資料に譲渡の語義があり、対格iaを物・与格alを受け手とする既存の格規則に一致する。交易・価格・公正さはこの文型では表さない。",
+        "nextAction": "物・受け手・否定・過去を変えた期待訳を固定し、旧例は歴史資料として区別する。"
+      }
     },
     {
       "id": 31939,
@@ -72,7 +95,30 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由",
+          "meaningEn": "because, for reason"
+        },
+        {
+          "id": 705,
+          "nrs": "fevas",
+          "pos": "動",
+          "meaningJa": "信じる、信頼する、託す",
+          "meaningEn": "trust, believe, confide"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "理由＋信じるから法悦や至福への意味移行を示す資料がない。名詞への変更だけでは意味の根拠を補えない。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 31940,
@@ -108,7 +154,30 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 957,
+          "nrs": "zen",
+          "pos": "接/副",
+          "meaningJa": "なぜなら、〜ゆえに、理由",
+          "meaningEn": "because, for reason"
+        },
+        {
+          "id": 692,
+          "nrs": "cylas",
+          "pos": "名/形",
+          "meaningJa": "美、崇高、調和美、美しい",
+          "meaningEn": "beauty, sublime, graceful"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "理由＋美は、公理・規律・論理法則のいずれを表すか決められない。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 31946,
@@ -144,7 +213,30 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な",
+          "meaningEn": "white, pure"
+        },
+        {
+          "id": 705,
+          "nrs": "fevas",
+          "pos": "動",
+          "meaningJa": "信じる、信頼する、託す",
+          "meaningEn": "trust, believe, confide"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "白い＋信じるから魂の歓声や感情の高まりへの意味移行を説明する出典がない。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 31949,
@@ -180,7 +272,30 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい",
+          "meaningEn": "joy, delight, gladness"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な",
+          "meaningEn": "white, pure"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "喜び＋白いだけでは、安堵・帰港・休息の区別を説明できない。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 31950,
@@ -216,7 +331,30 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 700,
+          "nrs": "elir",
+          "pos": "名/形",
+          "meaningJa": "喜び、多幸感、嬉しい",
+          "meaningEn": "joy, delight, gladness"
+        },
+        {
+          "id": 695,
+          "nrs": "cynel",
+          "pos": "名/動",
+          "meaningJa": "愛、慈しみ、深い共感、愛する",
+          "meaningEn": "love, affection, cherish"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "喜び＋愛から内省の規律や精神の定住を導く規則・慣用例がない。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 31977,
@@ -252,14 +390,37 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "品詞と意味を確認中です。翻訳への使用は保留しています。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 183,
+          "nrs": "tyk",
+          "pos": "名",
+          "meaningJa": "クロック、時計信号、規則拍",
+          "meaningEn": "clock, timing pulse"
+        },
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯",
+          "meaningEn": "spectrum, spectral band"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "クロック＋分光は風・歌・歓喜の構成要素ではない。名詞案では意味の隔たりを解消しない。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 32000,
       "root": "biondaron",
       "status": "proposal",
       "approved": false,
-      "usage": "attributive_only",
+      "usage": "held",
       "source": {
         "id": 32000,
         "nrs": "biondaron",
@@ -288,14 +449,37 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "名詞を修飾する用法のみ対応しています。述語としての用法と原資料の例文は確認中です。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 959,
+          "nrs": "bion",
+          "pos": "動",
+          "meaningJa": "飲む、喫する、喉を潤す",
+          "meaningEn": "drink, sip"
+        },
+        {
+          "id": 339,
+          "nrs": "daron",
+          "pos": "名",
+          "meaningJa": "湖、湖沼、静水面",
+          "meaningEn": "lake, pond"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "飲む＋湖から清浄生薬・無菌・薬効は導けない。関係形容詞に限定しても根拠不足が残る。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 32006,
       "root": "neranalin",
       "status": "proposal",
       "approved": false,
-      "usage": "attributive_only",
+      "usage": "held",
       "source": {
         "id": 32006,
         "nrs": "neranalin",
@@ -324,14 +508,37 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "名詞を修飾する用法のみ対応しています。述語としての用法と原資料の例文は確認中です。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 972,
+          "nrs": "neran",
+          "pos": "動",
+          "meaningJa": "食べる、食事する、味わう",
+          "meaningEn": "eat, dine, partake"
+        },
+        {
+          "id": 760,
+          "nrs": "alin",
+          "pos": "形",
+          "meaningJa": "白い、純白の、無垢な",
+          "meaningEn": "white, pure"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "食べる＋白いから精製・生薬・高純度は導けない。修飾だけの使用も一旦停止する。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     },
     {
       "id": 32017,
       "root": "falosvel",
       "status": "proposal",
       "approved": false,
-      "usage": "attributive_only",
+      "usage": "held",
       "source": {
         "id": 32017,
         "nrs": "falosvel",
@@ -360,7 +567,30 @@
         "主体・対象・修飾先を変えた正例と、別語義・許容外の用法の負例を対にして審査する。",
         "採用する場合は元の出典IDを保持し、関連するシナリオ・台帳・出版物への影響を確認する。"
       ],
-      "userNote": "名詞を修飾する用法のみ対応しています。述語としての用法と原資料の例文は確認中です。"
+      "userNote": "構成語と意味の対応を再設計中です。翻訳への使用は保留しています。",
+      "constituents": [
+        {
+          "id": 14,
+          "nrs": "falos",
+          "pos": "名",
+          "meaningJa": "分光、光輪スペクトル、帯",
+          "meaningEn": "spectrum, spectral band"
+        },
+        {
+          "id": 391,
+          "nrs": "vel",
+          "pos": "名",
+          "meaningJa": "木、樹木、大樹",
+          "meaningEn": "tree"
+        }
+      ],
+      "decision": {
+        "outcome": "held-for-reformation",
+        "canonicalChange": false,
+        "independentApproval": false,
+        "reason": "分光＋木から切石積み・石工・玄武岩は導けない。材質の訳語修正だけでは不足する。",
+        "nextAction": "意味を担う構成語で再設計するか、意味移行を説明できる独立した用例・規則を用意して再審査する。"
+      }
     }
   ]
 }

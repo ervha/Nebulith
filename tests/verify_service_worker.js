@@ -4,6 +4,9 @@ const scope = 'https://example.test/Nebulith/';
 const stores = new Map(), listeners = {};
 let networkVersion = 'first', online = true, fetches = 0;
 const key = request => new URL(typeof request === 'string' ? request : request.url, scope).href;
+class WorkerRequest extends Request {
+  constructor(url, options) { super(new URL(url, scope), options); }
+}
 const caches = {
   async open(name) {
     if (!stores.has(name)) stores.set(name, new Map());
@@ -20,7 +23,7 @@ const caches = {
 function load(code) {
   vm.runInNewContext(code, {
     self: {registration: {scope}, addEventListener(name, fn) {listeners[name] = fn;}, skipWaiting: async () => {}, clients: {claim: async () => {}}},
-    caches, Response,
+    caches, Response, Request: WorkerRequest,
     fetch: async () => {
       fetches++;
       if (!online) throw Error('offline');

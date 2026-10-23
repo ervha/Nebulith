@@ -19,6 +19,11 @@
       // 進行相
       [te+'いる',['di']],[te+'います',['di']],[te+'いた',['fe','di']],[te+'いました',['fe','di']],
       [te+'いない',['ne','di']],[te+'いません',['ne','di']],[te+'いなかった',['fe','ne','di']],[te+'いませんでした',['fe','ne','di']],
+      // 口語の「い」省略。否定形は完了否定とも読めるため、この追加には含めない。
+      [te+'る',['di'],'','進行相（口語）'],[te+'た',['fe','di'],'','過去の進行相（口語）'],
+      [te+'ます',['di'],'','進行相（口語）'],[te+'ました',['fe','di'],'','過去の進行相（口語）'],
+      // 依頼の意味を認識して保持する。未定義の命令・依頼小詞は生成しない。
+      [te+'ください',[],'','依頼'],
       // 始相。接辞はここでは埋めない。エンジンが言語データの始動相接辞を当て、無いときは未確認候補のままにする。
       [polite+'始める',[],'','始相'],[polite+'始めた',['fe'],'','始相'],[polite+'始めます',[],'','始相'],[polite+'始めました',['fe'],'','始相'],
       // 推量直接活用 (se-)
@@ -32,6 +37,7 @@
       [polite+'たかった',['fe'],'ast','過去の希望'],[polite+'たかったです',['fe'],'ast','過去の希望'],
       [polite+'たくない',['ne'],'ast','希望の否定'],[polite+'たくありません',['ne'],'ast','希望の否定'],
       [polite+'たくなかった',['fe','ne'],'ast','過去の希望の否定'],[polite+'たくありませんでした',['fe','ne'],'ast','過去の希望の否定'],
+      [polite+'たくないです',['ne'],'ast','希望の否定'],[polite+'たくなかったです',['fe','ne'],'ast','過去の希望の否定'],
       // 可能（Potential -ar）
       [potStem+'る',[],'ar','可能'],[potStem+'ます',[],'ar','可能'],
       [potStem+'た',['fe'],'ar','過去の可能'],[potStem+'ました',['fe'],'ar','過去の可能'],
@@ -248,7 +254,8 @@
         if(!index.get(g).some(e=>e.id===ce.id))index.get(g).push(ce);
       }
     }
-    const adjectives = [...vocab.filter(e => e.p.includes('形')).flatMap(e => gloss(e).map(g => [g,e])),...(extensions.roadmapProductive?.adjectives||[]).map(a=>[a.lemma,byId.get(a.id)])];
+    const heldIds = new Set((extensions.roadmapProductive?.held||[]).map(row=>row.id));
+    const adjectives = [...vocab.filter(e => e.p.includes('形')&&!heldIds.has(e.id)).flatMap(e => gloss(e).map(g => [g,e])),...(extensions.roadmapProductive?.adjectives||[]).map(a=>[a.lemma,byId.get(a.id)])];
     const key = s => s.trim().replace(/\s+/g,'').replace(/？/g,'?').replace(/[。.]$/,'');
     let activeNounSenses={},activeNounOptions=new Map();
     const nounFailure=(e,source,notes=[])=>({source,text:'',state:'draft',nounOptions:[e.nounOptions],notes:[...notes,e.message]});
@@ -256,6 +263,7 @@
       if (!text || depth > 2) throw Error('名詞句が未完成、または修飾が複雑です。');
       if (pronouns[text]) return pronouns[text];
       const found = [...new Map([...(index.get(text)||[]), ...(adj ? (index.get(text+'な')||[]) : [])].filter(e=>e.p.includes('名') || adj && e.p.includes('形')).map(e=>[e.id,e])).values()];
+      if(found.some(e=>heldIds.has(e.id)))throw Error('語義・構成語の再整理待ちです。');
       if (found.length === 1) return found[0].r;
       if (found.length > 1) {
         activeNounOptions.set(text,{term:text,options:found.map(e=>({id:e.id,root:e.r,meaning:e.m}))});
@@ -494,10 +502,10 @@
     }
     function meaningOf(form,args,question,feature='') {
       const sources=argSources.get(args)||{};
-      const isRealizedModal = form && (form.suffix==='ar' || form.suffix==='ast' || form.suffix==='far' || form.suffix==='liv' || form.prefixes.includes('se'));
+      const isRealizedModal = form && (form.suffix==='ar' || form.suffix==='ast' || form.suffix==='far' || form.suffix==='liv' || form.prefixes.includes('se') || feature.includes('進行相')&&form.prefixes.includes('di'));
       return {schemaVersion:1,kind:'clause',predicate:form?{entryId:form.id,root:byId.get(form.id).r,source:form.ending,prefixes:[...form.prefixes],suffix:form.suffix||'',passive:!!form.passive}:null,
-        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':form?.prefixes.includes('se')?'future':'unmarked',negative:!!form?.prefixes.includes('ne') && !(feature.includes('否定') && /希望|可能/.test(feature)),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='far'?'perfective':form?.suffix==='liv'?'durative':form?.suffix==='ast'?((feature.includes('希望')||form?.feature?.includes('希望'))&&!feature.includes('始相')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
-        modalities:feature?[{kind:feature.includes('希望')?'desire':feature.includes('推量')?'uncertainty':feature.includes('可能')?'possibility':feature.includes('相')?'aspect':feature.includes('意図')?'intention':feature.includes('必要')?'necessity':'thought',sourceFeature:feature,negated:feature.includes('否定'),past:feature.includes('過去'),scope:'clause',realization:isRealizedModal?'synthesized':'not-defined'}]:[],
+        arguments:Object.fromEntries(Object.entries(args).map(([c,nrs])=>[c,{nrs,role:roles[c],source:sources[c]?.text||'',particle:sources[c]?.particle||'',inferred:!!sources[c]?.inferred}])),        tense:form?.prefixes.includes('fe')?'past':'unmarked',negative:!!form?.prefixes.includes('ne') && !(feature.includes('否定') && /希望|可能/.test(feature)),aspect:form?.prefixes.includes('di')?'progressive':form?.suffix==='far'?'perfective':form?.suffix==='liv'?'durative':form?.suffix==='ast'?((feature.includes('希望')||form?.feature?.includes('希望'))&&!feature.includes('始相')?'desiderative':'inceptive'):form?.suffix==='ar'?'potential':form?.suffix==='cor'?'iterative':'unmarked',question:!!question,
+        modalities:feature?[{kind:feature.includes('希望')?'desire':feature.includes('推量')?'uncertainty':feature.includes('可能')?'possibility':feature.includes('相')?'aspect':feature.includes('依頼')?'request':feature.includes('意図')?'intention':feature.includes('必要')?'necessity':'thought',sourceFeature:feature,negated:feature.includes('否定'),past:feature.includes('過去'),scope:'clause',realization:isRealizedModal?'synthesized':'not-defined'}]:[],
         alignment:form?outputAlignment(form,args,question):argumentRows(args)};
     }
     function realize(meaning) {
@@ -505,9 +513,10 @@
       if(meaning.modalities.some(m => m.realization === 'not-defined'))throw Error('ニュアンスの出力規則が未定義です。');
       const p=meaning.predicate,frame=frames[p.entryId];if(!frame)throw Error('動詞の項構造が未対応です。');
       const allowed=p.passive?frame.passiveAllowed||[]:frame.allowed;
-      const isComparative = !!meaning.arguments.va;
-      if(!frame.required.every(c=>meaning.arguments[c])||Object.keys(meaning.arguments).some(c=>!allowed.includes(c) && !(c==='va' && isComparative)))throw Error('主語・補語の不足、または動詞の項構造に合わない格があります。');
-      if(frame.recipientAmbiguity&&!meaning.arguments.al&&frame.recipientAmbiguity.roots.includes(meaning.arguments.ia?.nrs))throw Error(frame.recipientAmbiguity.reason);
+      const adjectiveComparison = p.entryId===906 && ['より','よりも'].includes(meaning.arguments.va?.particle)&&[...byId.values()].some(e=>e.r===meaning.arguments.ia?.nrs&&e.p.includes('形')&&!heldIds.has(e.id));
+      const verbComparison = (extensions.roadmapProductive?.comparativePredicateIds||[]).includes(p.entryId)&&['より','よりも'].includes(meaning.arguments.va?.particle);
+      if(!frame.required.every(c=>meaning.arguments[c])||Object.keys(meaning.arguments).some(c=>!allowed.includes(c) && !(c==='va' && (adjectiveComparison||verbComparison))))throw Error('主語・補語の不足、または動詞の項構造に合わない格があります。');
+      if(frame.recipientAmbiguity&&meaning.arguments.ia?.nrs.split(/\s+ul\s+/).some(group=>frame.recipientAmbiguity.roots.includes(group.split(' ')[0])))throw Error(frame.recipientAmbiguity.reason);
       for(const [role,rule] of Object.entries(frame.literalArguments||{})) {
         const argument=meaning.arguments[role];
         if(argument&&!argument.nrs.split(/\s+ul\s+/).every(group=>rule.roots.includes(group.split(' ')[0])))throw Error(rule.reason);
@@ -743,6 +752,13 @@
         }
       }
 
+      function withModalAdverb(result) {
+        if(!matchedAdverb)return result;
+        const text=matchedAdverb.neb[0].toUpperCase()+matchedAdverb.neb.slice(1)+' '+result.text.replace(/^./,c=>c.toLowerCase());
+        return {...result,text,candidate:text,meaning:{...result.meaning,adverb:matchedAdverb},
+          alignment:[{src:matchedAdverb.ja,dst:matchedAdverb.neb,role:matchedAdverb.role},...(result.alignment||[])]};
+      }
+
       let moshi = false;
       if (/^もし[\s\u3000]*/.test(cleanSource)) {
         cleanSource = cleanSource.replace(/^もし[\s\u3000]*/, '');
@@ -750,6 +766,7 @@
       }
       const compound=cleanSource.match(/^(.+?)(ならば|なら|ので|から|だから|けれども|けれど|ときに|とき|時に|時|たら|だら|ば|ても|でも)(?:[、,]|\s+)(.+)$/);
       if(compound){
+        if(matchedAdverb)return {source,text:'',state:'blocked',notes:['副詞がどの節にかかるか未確定です。意味を省略せず、一節ずつ入力してください。']};
         if((cleanSource.match(/(?:ならば|なら|ので|から|だから|けれども|けれど|ときに|とき|時に|時|たら|だら|ば|ても|でも)[、,]/g)||[]).length>1)return {source,text:'',state:'blocked',notes:['接続する節の範囲が複数あります。入れ子を推測せず、一節ずつ確認してください。']};
         if(depth>=2)return {source,text:'',state:'blocked',notes:['節の入れ子が深すぎます。一文を分けてください。']};
         const relation={
@@ -851,7 +868,7 @@
       if(alias?.feature)feature=[feature,alias.feature].filter(Boolean).join('・');
       if(form?.feature)feature=[feature,form.feature].filter(Boolean).join('・');
       if(feature && !['行為','指針'].includes(feature)) {
-        const isSupportedModal = ['希望','可能','推量','完了相','継続相','始相'].some(m => feature.includes(m));
+        const isSupportedModal = ['希望','可能','推量','完了相','継続相','始相','進行相'].some(m => feature.includes(m));
         if(!isSupportedModal) notes.push(feature+'の表現は未対応。意味を省略せず保持します。');
       }
       if(verbGroup && verbChoiceMap[verbGroup] && choices.verb) {
@@ -914,7 +931,7 @@
           const words = [...form.prefixes, (form.passive ? 're' : '') + byId.get(form.id).r + (form.suffix || '')];
           for(const c of caseOrder) if(args[c]) words.push(c, args[c]);
           const candidate = words[0][0].toUpperCase() + words[0].slice(1) + (words.length > 1 ? ' ' + words.slice(1).join(' ') : '') + '.';
-          return {
+          return withModalAdverb({
             source,
             text: candidate,
             state: choices.confirmed ? 'complete' : 'candidate',
@@ -923,7 +940,7 @@
             senseOptions,
             alignment: meaning.alignment,
             notes: [...notes, (feature==='行為'?'行為の叙述':'指針') + 'として変換。Nebulithの格・項構造を検証。', ...extensionNotes(form)]
-          };
+          });
         } catch(e) {
           return {source, text: fragments, state: 'blocked', notes: [...notes, e.message]};
         }
@@ -963,7 +980,7 @@
         try {
           const updatedMeaning = meaningOf({...form, ending}, args, question, feature);
           const candidate = realize(updatedMeaning);
-          return {
+          return withModalAdverb({
             source,
             text: candidate,
             state: choices.confirmed ? 'complete' : 'candidate',
@@ -973,17 +990,17 @@
             verbOptions,
             alignment: updatedMeaning.alignment,
             notes: [...notes, ...aspectNotes, '始相の接辞「'+form.suffix+'」を言語データから適用。確認後に確定します。']
-          };
+          });
         } catch(e) {
           return {source, text:fragments, state:'blocked', notes:[...notes, ...aspectNotes, e.message]};
         }
       }
-      const isModal = ['希望','可能','推量','完了相','継続相'].some(m => feature.includes(m));
+      const isModal = ['希望','可能','推量','完了相','継続相','進行相'].some(m => feature.includes(m));
       if(isModal && form) {
         try {
           const updatedMeaning = meaningOf(form ? {...form, ending} : null, args, question, feature);
           const candidate = realize(updatedMeaning);
-          return {
+          return withModalAdverb({
             source,
             text: candidate,
             state: choices.confirmed ? 'complete' : 'candidate',
@@ -993,7 +1010,7 @@
             verbOptions,
             alignment: updatedMeaning.alignment,
             notes: [...notes, feature + 'のモダリティ表現を適用。Nebulithの格・項構造を検証。', ...extensionNotes(form)]
-          };
+          });
         } catch(e) {
           return {source, text: fragments, state: 'blocked', notes: [...notes, e.message]};
         }

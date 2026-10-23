@@ -15,13 +15,36 @@ class LexicalUsageReviewChecks(unittest.TestCase):
         self.reviews = read('lexical_usage_reviews.json')
         self.compounds = read('verified_canonical_compounds.json')
         self.rules = read('roadmap_lexical_rules.json')
+        self.constituents = read('lexicon.json')['vocabulary']
 
     def test_source_and_usage_boundaries(self):
-        self.assertEqual(10, validate_usage_reviews(self.reviews, self.compounds))
+        self.assertEqual(10, validate_usage_reviews(self.reviews, self.compounds, self.constituents, self.rules))
         grouped = lambda usage: {row['id'] for row in self.reviews['entries'] if row['usage'] == usage}
         self.assertEqual({r['id'] for r in self.rules['held']}, grouped('held'))
         self.assertEqual({r['id'] for r in self.rules['adjectives'] if not r['predicative']}, grouped('attributive_only'))
         self.assertEqual({31866}, grouped('frame_proposal'))
+
+    def test_constituent_meaning_drift_requires_review(self):
+        for field in ('pos', 'meaningJa', 'meaningEn'):
+            with self.subTest(field=field):
+                changed = copy.deepcopy(self.constituents)
+                next(row for row in changed if row['nrs'] == 'bion')[field] = 'changed'
+                with self.assertRaisesRegex(ValueError, 'Constituent source changed'):
+                    validate_usage_reviews(self.reviews, self.compounds, changed, self.rules)
+
+    def test_decision_does_not_allow_unsupported_activation(self):
+        rules = copy.deepcopy(self.rules)
+        rules['held'] = [row for row in rules['held'] if row['id'] != 32000]
+        with self.assertRaisesRegex(ValueError, 'held translation rules disagree'):
+            validate_usage_reviews(self.reviews, self.compounds, self.constituents, rules)
+        decisions = copy.deepcopy(self.reviews)
+        next(row for row in decisions['entries'] if row['id'] == 32000)['usage'] = 'attributive_only'
+        with self.assertRaisesRegex(ValueError, 'Decision and usage boundary disagree'):
+            validate_usage_reviews(decisions, self.compounds)
+        decisions = copy.deepcopy(self.reviews)
+        decisions['entries'][0]['decision']['independentApproval'] = True
+        with self.assertRaisesRegex(ValueError, 'Invalid application decision'):
+            validate_usage_reviews(decisions, self.compounds)
 
     def test_changed_source_requires_review(self):
         for field in ('pos', 'meaningJa', 'meaningEn', 'example_sentence', 'example_ja', 'morphemes'):

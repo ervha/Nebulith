@@ -22,7 +22,7 @@ for(const row of lexical.adjectives)for(const fixture of row.examples){
   const r=analyze(fixture.source,{confirmed:true});assert.equal(r.complete,true,fixture.source+JSON.stringify(r));assert.equal(r.text,fixture.target);goldens++;
 }
 const rules=JSON.parse(fs.readFileSync('data/roadmap_lexical_rules.json','utf8'));
-assert.equal(rules.verbs.length,43);assert.equal(rules.adjectives.length,8);assert.equal(rules.held.length,6);
+assert.equal(rules.verbs.length,43);assert.equal(rules.adjectives.length,5);assert.equal(rules.held.length,9);
 assert.equal(run('inputEngine.coverage().unsupportedVerbs.length'),0);
 const noun=analyze('私は包帯を観測する。');assert.equal(noun.complete,false);const group=noun.segments[0].nounOptions[0];assert.equal(group.term,'包帯');assert.equal(group.options.length,2);
 for(const choice of group.options){
@@ -127,16 +127,20 @@ for(const held of rules.held){
   assert.ok(dom.modalExamplesList.innerHTML.includes('用法確認中'));
   assert.ok(!dom.modalExamplesList.innerHTML.includes('loadExampleToTranslator'));
 }
-for(const source of ['Vyrel el mi ia vyr faluni.','Vyrel el mi ia daris biondaron.']){
+for(const source of ['Vyrel el mi ia vyr faluni.','Vyrel el mi ia doran bionvyri.']){
   assert.equal(ctx.NebulithBidirectionalEngine.translateNebulith(source,'ja').success,true,source);
 }
 run("window.openWordModal('renantal')");
-assert.ok(dom.modalNotes.textContent.includes('譲る物と受け手'));
+assert.ok(dom.modalNotes.textContent.includes('譲る物はia、受け手はal'));
 assert.ok(dom.modalExamplesList.innerHTML.includes('Renantal el mi ia ti.'));
 assert.ok(dom.modalExamplesList.innerHTML.includes('用法確認中'));
 assert.ok(dom.modalExamplesList.innerHTML.includes('文型整備用例（アプリ用案）'));
 assert.equal(run('TRANSLATION_EXTENSIONS.usageReviews.entries.length'),10);
-console.log('PASS: 48 held argument/modifier rejections, six held source displays, valid modifier controls and renantal source/proposal distinction.');
-const report={lexicalGoldenSentences:goldens,additionalVerbRoots:43,verbArgumentRejections:43,verbPastReverseWitnesses:43,adjectiveRules:8,heldAdjectives:6,attributiveOnly:3,reverseRejectedCases:invalid.length*2,reverseMorphologyGoldens:morphology.length,recipientAmbiguityRejected:true,nounChoices:group.options.length,contextRequiresConfirmation:true,fragmentSourceReconstruction:true};
+for(const row of lexical.withdrawnAdjectives)for(const fixture of row.examples){
+  assert.equal(analyze(fixture.source,{confirmed:true}).complete,false,fixture.source);
+  for(const lang of ['ja','en'])assert.equal(ctx.NebulithBidirectionalEngine.translateNebulith(fixture.target,lang).success,false,fixture.target);
+}
+console.log(`PASS: ${heldArgumentCases} held argument/modifier rejections, nine held source displays, withdrawn modifiers rejected in both directions.`);
+const report={lexicalGoldenSentences:goldens,additionalVerbRoots:43,verbArgumentRejections:43,verbPastReverseWitnesses:43,adjectiveRules:5,heldAdjectives:9,attributiveOnly:0,reverseRejectedCases:invalid.length*2,reverseMorphologyGoldens:morphology.length,recipientAmbiguityRejected:true,nounChoices:group.options.length,contextRequiresConfirmation:true,fragmentSourceReconstruction:true};
 if(process.argv[2])fs.writeFileSync(process.argv[2],JSON.stringify(report,null,2)+'\n');
 console.log('PASS: roadmap v4 '+JSON.stringify(report));
