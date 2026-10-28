@@ -14,6 +14,8 @@
 }(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
 
+  // Language specification section 6.2: an/en or final vowel alternates with -ol.
+  function aspectWord(root,suffix) {return suffix==='ol'?root.replace(/(?:an|en|[aeiouy])$/,'')+'ol':root+suffix;}
   // Standard case markers
   const CASE_MARKERS = {
     el: { roleJa: '主格 (は・が)', roleEn: 'Subject', prepEn: '' },
@@ -36,7 +38,7 @@
   };
 
   const ASPECT_SUFFIXES = [
-    { suffix: 'far', ja: '〜し終えた (完了)', en: 'have ...-en / finished' },
+    { suffix: 'ol', ja: '〜し終える (完了相)', en: 'finish ...-ing' },
     { suffix: 'liv', ja: '〜し続けている (継続維持)', en: 'keep ...-ing' },
     { suffix: 'ast', ja: '〜したい (希望)', en: 'want to ...' },
     { suffix: 'ar', ja: '〜できる (可能)', en: 'can ...' },
@@ -82,7 +84,7 @@
     else if(progress){aux=be;main=englishForm(base,'ing');verb=be+(neg?' not ':' ')+main;}
     else {
       if(aspect==='ast')verb='want to '+base;
-      if(aspect==='far')verb='finish '+englishForm(base,'ing');
+      if(aspect==='ol')verb='finish '+englishForm(base,'ing');
       if(aspect==='liv')verb='keep '+englishForm(base,'ing');
       main=verb;
       verb=neg?(past?'did not ':'do'+(third?'es':'')+' not ')+verb:past?englishForm(verb,'past'):third?englishForm(verb,'third'):verb;
@@ -147,6 +149,12 @@
     if (vocab.has(clean)) return vocab.get(clean);
     if (!vocab.size && BUILTIN_VOCAB[clean]) return { r: clean,p:['cylani','surani','valani'].includes(clean)?'形':['cynel','poran','falun','vyrel','seron'].includes(clean)?'動':'名', ...BUILTIN_VOCAB[clean] };
 
+    // Inverse alternation is resolved against actual verb entries, never by guessing a stem.
+    if(clean.endsWith('ol')) {
+      const candidates=[...vocab.values()].filter(e=>String(e.p||e.pos||'').includes('動')&&aspectWord(e.r||e.nrs,'ol')===clean);
+      if(candidates.length!==1)return null;
+      return {...candidates[0],strippedSuffix:ASPECT_SUFFIXES.find(a=>a.suffix==='ol')};
+    }
     // Try stripping suffixes
     for (const asp of ASPECT_SUFFIXES) {
       if (clean.length > asp.suffix.length + 3 && clean.endsWith(asp.suffix)) {
@@ -432,7 +440,7 @@
       if (!isJa) {
         if (parsed.aspectSuffix.suffix === 'ast') vEn = `want to ${vEn}`;
         else if (parsed.aspectSuffix.suffix === 'ar') vEn = `can ${vEn}`;
-        else if (parsed.aspectSuffix.suffix === 'far') vEn = `have finished ${vEn}-ing`;
+        else if (parsed.aspectSuffix.suffix === 'ol') vEn = `have finished ${vEn}-ing`;
         else if (parsed.aspectSuffix.suffix === 'liv') vEn = `keep ${vEn}-ing`;
       }
     }
@@ -1033,9 +1041,10 @@
 
     if (auxiliary && verbs[verb].startsWith('fe ')) return fail();
     const modalPast = aspectModal === 'wanted to' || aspectModal === 'could' || aspectModal === 'finished' || aspectModal === 'kept';
-    const aspectSuf = !aspectModal ? '' : (aspectModal.startsWith('want') ? 'ast' : (aspectModal === 'can' || aspectModal === 'could' ? 'ar' : (aspectModal.startsWith('finish') ? 'far' : 'liv')));
+    const aspectSuf = !aspectModal ? '' : (aspectModal.startsWith('want') ? 'ast' : (aspectModal === 'can' || aspectModal === 'could' ? 'ar' : (aspectModal.startsWith('finish') ? 'ol' : 'liv')));
     const past = verbs[verb].startsWith('fe ') || (auxiliary && auxiliary.startsWith('did')) || modalPast;
-    const baseVerb = verbs[verb].replace(/^fe /, '') + aspectSuf;
+    const baseVerb = aspectWord(verbs[verb].replace(/^fe /, ''),aspectSuf);
+    if(aspectSuf==='ol'&&lookupWord(baseVerb)?.r!==verbs[verb].replace(/^fe /,''))return fail('完了形から語幹を一意に復元できません。');
     const predicate = (past ? 'fe ' : '') + (auxiliary ? 'ne ' : '') + baseVerb;
     const rules=translationRules(),verbId=lookupWord(verbs[verb].replace(/^fe /,''))?.id;
     if(prepPhrases.some(pp=>pp.prep==='from'&&!rules.frames?.[verbId]?.allowed.includes('va')||
@@ -1120,10 +1129,10 @@
       [potStem + 'た', ['fe'], 'ar', '過去の可能'],
       [potStem + 'ない', ['ne'], 'ar', '可能の否定'],
       [potStem + 'なかった', ['fe', 'ne'], 'ar', '過去の可能の否定'],
-      [polite + '終える', [], 'far', '完了相'],
-      [polite + '終えた', ['fe'], 'far', '過去の完了相'],
-      [polite + '終えない', ['ne'], 'far', '完了相の否定'],
-      [polite + '終えなかった', ['fe', 'ne'], 'far', '過去の完了相の否定'],
+      [polite + '終える', [], 'ol', '完了相'],
+      [polite + '終えた', ['fe'], 'ol', '過去の完了相'],
+      [polite + '終えない', ['ne'], 'ol', '完了相の否定'],
+      [polite + '終えなかった', ['fe', 'ne'], 'ol', '過去の完了相の否定'],
       [polite + '続ける', [], 'liv', '継続相'],
       [polite + '続けた', ['fe'], 'liv', '過去の継続相'],
       [polite + '続けない', ['ne'], 'liv', '継続相の否定'],
@@ -1156,7 +1165,7 @@
   }
 
   function conjugateJapaneseVerb(meaning, parsed, configuredKind) {
-    const suffix = parsed.aspectSuffix && ['ast', 'ar', 'far', 'liv'].includes(parsed.aspectSuffix.suffix) ? parsed.aspectSuffix.suffix : '';
+    const suffix = parsed.aspectSuffix && ['ast', 'ar', 'ol', 'liv'].includes(parsed.aspectSuffix.suffix) ? parsed.aspectSuffix.suffix : '';
     const prefixes = [];
     prefixes.push(...parsed.prefixes.filter(p=>['fe','ne','di'].includes(p)));
     if (!suffix && !prefixes.length) return null;

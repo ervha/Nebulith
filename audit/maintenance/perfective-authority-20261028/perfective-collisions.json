@@ -1,0 +1,92 @@
+{
+  "scope": "VOCAB verb entries; mechanical surface audit, not semantic approval",
+  "verbs": 230,
+  "collisions": [
+    {
+      "surface": "zyvelol",
+      "entries": [
+        {
+          "id": 267,
+          "root": "zyvel"
+        },
+        {
+          "id": 268,
+          "root": "zyvelan"
+        }
+      ]
+    },
+    {
+      "surface": "dolarol",
+      "entries": [
+        {
+          "id": 481,
+          "root": "dolar"
+        },
+        {
+          "id": 542,
+          "root": "dolaran"
+        }
+      ]
+    },
+    {
+      "surface": "kirasol",
+      "entries": [
+        {
+          "id": 558,
+          "root": "kirasen"
+        },
+        {
+          "id": 875,
+          "root": "kiras"
+        }
+      ]
+    },
+    {
+      "surface": "morkol",
+      "entries": [
+        {
+          "id": 30046,
+          "root": "morkan"
+        },
+        {
+          "id": 30378,
+          "root": "morken"
+        }
+      ]
+    }
+  ],
+  "shadows": [
+    {
+      "surface": "velsol",
+      "entries": [
+        {
+          "id": 30009,
+          "root": "velsen"
+        }
+      ],
+      "lexical": [
+        {
+          "id": 413,
+          "root": "velsol",
+          "pos": "名"
+        }
+      ]
+    },
+    {
+      "surface": "dursol",
+      "entries": [
+        {
+          "id": 30024,
+          "root": "dursen"
+        }
+      ],
+      "lexical": [
+        {
+          "id": 611,
+          "root": "dursol",
+          "pos": "名"
+        }
+      ]
+    }
+  ]
+}

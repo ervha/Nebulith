@@ -259,31 +259,31 @@
       "id": "USE-25",
       "title": "完了相（基本形）",
       "japanese": "私は歩き終える。",
-      "nebulith": "Poranfar el mi.",
+      "nebulith": "Porol el mi.",
       "english": "I finish walking.",
       "choices": {
         "confirmed": true
       },
       "state": "complete",
-      "note": "完了相接尾辞 -far による動作の終了・完了。"
+      "note": "完了相接尾辞 -ol による動作の終了・完了。"
     },
     {
       "id": "USE-26",
       "title": "完了相（過去形）",
       "japanese": "私は歩き終えた。",
-      "nebulith": "Fe poranfar el mi.",
+      "nebulith": "Fe porol el mi.",
       "english": "I finished walking.",
       "choices": {
         "confirmed": true
       },
       "state": "complete",
-      "note": "過去接頭辞 fe- と完了相 -far の共起表現。"
+      "note": "過去接頭辞 fe- と完了相 -ol の共起表現。"
     },
     {
       "id": "USE-27",
       "title": "完了相（自然現象）",
       "japanese": "星は輝き終えた。",
-      "nebulith": "Fe falunfar el vyr.",
+      "nebulith": "Fe falunol el vyr.",
       "english": "The star finished shining.",
       "choices": {
         "confirmed": true
@@ -295,13 +295,13 @@
       "id": "USE-28",
       "title": "完了相（否定）",
       "japanese": "私は歩き終えない。",
-      "nebulith": "Ne poranfar el mi.",
+      "nebulith": "Ne porol el mi.",
       "english": "I do not finish walking.",
       "choices": {
         "confirmed": true
       },
       "state": "complete",
-      "note": "否定接頭辞 ne- と完了相 -far の共起。"
+      "note": "否定接頭辞 ne- と完了相 -ol の共起。"
     },
     {
       "id": "USE-29",
