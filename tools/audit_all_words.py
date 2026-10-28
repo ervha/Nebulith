@@ -201,7 +201,7 @@ def run_comprehensive_reaudit():
     advs = [w for w in active_lexicon if "副" in w.get("pos", "")]
 
     print(f"  Part-of-Speech Coverage:")
-    print(f"   - Verbs (動詞)     : {len(verbs)} words (Supports -far, -liv, -ast, -ar, fe-, di-, se-, ne-)")
+    print(f"   - Verbs (動詞)     : {len(verbs)} words (Web supports unambiguous -ol, -liv, -ast, -ar, fe-, di-, se-, ne-)")
     print(f"   - Nouns (名詞)     : {len(nouns)} words (Supports -iin plural, en, de, uo, va, to, al case markers)")
     print(f"   - Adjectives (形容詞): {len(adjs)} words (Supports cel- superlative, -as nominal, -in adverbial)")
     print(f"   - Adverbs (副詞)    : {len(advs)} words (Temporal, degree, manner modifiers)")

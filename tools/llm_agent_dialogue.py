@@ -59,7 +59,7 @@ NEBULITH_SYSTEM_PROMPT = """You are a specialized linguistic dialogue generator 
    - se- (Inferential / Future: 'se falun el vyr' = The star will shine)
    - ne- (Negation: 'ne cynel el mi ia ti' = I do not like you)
 3. Aspect Suffixes:
-   - -far (Completed: poranfar = finished walking)
+   - -ol (Perfective: poran -> porol = finish walking; fe porol = finished walking. Replace final an/en or final vowel with ol; otherwise append ol. Do not guess when roots collapse to the same form.)
    - -liv (Continuative: falunliv = keep shining)
    - -ast (Desiderative: bionast = want to eat)
    - -ar  (Potential: vyrelar = can observe)

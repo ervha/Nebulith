@@ -74,33 +74,33 @@ const engine = vm.runInContext('createIncrementalTranslator(VOCAB, GRAMMAR_FRAME
 
 console.log('=== Verifying Milestone 5 / Sprint 5: Derivations, Aspects & Expanded Civilization Lexicon ===\n');
 
-// 1. 局面相（Aspects: -far 完了相, -liv 継続相）
-console.log('--- 1. Aspect Engine (-far / -liv) ---');
+// 1. 局面相（Aspects: -ol 完了相, -liv 継続相）
+console.log('--- 1. Aspect Engine (-ol / -liv) ---');
 {
   // (a) 完了相（現在・基本形）
   const res = engine.analyze('私は歩き終える。', { confirmed: true });
   assert.equal(res.complete, true);
-  assert.equal(res.text, 'Poranfar el mi.');
-  assert.equal(res.segments[0].meaning.predicate.suffix, 'far');
+  assert.equal(res.text, 'Porol el mi.');
+  assert.equal(res.segments[0].meaning.predicate.suffix, 'ol');
   assert.equal(res.segments[0].meaning.aspect, 'perfective');
-  console.log('PASS: 「私は歩き終える。」 -> ' + res.text + ' (suffix: -far, aspect: perfective)');
+  console.log('PASS: 「私は歩き終える。」 -> ' + res.text + ' (suffix: -ol, aspect: perfective)');
 }
 
 {
-  // (b) 完了相（過去形 fe- ... -far）
+  // (b) 完了相（過去形 fe- ... -ol）
   const res = engine.analyze('私は歩き終えた。', { confirmed: true });
   assert.equal(res.complete, true);
-  assert.equal(res.text, 'Fe poranfar el mi.');
+  assert.equal(res.text, 'Fe porol el mi.');
   assert.ok(res.segments[0].meaning.predicate.prefixes.includes('fe'));
-  assert.equal(res.segments[0].meaning.predicate.suffix, 'far');
-  console.log('PASS: 「私は歩き終えた。」 -> ' + res.text + ' (fe- + -far)');
+  assert.equal(res.segments[0].meaning.predicate.suffix, 'ol');
+  console.log('PASS: 「私は歩き終えた。」 -> ' + res.text + ' (fe- + -ol)');
 }
 
 {
   // (c) 完了相（第三者・自然現象）
   const res = engine.analyze('星は輝き終えた。', { confirmed: true });
   assert.equal(res.complete, true);
-  assert.equal(res.text, 'Fe falunfar el vyr.');
+  assert.equal(res.text, 'Fe falunol el vyr.');
   console.log('PASS: 「星は輝き終えた。」 -> ' + res.text);
 }
 
@@ -108,8 +108,8 @@ console.log('--- 1. Aspect Engine (-far / -liv) ---');
   // (d) 完了相（否定）
   const res = engine.analyze('私は歩き終えない。', { confirmed: true });
   assert.equal(res.complete, true);
-  assert.equal(res.text, 'Ne poranfar el mi.');
-  console.log('PASS: 「私は歩き終えない。」 -> ' + res.text + ' (ne- + -far)');
+  assert.equal(res.text, 'Ne porol el mi.');
+  console.log('PASS: 「私は歩き終えない。」 -> ' + res.text + ' (ne- + -ol)');
 }
 
 {
